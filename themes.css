@@ -25,6 +25,13 @@ html[data-da="carnet"] {
   --font: "Inter", -apple-system, sans-serif;
   --font-display: "Fraunces", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --map-land: #f3eee4;
+  --map-water: #d7e0dc;
+  --map-border: #a89c86;
+  --map-label: #6b6457;
+  --map-label-halo: #f3eee4;
+  --map-pin-stroke: #1c1a16;
+  --map-origin: #1c1a16;
   color-scheme: light;
 }
 [data-da="carnet"] body { background: var(--bg); }
@@ -70,61 +77,147 @@ html[data-da="carnet"] {
 [data-da="carnet"] .live { border: 1px solid var(--border); }
 
 /* --------------------------------------------------------------------------
-   B. POP — carte d'embarquement néo-brutale : couleurs franches, bords noirs
+   B. POP VOYAGE — carte d'embarquement, étiquettes de bagage, couleurs de vacances
+   (soleil, mer turquoise, corail ; encre bleu nuit au lieu du noir pur)
    -------------------------------------------------------------------------- */
 html[data-da="pop"] {
-  --bg: #fff6e0;
+  --ink: #14213d;
+  --sun: #ffc83d;
+  --sea: #19b8c9;
+  --coral: #ff6b4a;
+  --paper: #fff6e5;
+  --bg: var(--paper);
   --surface: #ffffff;
-  --surface-2: #fff0c2;
-  --text: #111111;
-  --text-muted: #4a4a4a;
-  --border: #111111;
-  --primary: #2d5bff;
+  --surface-2: #fff0cf;
+  --text: var(--ink);
+  --text-muted: #4b5675;
+  --border: var(--ink);
+  --primary: var(--coral);
   --on-primary: #ffffff;
-  --ring: #2d5bff;
-  --tier-low: #10b45a;
-  --tier-mid: #ff9f1c;
-  --tier-high: #ff4d4d;
+  --ring: var(--sea);
+  --tier-low: #12a865;
+  --tier-mid: #f59e0b;
+  --tier-high: #ef4444;
   --r-sm: 10px; --r-md: 14px; --r-lg: 18px;
-  --shadow-sm: 3px 3px 0 #111;
-  --shadow-md: 5px 5px 0 #111;
+  --shadow-sm: 3px 3px 0 var(--ink);
+  --shadow-md: 5px 5px 0 var(--ink);
   --font: "Space Grotesk", -apple-system, sans-serif;
   --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+  --map-land: #fff6e5;
+  --map-water: #8fdbe4;
+  --map-border: #14213d;
+  --map-label: #14213d;
+  --map-label-halo: #fff6e5;
+  --map-pin-stroke: #14213d;
+  --map-origin: #ff6b4a;
   color-scheme: light;
 }
-[data-da="pop"] body { background: var(--bg); }
-[data-da="pop"] .hero { background: #ffd23f; color: #111; border-bottom: 2px solid #111; padding-bottom: var(--s-7); }
-[data-da="pop"] .hero-route { stroke: #111; opacity: .35; stroke-dasharray: 2 8; stroke-width: 2.5; }
-[data-da="pop"] .eyebrow { background: #111; color: #ffd23f; border: 0; }
-[data-da="pop"] .hero h1 { font-weight: 700; letter-spacing: -.045em; font-size: clamp(2.6rem, 12vw, 4.4rem); line-height: .95; }
-[data-da="pop"] .hero h1 em { font-family: var(--font); font-style: normal; color: #fff; -webkit-text-stroke: 2px #111; paint-order: stroke fill; background: #2d5bff; padding: 0 .12em; border-radius: 10px; }
-[data-da="pop"] .hero-sub { color: #111; font-weight: 500; }
-[data-da="pop"] .hero-stats li { background: #fff; border: 2px solid #111; box-shadow: 3px 3px 0 #111; backdrop-filter: none; }
-[data-da="pop"] .hero-stats span, [data-da="pop"] .updated { color: #333; }
-[data-da="pop"] .search-card, [data-da="pop"] .card, [data-da="pop"] .map-frame, [data-da="pop"] .sheet { border: 2px solid #111; }
-[data-da="pop"] .segmented { background: #fff0c2; border: 2px solid #111; }
-[data-da="pop"] .segmented input:checked + span { background: #111; color: #fff; box-shadow: none; }
-[data-da="pop"] .stay legend, [data-da="pop"] .field-label, [data-da="pop"] .field > label, [data-da="pop"] fieldset.field legend { color: #111; font-weight: 700; }
-[data-da="pop"] .stay-chips span { border: 2px solid #111; font-weight: 700; box-shadow: 2px 2px 0 #111; }
-[data-da="pop"] .stay-chips input:checked + span { background: #2d5bff; color: #fff; border-color: #111; transform: translate(2px, 2px); box-shadow: none; }
-[data-da="pop"] .select select, [data-da="pop"] .picker-btn, [data-da="pop"] .euro-input input { border: 2px solid #111; background: #fff; }
-[data-da="pop"] .btn-primary { border: 2px solid #111; box-shadow: 3px 3px 0 #111; font-weight: 700; }
+[data-da="pop"] body { background: var(--paper); }
+
+/* En-tête : ciel + soleil, et une carte d'embarquement au centre */
+[data-da="pop"] .hero {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 88% 18%, var(--sun) 0 60px, transparent 61px),
+    linear-gradient(180deg, #7fd3e0 0%, #b9ecf1 100%);
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: var(--s-7);
+}
+[data-da="pop"] .hero-route { stroke: var(--ink); opacity: .45; stroke-dasharray: 2 9; stroke-width: 2.5; }
+[data-da="pop"] .hero-inner {
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--s-5) var(--s-4) var(--s-4);
+  /* encoches de carte d'embarquement */
+  -webkit-mask: radial-gradient(circle 11px at 0 62%, transparent 10px, #000 11px) left / 51% 100% no-repeat,
+                radial-gradient(circle 11px at 100% 62%, transparent 10px, #000 11px) right / 51% 100% no-repeat;
+          mask: radial-gradient(circle 11px at 0 62%, transparent 10px, #000 11px) left / 51% 100% no-repeat,
+                radial-gradient(circle 11px at 100% 62%, transparent 10px, #000 11px) right / 51% 100% no-repeat;
+}
+[data-da="pop"] .eyebrow {
+  background: var(--coral); color: #fff; border: 2px solid var(--ink);
+  font-family: var(--font-mono); letter-spacing: .12em;
+  transform: rotate(-2deg); box-shadow: 2px 2px 0 var(--ink);
+}
+[data-da="pop"] .hero h1 { font-weight: 700; letter-spacing: -.045em; font-size: clamp(2.4rem, 11vw, 4.2rem); line-height: .95; }
+[data-da="pop"] .hero h1 em {
+  font-family: var(--font); font-style: normal; color: var(--ink);
+  background: var(--sun); padding: 0 .14em; border-radius: 10px;
+  box-shadow: inset 0 -.12em 0 rgba(20, 33, 61, .12);
+}
+[data-da="pop"] .hero-sub { color: var(--text-muted); font-weight: 500; }
+/* Les chiffres clés = champs du billet, séparés par une ligne de perforation */
+[data-da="pop"] .hero-stats {
+  max-width: none; gap: 0;
+  border-top: 2px dashed var(--ink);
+  margin-top: var(--s-5); padding-top: var(--s-3);
+}
+[data-da="pop"] .hero-stats li { background: none; border: 0; box-shadow: none; backdrop-filter: none; padding: 0 var(--s-2) 0 0; display: flex; flex-direction: column-reverse; }
+[data-da="pop"] .hero-stats span { font-family: var(--font-mono); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); }
+[data-da="pop"] .hero-stats strong { font-size: 24px; }
+[data-da="pop"] .updated { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; }
+
+/* Formulaire */
+[data-da="pop"] .search-card, [data-da="pop"] .map-frame, [data-da="pop"] .sheet { border: 2px solid var(--ink); }
+[data-da="pop"] .segmented { background: var(--surface-2); border: 2px solid var(--ink); }
+[data-da="pop"] .segmented input:checked + span { background: var(--ink); color: #fff; box-shadow: none; }
+[data-da="pop"] .stay legend, [data-da="pop"] .field-label, [data-da="pop"] .field > label, [data-da="pop"] fieldset.field legend {
+  color: var(--ink); font-family: var(--font-mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+}
+/* Durées = étiquettes de bagage (œillet à gauche) */
+[data-da="pop"] .stay-chips span {
+  position: relative; justify-content: flex-start; padding-left: 30px;
+  border: 2px solid var(--ink); border-radius: 6px 14px 14px 6px;
+  background: #fff; font-weight: 700; box-shadow: 2px 2px 0 var(--ink);
+}
+[data-da="pop"] .stay-chips span::before {
+  content: ""; position: absolute; left: 10px; top: 50%; width: 9px; height: 9px; transform: translateY(-50%);
+  border: 2px solid var(--ink); border-radius: 50%; background: var(--paper);
+}
+[data-da="pop"] .stay-chips input:checked + span { background: var(--sun); transform: translate(2px, 2px); box-shadow: none; }
+[data-da="pop"] .select select, [data-da="pop"] .picker-btn, [data-da="pop"] .euro-input input { border: 2px solid var(--ink); background: #fff; }
+[data-da="pop"] .btn-primary { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); font-weight: 700; }
 [data-da="pop"] .btn-primary:active { transform: translate(3px, 3px); box-shadow: none; }
+
+/* Titres de section façon tampon */
 [data-da="pop"] .section-head h2 { font-weight: 700; letter-spacing: -.03em; font-size: 26px; }
-[data-da="pop"] .card { animation: none; }
-[data-da="pop"] .card::before { width: 10px; border-right: 2px solid #111; }
-[data-da="pop"] .card-top { padding-left: 6px; }
-[data-da="pop"] .flag { background: #fff0c2; border: 2px solid #111; }
-[data-da="pop"] .option { background: #fff; border: 2px dashed #111; }
+[data-da="pop"] .result-count, [data-da="pop"] .results-query { font-family: var(--font-mono); font-size: 12px; }
+
+/* Fiches destination = billets */
+[data-da="pop"] .card { border: 2px solid var(--ink); box-shadow: var(--shadow-md); animation: none; }
+[data-da="pop"] .card::before { display: none; }
+[data-da="pop"] .flag { background: var(--surface-2); border: 2px solid var(--ink); }
+[data-da="pop"] .card-city { font-weight: 700; font-size: 22px; letter-spacing: -.02em; }
+[data-da="pop"] .card-route { font-family: var(--font-mono); font-size: 13px; color: var(--ink); background: var(--surface-2); display: inline-block; padding: 3px 6px; border-radius: 4px; }
+[data-da="pop"] .option { position: relative; background: #fff; border: 2px solid var(--ink); padding-right: var(--s-2); }
+[data-da="pop"] .option-side {
+  position: relative; align-self: stretch; align-content: center;
+  border-left: 2px dashed var(--ink); padding-left: var(--s-3);
+}
+/* encoches du talon détachable */
+[data-da="pop"] .option-side::before, [data-da="pop"] .option-side::after {
+  content: ""; position: absolute; left: -9px; width: 16px; height: 16px;
+  border: 2px solid var(--ink); border-radius: 50%; background: var(--surface);
+}
+[data-da="pop"] .option-side::before { top: calc(-1 * var(--s-3) - 10px); }
+[data-da="pop"] .option-side::after { bottom: calc(-1 * var(--s-3) - 10px); }
 [data-da="pop"] .option-total { font-weight: 700; }
-[data-da="pop"] .nights-badge { background: #ffd23f; border: 2px solid #111; }
-[data-da="pop"] .chip-alt { border: 2px solid #111; background: #fff; }
-[data-da="pop"] .chip-alt strong, [data-da="pop"] .alt-title { color: #0a8a43; }
-[data-da="pop"] .disclaimer { background: #fff; border: 2px solid #111; }
-[data-da="pop"] .price-pin { border: 2px solid #111; box-shadow: 2px 2px 0 #111; }
-[data-da="pop"] .origin-pin { background: #2d5bff; border: 3px solid #111; box-shadow: 3px 3px 0 #111; }
-[data-da="pop"] .live { background: #fff0c2; border: 2px solid #111; }
-[data-da="pop"] .cal-day.is-start::before, [data-da="pop"] .cal-day.is-end::before { border: 2px solid #111; }
+[data-da="pop"] .leg-label { font-family: var(--font-mono); color: var(--coral); }
+[data-da="pop"] .nights-badge { background: var(--sun); border: 2px solid var(--ink); }
+[data-da="pop"] .chip-alt { border: 2px solid var(--ink); background: #fff; }
+[data-da="pop"] .chip-alt strong, [data-da="pop"] .alt-title { color: #0b8a52; }
+[data-da="pop"] .disclaimer { background: #fff; border: 2px solid var(--ink); }
+[data-da="pop"] .btn-secondary-wide { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); color: var(--ink); font-weight: 700; }
+
+/* Carte et bulles */
+[data-da="pop"] .legend { border-top: 2px solid var(--ink); }
+[data-da="pop"] .maplibregl-popup-content { border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+[data-da="pop"] .maplibregl-ctrl-group { border: 2px solid var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+[data-da="pop"] .live { background: var(--surface-2); border: 2px solid var(--ink); }
+[data-da="pop"] .cal-day.is-start::before, [data-da="pop"] .cal-day.is-end::before { border: 2px solid var(--ink); }
 
 /* --------------------------------------------------------------------------
    C. NUIT — premium sombre : noir profond, accent citron vert lumineux
@@ -147,6 +240,13 @@ html[data-da="nuit"] {
   --shadow-md: 0 20px 50px -20px rgba(0, 0, 0, .8);
   --font: "Inter", -apple-system, sans-serif;
   --font-display: "Sora", sans-serif;
+  --map-land: #161a23;
+  --map-water: #0a0c11;
+  --map-border: #2c3344;
+  --map-label: #8a93a6;
+  --map-label-halo: #0a0c11;
+  --map-pin-stroke: #0b0d10;
+  --map-origin: #d4ff3a;
   color-scheme: dark;
 }
 [data-da="nuit"] body { background: var(--bg); }
@@ -202,3 +302,6 @@ html[data-da="nuit"] {
 }
 .da-switch a { color: #fff; text-decoration: none; padding: 10px 12px; border-radius: 999px; }
 .da-switch a[aria-current="true"] { background: #fff; color: #111; }
+[data-da="nuit"] .maplibregl-ctrl-group { background: var(--surface); }
+[data-da="nuit"] .maplibregl-ctrl-group button + button { border-top-color: var(--border); }
+[data-da="nuit"] .maplibregl-ctrl-icon { filter: invert(1); }

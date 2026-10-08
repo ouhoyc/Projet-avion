@@ -373,6 +373,7 @@ function cityCardHtml(city, index) {
         <div class="card-title">
           <h3 class="card-city">${escapeHtml(dest.city)}</h3>
           <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''}</p>
+          <p class="card-route">${escapeHtml(data.origin.code)} ✈ ${escapeHtml(best.code)}</p>
         </div>
       </div>
       ${mainOptions.map((o) => optionHtml(o, city)).join('')}
@@ -410,7 +411,8 @@ function legHtml(label, l) {
   const seen = l.seen ? ` · vu ${shortSeen(l.seen)}` : '';
   return `
     <p class="leg">
-      <span class="leg-main"><span class="leg-label">${label}</span> ${escapeHtml(formatDayShortWeek(l.day))}${l.time ? ` ${escapeHtml(l.time)}` : ''} · <strong>${fmtPrice.format(l.price)}</strong></span>
+      <span class="leg-label">${label}</span>
+      <span class="leg-main">${escapeHtml(formatDayShortWeek(l.day))}${l.time ? ` · ${escapeHtml(l.time)}` : ''} · <strong>${fmtPrice.format(l.price)}</strong></span>
       <span class="leg-sub">${escapeHtml(airline)}${escapeHtml(seen)}</span>
     </p>`;
 }

@@ -39,6 +39,15 @@
   --ease-out: cubic-bezier(.22, 1, .36, 1);
   --t-fast: 150ms; --t-base: 250ms;
 
+  /* Couleurs de la carte */
+  --map-land: #eef1f5;
+  --map-water: #c9d8e8;
+  --map-border: #aab4c3;
+  --map-label: #3a4556;
+  --map-label-halo: #ffffff;
+  --map-pin-stroke: #ffffff;
+  --map-origin: #1e3a8a;
+
   --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-display: "Playfair Display", Georgia, serif;
   color-scheme: light;
@@ -582,10 +591,10 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 }
 .legs { display: grid; gap: 6px; min-width: 0; }
 .leg { display: grid; line-height: 1.3; }
-.leg-label { display: inline-block; min-width: 50px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); }
-.leg-main { font-size: 14px; }
+.leg-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); }
+.leg-main { font-size: 14px; white-space: nowrap; }
 .leg-main strong { font-variant-numeric: tabular-nums; }
-.leg-sub { font-size: 12px; color: var(--text-muted); padding-left: 54px; }
+.leg-sub { font-size: 12px; color: var(--text-muted); }
 .leg-airport { font-size: 12px; color: var(--text-muted); }
 .option-side { display: grid; justify-items: end; gap: 4px; flex: none; }
 .option-total { font-size: 22px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; line-height: 1.1; }
@@ -715,3 +724,28 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
   background: var(--surface);
 }
 .cal-footer .btn-primary { flex: 0 1 auto; }
+
+/* ==========================================================================
+   Carte MapLibre : bulles, boutons de zoom, message d'erreur
+   ========================================================================== */
+.maplibregl-map { font-family: var(--font); }
+.maplibregl-popup-content {
+  padding: 14px 16px; min-width: 200px;
+  border-radius: var(--r-md);
+  background: var(--surface); color: var(--text);
+  box-shadow: var(--shadow-md);
+  font: 14px/1.4 var(--font);
+}
+.maplibregl-popup-content .popup-meta { color: var(--text-muted); }
+.maplibregl-popup-content .btn { width: 100%; }
+.maplibregl-popup-close-button { width: 32px; height: 32px; font-size: 20px; color: var(--text-muted); }
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: var(--surface); }
+.maplibregl-popup-anchor-top .maplibregl-popup-tip { border-bottom-color: var(--surface); }
+.maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: var(--surface); }
+.maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: var(--surface); }
+.maplibregl-ctrl-group { border-radius: var(--r-sm); box-shadow: var(--shadow-sm); }
+.maplibregl-ctrl-group button { width: 36px; height: 36px; }
+.map-error { padding: var(--s-6); text-align: center; color: var(--text-muted); }
+
+/* Trajet « LYS ✈ LGW » sur les fiches */
+.card-route { font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; color: var(--text-muted); margin-top: 4px; }

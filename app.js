@@ -16,9 +16,9 @@ const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeri
 const fmtDayShort = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short' });
 const fmtRelative = new Intl.RelativeTimeFormat('fr-FR', { numeric: 'auto' });
 
-// Fond de carte : sombre pour la direction artistique « Nuit », clair sinon.
-const MAP_STYLE = `https://tiles.openfreemap.org/styles/${document.documentElement.dataset.da === 'nuit' ? 'dark' : 'positron'}`;
-const PRICE_ZOOM = 6;   // à partir de ce zoom, les prix s'affichent sur la carte
+// Fond de carte (recoloré ensuite avec les couleurs --map-… du site).
+const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
+const PRICE_ZOOM = 5;   // à partir de ce zoom, les prix s'affichent sur la carte
 const NEAR_KM = 4000;   // cadrage initial : destinations à moins de 4 000 km
 
 // Vérification du prix en direct (fonction serverless api/prix.js sur Vercel).
@@ -32,8 +32,9 @@ const KIWI_AFFILIATE_TEMPLATE = '';
 
 let data = null;
 let map = null;
-let markersLayer = null;
-const markersByCode = new Map();
+let mapReady = null;      // promesse résolue quand la carte est prête
+let mapPopup = null;
+let mapItems = [];        // destinations affichées sur la carte (pour les bulles)
 
 init();
 
@@ -81,78 +82,199 @@ function setupHeader() {
 }
 
 // ---------------------------------------------------------------------------
-// Carte Leaflet + fond OpenStreetMap (style épuré, noms en français)
+// Carte : MapLibre seul (fond vectoriel + points dessinés DANS la carte, donc fixes
+// au zoom), noms en français et couleurs reprises de la direction artistique.
 // ---------------------------------------------------------------------------
 function setupMap() {
-  // Pas de bandeau « Leaflet » : les crédits OpenStreetMap sont sous la carte.
-  map = L.map('map', { worldCopyJump: true, zoomControl: true, attributionControl: false }).setView([45.76, 4.84], 4);
-  markersLayer = L.layerGroup().addTo(map);
-  const toggleLabels = () => map.getContainer().classList.toggle('show-prices', map.getZoom() >= PRICE_ZOOM);
-  map.on('zoomend', toggleLabels);
-  toggleLabels();
-  addFrenchBaseMap().catch((err) => {
-    console.warn('Fond de carte vectoriel indisponible :', err);
-    // Secours si le fond vectoriel ne charge pas : tuiles OpenStreetMap classiques.
-    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(map);
-  });
+  mapReady = (async () => {
+    try {
+      const style = await buildMapStyle();
+      map = new maplibregl.Map({
+        container: 'map',
+        style,
+        center: [4.84, 45.76],
+        zoom: 3,
+        attributionControl: false,
+        dragRotate: false,
+        pitchWithRotate: false,
+        renderWorldCopies: false,
+      });
+      map.touchZoomRotate.disableRotation();
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+      await new Promise((resolve) => map.on('load', resolve));
+      addPriceLayers();
+      return map;
+    } catch (err) {
+      console.warn('Carte indisponible :', err);
+      $('map').innerHTML = '<p class="map-error">La carte ne peut pas s\'afficher sur cet appareil.</p>';
+      return null;
+    }
+  })();
 }
 
-// Charge le style de carte puis remplace chaque nom affiché par sa version
-// française (name:fr), avec repli sur le nom en alphabet latin.
-async function addFrenchBaseMap() {
-  if (!L.maplibreGL) throw new Error('MapLibre indisponible');
+// Couleurs de la carte définies en CSS (--map-…), différentes selon la direction artistique.
+function cssVar(name, fallback) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+}
+
+// Charge le style OpenFreeMap, traduit les noms en français, retire les détails inutiles
+// (routes, voies ferrées…) et applique la palette du site.
+async function buildMapStyle() {
   const res = await fetch(MAP_STYLE);
   if (!res.ok) throw new Error(res.status);
   const style = await res.json();
+  const c = {
+    land: cssVar('--map-land', '#f2f3f0'),
+    water: cssVar('--map-water', '#c2c8ca'),
+    border: cssVar('--map-border', '#b3b3b3'),
+    label: cssVar('--map-label', '#333333'),
+    halo: cssVar('--map-label-halo', '#ffffff'),
+  };
+  style.layers = style.layers.filter((l) => !/highway|railway|road|tunnel|bridge|aeroway|building|park|landuse|landcover_wood|waterway/.test(l.id));
   for (const layer of style.layers) {
-    const field = layer.layout?.['text-field'];
-    if (field && JSON.stringify(field).includes('name')) {
-      layer.layout['text-field'] = ['coalesce', ['get', 'name:fr'], ['get', 'name:latin'], ['get', 'name']];
+    const paint = (layer.paint ||= {});
+    if (layer.type === 'background') paint['background-color'] = c.land;
+    if (layer.id === 'water') paint['fill-color'] = c.water;
+    if (layer.id.startsWith('boundary')) paint['line-color'] = c.border;
+    if (layer.type === 'symbol') {
+      const field = layer.layout?.['text-field'];
+      if (field && JSON.stringify(field).includes('name')) {
+        layer.layout['text-field'] = ['coalesce', ['get', 'name:fr'], ['get', 'name:latin'], ['get', 'name']];
+      }
+      paint['text-color'] = layer.id.startsWith('water') ? c.border : c.label;
+      paint['text-halo-color'] = c.halo;
+      paint['text-halo-width'] = 1.2;
+      paint['text-halo-blur'] = 0;
     }
   }
-  L.maplibreGL({ style }).addTo(map);
+  return style;
+}
+
+// Pastille arrondie (image extensible) pour afficher les prix au zoom.
+function pillImage(fill, stroke) {
+  const ratio = 2, w = 32, h = 24, r = 11, line = 2;
+  const canvas = document.createElement('canvas');
+  canvas.width = w * ratio; canvas.height = h * ratio;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(ratio, ratio);
+  ctx.beginPath();
+  ctx.roundRect(line / 2, line / 2, w - line, h - line, r);
+  ctx.fillStyle = fill; ctx.fill();
+  ctx.lineWidth = line; ctx.strokeStyle = stroke; ctx.stroke();
+  return {
+    image: ctx.getImageData(0, 0, w * ratio, h * ratio),
+    options: { pixelRatio: ratio, stretchX: [[12 * ratio, 20 * ratio]], stretchY: [[11 * ratio, 13 * ratio]], content: [7 * ratio, 4 * ratio, 25 * ratio, 20 * ratio] },
+  };
+}
+
+function addPriceLayers() {
+  const stroke = cssVar('--map-pin-stroke', '#ffffff');
+  const tiers = { low: cssVar('--tier-low', '#16a34a'), mid: cssVar('--tier-mid', '#ea8a00'), high: cssVar('--tier-high', '#dc2626') };
+  for (const [name, color] of Object.entries(tiers)) {
+    const { image, options } = pillImage(color, stroke);
+    map.addImage(`pill-${name}`, image, options);
+  }
+  const empty = { type: 'FeatureCollection', features: [] };
+  map.addSource('dests', { type: 'geojson', data: empty });
+  map.addSource('origin', { type: 'geojson', data: empty });
+
+  // Points de couleur (dézoomé)…
+  map.addLayer({
+    id: 'dest-dots', type: 'circle', source: 'dests', maxzoom: PRICE_ZOOM,
+    paint: {
+      'circle-color': ['match', ['get', 'tier'], 'low', tiers.low, 'mid', tiers.mid, tiers.high],
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 2, 5, 5, 7],
+      'circle-stroke-color': stroke,
+      'circle-stroke-width': 2,
+    },
+  });
+  // …puis pastilles avec le prix (zoomé).
+  map.addLayer({
+    id: 'dest-prices', type: 'symbol', source: 'dests', minzoom: PRICE_ZOOM,
+    layout: {
+      'icon-image': ['concat', 'pill-', ['get', 'tier']],
+      'icon-text-fit': 'both',
+      'text-field': ['get', 'label'],
+      'text-font': ['Noto Sans Bold'],
+      'text-size': 12,
+      'icon-allow-overlap': true,
+      'text-allow-overlap': true,
+      'symbol-sort-key': ['get', 'price'],
+    },
+    paint: { 'text-color': '#ffffff' },
+  });
+  // Aéroport de départ.
+  map.addLayer({
+    id: 'origin', type: 'circle', source: 'origin',
+    paint: {
+      'circle-color': cssVar('--map-origin', '#1e3a8a'),
+      'circle-radius': 8,
+      'circle-stroke-color': stroke,
+      'circle-stroke-width': 3,
+    },
+  });
+
+  for (const layer of ['dest-dots', 'dest-prices']) {
+    map.on('click', layer, (e) => openMapPopup(e.features[0].properties.index));
+    map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
+  }
+}
+
+function openMapPopup(index) {
+  const item = mapItems[index];
+  if (!item) return;
+  mapPopup?.remove();
+  mapPopup = new maplibregl.Popup({ offset: 14, maxWidth: '280px', focusAfterOpen: false })
+    .setLngLat([item.dest.lon, item.dest.lat])
+    .setHTML(item.popup)
+    .addTo(map);
 }
 
 // Affiche des destinations sur la carte.
 // items : [{ dest, price, tierPrice, popup }] — popup = HTML de la bulle.
-function showOnMap(items, fitMap) {
-  markersLayer.clearLayers();
-  markersByCode.clear();
+async function showOnMap(items, fitMap) {
+  const m = await mapReady;
+  if (!m) return;
+  mapItems = items;
+  mapPopup?.remove();
 
   const origin = data.origin;
-  const points = [];
-  if (origin.lat != null) {
-    L.marker([origin.lat, origin.lon], {
-      icon: L.divIcon({ className: '', html: '<div class="origin-pin"></div>', iconSize: [18, 18], iconAnchor: [9, 9] }),
-      title: origin.city,
-      zIndexOffset: 1000,
-    }).bindPopup(`<div class="popup-city">${escapeHtml(origin.city)}</div><div class="popup-meta">Aéroport de départ</div>`)
-      .addTo(markersLayer);
-    points.push([origin.lat, origin.lon]);
-  }
+  m.getSource('origin').setData({
+    type: 'FeatureCollection',
+    features: origin.lat == null ? [] : [{ type: 'Feature', geometry: { type: 'Point', coordinates: [origin.lon, origin.lat] }, properties: {} }],
+  });
+  m.getSource('dests').setData({
+    type: 'FeatureCollection',
+    features: items.map((item, index) => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [item.dest.lon, item.dest.lat] },
+      properties: {
+        index,
+        price: item.price,
+        label: fmtPrice.format(item.price),
+        tier: priceTier(item.tierPrice ?? item.price).replace('tier-', ''),
+      },
+    })),
+  });
 
-  for (const { dest, price, tierPrice, popup } of items) {
-    const marker = L.marker([dest.lat, dest.lon], {
-      icon: L.divIcon({
-        className: '',
-        html: `<span class="price-pin ${priceTier(tierPrice ?? price)}">${fmtPrice.format(price)}</span>`,
-        iconSize: [0, 0],
-      }),
-      title: `${dest.city} – ${fmtPrice.format(price)}`,
-      riseOnHover: true,
-    });
-    marker.bindPopup(popup, { autoPanPaddingTopLeft: [56, 16], autoPanPaddingBottomRight: [16, 16], maxWidth: 270 });
-    marker.addTo(markersLayer);
-    markersByCode.set(dest.city_code, marker);
-    // Les destinations lointaines (Montréal, Dubaï…) restent visibles en dézoomant.
-    if (origin.lat == null || map.distance([origin.lat, origin.lon], [dest.lat, dest.lon]) < NEAR_KM * 1000) {
-      points.push([dest.lat, dest.lon]);
+  if (fitMap && items.length) {
+    // Cadrage sur les destinations proches (Montréal, Dubaï… restent visibles en dézoomant).
+    const bounds = new maplibregl.LngLatBounds();
+    if (origin.lat != null) bounds.extend([origin.lon, origin.lat]);
+    for (const { dest } of items) {
+      if (origin.lat == null || distanceKm(origin, dest) < NEAR_KM) bounds.extend([dest.lon, dest.lat]);
     }
+    m.fitBounds(bounds, { padding: 30, maxZoom: 5, duration: 0 });
   }
+}
 
-  if (fitMap && points.length > 1) {
-    map.fitBounds(points, { padding: [20, 20], maxZoom: 5 });
-  }
+function distanceKm(a, b) {
+  const rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad;
+  const dLon = (b.lon - a.lon) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
 }
 
 // ---------------------------------------------------------------------------
