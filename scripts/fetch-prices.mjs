@@ -194,7 +194,6 @@ async function buildDaily(codes, months, ref) {
     const data = await fetchDaily(job);
     const entries = Object.entries(data);
     diag.calls++; diag.keys += entries.length; if (!entries.length) diag.empty++;
-    if (diag.calls <= 3) console.log('   exemple', job.from, job.to, job.month, entries.length, 'jours', JSON.stringify(entries[0]?.[1] || null).slice(0, 160));
     for (const [day, t] of entries) {
       if (day < today) { diag.past++; continue; }
       if (t.transfers !== 0 || !t.price) { diag.stops++; continue; }
@@ -211,7 +210,7 @@ async function buildDaily(codes, months, ref) {
     if (++done % 200 === 0) console.log(`   ${done}/${jobs.length}`);
   });
 
-  console.log('   diagnostic', JSON.stringify(diag));
+  console.log(`   ${diag.calls} requêtes, ${diag.empty} sans aucun prix, ${diag.kept} prix gardés`);
   const count = (dir) => Object.values(dests).reduce((n, d) => n + Object.keys(d[dir]).length, 0);
   return {
     origin: CONFIG.origin,
