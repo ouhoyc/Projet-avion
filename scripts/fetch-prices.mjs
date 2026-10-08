@@ -187,12 +187,18 @@ async function buildDaily(codes, months, ref) {
   const airlines = {};
   const today = new Date().toISOString().slice(0, 10);
   let done = 0;
+  const diag = { calls: 0, empty: 0, keys: 0, kept: 0, past: 0, stops: 0 };
 
   // 5 requêtes en parallèle, ~9 par seconde au total (limite API : 600 / minute).
   await runPool(jobs, 5, async (job) => {
     const data = await fetchDaily(job);
-    for (const [day, t] of Object.entries(data)) {
-      if (day < today || t.transfers !== 0 || !t.price) continue;
+    const entries = Object.entries(data);
+    diag.calls++; diag.keys += entries.length; if (!entries.length) diag.empty++;
+    if (diag.calls <= 3) console.log('   exemple', job.from, job.to, job.month, entries.length, 'jours', JSON.stringify(entries[0]?.[1] || null).slice(0, 160));
+    for (const [day, t] of entries) {
+      if (day < today) { diag.past++; continue; }
+      if (t.transfers !== 0 || !t.price) { diag.stops++; continue; }
+      diag.kept++;
       dests[job.code][job.dir][day] = [
         Math.round(t.price),
         t.airline,
@@ -205,6 +211,7 @@ async function buildDaily(codes, months, ref) {
     if (++done % 200 === 0) console.log(`   ${done}/${jobs.length}`);
   });
 
+  console.log('   diagnostic', JSON.stringify(diag));
   const count = (dir) => Object.values(dests).reduce((n, d) => n + Object.keys(d[dir]).length, 0);
   return {
     origin: CONFIG.origin,
