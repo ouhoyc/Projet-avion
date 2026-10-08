@@ -1,7 +1,8 @@
 // Vérification du prix EN DIRECT d'un vol direct, appelée par le site quand un
 // visiteur ouvre une destination (fonction serverless Vercel).
 //
-//   GET /api/prix?to=LGW&date=2026-10-31
+//   GET /api/prix?to=LGW&date=2026-10-31            (aller : Lyon → Londres)
+//   GET /api/prix?from=LGW&to=LYS&date=2026-11-03   (retour : Londres → Lyon)
 //
 // La clé du fournisseur de prix (Ignav) reste ici, côté serveur : elle est lue
 // dans la variable d'environnement IGNAV_API_KEY et n'est jamais envoyée au navigateur.
@@ -37,10 +38,12 @@ export default async function handler(req, res) {
 
   // Contrôles stricts : seulement les destinations du site et une date dans l'année
   // à venir (évite qu'on utilise la fonction — et ton crédit — pour autre chose).
-  const { origin: from, codes } = knownData();
+  const { origin: home, codes } = knownData();
+  const from = String(req.query.from || home).toUpperCase();
   const to = String(req.query.to || '').toUpperCase();
   const date = String(req.query.date || '');
-  if (!codes.has(to)) return send(res, 400, { error: 'destination' }, CACHE_ERR);
+  const validRoute = (from === home && codes.has(to)) || (to === home && codes.has(from));
+  if (!validRoute) return send(res, 400, { error: 'destination' }, CACHE_ERR);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return send(res, 400, { error: 'date' }, CACHE_ERR);
   const today = new Date().toISOString().slice(0, 10);
   const maxDate = new Date(Date.now() + 365 * 86400000).toISOString().slice(0, 10);

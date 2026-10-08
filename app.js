@@ -391,8 +391,9 @@ async function checkLivePrice(dest, day) {
 }
 
 // Lien de recherche Kiwi.com (avec le suivi d'affiliation une fois configuré).
-function kiwiLink(from, to, day) {
+function kiwiLink(from, to, day, returnDay) {
   const params = new URLSearchParams({ from, to, departure: day, lang: 'fr', currency: 'EUR', stopNumber: '0' });
+  if (returnDay) params.set('return', returnDay);
   const url = `https://www.kiwi.com/deep?${params}`;
   return KIWI_AFFILIATE_TEMPLATE ? KIWI_AFFILIATE_TEMPLATE.replace('{url}', encodeURIComponent(url)) : url;
 }

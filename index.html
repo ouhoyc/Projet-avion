@@ -51,6 +51,45 @@
   </header>
 
   <main>
+    <!-- Recherche : où / quand / combien de nuits (tous les champs sont facultatifs) -->
+    <section class="search" aria-labelledby="search-title">
+      <h2 id="search-title" class="visually-hidden">Rechercher un vol</h2>
+      <form class="search-card" id="search-form" novalidate>
+        <div class="segmented" role="radiogroup" aria-label="Type de voyage">
+          <label><input type="radio" name="trip" value="rt" checked><span>Aller-retour</span></label>
+          <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
+        </div>
+
+        <div class="field">
+          <label for="s-dest">Où ?</label>
+          <div class="select"><select id="s-dest"><option value="">N'importe où</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
+        </div>
+
+        <fieldset class="field dates">
+          <legend>Quand ? <span class="hint">facultatif</span></legend>
+          <div class="date-row">
+            <label class="date"><span>Du</span><input type="date" id="s-from"></label>
+            <label class="date"><span>Au</span><input type="date" id="s-to"></label>
+          </div>
+        </fieldset>
+
+        <div class="field nights" id="s-nights-field">
+          <label for="s-nights">Nuits sur place</label>
+          <div class="stepper">
+            <button type="button" data-step="-1" aria-label="Une nuit de moins">−</button>
+            <input type="number" id="s-nights" min="1" max="21" value="4" inputmode="numeric">
+            <button type="button" data-step="1" aria-label="Une nuit de plus">+</button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg> Rechercher
+        </button>
+      </form>
+
+      <div class="search-results" id="search-results" aria-live="polite" hidden></div>
+    </section>
+
 
     <section aria-labelledby="map-title">
       <div class="section-head">
@@ -132,5 +171,6 @@
   <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@maplibre/maplibre-gl-leaflet@0.1.3/leaflet-maplibre-gl.js"></script>
   <script src="app.js"></script>
+  <script src="search.js"></script>
 </body>
 </html>
