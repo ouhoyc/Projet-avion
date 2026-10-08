@@ -41,5 +41,7 @@ jobs:
             echo "Aucun changement."
           else
             git commit -m "Mise à jour des prix ($(date -u +%Y-%m-%d))"
+            # Si du code a été envoyé pendant la récupération, on l'intègre avant d'envoyer.
+            git pull --rebase origin main
             git push
           fi
