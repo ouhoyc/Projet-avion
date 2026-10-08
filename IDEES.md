@@ -37,16 +37,34 @@ Pouvoir chercher un jour précis ou une fourchette (« du 10 au 15 nov. ») au l
 - Idée d'interface : **un seul formulaire** qui couvre tous les cas — destination (facultative),
   période (du … au …), nuits souhaitées. Sans destination = « où partir ? » ; période large =
   « quand partir ? » ; les deux = combinaison.
+- **Sans période (« je pars quand je veux »)** : pour ceux qui sont totalement flexibles →
+  destination facultative, aucune date : le site trouve les meilleures combinaisons sur tout
+  l'horizon (avec la durée de séjour souhaitée).
 - Dépend des points 1 et 2 (prix jour par jour, retours).
 - ✅ Validé par toi : la compréhension des deux modes est bonne.
 
-### 4. 💡 Changer d'aéroport de départ (Genève, Marseille…)
+### 4. 💡 VISION FINALE — préparer tout le voyage, pas seulement le vol
+Reproduire et automatiser ta façon de préparer un voyage :
+1. trouver la période / la destination → 2. trouver le vol → 3. repérer les activités à faire
+(aujourd'hui : TikTok, forums, points sur Google Maps) → 4. choisir l'hébergement dans la zone
+la plus proche de toutes les activités (« pile au milieu »).
+- **Activités par ville**, préparées à l'avance pour chaque destination et livrées « prêtes ».
+- **Sur-mesure selon les préférences** du voyageur :
+  - centres d'intérêt : musées / culture, sport, tournée des bars, restaurants, … ;
+  - gamme d'activités : haut de gamme, moyenne gamme, gratuites ;
+  - **kids friendly** (adapté aux enfants) ;
+  - gamme d'hôtel : haut, moyen, bas de gamme.
+- **Carte** : les activités choisies en points, et la **zone idéale pour dormir** calculée au
+  centre de ces points, avec des hébergements proposés dans cette zone.
+- À découper en étapes (activités d'abord, puis zone + hébergement, puis préférences).
+
+### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
 Déjà prévu dans le script (variable `ORIGIN`), reste à l'exposer sur le site.
 
-### 5. 💡 Alertes de baisse de prix
+### 6. 💡 Alertes de baisse de prix
 Être prévenu quand un prix baisse sur une destination ou une période suivie.
 
-### 6. 💡 Protéger le site (usage perso)
+### 7. 💡 Protéger le site (usage perso)
 Mot de passe simple à l'ouverture, pour éviter que des inconnus consomment les recherches Ignav.
 
 ## En attente d'un tiers
