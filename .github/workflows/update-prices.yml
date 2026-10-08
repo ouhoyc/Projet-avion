@@ -27,7 +27,8 @@ jobs:
         run: node scripts/fetch-prices.mjs
         env:
           TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
-          TRAVELPAYOUTS_MARKER: ${{ secrets.TRAVELPAYOUTS_MARKER }}
+          # Le marker n'est pas secret (il est visible dans les liens) : 787111 par défaut.
+          TRAVELPAYOUTS_MARKER: ${{ secrets.TRAVELPAYOUTS_MARKER || '787111' }}
           # Pour changer d'aéroport : Settings > Secrets and variables > Actions > Variables > ORIGIN
           ORIGIN: ${{ vars.ORIGIN || 'LYS' }}
 

@@ -38,9 +38,9 @@ Puis ouvre l'adresse affichée (ex. http://localhost:8000).
 
 ## Mettre en ligne (GitHub Pages, gratuit)
 
-1. **Secrets** : sur GitHub, dépôt → *Settings* → *Secrets and variables* → *Actions* → *New repository secret* :
+1. **Secret** : sur GitHub, dépôt → *Settings* → *Secrets and variables* → *Actions* → *New repository secret* :
    - `TRAVELPAYOUTS_TOKEN` = ton jeton API
-   - `TRAVELPAYOUTS_MARKER` = `787111`
+   - (le marker `787111` est déjà dans le workflow ; un secret `TRAVELPAYOUTS_MARKER` le remplacerait si besoin)
 2. **Premier lancement** : onglet *Actions* → « Mise à jour des prix » → *Run workflow*.
    Au bout d'une minute, un commit « Mise à jour des prix » ajoute `data.json`.
 3. **Pages** : *Settings* → *Pages* → *Source : Deploy from a branch* → branche `main`, dossier `/ (root)` → *Save*.
