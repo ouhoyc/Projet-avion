@@ -19,14 +19,16 @@ const STAY_LABELS = { '1-1': 'une nuit', '2-4': 'court séjour', '5-8': 'une sem
 const sEls = {
   form: $('search-form'),
   stay: $('s-stay'),
-  dest: $('s-dest'),
+  country: $('s-country'),
+  city: $('s-city'),
+  cityField: $('s-city-field'),
   from: $('s-from'),
   to: $('s-to'),
   budget: $('s-budget'),
   results: $('search-results'),
   count: $('results-count'),
   refine: $('refine'),
-  country: $('r-country'),
+  refineCountry: $('r-country'),
   sort: $('r-sort'),
   mapCaption: $('map-caption'),
   legendLow: $('legend-low'),
@@ -71,7 +73,16 @@ function setupSearchForm() {
     runSearch();
   });
 
-  for (const el of [sEls.country, sEls.sort]) el.addEventListener('change', () => applyView(false));
+  for (const el of [sEls.refineCountry, sEls.sort]) el.addEventListener('change', () => applyView(false));
+
+  // Pays puis ville (facultative) : la recherche se relance aussitôt.
+  sEls.country.addEventListener('change', () => {
+    fillCities();
+    if (tripType() === 'ow' || stayValue()) runSearch();
+  });
+  sEls.city.addEventListener('change', () => {
+    if (tripType() === 'ow' || stayValue()) runSearch();
+  });
 
   // « Voir » (liste ou bulle de la carte) : panneau de réservation avec vérification en direct.
   document.addEventListener('click', (e) => {
@@ -94,7 +105,7 @@ function setupSearchForm() {
   });
 
   document.addEventListener('data-ready', () => {
-    fillCities();
+    fillCountries();
     // Durée déjà choisie lors d'une visite précédente : on lance directement la recherche.
     let saved = null;
     try { saved = localStorage.getItem(STAY_KEY); } catch { /* indisponible */ }
@@ -103,12 +114,23 @@ function setupSearchForm() {
   });
 }
 
-// Liste des villes (une seule entrée par ville, même avec plusieurs aéroports).
+// Pays (ordre alphabétique) ; la liste des villes apparaît quand un pays est choisi.
+function fillCountries() {
+  const countries = [...new Set(data.destinations.map((d) => d.country).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, 'fr'));
+  for (const c of countries) sEls.country.add(new Option(c, c));
+}
+
 function fillCities() {
+  const country = sEls.country.value;
   const cities = new Map();
-  for (const d of data.destinations) if (!cities.has(d.city_code)) cities.set(d.city_code, d);
+  for (const d of data.destinations) {
+    if (d.country === country && !cities.has(d.city_code)) cities.set(d.city_code, d);
+  }
   const sorted = [...cities.values()].sort((a, b) => a.city.localeCompare(b.city, 'fr'));
-  for (const d of sorted) sEls.dest.add(new Option(`${d.city} – ${d.country}`, d.city_code));
+  sEls.city.innerHTML = '<option value="">Toutes les villes</option>'
+    + sorted.map((d) => `<option value="${escapeHtml(d.city_code)}">${escapeHtml(d.city)}</option>`).join('');
+  sEls.cityField.hidden = !country;
 }
 
 const STAY_HINTS = { '1-1': '1 nuit sur place', '2-4': '2 à 4 nuits sur place', '5-8': '5 à 8 nuits sur place', '9-21': '9 nuits ou plus sur place' };
@@ -153,7 +175,8 @@ async function runSearch() {
     minN,
     maxN,
     stay: stayValue(),
-    city: sEls.dest.value,
+    country: sEls.country.value,
+    city: sEls.city.value,
     start: sEls.from.value || isoDay(new Date()),
     end: sEls.to.value || isoDay(addDays(new Date(), 365)),
     budget: Number(sEls.budget.value) || Infinity,
@@ -165,6 +188,7 @@ async function runSearch() {
   const byCity = new Map();
   for (const dest of data.destinations) {
     if (query.city && dest.city_code !== query.city) continue;
+    if (query.country && dest.country !== query.country) continue;
     if (!daily.dests[dest.code]) continue;
     if (!byCity.has(dest.city_code)) byCity.set(dest.city_code, []);
     byCity.get(dest.city_code).push(dest);
@@ -178,11 +202,12 @@ async function runSearch() {
 
   Object.assign(searchState, { results, query, airlines: daily.airlines || {} });
 
-  // Filtre pays : uniquement les pays présents dans les résultats.
-  const current = sEls.country.value;
+  // Filtre pays sous les résultats : inutile si un pays est déjà choisi dans la recherche.
+  const current = sEls.refineCountry.value;
   const countries = [...new Set(results.map((r) => r.dest.country).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'fr'));
-  sEls.country.innerHTML = '<option value="">Tous les pays</option>' + countries.map((c) => `<option>${escapeHtml(c)}</option>`).join('');
-  if (countries.includes(current)) sEls.country.value = current;
+  sEls.refineCountry.innerHTML = '<option value="">Tous les pays</option>' + countries.map((c) => `<option>${escapeHtml(c)}</option>`).join('');
+  if (countries.includes(current)) sEls.refineCountry.value = current;
+  sEls.refineCountry.closest('.select').hidden = Boolean(query.country);
   sEls.refine.hidden = results.length < 2;
 
   applyView(true);
@@ -258,7 +283,7 @@ const bestOf = (city) => city.options[city.selected];
 // Applique le filtre pays et le tri, puis redessine la liste et la carte.
 function applyView(fitMap) {
   const { results } = searchState;
-  const country = sEls.country.value;
+  const country = searchState.query.country ? '' : sEls.refineCountry.value;
   const sorters = {
     price: (a, b) => bestOf(results[a]).total - bestOf(results[b]).total,
     date: (a, b) => bestOf(results[a]).out.day.localeCompare(bestOf(results[b]).out.day),
@@ -275,6 +300,7 @@ function applyView(fitMap) {
 
 function describeQuery(q) {
   const parts = [q.type === 'rt' ? `aller-retour, ${STAY_LABELS[q.stay] || ''}` : 'aller simple'];
+  if (q.country && !q.city) parts.push(q.country);
   parts.push(q.datesGiven ? `du ${formatDayShort(q.start)} au ${formatDayShort(q.end)}` : '12 prochains mois');
   if (Number.isFinite(q.budget)) parts.push(`${fmtPrice.format(q.budget)} max`);
   return parts.join(' · ');

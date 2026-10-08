@@ -17,15 +17,17 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="themes.css">
   <script>
-    // Directions artistiques à l'essai : ?da=carnet | pop | nuit (« ?da=actuelle » pour revenir).
+    // Directions artistiques à l'essai : ?da=pop | pop-sunset | pop-med | pop-tropical | affiche | depart | postale (« ?da=actuelle » pour revenir).
     (function () {
       var p = new URLSearchParams(location.search).get('da');
       var da = p || (function () { try { return localStorage.getItem('da'); } catch (e) { return null; } })();
       if (p) { try { p === 'actuelle' ? localStorage.removeItem('da') : localStorage.setItem('da', p); } catch (e) {} }
+      var pop = 'family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700';
       var fonts = {
-        carnet: 'family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@500',
-        pop: 'family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700',
-        nuit: 'family=Sora:wght@600;700'
+        'pop': pop, 'pop-sunset': pop, 'pop-med': pop, 'pop-tropical': pop,
+        affiche: 'family=Abril+Fatface&family=Josefin+Sans:wght@400;600;700',
+        depart: 'family=Oswald:wght@500;600&family=IBM+Plex+Mono:wght@400;600',
+        postale: 'family=Caveat:wght@700&family=Karla:wght@400;600;700&family=Courier+Prime'
       };
       if (da && fonts[da]) {
         document.documentElement.dataset.da = da;
@@ -93,8 +95,13 @@
         </fieldset>
 
         <div class="field">
-          <label for="s-dest">Où ?</label>
-          <div class="select"><select id="s-dest"><option value="">N'importe où</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
+          <label for="s-country">Où ?</label>
+          <div class="select"><select id="s-country"><option value="">N'importe où</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
+        </div>
+
+        <div class="field" id="s-city-field" hidden>
+          <label for="s-city">Ville <span class="hint">facultatif</span></label>
+          <div class="select"><select id="s-city"><option value="">Toutes les villes</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
         </div>
 
         <div class="field">
@@ -178,7 +185,7 @@
   </dialog>
 
   <nav class="da-switch" id="da-switch" hidden aria-label="Direction artistique">
-    <a href="?da=actuelle">Actuelle</a><a href="?da=carnet">Carnet</a><a href="?da=pop">Pop</a><a href="?da=nuit">Nuit</a>
+    <a href="?da=pop">Pop</a><a href="?da=pop-sunset">Pop Sunset</a><a href="?da=pop-med">Pop Méditerranée</a><a href="?da=pop-tropical">Pop Tropical</a><a href="?da=affiche">Affiche</a><a href="?da=depart">Départs</a><a href="?da=postale">Postale</a><a href="?da=actuelle">Actuelle</a>
   </nav>
 
   <footer class="footer">

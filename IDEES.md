@@ -74,6 +74,11 @@ période courte, un bouton « Chercher en direct sur toute la période » qui in
 par jour (aller + retour). Coût : environ 2 recherches par jour de la période
 (ex. 14 jours ≈ 28 recherches ≈ 0,06 $).
 
+### 9. 🛠 Direction artistique
+Pop retenu comme base (« vrai parti pris »). En essai : 3 variantes de Pop (Sunset,
+Méditerranée, Tropical) et 3 autres concepts (Affiche rétro, Tableau des départs, Carte postale).
+À trancher, puis appliquer pour de bon et retirer la barre d'essai.
+
 ## En attente d'un tiers
 
 - ⏸ **Affiliation Kiwi.com** : demande en cours d'examen chez Travelpayouts (plusieurs jours).
@@ -98,3 +103,5 @@ par jour (aller + retour). Coût : environ 2 recherches par jour de la période
 - ✅ Une seule recherche pilote toute la page : carte + liste suivent l'aller-retour / aller simple
   (prix total A/R sur la carte), durée choisie à l'arrivée (1 nuit / court séjour / semaine / plus,
   mémorisée), pays + tri au-dessus des résultats ; anciens filtres mois/budget retirés
+- ✅ « Où ? » : pays (ordre alphabétique) puis ville facultative
+- ✅ Carte refaite avec MapLibre seul (points fixes au zoom, couleurs du site)

@@ -1,91 +1,21 @@
 /* ==========================================================================
-   Directions artistiques à l'essai — activées par ?da=carnet | pop | nuit
+   Directions artistiques à l'essai — activées par ?da=pop | pop-sunset | pop-med | pop-tropical | affiche | depart | postale
    (attribut data-da sur <html>). Sans paramètre : le design actuel.
    ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   A. CARNET — éditorial « papier », esprit magazine de voyage
-   -------------------------------------------------------------------------- */
-html[data-da="carnet"] {
-  --bg: #f3eee4;
-  --surface: #fbf8f2;
-  --surface-2: #ece5d8;
-  --text: #1c1a16;
-  --text-muted: #6b6457;
-  --border: #d9d0bf;
-  --primary: #1c1a16;
-  --on-primary: #fbf8f2;
-  --ring: #c8553d;
-  --tier-low: #4f7a3a;
-  --tier-mid: #c48a1a;
-  --tier-high: #b4472f;
-  --r-sm: 4px; --r-md: 6px; --r-lg: 8px;
-  --shadow-sm: none;
-  --shadow-md: 0 1px 0 #d9d0bf;
-  --font: "Inter", -apple-system, sans-serif;
-  --font-display: "Fraunces", Georgia, serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --map-land: #f3eee4;
-  --map-water: #d7e0dc;
-  --map-border: #a89c86;
-  --map-label: #6b6457;
-  --map-label-halo: #f3eee4;
-  --map-pin-stroke: #1c1a16;
-  --map-origin: #1c1a16;
-  color-scheme: light;
-}
-[data-da="carnet"] body { background: var(--bg); }
-[data-da="carnet"] .hero { background: var(--bg); color: var(--text); padding-bottom: var(--s-5); border-bottom: 1px solid var(--text); }
-[data-da="carnet"] .hero-route { display: none; }
-[data-da="carnet"] .eyebrow { background: none; border: 0; padding: 0; color: var(--tier-high); font-family: var(--font-mono); font-weight: 500; letter-spacing: .12em; }
-[data-da="carnet"] .hero h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(2.6rem, 12vw, 4.4rem); letter-spacing: -.035em; line-height: .95; }
-[data-da="carnet"] .hero h1 em { color: var(--tier-high); font-family: var(--font-display); font-style: italic; font-weight: 400; }
-[data-da="carnet"] .hero-sub { color: var(--text-muted); font-family: var(--font-display); font-style: italic; font-size: 18px; }
-[data-da="carnet"] .hero-stats { gap: 0; border-top: 1px solid var(--text); border-bottom: 1px solid var(--text); max-width: none; }
-[data-da="carnet"] .hero-stats li { background: none; border: 0; border-radius: 0; backdrop-filter: none; padding: var(--s-3) 0; }
-[data-da="carnet"] .hero-stats li + li { border-left: 1px solid var(--border); padding-left: var(--s-3); }
-[data-da="carnet"] .hero-stats strong { font-family: var(--font-display); font-weight: 600; font-size: 28px; }
-[data-da="carnet"] .hero-stats span, [data-da="carnet"] .updated { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
-[data-da="carnet"] .search { margin-top: var(--s-5); }
-[data-da="carnet"] .search-card { border: 1px solid var(--text); box-shadow: none; }
-[data-da="carnet"] .segmented { background: none; border: 1px solid var(--text); padding: 3px; border-radius: var(--r-md); }
-[data-da="carnet"] .segmented span { border-radius: 3px; }
-[data-da="carnet"] .segmented input:checked + span { background: var(--text); color: var(--bg); box-shadow: none; }
-[data-da="carnet"] .stay legend, [data-da="carnet"] .field-label, [data-da="carnet"] .field > label, [data-da="carnet"] fieldset.field legend {
-  font-family: var(--font-mono); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted);
-}
-[data-da="carnet"] .stay-chips span { border-radius: var(--r-sm); background: none; border-color: var(--border); font-weight: 500; }
-[data-da="carnet"] .stay-chips input:checked + span { background: var(--text); color: var(--bg); }
-[data-da="carnet"] .select select, [data-da="carnet"] .picker-btn, [data-da="carnet"] .euro-input input { background: none; border: 0; border-bottom: 1px solid var(--text); border-radius: 0; padding-left: 0; }
-[data-da="carnet"] .btn-primary { border-radius: var(--r-sm); letter-spacing: .02em; }
-[data-da="carnet"] .section-head h2 { font-family: var(--font-display); font-weight: 600; font-size: 28px; letter-spacing: -.02em; }
-[data-da="carnet"] .map-frame { border: 1px solid var(--text); }
-[data-da="carnet"] .card { border: 0; border-top: 1px solid var(--text); border-radius: 0; background: none; padding-left: 0; padding-right: 0; animation: none; }
-[data-da="carnet"] .card::before { display: none; }
-[data-da="carnet"] .flag { background: none; width: auto; font-size: 22px; }
-[data-da="carnet"] .card-city { font-family: var(--font-display); font-weight: 600; font-size: 24px; letter-spacing: -.02em; }
-[data-da="carnet"] .option { background: var(--surface); border: 1px solid var(--border); }
-[data-da="carnet"] .option-total { font-family: var(--font-display); font-weight: 600; font-size: 26px; }
-[data-da="carnet"] .leg-label, [data-da="carnet"] .nights-badge, [data-da="carnet"] .results-query { font-family: var(--font-mono); font-weight: 500; letter-spacing: .06em; }
-[data-da="carnet"] .nights-badge { border-radius: var(--r-sm); text-transform: uppercase; font-size: 10px; }
-[data-da="carnet"] .chip-alt { border-radius: var(--r-sm); background: none; }
-[data-da="carnet"] .disclaimer { background: none; border-top: 1px solid var(--border); border-radius: 0; padding-left: 0; }
-[data-da="carnet"] .price-pin { border-radius: 2px; border-width: 1.5px; }
-[data-da="carnet"] .origin-pin { background: var(--text); box-shadow: 0 0 0 5px rgba(28, 26, 22, .2); }
-[data-da="carnet"] .sheet { border-radius: var(--r-lg) var(--r-lg) 0 0; }
-[data-da="carnet"] .sheet-city, [data-da="carnet"] .cal-title, [data-da="carnet"] .live-price { font-family: var(--font-display); font-weight: 600; }
-[data-da="carnet"] .live { border: 1px solid var(--border); }
 
 /* --------------------------------------------------------------------------
    B. POP VOYAGE — carte d'embarquement, étiquettes de bagage, couleurs de vacances
    (soleil, mer turquoise, corail ; encre bleu nuit au lieu du noir pur)
    -------------------------------------------------------------------------- */
-html[data-da="pop"] {
+html[data-da^="pop"] {
   --ink: #14213d;
   --sun: #ffc83d;
   --sea: #19b8c9;
   --coral: #ff6b4a;
   --paper: #fff6e5;
+  --sky-top: #7fd3e0;
+  --sky-bottom: #b9ecf1;
+  --good: #0b8a52;
   --bg: var(--paper);
   --surface: #ffffff;
   --surface-2: #fff0cf;
@@ -104,28 +34,28 @@ html[data-da="pop"] {
   --font: "Space Grotesk", -apple-system, sans-serif;
   --font-display: "Space Grotesk", sans-serif;
   --font-mono: "Space Mono", ui-monospace, monospace;
-  --map-land: #fff6e5;
+  --map-land: var(--paper);
   --map-water: #8fdbe4;
-  --map-border: #14213d;
-  --map-label: #14213d;
-  --map-label-halo: #fff6e5;
-  --map-pin-stroke: #14213d;
-  --map-origin: #ff6b4a;
+  --map-border: var(--ink);
+  --map-label: var(--ink);
+  --map-label-halo: var(--paper);
+  --map-pin-stroke: var(--ink);
+  --map-origin: var(--coral);
   color-scheme: light;
 }
-[data-da="pop"] body { background: var(--paper); }
+[data-da^="pop"] body { background: var(--paper); }
 
 /* En-tête : ciel + soleil, et une carte d'embarquement au centre */
-[data-da="pop"] .hero {
+[data-da^="pop"] .hero {
   color: var(--ink);
   background:
     radial-gradient(circle at 88% 18%, var(--sun) 0 60px, transparent 61px),
-    linear-gradient(180deg, #7fd3e0 0%, #b9ecf1 100%);
+    linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 100%);
   border-bottom: 2px solid var(--ink);
   padding-bottom: var(--s-7);
 }
-[data-da="pop"] .hero-route { stroke: var(--ink); opacity: .45; stroke-dasharray: 2 9; stroke-width: 2.5; }
-[data-da="pop"] .hero-inner {
+[data-da^="pop"] .hero-route { stroke: var(--ink); opacity: .45; stroke-dasharray: 2 9; stroke-width: 2.5; }
+[data-da^="pop"] .hero-inner {
   background: var(--surface);
   border: 2px solid var(--ink);
   border-radius: var(--r-lg);
@@ -137,157 +67,343 @@ html[data-da="pop"] {
           mask: radial-gradient(circle 11px at 0 62%, transparent 10px, #000 11px) left / 51% 100% no-repeat,
                 radial-gradient(circle 11px at 100% 62%, transparent 10px, #000 11px) right / 51% 100% no-repeat;
 }
-[data-da="pop"] .eyebrow {
+[data-da^="pop"] .eyebrow {
   background: var(--coral); color: #fff; border: 2px solid var(--ink);
   font-family: var(--font-mono); letter-spacing: .12em;
   transform: rotate(-2deg); box-shadow: 2px 2px 0 var(--ink);
 }
-[data-da="pop"] .hero h1 { font-weight: 700; letter-spacing: -.045em; font-size: clamp(2.4rem, 11vw, 4.2rem); line-height: .95; }
-[data-da="pop"] .hero h1 em {
+[data-da^="pop"] .hero h1 { font-weight: 700; letter-spacing: -.045em; font-size: clamp(2.4rem, 11vw, 4.2rem); line-height: .95; }
+[data-da^="pop"] .hero h1 em {
   font-family: var(--font); font-style: normal; color: var(--ink);
   background: var(--sun); padding: 0 .14em; border-radius: 10px;
   box-shadow: inset 0 -.12em 0 rgba(20, 33, 61, .12);
 }
-[data-da="pop"] .hero-sub { color: var(--text-muted); font-weight: 500; }
+[data-da^="pop"] .hero-sub { color: var(--text-muted); font-weight: 500; }
 /* Les chiffres clés = champs du billet, séparés par une ligne de perforation */
-[data-da="pop"] .hero-stats {
+[data-da^="pop"] .hero-stats {
   max-width: none; gap: 0;
   border-top: 2px dashed var(--ink);
   margin-top: var(--s-5); padding-top: var(--s-3);
 }
-[data-da="pop"] .hero-stats li { background: none; border: 0; box-shadow: none; backdrop-filter: none; padding: 0 var(--s-2) 0 0; display: flex; flex-direction: column-reverse; }
-[data-da="pop"] .hero-stats span { font-family: var(--font-mono); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); }
-[data-da="pop"] .hero-stats strong { font-size: 24px; }
-[data-da="pop"] .updated { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; }
+[data-da^="pop"] .hero-stats li { background: none; border: 0; box-shadow: none; backdrop-filter: none; padding: 0 var(--s-2) 0 0; display: flex; flex-direction: column-reverse; }
+[data-da^="pop"] .hero-stats span { font-family: var(--font-mono); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); }
+[data-da^="pop"] .hero-stats strong { font-size: 24px; }
+[data-da^="pop"] .updated { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; }
 
 /* Formulaire */
-[data-da="pop"] .search-card, [data-da="pop"] .map-frame, [data-da="pop"] .sheet { border: 2px solid var(--ink); }
-[data-da="pop"] .segmented { background: var(--surface-2); border: 2px solid var(--ink); }
-[data-da="pop"] .segmented input:checked + span { background: var(--ink); color: #fff; box-shadow: none; }
-[data-da="pop"] .stay legend, [data-da="pop"] .field-label, [data-da="pop"] .field > label, [data-da="pop"] fieldset.field legend {
+[data-da^="pop"] .search-card, [data-da^="pop"] .map-frame, [data-da^="pop"] .sheet { border: 2px solid var(--ink); }
+[data-da^="pop"] .segmented { background: var(--surface-2); border: 2px solid var(--ink); }
+[data-da^="pop"] .segmented input:checked + span { background: var(--ink); color: #fff; box-shadow: none; }
+[data-da^="pop"] .stay legend, [data-da^="pop"] .field-label, [data-da^="pop"] .field > label, [data-da^="pop"] fieldset.field legend {
   color: var(--ink); font-family: var(--font-mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
 }
 /* Durées = étiquettes de bagage (œillet à gauche) */
-[data-da="pop"] .stay-chips span {
+[data-da^="pop"] .stay-chips span {
   position: relative; justify-content: flex-start; padding-left: 30px;
   border: 2px solid var(--ink); border-radius: 6px 14px 14px 6px;
   background: #fff; font-weight: 700; box-shadow: 2px 2px 0 var(--ink);
 }
-[data-da="pop"] .stay-chips span::before {
+[data-da^="pop"] .stay-chips span::before {
   content: ""; position: absolute; left: 10px; top: 50%; width: 9px; height: 9px; transform: translateY(-50%);
   border: 2px solid var(--ink); border-radius: 50%; background: var(--paper);
 }
-[data-da="pop"] .stay-chips input:checked + span { background: var(--sun); transform: translate(2px, 2px); box-shadow: none; }
-[data-da="pop"] .select select, [data-da="pop"] .picker-btn, [data-da="pop"] .euro-input input { border: 2px solid var(--ink); background: #fff; }
-[data-da="pop"] .btn-primary { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); font-weight: 700; }
-[data-da="pop"] .btn-primary:active { transform: translate(3px, 3px); box-shadow: none; }
+[data-da^="pop"] .stay-chips input:checked + span { background: var(--sun); color: var(--ink); transform: translate(2px, 2px); box-shadow: none; }
+[data-da^="pop"] .select select, [data-da^="pop"] .picker-btn, [data-da^="pop"] .euro-input input { border: 2px solid var(--ink); background: #fff; }
+[data-da^="pop"] .btn-primary { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); font-weight: 700; }
+[data-da^="pop"] .btn-primary:active { transform: translate(3px, 3px); box-shadow: none; }
 
 /* Titres de section façon tampon */
-[data-da="pop"] .section-head h2 { font-weight: 700; letter-spacing: -.03em; font-size: 26px; }
-[data-da="pop"] .result-count, [data-da="pop"] .results-query { font-family: var(--font-mono); font-size: 12px; }
+[data-da^="pop"] .section-head h2 { font-weight: 700; letter-spacing: -.03em; font-size: 26px; }
+[data-da^="pop"] .result-count, [data-da^="pop"] .results-query { font-family: var(--font-mono); font-size: 12px; }
 
 /* Fiches destination = billets */
-[data-da="pop"] .card { border: 2px solid var(--ink); box-shadow: var(--shadow-md); animation: none; }
-[data-da="pop"] .card::before { display: none; }
-[data-da="pop"] .flag { background: var(--surface-2); border: 2px solid var(--ink); }
-[data-da="pop"] .card-city { font-weight: 700; font-size: 22px; letter-spacing: -.02em; }
-[data-da="pop"] .card-route { font-family: var(--font-mono); font-size: 13px; color: var(--ink); background: var(--surface-2); display: inline-block; padding: 3px 6px; border-radius: 4px; }
-[data-da="pop"] .option { position: relative; background: #fff; border: 2px solid var(--ink); padding-right: var(--s-2); }
-[data-da="pop"] .option-side {
+[data-da^="pop"] .card { border: 2px solid var(--ink); box-shadow: var(--shadow-md); animation: none; }
+[data-da^="pop"] .card::before { display: none; }
+[data-da^="pop"] .flag { background: var(--surface-2); border: 2px solid var(--ink); }
+[data-da^="pop"] .card-city { font-weight: 700; font-size: 22px; letter-spacing: -.02em; }
+[data-da^="pop"] .card-route { font-family: var(--font-mono); font-size: 13px; color: var(--ink); background: var(--surface-2); display: inline-block; padding: 3px 6px; border-radius: 4px; }
+[data-da^="pop"] .option { position: relative; background: #fff; border: 2px solid var(--ink); padding-right: var(--s-2); }
+[data-da^="pop"] .option-side {
   position: relative; align-self: stretch; align-content: center;
   border-left: 2px dashed var(--ink); padding-left: var(--s-3);
 }
 /* encoches du talon détachable */
-[data-da="pop"] .option-side::before, [data-da="pop"] .option-side::after {
+[data-da^="pop"] .option-side::before, [data-da^="pop"] .option-side::after {
   content: ""; position: absolute; left: -9px; width: 16px; height: 16px;
   border: 2px solid var(--ink); border-radius: 50%; background: var(--surface);
 }
-[data-da="pop"] .option-side::before { top: calc(-1 * var(--s-3) - 10px); }
-[data-da="pop"] .option-side::after { bottom: calc(-1 * var(--s-3) - 10px); }
-[data-da="pop"] .option-total { font-weight: 700; }
-[data-da="pop"] .leg-label { font-family: var(--font-mono); color: var(--coral); }
-[data-da="pop"] .nights-badge { background: var(--sun); border: 2px solid var(--ink); }
-[data-da="pop"] .chip-alt { border: 2px solid var(--ink); background: #fff; }
-[data-da="pop"] .chip-alt strong, [data-da="pop"] .alt-title { color: #0b8a52; }
-[data-da="pop"] .disclaimer { background: #fff; border: 2px solid var(--ink); }
-[data-da="pop"] .btn-secondary-wide { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); color: var(--ink); font-weight: 700; }
+[data-da^="pop"] .option-side::before { top: calc(-1 * var(--s-3) - 10px); }
+[data-da^="pop"] .option-side::after { bottom: calc(-1 * var(--s-3) - 10px); }
+[data-da^="pop"] .option-total { font-weight: 700; }
+[data-da^="pop"] .leg-label { font-family: var(--font-mono); color: var(--coral); }
+[data-da^="pop"] .nights-badge { background: var(--sun); border: 2px solid var(--ink); }
+[data-da^="pop"] .chip-alt { border: 2px solid var(--ink); background: #fff; }
+[data-da^="pop"] .chip-alt strong, [data-da^="pop"] .alt-title { color: var(--good); }
+[data-da^="pop"] .disclaimer { background: #fff; border: 2px solid var(--ink); }
+[data-da^="pop"] .btn-secondary-wide { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); color: var(--ink); font-weight: 700; }
 
 /* Carte et bulles */
-[data-da="pop"] .legend { border-top: 2px solid var(--ink); }
-[data-da="pop"] .maplibregl-popup-content { border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
-[data-da="pop"] .maplibregl-ctrl-group { border: 2px solid var(--ink); box-shadow: 2px 2px 0 var(--ink); }
-[data-da="pop"] .live { background: var(--surface-2); border: 2px solid var(--ink); }
-[data-da="pop"] .cal-day.is-start::before, [data-da="pop"] .cal-day.is-end::before { border: 2px solid var(--ink); }
+[data-da^="pop"] .legend { border-top: 2px solid var(--ink); }
+[data-da^="pop"] .maplibregl-popup-content { border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+[data-da^="pop"] .maplibregl-ctrl-group { border: 2px solid var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+[data-da^="pop"] .live { background: var(--surface-2); border: 2px solid var(--ink); }
+[data-da^="pop"] .cal-day.is-start::before, [data-da^="pop"] .cal-day.is-end::before { border: 2px solid var(--ink); }
+
 
 /* --------------------------------------------------------------------------
-   C. NUIT — premium sombre : noir profond, accent citron vert lumineux
+   Variantes de Pop (même mise en page « billet », autres ambiances)
    -------------------------------------------------------------------------- */
-html[data-da="nuit"] {
-  --bg: #090b10;
-  --surface: #12151d;
-  --surface-2: #1a1e28;
-  --text: #eef0f5;
-  --text-muted: #9aa2b4;
-  --border: #252a36;
-  --primary: #d4ff3a;
-  --on-primary: #0b0d10;
-  --ring: #d4ff3a;
-  --tier-low: #3ddc84;
-  --tier-mid: #ffb020;
-  --tier-high: #ff5a6a;
-  --r-sm: 12px; --r-md: 16px; --r-lg: 22px;
-  --shadow-sm: 0 1px 0 rgba(255, 255, 255, .04) inset;
-  --shadow-md: 0 20px 50px -20px rgba(0, 0, 0, .8);
-  --font: "Inter", -apple-system, sans-serif;
-  --font-display: "Sora", sans-serif;
-  --map-land: #161a23;
-  --map-water: #0a0c11;
-  --map-border: #2c3344;
-  --map-label: #8a93a6;
-  --map-label-halo: #0a0c11;
-  --map-pin-stroke: #0b0d10;
-  --map-origin: #d4ff3a;
+/* Coucher de soleil : pêche, rose, encre prune */
+html[data-da="pop-sunset"] {
+  --ink: #2a1b3d; --sun: #ffd166; --coral: #ef476f; --paper: #fff3ec;
+  --sky-top: #ff8f6b; --sky-bottom: #ffcfb0;
+  --surface-2: #ffe1d3; --primary: #ef476f; --ring: #ef476f; --good: #118a5a;
+  --text-muted: #6a5470; --map-water: #ffb8a1;
+}
+/* Méditerranée : blanc chaux, bleu cobalt, citron */
+html[data-da="pop-med"] {
+  --ink: #0b2a6f; --sun: #ffe14d; --coral: #1f5fe0; --paper: #f6f9ff;
+  --sky-top: #2f6fd6; --sky-bottom: #9cc4f7;
+  --surface-2: #e4edff; --primary: #1f5fe0; --ring: #1f5fe0; --good: #0f7a4f;
+  --text-muted: #4a5f8f; --map-water: #7eb2f2; --map-land: #ffffff;
+}
+[data-da="pop-med"] .hero h1 em { background: var(--sun); }
+[data-da="pop-med"] .eyebrow { background: var(--coral); }
+/* Tropical : vert jungle, rose flamant, jaune mangue */
+html[data-da="pop-tropical"] {
+  --ink: #0f3b2c; --sun: #ffd23f; --coral: #ff4f9a; --paper: #fff8ee;
+  --sky-top: #23b98a; --sky-bottom: #a6edc8;
+  --surface-2: #ffe2ef; --primary: #ff4f9a; --ring: #ff4f9a; --good: #0d7a4a;
+  --text-muted: #44665a; --map-water: #57d6c4;
+}
+
+/* --------------------------------------------------------------------------
+   D. AFFICHE — affiche de voyage rétro (années 50) : papier vieilli, soleil
+   rayonnant, gros titres Art déco, cadres doubles
+   -------------------------------------------------------------------------- */
+html[data-da="affiche"] {
+  --navy: #22385e; --red: #d64933; --teal: #2a8f86; --sand: #f2b544; --paper: #f3e7cf;
+  --bg: var(--paper);
+  --surface: #fbf4e4;
+  --surface-2: #efe2c6;
+  --text: var(--navy);
+  --text-muted: #5d6a80;
+  --border: var(--navy);
+  --primary: var(--red);
+  --on-primary: #fbf4e4;
+  --ring: var(--teal);
+  --tier-low: #2a8f86; --tier-mid: #e0982c; --tier-high: #c43d2a;
+  --r-sm: 2px; --r-md: 3px; --r-lg: 4px;
+  --shadow-sm: none; --shadow-md: none;
+  --font: "Josefin Sans", -apple-system, sans-serif;
+  --font-display: "Abril Fatface", Georgia, serif;
+  --map-land: #f3e7cf; --map-water: #9ccac3; --map-border: #22385e; --map-label: #22385e;
+  --map-label-halo: #f3e7cf; --map-pin-stroke: #22385e; --map-origin: #d64933;
+  color-scheme: light;
+}
+[data-da="affiche"] body {
+  background-color: var(--paper);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .25 0 0 0 0 .1 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+[data-da="affiche"] .hero {
+  color: var(--navy);
+  background:
+    radial-gradient(circle at 50% 108%, var(--sand) 0 70px, transparent 71px),
+    repeating-conic-gradient(from -90deg at 50% 108%, #f6d995 0 6deg, #f3e7cf 6deg 12deg);
+  border-bottom: 6px double var(--navy);
+  text-align: center;
+}
+[data-da="affiche"] .hero-route { display: none; }
+[data-da="affiche"] .hero-inner { display: grid; justify-items: center; }
+[data-da="affiche"] .eyebrow { background: var(--navy); color: var(--paper); border: 0; border-radius: 0; letter-spacing: .3em; font-weight: 700; }
+[data-da="affiche"] .hero h1 {
+  font-family: var(--font-display); font-weight: 400; text-transform: uppercase;
+  font-size: clamp(2.6rem, 13vw, 4.8rem); line-height: .92; letter-spacing: .01em;
+  color: var(--red); text-shadow: 3px 3px 0 var(--navy);
+}
+[data-da="affiche"] .hero h1 em { font-family: var(--font-display); font-style: normal; color: var(--teal); }
+[data-da="affiche"] .hero-sub { color: var(--navy); font-weight: 600; text-transform: uppercase; letter-spacing: .14em; font-size: 13px; max-width: none; }
+[data-da="affiche"] .hero-stats { max-width: none; width: 100%; }
+[data-da="affiche"] .hero-stats li { background: var(--surface); border: 3px double var(--navy); border-radius: 0; text-align: center; backdrop-filter: none; }
+[data-da="affiche"] .hero-stats strong { font-family: var(--font-display); font-weight: 400; color: var(--red); font-size: 26px; }
+[data-da="affiche"] .hero-stats span, [data-da="affiche"] .updated { color: var(--navy); text-transform: uppercase; letter-spacing: .1em; font-weight: 600; }
+[data-da="affiche"] .search-card, [data-da="affiche"] .map-frame, [data-da="affiche"] .card, [data-da="affiche"] .sheet { border: 4px double var(--navy); box-shadow: none; }
+[data-da="affiche"] .segmented { background: none; border: 2px solid var(--navy); border-radius: 0; }
+[data-da="affiche"] .segmented span { border-radius: 0; text-transform: uppercase; letter-spacing: .04em; font-size: 13px; white-space: nowrap; padding-left: 8px; padding-right: 8px; }
+[data-da="affiche"] .segmented input:checked + span { background: var(--navy); color: var(--paper); box-shadow: none; }
+[data-da="affiche"] .stay legend, [data-da="affiche"] .field-label, [data-da="affiche"] .field > label, [data-da="affiche"] fieldset.field legend { color: var(--navy); text-transform: uppercase; letter-spacing: .14em; font-weight: 700; font-size: 12px; }
+[data-da="affiche"] .stay-chips span { border-radius: 0; border: 2px solid var(--navy); background: none; text-transform: uppercase; letter-spacing: .06em; }
+[data-da="affiche"] .stay-chips input:checked + span { background: var(--teal); color: var(--paper); border-color: var(--navy); }
+[data-da="affiche"] .select select, [data-da="affiche"] .picker-btn, [data-da="affiche"] .euro-input input { border-radius: 0; border: 2px solid var(--navy); background: var(--surface); }
+[data-da="affiche"] .btn-primary { text-transform: uppercase; letter-spacing: .1em; border-radius: 0; }
+[data-da="affiche"] .section-head h2 { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 30px; color: var(--red); text-shadow: 2px 2px 0 var(--navy); }
+[data-da="affiche"] .card { animation: none; }
+[data-da="affiche"] .card::before { display: none; }
+[data-da="affiche"] .card-top { border-bottom: 2px solid var(--navy); padding-bottom: var(--s-3); }
+[data-da="affiche"] .flag { background: none; border-radius: 0; }
+[data-da="affiche"] .card-city { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 24px; letter-spacing: .02em; }
+[data-da="affiche"] .card-route, [data-da="affiche"] .leg-label { color: var(--red); letter-spacing: .14em; font-weight: 700; }
+[data-da="affiche"] .option { background: none; border: 1px solid var(--navy); border-radius: 0; }
+[data-da="affiche"] .option-total { font-family: var(--font-display); font-weight: 400; color: var(--red); }
+[data-da="affiche"] .nights-badge { border-radius: 0; background: var(--sand); border: 1px solid var(--navy); text-transform: uppercase; }
+[data-da="affiche"] .chip-alt { border-radius: 0; border: 1px solid var(--navy); background: none; }
+[data-da="affiche"] .disclaimer { border-radius: 0; background: none; border: 1px solid var(--navy); }
+[data-da="affiche"] .maplibregl-popup-content { border: 3px double var(--navy); border-radius: 0; }
+
+/* --------------------------------------------------------------------------
+   E. DÉPARTS — tableau d'affichage d'aéroport : noir, lettres jaunes à volets
+   -------------------------------------------------------------------------- */
+html[data-da="depart"] {
+  --flap: #1d1d1f; --amber: #ffc51a;
+  --bg: #0b0b0c;
+  --surface: #141416;
+  --surface-2: var(--flap);
+  --text: #f2f2f2;
+  --text-muted: #9a9aa2;
+  --border: #2c2c30;
+  --primary: var(--amber);
+  --on-primary: #0b0b0c;
+  --ring: var(--amber);
+  --tier-low: #39d98a; --tier-mid: #ffb21a; --tier-high: #ff5252;
+  --r-sm: 3px; --r-md: 4px; --r-lg: 6px;
+  --shadow-sm: none; --shadow-md: 0 10px 30px rgba(0, 0, 0, .6);
+  --font: "IBM Plex Mono", ui-monospace, monospace;
+  --font-display: "Oswald", sans-serif;
+  --map-land: #1a1a1c; --map-water: #0b0b0c; --map-border: #3a3a40; --map-label: #8f8f99;
+  --map-label-halo: #0b0b0c; --map-pin-stroke: #0b0b0c; --map-origin: #ffc51a;
   color-scheme: dark;
 }
-[data-da="nuit"] body { background: var(--bg); }
-[data-da="nuit"] .hero {
-  background:
-    radial-gradient(60% 50% at 85% 10%, rgba(212, 255, 58, .18), transparent 70%),
-    radial-gradient(70% 60% at 0% 100%, rgba(124, 92, 255, .25), transparent 70%),
-    var(--bg);
-  border-bottom: 1px solid var(--border);
+[data-da="depart"] body { background: var(--bg); }
+/* volet : fond sombre coupé d'une fine ligne horizontale au milieu */
+[data-da="depart"] .flap, [data-da="depart"] .hero h1 em, [data-da="depart"] .stay-chips span, [data-da="depart"] .option-total, [data-da="depart"] .hero-stats strong {
+  background: linear-gradient(180deg, #232326 0 49%, #050505 49% 51%, #1a1a1c 51% 100%);
+  color: var(--amber);
 }
-[data-da="nuit"] .hero-route { stroke: rgba(212, 255, 58, .35); }
-[data-da="nuit"] .eyebrow { background: rgba(212, 255, 58, .1); border-color: rgba(212, 255, 58, .3); color: #d4ff3a; }
-[data-da="nuit"] .hero h1 { font-family: var(--font-display); font-weight: 700; letter-spacing: -.04em; }
-[data-da="nuit"] .hero h1 em { font-family: var(--font-display); font-style: normal; font-weight: 700; background: linear-gradient(90deg, #d4ff3a, #7cf5c4); -webkit-background-clip: text; background-clip: text; color: transparent; }
-[data-da="nuit"] .hero-stats li { background: rgba(255, 255, 255, .04); border-color: rgba(255, 255, 255, .08); }
-[data-da="nuit"] .hero-stats strong { font-family: var(--font-display); }
-[data-da="nuit"] .search-card { background: rgba(18, 21, 29, .85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-color: rgba(255, 255, 255, .08); }
-[data-da="nuit"] .segmented { background: var(--bg); }
-[data-da="nuit"] .segmented input:checked + span { background: var(--text); color: var(--bg); box-shadow: none; }
-[data-da="nuit"] .stay-chips span { background: transparent; }
-[data-da="nuit"] .stay-chips input:checked + span { background: #d4ff3a; color: #0b0d10; border-color: #d4ff3a; }
-[data-da="nuit"] .select select, [data-da="nuit"] .picker-btn, [data-da="nuit"] .euro-input input { background: var(--bg); }
-[data-da="nuit"] .btn-primary { font-weight: 700; }
-[data-da="nuit"] .section-head h2, [data-da="nuit"] .card-city, [data-da="nuit"] .option-total, [data-da="nuit"] .sheet-city, [data-da="nuit"] .live-price, [data-da="nuit"] .cal-title { font-family: var(--font-display); }
-[data-da="nuit"] .card { background: linear-gradient(180deg, rgba(255, 255, 255, .03), transparent), var(--surface); border-color: rgba(255, 255, 255, .07); }
-[data-da="nuit"] .card::before { width: 3px; box-shadow: 0 0 16px var(--tier); }
-[data-da="nuit"] .option { background: var(--bg); border: 1px solid var(--border); }
-[data-da="nuit"] .chip-alt { background: transparent; }
-[data-da="nuit"] .map-frame, [data-da="nuit"] #map { background: #0e1116; }
-[data-da="nuit"] .legend { background: var(--surface); }
-[data-da="nuit"] .price-pin { border-color: #0b0d10; box-shadow: 0 0 12px var(--tier); }
-[data-da="nuit"] .show-prices .price-pin { color: #0b0d10; }
-[data-da="nuit"] .origin-pin { background: #d4ff3a; border-color: #0b0d10; box-shadow: 0 0 0 6px rgba(212, 255, 58, .25), 0 0 24px rgba(212, 255, 58, .6); }
-[data-da="nuit"] .leaflet-popup-content-wrapper, [data-da="nuit"] .leaflet-popup-tip { background: var(--surface); color: var(--text); }
-[data-da="nuit"] .leaflet-popup-content { color: var(--text); }
-[data-da="nuit"] .popup-meta { color: var(--text-muted); }
-[data-da="nuit"] .leaflet-popup-content .btn-primary { background: #d4ff3a; color: #0b0d10; }
-[data-da="nuit"] .leaflet-bar a { background: var(--surface); color: var(--text); border-color: var(--border); }
-[data-da="nuit"] .cal-day:disabled { color: #3a4050; }
-[data-da="nuit"] .cal-day.is-start, [data-da="nuit"] .cal-day.is-end { color: #0b0d10; }
-[data-da="nuit"] .sheet::backdrop { background: rgba(0, 0, 0, .7); }
+[data-da="depart"] .hero { background: var(--bg); border-bottom: 1px solid var(--border); }
+[data-da="depart"] .hero-route { display: none; }
+[data-da="depart"] .eyebrow { background: none; border: 1px solid var(--amber); color: var(--amber); border-radius: 2px; letter-spacing: .2em; }
+[data-da="depart"] .hero h1 { font-family: var(--font-display); text-transform: uppercase; font-weight: 600; letter-spacing: .04em; color: #f2f2f2; line-height: 1.05; }
+[data-da="depart"] .hero h1 em { font-family: var(--font-display); font-style: normal; font-weight: 600; padding: 0 .12em; border-radius: 4px; letter-spacing: .12em; }
+[data-da="depart"] .hero-sub { color: var(--text-muted); font-size: 14px; }
+[data-da="depart"] .hero-stats li { background: none; border: 0; border-radius: 0; padding: 0; backdrop-filter: none; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+[data-da="depart"] .hero-stats strong { display: inline-block; padding: 4px 8px; border-radius: 3px; font-family: var(--font-display); font-weight: 600; letter-spacing: .08em; }
+[data-da="depart"] .hero-stats span, [data-da="depart"] .updated { color: var(--text-muted); text-transform: uppercase; letter-spacing: .14em; font-size: 10px; }
+[data-da="depart"] .search-card { background: var(--surface); border-color: var(--border); }
+[data-da="depart"] .segmented { background: #050505; border-radius: 4px; }
+[data-da="depart"] .segmented span { border-radius: 3px; text-transform: uppercase; letter-spacing: .1em; font-size: 12px; }
+[data-da="depart"] .segmented input:checked + span { background: var(--amber); color: #0b0b0c; }
+[data-da="depart"] .stay legend, [data-da="depart"] .field-label, [data-da="depart"] .field > label, [data-da="depart"] fieldset.field legend { text-transform: uppercase; letter-spacing: .16em; font-size: 10px; color: var(--amber); }
+[data-da="depart"] .stay-chips span { border: 1px solid #000; border-radius: 3px; color: #bdbdc4; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
+[data-da="depart"] .stay-chips input:checked + span { background: linear-gradient(180deg, #2d2d31 0 49%, #050505 49% 51%, #232327 51% 100%); color: var(--amber); border-color: var(--amber); box-shadow: 0 0 12px rgba(255, 197, 26, .35); }
+[data-da="depart"] .select select, [data-da="depart"] .picker-btn, [data-da="depart"] .euro-input input { background: #050505; border-color: var(--border); border-radius: 3px; }
+[data-da="depart"] .btn-primary { text-transform: uppercase; letter-spacing: .14em; font-weight: 600; border-radius: 3px; }
+[data-da="depart"] .section-head h2 { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
+/* fiches = lignes du tableau des départs */
+[data-da="depart"] .card { border: 0; border-top: 1px solid var(--border); border-radius: 0; background: none; padding-left: 0; padding-right: 0; animation: none; }
+[data-da="depart"] .card::before { display: none; }
+[data-da="depart"] .flag { background: var(--flap); border-radius: 3px; }
+[data-da="depart"] .card-city { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .1em; font-weight: 600; color: var(--amber); }
+[data-da="depart"] .card-route { color: #f2f2f2; letter-spacing: .2em; }
+[data-da="depart"] .option { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; }
+[data-da="depart"] .leg-label { color: var(--amber); letter-spacing: .16em; }
+[data-da="depart"] .option-total { display: inline-block; padding: 4px 8px; border-radius: 3px; font-family: var(--font-display); font-weight: 600; letter-spacing: .06em; }
+[data-da="depart"] .nights-badge { background: none; border: 1px solid var(--border); color: var(--text-muted); text-transform: uppercase; letter-spacing: .1em; }
+[data-da="depart"] .chip-alt { background: none; border-color: var(--border); }
+[data-da="depart"] .chip-alt strong, [data-da="depart"] .alt-title { color: var(--tier-low); }
+[data-da="depart"] .disclaimer { background: var(--surface); }
+[data-da="depart"] .legend { background: var(--surface); }
+[data-da="depart"] .maplibregl-ctrl-group { background: var(--surface); }
+[data-da="depart"] .maplibregl-ctrl-icon { filter: invert(1); }
+[data-da="depart"] .cal-day:disabled { color: #3a3a40; }
+[data-da="depart"] .cal-day.is-start, [data-da="depart"] .cal-day.is-end { color: #0b0b0c; }
+[data-da="depart"] .sheet::backdrop { background: rgba(0, 0, 0, .75); }
+
+/* --------------------------------------------------------------------------
+   F. POSTALE — cartes postales et timbres : papier kraft, écriture à la main,
+   bordures « par avion », ruban adhésif
+   -------------------------------------------------------------------------- */
+html[data-da="postale"] {
+  --kraft: #e7d8bb; --ink: #2d2a26; --stamp: #c0392b; --airmail: #1f4e9c;
+  --bg: var(--kraft);
+  --surface: #fffdf6;
+  --surface-2: #f4ecda;
+  --text: var(--ink);
+  --text-muted: #6d6456;
+  --border: #cdbb98;
+  --primary: var(--airmail);
+  --on-primary: #fffdf6;
+  --ring: var(--stamp);
+  --tier-low: #2e8b57; --tier-mid: #d9901a; --tier-high: #c0392b;
+  --r-sm: 4px; --r-md: 4px; --r-lg: 4px;
+  --shadow-sm: 0 2px 4px rgba(60, 40, 10, .15);
+  --shadow-md: 0 8px 18px -6px rgba(60, 40, 10, .35);
+  --font: "Karla", -apple-system, sans-serif;
+  --font-display: "Caveat", cursive;
+  --font-mono: "Courier Prime", ui-monospace, monospace;
+  --airmail-stripes: repeating-linear-gradient(135deg, var(--stamp) 0 10px, transparent 10px 20px, var(--airmail) 20px 30px, transparent 30px 40px);
+  --map-land: #f4ecda; --map-water: #b7d0e0; --map-border: #8a7a5c; --map-label: #4a3f2c;
+  --map-label-halo: #f4ecda; --map-pin-stroke: #fffdf6; --map-origin: #1f4e9c;
+  color-scheme: light;
+}
+[data-da="postale"] body {
+  background-color: var(--kraft);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .4 0 0 0 0 .3 0 0 0 0 .15 0 0 0 .12 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+/* En-tête = une carte postale bordée « par avion » */
+[data-da="postale"] .hero { background: none; color: var(--ink); padding-bottom: var(--s-6); }
+[data-da="postale"] .hero-route { display: none; }
+[data-da="postale"] .hero-inner {
+  background: var(--surface); padding: var(--s-5) var(--s-4) var(--s-4);
+  border: 10px solid transparent; border-image: var(--airmail-stripes) 10;
+  box-shadow: var(--shadow-md); transform: rotate(-1deg);
+}
+[data-da="postale"] .eyebrow {
+  width: 92px; height: 92px; padding: 0; justify-content: center; text-align: center; flex-direction: column;
+  border-radius: 50%; border: 2px solid var(--stamp); color: var(--stamp); background: none;
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: .1em; transform: rotate(12deg);
+  float: right; margin: -8px -4px 0 8px; opacity: .85;
+}
+[data-da="postale"] .hero h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(2.8rem, 13vw, 4.6rem); line-height: .9; letter-spacing: 0; }
+[data-da="postale"] .hero h1 em { font-family: var(--font-display); font-style: normal; color: var(--airmail); }
+[data-da="postale"] .hero-sub { color: var(--text-muted); font-family: var(--font-mono); font-size: 14px; }
+[data-da="postale"] .hero-stats { clear: both; }
+[data-da="postale"] .hero-stats li { background: none; border: 0; border-left: 2px dotted var(--border); border-radius: 0; backdrop-filter: none; }
+[data-da="postale"] .hero-stats strong { font-family: var(--font-display); font-size: 34px; color: var(--airmail); }
+[data-da="postale"] .hero-stats span, [data-da="postale"] .updated { color: var(--text-muted); font-family: var(--font-mono); }
+[data-da="postale"] .search-card { box-shadow: var(--shadow-md); border: 0; }
+[data-da="postale"] .segmented { background: var(--surface-2); border-radius: 4px; }
+[data-da="postale"] .segmented span { border-radius: 3px; }
+[data-da="postale"] .segmented input:checked + span { background: var(--airmail); color: #fff; }
+[data-da="postale"] .stay legend, [data-da="postale"] .field-label, [data-da="postale"] .field > label, [data-da="postale"] fieldset.field legend { font-family: var(--font-display); font-size: 22px; font-weight: 700; color: var(--ink); }
+[data-da="postale"] .stay-chips span { border-radius: 4px; border-style: dashed; background: var(--surface); }
+[data-da="postale"] .stay-chips input:checked + span { background: var(--stamp); color: #fff; border-color: var(--stamp); border-style: solid; transform: rotate(-1.5deg); }
+[data-da="postale"] .select select, [data-da="postale"] .picker-btn, [data-da="postale"] .euro-input input { background: var(--surface); border: 0; border-bottom: 2px dotted var(--ink); border-radius: 0; }
+[data-da="postale"] .section-head h2 { font-family: var(--font-display); font-size: 36px; font-weight: 700; }
+[data-da="postale"] .map-frame { border: 10px solid #fffdf6; box-shadow: var(--shadow-md); transform: rotate(.6deg); }
+/* fiches = cartes postales légèrement de travers, ruban adhésif, timbre */
+[data-da="postale"] .card { border: 0; box-shadow: var(--shadow-md); animation: none; overflow: visible; }
+[data-da="postale"] .result-list .card:nth-child(odd) { transform: rotate(-.7deg); }
+[data-da="postale"] .result-list .card:nth-child(even) { transform: rotate(.6deg); }
+[data-da="postale"] .card::before {
+  content: ""; left: 50%; top: -10px; bottom: auto; width: 90px; height: 22px; transform: translateX(-50%) rotate(-3deg);
+  background: rgba(255, 236, 160, .75); box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+[data-da="postale"] .flag {
+  order: 3; margin-left: auto; width: 56px; height: 64px; font-size: 30px; border-radius: 0;
+  background: var(--surface); border: 3px dotted var(--border); outline: 4px solid var(--surface);
+  box-shadow: 0 0 0 5px var(--surface), 0 3px 8px 5px rgba(60, 40, 10, .18); transform: rotate(4deg);
+}
+
+[data-da="postale"] .card-city { font-family: var(--font-display); font-size: 32px; font-weight: 700; line-height: 1; }
+[data-da="postale"] .card-route, [data-da="postale"] .leg-label, [data-da="postale"] .nights-badge { font-family: var(--font-mono); }
+[data-da="postale"] .card-route { color: var(--stamp); }
+[data-da="postale"] .option { background: repeating-linear-gradient(180deg, transparent 0 27px, rgba(31, 78, 156, .12) 27px 28px), var(--surface); border-radius: 2px; }
+[data-da="postale"] .option-total { font-family: var(--font-display); font-size: 34px; color: var(--airmail); }
+[data-da="postale"] .nights-badge { border-radius: 2px; border-style: dashed; }
+[data-da="postale"] .chip-alt { border-style: dashed; border-radius: 2px; background: var(--surface); }
+[data-da="postale"] .disclaimer { background: var(--surface); font-family: var(--font-mono); border-radius: 2px; }
+[data-da="postale"] .sheet-city, [data-da="postale"] .cal-title, [data-da="postale"] .live-price { font-family: var(--font-display); }
+[data-da="postale"] .live { background: var(--surface-2); }
 
 /* --------------------------------------------------------------------------
    Barre de choix de la direction artistique (visible seulement en mode aperçu)
@@ -295,13 +411,12 @@ html[data-da="nuit"] {
 .da-switch {
   position: fixed; left: 50%; bottom: calc(12px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 1500;
   display: flex; gap: 4px; padding: 4px;
+  max-width: calc(100vw - 24px); overflow-x: auto; scrollbar-width: none;
   background: rgba(17, 17, 17, .88); border-radius: 999px;
   backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
   font: 600 13px/1 -apple-system, BlinkMacSystemFont, sans-serif;
 }
-.da-switch a { color: #fff; text-decoration: none; padding: 10px 12px; border-radius: 999px; }
+.da-switch::-webkit-scrollbar { display: none; }
+.da-switch a { flex: none; color: #fff; text-decoration: none; padding: 10px 12px; border-radius: 999px; }
 .da-switch a[aria-current="true"] { background: #fff; color: #111; }
-[data-da="nuit"] .maplibregl-ctrl-group { background: var(--surface); }
-[data-da="nuit"] .maplibregl-ctrl-group button + button { border-top-color: var(--border); }
-[data-da="nuit"] .maplibregl-ctrl-icon { filter: invert(1); }
