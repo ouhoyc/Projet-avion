@@ -1,0 +1,204 @@
+/* ==========================================================================
+   Directions artistiques à l'essai — activées par ?da=carnet | pop | nuit
+   (attribut data-da sur <html>). Sans paramètre : le design actuel.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   A. CARNET — éditorial « papier », esprit magazine de voyage
+   -------------------------------------------------------------------------- */
+html[data-da="carnet"] {
+  --bg: #f3eee4;
+  --surface: #fbf8f2;
+  --surface-2: #ece5d8;
+  --text: #1c1a16;
+  --text-muted: #6b6457;
+  --border: #d9d0bf;
+  --primary: #1c1a16;
+  --on-primary: #fbf8f2;
+  --ring: #c8553d;
+  --tier-low: #4f7a3a;
+  --tier-mid: #c48a1a;
+  --tier-high: #b4472f;
+  --r-sm: 4px; --r-md: 6px; --r-lg: 8px;
+  --shadow-sm: none;
+  --shadow-md: 0 1px 0 #d9d0bf;
+  --font: "Inter", -apple-system, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  color-scheme: light;
+}
+[data-da="carnet"] body { background: var(--bg); }
+[data-da="carnet"] .hero { background: var(--bg); color: var(--text); padding-bottom: var(--s-5); border-bottom: 1px solid var(--text); }
+[data-da="carnet"] .hero-route { display: none; }
+[data-da="carnet"] .eyebrow { background: none; border: 0; padding: 0; color: var(--tier-high); font-family: var(--font-mono); font-weight: 500; letter-spacing: .12em; }
+[data-da="carnet"] .hero h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(2.6rem, 12vw, 4.4rem); letter-spacing: -.035em; line-height: .95; }
+[data-da="carnet"] .hero h1 em { color: var(--tier-high); font-family: var(--font-display); font-style: italic; font-weight: 400; }
+[data-da="carnet"] .hero-sub { color: var(--text-muted); font-family: var(--font-display); font-style: italic; font-size: 18px; }
+[data-da="carnet"] .hero-stats { gap: 0; border-top: 1px solid var(--text); border-bottom: 1px solid var(--text); max-width: none; }
+[data-da="carnet"] .hero-stats li { background: none; border: 0; border-radius: 0; backdrop-filter: none; padding: var(--s-3) 0; }
+[data-da="carnet"] .hero-stats li + li { border-left: 1px solid var(--border); padding-left: var(--s-3); }
+[data-da="carnet"] .hero-stats strong { font-family: var(--font-display); font-weight: 600; font-size: 28px; }
+[data-da="carnet"] .hero-stats span, [data-da="carnet"] .updated { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+[data-da="carnet"] .search { margin-top: var(--s-5); }
+[data-da="carnet"] .search-card { border: 1px solid var(--text); box-shadow: none; }
+[data-da="carnet"] .segmented { background: none; border: 1px solid var(--text); padding: 3px; border-radius: var(--r-md); }
+[data-da="carnet"] .segmented span { border-radius: 3px; }
+[data-da="carnet"] .segmented input:checked + span { background: var(--text); color: var(--bg); box-shadow: none; }
+[data-da="carnet"] .stay legend, [data-da="carnet"] .field-label, [data-da="carnet"] .field > label, [data-da="carnet"] fieldset.field legend {
+  font-family: var(--font-mono); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted);
+}
+[data-da="carnet"] .stay-chips span { border-radius: var(--r-sm); background: none; border-color: var(--border); font-weight: 500; }
+[data-da="carnet"] .stay-chips input:checked + span { background: var(--text); color: var(--bg); }
+[data-da="carnet"] .select select, [data-da="carnet"] .picker-btn, [data-da="carnet"] .euro-input input { background: none; border: 0; border-bottom: 1px solid var(--text); border-radius: 0; padding-left: 0; }
+[data-da="carnet"] .btn-primary { border-radius: var(--r-sm); letter-spacing: .02em; }
+[data-da="carnet"] .section-head h2 { font-family: var(--font-display); font-weight: 600; font-size: 28px; letter-spacing: -.02em; }
+[data-da="carnet"] .map-frame { border: 1px solid var(--text); }
+[data-da="carnet"] .card { border: 0; border-top: 1px solid var(--text); border-radius: 0; background: none; padding-left: 0; padding-right: 0; animation: none; }
+[data-da="carnet"] .card::before { display: none; }
+[data-da="carnet"] .flag { background: none; width: auto; font-size: 22px; }
+[data-da="carnet"] .card-city { font-family: var(--font-display); font-weight: 600; font-size: 24px; letter-spacing: -.02em; }
+[data-da="carnet"] .option { background: var(--surface); border: 1px solid var(--border); }
+[data-da="carnet"] .option-total { font-family: var(--font-display); font-weight: 600; font-size: 26px; }
+[data-da="carnet"] .leg-label, [data-da="carnet"] .nights-badge, [data-da="carnet"] .results-query { font-family: var(--font-mono); font-weight: 500; letter-spacing: .06em; }
+[data-da="carnet"] .nights-badge { border-radius: var(--r-sm); text-transform: uppercase; font-size: 10px; }
+[data-da="carnet"] .chip-alt { border-radius: var(--r-sm); background: none; }
+[data-da="carnet"] .disclaimer { background: none; border-top: 1px solid var(--border); border-radius: 0; padding-left: 0; }
+[data-da="carnet"] .price-pin { border-radius: 2px; border-width: 1.5px; }
+[data-da="carnet"] .origin-pin { background: var(--text); box-shadow: 0 0 0 5px rgba(28, 26, 22, .2); }
+[data-da="carnet"] .sheet { border-radius: var(--r-lg) var(--r-lg) 0 0; }
+[data-da="carnet"] .sheet-city, [data-da="carnet"] .cal-title, [data-da="carnet"] .live-price { font-family: var(--font-display); font-weight: 600; }
+[data-da="carnet"] .live { border: 1px solid var(--border); }
+
+/* --------------------------------------------------------------------------
+   B. POP — carte d'embarquement néo-brutale : couleurs franches, bords noirs
+   -------------------------------------------------------------------------- */
+html[data-da="pop"] {
+  --bg: #fff6e0;
+  --surface: #ffffff;
+  --surface-2: #fff0c2;
+  --text: #111111;
+  --text-muted: #4a4a4a;
+  --border: #111111;
+  --primary: #2d5bff;
+  --on-primary: #ffffff;
+  --ring: #2d5bff;
+  --tier-low: #10b45a;
+  --tier-mid: #ff9f1c;
+  --tier-high: #ff4d4d;
+  --r-sm: 10px; --r-md: 14px; --r-lg: 18px;
+  --shadow-sm: 3px 3px 0 #111;
+  --shadow-md: 5px 5px 0 #111;
+  --font: "Space Grotesk", -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  color-scheme: light;
+}
+[data-da="pop"] body { background: var(--bg); }
+[data-da="pop"] .hero { background: #ffd23f; color: #111; border-bottom: 2px solid #111; padding-bottom: var(--s-7); }
+[data-da="pop"] .hero-route { stroke: #111; opacity: .35; stroke-dasharray: 2 8; stroke-width: 2.5; }
+[data-da="pop"] .eyebrow { background: #111; color: #ffd23f; border: 0; }
+[data-da="pop"] .hero h1 { font-weight: 700; letter-spacing: -.045em; font-size: clamp(2.6rem, 12vw, 4.4rem); line-height: .95; }
+[data-da="pop"] .hero h1 em { font-family: var(--font); font-style: normal; color: #fff; -webkit-text-stroke: 2px #111; paint-order: stroke fill; background: #2d5bff; padding: 0 .12em; border-radius: 10px; }
+[data-da="pop"] .hero-sub { color: #111; font-weight: 500; }
+[data-da="pop"] .hero-stats li { background: #fff; border: 2px solid #111; box-shadow: 3px 3px 0 #111; backdrop-filter: none; }
+[data-da="pop"] .hero-stats span, [data-da="pop"] .updated { color: #333; }
+[data-da="pop"] .search-card, [data-da="pop"] .card, [data-da="pop"] .map-frame, [data-da="pop"] .sheet { border: 2px solid #111; }
+[data-da="pop"] .segmented { background: #fff0c2; border: 2px solid #111; }
+[data-da="pop"] .segmented input:checked + span { background: #111; color: #fff; box-shadow: none; }
+[data-da="pop"] .stay legend, [data-da="pop"] .field-label, [data-da="pop"] .field > label, [data-da="pop"] fieldset.field legend { color: #111; font-weight: 700; }
+[data-da="pop"] .stay-chips span { border: 2px solid #111; font-weight: 700; box-shadow: 2px 2px 0 #111; }
+[data-da="pop"] .stay-chips input:checked + span { background: #2d5bff; color: #fff; border-color: #111; transform: translate(2px, 2px); box-shadow: none; }
+[data-da="pop"] .select select, [data-da="pop"] .picker-btn, [data-da="pop"] .euro-input input { border: 2px solid #111; background: #fff; }
+[data-da="pop"] .btn-primary { border: 2px solid #111; box-shadow: 3px 3px 0 #111; font-weight: 700; }
+[data-da="pop"] .btn-primary:active { transform: translate(3px, 3px); box-shadow: none; }
+[data-da="pop"] .section-head h2 { font-weight: 700; letter-spacing: -.03em; font-size: 26px; }
+[data-da="pop"] .card { animation: none; }
+[data-da="pop"] .card::before { width: 10px; border-right: 2px solid #111; }
+[data-da="pop"] .card-top { padding-left: 6px; }
+[data-da="pop"] .flag { background: #fff0c2; border: 2px solid #111; }
+[data-da="pop"] .option { background: #fff; border: 2px dashed #111; }
+[data-da="pop"] .option-total { font-weight: 700; }
+[data-da="pop"] .nights-badge { background: #ffd23f; border: 2px solid #111; }
+[data-da="pop"] .chip-alt { border: 2px solid #111; background: #fff; }
+[data-da="pop"] .chip-alt strong, [data-da="pop"] .alt-title { color: #0a8a43; }
+[data-da="pop"] .disclaimer { background: #fff; border: 2px solid #111; }
+[data-da="pop"] .price-pin { border: 2px solid #111; box-shadow: 2px 2px 0 #111; }
+[data-da="pop"] .origin-pin { background: #2d5bff; border: 3px solid #111; box-shadow: 3px 3px 0 #111; }
+[data-da="pop"] .live { background: #fff0c2; border: 2px solid #111; }
+[data-da="pop"] .cal-day.is-start::before, [data-da="pop"] .cal-day.is-end::before { border: 2px solid #111; }
+
+/* --------------------------------------------------------------------------
+   C. NUIT — premium sombre : noir profond, accent citron vert lumineux
+   -------------------------------------------------------------------------- */
+html[data-da="nuit"] {
+  --bg: #090b10;
+  --surface: #12151d;
+  --surface-2: #1a1e28;
+  --text: #eef0f5;
+  --text-muted: #9aa2b4;
+  --border: #252a36;
+  --primary: #d4ff3a;
+  --on-primary: #0b0d10;
+  --ring: #d4ff3a;
+  --tier-low: #3ddc84;
+  --tier-mid: #ffb020;
+  --tier-high: #ff5a6a;
+  --r-sm: 12px; --r-md: 16px; --r-lg: 22px;
+  --shadow-sm: 0 1px 0 rgba(255, 255, 255, .04) inset;
+  --shadow-md: 0 20px 50px -20px rgba(0, 0, 0, .8);
+  --font: "Inter", -apple-system, sans-serif;
+  --font-display: "Sora", sans-serif;
+  color-scheme: dark;
+}
+[data-da="nuit"] body { background: var(--bg); }
+[data-da="nuit"] .hero {
+  background:
+    radial-gradient(60% 50% at 85% 10%, rgba(212, 255, 58, .18), transparent 70%),
+    radial-gradient(70% 60% at 0% 100%, rgba(124, 92, 255, .25), transparent 70%),
+    var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+[data-da="nuit"] .hero-route { stroke: rgba(212, 255, 58, .35); }
+[data-da="nuit"] .eyebrow { background: rgba(212, 255, 58, .1); border-color: rgba(212, 255, 58, .3); color: #d4ff3a; }
+[data-da="nuit"] .hero h1 { font-family: var(--font-display); font-weight: 700; letter-spacing: -.04em; }
+[data-da="nuit"] .hero h1 em { font-family: var(--font-display); font-style: normal; font-weight: 700; background: linear-gradient(90deg, #d4ff3a, #7cf5c4); -webkit-background-clip: text; background-clip: text; color: transparent; }
+[data-da="nuit"] .hero-stats li { background: rgba(255, 255, 255, .04); border-color: rgba(255, 255, 255, .08); }
+[data-da="nuit"] .hero-stats strong { font-family: var(--font-display); }
+[data-da="nuit"] .search-card { background: rgba(18, 21, 29, .85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-color: rgba(255, 255, 255, .08); }
+[data-da="nuit"] .segmented { background: var(--bg); }
+[data-da="nuit"] .segmented input:checked + span { background: var(--text); color: var(--bg); box-shadow: none; }
+[data-da="nuit"] .stay-chips span { background: transparent; }
+[data-da="nuit"] .stay-chips input:checked + span { background: #d4ff3a; color: #0b0d10; border-color: #d4ff3a; }
+[data-da="nuit"] .select select, [data-da="nuit"] .picker-btn, [data-da="nuit"] .euro-input input { background: var(--bg); }
+[data-da="nuit"] .btn-primary { font-weight: 700; }
+[data-da="nuit"] .section-head h2, [data-da="nuit"] .card-city, [data-da="nuit"] .option-total, [data-da="nuit"] .sheet-city, [data-da="nuit"] .live-price, [data-da="nuit"] .cal-title { font-family: var(--font-display); }
+[data-da="nuit"] .card { background: linear-gradient(180deg, rgba(255, 255, 255, .03), transparent), var(--surface); border-color: rgba(255, 255, 255, .07); }
+[data-da="nuit"] .card::before { width: 3px; box-shadow: 0 0 16px var(--tier); }
+[data-da="nuit"] .option { background: var(--bg); border: 1px solid var(--border); }
+[data-da="nuit"] .chip-alt { background: transparent; }
+[data-da="nuit"] .map-frame, [data-da="nuit"] #map { background: #0e1116; }
+[data-da="nuit"] .legend { background: var(--surface); }
+[data-da="nuit"] .price-pin { border-color: #0b0d10; box-shadow: 0 0 12px var(--tier); }
+[data-da="nuit"] .show-prices .price-pin { color: #0b0d10; }
+[data-da="nuit"] .origin-pin { background: #d4ff3a; border-color: #0b0d10; box-shadow: 0 0 0 6px rgba(212, 255, 58, .25), 0 0 24px rgba(212, 255, 58, .6); }
+[data-da="nuit"] .leaflet-popup-content-wrapper, [data-da="nuit"] .leaflet-popup-tip { background: var(--surface); color: var(--text); }
+[data-da="nuit"] .leaflet-popup-content { color: var(--text); }
+[data-da="nuit"] .popup-meta { color: var(--text-muted); }
+[data-da="nuit"] .leaflet-popup-content .btn-primary { background: #d4ff3a; color: #0b0d10; }
+[data-da="nuit"] .leaflet-bar a { background: var(--surface); color: var(--text); border-color: var(--border); }
+[data-da="nuit"] .cal-day:disabled { color: #3a4050; }
+[data-da="nuit"] .cal-day.is-start, [data-da="nuit"] .cal-day.is-end { color: #0b0d10; }
+[data-da="nuit"] .sheet::backdrop { background: rgba(0, 0, 0, .7); }
+
+/* --------------------------------------------------------------------------
+   Barre de choix de la direction artistique (visible seulement en mode aperçu)
+   -------------------------------------------------------------------------- */
+.da-switch {
+  position: fixed; left: 50%; bottom: calc(12px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 1500;
+  display: flex; gap: 4px; padding: 4px;
+  background: rgba(17, 17, 17, .88); border-radius: 999px;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
+  font: 600 13px/1 -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.da-switch a { color: #fff; text-decoration: none; padding: 10px 12px; border-radius: 999px; }
+.da-switch a[aria-current="true"] { background: #fff; color: #111; }

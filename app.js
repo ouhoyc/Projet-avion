@@ -16,7 +16,8 @@ const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeri
 const fmtDayShort = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short' });
 const fmtRelative = new Intl.RelativeTimeFormat('fr-FR', { numeric: 'auto' });
 
-const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
+// Fond de carte : sombre pour la direction artistique « Nuit », clair sinon.
+const MAP_STYLE = `https://tiles.openfreemap.org/styles/${document.documentElement.dataset.da === 'nuit' ? 'dark' : 'positron'}`;
 const PRICE_ZOOM = 6;   // à partir de ce zoom, les prix s'affichent sur la carte
 const NEAR_KM = 4000;   // cadrage initial : destinations à moins de 4 000 km
 
@@ -35,6 +36,14 @@ let markersLayer = null;
 const markersByCode = new Map();
 
 init();
+
+// Barre d'aperçu des directions artistiques (seulement si un essai est en cours).
+if (window.DA_PREVIEW) {
+  const bar = $('da-switch');
+  const current = document.documentElement.dataset.da || 'actuelle';
+  for (const a of bar.querySelectorAll('a')) a.setAttribute('aria-current', a.search === `?da=${current}`);
+  bar.hidden = false;
+}
 
 async function init() {
   setupMap();

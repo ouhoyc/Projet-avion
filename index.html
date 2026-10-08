@@ -16,6 +16,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="themes.css">
+  <script>
+    // Directions artistiques à l'essai : ?da=carnet | pop | nuit (« ?da=actuelle » pour revenir).
+    (function () {
+      var p = new URLSearchParams(location.search).get('da');
+      var da = p || (function () { try { return localStorage.getItem('da'); } catch (e) { return null; } })();
+      if (p) { try { p === 'actuelle' ? localStorage.removeItem('da') : localStorage.setItem('da', p); } catch (e) {} }
+      var fonts = {
+        carnet: 'family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@500',
+        pop: 'family=Space+Grotesk:wght@500;700',
+        nuit: 'family=Sora:wght@600;700'
+      };
+      if (da && fonts[da]) {
+        document.documentElement.dataset.da = da;
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
+        l.href = 'https://fonts.googleapis.com/css2?' + fonts[da] + '&display=swap';
+        document.head.appendChild(l);
+      }
+      window.DA_PREVIEW = Boolean(p || da);
+    })();
+  </script>
 </head>
 <body>
   <!-- Icônes SVG (style Lucide), réutilisées partout avec <use href="#i-..."> -->
@@ -155,6 +177,10 @@
       </div>
     </div>
   </dialog>
+
+  <nav class="da-switch" id="da-switch" hidden aria-label="Direction artistique">
+    <a href="?da=actuelle">Actuelle</a><a href="?da=carnet">Carnet</a><a href="?da=pop">Pop</a><a href="?da=nuit">Nuit</a>
+  </nav>
 
   <footer class="footer">
     Données Travelpayouts / Aviasales · Mise à jour automatique chaque matin
