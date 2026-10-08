@@ -25,9 +25,12 @@ const CONFIG = {
   token: process.env.TRAVELPAYOUTS_TOKEN,
   marker: process.env.TRAVELPAYOUTS_MARKER,
   output: join(ROOT, 'data.json'),
+  dailyOutput: join(ROOT, 'daily.json'), // prix jour par jour, aller ET retour
+
 };
 
 const API = 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates';
+const API_DAILY = 'https://api.travelpayouts.com/aviasales/v3/grouped_prices';
 const REF = 'https://api.travelpayouts.com/data/fr';
 // Version « marché français » d'Aviasales : prix en euros.
 const AVIASALES = 'https://www.aviasales.fr';
@@ -97,6 +100,12 @@ async function main() {
 
   writeFileSync(CONFIG.output, JSON.stringify(data, null, 2) + '\n');
   console.log(`✅ ${destinations.length} destinations écrites dans data.json`);
+
+  // Prix jour par jour, dans les deux sens, pour la recherche par dates.
+  console.log('📅 Prix jour par jour (aller et retour) sur 12 mois…');
+  const daily = await buildDaily(destinations.map((d) => d.code), months, ref);
+  writeFileSync(CONFIG.dailyOutput, JSON.stringify(daily) + '\n');
+  console.log(`✅ daily.json : ${daily.stats.out} prix aller, ${daily.stats.ret} prix retour`);
 }
 
 // ---------------------------------------------------------------------------
@@ -156,6 +165,89 @@ async function loadReferences() {
     airports: byCode(airports),
     airlines: byCode(airlines),
   };
+}
+
+// ---------------------------------------------------------------------------
+// 3 bis. Prix jour par jour (aller : origine → destination, retour : destination → origine)
+// ---------------------------------------------------------------------------
+
+// Format compact pour un fichier léger sur iPhone :
+// dests[code].o["2026-11-14"] = [prix, compagnie, durée (min), heure de départ, date où le prix a été vu]
+// dests[code].r[...] = idem pour le vol retour vers l'origine.
+async function buildDaily(codes, months, ref) {
+  const jobs = [];
+  for (const code of codes) {
+    for (const month of months) {
+      jobs.push({ code, dir: 'o', from: CONFIG.origin, to: code, month });
+      jobs.push({ code, dir: 'r', from: code, to: CONFIG.origin, month });
+    }
+  }
+
+  const dests = Object.fromEntries(codes.map((c) => [c, { o: {}, r: {} }]));
+  const airlines = {};
+  const today = new Date().toISOString().slice(0, 10);
+  let done = 0;
+
+  // 5 requêtes en parallèle, ~9 par seconde au total (limite API : 600 / minute).
+  await runPool(jobs, 5, async (job) => {
+    const data = await fetchDaily(job);
+    for (const [day, t] of Object.entries(data)) {
+      if (day < today || t.transfers !== 0 || !t.price) continue;
+      dests[job.code][job.dir][day] = [
+        Math.round(t.price),
+        t.airline,
+        t.duration_to || t.duration || null,
+        localTime(t.departure_at),
+        foundAt(t),
+      ];
+      if (t.airline && !airlines[t.airline]) airlines[t.airline] = nameOf(ref.airlines.get(t.airline)) || t.airline;
+    }
+    if (++done % 200 === 0) console.log(`   ${done}/${jobs.length}`);
+  });
+
+  const count = (dir) => Object.values(dests).reduce((n, d) => n + Object.keys(d[dir]).length, 0);
+  return {
+    origin: CONFIG.origin,
+    currency: 'EUR',
+    updated_at: new Date().toISOString(),
+    stats: { out: count('o'), ret: count('r') },
+    airlines,
+    dests,
+  };
+}
+
+async function fetchDaily({ from, to, month }) {
+  const params = new URLSearchParams({
+    origin: from,
+    destination: to,
+    departure_at: month,
+    group_by: 'departure_at',
+    direct: 'true',
+    currency: CONFIG.currency,
+    market: CONFIG.market,
+  });
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    const res = await fetch(`${API_DAILY}?${params}`, { headers: { 'X-Access-Token': CONFIG.token } });
+    if (res.status === 429) { await sleep(15000 * attempt); continue; } // trop de requêtes : on patiente
+    if (res.status === 401) fail('Jeton refusé par Travelpayouts (401).');
+    if (!res.ok) { await sleep(2000); continue; }
+    const json = await res.json();
+    await sleep(550);
+    return json.success ? json.data || {} : {};
+  }
+  return {}; // on abandonne ce mois-là plutôt que de bloquer toute la mise à jour
+}
+
+async function runPool(items, size, worker) {
+  let next = 0;
+  await Promise.all(Array.from({ length: size }, async () => {
+    while (next < items.length) await worker(items[next++]);
+  }));
+}
+
+// Heure locale de départ « HH:MM » (l'API la donne avec le fuseau de l'aéroport, ou en UTC).
+function localTime(iso) {
+  return /T(\d{2}:\d{2})/.exec(iso || '')?.[1] || null;
 }
 
 // ---------------------------------------------------------------------------

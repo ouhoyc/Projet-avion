@@ -32,11 +32,11 @@ jobs:
           # Pour changer d'aéroport : Settings > Secrets and variables > Actions > Variables > ORIGIN
           ORIGIN: ${{ vars.ORIGIN || 'LYS' }}
 
-      - name: Committer data.json s'il a changé
+      - name: Committer les données si elles ont changé
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json daily.json
           if git diff --cached --quiet; then
             echo "Aucun changement."
           else
