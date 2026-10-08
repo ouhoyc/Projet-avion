@@ -95,7 +95,7 @@ function renderDeals() {
         <span class="deal-bottom">
           <span>
             <span class="deal-price">${fmtPrice.format(d.price)}</span><br>
-            <span class="deal-date">${escapeHtml(formatDayShort(d.date))}</span>
+            <span class="deal-date">${escapeHtml(formatDayShort(d.date))}${d.found_at ? ` · vu ${seenLabel(d.found_at)}` : ''}</span>
           </span>
           <span class="deal-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </span>
@@ -226,6 +226,7 @@ function renderCards(rows) {
         <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>${escapeHtml(formatDay(offer.date))}</li>
         <li><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg>${escapeHtml(offer.airline)}</li>
         ${offer.duration ? `<li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>${formatDuration(offer.duration)}</li>` : ''}
+        ${offer.found_at ? `<li class="seen"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Prix vu ${seenLabel(offer.found_at)}</li>` : ''}
       </ul>
       <div class="card-actions">
         <a class="btn btn-primary" href="${escapeHtml(offer.link)}" target="_blank" rel="sponsored noopener">
@@ -314,6 +315,7 @@ function renderMarkers(rows, fitMap) {
       <div class="popup-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</div>
       <div class="popup-meta">${escapeHtml(dest.country)} · ${escapeHtml(formatDay(offer.date))} · ${escapeHtml(offer.airline)}</div>
       <div class="popup-price"><small>à partir de</small> ${fmtPrice.format(offer.price)}</div>
+      ${offer.found_at ? `<div class="popup-meta">Prix vu ${seenLabel(offer.found_at)}</div>` : ''}
       <a class="btn btn-primary" href="${escapeHtml(offer.link)}" target="_blank" rel="sponsored noopener">Voir les vols</a>`,
       { autoPanPaddingTopLeft: [56, 16], autoPanPaddingBottomRight: [16, 16], maxWidth: 260 });
     marker.addTo(markersLayer);
@@ -344,6 +346,14 @@ function priceTier(price) {
 function flag(code) {
   if (!/^[A-Z]{2}$/.test(code || '')) return '';
   return String.fromCodePoint(...[...code].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65));
+}
+
+// « aujourd'hui », « hier », « il y a 3 jours » à partir d'une date AAAA-MM-JJ.
+function seenLabel(day) {
+  const today = new Date();
+  const todayUtc = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+  const days = Math.round((todayUtc - Date.parse(day)) / 86400000);
+  return days <= 0 ? "aujourd'hui" : fmtRelative.format(-days, 'day');
 }
 
 function relativeTime(date) {

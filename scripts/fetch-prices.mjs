@@ -29,7 +29,13 @@ const CONFIG = {
 
 const API = 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates';
 const REF = 'https://api.travelpayouts.com/data/fr';
-const AVIASALES = 'https://www.aviasales.com';
+// Version « marché français » d'Aviasales : prix en euros.
+const AVIASALES = 'https://www.aviasales.fr';
+
+// Les prix viennent du cache Aviasales (recherches des derniers jours). On
+// préfère les prix vus il y a au plus MAX_AGE_DAYS jours, plus fiables ;
+// les plus anciens ne servent que s'il n'y a rien de plus récent.
+const MAX_AGE_DAYS = 2;
 
 // Corrections de quelques noms de villes mal traduits dans les fichiers de
 // référence Travelpayouts (clé = code IATA de la ville).
@@ -178,12 +184,17 @@ function buildDestinations(tickets, ref) {
     if (!point) continue; // impossible de placer la destination sur la carte
 
     // Meilleur prix par mois de départ (pour le filtre « mois »).
-    const months = {};
+    const byMonth = new Map();
     for (const t of list) {
       const m = t.departure_at.slice(0, 7);
-      if (!months[m] || t.price < months[m].price) months[m] = formatTicket(t, ref);
+      if (!byMonth.has(m)) byMonth.set(m, []);
+      byMonth.get(m).push(t);
     }
-    const best = Object.values(months).reduce((a, b) => (b.price < a.price ? b : a));
+    const months = {};
+    for (const [m, monthTickets] of [...byMonth].sort()) {
+      months[m] = formatTicket(cheapestRecent(monthTickets), ref);
+    }
+    const best = formatTicket(cheapestRecent(list), ref);
 
     destinations.push({
       code,
@@ -202,6 +213,20 @@ function buildDestinations(tickets, ref) {
   return destinations.sort((a, b) => a.price - b.price);
 }
 
+// Le moins cher parmi les prix récents (ou parmi tous s'il n'y en a aucun).
+function cheapestRecent(tickets) {
+  const limit = new Date(Date.now() - MAX_AGE_DAYS * 86400000).toISOString().slice(0, 10);
+  const recent = tickets.filter((t) => (foundAt(t) || '') >= limit);
+  const pool = recent.length ? recent : tickets;
+  return pool.reduce((a, b) => (b.price < a.price ? b : a));
+}
+
+// Date à laquelle le prix a été vu sur Aviasales (search_date=JJMMAAAA dans le lien).
+function foundAt(t) {
+  const m = /search_date=(\d{2})(\d{2})(\d{4})/.exec(t.link || '');
+  return m ? `${m[3]}-${m[2]}-${m[1]}` : null;
+}
+
 // Nom en français si disponible, sinon en anglais.
 function nameOf(item) {
   return item?.name || item?.name_translations?.en || '';
@@ -215,6 +240,7 @@ function formatTicket(t, ref) {
     airline: nameOf(ref.airlines.get(t.airline)) || t.airline,
     flight_number: t.flight_number ? `${t.airline}${t.flight_number}` : null,
     duration: t.duration_to || t.duration || null, // en minutes, si disponible
+    found_at: foundAt(t),                          // date où ce prix a été vu
     link: affiliateLink(t.link),
   };
 }
@@ -222,6 +248,7 @@ function formatTicket(t, ref) {
 // Lien vers Aviasales avec le marker d'affiliation (pas le jeton !).
 function affiliateLink(path) {
   const url = new URL(path || '/', AVIASALES);
+  url.searchParams.set('currency', 'eur');
   url.searchParams.set('marker', CONFIG.marker);
   return url.toString();
 }

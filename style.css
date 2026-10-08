@@ -406,6 +406,7 @@ input[type="range"] { width: 100%; height: 32px; accent-color: var(--primary); c
   padding: 5px 10px; border-radius: var(--r-full);
 }
 
+.meta .seen { background: none; padding-left: 0; padding-right: 0; font-size: 12px; }
 .card-actions { display: flex; gap: var(--s-2); }
 
 /* ---------- Boutons ---------- */
