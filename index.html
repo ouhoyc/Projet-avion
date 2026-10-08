@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#0b5cff">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,6 +20,12 @@
   <main>
     <section class="map-wrap" aria-label="Carte des destinations">
       <div id="map"></div>
+      <div class="legend">
+        <span><i class="tier-low"></i>≤ 40 €</span>
+        <span><i class="tier-mid"></i>41–80 €</span>
+        <span><i class="tier-high"></i>&gt; 80 €</span>
+        <span class="legend-hint">Zoome pour voir les prix</span>
+      </div>
     </section>
 
     <section class="filters" aria-label="Filtres">
@@ -55,10 +62,13 @@
   </main>
 
   <footer class="footer">
-    Données : Travelpayouts / Aviasales · Carte © contributeurs OpenStreetMap
+    Données : Travelpayouts / Aviasales · Carte © OpenFreeMap, contributeurs OpenStreetMap
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <!-- Fond de carte vectoriel (permet d'afficher les noms en français) -->
+  <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@maplibre/maplibre-gl-leaflet@0.1.3/leaflet-maplibre-gl.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

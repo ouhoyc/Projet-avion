@@ -20,6 +20,11 @@ const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeri
 const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
 const fmtUpdated = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 
+const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
+const OSM_ATTRIBUTION = '&copy; <a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+const PRICE_ZOOM = 6;          // à partir de ce zoom, les prix s'affichent sur la carte
+const NEAR_KM = 4000;          // cadrage initial : destinations à moins de 4 000 km
+
 let data = null;
 let map = null;
 let markersLayer = null;
@@ -159,15 +164,38 @@ els.cards.addEventListener('click', (e) => {
 });
 
 // ---------------------------------------------------------------------------
-// Carte Leaflet + OpenStreetMap
+// Carte Leaflet + fond OpenStreetMap (style épuré, noms en français)
 // ---------------------------------------------------------------------------
 function setupMap() {
   map = L.map('map', { worldCopyJump: true, zoomControl: true }).setView([45.76, 4.84], 4);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  }).addTo(map);
   markersLayer = L.layerGroup().addTo(map);
+  const toggleLabels = () => map.getContainer().classList.toggle('show-prices', map.getZoom() >= PRICE_ZOOM);
+  map.on('zoomend', toggleLabels);
+  toggleLabels();
+  addFrenchBaseMap().catch((err) => {
+    console.warn("Fond de carte vectoriel indisponible :", err);
+    // Secours si le fond vectoriel ne charge pas : tuiles OpenStreetMap classiques.
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> France',
+    }).addTo(map);
+  });
+}
+
+// Charge le style de carte puis remplace chaque nom affiché par sa version
+// française (name:fr), avec repli sur le nom en alphabet latin.
+async function addFrenchBaseMap() {
+  if (!L.maplibreGL) throw new Error('MapLibre indisponible');
+  const res = await fetch(MAP_STYLE);
+  if (!res.ok) throw new Error(res.status);
+  const style = await res.json();
+  for (const layer of style.layers) {
+    const field = layer.layout?.['text-field'];
+    if (field && JSON.stringify(field).includes('name')) {
+      layer.layout['text-field'] = ['coalesce', ['get', 'name:fr'], ['get', 'name:latin'], ['get', 'name']];
+    }
+  }
+  L.maplibreGL({ style, attribution: OSM_ATTRIBUTION }).addTo(map);
 }
 
 function renderMarkers(rows, fitMap) {
@@ -190,7 +218,7 @@ function renderMarkers(rows, fitMap) {
     const marker = L.marker([dest.lat, dest.lon], {
       icon: L.divIcon({
         className: '',
-        html: `<span class="price-pin">${fmtPrice.format(offer.price)}</span>`,
+        html: `<span class="price-pin ${priceTier(offer.price)}">${fmtPrice.format(offer.price)}</span>`,
         iconSize: [0, 0],
       }),
       title: dest.city,
@@ -203,17 +231,27 @@ function renderMarkers(rows, fitMap) {
       <a class="btn" href="${escapeHtml(offer.link)}" target="_blank" rel="sponsored noopener">Voir les vols</a>`);
     marker.addTo(markersLayer);
     markersByCode.set(dest.code, marker);
-    points.push([dest.lat, dest.lon]);
+    // Les destinations lointaines (Montréal, Dubaï…) restent visibles en dézoomant.
+    if (origin.lat == null || map.distance([origin.lat, origin.lon], [dest.lat, dest.lon]) < NEAR_KM * 1000) {
+      points.push([dest.lat, dest.lon]);
+    }
   }
 
   if (fitMap && points.length > 1) {
-    map.fitBounds(points, { padding: [30, 30], maxZoom: 6 });
+    map.fitBounds(points, { padding: [20, 20], maxZoom: 5 });
   }
 }
 
 // ---------------------------------------------------------------------------
 // Utilitaires
 // ---------------------------------------------------------------------------
+// Couleur du point selon le prix (voir la légende sous la carte).
+function priceTier(price) {
+  if (price <= 40) return 'tier-low';
+  if (price <= 80) return 'tier-mid';
+  return 'tier-high';
+}
+
 function formatDay(iso) {
   // On garde la date locale du vol (partie AAAA-MM-JJ) sans décalage horaire.
   return fmtDay.format(new Date(`${iso.slice(0, 10)}T12:00:00`));
