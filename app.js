@@ -8,7 +8,6 @@ const els = {
   titleCity: $('title-city'),
   stats: $('stats'),
   updated: $('updated'),
-  deals: $('deals'),
   months: $('months'),
   more: $('more'),
   badge: $('filter-badge'),
@@ -31,7 +30,6 @@ const fmtRelative = new Intl.RelativeTimeFormat('fr-FR', { numeric: 'auto' });
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
 const PRICE_ZOOM = 6;   // à partir de ce zoom, les prix s'affichent sur la carte
 const NEAR_KM = 4000;   // cadrage initial : destinations à moins de 4 000 km
-const DEALS_COUNT = 8;  // nombre de « meilleures affaires » en haut de page
 
 // Vérification du prix en direct (fonction serverless api/prix.js sur Vercel).
 const LIVE_PRICE_URL = 'https://projet-avion-ouhoyc.vercel.app/api/prix';
@@ -65,7 +63,6 @@ async function init() {
   }
 
   setupHeader();
-  renderDeals();
   setupFilters();
   render(true);
 }
@@ -88,28 +85,6 @@ function setupHeader() {
   ].map(([value, label]) => `<li><strong>${escapeHtml(value)}</strong><span>${label}</span></li>`).join('');
 
   els.updated.querySelector('span').textContent = `Mis à jour ${relativeTime(new Date(data.updated_at))}`;
-}
-
-// ---------------------------------------------------------------------------
-// Les meilleures affaires : les moins chères, toutes dates confondues
-// ---------------------------------------------------------------------------
-function renderDeals() {
-  const top = [...data.destinations].sort((a, b) => a.price - b.price).slice(0, DEALS_COUNT);
-  els.deals.innerHTML = top.map((d, i) => `
-    <li>
-      <button type="button" class="deal" data-book="${escapeHtml(d.code)}" data-m=""
-         aria-label="${escapeHtml(`${d.city}, ${d.country} : dernier prix repéré ${fmtPrice.format(d.price)} le ${formatDay(d.date)}. Vérifier le prix et réserver`)}">
-        <span class="deal-top"><span class="deal-rank">${i + 1}</span>${flag(d.country_code)} ${escapeHtml(d.country)}</span>
-        <span class="deal-city">${escapeHtml(d.city)}</span>
-        <span class="deal-bottom">
-          <span>
-            <span class="deal-price">${fmtPrice.format(d.price)}</span><br>
-            <span class="deal-date">${escapeHtml(formatDayShort(d.date))}${d.found_at ? ` · vu ${seenLabel(d.found_at)}` : ''}</span>
-          </span>
-          <span class="deal-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
-        </span>
-      </button>
-    </li>`).join('');
 }
 
 // ---------------------------------------------------------------------------

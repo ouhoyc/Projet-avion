@@ -103,7 +103,7 @@ main, .footer { max-width: 1120px; margin: 0 auto; padding: 0 var(--gutter); }
   background:
     radial-gradient(120% 80% at 100% 0%, rgba(59, 130, 246, .45) 0%, transparent 60%),
     linear-gradient(160deg, var(--navy-900) 0%, var(--navy-800) 55%, var(--navy-700) 100%);
-  padding: calc(var(--s-6) + env(safe-area-inset-top)) var(--gutter) calc(var(--s-7) + var(--s-4));
+  padding: calc(var(--s-6) + env(safe-area-inset-top)) var(--gutter) var(--s-6);
 }
 .hero-inner { position: relative; z-index: 1; max-width: 1120px; margin: 0 auto; }
 .eyebrow {
