@@ -1,14 +1,16 @@
 // Recherche « Où ? / Quand ? / Combien de nuits ? » à partir des prix jour par jour
 // (daily.json). Tous les champs sont facultatifs :
-//   - sans destination  → « où partir ? » : meilleure option pour chaque destination ;
-//   - avec destination  → « quand partir ? » : meilleures dates pour cette destination ;
+//   - sans destination  → « où partir ? » : meilleure option pour chaque ville ;
+//   - avec destination  → « quand partir ? » : meilleures dates pour cette ville ;
 //   - sans dates        → sur les 12 prochains mois.
 // En aller-retour, on combine deux vols directs (aller + retour) et on propose aussi
 // d'autres durées de séjour si elles sont moins chères.
+// Les villes à plusieurs aéroports (Londres, Paris, Milan…) sont regroupées.
 // Utilise les fonctions communes définies dans app.js (formatDay, fmtPrice, flag…).
 
-const NIGHTS_SPREAD = 3; // suggestions : jusqu'à 3 nuits de moins ou de plus
-const MAX_DATE_OPTIONS = 8; // nombre de dates proposées pour une destination précise
+const NIGHTS_SPREAD = 3;     // suggestions : jusqu'à 3 nuits de moins ou de plus
+const MAX_DATE_OPTIONS = 8;  // dates proposées pour une destination précise
+const PAGE_SIZE = 10;        // villes affichées avant « Voir plus »
 
 const sEls = {
   form: $('search-form'),
@@ -17,8 +19,12 @@ const sEls = {
   to: $('s-to'),
   nights: $('s-nights'),
   nightsField: $('s-nights-field'),
+  budget: $('s-budget'),
   results: $('search-results'),
 };
+
+// Résultats de la dernière recherche (pour « Voir plus » et les pastilles de durée).
+const searchState = { results: [], query: null, shown: 0, airlines: {} };
 
 let dailyPromise = null;
 function loadDaily() {
@@ -51,8 +57,7 @@ function setupSearchForm() {
   sEls.form.addEventListener('click', (e) => {
     const step = e.target.closest('[data-step]');
     if (!step) return;
-    const n = clamp(Number(sEls.nights.value || 4) + Number(step.dataset.step), 1, 21);
-    sEls.nights.value = n;
+    sEls.nights.value = clamp(Number(sEls.nights.value || 4) + Number(step.dataset.step), 1, 21);
   });
 
   sEls.form.addEventListener('submit', (e) => {
@@ -60,17 +65,33 @@ function setupSearchForm() {
     runSearch();
   });
 
-  // Résultat : ouvrir le panneau de réservation (aller seul ou aller + retour).
   sEls.results.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-trip]');
-    if (btn) openTripSheet(JSON.parse(btn.dataset.trip));
+    // « Voir » : panneau de réservation avec vérification en direct.
+    const book = e.target.closest('[data-trip]');
+    if (book) return openTripSheet(JSON.parse(book.dataset.trip));
+
+    // Pastille « 3 nuits · 62 € » : devient l'option affichée de la fiche.
+    const chip = e.target.closest('[data-pick]');
+    if (chip) {
+      const [cityIndex, optionIndex] = chip.dataset.pick.split(':').map(Number);
+      const city = searchState.results[cityIndex];
+      city.selected = optionIndex;
+      chip.closest('.card').outerHTML = cityCardHtml(city, cityIndex);
+      return;
+    }
+
+    if (e.target.closest('[data-more]')) renderMore();
   });
 
-  // La liste des destinations n'est connue qu'une fois data.json chargé (app.js).
+  // Liste des villes (une seule entrée par ville, même avec plusieurs aéroports).
   const fill = () => {
     if (!data) return setTimeout(fill, 150);
-    const sorted = [...data.destinations].sort((a, b) => a.city.localeCompare(b.city, 'fr'));
-    for (const d of sorted) sEls.dest.add(new Option(`${d.city} (${d.code}) – ${d.country}`, d.code));
+    const cities = new Map();
+    for (const d of data.destinations) {
+      if (!cities.has(d.city_code)) cities.set(d.city_code, d);
+    }
+    const sorted = [...cities.values()].sort((a, b) => a.city.localeCompare(b.city, 'fr'));
+    for (const d of sorted) sEls.dest.add(new Option(`${d.city} – ${d.country}`, d.city_code));
   };
   fill();
 }
@@ -94,41 +115,81 @@ async function runSearch() {
     return;
   }
 
+  const budget = Number(sEls.budget.value) || Infinity;
   const query = {
     type: tripType(),
-    dest: sEls.dest.value,
+    city: sEls.dest.value,
     start: sEls.from.value || isoDay(new Date()),
     end: sEls.to.value || isoDay(addDays(new Date(), 365)),
     nights: clamp(Number(sEls.nights.value) || 4, 1, 21),
+    budget,
+    datesGiven: Boolean(sEls.from.value || sEls.to.value),
   };
   if (query.end < query.start) [query.start, query.end] = [query.end, query.start];
 
-  const codes = query.dest ? [query.dest] : Object.keys(daily.dests);
-  const results = [];
-  for (const code of codes) {
-    const prices = daily.dests[code];
-    const dest = data.destinations.find((d) => d.code === code);
-    if (!prices || !dest) continue;
-    const options = query.type === 'ow' ? oneWayOptions(prices, query) : roundTripOptions(prices, query);
-    if (options.length) results.push({ dest, options });
+  // Regroupe les aéroports par ville (ex. Londres = Gatwick + Luton).
+  const byCity = new Map();
+  for (const dest of data.destinations) {
+    if (query.city && dest.city_code !== query.city) continue;
+    if (!daily.dests[dest.code]) continue;
+    if (!byCity.has(dest.city_code)) byCity.set(dest.city_code, []);
+    byCity.get(dest.city_code).push(dest);
   }
 
-  renderResults(results, query, daily);
+  const results = [];
+  for (const airports of byCity.values()) {
+    const city = searchCity(airports, daily, query);
+    if (city) results.push(city);
+  }
+  results.sort((a, b) => a.options[0].total - b.options[0].total);
+
+  Object.assign(searchState, { results, query, shown: 0, airlines: daily.airlines || {} });
+  renderResults();
   sEls.results.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// Aller simple : les jours de départ les moins chers dans la période.
-function oneWayOptions(prices, q) {
-  return Object.entries(prices.o)
-    .filter(([day]) => day >= q.start && day <= q.end)
-    .map(([day, info]) => ({ total: info[0], out: leg(day, info), nights: null }))
+// Toutes les options d'une ville (tous aéroports confondus), triées par prix.
+function searchCity(airports, daily, q) {
+  let wanted = [];   // durée demandée (ou aller simple)
+  let others = [];   // autres durées, pour les suggestions
+  for (const dest of airports) {
+    const prices = daily.dests[dest.code];
+    const combos = q.type === 'ow' ? oneWayCombos(prices, q) : roundTripCombos(prices, q);
+    for (const c of combos) {
+      if (c.total > q.budget) continue;
+      c.code = dest.code;
+      (q.type === 'ow' || c.nights === q.nights ? wanted : others).push(c);
+    }
+  }
+  if (!wanted.length && !others.length) return null;
+  wanted.sort((a, b) => a.total - b.total);
+  others.sort((a, b) => a.total - b.total);
+
+  // Destination précise : plusieurs dates ; sinon : la meilleure option.
+  const main = (wanted.length ? wanted : others).slice(0, q.city ? MAX_DATE_OPTIONS : 1);
+  const reference = main[0];
+
+  // Suggestions : la meilleure combinaison pour chaque autre durée, si elle est moins chère.
+  const bestByNights = new Map();
+  for (const c of others) if (!bestByNights.has(c.nights)) bestByNights.set(c.nights, c);
+  const alternatives = [...bestByNights.values()]
+    .filter((c) => c !== reference && c.total < reference.total)
     .sort((a, b) => a.total - b.total)
-    .slice(0, q.dest ? MAX_DATE_OPTIONS : 1);
+    .slice(0, 3);
+
+  const dest = airports.find((a) => a.code === reference.code) || airports[0];
+  return { dest, airports, options: [...main, ...alternatives], mainCount: main.length, selected: 0, exactNights: wanted.length > 0 };
 }
 
-// Aller-retour : toutes les combinaisons aller + retour direct qui tiennent dans la
-// période, pour la durée demandée et jusqu'à ±3 nuits.
-function roundTripOptions(prices, q) {
+// Aller simple : chaque jour de départ dans la période.
+function oneWayCombos(prices, q) {
+  return Object.entries(prices.o)
+    .filter(([day]) => day >= q.start && day <= q.end)
+    .map(([day, info]) => ({ total: info[0], nights: null, out: leg(day, info) }));
+}
+
+// Aller-retour : aller + retour direct dans la période, durée demandée ±3 nuits.
+function roundTripCombos(prices, q) {
   const minN = Math.max(1, q.nights - NIGHTS_SPREAD);
   const maxN = q.nights + NIGHTS_SPREAD;
   const combos = [];
@@ -138,35 +199,10 @@ function roundTripOptions(prices, q) {
       const back = isoDay(addDays(parseDay(day), n));
       if (back > q.end) break;
       const retInfo = prices.r[back];
-      if (!retInfo) continue;
-      combos.push({ total: outInfo[0] + retInfo[0], nights: n, out: leg(day, outInfo), ret: leg(back, retInfo) });
+      if (retInfo) combos.push({ total: outInfo[0] + retInfo[0], nights: n, out: leg(day, outInfo), ret: leg(back, retInfo) });
     }
   }
-  if (!combos.length) return [];
-  combos.sort((a, b) => a.total - b.total);
-
-  const wanted = combos.filter((c) => c.nights === q.nights);
-  // Meilleure combinaison pour chaque autre durée, gardée seulement si elle est moins chère.
-  const bestByNights = new Map();
-  for (const c of combos) if (!bestByNights.has(c.nights)) bestByNights.set(c.nights, c);
-
-  if (q.dest) {
-    // Destination précise : plusieurs dates possibles pour la durée demandée.
-    const main = (wanted.length ? wanted : combos).slice(0, MAX_DATE_OPTIONS);
-    main.alternatives = cheaperAlternatives(bestByNights, q.nights, main[0]);
-    return main;
-  }
-  const best = wanted[0] || combos[0];
-  const result = [best];
-  result.alternatives = cheaperAlternatives(bestByNights, q.nights, best);
-  return result;
-}
-
-function cheaperAlternatives(bestByNights, wantedNights, reference) {
-  return [...bestByNights.values()]
-    .filter((c) => c.nights !== wantedNights && c.total < reference.total)
-    .sort((a, b) => a.total - b.total)
-    .slice(0, 3);
+  return combos;
 }
 
 function leg(day, info) {
@@ -177,76 +213,127 @@ function leg(day, info) {
 // ---------------------------------------------------------------------------
 // Affichage des résultats
 // ---------------------------------------------------------------------------
-function renderResults(results, q, daily) {
+function renderResults() {
+  const { results, query: q } = searchState;
   const roundTrip = q.type === 'rt';
-  const period = sEls.from.value || sEls.to.value
-    ? `du ${formatDayShort(q.start)} au ${formatDayShort(q.end)}`
-    : 'sur les 12 prochains mois';
+  const period = q.datesGiven ? `du ${formatDayShort(q.start)} au ${formatDayShort(q.end)}` : 'sur les 12 prochains mois';
+  const budgetText = Number.isFinite(q.budget) ? `, ${fmtPrice.format(q.budget)} max` : '';
 
   if (!results.length) {
     sEls.results.innerHTML = `
       <div class="empty">
         <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
-        <p>Aucun vol direct${roundTrip ? ' aller-retour' : ''} repéré ${escapeHtml(period)}.</p>
-        <p class="hint">Élargis la période ou change le nombre de nuits : ces prix viennent des recherches récentes des voyageurs, certains jours n'en ont pas.</p>
+        <p>Aucun vol direct${roundTrip ? ' aller-retour' : ''} repéré ${escapeHtml(period)}${escapeHtml(budgetText)}.</p>
+        <p class="hint">Élargis la période, le budget ou change le nombre de nuits : ces prix viennent des recherches récentes des voyageurs, certains jours n'en ont pas.</p>
       </div>`;
     return;
   }
 
-  results.sort((a, b) => a.options[0].total - b.options[0].total);
-  const airlineName = (code) => daily.airlines?.[code] || code;
-  const title = q.dest
+  const title = q.city
     ? `Meilleures dates pour ${escapeHtml(results[0].dest.city)}`
-    : `${results.length} destination${results.length > 1 ? 's' : ''} ${roundTrip ? 'en aller-retour direct' : 'en vol direct'}`;
-
-  const optionHtml = (dest, o, primary) => {
-    const trip = { code: dest.code, out: o.out.day, ret: o.ret?.day || null, outPrice: o.out.price, retPrice: o.ret?.price ?? null };
-    return `
-      <div class="option ${primary ? 'primary' : ''}">
-        <div class="legs">
-          ${legHtml('Aller', o.out, airlineName)}
-          ${o.ret ? legHtml('Retour', o.ret, airlineName) : ''}
-        </div>
-        <div class="option-side">
-          ${o.nights ? `<span class="nights-badge">${o.nights} nuit${o.nights > 1 ? 's' : ''}</span>` : ''}
-          <strong class="option-total">${fmtPrice.format(o.total)}</strong>
-          <button type="button" class="btn btn-primary btn-small" data-trip='${escapeHtml(JSON.stringify(trip))}'>Voir</button>
-        </div>
-      </div>`;
-  };
+    : `${results.length} destination${results.length > 1 ? 's' : ''}`;
 
   sEls.results.innerHTML = `
-    <div class="section-head"><h2>${title}</h2><p class="result-count">${escapeHtml(period)}</p></div>
-    <ul class="cards">
-      ${results.map(({ dest, options }) => `
-        <li class="card result ${priceTier(options[0].total / (roundTrip ? 2 : 1))}">
-          <div class="card-top">
-            <span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>
-            <div class="card-title">
-              <h3 class="card-city">${escapeHtml(dest.city)}<span class="code">${escapeHtml(dest.code)}</span></h3>
-              <p class="card-sub">${escapeHtml(dest.country)}${roundTrip ? ' · total aller + retour' : ''}</p>
-            </div>
-          </div>
-          ${options.map((o, i) => optionHtml(dest, o, i === 0)).join('')}
-          ${options.alternatives?.length ? `
-            <div class="alternatives">
-              <p class="alt-title">Moins cher avec une autre durée :</p>
-              ${options.alternatives.map((o) => optionHtml(dest, o, false)).join('')}
-            </div>` : ''}
-        </li>`).join('')}
-    </ul>
+    <div class="section-head">
+      <h2>${title}</h2>
+      <p class="result-count">${escapeHtml(period + budgetText)}</p>
+    </div>
+    <ul class="cards result-list" id="result-list"></ul>
+    <button type="button" class="btn btn-secondary-wide" data-more hidden></button>
     <p class="disclaimer"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-      <span>Derniers prix repérés par les voyageurs. Touche « Voir » pour vérifier les prix en direct avant de réserver.</span></p>`;
+      <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour' : ''}. Touche « Voir » pour vérifier les prix en direct avant de réserver.</span></p>`;
+  renderMore();
 }
 
-function legHtml(label, l, airlineName) {
-  const seen = l.seen ? ` · vu ${seenLabel(l.seen)}` : '';
+// Ajoute les 10 villes suivantes.
+function renderMore() {
+  const list = $('result-list');
+  const { results } = searchState;
+  const next = results.slice(searchState.shown, searchState.shown + PAGE_SIZE);
+  list.insertAdjacentHTML('beforeend', next.map((city, i) => cityCardHtml(city, searchState.shown + i)).join(''));
+  searchState.shown += next.length;
+
+  const more = sEls.results.querySelector('[data-more]');
+  const left = results.length - searchState.shown;
+  more.hidden = left <= 0;
+  more.textContent = `Voir ${Math.min(left, PAGE_SIZE)} destination${left > 1 ? 's' : ''} de plus`;
+}
+
+function cityCardHtml(city, index) {
+  const q = searchState.query;
+  const roundTrip = q.type === 'rt';
+  const { dest, options } = city;
+  const multiAirport = city.airports.length > 1;
+
+  // Destination précise : liste de dates ; sinon : une option + pastilles de durée.
+  let mainOptions = q.city ? options.slice(0, city.mainCount) : [options[city.selected]];
+  if (q.city && city.selected >= city.mainCount) mainOptions = [options[city.selected], ...mainOptions];
+  const chips = options
+    .map((o, i) => ({ o, i }))
+    .filter(({ o, i }) => o.nights && (q.city ? i >= city.mainCount : i !== city.selected));
+  const best = options[city.selected];
+
+  return `
+    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}">
+      <div class="card-top">
+        <span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>
+        <div class="card-title">
+          <h3 class="card-city">${escapeHtml(dest.city)}</h3>
+          <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''}</p>
+        </div>
+      </div>
+      ${mainOptions.map((o) => optionHtml(o, city)).join('')}
+      ${chips.length ? `
+        <div class="chips-alt">
+          <span class="alt-title">${city.exactNights ? 'Moins cher :' : `Pas de ${q.nights} nuits, autres durées :`}</span>
+          ${chips.map(({ o, i }) => `
+            <button type="button" class="chip chip-alt" data-pick="${index}:${i}">
+              ${o.nights} nuit${o.nights > 1 ? 's' : ''} · <strong>${fmtPrice.format(o.total)}</strong>
+            </button>`).join('')}
+        </div>` : ''}
+    </li>`;
+}
+
+function optionHtml(o, city) {
+  const trip = { code: o.code, out: o.out.day, ret: o.ret?.day || null, outPrice: o.out.price, retPrice: o.ret?.price ?? null };
+  const airport = city.airports.length > 1 ? (city.airports.find((a) => a.code === o.code)?.airport || o.code) : '';
+  return `
+    <div class="option">
+      <div class="legs">
+        ${legHtml('Aller', o.out)}
+        ${o.ret ? legHtml('Retour', o.ret) : ''}
+        ${airport ? `<p class="leg-airport">Aéroport : ${escapeHtml(airport)} (${escapeHtml(o.code)})</p>` : ''}
+      </div>
+      <div class="option-side">
+        ${o.nights ? `<span class="nights-badge">${o.nights} nuit${o.nights > 1 ? 's' : ''}</span>` : ''}
+        <strong class="option-total">${fmtPrice.format(o.total)}</strong>
+        <button type="button" class="btn btn-primary btn-small" data-trip='${escapeHtml(JSON.stringify(trip))}'>Voir</button>
+      </div>
+    </div>`;
+}
+
+// Une ligne par vol : « Aller · lun. 2 nov. 15:40 · 38 € », puis compagnie et fraîcheur du prix.
+function legHtml(label, l) {
+  const airline = searchState.airlines[l.airline] || l.airline;
+  const seen = l.seen ? ` · vu ${shortSeen(l.seen)}` : '';
   return `
     <p class="leg">
-      <span class="leg-label">${label}</span>
-      <span class="leg-main">${escapeHtml(formatDay(l.day))}${l.time ? ` · ${escapeHtml(l.time)}` : ''}</span>
-      <span class="leg-sub">${fmtPrice.format(l.price)} · ${escapeHtml(airlineName(l.airline))}${escapeHtml(seen)}</span>
+      <span class="leg-main"><span class="leg-label">${label}</span> ${escapeHtml(formatDayShortWeek(l.day))}${l.time ? ` ${escapeHtml(l.time)}` : ''} · <strong>${fmtPrice.format(l.price)}</strong></span>
+      <span class="leg-sub">${escapeHtml(airline)}${escapeHtml(seen)}</span>
     </p>`;
+}
+
+const fmtDayShortWeek = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
+function formatDayShortWeek(day) {
+  return fmtDayShortWeek.format(parseDay(day));
+}
+
+// « aujourd'hui », « hier », « il y a 4 j »
+function shortSeen(day) {
+  const days = Math.round((parseDay(isoDay(new Date())) - parseDay(day)) / 86400000);
+  if (days <= 0) return "aujourd'hui";
+  if (days === 1) return 'hier';
+  return `il y a ${days} j`;
 }
 
 // ---------------------------------------------------------------------------
