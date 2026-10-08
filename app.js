@@ -34,7 +34,7 @@ const NEAR_KM = 4000;   // cadrage initial : destinations à moins de 4 000 km
 const DEALS_COUNT = 8;  // nombre de « meilleures affaires » en haut de page
 
 // Vérification du prix en direct (fonction serverless api/prix.js sur Vercel).
-const LIVE_PRICE_URL = 'https://projet-avion.vercel.app/api/prix';
+const LIVE_PRICE_URL = 'https://projet-avion-ouhoyc.vercel.app/api/prix';
 
 // Réservation sur Kiwi.com (en français, en euros, vols directs).
 // Quand le programme Kiwi.com est rejoint dans Travelpayouts, coller ici le modèle
