@@ -63,8 +63,8 @@ main, .hero, .footer {
 /* Points de prix sur la carte : simple point coloré quand on est loin,
    pastille avec le prix quand on zoome (classe .show-prices). */
 .tier-low { --tier: #12a150; }
-.tier-mid { --tier: #0b5cff; }
-.tier-high { --tier: #e8710a; }
+.tier-mid { --tier: #f08c00; }
+.tier-high { --tier: #e03131; }
 
 .price-pin {
   display: inline-block;
@@ -111,8 +111,8 @@ main, .hero, .footer {
 
 .origin-pin {
   width: 16px; height: 16px; border-radius: 50%;
-  background: #ff4d4f; border: 3px solid #fff;
-  box-shadow: 0 0 0 2px #ff4d4f;
+  background: #0b5cff; border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #0b5cff;
 }
 
 .leaflet-popup-content { margin: 12px 14px; font-size: 14px; }
@@ -219,5 +219,6 @@ input[type="range"] { width: 100%; accent-color: var(--accent); height: 28px; }
 
 .footer { color: var(--muted); font-size: 12px; text-align: center; padding-top: 24px; padding-bottom: 24px; }
 
-/* Crédits de la carte plus discrets */
-.leaflet-control-attribution { font-size: 10px; line-height: 1.3; max-width: 75%; }
+/* Crédits de la carte (obligatoires pour OpenStreetMap), discrets sous la carte */
+.legend-credits { width: 100%; font-size: 10px; opacity: 0.8; }
+.legend-credits a { color: inherit; }

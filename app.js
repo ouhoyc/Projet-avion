@@ -21,7 +21,6 @@ const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeri
 const fmtUpdated = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
-const OSM_ATTRIBUTION = '&copy; <a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 const PRICE_ZOOM = 6;          // à partir de ce zoom, les prix s'affichent sur la carte
 const NEAR_KM = 4000;          // cadrage initial : destinations à moins de 4 000 km
 
@@ -167,7 +166,8 @@ els.cards.addEventListener('click', (e) => {
 // Carte Leaflet + fond OpenStreetMap (style épuré, noms en français)
 // ---------------------------------------------------------------------------
 function setupMap() {
-  map = L.map('map', { worldCopyJump: true, zoomControl: true }).setView([45.76, 4.84], 4);
+  // Pas de bandeau « Leaflet » : les crédits OpenStreetMap sont sous la carte.
+  map = L.map('map', { worldCopyJump: true, zoomControl: true, attributionControl: false }).setView([45.76, 4.84], 4);
   markersLayer = L.layerGroup().addTo(map);
   const toggleLabels = () => map.getContainer().classList.toggle('show-prices', map.getZoom() >= PRICE_ZOOM);
   map.on('zoomend', toggleLabels);
@@ -177,7 +177,6 @@ function setupMap() {
     // Secours si le fond vectoriel ne charge pas : tuiles OpenStreetMap classiques.
     L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
       maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> France',
     }).addTo(map);
   });
 }
@@ -195,7 +194,7 @@ async function addFrenchBaseMap() {
       layer.layout['text-field'] = ['coalesce', ['get', 'name:fr'], ['get', 'name:latin'], ['get', 'name']];
     }
   }
-  L.maplibreGL({ style, attribution: OSM_ATTRIBUTION }).addTo(map);
+  L.maplibreGL({ style }).addTo(map);
 }
 
 function renderMarkers(rows, fitMap) {
