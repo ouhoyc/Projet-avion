@@ -5,7 +5,7 @@ Statuts : 💡 idée · ❓ questions à trancher · 🛠 en cours · ✅ fait �
 
 ## À faire
 
-### 1. ❓ Recherche par jour / fourchette de dates
+### 1. ✅ Recherche par jour / fourchette de dates
 Pouvoir chercher un jour précis ou une fourchette (« du 10 au 15 nov. ») au lieu du mois entier.
 - Plan proposé : le script récupère le prix le moins cher **par jour de départ** et par destination
   (Travelpayouts `grouped_prices`, vols directs) ; sur le site, un bloc « Quand ? » avec dates
@@ -13,7 +13,7 @@ Pouvoir chercher un jour précis ou une fourchette (« du 10 au 15 nov. ») au l
 - Limite : certains jours n'auront pas de prix repéré (données issues des recherches des voyageurs).
 - Questions : horizon **6 ou 12 mois** ?
 
-### 2. ❓ Allers-retours en vols directs
+### 2. ✅ Allers-retours en vols directs
 - Plan proposé : aller-retour = **deux vols directs séparés** (Lyon → X, puis X → Lyon), comme
   vendent les low-cost. Le script récupère aussi les prix jour par jour dans le sens retour.
 - Le site combine le meilleur aller + le meilleur retour selon les critères, affiche le total et le
@@ -22,7 +22,7 @@ Pouvoir chercher un jour précis ou une fourchette (« du 10 au 15 nov. ») au l
 - Questions : durée sur place en **nuits** (« 2 à 4 nuits ») ou fourchette de dates de retour ?
   Mode par défaut : aller simple ou aller-retour ?
 
-### 3. 💡 Deux façons de chercher : « période d'abord » ou « destination d'abord »
+### 3. ✅ (première version) Deux façons de chercher : « période d'abord » ou « destination d'abord »
 - **J'ai des vacances (la période prime)** : je donne ma période (ex. 2 semaines), je veux partir
   à coup sûr pendant ce créneau, peu importe où → toutes les destinations dont l'aller **et le
   retour** tiennent dans la période, triées du moins cher au plus cher.
@@ -67,6 +67,13 @@ Déjà prévu dans le script (variable `ORIGIN`), reste à l'exposer sur le site
 ### 7. 💡 Protéger le site (usage perso)
 Mot de passe simple à l'ouverture, pour éviter que des inconnus consomment les recherches Ignav.
 
+### 8. 💡 Combler les trous au-delà de 2-3 mois
+Les prix « repérés » (Travelpayouts) sont nombreux sur les 2-3 prochains mois, puis rares
+(ex. 252 prix aller en novembre, 19 en avril, 2 en août). Idée : pour une destination + une
+période courte, un bouton « Chercher en direct sur toute la période » qui interroge Ignav jour
+par jour (aller + retour). Coût : environ 2 recherches par jour de la période
+(ex. 14 jours ≈ 28 recherches ≈ 0,06 $).
+
 ## En attente d'un tiers
 
 - ⏸ **Affiliation Kiwi.com** : demande en cours d'examen chez Travelpayouts (plusieurs jours).
@@ -85,3 +92,6 @@ Mot de passe simple à l'ouverture, pour éviter que des inconnus consomment les
 - ✅ Carte en français, design refait (mobile d'abord)
 - ✅ Prix « vu il y a X jours », préférence pour les prix récents
 - ✅ Vérification du prix en direct au clic (Vercel + Ignav) et réservation sur Kiwi.com
+- ✅ Barre de recherche (option A) : aller-retour / aller simple, où (facultatif), quand
+  (facultatif, 12 mois), nuits ; suggestions d'autres durées moins chères ; vérification en
+  direct des deux vols ; section « Les meilleures affaires » retirée
