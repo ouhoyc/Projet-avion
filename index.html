@@ -51,7 +51,7 @@
   </header>
 
   <main>
-    <!-- Recherche : où / quand / combien de nuits (tous les champs sont facultatifs) -->
+    <!-- Recherche : elle pilote toute la page (carte + liste des résultats) -->
     <section class="search" aria-labelledby="search-title">
       <h2 id="search-title" class="visually-hidden">Rechercher un vol</h2>
       <form class="search-card" id="search-form" novalidate>
@@ -59,6 +59,16 @@
           <label><input type="radio" name="trip" value="rt" checked><span>Aller-retour</span></label>
           <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
         </div>
+
+        <fieldset class="field stay" id="s-stay">
+          <legend>Combien de temps sur place ?</legend>
+          <div class="stay-options">
+            <label><input type="radio" name="stay" value="1-1"><span><strong>1 nuit</strong><small>aller-retour express</small></span></label>
+            <label><input type="radio" name="stay" value="2-4"><span><strong>Court séjour</strong><small>2 à 4 nuits</small></span></label>
+            <label><input type="radio" name="stay" value="5-8"><span><strong>Une semaine</strong><small>5 à 8 nuits</small></span></label>
+            <label><input type="radio" name="stay" value="9-21"><span><strong>Plus</strong><small>9 nuits et plus</small></span></label>
+          </div>
+        </fieldset>
 
         <div class="field">
           <label for="s-dest">Où ?</label>
@@ -73,15 +83,6 @@
           </div>
         </fieldset>
 
-        <div class="field nights" id="s-nights-field">
-          <label for="s-nights">Nuits sur place</label>
-          <div class="stepper">
-            <button type="button" data-step="-1" aria-label="Une nuit de moins">−</button>
-            <input type="number" id="s-nights" min="1" max="21" value="4" inputmode="numeric">
-            <button type="button" data-step="1" aria-label="Une nuit de plus">+</button>
-          </div>
-        </div>
-
         <div class="field budget-field">
           <label for="s-budget">Budget max <span class="hint">facultatif</span></label>
           <div class="euro-input"><input type="number" id="s-budget" min="10" step="10" inputmode="numeric" placeholder="Pas de limite"><span aria-hidden="true">€</span></div>
@@ -91,76 +92,42 @@
           <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg> Rechercher
         </button>
       </form>
-
-      <div class="search-results" id="search-results" aria-live="polite" hidden></div>
     </section>
-
 
     <section aria-labelledby="map-title">
       <div class="section-head">
         <h2 id="map-title">Sur la carte</h2>
+        <p class="result-count" id="map-caption"></p>
       </div>
       <div class="map-frame">
         <div id="map" role="region" aria-label="Carte des destinations"></div>
-        <div class="legend">
-          <span><i class="dot tier-low"></i>≤ 40 €</span>
-          <span><i class="dot tier-mid"></i>41–80 €</span>
-          <span><i class="dot tier-high"></i>&gt; 80 €</span>
+        <div class="legend" id="legend">
+          <span><i class="dot tier-low"></i><span id="legend-low">≤ 40 €</span></span>
+          <span><i class="dot tier-mid"></i><span id="legend-mid">41–80 €</span></span>
+          <span><i class="dot tier-high"></i><span id="legend-high">&gt; 80 €</span></span>
           <span class="legend-hint"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>Zoome pour les prix</span>
         </div>
       </div>
       <p class="credits">© <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">contributeurs OpenStreetMap</a></p>
     </section>
 
-    <section class="list-section" id="liste" aria-labelledby="list-title" tabindex="-1">
-      <div class="toolbar">
-        <div class="chips" id="months" role="group" aria-label="Mois de départ"></div>
-        <details class="more" id="more">
-          <summary>
-            <svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg>
-            Filtres <span class="badge" id="filter-badge" hidden></span>
-            <svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </summary>
-          <div class="more-panel">
-            <div class="field">
-              <label for="budget">Budget max <output id="budget-value" for="budget"></output></label>
-              <input type="range" id="budget" min="0" max="500" step="5" value="500">
-            </div>
-            <div class="field">
-              <label for="country">Pays</label>
-              <div class="select"><select id="country"><option value="">Tous les pays</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
-            </div>
-            <div class="field">
-              <label for="sort">Trier par</label>
-              <div class="select">
-                <select id="sort">
-                  <option value="price-asc">Prix croissant</option>
-                  <option value="price-desc">Prix décroissant</option>
-                  <option value="date">Date de départ</option>
-                  <option value="city">Ville (A → Z)</option>
-                </select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
-              </div>
-            </div>
-            <button type="button" class="btn btn-text" id="reset">Réinitialiser les filtres</button>
-          </div>
-        </details>
-      </div>
-
+    <!-- Résultats de la recherche (remplissent aussi la carte) -->
+    <section class="list-section" id="liste" aria-labelledby="results-title" tabindex="-1">
       <div class="section-head">
-        <h2 id="list-title">Toutes les destinations</h2>
-        <p class="result-count" id="result-count" aria-live="polite"></p>
+        <h2 id="results-title">Destinations</h2>
+        <p class="result-count" id="results-count" aria-live="polite"></p>
       </div>
-
-      <ul class="cards" id="cards" aria-busy="true">
-        <li class="card skeleton" aria-hidden="true"></li>
-        <li class="card skeleton" aria-hidden="true"></li>
-        <li class="card skeleton" aria-hidden="true"></li>
-      </ul>
-
-      <p class="disclaimer">
-        <svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-        <span>Les prix affichés dans la liste et sur la carte sont les derniers prix repérés par les voyageurs ces derniers jours (date indiquée sur chaque fiche). En touchant « Voir les vols », le prix est vérifié en direct avant de réserver sur Kiwi.com.</span>
-      </p>
+      <div class="refine" id="refine" hidden>
+        <div class="select"><select id="r-country" aria-label="Pays"><option value="">Tous les pays</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
+        <div class="select"><select id="r-sort" aria-label="Trier par">
+          <option value="price">Prix croissant</option>
+          <option value="date">Date de départ</option>
+          <option value="city">Ville (A → Z)</option>
+        </select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
+      </div>
+      <div class="search-results" id="search-results" aria-live="polite">
+        <p class="empty start-hint">Choisis combien de temps tu veux partir pour voir les meilleurs prix.</p>
+      </div>
     </section>
   </main>
 

@@ -613,3 +613,31 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 
 .live-leg { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); }
 .sheet-total { font-size: 16px; text-align: center; }
+
+/* Choix de la durée du séjour (à l'arrivée) */
+.stay legend { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: var(--s-2); }
+.stay-options { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-2); }
+@media (min-width: 760px) { .stay-options { grid-template-columns: repeat(4, 1fr); } .search-card .stay { grid-column: 1 / -1; } }
+.stay-options label { display: block; min-width: 0; }
+.stay-options input { position: absolute; opacity: 0; pointer-events: none; }
+.stay-options span {
+  display: grid; gap: 2px; height: 100%;
+  min-height: 64px; padding: var(--s-3);
+  border: 1.5px solid var(--border); border-radius: var(--r-md);
+  background: var(--surface-2);
+  cursor: pointer;
+  transition: border-color var(--t-fast), background var(--t-fast);
+}
+.stay-options strong { font-size: 15px; }
+.stay-options small { font-size: 12px; color: var(--text-muted); }
+.stay-options input:checked + span { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 10%, var(--surface)); }
+.stay-options input:focus-visible + span { outline: 3px solid var(--ring); outline-offset: 2px; }
+.stay.attention .stay-options span { animation: nudge 600ms var(--ease-out) 2; border-color: var(--tier-mid); }
+@keyframes nudge { 50% { transform: translateY(-3px); } }
+
+/* Pays + tri au-dessus des résultats */
+.refine { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-2); margin-bottom: var(--s-3); }
+.results-query { font-size: 13px; color: var(--text-muted); margin-bottom: var(--s-3); }
+.results-intro { font-size: 16px; margin-bottom: 2px; }
+.start-hint { padding: var(--s-6) var(--s-4); }
+.list-section .search-results { margin-top: 0; }

@@ -1,4 +1,5 @@
-// Site « Vols directs depuis Lyon » : lit data.json, affiche la carte et la liste.
+// Site « Vols directs depuis Lyon » : en-tête, carte et outils communs.
+// La recherche (et la liste des résultats) est dans search.js.
 // Aucun jeton ici : le navigateur ne parle jamais à l'API Travelpayouts.
 
 const $ = (id) => document.getElementById(id);
@@ -8,23 +9,11 @@ const els = {
   titleCity: $('title-city'),
   stats: $('stats'),
   updated: $('updated'),
-  months: $('months'),
-  more: $('more'),
-  badge: $('filter-badge'),
-  budget: $('budget'),
-  budgetValue: $('budget-value'),
-  country: $('country'),
-  sort: $('sort'),
-  reset: $('reset'),
-  count: $('result-count'),
-  cards: $('cards'),
 };
 
 const fmtPrice = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
 const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
 const fmtDayShort = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short' });
-const fmtMonth = new Intl.DateTimeFormat('fr-FR', { month: 'short' });
-const fmtMonthYear = new Intl.DateTimeFormat('fr-FR', { month: 'short', year: '2-digit' });
 const fmtRelative = new Intl.RelativeTimeFormat('fr-FR', { numeric: 'auto' });
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
@@ -40,11 +29,9 @@ const LIVE_PRICE_URL = 'https://projet-avion-ouhoyc.vercel.app/api/prix';
 // Exemple : 'https://c111.travelpayouts.com/click?shmarker=787111&promo_id=3791&source_type=customlink&type=click&custom_url={url}'
 const KIWI_AFFILIATE_TEMPLATE = '';
 
-const state = { month: '' };
 let data = null;
 let map = null;
 let markersLayer = null;
-let budgetMax = 0;
 const markersByCode = new Map();
 
 init();
@@ -57,14 +44,11 @@ async function init() {
     data = await res.json();
   } catch {
     els.updated.querySelector('span').textContent = 'Données indisponibles pour le moment. Reviens un peu plus tard.';
-    els.cards.innerHTML = '';
-    els.cards.removeAttribute('aria-busy');
     return;
   }
 
   setupHeader();
-  setupFilters();
-  render(true);
+  document.dispatchEvent(new Event('data-ready')); // search.js peut démarrer
 }
 
 // ---------------------------------------------------------------------------
@@ -86,155 +70,6 @@ function setupHeader() {
 
   els.updated.querySelector('span').textContent = `Mis à jour ${relativeTime(new Date(data.updated_at))}`;
 }
-
-// ---------------------------------------------------------------------------
-// Filtres
-// ---------------------------------------------------------------------------
-function setupFilters() {
-  // Mois : boutons « puces », uniquement ceux pour lesquels on a au moins un prix.
-  const thisYear = new Date().getFullYear();
-  const months = (data.months || []).filter((m) => data.destinations.some((d) => d.months?.[m]));
-  const chip = (value, label) =>
-    `<button type="button" class="chip" data-month="${value}" aria-pressed="${value === state.month}">${label}</button>`;
-  els.months.innerHTML = chip('', 'Toutes dates') + months.map((m) => {
-    const date = monthToDate(m);
-    const label = date.getFullYear() === thisYear ? fmtMonth.format(date) : fmtMonthYear.format(date);
-    return chip(m, capitalize(label.replace('.', '')));
-  }).join('');
-  els.months.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-month]');
-    if (!btn) return;
-    state.month = btn.dataset.month;
-    for (const b of els.months.children) b.setAttribute('aria-pressed', b === btn);
-    render(false);
-  });
-
-  // Pays, triés par ordre alphabétique.
-  const countries = [...new Set(data.destinations.map((d) => d.country).filter(Boolean))]
-    .sort((a, b) => a.localeCompare(b, 'fr'));
-  for (const c of countries) els.country.add(new Option(c, c));
-
-  // Budget : de 0 au prix le plus élevé trouvé (arrondi à la dizaine supérieure).
-  const allPrices = data.destinations.flatMap((d) => Object.values(d.months || {}).map((o) => o.price).concat(d.price));
-  budgetMax = Math.max(10, Math.ceil(Math.max(...allPrices) / 10) * 10);
-  els.budget.max = budgetMax;
-  els.budget.value = budgetMax;
-
-  for (const el of [els.budget, els.country, els.sort]) {
-    el.addEventListener('input', () => render(false));
-  }
-
-  els.reset.addEventListener('click', () => {
-    state.month = '';
-    for (const b of els.months.children) b.setAttribute('aria-pressed', b.dataset.month === '');
-    els.budget.value = budgetMax;
-    els.country.value = '';
-    els.sort.value = 'price-asc';
-    render(false);
-  });
-}
-
-// Renvoie l'offre affichée pour une destination selon le mois choisi.
-function offerFor(dest, month) {
-  if (!month) return dest;
-  return dest.months?.[month] || null;
-}
-
-function currentResults() {
-  const country = els.country.value;
-  const budget = Number(els.budget.value);
-
-  const rows = [];
-  for (const dest of data.destinations) {
-    const offer = offerFor(dest, state.month);
-    if (!offer) continue;
-    if (country && dest.country !== country) continue;
-    if (offer.price > budget) continue;
-    rows.push({ dest, offer });
-  }
-
-  const sorters = {
-    'price-asc': (a, b) => a.offer.price - b.offer.price,
-    'price-desc': (a, b) => b.offer.price - a.offer.price,
-    date: (a, b) => a.offer.date.localeCompare(b.offer.date),
-    city: (a, b) => a.dest.city.localeCompare(b.dest.city, 'fr'),
-  };
-  return rows.sort(sorters[els.sort.value] || sorters['price-asc']);
-}
-
-// Nombre de filtres actifs dans le panneau « Filtres » (pastille bleue).
-function updateBadge() {
-  const active = [
-    Number(els.budget.value) < budgetMax,
-    els.country.value !== '',
-    els.sort.value !== 'price-asc',
-  ].filter(Boolean).length;
-  els.badge.hidden = active === 0;
-  els.badge.textContent = active;
-}
-
-// ---------------------------------------------------------------------------
-// Affichage (carte + liste)
-// ---------------------------------------------------------------------------
-function render(fitMap) {
-  const rows = currentResults();
-  els.budgetValue.textContent = fmtPrice.format(Number(els.budget.value));
-  els.count.textContent = `${rows.length} résultat${rows.length > 1 ? 's' : ''}`;
-  updateBadge();
-  renderMarkers(rows, fitMap);
-  renderCards(rows);
-}
-
-function renderCards(rows) {
-  els.cards.removeAttribute('aria-busy');
-  if (rows.length === 0) {
-    els.cards.innerHTML = `
-      <li class="empty">
-        <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
-        <p>Aucune destination ne correspond à ces filtres.</p>
-        <button type="button" class="btn btn-text" data-reset>Réinitialiser les filtres</button>
-      </li>`;
-    return;
-  }
-  els.cards.innerHTML = rows.map(({ dest, offer }, i) => `
-    <li class="card ${priceTier(offer.price)}" style="--i:${Math.min(i, 12)}">
-      <div class="card-top">
-        <span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>
-        <div class="card-title">
-          <h3 class="card-city">${escapeHtml(dest.city)}<span class="code">${escapeHtml(dest.code)}</span></h3>
-          <p class="card-sub">${escapeHtml(dest.country)}${dest.airport ? ' · ' + escapeHtml(dest.airport) : ''}</p>
-        </div>
-        <p class="card-price"><small>prix repéré</small><strong>${fmtPrice.format(offer.price)}</strong></p>
-      </div>
-      <ul class="meta">
-        <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>${escapeHtml(formatDay(offer.date))}</li>
-        <li><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg>${escapeHtml(offer.airline)}</li>
-        ${offer.duration ? `<li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>${formatDuration(offer.duration)}</li>` : ''}
-        ${offer.found_at ? `<li class="seen"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Prix vu ${seenLabel(offer.found_at)}</li>` : ''}
-      </ul>
-      <div class="card-actions">
-        <button type="button" class="btn btn-primary" data-book="${escapeHtml(dest.code)}" data-m="${escapeHtml(state.month)}">
-          Voir les vols <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-        </button>
-        <button class="btn btn-secondary" type="button" data-show="${escapeHtml(dest.code)}" aria-label="Voir ${escapeHtml(dest.city)} sur la carte">
-          <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-        </button>
-      </div>
-    </li>`).join('');
-}
-
-els.cards.addEventListener('click', (e) => {
-  if (e.target.closest('[data-reset]')) { els.reset.click(); return; }
-
-  // Bouton « carte » d'une fiche : remonte à la carte et ouvre la bulle.
-  const btn = e.target.closest('[data-show]');
-  if (!btn) return;
-  const marker = markersByCode.get(btn.dataset.show);
-  if (!marker) return;
-  document.querySelector('.map-frame').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  map.setView(marker.getLatLng(), Math.max(map.getZoom(), PRICE_ZOOM));
-  marker.openPopup();
-});
 
 // ---------------------------------------------------------------------------
 // Carte Leaflet + fond OpenStreetMap (style épuré, noms en français)
@@ -269,7 +104,9 @@ async function addFrenchBaseMap() {
   L.maplibreGL({ style }).addTo(map);
 }
 
-function renderMarkers(rows, fitMap) {
+// Affiche des destinations sur la carte.
+// items : [{ dest, price, tierPrice, popup }] — popup = HTML de la bulle.
+function showOnMap(items, fitMap) {
   markersLayer.clearLayers();
   markersByCode.clear();
 
@@ -285,25 +122,19 @@ function renderMarkers(rows, fitMap) {
     points.push([origin.lat, origin.lon]);
   }
 
-  for (const { dest, offer } of rows) {
+  for (const { dest, price, tierPrice, popup } of items) {
     const marker = L.marker([dest.lat, dest.lon], {
       icon: L.divIcon({
         className: '',
-        html: `<span class="price-pin ${priceTier(offer.price)}">${fmtPrice.format(offer.price)}</span>`,
+        html: `<span class="price-pin ${priceTier(tierPrice ?? price)}">${fmtPrice.format(price)}</span>`,
         iconSize: [0, 0],
       }),
-      title: `${dest.city} – ${fmtPrice.format(offer.price)}`,
+      title: `${dest.city} – ${fmtPrice.format(price)}`,
       riseOnHover: true,
     });
-    marker.bindPopup(`
-      <div class="popup-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</div>
-      <div class="popup-meta">${escapeHtml(dest.country)} · ${escapeHtml(formatDay(offer.date))} · ${escapeHtml(offer.airline)}</div>
-      <div class="popup-price"><small>prix repéré</small> ${fmtPrice.format(offer.price)}</div>
-      ${offer.found_at ? `<div class="popup-meta">Prix vu ${seenLabel(offer.found_at)}</div>` : ''}
-      <button type="button" class="btn btn-primary" data-book="${escapeHtml(dest.code)}" data-m="${escapeHtml(state.month)}">Voir les vols</button>`,
-      { autoPanPaddingTopLeft: [56, 16], autoPanPaddingBottomRight: [16, 16], maxWidth: 260 });
+    marker.bindPopup(popup, { autoPanPaddingTopLeft: [56, 16], autoPanPaddingBottomRight: [16, 16], maxWidth: 270 });
     marker.addTo(markersLayer);
-    markersByCode.set(dest.code, marker);
+    markersByCode.set(dest.city_code, marker);
     // Les destinations lointaines (Montréal, Dubaï…) restent visibles en dézoomant.
     if (origin.lat == null || map.distance([origin.lat, origin.lon], [dest.lat, dest.lon]) < NEAR_KM * 1000) {
       points.push([dest.lat, dest.lon]);
@@ -321,74 +152,10 @@ function renderMarkers(rows, fitMap) {
 const sheet = $('sheet');
 let liveRequest = 0;
 
-document.addEventListener('click', (e) => {
-  const btn = e.target.closest('[data-book]');
-  if (btn) openSheet(btn.dataset.book, btn.dataset.m || '');
-});
 sheet.addEventListener('click', (e) => {
   // Clic sur le fond sombre ou sur « Fermer » : on ferme.
   if (e.target === sheet || e.target.closest('[data-close]')) sheet.close();
 });
-
-function openSheet(code, month) {
-  const dest = data.destinations.find((d) => d.code === code);
-  if (!dest) return;
-  const offer = offerFor(dest, month) || dest;
-  const day = offer.date.slice(0, 10);
-  const link = kiwiLink(data.origin.code, dest.code, day);
-
-  sheet.innerHTML = `
-    <div class="sheet-body">
-      <div class="sheet-grip" aria-hidden="true"></div>
-      <button type="button" class="sheet-close" data-close aria-label="Fermer">
-        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
-      </button>
-      <p class="sheet-route">${escapeHtml(data.origin.city)} <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg> ${escapeHtml(dest.code)}</p>
-      <h2 class="sheet-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h2>
-      <p class="sheet-date"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>${escapeHtml(formatDay(offer.date))} · aller simple · vol direct</p>
-
-      <div class="live" id="live" aria-live="polite">
-        <div class="live-loading"><span class="spinner" aria-hidden="true"></span>Vérification du prix en direct…</div>
-      </div>
-
-      <p class="sheet-seen">Dernier prix repéré : <strong>${fmtPrice.format(offer.price)}</strong>${offer.found_at ? ` (vu ${seenLabel(offer.found_at)})` : ''}, ${escapeHtml(offer.airline)}</p>
-
-      <a class="btn btn-primary btn-block" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">
-        Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-      </a>
-      <p class="sheet-note">Tu seras redirigé vers Kiwi.com (en français, prix en euros) pour choisir ton vol et payer.</p>
-    </div>`;
-  sheet.showModal();
-  checkLivePrice(dest, day);
-}
-
-async function checkLivePrice(dest, day) {
-  const id = ++liveRequest;
-  const box = () => (id === liveRequest ? $('live') : null); // ignore une réponse arrivée trop tard
-  let result = null;
-  try {
-    const res = await fetch(`${LIVE_PRICE_URL}?to=${encodeURIComponent(dest.code)}&date=${day}`);
-    if (res.ok) result = await res.json();
-  } catch { /* hors ligne ou service indisponible */ }
-
-  const el = box();
-  if (!el) return;
-  if (result?.status === 'ok') {
-    const price = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: result.currency || 'EUR', maximumFractionDigits: 0 }).format(result.price);
-    const details = [result.airline, result.departure ? `départ ${String(result.departure).slice(11, 16)}` : null, result.duration ? formatDuration(result.duration) : null]
-      .filter(Boolean).map(escapeHtml).join(' · ');
-    el.innerHTML = `
-      <p class="live-label"><span class="live-dot" aria-hidden="true"></span>Prix vérifié à l'instant</p>
-      <p class="live-price">${price}</p>
-      ${details ? `<p class="live-details">${details}</p>` : ''}`;
-  } else if (result?.status === 'none') {
-    el.innerHTML = `<p class="live-label warn">Plus de vol direct trouvé ce jour-là</p>
-      <p class="live-details">Les places à ce prix sont peut-être parties. Kiwi.com te proposera les autres dates.</p>`;
-  } else {
-    el.innerHTML = `<p class="live-label muted">Vérification en direct indisponible</p>
-      <p class="live-details">Le prix exact s'affichera sur Kiwi.com.</p>`;
-  }
-}
 
 // Lien de recherche Kiwi.com (avec le suivi d'affiliation une fois configuré).
 function kiwiLink(from, to, day, returnDay) {
@@ -444,10 +211,6 @@ function formatDuration(min) {
   const h = Math.floor(min / 60);
   const m = String(min % 60).padStart(2, '0');
   return h ? `${h} h ${m}` : `${min} min`;
-}
-
-function monthToDate(m) {
-  return new Date(`${m}-15T12:00:00`);
 }
 
 function capitalize(s) {

@@ -95,3 +95,6 @@ par jour (aller + retour). Coût : environ 2 recherches par jour de la période
 - ✅ Barre de recherche (option A) : aller-retour / aller simple, où (facultatif), quand
   (facultatif, 12 mois), nuits ; suggestions d'autres durées moins chères ; vérification en
   direct des deux vols ; section « Les meilleures affaires » retirée
+- ✅ Une seule recherche pilote toute la page : carte + liste suivent l'aller-retour / aller simple
+  (prix total A/R sur la carte), durée choisie à l'arrivée (1 nuit / court séjour / semaine / plus,
+  mémorisée), pays + tri au-dessus des résultats ; anciens filtres mois/budget retirés
