@@ -29,7 +29,16 @@ Pouvoir chercher un jour précis ou une fourchette (« du 10 au 15 nov. ») au l
 - **J'ai une destination en tête (le prix prime)** : je choisis la destination, je suis flexible
   sur les dates → un calendrier des prix sur les mois à venir pour repérer les jours les moins
   chers (et la meilleure combinaison aller + retour pour une durée donnée).
+- **Les deux combinés** : « pendant mes 2 semaines de vacances, quand partir à Lisbonne pour
+  payer le moins cher ? » → je donne la destination, la période (aller et retour doivent y tenir)
+  et le nombre de nuits voulu ; le site donne la meilleure combinaison aller + retour et son prix.
+- **Suggestions d'autres durées** : proposer aussi des séjours un peu plus courts ou plus longs
+  (toujours dans la période) s'ils sont moins chers. Ex. « 5 nuits : 120 € · 4 nuits : 85 € ».
+- Idée d'interface : **un seul formulaire** qui couvre tous les cas — destination (facultative),
+  période (du … au …), nuits souhaitées. Sans destination = « où partir ? » ; période large =
+  « quand partir ? » ; les deux = combinaison.
 - Dépend des points 1 et 2 (prix jour par jour, retours).
+- ✅ Validé par toi : la compréhension des deux modes est bonne.
 
 ### 4. 💡 Changer d'aéroport de départ (Genève, Marseille…)
 Déjà prévu dans le script (variable `ORIGIN`), reste à l'exposer sur le site.
