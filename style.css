@@ -1,0 +1,183 @@
+/* ---- Couleurs et tailles (modifiables facilement) ---- */
+:root {
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --text: #121826;
+  --muted: #5b6475;
+  --border: #e3e7ef;
+  --accent: #0b5cff;
+  --accent-text: #ffffff;
+  --price: #0a7d4f;
+  --radius: 16px;
+  --shadow: 0 2px 10px rgba(18, 24, 38, 0.06);
+  --gutter: max(16px, env(safe-area-inset-left));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e121a;
+    --surface: #171c26;
+    --text: #eef1f7;
+    --muted: #9aa3b5;
+    --border: #262d3a;
+    --accent: #4d8bff;
+    --price: #3ccf8e;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+main, .hero, .footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+/* ---- En-tête ---- */
+.hero { padding-top: calc(20px + env(safe-area-inset-top)); padding-bottom: 12px; }
+.hero h1 { margin: 0; font-size: clamp(1.6rem, 6vw, 2.4rem); letter-spacing: -0.02em; }
+.stats { margin: 4px 0 0; color: var(--muted); }
+.stats strong { color: var(--text); }
+
+/* ---- Carte ---- */
+.map-wrap {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+#map { height: 52vh; min-height: 300px; max-height: 560px; background: var(--surface); }
+
+/* Pastille de prix sur la carte */
+.price-pin {
+  background: var(--accent);
+  color: var(--accent-text);
+  font: 600 12px/1 -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 5px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+.origin-pin {
+  width: 16px; height: 16px; border-radius: 50%;
+  background: #ff4d4f; border: 3px solid #fff;
+  box-shadow: 0 0 0 2px #ff4d4f;
+}
+
+.leaflet-popup-content { margin: 12px 14px; font-size: 14px; }
+.popup-city { font-weight: 700; font-size: 16px; }
+.popup-meta { color: #5b6475; margin: 2px 0 8px; }
+.popup-price { font-size: 18px; font-weight: 700; color: #0a7d4f; margin-bottom: 8px; }
+
+/* ---- Filtres ---- */
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0 8px;
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field-budget, .field:last-child { grid-column: 1 / -1; }
+.field label { font-size: 13px; font-weight: 600; color: var(--muted); display: flex; justify-content: space-between; }
+.field output { color: var(--text); }
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  font-size: 16px; /* 16px évite le zoom automatique sur iPhone */
+  padding: 10px 32px 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238891a3' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center;
+  color: var(--text);
+}
+input[type="range"] { width: 100%; accent-color: var(--accent); height: 28px; }
+
+@media (min-width: 760px) {
+  .filters { grid-template-columns: 2fr 1fr 1fr 1fr; align-items: end; }
+  .field-budget, .field:last-child { grid-column: auto; }
+}
+
+.disclaimer { font-size: 13px; color: var(--muted); margin: 8px 2px 4px; }
+.result-count { font-weight: 600; margin: 12px 2px; }
+
+/* ---- Liste en cartes ---- */
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 600px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.card-city { margin: 0; font-size: 18px; line-height: 1.2; }
+.card-country { color: var(--muted); font-size: 14px; }
+.card-code {
+  font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 6px;
+  margin-left: 4px;
+  vertical-align: 2px;
+}
+.card-price { text-align: right; white-space: nowrap; }
+.card-price small { display: block; font-size: 12px; color: var(--muted); }
+.card-price strong { font-size: 22px; color: var(--price); }
+.card-details { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 14px; color: var(--muted); margin: 0; padding: 0; list-style: none; }
+.card-actions { display: flex; gap: 8px; }
+
+.btn {
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 44px; /* taille de doigt confortable */
+  padding: 0 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+.btn-primary { background: var(--accent); color: var(--accent-text); }
+.btn-ghost { background: transparent; color: var(--accent); border: 1px solid var(--border); flex: 0 0 auto; }
+.leaflet-popup-content .btn { width: 100%; color: #fff; background: #0b5cff; }
+
+.empty { color: var(--muted); text-align: center; padding: 32px 0; grid-column: 1 / -1; }
+
+.footer { color: var(--muted); font-size: 12px; text-align: center; padding-top: 24px; padding-bottom: 24px; }

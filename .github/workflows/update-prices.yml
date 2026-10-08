@@ -1,0 +1,44 @@
+# Met à jour data.json une fois par jour et le publie sur le dépôt.
+name: Mise à jour des prix
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # tous les jours à 04:17 UTC (≈ 6 h à Lyon)
+  workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write           # nécessaire pour committer data.json
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Récupérer les prix
+        run: node scripts/fetch-prices.mjs
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          TRAVELPAYOUTS_MARKER: ${{ secrets.TRAVELPAYOUTS_MARKER }}
+          # Pour changer d'aéroport : Settings > Secrets and variables > Actions > Variables > ORIGIN
+          ORIGIN: ${{ vars.ORIGIN || 'LYS' }}
+
+      - name: Committer data.json s'il a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "Mise à jour des prix ($(date -u +%Y-%m-%d))"
+            git push
+          fi

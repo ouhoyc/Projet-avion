@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vols directs depuis Lyon</title>
+  <meta name="description" content="Toutes les destinations en vol direct depuis Lyon, avec le prix le moins cher pour chacune.">
+  <meta name="theme-color" content="#0b5cff">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 id="title">Vols directs depuis Lyon</h1>
+    <p class="stats" id="stats">Chargement des destinations…</p>
+  </header>
+
+  <main>
+    <section class="map-wrap" aria-label="Carte des destinations">
+      <div id="map"></div>
+    </section>
+
+    <section class="filters" aria-label="Filtres">
+      <div class="field field-budget">
+        <label for="budget">Budget max <output id="budget-value"></output></label>
+        <input type="range" id="budget" min="0" max="500" step="5" value="500">
+      </div>
+      <div class="field">
+        <label for="month">Mois de départ</label>
+        <select id="month"><option value="">Tous les mois</option></select>
+      </div>
+      <div class="field">
+        <label for="country">Pays</label>
+        <select id="country"><option value="">Tous les pays</option></select>
+      </div>
+      <div class="field">
+        <label for="sort">Trier par</label>
+        <select id="sort">
+          <option value="price-asc">Prix croissant</option>
+          <option value="price-desc">Prix décroissant</option>
+          <option value="date">Date de départ</option>
+          <option value="city">Ville (A → Z)</option>
+        </select>
+      </div>
+    </section>
+
+    <p class="disclaimer">
+      Prix indicatifs « à partir de », par personne pour un aller simple en vol direct,
+      issus des recherches récentes sur Aviasales. Le prix final est confirmé sur le site de réservation.
+    </p>
+
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+    <ul class="cards" id="cards"></ul>
+  </main>
+
+  <footer class="footer">
+    Données : Travelpayouts / Aviasales · Carte © contributeurs OpenStreetMap
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
