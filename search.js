@@ -14,7 +14,7 @@ const MAX_DATE_OPTIONS = 8;  // dates proposées pour une destination précise
 const PAGE_SIZE = 10;        // villes affichées avant « Voir plus »
 const STAY_KEY = 'vols-lyon-sejour'; // durée mémorisée dans le navigateur
 
-const STAY_LABELS = { '1-1': '1 nuit', '2-4': 'court séjour', '5-8': 'une semaine', '9-21': '9 nuits et plus' };
+const STAY_LABELS = { '1-1': 'une nuit', '2-4': 'court séjour', '5-8': 'une semaine', '9-21': '9 nuits et plus' };
 
 const sEls = {
   form: $('search-form'),
@@ -49,17 +49,9 @@ function loadDaily() {
 // ---------------------------------------------------------------------------
 // Formulaire
 // ---------------------------------------------------------------------------
-setupSearchForm();
 
 function setupSearchForm() {
-  const today = isoDay(new Date());
-  const max = isoDay(addDays(new Date(), 365));
-  for (const input of [sEls.from, sEls.to]) { input.min = today; input.max = max; }
-
-  sEls.from.addEventListener('change', () => {
-    if (sEls.from.value) sEls.to.min = sEls.from.value;
-    if (sEls.to.value && sEls.to.value < sEls.from.value) sEls.to.value = sEls.from.value;
-  });
+  setupCalendar();
 
   // Choisir une durée ou changer de type de voyage relance la recherche tout de suite.
   sEls.form.addEventListener('change', (e) => {
@@ -69,6 +61,7 @@ function setupSearchForm() {
     }
     if (e.target.name === 'stay') {
       try { localStorage.setItem(STAY_KEY, e.target.value); } catch { /* navigation privée */ }
+      updateStayHint();
       runSearch();
     }
   });
@@ -106,7 +99,7 @@ function setupSearchForm() {
     let saved = null;
     try { saved = localStorage.getItem(STAY_KEY); } catch { /* indisponible */ }
     const radio = saved && sEls.form.querySelector(`input[name="stay"][value="${saved}"]`);
-    if (radio) { radio.checked = true; runSearch(); }
+    if (radio) { radio.checked = true; updateStayHint(); runSearch(); }
   });
 }
 
@@ -116,6 +109,11 @@ function fillCities() {
   for (const d of data.destinations) if (!cities.has(d.city_code)) cities.set(d.city_code, d);
   const sorted = [...cities.values()].sort((a, b) => a.city.localeCompare(b.city, 'fr'));
   for (const d of sorted) sEls.dest.add(new Option(`${d.city} – ${d.country}`, d.city_code));
+}
+
+const STAY_HINTS = { '1-1': '1 nuit sur place', '2-4': '2 à 4 nuits sur place', '5-8': '5 à 8 nuits sur place', '9-21': '9 nuits ou plus sur place' };
+function updateStayHint() {
+  $('stay-hint').textContent = STAY_HINTS[stayValue()] || 'Choisis une durée pour voir les prix';
 }
 
 function tripType() {
@@ -506,6 +504,95 @@ async function checkLeg(elId, label, from, to, day, id) {
 }
 
 // ---------------------------------------------------------------------------
+// Calendrier « Quand ? » (remplace le champ date du navigateur)
+// ---------------------------------------------------------------------------
+const fmtMonthTitle = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
+const cal = { start: '', end: '' };
+
+function setupCalendar() {
+  const dialog = $('cal-sheet');
+  const months = $('cal-months');
+  const today = new Date();
+
+  // 12 mois à partir du mois en cours, semaines commençant le lundi.
+  let html = '';
+  for (let m = 0; m < 12; m++) {
+    const first = new Date(today.getFullYear(), today.getMonth() + m, 1, 12);
+    const days = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
+    const offset = (first.getDay() + 6) % 7;
+    const title = fmtMonthTitle.format(first);
+    html += `<section class="cal-month"><h3>${title.charAt(0).toUpperCase() + title.slice(1)}</h3><div class="cal-grid">`;
+    html += '<span></span>'.repeat(offset);
+    for (let d = 1; d <= days; d++) {
+      const iso = isoDay(new Date(first.getFullYear(), first.getMonth(), d, 12));
+      const past = iso < isoDay(today);
+      html += `<button type="button" class="cal-day" data-day="${iso}"${past ? ' disabled' : ''}>${d}</button>`;
+    }
+    html += '</div></section>';
+  }
+  months.innerHTML = html;
+
+  $('s-when').addEventListener('click', () => {
+    cal.start = sEls.from.value;
+    cal.end = sEls.to.value;
+    paintCalendar();
+    dialog.showModal();
+    const target = months.querySelector(`[data-day="${cal.start || isoDay(today)}"]`);
+    target?.closest('.cal-month')?.scrollIntoView({ block: 'start' });
+  });
+
+  months.addEventListener('click', (e) => {
+    const day = e.target.closest('.cal-day')?.dataset.day;
+    if (!day) return;
+    // 1er appui : début ; 2e appui : fin (ou nouveau début si la date est avant).
+    if (!cal.start || cal.end || day < cal.start) { cal.start = day; cal.end = ''; }
+    else cal.end = day;
+    paintCalendar();
+  });
+
+  $('cal-clear').addEventListener('click', () => { cal.start = cal.end = ''; applyCalendar(); });
+  $('cal-ok').addEventListener('click', applyCalendar);
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog || e.target.closest('[data-cal-close]')) dialog.close();
+  });
+
+  function applyCalendar() {
+    sEls.from.value = cal.start;
+    sEls.to.value = cal.end || cal.start;
+    updateWhenLabel();
+    dialog.close();
+    if (tripType() === 'ow' || stayValue()) runSearch();
+  }
+}
+
+function paintCalendar() {
+  for (const btn of $('cal-months').querySelectorAll('.cal-day')) {
+    const d = btn.dataset.day;
+    const end = cal.end || cal.start;
+    btn.classList.toggle('is-start', d === cal.start);
+    btn.classList.toggle('is-end', Boolean(cal.end) && cal.end !== cal.start && d === cal.end);
+    btn.classList.toggle('has-end', Boolean(cal.end) && cal.end !== cal.start);
+    btn.classList.toggle('in-range', Boolean(cal.start && cal.end) && d > cal.start && d < end);
+    btn.setAttribute('aria-pressed', d === cal.start || d === cal.end);
+  }
+  const ok = $('cal-ok');
+  $('cal-help').textContent = !cal.start
+    ? 'Touche le premier jour possible, puis le dernier.'
+    : !cal.end ? `À partir du ${formatDayShort(cal.start)} : touche maintenant le dernier jour possible.`
+    : `Du ${formatDayShort(cal.start)} au ${formatDayShort(cal.end)} : départ et retour dans cette période.`;
+  ok.textContent = cal.start ? 'Valider' : "N'importe quand";
+}
+
+function updateWhenLabel() {
+  const from = sEls.from.value;
+  const to = sEls.to.value;
+  $('s-when-label').textContent = !from
+    ? "N'importe quand"
+    : from === to ? formatDayShortWeek(from) : `${formatDayShort(from)} → ${formatDayShort(to)}`;
+  $('s-when').classList.toggle('has-value', Boolean(from));
+}
+
+// ---------------------------------------------------------------------------
 // Dates
 // ---------------------------------------------------------------------------
 function isoDay(d) {
@@ -523,3 +610,6 @@ function addDays(d, n) {
 function clamp(n, min, max) {
   return Math.min(max, Math.max(min, n));
 }
+
+// Démarrage (en dernier : toutes les constantes ci-dessus sont alors définies).
+setupSearchForm();

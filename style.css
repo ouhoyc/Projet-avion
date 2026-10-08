@@ -641,3 +641,77 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .results-intro { font-size: 16px; margin-bottom: 2px; }
 .start-hint { padding: var(--s-6) var(--s-4); }
 .list-section .search-results { margin-top: 0; }
+
+/* ==========================================================================
+   Durée du séjour (pastilles) et bouton « Quand ? »
+   ========================================================================== */
+.field-label { font-size: 13px; font-weight: 600; color: var(--text-muted); }
+.stay legend { font-size: 13px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
+.stay-chips { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-2); }
+@media (min-width: 640px) { .stay-chips { grid-template-columns: repeat(4, 1fr); } }
+.stay-chips label { display: block; min-width: 0; }
+.stay-chips input { position: absolute; opacity: 0; pointer-events: none; }
+.stay-chips span {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 42px; padding: 0 var(--s-3);
+  border-radius: var(--r-full);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 14px; font-weight: 600; white-space: nowrap;
+  cursor: pointer;
+  transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+}
+@media (hover: hover) { .stay-chips span:hover { border-color: var(--text-muted); } }
+.stay-chips input:checked + span { background: var(--text); color: var(--bg); border-color: var(--text); }
+.stay-chips input:focus-visible + span { outline: 3px solid var(--ring); outline-offset: 2px; }
+.stay-hint { margin-top: 6px; font-size: 12px; color: var(--text-muted); }
+.stay.attention .stay-chips span { animation: nudge 600ms var(--ease-out) 2; border-color: var(--tier-mid); }
+
+.picker-btn {
+  display: flex; align-items: center; gap: var(--s-2);
+  width: 100%; min-height: 44px; padding: 0 var(--s-3);
+  border: 1px solid var(--border); border-radius: var(--r-sm);
+  background: var(--surface-2);
+  font-size: 16px; text-align: left; cursor: pointer;
+}
+.picker-btn span { flex: 1; color: var(--text-muted); }
+.picker-btn.has-value span { color: var(--text); font-weight: 600; }
+.picker-btn .icon { color: var(--text-muted); }
+
+/* ==========================================================================
+   Calendrier
+   ========================================================================== */
+.cal-sheet { max-height: 88vh; overflow: hidden; }
+.cal-sheet .sheet-body { grid-template-rows: auto auto auto auto minmax(0, 1fr) auto; max-height: 88vh; padding-bottom: 0; }
+.cal-title { font-size: 22px; font-weight: 800; letter-spacing: -.02em; }
+.cal-help { font-size: 14px; color: var(--text-muted); margin-top: -4px; }
+.cal-weekdays, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); text-align: center; }
+.cal-weekdays { font-size: 12px; font-weight: 600; color: var(--text-muted); border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.cal-months { overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; }
+.cal-month h3 { font-size: 15px; font-weight: 700; margin: var(--s-4) 0 var(--s-2); }
+.cal-grid { row-gap: 4px; }
+.cal-day {
+  position: relative;
+  height: 44px; border: 0; background: none;
+  font-size: 15px; font-variant-numeric: tabular-nums; color: var(--text);
+  cursor: pointer;
+}
+.cal-day:disabled { color: var(--border); cursor: default; }
+.cal-day.in-range { background: color-mix(in srgb, var(--primary) 12%, transparent); }
+.cal-day.is-start, .cal-day.is-end { color: #fff; font-weight: 700; }
+.cal-day.is-start::before, .cal-day.is-end::before {
+  content: ""; position: absolute; z-index: -1;
+  top: 50%; left: 50%; width: 40px; height: 40px; transform: translate(-50%, -50%);
+  border-radius: 50%; background: var(--primary);
+}
+/* Bande de la période qui part du début et arrive à la fin */
+.cal-day.is-start.has-end { background: linear-gradient(90deg, transparent 50%, color-mix(in srgb, var(--primary) 12%, transparent) 50%); }
+.cal-day.is-end { background: linear-gradient(90deg, color-mix(in srgb, var(--primary) 12%, transparent) 50%, transparent 50%); }
+.cal-day { z-index: 0; }
+.cal-footer {
+  display: flex; justify-content: space-between; align-items: center; gap: var(--s-3);
+  padding: var(--s-3) 0 calc(var(--s-3) + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+.cal-footer .btn-primary { flex: 0 1 auto; }

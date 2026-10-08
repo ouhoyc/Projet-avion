@@ -62,12 +62,13 @@
 
         <fieldset class="field stay" id="s-stay">
           <legend>Combien de temps sur place ?</legend>
-          <div class="stay-options">
-            <label><input type="radio" name="stay" value="1-1"><span><strong>1 nuit</strong><small>aller-retour express</small></span></label>
-            <label><input type="radio" name="stay" value="2-4"><span><strong>Court séjour</strong><small>2 à 4 nuits</small></span></label>
-            <label><input type="radio" name="stay" value="5-8"><span><strong>Une semaine</strong><small>5 à 8 nuits</small></span></label>
-            <label><input type="radio" name="stay" value="9-21"><span><strong>Plus</strong><small>9 nuits et plus</small></span></label>
+          <div class="stay-chips">
+            <label><input type="radio" name="stay" value="1-1"><span>Une nuit</span></label>
+            <label><input type="radio" name="stay" value="2-4"><span>Court séjour</span></label>
+            <label><input type="radio" name="stay" value="5-8"><span>Une semaine</span></label>
+            <label><input type="radio" name="stay" value="9-21"><span>Plus long</span></label>
           </div>
+          <p class="stay-hint" id="stay-hint">Choisis une durée pour voir les prix</p>
         </fieldset>
 
         <div class="field">
@@ -75,13 +76,16 @@
           <div class="select"><select id="s-dest"><option value="">N'importe où</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
         </div>
 
-        <fieldset class="field dates">
-          <legend>Quand ? <span class="hint">facultatif</span></legend>
-          <div class="date-row">
-            <label class="date"><span>Du</span><input type="date" id="s-from"></label>
-            <label class="date"><span>Au</span><input type="date" id="s-to"></label>
-          </div>
-        </fieldset>
+        <div class="field">
+          <span class="field-label" id="s-when-title">Quand ?</span>
+          <button type="button" class="picker-btn" id="s-when" aria-labelledby="s-when-title s-when-label" aria-haspopup="dialog">
+            <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
+            <span id="s-when-label">N'importe quand</span>
+            <svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+          </button>
+          <input type="hidden" id="s-from">
+          <input type="hidden" id="s-to">
+        </div>
 
         <div class="field budget-field">
           <label for="s-budget">Budget max <span class="hint">facultatif</span></label>
@@ -133,6 +137,24 @@
 
   <!-- Panneau « Voir les vols » : prix vérifié en direct + réservation -->
   <dialog class="sheet" id="sheet" aria-label="Détails du vol"></dialog>
+
+  <!-- Calendrier « Quand ? » : date de début puis date de fin -->
+  <dialog class="sheet cal-sheet" id="cal-sheet" aria-labelledby="cal-title">
+    <div class="sheet-body">
+      <div class="sheet-grip" aria-hidden="true"></div>
+      <button type="button" class="sheet-close" data-cal-close aria-label="Fermer">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      <h2 class="cal-title" id="cal-title">Quand partir ?</h2>
+      <p class="cal-help" id="cal-help">Touche le premier jour possible, puis le dernier.</p>
+      <div class="cal-weekdays" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+      <div class="cal-months" id="cal-months"></div>
+      <div class="cal-footer">
+        <button type="button" class="btn btn-text" id="cal-clear">Effacer</button>
+        <button type="button" class="btn btn-primary" id="cal-ok">Valider</button>
+      </div>
+    </div>
+  </dialog>
 
   <footer class="footer">
     Données Travelpayouts / Aviasales · Mise à jour automatique chaque matin
