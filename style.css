@@ -427,6 +427,56 @@ input[type="range"] { width: 100%; height: 32px; accent-color: var(--primary); c
 .btn-text { background: none; color: var(--primary); padding: 0; min-height: 44px; justify-self: start; }
 .leaflet-popup-content .btn-primary { color: #fff; background: #1d4ed8; }
 
+/* ---------- Panneau de réservation (bas d'écran sur mobile) ---------- */
+button.deal { font: inherit; color: inherit; text-align: left; cursor: pointer; width: 100%; }
+.sheet {
+  width: 100%; max-width: 520px;
+  margin: auto auto 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--r-lg) var(--r-lg) 0 0;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, .25);
+}
+.sheet[open] { animation: sheet-in 320ms var(--ease-out); }
+.sheet::backdrop { background: rgba(10, 15, 28, .55); backdrop-filter: blur(2px); }
+@keyframes sheet-in { from { transform: translateY(100%); } }
+@media (min-width: 640px) { .sheet { margin: auto; border-radius: var(--r-lg); } }
+.sheet-body { position: relative; padding: var(--s-3) var(--s-5) calc(var(--s-5) + env(safe-area-inset-bottom)); display: grid; gap: var(--s-3); }
+.sheet-grip { width: 40px; height: 5px; border-radius: var(--r-full); background: var(--border); margin: 0 auto var(--s-2); }
+.sheet-close {
+  position: absolute; top: var(--s-2); right: var(--s-3);
+  display: grid; place-items: center; width: 44px; height: 44px;
+  border: 0; border-radius: var(--r-full); background: var(--surface-2); cursor: pointer;
+}
+.sheet-route { display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
+.sheet-city { font-size: 26px; font-weight: 800; letter-spacing: -.02em; padding-right: 48px; }
+.sheet-date { display: flex; align-items: center; gap: 6px; color: var(--text-muted); font-size: 14px; }
+.live {
+  min-height: 112px;
+  display: grid; align-content: center; gap: 4px;
+  padding: var(--s-4);
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+.live-loading { display: flex; align-items: center; gap: var(--s-3); color: var(--text-muted); font-weight: 500; }
+.spinner {
+  width: 20px; height: 20px; border-radius: 50%;
+  border: 3px solid var(--border); border-top-color: var(--primary);
+  animation: spin 800ms linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.live-label { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; color: var(--tier-low); text-transform: uppercase; letter-spacing: .04em; }
+.live-label.warn { color: var(--tier-mid); }
+.live-label.muted { color: var(--text-muted); }
+.live-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--tier-low); box-shadow: 0 0 0 4px color-mix(in srgb, var(--tier-low) 25%, transparent); }
+.live-price { font-size: 40px; font-weight: 800; letter-spacing: -.03em; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.live-details { font-size: 14px; color: var(--text-muted); }
+.sheet-seen { font-size: 13px; color: var(--text-muted); }
+.btn-block { width: 100%; min-height: 52px; font-size: 16px; }
+.sheet-note { font-size: 12px; color: var(--text-muted); text-align: center; }
+
 /* ---------- États ---------- */
 .skeleton { min-height: 168px; animation: none; }
 .skeleton::before { display: none; }

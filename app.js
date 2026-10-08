@@ -33,6 +33,15 @@ const PRICE_ZOOM = 6;   // à partir de ce zoom, les prix s'affichent sur la car
 const NEAR_KM = 4000;   // cadrage initial : destinations à moins de 4 000 km
 const DEALS_COUNT = 8;  // nombre de « meilleures affaires » en haut de page
 
+// Vérification du prix en direct (fonction serverless api/prix.js sur Vercel).
+const LIVE_PRICE_URL = 'https://projet-avion.vercel.app/api/prix';
+
+// Réservation sur Kiwi.com (en français, en euros, vols directs).
+// Quand le programme Kiwi.com est rejoint dans Travelpayouts, coller ici le modèle
+// de lien d'affiliation fourni, avec {url} à la place du lien Kiwi encodé.
+// Exemple : 'https://c111.travelpayouts.com/click?shmarker=787111&promo_id=3791&source_type=customlink&type=click&custom_url={url}'
+const KIWI_AFFILIATE_TEMPLATE = '';
+
 const state = { month: '' };
 let data = null;
 let map = null;
@@ -88,8 +97,8 @@ function renderDeals() {
   const top = [...data.destinations].sort((a, b) => a.price - b.price).slice(0, DEALS_COUNT);
   els.deals.innerHTML = top.map((d, i) => `
     <li>
-      <a class="deal" href="${escapeHtml(d.link)}" target="_blank" rel="sponsored noopener"
-         aria-label="${escapeHtml(`${d.city}, ${d.country} : à partir de ${fmtPrice.format(d.price)} le ${formatDay(d.date)}. Voir les vols`)}">
+      <button type="button" class="deal" data-book="${escapeHtml(d.code)}" data-m=""
+         aria-label="${escapeHtml(`${d.city}, ${d.country} : dernier prix repéré ${fmtPrice.format(d.price)} le ${formatDay(d.date)}. Vérifier le prix et réserver`)}">
         <span class="deal-top"><span class="deal-rank">${i + 1}</span>${flag(d.country_code)} ${escapeHtml(d.country)}</span>
         <span class="deal-city">${escapeHtml(d.city)}</span>
         <span class="deal-bottom">
@@ -99,7 +108,7 @@ function renderDeals() {
           </span>
           <span class="deal-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </span>
-      </a>
+      </button>
     </li>`).join('');
 }
 
@@ -220,7 +229,7 @@ function renderCards(rows) {
           <h3 class="card-city">${escapeHtml(dest.city)}<span class="code">${escapeHtml(dest.code)}</span></h3>
           <p class="card-sub">${escapeHtml(dest.country)}${dest.airport ? ' · ' + escapeHtml(dest.airport) : ''}</p>
         </div>
-        <p class="card-price"><small>à partir de</small><strong>${fmtPrice.format(offer.price)}</strong></p>
+        <p class="card-price"><small>prix repéré</small><strong>${fmtPrice.format(offer.price)}</strong></p>
       </div>
       <ul class="meta">
         <li><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>${escapeHtml(formatDay(offer.date))}</li>
@@ -229,9 +238,9 @@ function renderCards(rows) {
         ${offer.found_at ? `<li class="seen"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg>Prix vu ${seenLabel(offer.found_at)}</li>` : ''}
       </ul>
       <div class="card-actions">
-        <a class="btn btn-primary" href="${escapeHtml(offer.link)}" target="_blank" rel="sponsored noopener">
+        <button type="button" class="btn btn-primary" data-book="${escapeHtml(dest.code)}" data-m="${escapeHtml(state.month)}">
           Voir les vols <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
-        </a>
+        </button>
         <button class="btn btn-secondary" type="button" data-show="${escapeHtml(dest.code)}" aria-label="Voir ${escapeHtml(dest.city)} sur la carte">
           <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
         </button>
@@ -314,9 +323,9 @@ function renderMarkers(rows, fitMap) {
     marker.bindPopup(`
       <div class="popup-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</div>
       <div class="popup-meta">${escapeHtml(dest.country)} · ${escapeHtml(formatDay(offer.date))} · ${escapeHtml(offer.airline)}</div>
-      <div class="popup-price"><small>à partir de</small> ${fmtPrice.format(offer.price)}</div>
+      <div class="popup-price"><small>prix repéré</small> ${fmtPrice.format(offer.price)}</div>
       ${offer.found_at ? `<div class="popup-meta">Prix vu ${seenLabel(offer.found_at)}</div>` : ''}
-      <a class="btn btn-primary" href="${escapeHtml(offer.link)}" target="_blank" rel="sponsored noopener">Voir les vols</a>`,
+      <button type="button" class="btn btn-primary" data-book="${escapeHtml(dest.code)}" data-m="${escapeHtml(state.month)}">Voir les vols</button>`,
       { autoPanPaddingTopLeft: [56, 16], autoPanPaddingBottomRight: [16, 16], maxWidth: 260 });
     marker.addTo(markersLayer);
     markersByCode.set(dest.code, marker);
@@ -329,6 +338,88 @@ function renderMarkers(rows, fitMap) {
   if (fitMap && points.length > 1) {
     map.fitBounds(points, { padding: [20, 20], maxZoom: 5 });
   }
+}
+
+// ---------------------------------------------------------------------------
+// Panneau de réservation : vérifie le prix en direct puis envoie sur Kiwi.com
+// ---------------------------------------------------------------------------
+const sheet = $('sheet');
+let liveRequest = 0;
+
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-book]');
+  if (btn) openSheet(btn.dataset.book, btn.dataset.m || '');
+});
+sheet.addEventListener('click', (e) => {
+  // Clic sur le fond sombre ou sur « Fermer » : on ferme.
+  if (e.target === sheet || e.target.closest('[data-close]')) sheet.close();
+});
+
+function openSheet(code, month) {
+  const dest = data.destinations.find((d) => d.code === code);
+  if (!dest) return;
+  const offer = offerFor(dest, month) || dest;
+  const day = offer.date.slice(0, 10);
+  const link = kiwiLink(data.origin.code, dest.code, day);
+
+  sheet.innerHTML = `
+    <div class="sheet-body">
+      <div class="sheet-grip" aria-hidden="true"></div>
+      <button type="button" class="sheet-close" data-close aria-label="Fermer">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      <p class="sheet-route">${escapeHtml(data.origin.city)} <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg> ${escapeHtml(dest.code)}</p>
+      <h2 class="sheet-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h2>
+      <p class="sheet-date"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>${escapeHtml(formatDay(offer.date))} · aller simple · vol direct</p>
+
+      <div class="live" id="live" aria-live="polite">
+        <div class="live-loading"><span class="spinner" aria-hidden="true"></span>Vérification du prix en direct…</div>
+      </div>
+
+      <p class="sheet-seen">Dernier prix repéré : <strong>${fmtPrice.format(offer.price)}</strong>${offer.found_at ? ` (vu ${seenLabel(offer.found_at)})` : ''}, ${escapeHtml(offer.airline)}</p>
+
+      <a class="btn btn-primary btn-block" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">
+        Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+      <p class="sheet-note">Tu seras redirigé vers Kiwi.com (en français, prix en euros) pour choisir ton vol et payer.</p>
+    </div>`;
+  sheet.showModal();
+  checkLivePrice(dest, day);
+}
+
+async function checkLivePrice(dest, day) {
+  const id = ++liveRequest;
+  const box = () => (id === liveRequest ? $('live') : null); // ignore une réponse arrivée trop tard
+  let result = null;
+  try {
+    const res = await fetch(`${LIVE_PRICE_URL}?to=${encodeURIComponent(dest.code)}&date=${day}`);
+    if (res.ok) result = await res.json();
+  } catch { /* hors ligne ou service indisponible */ }
+
+  const el = box();
+  if (!el) return;
+  if (result?.status === 'ok') {
+    const price = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: result.currency || 'EUR', maximumFractionDigits: 0 }).format(result.price);
+    const details = [result.airline, result.departure ? `départ ${String(result.departure).slice(11, 16)}` : null, result.duration ? formatDuration(result.duration) : null]
+      .filter(Boolean).map(escapeHtml).join(' · ');
+    el.innerHTML = `
+      <p class="live-label"><span class="live-dot" aria-hidden="true"></span>Prix vérifié à l'instant</p>
+      <p class="live-price">${price}</p>
+      ${details ? `<p class="live-details">${details}</p>` : ''}`;
+  } else if (result?.status === 'none') {
+    el.innerHTML = `<p class="live-label warn">Plus de vol direct trouvé ce jour-là</p>
+      <p class="live-details">Les places à ce prix sont peut-être parties. Kiwi.com te proposera les autres dates.</p>`;
+  } else {
+    el.innerHTML = `<p class="live-label muted">Vérification en direct indisponible</p>
+      <p class="live-details">Le prix exact s'affichera sur Kiwi.com.</p>`;
+  }
+}
+
+// Lien de recherche Kiwi.com (avec le suivi d'affiliation une fois configuré).
+function kiwiLink(from, to, day) {
+  const params = new URLSearchParams({ from, to, departure: day, lang: 'fr', currency: 'EUR', stopNumber: '0' });
+  const url = `https://www.kiwi.com/deep?${params}`;
+  return KIWI_AFFILIATE_TEMPLATE ? KIWI_AFFILIATE_TEMPLATE.replace('{url}', encodeURIComponent(url)) : url;
 }
 
 // ---------------------------------------------------------------------------
