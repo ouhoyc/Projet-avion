@@ -31,6 +31,18 @@ const API = 'https://api.travelpayouts.com/aviasales/v3/prices_for_dates';
 const REF = 'https://api.travelpayouts.com/data/fr';
 const AVIASALES = 'https://www.aviasales.com';
 
+// Corrections de quelques noms de villes mal traduits dans les fichiers de
+// référence Travelpayouts (clé = code IATA de la ville).
+const CITY_NAMES = {
+  MAD: 'Madrid',
+  BUD: 'Budapest',
+  TCI: 'Tenerife',
+  LPA: 'Las Palmas de Gran Canaria',
+  FEZ: 'Fès',
+  FNC: 'Funchal (Madère)',
+  PMI: 'Palma de Majorque',
+};
+
 // ---------------------------------------------------------------------------
 // 2. Programme principal
 // ---------------------------------------------------------------------------
@@ -65,8 +77,8 @@ async function main() {
   const data = {
     origin: {
       code: CONFIG.origin,
-      city: originCity?.name || originAirport?.name || CONFIG.origin,
-      country: ref.countries.get(originCity?.country_code)?.name || '',
+      city: CITY_NAMES[originCity?.code] || nameOf(originCity) || nameOf(originAirport) || CONFIG.origin,
+      country: nameOf(ref.countries.get(originCity?.country_code)),
       lat: (originAirport || originCity)?.coordinates?.lat ?? null,
       lon: (originAirport || originCity)?.coordinates?.lon ?? null,
     },
@@ -176,10 +188,10 @@ function buildDestinations(tickets, ref) {
     destinations.push({
       code,
       city_code: city?.code || list[0].destination,
-      city: city?.name || airport?.name || code,
-      airport: airport?.name || '',
+      city: CITY_NAMES[city?.code] || nameOf(city) || nameOf(airport) || code,
+      airport: nameOf(airport),
       country_code: city?.country_code || airport?.country_code || '',
-      country: ref.countries.get(city?.country_code || airport?.country_code)?.name || '',
+      country: nameOf(ref.countries.get(city?.country_code || airport?.country_code)),
       lat: point.lat,
       lon: point.lon,
       ...best,       // prix minimum, date, compagnie, durée, lien
@@ -190,12 +202,17 @@ function buildDestinations(tickets, ref) {
   return destinations.sort((a, b) => a.price - b.price);
 }
 
+// Nom en français si disponible, sinon en anglais.
+function nameOf(item) {
+  return item?.name || item?.name_translations?.en || '';
+}
+
 function formatTicket(t, ref) {
   return {
     price: Math.round(t.price),
     date: t.departure_at,                          // ex. 2026-11-14T07:05:00+01:00
     airline_code: t.airline,
-    airline: ref.airlines.get(t.airline)?.name || t.airline,
+    airline: nameOf(ref.airlines.get(t.airline)) || t.airline,
     flight_number: t.flight_number ? `${t.airline}${t.flight_number}` : null,
     duration: t.duration_to || t.duration || null, // en minutes, si disponible
     link: affiliateLink(t.link),
