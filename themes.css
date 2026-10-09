@@ -148,7 +148,7 @@ html[data-da^="pop"] {
 [data-da^="pop"] .btn-secondary-wide { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); color: var(--ink); font-weight: 700; }
 
 /* Carte et bulles */
-[data-da^="pop"] .legend { border-top: 2px solid var(--ink); }
+[data-da^="pop"] .legend { border-bottom: 2px solid var(--ink); }
 [data-da^="pop"] .maplibregl-popup-content { border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
 [data-da^="pop"] .maplibregl-ctrl-group { border: 2px solid var(--ink); box-shadow: 2px 2px 0 var(--ink); }
 [data-da^="pop"] .live { background: var(--surface-2); border: 2px solid var(--ink); }
