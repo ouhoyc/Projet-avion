@@ -18,7 +18,6 @@ const fmtRelative = new Intl.RelativeTimeFormat('fr-FR', { numeric: 'auto' });
 
 // Fond de carte (recoloré ensuite avec les couleurs --map-… du site).
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
-const PRICE_ZOOM = 5;   // à partir de ce zoom, les prix s'affichent sur la carte
 const NEAR_KM = 4000;   // cadrage initial : destinations à moins de 4 000 km
 
 // Vérification du prix en direct (fonction serverless api/prix.js sur Vercel).
@@ -179,9 +178,9 @@ function addPriceLayers() {
   map.addSource('dests', { type: 'geojson', data: empty });
   map.addSource('origin', { type: 'geojson', data: empty });
 
-  // Points de couleur (dézoomé)…
+  // Points de couleur pour toutes les destinations…
   map.addLayer({
-    id: 'dest-dots', type: 'circle', source: 'dests', maxzoom: PRICE_ZOOM,
+    id: 'dest-dots', type: 'circle', source: 'dests',
     paint: {
       'circle-color': ['match', ['get', 'tier'], 'low', tiers.low, 'mid', tiers.mid, tiers.high],
       'circle-radius': ['interpolate', ['linear'], ['zoom'], 2, 5, 5, 7],
@@ -189,17 +188,18 @@ function addPriceLayers() {
       'circle-stroke-width': 2,
     },
   });
-  // …puis pastilles avec le prix (zoomé).
+  // …et le prix par-dessus, dès le zoom de départ. Quand deux prix se chevauchent, le moins
+  // cher reste affiché (l'autre garde son point) ; en zoomant, les autres prix apparaissent.
   map.addLayer({
-    id: 'dest-prices', type: 'symbol', source: 'dests', minzoom: PRICE_ZOOM,
+    id: 'dest-prices', type: 'symbol', source: 'dests',
     layout: {
       'icon-image': ['concat', 'pill-', ['get', 'tier']],
       'icon-text-fit': 'both',
       'text-field': ['get', 'label'],
       'text-font': ['Noto Sans Bold'],
-      'text-size': 12,
-      'icon-allow-overlap': true,
-      'text-allow-overlap': true,
+      'text-size': ['interpolate', ['linear'], ['zoom'], 2, 10, 5, 12],
+      'icon-allow-overlap': false,
+      'text-allow-overlap': false,
       'symbol-sort-key': ['get', 'price'],
     },
     paint: { 'text-color': '#ffffff' },
