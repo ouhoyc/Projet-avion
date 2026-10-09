@@ -12,6 +12,7 @@
 const NIGHTS_SPREAD = 2;     // suggestions : jusqu'à 2 nuits de moins / de plus que la durée choisie
 const MAX_DATE_OPTIONS = 8;  // dates proposées pour une destination précise
 const PAGE_SIZE = 10;        // villes affichées avant « Voir plus »
+const MONTHS_AHEAD = 12;     // barre des mois : mois en cours + 11 suivants
 const STAY_KEY = 'vols-lyon-sejour'; // durée mémorisée dans le navigateur
 
 const STAY_LABELS = { '1-1': 'une nuit', '2-4': 'court séjour', '5-8': 'une semaine', '9-21': '9 nuits et plus' };
@@ -31,13 +32,18 @@ const sEls = {
   refineCountry: $('r-country'),
   sort: $('r-sort'),
   mapCaption: $('map-caption'),
+  monthsBar: $('months-bar'),
+  months: $('months'),
   legendLow: $('legend-low'),
   legendMid: $('legend-mid'),
   legendHigh: $('legend-high'),
 };
 
 // Résultats de la dernière recherche. `view` = indices affichés (après pays / tri).
-const searchState = { results: [], view: [], query: null, shown: 0, airlines: {}, firstMap: true };
+// `base` = recherche sur toute la période ; `month` = mois choisi dans la barre ('' = tous).
+const searchState = { results: [], view: [], query: null, base: null, daily: null, month: '', months: [], shown: 0, airlines: {}, firstMap: true };
+const fmtMonthShort = new Intl.DateTimeFormat('fr-FR', { month: 'short' });
+const fmtMonthLong = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
 
 let dailyPromise = null;
 function loadDaily() {
@@ -115,6 +121,29 @@ function setupSearchForm() {
   sEls.results.addEventListener('mouseleave', () => {
     sEls.results.querySelector('.is-hovered')?.classList.remove('is-hovered');
     highlightOnMap(-1);
+  });
+
+  // Barre des mois : toucher un mois, les flèches, ou glisser la liste à gauche / à droite.
+  sEls.months.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-month]');
+    if (btn) selectMonth(btn.dataset.month);
+  });
+  sEls.monthsBar.addEventListener('click', (e) => {
+    const arrow = e.target.closest('[data-month-step]');
+    if (arrow) stepMonth(Number(arrow.dataset.monthStep));
+  });
+  let touch = null;
+  sEls.results.addEventListener('touchstart', (e) => {
+    const t = e.touches[0];
+    touch = e.touches.length === 1 ? { x: t.clientX, y: t.clientY } : null;
+  }, { passive: true });
+  sEls.results.addEventListener('touchend', (e) => {
+    if (!touch || sEls.monthsBar.hidden) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touch.x;
+    const dy = t.clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 2) stepMonth(dx < 0 ? 1 : -1);
   });
 
   document.addEventListener('data-ready', () => {
@@ -196,24 +225,51 @@ async function runSearch() {
     datesGiven: Boolean(sEls.from.value || sEls.to.value),
   };
   if (query.end < query.start) [query.start, query.end] = [query.end, query.start];
+  query.outEnd = query.end; // dernier jour de départ possible
 
-  // Regroupe les aéroports par ville (ex. Londres = Gatwick + Luton).
-  const byCity = new Map();
-  for (const dest of data.destinations) {
-    if (query.city && dest.city_code !== query.city) continue;
-    if (query.country && dest.country !== query.country) continue;
-    if (!daily.dests[dest.code]) continue;
-    if (!byCity.has(dest.city_code)) byCity.set(dest.city_code, []);
-    byCity.get(dest.city_code).push(dest);
+  // Sans dates : barre des mois, avec le meilleur prix de chaque mois.
+  const months = [];
+  if (!query.datesGiven) {
+    const first = parseDay(query.start);
+    for (let i = 0; i < MONTHS_AHEAD; i++) {
+      const key = isoDay(new Date(first.getFullYear(), first.getMonth() + i, 1)).slice(0, 7);
+      const found = findResults(monthQuery(query, key), daily);
+      months.push({ key, best: found.length ? Math.min(...found.map((c) => bestOf(c).total)) : null });
+    }
   }
+  if (!months.some((m) => m.key === searchState.month)) searchState.month = '';
+  Object.assign(searchState, { base: query, daily, months, airlines: daily.airlines || {} });
+  showMonth(true);
+}
 
-  const results = [];
-  for (const airports of byCity.values()) {
-    const city = searchCity(airports, daily, query);
-    if (city) results.push(city);
-  }
+// Recherche limitée aux départs d'un mois (le retour peut tomber le mois suivant).
+function monthQuery(q, key) {
+  const [y, m] = key.split('-').map(Number);
+  const start = isoDay(new Date(y, m - 1, 1));
+  const last = isoDay(new Date(y, m, 0));
+  const end = isoDay(addDays(parseDay(last), q.type === 'rt' ? q.maxN + NIGHTS_SPREAD : 0));
+  return { ...q, month: key, start: start > q.start ? start : q.start, outEnd: last, end: end < q.end ? end : q.end };
+}
 
-  Object.assign(searchState, { results, query, airlines: daily.airlines || {} });
+function selectMonth(key) {
+  if (key === searchState.month) return;
+  searchState.month = key;
+  showMonth(false);
+}
+
+function stepMonth(step) {
+  const keys = ['', ...searchState.months.map((m) => m.key)];
+  const next = keys.indexOf(searchState.month) + step;
+  if (next >= 0 && next < keys.length) selectMonth(keys[next]);
+}
+
+// Affiche les résultats du mois choisi (ou de toute la période) : barre, liste et carte.
+function showMonth(fitMap) {
+  const { base, daily } = searchState;
+  const query = searchState.month ? monthQuery(base, searchState.month) : base;
+  const results = findResults(query, daily);
+  Object.assign(searchState, { results, query });
+  renderMonths();
 
   // Filtre pays sous les résultats : inutile si un pays est déjà choisi dans la recherche.
   const current = sEls.refineCountry.value;
@@ -223,7 +279,53 @@ async function runSearch() {
   sEls.refineCountry.closest('.select').hidden = Boolean(query.country);
   sEls.refine.hidden = results.length < 2;
 
-  applyView(true);
+  applyView(fitMap);
+}
+
+// Toutes les villes qui ont au moins une option pour cette recherche.
+// Les aéroports d'une même ville sont regroupés (ex. Londres = Gatwick + Luton).
+function findResults(query, daily) {
+  const byCity = new Map();
+  for (const dest of data.destinations) {
+    if (query.city && dest.city_code !== query.city) continue;
+    if (query.country && dest.country !== query.country) continue;
+    if (!daily.dests[dest.code]) continue;
+    if (!byCity.has(dest.city_code)) byCity.set(dest.city_code, []);
+    byCity.get(dest.city_code).push(dest);
+  }
+  const results = [];
+  for (const airports of byCity.values()) {
+    const city = searchCity(airports, daily, query);
+    if (city) results.push(city);
+  }
+  return results;
+}
+
+// Barre des mois : « Tous » puis un bouton par mois avec son meilleur prix.
+function renderMonths() {
+  const { months, month } = searchState;
+  sEls.monthsBar.hidden = !months.length;
+  if (!months.length) return;
+  const thisYear = new Date().getFullYear();
+  const overall = months.reduce((min, m) => (m.best != null && (min == null || m.best < min) ? m.best : min), null);
+  const button = (key, label, title, price) => `
+    <button type="button" class="month${price == null ? ' is-empty' : ''}" data-month="${key}" aria-pressed="${key === month}" title="${escapeHtml(title)}">
+      <span class="month-name">${escapeHtml(label)}</span>
+      <span class="month-price">${price == null ? '—' : fmtPrice.format(price)}</span>
+    </button>`;
+  sEls.months.innerHTML = button('', 'Tous', '12 prochains mois', overall) + months.map((m) => {
+    const date = parseDay(`${m.key}-01`);
+    const name = capitalize(fmtMonthShort.format(date).replace('.', ''));
+    const label = date.getFullYear() === thisYear ? name : `${name} ${String(date.getFullYear()).slice(2)}`;
+    return button(m.key, label, capitalize(fmtMonthLong.format(date)), m.best);
+  }).join('');
+  const keys = ['', ...months.map((m) => m.key)];
+  const index = keys.indexOf(month);
+  sEls.monthsBar.querySelector('[data-month-step="-1"]').disabled = index <= 0;
+  sEls.monthsBar.querySelector('[data-month-step="1"]').disabled = index >= keys.length - 1;
+  // Garde le mois choisi visible dans la barre.
+  const current = sEls.months.querySelector('[aria-pressed="true"]');
+  if (current) sEls.months.scrollTo({ left: current.offsetLeft - (sEls.months.clientWidth - current.offsetWidth) / 2, behavior: 'smooth' });
 }
 
 // Toutes les options d'une ville (tous aéroports confondus), triées par prix.
@@ -262,7 +364,7 @@ function searchCity(airports, daily, q) {
 // Aller simple : chaque jour de départ dans la période.
 function oneWayCombos(prices, q) {
   return Object.entries(prices.o)
-    .filter(([day]) => day >= q.start && day <= q.end)
+    .filter(([day]) => day >= q.start && day <= q.outEnd)
     .map(([day, info]) => ({ total: info[0], nights: null, out: leg(day, info) }));
 }
 
@@ -272,7 +374,7 @@ function roundTripCombos(prices, q) {
   const maxN = q.maxN + NIGHTS_SPREAD;
   const combos = [];
   for (const [day, outInfo] of Object.entries(prices.o)) {
-    if (day < q.start || day > q.end) continue;
+    if (day < q.start || day > q.outEnd) continue;
     for (let n = minN; n <= maxN; n++) {
       const back = isoDay(addDays(parseDay(day), n));
       if (back > q.end) break;
@@ -314,7 +416,8 @@ function applyView(fitMap) {
 function describeQuery(q) {
   const parts = [q.type === 'rt' ? `aller-retour, ${STAY_LABELS[q.stay] || ''}` : 'aller simple'];
   if (q.country && !q.city) parts.push(q.country);
-  parts.push(q.datesGiven ? `du ${formatDayShort(q.start)} au ${formatDayShort(q.end)}` : '12 prochains mois');
+  if (q.month) parts.push(`départ en ${fmtMonthLong.format(parseDay(`${q.month}-01`))}`);
+  else parts.push(q.datesGiven ? `du ${formatDayShort(q.start)} au ${formatDayShort(q.end)}` : '12 prochains mois');
   if (Number.isFinite(q.budget)) parts.push(`${fmtPrice.format(q.budget)} max`);
   return parts.join(' · ');
 }
@@ -330,7 +433,9 @@ function renderResults() {
       <div class="empty">
         <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
         <p>Aucun vol direct${roundTrip ? ' aller-retour' : ''} repéré (${escapeHtml(describeQuery(q))}).</p>
-        <p class="hint">Élargis la période, le budget ou change la durée : ces prix viennent des recherches récentes des voyageurs, certains jours n'en ont pas.</p>
+        <p class="hint">${q.month
+          ? 'Aucun prix repéré ce mois-ci. Ces prix viennent des recherches récentes des voyageurs : au-delà de 2-3 mois, il y en a peu. Essaie un autre mois.'
+          : 'Élargis la période, le budget ou change la durée : ces prix viennent des recherches récentes des voyageurs, certains jours n\'en ont pas.'}</p>
       </div>`;
     return;
   }

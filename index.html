@@ -156,6 +156,12 @@
         <h2 id="results-title">Destinations</h2>
         <p class="result-count" id="results-count" aria-live="polite"></p>
       </div>
+      <!-- Mois de départ (quand « Quand ? » est vide) : on glisse pour changer de mois -->
+      <div class="months-bar" id="months-bar" hidden>
+        <button type="button" class="months-arrow" data-month-step="-1" aria-label="Mois précédent"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="months" id="months" role="group" aria-label="Mois de départ"></div>
+        <button type="button" class="months-arrow next" data-month-step="1" aria-label="Mois suivant"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+      </div>
       <div class="refine" id="refine" hidden>
         <div class="select"><select id="r-country" aria-label="Pays"><option value="">Tous les pays</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
         <div class="select"><select id="r-sort" aria-label="Trier par">

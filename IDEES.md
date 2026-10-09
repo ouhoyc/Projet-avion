@@ -105,3 +105,6 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   mémorisée), pays + tri au-dessus des résultats ; anciens filtres mois/budget retirés
 - ✅ « Où ? » : pays (ordre alphabétique) puis ville facultative
 - ✅ Carte refaite avec MapLibre seul (points fixes au zoom, couleurs du site)
+- ✅ Barre des mois au-dessus des destinations (quand « Quand ? » est vide) : meilleur prix de
+  chaque mois, on touche un mois ou on glisse la liste pour changer de mois sans toucher aux
+  réglages. Utilise seulement les prix déjà repérés (aucune recherche en direct en plus).
