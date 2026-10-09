@@ -506,7 +506,7 @@ function updateMap(fit) {
 }
 
 function tripData(o) {
-  return { code: o.code, out: o.out.day, ret: o.ret?.day || null, outPrice: o.out.price, retPrice: o.ret?.price ?? null };
+  return { code: o.code, out: o.out.day, ret: o.ret?.day || null, outPrice: o.out.price, retPrice: o.ret?.price ?? null, dur: o.out.duration || null };
 }
 
 function cityCardHtml(city, index) {
@@ -524,17 +524,16 @@ function cityCardHtml(city, index) {
   const best = bestOf(city);
 
   return `
-    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}${searchState.villes[dest.city_code]?.photo ? ' has-photo' : ''}" data-result="${index}">
-      ${photoHtml(dest)}
+    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}" data-result="${index}">
       <div class="card-top">
-        <span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>
+        ${thumbHtml(dest)}
         <div class="card-title">
           <h3 class="card-city">${escapeHtml(dest.city)}</h3>
           <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''}</p>
           <p class="card-route">${escapeHtml(data.origin.code)} ✈ ${escapeHtml(best.code)}</p>
         </div>
       </div>
-      ${inspirationHtml(dest, best)}
+      ${factsHtml(dest, best.out.day, best.out.duration, false)}
       ${mainOptions.map((o) => optionHtml(o, city)).join('')}
       ${chips.length ? `
         <div class="chips-alt">
@@ -547,34 +546,62 @@ function cityCardHtml(city, index) {
     </li>`;
 }
 
-// Photo, « pourquoi y aller », météo du mois du départ et durée de vol.
+// Fiche « donner envie » : vignette photo sur la carte de résultat ; grande photo et
+// « pourquoi y aller » dans le panneau « Voir ».
 const MONTH_NAMES = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-function photoHtml(dest) {
-  const v = searchState.villes[dest.city_code];
-  if (!v?.photo) return '';
-  const p = v.photo;
+
+function thumbHtml(dest) {
+  const p = searchState.villes[dest.city_code]?.photo;
+  if (!p) return `<span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>`;
   return `
-    <figure class="card-photo">
-      <img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || dest.city)}" loading="lazy" decoding="async">
+    <span class="thumb">
+      <img src="${escapeHtml(p.src)}" alt="" loading="lazy" decoding="async">
+      <span class="thumb-flag" aria-hidden="true">${flag(dest.country_code)}</span>
+    </span>`;
+}
+
+function photoHtml(dest) {
+  const p = searchState.villes[dest.city_code]?.photo;
+  if (!p) return '';
+  return `
+    <figure class="sheet-photo">
+      <img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || dest.city)}" decoding="async">
       <figcaption><a href="${escapeHtml(p.page)}" target="_blank" rel="noopener">Photo : ${escapeHtml(p.author)}, ${escapeHtml(p.license)}</a></figcaption>
     </figure>`;
 }
 
-function inspirationHtml(dest, option) {
-  const v = searchState.villes[dest.city_code];
-  if (!v) return '';
+// Temps typique d'un mois, d'après les heures de soleil par jour et les jours de pluie.
+const DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+function monthWeather(c, m) {
+  const rain = c.pluie?.[m];
+  const sun = c.soleil ? c.soleil[m] / DAYS_IN_MONTH[m] : null;
+  if (sun == null || rain == null) return { icon: '🌡️', label: '' };
+  if (sun >= 8 && rain <= 7) return { icon: '☀️', label: 'ensoleillé' };
+  if (sun >= 6 && rain <= 9) return { icon: '🌤️', label: 'plutôt ensoleillé' };
+  if (sun >= 5.5 && rain >= 10) return { icon: '🌦️', label: 'soleil et averses' };
+  if (rain >= 11) return { icon: '🌧️', label: 'pluvieux' };
+  if (sun >= 4) return { icon: '⛅', label: 'plutôt nuageux' };
+  return { icon: '☁️', label: 'plutôt couvert' };
+}
+
+// Météo moyenne du mois du départ + durée de vol. `long` : version détaillée (panneau).
+function factsHtml(dest, day, duration, long) {
   const facts = [];
-  const c = v.climate;
+  const c = searchState.villes[dest.city_code]?.climate;
   if (c) {
-    const m = parseDay(option.out.day).getMonth();
+    const m = parseDay(day).getMonth();
+    const w = monthWeather(c, m);
+    const lo = c.min ? Math.round(c.min[m]) : null;
+    const hi = Math.round(c.max[m]);
+    const temps = lo != null ? `${lo} à ${hi} °C` : `${hi} °C`;
     const rain = c.pluie?.[m];
-    const icon = rain == null ? '🌡️' : rain <= 6 ? '☀️' : rain <= 10 ? '🌤️' : '🌧️';
-    facts.push(`<span class="fact" title="Moyennes ${escapeHtml(c.source || '')}">${icon} ${Math.round(c.max[m])}° en ${MONTH_NAMES[m]}${rain != null ? ` · ${rain} j de pluie` : ''}</span>`);
+    const text = long
+      ? `En ${MONTH_NAMES[m]}, en moyenne : ${w.label ? `${w.label}, ` : ''}${temps}${rain != null ? `, ${rain} jours de pluie` : ''}`
+      : `${w.label ? capitalize(w.label) + ' · ' : ''}${lo != null ? `${lo}–${hi}°` : `${hi}°`} en ${fmtMonthShort.format(parseDay(day))}`;
+    facts.push(`<span title="Moyennes ${escapeHtml(c.source || '')}">${w.icon} ${escapeHtml(text)}</span>`);
   }
-  if (option.out.duration) facts.push(`<span class="fact">✈️ ${escapeHtml(formatDuration(option.out.duration))} de vol</span>`);
-  return `
-    ${v.pitch ? `<p class="card-pitch">${escapeHtml(v.pitch)}</p>` : ''}
-    ${facts.length ? `<div class="card-facts">${facts.join('')}</div>` : ''}`;
+  if (duration) facts.push(`<span>✈️ ${escapeHtml(formatDuration(duration))}${long ? ' de vol' : ''}</span>`);
+  return facts.length ? `<p class="${long ? 'sheet-facts' : 'card-facts'}">${facts.join('')}</p>` : '';
 }
 
 function optionHtml(o, city) {
@@ -637,6 +664,9 @@ function openTripSheet(trip) {
       </button>
       <p class="sheet-route">${escapeHtml(origin.city)} <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg> ${escapeHtml(dest.code)}${trip.ret ? ' · aller-retour' : ''}</p>
       <h2 class="sheet-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h2>
+      ${photoHtml(dest)}
+      ${searchState.villes[dest.city_code]?.pitch ? `<p class="sheet-pitch">${escapeHtml(searchState.villes[dest.city_code].pitch)}</p>` : ''}
+      ${factsHtml(dest, trip.out, trip.dur, true)}
 
       <div class="live" id="live-out" aria-live="polite">${liveLoading('Aller', trip.out)}</div>
       ${trip.ret ? `<div class="live" id="live-ret" aria-live="polite">${liveLoading('Retour', trip.ret)}</div>` : ''}

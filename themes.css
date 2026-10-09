@@ -124,8 +124,9 @@ html[data-da^="pop"] {
 /* Fiches destination = billets */
 [data-da^="pop"] .card { border: 2px solid var(--ink); box-shadow: var(--shadow-md); animation: none; }
 [data-da^="pop"] .card::before { display: none; }
-[data-da^="pop"] .card-photo { border-bottom: 2px solid var(--ink); }
-[data-da^="pop"] .fact { border: 1.5px solid var(--ink); background: var(--paper); }
+[data-da^="pop"] .thumb img, [data-da^="pop"] .sheet-photo { border: 2px solid var(--ink); }
+[data-da^="pop"] .thumb-flag { border: 2px solid var(--ink); box-shadow: none; }
+[data-da^="pop"] .sheet-facts span { border: 1.5px solid var(--ink); background: var(--paper); }
 [data-da^="pop"] .flag { background: var(--surface-2); border: 2px solid var(--ink); }
 [data-da^="pop"] .card-city { font-weight: 700; font-size: 22px; letter-spacing: -.02em; }
 [data-da^="pop"] .card-route { font-family: var(--font-mono); font-size: 13px; color: var(--ink); background: var(--surface-2); display: inline-block; padding: 3px 6px; border-radius: 4px; }

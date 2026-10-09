@@ -1,5 +1,5 @@
 {
-  "_info": "Fiches « donner envie » par ville (clé = city_code). climate : moyennes mois par mois (janv. → déc.) : max = température maximale moyenne (°C), pluie = jours de pluie (≥ 1 mm), soleil = heures de soleil.",
+  "_info": "Fiches « donner envie » par ville (clé = city_code). climate : moyennes mois par mois (janv. → déc.) : min / max = températures minimale et maximale moyennes (°C), pluie = jours de pluie (≥ 1 mm), soleil = heures de soleil.",
   "TIA": {
     "pitch": "Une capitale pleine de couleurs et encore peu chère : façades peintes, terrasses du quartier Blloku, anciens bunkers devenus musées et téléphérique jusqu'au mont Dajti.",
     "photo": {
@@ -10,6 +10,7 @@
       "page": "https://commons.wikimedia.org/wiki/File:Tirana_-_Skanderbeg_Square_(Sheshi_Sk%C3%ABnderbej)_-_by_Pudelek.jpg"
     },
     "climate": {
+      "min": [2.2, 3.2, 5.6, 8.9, 12.8, 16.7, 18.3, 18.3, 15.0, 11.1, 7.2, 3.9],
       "max": [12.8, 13.9, 17.2, 20.6, 25.0, 29.4, 32.2, 32.8, 28.3, 23.3, 18.3, 13.0],
       "pluie": [11, 10, 11, 13, 11, 7, 5, 5, 9, 9, 11, 12],
       "soleil": [124, 125, 165, 191, 263, 298, 354, 327, 264, 218, 127, 88],
