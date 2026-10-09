@@ -606,6 +606,7 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .alt-title { font-size: 13px; font-weight: 600; color: var(--tier-low); }
 .chip-alt { min-height: 36px; font-weight: 500; font-size: 13px; border-color: color-mix(in srgb, var(--tier-low) 40%, var(--border)); }
 .chip-alt strong { color: var(--tier-low); }
+.chip-alt.is-pricier strong { color: var(--text); }
 
 .result-list { grid-template-columns: 1fr; }
 @media (min-width: 760px) { .result-list { grid-template-columns: repeat(2, 1fr); } }

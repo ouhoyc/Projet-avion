@@ -148,6 +148,7 @@ html[data-da^="pop"] {
 [data-da^="pop"] .month[aria-pressed="true"] .month-name, [data-da^="pop"] .month[aria-pressed="true"] .month-price { color: var(--paper); }
 [data-da^="pop"] .month-price { color: var(--good); }
 [data-da^="pop"] .chip-alt strong, [data-da^="pop"] .alt-title { color: var(--good); }
+[data-da^="pop"] .chip-alt.is-pricier strong { color: var(--ink); }
 [data-da^="pop"] .disclaimer { background: #fff; border: 2px solid var(--ink); }
 [data-da^="pop"] .btn-secondary-wide { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); color: var(--ink); font-weight: 700; }
 

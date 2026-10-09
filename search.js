@@ -529,9 +529,9 @@ function cityCardHtml(city, index) {
       ${mainOptions.map((o) => optionHtml(o, city)).join('')}
       ${chips.length ? `
         <div class="chips-alt">
-          <span class="alt-title">${city.exactNights ? 'Moins cher :' : 'Autres durées :'}</span>
+          <span class="alt-title">${city.exactNights && chips.every(({ o }) => o.total < best.total) ? 'Moins cher :' : 'Autres durées :'}</span>
           ${chips.map(({ o, i }) => `
-            <button type="button" class="chip chip-alt" data-pick="${index}:${i}">
+            <button type="button" class="chip chip-alt${o.total < best.total ? '' : ' is-pricier'}" data-pick="${index}:${i}">
               ${o.nights} nuit${o.nights > 1 ? 's' : ''} · <strong>${fmtPrice.format(o.total)}</strong>
             </button>`).join('')}
         </div>` : ''}
