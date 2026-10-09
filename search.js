@@ -668,11 +668,14 @@ function openTripSheet(trip) {
       ${searchState.villes[dest.city_code]?.pitch ? `<p class="sheet-pitch">${escapeHtml(searchState.villes[dest.city_code].pitch)}</p>` : ''}
       ${factsHtml(dest, trip.out, trip.dur, true)}
 
-      <div class="live" id="live-out" aria-live="polite">${liveLoading('Aller', trip.out)}</div>
-      ${trip.ret ? `<div class="live" id="live-ret" aria-live="polite">${liveLoading('Retour', trip.ret)}</div>` : ''}
+      <div class="live" id="live-out" aria-live="polite">${legSeenHtml('Aller', trip.out, trip.outPrice)}</div>
+      ${trip.ret ? `<div class="live" id="live-ret" aria-live="polite">${legSeenHtml('Retour', trip.ret, trip.retPrice)}</div>` : ''}
       ${trip.ret ? '<p class="sheet-total" id="live-total"></p>' : ''}
 
       <p class="sheet-seen">Prix repéré : <strong>${fmtPrice.format(repere)}</strong>${trip.ret ? ' (aller + retour)' : ''}</p>
+      <button type="button" class="btn btn-secondary-wide" id="live-check">
+        <svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> Vérifier le prix en direct
+      </button>
 
       <a class="btn btn-primary btn-block" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">
         Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
@@ -680,17 +683,50 @@ function openTripSheet(trip) {
       <p class="sheet-note">Tu seras redirigé vers Kiwi.com (en français, prix en euros) pour choisir tes vols et payer.</p>
     </div>`;
   sheet.showModal();
-
   const id = ++liveRequest;
-  const checks = [checkLeg('live-out', 'Aller', origin.code, dest.code, trip.out, id)];
-  if (trip.ret) checks.push(checkLeg('live-ret', 'Retour', dest.code, origin.code, trip.ret, id));
+
+  // La vérification en direct coûte une recherche par vol : seulement sur demande,
+  // sauf si ces vols ont déjà été vérifiés récemment (gardé 30 min dans le navigateur).
+  const legs = [['live-out', 'Aller', origin.code, dest.code, trip.out]];
+  if (trip.ret) legs.push(['live-ret', 'Retour', dest.code, origin.code, trip.ret]);
+  const button = $('live-check');
+  const run = () => {
+    button.hidden = true;
+    runLiveChecks(legs, id);
+  };
+  button.addEventListener('click', run);
+  if (legs.every(([, , from, to, day]) => liveCacheGet(from, to, day))) run();
+}
+
+function runLiveChecks(legs, id) {
+  for (const [elId, label, , , day] of legs) $(elId).innerHTML = liveLoading(label, day);
+  const checks = legs.map(([elId, label, from, to, day]) => checkLeg(elId, label, from, to, day, id));
   Promise.all(checks).then(([outPrice, retPrice]) => {
     const totalEl = $('live-total');
-    if (id !== liveRequest || !totalEl) return;
+    if (id !== liveRequest || !totalEl || legs.length < 2) return;
     totalEl.innerHTML = outPrice != null && retPrice != null
       ? `Total vérifié : <strong>${fmtPrice.format(outPrice + retPrice)}</strong>`
       : '';
   });
+}
+
+function legSeenHtml(label, day, price) {
+  return `<p class="live-leg">${label} · ${escapeHtml(formatDay(day))}</p>
+    <p class="live-label muted">Prix repéré par les voyageurs</p>
+    <p class="live-price">${price != null ? fmtPrice.format(price) : '—'}</p>`;
+}
+
+// Résultats déjà vérifiés : on ne repaie pas une recherche pour le même vol pendant 30 min.
+const LIVE_CACHE_MS = 30 * 60 * 1000;
+function liveCacheKey(from, to, day) { return `prix-direct:${from}-${to}-${day}`; }
+function liveCacheGet(from, to, day) {
+  try {
+    const v = JSON.parse(sessionStorage.getItem(liveCacheKey(from, to, day)) || 'null');
+    return v && Date.now() - v.at < LIVE_CACHE_MS ? v.result : null;
+  } catch { return null; }
+}
+function liveCacheSet(from, to, day, result) {
+  try { sessionStorage.setItem(liveCacheKey(from, to, day), JSON.stringify({ at: Date.now(), result })); } catch { /* navigation privée */ }
 }
 
 function liveLoading(label, day) {
@@ -700,11 +736,14 @@ function liveLoading(label, day) {
 
 // Vérifie un vol en direct et renvoie son prix (ou null).
 async function checkLeg(elId, label, from, to, day, id) {
-  let result = null;
-  try {
-    const res = await fetch(`${LIVE_PRICE_URL}?from=${from}&to=${to}&date=${day}`);
-    if (res.ok) result = await res.json();
-  } catch { /* hors ligne ou service indisponible */ }
+  let result = liveCacheGet(from, to, day);
+  if (!result) {
+    try {
+      const res = await fetch(`${LIVE_PRICE_URL}?from=${from}&to=${to}&date=${day}`);
+      if (res.ok) result = await res.json();
+    } catch { /* hors ligne ou service indisponible */ }
+    if (result?.status === 'ok' || result?.status === 'none') liveCacheSet(from, to, day, result);
+  }
 
   const el = $(elId);
   if (id !== liveRequest || !el) return null;
