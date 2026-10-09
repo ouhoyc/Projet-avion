@@ -325,9 +325,12 @@ function priceTier(price) {
 }
 
 // Drapeau à partir du code pays (FR → 🇫🇷).
+// Drapeau en image (les drapeaux emoji s'affichent en lettres « ES » sur Windows).
+// Images dans img/drapeaux ; pour un pays pas encore téléchargé, on prend flagcdn.com.
 function flag(code) {
   if (!/^[A-Z]{2}$/.test(code || '')) return '';
-  return String.fromCodePoint(...[...code].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65));
+  const c = code.toLowerCase();
+  return `<img class="flag-img" src="img/drapeaux/${c}.png" alt="" width="20" height="15" loading="lazy" onerror="this.onerror=null;this.src='https://flagcdn.com/w80/${c}.png'">`;
 }
 
 // « aujourd'hui », « hier », « il y a 3 jours » à partir d'une date AAAA-MM-JJ.
