@@ -675,6 +675,13 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .months-arrow .icon { width: 18px; height: 18px; transform: rotate(90deg); }
 .months-arrow.next .icon { transform: rotate(-90deg); }
 .months-arrow:disabled { opacity: .35; cursor: default; }
+/* Téléphone : on glisse la barre, les flèches prendraient la place de deux mois */
+@media (max-width: 639px) {
+  .months-bar { grid-template-columns: minmax(0, 1fr); margin-inline: calc(-1 * var(--gutter)); }
+  .months { padding-inline: var(--gutter); }
+  .months-arrow { display: none; }
+  .month { min-width: 58px; padding-inline: var(--s-2); }
+}
 
 /* Pays + tri au-dessus des résultats */
 .refine { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: var(--s-2); margin-bottom: var(--s-3); }

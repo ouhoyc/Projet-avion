@@ -325,7 +325,12 @@ function renderMonths() {
   sEls.monthsBar.querySelector('[data-month-step="1"]').disabled = index >= keys.length - 1;
   // Garde le mois choisi visible dans la barre.
   const current = sEls.months.querySelector('[aria-pressed="true"]');
-  if (current) sEls.months.scrollTo({ left: current.offsetLeft - (sEls.months.clientWidth - current.offsetWidth) / 2, behavior: 'smooth' });
+  if (current) {
+    const bar = sEls.months.getBoundingClientRect();
+    const btn = current.getBoundingClientRect();
+    const left = sEls.months.scrollLeft + (btn.left - bar.left) - (bar.width - btn.width) / 2;
+    sEls.months.scrollTo({ left, behavior: 'smooth' });
+  }
 }
 
 // Toutes les options d'une ville (tous aéroports confondus), triées par prix.
