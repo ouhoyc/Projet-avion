@@ -153,6 +153,9 @@ function setupSearchForm() {
     if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 2) stepMonth(dx < 0 ? 1 : -1);
   });
 
+  setupCredits();
+  setupFontPicker();
+
   document.addEventListener('data-ready', () => {
     fillCountries();
     // Durée déjà choisie lors d'une visite précédente : on lance directement la recherche.
@@ -566,7 +569,6 @@ function photoHtml(dest) {
   return `
     <figure class="sheet-photo">
       <img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || dest.city)}" decoding="async">
-      <figcaption><a href="${escapeHtml(p.page)}" target="_blank" rel="noopener">Photo : ${escapeHtml(p.author)}, ${escapeHtml(p.license)}</a></figcaption>
     </figure>`;
 }
 
@@ -761,6 +763,54 @@ async function checkLeg(elId, label, from, to, day, id) {
     ? `${head}<p class="live-label warn">Plus de vol direct trouvé ce jour-là</p><p class="live-details">Kiwi.com te proposera d'autres horaires ou dates.</p>`
     : `${head}<p class="live-label muted">Vérification en direct indisponible</p><p class="live-details">Le prix exact s'affichera sur Kiwi.com.</p>`;
   return null;
+}
+
+// ---------------------------------------------------------------------------
+// Crédits et mentions (lien en bas de page)
+// ---------------------------------------------------------------------------
+function setupCredits() {
+  const dialog = $('credits-sheet');
+  $('open-credits').addEventListener('click', async () => {
+    const villes = await loadVilles();
+    const link = (url, text) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(text)}</a>`;
+    const photos = Object.entries(villes)
+      .filter(([, v]) => v?.photo)
+      .map(([code, v]) => {
+        const city = data?.destinations.find((d) => d.city_code === code)?.city || code;
+        return `<li>${escapeHtml(city)} : ${link(v.photo.page, `photo de ${v.photo.author}`)}, licence ${escapeHtml(v.photo.license)}</li>`;
+      }).join('');
+    $('credits-list').innerHTML = `
+      <h3>Prix des vols</h3>
+      <p>Prix repérés : ${link('https://www.travelpayouts.com', 'Travelpayouts')} / Aviasales. Vérification en direct : ${link('https://ignav.com', 'Ignav')}. Réservation sur ${link('https://www.kiwi.com/fr/', 'Kiwi.com')} (les liens peuvent être des liens partenaires).</p>
+      <h3>Carte</h3>
+      <p>Fond de carte ${link('https://openfreemap.org', 'OpenFreeMap')} · © ${link('https://www.openstreetmap.org/copyright', 'contributeurs OpenStreetMap')} · affichage ${link('https://maplibre.org', 'MapLibre')}.</p>
+      ${photos ? `<h3>Photos</h3><ul>${photos}</ul>` : ''}
+      <h3>Météo</h3>
+      <p>Moyennes mensuelles de l'Organisation météorologique mondiale (normales 1991–2020).</p>
+      <h3>Drapeaux et police</h3>
+      <p>Drapeaux ${link('https://flagcdn.com', 'flagcdn.com')} (domaine public) · polices ${link('https://fonts.google.com', 'Google Fonts')}.</p>`;
+    dialog.showModal();
+  });
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog || e.target.closest('[data-credits-close]')) dialog.close();
+  });
+}
+
+// Essai des polices (temporaire) : ‹ › pour passer d'une police à l'autre.
+function setupFontPicker() {
+  const picker = $('font-picker');
+  if (!picker || !window.FONT_CHOICES) return;
+  const name = $('font-name');
+  const show = () => { name.textContent = `Aa · ${window.FONT_CHOICES[window.FONT_INDEX][0]} (${window.FONT_INDEX + 1}/${window.FONT_CHOICES.length})`; };
+  picker.addEventListener('click', (e) => {
+    const step = Number(e.target.closest('[data-font-step]')?.dataset.fontStep);
+    if (!step) return;
+    const n = window.FONT_CHOICES.length;
+    window.FONT_INDEX = (window.FONT_INDEX + step + n) % n;
+    window.applyFont(window.FONT_INDEX);
+    show();
+  });
+  show();
 }
 
 // ---------------------------------------------------------------------------

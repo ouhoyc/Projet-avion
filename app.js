@@ -101,7 +101,11 @@ function setupMap() {
       });
       map.touchZoomRotate.disableRotation();
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+      // Mention obligatoire de la carte (OpenStreetMap) : repliée dans un petit « i » en bas à droite.
+      map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right');
       await new Promise((resolve) => map.on('load', resolve));
+      // Le « i » démarre replié (MapLibre l'ouvre au chargement).
+      map.getContainer().querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show');
       addPriceLayers();
       return map;
     } catch (err) {

@@ -39,6 +39,36 @@
       }
       window.DA_PREVIEW = Boolean(p || stored);
     })();
+
+    // Essai de polices : une seule police pour tout le site (choix gardé dans le navigateur).
+    window.FONT_CHOICES = [
+      ['Space Grotesk', 'Space+Grotesk:wght@400;500;600;700'],
+      ['Inter', 'Inter:wght@400;500;600;700;800'],
+      ['DM Sans', 'DM+Sans:wght@400;500;600;700;800'],
+      ['Outfit', 'Outfit:wght@400;500;600;700;800'],
+      ['Plus Jakarta Sans', 'Plus+Jakarta+Sans:wght@400;500;600;700;800'],
+      ['Manrope', 'Manrope:wght@400;500;600;700;800'],
+      ['Sora', 'Sora:wght@400;500;600;700;800'],
+      ['Bricolage Grotesque', 'Bricolage+Grotesque:wght@400;500;600;700;800'],
+      ['Lexend', 'Lexend:wght@400;500;600;700;800'],
+      ['Rubik', 'Rubik:wght@400;500;600;700;800']
+    ];
+    window.applyFont = function (index) {
+      var f = window.FONT_CHOICES[index] || window.FONT_CHOICES[0];
+      var root = document.documentElement;
+      var link = document.getElementById('font-link') || document.head.appendChild(Object.assign(document.createElement('link'), { id: 'font-link', rel: 'stylesheet' }));
+      link.href = 'https://fonts.googleapis.com/css2?family=' + f[1] + '&display=swap';
+      var stack = '"' + f[0] + '", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+      ['--font', '--font-display', '--font-mono'].forEach(function (v) { root.style.setProperty(v, stack); });
+      try { localStorage.setItem('police', String(index)); } catch (e) {}
+      return f[0];
+    };
+    (function () {
+      var saved = 0;
+      try { saved = Number(localStorage.getItem('police')) || 0; } catch (e) {}
+      window.FONT_INDEX = saved;
+      window.applyFont(saved);
+    })();
   </script>
 </head>
 <body>
@@ -147,7 +177,6 @@
         </div>
         <div id="map" role="region" aria-label="Carte des destinations"></div>
       </div>
-      <p class="credits">© <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> · © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">contributeurs OpenStreetMap</a></p>
     </section>
 
     <!-- Résultats de la recherche (remplissent aussi la carte) -->
@@ -202,8 +231,27 @@
   </nav>
 
   <footer class="footer">
-    Données Travelpayouts / Aviasales · Mise à jour automatique chaque matin
+    Prix mis à jour chaque matin · <button type="button" class="link-btn" id="open-credits">Crédits et mentions</button>
   </footer>
+
+  <!-- Crédits : sources des données, carte, photos, drapeaux, polices -->
+  <dialog class="sheet" id="credits-sheet" aria-labelledby="credits-title">
+    <div class="sheet-body">
+      <div class="sheet-grip" aria-hidden="true"></div>
+      <button type="button" class="sheet-close" data-credits-close aria-label="Fermer">
+        <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+      </button>
+      <h2 class="sheet-city" id="credits-title">Crédits et mentions</h2>
+      <div class="credits-list" id="credits-list"></div>
+    </div>
+  </dialog>
+
+  <!-- Essai des polices (temporaire, le temps de choisir) -->
+  <div class="font-picker" id="font-picker" role="group" aria-label="Essai des polices">
+    <button type="button" data-font-step="-1" aria-label="Police précédente">‹</button>
+    <span id="font-name"></span>
+    <button type="button" data-font-step="1" aria-label="Police suivante">›</button>
+  </div>
 
   <!-- Carte vectorielle (noms en français, couleurs du site) -->
   <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
