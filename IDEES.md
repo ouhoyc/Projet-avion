@@ -3,7 +3,21 @@
 Liste de travail du projet « Vols directs depuis Lyon ». On traite les points un par un.
 Statuts : 💡 idée · ❓ questions à trancher · 🛠 en cours · ✅ fait · ⏸ en pause
 
+## Le cap du site
+Pour les gens **qui aiment partir mais ne savent pas où aller**. On part de leur période, leur
+budget et leurs envies, depuis leur aéroport, en vol direct ; le site leur donne des idées de
+destinations, puis prépare le séjour (activités selon leurs goûts, quartier idéal pour dormir,
+hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
+
 ## À faire
+
+### 10. 💡 Donner envie (inspiration)
+Pour quelqu'un qui ne sait pas où aller, un prix ne suffit pas. Pistes :
+- choisir par **envie** plutôt que par pays : soleil & plage, ville, nature, fête, culture,
+  dépaysement… ;
+- sur chaque fiche : une **photo**, une phrase « pourquoi y aller », la **météo** du mois choisi,
+  la durée de vol ;
+- un mode « Surprends-moi ».
 
 ### 1. ✅ Recherche par jour / fourchette de dates
 Pouvoir chercher un jour précis ou une fourchette (« du 10 au 15 nov. ») au lieu du mois entier.
