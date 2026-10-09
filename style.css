@@ -760,3 +760,4 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 }
 @keyframes plane-in { from { transform: translate(-60px, 26px) rotate(62deg); opacity: 0; } }
 @keyframes trail-in { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+.dot-origin { background: var(--map-origin); box-shadow: 0 0 0 2px var(--map-pin-stroke); }

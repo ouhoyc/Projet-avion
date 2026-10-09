@@ -68,6 +68,7 @@ function setupHeader() {
   const { origin, destinations } = data;
   els.originCode.textContent = origin.code;
   els.titleCity.textContent = origin.city;
+  $('legend-origin').textContent = origin.city;
   document.title = `Vols directs depuis ${origin.city}`;
 
   const minPrice = Math.min(...destinations.map((d) => d.price));

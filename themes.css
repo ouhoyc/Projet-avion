@@ -42,7 +42,7 @@ html[data-da^="pop"] {
   --map-label: var(--ink);
   --map-label-halo: var(--paper);
   --map-pin-stroke: var(--ink);
-  --map-origin: var(--coral);
+  --map-origin: #2563eb; /* bleu : ne se confond pas avec l'orange des prix */
   color-scheme: light;
 }
 [data-da^="pop"] body { background: var(--paper); }
