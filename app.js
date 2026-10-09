@@ -204,6 +204,16 @@ function addPriceLayers() {
     },
     paint: { 'text-color': '#ffffff' },
   });
+  // Mise en avant (survol d'une fiche sur ordinateur).
+  map.addLayer({
+    id: 'dest-highlight', type: 'circle', source: 'dests', filter: ['==', ['get', 'ri'], -1],
+    paint: {
+      'circle-color': 'rgba(0,0,0,0)',
+      'circle-radius': 15,
+      'circle-stroke-color': cssVar('--map-pin-stroke', '#14213d'),
+      'circle-stroke-width': 3,
+    },
+  });
   // Aéroport de départ.
   map.addLayer({
     id: 'origin', type: 'circle', source: 'origin',
@@ -254,6 +264,7 @@ async function showOnMap(items, fitMap) {
         index,
         price: item.price,
         label: fmtPrice.format(item.price),
+        ri: item.resultIndex ?? -1,
         tier: priceTier(item.tierPrice ?? item.price).replace('tier-', ''),
       },
     })),
@@ -268,6 +279,11 @@ async function showOnMap(items, fitMap) {
     }
     m.fitBounds(bounds, { padding: 30, maxZoom: 5, duration: 0 });
   }
+}
+
+// Allume (ou éteint avec -1) le point d'une destination sur la carte.
+function highlightOnMap(resultIndex) {
+  if (map?.getLayer('dest-highlight')) map.setFilter('dest-highlight', ['==', ['get', 'ri'], resultIndex]);
 }
 
 function distanceKm(a, b) {

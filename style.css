@@ -761,3 +761,33 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 @keyframes plane-in { from { transform: translate(-60px, 26px) rotate(62deg); opacity: 0; } }
 @keyframes trail-in { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
 .dot-origin { background: var(--map-origin); box-shadow: 0 0 0 2px var(--map-pin-stroke); }
+
+/* ==========================================================================
+   Version ordinateur (≥ 1100 px) : recherche + liste à gauche,
+   grande carte fixe à droite (comme Airbnb / Kayak)
+   ========================================================================== */
+@media (min-width: 1100px) {
+  main {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: minmax(400px, 480px) minmax(0, 1fr);
+    grid-template-areas: "search map" "list map";
+    column-gap: 32px;
+    align-items: start;
+  }
+  .search { grid-area: search; }
+  #liste { grid-area: list; }
+  .map-section { grid-area: map; position: sticky; top: 16px; margin-top: var(--s-5); }
+  .map-section .section-head { margin-top: 0; }
+  #map { height: calc(100vh - 190px); max-height: none; min-height: 480px; }
+  .hero-inner, .footer { max-width: 1440px; }
+
+  .search-card { grid-template-columns: 1fr; }
+  .search-card .segmented, .search-card .stay { grid-column: auto; }
+  .stay-chips { grid-template-columns: repeat(2, 1fr); }
+  .result-list { grid-template-columns: 1fr; }
+
+  /* Survol d'une fiche : elle se met en avant (et son point s'allume sur la carte) */
+  .result-list .card { transition: transform var(--t-fast) var(--ease-out), box-shadow var(--t-fast); cursor: default; }
+  .result-list .card.is-hovered { transform: translateY(-2px); }
+}

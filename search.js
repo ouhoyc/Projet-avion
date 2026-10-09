@@ -104,6 +104,19 @@ function setupSearchForm() {
     if (e.target.closest('[data-more]')) renderMore();
   });
 
+  // Ordinateur : survoler une fiche allume son point sur la carte.
+  sEls.results.addEventListener('mouseover', (e) => {
+    const card = e.target.closest('[data-result]');
+    if (!card || card.classList.contains('is-hovered')) return;
+    sEls.results.querySelector('.is-hovered')?.classList.remove('is-hovered');
+    card.classList.add('is-hovered');
+    highlightOnMap(Number(card.dataset.result));
+  });
+  sEls.results.addEventListener('mouseleave', () => {
+    sEls.results.querySelector('.is-hovered')?.classList.remove('is-hovered');
+    highlightOnMap(-1);
+  });
+
   document.addEventListener('data-ready', () => {
     fillCountries();
     // Durée déjà choisie lors d'une visite précédente : on lance directement la recherche.
@@ -362,6 +375,7 @@ function updateMap(fit) {
     const o = bestOf(city);
     const trip = tripData(o);
     return {
+      resultIndex: i,
       dest: city.dest,
       price: o.total,
       tierPrice: roundTrip ? o.total / 2 : o.total,
@@ -393,7 +407,7 @@ function cityCardHtml(city, index) {
   const best = bestOf(city);
 
   return `
-    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}">
+    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}" data-result="${index}">
       <div class="card-top">
         <span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>
         <div class="card-title">
