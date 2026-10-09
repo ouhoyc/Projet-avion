@@ -41,9 +41,16 @@ const sEls = {
 
 // Résultats de la dernière recherche. `view` = indices affichés (après pays / tri).
 // `base` = recherche sur toute la période ; `month` = mois choisi dans la barre ('' = tous).
-const searchState = { results: [], view: [], query: null, base: null, daily: null, month: '', months: [], shown: 0, airlines: {}, firstMap: true };
+const searchState = { villes: {}, results: [], view: [], query: null, base: null, daily: null, month: '', months: [], shown: 0, airlines: {}, firstMap: true };
 const fmtMonthShort = new Intl.DateTimeFormat('fr-FR', { month: 'short' });
 const fmtMonthLong = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
+
+// Fiches « donner envie » (photo, phrase, météo) : facultatives, le site marche sans.
+let villesPromise = null;
+function loadVilles() {
+  villesPromise ||= fetch('villes.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  return villesPromise;
+}
 
 let dailyPromise = null;
 function loadDaily() {
@@ -205,7 +212,7 @@ async function runSearch() {
   sEls.results.innerHTML = '<div class="live-loading"><span class="spinner" aria-hidden="true"></span>Recherche des meilleures dates…</div>';
   let daily;
   try {
-    daily = await loadDaily();
+    [daily, searchState.villes] = await Promise.all([loadDaily(), loadVilles()]);
   } catch {
     sEls.results.innerHTML = '<p class="empty">Les prix jour par jour ne sont pas encore disponibles. Réessaie un peu plus tard.</p>';
     return;
@@ -517,7 +524,8 @@ function cityCardHtml(city, index) {
   const best = bestOf(city);
 
   return `
-    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}" data-result="${index}">
+    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}${searchState.villes[dest.city_code]?.photo ? ' has-photo' : ''}" data-result="${index}">
+      ${photoHtml(dest)}
       <div class="card-top">
         <span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>
         <div class="card-title">
@@ -526,6 +534,7 @@ function cityCardHtml(city, index) {
           <p class="card-route">${escapeHtml(data.origin.code)} ✈ ${escapeHtml(best.code)}</p>
         </div>
       </div>
+      ${inspirationHtml(dest, best)}
       ${mainOptions.map((o) => optionHtml(o, city)).join('')}
       ${chips.length ? `
         <div class="chips-alt">
@@ -536,6 +545,36 @@ function cityCardHtml(city, index) {
             </button>`).join('')}
         </div>` : ''}
     </li>`;
+}
+
+// Photo, « pourquoi y aller », météo du mois du départ et durée de vol.
+const MONTH_NAMES = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+function photoHtml(dest) {
+  const v = searchState.villes[dest.city_code];
+  if (!v?.photo) return '';
+  const p = v.photo;
+  return `
+    <figure class="card-photo">
+      <img src="${escapeHtml(p.src)}" alt="${escapeHtml(p.alt || dest.city)}" loading="lazy" decoding="async">
+      <figcaption><a href="${escapeHtml(p.page)}" target="_blank" rel="noopener">Photo : ${escapeHtml(p.author)}, ${escapeHtml(p.license)}</a></figcaption>
+    </figure>`;
+}
+
+function inspirationHtml(dest, option) {
+  const v = searchState.villes[dest.city_code];
+  if (!v) return '';
+  const facts = [];
+  const c = v.climate;
+  if (c) {
+    const m = parseDay(option.out.day).getMonth();
+    const rain = c.pluie?.[m];
+    const icon = rain == null ? '🌡️' : rain <= 6 ? '☀️' : rain <= 10 ? '🌤️' : '🌧️';
+    facts.push(`<span class="fact" title="Moyennes ${escapeHtml(c.source || '')}">${icon} ${Math.round(c.max[m])}° en ${MONTH_NAMES[m]}${rain != null ? ` · ${rain} j de pluie` : ''}</span>`);
+  }
+  if (option.out.duration) facts.push(`<span class="fact">✈️ ${escapeHtml(formatDuration(option.out.duration))} de vol</span>`);
+  return `
+    ${v.pitch ? `<p class="card-pitch">${escapeHtml(v.pitch)}</p>` : ''}
+    ${facts.length ? `<div class="card-facts">${facts.join('')}</div>` : ''}`;
 }
 
 function optionHtml(o, city) {
