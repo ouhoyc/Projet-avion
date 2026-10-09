@@ -749,3 +749,14 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 
 /* Trajet « LYS ✈ LGW » sur les fiches */
 .card-route { font: 600 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; color: var(--text-muted); margin-top: 4px; }
+
+/* Avion et traînée dans le ciel de l'en-tête (affichés par le thème Pop) */
+.hero-flight { display: none; position: absolute; left: 0; right: 0; top: calc(10px + env(safe-area-inset-top)); height: 76px; pointer-events: none; }
+.hero-flight .trail { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: var(--ink, #14213d); stroke-width: 2; stroke-dasharray: 3 7; stroke-linecap: round; opacity: .55; }
+.hero-flight .plane { position: absolute; right: 7%; top: 2px; width: 34px; height: 34px; fill: var(--ink, #14213d); transform: rotate(62deg); }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-flight .plane { animation: plane-in 1.4s var(--ease-out) both; }
+  .hero-flight .trail { stroke-dashoffset: 0; animation: trail-in 1.4s var(--ease-out) both; }
+}
+@keyframes plane-in { from { transform: translate(-60px, 26px) rotate(62deg); opacity: 0; } }
+@keyframes trail-in { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }

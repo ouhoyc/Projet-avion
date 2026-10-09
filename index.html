@@ -20,7 +20,8 @@
     // Directions artistiques à l'essai : ?da=pop | pop-sunset | pop-med | pop-tropical | affiche | depart | postale (« ?da=actuelle » pour revenir).
     (function () {
       var p = new URLSearchParams(location.search).get('da');
-      var da = p || (function () { try { return localStorage.getItem('da'); } catch (e) { return null; } })();
+      var stored = (function () { try { return localStorage.getItem('da'); } catch (e) { return null; } })();
+      var da = (p && p !== 'actuelle') ? p : (p === 'actuelle' ? null : (stored || 'pop'));
       if (p) { try { p === 'actuelle' ? localStorage.removeItem('da') : localStorage.setItem('da', p); } catch (e) {} }
       var pop = 'family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700';
       var fonts = {
@@ -36,7 +37,7 @@
         l.href = 'https://fonts.googleapis.com/css2?' + fonts[da] + '&display=swap';
         document.head.appendChild(l);
       }
-      window.DA_PREVIEW = Boolean(p || da);
+      window.DA_PREVIEW = Boolean(p || stored);
     })();
   </script>
 </head>
@@ -52,6 +53,7 @@
     <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
     <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"/></symbol>
     <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+    <symbol id="i-plane-solid" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
   </svg>
@@ -71,6 +73,10 @@
       <p class="updated" id="updated"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> <span>Chargement…</span></p>
     </div>
     <svg class="hero-route" viewBox="0 0 400 120" preserveAspectRatio="none" aria-hidden="true"><path d="M-10 110 C 120 10, 260 10, 410 70"/></svg>
+    <div class="hero-flight" aria-hidden="true">
+      <svg class="trail" viewBox="0 0 400 76" preserveAspectRatio="none"><path d="M-10 70 C 110 72, 250 60, 368 22"/></svg>
+      <svg class="plane"><use href="#i-plane-solid"/></svg>
+    </div>
   </header>
 
   <main>

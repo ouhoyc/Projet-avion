@@ -75,9 +75,9 @@ par jour (aller + retour). Coût : environ 2 recherches par jour de la période
 (ex. 14 jours ≈ 28 recherches ≈ 0,06 $).
 
 ### 9. 🛠 Direction artistique
-Pop retenu comme base (« vrai parti pris »). En essai : 3 variantes de Pop (Sunset,
-Méditerranée, Tropical) et 3 autres concepts (Affiche rétro, Tableau des départs, Carte postale).
-À trancher, puis appliquer pour de bon et retirer la barre d'essai.
+Pop retenu et appliqué par défaut, version épurée : 3 couleurs (encre bleu nuit, papier
+crème, accent corail), avion qui décolle à la place du soleil. Les autres essais restent
+visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fois validé.
 
 ## En attente d'un tiers
 
