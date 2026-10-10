@@ -246,12 +246,50 @@
     </div>
   </dialog>
 
-  <!-- Essai des polices (temporaire, le temps de choisir) -->
-  <div class="font-picker" id="font-picker" role="group" aria-label="Essai des polices">
-    <button type="button" data-font-step="-1" aria-label="Police précédente">‹</button>
-    <span id="font-name"></span>
-    <button type="button" data-font-step="1" aria-label="Police suivante">›</button>
+  <!-- Essai des polices (temporaire, le temps de choisir) : autonome, ne dépend pas d'app.js -->
+  <div class="font-picker" id="font-picker">
+    <button type="button" class="font-picker-btn" id="font-picker-btn" aria-expanded="false" aria-controls="font-picker-list">Aa · Police</button>
+    <ul class="font-picker-list" id="font-picker-list" hidden></ul>
   </div>
+  <script>
+    (function () {
+      var btn = document.getElementById('font-picker-btn');
+      var list = document.getElementById('font-picker-list');
+      var loaded = false;
+      function label() { btn.textContent = 'Aa · ' + window.FONT_CHOICES[window.FONT_INDEX][0]; }
+      function render() {
+        list.innerHTML = window.FONT_CHOICES.map(function (f, i) {
+          return '<li><button type="button" data-i="' + i + '" style="font-family:\'' + f[0] + '\',sans-serif"' +
+            (i === window.FONT_INDEX ? ' aria-current="true"' : '') + '>' + (i + 1) + '. ' + f[0] + '<small>Vols directs depuis Lyon · 168 €</small></button></li>';
+        }).join('');
+      }
+      btn.addEventListener('click', function () {
+        if (!loaded) {
+          // Toutes les polices d'un coup, pour les voir dans la liste.
+          var l = document.createElement('link');
+          l.rel = 'stylesheet';
+          l.href = 'https://fonts.googleapis.com/css2?' + window.FONT_CHOICES.map(function (f) { return 'family=' + f[1]; }).join('&') + '&display=swap';
+          document.head.appendChild(l);
+          loaded = true;
+        }
+        render();
+        list.hidden = !list.hidden;
+        btn.setAttribute('aria-expanded', String(!list.hidden));
+      });
+      list.addEventListener('click', function (e) {
+        var b = e.target.closest('[data-i]');
+        if (!b) return;
+        window.FONT_INDEX = Number(b.dataset.i);
+        window.applyFont(window.FONT_INDEX);
+        label();
+        render();
+      });
+      document.addEventListener('click', function (e) {
+        if (!list.hidden && !e.target.closest('#font-picker')) { list.hidden = true; btn.setAttribute('aria-expanded', 'false'); }
+      });
+      label();
+    })();
+  </script>
 
   <!-- Carte vectorielle (noms en français, couleurs du site) -->
   <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>

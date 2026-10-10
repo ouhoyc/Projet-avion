@@ -154,7 +154,6 @@ function setupSearchForm() {
   });
 
   setupCredits();
-  setupFontPicker();
 
   document.addEventListener('data-ready', () => {
     fillCountries();
@@ -794,23 +793,6 @@ function setupCredits() {
   dialog.addEventListener('click', (e) => {
     if (e.target === dialog || e.target.closest('[data-credits-close]')) dialog.close();
   });
-}
-
-// Essai des polices (temporaire) : ‹ › pour passer d'une police à l'autre.
-function setupFontPicker() {
-  const picker = $('font-picker');
-  if (!picker || !window.FONT_CHOICES) return;
-  const name = $('font-name');
-  const show = () => { name.textContent = `Aa · ${window.FONT_CHOICES[window.FONT_INDEX][0]} (${window.FONT_INDEX + 1}/${window.FONT_CHOICES.length})`; };
-  picker.addEventListener('click', (e) => {
-    const step = Number(e.target.closest('[data-font-step]')?.dataset.fontStep);
-    if (!step) return;
-    const n = window.FONT_CHOICES.length;
-    window.FONT_INDEX = (window.FONT_INDEX + step + n) % n;
-    window.applyFont(window.FONT_INDEX);
-    show();
-  });
-  show();
 }
 
 // ---------------------------------------------------------------------------
