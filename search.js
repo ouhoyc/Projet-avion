@@ -186,7 +186,7 @@ function fillCities() {
 
 const STAY_HINTS = { '1-1': '1 nuit sur place', '2-4': '2 à 4 nuits sur place', '5-8': '5 à 8 nuits sur place', '9-21': '9 nuits ou plus sur place' };
 function updateStayHint() {
-  $('stay-hint').textContent = STAY_HINTS[stayValue()] || 'Choisis une durée pour voir les prix';
+  $('stay-hint').textContent = STAY_HINTS[stayValue()] || 'Choisissez une durée pour voir les prix';
 }
 
 function tripType() {
@@ -204,7 +204,7 @@ async function runSearch() {
   if (!data) return;
   const type = tripType();
   if (type === 'rt' && !stayValue()) {
-    sEls.results.innerHTML = '<p class="empty start-hint">Choisis d\'abord combien de temps tu veux partir.</p>';
+    sEls.results.innerHTML = '<p class="empty start-hint">Choisissez d\'abord combien de temps vous voulez partir.</p>';
     sEls.stay.classList.add('attention');
     sEls.stay.scrollIntoView({ behavior: 'smooth', block: 'center' });
     setTimeout(() => sEls.stay.classList.remove('attention'), 1200);
@@ -216,7 +216,7 @@ async function runSearch() {
   try {
     [daily, searchState.villes] = await Promise.all([loadDaily(), loadVilles()]);
   } catch {
-    sEls.results.innerHTML = '<p class="empty">Les prix jour par jour ne sont pas encore disponibles. Réessaie un peu plus tard.</p>';
+    sEls.results.innerHTML = '<p class="empty">Les prix jour par jour ne sont pas encore disponibles. Réessayez un peu plus tard.</p>';
     return;
   }
 
@@ -431,7 +431,7 @@ function describeQuery(q) {
   const parts = [q.type === 'rt' ? `aller-retour, ${STAY_LABELS[q.stay] || ''}` : 'aller simple'];
   if (q.country && !q.city) parts.push(q.country);
   if (q.month) parts.push(`départ en ${fmtMonthLong.format(parseDay(`${q.month}-01`))}`);
-  else parts.push(q.datesGiven ? `du ${formatDayShort(q.start)} au ${formatDayShort(q.end)}` : '12 prochains mois');
+  else parts.push(q.datesGiven ? `meilleures dates entre le ${formatDayShort(q.start)} et le ${formatDayShort(q.end)}` : '12 prochains mois');
   if (Number.isFinite(q.budget)) parts.push(`${fmtPrice.format(q.budget)} max`);
   return parts.join(' · ');
 }
@@ -448,8 +448,8 @@ function renderResults() {
         <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
         <p>Aucun vol direct${roundTrip ? ' aller-retour' : ''} repéré (${escapeHtml(describeQuery(q))}).</p>
         <p class="hint">${q.month
-          ? 'Aucun prix repéré ce mois-ci. Ces prix viennent des recherches récentes des voyageurs : au-delà de 2-3 mois, il y en a peu. Essaie un autre mois.'
-          : 'Élargis la période, le budget ou change la durée : ces prix viennent des recherches récentes des voyageurs, certains jours n\'en ont pas.'}</p>
+          ? 'Aucun prix repéré ce mois-ci. Ces prix viennent des recherches récentes des voyageurs : au-delà de 2-3 mois, il y en a peu. Essayez un autre mois.'
+          : 'Élargissez la période, le budget ou changez la durée : ces prix viennent des recherches récentes des voyageurs, certains jours n\'en ont pas.'}</p>
       </div>`;
     return;
   }
@@ -461,7 +461,7 @@ function renderResults() {
     <ul class="cards result-list" id="result-list"></ul>
     <button type="button" class="btn btn-secondary-wide" data-more hidden></button>
     <p class="disclaimer"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-      <span>Derniers prix repérés par les voyageurs${roundTrip ? ' (total aller + retour)' : ''}. Touche « Voir » pour vérifier les prix en direct avant de réserver sur Kiwi.com.</span></p>`;
+      <span>Derniers prix repérés par les voyageurs${roundTrip ? ' (total aller + retour)' : ''}. Touchez « Voir » pour vérifier les prix en direct avant de réserver sur Kiwi.com.</span></p>`;
   renderMore();
 }
 
@@ -682,7 +682,7 @@ function openTripSheet(trip) {
       <a class="btn btn-primary btn-block" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">
         Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
       </a>
-      <p class="sheet-note">Tu seras redirigé vers Kiwi.com (en français, prix en euros) pour choisir tes vols et payer.</p>
+      <p class="sheet-note">Vous serez redirigé vers Kiwi.com (en français, prix en euros) pour choisir vos vols et payer.</p>
     </div>`;
   sheet.showModal();
   const id = ++liveRequest;
@@ -760,7 +760,7 @@ async function checkLeg(elId, label, from, to, day, id) {
     return result.price;
   }
   el.innerHTML = result?.status === 'none'
-    ? `${head}<p class="live-label warn">Plus de vol direct trouvé ce jour-là</p><p class="live-details">Kiwi.com te proposera d'autres horaires ou dates.</p>`
+    ? `${head}<p class="live-label warn">Plus de vol direct trouvé ce jour-là</p><p class="live-details">Kiwi.com vous proposera d'autres horaires ou dates.</p>`
     : `${head}<p class="live-label muted">Vérification en direct indisponible</p><p class="live-details">Le prix exact s'affichera sur Kiwi.com.</p>`;
   return null;
 }
@@ -870,9 +870,9 @@ function paintCalendar() {
   }
   const ok = $('cal-ok');
   $('cal-help').textContent = !cal.start
-    ? 'Touche le premier jour possible, puis le dernier.'
-    : !cal.end ? `À partir du ${formatDayShort(cal.start)} : touche maintenant le dernier jour possible.`
-    : `Du ${formatDayShort(cal.start)} au ${formatDayShort(cal.end)} : départ et retour dans cette période.`;
+    ? 'Touchez le premier et le dernier jour où vous êtes libre : on cherche les meilleurs départs et retours dans cette période.'
+    : !cal.end ? `À partir du ${formatDayShort(cal.start)} : touchez maintenant le dernier jour où vous êtes libre.`
+    : `Du ${formatDayShort(cal.start)} au ${formatDayShort(cal.end)} : on cherche les meilleurs départs et retours dans cette période.`;
   ok.textContent = cal.start ? 'Valider' : "N'importe quand";
 }
 

@@ -65,8 +65,8 @@
   <header class="hero">
     <div class="hero-inner">
       <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Aéroport <span id="origin-code">LYS</span></p>
-      <h1>Vols directs depuis <em id="title-city">Lyon</em></h1>
-      <p class="hero-sub">Toutes les destinations sans escale, au meilleur prix du moment.</p>
+      <h1>Pas d'idée de destination&nbsp;?<br>Faites le tour <em>des possibles</em>.</h1>
+      <p class="hero-sub">Tous les vols directs depuis <span id="title-city">Lyon</span> et leurs meilleurs prix. Indiquez vos dates si vous en avez : on trouve les meilleurs départs à l'intérieur.</p>
       <ul class="hero-stats" id="stats">
         <li><strong>–</strong><span>destinations</span></li>
         <li><strong>–</strong><span>prix mini</span></li>
@@ -99,7 +99,7 @@
             <label><input type="radio" name="stay" value="5-8"><span>Une semaine</span></label>
             <label><input type="radio" name="stay" value="9-21"><span>Plus long</span></label>
           </div>
-          <p class="stay-hint" id="stay-hint">Choisis une durée pour voir les prix</p>
+          <p class="stay-hint" id="stay-hint">Choisissez une durée pour voir les prix</p>
         </fieldset>
 
         <div class="field">
@@ -113,7 +113,7 @@
         </div>
 
         <div class="field">
-          <span class="field-label" id="s-when-title">Quand ?</span>
+          <span class="field-label" id="s-when-title">Quand êtes-vous libre ?</span>
           <button type="button" class="picker-btn" id="s-when" aria-labelledby="s-when-title s-when-label" aria-haspopup="dialog">
             <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
             <span id="s-when-label">N'importe quand</span>
@@ -145,7 +145,7 @@
           <span><i class="dot tier-low"></i><span id="legend-low">≤ 40 €</span></span>
           <span><i class="dot tier-mid"></i><span id="legend-mid">41–80 €</span></span>
           <span><i class="dot tier-high"></i><span id="legend-high">&gt; 80 €</span></span>
-          <span class="legend-hint"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>Zoome pour plus de prix</span>
+          <span class="legend-hint"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>Zoomez pour plus de prix</span>
         </div>
         <div id="map" role="region" aria-label="Carte des destinations"></div>
       </div>
@@ -172,7 +172,7 @@
         </select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
       </div>
       <div class="search-results" id="search-results" aria-live="polite">
-        <p class="empty start-hint">Choisis combien de temps tu veux partir pour voir les meilleurs prix.</p>
+        <p class="empty start-hint">Choisissez combien de temps vous voulez partir pour voir les meilleurs prix.</p>
       </div>
     </section>
   </main>
@@ -187,8 +187,8 @@
       <button type="button" class="sheet-close" data-cal-close aria-label="Fermer">
         <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
       </button>
-      <h2 class="cal-title" id="cal-title">Quand partir ?</h2>
-      <p class="cal-help" id="cal-help">Touche le premier jour possible, puis le dernier.</p>
+      <h2 class="cal-title" id="cal-title">Quand êtes-vous libre ?</h2>
+      <p class="cal-help" id="cal-help">Touchez le premier et le dernier jour où vous êtes libre : on cherche les meilleurs départs et retours dans cette période.</p>
       <div class="cal-weekdays" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
       <div class="cal-months" id="cal-months"></div>
       <div class="cal-footer">
