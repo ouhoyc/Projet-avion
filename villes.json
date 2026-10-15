@@ -1,7 +1,7 @@
 {
   "_info": "Fiches « donner envie » par ville (clé = city_code). climate : moyennes mois par mois (janv. → déc.) : min / max = températures minimale et maximale moyennes (°C), pluie = jours de pluie (≥ 1 mm), soleil = heures de soleil.",
   "TIA": {
-    "pitch": "Une capitale pleine de couleurs et encore peu chère : façades peintes, terrasses du quartier Blloku, anciens bunkers devenus musées et téléphérique jusqu'au mont Dajti.",
+    "pitch": "La pépite encore méconnue des Balkans : une capitale colorée et bon marché, des terrasses animées jusque tard et les montagnes à portée de téléphérique.",
     "photo": {
       "src": "img/villes/TIA.jpg",
       "alt": "La place Skanderbeg à Tirana, avec la statue équestre et la mosquée Et'hem Bey",
@@ -70,13 +70,13 @@
     }
   },
   "PAR": {
-    "pitch": "Musées immenses, cafés en terrasse, balades le long de la Seine et des quartiers qui ont chacun leur ambiance, du Marais à Montmartre.",
+    "pitch": "Le chic à la française : terrasses de cafés, boutiques de luxe, dîners raffinés et ponts dorés qui s'illuminent le soir. Quelques jours pour vivre comme un Parisien.",
     "photo": {
       "src": "img/villes/PAR.jpg",
-      "alt": "La Seine et la tour Eiffel vues depuis la tour Saint-Jacques",
-      "author": "Zinneke",
+      "alt": "Le pont Alexandre III illuminé au crépuscule, avec la tour Eiffel au loin",
+      "author": "Dimitri Destugues",
       "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG"
+      "page": "https://commons.wikimedia.org/wiki/File:Pont-Alexandre-III-et-Invalides.jpg"
     },
     "climate": {
       "min": [
@@ -139,7 +139,7 @@
     }
   },
   "LON": {
-    "pitch": "Grands musées gratuits (British Museum, Tate Modern), marchés de Borough et Camden, pubs historiques et immenses parcs : une capitale où l'on ne s'ennuie jamais.",
+    "pitch": "L'énergie d'une capitale mondiale : quartiers branchés, rooftops face à la Tamise, pubs chaleureux et des musées parmi les plus beaux du monde… gratuits.",
     "photo": {
       "src": "img/villes/LON.jpg",
       "alt": "Tower Bridge au lever du soleil, vu depuis Shad Thames",
@@ -208,13 +208,13 @@
     }
   },
   "BCN": {
-    "pitch": "Plage et grande ville à la fois : architecture de Gaudí (Sagrada Família, parc Güell), ruelles du Barri Gòtic, tapas et soirées qui commencent tard.",
+    "pitch": "Le soleil, la mer et la ville en un seul voyage : plage le matin, Gaudí l'après-midi, apéro face à la Méditerranée et des nuits qui commencent à minuit.",
     "photo": {
       "src": "img/villes/BCN.jpg",
-      "alt": "Les maisons de Gaudí à l'entrée du parc Güell, avec Barcelone en arrière-plan",
-      "author": "Bernard Gagnon",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg"
+      "alt": "Vue aérienne des plages de Barcelone et de la mer Méditerranée",
+      "author": "dronepicr",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Promenade_and_Somorrostro_Beach_in_Barcelona_(51225533277).jpg"
     },
     "climate": {
       "min": [
