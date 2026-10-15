@@ -578,11 +578,12 @@ function monthWeather(c, m) {
   const sun = c.soleil ? c.soleil[m] / DAYS_IN_MONTH[m] : null;
   if (sun == null || rain == null) return { icon: '🌡️', label: '' };
   if (sun >= 8 && rain <= 7) return { icon: '☀️', label: 'ensoleillé' };
-  if (sun >= 6 && rain <= 9) return { icon: '🌤️', label: 'plutôt ensoleillé' };
-  if (sun >= 5.5 && rain >= 10) return { icon: '🌦️', label: 'soleil et averses' };
-  if (rain >= 11) return { icon: '🌧️', label: 'pluvieux' };
-  if (sun >= 4) return { icon: '⛅', label: 'plutôt nuageux' };
-  return { icon: '☁️', label: 'plutôt couvert' };
+  if (sun >= 6 && rain <= 10) return { icon: '🌤️', label: 'plutôt ensoleillé' };
+  if (sun >= 5.5 && rain > 10) return { icon: '🌦️', label: 'soleil et averses' };
+  if (rain >= 11 || (rain >= 10 && sun < 4)) return { icon: '🌧️', label: 'pluvieux' };
+  if (sun >= 5) return { icon: '⛅', label: 'soleil et nuages' };
+  if (sun >= 3.5) return { icon: '☁️', label: 'plutôt nuageux' };
+  return { icon: '☁️', label: 'gris' };
 }
 
 // Météo moyenne du mois du départ + durée de vol. `long` : version détaillée (panneau).
@@ -595,7 +596,7 @@ function factsHtml(dest, day, duration, long) {
     const lo = c.min ? Math.round(c.min[m]) : null;
     const hi = Math.round(c.max[m]);
     const temps = lo != null ? `${lo} à ${hi} °C` : `${hi} °C`;
-    const rain = c.pluie?.[m];
+    const rain = c.pluie?.[m] != null ? Math.round(c.pluie[m]) : null;
     const text = long
       ? `En ${MONTH_NAMES[m]}, en moyenne : ${w.label ? `${w.label}, ` : ''}${temps}${rain != null ? `, ${rain} jours de pluie` : ''}`
       : `${w.label ? capitalize(w.label) + ' · ' : ''}${lo != null ? `${lo}–${hi}°` : `${hi}°`} en ${fmtMonthShort.format(parseDay(day))}`;
