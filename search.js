@@ -787,7 +787,7 @@ function setupCredits() {
       <h3>Météo</h3>
       <p>Moyennes mensuelles de l'Organisation météorologique mondiale (normales 1991–2020).</p>
       <h3>Drapeaux et police</h3>
-      <p>Drapeaux ${link('https://flagcdn.com', 'flagcdn.com')} (domaine public) · polices ${link('https://fonts.google.com', 'Google Fonts')}.</p>`;
+      <p>Drapeaux ${link('https://flagcdn.com', 'flagcdn.com')} (domaine public) · police Outfit (${link('https://fonts.google.com/specimen/Outfit', 'Google Fonts')}).</p>`;
     dialog.showModal();
   });
   dialog.addEventListener('click', (e) => {

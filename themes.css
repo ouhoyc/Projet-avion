@@ -33,9 +33,9 @@ html[data-da^="pop"] {
   --r-sm: 10px; --r-md: 14px; --r-lg: 18px;
   --shadow-sm: 3px 3px 0 var(--ink);
   --shadow-md: 5px 5px 0 var(--ink);
-  --font: "Space Grotesk", -apple-system, sans-serif;
-  --font-display: "Space Grotesk", sans-serif;
-  --font-mono: "Space Mono", ui-monospace, monospace;
+  --font: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: var(--font);
+  --font-mono: var(--font);
   --map-land: var(--paper);
   --map-water: #c4e3ea;
   --map-border: var(--ink);

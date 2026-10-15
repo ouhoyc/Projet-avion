@@ -48,8 +48,9 @@
   --map-pin-stroke: #ffffff;
   --map-origin: #1e3a8a;
 
-  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-display: "Playfair Display", Georgia, serif;
+  --font: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font);
+  --font-mono: var(--font);
   color-scheme: light;
 }
 
@@ -534,13 +535,7 @@ button.deal { font: inherit; color: inherit; text-align: left; cursor: pointer; 
 .credits-list h3 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); margin-top: var(--s-2); }
 .credits-list ul { padding-left: 1.2em; }
 .credits-list a { color: inherit; }
-/* Essai des polices (temporaire) : pastille en haut à droite + liste */
-.font-picker { position: fixed; top: calc(10px + env(safe-area-inset-top)); right: 10px; z-index: 1000; font-family: system-ui, -apple-system, sans-serif; }
-.font-picker-btn { padding: 10px 16px; border: 2px solid #14213d; border-radius: 999px; background: #ff6b4a; color: #fff; font: 700 15px/1 system-ui, -apple-system, sans-serif; box-shadow: 3px 3px 0 #14213d; cursor: pointer; }
-.font-picker-list { position: absolute; right: 0; top: calc(100% + 8px); width: min(320px, calc(100vw - 20px)); max-height: 70vh; overflow-y: auto; margin: 0; padding: 6px; list-style: none; background: #fff; border: 2px solid #14213d; border-radius: 14px; box-shadow: 4px 4px 0 #14213d; }
-.font-picker-list button { display: block; width: 100%; text-align: left; padding: 10px 12px; border: 0; border-radius: 10px; background: none; color: #14213d; font-size: 18px; font-weight: 700; cursor: pointer; }
-.font-picker-list button small { display: block; font-size: 13px; font-weight: 400; color: #4b5675; margin-top: 2px; }
-.font-picker-list button[aria-current] { background: #fbf0e6; outline: 2px solid #ff6b4a; }
+
 
 /* Respect du réglage « Réduire les animations » de l'iPhone */
 @media (prefers-reduced-motion: reduce) {
