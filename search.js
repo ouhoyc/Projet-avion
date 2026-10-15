@@ -557,7 +557,7 @@ function thumbHtml(dest) {
   if (!p) return `<span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>`;
   return `
     <span class="thumb">
-      <img src="${escapeHtml(p.src)}" alt="" loading="lazy" decoding="async">
+      <img src="${escapeHtml(p.src.replace('img/villes/', 'img/villes/mini/'))}" alt="" loading="lazy" decoding="async">
       <span class="thumb-flag" aria-hidden="true">${flag(dest.country_code)}</span>
     </span>`;
 }

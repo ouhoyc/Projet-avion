@@ -275,5 +275,1040 @@
       ],
       "source": "AEMET, normales 1991–2020 (aéroport de Barcelone)"
     }
+  },
+  "LIS": {
+    "pitch": "Une ville de lumière au bord de l'océan : ruelles pavées qui dévalent vers le Tage, tramways jaunes, pastéis de nata encore tièdes et couchers de soleil depuis les belvédères.",
+    "photo": {
+      "src": "img/villes/LIS.jpg",
+      "alt": "Panorama des toits de Lisbonne, le Tage et le pont du 25-Avril sous ciel bleu",
+      "author": "Norbert Nagel",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:View_of_Lisbon_and_Tejo_-_01.jpg"
+    },
+    "climate": {
+      "min": [
+        8.6,
+        9.1,
+        11.0,
+        12.3,
+        14.4,
+        16.8,
+        18.2,
+        18.8,
+        17.6,
+        15.3,
+        11.8,
+        9.4
+      ],
+      "max": [
+        15.1,
+        16.4,
+        18.9,
+        20.4,
+        23.1,
+        26.1,
+        28.2,
+        28.8,
+        26.6,
+        22.8,
+        18.1,
+        15.4
+      ],
+      "pluie": [
+        10.0,
+        7.9,
+        7.6,
+        7.9,
+        5.8,
+        2.0,
+        0.6,
+        1.1,
+        3.8,
+        8.7,
+        9.9,
+        10.0
+      ],
+      "soleil": [
+        158.6,
+        174.7,
+        216.0,
+        248.0,
+        296.8,
+        322.2,
+        349.7,
+        339.9,
+        259.8,
+        196.4,
+        163.1,
+        149.7
+      ],
+      "source": "IPMA, normales 1991–2020 (Lisbonne)"
+    }
+  },
+  "OPO": {
+    "pitch": "Un charme fou à petit prix : quais colorés au bord du Douro, caves de porto à déguster et soirées douces sur les rives de la Ribeira.",
+    "photo": {
+      "src": "img/villes/OPO.jpg",
+      "alt": "Quais colorés de la Ribeira au bord du Douro, vus du Jardim do Morro",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:View_of_Ribeira_from_Jardim_do_Morro_(2).jpg"
+    },
+    "climate": {
+      "min": [
+        6.4,
+        6.8,
+        8.8,
+        10.1,
+        12.3,
+        14.5,
+        15.5,
+        15.7,
+        14.8,
+        12.9,
+        9.4,
+        7.6
+      ],
+      "max": [
+        14.0,
+        15.0,
+        17.0,
+        18.1,
+        20.3,
+        22.7,
+        24.3,
+        24.8,
+        23.5,
+        20.7,
+        16.8,
+        14.7
+      ],
+      "pluie": [
+        12.8,
+        10.0,
+        9.9,
+        10.4,
+        8.9,
+        4.9,
+        3.1,
+        3.2,
+        5.8,
+        11.1,
+        13.0,
+        12.4
+      ],
+      "soleil": [
+        124.0,
+        129.0,
+        192.0,
+        217.0,
+        258.0,
+        274.0,
+        308.0,
+        295.0,
+        224.0,
+        184.0,
+        139.0,
+        124.0
+      ],
+      "source": "IPMA, normales 1991–2020 (aéroport de Porto) ; soleil 1961–1990"
+    }
+  },
+  "ROM": {
+    "pitch": "La dolce vita en version originale : trois mille ans d'histoire à chaque coin de rue, places animées, pâtes fraîches et apéritifs en terrasse au soleil couchant.",
+    "photo": {
+      "src": "img/villes/ROM.jpg",
+      "alt": "Colisée illuminé à l'heure bleue",
+      "author": "Diliff",
+      "license": "CC BY-SA 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome-April_2007-1-_copie_2B.jpg"
+    },
+    "climate": {
+      "min": [
+        3.4,
+        3.4,
+        5.9,
+        8.6,
+        12.6,
+        16.7,
+        19.3,
+        19.8,
+        16.0,
+        12.4,
+        8.5,
+        4.7
+      ],
+      "max": [
+        12.0,
+        13.0,
+        15.8,
+        18.8,
+        22.3,
+        28.1,
+        31.0,
+        31.6,
+        26.7,
+        22.2,
+        16.9,
+        12.7
+      ],
+      "pluie": [
+        7.4,
+        7.48,
+        6.85,
+        7.42,
+        5.54,
+        3.38,
+        2.16,
+        2.2,
+        6.0,
+        7.32,
+        8.84,
+        9.44
+      ],
+      "soleil": [
+        155.9,
+        171.9,
+        203.1,
+        221.1,
+        276.5,
+        298.8,
+        337.6,
+        320.2,
+        237.9,
+        200.6,
+        153.3,
+        146.9
+      ],
+      "source": "NOAA, normales 1991–2020 (Rome-Ciampino)"
+    }
+  },
+  "NAP": {
+    "pitch": "L'Italie la plus vibrante : la vraie pizza napolitaine, une baie spectaculaire face au Vésuve et la côte amalfitaine à portée d'excursion.",
+    "photo": {
+      "src": "img/villes/NAP.jpg",
+      "alt": "Panorama de Naples, du golfe et du Vésuve depuis le Castel Sant'Elmo",
+      "author": "Richard Nevell",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Napoli_-_Maschio_Angioino_-_202209302342_3.jpg"
+    },
+    "climate": {
+      "min": [
+        4.7,
+        4.9,
+        7.3,
+        10.0,
+        14.3,
+        18.4,
+        20.9,
+        21.4,
+        17.6,
+        13.8,
+        9.5,
+        5.9
+      ],
+      "max": [
+        13.4,
+        13.9,
+        16.4,
+        19.4,
+        23.6,
+        27.7,
+        30.4,
+        31.0,
+        26.8,
+        23.0,
+        18.3,
+        14.3
+      ],
+      "pluie": [
+        9.3,
+        9.1,
+        8.6,
+        9.3,
+        6.1,
+        3.3,
+        2.4,
+        3.7,
+        6.1,
+        8.5,
+        10.2,
+        9.9
+      ],
+      "soleil": [
+        114.7,
+        127.6,
+        158.1,
+        189.0,
+        244.9,
+        279.0,
+        313.1,
+        294.5,
+        234.0,
+        189.1,
+        126.0,
+        105.4
+      ],
+      "source": "ISPRA, normales 1991–2020 (aéroport de Naples)"
+    }
+  },
+  "VCE": {
+    "pitch": "Une ville qui n'existe nulle part ailleurs : gondoles sur le Grand Canal, ruelles sans voitures, palais posés sur l'eau et spritz au bord des canaux.",
+    "photo": {
+      "src": "img/villes/VCE.jpg",
+      "alt": "Grand Canal et basilique de la Salute depuis le pont de l'Accademia, gondole",
+      "author": "Wolfgang Moroder",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
+    },
+    "climate": {
+      "min": [
+        0.1,
+        0.8,
+        4.5,
+        8.7,
+        13.5,
+        17.4,
+        19.2,
+        18.9,
+        14.8,
+        10.5,
+        5.7,
+        1.0
+      ],
+      "max": [
+        7.5,
+        9.2,
+        13.2,
+        17.4,
+        22.0,
+        26.0,
+        28.5,
+        28.4,
+        23.8,
+        18.5,
+        12.9,
+        8.3
+      ],
+      "pluie": [
+        6.0,
+        5.2,
+        5.7,
+        8.3,
+        8.2,
+        8.6,
+        5.9,
+        6.1,
+        5.9,
+        6.7,
+        5.8,
+        5.9
+      ],
+      "soleil": [
+        80.6,
+        107.4,
+        142.6,
+        174.0,
+        229.4,
+        243.0,
+        288.3,
+        257.3,
+        198.0,
+        151.9,
+        87.0,
+        77.5
+      ],
+      "source": "ISPRA/NOAA, normales 1991–2020 (Venise) ; soleil 1961–1990"
+    }
+  },
+  "FLR": {
+    "pitch": "Le berceau de la Renaissance : chefs-d'œuvre dans chaque musée, couchers de soleil sur le Ponte Vecchio, vin de Toscane et cuisine généreuse.",
+    "photo": {
+      "src": "img/villes/FLR.jpg",
+      "alt": "Le Ponte Vecchio et l'Arno au coucher du soleil, ciel rose",
+      "author": "Daniel Lu",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_sunset_from_Piazzale_Michelangelo_Florence_2023_dllu.jpg"
+    },
+    "climate": {
+      "min": [
+        2.1,
+        2.5,
+        5.1,
+        8.1,
+        11.9,
+        16.0,
+        18.4,
+        18.5,
+        15.0,
+        10.9,
+        6.4,
+        2.6
+      ],
+      "max": [
+        11.2,
+        12.7,
+        16.2,
+        20.0,
+        24.3,
+        29.1,
+        32.3,
+        32.4,
+        27.3,
+        21.5,
+        15.6,
+        11.4
+      ],
+      "pluie": [
+        7.5,
+        7.2,
+        7.0,
+        8.7,
+        7.6,
+        5.2,
+        2.9,
+        4.0,
+        6.2,
+        8.8,
+        10.0,
+        9.6
+      ],
+      "soleil": [
+        93.0,
+        113.0,
+        155.0,
+        186.0,
+        241.8,
+        270.0,
+        313.1,
+        279.0,
+        210.0,
+        151.9,
+        111.0,
+        122.5
+      ],
+      "source": "NOAA/ISPRA, normales 1991–2020 (aéroport de Florence)"
+    }
+  },
+  "MIL": {
+    "pitch": "La capitale italienne du style : mode, design, aperitivo chic sur les Navigli et le Duomo en toile de fond. Le lac de Côme à une heure de train.",
+    "photo": {
+      "src": "img/villes/MIL.jpg",
+      "alt": "Skyline de Milan et gratte-ciel de Porta Nuova vus des toits du Duomo, Alpes en fond",
+      "author": "Daniel Case",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Full_Milan_skyline_from_Duomo_roof.jpg"
+    },
+    "climate": {
+      "min": [
+        -0.4,
+        0.6,
+        4.4,
+        8.4,
+        12.8,
+        17.2,
+        19.3,
+        18.8,
+        14.9,
+        10.2,
+        5.3,
+        0.6
+      ],
+      "max": [
+        7.3,
+        10.0,
+        15.5,
+        19.3,
+        23.9,
+        28.1,
+        30.7,
+        29.9,
+        25.5,
+        19.0,
+        12.4,
+        7.4
+      ],
+      "pluie": [
+        4.7,
+        4.5,
+        5.4,
+        7.2,
+        8.4,
+        6.6,
+        4.5,
+        5.5,
+        5.1,
+        6.6,
+        8.3,
+        5.7
+      ],
+      "soleil": [
+        101.4,
+        127.7,
+        188.5,
+        197.4,
+        236.3,
+        269.6,
+        312.2,
+        262.3,
+        199.3,
+        142.5,
+        95.1,
+        85.1
+      ],
+      "source": "NOAA/ISPRA, normales 1991–2020 (Milan-Linate)"
+    }
+  },
+  "ATH": {
+    "pitch": "Le soleil grec et 2 500 ans d'histoire : l'Acropole au-dessus des toits, tavernes animées de Plaka et les plages de la Riviera athénienne à portée de tram.",
+    "photo": {
+      "src": "img/villes/ATH.jpg",
+      "alt": "L'Acropole et le Parthénon illuminés au crépuscule, Odéon d'Hérode Atticus",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg"
+    },
+    "climate": {
+      "min": [
+        7.1,
+        7.3,
+        9.2,
+        12.3,
+        17.0,
+        21.6,
+        24.2,
+        24.4,
+        20.4,
+        16.2,
+        12.2,
+        8.7
+      ],
+      "max": [
+        13.3,
+        14.2,
+        17.0,
+        21.1,
+        26.5,
+        31.6,
+        34.3,
+        34.3,
+        29.6,
+        24.4,
+        18.9,
+        14.4
+      ],
+      "pluie": [
+        12.9,
+        11.4,
+        11.3,
+        9.3,
+        6.4,
+        3.6,
+        1.7,
+        1.6,
+        4.7,
+        8.6,
+        10.9,
+        13.5
+      ],
+      "soleil": [
+        130.2,
+        134.4,
+        182.9,
+        231.0,
+        291.4,
+        336.0,
+        362.7,
+        341.0,
+        276.0,
+        207.7,
+        153.0,
+        127.1
+      ],
+      "source": "NOA, normales 1991–2020 (Athènes centre) ; pluie et soleil HNMS 1955–2010"
+    }
+  },
+  "MAD": {
+    "pitch": "L'énergie espagnole à l'état pur : musées de légende, tapas jusqu'à minuit, rooftops sur la Gran Vía et une ville qui ne dort jamais vraiment.",
+    "photo": {
+      "src": "img/villes/MAD.jpg",
+      "alt": "Coucher de soleil flamboyant sur les toits de Madrid et l'édifice Telefónica de la Gran Vía",
+      "author": "José Manuel Suárez",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:De_Madrid_al_cielo_81.jpg"
+    },
+    "climate": {
+      "min": [
+        3.0,
+        3.7,
+        6.3,
+        8.2,
+        11.9,
+        16.5,
+        19.5,
+        19.3,
+        15.5,
+        11.1,
+        6.4,
+        3.7
+      ],
+      "max": [
+        10.0,
+        12.2,
+        16.2,
+        18.9,
+        23.2,
+        28.9,
+        32.8,
+        32.0,
+        26.5,
+        19.7,
+        13.5,
+        10.3
+      ],
+      "pluie": [
+        5.5,
+        5.1,
+        5.4,
+        6.7,
+        6.8,
+        3.3,
+        1.5,
+        1.5,
+        3.5,
+        7.2,
+        6.7,
+        5.9
+      ],
+      "soleil": [
+        149,
+        158,
+        211,
+        230,
+        268,
+        315,
+        355,
+        332,
+        259,
+        199,
+        144,
+        124
+      ],
+      "source": "AEMET, normales 1991–2020 (Madrid-Retiro)"
+    }
+  },
+  "SVQ": {
+    "pitch": "L'Andalousie de carte postale : patios fleuris, flamenco, places baignées de soleil et soirées tapas sous les orangers.",
+    "photo": {
+      "src": "img/villes/SVQ.jpg",
+      "alt": "La Plaza de España en lumière dorée, canal et pont en azulejos",
+      "author": "Dmitry Dzhus",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Seville,_Plaza_de_Espa%C3%B1a_(38625005691)_(edited).jpg"
+    },
+    "climate": {
+      "min": [
+        6.0,
+        7.0,
+        9.5,
+        11.6,
+        14.9,
+        18.5,
+        20.7,
+        20.9,
+        18.4,
+        14.9,
+        10.1,
+        7.4
+      ],
+      "max": [
+        16.3,
+        18.3,
+        21.6,
+        24.0,
+        28.2,
+        32.9,
+        36.3,
+        36.2,
+        31.6,
+        26.3,
+        20.3,
+        16.9
+      ],
+      "pluie": [
+        5.9,
+        5.3,
+        5.5,
+        6.0,
+        4.2,
+        1.0,
+        0.1,
+        0.4,
+        2.8,
+        6.3,
+        6.1,
+        6.5
+      ],
+      "soleil": [
+        189,
+        198,
+        229,
+        255,
+        307,
+        339,
+        369,
+        347,
+        261,
+        229,
+        192,
+        174
+      ],
+      "source": "AEMET, normales 1991–2020 (aéroport de Séville)"
+    }
+  },
+  "AGP": {
+    "pitch": "Le soleil de la Costa del Sol presque toute l'année : plages en pleine ville, terrasses face à la mer, musée Picasso et toute l'Andalousie à portée de main.",
+    "photo": {
+      "src": "img/villes/AGP.jpg",
+      "alt": "Panorama de Málaga depuis Gibralfaro : port, mer turquoise, parc et centre historique",
+      "author": "Kiban",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Da_Gibralfaro_(cropped)2.jpg"
+    },
+    "climate": {
+      "min": [
+        7.9,
+        8.4,
+        10.1,
+        11.9,
+        14.9,
+        18.6,
+        21.2,
+        22.0,
+        19.2,
+        15.4,
+        11.4,
+        9.1
+      ],
+      "max": [
+        17.2,
+        17.9,
+        19.7,
+        21.8,
+        24.7,
+        28.5,
+        31.0,
+        31.5,
+        28.4,
+        24.3,
+        20.2,
+        17.8
+      ],
+      "pluie": [
+        5.4,
+        4.6,
+        5.1,
+        4.4,
+        3.2,
+        0.6,
+        0.0,
+        0.4,
+        2.3,
+        4.5,
+        5.4,
+        5.6
+      ],
+      "soleil": [
+        183,
+        189,
+        223,
+        249,
+        301,
+        336,
+        353,
+        322,
+        261,
+        220,
+        177,
+        161
+      ],
+      "source": "AEMET, normales 1991–2020 (aéroport de Málaga)"
+    }
+  },
+  "PMI": {
+    "pitch": "Les Baléares version chic : criques turquoise, vieille ville dorée autour de la cathédrale et dîners face à la Méditerranée.",
+    "photo": {
+      "src": "img/villes/PMI.jpg",
+      "alt": "Cathédrale de Palma (La Seu) au coucher du soleil, ciel rose et reflets sur le lac du Parc de la Mar",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santa_Mar%C3%ADa,_Palma_de_Mallorca,_Espa%C3%B1a,_2022-10-06,_DD_01-03_HDR.jpg"
+    },
+    "climate": {
+      "min": [
+        8.5,
+        8.4,
+        9.9,
+        12.2,
+        15.5,
+        19.4,
+        22.4,
+        23.0,
+        20.1,
+        16.8,
+        12.4,
+        9.9
+      ],
+      "max": [
+        15.7,
+        15.7,
+        17.6,
+        19.7,
+        23.0,
+        27.0,
+        29.7,
+        30.2,
+        27.4,
+        24.0,
+        19.5,
+        16.8
+      ],
+      "pluie": [
+        6.2,
+        5.9,
+        4.6,
+        4.7,
+        3.1,
+        1.9,
+        0.6,
+        1.8,
+        5.3,
+        6.3,
+        7.2,
+        5.9
+      ],
+      "soleil": [
+        167,
+        172,
+        217,
+        249,
+        298,
+        327,
+        353,
+        319,
+        234,
+        208,
+        162,
+        152
+      ],
+      "source": "AEMET, normales 1991–2020 (port de Palma)"
+    }
+  },
+  "RAK": {
+    "pitch": "Le grand dépaysement sans aller loin : souks colorés, riads avec patio, jardins de rêve et soleil presque garanti, même en hiver.",
+    "photo": {
+      "src": "img/villes/RAK.jpg",
+      "alt": "Villa bleue du jardin Majorelle entourée de cactus et de palmiers",
+      "author": "Viault",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Le_jardin_des_majorelle_l3.JPG"
+    },
+    "climate": {
+      "min": [
+        5.9,
+        7.6,
+        10.3,
+        12.4,
+        15.2,
+        17.9,
+        20.6,
+        21.1,
+        18.6,
+        15.7,
+        10.7,
+        7.3
+      ],
+      "max": [
+        19.1,
+        20.7,
+        23.6,
+        25.7,
+        29.4,
+        33.6,
+        37.7,
+        37.4,
+        32.5,
+        28.5,
+        23.1,
+        20.1
+      ],
+      "pluie": [
+        3.0,
+        3.7,
+        4.7,
+        2.9,
+        1.5,
+        0.6,
+        0.3,
+        0.8,
+        1.3,
+        2.4,
+        3.8,
+        4.1
+      ],
+      "soleil": [
+        230.1,
+        216.5,
+        252.8,
+        270.2,
+        303.1,
+        359.7,
+        330.4,
+        315.1,
+        266.8,
+        251.5,
+        228.9,
+        226.6
+      ],
+      "source": "NOAA, normales 1991–2020 (aéroport de Marrakech)"
+    }
+  },
+  "AMS": {
+    "pitch": "Le charme des canaux : balades à vélo, maisons penchées, musées de légende (Van Gogh, Rijksmuseum) et cafés cosy pour refaire le monde.",
+    "photo": {
+      "src": "img/villes/AMS.jpg",
+      "alt": "Ponts illuminés du Keizersgracht et du Reguliersgracht à l'heure bleue",
+      "author": "Massimo Catarinella",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:KeizersgrachtReguliersgrachtAmsterdam.jpg"
+    },
+    "climate": {
+      "min": [
+        1.2,
+        1.0,
+        2.8,
+        5.2,
+        8.6,
+        11.3,
+        13.5,
+        13.4,
+        11.0,
+        7.7,
+        4.5,
+        1.5
+      ],
+      "max": [
+        6.2,
+        6.9,
+        10.1,
+        14.3,
+        17.8,
+        20.3,
+        22.5,
+        22.4,
+        19.2,
+        14.7,
+        10.0,
+        6.9
+      ],
+      "pluie": [
+        12.2,
+        10.8,
+        9.7,
+        8.6,
+        8.9,
+        9.7,
+        10.9,
+        11.6,
+        10.9,
+        12.4,
+        13.4,
+        14.1
+      ],
+      "soleil": [
+        69.0,
+        94.3,
+        146.0,
+        197.7,
+        230.7,
+        217.2,
+        225.4,
+        203.5,
+        154.2,
+        116.9,
+        66.8,
+        58.2
+      ],
+      "source": "KNMI, normales 1991–2020 (Schiphol)"
+    }
+  },
+  "BER": {
+    "pitch": "La capitale la plus créative d'Europe : street art, clubs légendaires, histoire à chaque coin de rue et une cuisine du monde à petits prix.",
+    "photo": {
+      "src": "img/villes/BER.jpg",
+      "alt": "Skyline de Berlin au crépuscule : Spree, cathédrale, Rotes Rathaus et tour de télévision",
+      "author": "abbilder",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Blick_von_der_Fischerinsel_auf_Berlin_-_Flickr_-_abbilder.jpg"
+    },
+    "climate": {
+      "min": [
+        -2.2,
+        -1.8,
+        0.4,
+        4.0,
+        8.2,
+        11.7,
+        14.0,
+        13.5,
+        9.8,
+        5.6,
+        1.9,
+        -0.9
+      ],
+      "max": [
+        3.2,
+        4.9,
+        9.0,
+        15.1,
+        19.6,
+        22.9,
+        25.0,
+        24.8,
+        19.8,
+        13.9,
+        7.7,
+        4.1
+      ],
+      "pluie": [
+        10,
+        9,
+        8,
+        9,
+        10,
+        10,
+        9,
+        9,
+        9,
+        8,
+        10,
+        11
+      ],
+      "soleil": [
+        52.6,
+        77.9,
+        126.7,
+        196.4,
+        231.1,
+        232.9,
+        233.7,
+        222.2,
+        168.9,
+        113.8,
+        57.4,
+        45.0
+      ],
+      "source": "DWD, normales 1991–2020 (Berlin) ; jours de pluie NOAA 1961–1990"
+    }
   }
 }
