@@ -17,30 +17,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="themes.css">
   <script>
-    // Directions artistiques à l'essai : ?da=pop | pop-sunset | pop-med | pop-tropical | affiche | depart | postale (« ?da=actuelle » pour revenir).
-    (function () {
-      var p = new URLSearchParams(location.search).get('da');
-      var stored = (function () { try { return localStorage.getItem('da'); } catch (e) { return null; } })();
-      var da = (p && p !== 'actuelle') ? p : (p === 'actuelle' ? null : (stored || 'pop'));
-      if (p) { try { p === 'actuelle' ? localStorage.removeItem('da') : localStorage.setItem('da', p); } catch (e) {} }
-      var pop = ''; // Pop : police Outfit, déjà chargée plus haut
-      var fonts = {
-        'pop': pop, 'pop-sunset': pop, 'pop-med': pop, 'pop-tropical': pop,
-        affiche: 'family=Abril+Fatface&family=Josefin+Sans:wght@400;600;700',
-        depart: 'family=Oswald:wght@500;600&family=IBM+Plex+Mono:wght@400;600',
-        postale: 'family=Caveat:wght@700&family=Karla:wght@400;600;700&family=Courier+Prime'
-      };
-      if (da && da in fonts) {
-        document.documentElement.dataset.da = da;
-      }
-      if (da && fonts[da]) {
-        var l = document.createElement('link');
-        l.rel = 'stylesheet';
-        l.href = 'https://fonts.googleapis.com/css2?' + fonts[da] + '&display=swap';
-        document.head.appendChild(l);
-      }
-      window.DA_PREVIEW = Boolean(p || stored);
-    })();
+    // Style du site verrouillé : Pop (les anciens essais gardés dans le navigateur sont oubliés).
+    document.documentElement.dataset.da = 'pop';
+    try { localStorage.removeItem('da'); localStorage.removeItem('police'); } catch (e) {}
+    window.DA_PREVIEW = false;
   </script>
 </head>
 <body>
@@ -64,8 +44,8 @@
 
   <header class="hero">
     <div class="hero-inner">
-      <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Aéroport <span id="origin-code">LYS</span></p>
-      <h1>Pas d'idée de destination&nbsp;?<br>Faites le tour <em>des possibles</em>.</h1>
+      <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Départ de <span id="origin-city">Lyon</span> · <span id="origin-code">LYS</span></p>
+      <h1>Pas d'idée de destination&nbsp;?<br>Faites le tour des possibles.</h1>
       <p class="hero-sub">Tous les vols directs depuis <span id="title-city">Lyon</span> et leurs meilleurs prix. Indiquez vos dates si vous en avez : on trouve les meilleurs départs à l'intérieur.</p>
       <ul class="hero-stats" id="stats">
         <li><strong>–</strong><span>destinations</span></li>
@@ -197,10 +177,6 @@
       </div>
     </div>
   </dialog>
-
-  <nav class="da-switch" id="da-switch" hidden aria-label="Direction artistique">
-    <a href="?da=pop">Pop</a><a href="?da=pop-sunset">Pop Sunset</a><a href="?da=pop-med">Pop Méditerranée</a><a href="?da=pop-tropical">Pop Tropical</a><a href="?da=affiche">Affiche</a><a href="?da=depart">Départs</a><a href="?da=postale">Postale</a><a href="?da=actuelle">Actuelle</a>
-  </nav>
 
   <footer class="footer">
     Prix mis à jour chaque matin · <button type="button" class="link-btn" id="open-credits">Crédits et mentions</button>

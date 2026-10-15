@@ -37,14 +37,6 @@ let mapItems = [];        // destinations affichées sur la carte (pour les bull
 
 init();
 
-// Barre d'aperçu des directions artistiques (seulement si un essai est en cours).
-if (window.DA_PREVIEW) {
-  const bar = $('da-switch');
-  const current = document.documentElement.dataset.da || 'actuelle';
-  for (const a of bar.querySelectorAll('a')) a.setAttribute('aria-current', a.search === `?da=${current}`);
-  bar.hidden = false;
-}
-
 async function init() {
   setupMap();
   try {
@@ -66,6 +58,7 @@ async function init() {
 function setupHeader() {
   const { origin, destinations } = data;
   els.originCode.textContent = origin.code;
+  $('origin-city').textContent = origin.city;
   els.titleCity.textContent = origin.city;
   $('legend-origin').textContent = origin.city;
   document.title = `Vols directs depuis ${origin.city}`;
