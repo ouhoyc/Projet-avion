@@ -77,6 +77,14 @@ html[data-da^="pop"] {
   transform: rotate(-2deg); box-shadow: 2px 2px 0 var(--ink);
 }
 [data-da^="pop"] .hero h1 { font-weight: 700; letter-spacing: -.035em; font-size: clamp(2.1rem, 9.5vw, 3.8rem); line-height: 1.28; }
+[data-da^="pop"] .hero h1 { text-wrap: wrap; }
+[data-da^="pop"] .hero h1 .h1-break { display: block; }
+[data-da^="pop"] .hero h1 .h1-line { display: block; white-space: nowrap; }
+/* Téléphone : 4 lignes de longueur égale qui remplissent toute la largeur */
+@media (max-width: 639px) {
+  [data-da^="pop"] .hero h1 { font-size: 13vw; line-height: 1.22; letter-spacing: -.04em; }
+  [data-da^="pop"] .hero h1 .h1-line { display: block; white-space: nowrap; }
+}
 [data-da^="pop"] .hero h1 em {
   font-family: var(--font); font-style: normal; white-space: nowrap;
   background: var(--highlight); color: var(--on-highlight); padding: 0 .14em; border-radius: 10px;
