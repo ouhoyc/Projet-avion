@@ -54,6 +54,9 @@ const HOTEL_KEY = `hotel-${code}`;
 let hotel = loadHotel();
 let quartierChoisi = null; // null = quartier idéal calculé
 let map = null;
+let hotelsOn = false;       // le visiteur a demandé à voir les hôtels
+let hotelResults = null;    // dernière liste reçue { hotels, nights, key }
+let hotelMarkers = [];
 
 init();
 
@@ -131,7 +134,7 @@ function toggle(id) {
   try { localStorage.setItem(SEL_KEY, JSON.stringify([...selected])); } catch {}
   renderList();
   updateBar();
-  pins[id]?.classList.toggle('is-on', selected.has(id));
+  paintPins();
   renderHotel();
 }
 
@@ -277,7 +280,7 @@ function openQuote() {
       <ul class="q-lines">
         ${q.flight != null ? `
           <li><span><b>✈ Vols ${trip.ret ? 'aller-retour' : 'aller simple'}</b><small>${paxCount(q.pax)} × ${euro(trip.price)} · prix repéré, à vérifier sur Kiwi.com</small></span><strong>${euro(q.flight)}</strong></li>` : ''}
-        <li class="q-hotel"><span><b>🏨 Hôtel${hotelSummary() ? ` · ${esc(hotelSummary())}` : ''}</b><small>Prix total de l'hôtel choisi (vu sur la carte des hôtels)</small></span>
+        <li class="q-hotel"><span><b>🏨 Hôtel${hotelSummary() ? ` · ${esc(hotelSummary())}` : ''}</b><small>${hotel.nom ? 'Prix total trouvé pour vos dates' : 'Choisissez un hôtel sur la carte, ou notez son prix'}</small></span>
           <label class="q-hotel-in"><input type="number" id="q-hotel" min="0" step="1" inputmode="numeric" placeholder="—" value="${q.hotelPrice ?? ''}"> €</label></li>
         ${q.lines.map((l) => `
           <li><span><b>${l.a.emoji} ${esc(l.a.nom)}</b><small>${esc(l.detail)}${l.estimation ? ' · estimation' : ''}</small></span><strong>${l.total === 0 ? 'Gratuit' : euro(l.total)}</strong>
@@ -291,6 +294,7 @@ function openQuote() {
     </div>`);
   $('q-hotel').onchange = (e) => {
     hotel.prix = Math.max(0, Number(e.target.value) || 0);
+    if (!hotel.prix) { delete hotel.nom; delete hotel.id; }
     saveHotel();
     updateBar();
     openQuote();
@@ -381,13 +385,15 @@ async function setupMap() {
     for (const a of acts) {
       const el = document.createElement('button');
       el.type = 'button';
-      el.className = `v-pin${selected.has(a.id) ? ' is-on' : ''}`;
+      el.className = 'v-pin';
       el.textContent = a.emoji;
       el.setAttribute('aria-label', a.nom);
       el.addEventListener('click', () => openSheet(a.id));
       pins[a.id] = el;
       new maplibregl.Marker({ element: el }).setLngLat([a.lng, a.lat]).addTo(map);
     }
+    paintPins();
+    if (hotelResults) drawHotels();
   } catch (err) {
     console.warn('Carte indisponible :', err);
     $('v-map').innerHTML = '<p style="padding:16px">La carte ne peut pas s\'afficher sur cet appareil.</p>';
@@ -453,6 +459,7 @@ function nights() {
 }
 
 function hotelSummary() {
+  if (hotel.nom) return `${hotel.nom}${hotel.nuits ? ` · ${hotel.nuits} nuit${hotel.nuits > 1 ? 's' : ''}` : ''}`;
   const { q } = currentQuartier();
   const g = GAMMES.find((x) => x.id === hotel.gamme);
   const n = nights();
@@ -525,6 +532,15 @@ function renderHotels(q) {
     $('h-hotels').innerHTML = '<p class="h-hint">Choisissez vos dates d\'arrivée et de départ pour voir les hôtels et leurs prix.</p>';
     return;
   }
+  if (hotelsOn) return loadHotels(q, inD, outD, pax, g);
+  $('h-hotels').innerHTML = `
+    <button type="button" class="btn btn-main" id="h-search">Voir les hôtels et leurs prix · ${esc(q.nom)}</button>
+    <p class="h-hint">${n} nuit${n > 1 ? 's' : ''} · ${esc(paxLabel(pax))} · ${esc(g.nom)}. Les hôtels apparaissent sur la carte avec leur prix pour vos dates.</p>`;
+  $('h-search').onclick = () => { hotelsOn = true; renderHotels(q); };
+}
+
+function bookingFallback(q, inD, outD, pax, g, why) {
+  const n = nights();
   if (STAY22_AID) {
     const p = new URLSearchParams({
       aid: STAY22_AID, lat: q.lat, lng: q.lng, zoom: '15', checkin: inD, checkout: outD,
@@ -546,8 +562,9 @@ function renderHotels(q) {
   if (g.etoiles) b.set('nflt', `class=${g.etoiles}`);
   if (g.id === 'dormir') b.set('order', 'price');
   $('h-hotels').innerHTML = `
-    <a class="btn btn-main" href="https://www.booking.com/searchresults.fr.html?${esc(b.toString())}" target="_blank" rel="noopener">Voir les hôtels et leurs prix · ${esc(q.nom)}</a>
-    <p class="h-hint">${n} nuit${n > 1 ? 's' : ''} · ${esc(paxLabel(pax))} · ${esc(g.nom)}. Notez ensuite le prix de l'hôtel choisi dans votre devis. La carte des hôtels directement sur cette page arrive bientôt.</p>`;
+    ${why ? `<p class="h-hint">${esc(why)}</p>` : ''}
+    <a class="btn btn-main" href="https://www.booking.com/searchresults.fr.html?${esc(b.toString())}" target="_blank" rel="noopener">Voir les hôtels et leurs prix sur Booking · ${esc(q.nom)}</a>
+    <p class="h-hint">${n} nuit${n > 1 ? 's' : ''} · ${esc(paxLabel(pax))} · ${esc(g.nom)}. Notez ensuite le prix de l'hôtel choisi dans votre devis.</p>`;
 }
 
 // Cercle de la zone (rayon ≈ 15 min à pied) sur la carte des activités.
@@ -561,4 +578,137 @@ function drawZone() {
     pts.push([q.lng + (r / (111.32 * Math.cos(q.lat * Math.PI / 180))) * Math.cos(t), q.lat + (r / 110.57) * Math.sin(t)]);
   }
   src.setData({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [pts] } });
+}
+
+// ---------------------------------------------------------------------------
+// Hôtels en direct (api/hotels.js → LiteAPI) : pastilles de prix sur la carte,
+// vert / orange / rouge comme pour les vols, et choix qui remplit le devis.
+// ---------------------------------------------------------------------------
+const HOTELS_CACHE_MIN = 30;
+
+async function loadHotels(q, inD, outD, pax, g) {
+  const p = new URLSearchParams({ c: code, lat: q.lat.toFixed(4), lng: q.lng.toFixed(4), in: inD, out: outD, adults: pax.adults, children: pax.children.join(','), gamme: g.id });
+  const key = p.toString();
+  if (hotelResults?.key === key) return showHotels();
+  $('h-hotels').innerHTML = `<p class="h-loading">Recherche des hôtels à ${esc(q.nom)} pour vos dates…</p>`;
+  let data = null;
+  try {
+    const cached = JSON.parse(sessionStorage.getItem(`h:${key}`) || 'null');
+    if (cached && Date.now() - cached.t < HOTELS_CACHE_MIN * 60000) data = cached.data;
+  } catch {}
+  if (!data) {
+    try {
+      const r = await fetch(`api/hotels?${key}`);
+      data = await r.json();
+      if (r.ok && data.status === 'ok') try { sessionStorage.setItem(`h:${key}`, JSON.stringify({ t: Date.now(), data })); } catch {}
+      else if (data.error === 'not_configured') return bookingFallback(q, inD, outD, pax, g, '');
+      else throw new Error(data.error || r.status);
+    } catch {
+      return bookingFallback(q, inD, outD, pax, g, 'La recherche d\'hôtels ne répond pas pour le moment.');
+    }
+  }
+  if (stayDates().inD !== inD || currentQuartier().q.id !== q.id) return; // la recherche a changé entre-temps
+  if (!data.hotels?.length) return bookingFallback(q, inD, outD, pax, g, `Aucun hôtel « ${g.nom} » trouvé ici pour vos dates.`);
+  hotelResults = { key, ...data };
+  showHotels();
+  document.getElementById('t-map').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Paliers de prix (par nuit) : le tiers le moins cher en vert, le tiers du milieu en orange.
+function tiers(list) {
+  const per = list.map((h) => h.total / hotelResults.nights).sort((a, b) => a - b);
+  return { low: per[Math.floor((per.length - 1) / 3)], mid: per[Math.floor(((per.length - 1) * 2) / 3)] };
+}
+function tierOf(h, t) {
+  const v = h.total / hotelResults.nights;
+  return v <= t.low ? 'low' : v <= t.mid ? 'mid' : 'high';
+}
+
+function showHotels() {
+  const list = hotelResults.hotels;
+  const n = hotelResults.nights;
+  const t = tiers(list);
+  $('h-hotels').innerHTML = `<p class="h-found">${list.length} hôtel${list.length > 1 ? 's' : ''} trouvé${list.length > 1 ? 's' : ''} pour vos dates · prix total pour ${n} nuit${n > 1 ? 's' : ''}, ${esc(paxLabel(paxGet()))}</p>`;
+  $('lg-low').textContent = `≤ ${Math.round(t.low)} €/nuit`;
+  $('lg-mid').textContent = `≤ ${Math.round(t.mid)} €/nuit`;
+  $('lg-high').textContent = `> ${Math.round(t.mid)} €/nuit`;
+  $('v-legend').hidden = false;
+  $('v-map-note').textContent = 'Touchez un prix pour voir l\'hôtel, ou un point pour voir l\'activité.';
+  $('h-list').innerHTML = list.slice(0, 12).map((h) => hotelCard(h, tierOf(h, t))).join('');
+  $('h-list').onclick = (e) => {
+    const b = e.target.closest('[data-hotel]');
+    if (b) openHotel(b.dataset.hotel);
+  };
+  drawHotels();
+}
+
+function starsTxt(s) {
+  return s ? '★'.repeat(Math.round(s)) : '';
+}
+
+function hotelCard(h, tier) {
+  const on = hotel.id === h.id;
+  return `
+    <li><button type="button" class="h-item${on ? ' is-on' : ''}" data-hotel="${esc(h.id)}">
+      ${h.photo ? `<img src="${esc(h.photo)}" alt="" loading="lazy">` : '<span class="h-noimg" aria-hidden="true">🏨</span>'}
+      <span class="h-item-main"><b>${esc(h.name)}</b><small>${starsTxt(h.stars)}${h.rating ? ` · ${String(h.rating).replace('.', ',')}/10` : ''}${on ? ' · ✓ choisi' : ''}</small></span>
+      <span class="h-item-price t-${tier}">${euro(h.total)}<small>${euro(Math.round(h.total / hotelResults.nights))}/nuit</small></span>
+    </button></li>`;
+}
+
+function drawHotels() {
+  hotelMarkers.forEach((m) => m.remove());
+  hotelMarkers = [];
+  if (!map || !hotelResults) return;
+  const t = tiers(hotelResults.hotels);
+  const bounds = new maplibregl.LngLatBounds();
+  for (const h of hotelResults.hotels) {
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = `h-pin t-${tierOf(h, t)}${hotel.id === h.id ? ' is-on' : ''}`;
+    el.textContent = `${Math.round(h.total / hotelResults.nights)} €`;
+    el.setAttribute('aria-label', `${h.name}, ${euro(h.total)}`);
+    el.addEventListener('click', (e) => { e.stopPropagation(); openHotel(h.id); });
+    hotelMarkers.push(new maplibregl.Marker({ element: el }).setLngLat([h.lng, h.lat]).addTo(map));
+    bounds.extend([h.lng, h.lat]);
+  }
+  chosenPlaces().forEach((a) => bounds.extend([a.lng, a.lat]));
+  if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 40, maxZoom: 15, duration: 600 });
+}
+
+function openHotel(id) {
+  const h = hotelResults?.hotels.find((x) => x.id === id);
+  if (!h) return;
+  const n = hotelResults.nights;
+  const on = hotel.id === h.id;
+  const near = chosenPlaces().map((a) => ({ a, d: km(a, { lat: h.lat, lng: h.lng }) })).sort((x, y) => x.d - y.d);
+  showDialog($('v-sheet'), `
+    <div class="a-top${h.photo ? ' has-photo' : ''}">${h.photo ? `<img src="${esc(h.photo)}" alt="${esc(h.name)}">` : '<span aria-hidden="true">🏨</span>'}<button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>
+    <div class="a-body">
+      <p class="a-kicker">${starsTxt(h.stars)}${h.rating ? ` · ${String(h.rating).replace('.', ',')}/10${h.reviews ? ` (${h.reviews} avis)` : ''}` : ''}</p>
+      <h2 id="a-title">${esc(h.name)}</h2>
+      ${h.address ? `<p class="a-text">${esc(h.address)}</p>` : ''}
+      <div class="box"><span class="box-h">💶 Prix pour vos dates</span><table>
+        <tr><td>Total, ${n} nuit${n > 1 ? 's' : ''} (${esc(paxLabel(paxGet()))})</td><td>${euro(h.total)}</td></tr>
+        <tr><td>Soit par nuit</td><td>${euro(Math.round(h.total / n))}</td></tr></table></div>
+      ${near.length ? `<div class="box"><span class="box-h">🚶 Vos activités</span><table>${near.slice(0, 4).map(({ a, d }) => `<tr><td>${a.emoji} ${esc(a.nom)}</td><td>${d < 1 ? `${Math.round(d * 1000 / 50) * 50} m` : `${d.toFixed(1).replace('.', ',')} km`}</td></tr>`).join('')}</table></div>` : ''}
+      <button type="button" class="btn ${on ? 'btn-line' : 'btn-ink'}" id="h-choose">${on ? '✓ Hôtel choisi · retirer' : 'Choisir cet hôtel pour mon séjour'}</button>
+      <p class="a-legal">Prix trouvé à l'instant pour vos dates ; il peut changer au moment de réserver.</p>
+    </div>`);
+  $('h-choose').onclick = () => {
+    if (on) hotel = { gamme: hotel.gamme, prix: 0 };
+    else hotel = { gamme: hotel.gamme, prix: h.total, nom: h.name, id: h.id, nuits: n };
+    saveHotel();
+    updateBar();
+    showHotels();
+    openHotel(h.id);
+  };
+}
+
+// Activités sur la carte : celles choisies en couleur, les autres en gris.
+function paintPins() {
+  for (const [id, el] of Object.entries(pins)) {
+    el.classList.toggle('is-on', selected.has(id));
+    el.classList.toggle('is-off', selected.size > 0 && !selected.has(id));
+  }
 }

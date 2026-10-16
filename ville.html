@@ -42,12 +42,6 @@
       <ul class="v-list" id="v-list"></ul>
     </section>
 
-    <section aria-labelledby="t-map">
-      <h2 class="v-h2" id="t-map">Sur la carte</h2>
-      <div class="v-map" id="v-map"></div>
-      <p class="v-map-note">Touchez un point pour voir l'activité.</p>
-    </section>
-
     <section aria-labelledby="t-hotel" id="hotel">
       <h2 class="v-h2" id="t-hotel">Où dormir ?</h2>
       <div id="h-zone"></div>
@@ -63,6 +57,19 @@
         <div class="h-gammes" id="h-gammes" role="group" aria-label="Gamme d'hôtel"></div>
       </div>
       <div id="h-hotels"></div>
+    </section>
+
+    <section aria-labelledby="t-map">
+      <h2 class="v-h2" id="t-map">Sur la carte</h2>
+      <div class="v-legend" id="v-legend" hidden>
+        <span><i class="lg lg-act"></i>Vos activités</span>
+        <span><i class="lg lg-low"></i><b id="lg-low"></b></span>
+        <span><i class="lg lg-mid"></i><b id="lg-mid"></b></span>
+        <span><i class="lg lg-high"></i><b id="lg-high"></b></span>
+      </div>
+      <div class="v-map" id="v-map"></div>
+      <p class="v-map-note" id="v-map-note">Touchez un point pour voir l'activité.</p>
+      <ul class="h-list" id="h-list"></ul>
     </section>
 
     <p class="v-foot"><span id="v-foot"></span> · <button type="button" class="v-link" id="open-credits">Crédits et mentions</button></p>

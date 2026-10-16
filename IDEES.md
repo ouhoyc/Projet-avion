@@ -155,6 +155,14 @@ la plus proche de toutes les activités (« pile au milieu »).
   `aid` (à mettre dans `STAY22_AID`, `ville.js`) ; en attendant, bouton vers Booking déjà rempli
   (dates, voyageurs, âges, étoiles), sans commission. Le prix de l'hôtel choisi se note à la
   main dans le devis (une carte externe ne peut pas renvoyer son prix au site).
+- 🛠 **Hôtels en direct, « comme pour les vols »** : `api/hotels.js` (Vercel) interroge LiteAPI
+  (clé dans la variable Vercel `LITEAPI_KEY`, à créer par le propriétaire) : hôtels autour du
+  quartier, aux dates et pour les voyageurs (âges des enfants), filtrés par gamme (étoiles).
+  Sur la carte : activités choisies en couleur, les autres en gris ; hôtels en pastilles de prix
+  par nuit vert / orange / rouge (tiers les moins chers / milieu / plus chers). On touche un
+  hôtel → « Choisir cet hôtel » → son prix entre tout seul dans le devis. Recherche seulement sur
+  le bouton « Voir les hôtels », gardée 30 min. Sans clé : lien Booking déjà rempli.
+  À faire ensuite : bouton « Réserver » (site de réservation LiteAPI à nos couleurs = commission).
 - Travelpayouts « Drive » (script qui ajoute tout seul des liens et encarts partenaires) :
   **pas pour l'instant** (perte de contrôle sur le design, script tiers à déclarer pour les
   cookies, peu utile sans trafic). On place les liens Tiqets à la main.

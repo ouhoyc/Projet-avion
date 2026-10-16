@@ -4,6 +4,10 @@
     "api/prix.js": {
       "includeFiles": "data.json",
       "maxDuration": 20
+    },
+    "api/hotels.js": {
+      "includeFiles": "guides/*.json",
+      "maxDuration": 20
     }
   }
 }

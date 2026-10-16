@@ -44,6 +44,8 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   guide sont listées dans `GUIDES` (`search.js`) ; liens partenaires dans `PARTNER_LINKS` (`ville.js`).
   Chaque activité a des `tarifs` (adulte + règles enfants [âge max, prix]) pour le devis.
   Partie « Où dormir ? » : `quartiers` dans le guide, `GAMMES` et `STAY22_AID` dans `ville.js`.
+- `api/hotels.js` : hôtels et prix en direct (LiteAPI, clé dans la variable Vercel `LITEAPI_KEY`) ;
+  pendant les tests, la remplacer par de fausses données avec `page.route('**/api/hotels**', …)`.
 - `voyageurs.js` + `voyageurs.css` : choix « Qui part ? » (adultes, âges des enfants), gardé
   dans le navigateur, utilisé par l'accueil (champ Voyageurs) et le devis des pages guides.
 - `style.css` et `themes.css` : le style ; le Pop est dans `themes.css`.
