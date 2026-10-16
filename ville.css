@@ -1,0 +1,127 @@
+/* Page « guide » d'une ville (ville.html) — style Pop du site. */
+:root {
+  --ink: #14213d;
+  --coral: #ff6b4a;
+  --paper: #fbf7ef;
+  --soft: #f1ece2;
+  --muted: #4b5675;
+  --warn-bg: #ffe1d6; --warn: #a8331a;
+  --mid-bg: #fff1dc;  --mid: #9a5c00;
+  --ok-bg: #e1f4ec;   --ok: #1d6e4e;
+  --free-bg: #e7eefc; --free: #2a4a9a;
+  --font: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --gutter: max(16px, env(safe-area-inset-left));
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font); line-height: 1.45; }
+button { font: inherit; color: inherit; }
+a { color: inherit; }
+
+.back {
+  position: absolute; z-index: 5; top: calc(12px + env(safe-area-inset-top)); left: var(--gutter);
+  display: inline-flex; align-items: center; gap: 2px; padding: 6px 12px 6px 6px;
+  background: var(--paper); border: 2px solid var(--ink); border-radius: 999px;
+  font-weight: 700; font-size: 14px; text-decoration: none; box-shadow: 2px 2px 0 var(--ink);
+}
+.back svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+
+.v-hero {
+  position: relative; min-height: 260px; display: flex; align-items: flex-end;
+  background: var(--ink) center / cover no-repeat; color: #fff;
+}
+.v-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 40%, rgba(20, 33, 61, .75)); }
+.v-hero-text { position: relative; z-index: 1; width: 100%; max-width: 760px; margin: 0 auto; padding: 0 var(--gutter) 18px; }
+.v-country { margin: 0; font-weight: 600; font-size: 15px; opacity: .9; }
+.v-hero h1 { margin: 0; font-size: clamp(2.4rem, 12vw, 3.6rem); line-height: 1.05; letter-spacing: -.03em; }
+
+.v-main { max-width: 760px; margin: 0 auto; padding: 16px var(--gutter) 48px; }
+.v-pitch { margin: 0 0 14px; font-size: 17px; font-weight: 500; }
+
+.v-flight {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 14px; border-radius: 14px; background: #fff; border: 2px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink); text-decoration: none;
+}
+.v-flight[hidden] { display: none; }
+.v-flight small { display: block; color: var(--muted); font-size: 13px; }
+.v-flight b { font-size: 15px; }
+.v-flight .price { text-align: right; white-space: nowrap; font-size: 13px; color: var(--muted); }
+.v-flight .price strong { display: block; font-size: 20px; color: var(--coral); }
+
+.v-custom {
+  width: 100%; margin: 14px 0 6px; padding: 13px 14px; border: 0; border-radius: 14px;
+  background: var(--ink); color: #fff; font-weight: 700; font-size: 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; cursor: not-allowed;
+}
+.v-soon { font-size: 12px; font-weight: 700; background: var(--coral); border-radius: 999px; padding: 2px 9px; }
+
+.v-h2 { font-size: 21px; margin: 26px 0 10px; letter-spacing: -.01em; }
+
+.v-chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 8px; margin: 0 calc(-1 * var(--gutter)); padding-left: var(--gutter); padding-right: var(--gutter); scrollbar-width: none; }
+.v-chips::-webkit-scrollbar { display: none; }
+.v-chip {
+  flex: none; padding: 6px 12px; border: 2px solid var(--ink); border-radius: 999px;
+  background: #fff; font-weight: 600; font-size: 14px; cursor: pointer;
+}
+.v-chip[aria-pressed="true"] { background: var(--ink); color: #fff; }
+
+.v-list { list-style: none; margin: 0; padding: 0; }
+.v-act {
+  width: 100%; display: flex; gap: 12px; align-items: center; text-align: left;
+  padding: 11px 0; background: none; border: 0; border-bottom: 1px solid var(--soft); cursor: pointer;
+}
+.v-emoji { flex: none; width: 52px; height: 52px; border-radius: 12px; background: var(--soft); display: grid; place-items: center; font-size: 26px; }
+.v-act-main { flex: 1; min-width: 0; }
+.v-act-name { display: block; font-weight: 700; font-size: 16px; }
+.v-act-meta { display: block; color: var(--muted); font-size: 13px; }
+.v-act-price { flex: none; text-align: right; font-weight: 800; font-size: 15px; white-space: nowrap; }
+.v-act-price small { display: block; font-weight: 500; font-size: 11px; color: var(--muted); }
+
+.tag { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 700; border-radius: 6px; padding: 1px 7px; }
+.tag-indispensable { background: var(--warn-bg); color: var(--warn); }
+.tag-conseille { background: var(--mid-bg); color: var(--mid); }
+.tag-sur_place { background: var(--ok-bg); color: var(--ok); }
+.tag-libre { background: var(--free-bg); color: var(--free); }
+
+.v-map { height: 340px; border-radius: 16px; border: 2px solid var(--ink); overflow: hidden; background: var(--soft); }
+.v-map-note { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.v-pin {
+  width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-size: 15px;
+  background: #fff; border: 2px solid var(--ink); box-shadow: 2px 2px 0 var(--ink); cursor: pointer; padding: 0;
+}
+.v-foot { margin-top: 28px; font-size: 12px; color: var(--muted); }
+
+/* Fiche activité : panneau qui monte du bas sur téléphone, centré sur ordinateur */
+.v-sheet {
+  width: 100%; max-width: 560px; max-height: 92vh; margin: auto auto 0; padding: 0;
+  border: 2px solid var(--ink); border-bottom: 0; border-radius: 22px 22px 0 0; background: #fff; color: var(--ink);
+}
+.v-sheet::backdrop { background: rgba(20, 33, 61, .45); }
+@media (min-width: 700px) { .v-sheet { margin: auto; border-bottom: 2px solid var(--ink); border-radius: 22px; } }
+.a-top { height: 120px; display: grid; place-items: center; font-size: 60px; background: var(--soft); position: relative; }
+.a-close {
+  position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border-radius: 50%;
+  border: 2px solid var(--ink); background: #fff; font-size: 20px; line-height: 1; cursor: pointer;
+}
+.a-body { padding: 14px 16px calc(20px + env(safe-area-inset-bottom)); }
+.a-kicker { margin: 0; color: var(--muted); font-size: 13px; }
+.a-body h2 { margin: 2px 0 6px; font-size: 24px; line-height: 1.15; }
+.a-text { margin: 0 0 10px; font-size: 15px; }
+.box { border: 2px solid var(--soft); border-radius: 12px; padding: 10px 12px; margin: 8px 0; font-size: 14px; }
+.box-h { display: block; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 3px; }
+.box-warn { border-color: #ffc9b8; background: #fff6f2; }
+.box-mid { border-color: #ffd9a0; background: #fff8ec; }
+.box table { width: 100%; border-collapse: collapse; }
+.box td { padding: 3px 0; vertical-align: top; }
+.box td:last-child { text-align: right; font-weight: 700; white-space: nowrap; padding-left: 10px; }
+.a-note { font-size: 13px; background: var(--paper); border-radius: 10px; padding: 8px 10px; margin: 8px 0; }
+.btn {
+  display: block; width: 100%; text-align: center; text-decoration: none; font-weight: 800; font-size: 15px;
+  border-radius: 12px; padding: 12px; margin-top: 8px;
+}
+.btn-main { background: var(--coral); color: #fff; border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.btn-line { border: 2px solid var(--ink); background: #fff; }
+.a-legal { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
+@media (min-width: 700px) { .v-hero { min-height: 340px; } }

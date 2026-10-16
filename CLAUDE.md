@@ -39,6 +39,10 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   mois, fiches villes (vignette, météo, durée de vol), panneau « Voir » :
   - la vérification du prix en direct se fait **seulement sur le bouton** ;
   - le résultat est gardé 30 min dans le navigateur.
+- `ville.html` + `ville.js` + `ville.css` : page guide d'une ville (`ville.html?c=BCN`), qui lit
+  `guides/CODE.json` (activités : prix, réservation, durée, position…). Les villes qui ont un
+  guide sont listées dans `GUIDES` (`search.js`) ; liens partenaires dans `PARTNER_LINKS` (`ville.js`).
+  `guides/BCN-relecture.html` : page de relecture des activités pour le propriétaire.
 - `style.css` et `themes.css` : le style ; le Pop est dans `themes.css`.
 - `villes.json` : fiches des **88 villes**, rangées par `city_code` :
   - `pitch` : texte vendeur ;

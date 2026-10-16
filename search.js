@@ -651,6 +651,9 @@ function shortSeen(day) {
 // ---------------------------------------------------------------------------
 // Panneau de réservation : vérifie l'aller (et le retour) en direct
 // ---------------------------------------------------------------------------
+// Villes qui ont une page guide (ville.html?c=CODE, activités dans guides/CODE.json).
+const GUIDES = ['BCN'];
+
 function openTripSheet(trip) {
   const dest = data.destinations.find((d) => d.code === trip.code);
   if (!dest) return;
@@ -668,6 +671,7 @@ function openTripSheet(trip) {
       <h2 class="sheet-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h2>
       ${photoHtml(dest)}
       ${searchState.villes[dest.city_code]?.pitch ? `<p class="sheet-pitch">${escapeHtml(searchState.villes[dest.city_code].pitch)}</p>` : ''}
+      ${GUIDES.includes(dest.city_code) ? `<a class="sheet-guide" href="ville.html?c=${escapeHtml(dest.city_code)}">Que faire à ${escapeHtml(dest.city)} ? Prix, réservations, carte <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${factsHtml(dest, trip.out, trip.dur, true)}
 
       <div class="live" id="live-out" aria-live="polite">${legSeenHtml('Aller', trip.out, trip.outPrice)}</div>

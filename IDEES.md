@@ -135,9 +135,24 @@ la plus proche de toutes les activités (« pile au milieu »).
 - Commissions activités (via Travelpayouts) : **Tiqets accepté** ✅ ; GetYourGuide refusé pour
   l'instant (pas assez de trafic) → redemander quand les pages guides auront des visiteurs ;
   Viator à tenter.
+- 🛠 **Page guide en ligne (première version)** : `ville.html?c=BCN`, accessible depuis le
+  panneau « Voir » de Barcelone. Liste filtrable, fiche par activité (réservation, prix,
+  pratique, site officiel), carte des activités. Liens Tiqets à ajouter dans `PARTNER_LINKS`
+  (`ville.js`). Le bouton « Préparer mon séjour sur mesure » est marqué « Bientôt ».
 - Travelpayouts « Drive » (script qui ajoute tout seul des liens et encarts partenaires) :
   **pas pour l'instant** (perte de contrôle sur le design, script tiers à déclarer pour les
   cookies, peu utile sans trafic). On place les liens Tiqets à la main.
+
+### 13. 💡 Matchs et événements pendant le séjour
+Sur la page d'une ville, selon les dates du voyageur : « Pendant votre séjour : Barça – Real,
+sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joventut Badalona
+(basket) ; plus F1/MotoGP à Montmeló, tennis en avril. Le match devient une activité à cocher.
+- ❓ Source des calendriers : le propriétaire veut **éviter un abonnement payant**.
+  Testé : TheSportsDB gratuit = trop limité (5 matchs), complet ≈ 9 $/mois ;
+  football-data.org gratuit = foot seulement (clé gratuite à mettre dans les secrets GitHub).
+  Pistes gratuites à étudier : calendriers publiés par les clubs/ligues (fichiers .ics),
+  sites de calendriers téléchargeables, Euroligue (site officiel).
+- À faire **après** la page Barcelone.
 
 ### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
 Déjà prévu dans le script (variable `ORIGIN`), reste à l'exposer sur le site.

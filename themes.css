@@ -462,3 +462,11 @@ html[data-da="postale"] {
 .da-switch::-webkit-scrollbar { display: none; }
 .da-switch a { flex: none; color: #fff; text-decoration: none; padding: 10px 12px; border-radius: 999px; }
 .da-switch a[aria-current="true"] { background: #fff; color: #111; }
+
+/* Lien du panneau « Voir » vers la page guide de la ville (ville.html) */
+[data-da^="pop"] .sheet-guide {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  margin: var(--s-3) 0; padding: 12px 14px; border-radius: var(--r-md);
+  background: var(--ink); color: #fff; font-weight: 700; font-size: 15px; text-decoration: none;
+}
+[data-da^="pop"] .sheet-guide .icon { flex: none; color: var(--coral); }
