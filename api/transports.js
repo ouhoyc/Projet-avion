@@ -10,6 +10,9 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const OVERPASS = [
+  'https://overpass.private.coffee/api/interpreter',
+  'https://lz4.overpass-api.de/api/interpreter',
+  'https://z.overpass-api.de/api/interpreter',
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
   'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
@@ -62,8 +65,8 @@ export default async function handler(req, res) {
   for (const url of OVERPASS) {
     try {
       const r = await fetch(`${url}?data=${encodeURIComponent(q)}`, {
-        headers: { Accept: 'application/json', 'User-Agent': 'ProjetAvion/1.0 (+https://projet-avion-ouhoyc.vercel.app)', Referer: 'https://projet-avion-ouhoyc.vercel.app/' },
-        signal: AbortSignal.timeout(12000),
+        headers: { Accept: '*/*', 'User-Agent': 'Mozilla/5.0 (compatible; ProjetAvion/1.0; +https://projet-avion-ouhoyc.vercel.app)' },
+        signal: AbortSignal.timeout(8000),
       });
       if (!r.ok) { why.push(`${new URL(url).host} ${r.status}`); continue; }
       elements = (await r.json()).elements || [];
