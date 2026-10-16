@@ -198,6 +198,10 @@ sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joven
   adresses **réputées** (guides, Michelin Bib Gourmand, presse), on garde celles dont la note
   Google est bonne (≥ 4,4 en général), et le propriétaire choisit le top 10 à la main. Pas
   d'étoiles Google affichées sur le site ; mise à jour une fois par an.
+  Précision du propriétaire : c'est un site de **voyage**, pas un guide culinaire → privilégier
+  les adresses **connues et photogéniques** (Instagram, TikTok), avec la note comme garde-fou ;
+  3 gammes de prix × 3 restaurants, pas deux restaurants du même genre dans une gamme, pas de
+  tapas dans les trois gammes.
 - À proposer au fur et à mesure, quand c'est pertinent.
 
 ### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
