@@ -1,0 +1,27 @@
+/* Fenêtre « Qui part ? » (voyageurs.js), commune à l'accueil et aux pages guides. */
+.pax-sheet {
+  width: 100%; max-width: 440px; margin: auto auto 0; padding: 0;
+  border: 2px solid #14213d; border-bottom: 0; border-radius: 22px 22px 0 0;
+  background: #fff; color: #14213d; font-family: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.pax-sheet::backdrop { background: rgba(20, 33, 61, .45); }
+@media (min-width: 700px) { .pax-sheet { margin: auto; border-bottom: 2px solid #14213d; border-radius: 22px; } }
+.pax-body { padding: 18px 18px calc(20px + env(safe-area-inset-bottom)); }
+.pax-title { margin: 0 0 4px; font-size: 22px; }
+.pax-help { margin: 0 0 10px; font-size: 14px; color: #4b5675; }
+.pax-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f1ece2; }
+.pax-row b { display: block; font-size: 16px; }
+.pax-row small { color: #4b5675; font-size: 13px; }
+.pax-step { display: flex; align-items: center; gap: 12px; }
+.pax-step output { min-width: 18px; text-align: center; font-weight: 800; font-size: 18px; }
+.pax-step button {
+  width: 38px; height: 38px; border-radius: 50%; border: 2px solid #14213d; background: #fff;
+  font: inherit; font-size: 22px; line-height: 1; font-weight: 700; color: #14213d; cursor: pointer;
+}
+.pax-step button:disabled { opacity: .3; cursor: default; }
+.pax-age { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; font-size: 15px; }
+.pax-age select { font: inherit; font-size: 15px; padding: 6px 8px; border: 2px solid #14213d; border-radius: 10px; background: #fff; color: #14213d; }
+.pax-ok {
+  width: 100%; margin-top: 14px; padding: 12px; border-radius: 12px; border: 2px solid #14213d;
+  background: #ff6b4a; color: #fff; font: inherit; font-weight: 800; font-size: 16px; box-shadow: 3px 3px 0 #14213d; cursor: pointer;
+}

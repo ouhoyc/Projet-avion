@@ -654,6 +654,14 @@ function shortSeen(day) {
 // Villes qui ont une page guide (ville.html?c=CODE, activités dans guides/CODE.json).
 const GUIDES = ['BCN'];
 
+// Lien vers la page guide, avec le vol choisi (dates + prix repéré par personne) pour le devis.
+function guideLink(cityCode, trip) {
+  const p = new URLSearchParams({ c: cityCode, out: trip.out });
+  if (trip.ret) p.set('ret', trip.ret);
+  p.set('vol', String((trip.outPrice || 0) + (trip.retPrice || 0)));
+  return `ville.html?${p}`;
+}
+
 function openTripSheet(trip) {
   const dest = data.destinations.find((d) => d.code === trip.code);
   if (!dest) return;
@@ -671,7 +679,7 @@ function openTripSheet(trip) {
       <h2 class="sheet-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h2>
       ${photoHtml(dest)}
       ${searchState.villes[dest.city_code]?.pitch ? `<p class="sheet-pitch">${escapeHtml(searchState.villes[dest.city_code].pitch)}</p>` : ''}
-      ${GUIDES.includes(dest.city_code) ? `<a class="sheet-guide" href="ville.html?c=${escapeHtml(dest.city_code)}">Que faire à ${escapeHtml(dest.city)} ? Prix, réservations, carte <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
+      ${GUIDES.includes(dest.city_code) ? `<a class="sheet-guide" href="${escapeHtml(guideLink(dest.city_code, trip))}">Que faire à ${escapeHtml(dest.city)} ? Prix, réservations, carte <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${factsHtml(dest, trip.out, trip.dur, true)}
 
       <div class="live" id="live-out" aria-live="polite">${legSeenHtml('Aller', trip.out, trip.outPrice)}</div>
@@ -910,3 +918,15 @@ function clamp(n, min, max) {
 
 // Démarrage (en dernier : toutes les constantes ci-dessus sont alors définies).
 setupSearchForm();
+
+// ---------------------------------------------------------------------------
+// Voyageurs (adultes + enfants) : gardés dans le navigateur, repris par les pages guides
+// pour calculer le prix des activités du groupe.
+// ---------------------------------------------------------------------------
+(function setupPax() {
+  const btn = $('s-pax');
+  if (!btn || typeof paxGet !== 'function') return;
+  const show = () => { $('s-pax-label').textContent = paxLabel(paxGet()); };
+  show();
+  btn.addEventListener('click', () => paxOpen($('pax-sheet'), show));
+})();

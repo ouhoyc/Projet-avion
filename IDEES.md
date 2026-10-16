@@ -139,6 +139,11 @@ la plus proche de toutes les activités (« pile au milieu »).
   panneau « Voir » de Barcelone. Liste filtrable, fiche par activité (réservation, prix,
   pratique, site officiel), carte des activités. Liens Tiqets à ajouter dans `PARTNER_LINKS`
   (`ville.js`). Le bouton « Préparer mon séjour sur mesure » est marqué « Bientôt ».
+- 🛠 **Devis (17/10/2026)** : on coche les activités (+), une barre « Mon séjour » donne le
+  total ; le devis compte les **voyageurs** (adultes + âge de chaque enfant, choisis dans le
+  formulaire de l'accueil, champ « Voyageurs ») avec les tarifs enfants (`tarifs` dans
+  `guides/BCN.json`) et, si on vient d'un vol, le prix repéré du vol × voyageurs.
+  Carte = même style que la carte des vols. Crédits photo dans « Crédits et mentions ».
 - Travelpayouts « Drive » (script qui ajoute tout seul des liens et encarts partenaires) :
   **pas pour l'instant** (perte de contrôle sur le design, script tiers à déclarer pour les
   cookies, peu utile sans trafic). On place les liens Tiqets à la main.

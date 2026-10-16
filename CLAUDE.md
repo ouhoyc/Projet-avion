@@ -43,6 +43,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   `guides/CODE.json` (activités : prix, réservation, durée, position…). Les villes qui ont un
   guide sont listées dans `GUIDES` (`search.js`) ; liens partenaires dans `PARTNER_LINKS` (`ville.js`).
   `guides/BCN-relecture.html` : page de relecture des activités pour le propriétaire.
+  Chaque activité a des `tarifs` (adulte + règles enfants [âge max, prix]) pour le devis.
+- `voyageurs.js` + `voyageurs.css` : choix « Qui part ? » (adultes, âges des enfants), gardé
+  dans le navigateur, utilisé par l'accueil (champ Voyageurs) et le devis des pages guides.
 - `style.css` et `themes.css` : le style ; le Pop est dans `themes.css`.
 - `villes.json` : fiches des **88 villes**, rangées par `city_code` :
   - `pitch` : texte vendeur ;

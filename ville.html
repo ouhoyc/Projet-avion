@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
   <link rel="stylesheet" href="ville.css">
+  <link rel="stylesheet" href="voyageurs.css">
 </head>
 <body>
   <a class="back" href="index.html" aria-label="Retour aux vols">
@@ -47,13 +48,27 @@
       <p class="v-map-note">Touchez un point pour voir l'activité.</p>
     </section>
 
-    <p class="v-foot" id="v-foot"></p>
+    <p class="v-foot"><span id="v-foot"></span> · <button type="button" class="v-link" id="open-credits">Crédits et mentions</button></p>
   </main>
+
+  <!-- Barre « Mon séjour » : apparaît dès qu'une activité est cochée -->
+  <div class="v-bar" id="v-bar" hidden>
+    <span><b id="bar-count"></b><small id="bar-pax"></small></span>
+    <button type="button" class="v-bar-btn" id="open-quote"><span id="bar-total"></span> · Voir le devis</button>
+  </div>
 
   <!-- Fiche d'une activité -->
   <dialog class="v-sheet" id="v-sheet" aria-labelledby="a-title"></dialog>
 
+  <!-- Devis du séjour -->
+  <dialog class="v-sheet" id="quote-sheet" aria-labelledby="q-title"></dialog>
+  <!-- Voyageurs -->
+  <dialog class="pax-sheet" id="pax-sheet" aria-label="Voyageurs"></dialog>
+  <!-- Crédits et mentions -->
+  <dialog class="v-sheet" id="credits-sheet" aria-labelledby="c-title"></dialog>
+
   <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script src="voyageurs.js"></script>
   <script src="ville.js"></script>
 </body>
 </html>
