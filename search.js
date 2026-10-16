@@ -575,7 +575,7 @@ function photoHtml(dest) {
 const DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 function monthWeather(c, m) {
   const rain = c.pluie?.[m];
-  const sun = c.soleil ? c.soleil[m] / DAYS_IN_MONTH[m] : null;
+  const sun = c.soleil?.[m] != null ? c.soleil[m] / DAYS_IN_MONTH[m] : null;
   if (sun == null || rain == null) return { icon: '🌡️', label: '' };
   if (sun >= 8 && rain <= 7) return { icon: '☀️', label: 'ensoleillé' };
   if (sun >= 6 && rain <= 10) return { icon: '🌤️', label: 'plutôt ensoleillé' };

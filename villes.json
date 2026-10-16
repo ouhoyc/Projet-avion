@@ -1310,5 +1310,1523 @@
       ],
       "source": "DWD, normales 1991–2020 (Berlin) ; jours de pluie NOAA 1961–1990"
     }
+  },
+  "FNC": {
+    "pitch": "L'île de l'éternel printemps : falaises vertigineuses plongeant dans l'Atlantique, sentiers au milieu des fleurs et douceur toute l'année.",
+    "photo": {
+      "src": "img/villes/FNC.jpg",
+      "alt": "Pointe de São Lourenço, falaises volcaniques et mer turquoise",
+      "author": "Richard Bartz",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ponta_de_S%C3%A3o_Louren%C3%A7o_north_north_east.jpg"
+    },
+    "climate": {
+      "min": [
+        14.3,
+        13.9,
+        14.3,
+        14.9,
+        16.2,
+        18.2,
+        19.7,
+        20.7,
+        20.4,
+        19.2,
+        17.0,
+        15.5
+      ],
+      "max": [
+        20.0,
+        19.9,
+        20.6,
+        21.0,
+        22.0,
+        23.7,
+        25.4,
+        26.8,
+        26.6,
+        25.2,
+        22.8,
+        21.0
+      ],
+      "pluie": [
+        6.2,
+        5.5,
+        5.8,
+        4.7,
+        3.3,
+        1.0,
+        0.3,
+        0.4,
+        3.1,
+        7.0,
+        7.3,
+        8.6
+      ],
+      "soleil": [
+        160.9,
+        166.8,
+        197.7,
+        194.8,
+        208.6,
+        194.0,
+        232.5,
+        236.7,
+        210.8,
+        194.3,
+        165.9,
+        151.1
+      ],
+      "source": "Normales 1991–2020 (observatoire de Funchal, 58 m)"
+    }
+  },
+  "NTE": {
+    "pitch": "Une ville qui surprend : château des ducs de Bretagne, éléphant géant des Machines de l'île et une scène créative bouillonnante au bord de la Loire.",
+    "photo": {
+      "src": "img/villes/NTE.jpg",
+      "alt": "Panorama de la cour du château des ducs de Bretagne",
+      "author": "Schcambo",
+      "license": "CC BY 2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_ducs_de_Bretagne_-_EDIT.jpg"
+    },
+    "climate": {
+      "min": [
+        3.4,
+        3.0,
+        4.9,
+        6.6,
+        9.8,
+        12.7,
+        14.3,
+        14.2,
+        11.8,
+        9.5,
+        5.9,
+        3.7
+      ],
+      "max": [
+        9.3,
+        10.5,
+        13.5,
+        16.2,
+        19.6,
+        23.0,
+        25.1,
+        25.4,
+        22.4,
+        17.6,
+        12.9,
+        9.8
+      ],
+      "pluie": [
+        12.5,
+        10.6,
+        9.4,
+        9.7,
+        9.6,
+        7.6,
+        7.1,
+        7.2,
+        7.8,
+        11.8,
+        13.0,
+        13.5
+      ],
+      "soleil": [
+        72.6,
+        102.3,
+        147.3,
+        182.7,
+        203.4,
+        213.1,
+        229.0,
+        232.6,
+        198.7,
+        122.7,
+        91.3,
+        77.6
+      ],
+      "source": "Météo-France, normales 1991–2020 (Nantes-Bouguenais, aéroport)"
+    }
+  },
+  "SSH": {
+    "pitch": "La mer Rouge en version carte postale : eaux turquoise, récifs de corail à quelques brasses de la plage et soleil garanti en plein hiver.",
+    "photo": {
+      "src": "img/villes/SSH.jpg",
+      "alt": "Panorama de Coral Bay, plage et mer Rouge turquoise",
+      "author": "74papa",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coral_Bay,_Sharm-El-Sheikh.jpg"
+    },
+    "climate": {
+      "min": [
+        13.8,
+        14.6,
+        17.3,
+        20.6,
+        24.3,
+        27.0,
+        28.3,
+        28.8,
+        27.0,
+        24.1,
+        19.6,
+        15.6
+      ],
+      "max": [
+        22.2,
+        23.6,
+        26.4,
+        30.4,
+        34.7,
+        37.5,
+        38.3,
+        38.2,
+        36.1,
+        32.5,
+        27.8,
+        23.9
+      ],
+      "pluie": [
+        0.17,
+        0.07,
+        0.13,
+        0.0,
+        0.14,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.14,
+        0.14,
+        0.1
+      ],
+      "soleil": [
+        265.7,
+        277.6,
+        274.3,
+        285.6,
+        317.4,
+        348.0,
+        352.3,
+        322.4,
+        301.6,
+        275.2,
+        263.9,
+        246.7
+      ],
+      "source": "Normales 1991–2020 (aéroport de Charm el-Cheikh) ; ensoleillement : NOAA 1961–1990, station d'Hurghada"
+    }
+  },
+  "ALC": {
+    "pitch": "La Méditerranée en mode farniente : longues plages de sable, promenade bordée de palmiers et soirées tapas sur le port.",
+    "photo": {
+      "src": "img/villes/ALC.jpg",
+      "alt": "Le port de plaisance et la ville vus depuis le château de Santa Bárbara",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Port_of_Alicante_7.jpg"
+    },
+    "climate": {
+      "min": [
+        6.7,
+        7.2,
+        9.1,
+        11.4,
+        14.6,
+        18.5,
+        21.3,
+        21.8,
+        18.8,
+        14.8,
+        10.3,
+        7.5
+      ],
+      "max": [
+        17.2,
+        17.7,
+        19.6,
+        21.6,
+        24.5,
+        28.3,
+        30.7,
+        31.1,
+        28.5,
+        25.0,
+        20.5,
+        17.9
+      ],
+      "pluie": [
+        3.1,
+        2.6,
+        3.8,
+        3.8,
+        2.9,
+        1.4,
+        0.4,
+        1.5,
+        3.4,
+        4.2,
+        4.0,
+        3.6
+      ],
+      "soleil": [
+        191,
+        193,
+        236,
+        259,
+        300,
+        322,
+        345,
+        320,
+        260,
+        228,
+        185,
+        175
+      ],
+      "source": "Normales 1991–2020 (Alicante, station de 81 m)"
+    }
+  },
+  "ORN": {
+    "pitch": "La perle de l'Ouest algérien : une baie superbe sur la Méditerranée, le fort de Santa Cruz et une ville vivante, berceau du raï.",
+    "photo": {
+      "src": "img/villes/ORN.jpg",
+      "alt": "La baie d'Oran et la Méditerranée depuis Santa Cruz",
+      "author": "Willyamsd86",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Baie_d%27Oran_depuis_le_fort_de_santa-cruz.jpg"
+    },
+    "climate": {
+      "min": [
+        5.4,
+        6.5,
+        8.7,
+        10.8,
+        14.0,
+        17.6,
+        20.4,
+        21.0,
+        18.3,
+        14.4,
+        9.8,
+        6.9
+      ],
+      "max": [
+        17.0,
+        17.9,
+        20.1,
+        22.1,
+        25.0,
+        28.5,
+        31.5,
+        32.4,
+        29.4,
+        26.0,
+        20.9,
+        17.9
+      ],
+      "pluie": [
+        6.3,
+        5.6,
+        5.0,
+        4.7,
+        3.1,
+        0.9,
+        0.2,
+        0.5,
+        2.6,
+        4.4,
+        6.6,
+        5.7
+      ],
+      "soleil": [
+        161.2,
+        161.0,
+        235.6,
+        246.0,
+        297.6,
+        297.0,
+        350.3,
+        325.5,
+        267.0,
+        229.4,
+        162.0,
+        158.1
+      ],
+      "source": "NOAA, normales 1991–2020 (aéroport Ahmed Ben Bella d'Oran) ; ensoleillement : Arab Meteorology Book"
+    }
+  },
+  "BIQ": {
+    "pitch": "L'élégance basque face à l'océan : grandes plages de surf, rochers sculptés par les vagues et terrasses chic pour le pintxo du soir.",
+    "photo": {
+      "src": "img/villes/BIQ.jpg",
+      "alt": "Panorama de Biarritz et de la côte basque depuis le phare",
+      "author": "Jörg Braukmann",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Biarritz_(View_from_the_Lighthouse).jpg"
+    },
+    "climate": {
+      "min": [
+        5.0,
+        4.9,
+        7.1,
+        8.8,
+        11.9,
+        14.9,
+        16.9,
+        17.2,
+        14.5,
+        11.9,
+        7.9,
+        5.7
+      ],
+      "max": [
+        12.2,
+        12.8,
+        15.2,
+        16.8,
+        19.9,
+        22.5,
+        24.2,
+        25.1,
+        23.3,
+        20.2,
+        15.4,
+        12.9
+      ],
+      "pluie": [
+        13.7,
+        12.0,
+        11.9,
+        13.3,
+        12.5,
+        10.1,
+        9.4,
+        9.2,
+        10.2,
+        12.1,
+        13.8,
+        12.9
+      ],
+      "soleil": [
+        95.7,
+        115.2,
+        163.3,
+        170.7,
+        196.7,
+        206.3,
+        218.5,
+        214.3,
+        199.2,
+        145.4,
+        103.4,
+        91.8
+      ],
+      "source": "Météo-France, normales 1991–2020 (Biarritz-Anglet)"
+    }
+  },
+  "BJA": {
+    "pitch": "La Kabylie côté mer : criques turquoise, caps sauvages et montagnes qui plongent dans la Méditerranée. Un coin de paradis encore secret.",
+    "photo": {
+      "src": "img/villes/BJA.jpg",
+      "alt": "Le cap Carbon et son phare au coucher du soleil, mer turquoise",
+      "author": "Bouslah Lotfi",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cap_Carbon_-_B%C3%A9jaia.jpg"
+    },
+    "climate": {
+      "min": [
+        7.7,
+        7.6,
+        8.5,
+        10.1,
+        13.1,
+        16.6,
+        19.3,
+        20.2,
+        18.5,
+        15.0,
+        11.2,
+        8.4
+      ],
+      "max": [
+        16.4,
+        16.8,
+        17.7,
+        19.3,
+        22.0,
+        25.3,
+        28.7,
+        29.3,
+        27.8,
+        24.3,
+        20.3,
+        16.9
+      ],
+      "pluie": [
+        9.8,
+        9.3,
+        7.9,
+        7.0,
+        5.2,
+        2.2,
+        0.8,
+        2.1,
+        5.4,
+        6.6,
+        8.5,
+        9.2
+      ],
+      "soleil": [
+        164.7,
+        168.4,
+        206.4,
+        227.5,
+        269.7,
+        308.3,
+        331.5,
+        304.6,
+        233.6,
+        213.7,
+        167.5,
+        null
+      ],
+      "source": "NOAA : températures 1968–1990, jours de pluie et ensoleillement 1991–2020 (Béjaïa) ; ensoleillement de décembre non publié"
+    }
+  },
+  "BEY": {
+    "pitch": "Une ville qui ne dort jamais : rochers mythiques de la Grotte aux pigeons, corniche au coucher du soleil, cuisine libanaise et nuits légendaires.",
+    "photo": {
+      "src": "img/villes/BEY.jpg",
+      "alt": "Rochers de Raouché (grotte aux Pigeons) au coucher du soleil",
+      "author": "Ahmad Moussaoui",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Panorama_of_Rawshe_(8232500618).jpg"
+    },
+    "climate": {
+      "min": [
+        11.2,
+        11.0,
+        12.6,
+        15.2,
+        18.2,
+        21.6,
+        24.0,
+        24.8,
+        23.7,
+        21.0,
+        16.3,
+        12.9
+      ],
+      "max": [
+        17.4,
+        17.5,
+        19.6,
+        22.6,
+        25.4,
+        27.9,
+        30.0,
+        30.7,
+        29.8,
+        27.5,
+        23.2,
+        19.4
+      ],
+      "pluie": [
+        12,
+        10,
+        8,
+        5,
+        2,
+        2,
+        0.04,
+        0.1,
+        1,
+        4,
+        7,
+        11
+      ],
+      "soleil": [
+        131,
+        143,
+        191,
+        243,
+        310,
+        348,
+        360,
+        334,
+        288,
+        245,
+        200,
+        147
+      ],
+      "source": "Pogodaiklimat.ru, période non précisée (aéroport de Beyrouth) ; ensoleillement : DMI 1931–1960"
+    }
+  },
+  "AYT": {
+    "pitch": "La Riviera turque : vieille ville et port pittoresque, plages immenses au pied des montagnes et mer turquoise de mai à octobre.",
+    "photo": {
+      "src": "img/villes/AYT.jpg",
+      "alt": "Le vieux port de Kaleiçi et ses goélettes",
+      "author": "REHBER0770",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Antalya_kalei%C3%A7i_2.jpg"
+    },
+    "climate": {
+      "min": [
+        5.9,
+        6.5,
+        8.3,
+        11.3,
+        15.7,
+        20.1,
+        23.4,
+        23.7,
+        20.1,
+        15.9,
+        10.7,
+        7.5
+      ],
+      "max": [
+        15.0,
+        15.9,
+        18.4,
+        21.8,
+        26.4,
+        31.6,
+        34.9,
+        34.9,
+        31.7,
+        27.3,
+        21.6,
+        16.7
+      ],
+      "pluie": [
+        11.5,
+        9.6,
+        7.6,
+        6.43,
+        4.97,
+        2.13,
+        0.67,
+        0.6,
+        1.93,
+        4.87,
+        7.07,
+        10.0
+      ],
+      "soleil": [
+        151.9,
+        161.0,
+        201.5,
+        231.0,
+        291.4,
+        330.0,
+        344.1,
+        325.5,
+        273.0,
+        232.5,
+        177.0,
+        145.7
+      ],
+      "source": "MGM (service météo turc), normales 1991–2020 (Antalya) ; seuil des jours de pluie non précisé"
+    }
+  },
+  "FRA": {
+    "pitch": "Gratte-ciel et maisons à colombages : une métropole étonnante au bord du Main, entre bars sur les toits, musées et cidre local.",
+    "photo": {
+      "src": "img/villes/FRA.jpg",
+      "alt": "Vieille ville (Römerberg, Paulskirche) et skyline de Francfort",
+      "author": "Thomas Wolf",
+      "license": "CC BY-SA 3.0 de",
+      "page": "https://commons.wikimedia.org/wiki/File:Frankfurter_Altstadt_mit_Skyline_2019.jpg"
+    },
+    "climate": {
+      "min": [
+        0.5,
+        0.4,
+        2.2,
+        5.4,
+        9.3,
+        12.8,
+        14.8,
+        14.4,
+        10.6,
+        6.7,
+        3.2,
+        0.4
+      ],
+      "max": [
+        4.9,
+        6.6,
+        11.4,
+        16.5,
+        20.4,
+        23.9,
+        26.1,
+        25.7,
+        20.8,
+        14.8,
+        8.9,
+        5.5
+      ],
+      "pluie": [
+        15.2,
+        13.5,
+        13.5,
+        12.3,
+        13.5,
+        12.3,
+        13.9,
+        12.8,
+        11.6,
+        14.2,
+        15.0,
+        16.4
+      ],
+      "soleil": [
+        52,
+        79,
+        136,
+        192,
+        219,
+        227,
+        235,
+        225,
+        165,
+        104,
+        51,
+        40
+      ],
+      "source": "DWD, normales 1991–2020 (aéroport de Francfort) ; jours de pluie ≥ 0,1 mm (NCEI)"
+    }
+  },
+  "BSK": {
+    "pitch": "La porte du Sahara : palmeraies à perte de vue, dattes Deglet Nour, oasis et douceur du soleil quand l'hiver s'installe en Europe.",
+    "photo": {
+      "src": "img/villes/BSK.jpg",
+      "alt": "Palmeraie au pied des falaises ocre d'un canyon de la région de Biskra",
+      "author": "Yassamine ouali",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Oasis_biskra.jpg"
+    },
+    "climate": {
+      "min": [
+        6.9,
+        8.0,
+        11.4,
+        15.1,
+        19.9,
+        24.7,
+        28.0,
+        27.7,
+        23.4,
+        18.1,
+        12.0,
+        8.0
+      ],
+      "max": [
+        17.3,
+        19.2,
+        23.2,
+        27.1,
+        32.5,
+        37.7,
+        41.1,
+        40.3,
+        34.7,
+        29.2,
+        22.2,
+        18.0
+      ],
+      "pluie": [
+        2.2,
+        1.6,
+        2.1,
+        2.0,
+        1.6,
+        0.6,
+        0.2,
+        0.7,
+        2.9,
+        2.0,
+        1.6,
+        2.0
+      ],
+      "soleil": [
+        223.2,
+        223.2,
+        260.4,
+        282.0,
+        319.3,
+        333.0,
+        362.7,
+        328.6,
+        270.0,
+        266.6,
+        213.0,
+        210.8
+      ],
+      "source": "NOAA, normales 1991–2020 (aéroport de Biskra) ; ensoleillement : Arab Meteorology Book"
+    }
+  },
+  "BRI": {
+    "pitch": "Les Pouilles authentiques : bord de mer lumineux, vieille ville où l'on fait encore les pâtes dans la rue, et les plus belles côtes d'Italie du Sud à portée de main.",
+    "photo": {
+      "src": "img/villes/BRI.jpg",
+      "alt": "Le lungomare de Bari et la mer turquoise sous un ciel bleu",
+      "author": "Benjamin Smith",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bari_-_Lungomare_Imperatore_Augusto_%26_Mare.jpg"
+    },
+    "climate": {
+      "min": [
+        4.1,
+        4.2,
+        6.0,
+        8.9,
+        13.0,
+        17.3,
+        20.0,
+        20.1,
+        16.5,
+        12.6,
+        9.0,
+        5.8
+      ],
+      "max": [
+        12.6,
+        13.2,
+        15.7,
+        19.0,
+        23.6,
+        28.2,
+        30.6,
+        30.5,
+        26.2,
+        21.9,
+        17.6,
+        13.9
+      ],
+      "pluie": [
+        7.4,
+        5.6,
+        6.5,
+        6.0,
+        4.5,
+        3.0,
+        1.9,
+        2.3,
+        4.8,
+        5.5,
+        7.0,
+        7.0
+      ],
+      "soleil": [
+        132.9,
+        163.9,
+        230.8,
+        265.5,
+        312.9,
+        336.4,
+        355.6,
+        318.5,
+        252.8,
+        202.8,
+        137.0,
+        120.4
+      ],
+      "source": "NOAA/OMM, normales 1991–2020 (aéroport de Bari-Palese)"
+    }
+  },
+  "PMO": {
+    "pitch": "La Sicile intense : marchés bouillonnants, street food légendaire, palais baroques et la plage de Mondello aux eaux turquoise.",
+    "photo": {
+      "src": "img/villes/PMO.jpg",
+      "alt": "La plage de Mondello, son eau turquoise et le monte Pellegrino",
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mondello_BW_2012-10-09_14-14-44.JPG"
+    },
+    "climate": {
+      "min": [
+        9.2,
+        8.9,
+        10.1,
+        12.2,
+        15.8,
+        19.7,
+        22.5,
+        23.1,
+        20.5,
+        17.5,
+        13.6,
+        10.5
+      ],
+      "max": [
+        15.1,
+        15.3,
+        16.7,
+        19.8,
+        24.0,
+        28.1,
+        30.9,
+        31.4,
+        27.9,
+        24.3,
+        19.8,
+        16.3
+      ],
+      "pluie": [
+        9.3,
+        8.8,
+        7.7,
+        6.4,
+        3.7,
+        1.6,
+        0.7,
+        1.8,
+        4.7,
+        7.8,
+        9.4,
+        10.1
+      ],
+      "soleil": [
+        146.2,
+        167.4,
+        202.8,
+        293.4,
+        300.2,
+        312.4,
+        361.3,
+        323.5,
+        293.8,
+        238.5,
+        190.8,
+        138.1
+      ],
+      "source": "Servizio Meteorologico, normales 1991–2020 (Palerme-Boccadifalco) ; ensoleillement : Palerme-Punta Raisi 1991–2020"
+    }
+  },
+  "ACE": {
+    "pitch": "Lanzarote, l'île de feu : paysages volcaniques lunaires, plages de sable doré, lagons turquoise et soleil toute l'année.",
+    "photo": {
+      "src": "img/villes/ACE.jpg",
+      "alt": "Falaises et lagune turquoise vues du Mirador del Río",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coast_-_Mirador_del_R%C3%ADo_-_Lanzarote_-_01.jpg"
+    },
+    "climate": {
+      "min": [
+        14.2,
+        14.4,
+        15.2,
+        16.1,
+        17.5,
+        19.2,
+        20.7,
+        21.5,
+        21.0,
+        19.6,
+        17.4,
+        15.5
+      ],
+      "max": [
+        20.9,
+        21.5,
+        22.9,
+        23.8,
+        25.2,
+        26.7,
+        28.5,
+        29.5,
+        28.6,
+        27.0,
+        24.3,
+        22.0
+      ],
+      "pluie": [
+        2.8,
+        2.5,
+        2.2,
+        0.9,
+        0.3,
+        0.0,
+        0.0,
+        0.1,
+        0.4,
+        2.1,
+        3.0,
+        3.2
+      ],
+      "soleil": [
+        204.6,
+        200.6,
+        248.0,
+        258.0,
+        294.5,
+        291.0,
+        313.1,
+        303.8,
+        261.0,
+        232.5,
+        204.0,
+        201.5
+      ],
+      "source": "AEMET, normales 1991–2020 (aéroport de Lanzarote)"
+    }
+  },
+  "LPA": {
+    "pitch": "Le soleil des Canaries en plein hiver : la grande plage de Las Canteras en pleine ville, vieux quartier colonial et dunes de Maspalomas à une heure.",
+    "photo": {
+      "src": "img/villes/LPA.jpg",
+      "alt": "Panorama de la baie turquoise de la plage de Las Canteras",
+      "author": "Bengt Nyman from Vaxholm",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Las_Canteras_NZ7_4597_Panorama_(46402711685).jpg"
+    },
+    "climate": {
+      "min": [
+        15.0,
+        15.0,
+        15.7,
+        16.2,
+        17.3,
+        19.2,
+        20.8,
+        21.6,
+        21.4,
+        20.1,
+        18.1,
+        16.2
+      ],
+      "max": [
+        20.8,
+        21.2,
+        22.3,
+        22.6,
+        23.6,
+        25.3,
+        26.9,
+        27.5,
+        27.2,
+        26.2,
+        24.2,
+        22.2
+      ],
+      "pluie": [
+        3.1,
+        3.0,
+        2.3,
+        1.3,
+        0.3,
+        0.1,
+        0.0,
+        0.1,
+        1.1,
+        2.3,
+        3.9,
+        4.5
+      ],
+      "soleil": [
+        184,
+        191,
+        229,
+        228,
+        272,
+        284,
+        308,
+        300,
+        241,
+        220,
+        185,
+        179
+      ],
+      "source": "AEMET, normales 1981–2010 (Las Palmas de Gran Canaria)"
+    }
+  },
+  "TUN": {
+    "pitch": "Le charme méditerranéen à petit prix : maisons blanches et bleues de Sidi Bou Saïd, souks de la médina et vestiges de Carthage face à la mer.",
+    "photo": {
+      "src": "img/villes/TUN.jpg",
+      "alt": "Sidi Bou Saïd, ses terrasses bleu et blanc face au golfe de Tunis",
+      "author": "Aminebz",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sidi_bou_sa%C3%AFd_,Tunisia.jpg"
+    },
+    "climate": {
+      "min": [
+        8.2,
+        8.1,
+        9.8,
+        12.1,
+        15.4,
+        19.3,
+        22.1,
+        22.9,
+        20.7,
+        17.3,
+        12.8,
+        9.4
+      ],
+      "max": [
+        16.4,
+        16.8,
+        19.4,
+        22.3,
+        26.5,
+        31.0,
+        34.0,
+        34.5,
+        30.5,
+        26.7,
+        21.5,
+        17.6
+      ],
+      "pluie": [
+        8.4,
+        8.0,
+        6.3,
+        5.7,
+        3.7,
+        1.5,
+        0.5,
+        1.7,
+        5.0,
+        5.8,
+        6.8,
+        8.3
+      ],
+      "soleil": [
+        164.1,
+        176.8,
+        220.0,
+        235.8,
+        291.4,
+        317.3,
+        354.6,
+        327.3,
+        250.7,
+        220.7,
+        175.2,
+        157.8
+      ],
+      "source": "INM Tunisie, normales 1991–2020 (aéroport de Tunis-Carthage ; soleil 1981–2010)"
+    }
+  },
+  "DUS": {
+    "pitch": "Le chic rhénan : architecture audacieuse, Königsallee et ses boutiques de luxe, vieille ville et la « plus longue bar du monde ».",
+    "photo": {
+      "src": "img/villes/DUS.jpg",
+      "alt": "Les immeubles de Gehry du MedienHafen à l'heure dorée",
+      "author": "Martin Falbisoner",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Neuer_Zollhof_D%C3%BCsseldorf_at_Golden_Hour.JPG"
+    },
+    "climate": {
+      "min": [
+        0.5,
+        0.7,
+        2.6,
+        5.0,
+        8.7,
+        11.7,
+        14.0,
+        13.7,
+        10.7,
+        7.5,
+        3.9,
+        1.5
+      ],
+      "max": [
+        6.0,
+        7.2,
+        11.1,
+        15.6,
+        19.4,
+        22.5,
+        24.7,
+        24.2,
+        20.1,
+        15.2,
+        10.0,
+        6.6
+      ],
+      "pluie": [
+        17.5,
+        15.9,
+        16.1,
+        12.5,
+        13.9,
+        14.1,
+        14.6,
+        14.7,
+        14.2,
+        15.5,
+        17.2,
+        18.8
+      ],
+      "soleil": [
+        56.9,
+        73.1,
+        125.0,
+        172.6,
+        202.0,
+        199.3,
+        208.2,
+        193.9,
+        149.5,
+        109.8,
+        62.5,
+        47.1
+      ],
+      "source": "DWD/NOAA, normales 1991–2020 (Düsseldorf ; jours de pluie ≥ 0,1 mm)"
+    }
+  },
+  "FEZ": {
+    "pitch": "Un voyage dans le temps : la plus grande médina du monde, tanneries aux mille couleurs, artisans à chaque ruelle et riads cachés.",
+    "photo": {
+      "src": "img/villes/FEZ.jpg",
+      "alt": "La porte bleue de Bab Bou Jeloud encadrant les minarets de la médina",
+      "author": "Timothy A. Gonsalves",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bab_Bou_Jeloud_Frame_Minaret_Fes_Nov25_A7CR_09127-8_HDR3.jpg"
+    },
+    "climate": {
+      "min": [
+        3.7,
+        4.4,
+        6.6,
+        8.3,
+        11.5,
+        14.9,
+        17.9,
+        18.3,
+        15.6,
+        12.6,
+        8.1,
+        5.2
+      ],
+      "max": [
+        16.0,
+        17.3,
+        19.9,
+        22.0,
+        26.4,
+        31.2,
+        35.1,
+        35.1,
+        30.3,
+        26.1,
+        20.2,
+        17.2
+      ],
+      "pluie": [
+        6.7,
+        6.5,
+        6.9,
+        6.3,
+        4.7,
+        1.7,
+        0.4,
+        1.0,
+        2.4,
+        5.1,
+        6.5,
+        6.5
+      ],
+      "soleil": [
+        195.3,
+        187.6,
+        244.9,
+        252.0,
+        300.7,
+        318.0,
+        350.3,
+        331.7,
+        276.0,
+        244.9,
+        201.0,
+        198.4
+      ],
+      "source": "NOAA, normales 1991–2020 (aéroport de Fès-Saïs ; soleil 1981–2010)"
+    }
+  },
+  "MLA": {
+    "pitch": "Une petite île, mille merveilles : remparts dorés de La Valette, criques bleu lagon et soleil presque toute l'année.",
+    "photo": {
+      "src": "img/villes/MLA.jpg",
+      "alt": "Les toits de La Valette, la coupole du Carmel et la flèche Saint-Paul",
+      "author": "Anton Zelenov",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Mount_Carmel_and_St_Pauls_Pro-Cathedral.jpg"
+    },
+    "climate": {
+      "min": [
+        10.1,
+        9.5,
+        10.9,
+        12.8,
+        15.8,
+        19.6,
+        22.1,
+        23.0,
+        21.2,
+        18.4,
+        14.9,
+        11.8
+      ],
+      "max": [
+        15.7,
+        15.7,
+        17.4,
+        20.0,
+        24.2,
+        28.7,
+        31.7,
+        32.0,
+        28.6,
+        25.0,
+        20.8,
+        17.2
+      ],
+      "pluie": [
+        10.0,
+        8.2,
+        6.1,
+        3.8,
+        1.5,
+        0.8,
+        0.0,
+        1.0,
+        4.3,
+        6.6,
+        8.7,
+        10.0
+      ],
+      "soleil": [
+        169.3,
+        178.1,
+        227.2,
+        253.8,
+        309.7,
+        336.9,
+        376.7,
+        352.2,
+        270.0,
+        223.8,
+        195.0,
+        161.2
+      ],
+      "source": "Meteo Climat / MaltaWeather, normales 1991–2020 (aéroport de Luqa)"
+    }
+  },
+  "MUC": {
+    "pitch": "La Bavière en grand : biergartens, châteaux de conte de fées à portée d'excursion, Oktoberfest et marchés de Noël parmi les plus beaux d'Europe.",
+    "photo": {
+      "src": "img/villes/MUC.jpg",
+      "alt": "La Frauenkirche et le nouvel hôtel de ville vus d'en haut",
+      "author": "Thomas Wolf",
+      "license": "CC BY-SA 3.0 de",
+      "page": "https://commons.wikimedia.org/wiki/File:Stadtbild_M%C3%BCnchen.jpg"
+    },
+    "climate": {
+      "min": [
+        -1.8,
+        -1.4,
+        1.7,
+        5.3,
+        9.3,
+        12.9,
+        14.7,
+        14.5,
+        10.4,
+        6.5,
+        2.1,
+        -0.8
+      ],
+      "max": [
+        4.0,
+        5.6,
+        10.1,
+        15.2,
+        19.4,
+        22.9,
+        24.9,
+        24.7,
+        19.6,
+        14.5,
+        8.2,
+        4.8
+      ],
+      "pluie": [
+        15.3,
+        14.0,
+        15.6,
+        13.5,
+        16.1,
+        16.7,
+        16.1,
+        15.0,
+        14.2,
+        14.2,
+        14.6,
+        16.8
+      ],
+      "soleil": [
+        74.6,
+        95.2,
+        145.3,
+        186.0,
+        213.0,
+        223.7,
+        241.4,
+        232.1,
+        169.7,
+        123.3,
+        74.0,
+        66.4
+      ],
+      "source": "OMM/DWD, normales 1991–2020 (Munich-Dreimühlenviertel)"
+    }
+  },
+  "DKR": {
+    "pitch": "L'Afrique de l'Ouest version océan : plages de Ngor, île de Gorée, musique dans chaque rue et chaleur toute l'année.",
+    "photo": {
+      "src": "img/villes/DKR.jpg",
+      "alt": "La baie turquoise de Ngor et ses pirogues",
+      "author": "Jeff Attaway from Abuja",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ngor_Bay_(5662409796).jpg"
+    },
+    "climate": {
+      "min": [
+        18.6,
+        18.0,
+        18.4,
+        19.1,
+        20.7,
+        23.6,
+        25.2,
+        25.4,
+        25.2,
+        25.5,
+        23.5,
+        21.0
+      ],
+      "max": [
+        25.9,
+        25.2,
+        25.2,
+        25.0,
+        26.2,
+        28.7,
+        30.1,
+        30.5,
+        30.9,
+        31.3,
+        30.1,
+        27.9
+      ],
+      "pluie": [
+        0.1,
+        0.2,
+        0.1,
+        0.0,
+        0.0,
+        0.6,
+        4.2,
+        9.8,
+        9.2,
+        2.4,
+        0.1,
+        0.1
+      ],
+      "soleil": [
+        244.9,
+        245.8,
+        285.2,
+        288.0,
+        291.4,
+        252.0,
+        232.5,
+        223.2,
+        219.0,
+        257.3,
+        249.0,
+        238.7
+      ],
+      "source": "NOAA/OMM, normales 1991–2020 (Dakar-Yoff) ; ensoleillement DWD 1961–1990"
+    }
+  },
+  "SXB": {
+    "pitch": "La plus jolie ville d'Alsace : maisons à colombages au bord de l'eau, cathédrale vertigineuse, winstubs et le plus célèbre marché de Noël de France.",
+    "photo": {
+      "src": "img/villes/SXB.jpg",
+      "alt": "Maisons à colombages de la Petite France se reflétant dans l'Ill",
+      "author": "Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_PetiteFrance_016_9023.jpg"
+    },
+    "climate": {
+      "min": [
+        -0.2,
+        0.0,
+        2.6,
+        5.7,
+        10.1,
+        13.4,
+        14.9,
+        14.5,
+        10.7,
+        7.2,
+        3.3,
+        0.8
+      ],
+      "max": [
+        5.2,
+        7.3,
+        12.1,
+        17.0,
+        20.9,
+        24.4,
+        26.4,
+        26.1,
+        21.6,
+        15.8,
+        9.4,
+        5.9
+      ],
+      "pluie": [
+        9.1,
+        8.3,
+        8.5,
+        8.6,
+        10.8,
+        10.2,
+        10.4,
+        9.5,
+        8.0,
+        9.6,
+        9.2,
+        10.2
+      ],
+      "soleil": [
+        55.5,
+        85.8,
+        146.4,
+        186.9,
+        209.1,
+        226.4,
+        239.7,
+        224.2,
+        173.5,
+        100.4,
+        55.2,
+        44.2
+      ],
+      "source": "Météo-France, normales 1991–2020 (Strasbourg-Entzheim)"
+    }
   }
 }
