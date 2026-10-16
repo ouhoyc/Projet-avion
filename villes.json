@@ -2828,5 +2828,736 @@
       ],
       "source": "Météo-France, normales 1991–2020 (Strasbourg-Entzheim)"
     }
+  },
+  "WAW": {
+    "pitch": "Une capitale qui a tout reconstruit avec panache : vieille ville colorée, terrasses animées, vie nocturne branchée et des prix encore très doux.",
+    "photo": {
+      "src": "img/villes/WAW.jpg",
+      "alt": "Place du Marché de la Vieille Ville au coucher du soleil",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Market_Square_Warsaw_(22594p).jpg"
+    },
+    "climate": {
+      "min": [
+        -4.0,
+        -3.3,
+        -0.6,
+        4.0,
+        8.8,
+        12.4,
+        14.5,
+        13.8,
+        9.5,
+        5.0,
+        1.3,
+        -2.5
+      ],
+      "max": [
+        1.0,
+        2.6,
+        7.4,
+        14.6,
+        19.8,
+        23.1,
+        25.2,
+        24.7,
+        19.1,
+        12.9,
+        6.5,
+        2.3
+      ],
+      "pluie": [
+        8.3,
+        7.7,
+        7.8,
+        6.8,
+        9.1,
+        9.1,
+        9.4,
+        8.2,
+        8.0,
+        7.6,
+        8.1,
+        8.4
+      ],
+      "soleil": [
+        44.6,
+        66.5,
+        139.4,
+        210.1,
+        272.4,
+        288.8,
+        295.4,
+        280.2,
+        193.1,
+        122.6,
+        50.6,
+        33.6
+      ],
+      "source": "IMGW, normales 1991–2020 (Varsovie-Chopin)"
+    }
+  },
+  "TCI": {
+    "pitch": "L'été toute l'année : plages du sud au soleil garanti, le volcan Teide au-dessus des nuages et des falaises spectaculaires plongeant dans l'Atlantique.",
+    "photo": {
+      "src": "img/villes/TCI.jpg",
+      "alt": "Roque Cinchado et le volcan Teide sous un ciel bleu",
+      "author": "Thomas Wolf",
+      "license": "CC BY-SA 3.0 de",
+      "page": "https://commons.wikimedia.org/wiki/File:Roque_Cinchado_mit_Teide.jpg"
+    },
+    "climate": {
+      "min": [
+        15.2,
+        15.0,
+        15.5,
+        16.2,
+        17.3,
+        18.9,
+        20.2,
+        21.1,
+        20.9,
+        19.9,
+        18.2,
+        16.5
+      ],
+      "max": [
+        22.8,
+        22.9,
+        23.6,
+        24.0,
+        25.0,
+        26.2,
+        28.2,
+        28.8,
+        28.1,
+        27.3,
+        25.4,
+        23.7
+      ],
+      "pluie": [
+        1.6,
+        1.8,
+        1.4,
+        1.0,
+        0.2,
+        0.1,
+        0.0,
+        0.3,
+        0.6,
+        2.0,
+        1.4,
+        3.2
+      ],
+      "soleil": [
+        221.6,
+        218.7,
+        256.5,
+        248.4,
+        275.2,
+        283.8,
+        329.9,
+        310.6,
+        247.8,
+        235.6,
+        211.9,
+        215.0
+      ],
+      "source": "AEMET, normales 1991–2020 (aéroport Tenerife Sud)"
+    }
+  },
+  "BEG": {
+    "pitch": "La capitale fêtarde des Balkans : forteresse au confluent du Danube et de la Save, péniches-clubs légendaires et cuisine généreuse à petit prix.",
+    "photo": {
+      "src": "img/villes/BEG.jpg",
+      "alt": "Forteresse de Kalemegdan au-dessus de la Save, lumière dorée",
+      "author": "Dragan Jankovic",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Pobednik_na_Kalamegdanu-Beograd_-_panoramio.jpg"
+    },
+    "climate": {
+      "min": [
+        -0.7,
+        0.6,
+        4.2,
+        8.8,
+        13.2,
+        16.7,
+        18.4,
+        18.5,
+        14.1,
+        9.4,
+        5.1,
+        0.5
+      ],
+      "max": [
+        5.2,
+        7.8,
+        13.1,
+        18.9,
+        23.6,
+        27.1,
+        29.3,
+        29.7,
+        24.3,
+        18.7,
+        12.2,
+        6.1
+      ],
+      "pluie": [
+        13.5,
+        12.3,
+        11.3,
+        12.4,
+        13.5,
+        12.2,
+        10.0,
+        8.4,
+        9.5,
+        10.5,
+        10.8,
+        13.8
+      ],
+      "soleil": [
+        70.7,
+        96.2,
+        146.7,
+        186.7,
+        224.7,
+        253.9,
+        278.8,
+        262.6,
+        192.6,
+        155.0,
+        92.1,
+        60.3
+      ],
+      "source": "RHMZ Serbie, normales 1991–2020 (Belgrade ; jours de précip. ≥ 0,1 mm)"
+    }
+  },
+  "IST": {
+    "pitch": "Entre Europe et Asie : mosquées majestueuses, bazars aux mille épices, ferries sur le Bosphore et couchers de soleil inoubliables.",
+    "photo": {
+      "src": "img/villes/IST.jpg",
+      "alt": "Cour de la Mosquée bleue au crépuscule",
+      "author": "Benh LIEU SONG",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg"
+    },
+    "climate": {
+      "min": [
+        3.6,
+        3.5,
+        4.9,
+        8.1,
+        12.8,
+        17.4,
+        20.3,
+        21.2,
+        17.4,
+        13.6,
+        9.2,
+        5.5
+      ],
+      "max": [
+        8.8,
+        9.4,
+        12.0,
+        16.1,
+        21.0,
+        25.7,
+        28.0,
+        28.2,
+        24.6,
+        19.9,
+        15.0,
+        10.7
+      ],
+      "pluie": [
+        16.9,
+        15.2,
+        13.2,
+        10.0,
+        7.4,
+        7.0,
+        4.7,
+        5.1,
+        8.1,
+        12.3,
+        13.9,
+        17.5
+      ],
+      "soleil": [
+        68.2,
+        89.6,
+        142.6,
+        180.0,
+        248.0,
+        297.6,
+        319.3,
+        288.3,
+        234.0,
+        158.1,
+        93.0,
+        62.0
+      ],
+      "source": "Normales 1991–2020 (Istanbul-Kireçburnu ; jours de précip. ≥ 0,1 mm et soleil 1981–2010)"
+    }
+  },
+  "HER": {
+    "pitch": "La porte d'entrée de la Crète : lagons turquoise, plages de sable rose, palais de Knossos et l'hospitalité crétoise autour d'une table.",
+    "photo": {
+      "src": "img/villes/HER.jpg",
+      "alt": "Lagon de Balos, eaux turquoise (ouest de la Crète)",
+      "author": "dronepicr",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Balos_Lagoon_on_the_island_of_Crete,_Greece.jpg"
+    },
+    "climate": {
+      "min": [
+        9.4,
+        9.2,
+        10.2,
+        12.8,
+        16.2,
+        20.3,
+        22.7,
+        22.9,
+        20.4,
+        17.5,
+        14.0,
+        11.0
+      ],
+      "max": [
+        15.2,
+        15.3,
+        16.8,
+        20.1,
+        24.3,
+        28.5,
+        30.3,
+        30.2,
+        27.5,
+        24.0,
+        20.1,
+        16.7
+      ],
+      "pluie": [
+        10.1,
+        9.1,
+        6.9,
+        3.4,
+        1.9,
+        0.5,
+        0.1,
+        0.1,
+        1.3,
+        4.9,
+        6.0,
+        8.9
+      ],
+      "soleil": [
+        119.9,
+        132.3,
+        181.5,
+        234.8,
+        298.5,
+        356.2,
+        368.3,
+        343.5,
+        275.8,
+        206.9,
+        145.5,
+        115.4
+      ],
+      "source": "Normales 1991–2020 (aéroport d’Héraklion) ; ensoleillement HNMS 1955–2010"
+    }
+  },
+  "BIA": {
+    "pitch": "La Corse côté nord : vieux port aux façades colorées, Cap Corse sauvage et plages paradisiaques des Agriates à portée de bateau.",
+    "photo": {
+      "src": "img/villes/BIA.jpg",
+      "alt": "Vue aérienne du Vieux-Port de Bastia",
+      "author": "dronepicr",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_port_of_Bastia,_Corsica,_France_(52723827071).jpg"
+    },
+    "climate": {
+      "min": [
+        5.4,
+        5.1,
+        6.8,
+        9.1,
+        12.6,
+        16.4,
+        19.4,
+        19.8,
+        16.7,
+        13.4,
+        9.5,
+        6.4
+      ],
+      "max": [
+        13.8,
+        13.9,
+        15.8,
+        18.3,
+        22.4,
+        26.4,
+        29.4,
+        29.8,
+        26.0,
+        22.0,
+        17.7,
+        14.8
+      ],
+      "pluie": [
+        5.8,
+        6.2,
+        6.7,
+        6.9,
+        5.3,
+        3.1,
+        1.5,
+        2.2,
+        5.3,
+        7.1,
+        9.3,
+        8.0
+      ],
+      "soleil": [
+        139.2,
+        159.1,
+        196.4,
+        220.1,
+        269.9,
+        305.6,
+        347.3,
+        314.0,
+        237.9,
+        182.1,
+        134.4,
+        139.0
+      ],
+      "source": "Météo-France, normales 1991–2020 (Bastia)"
+    }
+  },
+  "TLV": {
+    "pitch": "La ville méditerranéenne qui ne dort jamais : plages en pleine ville, vieux port de Jaffa, marchés animés et une cuisine parmi les plus créatives au monde.",
+    "photo": {
+      "src": "img/villes/TLV.jpg",
+      "alt": "Plage et skyline de Tel Aviv vues depuis Jaffa",
+      "author": "Edmund Gall",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:View_of_the_coastline_from_Old_Jaffa_-_Tel_Aviv.jpg"
+    },
+    "climate": {
+      "min": [
+        9.6,
+        9.8,
+        11.5,
+        14.4,
+        17.3,
+        20.6,
+        23.0,
+        23.7,
+        22.5,
+        19.1,
+        14.6,
+        11.2
+      ],
+      "max": [
+        17.5,
+        17.7,
+        19.2,
+        22.8,
+        24.9,
+        27.5,
+        29.4,
+        30.2,
+        29.4,
+        27.3,
+        23.4,
+        19.2
+      ],
+      "pluie": [
+        15,
+        13,
+        10,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        6,
+        9,
+        12
+      ],
+      "soleil": [
+        192.2,
+        200.1,
+        235.6,
+        270.0,
+        328.6,
+        357.0,
+        368.9,
+        356.5,
+        300.0,
+        279.0,
+        234.0,
+        189.1
+      ],
+      "source": "IMS, températures 1987–2010, précip. 1980–2010 (Tel Aviv ; jours ≥ 0,1 mm) ; soleil HKO"
+    }
+  },
+  "BLJ": {
+    "pitch": "Les Aurès et leurs trésors : Timgad, la « Pompéi de l'Afrique », canyons spectaculaires de Ghoufi et l'hospitalité chaouie.",
+    "photo": {
+      "src": "img/villes/BLJ.jpg",
+      "alt": "Arc de Trajan et decumanus de Timgad (près de Batna)",
+      "author": "Dan Sloan",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Timgad_(15847441606).jpg"
+    },
+    "climate": {
+      "min": [
+        0.7,
+        1.4,
+        2.7,
+        5.4,
+        9.2,
+        14.2,
+        16.8,
+        16.7,
+        13.3,
+        8.6,
+        3.9,
+        1.7
+      ],
+      "max": [
+        9.8,
+        11.2,
+        13.7,
+        17.7,
+        22.8,
+        29.1,
+        33.0,
+        31.9,
+        26.9,
+        20.3,
+        14.2,
+        10.8
+      ],
+      "source": "NOAA, normales 1971–1990 (Batna, OMM 60468)"
+    }
+  },
+  "CAI": {
+    "pitch": "Le rêve d'enfance devenu réalité : les pyramides de Gizeh, les trésors des pharaons et le Nil au coucher du soleil.",
+    "photo": {
+      "src": "img/villes/CAI.jpg",
+      "alt": "Les pyramides de Gizeh sous un ciel bleu",
+      "author": "Ricardo Liberato",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids-2.jpg"
+    },
+    "climate": {
+      "min": [
+        10.1,
+        11.0,
+        13.2,
+        15.9,
+        19.3,
+        22.2,
+        23.8,
+        24.3,
+        22.7,
+        20.0,
+        15.6,
+        11.7
+      ],
+      "max": [
+        18.9,
+        20.5,
+        23.8,
+        28.1,
+        32.2,
+        34.6,
+        35.0,
+        34.9,
+        33.4,
+        30.0,
+        24.9,
+        20.5
+      ],
+      "pluie": [
+        1.3,
+        2.0,
+        1.2,
+        1.3,
+        0.6,
+        0.6,
+        0.7,
+        1.0,
+        0.7,
+        0.1,
+        0.6,
+        0.8
+      ],
+      "soleil": [
+        213,
+        234,
+        269,
+        291,
+        324,
+        357,
+        363,
+        351,
+        311,
+        292,
+        248,
+        198
+      ],
+      "source": "Normales 1991–2020 (aéroport du Caire) ; soleil DMI 1931–1960"
+    }
+  },
+  "EVN": {
+    "pitch": "Une capitale rose au pied du mont Ararat : monastères perchés, cafés animés, cognac arménien et accueil chaleureux.",
+    "photo": {
+      "src": "img/villes/EVN.jpg",
+      "alt": "Monastère de Khor Virap devant le mont Ararat",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Monasterio_Khor_Virap,_Armenia,_2016-10-01,_DD_25.jpg"
+    },
+    "climate": {
+      "min": [
+        -7.8,
+        -5.4,
+        0.9,
+        6.4,
+        10.8,
+        15.1,
+        19.1,
+        18.9,
+        13.2,
+        7.1,
+        0.1,
+        -4.9
+      ],
+      "max": [
+        1.7,
+        6.3,
+        13.7,
+        19.8,
+        25.1,
+        30.9,
+        34.5,
+        34.4,
+        29.2,
+        21.6,
+        12.8,
+        4.2
+      ],
+      "pluie": [
+        4.9,
+        4.3,
+        6.2,
+        8.2,
+        9.3,
+        5.7,
+        3.0,
+        2.4,
+        2.4,
+        5.1,
+        4.4,
+        5.0
+      ],
+      "soleil": [
+        104.5,
+        136.8,
+        186.5,
+        206.5,
+        267.1,
+        326.6,
+        353.9,
+        333.7,
+        291.5,
+        217.0,
+        159.9,
+        91.0
+      ],
+      "source": "Pogoda.ru.net / NOAA, normales 1991–2020 (Erevan)"
+    }
+  },
+  "AMM": {
+    "pitch": "La porte de la Jordanie : citadelle et théâtre romain en pleine ville, cuisine délicieuse, et Pétra ou la mer Morte à portée d'excursion.",
+    "photo": {
+      "src": "img/villes/AMM.jpg",
+      "alt": "Théâtre romain d'Amman vu d'en haut",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Roman_theater_of_Amman_01.jpg"
+    },
+    "climate": {
+      "min": [
+        4.2,
+        5.0,
+        7.6,
+        11.2,
+        15.1,
+        18.5,
+        20.8,
+        20.6,
+        18.5,
+        15.4,
+        10.1,
+        5.9
+      ],
+      "max": [
+        12.6,
+        14.2,
+        18.1,
+        23.6,
+        28.1,
+        31.1,
+        32.7,
+        32.8,
+        30.9,
+        27.2,
+        20.3,
+        14.8
+      ],
+      "pluie": [
+        11.0,
+        10.9,
+        8.0,
+        4.0,
+        1.6,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        2.3,
+        5.3,
+        8.4
+      ],
+      "soleil": [
+        179.8,
+        182.0,
+        226.3,
+        266.6,
+        328.6,
+        369.0,
+        387.5,
+        365.8,
+        312.0,
+        275.9,
+        225.0,
+        179.8
+      ],
+      "source": "JMD, normales 1989–2018 (Amman-Marka, aéroport civil) ; soleil NOAA 1961–1990"
+    }
   }
 }
