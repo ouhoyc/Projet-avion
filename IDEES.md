@@ -124,6 +124,20 @@ la plus proche de toutes les activités (« pile au milieu »).
 - **Carte** : les activités choisies en points, et la **zone idéale pour dormir** calculée au
   centre de ces points, avec des hébergements proposés dans cette zone.
 - À découper en étapes (activités d'abord, puis zone + hébergement, puis préférences).
+- 🛠 **Décidé le 16/10/2026 : on commence par Barcelone.** Organisation retenue : une **page
+  guide par ville** (vol, incontournables, carte, quartiers, hôtels) avec, dedans, un bouton
+  « Préparer mon séjour sur mesure » qui lance le parcours en 3 étapes (envies → activités
+  cochées → quartier idéal + hôtels).
+- Chaque activité affiche son **prix** et s'il faut **réserver à l'avance** (et combien de temps
+  avant). Fiche détaillée : prix détaillés, conseils pratiques, bouton « Réserver » (partenaire,
+  commission) **et** bouton « Site officiel » (pour garder la confiance).
+- Le propriétaire connaît bien Barcelone : il relira la liste des activités avant mise en ligne.
+- Commissions activités (via Travelpayouts) : **Tiqets accepté** ✅ ; GetYourGuide refusé pour
+  l'instant (pas assez de trafic) → redemander quand les pages guides auront des visiteurs ;
+  Viator à tenter.
+- Travelpayouts « Drive » (script qui ajoute tout seul des liens et encarts partenaires) :
+  **pas pour l'instant** (perte de contrôle sur le design, script tiers à déclarer pour les
+  cookies, peu utile sans trafic). On place les liens Tiqets à la main.
 
 ### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
 Déjà prévu dans le script (variable `ORIGIN`), reste à l'exposer sur le site.
