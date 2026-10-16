@@ -177,6 +177,15 @@ sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joven
   Pistes gratuites à étudier : calendriers publiés par les clubs/ligues (fichiers .ics),
   sites de calendriers téléchargeables, Euroligue (site officiel).
 - À faire **après** la page Barcelone.
+- Aussi les **grandes fêtes** aux dates du séjour : Thanksgiving, marchés de Noël (Alsace,
+  Allemagne, Europe de l'Est), 14 juillet, Fallas, Oktoberfest…
+
+### 14. 💡 Idées notées après le test du circuit (propriétaire et sa femme)
+- **Passeport et documents** nécessaires selon la destination (ex. Londres : passeport +
+  autorisation ETA), à afficher dans « Mon voyage ».
+- **Restaurants** avec une « moyenne pondérée » des notes (méthode à redemander au
+  propriétaire : on ne l'a pas retrouvée dans les notes).
+- À proposer au fur et à mesure, quand c'est pertinent.
 
 ### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
 Déjà prévu dans le script (variable `ORIGIN`), reste à l'exposer sur le site.
