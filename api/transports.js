@@ -61,10 +61,8 @@ export default async function handler(req, res) {
   const why = [];
   for (const url of OVERPASS) {
     try {
-      const r = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': 'ProjetAvion/1.0 (https://projet-avion-ouhoyc.vercel.app)' },
-        body: `data=${encodeURIComponent(q)}`,
+      const r = await fetch(`${url}?data=${encodeURIComponent(q)}`, {
+        headers: { Accept: 'application/json', 'User-Agent': 'ProjetAvion/1.0 (+https://projet-avion-ouhoyc.vercel.app)', Referer: 'https://projet-avion-ouhoyc.vercel.app/' },
         signal: AbortSignal.timeout(12000),
       });
       if (!r.ok) { why.push(`${new URL(url).host} ${r.status}`); continue; }
