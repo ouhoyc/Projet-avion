@@ -966,8 +966,7 @@ async function loadTransit(h) {
   };
   line('Ⓜ️', 'Métro', data.metro);
   line('🚆', 'Train', data.train);
-  line('🚊', 'Tram', data.tram);
-  if (data.bus) rows.push(`<tr><td>🚌 Bus · ${data.busStops > 1 ? `${data.busStops} arrêts à moins de 5 min` : 'arrêt le plus proche'}</td><td>${data.bus.min} min</td></tr>`);
+  if (data.bus) rows.push(`<tr><td>🚌 Bus · ${data.busStops > 10 ? 'nombreux arrêts à moins de 5 min' : data.busStops > 1 ? `${data.busStops} arrêts à moins de 5 min` : 'arrêt le plus proche'}</td><td>${data.bus.min} min</td></tr>`);
   const verdict = data.metro && data.metro.min <= 5 ? '👍 Très bien desservi' : (data.metro && data.metro.min <= 10) || (data.bus && data.bus.min <= 3) ? 'Bien desservi' : 'Peu de transports tout près';
   box().innerHTML = rows.length
     ? `<span class="box-h">🚇 Transports à pied · ${verdict}</span><table>${rows.join('')}</table>`
