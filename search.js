@@ -355,12 +355,14 @@ function searchCity(airports, daily, q) {
       (q.type === 'ow' || (c.nights >= q.minN && c.nights <= q.maxN) ? wanted : others).push(c);
     }
   }
-  if (!wanted.length && !others.length) return null;
+  // Aller-retour : la ville n'apparaît que si un séjour a la durée choisie (ex. « une semaine » =
+  // 5 à 8 nuits). Les durées voisines ne servent qu'aux suggestions « Moins cher ».
+  if (!wanted.length) return null;
   wanted.sort((a, b) => a.total - b.total);
   others.sort((a, b) => a.total - b.total);
 
   // Destination précise : plusieurs dates ; sinon : la meilleure option.
-  const main = (wanted.length ? wanted : others).slice(0, q.city ? MAX_DATE_OPTIONS : 1);
+  const main = wanted.slice(0, q.city ? MAX_DATE_OPTIONS : 1);
   const reference = main[0];
 
   // Suggestions : meilleure combinaison pour chaque durée voisine, si elle est moins chère.
@@ -372,7 +374,7 @@ function searchCity(airports, daily, q) {
     .slice(0, 3);
 
   const dest = airports.find((a) => a.code === reference.code) || airports[0];
-  return { dest, airports, options: [...main, ...alternatives], mainCount: main.length, selected: 0, exactNights: wanted.length > 0 };
+  return { dest, airports, options: [...main, ...alternatives], mainCount: main.length, selected: 0, exactNights: true };
 }
 
 // Aller simple : chaque jour de départ dans la période.
