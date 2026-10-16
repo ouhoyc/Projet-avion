@@ -56,7 +56,7 @@ let quartierChoisi = null; // null = quartier idéal calculé
 let map = null;
 let hotelsOn = false;       // le visiteur a demandé à voir les hôtels
 let hotelResults = null;    // dernière liste reçue { hotels, nights, key }
-let hotelMarkers = [];
+
 
 init();
 
@@ -381,6 +381,8 @@ async function setupMap() {
       map.addLayer({ id: 'zone-fill', type: 'fill', source: 'zone', paint: { 'fill-color': '#14213d', 'fill-opacity': 0.08 } });
       map.addLayer({ id: 'zone-line', type: 'line', source: 'zone', paint: { 'line-color': '#14213d', 'line-width': 2.5, 'line-dasharray': [2, 1.5] } });
       drawZone();
+      addHotelLayers();
+      if (hotelResults) drawHotels();
     });
     for (const a of acts) {
       const el = document.createElement('button');
@@ -393,7 +395,6 @@ async function setupMap() {
       new maplibregl.Marker({ element: el }).setLngLat([a.lng, a.lat]).addTo(map);
     }
     paintPins();
-    if (hotelResults) drawHotels();
   } catch (err) {
     console.warn('Carte indisponible :', err);
     $('v-map').innerHTML = '<p style="padding:16px">La carte ne peut pas s\'afficher sur cet appareil.</p>';
@@ -656,22 +657,81 @@ function hotelCard(h, tier) {
     </button></li>`;
 }
 
-function drawHotels() {
-  hotelMarkers.forEach((m) => m.remove());
-  hotelMarkers = [];
-  if (!map || !hotelResults) return;
-  const t = tiers(hotelResults.hotels);
-  const bounds = new maplibregl.LngLatBounds();
-  for (const h of hotelResults.hotels) {
-    const el = document.createElement('button');
-    el.type = 'button';
-    el.className = `h-pin t-${tierOf(h, t)}${hotel.id === h.id ? ' is-on' : ''}`;
-    el.textContent = `${Math.round(h.total / hotelResults.nights)} €`;
-    el.setAttribute('aria-label', `${h.name}, ${euro(h.total)}`);
-    el.addEventListener('click', (e) => { e.stopPropagation(); openHotel(h.id); });
-    hotelMarkers.push(new maplibregl.Marker({ element: el }).setLngLat([h.lng, h.lat]).addTo(map));
-    bounds.extend([h.lng, h.lat]);
+// Pastille arrondie extensible (même dessin que la carte des vols).
+function pillImage(fill) {
+  const ratio = 2, w = 32, h = 24, r = 11, line = 2;
+  const canvas = document.createElement('canvas');
+  canvas.width = w * ratio; canvas.height = h * ratio;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(ratio, ratio);
+  ctx.beginPath();
+  ctx.roundRect(line / 2, line / 2, w - line, h - line, r);
+  ctx.fillStyle = fill; ctx.fill();
+  ctx.lineWidth = line; ctx.strokeStyle = '#14213d'; ctx.stroke();
+  return {
+    image: ctx.getImageData(0, 0, w * ratio, h * ratio),
+    options: { pixelRatio: ratio, stretchX: [[12 * ratio, 20 * ratio]], stretchY: [[11 * ratio, 13 * ratio]], content: [7 * ratio, 4 * ratio, 25 * ratio, 20 * ratio] },
+  };
+}
+
+const TIER_COLORS = { low: '#12a865', mid: '#f59e0b', high: '#ef4444' };
+
+// Couches des hôtels : un point pour chacun, et le prix par-dessus. Quand deux prix se
+// chevauchent, le moins cher reste affiché ; en zoomant, les autres apparaissent.
+function addHotelLayers() {
+  for (const [name, color] of Object.entries(TIER_COLORS)) {
+    const { image, options } = pillImage(color);
+    map.addImage(`pill-${name}`, image, options);
   }
+  map.addSource('hotels', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({
+    id: 'h-dots', type: 'circle', source: 'hotels',
+    paint: {
+      'circle-color': ['match', ['get', 'tier'], 'low', TIER_COLORS.low, 'mid', TIER_COLORS.mid, TIER_COLORS.high],
+      'circle-radius': 6, 'circle-stroke-color': '#14213d', 'circle-stroke-width': 2,
+    },
+  });
+  map.addLayer({
+    id: 'h-prices', type: 'symbol', source: 'hotels',
+    layout: {
+      'icon-image': ['concat', 'pill-', ['get', 'tier']],
+      'icon-text-fit': 'both',
+      'text-field': ['get', 'label'],
+      'text-font': ['Noto Sans Bold'],
+      'text-size': 12,
+      'icon-allow-overlap': false,
+      'text-allow-overlap': false,
+      'symbol-sort-key': ['get', 'perNight'],
+    },
+    paint: { 'text-color': '#ffffff' },
+  });
+  map.addLayer({
+    id: 'h-chosen', type: 'circle', source: 'hotels', filter: ['==', ['get', 'id'], ''],
+    paint: { 'circle-color': 'rgba(0,0,0,0)', 'circle-radius': 16, 'circle-stroke-color': '#14213d', 'circle-stroke-width': 3 },
+  });
+  for (const layer of ['h-dots', 'h-prices']) {
+    map.on('click', layer, (e) => openHotel(e.features[0].properties.id));
+    map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
+  }
+}
+
+function drawHotels() {
+  const src = map?.getSource?.('hotels');
+  if (!src || !hotelResults) return;
+  const t = tiers(hotelResults.hotels);
+  const n = hotelResults.nights;
+  src.setData({
+    type: 'FeatureCollection',
+    features: hotelResults.hotels.map((h) => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [h.lng, h.lat] },
+      properties: { id: h.id, tier: tierOf(h, t), perNight: Math.round(h.total / n), label: `${Math.round(h.total / n)} €` },
+    })),
+  });
+  map.setFilter('h-chosen', ['==', ['get', 'id'], hotel.id || '']);
+  const bounds = new maplibregl.LngLatBounds();
+  hotelResults.hotels.forEach((h) => bounds.extend([h.lng, h.lat]));
   chosenPlaces().forEach((a) => bounds.extend([a.lng, a.lat]));
   if (!bounds.isEmpty()) map.fitBounds(bounds, { padding: 40, maxZoom: 15, duration: 600 });
 }
