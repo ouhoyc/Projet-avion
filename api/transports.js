@@ -66,11 +66,11 @@ export default async function handler(req, res) {
         body: `data=${encodeURIComponent(q)}`,
         signal: AbortSignal.timeout(12000),
       });
-      if (!r.ok) continue;
+      if (!r.ok) { console.error('Overpass', url, r.status, (await r.text()).slice(0, 200)); continue; }
       elements = (await r.json()).elements || [];
       break;
-    } catch {
-      // serveur suivant
+    } catch (err) {
+      console.error('Overpass', url, err?.message); // serveur suivant
     }
   }
   if (!elements) return send(res, 502, { error: 'provider' }, CACHE_ERR);
