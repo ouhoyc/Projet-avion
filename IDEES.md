@@ -193,6 +193,11 @@ sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joven
   redécoupées là où c'est dense ; lancé par une GitHub Action (clé dans les secrets GitHub,
   jamais dans le code) ; attention aux règles Google (mention « Google », pas de stockage
   durable des notes → rafraîchir chaque mois).
+  **Méthode retenue (oct. 2026, Barcelone) :** le classement brut favorise les restaurants qui
+  demandent des avis en masse (grills argentins, pizzerias touristiques). On part donc des
+  adresses **réputées** (guides, Michelin Bib Gourmand, presse), on garde celles dont la note
+  Google est bonne (≥ 4,4 en général), et le propriétaire choisit le top 10 à la main. Pas
+  d'étoiles Google affichées sur le site ; mise à jour une fois par an.
 - À proposer au fur et à mesure, quand c'est pertinent.
 
 ### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
