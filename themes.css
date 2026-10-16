@@ -471,24 +471,12 @@ html[data-da="postale"] {
 }
 [data-da^="pop"] .sheet-guide .icon { flex: none; color: var(--coral); }
 
-/* Accueil : « comment ça marche » en 3 étapes + le prix total */
-.hero-steps {
-  list-style: none; margin: var(--s-4) 0 var(--s-3); padding: 0;
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 640px;
+/* Accueil : la formule « Vol + Activités + Restos + Hôtel = prix total » (simple texte, pas des boutons) */
+.hero-formula {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; max-width: 640px;
+  margin: var(--s-3) 0; font-size: 15px; font-weight: 600; color: var(--ink, #14213d);
 }
-@media (min-width: 760px) { .hero-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
-.hero-steps li {
-  position: relative; display: flex; flex-direction: column; gap: 1px;
-  padding: 10px 12px; background: #fff; border: 2px solid var(--ink, #14213d); border-radius: 14px;
-  box-shadow: 3px 3px 0 var(--ink, #14213d);
-}
-.hero-steps b { font-size: 15px; line-height: 1.2; }
-.hero-steps small { font-size: 12.5px; color: var(--text-muted); line-height: 1.25; }
-.step-ico { font-size: 20px; line-height: 1; margin-bottom: 4px; }
-.step-soon {
-  position: absolute; top: 8px; right: 8px; font-style: normal; font-size: 10.5px; font-weight: 700;
-  background: var(--coral, #ff6b4a); color: #fff; border-radius: 999px; padding: 1px 7px;
-}
-.hero-steps .step-total { background: var(--ink, #14213d); color: #fff; }
-.hero-steps .step-total small { color: rgba(255, 255, 255, .8); }
+.hero-formula span { white-space: nowrap; }
+.hero-formula em { font-style: normal; font-weight: 700; color: var(--text-muted); }
+.hero-formula strong { color: var(--coral, #ff6b4a); }
 [data-da^="pop"] .sheet-only-flight { display: block; text-align: center; margin-top: var(--s-2); font-size: 14px; font-weight: 600; color: var(--text-muted); }

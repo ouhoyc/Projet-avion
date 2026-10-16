@@ -31,6 +31,8 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - `index.html` : la page.
   - Titre : « Pas d'idée de destination ? Faites le tour des possibles. », sur 4 lignes
     régulières (classes `.h1-line`).
+  - Sous le titre : la formule « Vol + Activités + Restos + Hôtel = le prix total » (`.hero-formula`,
+    simple texte : rien qui ressemble à un bouton).
   - Formulaire : Où / Quand êtes-vous libre / durée / budget.
   - Carte, liste, panneau « Voir », calendrier, dialogue « Crédits et mentions ».
 - `app.js` : en-tête, carte MapLibre (fond OpenFreeMap en français, pastilles de prix dès le
