@@ -9,6 +9,40 @@ budget et leurs envies, depuis leur aéroport, en vol direct ; le site leur donn
 destinations, puis prépare le séjour (activités selon leurs goûts, quartier idéal pour dormir,
 hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
 
+## Problèmes à régler (tous d'un coup, plus tard)
+
+**Météo incomplète ou approximative (fiches villes)**
+- Ensoleillement absent : Sétif, Koutaïssi, Batna (pas de pluie non plus), Béjaïa (décembre).
+  → pas de type de temps affiché ces mois-là, seulement la température.
+- Jours de pluie retirés (source au seuil ≥ 0,1 mm, trop « pluvieux ») : Bruxelles, Vilnius.
+- Jours de pluie au seuil ≥ 0,1 mm gardés (un peu surestimés) : Francfort, Düsseldorf, Belgrade,
+  Istanbul, Tel Aviv.
+- Seuil non précisé dans la source : Athènes, Corfou, Tanger, Oslo, Prague (jours de pluie),
+  Amman, Sétif.
+- Sources plus faibles ou anciennes : Beyrouth (période inconnue), Corfou et Athènes (1955–2010),
+  Tanger (1961–1990), Sétif (1976–2005).
+- Piste : une source unique pour toutes les villes (ex. Open-Meteo, normales calculées).
+
+**Photos à améliorer**
+- Photos prises hors de la ville : Batna (Timgad), Sétif (Djémila), Biskra (palmeraie de la
+  région), Héraklion (lagon de Balos, ouest de la Crète), Brest (pointe Saint-Mathieu),
+  Marseille (calanque d'En-Vau, Cassis).
+- Moins réussies / basse résolution : Djeddah, Bucarest, Essaouira (pas de plage), Annaba.
+- Monuments italiens (Colisée, Duomo…) : la loi italienne demande une autorisation pour un usage
+  commercial des images de biens culturels → à remplacer si le site devient commercial.
+- Las Palmas : photo recadrée → préciser « recadrée » dans les crédits (licence CC BY).
+
+**Fonctionnement**
+- Une nouvelle destination n'a pas de fiche automatiquement (photo, texte, météo) : à faire à la
+  main à chaque fois. Piste : script qui signale les villes sans fiche.
+- Fiches Oslo, Ajaccio, Annaba, Brest : enregistrées mais pas encore vues à l'écran (pas de vol
+  au moment du test).
+- Prix rares au-delà de 2-3 mois (limite des données gratuites, voir point 8).
+
+**Incident à retenir**
+- Deux assistants ont envoyé une fois l'adresse e-mail du propriétaire dans une requête vers
+  Wikimedia (User-Agent). Corrigé aussitôt ; consigne ajoutée pour les suivants.
+
 ## À faire
 
 ### 10. 💡 Donner envie (inspiration)
@@ -118,6 +152,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix total A/R sur la carte), durée choisie à l'arrivée (1 nuit / court séjour / semaine / plus,
   mémorisée), pays + tri au-dessus des résultats ; anciens filtres mois/budget retirés
 - ✅ « Où ? » : pays (ordre alphabétique) puis ville facultative
+- ✅ Fiches « donner envie » pour les 88 villes (photo, texte vendeur, météo du mois, durée de vol)
 - ✅ Carte refaite avec MapLibre seul (points fixes au zoom, couleurs du site)
 - ✅ Barre des mois au-dessus des destinations (quand « Quand ? » est vide) : meilleur prix de
   chaque mois, on touche un mois ou on glisse la liste pour changer de mois sans toucher aux
