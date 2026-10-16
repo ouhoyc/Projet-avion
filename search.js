@@ -654,11 +654,12 @@ function shortSeen(day) {
 // Villes qui ont une page guide (ville.html?c=CODE, activités dans guides/CODE.json).
 const GUIDES = ['BCN'];
 
-// Lien vers la page guide, avec le vol choisi (dates + prix repéré par personne) pour le devis.
+// Lien vers le circuit « Mon voyage » (ville.html), avec le vol choisi : aéroport, dates,
+// prix repérés par personne (aller, retour) et durée du vol.
 function guideLink(cityCode, trip) {
-  const p = new URLSearchParams({ c: cityCode, out: trip.out });
-  if (trip.ret) p.set('ret', trip.ret);
-  p.set('vol', String((trip.outPrice || 0) + (trip.retPrice || 0)));
+  const p = new URLSearchParams({ c: cityCode, a: trip.code, out: trip.out, vo: String(trip.outPrice || 0) });
+  if (trip.ret) { p.set('ret', trip.ret); p.set('vr', String(trip.retPrice || 0)); }
+  if (trip.dur) p.set('dur', String(trip.dur));
   return `ville.html?${p}`;
 }
 
@@ -679,7 +680,6 @@ function openTripSheet(trip) {
       <h2 class="sheet-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h2>
       ${photoHtml(dest)}
       ${searchState.villes[dest.city_code]?.pitch ? `<p class="sheet-pitch">${escapeHtml(searchState.villes[dest.city_code].pitch)}</p>` : ''}
-      ${GUIDES.includes(dest.city_code) ? `<a class="sheet-guide" href="${escapeHtml(guideLink(dest.city_code, trip))}">Que faire à ${escapeHtml(dest.city)} ? Prix, réservations, carte <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>` : ''}
       ${factsHtml(dest, trip.out, trip.dur, true)}
 
       <div class="live" id="live-out" aria-live="polite">${legSeenHtml('Aller', trip.out, trip.outPrice)}</div>
@@ -691,10 +691,16 @@ function openTripSheet(trip) {
         <svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> Vérifier le prix en direct
       </button>
 
+      ${GUIDES.includes(dest.city_code) ? `
+      <a class="btn btn-primary btn-block" href="${escapeHtml(guideLink(dest.city_code, trip))}">
+        Choisir ce vol et préparer mon voyage <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+      <p class="sheet-note">Ensuite, si vous le souhaitez : vos activités et votre hôtel, puis vous réservez tout à la fin.</p>
+      <a class="sheet-only-flight" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">Réserver seulement le vol sur Kiwi.com</a>` : `
       <a class="btn btn-primary btn-block" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">
         Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
       </a>
-      <p class="sheet-note">Vous serez redirigé vers Kiwi.com (en français, prix en euros) pour choisir vos vols et payer.</p>
+      <p class="sheet-note">Vous serez redirigé vers Kiwi.com (en français, prix en euros) pour choisir vos vols et payer.</p>`}
     </div>`;
   sheet.showModal();
   const id = ++liveRequest;

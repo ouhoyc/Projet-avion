@@ -8,6 +8,10 @@
     "api/hotels.js": {
       "includeFiles": "guides/*.json",
       "maxDuration": 20
+    },
+    "api/transports.js": {
+      "includeFiles": "guides/*.json",
+      "maxDuration": 30
     }
   }
 }

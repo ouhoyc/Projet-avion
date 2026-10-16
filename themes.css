@@ -491,3 +491,4 @@ html[data-da="postale"] {
 }
 .hero-steps .step-total { background: var(--ink, #14213d); color: #fff; }
 .hero-steps .step-total small { color: rgba(255, 255, 255, .8); }
+[data-da^="pop"] .sheet-only-flight { display: block; text-align: center; margin-top: var(--s-2); font-size: 14px; font-weight: 600; color: var(--text-muted); }
