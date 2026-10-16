@@ -58,6 +58,7 @@ export default async function handler(req, res) {
     node(around:500,${lat},${lng})[highway=bus_stop];
   );out body;`;
   let elements = null;
+  const why = [];
   for (const url of OVERPASS) {
     try {
       const r = await fetch(url, {
@@ -66,14 +67,14 @@ export default async function handler(req, res) {
         body: `data=${encodeURIComponent(q)}`,
         signal: AbortSignal.timeout(12000),
       });
-      if (!r.ok) { console.error('Overpass', url, r.status, (await r.text()).slice(0, 200)); continue; }
+      if (!r.ok) { why.push(`${new URL(url).host} ${r.status}`); continue; }
       elements = (await r.json()).elements || [];
       break;
     } catch (err) {
-      console.error('Overpass', url, err?.message); // serveur suivant
+      why.push(`${new URL(url).host} ${err?.name || 'erreur'}`); // serveur suivant
     }
   }
-  if (!elements) return send(res, 502, { error: 'provider' }, CACHE_ERR);
+  if (!elements) return send(res, 502, { error: 'provider', why }, CACHE_ERR);
 
   const here = { lat, lng };
   const items = elements.map((e) => {

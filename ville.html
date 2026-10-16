@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Que faire ? · Vols directs depuis Lyon</title>
-  <meta name="description" content="Les incontournables de la ville : prix, réservation à l'avance, meilleur moment, et le vol direct depuis Lyon.">
+  <title>Mon voyage · Vols directs depuis Lyon</title>
+  <meta name="description" content="Préparez tout votre voyage au même endroit : le vol direct, les activités, l'hôtel, et le prix total.">
   <meta name="theme-color" content="#14213d">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2314213d'/><path d='M8 18l4 1 5-7 2 1-3 7 5 1 2-2 1 1-2 3-3 1-11-3z' fill='white'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,35 +15,49 @@
   <link rel="stylesheet" href="voyageurs.css">
 </head>
 <body>
-  <a class="back" href="index.html" aria-label="Retour aux vols">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg> Vols
-  </a>
+  <!-- Barre du circuit : retour + les 4 étapes -->
+  <header class="c-top">
+    <div class="c-top-in">
+      <button type="button" class="c-back" id="c-back" aria-label="Retour">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <ol class="c-steps" id="c-steps">
+        <li><button type="button" data-go="1"><i>1</i>Vol</button></li>
+        <li><button type="button" data-go="2"><i>2</i>Activités</button></li>
+        <li><button type="button" data-go="3"><i>3</i>Hôtel</button></li>
+        <li><button type="button" data-go="4"><i>4</i>Réserver</button></li>
+      </ol>
+    </div>
+  </header>
 
-  <header class="v-hero" id="v-hero">
+  <div class="v-hero" id="v-hero">
     <div class="v-hero-text">
       <p class="v-country" id="v-country"></p>
       <h1 id="v-city">Chargement…</h1>
     </div>
-  </header>
+  </div>
 
   <main class="v-main">
-    <p class="v-pitch" id="v-pitch"></p>
+    <!-- Étape 1 : le vol -->
+    <section class="c-step" data-step="1" aria-labelledby="t-s1">
+      <h2 class="v-h2" id="t-s1">Votre vol</h2>
+      <p class="v-pitch" id="v-pitch"></p>
+      <div id="s1-flight"></div>
+      <button type="button" class="q-pax" id="s1-pax"></button>
+      <p class="c-note">Rien n'est réservé pour l'instant : vous réserverez tout à la fin, en une fois.</p>
+    </section>
 
-    <a class="v-flight" id="v-flight" href="index.html" hidden></a>
-
-    <button type="button" class="v-custom" disabled>
-      <span>Préparer mon séjour sur mesure</span>
-      <span class="v-soon">Bientôt</span>
-    </button>
-
-    <section aria-labelledby="t-acts">
-      <h2 class="v-h2" id="t-acts">Les incontournables</h2>
+    <!-- Étape 2 : les activités (facultatif) -->
+    <section class="c-step" data-step="2" aria-labelledby="t-acts" hidden>
+      <h2 class="v-h2" id="t-acts">Que voulez-vous faire ? <span class="c-opt">Facultatif</span></h2>
+      <p class="c-sub">Cochez ce qui vous tente : prix et réservations indiqués. Touchez une activité pour tout savoir.</p>
       <div class="v-chips" id="v-chips" role="group" aria-label="Filtrer les activités"></div>
       <ul class="v-list" id="v-list"></ul>
     </section>
 
-    <section aria-labelledby="t-hotel" id="hotel">
-      <h2 class="v-h2" id="t-hotel">Où dormir ?</h2>
+    <!-- Étape 3 : l'hôtel (facultatif) -->
+    <section class="c-step" data-step="3" aria-labelledby="t-hotel" id="hotel" hidden>
+      <h2 class="v-h2" id="t-hotel">Où dormir ? <span class="c-opt">Facultatif</span></h2>
       <div id="h-zone"></div>
       <div class="h-block">
         <p class="h-label">Vos dates</p>
@@ -57,10 +71,6 @@
         <div class="h-gammes" id="h-gammes" role="group" aria-label="Gamme d'hôtel"></div>
       </div>
       <div id="h-hotels"></div>
-    </section>
-
-    <section aria-labelledby="t-map">
-      <h2 class="v-h2" id="t-map">Sur la carte</h2>
       <div class="v-legend" id="v-legend" hidden>
         <span><i class="lg lg-act"></i>Vos activités</span>
         <span><i class="lg lg-low"></i><b id="lg-low"></b></span>
@@ -68,24 +78,30 @@
         <span><i class="lg lg-high"></i><b id="lg-high"></b></span>
       </div>
       <div class="v-map" id="v-map"></div>
-      <p class="v-map-note" id="v-map-note">Touchez un point pour voir l'activité.</p>
+      <p class="v-map-note" id="v-map-note">Vos activités choisies sont en couleur sur la carte.</p>
       <ul class="h-list" id="h-list"></ul>
+    </section>
+
+    <!-- Étape 4 : récapitulatif et réservation -->
+    <section class="c-step" data-step="4" aria-labelledby="t-s4" hidden>
+      <h2 class="v-h2" id="t-s4">Mon voyage</h2>
+      <div id="s4"></div>
     </section>
 
     <p class="v-foot"><span id="v-foot"></span> · <button type="button" class="v-link" id="open-credits">Crédits et mentions</button></p>
   </main>
 
-  <!-- Barre « Mon séjour » : apparaît dès qu'une activité est cochée -->
-  <div class="v-bar" id="v-bar" hidden>
-    <span><b id="bar-count"></b><small id="bar-pax"></small></span>
-    <button type="button" class="v-bar-btn" id="open-quote"><span id="bar-total"></span> · Voir le devis</button>
+  <!-- Bas d'écran : total du voyage + bouton pour avancer -->
+  <div class="c-foot" id="c-foot">
+    <div class="c-foot-in">
+      <p class="c-total"><span id="c-total-label">Mon voyage</span><b id="c-total"></b></p>
+      <button type="button" class="c-next" id="c-next"></button>
+      <button type="button" class="c-skip" id="c-skip" hidden></button>
+    </div>
   </div>
 
-  <!-- Fiche d'une activité -->
+  <!-- Fiche d'une activité ou d'un hôtel -->
   <dialog class="v-sheet" id="v-sheet" aria-labelledby="a-title"></dialog>
-
-  <!-- Devis du séjour -->
-  <dialog class="v-sheet" id="quote-sheet" aria-labelledby="q-title"></dialog>
   <!-- Voyageurs -->
   <dialog class="pax-sheet" id="pax-sheet" aria-label="Voyageurs"></dialog>
   <!-- Crédits et mentions -->

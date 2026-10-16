@@ -259,3 +259,75 @@ button.btn-line { cursor: pointer; }
 .h-item-price.t-mid { color: #b46a00; }
 .h-item-price.t-high { color: #d03a2f; }
 .h-item.is-on { background: #fff6f2; box-shadow: inset 3px 0 0 var(--coral); padding-left: 8px; }
+
+/* ===== Circuit « Mon voyage » ===== */
+.c-top { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 2px solid var(--soft); padding-top: env(safe-area-inset-top); }
+.c-top-in { max-width: 760px; margin: 0 auto; display: flex; align-items: center; gap: 6px; padding: 8px var(--gutter); }
+.c-back {
+  flex: none; width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--ink); background: var(--paper);
+  display: grid; place-items: center; cursor: pointer; box-shadow: 2px 2px 0 var(--ink);
+}
+.c-back svg { width: 22px; height: 22px; fill: none; stroke: var(--ink); stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.c-steps { flex: 1; list-style: none; margin: 0; padding: 0; display: flex; }
+.c-steps li { flex: 1; position: relative; }
+.c-steps li + li::before { content: ""; position: absolute; top: 13px; right: 50%; width: 100%; height: 2px; background: var(--soft); z-index: 0; }
+.c-steps li.is-done::before, .c-steps li.is-on::before { background: var(--ink); }
+.c-steps button { position: relative; z-index: 1; width: 100%; background: none; border: 0; padding: 0; cursor: pointer; font-size: 11px; font-weight: 700; color: var(--muted); display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.c-steps i { font-style: normal; width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--muted); background: #fff; display: grid; place-items: center; font-size: 12px; }
+.c-steps .is-on button { color: var(--ink); }
+.c-steps .is-on i { background: var(--coral); border-color: var(--ink); color: #fff; }
+.c-steps .is-done i { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+.v-hero { min-height: 150px; }
+body:not([data-step="1"]) .v-hero { min-height: 92px; }
+body:not([data-step="1"]) .v-hero h1 { font-size: 30px; }
+@media (min-width: 700px) { .v-hero { min-height: 220px; } body:not([data-step="1"]) .v-hero { min-height: 120px; } }
+.c-opt { font-size: 12px; font-weight: 700; background: var(--soft); border-radius: 999px; padding: 2px 9px; vertical-align: middle; letter-spacing: 0; }
+.c-sub { margin: -4px 0 12px; font-size: 14px; color: var(--muted); }
+.c-note { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
+.muted { color: var(--muted); }
+body { padding-bottom: 130px; }
+
+/* Bas d'écran */
+.c-foot { position: fixed; z-index: 20; left: 0; right: 0; bottom: 0; background: #fff; border-top: 2px solid var(--soft); padding: 10px var(--gutter) calc(12px + env(safe-area-inset-bottom)); }
+.c-foot-in { max-width: 760px; margin: 0 auto; }
+.c-total { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 8px; font-size: 13px; color: var(--muted); }
+.c-total b { font-size: 18px; color: var(--ink); }
+.c-next { width: 100%; padding: 13px; border-radius: 12px; border: 2px solid var(--ink); background: var(--coral); color: #fff; font-weight: 800; font-size: 16px; box-shadow: 3px 3px 0 var(--ink); cursor: pointer; }
+.c-next[hidden], .c-skip[hidden] { display: none; }
+.c-skip { display: block; margin: 8px auto 0; background: none; border: 0; font-size: 14px; font-weight: 600; color: var(--muted); text-decoration: underline; cursor: pointer; }
+
+/* Étape 1 : vol */
+.f-card { background: #fff; border: 2px solid var(--ink); border-radius: 14px; padding: 12px 14px; box-shadow: 3px 3px 0 var(--ink); }
+.f-route { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 600; }
+.f-leg { display: flex; justify-content: space-between; align-items: baseline; padding: 6px 0; font-size: 15px; }
+.f-leg strong { font-size: 16px; }
+.f-sum { border-top: 1px solid var(--soft); margin-top: 4px; padding-top: 8px; }
+.f-sum strong { color: var(--coral); font-size: 20px; }
+.f-small { margin: 4px 0 0; font-size: 12px; color: var(--muted); }
+.f-change { display: inline-block; margin-top: 8px; font-size: 14px; font-weight: 700; color: var(--ink); }
+.f-empty p { margin: 0 0 6px; font-size: 15px; }
+#s1-pax { margin-top: 12px; }
+
+/* Étape 4 : récapitulatif */
+.r-list { background: #fff; border: 2px solid var(--ink); border-radius: 14px; padding: 4px 12px; box-shadow: 3px 3px 0 var(--ink); }
+.r-row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--soft); cursor: pointer; }
+.r-row:last-child { border-bottom: 0; }
+.r-row input { width: 22px; height: 22px; accent-color: var(--ink); flex: none; }
+.r-row.is-none { opacity: .55; cursor: default; }
+.r-main { flex: 1; min-width: 0; }
+.r-main b { display: block; font-size: 15px; }
+.r-main small { display: block; font-size: 12px; color: var(--muted); }
+.r-row strong { white-space: nowrap; font-size: 15px; }
+.r-h3 { margin: 22px 0 4px; font-size: 18px; }
+.r-steps { list-style: none; margin: 0; padding: 0; }
+.r-step { display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin: 8px 0; background: #fff; border: 2px solid var(--ink); border-radius: 12px; }
+.r-step.is-done { opacity: .6; }
+.r-n { flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 13px; }
+.r-step.is-done .r-n { background: #12a865; }
+.r-actions { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.r-go { background: var(--coral); color: #fff; font-weight: 800; font-size: 14px; border: 2px solid var(--ink); border-radius: 10px; padding: 6px 10px; text-decoration: none; white-space: nowrap; }
+.r-done { background: none; border: 0; font-size: 12px; font-weight: 700; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; }
+
+/* Transports dans la fiche hôtel */
+.t-lines i { font-style: normal; display: inline-block; font-size: 11px; font-weight: 800; background: var(--ink); color: #fff; border-radius: 5px; padding: 0 5px; margin-left: 3px; }

@@ -1,7 +1,8 @@
-// Page « guide » d'une ville : ville.html?c=BCN (&out=…&ret=…&vol=… quand on vient d'un vol)
-// Lit la fiche de la ville (villes.json), ses activités (guides/CODE.json) et le prix du
-// vol direct le moins cher repéré (data.json). Le visiteur coche des activités : un devis
-// est calculé pour son groupe (adultes + enfants, voir voyageurs.js).
+// Circuit « Mon voyage » d'une ville : ville.html?c=BCN&a=BCN&out=…&vo=…&ret=…&vr=…&dur=…
+// 4 étapes : 1 le vol, 2 les activités (facultatif), 3 l'hôtel (facultatif), 4 le
+// récapitulatif et la réservation. L'étape est dans l'adresse (#2…) : le bouton retour du
+// navigateur et la flèche de retour reviennent à l'étape précédente.
+// Lit la fiche de la ville (villes.json), ses activités (guides/CODE.json) et data.json.
 
 // Liens partenaires par activité (Tiqets…), à remplir quand les liens seront créés dans
 // Travelpayouts. Sans lien, seul le bouton « Site officiel » s'affiche.
@@ -41,7 +42,15 @@ const fmtDay = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeri
 
 const params = new URLSearchParams(location.search);
 const code = (params.get('c') || 'BCN').toUpperCase().replace(/[^A-Z]/g, '');
-const trip = params.get('out') ? { out: params.get('out'), ret: params.get('ret'), price: Number(params.get('vol')) || 0 } : null;
+const trip = params.get('out') ? (() => {
+  const vo = Number(params.get('vo')) || 0, vr = Number(params.get('vr')) || 0;
+  return {
+    airport: (params.get('a') || code).toUpperCase().replace(/[^A-Z]/g, ''),
+    out: params.get('out'), ret: params.get('ret'), vo, vr, dur: Number(params.get('dur')) || 0,
+    price: vo + vr || Number(params.get('vol')) || 0,
+  };
+})() : null;
+const KIWI_AFFILIATE_TEMPLATE = ''; // même réglage que dans app.js
 const SEL_KEY = `sejour-${code}`;
 
 let guide = null;
@@ -56,6 +65,10 @@ let quartierChoisi = null; // null = quartier idéal calculé
 let map = null;
 let hotelsOn = false;       // le visiteur a demandé à voir les hôtels
 let hotelResults = null;    // dernière liste reçue { hotels, nights, key }
+let origin = { code: 'LYS', city: 'Lyon' };
+let step = 1;
+const BOOK_KEY = `reserver-${code}`;
+let book = loadBook();
 
 
 init();
@@ -74,36 +87,23 @@ async function init() {
   const flights = (data?.destinations || []).filter((d) => d.city_code === code);
   cityName = flights[0]?.city || code;
 
-  document.title = `Que faire à ${cityName} ? · Vols directs depuis Lyon`;
+  if (data?.origin) origin = data.origin;
+  document.title = `Mon voyage à ${cityName} · Vols directs depuis ${origin.city}`;
   $('v-city').textContent = cityName;
   $('v-country').textContent = flights[0]?.country || '';
   if (ville.pitch) $('v-pitch').textContent = ville.pitch;
   if (ville.photo?.src) $('v-hero').style.backgroundImage = `url("${ville.photo.src}")`;
-  $('t-acts').textContent = `Que faire à ${cityName} ?`;
-
-  if (trip) {
-    $('v-flight').innerHTML = `
-      <span><b>✈ Votre vol direct</b><small>${esc(fmtDay.format(new Date(trip.out + 'T12:00')))}${trip.ret ? ` → ${esc(fmtDay.format(new Date(trip.ret + 'T12:00')))}` : ''} · changer de dates</small></span>
-      <span class="price">${trip.ret ? 'aller-retour' : 'aller simple'}<strong>${euro(trip.price)}</strong></span>`;
-    $('v-flight').hidden = false;
-  } else if (flights.length) {
-    const best = flights.reduce((a, b) => (b.price < a.price ? b : a));
-    const dur = best.duration ? ` · ${Math.floor(best.duration / 60)} h ${String(best.duration % 60).padStart(2, '0')}` : '';
-    $('v-flight').innerHTML = `
-      <span><b>✈ Vol direct depuis ${esc(data.origin.city)}${dur}</b><small>Voir les dates et les prix</small></span>
-      <span class="price">aller simple dès<strong>${best.price} €</strong></span>`;
-    $('v-flight').hidden = false;
-  }
+  $('t-acts').firstChild.textContent = `Que faire à ${cityName} ? `;
 
   $('v-foot').textContent = `Prix des activités vérifiés le ${new Date(guide.verifie_le).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}`;
   $('open-credits').addEventListener('click', openCredits);
-  $('open-quote').addEventListener('click', openQuote);
+  $('s1-pax').addEventListener('click', () => paxOpen($('pax-sheet'), refresh));
 
+  renderFlight(flights);
   renderChips();
   renderList();
   setupHotel();
-  updateBar();
-  setupMap();
+  setupSteps();
   $('v-list').addEventListener('click', (e) => {
     const t = e.target.closest('[data-toggle]');
     if (t) return toggle(t.dataset.toggle);
@@ -133,9 +133,9 @@ function toggle(id) {
   else selected.add(id);
   try { localStorage.setItem(SEL_KEY, JSON.stringify([...selected])); } catch {}
   renderList();
-  updateBar();
   paintPins();
   renderHotel();
+  updateFoot();
 }
 
 // Prix d'une activité pour le groupe : adultes au tarif adulte, chaque enfant selon son âge.
@@ -155,26 +155,6 @@ function groupCost(a, pax) {
   return { total, detail, estimation: Boolean(t.estimation) };
 }
 
-function quote() {
-  const pax = paxGet();
-  const lines = guide.activites.filter((a) => selected.has(a.id)).map((a) => ({ a, ...groupCost(a, pax) }));
-  const acts = lines.reduce((s, l) => s + l.total, 0);
-  const flight = trip ? trip.price * paxCount(pax) : null;
-  const hotelPrice = hotel.prix > 0 ? hotel.prix : null;
-  return { pax, lines, acts, flight, hotelPrice, total: acts + (flight || 0) + (hotelPrice || 0) };
-}
-
-function updateBar() {
-  const n = selected.size;
-  const show = n > 0 || hotel.prix > 0;
-  $('v-bar').hidden = !show;
-  document.body.classList.toggle('has-bar', show);
-  if (!show) return;
-  const q = quote();
-  $('bar-count').textContent = `Mon séjour · ${n ? `${n} activité${n > 1 ? 's' : ''}` : 'hôtel'}${n && q.hotelPrice ? ' + hôtel' : ''}`;
-  $('bar-pax').textContent = paxLabel(q.pax);
-  $('bar-total').textContent = euro(q.total);
-}
 
 // ---------------------------------------------------------------------------
 // Liste des activités
@@ -268,47 +248,6 @@ function openSheet(id) {
   };
 }
 
-function openQuote() {
-  const q = quote();
-  const est = q.lines.some((l) => l.estimation);
-  showDialog($('quote-sheet'), `
-    <div class="a-body q-body">
-      <button type="button" class="a-close q-close" data-close aria-label="Fermer">×</button>
-      <p class="a-kicker">${esc(cityName)}</p>
-      <h2 id="q-title">Mon séjour</h2>
-      <button type="button" class="q-pax" id="q-pax">👥 ${esc(paxLabel(q.pax))}${q.pax.children.length ? ` (${q.pax.children.map((a) => (a === 0 ? '< 1 an' : `${a} an${a > 1 ? 's' : ''}`)).join(', ')})` : ''} <span>Modifier</span></button>
-      <ul class="q-lines">
-        ${q.flight != null ? `
-          <li><span><b>✈ Vols ${trip.ret ? 'aller-retour' : 'aller simple'}</b><small>${paxCount(q.pax)} × ${euro(trip.price)} · prix repéré, à vérifier sur Kiwi.com</small></span><strong>${euro(q.flight)}</strong></li>` : ''}
-        <li class="q-hotel"><span><b>🏨 Hôtel${hotelSummary() ? ` · ${esc(hotelSummary())}` : ''}</b><small>${hotel.nom ? 'Prix total trouvé pour vos dates' : 'Choisissez un hôtel sur la carte, ou notez son prix'}</small></span>
-          <label class="q-hotel-in"><input type="number" id="q-hotel" min="0" step="1" inputmode="numeric" placeholder="—" value="${q.hotelPrice ?? ''}"> €</label></li>
-        ${q.lines.map((l) => `
-          <li><span><b>${l.a.emoji} ${esc(l.a.nom)}</b><small>${esc(l.detail)}${l.estimation ? ' · estimation' : ''}</small></span><strong>${l.total === 0 ? 'Gratuit' : euro(l.total)}</strong>
-          <button type="button" class="q-remove" data-remove="${esc(l.a.id)}" aria-label="Retirer ${esc(l.a.nom)}">×</button></li>`).join('')}
-      </ul>
-      ${q.flight == null ? '<p class="q-hint">Pour ajouter les vols au devis, choisissez vos dates sur la page des vols puis touchez « Que faire à … ? ».</p>' : ''}
-      <p class="q-total"><span>Total${q.flight != null || q.hotelPrice ? '' : ' des activités'}</span><strong>${euro(q.total)}</strong></p>
-      ${q.total && paxCount(q.pax) > 1 ? `<p class="q-per">soit ${euro(Math.round(q.total / paxCount(q.pax)))} par personne</p>` : ''}
-      <p class="a-legal">Estimation pour votre groupe, d'après les prix publics${est ? ' (certains prix sont des moyennes)' : ''}. Le prix de l'hôtel est celui que vous avez noté.</p>
-      <button type="button" class="btn btn-line" data-close>Continuer à choisir</button>
-    </div>`);
-  $('q-hotel').onchange = (e) => {
-    hotel.prix = Math.max(0, Number(e.target.value) || 0);
-    if (!hotel.prix) { delete hotel.nom; delete hotel.id; }
-    saveHotel();
-    updateBar();
-    openQuote();
-  };
-  $('q-pax').onclick = () => paxOpen($('pax-sheet'), () => { updateBar(); openQuote(); });
-  $('quote-sheet').querySelectorAll('[data-remove]').forEach((b) => {
-    b.onclick = () => {
-      toggle(b.dataset.remove);
-      if (selected.size) openQuote();
-      else $('quote-sheet').close();
-    };
-  });
-}
-
 function openCredits() {
   const p = ville.photo;
   showDialog($('credits-sheet'), `
@@ -339,18 +278,21 @@ async function buildMapStyle() {
   if (!res.ok) throw new Error(res.status);
   const style = await res.json();
   const c = { land: '#fbf7ef', water: '#c4e3ea', border: '#14213d', label: '#14213d', halo: '#fbf7ef' };
-  style.layers = style.layers.filter((l) => !/highway|railway|road|tunnel|bridge|aeroway|building|park|landuse|landcover_wood|waterway/.test(l.id));
+  // Carte de ville : on garde les rues (avec leur nom), les parcs et les voies ferrées,
+  // on retire les bâtiments et les aéroports, et on applique les couleurs du site.
+  style.layers = style.layers.filter((l) => !/building|aeroway/.test(l.id));
   for (const layer of style.layers) {
     const paint = (layer.paint ||= {});
     if (layer.type === 'background') paint['background-color'] = c.land;
     if (layer.id === 'water') paint['fill-color'] = c.water;
+    if (/park|landcover_wood|landuse_park/.test(layer.id) && layer.type === 'fill') { paint['fill-color'] = '#e3ecd3'; paint['fill-opacity'] = 1; }
     if (layer.id.startsWith('boundary')) paint['line-color'] = c.border;
     if (layer.type === 'symbol') {
       const field = layer.layout?.['text-field'];
       if (field && JSON.stringify(field).includes('name')) {
         layer.layout['text-field'] = ['coalesce', ['get', 'name:fr'], ['get', 'name:latin'], ['get', 'name']];
       }
-      paint['text-color'] = layer.id.startsWith('water') ? c.border : c.label;
+      paint['text-color'] = layer.id.startsWith('water') ? '#4f7f8c' : /highway|road/.test(layer.id) ? '#5a6480' : c.label;
       paint['text-halo-color'] = c.halo;
       paint['text-halo-width'] = 1.2;
       paint['text-halo-blur'] = 0;
@@ -365,9 +307,11 @@ async function setupMap() {
     const style = await buildMapStyle();
     const acts = guide.activites.filter((a) => a.lat && a.type !== 'nature');
     const bounds = new maplibregl.LngLatBounds();
-    acts.forEach((a) => bounds.extend([a.lng, a.lat]));
+    (chosenPlaces().length ? chosenPlaces() : acts).forEach((a) => bounds.extend([a.lng, a.lat]));
+    const { q } = currentQuartier();
+    if (q) bounds.extend([q.lng, q.lat]);
     map = new maplibregl.Map({
-      container: 'v-map', style, bounds, fitBoundsOptions: { padding: 30 },
+      container: 'v-map', style, bounds, fitBoundsOptions: { padding: 40, maxZoom: 15 },
       attributionControl: false, dragRotate: false, pitchWithRotate: false, cooperativeGestures: true,
     });
     map.touchZoomRotate.disableRotation();
@@ -752,14 +696,16 @@ function openHotel(id) {
         <tr><td>Total, ${n} nuit${n > 1 ? 's' : ''} (${esc(paxLabel(paxGet()))})</td><td>${euro(h.total)}</td></tr>
         <tr><td>Soit par nuit</td><td>${euro(Math.round(h.total / n))}</td></tr></table></div>
       ${near.length ? `<div class="box"><span class="box-h">🚶 Vos activités</span><table>${near.slice(0, 4).map(({ a, d }) => `<tr><td>${a.emoji} ${esc(a.nom)}</td><td>${d < 1 ? `${Math.round(d * 1000 / 50) * 50} m` : `${d.toFixed(1).replace('.', ',')} km`}</td></tr>`).join('')}</table></div>` : ''}
+      <div class="box" id="h-transit"><span class="box-h">🚇 Transports à pied</span><span class="muted">Recherche des stations proches…</span></div>
       <button type="button" class="btn ${on ? 'btn-line' : 'btn-ink'}" id="h-choose">${on ? '✓ Hôtel choisi · retirer' : 'Choisir cet hôtel pour mon séjour'}</button>
       <p class="a-legal">Prix trouvé à l'instant pour vos dates ; il peut changer au moment de réserver.</p>
     </div>`);
+  loadTransit(h);
   $('h-choose').onclick = () => {
     if (on) hotel = { gamme: hotel.gamme, prix: 0 };
     else hotel = { gamme: hotel.gamme, prix: h.total, nom: h.name, id: h.id, nuits: n };
     saveHotel();
-    updateBar();
+    updateFoot();
     showHotels();
     openHotel(h.id);
   };
@@ -771,4 +717,259 @@ function paintPins() {
     el.classList.toggle('is-on', selected.has(id));
     el.classList.toggle('is-off', selected.size > 0 && !selected.has(id));
   }
+}
+
+// ---------------------------------------------------------------------------
+// Circuit : étapes, flèche de retour, bas d'écran (total + bouton pour avancer)
+// ---------------------------------------------------------------------------
+const STEP_TEXT = {
+  1: { next: 'Garder ce vol et continuer' },
+  2: { next: "Continuer vers l'hôtel", skip: "Passer, pas d'activités" },
+  3: { next: 'Voir mon voyage', skip: "Passer, j'ai déjà un logement" },
+  4: {},
+};
+
+function setupSteps() {
+  $('c-steps').onclick = (e) => {
+    const b = e.target.closest('[data-go]');
+    if (b) go(Number(b.dataset.go));
+  };
+  $('c-back').onclick = () => (step > 1 ? go(step - 1) : (location.href = 'index.html'));
+  $('c-next').onclick = () => go(step + 1);
+  $('c-skip').onclick = () => {
+    if (step === 2) { selected.clear(); saveSelection(); renderList(); paintPins(); renderHotel(); }
+    if (step === 3) { hotel = { gamme: hotel.gamme, prix: 0, aucun: true }; saveHotel(); }
+    go(step + 1);
+  };
+  window.addEventListener('hashchange', () => show(stepFromHash()));
+  show(stepFromHash());
+}
+
+function stepFromHash() {
+  const n = Number(location.hash.replace('#', ''));
+  return n >= 1 && n <= 4 ? n : 1;
+}
+
+function go(n) {
+  n = Math.min(4, Math.max(1, n));
+  if (n === step) return show(n);
+  location.hash = String(n); // déclenche show() et garde l'historique (bouton retour du téléphone)
+}
+
+function show(n) {
+  step = n;
+  document.querySelectorAll('.c-step').forEach((sec) => { sec.hidden = Number(sec.dataset.step) !== n; });
+  document.querySelectorAll('#c-steps li').forEach((li, i) => {
+    li.classList.toggle('is-on', i + 1 === n);
+    li.classList.toggle('is-done', i + 1 < n);
+    li.querySelector('i').textContent = i + 1 < n ? '✓' : String(i + 1);
+  });
+  document.body.dataset.step = String(n);
+  $('c-back').setAttribute('aria-label', n > 1 ? "Retour à l'étape précédente" : 'Retour aux vols');
+  if (n === 3) { if (!map) setupMap(); else { map.resize(); drawZone(); } }
+  if (n === 4) renderRecap();
+  updateFoot();
+  window.scrollTo({ top: 0 });
+}
+
+function totals() {
+  const pax = paxGet();
+  const flight = trip ? trip.price * paxCount(pax) : 0;
+  const acts = guide.activites.filter((a) => selected.has(a.id)).reduce((s, a) => s + groupCost(a, pax).total, 0);
+  const hotelPrice = hotel.prix > 0 ? hotel.prix : 0;
+  return { pax, flight, acts, hotelPrice, total: flight + acts + hotelPrice };
+}
+
+function updateFoot() {
+  if (!guide) return;
+  const t = totals();
+  const parts = [trip ? 'Vol' : null, selected.size ? `${selected.size} activité${selected.size > 1 ? 's' : ''}` : null, t.hotelPrice ? 'hôtel' : null].filter(Boolean);
+  $('c-total-label').textContent = step === 4 ? 'Total de votre voyage' : parts.length ? parts.join(' + ') : 'Mon voyage';
+  $('c-total').textContent = euro(step === 4 ? recapTotal() : t.total);
+  const txt = STEP_TEXT[step];
+  $('c-next').hidden = !txt.next;
+  if (txt.next) $('c-next').textContent = `${txt.next} →`;
+  const showSkip = txt.skip && ((step === 2 && !selected.size) || (step === 3 && !hotel.prix));
+  $('c-skip').hidden = !showSkip;
+  if (showSkip) $('c-skip').textContent = txt.skip;
+}
+
+function refresh() {
+  renderFlight();
+  renderHotel();
+  updateFoot();
+  if (step === 4) renderRecap();
+}
+
+function saveSelection() {
+  try { localStorage.setItem(SEL_KEY, JSON.stringify([...selected])); } catch {}
+}
+
+// ---------------------------------------------------------------------------
+// Étape 1 : le vol choisi
+// ---------------------------------------------------------------------------
+let flightsCache = [];
+function renderFlight(flights) {
+  if (flights) flightsCache = flights;
+  const pax = paxGet();
+  $('s1-pax').innerHTML = `👥 ${esc(paxLabel(pax))}${pax.children.length ? ` (${pax.children.map((a) => (a === 0 ? '< 1 an' : `${a} an${a > 1 ? 's' : ''}`)).join(', ')})` : ''} <span>Modifier</span>`;
+  if (!trip) {
+    $('t-s1').textContent = `Votre vol pour ${cityName}`;
+    const best = flightsCache.length ? flightsCache.reduce((a, b) => (b.price < a.price ? b : a)) : null;
+    $('s1-flight').innerHTML = `
+      <div class="f-card f-empty">
+        <p><b>Vous n'avez pas encore choisi de vol.</b>${best ? ` Vols directs depuis ${esc(origin.city)} dès ${best.price} € l'aller.` : ''}</p>
+        <a class="btn btn-main" href="index.html">Choisir mon vol</a>
+      </div>`;
+    return;
+  }
+  $('t-s1').textContent = `Votre vol pour ${cityName}`;
+  const dur = trip.dur ? `${Math.floor(trip.dur / 60)} h ${String(trip.dur % 60).padStart(2, '0')}` : '';
+  const day = (d) => fmtDay.format(new Date(`${d}T12:00`));
+  const n = paxCount(pax);
+  $('s1-flight').innerHTML = `
+    <div class="f-card">
+      <p class="f-route">${esc(origin.city)} → ${esc(cityName)} · vol direct${dur ? ` · ${dur}` : ''}</p>
+      <div class="f-leg"><span><b>Aller</b> · ${esc(day(trip.out))}</span><strong>${trip.vo ? euro(trip.vo) : ''}</strong></div>
+      ${trip.ret ? `<div class="f-leg"><span><b>Retour</b> · ${esc(day(trip.ret))}</span><strong>${trip.vr ? euro(trip.vr) : ''}</strong></div>` : ''}
+      <div class="f-leg f-sum"><span>${n} voyageur${n > 1 ? 's' : ''} × ${euro(trip.price)}</span><strong>${euro(trip.price * n)}</strong></div>
+      <p class="f-small">Prix repérés par les voyageurs ; le prix exact s'affiche au moment de réserver.</p>
+      <a class="f-change" href="index.html">Changer de vol ou de dates</a>
+    </div>`;
+}
+
+// ---------------------------------------------------------------------------
+// Étape 4 : récapitulatif, cases à cocher, réservation dans l'ordre
+// ---------------------------------------------------------------------------
+function loadBook() {
+  try { return { vol: true, hotel: true, acts: true, done: {}, ...JSON.parse(localStorage.getItem(BOOK_KEY)) }; } catch { return { vol: true, hotel: true, acts: true, done: {} }; }
+}
+function saveBook() {
+  try { localStorage.setItem(BOOK_KEY, JSON.stringify(book)); } catch {}
+}
+
+function recapTotal() {
+  const t = totals();
+  return (book.vol ? t.flight : 0) + (book.hotel ? t.hotelPrice : 0) + (book.acts ? t.acts : 0);
+}
+
+function kiwiLink(pax) {
+  const p = new URLSearchParams({ from: origin.code, to: trip.airport, departure: trip.out, lang: 'fr', currency: 'EUR', stopNumber: '0', adults: pax.adults });
+  if (trip.ret) p.set('return', trip.ret);
+  if (pax.children.length) p.set('children', pax.children.filter((a) => a >= 2).length);
+  if (pax.children.some((a) => a < 2)) p.set('infants', pax.children.filter((a) => a < 2).length);
+  const url = `https://www.kiwi.com/deep?${p}`;
+  return KIWI_AFFILIATE_TEMPLATE ? KIWI_AFFILIATE_TEMPLATE.replace('{url}', encodeURIComponent(url)) : url;
+}
+
+function hotelLink(pax) {
+  const { inD, outD } = stayDates();
+  const b = new URLSearchParams({ ss: `${hotel.nom}, ${cityName}`, checkin: inD, checkout: outD, group_adults: pax.adults, group_children: pax.children.length, no_rooms: '1', lang: 'fr', selected_currency: 'EUR' });
+  for (const age of pax.children) b.append('age', age);
+  return `https://www.booking.com/searchresults.fr.html?${b}`;
+}
+
+function renderRecap() {
+  const t = totals();
+  const pax = t.pax;
+  const acts = guide.activites.filter((a) => selected.has(a.id));
+  const n = paxCount(pax);
+  const row = (key, on, icon, title, sub, amount, can = true) => `
+    <label class="r-row${can ? '' : ' is-none'}">
+      <input type="checkbox" data-book="${key}" ${on && can ? 'checked' : ''} ${can ? '' : 'disabled'}>
+      <span class="r-main"><b>${icon} ${title}</b><small>${sub}</small></span>
+      <strong>${amount}</strong>
+    </label>`;
+  const lines = [
+    trip ? row('vol', book.vol, '✈', `Vols ${trip.ret ? 'aller-retour' : 'aller simple'}`, `${esc(fmtDay.format(new Date(`${trip.out}T12:00`)))}${trip.ret ? ` → ${esc(fmtDay.format(new Date(`${trip.ret}T12:00`)))}` : ''} · ${n} voyageur${n > 1 ? 's' : ''}`, euro(t.flight))
+      : row('vol', false, '✈', 'Vol', 'pas encore choisi', '—', false),
+    hotel.prix ? row('hotel', book.hotel, '🏨', esc(hotel.nom || 'Hôtel'), `${hotel.nuits || nights()} nuit${(hotel.nuits || nights()) > 1 ? 's' : ''}`, euro(t.hotelPrice))
+      : row('hotel', false, '🏨', 'Hôtel', hotel.aucun ? 'vous avez déjà un logement' : 'pas choisi', '—', false),
+    acts.length ? row('acts', book.acts, '🎟', `${acts.length} activité${acts.length > 1 ? 's' : ''}`, esc(acts.map((a) => a.nom).join(', ')), euro(t.acts))
+      : row('acts', false, '🎟', 'Activités', 'aucune choisie', '—', false),
+  ].join('');
+
+  // Réservation dans l'ordre : le vol d'abord (son prix bouge le plus vite), puis l'hôtel, puis les activités.
+  const steps = [];
+  if (trip && book.vol) steps.push({ id: 'vol', title: 'Le vol', sub: 'sur Kiwi.com, voyageurs et dates déjà remplis', href: kiwiLink(pax), sponsored: true });
+  if (hotel.prix && book.hotel) steps.push({ id: 'hotel', title: `L'hôtel · ${esc(hotel.nom || '')}`, sub: 'sur Booking.com, dates et voyageurs déjà remplis', href: hotelLink(pax) });
+  if (acts.length && book.acts) {
+    for (const a of acts.filter((x) => x.reservation !== 'libre')) {
+      const partner = PARTNER_LINKS[a.id];
+      const href = partner || a.site_officiel;
+      if (href) steps.push({ id: `a-${a.id}`, title: esc(a.nom), sub: partner ? 'chez notre partenaire' : 'sur le site officiel', href, sponsored: Boolean(partner) });
+    }
+  }
+  const free = acts.filter((a) => a.reservation === 'libre');
+  $('s4').innerHTML = `
+    <p class="c-sub">Décochez ce que vous ne voulez pas réserver maintenant.</p>
+    <div class="r-list">${lines}</div>
+    ${steps.length ? `
+      <h3 class="r-h3">Réservez dans cet ordre</h3>
+      <p class="c-sub">Chaque bouton ouvre le site du partenaire dans un nouvel onglet. Revenez ici ensuite et cochez « C'est réservé ».</p>
+      <ol class="r-steps">${steps.map((x, i) => {
+        const done = book.done[x.id];
+        return `
+        <li class="r-step${done ? ' is-done' : ''}">
+          <span class="r-n">${done ? '✓' : i + 1}</span>
+          <span class="r-main"><b>${x.title}</b><small>${x.sub}</small></span>
+          <span class="r-actions">
+            <a class="r-go" href="${esc(x.href)}" target="_blank" rel="${x.sponsored ? 'sponsored ' : ''}noopener">Réserver →</a>
+            <button type="button" class="r-done" data-done="${esc(x.id)}">${done ? 'Annuler' : "C'est réservé"}</button>
+          </span>
+        </li>`;
+      }).join('')}</ol>` : '<p class="c-note">Cochez au moins un élément à réserver.</p>'}
+    ${free.length && book.acts ? `<p class="c-note">Sans réservation : ${esc(free.map((a) => a.nom).join(', '))} (accès libre).</p>` : ''}
+    <p class="a-legal">Chaque partenaire vous fait payer sa part directement. Prix indicatifs : le prix exact s'affiche chez le partenaire.</p>`;
+  $('s4').onchange = (e) => {
+    const k = e.target.dataset.book;
+    if (!k) return;
+    book[k] = e.target.checked;
+    saveBook();
+    renderRecap();
+    updateFoot();
+  };
+  $('s4').onclick = (e) => {
+    const d = e.target.closest('[data-done]');
+    if (!d) return;
+    book.done[d.dataset.done] = !book.done[d.dataset.done];
+    saveBook();
+    renderRecap();
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Transports près d'un hôtel (api/transports.js, données OpenStreetMap)
+// ---------------------------------------------------------------------------
+async function loadTransit(h) {
+  const box = () => $('h-transit');
+  const key = `t:${h.lat.toFixed(3)},${h.lng.toFixed(3)}`;
+  let data = null;
+  try { data = JSON.parse(sessionStorage.getItem(key) || 'null'); } catch {}
+  if (!data) {
+    try {
+      const r = await fetch(`api/transports?c=${code}&lat=${h.lat.toFixed(4)}&lng=${h.lng.toFixed(4)}`);
+      data = await r.json();
+      if (!r.ok || data.status !== 'ok') throw new Error();
+      try { sessionStorage.setItem(key, JSON.stringify(data)); } catch {}
+    } catch {
+      if (box()) box().innerHTML = '<span class="box-h">🚇 Transports à pied</span><span class="muted">Information indisponible pour le moment.</span>';
+      return;
+    }
+  }
+  if (!box() || !$('v-sheet').open) return;
+  const rows = [];
+  const line = (icon, label, x) => {
+    if (!x) return;
+    const lines = x.lines?.length ? ` <span class="t-lines">${x.lines.map((l) => `<i>${esc(l)}</i>`).join('')}</span>` : '';
+    rows.push(`<tr><td>${icon} ${label}${x.name ? ` <b>${esc(x.name)}</b>` : ''}${lines}</td><td>${x.min} min</td></tr>`);
+  };
+  line('Ⓜ️', 'Métro', data.metro);
+  line('🚆', 'Train', data.train);
+  line('🚊', 'Tram', data.tram);
+  if (data.bus) rows.push(`<tr><td>🚌 Bus · ${data.busStops > 1 ? `${data.busStops} arrêts à moins de 5 min` : 'arrêt le plus proche'}</td><td>${data.bus.min} min</td></tr>`);
+  const verdict = data.metro && data.metro.min <= 5 ? '👍 Très bien desservi' : (data.metro && data.metro.min <= 10) || (data.bus && data.bus.min <= 3) ? 'Bien desservi' : 'Peu de transports tout près';
+  box().innerHTML = rows.length
+    ? `<span class="box-h">🚇 Transports à pied · ${verdict}</span><table>${rows.join('')}</table>`
+    : '<span class="box-h">🚇 Transports à pied</span><span class="muted">Pas de station trouvée à moins de 15 minutes à pied.</span>';
 }
