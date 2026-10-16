@@ -53,6 +53,12 @@
       0
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/sagrada-familia.jpg",
+    "auteur": "Canaan",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg"
    }
   },
   {
@@ -100,6 +106,12 @@
       13.5
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/parc-guell.jpg",
+    "auteur": "Jean-Christophe BENOIST",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelone_-_Parc_Güell_-_Entrée.jpg"
    }
   },
   {
@@ -114,12 +126,20 @@
    "prix": 29,
    "prix_detail": [
     [
-     "Billet « Blue » en ligne, dès",
+     "Visite générale (audioguide), dès",
      29
     ],
     [
-     "Billet « Silver » (avec le toit), dès",
-     34
+     "Visite + exposition, dès",
+     37
+    ],
+    [
+     "Visite de nuit, dès",
+     25
+    ],
+    [
+     "Moins de 13 ans",
+     "gratuit"
     ]
    ],
    "reservation": "conseille",
@@ -129,11 +149,22 @@
    "enfants": true,
    "site_officiel": "https://www.casabatllo.es",
    "partenaire": "tiqets",
-   "a_verifier": true,
-   "note": "Sources en désaccord : le toit est-il inclus dans le billet de base ?",
+   "a_verifier": false,
+   "note": "Prix dynamiques : moins cher en réservant tôt. Le toit n'est pas compris dans toutes les formules : vérifiez au moment de réserver.",
    "tarifs": {
     "adulte": 29,
-    "enfants": []
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/casa-batllo.jpg",
+    "auteur": "ChristianSchd",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg"
    }
   },
   {
@@ -145,19 +176,23 @@
    "lat": 41.3954,
    "lng": 2.1619,
    "texte": "Sa terrasse aux cheminées-guerriers est l'un des toits les plus étonnants d'Europe.",
-   "prix": 25,
+   "prix": 29,
    "prix_detail": [
     [
-     "Visite de jour en ligne, dès",
-     25
-    ],
-    [
-     "Sur place",
+     "Visite de jour (Essential), dès",
      29
     ],
     [
-     "Visite de nuit (toit + cava)",
-     39
+     "Visite de nuit, dès",
+     39.5
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ],
+    [
+     "12-17 ans et 65 ans et +",
+     "tarif réduit"
     ]
    ],
    "reservation": "conseille",
@@ -167,16 +202,22 @@
    "enfants": true,
    "site_officiel": "https://www.lapedrera.com",
    "partenaire": "tiqets",
-   "a_verifier": true,
-   "note": "Billet non remboursable sauf option à 1,90 €.",
+   "a_verifier": false,
+   "note": "Billet non remboursable sauf option à 1,90 €. Supplément si vous achetez sur place.",
    "tarifs": {
-    "adulte": 25,
+    "adulte": 29,
     "enfants": [
      [
-      6,
+      11,
       0
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/la-pedrera.jpg",
+    "auteur": "Thomas Ledl",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_Milà,_general_view.jpg"
    }
   },
   {
@@ -188,14 +229,18 @@
    "lat": 41.4035,
    "lng": 2.1508,
    "texte": "La toute première maison de Gaudí, colorée comme un palais oriental, et bien moins de monde qu'ailleurs.",
-   "prix": 20,
+   "prix": 18,
    "prix_detail": [
     [
-     "Adulte",
-     20
+     "Adulte (audioguide compris)",
+     18
     ],
     [
-     "Moins de 10 ans",
+     "Étudiants, 65 ans et +",
+     16
+    ],
+    [
+     "Moins de 11 ans",
      "gratuit"
     ]
    ],
@@ -206,15 +251,22 @@
    "enfants": true,
    "site_officiel": "https://casavicens.org",
    "partenaire": "tiqets",
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
-    "adulte": 20,
+    "adulte": 18,
     "enfants": [
      [
-      9,
+      10,
       0
      ]
     ]
+   },
+   "note": "Ni échange ni remboursement des billets.",
+   "photo": {
+    "src": "img/activites/BCN/casa-vicens.jpg",
+    "auteur": "Canaan",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gaudí_-_Casa_Vicens.JPG"
    }
   },
   {
@@ -229,16 +281,24 @@
    "prix": 17,
    "prix_detail": [
     [
-     "Adulte",
+     "Visite libre, avant 14 h",
+     18
+    ],
+    [
+     "Visite libre, après 14 h",
      17
     ],
     [
-     "12-29 ans et 65 ans et +",
-     11
+     "12-24 ans et 65 ans et +",
+     "11,90 à 12,60"
     ],
     [
      "Moins de 12 ans",
      "gratuit"
+    ],
+    [
+     "Visite guidée (adulte)",
+     21
     ]
    ],
    "reservation": "sur_place",
@@ -248,9 +308,9 @@
    "enfants": true,
    "site_officiel": "https://santpaubarcelona.org",
    "partenaire": "tiqets",
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
-    "adulte": 17,
+    "adulte": 18,
     "enfants": [
      [
       11,
@@ -258,9 +318,15 @@
      ],
      [
       17,
-      11
+      12.6
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/sant-pau.jpg",
+    "auteur": "Balou46",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ES-BCN-hospit-santa-creu-sant-pau.jpg"
    }
   },
   {
@@ -272,28 +338,47 @@
    "lat": 41.3876,
    "lng": 2.1753,
    "texte": "Une salle de concert couverte de fleurs en céramique, avec un plafond de verre qui tombe comme une goutte de soleil.",
-   "prix": 18,
+   "prix": 20,
    "prix_detail": [
     [
-     "Visite avec audioguide",
-     18
+     "Visite libre (avec livret)",
+     20
     ],
     [
-     "Visite guidée (50 min)",
-     "20 à 24"
+     "Visite guidée",
+     24
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ],
+    [
+     "Achat sur place",
+     "+ 2 € par billet"
     ]
    ],
    "reservation": "conseille",
    "reservation_delai": "Quelques jours avant (visites à heure fixe)",
-   "duree": "50 min",
+   "duree": "1 h",
    "moment": "Le matin, ou assister à un concert le soir",
    "enfants": true,
    "site_officiel": "https://www.palaumusica.cat",
    "partenaire": "tiqets",
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
-    "adulte": 18,
-    "enfants": []
+    "adulte": 20,
+    "enfants": [
+     [
+      9,
+      0
+     ]
+    ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/palau-musica.jpg",
+    "auteur": "Tudoi61",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palau_de_la_Música_Catalana-Palace_of_Catalan_Music_(Image_2).jpg"
    }
   },
   {
@@ -340,6 +425,12 @@
       0
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/musee-picasso.jpg",
+    "auteur": "uayebt",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museu_Picasso_Barcelona.jpg"
    }
   },
   {
@@ -350,29 +441,35 @@
    "quartier": "Quartier gothique",
    "lat": 41.384,
    "lng": 2.1762,
-   "texte": "Le cœur gothique de la ville, son cloître aux 13 oies, et la montée sur le toit pour voir les flèches de près.",
-   "prix": 11,
+   "texte": "Le cœur gothique de la ville : le cloître et ses 13 oies, le chœur, et les terrasses en ascenseur pour voir les flèches de près.",
+   "prix": 16,
    "prix_detail": [
     [
-     "Visite touristique",
-     11
+     "Visite culturelle",
+     16
     ],
     [
-     "Toit (en plus)",
-     3
+     "Étudiants (moins de 25 ans), familles nombreuses",
+     14
     ]
    ],
    "reservation": "sur_place",
    "reservation_delai": "Sur place",
    "duree": "45 min",
-   "moment": "Hors messe (le dimanche matin est réservé au culte)",
+   "moment": "En semaine de 9 h 30 à 18 h 30 ; le dimanche seulement l'après-midi",
    "enfants": true,
    "site_officiel": "https://catedralbcn.org",
    "partenaire": null,
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
-    "adulte": 11,
+    "adulte": 16,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/cathedrale.jpg",
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathédrale_Stes_Croix_Eulalie_façade_principale_Barcelone_6.jpg"
    }
   },
   {
@@ -387,30 +484,31 @@
    "prix": 8,
    "prix_detail": [
     [
-     "Visite avec tours et toits",
+     "Visite culturelle (tours, terrasses, crypte)",
      8
     ],
     [
-     "Moins de 10 ans",
+     "Entrée dans l'église hors heures de visite",
      "gratuit"
     ]
    ],
    "reservation": "sur_place",
    "reservation_delai": "Sur place",
    "duree": "45 min",
-   "moment": "Fin d'après-midi",
+   "moment": "Visite de 10 h à 18 h (le dimanche à partir de 13 h) ; église en accès libre après 18 h",
    "enfants": true,
    "site_officiel": "https://www.santamariadelmarbarcelona.org",
    "partenaire": null,
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
     "adulte": 8,
-    "enfants": [
-     [
-      9,
-      0
-     ]
-    ]
+    "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/santa-maria-del-mar.jpg",
+    "auteur": "Kent Wang",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Mar,_Barcelona_05.jpg"
    }
   },
   {
@@ -425,29 +523,40 @@
    "prix": 12,
    "prix_detail": [
     [
-     "Adulte",
+     "Adulte (terrasse panoramique comprise)",
      12
     ],
     [
-     "Samedi après 15 h",
+     "Moins de 16 ans",
      "gratuit"
     ],
     [
-     "1er dimanche du mois",
+     "Samedi après 15 h et 1er dimanche du mois",
      "gratuit"
     ]
    ],
    "reservation": "sur_place",
-   "reservation_delai": "Sur place ; réserver en ligne les jours gratuits",
+   "reservation_delai": "Sur place ; réserver en ligne (gratuit) pour les créneaux gratuits",
    "duree": "2 h",
    "moment": "Le samedi après-midi (gratuit), puis la fontaine magique",
    "enfants": true,
    "site_officiel": "https://www.museunacional.cat",
    "partenaire": null,
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
     "adulte": 12,
-    "enfants": []
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/mnac.jpg",
+    "auteur": "Juanedc",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palau_Nacional,_Barcelona.jpg"
    }
   },
   {
@@ -490,6 +599,12 @@
       0
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/fondation-miro.jpg",
+    "auteur": "Kippelboy",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fundació_Joan_Miro_outdoors_view.JPG"
    }
   },
   {
@@ -504,12 +619,24 @@
    "prix": 28,
    "prix_detail": [
     [
-     "Visite libre (Barça Immersive Tour), dès",
+     "Musée (Barça Immersive Tour), dès",
      28
     ],
     [
-     "Visite guidée, dès",
-     64
+     "Avec le défi tirs au but, adulte",
+     37
+    ],
+    [
+     "Avec le défi tirs au but, 4-10 ans",
+     30
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Visite du stade (Spotify Camp Nou Experience), dès",
+     69
     ]
    ],
    "reservation": "conseille",
@@ -519,11 +646,22 @@
    "enfants": true,
    "site_officiel": "https://www.fcbarcelona.com",
    "partenaire": "tiqets",
-   "a_verifier": true,
+   "a_verifier": false,
    "note": "Stade en travaux : ce qu'on peut visiter change selon l'avancement.",
    "tarifs": {
     "adulte": 28,
-    "enfants": []
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/camp-nou.jpg",
+    "auteur": "JaflaumS05",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Photograph_of_construction_work_at_Camp_Nou_in_December_2025.jpg"
    }
   },
   {
@@ -570,6 +708,12 @@
       11.7
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/teleferique-montjuic.jpg",
+    "auteur": "Mariordo (Mario Roberto Durán Ortiz)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Montjuïc_Cable_Car_BCN_04_2016_7109.jpg"
    }
   },
   {
@@ -588,8 +732,20 @@
      12
     ],
     [
-     "Dimanche après 15 h",
+     "Tarif réduit",
+     8
+    ],
+    [
+     "Moins de 16 ans",
      "gratuit"
+    ],
+    [
+     "Dimanche après 15 h et 1er dimanche du mois",
+     "gratuit"
+    ],
+    [
+     "Avec visite guidée",
+     16
     ]
    ],
    "reservation": "sur_place",
@@ -599,15 +755,21 @@
    "enfants": true,
    "site_officiel": "https://ajuntament.barcelona.cat/castelldemontjuic",
    "partenaire": null,
-   "a_verifier": true,
+   "a_verifier": false,
    "tarifs": {
     "adulte": 12,
     "enfants": [
      [
-      7,
+      15,
       0
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/chateau-montjuic.jpg",
+    "auteur": "Puigalder",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Castell_de_Montjuic_-_Fossat_entrada_-_Barcelona_(Catalonia).jpg"
    }
   },
   {
@@ -629,15 +791,21 @@
    "reservation": "libre",
    "reservation_delai": null,
    "duree": "30 min",
-   "moment": "Le soir, du jeudi au samedi (horaires selon la saison)",
+   "moment": "Le soir, du jeudi au samedi (21 h à 22 h en octobre)",
    "enfants": true,
    "site_officiel": "https://www.barcelona.cat/fontmagica",
    "partenaire": null,
-   "a_verifier": true,
-   "note": "Vérifier les horaires du jour : arrêt possible en cas de sécheresse.",
+   "a_verifier": false,
+   "note": "Aucune séance annoncée pour novembre 2026 pour l'instant : vérifiez sur barcelona.cat/fontmagica avant d'y aller.",
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/fontaine-magique.jpg",
+    "auteur": "PierreSelim",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_font_magica_de_montjuic.JPG"
    }
   },
   {
@@ -685,6 +853,12 @@
      ]
     ],
     "estimation": true
+   },
+   "photo": {
+    "src": "img/activites/BCN/tibidabo.jpg",
+    "auteur": "Enric",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:032_Parc_d'atraccions_Tibidabo_(Barcelona),_des_de_la_terrassa_del_Sagrat_Cor.jpg"
    }
   },
   {
@@ -714,6 +888,12 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/bunkers-carmel.jpg",
+    "auteur": "Toniher",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_Barcelona_des_del_Turó_de_la_Rovira.jpg"
    }
   },
   {
@@ -757,6 +937,12 @@
       24
      ]
     ]
+   },
+   "photo": {
+    "src": "img/activites/BCN/flamenco.jpg",
+    "auteur": "Delegación de Cultura y Patrimonio Histórico Ayuntamiento de Córdoba",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:0712-Paula_Comitre.jpg"
    }
   },
   {
@@ -786,6 +972,13 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/quartier-gothique.jpg",
+    "auteur": "Enfo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:01_Carrer_del_Bisbe,_arc_neogòtic_11set2012.jpg",
+    "pos": "center 30%"
    }
   },
   {
@@ -817,6 +1010,12 @@
     "adulte": 27,
     "enfants": [],
     "estimation": true
+   },
+   "photo": {
+    "src": "img/activites/BCN/born-tapas.jpg",
+    "auteur": "Rafax",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tapa_española.jpg"
    }
   },
   {
@@ -846,6 +1045,12 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/gracia.jpg",
+    "auteur": "Alain Rouiller",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelona_Gràcia_093_(8277950946).jpg"
    }
   },
   {
@@ -875,6 +1080,12 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/boqueria.jpg",
+    "auteur": "Didier Descouens",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Mercat_de_Sant_Josep_(la_Boqueria)_-_Entrance.jpg"
    }
   },
   {
@@ -904,6 +1115,12 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/ciutadella.jpg",
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciutadella_Park_fountain.jpg"
    }
   },
   {
@@ -935,6 +1152,12 @@
     "adulte": 15,
     "enfants": [],
     "estimation": true
+   },
+   "photo": {
+    "src": "img/activites/BCN/carrer-blai.jpg",
+    "auteur": "Gordito1869",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pintxos_Donostia_2014_4.JPG"
    }
   },
   {
@@ -964,6 +1187,12 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/barceloneta.jpg",
+    "auteur": "Kuba Bożanowski from Warsaw, Poland",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelona_(16877599244).jpg"
    }
   },
   {
@@ -993,6 +1222,12 @@
    "tarifs": {
     "adulte": 0,
     "enfants": []
+   },
+   "photo": {
+    "src": "img/activites/BCN/bogatell.jpg",
+    "auteur": "Freepenguin",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelona_4320.JPG"
    }
   },
   {
@@ -1004,15 +1239,15 @@
    "lat": 41.5933,
    "lng": 1.8376,
    "texte": "Un monastère accroché à une montagne aux formes incroyables, avec randonnées et vue vertigineuse. La plus belle sortie d'une journée.",
-   "prix": 22,
+   "prix": 26,
    "prix_detail": [
     [
-     "Train + crémaillère (Trans Montserrat), environ",
-     "22 à 32"
+     "Trans Montserrat (métro, train, crémaillère, funiculaire, espace audiovisuel), environ",
+     "26 à 32"
     ],
     [
-     "Visite du monastère (en plus)",
-     18
+     "Enfants",
+     "même prix (pas de réduction)"
     ]
    ],
    "reservation": "sur_place",
@@ -1022,12 +1257,18 @@
    "enfants": true,
    "site_officiel": "https://www.montserratvisita.com",
    "partenaire": "tiqets",
-   "a_verifier": true,
-   "note": "Prix du billet combiné à confirmer (sources en désaccord).",
+   "a_verifier": false,
+   "note": "Billet valable n'importe quel jour jusqu'au 31 décembre. En vente en ligne ou à la gare Plaça Espanya.",
    "tarifs": {
-    "adulte": 22,
+    "adulte": 32,
     "enfants": [],
     "estimation": true
+   },
+   "photo": {
+    "src": "img/activites/BCN/montserrat.jpg",
+    "auteur": "Richard Schneider",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monestir_de_Montserrat_vista_Roca_de_St._Jaume.jpg"
    }
   }
  ]

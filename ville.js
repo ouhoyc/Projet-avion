@@ -170,6 +170,13 @@ function renderChips() {
   };
 }
 
+// Vignette photo de l'activité (l'émoji reste en secours).
+function thumb(a) {
+  if (!a.photo) return `<span class="v-emoji" aria-hidden="true">${a.emoji}</span>`;
+  const mini = a.photo.src.replace(/\/([^/]+)$/, '/mini/$1');
+  return `<span class="v-emoji v-thumb" aria-hidden="true"><img src="${esc(mini)}" alt="" loading="lazy" decoding="async"></span>`;
+}
+
 function priceLabel(a) {
   if (a.prix === 0) return 'Gratuit';
   if (a.prix_niveau) return a.prix_niveau;
@@ -183,7 +190,7 @@ function renderList() {
     return `
     <li class="v-row${on ? ' is-on' : ''}">
       <button type="button" class="v-act" data-act="${esc(a.id)}">
-        <span class="v-emoji" aria-hidden="true">${a.emoji}</span>
+        ${thumb(a)}
         <span class="v-act-main">
           <span class="v-act-name">${esc(a.nom)}</span>
           <span class="v-act-meta">${esc(TYPES[a.type] || '')} · ${esc(a.duree)}</span>
@@ -216,7 +223,9 @@ function openSheet(id) {
     ? 'Accès libre, rien à réserver.'
     : `<b>${BOOKING[a.reservation]}</b>${a.reservation_delai ? ` : ${esc(a.reservation_delai)}` : ''}`;
   showDialog($('v-sheet'), `
-    <div class="a-top" aria-hidden="true">${a.emoji}<button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>
+    <div class="a-top${a.photo ? ' has-photo' : ''}">${a.photo
+      ? `<img src="${esc(a.photo.src)}" alt="${esc(a.nom)}"${a.photo.pos ? ` style="object-position:${esc(a.photo.pos)}"` : ''}>`
+      : `<span aria-hidden="true">${a.emoji}</span>`}<button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>
     <div class="a-body">
       <p class="a-kicker">${esc(TYPES[a.type] || '')} · ${esc(a.quartier)}</p>
       <h2 id="a-title">${esc(a.nom)}</h2>
@@ -273,7 +282,16 @@ function openCredits() {
     <div class="a-body q-body">
       <button type="button" class="a-close q-close" data-close aria-label="Fermer">×</button>
       <h2 id="c-title">Crédits et mentions</h2>
-      ${p ? `<p class="c-item"><b>Photo</b>${esc(p.alt || '')} : ${esc(p.author)}, licence ${esc(p.license)}${p.page ? ` · <a href="${esc(p.page)}" target="_blank" rel="noopener">voir sur Wikimedia Commons</a>` : ''}</p>` : ''}
+      <div class="c-item"><b>Photos</b>
+        Photos libres de droits venant de Wikimedia Commons, sous licence Creative Commons ou domaine public.
+        ${p ? `<p class="c-line">Photo de ${esc(cityName)} : ${esc(p.author)}, ${esc(p.license)}${p.page ? ` · <a href="${esc(p.page)}" target="_blank" rel="noopener">source</a>` : ''}</p>` : ''}
+        <details class="c-more">
+          <summary>Photos des activités (${guide.activites.filter((a) => a.photo).length})</summary>
+          <ul>${guide.activites.filter((a) => a.photo).map((a) => `
+            <li><b>${esc(a.nom)}</b> : ${esc(a.photo.auteur)}, ${esc(a.photo.licence)} · <a href="${esc(a.photo.page)}" target="_blank" rel="noopener">source</a></li>`).join('')}
+          </ul>
+        </details>
+      </div>
       <p class="c-item"><b>Carte</b>© OpenStreetMap contributors, OpenMapTiles, fond OpenFreeMap.</p>
       <p class="c-item"><b>Prix des activités</b>Relevés le ${esc(new Date(guide.verifie_le).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }))} sur les sites officiels et des guides récents. Ils peuvent changer : vérifiez avant de réserver.</p>
       <p class="c-item"><b>Prix des vols</b>Prix repérés par les voyageurs (Travelpayouts), mis à jour chaque matin.</p>

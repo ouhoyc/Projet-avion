@@ -179,3 +179,20 @@ button.btn-line { cursor: pointer; }
 .c-item { font-size: 14px; margin: 10px 0; }
 .c-item b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
 .v-link { background: none; border: 0; padding: 0; text-decoration: underline; font-size: inherit; color: inherit; cursor: pointer; }
+
+/* Photos des activités */
+.v-thumb { overflow: hidden; padding: 0; }
+.v-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.a-top.has-photo { height: 210px; background: var(--ink); }
+.a-top.has-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.a-top > span { font-size: 60px; }
+@media (min-width: 700px) { .a-top.has-photo { height: 260px; } }
+
+/* Crédits : sous-section repliable */
+.c-line { margin: 6px 0 0; }
+.c-more { margin-top: 8px; border: 2px solid var(--soft); border-radius: 12px; padding: 8px 12px; }
+.c-more summary { cursor: pointer; font-weight: 700; }
+.c-more ul { margin: 8px 0 0; padding-left: 18px; font-size: 13px; }
+.c-more li { margin: 4px 0; }
+.a-top.has-photo { display: block; overflow: hidden; }
+.c-more li b { display: inline; text-transform: none; letter-spacing: 0; font-size: inherit; }

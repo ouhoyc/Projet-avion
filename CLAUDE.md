@@ -42,7 +42,6 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - `ville.html` + `ville.js` + `ville.css` : page guide d'une ville (`ville.html?c=BCN`), qui lit
   `guides/CODE.json` (activités : prix, réservation, durée, position…). Les villes qui ont un
   guide sont listées dans `GUIDES` (`search.js`) ; liens partenaires dans `PARTNER_LINKS` (`ville.js`).
-  `guides/BCN-relecture.html` : page de relecture des activités pour le propriétaire.
   Chaque activité a des `tarifs` (adulte + règles enfants [âge max, prix]) pour le devis.
 - `voyageurs.js` + `voyageurs.css` : choix « Qui part ? » (adultes, âges des enfants), gardé
   dans le navigateur, utilisé par l'accueil (champ Voyageurs) et le devis des pages guides.
@@ -70,6 +69,13 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
     `Special:FilePath/<fichier>?width=800`, puis la regarder recadrée en 16:7 ;
   - écrire un texte **vendeur**, qui vend l'atout de la ville plutôt que la liste des choses à faire ;
   - générer la vignette 160 px dans `img/villes/mini/`.
+- **Photos des activités** (`img/activites/CODE/ID.jpg` 800 px + `mini/ID.jpg` 160 px carré ;
+  auteur, licence, page dans `photo` de chaque activité, crédits dans « Crédits et mentions ») :
+  l'API de recherche Commons répond souvent « 429 » d'ici ; passer par la photo principale de
+  l'article Wikipédia (`/api/rest_v1/page/summary/…`, enlever `?utm…` de l'adresse) ou par la page
+  HTML d'une catégorie Commons, puis lire la licence sur la page `File:` (classe
+  `licensetpl&#95;short`, prendre une licence CC si le fichier est aussi en GFDL). User-Agent
+  neutre, sans e-mail. Toujours regarder une planche recadrée avant de choisir.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Prochaines étapes prévues
