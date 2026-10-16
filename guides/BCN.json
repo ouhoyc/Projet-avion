@@ -1270,6 +1270,83 @@
     "licence": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Monestir_de_Montserrat_vista_Roca_de_St._Jaume.jpg"
    }
+  },
+  {
+   "id": "chok",
+   "nom": "Chök, beignets au chocolat",
+   "emoji": "🍩",
+   "type": "restos",
+   "quartier": "Raval",
+   "lat": 41.38269,
+   "lng": 2.17138,
+   "texte": "La pâtisserie qui affole Instagram : des beignets au chocolat en trente versions, aussi beaux que gourmands. Le goûter parfait après la Rambla.",
+   "prix": 4,
+   "prix_detail": [
+    [
+     "Un beignet (« chök »)",
+     "≈ 4"
+    ],
+    [
+     "Chocolat chaud",
+     "≈ 4"
+    ]
+   ],
+   "reservation": "sur_place",
+   "duree": "20 min",
+   "moment": "L'après-midi, pour le goûter",
+   "enfants": true,
+   "site_officiel": null,
+   "partenaire": null,
+   "a_verifier": true,
+   "badges": [
+    "tendance"
+   ],
+   "tarifs": {
+    "adulte": 4,
+    "enfants": [],
+    "estimation": true
+   }
+  },
+  {
+   "id": "mirablau",
+   "nom": "Mirablau, le bar avec vue",
+   "emoji": "🍸",
+   "type": "sortir",
+   "quartier": "Tibidabo",
+   "lat": 41.41604,
+   "lng": 2.13188,
+   "texte": "Un bar perché au pied du Tibidabo, avec une baie vitrée sur toute la ville. Au coucher du soleil, Barcelone s'allume sous vos yeux.",
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Un cocktail",
+     "≈ 12 à 15"
+    ],
+    [
+     "Une boisson sans alcool",
+     "≈ 5"
+    ]
+   ],
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil",
+   "enfants": true,
+   "site_officiel": null,
+   "partenaire": null,
+   "a_verifier": true,
+   "badges": [
+    "tendance"
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      17,
+      5
+     ]
+    ],
+    "estimation": true
+   }
   }
  ],
  "quartiers": [
@@ -1309,5 +1386,357 @@
    "texte": "Les pieds dans l'eau : plage, promenade et restaurants de fruits de mer."
   }
  ],
- "hotel_petit_prix_max": 90
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "panatieri",
+   "nom": "Sartoria Panatieri",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizzeria",
+   "quartier": "Eixample",
+   "adresse": "Carrer de Provença, 330, Eixample, 08037 Barcelona",
+   "lat": 41.39717,
+   "lng": 2.16492,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des pizzas napolitaines à la pâte parfaite, souvent citées parmi les meilleures d'Europe. La file d'attente fait partie du rituel.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, ou venez à l'ouverture"
+  },
+  {
+   "id": "can-paixano",
+   "nom": "Can Paixano",
+   "emoji": "🥂",
+   "gamme": "petit",
+   "genre": "Bar à cava",
+   "quartier": "Port",
+   "adresse": "Carrer de la Reina Cristina, 7, Ciutat Vella, 08003 Barcelona",
+   "lat": 41.38181,
+   "lng": 2.18337,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Un comptoir bondé où l'on boit le cava rosé maison avec de petits sandwichs chauds, debout et coude à coude. Bruyant, joyeux, inoubliable.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture"
+  },
+  {
+   "id": "brunch-cake",
+   "nom": "Brunch & Cake",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Brunch",
+   "quartier": "Gothique",
+   "adresse": "Via Laietana, 54, Ciutat Vella, 08003 Barcelona",
+   "lat": 41.38727,
+   "lng": 2.17468,
+   "prix": "20 à 25 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le brunch le plus photographié de la ville : assiettes colorées, pancakes géants, avocats en fleur. Parfait pour bien commencer la journée.",
+   "reservation": "sur_place",
+   "reservation_delai": "file d'attente le week-end : venez tôt"
+  },
+  {
+   "id": "cova-fumada",
+   "nom": "La Cova Fumada",
+   "emoji": "💣",
+   "gamme": "petit",
+   "genre": "Tapas de la mer",
+   "quartier": "Barceloneta",
+   "adresse": "Carrer del Baluard, 56, Ciutat Vella, 08003 Barcelona",
+   "lat": 41.3793,
+   "lng": 2.18922,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Pas d'enseigne, des tables en marbre et la « bomba », la boulette de pomme de terre piquante née ici. Le vrai Barceloneta des pêcheurs.",
+   "reservation": "sur_place",
+   "reservation_delai": "surtout le midi, pas de réservation"
+  },
+  {
+   "id": "can-culleretes",
+   "nom": "Can Culleretes",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine catalane",
+   "quartier": "Gothique",
+   "adresse": "Carrer d'en Quintana, 5, Ciutat Vella, 08002 Barcelona",
+   "lat": 41.38125,
+   "lng": 2.17446,
+   "prix": "25 à 30 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "texte": "Le plus vieux restaurant de Barcelone, ouvert en 1786. Cannelloni, canard aux poires, crème catalane : la cuisine des grands-mères, à prix doux.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant",
+   "recompense": "Bib Gourmand Michelin"
+  },
+  {
+   "id": "moritz",
+   "nom": "Fàbrica Moritz",
+   "emoji": "🍺",
+   "gamme": "petit",
+   "genre": "Brasserie",
+   "quartier": "Sant Antoni",
+   "adresse": "Rda. de Sant Antoni, 41, Eixample, 08011 Barcelona",
+   "lat": 41.38267,
+   "lng": 2.16335,
+   "prix": "20 à 25 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La brasserie historique de la ville, dans une usine rénovée par Jean Nouvel. Bière brassée sur place, tapas et grandes tablées.",
+   "reservation": "sur_place"
+  },
+  {
+   "id": "cerveceria-catalana",
+   "nom": "Cervecería Catalana",
+   "emoji": "🍤",
+   "gamme": "moyen",
+   "genre": "Tapas",
+   "quartier": "Eixample",
+   "adresse": "Carrer de Mallorca, 236, Eixample, 08008 Barcelona",
+   "lat": 41.39233,
+   "lng": 2.16085,
+   "prix": "30 à 40 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La référence des tapas à Barcelone : un comptoir qui déborde de montaditos et de fritures, des serveurs rapides, une salle toujours pleine.",
+   "reservation": "sur_place",
+   "reservation_delai": "souvent une file : venez tôt (avant 13 h ou 20 h)"
+  },
+  {
+   "id": "el-nacional",
+   "nom": "El Nacional",
+   "emoji": "🏛️",
+   "gamme": "moyen",
+   "genre": "Halle gourmande",
+   "quartier": "Eixample",
+   "adresse": "Pg. de Gràcia, 24 Bis, Eixample, 08007 Barcelona",
+   "lat": 41.39058,
+   "lng": 2.16839,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une immense halle Art déco cachée derrière le passeig de Gràcia, avec plusieurs restaurants et bars sous la même verrière. Le décor vaut à lui seul le détour.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, ou le jour même au comptoir"
+  },
+  {
+   "id": "la-paradeta",
+   "nom": "La Paradeta",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Fruits de mer",
+   "quartier": "Gràcia",
+   "adresse": "Carrer del Torrent de l'Olla, Gràcia, Barcelona",
+   "lat": 41.39965,
+   "lng": 2.16021,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On choisit ses crevettes, palourdes et poissons au comptoir comme au marché, on paie au poids et on attend son numéro. Ultra frais, sans chichis.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez à l'ouverture"
+  },
+  {
+   "id": "7-portes",
+   "nom": "7 Portes",
+   "emoji": "🥘",
+   "gamme": "moyen",
+   "genre": "Paella et riz",
+   "quartier": "Port",
+   "adresse": "Pg. d'Isabel II, 14, Ciutat Vella, 08003 Barcelona",
+   "lat": 41.38231,
+   "lng": 2.18339,
+   "prix": "40 à 50 €",
+   "prix_min": 40,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1836, ce grand restaurant aux banquettes de velours sert la paella depuis des générations. Le classique absolu pour un repas de fête.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant"
+  },
+  {
+   "id": "casa-leopoldo",
+   "nom": "Casa Leopoldo",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Cuisine catalane",
+   "quartier": "Raval",
+   "adresse": "Carrer de Maria Casas Mira, 24, Ciutat Vella, 08001 Barcelona",
+   "lat": 41.37931,
+   "lng": 2.16941,
+   "prix": "45 à 60 €",
+   "prix_min": 45,
+   "badges": [
+    "recompense"
+   ],
+   "texte": "Une maison historique du Raval, tout en azulejos, relancée avec talent. Produits du marché et grands plats catalans, servis avec élégance.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant",
+   "recompense": "Bib Gourmand Michelin"
+  },
+  {
+   "id": "casa-lolea",
+   "nom": "Casa Lolea",
+   "emoji": "🍹",
+   "gamme": "moyen",
+   "genre": "Sangria et petites assiettes",
+   "quartier": "Sant Pere",
+   "adresse": "Carrer de Sant Pere Més Alt, 49, Ciutat Vella, 08003 Barcelona",
+   "lat": 41.3889,
+   "lng": 2.17716,
+   "prix": "25 à 35 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Murs à pois, bouteilles rétro et la célèbre sangria maison : un bar à vermouth plein de charme, idéal pour un apéritif qui se prolonge.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille"
+  },
+  {
+   "id": "martinez",
+   "nom": "Terrassa Martínez",
+   "emoji": "🌅",
+   "gamme": "haut",
+   "genre": "Paella avec vue",
+   "quartier": "Montjuïc",
+   "adresse": "Ctra. de Miramar, 38, Sants-Montjuïc, 08038 Barcelona",
+   "lat": 41.36961,
+   "lng": 2.17254,
+   "prix": "50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une terrasse accrochée à Montjuïc avec tout le port à vos pieds. On y vient pour la paella au coucher du soleil.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant pour le coucher du soleil"
+  },
+  {
+   "id": "botafumeiro",
+   "nom": "Botafumeiro",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Fruits de mer",
+   "quartier": "Gràcia",
+   "adresse": "Carrer Gran de Gràcia, 81, Gràcia, 08012 Barcelona",
+   "lat": 41.40045,
+   "lng": 2.15469,
+   "prix": "80 à 120 €",
+   "prix_min": 80,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1975, la grande maison des fruits de mer à la galicienne : plateaux royaux, serveurs en veste blanche et ambiance de fête.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant"
+  },
+  {
+   "id": "disfrutar",
+   "nom": "Disfrutar",
+   "emoji": "✨",
+   "gamme": "haut",
+   "genre": "Cuisine créative",
+   "quartier": "Eixample",
+   "adresse": "Carrer de Villarroel, 163, Eixample, 08036 Barcelona",
+   "lat": 41.38781,
+   "lng": 2.15319,
+   "prix": "≈ 350 €",
+   "prix_min": 350,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "texte": "Élu meilleur restaurant du monde en 2024. Un menu dégustation plein de surprises et d'humour, par trois anciens chefs d'El Bulli. Le repas d'une vie.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 mois avant, dès l'ouverture des réservations",
+   "recompense": "3 étoiles Michelin · n° 1 mondial (World's 50 Best 2024)"
+  },
+  {
+   "id": "cinc-sentits",
+   "nom": "Cinc Sentits",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine catalane gastronomique",
+   "quartier": "Eixample",
+   "adresse": "Carrer d'Entença, 60, Eixample, 08015 Barcelona",
+   "lat": 41.37839,
+   "lng": 2.15242,
+   "prix": "≈ 200 €",
+   "prix_min": 200,
+   "badges": [
+    "recompense"
+   ],
+   "texte": "Les produits de Catalogne racontés en un menu dégustation raffiné, dans une salle intime. Une grande table, sans esbroufe.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant",
+   "recompense": "Étoilé Michelin"
+  },
+  {
+   "id": "enigma",
+   "nom": "Enigma",
+   "emoji": "🌀",
+   "gamme": "haut",
+   "genre": "Expérience gastronomique",
+   "quartier": "Eixample",
+   "adresse": "Carrer de Sepúlveda, 38, 40, Eixample, 08015 Barcelona",
+   "lat": 41.37665,
+   "lng": 2.15399,
+   "prix": "≈ 250 €",
+   "prix_min": 250,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "texte": "Le restaurant-labyrinthe d'Albert Adrià : on passe de salle en salle au fil d'un menu spectaculaire. Une expérience autant qu'un repas.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant",
+   "recompense": "Étoilé Michelin"
+  },
+  {
+   "id": "1881",
+   "nom": "1881 per Sagardi",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Grillades basques",
+   "quartier": "Port",
+   "adresse": "Plaça de Pau Vila, 3, Ciutat Vella, 08039 Barcelona",
+   "lat": 41.3808,
+   "lng": 2.18596,
+   "prix": "50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Sur le toit du musée d'Histoire de la Catalogne, une terrasse face aux bateaux. Côte de bœuf grillée au feu de bois et vue sur le port.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant"
+  }
+ ]
 }

@@ -332,3 +332,30 @@ body { padding-bottom: 130px; }
 /* Transports dans la fiche hôtel */
 .t-lines i { font-style: normal; display: inline-block; font-size: 11px; font-weight: 800; background: var(--ink); color: #fff; border-radius: 5px; padding: 0 5px; margin-left: 3px; }
 .v-legend[hidden] { display: none; }
+
+/* Étape 3 : restaurants par gamme, badges */
+.v-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.v-tags .tag { margin-top: 4px; }
+.badge { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 700; border-radius: 6px; padding: 1px 7px; white-space: nowrap; }
+.badge-tendance { background: #ffe6de; color: #b23a1d; }
+.badge-recompense { background: #fff1c9; color: #7a5600; }
+.badge-institution { background: #e4e8f3; color: #14213d; }
+.r-legend { display: grid; gap: 4px; margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
+.r-legend .badge { margin: 0 4px 0 0; }
+.r-gamme { font-size: 18px; font-weight: 800; margin: 22px 0 2px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.r-gamme small { font-size: 13px; font-weight: 500; color: var(--muted); }
+.r-emoji.r-petit, .r-top.r-petit { background: #e1f4ec; }
+.r-emoji.r-moyen, .r-top.r-moyen { background: #fff0d6; }
+.r-emoji.r-haut, .r-top.r-haut { background: #ffe4e0; }
+.r-price { font-size: 14px; }
+.r-badges { display: grid; gap: 6px; margin: 4px 0 12px; }
+.r-badge { margin: 0; border-radius: 10px; padding: 7px 10px; }
+.r-badge b { display: block; font-size: 14px; }
+.r-badge small { font-size: 13px; }
+.r-pin { border-color: var(--ink); background: #fff1c9; }
+.r-food { margin-top: 12px; background: #fff; border: 2px solid var(--soft); border-radius: 14px; padding: 10px 12px; }
+.r-food-h { margin: 0 0 4px; font-weight: 800; }
+.r-food-h small { font-weight: 500; color: var(--muted); font-size: 13px; }
+.r-food ul { list-style: none; margin: 0; padding: 0; }
+.r-food li { display: flex; gap: 8px; padding: 5px 0; border-top: 1px solid var(--soft); font-size: 14px; }
+.r-food li span { margin-left: auto; white-space: nowrap; color: var(--muted); }

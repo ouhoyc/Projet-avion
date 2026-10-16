@@ -24,8 +24,9 @@
       <ol class="c-steps" id="c-steps">
         <li><button type="button" data-go="1"><i>1</i>Vol</button></li>
         <li><button type="button" data-go="2"><i>2</i>Activités</button></li>
-        <li><button type="button" data-go="3"><i>3</i>Hôtel</button></li>
-        <li><button type="button" data-go="4"><i>4</i>Réserver</button></li>
+        <li><button type="button" data-go="3"><i>3</i>Restos</button></li>
+        <li><button type="button" data-go="4"><i>4</i>Hôtel</button></li>
+        <li><button type="button" data-go="5"><i>5</i>Réserver</button></li>
       </ol>
     </div>
   </header>
@@ -55,8 +56,16 @@
       <ul class="v-list" id="v-list"></ul>
     </section>
 
-    <!-- Étape 3 : l'hôtel (facultatif) -->
-    <section class="c-step" data-step="3" aria-labelledby="t-hotel" id="hotel" hidden>
+    <!-- Étape 3 : les restaurants (facultatif) -->
+    <section class="c-step" data-step="3" aria-labelledby="t-restos" hidden>
+      <h2 class="v-h2" id="t-restos">Où manger ? <span class="c-opt">Facultatif</span></h2>
+      <p class="c-sub">Notre sélection : les adresses dont tout le monde parle et les tables récompensées. Ajoutez celles qui vous tentent : elles apparaîtront sur la carte et dans votre récapitulatif.</p>
+      <div class="r-legend" id="r-legend"></div>
+      <div id="r-gammes"></div>
+    </section>
+
+    <!-- Étape 4 : l'hôtel (facultatif) -->
+    <section class="c-step" data-step="4" aria-labelledby="t-hotel" id="hotel" hidden>
       <h2 class="v-h2" id="t-hotel">Où dormir ? <span class="c-opt">Facultatif</span></h2>
       <div id="h-zone"></div>
       <div class="h-block">
@@ -82,8 +91,8 @@
       <ul class="h-list" id="h-list"></ul>
     </section>
 
-    <!-- Étape 4 : récapitulatif et réservation -->
-    <section class="c-step" data-step="4" aria-labelledby="t-s4" hidden>
+    <!-- Étape 5 : récapitulatif et réservation -->
+    <section class="c-step" data-step="5" aria-labelledby="t-s4" hidden>
       <h2 class="v-h2" id="t-s4">Mon voyage</h2>
       <div id="s4"></div>
     </section>

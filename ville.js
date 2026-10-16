@@ -1,6 +1,6 @@
 // Circuit « Mon voyage » d'une ville : ville.html?c=BCN&a=BCN&out=…&vo=…&ret=…&vr=…&dur=…
-// 4 étapes : 1 le vol, 2 les activités (facultatif), 3 l'hôtel (facultatif), 4 le
-// récapitulatif et la réservation. L'étape est dans l'adresse (#2…) : le bouton retour du
+// 5 étapes : 1 le vol, 2 les activités (facultatif), 3 les restaurants (facultatif), 4 l'hôtel
+// (facultatif), 5 le récapitulatif et la réservation. L'étape est dans l'adresse (#2…) : le bouton retour du
 // navigateur et la flèche de retour reviennent à l'étape précédente.
 // Lit la fiche de la ville (villes.json), ses activités (guides/CODE.json) et data.json.
 
@@ -27,6 +27,22 @@ const TYPES = {
   culture: 'Culture', sport: 'Sport', vue: 'Points de vue', sortir: 'Sorties',
   balade: 'Balades', restos: 'Manger', plage: 'Plages', nature: 'Excursions',
 };
+// Restaurants : 3 gammes de prix, et des badges pour dire pourquoi on les a choisis.
+const RESTO_GAMMES = [
+  { id: 'petit', nom: 'Petit prix', sous: 'moins de 30 € par personne', dot: '🟢' },
+  { id: 'moyen', nom: 'Gamme moyenne', sous: '25 à 60 € par personne', dot: '🟠' },
+  { id: 'haut', nom: 'Haut de gamme', sous: 'à partir de 50 € par personne', dot: '🔴' },
+];
+const BADGES = {
+  tendance: { icon: '🔥', nom: 'Tendance', long: 'Restaurant tendance', why: 'Très partagé sur Instagram et TikTok.' },
+  recompense: { icon: '🍽️', nom: 'Récompensé', long: 'Récompensé', why: 'Distingué par les guides gastronomiques.' },
+  institution: { icon: '🏛️', nom: 'Institution', long: 'Institution', why: 'Une adresse historique, connue de tous les Barcelonais.' },
+};
+const RESTO_BOOKING = {
+  indispensable: 'Réservation indispensable',
+  conseille: 'Réservation conseillée',
+  sur_place: 'Sans réservation',
+};
 const BOOKING = {
   indispensable: 'Réservation indispensable',
   conseille: 'Réservation conseillée',
@@ -52,12 +68,14 @@ const trip = params.get('out') ? (() => {
 })() : null;
 const KIWI_AFFILIATE_TEMPLATE = ''; // même réglage que dans app.js
 const SEL_KEY = `sejour-${code}`;
+const RESTO_KEY = `restos-${code}`;
 
 let guide = null;
 let ville = {};
 let cityName = code;
 let filter = 'all';
 let selected = new Set(loadSelection());
+let restos = new Set(loadRestos());
 const pins = {};
 const HOTEL_KEY = `hotel-${code}`;
 let hotel = loadHotel();
@@ -84,6 +102,7 @@ async function init() {
   guide = g;
   ville = villes?.[code] || {};
   selected = new Set([...selected].filter((id) => guide.activites.some((a) => a.id === id)));
+  restos = new Set([...restos].filter((id) => (guide.restaurants || []).some((r) => r.id === id)));
   const flights = (data?.destinations || []).filter((d) => d.city_code === code);
   cityName = flights[0]?.city || code;
 
@@ -102,6 +121,7 @@ async function init() {
   renderFlight(flights);
   renderChips();
   renderList();
+  renderRestos();
   setupHotel();
   setupSteps();
   $('v-list').addEventListener('click', (e) => {
@@ -109,6 +129,12 @@ async function init() {
     if (t) return toggle(t.dataset.toggle);
     const b = e.target.closest('[data-act]');
     if (b) openSheet(b.dataset.act);
+  });
+  $('r-gammes').addEventListener('click', (e) => {
+    const t = e.target.closest('[data-rtoggle]');
+    if (t) return toggleResto(t.dataset.rtoggle);
+    const b = e.target.closest('[data-resto]');
+    if (b) openResto(b.dataset.resto);
   });
 }
 
@@ -197,13 +223,95 @@ function renderList() {
         <span class="v-act-main">
           <span class="v-act-name">${esc(a.nom)}</span>
           <span class="v-act-meta">${esc(TYPES[a.type] || '')} · ${esc(a.duree)}</span>
-          <span class="tag tag-${a.reservation}">${BOOKING[a.reservation]}</span>
+          <span class="v-tags"><span class="tag tag-${a.reservation}">${BOOKING[a.reservation]}</span>${badgeTags(a.badges)}</span>
         </span>
         <span class="v-act-price">${priceLabel(a)}</span>
       </button>
       <button type="button" class="v-check" data-toggle="${esc(a.id)}" aria-pressed="${on}" aria-label="${on ? 'Retirer' : 'Ajouter'} ${esc(a.nom)} ${on ? 'de' : 'à'} mon séjour">${on ? '✓' : '+'}</button>
     </li>`;
   }).join('');
+}
+
+// ---------------------------------------------------------------------------
+// Étape 3 : les restaurants, rangés par gamme de prix
+// ---------------------------------------------------------------------------
+function loadRestos() {
+  try { return JSON.parse(localStorage.getItem(RESTO_KEY)) || []; } catch { return []; }
+}
+function saveRestos() {
+  try { localStorage.setItem(RESTO_KEY, JSON.stringify([...restos])); } catch {}
+}
+function toggleResto(id) {
+  if (restos.has(id)) restos.delete(id);
+  else restos.add(id);
+  saveRestos();
+  renderRestos();
+  paintPins();
+  updateFoot();
+}
+function chosenRestos() {
+  return (guide.restaurants || []).filter((r) => restos.has(r.id));
+}
+
+function badgeTags(list) {
+  return (list || []).map((b) => BADGES[b] ? `<span class="badge badge-${b}">${BADGES[b].icon} ${BADGES[b].nom}</span>` : '').join('');
+}
+
+function renderRestos() {
+  const all = guide.restaurants || [];
+  $('r-legend').innerHTML = Object.entries(BADGES).filter(([k]) => all.some((r) => r.badges.includes(k)))
+    .map(([k, b]) => `<span><span class="badge badge-${k}">${b.icon} ${b.nom}</span> ${esc(b.why)}</span>`).join('');
+  $('r-gammes').innerHTML = RESTO_GAMMES.map((g) => {
+    const list = all.filter((r) => r.gamme === g.id).sort((a, b) => a.prix_min - b.prix_min);
+    if (!list.length) return '';
+    return `
+      <h3 class="r-gamme"><span aria-hidden="true">${g.dot}</span> ${g.nom}<small>${g.sous}</small></h3>
+      <ul class="v-list">${list.map((r) => {
+        const on = restos.has(r.id);
+        return `
+        <li class="v-row${on ? ' is-on' : ''}">
+          <button type="button" class="v-act" data-resto="${esc(r.id)}">
+            <span class="v-emoji r-emoji r-${r.gamme}" aria-hidden="true">${r.emoji}</span>
+            <span class="v-act-main">
+              <span class="v-act-name">${esc(r.nom)}</span>
+              <span class="v-act-meta">${esc(r.genre)} · ${esc(r.quartier)}</span>
+              <span class="v-tags">${badgeTags(r.badges)}</span>
+            </span>
+            <span class="v-act-price r-price">${esc(r.prix)}<small>par pers.</small></span>
+          </button>
+          <button type="button" class="v-check" data-rtoggle="${esc(r.id)}" aria-pressed="${on}" aria-label="${on ? 'Retirer' : 'Ajouter'} ${esc(r.nom)} ${on ? 'de' : 'à'} mon séjour">${on ? '✓' : '+'}</button>
+        </li>`;
+      }).join('')}</ul>`;
+  }).join('');
+}
+
+function mapsLink(r) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${r.nom}, ${r.adresse}`)}`;
+}
+
+function openResto(id) {
+  const r = (guide.restaurants || []).find((x) => x.id === id);
+  if (!r) return;
+  const on = restos.has(r.id);
+  const g = RESTO_GAMMES.find((x) => x.id === r.gamme);
+  const boxClass = r.reservation === 'indispensable' ? 'box-warn' : r.reservation === 'conseille' ? 'box-mid' : '';
+  showDialog($('v-sheet'), `
+    <div class="a-top r-top r-${r.gamme}"><span aria-hidden="true">${r.emoji}</span><button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>
+    <div class="a-body">
+      <p class="a-kicker">${g.dot} ${esc(g.nom)} · ${esc(r.genre)} · ${esc(r.quartier)}</p>
+      <h2 id="a-title">${esc(r.nom)}</h2>
+      <div class="r-badges">${r.badges.map((b) => `<p class="r-badge badge-${b}"><b>${BADGES[b].icon} ${BADGES[b].long}</b><small>${esc(b === 'recompense' && r.recompense ? r.recompense : BADGES[b].why)}</small></p>`).join('')}</div>
+      <p class="a-text">${esc(r.texte)}</p>
+      <div class="box ${boxClass}"><span class="box-h">🗓 Réservation</span><b>${RESTO_BOOKING[r.reservation]}</b>${r.reservation_delai ? ` : ${esc(r.reservation_delai)}` : ''}</div>
+      <div class="box"><span class="box-h">💶 Prix</span>${r.prix.startsWith('≈') ? esc(r.prix) : `Environ ${esc(r.prix)}`} par personne, boissons comprises. À régler sur place.</div>
+      <div class="box"><span class="box-h">📍 Adresse</span>${esc(r.adresse)}</div>
+      <button type="button" class="btn ${on ? 'btn-line' : 'btn-ink'}" id="a-toggle">${on ? '✓ Dans mon séjour · retirer' : '+ Ajouter à mon séjour'}</button>
+      <a class="btn btn-line" href="${esc(mapsLink(r))}" target="_blank" rel="noopener">Horaires et réservation (Google Maps)</a>
+    </div>`);
+  $('a-toggle').onclick = () => {
+    toggleResto(r.id);
+    openResto(r.id);
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -337,6 +445,16 @@ async function setupMap() {
       el.addEventListener('click', () => openSheet(a.id));
       pins[a.id] = el;
       new maplibregl.Marker({ element: el }).setLngLat([a.lng, a.lat]).addTo(map);
+    }
+    for (const r of guide.restaurants || []) {
+      const el = document.createElement('button');
+      el.type = 'button';
+      el.className = 'v-pin r-pin';
+      el.textContent = r.emoji;
+      el.setAttribute('aria-label', r.nom);
+      el.addEventListener('click', () => openResto(r.id));
+      pins[`r:${r.id}`] = el;
+      new maplibregl.Marker({ element: el }).setLngLat([r.lng, r.lat]).addTo(map);
     }
     paintPins();
   } catch (err) {
@@ -714,6 +832,7 @@ function openHotel(id) {
 // Activités sur la carte : celles choisies en couleur, les autres en gris.
 function paintPins() {
   for (const [id, el] of Object.entries(pins)) {
+    if (id.startsWith('r:')) { el.style.display = restos.has(id.slice(2)) ? '' : 'none'; continue; } // restaurants : seulement ceux choisis
     el.classList.toggle('is-on', selected.has(id));
     el.classList.toggle('is-off', selected.size > 0 && !selected.has(id));
   }
@@ -724,9 +843,10 @@ function paintPins() {
 // ---------------------------------------------------------------------------
 const STEP_TEXT = {
   1: { next: 'Garder ce vol et continuer' },
-  2: { next: "Continuer vers l'hôtel", skip: "Passer, pas d'activités" },
-  3: { next: 'Voir mon voyage', skip: "Passer, j'ai déjà un logement" },
-  4: {},
+  2: { next: 'Continuer vers les restaurants', skip: "Passer, pas d'activités" },
+  3: { next: "Continuer vers l'hôtel", skip: 'Passer, pas de restaurant' },
+  4: { next: 'Voir mon voyage', skip: "Passer, j'ai déjà un logement" },
+  5: {},
 };
 
 function setupSteps() {
@@ -738,7 +858,8 @@ function setupSteps() {
   $('c-next').onclick = () => go(step + 1);
   $('c-skip').onclick = () => {
     if (step === 2) { selected.clear(); saveSelection(); renderList(); paintPins(); renderHotel(); }
-    if (step === 3) { hotel = { gamme: hotel.gamme, prix: 0, aucun: true }; saveHotel(); }
+    if (step === 3) { restos.clear(); saveRestos(); renderRestos(); paintPins(); }
+    if (step === 4) { hotel = { gamme: hotel.gamme, prix: 0, aucun: true }; saveHotel(); }
     go(step + 1);
   };
   window.addEventListener('hashchange', () => show(stepFromHash()));
@@ -747,11 +868,11 @@ function setupSteps() {
 
 function stepFromHash() {
   const n = Number(location.hash.replace('#', ''));
-  return n >= 1 && n <= 4 ? n : 1;
+  return n >= 1 && n <= 5 ? n : 1;
 }
 
 function go(n) {
-  n = Math.min(4, Math.max(1, n));
+  n = Math.min(5, Math.max(1, n));
   if (n === step) return show(n);
   location.hash = String(n); // déclenche show() et garde l'historique (bouton retour du téléphone)
 }
@@ -766,8 +887,8 @@ function show(n) {
   });
   document.body.dataset.step = String(n);
   $('c-back').setAttribute('aria-label', n > 1 ? "Retour à l'étape précédente" : 'Retour aux vols');
-  if (n === 3) { if (!map) setupMap(); else { map.resize(); drawZone(); } }
-  if (n === 4) renderRecap();
+  if (n === 4) { if (!map) setupMap(); else { map.resize(); drawZone(); } }
+  if (n === 5) renderRecap();
   updateFoot();
   window.scrollTo({ top: 0 });
 }
@@ -784,12 +905,12 @@ function updateFoot() {
   if (!guide) return;
   const t = totals();
   const parts = [trip ? 'Vol' : null, selected.size ? `${selected.size} activité${selected.size > 1 ? 's' : ''}` : null, t.hotelPrice ? 'hôtel' : null].filter(Boolean);
-  $('c-total-label').textContent = step === 4 ? 'Total de votre voyage' : parts.length ? parts.join(' + ') : 'Mon voyage';
-  $('c-total').textContent = euro(step === 4 ? recapTotal() : t.total);
+  $('c-total-label').textContent = step === 5 ? 'Total de votre voyage' : parts.length ? parts.join(' + ') : 'Mon voyage';
+  $('c-total').textContent = euro(step === 5 ? recapTotal() : t.total);
   const txt = STEP_TEXT[step];
   $('c-next').hidden = !txt.next;
   if (txt.next) $('c-next').textContent = `${txt.next} →`;
-  const showSkip = txt.skip && ((step === 2 && !selected.size) || (step === 3 && !hotel.prix));
+  const showSkip = txt.skip && ((step === 2 && !selected.size) || (step === 3 && !restos.size) || (step === 4 && !hotel.prix));
   $('c-skip').hidden = !showSkip;
   if (showSkip) $('c-skip').textContent = txt.skip;
 }
@@ -798,7 +919,7 @@ function refresh() {
   renderFlight();
   renderHotel();
   updateFoot();
-  if (step === 4) renderRecap();
+  if (step === 5) renderRecap();
 }
 
 function saveSelection() {
@@ -900,10 +1021,21 @@ function renderRecap() {
       if (href) steps.push({ id: `a-${a.id}`, title: esc(a.nom), sub: partner ? 'chez notre partenaire' : 'sur le site officiel', href, sponsored: Boolean(partner) });
     }
   }
+  // Restaurants : rien à payer d'avance ; on réserve la table quand c'est conseillé.
+  const rs = chosenRestos();
+  for (const r of rs.filter((x) => x.reservation !== 'sur_place')) {
+    steps.push({ id: `r-${r.id}`, title: `🍽️ ${esc(r.nom)}`, sub: `table à réserver${r.reservation_delai ? ` (${esc(r.reservation_delai)})` : ''}`, href: mapsLink(r) });
+  }
+  const walkIn = rs.filter((x) => x.reservation === 'sur_place');
   const free = acts.filter((a) => a.reservation === 'libre');
   $('s4').innerHTML = `
     <p class="c-sub">Décochez ce que vous ne voulez pas réserver maintenant.</p>
     <div class="r-list">${lines}</div>
+    ${rs.length ? `
+      <div class="r-food">
+        <p class="r-food-h">🍽️ Vos restaurants <small>à régler sur place</small></p>
+        <ul>${rs.map((r) => `<li><b>${esc(r.nom)}</b> · ${esc(r.quartier)}<span>${esc(r.prix)} / pers.</span></li>`).join('')}</ul>
+      </div>` : ''}
     ${steps.length ? `
       <h3 class="r-h3">Réservez dans cet ordre</h3>
       <p class="c-sub">Chaque bouton ouvre le site du partenaire dans un nouvel onglet. Revenez ici ensuite et cochez « C'est réservé ».</p>
@@ -919,6 +1051,7 @@ function renderRecap() {
           </span>
         </li>`;
       }).join('')}</ol>` : '<p class="c-note">Cochez au moins un élément à réserver.</p>'}
+    ${walkIn.length ? `<p class="c-note">Restaurants sans réservation : ${esc(walkIn.map((r) => r.nom).join(', '))} (venez tôt).</p>` : ''}
     ${free.length && book.acts ? `<p class="c-note">Sans réservation : ${esc(free.map((a) => a.nom).join(', '))} (accès libre).</p>` : ''}
     <p class="a-legal">Chaque partenaire vous fait payer sa part directement. Prix indicatifs : le prix exact s'affiche chez le partenaire.</p>`;
   $('s4').onchange = (e) => {
