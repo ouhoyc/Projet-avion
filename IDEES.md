@@ -183,8 +183,16 @@ sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joven
 ### 14. 💡 Idées notées après le test du circuit (propriétaire et sa femme)
 - **Passeport et documents** nécessaires selon la destination (ex. Londres : passeport +
   autorisation ETA), à afficher dans « Mon voyage ».
-- **Restaurants** avec une « moyenne pondérée » des notes (méthode à redemander au
-  propriétaire : on ne l'a pas retrouvée dans les notes).
+- **Restaurants** classés par **moyenne bayésienne** (méthode IMDb, déjà utilisée par le
+  propriétaire pour Lyon) : score = v/(v+m) × R + m/(v+m) × C, avec R = note Google,
+  v = nombre d'avis, C = note moyenne de l'échantillon (≈ 4,5), m = avis « de référence »
+  (≈ 1 000 à 1 500). Peu d'avis → ramené vers C ; beaucoup d'avis → la vraie note compte.
+  Exigence : couvrir **presque tous** les restaurants, au minimum tous ceux de plus de
+  2 000-3 000 avis (pas seulement une vingtaine de recherches comme pour Lyon).
+  Piste : Google Places « Nearby Search » sur une grille qui couvre toute la ville, cases
+  redécoupées là où c'est dense ; lancé par une GitHub Action (clé dans les secrets GitHub,
+  jamais dans le code) ; attention aux règles Google (mention « Google », pas de stockage
+  durable des notes → rafraîchir chaque mois).
 - À proposer au fur et à mesure, quand c'est pertinent.
 
 ### 5. 💡 Changer d'aéroport de départ (Genève, Marseille…)
