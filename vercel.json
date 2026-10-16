@@ -11,7 +11,7 @@
     },
     "api/transports.js": {
       "includeFiles": "guides/*.json",
-      "maxDuration": 30
+      "maxDuration": 20
     }
   }
 }

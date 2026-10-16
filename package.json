@@ -1,5 +1,9 @@
 {
   "name": "vols-directs-lyon",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@mapbox/vector-tile": "^2.0.3",
+    "pbf": "^4.0.1"
+  }
 }
