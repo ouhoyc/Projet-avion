@@ -147,6 +147,14 @@ la plus proche de toutes les activités (« pile au milieu »).
 - ✅ Les 12 prix douteux vérifiés sur les sites officiels (16/10/2026) ; tarifs enfants complétés
   quand le site les donne (sinon l'enfant est compté au prix adulte). Photo libre pour chaque
   activité, crédits dans « Crédits et mentions » > Photos > Photos des activités.
+- 🛠 **Hôtels (16/10/2026)** : partie « Où dormir ? » sur la page guide. Quartier idéal = celui
+  qui a le plus d'activités cochées à moins de 20 min à pied (cercle sur la carte), 5 quartiers
+  dans `guides/BCN.json` (ne pas parler de quartiers « à éviter »). Gammes en mots : Juste pour
+  dormir / Confort / Haut de gamme / Grand luxe. Dates = celles du vol (sinon à choisir).
+  Prix réels aux dates : carte Stay22 (option C) dès que le propriétaire aura son identifiant
+  `aid` (à mettre dans `STAY22_AID`, `ville.js`) ; en attendant, bouton vers Booking déjà rempli
+  (dates, voyageurs, âges, étoiles), sans commission. Le prix de l'hôtel choisi se note à la
+  main dans le devis (une carte externe ne peut pas renvoyer son prix au site).
 - Travelpayouts « Drive » (script qui ajoute tout seul des liens et encarts partenaires) :
   **pas pour l'instant** (perte de contrôle sur le design, script tiers à déclarer pour les
   cookies, peu utile sans trafic). On place les liens Tiqets à la main.

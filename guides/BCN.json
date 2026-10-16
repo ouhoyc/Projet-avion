@@ -1271,5 +1271,43 @@
     "page": "https://commons.wikimedia.org/wiki/File:Monestir_de_Montserrat_vista_Roca_de_St._Jaume.jpg"
    }
   }
- ]
+ ],
+ "quartiers": [
+  {
+   "id": "eixample",
+   "nom": "Eixample",
+   "lat": 41.3925,
+   "lng": 2.164,
+   "texte": "Chic et central : grandes avenues, Gaudí à chaque coin de rue, métro partout."
+  },
+  {
+   "id": "gothique",
+   "nom": "Quartier gothique",
+   "lat": 41.383,
+   "lng": 2.1765,
+   "texte": "Au cœur de la vieille ville : ruelles médiévales, tout se fait à pied."
+  },
+  {
+   "id": "born",
+   "nom": "El Born",
+   "lat": 41.385,
+   "lng": 2.182,
+   "texte": "Ruelles branchées, petits bars et boutiques : le quartier qui vit le soir."
+  },
+  {
+   "id": "gracia",
+   "nom": "Gràcia",
+   "lat": 41.4025,
+   "lng": 2.1565,
+   "texte": "Un village dans la ville : places tranquilles, terrasses, ambiance locale."
+  },
+  {
+   "id": "barceloneta",
+   "nom": "Barceloneta",
+   "lat": 41.38,
+   "lng": 2.189,
+   "texte": "Les pieds dans l'eau : plage, promenade et restaurants de fruits de mer."
+  }
+ ],
+ "hotel_petit_prix_max": 90
 }

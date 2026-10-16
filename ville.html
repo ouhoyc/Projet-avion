@@ -48,6 +48,23 @@
       <p class="v-map-note">Touchez un point pour voir l'activité.</p>
     </section>
 
+    <section aria-labelledby="t-hotel" id="hotel">
+      <h2 class="v-h2" id="t-hotel">Où dormir ?</h2>
+      <div id="h-zone"></div>
+      <div class="h-block">
+        <p class="h-label">Vos dates</p>
+        <div class="h-dates">
+          <label>Arrivée<input type="date" id="h-in"></label>
+          <label>Départ<input type="date" id="h-out"></label>
+        </div>
+      </div>
+      <div class="h-block">
+        <p class="h-label">Quel genre d'hôtel ?</p>
+        <div class="h-gammes" id="h-gammes" role="group" aria-label="Gamme d'hôtel"></div>
+      </div>
+      <div id="h-hotels"></div>
+    </section>
+
     <p class="v-foot"><span id="v-foot"></span> · <button type="button" class="v-link" id="open-credits">Crédits et mentions</button></p>
   </main>
 

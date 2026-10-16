@@ -196,3 +196,31 @@ button.btn-line { cursor: pointer; }
 .c-more li { margin: 4px 0; }
 .a-top.has-photo { display: block; overflow: hidden; }
 .c-more li b { display: inline; text-transform: none; letter-spacing: 0; font-size: inherit; }
+
+/* Où dormir */
+.h-card { background: #fff; border: 2px solid var(--ink); border-radius: 14px; padding: 12px 14px; box-shadow: 3px 3px 0 var(--ink); }
+.h-q { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.h-q b { font-size: 18px; }
+.h-best { font-size: 12px; font-weight: 800; background: var(--coral); color: #fff; border-radius: 999px; padding: 2px 9px; }
+.h-text { margin: 4px 0 0; font-size: 14px; }
+.h-why { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.h-others { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.h-other { border: 1.5px solid var(--ink); background: #fff; border-radius: 999px; padding: 3px 10px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.h-block { margin-top: 16px; }
+.h-label { margin: 0 0 6px; font-weight: 700; font-size: 15px; }
+.h-dates { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.h-dates label { display: flex; flex-direction: column; gap: 3px; font-size: 13px; color: var(--muted); }
+.h-dates input { font: inherit; font-size: 15px; color: var(--ink); padding: 8px 10px; border: 2px solid var(--ink); border-radius: 10px; background: #fff; min-width: 0; }
+.h-gammes { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (min-width: 700px) { .h-gammes { grid-template-columns: repeat(4, 1fr); } }
+.h-gamme { text-align: left; padding: 9px 11px; border: 2px solid var(--ink); border-radius: 12px; background: #fff; cursor: pointer; }
+.h-gamme b { display: block; font-size: 15px; }
+.h-gamme small { font-size: 12px; color: var(--muted); }
+.h-gamme[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.h-gamme[aria-pressed="true"] small { color: rgba(255, 255, 255, .8); }
+#h-hotels { margin-top: 14px; }
+.h-map { width: 100%; height: 480px; border: 2px solid var(--ink); border-radius: 16px; }
+.h-hint { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.q-hotel-in { display: flex; align-items: center; gap: 4px; font-weight: 700; }
+.q-hotel-in input { width: 84px; font: inherit; font-size: 15px; text-align: right; padding: 6px 8px; border: 2px solid var(--ink); border-radius: 10px; }
+.q-per { margin: -2px 0 6px; text-align: right; font-size: 13px; color: var(--muted); }

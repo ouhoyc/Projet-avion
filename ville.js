@@ -9,6 +9,18 @@ const PARTNER_LINKS = {
   // 'sagrada-familia': 'https://…',
 };
 
+// Identifiant partenaire Stay22 (carte d'hôtels avec les prix en direct). Ce n'est pas un
+// secret : il apparaît dans l'adresse de la carte. Vide = carte remplacée par un lien Booking.
+const STAY22_AID = '';
+
+// Gammes d'hôtel : filtre appliqué à la carte d'hôtels et au lien Booking.
+const GAMMES = [
+  { id: 'dormir', nom: 'Juste pour dormir', sous: 'simple et pas cher' },
+  { id: 'confort', nom: 'Confort', sous: '3 étoiles', etoiles: 3 },
+  { id: 'haut', nom: 'Haut de gamme', sous: '4 étoiles', etoiles: 4 },
+  { id: 'luxe', nom: 'Grand luxe', sous: '5 étoiles', etoiles: 5 },
+];
+
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
 const TYPES = {
   culture: 'Culture', sport: 'Sport', vue: 'Points de vue', sortir: 'Sorties',
@@ -38,6 +50,10 @@ let cityName = code;
 let filter = 'all';
 let selected = new Set(loadSelection());
 const pins = {};
+const HOTEL_KEY = `hotel-${code}`;
+let hotel = loadHotel();
+let quartierChoisi = null; // null = quartier idéal calculé
+let map = null;
 
 init();
 
@@ -82,6 +98,7 @@ async function init() {
 
   renderChips();
   renderList();
+  setupHotel();
   updateBar();
   setupMap();
   $('v-list').addEventListener('click', (e) => {
@@ -115,6 +132,7 @@ function toggle(id) {
   renderList();
   updateBar();
   pins[id]?.classList.toggle('is-on', selected.has(id));
+  renderHotel();
 }
 
 // Prix d'une activité pour le groupe : adultes au tarif adulte, chaque enfant selon son âge.
@@ -139,16 +157,18 @@ function quote() {
   const lines = guide.activites.filter((a) => selected.has(a.id)).map((a) => ({ a, ...groupCost(a, pax) }));
   const acts = lines.reduce((s, l) => s + l.total, 0);
   const flight = trip ? trip.price * paxCount(pax) : null;
-  return { pax, lines, acts, flight, total: acts + (flight || 0) };
+  const hotelPrice = hotel.prix > 0 ? hotel.prix : null;
+  return { pax, lines, acts, flight, hotelPrice, total: acts + (flight || 0) + (hotelPrice || 0) };
 }
 
 function updateBar() {
   const n = selected.size;
-  $('v-bar').hidden = n === 0;
-  document.body.classList.toggle('has-bar', n > 0);
-  if (!n) return;
+  const show = n > 0 || hotel.prix > 0;
+  $('v-bar').hidden = !show;
+  document.body.classList.toggle('has-bar', show);
+  if (!show) return;
   const q = quote();
-  $('bar-count').textContent = `Mon séjour · ${n} activité${n > 1 ? 's' : ''}`;
+  $('bar-count').textContent = `Mon séjour · ${n ? `${n} activité${n > 1 ? 's' : ''}` : 'hôtel'}${n && q.hotelPrice ? ' + hôtel' : ''}`;
   $('bar-pax').textContent = paxLabel(q.pax);
   $('bar-total').textContent = euro(q.total);
 }
@@ -257,15 +277,24 @@ function openQuote() {
       <ul class="q-lines">
         ${q.flight != null ? `
           <li><span><b>✈ Vols ${trip.ret ? 'aller-retour' : 'aller simple'}</b><small>${paxCount(q.pax)} × ${euro(trip.price)} · prix repéré, à vérifier sur Kiwi.com</small></span><strong>${euro(q.flight)}</strong></li>` : ''}
+        <li class="q-hotel"><span><b>🏨 Hôtel${hotelSummary() ? ` · ${esc(hotelSummary())}` : ''}</b><small>Prix total de l'hôtel choisi (vu sur la carte des hôtels)</small></span>
+          <label class="q-hotel-in"><input type="number" id="q-hotel" min="0" step="1" inputmode="numeric" placeholder="—" value="${q.hotelPrice ?? ''}"> €</label></li>
         ${q.lines.map((l) => `
           <li><span><b>${l.a.emoji} ${esc(l.a.nom)}</b><small>${esc(l.detail)}${l.estimation ? ' · estimation' : ''}</small></span><strong>${l.total === 0 ? 'Gratuit' : euro(l.total)}</strong>
           <button type="button" class="q-remove" data-remove="${esc(l.a.id)}" aria-label="Retirer ${esc(l.a.nom)}">×</button></li>`).join('')}
       </ul>
       ${q.flight == null ? '<p class="q-hint">Pour ajouter les vols au devis, choisissez vos dates sur la page des vols puis touchez « Que faire à … ? ».</p>' : ''}
-      <p class="q-total"><span>Total${q.flight != null ? '' : ' des activités'}</span><strong>${euro(q.total)}</strong></p>
-      <p class="a-legal">Estimation pour votre groupe, d'après les prix publics${est ? ' (certains prix sont des moyennes)' : ''}. L'hébergement viendra bientôt.</p>
+      <p class="q-total"><span>Total${q.flight != null || q.hotelPrice ? '' : ' des activités'}</span><strong>${euro(q.total)}</strong></p>
+      ${q.total && paxCount(q.pax) > 1 ? `<p class="q-per">soit ${euro(Math.round(q.total / paxCount(q.pax)))} par personne</p>` : ''}
+      <p class="a-legal">Estimation pour votre groupe, d'après les prix publics${est ? ' (certains prix sont des moyennes)' : ''}. Le prix de l'hôtel est celui que vous avez noté.</p>
       <button type="button" class="btn btn-line" data-close>Continuer à choisir</button>
     </div>`);
+  $('q-hotel').onchange = (e) => {
+    hotel.prix = Math.max(0, Number(e.target.value) || 0);
+    saveHotel();
+    updateBar();
+    openQuote();
+  };
   $('q-pax').onclick = () => paxOpen($('pax-sheet'), () => { updateBar(); openQuote(); });
   $('quote-sheet').querySelectorAll('[data-remove]').forEach((b) => {
     b.onclick = () => {
@@ -333,7 +362,7 @@ async function setupMap() {
     const acts = guide.activites.filter((a) => a.lat && a.type !== 'nature');
     const bounds = new maplibregl.LngLatBounds();
     acts.forEach((a) => bounds.extend([a.lng, a.lat]));
-    const map = new maplibregl.Map({
+    map = new maplibregl.Map({
       container: 'v-map', style, bounds, fitBoundsOptions: { padding: 30 },
       attributionControl: false, dragRotate: false, pitchWithRotate: false, cooperativeGestures: true,
     });
@@ -341,7 +370,14 @@ async function setupMap() {
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
     map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right');
     // Le « i » de la mention OpenStreetMap démarre replié (MapLibre l'ouvre au chargement).
-    map.on('load', () => map.getContainer().querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show'));
+    map.on('load', () => {
+      map.getContainer().querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show');
+      // Zone idéale pour dormir : cercle au milieu des activités cochées.
+      map.addSource('zone', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      map.addLayer({ id: 'zone-fill', type: 'fill', source: 'zone', paint: { 'fill-color': '#14213d', 'fill-opacity': 0.08 } });
+      map.addLayer({ id: 'zone-line', type: 'line', source: 'zone', paint: { 'line-color': '#14213d', 'line-width': 2.5, 'line-dasharray': [2, 1.5] } });
+      drawZone();
+    });
     for (const a of acts) {
       const el = document.createElement('button');
       el.type = 'button';
@@ -356,4 +392,173 @@ async function setupMap() {
     console.warn('Carte indisponible :', err);
     $('v-map').innerHTML = '<p style="padding:16px">La carte ne peut pas s\'afficher sur cet appareil.</p>';
   }
+}
+
+// ---------------------------------------------------------------------------
+// Où dormir : quartier idéal (au milieu des activités cochées), gamme, dates,
+// hôtels avec les prix en direct (Stay22) ou lien Booking en attendant.
+// ---------------------------------------------------------------------------
+function loadHotel() {
+  try { return { gamme: 'confort', prix: 0, ...JSON.parse(localStorage.getItem(HOTEL_KEY)) }; } catch { return { gamme: 'confort', prix: 0 }; }
+}
+function saveHotel() {
+  try { localStorage.setItem(HOTEL_KEY, JSON.stringify(hotel)); } catch {}
+}
+
+// Distance « à pied » : environ 20 minutes de marche.
+const WALK_KM = 1.6;
+
+// Distance à vol d'oiseau en km.
+function km(a, b) {
+  const R = 6371, rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad, dLng = (b.lng - a.lng) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+// Activités cochées dans la ville (sans les excursions lointaines).
+function chosenPlaces() {
+  return guide.activites.filter((a) => selected.has(a.id) && a.lat && a.type !== 'nature');
+}
+
+function idealQuartier() {
+  const places = chosenPlaces();
+  const qs = guide.quartiers || [];
+  if (!qs.length) return null;
+  if (!places.length) return { q: qs[0], places, center: null };
+  const center = { lat: places.reduce((s, p) => s + p.lat, 0) / places.length, lng: places.reduce((s, p) => s + p.lng, 0) / places.length };
+  // Le quartier qui a le plus d'activités à pied ; à égalité, le plus proche du centre des activités.
+  const score = (x) => places.filter((p) => km(p, x) <= WALK_KM).length;
+  const q = qs.reduce((best, x) => {
+    const d = score(x) - score(best);
+    return d > 0 || (d === 0 && km(x, center) < km(best, center)) ? x : best;
+  });
+  return { q, places, center };
+}
+
+function currentQuartier() {
+  const ideal = idealQuartier();
+  const q = (guide.quartiers || []).find((x) => x.id === quartierChoisi) || ideal?.q;
+  return { q, ideal };
+}
+
+function stayDates() {
+  return { inD: $('h-in').value, outD: $('h-out').value };
+}
+
+function nights() {
+  const { inD, outD } = stayDates();
+  if (!inD || !outD) return 0;
+  return Math.max(0, Math.round((new Date(outD) - new Date(inD)) / 86400000));
+}
+
+function hotelSummary() {
+  const { q } = currentQuartier();
+  const g = GAMMES.find((x) => x.id === hotel.gamme);
+  const n = nights();
+  return [q?.nom, g?.nom, n ? `${n} nuit${n > 1 ? 's' : ''}` : ''].filter(Boolean).join(' · ');
+}
+
+function setupHotel() {
+  if (!guide.quartiers?.length) { $('hotel').hidden = true; return; }
+  const saved = (() => { try { return JSON.parse(localStorage.getItem(`dates-${code}`)) || {}; } catch { return {}; } })();
+  $('h-in').value = trip?.out || saved.inD || '';
+  $('h-out').value = trip?.ret || saved.outD || '';
+  const today = new Date().toISOString().slice(0, 10);
+  $('h-in').min = today; $('h-out').min = today;
+  for (const id of ['h-in', 'h-out']) {
+    $(id).addEventListener('change', () => {
+      try { localStorage.setItem(`dates-${code}`, JSON.stringify(stayDates())); } catch {}
+      renderHotel();
+    });
+  }
+  $('h-gammes').onclick = (e) => {
+    const b = e.target.closest('[data-g]');
+    if (!b) return;
+    hotel.gamme = b.dataset.g;
+    saveHotel();
+    renderHotel();
+  };
+  $('h-zone').onclick = (e) => {
+    const b = e.target.closest('[data-q]');
+    if (!b) return;
+    quartierChoisi = b.dataset.q === 'ideal' ? null : b.dataset.q;
+    renderHotel();
+  };
+  renderHotel();
+}
+
+function renderHotel() {
+  if (!guide.quartiers?.length) return;
+  const { q, ideal } = currentQuartier();
+  const isIdeal = q.id === ideal.q.id;
+  const n = ideal.places.length;
+  const near = ideal.places.filter((p) => km(p, q) <= WALK_KM).length;
+  const avg = n ? ideal.places.reduce((s, p) => s + km(p, q), 0) / n : 0;
+  const why = !n
+    ? 'Cochez des activités : on calcule le quartier le plus proche de vos visites.'
+    : near
+      ? (n === 1 ? 'Votre activité est à moins de 20 min à pied.' : `${near} de vos ${n} activités à moins de 20 min à pied.`)
+      : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : le métro vous y emmène vite.`;
+  $('h-zone').innerHTML = `
+    <div class="h-card">
+      <p class="h-q"><b>${esc(q.nom)}</b>${isIdeal && ideal.places.length ? '<span class="h-best">Le plus proche de vos activités</span>' : ''}</p>
+      <p class="h-text">${esc(q.texte)}</p>
+      <p class="h-why">${esc(why)}</p>
+    </div>
+    <div class="h-others" role="group" aria-label="Autres quartiers">
+      <span>Autres quartiers :</span>
+      ${guide.quartiers.filter((x) => x.id !== q.id).map((x) => `<button type="button" class="h-other" data-q="${x.id === ideal.q.id ? 'ideal' : x.id}">${esc(x.nom)}</button>`).join('')}
+    </div>`;
+  $('h-gammes').innerHTML = GAMMES.map((g) => `
+    <button type="button" class="h-gamme" data-g="${g.id}" aria-pressed="${g.id === hotel.gamme}"><b>${g.nom}</b><small>${g.sous}</small></button>`).join('');
+  renderHotels(q);
+  drawZone();
+}
+
+function renderHotels(q) {
+  const { inD, outD } = stayDates();
+  const pax = paxGet();
+  const g = GAMMES.find((x) => x.id === hotel.gamme);
+  const n = nights();
+  if (!inD || !outD || n <= 0) {
+    $('h-hotels').innerHTML = '<p class="h-hint">Choisissez vos dates d\'arrivée et de départ pour voir les hôtels et leurs prix.</p>';
+    return;
+  }
+  if (STAY22_AID) {
+    const p = new URLSearchParams({
+      aid: STAY22_AID, lat: q.lat, lng: q.lng, zoom: '15', checkin: inD, checkout: outD,
+      adults: pax.adults, children: pax.children.length, ljs: 'fr', currency: 'EUR', maincolor: 'ff6b4a',
+      priceper: 'total', campaign: `guide-${code}`, hidebrandlogo: 'true',
+    });
+    if (g.etoiles) p.set('minstarrating', g.etoiles);
+    if (g.id === 'dormir' && guide.hotel_petit_prix_max) { p.set('max', guide.hotel_petit_prix_max); p.set('priceper', 'nightly'); }
+    const poi = chosenPlaces().map((a) => ({ lat: a.lat, lng: a.lng, name: a.nom }));
+    if (poi.length) p.set('poi', JSON.stringify(poi));
+    $('h-hotels').innerHTML = `
+      <iframe class="h-map" title="Hôtels à ${esc(q.nom)} et leurs prix" loading="lazy" src="https://www.stay22.com/embed/gm?${esc(p.toString())}"></iframe>
+      <p class="h-hint">Prix réels pour ${n} nuit${n > 1 ? 's' : ''}, ${esc(paxLabel(pax))}. Notez le prix de l'hôtel choisi dans votre devis.</p>`;
+    return;
+  }
+  // En attendant la carte d'hôtels : recherche Booking déjà remplie (dates, voyageurs, quartier, gamme).
+  const b = new URLSearchParams({ ss: `${q.nom}, ${cityName}`, checkin: inD, checkout: outD, group_adults: pax.adults, group_children: pax.children.length, no_rooms: '1', lang: 'fr', selected_currency: 'EUR' });
+  for (const age of pax.children) b.append('age', age);
+  if (g.etoiles) b.set('nflt', `class=${g.etoiles}`);
+  if (g.id === 'dormir') b.set('order', 'price');
+  $('h-hotels').innerHTML = `
+    <a class="btn btn-main" href="https://www.booking.com/searchresults.fr.html?${esc(b.toString())}" target="_blank" rel="noopener">Voir les hôtels et leurs prix · ${esc(q.nom)}</a>
+    <p class="h-hint">${n} nuit${n > 1 ? 's' : ''} · ${esc(paxLabel(pax))} · ${esc(g.nom)}. Notez ensuite le prix de l'hôtel choisi dans votre devis. La carte des hôtels directement sur cette page arrive bientôt.</p>`;
+}
+
+// Cercle de la zone (rayon ≈ 15 min à pied) sur la carte des activités.
+function drawZone() {
+  const src = map?.getSource?.('zone');
+  if (!src || !guide?.quartiers?.length) return;
+  const { q } = currentQuartier();
+  const r = 1.0, pts = [];
+  for (let i = 0; i <= 48; i++) {
+    const t = (i / 48) * 2 * Math.PI;
+    pts.push([q.lng + (r / (111.32 * Math.cos(q.lat * Math.PI / 180))) * Math.cos(t), q.lat + (r / 110.57) * Math.sin(t)]);
+  }
+  src.setData({ type: 'Feature', geometry: { type: 'Polygon', coordinates: [pts] } });
 }
