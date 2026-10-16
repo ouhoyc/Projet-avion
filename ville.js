@@ -556,7 +556,7 @@ async function loadHotels(q, inD, outD, pax, g) {
   if (!data.hotels?.length) return bookingFallback(q, inD, outD, pax, g, `Aucun hôtel « ${g.nom} » trouvé ici pour vos dates.`);
   hotelResults = { key, ...data };
   showHotels();
-  document.getElementById('t-map').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  $('v-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 // Paliers de prix (par nuit) : le tiers le moins cher en vert, le tiers du milieu en orange.
