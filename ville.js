@@ -271,7 +271,7 @@ function renderRestos() {
         return `
         <li class="v-row${on ? ' is-on' : ''}">
           <button type="button" class="v-act" data-resto="${esc(r.id)}">
-            <span class="v-emoji r-emoji r-${r.gamme}" aria-hidden="true">${r.emoji}</span>
+            ${r.photo ? thumb(r) : `<span class="v-emoji r-emoji r-${r.gamme}" aria-hidden="true">${r.emoji}</span>`}
             <span class="v-act-main">
               <span class="v-act-name">${esc(r.nom)}</span>
               <span class="v-act-meta">${esc(r.genre)} · ${esc(r.quartier)}</span>
@@ -296,7 +296,7 @@ function openResto(id) {
   const g = RESTO_GAMMES.find((x) => x.id === r.gamme);
   const boxClass = r.reservation === 'indispensable' ? 'box-warn' : r.reservation === 'conseille' ? 'box-mid' : '';
   showDialog($('v-sheet'), `
-    <div class="a-top r-top r-${r.gamme}"><span aria-hidden="true">${r.emoji}</span><button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>
+    ${sheetTop(r, `r-top r-${r.gamme}`)}
     <div class="a-body">
       <p class="a-kicker">${g.dot} ${esc(g.nom)} · ${esc(r.genre)} · ${esc(r.quartier)}</p>
       <h2 id="a-title">${esc(r.nom)}</h2>
@@ -324,6 +324,12 @@ function showDialog(dialog, html) {
   if (!dialog.open) dialog.showModal();
 }
 
+// Haut de fiche : la photo (avec « Photo d'illustration » si ce n'est pas le lieu lui-même), sinon l'émoji.
+function sheetTop(x, cls = '') {
+  if (!x.photo) return `<div class="a-top ${cls}"><span aria-hidden="true">${x.emoji}</span><button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>`;
+  return `<div class="a-top has-photo"><img src="${esc(x.photo.src)}" alt="${esc(x.nom)}"${x.photo.pos ? ` style="object-position:${esc(x.photo.pos)}"` : ''}>${x.photo.illustration ? '<span class="a-illu">Photo d\'illustration</span>' : ''}<button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>`;
+}
+
 function openSheet(id) {
   const a = guide.activites.find((x) => x.id === id);
   if (!a) return;
@@ -334,9 +340,7 @@ function openSheet(id) {
     ? 'Accès libre, rien à réserver.'
     : `<b>${BOOKING[a.reservation]}</b>${a.reservation_delai ? ` : ${esc(a.reservation_delai)}` : ''}`;
   showDialog($('v-sheet'), `
-    <div class="a-top${a.photo ? ' has-photo' : ''}">${a.photo
-      ? `<img src="${esc(a.photo.src)}" alt="${esc(a.nom)}"${a.photo.pos ? ` style="object-position:${esc(a.photo.pos)}"` : ''}>`
-      : `<span aria-hidden="true">${a.emoji}</span>`}<button type="button" class="a-close" data-close aria-label="Fermer">×</button></div>
+    ${sheetTop(a)}
     <div class="a-body">
       <p class="a-kicker">${esc(TYPES[a.type] || '')} · ${esc(a.quartier)}</p>
       <h2 id="a-title">${esc(a.nom)}</h2>
@@ -371,6 +375,13 @@ function openCredits() {
             <li><b>${esc(a.nom)}</b> : ${esc(a.photo.auteur)}, ${esc(a.photo.licence)} · <a href="${esc(a.photo.page)}" target="_blank" rel="noopener">source</a></li>`).join('')}
           </ul>
         </details>
+        ${(guide.restaurants || []).some((r) => r.photo) ? `
+        <details class="c-more">
+          <summary>Photos des restaurants (${guide.restaurants.filter((r) => r.photo).length})</summary>
+          <ul>${guide.restaurants.filter((r) => r.photo).map((r) => `
+            <li><b>${esc(r.nom)}</b>${r.photo.illustration ? ' (illustration)' : ''} : ${esc(r.photo.auteur)}, ${esc(r.photo.licence)} · <a href="${esc(r.photo.page)}" target="_blank" rel="noopener">source</a></li>`).join('')}
+          </ul>
+        </details>` : ''}
       </div>
       <p class="c-item"><b>Carte</b>© OpenStreetMap contributors, OpenMapTiles, fond OpenFreeMap.</p>
       <p class="c-item"><b>Prix des activités</b>Relevés le ${esc(new Date(guide.verifie_le).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }))} sur les sites officiels et des guides récents. Ils peuvent changer : vérifiez avant de réserver.</p>
@@ -597,7 +608,7 @@ function renderHotels(q) {
   }
   if (hotelsOn) return loadHotels(q, inD, outD, pax, g);
   $('h-hotels').innerHTML = `
-    <button type="button" class="btn btn-main" id="h-search">Voir les hôtels et leurs prix · ${esc(q.nom)}</button>
+    <button type="button" class="btn btn-main" id="h-search">Voir les hôtels et leurs prix dans tout ${esc(cityName)}</button>
     <p class="h-hint">${n} nuit${n > 1 ? 's' : ''} · ${esc(paxLabel(pax))} · ${esc(g.nom)}. Les hôtels apparaissent sur la carte avec leur prix pour vos dates.</p>`;
   $('h-search').onclick = () => { hotelsOn = true; renderHotels(q); };
 }
@@ -649,11 +660,20 @@ function drawZone() {
 // ---------------------------------------------------------------------------
 const HOTELS_CACHE_MIN = 30;
 
+// Recherche sur toute la ville : centre des quartiers du guide, rayon qui les couvre tous.
+function cityArea() {
+  const qs = guide.quartiers;
+  const c = { lat: qs.reduce((s, x) => s + x.lat, 0) / qs.length, lng: qs.reduce((s, x) => s + x.lng, 0) / qs.length };
+  const r = Math.min(6000, Math.max(3000, Math.round((Math.max(...qs.map((x) => km(c, x))) + 2) * 1000)));
+  return { ...c, r };
+}
+
 async function loadHotels(q, inD, outD, pax, g) {
-  const p = new URLSearchParams({ c: code, lat: q.lat.toFixed(4), lng: q.lng.toFixed(4), in: inD, out: outD, adults: pax.adults, children: pax.children.join(','), gamme: g.id });
+  const area = cityArea();
+  const p = new URLSearchParams({ c: code, lat: area.lat.toFixed(4), lng: area.lng.toFixed(4), r: area.r, in: inD, out: outD, adults: pax.adults, children: pax.children.join(','), gamme: g.id });
   const key = p.toString();
   if (hotelResults?.key === key) return showHotels();
-  $('h-hotels').innerHTML = `<p class="h-loading">Recherche des hôtels à ${esc(q.nom)} pour vos dates…</p>`;
+  $('h-hotels').innerHTML = `<p class="h-loading">Recherche des hôtels dans tout ${esc(cityName)} pour vos dates…</p>`;
   let data = null;
   try {
     const cached = JSON.parse(sessionStorage.getItem(`h:${key}`) || 'null');
@@ -670,7 +690,7 @@ async function loadHotels(q, inD, outD, pax, g) {
       return bookingFallback(q, inD, outD, pax, g, 'La recherche d\'hôtels ne répond pas pour le moment.');
     }
   }
-  if (stayDates().inD !== inD || currentQuartier().q.id !== q.id) return; // la recherche a changé entre-temps
+  if (stayDates().inD !== inD || stayDates().outD !== outD) return; // la recherche a changé entre-temps
   if (!data.hotels?.length) return bookingFallback(q, inD, outD, pax, g, `Aucun hôtel « ${g.nom} » trouvé ici pour vos dates.`);
   hotelResults = { key, ...data };
   showHotels();
@@ -697,7 +717,7 @@ function showHotels() {
   $('lg-high').textContent = `> ${Math.round(t.mid)} €/nuit`;
   $('v-legend').hidden = false;
   $('v-map-note').textContent = 'Touchez un prix pour voir l\'hôtel, ou un point pour voir l\'activité.';
-  $('h-list').innerHTML = list.slice(0, 12).map((h) => hotelCard(h, tierOf(h, t))).join('');
+  $('h-list').innerHTML = list.slice(0, 20).map((h) => hotelCard(h, tierOf(h, t))).join('');
   $('h-list').onclick = (e) => {
     const b = e.target.closest('[data-hotel]');
     if (b) openHotel(b.dataset.hotel);
@@ -833,8 +853,8 @@ function openHotel(id) {
 function paintPins() {
   for (const [id, el] of Object.entries(pins)) {
     if (id.startsWith('r:')) { el.style.display = restos.has(id.slice(2)) ? '' : 'none'; continue; } // restaurants : seulement ceux choisis
-    el.classList.toggle('is-on', selected.has(id));
-    el.classList.toggle('is-off', selected.size > 0 && !selected.has(id));
+    el.style.display = selected.has(id) ? '' : 'none'; // seules les activités choisies restent sur la carte
+    el.classList.add('is-on');
   }
 }
 

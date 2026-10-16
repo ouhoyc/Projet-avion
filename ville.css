@@ -359,3 +359,4 @@ body { padding-bottom: 130px; }
 .r-food ul { list-style: none; margin: 0; padding: 0; }
 .r-food li { display: flex; gap: 8px; padding: 5px 0; border-top: 1px solid var(--soft); font-size: 14px; }
 .r-food li span { margin-left: auto; white-space: nowrap; color: var(--muted); }
+.a-top > .a-illu { position: absolute; line-height: 1.4; left: 10px; bottom: 10px; background: rgba(20, 33, 61, .75); color: #fff; font-size: 12px; font-weight: 600; border-radius: 6px; padding: 2px 8px; }

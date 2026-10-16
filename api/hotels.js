@@ -1,7 +1,9 @@
 // Hôtels avec leur prix EN DIRECT autour d'un point (fonction serverless Vercel), pour la
 // partie « Où dormir ? » des pages guides.
 //
-//   GET /api/hotels?c=BCN&lat=41.39&lng=2.16&in=2026-11-27&out=2026-11-30&adults=2&children=8,4&gamme=confort
+//   GET /api/hotels?c=BCN&lat=41.39&lng=2.16&r=4000&in=2026-11-27&out=2026-11-30&adults=2&children=8,4&gamme=confort
+//
+// r = rayon de recherche en mètres (500 à 6000, 1500 par défaut) : toute la ville d'un coup.
 //
 // La clé du fournisseur (LiteAPI) reste ici, côté serveur : elle est lue dans la variable
 // d'environnement LITEAPI_KEY et n'est jamais envoyée au navigateur. Réponses gardées
@@ -65,6 +67,8 @@ export default async function handler(req, res) {
     || children.some((a) => !(Number.isInteger(a) && a >= 0 && a <= 17))) {
     return send(res, 400, { error: 'voyageurs' }, CACHE_ERR);
   }
+  const radius = req.query.r == null ? 1500 : Math.round(Number(req.query.r));
+  if (!(radius >= 500 && radius <= 6000)) return send(res, 400, { error: 'rayon' }, CACHE_ERR);
   const stars = STARS[String(req.query.gamme || 'confort')];
   if (!stars) return send(res, 400, { error: 'gamme' }, CACHE_ERR);
 
@@ -78,14 +82,14 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         latitude: Math.round(lat * 1e4) / 1e4,
         longitude: Math.round(lng * 1e4) / 1e4,
-        radius: 1500,
+        radius,
         checkin, checkout,
         occupancies: [{ adults, children }],
         currency: 'EUR',
         guestNationality: 'FR',
         starRating: stars,
         maxRatesPerHotel: 1,
-        limit: 60,
+        limit: radius > 2000 ? 200 : 60,
         timeout: 8,
       }),
       signal: AbortSignal.timeout(15000),

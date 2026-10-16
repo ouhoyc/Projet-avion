@@ -47,6 +47,10 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Circuit en 5 étapes (#1 à #5) : Vol, Activités, Restos, Hôtel, Réserver. Restaurants dans
   `restaurants` du guide (gamme petit/moyen/haut, badges tendance/recompense/institution, prix,
   réservation) ; choix gardé dans `restos-CODE` ; pas compté dans le total (payé sur place).
+  Photos des restaurants : `img/restos/CODE/ID.jpg` + `mini/`, libres (Commons) ; `illustration: true`
+  quand la photo ne montre pas le lieu lui-même (mention « Photo d'illustration » sur la fiche).
+  Carte des hôtels : seules les activités et restaurants choisis y apparaissent ; les hôtels sont
+  cherchés dans toute la ville (`r` = rayon dans `api/hotels.js`).
 - `api/hotels.js` : hôtels et prix en direct (LiteAPI, clé dans la variable Vercel `LITEAPI_KEY`) ;
   pendant les tests, la remplacer par de fausses données avec `page.route('**/api/hotels**', …)`.
 - `voyageurs.js` + `voyageurs.css` : choix « Qui part ? » (adultes, âges des enfants), gardé

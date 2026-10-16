@@ -1305,6 +1305,13 @@
     "adulte": 4,
     "enfants": [],
     "estimation": true
+   },
+   "photo": {
+    "src": "img/activites/BCN/chok.jpg",
+    "auteur": "Kiran Foster",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate-glazed_doughnut_with_sprinkles_%287429937320%29.jpg",
+    "illustration": true
    }
   },
   {
@@ -1346,6 +1353,13 @@
      ]
     ],
     "estimation": true
+   },
+   "photo": {
+    "src": "img/activites/BCN/mirablau.jpg",
+    "auteur": "Santiago Puig Vilado",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelona_at_night_from_Fabra_Observatory%27s_Restaurant_-_panoramio.jpg",
+    "illustration": true
    }
   }
  ],
@@ -1405,7 +1419,14 @@
    ],
    "texte": "Des pizzas napolitaines à la pâte parfaite, souvent citées parmi les meilleures d'Europe. La file d'attente fait partie du rituel.",
    "reservation": "conseille",
-   "reservation_delai": "quelques jours avant, ou venez à l'ouverture"
+   "reservation_delai": "quelques jours avant, ou venez à l'ouverture",
+   "photo": {
+    "src": "img/restos/BCN/panatieri.jpg",
+    "auteur": "Fabryx98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza-napoletana.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "can-paixano",
@@ -1425,7 +1446,13 @@
    ],
    "texte": "Un comptoir bondé où l'on boit le cava rosé maison avec de petits sandwichs chauds, debout et coude à coude. Bruyant, joyeux, inoubliable.",
    "reservation": "sur_place",
-   "reservation_delai": "pas de réservation : arrivez à l'ouverture"
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture",
+   "photo": {
+    "src": "img/restos/BCN/can-paixano.jpg",
+    "auteur": "robertorodriguex",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_laureado_pan_con_chorizo_%28y_cava%29..._%40_Can_Paixano_%28aka_La_Champa%C3%B1er%C3%ADa%29%2C_BCN%2C_ES.jpg"
+   }
   },
   {
    "id": "brunch-cake",
@@ -1444,7 +1471,14 @@
    ],
    "texte": "Le brunch le plus photographié de la ville : assiettes colorées, pancakes géants, avocats en fleur. Parfait pour bien commencer la journée.",
    "reservation": "sur_place",
-   "reservation_delai": "file d'attente le week-end : venez tôt"
+   "reservation_delai": "file d'attente le week-end : venez tôt",
+   "photo": {
+    "src": "img/restos/BCN/brunch-cake.jpg",
+    "auteur": "Herson Rodriguez",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pancakes_with_Berries_%28Unsplash%29.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "cova-fumada",
@@ -1463,7 +1497,13 @@
    ],
    "texte": "Pas d'enseigne, des tables en marbre et la « bomba », la boulette de pomme de terre piquante née ici. Le vrai Barceloneta des pêcheurs.",
    "reservation": "sur_place",
-   "reservation_delai": "surtout le midi, pas de réservation"
+   "reservation_delai": "surtout le midi, pas de réservation",
+   "photo": {
+    "src": "img/restos/BCN/cova-fumada.jpg",
+    "auteur": "Cataleirxs",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Cova_Fumada.jpg"
+   }
   },
   {
    "id": "can-culleretes",
@@ -1484,7 +1524,13 @@
    "texte": "Le plus vieux restaurant de Barcelone, ouvert en 1786. Cannelloni, canard aux poires, crème catalane : la cuisine des grands-mères, à prix doux.",
    "reservation": "conseille",
    "reservation_delai": "2 ou 3 jours avant",
-   "recompense": "Bib Gourmand Michelin"
+   "recompense": "Bib Gourmand Michelin",
+   "photo": {
+    "src": "img/restos/BCN/can-culleretes.jpg",
+    "auteur": "Enfo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:88_Can_Culleretes%2C_interior%2C_mural_de_Francesc_Tey.JPG"
+   }
   },
   {
    "id": "moritz",
@@ -1502,7 +1548,13 @@
     "institution"
    ],
    "texte": "La brasserie historique de la ville, dans une usine rénovée par Jean Nouvel. Bière brassée sur place, tapas et grandes tablées.",
-   "reservation": "sur_place"
+   "reservation": "sur_place",
+   "photo": {
+    "src": "img/restos/BCN/moritz.jpg",
+    "auteur": "Coentor",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C3%A0brica_Moritz_-_12.jpeg"
+   }
   },
   {
    "id": "cerveceria-catalana",
@@ -1521,7 +1573,14 @@
    ],
    "texte": "La référence des tapas à Barcelone : un comptoir qui déborde de montaditos et de fritures, des serveurs rapides, une salle toujours pleine.",
    "reservation": "sur_place",
-   "reservation_delai": "souvent une file : venez tôt (avant 13 h ou 20 h)"
+   "reservation_delai": "souvent une file : venez tôt (avant 13 h ou 20 h)",
+   "photo": {
+    "src": "img/restos/BCN/cerveceria-catalana.jpg",
+    "auteur": "Basotxerri",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barra_de_pintxos_Donosti_02.JPG",
+    "illustration": true
+   }
   },
   {
    "id": "el-nacional",
@@ -1540,7 +1599,13 @@
    ],
    "texte": "Une immense halle Art déco cachée derrière le passeig de Gràcia, avec plusieurs restaurants et bars sous la même verrière. Le décor vaut à lui seul le détour.",
    "reservation": "conseille",
-   "reservation_delai": "la veille, ou le jour même au comptoir"
+   "reservation_delai": "la veille, ou le jour même au comptoir",
+   "photo": {
+    "src": "img/restos/BCN/el-nacional.jpg",
+    "auteur": "Mx. Granger",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Nacional_restaurant.jpg"
+   }
   },
   {
    "id": "la-paradeta",
@@ -1559,7 +1624,14 @@
    ],
    "texte": "On choisit ses crevettes, palourdes et poissons au comptoir comme au marché, on paie au poids et on attend son numéro. Ultra frais, sans chichis.",
    "reservation": "sur_place",
-   "reservation_delai": "pas de réservation : venez à l'ouverture"
+   "reservation_delai": "pas de réservation : venez à l'ouverture",
+   "photo": {
+    "src": "img/restos/BCN/la-paradeta.jpg",
+    "auteur": "Tamorlan",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gambas_a_la_plancha-Mad.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "7-portes",
@@ -1578,7 +1650,13 @@
    ],
    "texte": "Ouvert en 1836, ce grand restaurant aux banquettes de velours sert la paella depuis des générations. Le classique absolu pour un repas de fête.",
    "reservation": "conseille",
-   "reservation_delai": "quelques jours avant"
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "src": "img/restos/BCN/7-portes.jpg",
+    "auteur": "Tamorlan",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paella_Parellada_%287_Portes%29.jpg"
+   }
   },
   {
    "id": "casa-leopoldo",
@@ -1598,7 +1676,13 @@
    "texte": "Une maison historique du Raval, tout en azulejos, relancée avec talent. Produits du marché et grands plats catalans, servis avec élégance.",
    "reservation": "conseille",
    "reservation_delai": "une semaine avant",
-   "recompense": "Bib Gourmand Michelin"
+   "recompense": "Bib Gourmand Michelin",
+   "photo": {
+    "src": "img/restos/BCN/casa-leopoldo.jpg",
+    "auteur": "Pere López Brosa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_Leopoldo_-_20240623_224925.jpg"
+   }
   },
   {
    "id": "casa-lolea",
@@ -1617,7 +1701,14 @@
    ],
    "texte": "Murs à pois, bouteilles rétro et la célèbre sangria maison : un bar à vermouth plein de charme, idéal pour un apéritif qui se prolonge.",
    "reservation": "conseille",
-   "reservation_delai": "la veille"
+   "reservation_delai": "la veille",
+   "photo": {
+    "src": "img/restos/BCN/casa-lolea.jpg",
+    "auteur": "David Stone",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sangria1.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "martinez",
@@ -1636,7 +1727,14 @@
    ],
    "texte": "Une terrasse accrochée à Montjuïc avec tout le port à vos pieds. On y vient pour la paella au coucher du soleil.",
    "reservation": "conseille",
-   "reservation_delai": "une semaine avant pour le coucher du soleil"
+   "reservation_delai": "une semaine avant pour le coucher du soleil",
+   "photo": {
+    "src": "img/restos/BCN/martinez.jpg",
+    "auteur": "Enfo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_port_vell_i_la_Barceloneta_des_de_Miramar.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "botafumeiro",
@@ -1655,7 +1753,14 @@
    ],
    "texte": "Depuis 1975, la grande maison des fruits de mer à la galicienne : plateaux royaux, serveurs en veste blanche et ambiance de fête.",
    "reservation": "conseille",
-   "reservation_delai": "quelques jours avant"
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "src": "img/restos/BCN/botafumeiro.jpg",
+    "auteur": "Xemenendura",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mariscada%2C_Santiago._Galicia.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "disfrutar",
@@ -1676,7 +1781,13 @@
    "texte": "Élu meilleur restaurant du monde en 2024. Un menu dégustation plein de surprises et d'humour, par trois anciens chefs d'El Bulli. Le repas d'une vie.",
    "reservation": "indispensable",
    "reservation_delai": "2 à 3 mois avant, dès l'ouverture des réservations",
-   "recompense": "3 étoiles Michelin · n° 1 mondial (World's 50 Best 2024)"
+   "recompense": "3 étoiles Michelin · n° 1 mondial (World's 50 Best 2024)",
+   "photo": {
+    "src": "img/restos/BCN/disfrutar.jpg",
+    "auteur": "Pere prlpz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Disfrutar.jpg"
+   }
   },
   {
    "id": "cinc-sentits",
@@ -1696,7 +1807,13 @@
    "texte": "Les produits de Catalogne racontés en un menu dégustation raffiné, dans une salle intime. Une grande table, sans esbroufe.",
    "reservation": "indispensable",
    "reservation_delai": "2 à 4 semaines avant",
-   "recompense": "Étoilé Michelin"
+   "recompense": "Étoilé Michelin",
+   "photo": {
+    "src": "img/restos/BCN/cinc-sentits.jpg",
+    "auteur": "City Foodsters",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cinc_Sentits.jpg"
+   }
   },
   {
    "id": "enigma",
@@ -1717,7 +1834,14 @@
    "texte": "Le restaurant-labyrinthe d'Albert Adrià : on passe de salle en salle au fil d'un menu spectaculaire. Une expérience autant qu'un repas.",
    "reservation": "indispensable",
    "reservation_delai": "1 à 2 mois avant",
-   "recompense": "Étoilé Michelin"
+   "recompense": "Étoilé Michelin",
+   "photo": {
+    "src": "img/restos/BCN/enigma.jpg",
+    "auteur": "Harry Van den Bulck",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Celler_de_Can_Roca_Menu_2013-07_05.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "1881",
@@ -1736,7 +1860,13 @@
    ],
    "texte": "Sur le toit du musée d'Histoire de la Catalogne, une terrasse face aux bateaux. Côte de bœuf grillée au feu de bois et vue sur le port.",
    "reservation": "conseille",
-   "reservation_delai": "quelques jours avant"
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "src": "img/restos/BCN/1881.jpg",
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barcelona_Palau_de_Mar_%2851136255137%29.jpg"
+   }
   }
  ]
 }
