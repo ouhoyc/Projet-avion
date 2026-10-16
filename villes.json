@@ -4994,5 +4994,722 @@
       ],
       "source": "Service météo lituanien / OMM, normales 1991–2020 (Vilnius)"
     }
+  },
+  "CFU": {
+    "pitch": "L'île verte de la mer Ionienne : criques turquoise, oliviers centenaires, villages vénitiens et une douceur de vivre toute grecque.",
+    "photo": {
+      "src": "img/villes/CFU.jpg",
+      "alt": "Crique turquoise de Paleokastritsa entre falaises et fleurs jaunes",
+      "author": "Jocelyn777",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Paleokastritsa,_Corfu_-_Greece.jpg"
+    },
+    "climate": {
+      "min": [
+        5.3,
+        5.7,
+        7.1,
+        9.6,
+        13.3,
+        16.9,
+        18.9,
+        19.3,
+        16.8,
+        13.7,
+        10.2,
+        7.0
+      ],
+      "max": [
+        13.9,
+        14.1,
+        16.0,
+        19.1,
+        24.0,
+        28.2,
+        31.2,
+        31.5,
+        27.5,
+        23.2,
+        18.7,
+        15.2
+      ],
+      "pluie": [
+        14.8,
+        13.4,
+        12.9,
+        12.2,
+        7.7,
+        4.8,
+        3.3,
+        3.3,
+        7.4,
+        11.4,
+        14.7,
+        16.5
+      ],
+      "soleil": [
+        117.7,
+        116.8,
+        116.0,
+        206.5,
+        276.8,
+        324.2,
+        364.5,
+        332.8,
+        257.1,
+        188.9,
+        133.5,
+        110.9
+      ],
+      "source": "HNMS, normales 1955–2010 (Corfou) ; ensoleillement NOAA 1961–1990 ; seuil des jours de pluie non précisé"
+    }
+  },
+  "DUB": {
+    "pitch": "L'esprit irlandais : pubs chaleureux et musique live, Guinness à la source, quartiers géorgiens et falaises sauvages à deux pas.",
+    "photo": {
+      "src": "img/villes/DUB.jpg",
+      "alt": "La Custom House au bord de la Liffey sous un ciel bleu",
+      "author": "Christian David",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dublin_Custom_House_in_2025.jpg"
+    },
+    "climate": {
+      "min": [
+        2.3,
+        2.2,
+        3.0,
+        4.0,
+        6.6,
+        9.0,
+        11.3,
+        11.2,
+        9.5,
+        7.1,
+        4.3,
+        2.6
+      ],
+      "max": [
+        8.0,
+        8.5,
+        10.1,
+        12.3,
+        14.8,
+        17.7,
+        19.5,
+        19.1,
+        16.9,
+        13.6,
+        10.3,
+        8.3
+      ],
+      "pluie": [
+        12.5,
+        11.0,
+        10.7,
+        11.1,
+        10.5,
+        9.8,
+        11.6,
+        11.8,
+        10.7,
+        11.6,
+        12.5,
+        13.3
+      ],
+      "soleil": [
+        59.1,
+        81.4,
+        115.1,
+        161.4,
+        199.2,
+        179.2,
+        156.5,
+        155.8,
+        130.5,
+        105.3,
+        73.1,
+        53.9
+      ],
+      "source": "Met Éireann, normales 1991–2020 (aéroport de Dublin)"
+    }
+  },
+  "QSF": {
+    "pitch": "Les Hauts Plateaux et leurs trésors : la cité romaine de Djémila classée à l'UNESCO, la célèbre fontaine d'Aïn El Fouara et l'hospitalité sétifienne.",
+    "photo": {
+      "src": "img/villes/QSF.jpg",
+      "alt": "Colonnade romaine de Djémila (UNESCO), wilaya de Sétif, sous un ciel bleu",
+      "author": "Alioueche Mokhtar",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Roman_Ruins_of_Djemila_in_S%C3%A9tif,_Algeria.jpg"
+    },
+    "climate": {
+      "min": [
+        1.5,
+        2.1,
+        4.4,
+        6.6,
+        11.1,
+        16.0,
+        19.4,
+        19.5,
+        15.4,
+        11.3,
+        6.1,
+        2.7
+      ],
+      "max": [
+        9.4,
+        11.2,
+        14.3,
+        17.3,
+        22.9,
+        29.3,
+        33.3,
+        32.7,
+        27.1,
+        21.3,
+        14.5,
+        10.3
+      ],
+      "pluie": [
+        10.8,
+        10.1,
+        9.2,
+        9.0,
+        8.2,
+        5.5,
+        2.8,
+        4.5,
+        7.6,
+        8.0,
+        10.0,
+        12.3
+      ],
+      "source": "OMM, moyennes 1976–2005 (Sétif), via Wikipédia allemand ; seuil des jours de pluie non précisé ; ensoleillement non disponible"
+    }
+  },
+  "BRU": {
+    "pitch": "La plus belle place du monde, des frites et des gaufres : Grand-Place dorée, bières d'abbaye, BD à chaque coin de rue et chocolat partout.",
+    "photo": {
+      "src": "img/villes/BRU.jpg",
+      "alt": "Maisons des corporations de la Grand-Place illuminées à l'heure bleue",
+      "author": "Benoit Brummer",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Grand_Place_1-7_during_civil_twilight,_Brussels_(DSCF1982).jpg"
+    },
+    "climate": {
+      "min": [
+        1.4,
+        1.5,
+        3.5,
+        6.0,
+        9.2,
+        12.0,
+        14.1,
+        13.9,
+        11.3,
+        8.1,
+        4.6,
+        2.1
+      ],
+      "max": [
+        6.1,
+        7.1,
+        10.9,
+        15.0,
+        18.4,
+        21.2,
+        23.2,
+        23.0,
+        19.5,
+        14.9,
+        9.9,
+        6.6
+      ],
+      "soleil": [
+        59.1,
+        72.9,
+        125.8,
+        171.3,
+        198.3,
+        199.3,
+        203.2,
+        192.4,
+        154.5,
+        112.6,
+        65.8,
+        48.6
+      ],
+      "source": "IRM, normales 1991–2020 (Uccle) ; jours de pluie ≥ 0,1 mm (pas de série ≥ 1 mm trouvée)"
+    }
+  },
+  "MIR": {
+    "pitch": "La Tunisie balnéaire en toute simplicité : plages de sable fin, ribat millénaire face à la mer et soleil généreux d'avril à octobre.",
+    "photo": {
+      "src": "img/villes/MIR.jpg",
+      "alt": "Corniche et plage de Karaya, vagues et palmiers",
+      "author": "Monastir",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Monastir-_Al_Qurayyah_beach.jpg"
+    },
+    "climate": {
+      "min": [
+        8.7,
+        9.0,
+        11.2,
+        13.6,
+        16.9,
+        20.5,
+        23.2,
+        24.1,
+        22.1,
+        18.8,
+        13.6,
+        9.9
+      ],
+      "max": [
+        16.9,
+        17.2,
+        19.5,
+        21.8,
+        25.5,
+        29.5,
+        32.5,
+        33.1,
+        29.8,
+        26.5,
+        21.9,
+        18.1
+      ],
+      "pluie": [
+        4.7,
+        4.3,
+        4.1,
+        4.3,
+        2.9,
+        1.3,
+        0.4,
+        1.4,
+        5.0,
+        4.4,
+        4.5,
+        4.6
+      ],
+      "soleil": [
+        178.9,
+        188.2,
+        221.4,
+        240.7,
+        291.8,
+        315.4,
+        350.7,
+        323.7,
+        243.5,
+        221.6,
+        195.0,
+        171.8
+      ],
+      "source": "INM Tunisie, normales 1991–2020 (Monastir) ; ensoleillement 1981–2010"
+    }
+  },
+  "KUT": {
+    "pitch": "La Géorgie authentique : vieille ville au bord de la rivière, monastères classés à l'UNESCO, grottes spectaculaires et vin géorgien à petits prix.",
+    "photo": {
+      "src": "img/villes/KUT.jpg",
+      "alt": "Koutaïssi et la rivière Rioni dans la lumière dorée du matin",
+      "author": "Roberto Strauss",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kutaisi_Golden_morning.jpg"
+    },
+    "climate": {
+      "min": [
+        3.7,
+        3.6,
+        6.2,
+        9.7,
+        14.0,
+        17.8,
+        20.5,
+        20.7,
+        17.6,
+        13.8,
+        8.8,
+        5.5
+      ],
+      "max": [
+        9.7,
+        10.9,
+        14.7,
+        19.9,
+        24.5,
+        27.6,
+        29.4,
+        30.2,
+        27.0,
+        22.3,
+        16.0,
+        11.6
+      ],
+      "pluie": [
+        12.5,
+        11.1,
+        12.5,
+        9.9,
+        9.2,
+        8.9,
+        8.8,
+        7.4,
+        8.3,
+        9.5,
+        10.4,
+        11.4
+      ],
+      "source": "NOAA, normales 1991–2020 (Koutaïssi) ; ensoleillement non disponible"
+    }
+  },
+  "NCE": {
+    "pitch": "La Riviera dans toute sa splendeur : baie des Anges turquoise, promenade des Anglais, vieux Nice coloré et soleil presque toute l'année.",
+    "photo": {
+      "src": "img/villes/NCE.jpg",
+      "alt": "Panorama du Vieux-Nice et de la baie des Anges depuis la colline du Château",
+      "author": "Spike",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nice_from_Castle_Hill_01.jpg"
+    },
+    "climate": {
+      "min": [
+        5.8,
+        6.1,
+        8.3,
+        10.8,
+        14.5,
+        18.1,
+        20.8,
+        21.1,
+        17.7,
+        14.0,
+        9.7,
+        6.6
+      ],
+      "max": [
+        13.3,
+        13.5,
+        15.4,
+        17.4,
+        21.0,
+        24.7,
+        27.5,
+        27.9,
+        24.8,
+        21.0,
+        17.0,
+        14.1
+      ],
+      "pluie": [
+        5.8,
+        5.1,
+        4.9,
+        6.4,
+        5.1,
+        3.8,
+        1.8,
+        2.3,
+        4.9,
+        7.5,
+        8.5,
+        6.0
+      ],
+      "soleil": [
+        156.7,
+        166.1,
+        218.0,
+        229.2,
+        270.9,
+        309.8,
+        349.3,
+        323.2,
+        249.8,
+        191.1,
+        151.5,
+        145.2
+      ],
+      "source": "Météo-France, normales 1991–2020 (aéroport Nice-Côte d'Azur)"
+    }
+  },
+  "OUD": {
+    "pitch": "L'Oriental marocain hors des sentiers battus : médina et remparts ocres, jardins verdoyants et plages de Saïdia à une heure.",
+    "photo": {
+      "src": "img/villes/OUD.jpg",
+      "alt": "Porte Bab Sidi Aïssa et remparts de la médina à l'heure bleue",
+      "author": "Brahim Faraji",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bab_Sidi_Aissa_Oujda_Brahim_FARAJI_2.jpg"
+    },
+    "climate": {
+      "min": [
+        4.3,
+        5.0,
+        6.9,
+        8.7,
+        11.7,
+        15.4,
+        18.7,
+        19.4,
+        16.3,
+        12.9,
+        8.6,
+        5.7
+      ],
+      "max": [
+        16.6,
+        17.5,
+        20.1,
+        22.4,
+        26.1,
+        30.5,
+        34.5,
+        34.8,
+        30.2,
+        26.3,
+        20.5,
+        17.5
+      ],
+      "pluie": [
+        4.8,
+        4.3,
+        4.5,
+        4.7,
+        3.2,
+        1.0,
+        0.4,
+        1.2,
+        2.4,
+        3.8,
+        4.6,
+        4.3
+      ],
+      "soleil": [
+        197.5,
+        189.9,
+        229.0,
+        249.5,
+        284.6,
+        312.4,
+        333.3,
+        314.1,
+        255.0,
+        227.6,
+        193.6,
+        188.1
+      ],
+      "source": "NOAA, normales 1991–2020 (aéroport d'Oujda) ; ensoleillement 1981–2010"
+    }
+  },
+  "EDI": {
+    "pitch": "Une capitale de légende : château perché sur son rocher, ruelles médiévales, pubs à whisky et le festival le plus fou du monde en août.",
+    "photo": {
+      "src": "img/villes/EDI.jpg",
+      "alt": "Le château d'Édimbourg sur son rocher dans une lumière dorée",
+      "author": "Saffron Blaze",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_Rock.jpg"
+    },
+    "climate": {
+      "min": [
+        1.7,
+        1.7,
+        2.9,
+        4.7,
+        7.1,
+        9.9,
+        11.6,
+        11.5,
+        9.7,
+        6.7,
+        3.8,
+        1.6
+      ],
+      "max": [
+        7.3,
+        8.0,
+        9.7,
+        12.2,
+        14.9,
+        17.4,
+        19.3,
+        19.1,
+        16.9,
+        13.4,
+        9.9,
+        7.3
+      ],
+      "pluie": [
+        12.4,
+        9.8,
+        9.8,
+        8.6,
+        9.6,
+        10.4,
+        11.5,
+        10.4,
+        9.9,
+        11.7,
+        11.7,
+        12.3
+      ],
+      "soleil": [
+        55.2,
+        82.2,
+        117.3,
+        157.3,
+        194.7,
+        161.8,
+        169.9,
+        160.0,
+        130.1,
+        99.4,
+        72.1,
+        49.2
+      ],
+      "source": "Met Office, normales 1991–2020 (Royal Botanic Garden, Édimbourg)"
+    }
+  },
+  "BUH": {
+    "pitch": "Le petit Paris de l'Est : palais Belle Époque, grands parcs, vieille ville animée et une vie nocturne débordante à prix doux.",
+    "photo": {
+      "src": "img/villes/BUH.jpg",
+      "alt": "Façade néoclassique de l'Athénée roumain sous un ciel bleu",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ateneo_Rumano,_Bucarest,_Ruman%C3%ADa,_2016-05-29,_DD_74.jpg"
+    },
+    "climate": {
+      "min": [
+        -5.0,
+        -3.5,
+        0.3,
+        4.9,
+        9.7,
+        13.9,
+        15.6,
+        15.2,
+        10.7,
+        5.7,
+        1.4,
+        -3.3
+      ],
+      "max": [
+        3.0,
+        6.3,
+        12.3,
+        18.5,
+        24.1,
+        28.1,
+        30.4,
+        30.6,
+        25.0,
+        18.0,
+        10.5,
+        4.2
+      ],
+      "pluie": [
+        6.1,
+        5.4,
+        6.3,
+        6.2,
+        8.4,
+        8.3,
+        7.1,
+        5.2,
+        4.9,
+        5.6,
+        5.4,
+        6.7
+      ],
+      "soleil": [
+        78.8,
+        107.1,
+        156.7,
+        195.3,
+        245.4,
+        259.4,
+        293.4,
+        283.0,
+        208.7,
+        149.6,
+        84.8,
+        63.9
+      ],
+      "source": "NOAA, normales 1991–2020 (Bucarest-Băneasa)"
+    }
+  },
+  "JED": {
+    "pitch": "La porte de la mer Rouge : vieille ville d'Al-Balad aux balcons de bois sculpté, corniche au coucher du soleil et plongée sur des récifs préservés.",
+    "photo": {
+      "src": "img/villes/JED.jpg",
+      "alt": "Maisons à moucharabiehs (rawashin) d'Al-Balad, centre historique UNESCO",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Old_Jeddah_(Al_Balad)_architecture_3_Feb_2022.jpg"
+    },
+    "climate": {
+      "min": [
+        18.8,
+        19.0,
+        20.2,
+        22.8,
+        25.0,
+        25.8,
+        27.6,
+        28.6,
+        27.3,
+        25.0,
+        22.9,
+        20.6
+      ],
+      "max": [
+        28.8,
+        29.8,
+        31.7,
+        34.5,
+        37.1,
+        38.3,
+        39.4,
+        38.7,
+        37.4,
+        36.6,
+        33.3,
+        30.6
+      ],
+      "pluie": [
+        1.1,
+        0.3,
+        0.4,
+        0.2,
+        0.1,
+        0.0,
+        0.1,
+        0.2,
+        0.0,
+        0.4,
+        1.9,
+        0.7
+      ],
+      "soleil": [
+        236.0,
+        232.2,
+        261.0,
+        273.7,
+        300.8,
+        295.8,
+        300.3,
+        278.3,
+        252.7,
+        265.5,
+        246.1,
+        236.2
+      ],
+      "source": "NOAA, normales 1991–2020 (Djeddah) ; ensoleillement DWD 1994–2022"
+    }
   }
 }
