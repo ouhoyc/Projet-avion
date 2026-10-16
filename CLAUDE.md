@@ -66,11 +66,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Prochaines étapes prévues
-1. **Nom et logo :**
-   - le propriétaire veut un seul mot simple, comme Amazon ou Booking ;
-   - ma proposition préférée est « Envolo » (.fr peut-être libre) ;
-   - pour le logo, un avion reconnaissable : 3 pistes à dessiner (pastille ronde, traînée en
-     pointillés formant l'initiale, étiquette de bagage).
+1. **Nom et logo : en pause** (voir point 11 d'`IDEES.md` : critères, noms écartés, noms libres).
+   Priorité du propriétaire : la vision **voyage clé en main** (point 4) et une **application
+   sur les stores** (point 12).
 2. Régler la liste « Problèmes à régler » d'`IDEES.md` en une fois, quand il le demande.
 3. Ensuite, piste « donner envie » : choisir par envies (soleil, ville, fête…), « Surprends-moi ».
 4. Affiliation Kiwi.com en attente chez Travelpayouts (lien partenaire à mettre dans

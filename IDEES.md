@@ -45,6 +45,25 @@ hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
 
 ## À faire
 
+### 11. ⏸ Nom et logo (mis de côté le 16/10/2026)
+On reprendra quand la vision « voyage clé en main » et l'application seront plus claires
+(le nom doit coller à tout le voyage, pas seulement aux vols).
+- Souhait : un mot inventé, court, facile à dire dans toutes les langues, qui « sonne classe »
+  (comme Amazon, Rolex) ; le sens viendra du logo et du slogan. **Le .com doit être libre.**
+- Constat : tous les mots agréables de 5 lettres sont pris en .com → viser 6-7 lettres.
+- Écartés : Envolo (.com pris, trop français), Voloko (.com pris depuis 2016),
+  Voloco (.com pris, et appli de chant très connue).
+- Libres en .com et .fr le 16/10/2026 : Livaka (cache « vaca(nces) »), Tovako, Vantoli,
+  Lozava, Zolako, Jonura, Volokko, Voluko, Volakko.
+- Avant de choisir : vérifier les marques (INPI, EUIPO) et la disponibilité du nom sur
+  l'App Store et Google Play.
+- Logo : 3 pistes déjà dessinées pour Envolo (pastille ronde, traînée en « E », étiquette de
+  bagage) ; à refaire avec le nom retenu.
+
+### 12. 💡 Application sur les stores (App Store, Google Play)
+Le propriétaire compte sortir une vraie application. À décider : comment la fabriquer à partir
+du site actuel, et à quel moment (avant ou après le « clé en main »).
+
 ### 10. 💡 Donner envie (inspiration)
 Pour quelqu'un qui ne sait pas où aller, un prix ne suffit pas. Pistes :
 - choisir par **envie** plutôt que par pays : soleil & plage, ville, nature, fête, culture,
