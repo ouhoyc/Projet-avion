@@ -122,6 +122,8 @@ html[data-da^="pop"] {
 [data-da^="pop"] .stay-chips input:checked + span { background: var(--ink); color: var(--paper); transform: translate(2px, 2px); box-shadow: none; }
 [data-da^="pop"] .stay-chips input:checked + span::before { background: var(--ink); border-color: var(--paper); }
 [data-da^="pop"] .field > label.exact-check { font-family: inherit; font-size: 14px; font-weight: 600; text-transform: none; letter-spacing: 0; justify-content: flex-start; }
+[data-da^="pop"] .where-box input::placeholder { color: var(--ink); }
+[data-da^="pop"] .where-list li[aria-selected="true"] { background: var(--paper); }
 [data-da^="pop"] .exact-check input { border-color: var(--ink); background: #fff; box-shadow: 2px 2px 0 var(--ink); }
 [data-da^="pop"] .exact-check input:checked { background: var(--ink); }
 [data-da^="pop"] .exact-check input:checked::after { border-color: #fff; }
@@ -129,7 +131,7 @@ html[data-da^="pop"] {
 [data-da^="pop"] .stay-explain { color: var(--ink); background: color-mix(in srgb, var(--coral) 10%, #fff); border-left-color: var(--coral); }
 [data-da^="pop"] .search-recap { color: var(--ink); }
 [data-da^="pop"] .search-recap b { color: #e0502f; }
-[data-da^="pop"] .select select, [data-da^="pop"] .picker-btn, [data-da^="pop"] .euro-input input { border: 2px solid var(--ink); background: #fff; }
+[data-da^="pop"] .where-box input, [data-da^="pop"] .where-list, [data-da^="pop"] .select select, [data-da^="pop"] .picker-btn, [data-da^="pop"] .euro-input input { border: 2px solid var(--ink); background: #fff; }
 [data-da^="pop"] .btn-primary { border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); font-weight: 700; }
 [data-da^="pop"] .btn-primary:active { transform: translate(3px, 3px); box-shadow: none; }
 

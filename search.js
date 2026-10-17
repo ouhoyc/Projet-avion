@@ -23,7 +23,9 @@ const sEls = {
   exact: $('s-exact'),
   country: $('s-country'),
   city: $('s-city'),
-  cityField: $('s-city-field'),
+  where: $('s-where'),
+  whereList: $('s-where-list'),
+  whereClear: $('s-where-clear'),
   from: $('s-from'),
   to: $('s-to'),
   budget: $('s-budget'),
@@ -94,14 +96,7 @@ function setupSearchForm() {
 
   for (const el of [sEls.refineCountry, sEls.sort]) el.addEventListener('change', () => applyView(false));
 
-  // Pays puis ville (facultative) : la recherche se relance aussitôt.
-  sEls.country.addEventListener('change', () => {
-    fillCities();
-    if (readyToSearch()) runSearch();
-  });
-  sEls.city.addEventListener('change', () => {
-    if (readyToSearch()) runSearch();
-  });
+  setupWhere();
 
   // « Voir » (liste ou bulle de la carte) : panneau de réservation avec vérification en direct.
   document.addEventListener('click', (e) => {
@@ -162,7 +157,7 @@ function setupSearchForm() {
   setupCredits();
 
   document.addEventListener('data-ready', () => {
-    fillCountries();
+    fillPlaces();
     updateFormHelp();
     // Durée déjà choisie lors d'une visite précédente : on lance directement la recherche.
     let saved = null;
@@ -172,23 +167,120 @@ function setupSearchForm() {
   });
 }
 
-// Pays (ordre alphabétique) ; la liste des villes apparaît quand un pays est choisi.
-function fillCountries() {
-  const countries = [...new Set(data.destinations.map((d) => d.country).filter(Boolean))]
-    .sort((a, b) => a.localeCompare(b, 'fr'));
-  for (const c of countries) sEls.country.add(new Option(c, c));
-}
+// « Où ? » : on tape une ville ou un pays ; la liste propose les correspondances (sans tenir
+// compte des accents). Champ vide ou croix = « N'importe où ».
+let places = [];
+const normText = (t) => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
-function fillCities() {
-  const country = sEls.country.value;
+function fillPlaces() {
+  const countries = new Map();
   const cities = new Map();
   for (const d of data.destinations) {
-    if (d.country === country && !cities.has(d.city_code)) cities.set(d.city_code, d);
+    if (!d.country) continue;
+    if (!countries.has(d.country)) countries.set(d.country, { type: 'country', label: d.country, country: d.country, cc: d.country_code });
+    if (!cities.has(d.city_code)) cities.set(d.city_code, { type: 'city', label: d.city, country: d.country, cc: d.country_code, code: d.city_code });
   }
-  const sorted = [...cities.values()].sort((a, b) => a.city.localeCompare(b.city, 'fr'));
-  sEls.city.innerHTML = '<option value="">Toutes les villes</option>'
-    + sorted.map((d) => `<option value="${escapeHtml(d.city_code)}">${escapeHtml(d.city)}</option>`).join('');
-  sEls.cityField.hidden = !country;
+  places = [...countries.values(), ...cities.values()]
+    .map((p) => ({ ...p, key: normText(p.label) }))
+    .sort((a, b) => a.label.localeCompare(b.label, 'fr'));
+}
+
+function whereLabel() {
+  if (sEls.city.value) {
+    const p = places.find((x) => x.type === 'city' && x.code === sEls.city.value);
+    return p ? `${p.label} (${p.country})` : '';
+  }
+  return sEls.country.value;
+}
+
+function setupWhere() {
+  const input = sEls.where;
+  const list = sEls.whereList;
+  let shown = [];
+  let active = -1;
+
+  const open = (isOpen) => {
+    list.hidden = !isOpen;
+    input.setAttribute('aria-expanded', String(isOpen));
+  };
+  const paint = () => {
+    [...list.children].forEach((li, i) => li.setAttribute('aria-selected', String(i === active)));
+    list.children[active]?.scrollIntoView({ block: 'nearest' });
+  };
+  const render = () => {
+    const q = normText(input.value);
+    if (!q) {
+      shown = places.filter((p) => p.type === 'country'); // champ vide : tous les pays
+    } else {
+      // Ordre : pays puis villes dont le nom commence par la saisie, villes de ces pays,
+      // puis les noms qui contiennent la saisie ailleurs.
+      const rank = (p) => {
+        const starts = p.key.startsWith(q) || p.key.includes(` ${q}`);
+        if (starts) return p.type === 'country' ? 0 : 1;
+        if (p.type === 'city' && normText(p.country).startsWith(q)) return 2;
+        return p.key.includes(q) ? 3 : -1;
+      };
+      shown = places.map((p) => [rank(p), p]).filter(([r]) => r >= 0)
+        .sort((a, b) => a[0] - b[0]).map(([, p]) => p);
+    }
+    active = q && shown.length ? 0 : -1;
+    list.innerHTML = shown.length
+      ? shown.map((p, i) => `<li role="option" id="where-opt-${i}" data-i="${i}">${flag(p.cc)}<span>${escapeHtml(p.label)}</span><small>${
+        p.type === 'country' ? 'Pays' : escapeHtml(p.country)}</small></li>`).join('')
+      : '<li class="where-empty">Aucun vol direct vers ce lieu</li>';
+    paint();
+    open(true);
+  };
+  const choose = (p) => {
+    sEls.country.value = p ? p.country : '';
+    sEls.city.value = p && p.type === 'city' ? p.code : '';
+    input.value = whereLabel();
+    sEls.whereClear.hidden = !input.value;
+    open(false);
+    if (readyToSearch()) runSearch();
+  };
+
+  input.addEventListener('focus', () => { if (places.length) { input.select(); render(); } });
+  input.addEventListener('input', () => {
+    sEls.whereClear.hidden = !input.value;
+    render();
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (list.hidden) render();
+      active = clamp(active + (e.key === 'ArrowDown' ? 1 : -1), 0, shown.length - 1);
+      paint();
+    } else if (e.key === 'Enter') {
+      e.preventDefault(); // ne pas lancer le formulaire
+      if (!input.value.trim()) choose(null);
+      else if (shown[active]) choose(shown[active]);
+      input.blur();
+    } else if (e.key === 'Escape') {
+      input.value = whereLabel();
+      open(false);
+      input.blur();
+    }
+  });
+  // En quittant le champ : saisie vide = « N'importe où » ; saisie non choisie = on remet le choix.
+  input.addEventListener('blur', () => {
+    setTimeout(() => {
+      if (!input.value.trim() && (sEls.country.value || sEls.city.value)) choose(null);
+      else input.value = whereLabel();
+      sEls.whereClear.hidden = !input.value;
+      open(false);
+    }, 150);
+  });
+  list.addEventListener('mousedown', (e) => e.preventDefault()); // garde le champ actif pendant le clic
+  list.addEventListener('click', (e) => {
+    const li = e.target.closest('[data-i]');
+    if (li) { choose(shown[Number(li.dataset.i)]); input.blur(); }
+  });
+  sEls.whereClear.addEventListener('mousedown', (e) => e.preventDefault());
+  sEls.whereClear.addEventListener('click', () => {
+    choose(null);
+    input.blur();
+  });
 }
 
 const STAY_NIGHTS = { '1-1': '1 nuit', '2-4': '2 à 4 nuits', '5-8': '5 à 8 nuits', '9-21': '9 nuits ou plus' };

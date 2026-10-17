@@ -362,6 +362,36 @@ main, .footer { max-width: 1120px; margin: 0 auto; padding: 0 var(--gutter); }
   cursor: pointer;
 }
 .select .icon { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--text-muted); }
+/* « Où ? » : saisie libre + liste de villes et pays */
+.where-field { position: relative; }
+.where-box { position: relative; }
+.where-box > .icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; }
+.where-box input {
+  width: 100%; min-height: 44px;
+  font-size: 16px; /* 16 px : évite le zoom automatique de l'iPhone */
+  padding: 0 44px 0 40px;
+  border-radius: var(--r-sm); border: 1px solid var(--border); background: var(--surface-2);
+}
+.where-box input::placeholder { color: var(--text); opacity: 1; }
+.where-clear {
+  position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+  width: 36px; height: 36px; display: grid; place-items: center;
+  border: 0; border-radius: 50%; background: none; color: var(--text); cursor: pointer;
+}
+.where-clear[hidden] { display: none; }
+.where-list {
+  position: absolute; z-index: 30; left: 0; right: 0; top: 100%; margin: 4px 0 0; padding: 4px;
+  list-style: none; max-height: 290px; overflow-y: auto;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-sm); box-shadow: var(--shadow-md);
+}
+.where-list[hidden] { display: none; }
+.where-list li {
+  display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 10px;
+  border-radius: 6px; font-size: 15px; cursor: pointer;
+}
+.where-list li small { margin-left: auto; font-size: 12px; color: var(--text-muted); }
+.where-list li[aria-selected="true"] { background: var(--surface-2); }
+.where-list .where-empty { color: var(--text-muted); cursor: default; }
 input[type="range"] { width: 100%; height: 32px; accent-color: var(--primary); cursor: pointer; }
 
 /* ---------- Fiches destinations ---------- */

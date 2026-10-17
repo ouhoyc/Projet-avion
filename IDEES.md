@@ -246,6 +246,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (17/10/2026) « Où ? » : on tape une ville ou un pays (sans se soucier des accents), liste de
+  suggestions avec drapeaux (un pays montre aussi ses villes), croix pour revenir à « N'importe où ».
 - ✅ (17/10/2026) Point 15, dates et durée : les dates passent avant la durée ; encadré « On cherche
   l'aller-retour le moins cher entre le 2 et le 7 nov., pour la durée que vous choisissez » tant
   que la durée n'est pas choisie, puis phrase récap au-dessus de « Rechercher » ; case « Partir et

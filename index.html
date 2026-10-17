@@ -74,14 +74,20 @@
           <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
         </div>
 
-        <div class="field">
-          <label for="s-country">Où ?</label>
-          <div class="select"><select id="s-country"><option value="">N'importe où</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
-        </div>
-
-        <div class="field" id="s-city-field" hidden>
-          <label for="s-city">Ville <span class="hint">facultatif</span></label>
-          <div class="select"><select id="s-city"><option value="">Toutes les villes</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
+        <!-- Où ? : on tape une ville ou un pays (facultatif), la croix remet « N'importe où » -->
+        <div class="field where-field">
+          <label for="s-where">Où ?</label>
+          <div class="where-box">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <input type="text" id="s-where" placeholder="N'importe où" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
+              role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="s-where-list">
+            <button type="button" class="where-clear" id="s-where-clear" aria-label="Effacer : n'importe où" hidden>
+              <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
+          </div>
+          <ul class="where-list" id="s-where-list" role="listbox" aria-label="Villes et pays" hidden></ul>
+          <input type="hidden" id="s-country">
+          <input type="hidden" id="s-city">
         </div>
 
         <div class="field">
