@@ -45,6 +45,22 @@ hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
 
 ## À faire
 
+### 15. 🔜 PROCHAINE SESSION — dates et durée pas claires (retour d'un testeur, 17/10/2026)
+Un collègue a saisi « du 2 au 7 » dans « Quand êtes-vous libre ? » et n'a pas compris pourquoi il
+devait encore choisir « Une nuit / Court séjour / Une semaine / Plus long ».
+- Le site cherche le vol le moins cher **dans** la période, pour la durée choisie : il faut
+  l'**expliquer** au client (phrase courte près des dates et de la durée).
+- Ajouter une **case à cocher « Partir et revenir à ces dates exactes »** : si cochée, aller le 1er
+  jour, retour le dernier jour, et on cache le choix de durée.
+- Montrer 2-3 maquettes au propriétaire avant de coder.
+
+### 16. 💡 Tester le site avec des clients simulés
+Le propriétaire veut voir où des clients sans aucun contexte bloquent. Version conseillée :
+6 profils variés (famille, senior, étudiant…), lecture du texte de la page + quelques captures,
+modèle moins cher, ~20-30 min et ~1,5-3 millions de tokens ; bloquer `api/prix` (crédits Ignav).
+Rapport : liste des blocages classés par gravité. À lancer dans une conversation à part.
+
+
 ### 11. ⏸ Nom et logo (mis de côté le 16/10/2026)
 On reprendra quand la vision « voyage clé en main » et l'application seront plus claires
 (le nom doit coller à tout le voyage, pas seulement aux vols).
@@ -239,6 +255,15 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (16-17/10/2026) Circuit « Mon voyage » de Barcelone en 5 étapes : Vol → Activités → Restos →
+  Hôtel → Réserver ; flèche de retour ; 18 restaurants (3 gammes, badges, photos libres) ;
+  Chök et Mirablau ajoutés aux activités ; carte avec seulement les lieux choisis ; hôtels dans
+  toute la ville ; transports à pied dans la fiche hôtel ; noms des rues sur la carte.
+- ✅ (17/10/2026) Accueil : formule « Vol + Activités + Restos + Hôtel = le prix total » à la place
+  des 4 cases (qui ressemblaient à des boutons).
+- ✅ (17/10/2026) Recherche : une ville n'apparaît que si un séjour a la durée choisie (avant,
+  Koutaïssi sortait avec 4 nuits pour « une semaine »). Les suggestions « Moins cher : 4 nuits »
+  restent sous le résultat principal.
 - ✅ Site statique + carte + liste + filtres, mise à jour quotidienne (GitHub Actions)
 - ✅ Carte en français, design refait (mobile d'abord)
 - ✅ Prix « vu il y a X jours », préférence pour les prix récents

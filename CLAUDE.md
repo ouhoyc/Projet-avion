@@ -90,6 +90,34 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   neutre, sans e-mail. Toujours regarder une planche recadrée avant de choisir.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
+## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
+Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). Une ville n'est
+« prête » que si les 4 étapes du circuit marchent (vérifier iPhone + PC).
+1. **Activités** (~25-30) : les incontournables + 2-3 lieux « réseaux sociaux » (badge `tendance`).
+   Chaque activité : type, quartier, position, texte vendeur, prix + `prix_detail`, `tarifs`
+   (adulte + enfants), réservation (+ délai), durée, moment, site officiel, photo libre Commons.
+2. **Restaurants** : **18 = 3 gammes × 6** (petit < 30 €, moyen 25-60 €, haut 50 € et +).
+   - Site de **voyage**, pas guide culinaire : adresses **connues et photogéniques** (Instagram,
+     TikTok) + tables **récompensées** (Michelin, World's 50 Best) + **institutions** historiques.
+   - Pas deux restaurants du même genre dans une gamme ; pas de tapas (ou équivalent local) dans
+     les trois gammes ; éviter les doublons avec les activités.
+   - Garde-fou : note Google ≥ 4,3 environ. Le propriétaire a autorisé (une fois par an) la lecture
+     des notes sur Google Maps depuis ici ; ne **jamais** afficher les étoiles ni les avis Google
+     sur le site. Se méfier des notes gonflées (restaurants qui réclament des avis en masse).
+   - Vérifier l'adresse de chaque lieu (Sala Equis était à Madrid !).
+   - Badges : `tendance` 🔥, `recompense` 🍽️ (+ texte `recompense`), `institution` 🏛️.
+   - Photo : vraie photo libre Commons si possible, sinon photo libre du plat/de la vue avec
+     `illustration: true`. **Jamais** de photo protégée, même si le propriétaire le propose.
+   - Prix et délais de réservation = estimations, à faire vérifier par le propriétaire.
+3. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
+   fait dans toute la ville (LiteAPI), le quartier conseillé est dessiné en pointillés.
+4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
+
+## Économie (demande du propriétaire)
+- Sa consommation a explosé : limiter les captures aux vérifications utiles et à celles qu'il doit
+  voir, limiter les recherches web, ne pas relire des fichiers déjà connus.
+- Conseiller une **nouvelle conversation** par grand sujet.
+
 ## Prochaines étapes prévues
 1. **Nom et logo : en pause** (voir point 11 d'`IDEES.md` : critères, noms écartés, noms libres).
    Priorité du propriétaire : la vision **voyage clé en main** (point 4) et une **application
