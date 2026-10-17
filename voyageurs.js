@@ -9,7 +9,7 @@ function paxGet() {
     const p = JSON.parse(localStorage.getItem(PAX_KEY));
     if (p && p.adults >= 1 && Array.isArray(p.children)) return p;
   } catch {}
-  return { adults: 2, children: [] };
+  return { adults: 1, children: [] };
 }
 
 function paxSave(p) {
