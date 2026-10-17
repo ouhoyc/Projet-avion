@@ -101,7 +101,15 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
      TikTok) + tables **récompensées** (Michelin, World's 50 Best) + **institutions** historiques.
    - Pas deux restaurants du même genre dans une gamme ; pas de tapas (ou équivalent local) dans
      les trois gammes ; éviter les doublons avec les activités.
-   - Garde-fou : note Google ≥ 4,3 environ. Le propriétaire a autorisé (une fois par an) la lecture
+   - **Note pondérée (moyenne bayésienne, méthode IMDb)** pour comparer note et nombre d'avis :
+     score = v/(v+m) × R + m/(v+m) × C, avec R = note Google, v = nombre d'avis,
+     C = note moyenne des restaurants de la ville pondérée par les avis (Barcelone : 4,45),
+     m = avis de référence (1 500). Peu d'avis → ramené vers C ; beaucoup d'avis → la vraie note
+     compte. Collecte : quadrillage de toute la ville (cases ~1 km, 3 pages de 20 résultats) +
+     recherche par nom des adresses réputées absentes ; retirer les chaînes (KFC, McDonald's…).
+   - Le score **seul** ne suffit pas (il favorise les restaurants qui réclament des avis en masse :
+     grills argentins, pizzerias touristiques) : il sert à **départager et écarter** les adresses
+     réputées/tendance, pas à faire le classement. Garde-fou : note Google ≥ 4,3 environ. Le propriétaire a autorisé (une fois par an) la lecture
      des notes sur Google Maps depuis ici ; ne **jamais** afficher les étoiles ni les avis Google
      sur le site. Se méfier des notes gonflées (restaurants qui réclament des avis en masse).
    - Vérifier l'adresse de chaque lieu (Sala Equis était à Madrid !).
