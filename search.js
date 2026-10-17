@@ -20,6 +20,7 @@ const STAY_LABELS = { '1-1': 'une nuit', '2-4': 'court séjour', '5-8': 'une sem
 const sEls = {
   form: $('search-form'),
   stay: $('s-stay'),
+  exact: $('s-exact'),
   country: $('s-country'),
   city: $('s-city'),
   cityField: $('s-city-field'),
@@ -67,17 +68,22 @@ function loadDaily() {
 
 function setupSearchForm() {
   setupCalendar();
+  updateFormHelp();
 
   // Choisir une durée ou changer de type de voyage relance la recherche tout de suite.
   sEls.form.addEventListener('change', (e) => {
     if (e.target.name === 'trip') {
-      sEls.stay.hidden = tripType() === 'ow';
-      if (tripType() === 'ow' || stayValue()) runSearch();
+      updateFormHelp();
+      if (readyToSearch()) runSearch();
     }
     if (e.target.name === 'stay') {
       try { localStorage.setItem(STAY_KEY, e.target.value); } catch { /* navigation privée */ }
-      updateStayHint();
+      updateFormHelp();
       runSearch();
+    }
+    if (e.target === sEls.exact) {
+      updateFormHelp();
+      if (readyToSearch()) runSearch();
     }
   });
 
@@ -91,10 +97,10 @@ function setupSearchForm() {
   // Pays puis ville (facultative) : la recherche se relance aussitôt.
   sEls.country.addEventListener('change', () => {
     fillCities();
-    if (tripType() === 'ow' || stayValue()) runSearch();
+    if (readyToSearch()) runSearch();
   });
   sEls.city.addEventListener('change', () => {
-    if (tripType() === 'ow' || stayValue()) runSearch();
+    if (readyToSearch()) runSearch();
   });
 
   // « Voir » (liste ou bulle de la carte) : panneau de réservation avec vérification en direct.
@@ -157,11 +163,12 @@ function setupSearchForm() {
 
   document.addEventListener('data-ready', () => {
     fillCountries();
+    updateFormHelp();
     // Durée déjà choisie lors d'une visite précédente : on lance directement la recherche.
     let saved = null;
     try { saved = localStorage.getItem(STAY_KEY); } catch { /* indisponible */ }
     const radio = saved && sEls.form.querySelector(`input[name="stay"][value="${saved}"]`);
-    if (radio) { radio.checked = true; updateStayHint(); runSearch(); }
+    if (radio) { radio.checked = true; updateFormHelp(); runSearch(); }
   });
 }
 
@@ -184,9 +191,53 @@ function fillCities() {
   sEls.cityField.hidden = !country;
 }
 
-const STAY_HINTS = { '1-1': '1 nuit sur place', '2-4': '2 à 4 nuits sur place', '5-8': '5 à 8 nuits sur place', '9-21': '9 nuits ou plus sur place' };
-function updateStayHint() {
-  $('stay-hint').textContent = STAY_HINTS[stayValue()] || 'Choisissez une durée pour voir les prix';
+const STAY_NIGHTS = { '1-1': '1 nuit', '2-4': '2 à 4 nuits', '5-8': '5 à 8 nuits', '9-21': '9 nuits ou plus' };
+
+// Aide sous les dates et la durée : on cherche le vol le moins cher DANS la période, pour la
+// durée choisie. Avant le choix : encadré sous la durée ; après : phrase récap avant le bouton.
+// Case « dates exactes » cochée : aller le 1er jour, retour le dernier, la durée disparaît.
+function updateFormHelp() {
+  const roundTrip = tripType() === 'rt';
+  const from = sEls.from.value;
+  const to = sEls.to.value;
+  const range = Boolean(from && to && from !== to);
+  $('s-exact-field').hidden = !(roundTrip && range);
+  const exact = exactDates();
+  sEls.stay.hidden = !roundTrip || exact;
+
+  const recap = $('s-exact-recap');
+  recap.hidden = !exact;
+  if (exact) {
+    const nights = nightsBetween(from, to);
+    recap.innerHTML = `✈️ Aller ${escapeHtml(formatDayShortWeek(from))} · Retour ${escapeHtml(formatDayShortWeek(to))}<small>${nights} nuit${nights > 1 ? 's' : ''} sur place</small>`;
+  }
+
+  // Même mois : « 2 » et « 7 nov. » ; sinon « 30 nov. » et « 4 déc. »
+  const day = (d) => formatDayShort(d).replace(' ', '\u00a0'); // « 7 nov. » jamais coupé
+  const first = range && from.slice(0, 7) === to.slice(0, 7) ? String(Number(from.slice(8))) : from && day(from);
+  const period = range ? `entre le ${first} et le ${day(to)}`
+    : from ? `au départ du ${day(from)}` : 'sur les 12 prochains mois';
+  const stay = roundTrip && !exact ? stayValue() : '';
+  $('stay-legend').textContent = stay && range
+    ? `Combien de nuits, du ${first} au ${day(to)}\u00a0?`
+    : 'Combien de nuits sur place\u00a0?';
+  $('stay-hint').innerHTML = stay ? '' : `On cherche l'aller-retour <b>le moins cher</b> ${escapeHtml(period)}, pour la durée que vous choisissez.`;
+  const searchRecap = $('search-recap');
+  searchRecap.hidden = !stay;
+  if (stay) searchRecap.innerHTML = `On cherche le vol <b>le moins cher</b> ${escapeHtml(period)}, pour <b>${STAY_NIGHTS[stay]}</b> sur place.`;
+}
+
+// Case cochée et visible (aller-retour avec une vraie période).
+function exactDates() {
+  return sEls.exact.checked && !$('s-exact-field').hidden;
+}
+
+function readyToSearch() {
+  return tripType() === 'ow' || Boolean(stayValue()) || exactDates();
+}
+
+function nightsBetween(from, to) {
+  return Math.round((parseDay(to) - parseDay(from)) / 86400000);
 }
 
 function tripType() {
@@ -203,7 +254,7 @@ function stayValue() {
 async function runSearch() {
   if (!data) return;
   const type = tripType();
-  if (type === 'rt' && !stayValue()) {
+  if (!readyToSearch()) {
     sEls.results.innerHTML = '<p class="empty start-hint">Choisissez d\'abord combien de temps vous voulez partir.</p>';
     sEls.stay.classList.add('attention');
     sEls.stay.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -220,11 +271,14 @@ async function runSearch() {
     return;
   }
 
-  const [minN, maxN] = (stayValue() || '1-1').split('-').map(Number);
+  const exact = type === 'rt' && exactDates();
+  let [minN, maxN] = (stayValue() || '1-1').split('-').map(Number);
+  if (exact) minN = maxN = nightsBetween(sEls.from.value, sEls.to.value);
   const query = {
     type,
     minN,
     maxN,
+    exact,
     stay: stayValue(),
     country: sEls.country.value,
     city: sEls.city.value,
@@ -234,7 +288,7 @@ async function runSearch() {
     datesGiven: Boolean(sEls.from.value || sEls.to.value),
   };
   if (query.end < query.start) [query.start, query.end] = [query.end, query.start];
-  query.outEnd = query.end; // dernier jour de départ possible
+  query.outEnd = exact ? query.start : query.end; // dernier jour de départ possible
 
   // Sans dates : barre des mois, avec le meilleur prix de chaque mois.
   const months = [];
@@ -384,10 +438,11 @@ function oneWayCombos(prices, q) {
     .map(([day, info]) => ({ total: info[0], nights: null, out: leg(day, info) }));
 }
 
-// Aller-retour : aller + retour direct dans la période, durée choisie ± 2 nuits.
+// Aller-retour : aller + retour direct dans la période, durée choisie ± 2 nuits
+// (dates exactes : seulement aller le 1er jour et retour le dernier).
 function roundTripCombos(prices, q) {
-  const minN = Math.max(1, q.minN - NIGHTS_SPREAD);
-  const maxN = q.maxN + NIGHTS_SPREAD;
+  const minN = q.exact ? q.minN : Math.max(1, q.minN - NIGHTS_SPREAD);
+  const maxN = q.exact ? q.maxN : q.maxN + NIGHTS_SPREAD;
   const combos = [];
   for (const [day, outInfo] of Object.entries(prices.o)) {
     if (day < q.start || day > q.outEnd) continue;
@@ -430,9 +485,10 @@ function applyView(fitMap) {
 }
 
 function describeQuery(q) {
-  const parts = [q.type === 'rt' ? `aller-retour, ${STAY_LABELS[q.stay] || ''}` : 'aller simple'];
+  const parts = [q.type === 'rt' ? `aller-retour, ${q.exact ? 'dates exactes' : STAY_LABELS[q.stay] || ''}` : 'aller simple'];
   if (q.country && !q.city) parts.push(q.country);
   if (q.month) parts.push(`départ en ${fmtMonthLong.format(parseDay(`${q.month}-01`))}`);
+  else if (q.exact) parts.push(`${formatDayShortWeek(q.start)} → ${formatDayShortWeek(q.end)}`);
   else parts.push(q.datesGiven ? `meilleures dates entre le ${formatDayShort(q.start)} et le ${formatDayShort(q.end)}` : '12 prochains mois');
   if (Number.isFinite(q.budget)) parts.push(`${fmtPrice.format(q.budget)} max`);
   return parts.join(' · ');
@@ -449,7 +505,9 @@ function renderResults() {
       <div class="empty">
         <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
         <p>Aucun vol direct${roundTrip ? ' aller-retour' : ''} repéré (${escapeHtml(describeQuery(q))}).</p>
-        <p class="hint">${q.month
+        <p class="hint">${q.exact
+          ? 'Aucun prix repéré pour ces deux jours précis. Décochez « Partir et revenir à ces dates exactes » pour chercher le meilleur départ et retour dans toute la période.'
+          : q.month
           ? 'Aucun prix repéré ce mois-ci. Ces prix viennent des recherches récentes des voyageurs : au-delà de 2-3 mois, il y en a peu. Essayez un autre mois.'
           : 'Élargissez la période, le budget ou changez la durée : ces prix viennent des recherches récentes des voyageurs, certains jours n\'en ont pas.'}</p>
       </div>`;
@@ -873,8 +931,9 @@ function setupCalendar() {
     sEls.from.value = cal.start;
     sEls.to.value = cal.end || cal.start;
     updateWhenLabel();
+    updateFormHelp();
     dialog.close();
-    if (tripType() === 'ow' || stayValue()) runSearch();
+    if (readyToSearch()) runSearch();
   }
 }
 

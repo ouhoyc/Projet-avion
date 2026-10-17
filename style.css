@@ -733,7 +733,41 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 @media (hover: hover) { .stay-chips span:hover { border-color: var(--text-muted); } }
 .stay-chips input:checked + span { background: var(--text); color: var(--bg); border-color: var(--text); }
 .stay-chips input:focus-visible + span { outline: 3px solid var(--ring); outline-offset: 2px; }
-.stay-hint { margin-top: 6px; font-size: 12px; color: var(--text-muted); }
+/* Explication de la recherche (avant le choix de la durée) et phrase récap (après) */
+.stay-explain {
+  margin-top: var(--s-2); padding: var(--s-2) 10px;
+  font-size: 13px; line-height: 1.4; color: var(--text);
+  background: color-mix(in srgb, var(--primary) 10%, var(--surface));
+  border-left: 4px solid var(--primary); border-radius: 6px;
+}
+.stay-explain:empty { display: none; }
+.search-recap { font-size: 14px; line-height: 1.45; text-align: center; padding: 0 var(--s-1); }
+.search-recap b { color: var(--primary); }
+/* « Partir et revenir à ces dates exactes » */
+.field > label.exact-check {
+  display: flex; align-items: center; gap: 10px; margin-top: 10px;
+  font: inherit; font-size: 14px; font-weight: 600; color: var(--text);
+  text-transform: none; letter-spacing: 0; cursor: pointer;
+}
+.exact-check[hidden], .exact-recap[hidden], .search-recap[hidden] { display: none; }
+.exact-check input {
+  flex: none; appearance: none; margin: 0; width: 22px; height: 22px;
+  display: grid; place-items: center;
+  border: 2px solid var(--text); border-radius: 5px; background: var(--surface); cursor: pointer;
+}
+.exact-check input:checked { background: var(--text); }
+.exact-check input:checked::after {
+  content: ""; width: 6px; height: 11px;
+  border: solid var(--surface); border-width: 0 3px 3px 0;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+.exact-check input:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+.exact-recap {
+  margin-top: var(--s-2); padding: var(--s-2) 10px;
+  font-size: 14px; font-weight: 600; line-height: 1.5;
+  border: 2px dashed var(--text); border-radius: 8px; background: var(--surface);
+}
+.exact-recap small { display: block; font-size: 13px; font-weight: 400; }
 .stay.attention .stay-chips span { animation: nudge 600ms var(--ease-out) 2; border-color: var(--tier-mid); }
 
 .picker-btn {

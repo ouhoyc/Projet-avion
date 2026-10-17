@@ -45,15 +45,6 @@ hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
 
 ## À faire
 
-### 15. 🔜 PROCHAINE SESSION — dates et durée pas claires (retour d'un testeur, 17/10/2026)
-Un collègue a saisi « du 2 au 7 » dans « Quand êtes-vous libre ? » et n'a pas compris pourquoi il
-devait encore choisir « Une nuit / Court séjour / Une semaine / Plus long ».
-- Le site cherche le vol le moins cher **dans** la période, pour la durée choisie : il faut
-  l'**expliquer** au client (phrase courte près des dates et de la durée).
-- Ajouter une **case à cocher « Partir et revenir à ces dates exactes »** : si cochée, aller le 1er
-  jour, retour le dernier jour, et on cache le choix de durée.
-- Montrer 2-3 maquettes au propriétaire avant de coder.
-
 ### 16. 💡 Tester le site avec des clients simulés
 Le propriétaire veut voir où des clients sans aucun contexte bloquent. Version conseillée :
 6 profils variés (famille, senior, étudiant…), lecture du texte de la page + quelques captures,
@@ -255,6 +246,11 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (17/10/2026) Point 15, dates et durée : les dates passent avant la durée ; encadré « On cherche
+  l'aller-retour le moins cher entre le 2 et le 7 nov., pour la durée que vous choisissez » tant
+  que la durée n'est pas choisie, puis phrase récap au-dessus de « Rechercher » ; case « Partir et
+  revenir à ces dates exactes » (aller-retour avec une période seulement) : aller le 1er jour,
+  retour le dernier, durée cachée.
 - ✅ (16-17/10/2026) Circuit « Mon voyage » de Barcelone en 5 étapes : Vol → Activités → Restos →
   Hôtel → Réserver ; flèche de retour ; 18 restaurants (3 gammes, badges, photos libres) ;
   Chök et Mirablau ajoutés aux activités ; carte avec seulement les lieux choisis ; hôtels dans

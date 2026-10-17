@@ -33,7 +33,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
     régulières (classes `.h1-line`).
   - Sous le titre : la formule « Vol + Activités + Restos + Hôtel = le prix total » (`.hero-formula`,
     simple texte : rien qui ressemble à un bouton).
-  - Formulaire : Où / Quand êtes-vous libre / durée / budget.
+  - Formulaire : Où / Quand êtes-vous libre (+ case « dates exactes ») / durée / voyageurs / budget.
+    Aide « on cherche le vol le moins cher pendant la période, pour la durée choisie » :
+    `updateFormHelp()` dans `search.js`.
   - Carte, liste, panneau « Voir », calendrier, dialogue « Crédits et mentions ».
 - `app.js` : en-tête, carte MapLibre (fond OpenFreeMap en français, pastilles de prix dès le
   zoom de départ), outils communs (`flag()` = images de drapeaux dans `img/drapeaux/`).

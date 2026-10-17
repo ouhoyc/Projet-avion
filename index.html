@@ -74,17 +74,6 @@
           <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
         </div>
 
-        <fieldset class="field stay" id="s-stay">
-          <legend>Combien de temps sur place ?</legend>
-          <div class="stay-chips">
-            <label><input type="radio" name="stay" value="1-1"><span>Une nuit</span></label>
-            <label><input type="radio" name="stay" value="2-4"><span>Court séjour</span></label>
-            <label><input type="radio" name="stay" value="5-8"><span>Une semaine</span></label>
-            <label><input type="radio" name="stay" value="9-21"><span>Plus long</span></label>
-          </div>
-          <p class="stay-hint" id="stay-hint">Choisissez une durée pour voir les prix</p>
-        </fieldset>
-
         <div class="field">
           <label for="s-country">Où ?</label>
           <div class="select"><select id="s-country"><option value="">N'importe où</option></select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
@@ -104,7 +93,21 @@
           </button>
           <input type="hidden" id="s-from">
           <input type="hidden" id="s-to">
+          <label class="exact-check" id="s-exact-field" hidden><input type="checkbox" id="s-exact"><span>Partir et revenir à ces dates exactes</span></label>
+          <p class="exact-recap" id="s-exact-recap" hidden></p>
         </div>
+
+        <!-- Durée : on cherche le vol le moins cher DANS la période, pour cette durée -->
+        <fieldset class="field stay" id="s-stay">
+          <legend id="stay-legend">Combien de nuits sur place ?</legend>
+          <div class="stay-chips">
+            <label><input type="radio" name="stay" value="1-1"><span>Une nuit</span></label>
+            <label><input type="radio" name="stay" value="2-4"><span>Court séjour</span></label>
+            <label><input type="radio" name="stay" value="5-8"><span>Une semaine</span></label>
+            <label><input type="radio" name="stay" value="9-21"><span>Plus long</span></label>
+          </div>
+          <p class="stay-explain" id="stay-hint"></p>
+        </fieldset>
 
         <div class="field">
           <span class="field-label" id="s-pax-title">Voyageurs</span>
@@ -119,6 +122,8 @@
           <label for="s-budget">Budget max <span class="hint">facultatif</span></label>
           <div class="euro-input"><input type="number" id="s-budget" min="10" step="10" inputmode="numeric" placeholder="Pas de limite"><span aria-hidden="true">€</span></div>
         </div>
+
+        <p class="search-recap" id="search-recap" hidden></p>
 
         <button type="submit" class="btn btn-primary btn-block">
           <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg> Rechercher
