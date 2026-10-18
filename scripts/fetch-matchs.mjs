@@ -61,10 +61,13 @@ function local(iso, tz) {
 async function choisirAcces() {
   const essai = async () => {
     try {
-      const { stdout } = await run('curl', ['-s', '--compressed', '-m', '30', '-A', UA, '-H', 'Accept: application/json',
+      const { stdout } = await run('curl', ['-sS', '--fail-with-body', '--compressed', '-m', '30', '-A', UA, '-H', 'Accept: application/json',
         ...(PROXY ? ['--proxy', PROXY] : []), `${API}/sport/football/categories`], { maxBuffer: 20 * 1024 * 1024 });
       return (JSON.parse(stdout).categories || []).length > 50; // de vraies données, pas une page vide
-    } catch { return false; }
+    } catch (e) {
+      console.log(`  essai ${API}${PROXY ? ` (proxy ${PROXY.split(':')[1].slice(2)})` : ''} : ${String(e.stderr || e.message).slice(0, 160).replace(/:[^:@]*@proxy/, ':***@proxy')}`);
+      return false;
+    }
   };
   const proxies = [''];
   if (process.env.APIFY_TOKEN) {
