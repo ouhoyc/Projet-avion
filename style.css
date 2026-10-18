@@ -648,6 +648,12 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .leg-airport { font-size: 12px; color: var(--text-muted); }
 .option-side { display: grid; justify-items: end; gap: 4px; flex: none; }
 .option-total { font-size: 22px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.group-tag { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; color: var(--primary, #ff6b4a); white-space: nowrap; }
+.group-pill { display: inline-block; padding: 3px 10px; border-radius: 999px; background: var(--primary, #ff6b4a); color: #fff; font-weight: 800; font-size: 14px; font-family: inherit; }
+#map-caption { white-space: normal; text-align: right; }
+.map-section .section-head { flex-wrap: wrap; }
+.map-section .section-head h2 { white-space: nowrap; }
+@media (max-width: 600px) { #map-caption:has(.group-pill) { flex-basis: 100%; text-align: left; } }
 .pp { font-size: max(.45em, 12px); font-weight: 600; letter-spacing: 0; }
 .per-person { display: block; font-size: 12px; font-weight: 500; color: var(--text-muted); white-space: nowrap; }
 .leaflet-popup .per-person, .maplibregl-popup .per-person { margin: -8px 0 10px; color: #475569; }

@@ -1027,7 +1027,7 @@ function renderRecap() {
       : row('vol', false, '✈', 'Vol', 'pas encore choisi', '—', false),
     hotel.prix ? row('hotel', book.hotel, '🏨', esc(hotel.nom || 'Hôtel'), `${hotel.nuits || nights()} nuit${(hotel.nuits || nights()) > 1 ? 's' : ''}`, euro(t.hotelPrice))
       : row('hotel', false, '🏨', 'Hôtel', hotel.aucun ? 'vous avez déjà un logement' : 'pas choisi', '—', false),
-    acts.length ? row('acts', book.acts, '🎟', `${acts.length} activité${acts.length > 1 ? 's' : ''}`, esc(acts.map((a) => a.nom).join(', ')), euro(t.acts))
+    acts.length ? row('acts', book.acts, '🎟', `${acts.length} activité${acts.length > 1 ? 's' : ''}`, acts.map((a) => `– ${esc(a.nom)}`).join('<br>'), euro(t.acts))
       : row('acts', false, '🎟', 'Activités', 'aucune choisie', '—', false),
   ].join('');
 

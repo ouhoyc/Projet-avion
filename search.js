@@ -651,7 +651,10 @@ function updateMap(fit) {
   sEls.legendLow.textContent = `≤ ${fmtPrice.format(low * n)}`;
   sEls.legendMid.textContent = `${low * n + 1}–${fmtPrice.format(high * n)}`;
   sEls.legendHigh.textContent = `> ${fmtPrice.format(high * n)}`;
-  sEls.mapCaption.textContent = (roundTrip ? 'prix total aller + retour' : 'prix aller simple') + groupLabel();
+  // À plusieurs, les prix sont pour tout le groupe : on le dit en gros, sinon 3 000 € fait peur.
+  sEls.mapCaption.innerHTML = n > 1
+    ? `<span class="group-pill">Total pour ${n} voyageurs</span>${roundTrip ? ' aller + retour' : ''}`
+    : (roundTrip ? 'prix total aller + retour' : 'prix aller simple') + groupLabel();
 
   showOnMap(view.map((i) => {
     const city = results[i];
@@ -782,6 +785,7 @@ function optionHtml(o, city) {
       </div>
       <div class="option-side">
         ${o.nights ? `<span class="nights-badge">${o.nights} nuit${o.nights > 1 ? 's' : ''}</span>` : ''}
+        ${seats() > 1 ? `<span class="group-tag">Total pour ${seats()}</span>` : ''}
         <strong class="option-total">${fmtGroup(o.total)}</strong>
         ${perPersonHtml(o.total)}
         <button type="button" class="btn btn-primary btn-small" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Voir</button>
