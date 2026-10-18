@@ -92,14 +92,15 @@ let book = loadBook();
 init();
 
 async function init() {
-  const [villes, g, data] = await Promise.all([
-    getJson('villes.json'), getJson(`guides/${code}.json`), getJson('data.json'),
+  const [villes, g, data, matchs] = await Promise.all([
+    getJson('villes.json'), getJson(`guides/${code}.json`), getJson('data.json'), getJson(`matchs/${code}.json`),
   ]);
   if (!g) {
     $('v-city').textContent = 'Guide pas encore disponible';
     return;
   }
   guide = g;
+  addMatchs(matchs?.matchs || []);
   ville = villes?.[code] || {};
   selected = new Set([...selected].filter((id) => guide.activites.some((a) => a.id === id)));
   restos = new Set([...restos].filter((id) => (guide.restaurants || []).some((r) => r.id === id)));
@@ -183,6 +184,51 @@ function groupCost(a, pax) {
 
 
 // ---------------------------------------------------------------------------
+// Matchs pendant le séjour (matchs/CODE.json, mis à jour par une GitHub Action) : ils deviennent
+// des activités « Sport » comme les autres (liste, fiche, carte, devis, récapitulatif).
+// ---------------------------------------------------------------------------
+const SPORTS = {
+  football: { emoji: '⚽', nom: 'Football', prix: 25 },
+  basketball: { emoji: '🏀', nom: 'Basket', prix: 15 },
+  rugby: { emoji: '🏉', nom: 'Rugby', prix: 20 },
+};
+const GRANDS_MATCHS = /champions league|euroleague|champions cup|six nations/i;
+const MAX_MATCHS = 10; // les plus importants d'abord (1re division, coupes d'Europe), puis par date
+
+function addMatchs(list) {
+  const saved = (() => { try { return JSON.parse(localStorage.getItem(`dates-${code}`)) || {}; } catch { return {}; } })();
+  const inD = trip?.out || saved.inD;
+  const outD = trip?.ret || saved.outD || inD;
+  if (!inD || !list.length) return;
+  const acts = list.filter((m) => m.jour >= inD && m.jour <= outD && SPORTS[m.sport])
+    .sort((a, b) => (a.niveau || 2) - (b.niveau || 2) || a.debut.localeCompare(b.debut))
+    .slice(0, MAX_MATCHS)
+    .sort((a, b) => a.debut.localeCompare(b.debut))
+    .map((m) => {
+    const sp = SPORTS[m.sport];
+    const prix = GRANDS_MATCHS.test(m.competition) ? sp.prix * 2 : sp.prix;
+    const quand = `${fmtDay.format(new Date(`${m.jour}T12:00`))} à ${m.heure.replace(/:00$/, ' h').replace(':', ' h ')}`;
+    return {
+      id: `match-${m.id}`, match: true, club: m.domicile,
+      nom: `${m.domicile} – ${m.exterieur}`, emoji: sp.emoji, type: 'sport', quartier: m.stade,
+      lat: m.lat, lng: m.lng, prix, enfants: true,
+      prix_detail: [['Billet (selon le match et la place)', `environ ${prix} €`]],
+      tarifs: { adulte: prix, enfants: [], estimation: true },
+      reservation: 'conseille', reservation_delai: 'dès que possible, les grands matchs affichent vite complet',
+      duree: quand, moment: 'environ 2 h, arrivez une heure avant',
+      texte: `${sp.nom} · ${m.competition}. Un match a lieu pendant votre séjour : l'occasion de vivre l'ambiance d'un match avec les supporters locaux.`,
+      note: 'Prix estimé, et horaire qui peut encore changer : vérifiez sur la billetterie du club avant de réserver.',
+      lien_billets: `https://www.google.com/search?q=${encodeURIComponent(`billets ${m.domicile} ${m.exterieur}`)}`,
+    };
+  });
+  if (!acts.length) return;
+  // Un vrai match remplace l'activité générique du même club (« Match du Legia »…).
+  guide.activites = guide.activites.filter((a) => !a.club || !acts.some((m) => m.club.includes(a.club)));
+  const i = guide.activites.findIndex((a) => a.type === 'sport');
+  guide.activites.splice(i < 0 ? guide.activites.length : i, 0, ...acts);
+}
+
+// ---------------------------------------------------------------------------
 // Liste des activités
 // ---------------------------------------------------------------------------
 function renderChips() {
@@ -223,7 +269,7 @@ function renderList() {
         <span class="v-act-main">
           <span class="v-act-name">${esc(a.nom)}</span>
           <span class="v-act-meta">${esc(TYPES[a.type] || '')} · ${esc(a.duree)}</span>
-          <span class="v-tags"><span class="tag tag-${a.reservation}">${BOOKING[a.reservation]}</span>${badgeTags(a.badges)}</span>
+          <span class="v-tags">${a.match ? '<span class="tag tag-match">📅 Pendant votre séjour</span>' : ''}<span class="tag tag-${a.reservation}">${BOOKING[a.reservation]}</span>${badgeTags(a.badges)}</span>
         </span>
         <span class="v-act-price">${priceLabel(a)}</span>
       </button>
@@ -352,6 +398,7 @@ function openSheet(id) {
       <button type="button" class="btn ${on ? 'btn-line' : 'btn-ink'}" id="a-toggle">${on ? '✓ Dans mon séjour · retirer' : '+ Ajouter à mon séjour'}</button>
       ${partner ? `<a class="btn btn-main" href="${esc(partner)}" target="_blank" rel="sponsored noopener">Réserver</a>` : ''}
       ${a.site_officiel ? `<a class="btn btn-line" href="${esc(a.site_officiel)}" target="_blank" rel="noopener">Site officiel</a>` : ''}
+      ${a.lien_billets ? `<a class="btn btn-line" href="${esc(a.lien_billets)}" target="_blank" rel="noopener">Trouver des billets</a>` : ''}
       ${partner ? '<p class="a-legal">Le bouton « Réserver » passe par notre partenaire : nous touchons une petite commission, sans frais en plus pour vous.</p>' : ''}
     </div>`);
   $('a-toggle').onclick = () => {
@@ -386,6 +433,7 @@ function openCredits() {
       <p class="c-item"><b>Carte</b>© OpenStreetMap contributors, OpenMapTiles, fond OpenFreeMap.</p>
       <p class="c-item"><b>Prix des activités</b>Relevés le ${esc(new Date(guide.verifie_le).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }))} sur les sites officiels et des guides récents. Ils peuvent changer : vérifiez avant de réserver.</p>
       <p class="c-item"><b>Prix des vols</b>Prix repérés par les voyageurs (Travelpayouts), mis à jour chaque matin.</p>
+      <p class="c-item"><b>Calendrier des matchs</b>SofaScore, mis à jour deux fois par semaine.</p>
     </div>`);
 }
 

@@ -68,6 +68,16 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - `data.json` et `daily.json` : prix, régénérés chaque matin par la GitHub Action
   `.github/workflows/update-prices.yml`, qui lance `scripts/fetch-prices.mjs` (données gratuites
   Travelpayouts, rares au-delà de 2-3 mois).
+- `matchs/CODE.json` (un fichier par ville) : matchs de foot, basket et rugby joués dans chaque
+  destination (12 mois, champ `niveau` 1 = le plus important) ; `matchs-cache.json` garde les
+  centres des villes, leurs noms en toutes langues et le stade de chaque club. Mis à jour lundi et jeudi par `.github/workflows/update-matchs.yml` → `scripts/fetch-matchs.mjs`.
+  Source gratuite et sans clé : l'interface publique de SofaScore (par `curl` : le `fetch` de Node
+  est bloqué par leur anti-robots). Pour chaque pays desservi : 2 championnats + la coupe de foot,
+  1er championnat de basket, liste fixe pour le rugby (`RUGBY`), et les coupes d'Europe. Un match est rattaché à une ville si
+  son stade est à moins de 25 km du centre (OpenStreetMap), sinon par le nom de la ville.
+  `ville.js` (`addMatchs`) les ajoute aux activités « Sport » pendant les dates du séjour
+  (10 au plus, prix estimé par sport, bouton « Trouver des billets ») ; ils remplacent l'activité générique
+  du club (champ `club` dans le guide, ex. Legia). Rien à faire pour une nouvelle ville.
 - `api/prix.js` : fonction Vercel pour le prix en direct (Ignav, clé dans la variable Vercel
   `IGNAV_API_KEY`). **Chaque appel coûte un crédit** : ne jamais lancer de vérification en direct
   pendant les tests ; les bloquer dans Playwright avec `page.route('**/api/prix**', r => r.abort())`.

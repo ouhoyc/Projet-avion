@@ -1,0 +1,42 @@
+# Met à jour matchs/CODE.json (foot, basket, rugby dans chaque destination) deux fois par semaine.
+# Source gratuite, sans clé : SofaScore. Lancement à la main possible (« Run workflow »).
+name: Mise à jour des matchs
+
+on:
+  schedule:
+    - cron: '41 3 * * 1,4'   # lundi et jeudi à 03:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write           # nécessaire pour committer matchs.json
+
+concurrency:
+  group: update-matchs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Récupérer les matchs
+        run: node scripts/fetch-matchs.mjs
+
+      - name: Committer les données si elles ont changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add matchs matchs-cache.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "Mise à jour des matchs ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push
+          fi
