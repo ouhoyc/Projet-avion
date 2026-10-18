@@ -180,6 +180,15 @@ la plus proche de toutes les activités (« pile au milieu »).
   qu'un match ; ESPN n'a pas la Pologne), via `matchs/CODE.json`, mis à jour à la main depuis une session Claude (SofaScore bloque GitHub). Les
   matchs du séjour apparaissent dans « Sport » comme des activités (prix estimé, lien billets).
   Reste : F1/MotoGP, tennis, et les grandes fêtes ci-dessous.
+- 🛠 (18/10/2026) **Mise à jour automatique : plan validé.** SofaScore bloque GitHub ET Vercel
+  (testé : 403 partout) → passer à **API-Sports** (officiel, foot + basket + rugby, 100 demandes/jour
+  par sport en gratuit), lancé chaque nuit par une Action GitHub, clé dans le secret
+  `API_SPORTS_KEY` (le propriétaire la crée). Une demande = une date et un sport (tous les matchs du
+  monde ce jour-là). Rythme : jours 1-30 chaque nuit, 31-90 deux fois par semaine, 91-365 une fois
+  par mois (≈ 56 demandes/nuit/sport). À vérifier avec la clé : l'offre gratuite donne-t-elle la
+  saison en cours ? (sinon : 19 $/mois ou rester à la main). Affichage : « horaire à confirmer »
+  quand l'heure n'est pas fixée, « Reporté » / « Annulé » au lieu de faire disparaître le match.
+  **Pas de promesse** du genre « d'autres matchs seront annoncés » (refusé par le propriétaire).
 Sur la page d'une ville, selon les dates du voyageur : « Pendant votre séjour : Barça – Real,
 sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joventut Badalona
 (basket) ; plus F1/MotoGP à Montmeló, tennis en avril. Le match devient une activité à cocher.
