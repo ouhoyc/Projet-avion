@@ -61,9 +61,9 @@ function local(iso, tz) {
 async function choisirAcces() {
   const essai = async () => {
     try {
-      const { stdout } = await run('curl', ['-s', '-o', '/dev/null', '-w', '%{http_code}', '--compressed', '-m', '30', '-A', UA,
-        ...(PROXY ? ['--proxy', PROXY] : []), `${API}/sport/football/categories`]);
-      return stdout.trim() === '200';
+      const { stdout } = await run('curl', ['-s', '--compressed', '-m', '30', '-A', UA, '-H', 'Accept: application/json',
+        ...(PROXY ? ['--proxy', PROXY] : []), `${API}/sport/football/categories`], { maxBuffer: 20 * 1024 * 1024 });
+      return (JSON.parse(stdout).categories || []).length > 50; // de vraies données, pas une page vide
     } catch { return false; }
   };
   const proxies = [''];
@@ -71,6 +71,7 @@ async function choisirAcces() {
     try {
       const me = await (await fetch('https://api.apify.com/v2/users/me', { headers: { Authorization: `Bearer ${process.env.APIFY_TOKEN}` } })).json();
       const mdp = me?.data?.proxy?.password;
+      console.log(mdp ? 'Proxy Apify disponible.' : 'Proxy Apify indisponible pour ce compte.');
       if (mdp) proxies.push(`http://auto:${mdp}@proxy.apify.com:8000`, `http://groups-RESIDENTIAL:${mdp}@proxy.apify.com:8000`);
     } catch (e) {
       console.log(`Apify : ${e.message}`);
