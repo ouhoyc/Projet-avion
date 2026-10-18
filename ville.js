@@ -36,7 +36,7 @@ const RESTO_GAMMES = [
 const BADGES = {
   tendance: { icon: '🔥', nom: 'Tendance', long: 'Restaurant tendance', why: 'Très partagé sur Instagram et TikTok.' },
   recompense: { icon: '🍽️', nom: 'Récompensé', long: 'Récompensé', why: 'Distingué par les guides gastronomiques.' },
-  institution: { icon: '🏛️', nom: 'Institution', long: 'Institution', why: 'Une adresse historique, connue de tous les Barcelonais.' },
+  institution: { icon: '🏛️', nom: 'Institution', long: 'Institution', why: 'Une adresse historique, connue de tous les habitants.' },
 };
 const RESTO_BOOKING = {
   indispensable: 'Réservation indispensable',

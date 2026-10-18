@@ -90,6 +90,10 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   HTML d'une catégorie Commons, puis lire la licence sur la page `File:` (classe
   `licensetpl&#95;short`, prendre une licence CC si le fichier est aussi en GFDL). User-Agent
   neutre, sans e-mail. Toujours regarder une planche recadrée avant de choisir.
+  Varsovie (oct. 2026) : l'API Wikipédia et `Special:FilePath?width=800` répondent aussi « 429 » ;
+  ce qui marche : la recherche de catégories (`Special:Search` avec `ns14=1`), la page HTML de la
+  catégorie, puis la vignette standard `upload.wikimedia.org/.../thumb/x/xy/NOM/960px-NOM`
+  (ou l'original si le fichier est petit), lentement (1 s entre deux).
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
@@ -98,6 +102,8 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
 1. **Activités** (~25-30) : les incontournables + 2-3 lieux « réseaux sociaux » (badge `tendance`).
    Chaque activité : type, quartier, position, texte vendeur, prix + `prix_detail`, `tarifs`
    (adulte + enfants), réservation (+ délai), durée, moment, site officiel, photo libre Commons.
+   **Pas d'activité « manger »** (halle, atelier cuisine, donuts…) : c'est le rôle de l'étape Restos.
+   Vérifier qu'aucun lieu n'est fermé pour travaux (le musée Chopin de Varsovie l'est toute l'année 2026).
 2. **Restaurants** : **18 = 3 gammes × 6** (petit < 30 €, moyen 25-60 €, haut 50 € et +).
    - Site de **voyage**, pas guide culinaire : adresses **connues et photogéniques** (Instagram,
      TikTok) + tables **récompensées** (Michelin, World's 50 Best) + **institutions** historiques.
@@ -112,7 +118,9 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
    - Le score **seul** ne suffit pas (il favorise les restaurants qui réclament des avis en masse :
      grills argentins, pizzerias touristiques) : il sert à **départager et écarter** les adresses
      réputées/tendance, pas à faire le classement. Garde-fou : note Google ≥ 4,3 environ. Le propriétaire a autorisé (une fois par an) la lecture
-     des notes sur Google Maps depuis ici ; ne **jamais** afficher les étoiles ni les avis Google
+     des notes sur Google Maps depuis ici (Google Maps n'affiche pas les notes au navigateur
+     automatique : les listes Wanderlog `wanderlog.com/list/geoCategory/ID` contiennent la note
+     Google et le nombre d'avis, `"rating"` et `"numRatings"`, ~600 lieux pour Varsovie) ; ne **jamais** afficher les étoiles ni les avis Google
      sur le site. Se méfier des notes gonflées (restaurants qui réclament des avis en masse).
    - Vérifier l'adresse de chaque lieu (Sala Equis était à Madrid !).
    - Badges : `tendance` 🔥, `recompense` 🍽️ (+ texte `recompense`), `institution` 🏛️.

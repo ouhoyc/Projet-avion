@@ -812,7 +812,7 @@ function shortSeen(day) {
 // Panneau de réservation : vérifie l'aller (et le retour) en direct
 // ---------------------------------------------------------------------------
 // Villes qui ont une page guide (ville.html?c=CODE, activités dans guides/CODE.json).
-const GUIDES = ['BCN'];
+const GUIDES = ['BCN', 'WAW'];
 
 // Lien vers le circuit « Mon voyage » (ville.html), avec le vol choisi : aéroport, dates,
 // prix repérés par personne (aller, retour) et durée du vol.
