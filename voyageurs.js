@@ -20,6 +20,12 @@ function paxCount(p) {
   return p.adults + p.children.length;
 }
 
+// Places payantes dans l'avion : les bébés (moins de 2 ans) voyagent sur les genoux, avec un
+// petit supplément selon la compagnie ; on ne les compte pas dans le prix du vol.
+function paxSeats(p) {
+  return p.adults + p.children.filter((age) => age >= 2).length;
+}
+
 function paxLabel(p) {
   const a = `${p.adults} adulte${p.adults > 1 ? 's' : ''}`;
   const n = p.children.length;

@@ -915,7 +915,7 @@ function show(n) {
 
 function totals() {
   const pax = paxGet();
-  const flight = trip ? trip.price * paxCount(pax) : 0;
+  const flight = trip ? trip.price * paxSeats(pax) : 0; // bébés sur les genoux : pas de place payée
   const acts = guide.activites.filter((a) => selected.has(a.id)).reduce((s, a) => s + groupCost(a, pax).total, 0);
   const hotelPrice = hotel.prix > 0 ? hotel.prix : 0;
   return { pax, flight, acts, hotelPrice, total: flight + acts + hotelPrice };
@@ -967,14 +967,15 @@ function renderFlight(flights) {
   $('t-s1').textContent = `Votre vol pour ${cityName}`;
   const dur = trip.dur ? `${Math.floor(trip.dur / 60)} h ${String(trip.dur % 60).padStart(2, '0')}` : '';
   const day = (d) => fmtDay.format(new Date(`${d}T12:00`));
-  const n = paxCount(pax);
+  const n = paxSeats(pax);
+  const babies = paxCount(pax) - n;
   $('s1-flight').innerHTML = `
     <div class="f-card">
       <p class="f-route">${esc(origin.city)} → ${esc(cityName)} · vol direct${dur ? ` · ${dur}` : ''}</p>
       <div class="f-leg"><span><b>Aller</b> · ${esc(day(trip.out))}</span><strong>${trip.vo ? euro(trip.vo) : ''}</strong></div>
       ${trip.ret ? `<div class="f-leg"><span><b>Retour</b> · ${esc(day(trip.ret))}</span><strong>${trip.vr ? euro(trip.vr) : ''}</strong></div>` : ''}
-      <div class="f-leg f-sum"><span>${n} voyageur${n > 1 ? 's' : ''} × ${euro(trip.price)}</span><strong>${euro(trip.price * n)}</strong></div>
-      <p class="f-small">Prix repérés par les voyageurs ; le prix exact s'affiche au moment de réserver.</p>
+      <div class="f-leg f-sum"><span>${n} voyageur${n > 1 ? 's' : ''} × ${euro(trip.price)}${babies ? ` (+ ${babies > 1 ? `${babies} bébés` : 'bébé'} sur les genoux)` : ''}</span><strong>${euro(trip.price * n)}</strong></div>
+      <p class="f-small">Prix repérés par les voyageurs ; le prix exact s'affiche au moment de réserver.${babies ? ' Les bébés de moins de 2 ans voyagent sur les genoux, avec un petit supplément selon la compagnie.' : ''}</p>
       <a class="f-change" href="index.html">Changer de vol ou de dates</a>
     </div>`;
 }

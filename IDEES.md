@@ -246,6 +246,12 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (18/10/2026) Prix des vols **pour tout le groupe** (choix « Voyageurs ») : pastilles de la carte,
+  légende, liste, barre des mois, panneau « Voir » et budget max ; « soit X € / pers. » en petit,
+  et « / pers. » sur le prix de chaque vol. Les bébés (moins de 2 ans, sur les genoux) ne sont pas
+  comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
+  cru à 162 € pour 4 alors que c'était 162 € par personne.)
+
 - ✅ (18/10/2026) **Page guide de Varsovie** (`guides/WAW.json`), préparée en autonomie (le
   propriétaire ne connaît pas la ville) : 26 activités sans activité « manger » (3 tendance : Varso
   Tower, jardin de la BUW, musée du Néon), 18 restaurants (note pondérée, C = 4,51, notes Google
