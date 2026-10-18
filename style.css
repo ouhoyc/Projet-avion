@@ -915,3 +915,6 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
   .result-list .card { transition: transform var(--t-fast) var(--ease-out), box-shadow var(--t-fast); cursor: default; }
   .result-list .card.is-hovered { transform: translateY(-2px); }
 }
+
+/* « Rechercher » fait défiler jusqu'aux résultats : petite marge au-dessus du titre */
+.map-section, #liste { scroll-margin-top: 12px; }

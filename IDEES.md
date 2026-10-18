@@ -246,6 +246,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (18/10/2026) « Rechercher » fait défiler jusqu'aux résultats (iPhone : la carte puis la liste ;
+  PC : la liste), un testeur croyait que le bouton ne faisait rien.
 - ✅ (17/10/2026) « Où ? » : on tape une ville ou un pays (sans se soucier des accents), liste de
   suggestions avec drapeaux (un pays montre aussi ses villes), croix pour revenir à « N'importe où ».
 - ✅ (17/10/2026) Point 15, dates et durée : les dates passent avant la durée ; encadré « On cherche

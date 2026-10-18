@@ -89,9 +89,10 @@ function setupSearchForm() {
     }
   });
 
-  sEls.form.addEventListener('submit', (e) => {
+  // « Rechercher » : on descend jusqu'aux résultats (sur iPhone, ils sont sous le formulaire).
+  sEls.form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    runSearch();
+    if (await runSearch()) revealResults();
   });
 
   for (const el of [sEls.refineCountry, sEls.sort]) el.addEventListener('change', () => applyView(false));
@@ -395,6 +396,13 @@ async function runSearch() {
   if (!months.some((m) => m.key === searchState.month)) searchState.month = '';
   Object.assign(searchState, { base: query, daily, months, airlines: daily.airlines || {} });
   showMonth(true);
+  return true;
+}
+
+// Téléphone : la carte (puis la liste) ; ordinateur : la liste, la carte restant à droite.
+function revealResults() {
+  const wide = matchMedia('(min-width: 1100px)').matches;
+  (wide ? $('liste') : document.querySelector('.map-section')).scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // Recherche limitée aux départs d'un mois (le retour peut tomber le mois suivant).
