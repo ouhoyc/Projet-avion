@@ -32,7 +32,7 @@
       "duree": "1 h 30",
       "moment": "Tôt le matin pour les photos, ou le soir quand les façades s'illuminent",
       "enfants": true,
-      "texte": "Rasée en 1944, rebâtie pierre par pierre d'après les tableaux de Canaletto : la place du Marché et ses façades pastel sont classées à l'UNESCO. Un décor de conte, en vrai.",
+      "texte": "Rasée en 1944, rebâtie pierre par pierre d'après les tableaux de Canaletto : la place du Marché, ses façades pastel et la Barbacane sont classées à l'UNESCO. Un décor de conte, en vrai.",
       "site_officiel": "https://go2warsaw.pl/en/",
       "photo": {
         "auteur": "Kapitel",
@@ -89,7 +89,7 @@
       "texte": "Salles de bal dorées, appartements des rois et deux vrais Rembrandt : le château a été reconstruit à l'identique après la guerre, jusqu'aux dorures.",
       "site_officiel": "https://www.zamek-krolewski.pl/en",
       "partenaire": "tiqets",
-      "note": "Pour les enfants, le billet à 1 zł se demande à la caisse (pièce d'identité possible).",
+      "note": "Achetez vos billets à la caisse ou sur le site officiel : de faux sites les revendent plus cher. Pour les enfants, le billet à 1 zł se demande à la caisse.",
       "photo": {
         "auteur": "Marcin Białek",
         "licence": "CC BY-SA 3.0",
@@ -250,7 +250,7 @@
       "texte": "Le musée qui fait comprendre Varsovie : 63 jours de révolte en 1944, racontés avec des sons, des objets et un film en 3D sur la ville en ruines. On en sort bouleversé.",
       "site_officiel": "https://www.1944.pl/en",
       "partenaire": "tiqets",
-      "note": "Conseillé à partir de 10 ans environ.",
+      "note": "Conseillé à partir de 10 ans environ. Achetez vos billets sur 1944.pl : de faux sites les revendent plus cher.",
       "photo": {
         "auteur": "Adrian Grycuk",
         "licence": "CC BY 3.0 pl",
@@ -969,7 +969,7 @@
       "duree": "2 h",
       "moment": "Les soirs d'été, quand les bars de plage s'animent",
       "enfants": true,
-      "texte": "Les quais où tout Varsovie se retrouve l'été : bars sur l'eau, plages de sable sur la rive sauvage, et la passerelle de 2024 pour traverser à pied face aux gratte-ciel.",
+      "texte": "Les quais où tout Varsovie se retrouve l'été : bars sur l'eau, plages de sable sur la rive sauvage, la passerelle de 2024 face aux gratte-ciel et, en été, de petits bacs gratuits pour passer d'une rive à l'autre.",
       "site_officiel": "https://go2warsaw.pl/en/",
       "photo": {
         "auteur": "Cybularny",
@@ -1045,40 +1045,6 @@
         "src": "img/activites/WAW/powazki.jpg"
       },
       "a_verifier": false
-    },
-    {
-      "id": "legia",
-      "nom": "Match du Legia Varsovie",
-      "emoji": "⚽",
-      "type": "sport",
-      "quartier": "Ujazdów",
-      "lat": 52.2205,
-      "lng": 21.0405,
-      "prix": 15,
-      "prix_detail": [
-        [
-          "Billet (selon match et place)",
-          "10 à 35 €"
-        ]
-      ],
-      "tarifs": {
-        "adulte": 15,
-        "enfants": []
-      },
-      "reservation": "conseille",
-      "reservation_delai": "1 à 2 semaines avant pour les grands matchs",
-      "duree": "3 h",
-      "moment": "Les soirs de match (championnat d'août à mai)",
-      "enfants": true,
-      "texte": "Le club le plus titré de Pologne et l'une des ambiances les plus chaudes d'Europe : chants sans arrêt et tifos géants. Une expérience, même sans aimer le foot.",
-      "site_officiel": "https://legia.com/",
-      "a_verifier": true,
-      "photo": {
-        "auteur": "Валерий Дед",
-        "licence": "CC BY 3.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Warsaw_Polish_Army_Stadium_9.jpg",
-        "src": "img/activites/WAW/legia.jpg"
-      }
     },
     {
       "id": "zoo",
@@ -1172,29 +1138,30 @@
   "hotel_petit_prix_max": 70,
   "restaurants": [
     {
-      "id": "prasowy",
-      "nom": "Bar mleczny Prasowy",
+      "id": "bambino",
+      "nom": "Bar Bambino",
       "emoji": "🥣",
       "gamme": "petit",
       "genre": "Bar à lait",
       "quartier": "Śródmieście",
-      "adresse": "Marszałkowska 10/16, 00-590 Warszawa",
+      "adresse": "Hoża 19, 00-521 Warszawa",
+      "lat": 52.22685,
+      "lng": 21.01812,
       "prix": "6 à 10 €",
       "prix_min": 6,
       "badges": [
         "institution",
         "tendance"
       ],
-      "texte": "Un « bar à lait » de 1954, la cantine populaire de l'époque communiste, rajeuni avec son néon rose. Soupe, pierogi et crêpes pour le prix d'un café à Paris.",
+      "texte": "Le plus connu des « bars à lait », les cantines populaires de l'époque communiste : soupe, pierogi et crêpes pour quelques euros, au milieu des Varsoviens. Une expérience à part.",
       "reservation": "sur_place",
       "reservation_delai": "pas de réservation : on commande au comptoir",
-      "lat": 52.21564,
-      "lng": 21.02076,
       "photo": {
-        "src": "img/restos/WAW/prasowy.jpg",
-        "auteur": "Panek",
-        "licence": "CC BY-SA 4.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Bar_mleczny_prasowy_2021.jpg"
+        "src": "img/restos/WAW/bambino.jpg",
+        "auteur": "Ana Paula Hirama",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Polish_milk_bar_04.jpg",
+        "illustration": true
       }
     },
     {
@@ -1233,9 +1200,7 @@
       "adresse": "Nowy Świat 43, 00-042 Warszawa",
       "prix": "12 à 18 €",
       "prix_min": 12,
-      "badges": [
-        "tendance"
-      ],
+      "badges": [],
       "texte": "L'adresse de pierogi préférée des voyageurs, sur la plus belle rue commerçante : décor d'auberge, une vingtaine de farces, et des parts généreuses.",
       "reservation": "sur_place",
       "reservation_delai": "venez avant 18 h pour éviter l'attente",
@@ -1276,28 +1241,28 @@
       }
     },
     {
-      "id": "vege-miasto",
-      "nom": "Vege Miasto",
-      "emoji": "🌱",
+      "id": "lekko",
+      "nom": "Lekko",
+      "emoji": "🍕",
       "gamme": "petit",
-      "genre": "Végétalien",
+      "genre": "Pizza napolitaine",
       "quartier": "Muranów",
-      "adresse": "Al. Solidarności 60A, 00-240 Warszawa",
-      "prix": "10 à 15 €",
+      "adresse": "Al. Jana Pawła II 50/15, 00-148 Warszawa",
+      "lat": 52.24381,
+      "lng": 20.99257,
+      "prix": "10 à 20 €",
       "prix_min": 10,
       "badges": [
         "tendance"
       ],
-      "texte": "Varsovie est l'une des capitales mondiales de la cuisine végétale. Ici, pierogi, burgers et bols 100 % végétaux, dans une grande salle lumineuse.",
+      "texte": "La pizzeria qui fait le buzz : pâte napolitaine légère, et le week-end, un petit-déjeuner à prix mini qui attire les foules de 11 h à 13 h.",
       "reservation": "sur_place",
-      "reservation_delai": "pas besoin de réserver",
-      "lat": 52.24604,
-      "lng": 21.00502,
+      "reservation_delai": "venez tôt le week-end",
       "photo": {
-        "src": "img/restos/WAW/vege-miasto.jpg",
-        "auteur": "Suzette - www.suzette.nu from Arnhem, Netherlands",
-        "licence": "CC BY 2.0",
-        "page": "https://commons.wikimedia.org/wiki/File:Berlin_-_Vegan_Burger_(5017444258).jpg",
+        "src": "img/restos/WAW/lekko.jpg",
+        "auteur": "Dwxn",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:20260131_133215_pizza_in_Olio_restaurant,_Krak%C3%B3w_1.jpg",
         "illustration": true
       }
     },
@@ -1444,9 +1409,7 @@
       "adresse": "Wierzbowa 11, 00-094 Warszawa",
       "prix": "25 à 40 €",
       "prix_min": 25,
-      "badges": [
-        "tendance"
-      ],
+      "badges": [],
       "texte": "Les Varsoviens adorent la cuisine géorgienne, et Rusiko est leur adresse fétiche : khachapuri en forme de barque, œuf coulant et vins ambrés en amphore.",
       "reservation": "conseille",
       "reservation_delai": "la veille",
@@ -1470,9 +1433,7 @@
       "adresse": "Złota 11, 00-019 Warszawa",
       "prix": "25 à 35 €",
       "prix_min": 25,
-      "badges": [
-        "tendance"
-      ],
+      "badges": [],
       "texte": "« Le bocal » : pierogi, viandes grillées et cocktails dans un décor de maison de campagne revisitée. Bruyant, joyeux, toujours plein.",
       "reservation": "conseille",
       "reservation_delai": "la veille pour le soir",
@@ -1497,8 +1458,7 @@
       "prix": "≈ 150 €",
       "prix_min": 150,
       "badges": [
-        "recompense",
-        "tendance"
+        "recompense"
       ],
       "recompense": "Étoilé Michelin",
       "texte": "La table la plus en vue de Varsovie : un menu dégustation qui mêle Italie, Asie et produits polonais, dans un décor sombre et intime.",

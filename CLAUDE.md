@@ -127,6 +127,16 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
    - Photo : vraie photo libre Commons si possible, sinon photo libre du plat/de la vue avec
      `illustration: true`. **Jamais** de photo protégée, même si le propriétaire le propose.
    - Prix et délais de réservation = estimations, à faire vérifier par le propriétaire.
+   - **Réseaux sociaux (Apify)** : lancer l'Action « Tendances réseaux sociaux »
+     (`.github/workflows/social-buzz.yml`, `scripts/social-buzz.mjs`, secret `APIFY_TOKEN`, compte
+     Apify gratuit partagé avec la veille IA : ~1 $ par lancement, plafonds dans le script) deux
+     fois : `sujet=restos` puis `sujet=activites`, avec des recherches et hashtags dans la langue
+     locale. Résultat = pièce jointe de l'Action (7 jours), à télécharger avec les outils GitHub ;
+     **jamais** dans le dépôt ni sur le site (aucun chiffre, aucun nom de réseau affiché).
+     Compter les citations par lieu et par réseau : badge `tendance` seulement si le lieu sort
+     sur **2 sources** au moins (une seule vidéo, même virale, ne suffit pas ; se méfier des
+     vidéos sponsorisées « zaproszenie », « współpraca », « AD »). Lire aussi Reddit pour les
+     pièges à touristes (Varsovie : faux sites de billets → note dans les fiches).
 3. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
    fait dans toute la ville (LiteAPI), le quartier conseillé est dessiné en pointillés.
 4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
