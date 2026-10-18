@@ -247,11 +247,11 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 ## Fait
 
 - ✅ (18/10/2026) **Page guide de Varsovie** (`guides/WAW.json`), préparée en autonomie (le
-  propriétaire ne connaît pas la ville) : 25 activités sans activité « manger » (3 tendance : Varso
+  propriétaire ne connaît pas la ville) : 26 activités sans activité « manger » (3 tendance : Varso
   Tower, jardin de la BUW, musée du Néon), 18 restaurants (note pondérée, C = 4,51, notes Google
   lues via Wanderlog), 5 quartiers. Musée Chopin écarté (fermé toute l'année 2026).
   Recoupé ensuite avec TikTok, Instagram, YouTube et Reddit (Apify, ~2 $) : Bar Bambino et Lekko
-  entrent, Prasowy, Vege Miasto et le match du Legia sortent, badges « Tendance » limités aux lieux
+  entrent, Prasowy et Vege Miasto sortent (le match du Legia, retiré par erreur, est remis : un match du club populaire dans chaque ville), badges « Tendance » limités aux lieux
   vus sur 2 sources. À revoir : Babka (cuisine polonaise, Koneser, très partagée mais pas de note
   fiable), Włoski Strajk (risque d'expulsion du local).
   Prix à confirmer sur place (`a_verifier`) : tour Sainte-Anne, terrasse du Palais de la Culture,

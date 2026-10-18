@@ -103,6 +103,8 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
    Chaque activité : type, quartier, position, texte vendeur, prix + `prix_detail`, `tarifs`
    (adulte + enfants), réservation (+ délai), durée, moment, site officiel, photo libre Commons.
    **Pas d'activité « manger »** (halle, atelier cuisine, donuts…) : c'est le rôle de l'étape Restos.
+   **Match de foot** du club local s'il est populaire (Camp Nou, Legia…), type `sport`, sans badge
+   d'office : on le garde même si les réseaux sociaux en parlent peu (ils ne sont pas cherchés pour ça).
    Vérifier qu'aucun lieu n'est fermé pour travaux (le musée Chopin de Varsovie l'est toute l'année 2026).
 2. **Restaurants** : **18 = 3 gammes × 6** (petit < 30 €, moyen 25-60 €, haut 50 € et +).
    - Site de **voyage**, pas guide culinaire : adresses **connues et photogéniques** (Instagram,

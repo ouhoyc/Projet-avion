@@ -1047,6 +1047,40 @@
       "a_verifier": false
     },
     {
+      "id": "legia",
+      "nom": "Match du Legia Varsovie",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Ujazdów",
+      "lat": 52.2205,
+      "lng": 21.0405,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Billet (selon match et place)",
+          "10 à 35 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 semaines avant pour les grands matchs",
+      "duree": "3 h",
+      "moment": "Les soirs de match (championnat d'août à mai)",
+      "enfants": true,
+      "texte": "Le club le plus titré de Pologne et l'une des ambiances les plus chaudes d'Europe : chants sans arrêt et tifos géants. Une expérience, même sans aimer le foot.",
+      "site_officiel": "https://legia.com/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Валерий Дед",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warsaw_Polish_Army_Stadium_9.jpg",
+        "src": "img/activites/WAW/legia.jpg"
+      }
+    },
+    {
       "id": "zoo",
       "nom": "Zoo de Varsovie",
       "emoji": "🐘",
