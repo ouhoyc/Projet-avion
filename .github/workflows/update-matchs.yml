@@ -27,6 +27,9 @@ jobs:
 
       - name: Récupérer les matchs
         run: node scripts/fetch-matchs.mjs
+        env:
+          # Si SofaScore bloque les serveurs de GitHub, on passe par le proxy Apify (même clé que l'Action « Tendances »).
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
 
       - name: Committer les données si elles ont changé
         run: |

@@ -15,7 +15,10 @@ import { promisify } from 'node:util';
 
 const run = promisify(execFile);
 
-const API = 'https://api.sofascore.com/api/v1';
+// Plusieurs adresses de la même interface : on garde la première qui répond depuis la machine.
+const BASES = ['https://api.sofascore.com/api/v1', 'https://www.sofascore.com/api/v1', 'https://api.sofascore.app/api/v1'];
+let API = BASES[0];
+let PROXY = ''; // proxy Apify si SofaScore bloque la machine (serveurs de GitHub)
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36';
 const RAYON_KM = 25;
 const HORIZON_JOURS = 365;
@@ -54,6 +57,37 @@ function local(iso, tz) {
   return { jour: `${p.year}-${p.month}-${p.day}`, heure: `${p.hour}:${p.minute}` };
 }
 
+// Cherche un chemin qui marche : adresse directe, sinon proxy Apify (clé APIFY_TOKEN, secret GitHub).
+async function choisirAcces() {
+  const essai = async () => {
+    try {
+      const { stdout } = await run('curl', ['-s', '-o', '/dev/null', '-w', '%{http_code}', '--compressed', '-m', '30', '-A', UA,
+        ...(PROXY ? ['--proxy', PROXY] : []), `${API}/sport/football/categories`]);
+      return stdout.trim() === '200';
+    } catch { return false; }
+  };
+  const proxies = [''];
+  if (process.env.APIFY_TOKEN) {
+    try {
+      const me = await (await fetch('https://api.apify.com/v2/users/me', { headers: { Authorization: `Bearer ${process.env.APIFY_TOKEN}` } })).json();
+      const mdp = me?.data?.proxy?.password;
+      if (mdp) proxies.push(`http://auto:${mdp}@proxy.apify.com:8000`, `http://groups-RESIDENTIAL:${mdp}@proxy.apify.com:8000`);
+    } catch (e) {
+      console.log(`Apify : ${e.message}`);
+    }
+  }
+  for (const p of proxies) {
+    for (const b of BASES) {
+      PROXY = p; API = b;
+      if (await essai()) {
+        console.log(`Accès SofaScore : ${b}${p ? ` via le proxy Apify (${p.split(':')[1].slice(2)})` : ' en direct'}`);
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
 const sleep = (ms) => new Promise((ok) => setTimeout(ok, ms));
 async function api(path) {
   for (let i = 0; i < 3; i++) {
@@ -61,7 +95,7 @@ async function api(path) {
     try {
       // Par curl : la protection anti-robots de SofaScore refuse le fetch de Node (erreur 403).
       const { stdout } = await run('curl', ['-s', '--compressed', '-m', '30', '-A', UA, '-H', 'Accept: application/json',
-        '-w', '\n%{http_code}', `${API}/${path}`], { maxBuffer: 50 * 1024 * 1024 });
+        ...(PROXY ? ['--proxy', PROXY] : []), '-w', '\n%{http_code}', `${API}/${path}`], { maxBuffer: 50 * 1024 * 1024 });
       const cut = stdout.lastIndexOf('\n');
       const status = Number(stdout.slice(cut + 1));
       if (status === 404) return null;
@@ -120,6 +154,7 @@ for (const v of villes.values()) {
   v.noms = new Set(noms[v.code] || [simple(v.nom)]);
 }
 writeFileSync('matchs-cache.json', JSON.stringify({ ...ancien, centres, noms }) + '\n'); // gardés même si la suite échoue
+if (!(await choisirAcces())) throw new Error('SofaScore refuse toutes les demandes depuis cette machine.');
 const isos = new Set([...villes.values()].map((v) => v.iso));
 const alpha2 = new Set([...isos].flatMap((iso) => CATEGORIES_PAYS[iso] || [iso]));
 
