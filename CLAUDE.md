@@ -70,7 +70,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Travelpayouts, rares au-delà de 2-3 mois).
 - `matchs/CODE.json` (un fichier par ville) : matchs de foot, basket et rugby joués dans chaque
   destination (12 mois, champ `niveau` 1 = le plus important) ; `matchs-cache.json` garde les
-  centres des villes, leurs noms en toutes langues et le stade de chaque club. Mis à jour lundi et jeudi par `.github/workflows/update-matchs.yml` → `scripts/fetch-matchs.mjs`.
+  centres des villes, leurs noms en toutes langues et le stade de chaque club. Mise à jour **depuis une session Claude** (`node scripts/fetch-matchs.mjs`, ~25 min, puis commit) :
+  SofaScore bloque les serveurs GitHub (403) et le proxy Apify gratuit est refusé, donc l'Action
+  `update-matchs.yml` n'est plus automatique. À refaire environ une fois par mois (horaires TV fixés tard).
   Source gratuite et sans clé : l'interface publique de SofaScore (par `curl` : le `fetch` de Node
   est bloqué par leur anti-robots). Pour chaque pays desservi : 2 championnats + la coupe de foot,
   1er championnat de basket, liste fixe pour le rugby (`RUGBY`), et les coupes d'Europe. Un match est rattaché à une ville si

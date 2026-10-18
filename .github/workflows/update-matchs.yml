@@ -1,10 +1,11 @@
 # Met à jour matchs/CODE.json (foot, basket, rugby dans chaque destination) deux fois par semaine.
-# Source gratuite, sans clé : SofaScore. Lancement à la main possible (« Run workflow »).
+# Source gratuite, sans clé : SofaScore. Lancement à la main seulement (« Run workflow ») :
+# SofaScore refuse les serveurs de GitHub (erreur 403, oct. 2026), donc pas de lancement automatique
+# pour ne pas recevoir un e-mail d'échec deux fois par semaine. La mise à jour se fait depuis une
+# session Claude : `node scripts/fetch-matchs.mjs`, puis commit de matchs/ et matchs-cache.json.
 name: Mise à jour des matchs
 
 on:
-  schedule:
-    - cron: '41 3 * * 1,4'   # lundi et jeudi à 03:41 UTC
   workflow_dispatch:
 
 permissions:

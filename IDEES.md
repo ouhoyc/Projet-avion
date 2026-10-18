@@ -177,7 +177,7 @@ la plus proche de toutes les activités (« pile au milieu »).
 ### 13. 🛠 Matchs et événements pendant le séjour
 - ✅ (18/10/2026) **Matchs faits** : foot, basket, rugby dans toutes les destinations, source
   gratuite SofaScore (MatchEnDirect et Flashscore n'ont pas d'API ; TheSportsDB gratuit ne donne
-  qu'un match ; ESPN n'a pas la Pologne), via `matchs.json` mis à jour 2 fois par semaine. Les
+  qu'un match ; ESPN n'a pas la Pologne), via `matchs/CODE.json`, mis à jour à la main depuis une session Claude (SofaScore bloque GitHub). Les
   matchs du séjour apparaissent dans « Sport » comme des activités (prix estimé, lien billets).
   Reste : F1/MotoGP, tennis, et les grandes fêtes ci-dessous.
 Sur la page d'une ville, selon les dates du voyageur : « Pendant votre séjour : Barça – Real,
