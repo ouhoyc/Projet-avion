@@ -273,6 +273,14 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   Prix à confirmer (`a_verifier`) : Cité du Vin, Bassins des Lumières, flèche Saint-Michel, Grand-Théâtre, musées
   (Aquitaine, CAPC, MADD, Muséum, Vin et Négoce), croisière, École du vin, UBB, Saint-Émilion, Pilat, Médoc.
   Photos des restaurants : surtout des photos d'illustration (seule La Tupina a une vraie photo libre).
+- ✅ (19/10/2026) **Page guide de Londres** (`guides/LON.json`), préparée en autonomie : 28 activités
+  (4 tendance : Horizon 22, Camden, Primrose Hill, St Dunstan in the East), 18 restaurants (note pondérée,
+  C = 4,53, ~1 900 lieux lus via Wanderlog ; Michelin 2026 : The Ledbury et Sketch 3 étoiles, Brat et St. John
+  1 étoile, Padella, BAO, Kiln et Berenjak Bib Gourmand), 5 quartiers. Prix convertis à 1 £ ≈ 1,15 €.
+  Réseaux sociaux : TikTok n'a rien renvoyé ce jour-là (Instagram, YouTube et Reddit seulement).
+  Prix à confirmer (`a_verifier`) : abbaye de Westminster, Tour de Londres, Tower Bridge, Saint-Paul,
+  London Eye, Churchill War Rooms, Greenwich, Kew, studios Harry Potter, comédie musicale, bateau, Arsenal, Windsor.
+  Fish and chips : The Golden Hind (institution, note 4,3 seulement ; Poppies écarté, 4,1-4,2).
 - ✅ (19/10/2026) **Page guide de Lisbonne** (`guides/LIS.json`), préparée en autonomie : 27 activités
   (5 tendance : MAAT, LX Factory, belvédères de Senhora do Monte et Santa Luzia, Pilier 7), 18 restaurants
   (note pondérée, C = 4,42, 852 restaurants lus via Wanderlog ; Michelin 2026 : Belcanto et Fifty
