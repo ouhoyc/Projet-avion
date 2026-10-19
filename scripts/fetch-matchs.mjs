@@ -196,6 +196,8 @@ for (const [id, t] of tournois) {
     for (const e of evts) {
       vus++;
       if (e.startTimestamp > limite) continue;
+      // Match reporté ou annulé : on ne l'affiche pas (il disparaît du site).
+      if (e.status?.type && e.status.type !== 'notstarted') continue;
       // Où se joue le match : le stade du match, sinon celui du club qui reçoit (sa fiche),
       // sinon seulement le nom de la ville (souvent le cas au basket).
       let c = e.venue?.venueCoordinates;

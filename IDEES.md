@@ -183,8 +183,8 @@ la plus proche de toutes les activités (« pile au milieu »).
 - ✅ (19/10/2026) **Mise à jour automatique** : tâche Claude programmée chaque lundi (Sonnet), car
   SofaScore bloque GitHub et Vercel (403) et l'offre gratuite d'API-Sports ne donne que
   hier/aujourd'hui/demain (payant ≈ 19 $/mois par sport : à reconsidérer si le site rapporte).
-  À faire : « horaire à confirmer » quand l'heure n'est pas fixée, « Reporté » / « Annulé » au lieu
-  de faire disparaître le match. **Pas de promesse** du genre « d'autres matchs seront annoncés »
+  Matchs reportés ou annulés : **retirés** du site (choix du propriétaire : « on n'est pas un site
+  de foot »). **Pas de promesse** du genre « d'autres matchs seront annoncés »
   (refusé par le propriétaire).
 Sur la page d'une ville, selon les dates du voyageur : « Pendant votre séjour : Barça – Real,
 sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joventut Badalona
