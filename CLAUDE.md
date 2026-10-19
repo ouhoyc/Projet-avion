@@ -112,6 +112,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Lisbonne (oct. 2026) : le plus rapide est la recherche de **fichiers** en HTML
   (`Special:Search` avec `ns6=1`), qui donne directement les vignettes ; l'id
   `fileinfotpl&#95;aut` de la page `File:` donne l'auteur.
+  Bordeaux (oct. 2026) : la recherche de fichiers répondait « 429 » ; ce qui marche : la recherche de
+  catégories (`ns14=1`), puis la page HTML de la catégorie (vignettes + `data-file-width`), lentement
+  (3-4 s entre deux pages). Dans la page `File:`, les `_` des classes sont écrits `&#95;`.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

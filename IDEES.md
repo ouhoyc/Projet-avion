@@ -263,6 +263,16 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
+- ✅ (19/10/2026) **Page guide de Bordeaux** (`guides/BOD.json`), préparée en autonomie : 24 activités
+  (3 tendance : miroir d'eau, Vieux Bordeaux et Grosse Cloche, Chartrons ; match de l'UBB, rugby), 18 restaurants
+  (note pondérée, C = 4,39, 488 restaurants lus via Wanderlog ; Michelin 2026 : Pressoir d'Argent et Maison
+  Nouvelle 2 étoiles, Gabriel, Cent 33 et Soléna 1 étoile, Mets Mots Bib Gourmand), 5 quartiers.
+  Réseaux sociaux : TikTok n'a rien rendu cette fois, signal faible (Instagram, YouTube, Reddit) → peu de badges.
+  Écartés : tour Pey-Berland (fermée jusqu'à nouvel ordre, foudre), musée des Beaux-Arts (travaux), Girondins
+  (descendus en National 2). Flèche Saint-Michel rouverte en juin 2026 (avril à octobre).
+  Prix à confirmer (`a_verifier`) : Cité du Vin, Bassins des Lumières, flèche Saint-Michel, Grand-Théâtre, musées
+  (Aquitaine, CAPC, MADD, Muséum, Vin et Négoce), croisière, École du vin, UBB, Saint-Émilion, Pilat, Médoc.
+  Photos des restaurants : surtout des photos d'illustration (seule La Tupina a une vraie photo libre).
 - ✅ (19/10/2026) **Page guide de Lisbonne** (`guides/LIS.json`), préparée en autonomie : 27 activités
   (5 tendance : MAAT, LX Factory, belvédères de Senhora do Monte et Santa Luzia, Pilier 7), 18 restaurants
   (note pondérée, C = 4,42, 852 restaurants lus via Wanderlog ; Michelin 2026 : Belcanto et Fifty
