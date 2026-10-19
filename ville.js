@@ -476,8 +476,8 @@ async function setupMap() {
     const acts = guide.activites.filter((a) => a.lat && a.type !== 'nature');
     const bounds = new maplibregl.LngLatBounds();
     (chosenPlaces().length ? chosenPlaces() : acts).forEach((a) => bounds.extend([a.lng, a.lat]));
-    const { q } = currentQuartier();
-    if (q) bounds.extend([q.lng, q.lat]);
+    const { pt } = currentQuartier();
+    if (pt) bounds.extend([pt.lng, pt.lat]);
     map = new maplibregl.Map({
       container: 'v-map', style, bounds, fitBoundsOptions: { padding: 40, maxZoom: 15 },
       attributionControl: false, dragRotate: false, pitchWithRotate: false, cooperativeGestures: true,
@@ -550,25 +550,32 @@ function chosenPlaces() {
   return guide.activites.filter((a) => selected.has(a.id) && a.lat && a.type !== 'nature');
 }
 
+// Le milieu des activités n'est retenu que s'il tombe près d'un quartier du guide : sinon il
+// peut être dans le fleuve ou une zone sans hôtels (Belém + Alfama → docks d'Alcântara).
+const NEAR_Q_KM = 0.8;
+
+// Point conseillé pour dormir (pt) et quartier qui lui donne son nom et son texte (q).
 function idealQuartier() {
   const places = chosenPlaces();
   const qs = guide.quartiers || [];
   if (!qs.length) return null;
-  if (!places.length) return { q: qs[0], places, center: null };
+  if (!places.length) return { q: qs[0], pt: qs[0], places, exact: false };
   const center = { lat: places.reduce((s, p) => s + p.lat, 0) / places.length, lng: places.reduce((s, p) => s + p.lng, 0) / places.length };
-  // Le quartier qui a le plus d'activités à pied ; à égalité, le plus proche du centre des activités.
+  const nearest = qs.reduce((best, x) => (km(x, center) < km(best, center) ? x : best));
+  if (km(nearest, center) <= NEAR_Q_KM) return { q: nearest, pt: center, places, exact: true };
+  // Sinon : le quartier qui a le plus d'activités à pied ; à égalité, le plus proche du milieu.
   const score = (x) => places.filter((p) => km(p, x) <= WALK_KM).length;
   const q = qs.reduce((best, x) => {
     const d = score(x) - score(best);
     return d > 0 || (d === 0 && km(x, center) < km(best, center)) ? x : best;
   });
-  return { q, places, center };
+  return { q, pt: q, places, exact: false };
 }
 
 function currentQuartier() {
   const ideal = idealQuartier();
-  const q = (guide.quartiers || []).find((x) => x.id === quartierChoisi) || ideal?.q;
-  return { q, ideal };
+  const chosen = (guide.quartiers || []).find((x) => x.id === quartierChoisi);
+  return chosen ? { q: chosen, pt: chosen, ideal } : { q: ideal?.q, pt: ideal?.pt, ideal };
 }
 
 function stayDates() {
@@ -620,29 +627,31 @@ function setupHotel() {
 
 function renderHotel() {
   if (!guide.quartiers?.length) return;
-  const { q, ideal } = currentQuartier();
-  const isIdeal = q.id === ideal.q.id;
+  const { q, pt, ideal } = currentQuartier();
+  const isIdeal = !quartierChoisi;
   const n = ideal.places.length;
-  const near = ideal.places.filter((p) => km(p, q) <= WALK_KM).length;
-  const avg = n ? ideal.places.reduce((s, p) => s + km(p, q), 0) / n : 0;
+  const near = ideal.places.filter((p) => km(p, pt) <= WALK_KM).length;
+  const avg = n ? ideal.places.reduce((s, p) => s + km(p, pt), 0) / n : 0;
+  const best = isIdeal && n ? (ideal.exact ? 'Au milieu de vos activités' : 'Le plus proche de vos activités') : '';
   const why = !n
-    ? 'Cochez des activités : on calcule le quartier le plus proche de vos visites.'
+    ? 'Cochez des activités : on calcule le meilleur endroit pour dormir, au milieu de vos visites.'
     : near
       ? (n === 1 ? 'Votre activité est à moins de 20 min à pied.' : `${near} de vos ${n} activités à moins de 20 min à pied.`)
       : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : le métro vous y emmène vite.`;
   $('h-zone').innerHTML = `
     <div class="h-card">
-      <p class="h-q"><b>${esc(q.nom)}</b>${isIdeal && ideal.places.length ? '<span class="h-best">Le plus proche de vos activités</span>' : ''}</p>
+      <p class="h-q"><b>${isIdeal && ideal.exact && n ? 'Près de ' : ''}${esc(q.nom)}</b>${best ? `<span class="h-best">${best}</span>` : ''}</p>
       <p class="h-text">${esc(q.texte)}</p>
       <p class="h-why">${esc(why)}</p>
     </div>
     <div class="h-others" role="group" aria-label="Autres quartiers">
       <span>Autres quartiers :</span>
-      ${guide.quartiers.filter((x) => x.id !== q.id).map((x) => `<button type="button" class="h-other" data-q="${x.id === ideal.q.id ? 'ideal' : x.id}">${esc(x.nom)}</button>`).join('')}
+      ${isIdeal ? '' : `<button type="button" class="h-other" data-q="ideal">${ideal.exact && n ? 'Au milieu de mes activités' : esc(ideal.q.nom)}</button>`}
+      ${guide.quartiers.filter((x) => x.id !== q.id && (isIdeal || ideal.exact || x.id !== ideal.q.id)).map((x) => `<button type="button" class="h-other" data-q="${x.id}">${esc(x.nom)}</button>`).join('')}
     </div>`;
   $('h-gammes').innerHTML = GAMMES.map((g) => `
     <button type="button" class="h-gamme" data-g="${g.id}" aria-pressed="${g.id === hotel.gamme}"><b>${g.nom}</b><small>${g.sous}</small></button>`).join('');
-  renderHotels(q);
+  renderHotels({ nom: q.nom, lat: pt.lat, lng: pt.lng });
   drawZone();
 }
 
@@ -694,7 +703,7 @@ function bookingFallback(q, inD, outD, pax, g, why) {
 function drawZone() {
   const src = map?.getSource?.('zone');
   if (!src || !guide?.quartiers?.length) return;
-  const { q } = currentQuartier();
+  const { pt: q } = currentQuartier();
   const r = 1.0, pts = [];
   for (let i = 0; i <= 48; i++) {
     const t = (i / 48) * 2 * Math.PI;
@@ -757,7 +766,9 @@ function tierOf(h, t) {
 }
 
 function showHotels() {
-  const list = hotelResults.hotels;
+  // Les plus proches du point conseillé en premier.
+  const { pt } = currentQuartier();
+  const list = [...hotelResults.hotels].sort((a, b) => km(a, pt) - km(b, pt));
   const n = hotelResults.nights;
   const t = tiers(list);
   $('h-hotels').innerHTML = `<p class="h-found">${list.length} hôtel${list.length > 1 ? 's' : ''} trouvé${list.length > 1 ? 's' : ''} pour vos dates · prix total pour ${n} nuit${n > 1 ? 's' : ''}, ${esc(paxLabel(paxGet()))}</p>`;
@@ -766,7 +777,7 @@ function showHotels() {
   $('lg-high').textContent = `> ${Math.round(t.mid)} €/nuit`;
   $('v-legend').hidden = false;
   $('v-map-note').textContent = 'Touchez un prix pour voir l\'hôtel, ou un point pour voir l\'activité.';
-  $('h-list').innerHTML = list.slice(0, 20).map((h) => hotelCard(h, tierOf(h, t))).join('');
+  $('h-list').innerHTML = list.slice(0, 20).map((h) => hotelCard(h, tierOf(h, t), km(h, pt))).join('');
   $('h-list').onclick = (e) => {
     const b = e.target.closest('[data-hotel]');
     if (b) openHotel(b.dataset.hotel);
@@ -778,12 +789,13 @@ function starsTxt(s) {
   return s ? '★'.repeat(Math.round(s)) : '';
 }
 
-function hotelCard(h, tier) {
+function hotelCard(h, tier, dist) {
   const on = hotel.id === h.id;
+  const distTxt = dist < 0.95 ?`${Math.max(100, Math.round(dist * 10) * 100)} m` : `${dist.toFixed(1).replace('.', ',')} km`;
   return `
     <li><button type="button" class="h-item${on ? ' is-on' : ''}" data-hotel="${esc(h.id)}">
       ${h.photo ? `<img src="${esc(h.photo)}" alt="" loading="lazy">` : '<span class="h-noimg" aria-hidden="true">🏨</span>'}
-      <span class="h-item-main"><b>${esc(h.name)}</b><small>${starsTxt(h.stars)}${h.rating ? ` · ${String(h.rating).replace('.', ',')}/10` : ''}${on ? ' · ✓ choisi' : ''}</small></span>
+      <span class="h-item-main"><b>${esc(h.name)}</b><small>${starsTxt(h.stars)}${h.rating ? ` · ${String(h.rating).replace('.', ',')}/10` : ''} · à ${distTxt}${on ? ' · ✓ choisi' : ''}</small></span>
       <span class="h-item-price t-${tier}">${euro(h.total)}<small>${euro(Math.round(h.total / hotelResults.nights))}/nuit</small></span>
     </button></li>`;
 }

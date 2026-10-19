@@ -158,7 +158,10 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
      vidéos sponsorisées « zaproszenie », « współpraca », « AD »). Lire aussi Reddit pour les
      pièges à touristes (Varsovie : faux sites de billets → note dans les fiches).
 3. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
-   fait dans toute la ville (LiteAPI), le quartier conseillé est dessiné en pointillés.
+   fait dans toute la ville (LiteAPI). Point conseillé (`idealQuartier`, `ville.js`) : le milieu
+   des activités cochées s'il est à moins de 800 m d'un quartier du guide (« Près de … », hôtels
+   triés par distance à ce point) ; sinon le quartier qui a le plus d'activités à pied. Les
+   quartiers servent donc à nommer le point et de secours (point dans l'eau, en zone sans hôtels).
 4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
 
 ## Économie (demande du propriétaire)
