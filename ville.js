@@ -221,9 +221,10 @@ function addMatchs(list) {
       lien_billets: `https://www.google.com/search?q=${encodeURIComponent(`billets ${m.domicile} ${m.exterieur}`)}`,
     };
   });
+  // Avec des dates, l'activité générique du club (« Match du Legia »…) disparaît : soit un vrai match
+  // la remplace, soit le club ne joue pas à domicile pendant le séjour.
+  guide.activites = guide.activites.filter((a) => !a.club);
   if (!acts.length) return;
-  // Un vrai match remplace l'activité générique du même club (« Match du Legia »…).
-  guide.activites = guide.activites.filter((a) => !a.club || !acts.some((m) => m.club.includes(a.club)));
   const i = guide.activites.findIndex((a) => a.type === 'sport');
   guide.activites.splice(i < 0 ? guide.activites.length : i, 0, ...acts);
 }
