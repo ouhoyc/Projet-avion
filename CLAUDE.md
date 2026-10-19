@@ -71,7 +71,8 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - `matchs/CODE.json` (un fichier par ville) : matchs de foot, basket et rugby joués dans chaque
   destination (12 mois, champ `niveau` 1 = le plus important) ; `matchs-cache.json` garde les
   centres des villes, leurs noms en toutes langues et le stade de chaque club. Mise à jour **chaque lundi ~6 h par une tâche Claude programmée** (« Mise à jour des matchs »,
-  modèle Sonnet, nouvelle session à chaque fois : `node scripts/fetch-matchs.mjs` ~25 min, puis commit).
+  modèle Sonnet) qui réveille la session dédiée « Mise à jour des matchs (chaque lundi) » (dépôt branché,
+  sinon le push est refusé) : `node scripts/fetch-matchs.mjs` ~10-25 min, puis commit.
   SofaScore bloque GitHub et Vercel (403), le proxy Apify gratuit est refusé, et l'offre gratuite
   d'API-Sports ne donne que hier/aujourd'hui/demain (testé oct. 2026 ; payant ≈ 19 $/mois/sport) :
   l'Action `update-matchs.yml` reste seulement en lancement à la main.
