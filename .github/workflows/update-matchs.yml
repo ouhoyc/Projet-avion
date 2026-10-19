@@ -2,7 +2,7 @@
 # Source gratuite, sans clé : SofaScore. Lancement à la main seulement (« Run workflow ») :
 # SofaScore refuse les serveurs de GitHub (erreur 403, oct. 2026), donc pas de lancement automatique
 # pour ne pas recevoir un e-mail d'échec deux fois par semaine. La mise à jour se fait depuis une
-# session Claude : `node scripts/fetch-matchs.mjs`, puis commit de matchs/ et matchs-cache.json.
+# tâche Claude programmée chaque lundi (`node scripts/fetch-matchs.mjs`, puis commit).
 name: Mise à jour des matchs
 
 on:
