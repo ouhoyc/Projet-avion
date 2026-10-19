@@ -480,7 +480,7 @@ async function setupMap() {
     if (pt) bounds.extend([pt.lng, pt.lat]);
     map = new maplibregl.Map({
       container: 'v-map', style, bounds, fitBoundsOptions: { padding: 40, maxZoom: 15 },
-      attributionControl: false, dragRotate: false, pitchWithRotate: false, cooperativeGestures: true,
+      attributionControl: false, dragRotate: false, pitchWithRotate: false,
     });
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
