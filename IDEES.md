@@ -263,6 +263,16 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
+- ✅ (19/10/2026) **Page guide de Lisbonne** (`guides/LIS.json`), préparée en autonomie : 27 activités
+  (5 tendance : MAAT, LX Factory, belvédères de Senhora do Monte et Santa Luzia, Pilier 7), 18 restaurants
+  (note pondérée, C = 4,42, 852 restaurants lus via Wanderlog ; Michelin 2026 : Belcanto et Fifty
+  Seconds 2 étoiles, Encanto et Sála 1 étoile, Pigmeu et Canalha Bib Gourmand), 5 quartiers.
+  Écartés car fermés : ascenseur de Santa Justa et funiculaires de la Glória, de Bica et du Lavra
+  (arrêtés depuis l'accident de 2025), musée de l'Azulejo et musée d'Art ancien (travaux).
+  Prix confirmés sur les sites officiels : château (17 €), Padrão (10 €), Cristo Rei (10 €), fado (23 €).
+  Prix à confirmer (`a_verifier`) : Hiéronymites, tour de Belém, MAAT, Océanarium, Carmo, Gulbenkian,
+  Pena, Cascais, croisière, Pilier 7, Benfica, téléphérique, surf, arc de la rue Augusta.
+  Restaurants à surveiller : Casa do Alentejo et Taberna da Rua das Flores (très connus mais note 4,2).
 - ✅ (18/10/2026) **Page guide de Varsovie** (`guides/WAW.json`), préparée en autonomie (le
   propriétaire ne connaît pas la ville) : 26 activités sans activité « manger » (3 tendance : Varso
   Tower, jardin de la BUW, musée du Néon), 18 restaurants (note pondérée, C = 4,51, notes Google
