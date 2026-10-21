@@ -260,6 +260,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (21/10/2026) Formulaire, maquette A retenue : la destination passe en dernier, « Une idée de
+  destination ? (facultatif) ». Accroche sous le titre : 3 propositions montrées, choix en attente.
 - ✅ (21/10/2026) Liens Tiqets sur Varsovie (POLIN, Vodka), Lisbonne (Hiéronymites, Belém, Pena, croisière,
   fado in Chiado, arc de la rue Augusta) et Bordeaux (Cité du Vin, Bassins des Lumières, croisière, musée du Vin,
   Médoc, Saint-Émilion). Pas d'offre Tiqets au bon prix pour : château royal, Insurrection, Copernic, Wilanów

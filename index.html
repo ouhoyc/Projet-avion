@@ -74,22 +74,6 @@
           <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
         </div>
 
-        <!-- Où ? : on tape une ville ou un pays (facultatif), la croix remet « N'importe où » -->
-        <div class="field where-field">
-          <label for="s-where">Où ?</label>
-          <div class="where-box">
-            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-            <input type="text" id="s-where" placeholder="N'importe où" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
-              role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="s-where-list">
-            <button type="button" class="where-clear" id="s-where-clear" aria-label="Effacer : n'importe où" hidden>
-              <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
-            </button>
-          </div>
-          <ul class="where-list" id="s-where-list" role="listbox" aria-label="Villes et pays" hidden></ul>
-          <input type="hidden" id="s-country">
-          <input type="hidden" id="s-city">
-        </div>
-
         <div class="field">
           <span class="field-label" id="s-when-title">Quand êtes-vous libre ?</span>
           <button type="button" class="picker-btn" id="s-when" aria-labelledby="s-when-title s-when-label" aria-haspopup="dialog">
@@ -127,6 +111,23 @@
         <div class="field budget-field">
           <label for="s-budget">Budget max <span class="hint">facultatif</span></label>
           <div class="euro-input"><input type="number" id="s-budget" min="10" step="10" inputmode="numeric" placeholder="Pas de limite"><span aria-hidden="true">€</span></div>
+        </div>
+
+        <!-- Destination en dernier et facultative : le site est fait pour ceux qui ne savent pas où partir.
+             On tape une ville ou un pays, la croix remet « N'importe où ». -->
+        <div class="field where-field">
+          <label for="s-where">Une idée de destination ? <span class="hint">facultatif</span></label>
+          <div class="where-box">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <input type="text" id="s-where" placeholder="N'importe où" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
+              role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="s-where-list">
+            <button type="button" class="where-clear" id="s-where-clear" aria-label="Effacer : n'importe où" hidden>
+              <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
+          </div>
+          <ul class="where-list" id="s-where-list" role="listbox" aria-label="Villes et pays" hidden></ul>
+          <input type="hidden" id="s-country">
+          <input type="hidden" id="s-city">
         </div>
 
         <p class="search-recap" id="search-recap" hidden></p>

@@ -241,7 +241,13 @@ function setupWhere() {
     if (readyToSearch()) runSearch();
   };
 
-  input.addEventListener('focus', () => { if (places.length) { input.select(); render(); } });
+  input.addEventListener('focus', () => {
+    if (places.length) { input.select(); render(); }
+    // Téléphone : le champ est en bas du formulaire, on le remonte pour que le clavier ne cache pas la liste.
+    if (matchMedia('(max-width: 759px)').matches) {
+      setTimeout(() => input.closest('.field').scrollIntoView({ behavior: 'smooth', block: 'start' }), 300);
+    }
+  });
   input.addEventListener('input', () => {
     sEls.whereClear.hidden = !input.value;
     render();
