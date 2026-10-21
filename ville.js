@@ -34,6 +34,26 @@ const PARTNER_LINKS = {
     'tamise-bateau': tiqets('activites-attractions-londres-c67458/billets-pour-la-tamise-croisiere-touristique-par-thames-clipper-p1111367'),
     'windsor': tiqets('activites-attractions-windsor-c67223/billets-pour-chateau-de-windsor-billet-d-entree-p975208'),
   },
+  WAW: {
+    'polin': tiqets('les-choses-a-faire-a-varsovie-c485/billets-pour-musee-de-l-histoire-des-juifs-polonais-polin-billet-d-entree-p1004274'),
+    'vodka': tiqets('les-choses-a-faire-a-varsovie-c485/billets-pour-musee-de-la-vodka-polonaise-visite-guidee-en-anglais-degustation-de-4-vodkas-p1093724'),
+  },
+  LIS: {
+    'jeronimos': tiqets('activites-attractions-lisbonne-c76528/billets-pour-monastere-des-hieronymites-billet-d-entree-p1012358'),
+    'torre-belem': tiqets('activites-attractions-lisbonne-c76528/billets-pour-tour-de-belem-billet-d-entree-p1012361'),
+    'sintra': tiqets('activites-attractions-sintra-c76496/billets-pour-palais-national-parc-de-pena-billet-d-entree-p1120392'),
+    'croisiere': tiqets('activites-attractions-lisbonne-c76528/billets-pour-lisbonne-croisiere-fluviale-d-une-heure-et-demie-au-coucher-du-soleil-par-lisboat-p1017080'),
+    'fado': tiqets('activites-attractions-lisbonne-c76528/billets-pour-spectacle-fado-in-chiado-a-lisbonne-p974671'),
+    'praca-comercio': tiqets('activites-attractions-lisbonne-c76528/billets-pour-le-point-de-vue-au-sommet-de-l-arc-de-triomphe-de-la-rue-augusta-p974825'),
+  },
+  BOD: {
+    'cite-du-vin': tiqets('activites-attractions-bordeaux-c67101/billets-pour-la-cite-du-vin-exposition-permanente-belvedere-p975351'),
+    'croisiere': tiqets('activites-attractions-bordeaux-c67101/billets-pour-croisiere-commentee-verre-de-vin-et-cannele-a-bordeaux-p987312'),
+    'musee-vin': tiqets('activites-attractions-bordeaux-c67101/billets-pour-musee-du-vin-et-du-negoce-p984904'),
+    'medoc': tiqets('activites-attractions-bordeaux-c67101/billets-pour-journee-oenologique-dans-le-medoc-au-depart-de-bordeaux-p982856'),
+    'bassins-lumieres': `${TIQETS_LINK}?u=${encodeURIComponent('https://www.tiqets.com/fr/billets-bassins-des-lumieres-l200556/')}`,
+    'saint-emilion': tiqets('activites-attractions-bordeaux-c67101/billets-pour-demi-journee-oenologique-dans-le-village-de-saint-emilion-au-depart-de-bordeaux-p979424'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 
