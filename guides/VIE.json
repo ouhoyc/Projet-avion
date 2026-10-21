@@ -1,0 +1,1762 @@
+{
+ "city_code": "VIE",
+ "statut": "préparé en autonomie, prix estimés au 21/10/2026",
+ "verifie_le": "2026-10-21",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "schoenbrunn",
+   "nom": "Château de Schönbrunn",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Schönbrunn",
+   "lat": 48.184989,
+   "lng": 16.311568,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Appartements d'apparat (22 pièces, audioguide)",
+     30
+    ],
+    [
+     "Palace Ticket (40 pièces)",
+     42
+    ],
+    [
+     "6 à 18 ans",
+     "20 € / 30 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      20
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet à heure fixe en ligne, quelques jours avant (le jour même, l'attente peut dépasser 2 h)",
+   "duree": "2 h (3 h avec le parc)",
+   "moment": "À l'ouverture (8 h 30), avant les groupes",
+   "enfants": true,
+   "texte": "Le Versailles des Habsbourg : 1 441 pièces, dont les salons où Mozart, enfant, joua devant Marie-Thérèse et où vécurent François-Joseph et Sissi. La visite traverse les appartements privés et les salles de bal dorées.",
+   "site_officiel": "https://www.schoenbrunn.at/",
+   "note": "Achetez uniquement sur le site officiel (imperialtickets.com) : des revendeurs vendent les mêmes billets bien plus cher.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jebulon",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade_nord_ch%C3%A2teau_Sch%C3%B6nbrunn_Vienna.jpg",
+    "src": "img/activites/VIE/schoenbrunn.jpg"
+   }
+  },
+  {
+   "id": "gloriette",
+   "nom": "Parc de Schönbrunn et Gloriette",
+   "emoji": "🌳",
+   "type": "vue",
+   "quartier": "Schönbrunn",
+   "lat": 48.178563,
+   "lng": 16.307642,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et montée à la Gloriette",
+     "gratuit"
+    ],
+    [
+     "Labyrinthe",
+     "≈ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, quand le château se dore au soleil",
+   "enfants": true,
+   "texte": "Montez à travers les jardins jusqu'à la Gloriette, la colonnade qui couronne la colline : la vue plonge sur le château, les parterres à la française et tout Vienne. Le parc est gratuit et ouvert dès 6 h 30.",
+   "site_officiel": "https://www.schoenbrunn.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Liridon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGloriette_Sch%C3%B6nbrunn%2C_March_2020_%2802%29.jpg",
+    "src": "img/activites/VIE/gloriette.jpg"
+   }
+  },
+  {
+   "id": "hofburg",
+   "nom": "Hofburg : appartements impériaux et musée Sissi",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Hofburg",
+   "lat": 48.20705,
+   "lng": 16.3661,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Adulte (appartements, musée Sissi, argenterie)",
+     20
+    ],
+    [
+     "6 à 18 ans",
+     12
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Avec visite guidée",
+     "≈ 33 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      12
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet à heure fixe en ligne, la veille",
+   "duree": "1 h 30",
+   "moment": "En matinée, en semaine",
+   "enfants": true,
+   "texte": "Le palais d'hiver des Habsbourg, au cœur de la ville : les appartements de François-Joseph et de Sissi, ses robes, sa salle de gymnastique, et la vaisselle impériale. Le musée Sissi rouvre le 19 novembre 2026, agrandi et repensé.",
+   "site_officiel": "https://www.sisimuseum-hofburg.at/",
+   "note": "Jusqu'au 18 novembre 2026, le musée Sissi est fermé pour travaux : seuls les appartements sont ouverts, à prix réduit.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMichaelertrakt%2C_Hofburg%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_08-10_PAN.jpg",
+    "src": "img/activites/VIE/hofburg.jpg"
+   }
+  },
+  {
+   "id": "belvedere",
+   "nom": "Belvédère et « Le Baiser » de Klimt",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Belvédère",
+   "lat": 48.191541,
+   "lng": 16.380888,
+   "prix": 23,
+   "prix_detail": [
+    [
+     "Belvédère supérieur, adulte (en ligne)",
+     23
+    ],
+    [
+     "Moins de 19 ans",
+     "gratuit"
+    ],
+    [
+     "Jardins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 23,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau horaire en ligne, la veille en haute saison",
+   "duree": "2 h",
+   "moment": "À l'ouverture, ou en fin de journée pour les jardins",
+   "enfants": true,
+   "texte": "Un palais baroque posé au-dessus de ses jardins en terrasses, et dedans, la plus grande collection de Klimt au monde, avec « Le Baiser » et son or éclatant. Schiele et Kokoschka complètent ce voyage dans la Vienne 1900.",
+   "site_officiel": "https://www.belvedere.at/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalacio_Belvedere%2C_Viena%2C_Austria%2C_2020-02-01%2C_DD_93-95_HDR.jpg",
+    "src": "img/activites/VIE/belvedere.jpg"
+   }
+  },
+  {
+   "id": "stephansdom",
+   "nom": "Cathédrale Saint-Étienne",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Innere Stadt",
+   "lat": 48.208492,
+   "lng": 16.373127,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Entrée dans l'église (zone d'accueil)",
+     "gratuit"
+    ],
+    [
+     "Tour sud (343 marches) ou tour nord (ascenseur)",
+     "≈ 7 € chacune"
+    ],
+    [
+     "Billet tout compris (nef, tours, catacombes, audioguide)",
+     "≈ 25 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      14,
+      7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à la caisse de la cathédrale",
+   "duree": "1 h 30",
+   "moment": "Le matin pour la nef, en fin de journée pour la tour sud",
+   "enfants": true,
+   "texte": "Le cœur de Vienne, avec son toit de 230 000 tuiles vernissées dessinant l'aigle des Habsbourg. Montez les 343 marches de la tour sud pour la vue sur la ville, ou descendez dans les catacombes où reposent les entrailles des empereurs.",
+   "site_officiel": "https://www.stephanskirche.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Deror avi",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AExterior_of_St._Stephen%27s_Cathedral%2C_Vienna_P1210710.JPG",
+    "src": "img/activites/VIE/stephansdom.jpg"
+   }
+  },
+  {
+   "id": "khm",
+   "nom": "Musée d'histoire de l'art (KHM)",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Ring",
+   "lat": 48.203739,
+   "lng": 16.361782,
+   "prix": 24,
+   "prix_detail": [
+    [
+     "Adulte",
+     24
+    ],
+    [
+     "Moins de 19 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne pour éviter la file",
+   "duree": "2 h 30",
+   "moment": "Le jeudi soir (ouvert jusqu'à 21 h), puis un café sous la coupole",
+   "enfants": true,
+   "texte": "Les tableaux des Habsbourg dans un palais de marbre : la plus belle salle de Bruegel au monde, Vermeer, Raphaël, Rembrandt, Vélasquez. Et le café installé sous la coupole, peut-être le plus beau de Vienne.",
+   "site_officiel": "https://www.khm.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Petar Milošević",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASculptures_at_staircase_Kunsthistorisches_Museum_Vienna.jpg",
+    "src": "img/activites/VIE/khm.jpg"
+   }
+  },
+  {
+   "id": "albertina",
+   "nom": "Albertina",
+   "emoji": "🖌️",
+   "type": "culture",
+   "quartier": "Innere Stadt",
+   "lat": 48.204636,
+   "lng": 16.368261,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 20 €"
+    ],
+    [
+     "Moins de 19 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne pour éviter la file",
+   "duree": "2 h",
+   "moment": "Le mercredi ou le vendredi soir (ouvert jusqu'à 21 h)",
+   "enfants": true,
+   "texte": "De Monet à Picasso, la collection Batliner réunit les grands noms de l'impressionnisme et de l'art moderne, dans un palais des Habsbourg dont on visite aussi les salons d'apparat. Grandes expositions toute l'année.",
+   "site_officiel": "https://www.albertina.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "C.Stadler/Bwag",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWien_-_Albertina_%28b%29.JPG",
+    "src": "img/activites/VIE/albertina.jpg"
+   }
+  },
+  {
+   "id": "mq",
+   "nom": "MuseumsQuartier et musée Leopold",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "MuseumsQuartier",
+   "lat": 48.203183,
+   "lng": 16.358346,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cours et terrasses du MQ",
+     "gratuit"
+    ],
+    [
+     "Musée Leopold (Schiele, Klimt)",
+     "≈ 17 €"
+    ],
+    [
+     "mumok (art moderne)",
+     "≈ 16 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h (3 h avec un musée)",
+   "moment": "Le soir en été, quand les Viennois s'installent sur les grandes chaises colorées des cours",
+   "enfants": true,
+   "texte": "Les anciennes écuries impériales devenues un quartier de musées, de cafés et de terrasses. Le musée Leopold y garde la plus grande collection d'Egon Schiele au monde ; les cours, elles, sont le salon d'été des Viennois.",
+   "site_officiel": "https://www.mqw.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Hubertl",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMuseumsquartier_Wien%2C_Vorweihnachtsstimmung_2014_HDR_-_5575.jpg",
+    "src": "img/activites/VIE/mq.jpg"
+   }
+  },
+  {
+   "id": "prunksaal",
+   "nom": "Salle d'apparat de la Bibliothèque nationale",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "Hofburg",
+   "lat": 48.20635,
+   "lng": 16.367,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 12 €"
+    ],
+    [
+     "Moins de 19 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place ou en ligne",
+   "duree": "45 min",
+   "moment": "En matinée, avant l'arrivée des groupes",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "80 mètres de bibliothèques baroques en bois sculpté, 200 000 livres anciens, des globes et une coupole peinte : l'une des plus belles bibliothèques du monde, et l'une des photos préférées des visiteurs de Vienne.",
+   "site_officiel": "https://www.onb.ac.at/museen/prunksaal",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "BMSTe",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%C3%96sterreichische_Nationalbibliothek_-_Prunksaal_3.jpg",
+    "src": "img/activites/VIE/prunksaal.jpg"
+   }
+  },
+  {
+   "id": "kaisergruft",
+   "nom": "Crypte impériale",
+   "emoji": "⚰️",
+   "type": "culture",
+   "quartier": "Innere Stadt",
+   "lat": 48.205773,
+   "lng": 16.370165,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 15 €"
+    ],
+    [
+     "Jusqu'à 18 ans",
+     "≈ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      18,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'entrée",
+   "duree": "45 min",
+   "moment": "En fin de matinée",
+   "enfants": true,
+   "texte": "Sous l'église des Capucins reposent 150 Habsbourg dans des tombeaux de bronze sculptés de têtes de mort et de couronnes. Le double sarcophage de Marie-Thérèse est saisissant, et Sissi repose aux côtés de François-Joseph.",
+   "site_officiel": "https://www.kaisergruft.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "C.Stadler/Bwag",
+    "licence": "CC BY-SA 3.0 AT",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWien_-_Kapuzinergruft%2C_Maria-Theresia-Gruft_%281%29.JPG",
+    "src": "img/activites/VIE/kaisergruft.jpg"
+   }
+  },
+  {
+   "id": "srs",
+   "nom": "Chevaux lipizzans de l'École espagnole",
+   "emoji": "🐎",
+   "type": "culture",
+   "quartier": "Hofburg",
+   "lat": 48.207307,
+   "lng": 16.366707,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Entraînement du matin (place debout)",
+     "≈ 18 €"
+    ],
+    [
+     "Entraînement du matin (place assise)",
+     "≈ 20 à 29 €"
+    ],
+    [
+     "Gala (représentation)",
+     "≈ 50 à 250 €"
+    ],
+    [
+     "3 à 5 ans",
+     "gratuit, sans place assise"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant ; les galas, plusieurs semaines avant",
+   "duree": "1 h",
+   "moment": "Le matin, de 10 h à 12 h, du mardi au samedi (selon le calendrier)",
+   "enfants": true,
+   "texte": "Les chevaux blancs de la cour impériale s'entraînent sous les lustres de cristal du manège baroque de la Hofburg, depuis plus de 450 ans. Voir les étalons danser au son de la musique, c'est un moment unique au monde.",
+   "site_officiel": "https://www.srs.at/",
+   "note": "Pas d'enfants de moins de 3 ans, et photos interdites pendant l'entraînement.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Hiroki Ogawa",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpanische_Hofreitschule_Wien_Austria_-_panoramio_%287%29.jpg",
+    "src": "img/activites/VIE/srs.jpg"
+   }
+  },
+  {
+   "id": "opera",
+   "nom": "Opéra national de Vienne",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Ring",
+   "lat": 48.203286,
+   "lng": 16.369194,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Place debout (le jour même)",
+     "≈ 13 à 18 €"
+    ],
+    [
+     "Visite guidée de jour",
+     "≈ 15 €"
+    ],
+    [
+     "Place assise",
+     "≈ 20 à 300 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "places assises dès l'ouverture des ventes ; places debout en ligne le jour même",
+   "duree": "3 h (40 min pour la visite)",
+   "moment": "Le soir d'une représentation, en tenue correcte",
+   "enfants": false,
+   "texte": "L'un des plus grands opéras du monde, avec plus de 300 soirées par an. Le secret des Viennois : les places debout à une quinzaine d'euros, pour vivre une soirée d'opéra sous les dorures. Sinon, la visite guidée de jour montre la salle et les coulisses.",
+   "site_officiel": "https://www.wiener-staatsoper.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Böhringer Friedrich",
+    "licence": "CC BY-SA 3.0 AT",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWiener_Staatsoper_vs_K%C3%A4rntnerstra%C3%9Fe_2.jpg",
+    "src": "img/activites/VIE/opera.jpg"
+   }
+  },
+  {
+   "id": "concert",
+   "nom": "Concert au Musikverein",
+   "emoji": "🎻",
+   "type": "sortir",
+   "quartier": "Karlsplatz",
+   "lat": 48.200486,
+   "lng": 16.372725,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Concert classique",
+     "≈ 30 à 100 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 à 3 semaines avant",
+   "duree": "2 h",
+   "moment": "Le soir",
+   "enfants": false,
+   "texte": "La « Salle dorée » du concert du Nouvel An, à l'acoustique réputée parmi les meilleures du monde : écouter Mozart, Strauss ou Beethoven ici, c'est entendre la musique de Vienne dans son écrin.",
+   "site_officiel": "https://www.musikverein.at/",
+   "note": "Achetez sur musikverein.at ou konzerthaus.at. Évitez les vendeurs déguisés en Mozart dans la rue : ils proposent des concerts pour touristes, chers et de qualité inégale.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Andreas Praefcke",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWien_Musikverein_innen_2010_1.jpg",
+    "src": "img/activites/VIE/concert.jpg"
+   }
+  },
+  {
+   "id": "riesenrad",
+   "nom": "Grande roue du Prater",
+   "emoji": "🎡",
+   "type": "vue",
+   "quartier": "Prater",
+   "lat": 48.216741,
+   "lng": 16.395909,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 15 €"
+    ],
+    [
+     "3 à 14 ans",
+     "≈ 7 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Parc d'attractions du Prater",
+     "entrée gratuite, manèges payants"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      14,
+      7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne pour éviter la file",
+   "duree": "1 h 30 avec le Prater",
+   "moment": "Au coucher du soleil",
+   "enfants": true,
+   "texte": "La grande roue de 1897, avec ses cabines en bois rouge, monte à 65 mètres au-dessus du Prater : la vue sur Vienne est superbe au coucher du soleil. En bas, les manèges et les guinguettes du plus vieux parc d'attractions du monde.",
+   "site_officiel": "https://www.wienerriesenrad.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Anna Saini",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARiesenrad%2C_Prater_17.jpg",
+    "src": "img/activites/VIE/riesenrad.jpg"
+   }
+  },
+  {
+   "id": "hundertwasser",
+   "nom": "Maison Hundertwasser",
+   "emoji": "🌈",
+   "type": "balade",
+   "quartier": "Landstraße",
+   "lat": 48.207384,
+   "lng": 16.393941,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Façade et village Hundertwasser",
+     "gratuit"
+    ],
+    [
+     "Kunst Haus Wien (musée Hundertwasser)",
+     "≈ 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Le matin, avant la foule",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Pas une ligne droite : façades multicolores, sols qui ondulent, arbres qui poussent aux fenêtres. L'immeuble imaginé par l'artiste Hundertwasser est l'une des photos les plus partagées de Vienne. À 10 min à pied, son musée, le Kunst Haus Wien.",
+   "site_officiel": "https://www.hundertwasser-haus.info/",
+   "note": "Les appartements sont habités : on admire la façade depuis la rue, sans entrer.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mich-nguyen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHundertwasserhaus_view.jpg",
+    "src": "img/activites/VIE/hundertwasser.jpg"
+   }
+  },
+  {
+   "id": "karlskirche",
+   "nom": "Église Saint-Charles (Karlskirche)",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Karlsplatz",
+   "lat": 48.198279,
+   "lng": 16.371895,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte (église, musée, terrasse panoramique)",
+     "≈ 10 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      9,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'entrée",
+   "duree": "45 min",
+   "moment": "À la nuit tombée, pour le reflet de l'église illuminée dans le bassin",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Sa coupole verte et ses deux colonnes torsadées se reflètent dans le bassin de la place : c'est l'une des images les plus partagées de Vienne. À l'intérieur, un ascenseur monte au pied des fresques de la coupole.",
+   "site_officiel": "https://www.karlskirche.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Moahim",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2019_-_Wiener_Karlskirche_mit_Teich_und_%22Hill_Arches%22_Skulptur_am_Abend.jpg",
+    "src": "img/activites/VIE/karlskirche.jpg"
+   }
+  },
+  {
+   "id": "donaukanal",
+   "nom": "Balade le long du canal du Danube",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Donaukanal",
+   "lat": 48.211711,
+   "lng": 16.378675,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, d'avril à octobre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des kilomètres de quais couverts de graffitis, autorisés et renouvelés sans cesse, des bars de plage et des terrasses au bord de l'eau : le canal du Danube est le repaire des jeunes Viennois, surtout quand le soleil se couche.",
+   "site_officiel": "https://www.wien.info/fr",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Moahim",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2019_-_Urania_am_Abend_am_Donaukanal.jpg",
+    "src": "img/activites/VIE/donaukanal.jpg"
+   }
+  },
+  {
+   "id": "donauturm",
+   "nom": "Tour du Danube",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Donaustadt",
+   "lat": 48.240244,
+   "lng": 16.410052,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     "≈ 18 €"
+    ],
+    [
+     "6 à 14 ans",
+     "≈ 11 €"
+    ],
+    [
+     "3 à 5 ans",
+     "≈ 5 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      5,
+      5
+     ],
+     [
+      14,
+      11
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "moins cher en ligne",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil",
+   "enfants": true,
+   "texte": "Le plus haut point de vue de Vienne : l'ascenseur monte à 150 m en 35 secondes. De la terrasse, on voit la ville, le Danube et, par temps clair, les Alpes. Le restaurant tournant permet de dîner en faisant le tour de la ville.",
+   "site_officiel": "https://www.donauturm.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "BambooBeast",
+    "licence": "CC BY-SA 3.0 AT",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADonauturm_Nacht.jpg",
+    "src": "img/activites/VIE/donauturm.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo de Schönbrunn",
+   "emoji": "🐆",
+   "type": "nature",
+   "quartier": "Schönbrunn",
+   "lat": 48.181734,
+   "lng": 16.304772,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 29 €"
+    ],
+    [
+     "6 à 18 ans",
+     "≈ 17 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      17
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne pour éviter la file",
+   "duree": "3 h",
+   "moment": "Dès l'ouverture (9 h), quand les animaux sont actifs",
+   "enfants": true,
+   "texte": "Le plus ancien zoo du monde, fondé en 1752 dans le parc du château, souvent classé parmi les meilleurs d'Europe : pavillon baroque, forêt tropicale, aquarium et des centaines d'espèces. Idéal avec des enfants.",
+   "site_officiel": "https://www.zoovienna.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Alexander Leisser",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJaguar_portrait%2C_Tiergarten_Sch%C3%B6nbrunn.jpg",
+    "src": "img/activites/VIE/zoo.jpg"
+   }
+  },
+  {
+   "id": "haus-des-meeres",
+   "nom": "Haus des Meeres (aquarium dans une tour de défense)",
+   "emoji": "🦈",
+   "type": "nature",
+   "quartier": "Mariahilf",
+   "lat": 48.197578,
+   "lng": 16.352958,
+   "prix": 24,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 24 €"
+    ],
+    [
+     "6 à 15 ans",
+     "≈ 10 €"
+    ],
+    [
+     "3 à 5 ans",
+     "≈ 7 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      15,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne conseillé le week-end",
+   "duree": "2 h",
+   "moment": "Un jour de pluie, puis la terrasse au coucher du soleil",
+   "enfants": true,
+   "texte": "Requins, raies, tortues et singes en liberté dans une serre tropicale, installés dans une tour de défense en béton de la Seconde Guerre mondiale. Tout en haut, la terrasse offre une vue à 360° sur Vienne.",
+   "site_officiel": "https://www.haus-des-meeres.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Isiwal",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWien_Haus_des_Meeres_Atlantiktunnel-0877.jpg",
+    "src": "img/activites/VIE/haus-des-meeres.jpg"
+   }
+  },
+  {
+   "id": "nhm",
+   "nom": "Musée d'histoire naturelle",
+   "emoji": "🦕",
+   "type": "culture",
+   "quartier": "Ring",
+   "lat": 48.205269,
+   "lng": 16.359755,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 18 €"
+    ],
+    [
+     "Moins de 19 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "2 h",
+   "moment": "Le mercredi soir (nocturne)",
+   "enfants": true,
+   "texte": "Le jumeau du KHM, face à lui : la Vénus de Willendorf (29 500 ans), des dinosaures, une salle de météorites et des cabinets de curiosités du XIXe siècle. Un régal avec des enfants.",
+   "site_officiel": "https://www.nhm.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Hubertl",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANaturhistorisches_Museum%2C_Wien_-_Blick_von_der_Westseite_des_KHM-0004-Bearbeitet.jpg",
+    "src": "img/activites/VIE/nhm.jpg"
+   }
+  },
+  {
+   "id": "haus-der-musik",
+   "nom": "Maison de la Musique",
+   "emoji": "🎼",
+   "type": "culture",
+   "quartier": "Innere Stadt",
+   "lat": 48.203792,
+   "lng": 16.373155,
+   "prix": 19,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 19 €"
+    ],
+    [
+     "3 à 12 ans",
+     "≈ 8 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "2 h",
+   "moment": "Un jour de pluie, ou le soir (ouvert jusqu'à 22 h)",
+   "enfants": true,
+   "texte": "Un musée du son où l'on joue avec la musique : dirigez vous-même l'Orchestre philharmonique de Vienne sur écran géant, composez une valse aux dés comme Mozart et découvrez les compositeurs qui ont fait la gloire de la ville.",
+   "site_officiel": "https://www.hdm.at/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Agathe Freischütz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHaus_der_Musik_Wien_Kinosaal_Virtueller_Dirigent.jpg",
+    "src": "img/activites/VIE/haus-der-musik.jpg"
+   }
+  },
+  {
+   "id": "kahlenberg",
+   "nom": "Vignes et belvédère du Kahlenberg",
+   "emoji": "🍇",
+   "type": "nature",
+   "quartier": "Döbling",
+   "lat": 48.276342,
+   "lng": 16.333068,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Bus 38A depuis le métro Heiligenstadt",
+     "ticket de transport"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "3 h",
+   "moment": "Un après-midi de beau temps, de mai à octobre",
+   "enfants": true,
+   "texte": "Vienne est la seule capitale qui produit son vin dans la ville. Montez au Kahlenberg pour la vue sur toute la ville et le Danube, puis redescendez à pied par les vignes jusqu'aux tavernes à vin (Heuriger) de Grinzing ou de Nussdorf.",
+   "site_officiel": "https://www.wien.info/fr",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nico Kaiser",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWien%2C_vom_Kahlenberg.jpg",
+    "src": "img/activites/VIE/kahlenberg.jpg"
+   }
+  },
+  {
+   "id": "wachau",
+   "nom": "Excursion dans la Wachau (Melk et croisière sur le Danube)",
+   "emoji": "🚢",
+   "type": "nature",
+   "quartier": "Wachau (1 h de Vienne)",
+   "lat": 48.228617,
+   "lng": 15.331883,
+   "prix": 76,
+   "prix_detail": [
+    [
+     "Train + bateau Melk-Krems + abbaye de Melk (Kombiticket ÖBB)",
+     "≈ 76 €"
+    ],
+    [
+     "Excursion guidée en car depuis Vienne",
+     "≈ 100 à 150 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 76,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "duree": "Journée",
+   "moment": "D'avril à octobre (les bateaux ne naviguent pas l'hiver), en automne pour les vignes dorées",
+   "enfants": true,
+   "texte": "La plus belle vallée du Danube, classée par l'Unesco : l'immense abbaye baroque de Melk, puis la descente en bateau entre vignes en terrasses, abricotiers et villages comme Dürnstein et son clocher bleu.",
+   "site_officiel": "https://www.donau.com/fr/wachau-nibelungengau-kremstal/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Uoaei1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCrnstein_Panorama_05.jpg",
+    "src": "img/activites/VIE/wachau.jpg"
+   }
+  },
+  {
+   "id": "rapid",
+   "nom": "Match du Rapid de Vienne",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Hütteldorf",
+   "lat": 48.19801,
+   "lng": 16.265156,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 20 à 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente pour le derby contre l'Austria",
+   "duree": "3 h",
+   "moment": "Les soirs de match ; le quart d'heure du Rapid (« Rapidviertelstunde ») à la 75e minute",
+   "enfants": true,
+   "club": "SK Rapid Wien",
+   "texte": "Le club le plus populaire d'Autriche, en vert et blanc : 28 000 supporters, des tifos géants et, à la 75e minute, la tradition du « quart d'heure du Rapid » où tout le stade applaudit pour pousser l'équipe.",
+   "site_officiel": "https://skrapid.at/",
+   "note": "Achetez sur le site officiel du club : méfiez-vous des revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Chivista",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARapid-Fankurve_beim_Wiener_Derby%2C_Sept._2018_%281%29.jpg",
+    "src": "img/activites/VIE/rapid.jpg"
+   }
+  },
+  {
+   "id": "zentralfriedhof",
+   "nom": "Cimetière central (Beethoven, Schubert, Strauss)",
+   "emoji": "🎼",
+   "type": "balade",
+   "quartier": "Simmering",
+   "lat": 48.154567,
+   "lng": 16.442424,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Un matin d'automne, porte 2 (tram 71)",
+   "enfants": true,
+   "texte": "Le plus grand cimetière de Vienne est aussi un immense parc où vivent des chevreuils. Les tombes de Beethoven, Schubert, Brahms et Johann Strauss y sont réunies, autour d'une superbe église Art nouveau.",
+   "site_officiel": "https://www.friedhoefewien.at/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Uoaei1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWien_Zentralfriedhof_Allee_A_20221111_01.jpg",
+    "src": "img/activites/VIE/zentralfriedhof.jpg"
+   }
+  },
+  {
+   "id": "marche-noel",
+   "nom": "Marché de Noël de l'Hôtel de ville",
+   "emoji": "🎄",
+   "type": "balade",
+   "quartier": "Rathaus",
+   "lat": 48.210619,
+   "lng": 16.358692,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Vin chaud (dans une tasse souvenir consignée)",
+     "≈ 6 à 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "À la nuit tombée, en semaine pour éviter la foule",
+   "enfants": true,
+   "texte": "Plus de 100 chalets devant l'Hôtel de ville néogothique illuminé, des arbres décorés de cœurs lumineux et une patinoire géante dans le parc : le plus célèbre des marchés de Noël viennois, avec punch et vin chaud.",
+   "site_officiel": "https://www.christkindlmarkt.at/",
+   "note": "Du 13 novembre au 26 décembre 2026 (patinoire jusqu'au 6 janvier 2027). D'autres jolis marchés : Spittelberg, Schönbrunn, Belvédère.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Geolina163",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARathausplatz_Christkindlmarkt_0.jpg",
+    "src": "img/activites/VIE/marche-noel.jpg"
+   }
+  },
+  {
+   "id": "alte-donau",
+   "nom": "Baignade dans le Vieux Danube",
+   "emoji": "🏊",
+   "type": "plage",
+   "quartier": "Donaustadt",
+   "lat": 48.229458,
+   "lng": 16.430384,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plages libres le long de l'eau",
+     "gratuit"
+    ],
+    [
+     "Plage aménagée du Gänsehäufel",
+     "≈ 8 €"
+    ],
+    [
+     "Location de pédalo ou de bateau électrique",
+     "≈ 20 €/h"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre, par grand soleil",
+   "enfants": true,
+   "texte": "Un ancien bras du Danube transformé en lac, à 15 minutes de métro du centre : baignade, pédalos et bateaux électriques face aux tours de la cité de l'ONU. Le Gänsehäufel, île-plage de 33 hectares, est la piscine d'été des Viennois.",
+   "site_officiel": "https://www.wien.gv.at/freizeit/baeder/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Manfred Werner (Tsui)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlte_Donau_Vienna_International_Center_2008.jpg",
+    "src": "img/activites/VIE/alte-donau.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "innere-stadt",
+   "nom": "Innere Stadt (centre historique)",
+   "lat": 48.2085,
+   "lng": 16.37,
+   "texte": "Le cœur impérial, tout à pied : cathédrale, Hofburg, opéra, cafés historiques. Le meilleur choix pour un premier séjour, mais aussi le plus cher."
+  },
+  {
+   "id": "neubau",
+   "nom": "Neubau et Spittelberg",
+   "lat": 48.202,
+   "lng": 16.353,
+   "texte": "Le quartier bohème, juste derrière le MuseumsQuartier : ruelles pavées, boutiques de créateurs, cafés et bars. Animé le soir et à 10 min à pied du centre."
+  },
+  {
+   "id": "wieden",
+   "nom": "Wieden et Naschmarkt",
+   "lat": 48.1965,
+   "lng": 16.365,
+   "texte": "Autour du Naschmarkt et de la Karlskirche : restaurants, marché, métro partout. Des hôtels souvent moins chers qu'au centre, à 10 min à pied de l'opéra."
+  },
+  {
+   "id": "landstrasse",
+   "nom": "Landstraße et Belvédère",
+   "lat": 48.201,
+   "lng": 16.385,
+   "texte": "Calme et bien relié : le Belvédère, la maison Hundertwasser, le Stadtpark, et la gare de Wien Mitte d'où part le train direct pour l'aéroport (16 min)."
+  },
+  {
+   "id": "leopoldstadt",
+   "nom": "Leopoldstadt et Prater",
+   "lat": 48.2165,
+   "lng": 16.385,
+   "texte": "De l'autre côté du canal du Danube : le Prater, le marché Karmeliter, des bars et des restaurants branchés, et des prix plus doux, à une station de métro du centre."
+  }
+ ],
+ "hotel_petit_prix_max": 100,
+ "restaurants": [
+  {
+   "id": "trzesniewski",
+   "nom": "Buffet Trzesniewski",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Petites tartines viennoises",
+   "quartier": "Graben",
+   "adresse": "Dorotheergasse 1, 1010 Wien",
+   "lat": 48.208028,
+   "lng": 16.370189,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1902, les Viennois s'arrêtent ici pour des petites tartines de pain de seigle garnies (œuf, hareng, paprika…), avalées debout avec un « Pfiff », un mini-verre de bière. Le casse-croûte le plus viennois qui soit, à deux pas du Graben.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on choisit au comptoir",
+   "photo": {
+    "auteur": "majkowska",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATrzesniewski_Br%C3%B6tchen_1.jpg",
+    "src": "img/restos/VIE/trzesniewski.jpg"
+   }
+  },
+  {
+   "id": "scharfer-rene",
+   "nom": "Würstelstand Zum scharfen René",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Kiosque à saucisses",
+   "quartier": "Schwarzenbergplatz",
+   "adresse": "Schwarzenbergplatz 15, 1010 Wien",
+   "lat": 48.200345,
+   "lng": 16.37459,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Le Würstelstand, kiosque à saucisses ouvert tard, est une institution viennoise, et celui de René est l'un des mieux notés de la ville. Commandez une Käsekrainer (saucisse fourrée au fromage) avec moutarde et cornichon, à manger debout au comptoir.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, ouvert jusque tard dans la nuit",
+   "photo": {
+    "auteur": "Clemens Pfeiffer",
+    "licence": "CC BY 2.0 AT",
+    "page": "https://commons.wikimedia.org/wiki/File%3AW%C3%BCrstelstand_in_Wien_110606.jpg",
+    "src": "img/restos/VIE/scharfer-rene.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "schweizerhaus",
+   "nom": "Schweizerhaus",
+   "emoji": "🍺",
+   "gamme": "petit",
+   "genre": "Jardin à bière et jarret grillé",
+   "quartier": "Prater",
+   "adresse": "Prater 116, 1020 Wien",
+   "lat": 48.213921,
+   "lng": 16.401556,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le grand jardin à bière du Prater, depuis 1920 : des centaines de tables sous les marronniers, la bière tchèque à la pression et la fameuse Stelze, un jarret de porc grillé et croustillant à partager. Parfait après la grande roue.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation pour le jardin ; ouvert de mi-mars à fin octobre seulement",
+   "photo": {
+    "auteur": "Johann Werfring",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASchweizerhaus_aussen.jpg",
+    "src": "img/restos/VIE/schweizerhaus.jpg"
+   }
+  },
+  {
+   "id": "cafe-central",
+   "nom": "Café Central",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Grand café viennois",
+   "quartier": "Innere Stadt",
+   "adresse": "Herrengasse 14, 1010 Wien",
+   "lat": 48.210723,
+   "lng": 16.365115,
+   "prix": "10 à 30 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Voûtes, colonnes et lustres dans un palais de 1876 où Freud et Trotski avaient leurs habitudes. Une mélange (le café viennois), une part de strudel ou de Sachertorte, et vous voilà dans la Vienne de 1900.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file d'attente fréquente, venez à l'ouverture (8 h) ou en fin de journée",
+   "photo": {
+    "auteur": "GFHund",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACafe_Central_Wien_2015-i.JPG",
+    "src": "img/restos/VIE/cafe-central.jpg"
+   }
+  },
+  {
+   "id": "ilona",
+   "nom": "Ilona Stüberl",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine hongroise",
+   "quartier": "Graben",
+   "adresse": "Bräunerstraße 2, 1010 Wien",
+   "lat": 48.208547,
+   "lng": 16.369438,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une petite salle de 25 couverts ouverte en 1957, où l'on vient pour le goulash, le poulet au paprika et les crêpes Gundel : la Hongrie voisine, qui a tant marqué la cuisine viennoise, à deux pas du Graben.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, la salle est minuscule",
+   "photo": {
+    "auteur": "Hu Totya",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHungarian_goulash_soup.jpg",
+    "src": "img/restos/VIE/ilona.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "disco-volante",
+   "nom": "Disco Volante",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza napolitaine",
+   "quartier": "Mariahilf",
+   "adresse": "Gumpendorfer Straße 98, 1060 Wien",
+   "lat": 48.191417,
+   "lng": 16.347516,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Le four, recouvert de 7 500 miroirs, tourne comme une boule à facettes : la pizzeria la plus originale de Vienne sert aussi l'une de ses meilleures pizzas napolitaines, pâte légère et bords gonflés, dans une ambiance de quartier.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir, ou venez tôt",
+   "photo": {
+    "auteur": "CDibisceglia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza_Napoletana_Contemporanea.jpg",
+    "src": "img/restos/VIE/disco-volante.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "figlmuller",
+   "nom": "Figlmüller",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Escalope viennoise géante",
+   "quartier": "Innere Stadt",
+   "adresse": "Bäckerstraße 6, 1010 Wien",
+   "lat": 48.209274,
+   "lng": 16.37556,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1905, la maison du schnitzel « plus grand que l'assiette » : une escalope de porc aplatie à 30 cm et dorée, avec salade de pommes de terre. Très touristique, mais c'est la référence, et la salle a gardé son charme.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant (souvent complet le soir)",
+   "photo": {
+    "auteur": "Brücke-Osteuropa",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFiglm%C3%BCller-Schnitzel_in_Wien.jpg",
+    "src": "img/restos/VIE/figlmuller.jpg"
+   }
+  },
+  {
+   "id": "plachutta",
+   "nom": "Plachutta Wollzeile",
+   "emoji": "🍖",
+   "gamme": "moyen",
+   "genre": "Tafelspitz (bœuf bouilli)",
+   "quartier": "Innere Stadt",
+   "adresse": "Wollzeile 38, 1010 Wien",
+   "lat": 48.207548,
+   "lng": 16.378755,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le plat préféré de l'empereur François-Joseph : du bœuf mijoté servi dans sa marmite de bouillon, avec rösti, crème de pomme au raifort et épinards. On boit d'abord le bouillon, puis on tartine la moelle sur du pain grillé.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Thomas Quine",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATafelspitz_%2812972000583%29.jpg",
+    "src": "img/restos/VIE/plachutta.jpg"
+   }
+  },
+  {
+   "id": "mochi",
+   "nom": "Mochi",
+   "emoji": "🍱",
+   "gamme": "moyen",
+   "genre": "Izakaya japonais",
+   "quartier": "Leopoldstadt",
+   "adresse": "Praterstraße 15, 1020 Wien",
+   "lat": 48.21345,
+   "lng": 16.38165,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Sushis, yakitori et bols de bœuf dans une salle vive et serrée, cuisine ouverte : la cantine japonaise préférée des Viennois, saluée par le guide Michelin pour son rapport qualité-prix. Terrasse sur la Praterstraße l'été.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant, par téléphone (tables très demandées)",
+   "photo": {
+    "auteur": "Francesc Fort",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AYakitori_-_Tora.jpg",
+    "src": "img/restos/VIE/mochi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "neni",
+   "nom": "NENI am Naschmarkt",
+   "emoji": "🥙",
+   "gamme": "moyen",
+   "genre": "Cuisine israélienne au marché",
+   "quartier": "Naschmarkt",
+   "adresse": "Naschmarkt 510, 1060 Wien",
+   "lat": 48.197899,
+   "lng": 16.362127,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Au cœur du Naschmarkt, le grand marché de Vienne, la cheffe Haya Molcho et ses fils servent houmous, chakchouka et pitas moelleuses à partager. Avant ou après, flânez entre les étals d'épices, de fruits secs et d'olives.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le samedi (jour du marché aux puces)",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHamshuka_Neni_Vienna.jpg",
+    "src": "img/restos/VIE/neni.jpg"
+   }
+  },
+  {
+   "id": "tian-bistro",
+   "nom": "Tian Bistro am Spittelberg",
+   "emoji": "🥗",
+   "gamme": "moyen",
+   "genre": "Cuisine végétarienne",
+   "quartier": "Spittelberg",
+   "adresse": "Schrankgasse 4, 1070 Wien",
+   "lat": 48.202962,
+   "lng": 16.354853,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Le petit frère décontracté du TIAN étoilé, dans les ruelles pavées du Spittelberg : une cuisine végétarienne de saison, colorée et gourmande, qui séduit même les amateurs de viande. Jolie cour-terrasse l'été.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Bex Walton",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASeven-course_tasting_menu_at_Monstera_Bistro%2C_Ljubljana_%2848702049837%29.jpg",
+    "src": "img/restos/VIE/tian-bistro.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "skopik",
+   "nom": "Skopik & Lohn",
+   "emoji": "🍗",
+   "gamme": "moyen",
+   "genre": "Bistrot viennois au plafond peint",
+   "quartier": "Leopoldstadt",
+   "adresse": "Leopoldsgasse 17, 1020 Wien",
+   "lat": 48.220165,
+   "lng": 16.376648,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Une brasserie aux airs parisiens dont tout le plafond est couvert de grandes arabesques noires, peintes par l'artiste Otto Zitko. Au menu, les classiques viennois bien faits : poulet pané (Backhendl), escalope, Kaiserschmarrn.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Dr. Bernd Gross",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWiener_Backhendl%2C_Schweizerhaus%2C_Prater%2C_Wien.JPG",
+    "src": "img/restos/VIE/skopik.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "steirereck",
+   "nom": "Steirereck im Stadtpark",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Grande cuisine autrichienne",
+   "quartier": "Stadtpark",
+   "adresse": "Am Heumarkt 2A, 1030 Wien",
+   "lat": 48.20446,
+   "lng": 16.381279,
+   "prix": "≈ 250 € (menu)",
+   "prix_min": 250,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin · World's 50 Best (33e en 2025)",
+   "texte": "Un pavillon de verre au bord de la rivière Wien, dans le Stadtpark : Heinz Reitbauer y sublime les produits autrichiens, comme son omble cuit dans la cire d'abeille, avec un chariot de pains et de fromages légendaire. L'une des meilleures tables du monde.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant, fermé le week-end (au même endroit, la Meierei, plus simple, a un Bib Gourmand)",
+   "photo": {
+    "auteur": "HatschiKa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A201510_Steirereck_am_Abend.jpg",
+    "src": "img/restos/VIE/steirereck.jpg"
+   }
+  },
+  {
+   "id": "amador",
+   "nom": "Amador",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Haute cuisine dans une cave à vin",
+   "quartier": "Grinzing",
+   "adresse": "Grinzinger Straße 86, 1190 Wien",
+   "lat": 48.253805,
+   "lng": 16.358767,
+   "prix": "≈ 300 € (menu)",
+   "prix_min": 300,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "Juan Amador a installé sa table sous les voûtes en brique d'une cave viticole, au milieu des vignes de Grinzing : une cuisine d'auteur très inventive, aux racines espagnoles, couronnée de trois étoiles.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant",
+   "photo": {
+    "auteur": "Geolina163",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrinzing_Weinberge_Unterer_Schreiberweg_2.jpg",
+    "src": "img/restos/VIE/amador.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "filippou",
+   "nom": "Konstantin Filippou",
+   "emoji": "🐟",
+   "gamme": "haut",
+   "genre": "Cuisine d'auteur austro-grecque",
+   "quartier": "Innere Stadt",
+   "adresse": "Dominikanerbastei 17, 1010 Wien",
+   "lat": 48.21081,
+   "lng": 16.37979,
+   "prix": "≈ 200 € (menu)",
+   "prix_min": 200,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Né d'un père grec et d'une mère autrichienne, Konstantin Filippou marie la mer et la terre avec une précision folle, dans une salle épurée en plein centre. Son bistrot voisin, O boufés, en est la version plus abordable.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant",
+   "photo": {
+    "auteur": "Bex Walton",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASeven-course_tasting_menu_at_Monstera_Bistro%2C_Ljubljana_%2848702042632%29.jpg",
+    "src": "img/restos/VIE/filippou.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "loft",
+   "nom": "Das LOFT",
+   "emoji": "🌃",
+   "gamme": "haut",
+   "genre": "Restaurant panoramique",
+   "quartier": "Leopoldstadt",
+   "adresse": "Praterstraße 1, 1020 Wien (18e étage)",
+   "lat": 48.21275,
+   "lng": 16.37995,
+   "prix": "60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au 18e étage de la tour de Jean Nouvel, des baies vitrées sur toute la ville et un plafond lumineux de l'artiste Pipilotti Rist : la plus belle vue de Vienne au coucher du soleil, pour un dîner ou simplement un cocktail au bar.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 semaines avant pour une table près des vitres",
+   "photo": {
+    "auteur": "Thomas Quine",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVienna_marquis_%2813792986263%29.jpg",
+    "src": "img/restos/VIE/loft.jpg"
+   }
+  },
+  {
+   "id": "kameel",
+   "nom": "Zum Schwarzen Kameel",
+   "emoji": "🐪",
+   "gamme": "haut",
+   "genre": "Institution Art nouveau",
+   "quartier": "Innere Stadt",
+   "adresse": "Bognergasse 5, 1010 Wien",
+   "lat": 48.209995,
+   "lng": 16.368317,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1618, ancien fournisseur de la cour impériale, le « Chameau noir » a gardé sa salle Art nouveau de 1901. Cuisine viennoise raffinée au restaurant ; au comptoir, ses fameuses tartines au jambon et un verre de vin, debout avec les habitués.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le restaurant ; comptoir sans réservation",
+   "photo": {
+    "auteur": "Gryffindor",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AZum_Schwarzen_Kameel.jpg",
+    "src": "img/restos/VIE/kameel.jpg"
+   }
+  },
+  {
+   "id": "jola",
+   "nom": "JOLA",
+   "emoji": "🌱",
+   "gamme": "haut",
+   "genre": "Gastronomie 100 % végétale",
+   "quartier": "Innere Stadt",
+   "adresse": "Salzgries 15, 1010 Wien",
+   "lat": 48.213126,
+   "lng": 16.371496,
+   "prix": "≈ 150 € (menu)",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin (nouvelle en 2026)",
+   "texte": "Étoilé dès 2026 et entièrement végétal : JOLA prouve qu'un grand menu dégustation peut se passer de viande, de poisson et de produits laitiers, avec des légumes travaillés avec une minutie de joaillier.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant",
+   "photo": {
+    "auteur": "Anna Korcheva",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVegan_breakfast_in_Uzhhorod._2025.jpg",
+    "src": "img/restos/VIE/jola.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

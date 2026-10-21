@@ -144,6 +144,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Bordeaux (oct. 2026) : la recherche de fichiers répondait « 429 » ; ce qui marche : la recherche de
   catégories (`ns14=1`), puis la page HTML de la catégorie (vignettes + `data-file-width`), lentement
   (3-4 s entre deux pages). Dans la page `File:`, les `_` des classes sont écrits `&#95;`.
+  Vienne (oct. 2026) : la recherche de fichiers en HTML (`ns6=1`) marchait ; vignettes `960px-` (ou
+  `1280px-`) à redemander quelques secondes plus tard si la première réponse n'est pas une image.
+  Notes Google : ~115 listes Wanderlog « …-in-vienna » lues en suivant les liens d'une liste à l'autre.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
