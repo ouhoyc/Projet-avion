@@ -240,6 +240,8 @@ const SPORTS = {
   rugby: { emoji: '🏉', nom: 'Rugby', prix: 20 },
 };
 const GRANDS_MATCHS = /champions league|euroleague|champions cup|six nations/i;
+// Équipes réserves (« Rapid Wien II », « Benfica B », « Jong Ajax »…) : peu d'intérêt pour un visiteur.
+const RESERVE = /\s(II|B|U\d\d)$|^Jong\s|\bFutures\b|^Young Violets|\bAmateure\b|\bReserves?\b/i;
 const MAX_MATCHS = 10; // les plus importants d'abord (1re division, coupes d'Europe), puis par date
 
 function addMatchs(list) {
@@ -247,7 +249,8 @@ function addMatchs(list) {
   const inD = trip?.out || saved.inD;
   const outD = trip?.ret || saved.outD || inD;
   if (!inD || !list.length) return;
-  const acts = list.filter((m) => m.jour >= inD && m.jour <= outD && SPORTS[m.sport])
+  const acts = list.filter((m) => m.jour >= inD && m.jour <= outD && SPORTS[m.sport]
+    && !RESERVE.test(m.domicile) && !RESERVE.test(m.exterieur))
     .sort((a, b) => (a.niveau || 2) - (b.niveau || 2) || a.debut.localeCompare(b.debut))
     .slice(0, MAX_MATCHS)
     .sort((a, b) => a.debut.localeCompare(b.debut))

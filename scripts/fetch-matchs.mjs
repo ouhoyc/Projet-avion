@@ -36,6 +36,8 @@ const INTERNATIONAL = { football: ['Europe'], basketball: ['International', 'Eur
 // Rugby : tout est rangé dans une catégorie mondiale, d'où une liste fixe (id SofaScore → niveau).
 const RUGBY = { 423: 1, 424: 1, 420: 1, 401: 1, 419: 1, 752: 2, 1147: 2, 566: 2, 1357: 2 };
 const EXCLUS = /women|féminin|feminin|u\d\d|youth|junior|reserve|amateur|qualif/i;
+// Équipes réserves (« Rapid Wien II », « Benfica B », « Jong Ajax »…) : peu d'intérêt pour un visiteur.
+const RESERVE = /\s(II|B|U\d\d)$|^Jong\s|\bFutures\b|^Young Violets|\bAmateure\b|\bReserves?\b/i;
 const COUPE = /cup|copa|coupe|coppa|pokal|puchar|taça|taca|beker|kupa|cupa/i;
 
 // Fuseau horaire de chaque pays (heure locale des matchs) ; quelques villes à part.
@@ -198,6 +200,7 @@ for (const [id, t] of tournois) {
       if (e.startTimestamp > limite) continue;
       // Match reporté ou annulé : on ne l'affiche pas (il disparaît du site).
       if (e.status?.type && e.status.type !== 'notstarted') continue;
+      if (RESERVE.test(e.homeTeam?.name || '') || RESERVE.test(e.awayTeam?.name || '')) continue;
       // Où se joue le match : le stade du match, sinon celui du club qui reçoit (sa fiche),
       // sinon seulement le nom de la ville (souvent le cas au basket).
       let c = e.venue?.venueCoordinates;
@@ -222,7 +225,9 @@ for (const [id, t] of tournois) {
       const stade = c ? { lat: c.latitude, lng: c.longitude } : null;
       for (const v of villes.values()) {
         // Sans coordonnées : même nom de ville et même pays (Valencia d'Espagne, pas du Venezuela).
-        const ici = stade ? v.centre && km(v.centre, stade) <= RAYON_KM : v.noms.has(simple(ville)) && (!pays || pays === v.iso);
+        // Les clubs anglais ou écossais sont rangés en « EN » ou « SX », pas « GB » (Saracens, Harlequins).
+        const ici = stade ? v.centre && km(v.centre, stade) <= RAYON_KM : v.noms.has(simple(ville))
+          && (!pays || pays === v.iso || (CATEGORIES_PAYS[v.iso] || []).includes(pays));
         if (!ici) continue;
         const pos = stade || v.centre;
         (parVille[v.code] ||= []).push({

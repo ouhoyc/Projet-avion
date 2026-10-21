@@ -107,7 +107,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   l'Action `update-matchs.yml` reste seulement en lancement à la main.
   Source gratuite et sans clé : l'interface publique de SofaScore (par `curl` : le `fetch` de Node
   est bloqué par leur anti-robots). Pour chaque pays desservi : 2 championnats + la coupe de foot,
-  1er championnat de basket, liste fixe pour le rugby (`RUGBY`), et les coupes d'Europe. Un match est rattaché à une ville si
+  1er championnat de basket, liste fixe pour le rugby (`RUGBY`), et les coupes d'Europe.
+  Équipes réserves (« Rapid Wien II », « Benfica B », « Jong Ajax ») écartées (`RESERVE`, dans le script et `ville.js`).
+  Clubs du Royaume-Uni : SofaScore les range en « EN »/« SX » (pas « GB »), accepté via `CATEGORIES_PAYS`. Un match est rattaché à une ville si
   son stade est à moins de 25 km du centre (OpenStreetMap), sinon par le nom de la ville.
   `ville.js` (`addMatchs`) les ajoute aux activités « Sport » pendant les dates du séjour
   (10 au plus, prix estimé par sport, bouton « Trouver des billets ») ; ils remplacent l'activité générique
