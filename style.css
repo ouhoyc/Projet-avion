@@ -841,7 +841,9 @@ label.exact-check {
   font-size: 15px; font-variant-numeric: tabular-nums; color: var(--text);
   cursor: pointer;
 }
-.cal-day:disabled { color: var(--border); cursor: default; }
+/* Jours passés : grisés (le Pop met --border en bleu nuit, d'où une couleur à part) ;
+   -webkit-text-fill-color pour que Safari sur iPhone applique bien le gris */
+.cal-day:disabled { color: #b9bccb; -webkit-text-fill-color: #b9bccb; opacity: 1; cursor: default; }
 .cal-day.in-range { background: color-mix(in srgb, var(--primary) 12%, transparent); }
 .cal-day.is-start, .cal-day.is-end { color: #fff; font-weight: 700; }
 .cal-day.is-start::before, .cal-day.is-end::before {
