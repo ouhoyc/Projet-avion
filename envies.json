@@ -1,5 +1,5 @@
 {
-"_info": "Envies par ville (accueil, question « Vous avez envie de quoi ? »). Ordre = la plus forte en premier. Clés : soleil (Soleil et plage), ville (Ville et culture), gastronomie, nature, fete. Brouillon à relire par le propriétaire.",
+"_info": "Envies par ville (accueil, question « Vous avez envie de quoi ? »). Ordre = la plus forte en premier. Clés : soleil (Soleil et plage), culture (Culture et histoire), gastronomie, nature, fete. Chaque ville en a au moins une.",
 "AAE": [
 "soleil"
 ],
@@ -9,7 +9,6 @@
 ],
 "AGP": [
 "soleil",
-"ville",
 "gastronomie"
 ],
 "AJA": [
@@ -21,19 +20,19 @@
 "fete"
 ],
 "ALG": [
-"ville",
+"culture",
 "soleil"
 ],
 "AMM": [
-"ville",
+"culture",
 "nature"
 ],
 "AMS": [
-"ville",
+"culture",
 "fete"
 ],
 "ATH": [
-"ville",
+"culture",
 "soleil"
 ],
 "AYT": [
@@ -41,18 +40,17 @@
 "nature"
 ],
 "BCN": [
-"ville",
+"culture",
 "soleil",
 "fete",
 "gastronomie"
 ],
 "BEG": [
-"fete",
-"ville"
+"fete"
 ],
 "BER": [
 "fete",
-"ville"
+"culture"
 ],
 "BES": [
 "nature"
@@ -60,7 +58,7 @@
 "BEY": [
 "fete",
 "gastronomie",
-"ville"
+"culture"
 ],
 "BIA": [
 "soleil",
@@ -76,11 +74,12 @@
 "nature"
 ],
 "BLJ": [
+"culture",
 "nature"
 ],
 "BOD": [
 "gastronomie",
-"ville"
+"culture"
 ],
 "BRI": [
 "soleil",
@@ -88,35 +87,33 @@
 ],
 "BRU": [
 "gastronomie",
-"ville",
+"culture",
 "fete"
 ],
 "BSK": [
 "nature"
 ],
 "BUD": [
-"ville",
+"culture",
 "fete"
 ],
 "BUH": [
-"ville",
 "fete"
 ],
 "CAI": [
-"ville"
+"culture"
 ],
 "CFR": [
-"ville"
+"culture"
 ],
 "CFU": [
 "soleil",
 "nature"
 ],
 "CMN": [
-"ville"
+"culture"
 ],
 "CPH": [
-"ville",
 "gastronomie"
 ],
 "CTA": [
@@ -125,34 +122,31 @@
 "gastronomie"
 ],
 "CZL": [
-"ville",
+"culture",
 "nature"
 ],
 "DBV": [
 "soleil",
-"ville"
+"culture"
 ],
 "DJE": [
 "soleil"
 ],
 "DKR": [
 "soleil",
-"ville"
+"culture"
 ],
 "DUB": [
-"fete",
-"ville"
+"fete"
 ],
 "DUS": [
-"ville",
 "fete"
 ],
 "DXB": [
-"soleil",
-"ville"
+"soleil"
 ],
 "EDI": [
-"ville",
+"culture",
 "nature"
 ],
 "ESU": [
@@ -160,7 +154,7 @@
 "nature"
 ],
 "EVN": [
-"ville",
+"culture",
 "gastronomie",
 "nature"
 ],
@@ -169,11 +163,11 @@
 "nature"
 ],
 "FEZ": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "FLR": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "FNC": [
@@ -181,10 +175,11 @@
 "soleil"
 ],
 "FRA": [
-"ville"
+"culture"
 ],
 "HER": [
 "soleil",
+"culture",
 "nature"
 ],
 "HRG": [
@@ -192,30 +187,31 @@
 "nature"
 ],
 "IST": [
-"ville",
+"culture",
 "gastronomie",
 "fete"
 ],
 "JED": [
-"ville",
+"culture",
 "soleil"
 ],
 "KRK": [
-"ville",
+"culture",
 "fete"
 ],
 "KUT": [
 "nature",
+"culture",
 "gastronomie"
 ],
 "LIS": [
-"ville",
+"culture",
 "soleil",
 "gastronomie",
 "fete"
 ],
 "LON": [
-"ville",
+"culture",
 "fete"
 ],
 "LPA": [
@@ -223,19 +219,18 @@
 "nature"
 ],
 "LRH": [
-"ville",
 "soleil"
 ],
 "LXR": [
-"ville"
+"culture"
 ],
 "MAD": [
-"ville",
+"culture",
 "fete",
 "gastronomie"
 ],
 "MIL": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "MIR": [
@@ -243,48 +238,44 @@
 ],
 "MLA": [
 "soleil",
+"culture",
 "fete"
 ],
 "MRS": [
 "soleil",
-"ville",
 "nature"
 ],
 "MUC": [
 "fete",
-"ville",
 "nature"
 ],
 "NAP": [
 "gastronomie",
-"ville",
+"culture",
 "soleil"
 ],
 "NCE": [
-"soleil",
-"ville"
+"soleil"
 ],
 "NTE": [
-"ville"
+"culture"
 ],
 "OPO": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "ORN": [
 "soleil",
-"ville",
 "fete"
 ],
 "OSL": [
-"nature",
-"ville"
+"nature"
 ],
 "OUD": [
-"ville"
+"soleil"
 ],
 "PAR": [
-"ville",
+"culture",
 "gastronomie",
 "fete"
 ],
@@ -295,30 +286,30 @@
 ],
 "PMO": [
 "gastronomie",
-"soleil",
-"ville"
+"culture",
+"soleil"
 ],
 "PRG": [
-"ville",
+"culture",
 "fete"
 ],
 "PUF": [
 "nature"
 ],
 "QSF": [
-"ville"
+"culture"
 ],
 "RAK": [
-"ville",
+"culture",
 "gastronomie",
 "nature"
 ],
 "RBA": [
-"ville",
+"culture",
 "soleil"
 ],
 "ROM": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "SSH": [
@@ -326,16 +317,16 @@
 "nature"
 ],
 "STO": [
-"ville",
+"culture",
 "nature"
 ],
 "SVQ": [
-"ville",
+"culture",
 "fete",
 "gastronomie"
 ],
 "SXB": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "TCI": [
@@ -343,11 +334,10 @@
 "nature"
 ],
 "TIA": [
-"ville",
+"fete",
 "nature"
 ],
 "TLS": [
-"ville",
 "gastronomie"
 ],
 "TLV": [
@@ -356,33 +346,31 @@
 "gastronomie"
 ],
 "TNG": [
-"ville",
+"culture",
 "soleil"
 ],
 "TUN": [
-"ville",
+"culture",
 "soleil"
 ],
 "VCE": [
-"ville"
+"culture"
 ],
 "VIE": [
-"ville",
+"culture",
 "gastronomie"
 ],
 "VLC": [
 "soleil",
-"ville",
 "gastronomie"
 ],
 "VNO": [
-"ville"
+"culture"
 ],
 "WAW": [
-"ville"
+"culture"
 ],
 "YMQ": [
-"ville",
 "fete",
 "gastronomie"
 ]

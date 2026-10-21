@@ -79,7 +79,7 @@ Pour quelqu'un qui ne sait pas où aller, un prix ne suffit pas. Pistes :
   la durée de vol ;
 - un mode « Surprends-moi ».
 - 🛠 (21/10/2026) `envies.json` : les 95 villes classées par envie (soleil, ville, gastronomie, nature,
-  fête), brouillon à relire. Maquettes A/B/C du formulaire montrées (destination en dernier, en filtre,
+  fête ; « ville » remplacée par « culture » = Culture et histoire). Maquettes A/B/C du formulaire montrées (destination en dernier, en filtre,
   ou remplacée par « Vous avez envie de quoi ? ») : choix du propriétaire en attente.
 
 ### 1. ✅ Recherche par jour / fourchette de dates
