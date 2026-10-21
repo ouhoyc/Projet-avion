@@ -18,6 +18,9 @@ on:
       hashtags:
         description: 'Hashtags Instagram sans # (2 au plus : 1 food, 1 voyage), séparés par ;'
         default: 'warsawfood;visitwarsaw'
+      reseaux:
+        description: 'Réseaux à interroger (tiktok;instagram;youtube;reddit), vide = tous'
+        default: ''
 
 permissions:
   contents: read
@@ -39,6 +42,7 @@ jobs:
           VILLE_FR: ${{ inputs.ville_fr }}
           REQUETES_LOCALES: ${{ inputs.requetes_locales }}
           HASHTAGS: ${{ inputs.hashtags }}
+          RESEAUX: ${{ inputs.reseaux }}
       - uses: actions/upload-artifact@v4
         with:
           name: buzz-${{ inputs.ville_en }}

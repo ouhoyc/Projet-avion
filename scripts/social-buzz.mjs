@@ -49,7 +49,7 @@ const jobs = {
   tiktok: () => run('clockworks~tiktok-scraper', {
     searchQueries: Q.tiktok, resultsPerPage: 15,
     downloadSubtitlesOptions: 'DOWNLOAD_SUBTITLES', shouldDownloadCovers: false, shouldDownloadVideos: false,
-  }, 15 * Q.tiktok.length, 0.45),
+  }, 15 * Q.tiktok.length, 0.5), // 0,50 $ = minimum accepté par Apify pour ce robot
   instagram: () => (TAGS.length ? run('apify~instagram-hashtag-scraper', {
     hashtags: TAGS, resultsType: 'posts', resultsLimit: 30,
   }, 30 * TAGS.length, 0.2) : { items: [], usd: 0 }),
@@ -63,7 +63,9 @@ const jobs = {
 };
 
 let total = 0;
-for (const [nom, job] of Object.entries(jobs)) {
+// RESEAUX : relancer un seul réseau (ex. « tiktok ») sans repayer les autres. Vide = tous.
+const RESEAUX = (process.env.RESEAUX || '').split(';').map((s) => s.trim()).filter(Boolean);
+for (const [nom, job] of Object.entries(jobs).filter(([n]) => !RESEAUX.length || RESEAUX.includes(n))) {
   try {
     const { items, usd } = await job();
     total += usd;
