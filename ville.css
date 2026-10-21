@@ -96,7 +96,7 @@ a { color: inherit; }
 
 /* Fiche activité : panneau qui monte du bas sur téléphone, centré sur ordinateur */
 .v-sheet {
-  width: 100%; max-width: 560px; max-height: 92vh; margin: auto auto 0; padding: 0;
+  width: 100%; max-width: 560px; max-height: 92vh; max-height: 92dvh; margin: auto auto 0; padding: 0;
   border: 2px solid var(--ink); border-bottom: 0; border-radius: 22px 22px 0 0; background: #fff; color: var(--ink);
 }
 .v-sheet::backdrop { background: rgba(20, 33, 61, .45); }

@@ -49,6 +49,8 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   - iPhone : `html:has(dialog[open])` bloque la page derrière un panneau ; « Une idée ? » ne met pas
     le curseur dans le champ d'office sur téléphone (le clavier faisait sauter la page) ; le calendrier
     fait défiler la liste des mois, pas la page.
+  - Hauteurs des panneaux en **`dvh`** (avec `vh` en secours) : sur iPhone, `vh` compte la barre
+    d'adresse de Safari et le haut des panneaux passait dessous (invisible dans Playwright).
   - Carte, liste, panneau « Voir », calendrier, dialogue « Crédits et mentions ».
 - `app.js` : en-tête, carte MapLibre (fond OpenFreeMap en français, pastilles de prix dès le
   zoom de départ), outils communs (`flag()` = images de drapeaux dans `img/drapeaux/`).
