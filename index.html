@@ -44,99 +44,104 @@
 
   <a class="skip-link" href="#liste">Aller à la liste des destinations</a>
 
-  <header class="hero">
+  <!-- En-tête : la question que se pose le visiteur. Les destinations arrivent juste dessous. -->
+  <header class="hero hero-compact">
     <div class="hero-inner">
       <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Départ de <span id="origin-city">Lyon</span> · <span id="origin-code">LYS</span></p>
-      <h1><span class="h1-line">Pas d'<em>idée</em> de</span> <span class="h1-line"><em>destination</em>&nbsp;?</span> <span class="h1-break"></span><span class="h1-line">Faites le tour</span> <span class="h1-line">des possibles.</span></h1>
-      <p class="hero-sub">Fini les 15 onglets ouverts : vol direct depuis <span id="title-city">Lyon</span>, activités, restaurants et hôtel réunis au même endroit, avec le prix total de votre séjour.</p>
-      <p class="hero-formula" aria-label="Vol, activités, restaurants et hôtel : le prix total de votre voyage"><span>✈️ Vol</span><em>+</em><span>🎟️ Activités</span><em>+</em><span>🍽️ Restos</span><em>+</em><span>🏨 Hôtel</span><em>=</em><strong>💶 le prix total de votre voyage</strong></p>
-      <ul class="hero-stats" id="stats">
-        <li><strong>–</strong><span>destinations</span></li>
-        <li><strong>–</strong><span>prix mini</span></li>
-        <li><strong>–</strong><span>pays</span></li>
-      </ul>
+      <h1>Où partir <em>depuis <span id="title-city">Lyon</span></em>&nbsp;?</h1>
+      <ul class="hero-stats" id="stats" hidden></ul>
       <p class="updated" id="updated"><svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> <span>Chargement…</span></p>
-    </div>
-    <svg class="hero-route" viewBox="0 0 400 120" preserveAspectRatio="none" aria-hidden="true"><path d="M-10 110 C 120 10, 260 10, 410 70"/></svg>
-    <div class="hero-flight" aria-hidden="true">
-      <svg class="trail" viewBox="0 0 400 76" preserveAspectRatio="none"><path d="M-10 70 C 110 72, 250 60, 368 22"/></svg>
-      <svg class="plane"><use href="#i-plane-solid"/></svg>
     </div>
   </header>
 
-  <main>
-    <!-- Recherche : elle pilote toute la page (carte + liste des résultats) -->
-    <section class="search" aria-labelledby="search-title">
-      <h2 id="search-title" class="visually-hidden">Rechercher un vol</h2>
-      <form class="search-card" id="search-form" novalidate>
-        <div class="segmented" role="radiogroup" aria-label="Type de voyage">
-          <label><input type="radio" name="trip" value="rt" checked><span>Aller-retour</span></label>
-          <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
-        </div>
+  <!-- Filtres : ils pilotent toute la page (carte + liste). Chaque pastille ouvre un panneau ;
+       les destinations s'affichent dès l'arrivée, sans rien remplir. -->
+  <section class="search" aria-labelledby="search-title">
+    <h2 id="search-title" class="visually-hidden">Affiner la recherche</h2>
+    <form class="filters" id="search-form" novalidate>
+      <div class="filters-row">
+        <button type="button" class="pill" id="s-when" aria-haspopup="dialog" aria-label="Quand êtes-vous libre ?">
+          <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span id="s-when-label">N'importe quand</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+        </button>
+        <button type="button" class="pill" data-filter="f-stay" aria-haspopup="dialog" aria-label="Durée du séjour">
+          <span aria-hidden="true">🌙</span><span id="p-stay">2 à 4 nuits</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+        </button>
+        <button type="button" class="pill" id="s-pax" aria-haspopup="dialog" aria-label="Voyageurs">
+          <svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><span id="s-pax-label">1 adulte</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+        </button>
+        <button type="button" class="pill" data-filter="f-budget" aria-haspopup="dialog" aria-label="Budget maximum">
+          <span aria-hidden="true">💶</span><span id="p-budget">Budget</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+        </button>
+        <button type="button" class="pill" data-filter="f-where" aria-haspopup="dialog" aria-label="Une idée de destination ?">
+          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><span id="p-where">Une idée ?</span>
+        </button>
+        <input type="hidden" id="s-from">
+        <input type="hidden" id="s-to">
+      </div>
 
-        <div class="field">
-          <span class="field-label" id="s-when-title">Quand êtes-vous libre ?</span>
-          <button type="button" class="picker-btn" id="s-when" aria-labelledby="s-when-title s-when-label" aria-haspopup="dialog">
-            <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>
-            <span id="s-when-label">N'importe quand</span>
-            <svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </button>
-          <input type="hidden" id="s-from">
-          <input type="hidden" id="s-to">
+      <dialog class="sheet filter-sheet" id="f-stay" aria-label="Combien de temps partez-vous ?">
+        <div class="sheet-body">
+          <div class="sheet-grip" aria-hidden="true"></div>
+          <button type="button" class="sheet-close" data-filter-close aria-label="Fermer"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+          <h2 class="filter-title">Combien de temps partez-vous ?</h2>
+          <div class="segmented" role="radiogroup" aria-label="Type de voyage">
+            <label><input type="radio" name="trip" value="rt" checked><span>Aller-retour</span></label>
+            <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
+          </div>
+          <!-- Avec une période choisie : partir le 1er jour et revenir le dernier -->
           <label class="exact-check" id="s-exact-field" hidden><input type="checkbox" id="s-exact"><span>Partir et revenir à ces dates exactes</span></label>
           <p class="exact-recap" id="s-exact-recap" hidden></p>
+          <!-- Durée : on cherche le vol le moins cher DANS la période, pour cette durée -->
+          <fieldset class="field stay" id="s-stay">
+            <legend id="stay-legend">Combien de nuits sur place ?</legend>
+            <div class="stay-chips">
+              <label><input type="radio" name="stay" value="1-1"><span>Une nuit</span></label>
+              <label><input type="radio" name="stay" value="2-4"><span>Court séjour</span></label>
+              <label><input type="radio" name="stay" value="5-8"><span>Une semaine</span></label>
+              <label><input type="radio" name="stay" value="9-21"><span>Plus long</span></label>
+            </div>
+            <p class="stay-explain" id="stay-hint"></p>
+          </fieldset>
+          <button type="button" class="btn btn-primary btn-block" data-filter-close>Voir les destinations</button>
         </div>
-
-        <!-- Durée : on cherche le vol le moins cher DANS la période, pour cette durée -->
-        <fieldset class="field stay" id="s-stay">
-          <legend id="stay-legend">Combien de nuits sur place ?</legend>
-          <div class="stay-chips">
-            <label><input type="radio" name="stay" value="1-1"><span>Une nuit</span></label>
-            <label><input type="radio" name="stay" value="2-4"><span>Court séjour</span></label>
-            <label><input type="radio" name="stay" value="5-8"><span>Une semaine</span></label>
-            <label><input type="radio" name="stay" value="9-21"><span>Plus long</span></label>
-          </div>
-          <p class="stay-explain" id="stay-hint"></p>
-        </fieldset>
-
-        <div class="field">
-          <span class="field-label" id="s-pax-title">Voyageurs</span>
-          <button type="button" class="picker-btn" id="s-pax" aria-labelledby="s-pax-title s-pax-label" aria-haspopup="dialog">
-            <svg class="icon" aria-hidden="true"><use href="#i-users"/></svg>
-            <span id="s-pax-label">1 adulte</span>
-            <svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
-          </button>
-        </div>
-
-        <div class="field budget-field">
-          <label for="s-budget">Budget max <span class="hint">facultatif</span></label>
+      </dialog>
+      <dialog class="sheet filter-sheet" id="f-budget" aria-label="Votre budget maximum">
+        <div class="sheet-body">
+          <div class="sheet-grip" aria-hidden="true"></div>
+          <button type="button" class="sheet-close" data-filter-close aria-label="Fermer"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+          <h2 class="filter-title">Votre budget maximum</h2>
+          <p class="filter-help">Prix du vol aller-retour, pour tous les voyageurs. Laissez vide pour tout voir.</p>
           <div class="euro-input"><input type="number" id="s-budget" min="10" step="10" inputmode="numeric" placeholder="Pas de limite"><span aria-hidden="true">€</span></div>
+          <button type="button" class="btn btn-primary btn-block" data-filter-close>Voir les destinations</button>
         </div>
-
-        <!-- Destination en dernier et facultative : le site est fait pour ceux qui ne savent pas où partir.
-             On tape une ville ou un pays, la croix remet « N'importe où ». -->
-        <div class="field where-field">
-          <label for="s-where">Une idée de destination ? <span class="hint">facultatif</span></label>
-          <div class="where-box">
-            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
-            <input type="text" id="s-where" placeholder="N'importe où" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
-              role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="s-where-list">
-            <button type="button" class="where-clear" id="s-where-clear" aria-label="Effacer : n'importe où" hidden>
-              <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
-            </button>
+      </dialog>
+      <dialog class="sheet filter-sheet" id="f-where" aria-label="Une idée de destination ?">
+        <div class="sheet-body">
+          <div class="sheet-grip" aria-hidden="true"></div>
+          <button type="button" class="sheet-close" data-filter-close aria-label="Fermer"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+          <h2 class="filter-title">Une idée de destination ?</h2>
+          <p class="filter-help">Facultatif : tapez une ville ou un pays. Sinon, on vous montre tout.</p>
+          <!-- Saisie libre : la croix remet « N'importe où » -->
+          <div class="field where-field">
+            <div class="where-box">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              <input type="text" id="s-where" placeholder="N'importe où" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="done"
+                role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="s-where-list">
+              <button type="button" class="where-clear" id="s-where-clear" aria-label="Effacer : n'importe où" hidden>
+                <svg class="icon" aria-hidden="true"><use href="#i-close"/></svg>
+              </button>
+            </div>
+            <ul class="where-list" id="s-where-list" role="listbox" aria-label="Villes et pays" hidden></ul>
+            <input type="hidden" id="s-country">
+            <input type="hidden" id="s-city">
           </div>
-          <ul class="where-list" id="s-where-list" role="listbox" aria-label="Villes et pays" hidden></ul>
-          <input type="hidden" id="s-country">
-          <input type="hidden" id="s-city">
+          <button type="button" class="btn btn-primary btn-block" data-filter-close>Voir les destinations</button>
         </div>
+      </dialog>
+    </form>
+  </section>
 
-        <p class="search-recap" id="search-recap" hidden></p>
-
-        <button type="submit" class="btn btn-primary btn-block">
-          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg> Rechercher
-        </button>
-      </form>
-    </section>
+  <main>
 
     <section class="map-section" aria-labelledby="map-title">
       <div class="section-head">
@@ -158,9 +163,10 @@
     <!-- Résultats de la recherche (remplissent aussi la carte) -->
     <section class="list-section" id="liste" aria-labelledby="results-title" tabindex="-1">
       <div class="section-head">
-        <h2 id="results-title">Destinations</h2>
+        <h2 id="results-title">✨ Séjours clé en main</h2>
         <p class="result-count" id="results-count" aria-live="polite"></p>
       </div>
+      <p class="list-intro">Choisissez une destination : on prépare tout, vol, activités, restos et hôtel, avec le prix total.</p>
       <!-- Mois de départ (quand « Quand ? » est vide) : on glisse pour changer de mois -->
       <div class="months-bar" id="months-bar" hidden>
         <button type="button" class="months-arrow" data-month-step="-1" aria-label="Mois précédent"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
@@ -176,7 +182,7 @@
         </select><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></div>
       </div>
       <div class="search-results" id="search-results" aria-live="polite">
-        <p class="empty start-hint">Choisissez combien de temps vous voulez partir pour voir les meilleurs prix.</p>
+        <div class="live-loading"><span class="spinner" aria-hidden="true"></span>Recherche des meilleures destinations…</div>
       </div>
     </section>
   </main>

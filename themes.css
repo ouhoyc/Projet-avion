@@ -490,3 +490,26 @@ html[data-da="postale"] {
 .hero-formula em { font-style: normal; font-weight: 700; color: var(--text-muted); }
 .hero-formula strong { color: var(--coral, #ff6b4a); }
 [data-da^="pop"] .sheet-only-flight { display: block; text-align: center; margin-top: var(--s-2); font-size: 14px; font-weight: 600; color: var(--text-muted); }
+
+/* --------------------------------------------------------------------------
+   Pop — accueil « agence de voyage » : titre court sur le papier, filtres en
+   pastilles, fiches « Séjour clé en main » bleu nuit avec ombre corail
+   -------------------------------------------------------------------------- */
+[data-da^="pop"] .hero.hero-compact { background: var(--paper); border-bottom: 0; padding: calc(var(--s-4) + env(safe-area-inset-top)) 0 var(--s-3); }
+[data-da^="pop"] .hero-compact .hero-inner {
+  display: block; background: none; border: 0; box-shadow: none; padding: 0 var(--gutter);
+  -webkit-mask: none; mask: none;
+}
+[data-da^="pop"] .hero-compact h1 { font-size: clamp(2.2rem, 10vw, 3.6rem); line-height: 1.12; letter-spacing: -.035em; }
+[data-da^="pop"] .search { background: var(--paper); border-bottom: 2px solid var(--ink); }
+[data-da^="pop"] .pill { border: 2px solid var(--ink); background: #fff; color: var(--ink); box-shadow: 2px 2px 0 var(--ink); }
+[data-da^="pop"] .pill.has-value { background: var(--ink); color: #fff; box-shadow: none; transform: translate(2px, 2px); }
+[data-da^="pop"] .result-list .card.trip-card { border: 2px solid var(--ink); box-shadow: 5px 5px 0 var(--coral); }
+[data-da^="pop"] .trip-card .chip-alt { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .3); }
+[data-da^="pop"] .trip-card .chip-alt strong, [data-da^="pop"] .trip-card .alt-title { color: #7ee2b0; }
+[data-da^="pop"] .trip-card .chip-alt.is-pricier strong { color: #fff; }
+[data-da^="pop"] .tc-go { border-color: var(--coral); box-shadow: none; }
+[data-da^="pop"] .sheet-soon { border: 2px dashed var(--ink); background: #fff; }
+@media (min-width: 1100px) {
+  [data-da^="pop"] .result-list .card.trip-card.is-hovered { box-shadow: 8px 8px 0 var(--coral); }
+}

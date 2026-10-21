@@ -260,6 +260,10 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (22/10/2026) **Nouvel accueil « agence de voyage »** (retour testeurs : on croyait à un comparateur,
+  on ne voyait pas les résultats ni le « séjour complet ») : titre « Où partir depuis Lyon ? »,
+  destinations affichées dès l'arrivée, filtres en pastilles, fiches « Séjour clé en main » pour
+  toutes les villes, carte gardée. Le propriétaire ajustera au fur et à mesure.
 - ✅ (21/10/2026) Formulaire, maquette A retenue : la destination passe en dernier, « Une idée de
   destination ? (facultatif) ». Accroche sous le titre : 3 propositions montrées, choix en attente.
 - ✅ (21/10/2026) Liens Tiqets sur Varsovie (POLIN, Vodka), Lisbonne (Hiéronymites, Belém, Pena, croisière,

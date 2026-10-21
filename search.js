@@ -89,10 +89,26 @@ function setupSearchForm() {
     }
   });
 
-  // « Rechercher » : on descend jusqu'aux résultats (sur iPhone, ils sont sous le formulaire).
-  sEls.form.addEventListener('submit', async (e) => {
+  // Entrée dans un panneau (ex. budget) : on ferme le panneau et on relance la recherche.
+  sEls.form.addEventListener('submit', (e) => {
     e.preventDefault();
-    if (await runSearch()) revealResults();
+    closeFilters();
+    runSearch();
+  });
+
+  // Pastilles « Durée », « Budget », « Une idée ? » : chacune ouvre son panneau.
+  sEls.form.addEventListener('click', (e) => {
+    const pill = e.target.closest('[data-filter]');
+    if (pill) {
+      $(pill.dataset.filter).showModal();
+      if (pill.dataset.filter === 'f-where') sEls.where.focus();
+      return;
+    }
+    if (e.target.closest('[data-filter-close]') || e.target.matches('.filter-sheet')) closeFilters();
+  });
+  sEls.budget.addEventListener('change', () => {
+    updatePills();
+    runSearch();
   });
 
   for (const el of [sEls.refineCountry, sEls.sort]) el.addEventListener('change', () => applyView(false));
@@ -160,11 +176,14 @@ function setupSearchForm() {
   document.addEventListener('data-ready', () => {
     fillPlaces();
     updateFormHelp();
-    // Durée déjà choisie lors d'une visite précédente : on lance directement la recherche.
+    // Les destinations s'affichent dès l'arrivée : durée de la visite précédente, sinon court séjour.
     let saved = null;
     try { saved = localStorage.getItem(STAY_KEY); } catch { /* indisponible */ }
-    const radio = saved && sEls.form.querySelector(`input[name="stay"][value="${saved}"]`);
-    if (radio) { radio.checked = true; updateFormHelp(); runSearch(); }
+    const radio = (saved && sEls.form.querySelector(`input[name="stay"][value="${saved}"]`))
+      || sEls.form.querySelector('input[name="stay"][value="2-4"]');
+    radio.checked = true;
+    updateFormHelp();
+    runSearch();
   });
 }
 
@@ -238,16 +257,12 @@ function setupWhere() {
     input.value = whereLabel();
     sEls.whereClear.hidden = !input.value;
     open(false);
+    updatePills();
+    $('f-where').close();
     if (readyToSearch()) runSearch();
   };
 
-  input.addEventListener('focus', () => {
-    if (places.length) { input.select(); render(); }
-    // Téléphone : le champ est en bas du formulaire, on le remonte pour que le clavier ne cache pas la liste.
-    if (matchMedia('(max-width: 759px)').matches) {
-      setTimeout(() => input.closest('.field').scrollIntoView({ behavior: 'smooth', block: 'start' }), 300);
-    }
-  });
+  input.addEventListener('focus', () => { if (places.length) { input.select(); render(); } });
   input.addEventListener('input', () => {
     sEls.whereClear.hidden = !input.value;
     render();
@@ -320,10 +335,23 @@ function updateFormHelp() {
   $('stay-legend').textContent = stay && range
     ? `Combien de nuits, du ${first} au ${day(to)}\u00a0?`
     : 'Combien de nuits sur place\u00a0?';
-  $('stay-hint').innerHTML = stay ? '' : `On cherche l'aller-retour <b>le moins cher</b> ${escapeHtml(period)}, pour la durée que vous choisissez.`;
-  const searchRecap = $('search-recap');
-  searchRecap.hidden = !stay;
-  if (stay) searchRecap.innerHTML = `On cherche le vol <b>le moins cher</b> ${escapeHtml(period)}, pour <b>${STAY_NIGHTS[stay]}</b> sur place.`;
+  $('stay-hint').innerHTML = `On cherche l'aller-retour <b>le moins cher</b> ${escapeHtml(period)}, ${stay ? `pour <b>${STAY_NIGHTS[stay]}</b> sur place` : 'pour la durée que vous choisissez'}.`;
+  updatePills();
+}
+
+// Texte des pastilles : ce qui est choisi, ou le nom du filtre. Une pastille réglée passe en foncé.
+function updatePills() {
+  const ow = tripType() === 'ow';
+  $('p-stay').textContent = ow ? 'Aller simple' : exactDates() ? 'Dates exactes' : STAY_NIGHTS[stayValue()] || 'Durée';
+  const budget = Number(sEls.budget.value);
+  $('p-budget').textContent = budget ? `${fmtPrice.format(budget)} max` : 'Budget';
+  $('p-where').textContent = whereLabel() || 'Une idée ?';
+  sEls.form.querySelector('[data-filter="f-budget"]').classList.toggle('has-value', Boolean(budget));
+  sEls.form.querySelector('[data-filter="f-where"]').classList.toggle('has-value', Boolean(sEls.country.value));
+}
+
+function closeFilters() {
+  for (const d of sEls.form.querySelectorAll('.filter-sheet[open]')) d.close();
 }
 
 // Case cochée et visible (aller-retour avec une vraie période).
@@ -354,10 +382,7 @@ async function runSearch() {
   if (!data) return;
   const type = tripType();
   if (!readyToSearch()) {
-    sEls.results.innerHTML = '<p class="empty start-hint">Choisissez d\'abord combien de temps vous voulez partir.</p>';
-    sEls.stay.classList.add('attention');
-    sEls.stay.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    setTimeout(() => sEls.stay.classList.remove('attention'), 1200);
+    $('f-stay').showModal();
     return;
   }
 
@@ -402,13 +427,6 @@ async function runSearch() {
   if (!months.some((m) => m.key === searchState.month)) searchState.month = '';
   Object.assign(searchState, { base: query, daily, months, airlines: daily.airlines || {} });
   showMonth(true);
-  return true;
-}
-
-// Téléphone : la carte (puis la liste) ; ordinateur : la liste, la carte restant à droite.
-function revealResults() {
-  const wide = matchMedia('(min-width: 1100px)').matches;
-  (wide ? $('liste') : document.querySelector('.map-section')).scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // Recherche limitée aux départs d'un mois (le retour peut tomber le mois suivant).
@@ -605,7 +623,8 @@ function renderResults() {
   const { results, view, query: q } = searchState;
   const roundTrip = q.type === 'rt';
   searchState.shown = 0;
-  sEls.count.textContent = view.length ? `${view.length} destination${view.length > 1 ? 's' : ''}` : '';
+  sEls.count.textContent = '';
+  $('results-title').textContent = view.length ? `✨ ${view.length} séjour${view.length > 1 ? 's' : ''} clé en main` : '✨ Séjours clé en main';
 
   if (!view.length) {
     sEls.results.innerHTML = `
@@ -628,7 +647,7 @@ function renderResults() {
     <ul class="cards result-list" id="result-list"></ul>
     <button type="button" class="btn btn-secondary-wide" data-more hidden></button>
     <p class="disclaimer"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-      <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour compris' : ''}${groupLabel() ? `, ${groupLabel().trim()}` : ''}. Touchez « Voir » pour vérifier les prix en direct avant de réserver sur Kiwi.com.</span></p>`;
+      <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour compris' : ''}${groupLabel() ? `, ${groupLabel().trim()}` : ''}. Touchez « Préparer mon séjour » pour vérifier le prix du vol en direct.</span></p>`;
   renderMore();
 }
 
@@ -685,56 +704,63 @@ function tripData(o) {
   return { code: o.code, out: o.out.day, ret: o.ret?.day || null, outPrice: o.out.price, retPrice: o.ret?.price ?? null, dur: o.out.duration || null };
 }
 
+// Fiche « Séjour clé en main » : grande photo, ce qui est compris, prix du vol et bouton.
 function cityCardHtml(city, index) {
   const q = searchState.query;
   const roundTrip = q.type === 'rt';
   const { dest, options } = city;
   const multiAirport = city.airports.length > 1;
 
-  // Destination précise : liste de dates ; sinon : une option + pastilles de durée.
+  // Destination précise : plusieurs dates au choix ; sinon : une option + pastilles de durée.
   let mainOptions = q.city ? options.slice(0, city.mainCount) : [options[city.selected]];
   if (q.city && city.selected >= city.mainCount) mainOptions = [options[city.selected], ...mainOptions];
   const chips = options
     .map((o, i) => ({ o, i }))
     .filter(({ o, i }) => o.nights && (q.city ? i >= city.mainCount : i !== city.selected));
   const best = bestOf(city);
+  const photo = searchState.villes[dest.city_code]?.photo;
 
   return `
-    <li class="card result ${priceTier(best.total / (roundTrip ? 2 : 1))}" data-result="${index}">
-      <div class="card-top">
-        ${thumbHtml(dest)}
-        <div class="card-title">
-          <h3 class="card-city">${escapeHtml(dest.city)}</h3>
-          <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''}</p>
-          <p class="card-route">${escapeHtml(data.origin.code)} ✈ ${escapeHtml(best.code)}</p>
-        </div>
+    <li class="card result trip-card" data-result="${index}">
+      <div class="tc-photo">
+        ${photo ? `<img src="${escapeHtml(photo.src)}" alt="${escapeHtml(photo.alt || dest.city)}" loading="lazy" decoding="async">` : `<span class="tc-noimg" aria-hidden="true">${flag(dest.country_code)}</span>`}
+        <span class="tc-ribbon">✨ Séjour clé en main</span>
       </div>
-      ${factsHtml(dest, best.out.day, best.out.duration, false)}
-      ${mainOptions.map((o) => optionHtml(o, city)).join('')}
-      ${chips.length ? `
-        <div class="chips-alt">
-          <span class="alt-title">${city.exactNights && chips.every(({ o }) => o.total < best.total) ? 'Moins cher :' : 'Autres durées :'}</span>
-          ${chips.map(({ o, i }) => `
-            <button type="button" class="chip chip-alt${o.total < best.total ? '' : ' is-pricier'}" data-pick="${index}:${i}">
-              ${o.nights} nuit${o.nights > 1 ? 's' : ''} · <strong>${fmtGroup(o.total)}</strong>
-            </button>`).join('')}
-        </div>` : ''}
+      <div class="tc-body">
+        <h3 class="card-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h3>
+        <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''} · <span class="card-route">${escapeHtml(data.origin.code)} ✈ ${escapeHtml(best.code)}</span></p>
+        ${factsHtml(dest, best.out.day, best.out.duration, false)}
+        <ul class="tc-inc" aria-label="Compris dans le séjour"><li>✈️ Vol</li><li>🎟️ Activités</li><li>🍽️ Restos</li><li>🏨 Hôtel</li></ul>
+        ${mainOptions.map((o) => tripOptionHtml(o, city, roundTrip)).join('')}
+        ${chips.length ? `
+          <div class="chips-alt">
+            <span class="alt-title">${city.exactNights && chips.every(({ o }) => o.total < best.total) ? 'Moins cher :' : 'Autres durées :'}</span>
+            ${chips.map(({ o, i }) => `
+              <button type="button" class="chip chip-alt${o.total < best.total ? '' : ' is-pricier'}" data-pick="${index}:${i}">
+                ${o.nights} nuit${o.nights > 1 ? 's' : ''} · <strong>${fmtGroup(o.total)}</strong>
+              </button>`).join('')}
+          </div>` : ''}
+      </div>
     </li>`;
+}
+
+// Une option de vol : dates, prix (pour tout le groupe) et « Préparer mon séjour ».
+function tripOptionHtml(o, city, roundTrip) {
+  const airport = city.airports.length > 1 ? (city.airports.find((a) => a.code === o.code)?.airport || o.code) : '';
+  const dates = `${escapeHtml(formatDayShortWeek(o.out.day))}${o.ret ? ` → ${escapeHtml(formatDayShortWeek(o.ret.day))}` : ''}`;
+  return `
+    <div class="tc-option">
+      <p class="tc-dates">📅 ${dates}${o.nights ? ` · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}${airport ? `<small>Aéroport : ${escapeHtml(airport)}</small>` : ''}</p>
+      <div class="tc-foot">
+        <p class="tc-price"><small>${roundTrip ? 'Vol aller-retour' : 'Vol aller simple'}${seats() > 1 ? ` · ${seats()} voyageurs` : ''}</small><strong>${fmtGroup(o.total)}</strong>${perPersonHtml(o.total)}</p>
+        <button type="button" class="btn btn-primary tc-go" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Préparer mon séjour <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>`;
 }
 
 // Fiche « donner envie » : vignette photo sur la carte de résultat ; grande photo et
 // « pourquoi y aller » dans le panneau « Voir ».
 const MONTH_NAMES = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
-
-function thumbHtml(dest) {
-  const p = searchState.villes[dest.city_code]?.photo;
-  if (!p) return `<span class="flag" aria-hidden="true">${flag(dest.country_code)}</span>`;
-  return `
-    <span class="thumb">
-      <img src="${escapeHtml(p.src.replace('img/villes/', 'img/villes/mini/'))}" alt="" loading="lazy" decoding="async">
-      <span class="thumb-flag" aria-hidden="true">${flag(dest.country_code)}</span>
-    </span>`;
-}
 
 function photoHtml(dest) {
   const p = searchState.villes[dest.city_code]?.photo;
@@ -780,25 +806,6 @@ function factsHtml(dest, day, duration, long) {
   return facts.length ? `<p class="${long ? 'sheet-facts' : 'card-facts'}">${facts.join('')}</p>` : '';
 }
 
-function optionHtml(o, city) {
-  const airport = city.airports.length > 1 ? (city.airports.find((a) => a.code === o.code)?.airport || o.code) : '';
-  return `
-    <div class="option">
-      <div class="legs">
-        ${legHtml('Aller', o.out)}
-        ${o.ret ? legHtml('Retour', o.ret) : ''}
-        ${airport ? `<p class="leg-airport">Aéroport : ${escapeHtml(airport)} (${escapeHtml(o.code)})</p>` : ''}
-      </div>
-      <div class="option-side">
-        ${o.nights ? `<span class="nights-badge">${o.nights} nuit${o.nights > 1 ? 's' : ''}</span>` : ''}
-        ${seats() > 1 ? `<span class="group-tag">Total pour ${seats()}</span>` : ''}
-        <strong class="option-total">${fmtGroup(o.total)}</strong>
-        ${perPersonHtml(o.total)}
-        <button type="button" class="btn btn-primary btn-small" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Voir</button>
-      </div>
-    </div>`;
-}
-
 // Prix du vol pour tout le groupe (choix « Voyageurs ») : les prix repérés sont par personne.
 function seats() {
   return typeof paxGet === 'function' ? paxSeats(paxGet()) : 1;
@@ -816,18 +823,6 @@ function perPersonHtml(perPerson) {
 }
 function perPersonSuffix() {
   return seats() > 1 ? '<small class="pp"> / pers.</small>' : '';
-}
-
-// Une ligne par vol : « Aller · lun. 2 nov. 15:40 · 38 € », puis compagnie et fraîcheur du prix.
-function legHtml(label, l) {
-  const airline = searchState.airlines[l.airline] || l.airline;
-  const seen = l.seen ? ` · vu ${shortSeen(l.seen)}` : '';
-  return `
-    <p class="leg">
-      <span class="leg-label">${label}</span>
-      <span class="leg-main">${escapeHtml(formatDayShortWeek(l.day))}${l.time ? ` · ${escapeHtml(l.time)}` : ''} · <strong>${fmtPrice.format(l.price)}</strong>${perPersonSuffix()}</span>
-      <span class="leg-sub">${escapeHtml(airline)}${escapeHtml(seen)}</span>
-    </p>`;
 }
 
 const fmtDayShortWeek = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
@@ -895,7 +890,8 @@ function openTripSheet(trip) {
       <a class="btn btn-primary btn-block" href="${escapeHtml(link)}" target="_blank" rel="sponsored noopener">
         Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
       </a>
-      <p class="sheet-note">Vous serez redirigé vers Kiwi.com (en français, prix en euros) pour choisir vos vols et payer.</p>`}
+      <p class="sheet-note">Vous serez redirigé vers Kiwi.com (en français, prix en euros) pour choisir vos vols et payer.</p>
+      <p class="sheet-soon">✨ Activités, restos et hôtel arrivent bientôt pour cette ville : vous pourrez préparer tout le séjour ici.</p>`}
     </div>`;
   sheet.showModal();
   const id = ++liveRequest;

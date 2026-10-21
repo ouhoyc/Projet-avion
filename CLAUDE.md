@@ -29,15 +29,17 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 
 ## Fichiers
 - `index.html` : la page.
-  - Titre : « Pas d'idée de destination ? Faites le tour des possibles. », sur 4 lignes
-    régulières (classes `.h1-line`).
-  - Sous le titre : la formule « Vol + Activités + Restos + Hôtel = le prix total » (`.hero-formula`,
-    simple texte : rien qui ressemble à un bouton).
-  - Formulaire : Quand êtes-vous libre (+ case « dates exactes ») / durée / voyageurs / budget, puis
-    « Une idée de destination ? » **en dernier et facultatif** (le site est pour ceux qui ne savent pas
-    où partir ; saisie libre ville ou pays + croix, `setupWhere()` dans `search.js`).
-    Aide « on cherche le vol le moins cher pendant la période, pour la durée choisie » :
-    `updateFormHelp()` dans `search.js`.
+  - **Accueil « agence de voyage »** (22/10/2026) : titre court « Où partir depuis Lyon ? » ; les
+    destinations s'affichent **dès l'arrivée** (court séjour par défaut), sans formulaire à remplir.
+  - Filtres en **pastilles** collées en haut (`.search` > `.filters-row`) : Quand (calendrier), Durée
+    (panneau `#f-stay` : aller-retour/aller simple, case « dates exactes », nuits), Voyageurs, Budget
+    (`#f-budget`), « Une idée ? » (`#f-where`, saisie libre ville ou pays, `setupWhere()`). Texte des
+    pastilles : `updatePills()` ; aide « on cherche le vol le moins cher… » : `updateFormHelp()`.
+  - Résultats = fiches **« ✨ Séjour clé en main »** (`cityCardHtml`, `.trip-card`) pour **toutes** les
+    villes (choix du propriétaire : toutes auront leur guide avant la mise en ligne publique) :
+    grande photo, bandeau, ce qui est compris, dates, prix du vol, bouton « Préparer mon séjour »
+    (ouvre le panneau du vol ; sans guide, mention « arrivent bientôt »).
+  - Carte gardée : sous les filtres sur téléphone, fixe à droite sur ordinateur.
   - Carte, liste, panneau « Voir », calendrier, dialogue « Crédits et mentions ».
 - `app.js` : en-tête, carte MapLibre (fond OpenFreeMap en français, pastilles de prix dès le
   zoom de départ), outils communs (`flag()` = images de drapeaux dans `img/drapeaux/`).

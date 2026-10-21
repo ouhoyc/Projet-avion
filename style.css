@@ -896,34 +896,104 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .dot-origin { background: var(--map-origin); box-shadow: 0 0 0 2px var(--map-pin-stroke); }
 
 /* ==========================================================================
-   Version ordinateur (≥ 1100 px) : recherche + liste à gauche,
-   grande carte fixe à droite (comme Airbnb / Kayak)
+   Accueil « agence de voyage » : titre court, filtres en pastilles, carte,
+   puis les séjours clé en main (grandes fiches photo)
+   ========================================================================== */
+.hero-compact { padding: calc(var(--s-4) + env(safe-area-inset-top)) 0 var(--s-3); }
+.hero-compact h1 { margin-top: var(--s-3); }
+.hero-compact .updated { margin-top: var(--s-2); }
+
+/* Filtres : une rangée de pastilles qui reste en haut de l'écran */
+.search { position: sticky; top: 0; z-index: 20; margin: 0; padding: var(--s-2) 0; background: var(--bg); border-bottom: 1px solid var(--border); }
+.filters-row { display: flex; gap: var(--s-2); overflow-x: auto; scrollbar-width: none; padding: 2px var(--gutter) 6px; max-width: 1440px; margin: 0 auto; }
+.filters-row::-webkit-scrollbar { display: none; }
+.pill {
+  flex: none; display: inline-flex; align-items: center; gap: 6px;
+  min-height: 42px; padding: 0 14px;
+  border: 1px solid var(--border); border-radius: var(--r-full);
+  background: var(--surface); color: var(--text);
+  font: inherit; font-size: 15px; font-weight: 600; white-space: nowrap; cursor: pointer;
+}
+.pill .icon { width: 18px; height: 18px; }
+.pill .chevron { width: 14px; height: 14px; opacity: .6; }
+.pill.has-value { background: var(--text); color: var(--bg); border-color: var(--text); }
+.pill:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+
+/* Panneaux des filtres (en bas de l'écran sur téléphone) */
+.filter-title { font-size: 22px; font-weight: 800; letter-spacing: -.02em; padding-right: 48px; }
+.filter-help { font-size: 14px; color: var(--text-muted); margin-top: calc(-1 * var(--s-2)); }
+.filter-sheet .segmented { justify-self: start; }
+.filter-sheet .where-list { position: static; margin-top: var(--s-2); max-height: 45vh; box-shadow: none; }
+.filter-sheet .stay-explain:empty { display: none; }
+
+/* Liste : titre « ✨ 44 séjours clé en main » et phrase d'explication */
+.list-intro { margin: calc(-1 * var(--s-2)) 0 var(--s-3); font-size: 15px; color: var(--text-muted); }
+
+/* Fiche « Séjour clé en main » */
+.result-list .card.trip-card { padding: 0; gap: 0; color: #fff; background: var(--ink, #14213d); border-radius: 20px; }
+.trip-card::before { display: none; }
+.tc-photo { position: relative; aspect-ratio: 16 / 10; background: #263556; }
+.tc-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.tc-noimg { display: grid; place-items: center; height: 100%; }
+.tc-noimg .flag-img { width: 72px; height: auto; }
+.tc-ribbon {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 7px 14px; background: var(--primary); color: #fff;
+  font-size: 14px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase;
+}
+.tc-body { display: grid; gap: 10px; padding: 14px 16px 16px; }
+.trip-card .card-city { display: flex; align-items: center; gap: 8px; font-size: 24px; font-weight: 800; color: #fff; }
+.trip-card .card-city .flag-img { width: 24px; height: auto; border-radius: 2px; }
+.trip-card .card-sub { color: rgba(255, 255, 255, .75); white-space: normal; }
+.trip-card .card-route { display: inline; margin: 0; padding: 0; background: none; color: inherit; font-size: 12px; }
+.trip-card .card-facts { margin: 0; color: rgba(255, 255, 255, .85); }
+.tc-inc { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 0; padding: 0; }
+.tc-inc li { padding: 4px 10px; border-radius: var(--r-full); background: rgba(255, 255, 255, .12); font-size: 13px; font-weight: 600; }
+.tc-option { display: grid; gap: 8px; padding-top: 10px; border-top: 1px dashed rgba(255, 255, 255, .25); }
+.tc-dates { font-size: 14px; font-weight: 600; }
+.tc-dates small { display: block; font-weight: 500; color: rgba(255, 255, 255, .7); }
+.tc-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-2) var(--s-3); }
+.tc-price { display: grid; line-height: 1.1; }
+.tc-price small { font-size: 12px; font-weight: 600; color: rgba(255, 255, 255, .7); white-space: nowrap; }
+.tc-price strong { font-size: 28px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.trip-card .per-person { color: rgba(255, 255, 255, .7); }
+.tc-go { flex: none; margin-left: auto; border-radius: var(--r-full); padding: 0 16px; font-size: 15px; font-weight: 800; }
+.trip-card .chips-alt { padding-top: 2px; }
+.trip-card .alt-title { color: #7ee2b0; }
+.trip-card .chip-alt { background: rgba(255, 255, 255, .08); color: #fff; border: 1px solid rgba(255, 255, 255, .3); }
+.trip-card .chip-alt strong { color: #7ee2b0; }
+.trip-card .chip-alt.is-pricier strong { color: #fff; }
+.sheet-soon { padding: 10px 12px; border-radius: var(--r-md); background: color-mix(in srgb, var(--primary) 10%, var(--surface)); font-size: 14px; font-weight: 600; }
+
+/* Téléphone : la carte, plus basse, sous les filtres */
+@media (max-width: 1099px) {
+  #map { height: 46vh; min-height: 300px; max-height: 420px; }
+}
+
+/* ==========================================================================
+   Version ordinateur (≥ 1100 px) : filtres sur toute la largeur,
+   séjours à gauche, grande carte fixe à droite (comme Airbnb)
    ========================================================================== */
 @media (min-width: 1100px) {
   main {
     max-width: 1440px;
     display: grid;
-    grid-template-columns: minmax(400px, 480px) minmax(0, 1fr);
-    grid-template-areas: "search map" "list map";
-    column-gap: 32px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 46%);
+    grid-template-areas: "list map";
+    column-gap: 28px;
     align-items: start;
   }
-  .search { grid-area: search; }
   #liste { grid-area: list; }
-  .map-section { grid-area: map; position: sticky; top: 16px; margin-top: var(--s-5); }
+  .map-section { grid-area: map; position: sticky; top: 78px; margin-top: var(--s-5); }
   .map-section .section-head { margin-top: 0; }
-  #map { height: calc(100vh - 190px); max-height: none; min-height: 480px; }
+  #map { height: calc(100vh - 170px); max-height: none; min-height: 480px; }
   .hero-inner, .footer { max-width: 1440px; }
-
-  .search-card { grid-template-columns: 1fr; }
-  .search-card .segmented, .search-card .stay { grid-column: auto; }
-  .stay-chips { grid-template-columns: repeat(2, 1fr); }
-  .result-list { grid-template-columns: 1fr; }
+  .result-list { grid-template-columns: repeat(2, 1fr); }
 
   /* Survol d'une fiche : elle se met en avant (et son point s'allume sur la carte) */
   .result-list .card { transition: transform var(--t-fast) var(--ease-out), box-shadow var(--t-fast); cursor: default; }
   .result-list .card.is-hovered { transform: translateY(-2px); }
 }
 
-/* « Rechercher » fait défiler jusqu'aux résultats : petite marge au-dessus du titre */
-.map-section, #liste { scroll-margin-top: 12px; }
+/* Ancres (lien « Aller à la liste ») : marge sous la barre de filtres collée en haut */
+.map-section, #liste { scroll-margin-top: 76px; }
