@@ -1,0 +1,389 @@
+{
+"_info": "Envies par ville (accueil, question « Vous avez envie de quoi ? »). Ordre = la plus forte en premier. Clés : soleil (Soleil et plage), ville (Ville et culture), gastronomie, nature, fete. Brouillon à relire par le propriétaire.",
+"AAE": [
+"soleil"
+],
+"ACE": [
+"soleil",
+"nature"
+],
+"AGP": [
+"soleil",
+"ville",
+"gastronomie"
+],
+"AJA": [
+"soleil",
+"nature"
+],
+"ALC": [
+"soleil",
+"fete"
+],
+"ALG": [
+"ville",
+"soleil"
+],
+"AMM": [
+"ville",
+"nature"
+],
+"AMS": [
+"ville",
+"fete"
+],
+"ATH": [
+"ville",
+"soleil"
+],
+"AYT": [
+"soleil",
+"nature"
+],
+"BCN": [
+"ville",
+"soleil",
+"fete",
+"gastronomie"
+],
+"BEG": [
+"fete",
+"ville"
+],
+"BER": [
+"fete",
+"ville"
+],
+"BES": [
+"nature"
+],
+"BEY": [
+"fete",
+"gastronomie",
+"ville"
+],
+"BIA": [
+"soleil",
+"nature"
+],
+"BIQ": [
+"soleil",
+"nature",
+"gastronomie"
+],
+"BJA": [
+"soleil",
+"nature"
+],
+"BLJ": [
+"nature"
+],
+"BOD": [
+"gastronomie",
+"ville"
+],
+"BRI": [
+"soleil",
+"gastronomie"
+],
+"BRU": [
+"gastronomie",
+"ville",
+"fete"
+],
+"BSK": [
+"nature"
+],
+"BUD": [
+"ville",
+"fete"
+],
+"BUH": [
+"ville",
+"fete"
+],
+"CAI": [
+"ville"
+],
+"CFR": [
+"ville"
+],
+"CFU": [
+"soleil",
+"nature"
+],
+"CMN": [
+"ville"
+],
+"CPH": [
+"ville",
+"gastronomie"
+],
+"CTA": [
+"soleil",
+"nature",
+"gastronomie"
+],
+"CZL": [
+"ville",
+"nature"
+],
+"DBV": [
+"soleil",
+"ville"
+],
+"DJE": [
+"soleil"
+],
+"DKR": [
+"soleil",
+"ville"
+],
+"DUB": [
+"fete",
+"ville"
+],
+"DUS": [
+"ville",
+"fete"
+],
+"DXB": [
+"soleil",
+"ville"
+],
+"EDI": [
+"ville",
+"nature"
+],
+"ESU": [
+"soleil",
+"nature"
+],
+"EVN": [
+"ville",
+"gastronomie",
+"nature"
+],
+"FAO": [
+"soleil",
+"nature"
+],
+"FEZ": [
+"ville",
+"gastronomie"
+],
+"FLR": [
+"ville",
+"gastronomie"
+],
+"FNC": [
+"nature",
+"soleil"
+],
+"FRA": [
+"ville"
+],
+"HER": [
+"soleil",
+"nature"
+],
+"HRG": [
+"soleil",
+"nature"
+],
+"IST": [
+"ville",
+"gastronomie",
+"fete"
+],
+"JED": [
+"ville",
+"soleil"
+],
+"KRK": [
+"ville",
+"fete"
+],
+"KUT": [
+"nature",
+"gastronomie"
+],
+"LIS": [
+"ville",
+"soleil",
+"gastronomie",
+"fete"
+],
+"LON": [
+"ville",
+"fete"
+],
+"LPA": [
+"soleil",
+"nature"
+],
+"LRH": [
+"ville",
+"soleil"
+],
+"LXR": [
+"ville"
+],
+"MAD": [
+"ville",
+"fete",
+"gastronomie"
+],
+"MIL": [
+"ville",
+"gastronomie"
+],
+"MIR": [
+"soleil"
+],
+"MLA": [
+"soleil",
+"fete"
+],
+"MRS": [
+"soleil",
+"ville",
+"nature"
+],
+"MUC": [
+"fete",
+"ville",
+"nature"
+],
+"NAP": [
+"gastronomie",
+"ville",
+"soleil"
+],
+"NCE": [
+"soleil",
+"ville"
+],
+"NTE": [
+"ville"
+],
+"OPO": [
+"ville",
+"gastronomie"
+],
+"ORN": [
+"soleil",
+"ville",
+"fete"
+],
+"OSL": [
+"nature",
+"ville"
+],
+"OUD": [
+"ville"
+],
+"PAR": [
+"ville",
+"gastronomie",
+"fete"
+],
+"PMI": [
+"soleil",
+"fete",
+"nature"
+],
+"PMO": [
+"gastronomie",
+"soleil",
+"ville"
+],
+"PRG": [
+"ville",
+"fete"
+],
+"PUF": [
+"nature"
+],
+"QSF": [
+"ville"
+],
+"RAK": [
+"ville",
+"gastronomie",
+"nature"
+],
+"RBA": [
+"ville",
+"soleil"
+],
+"ROM": [
+"ville",
+"gastronomie"
+],
+"SSH": [
+"soleil",
+"nature"
+],
+"STO": [
+"ville",
+"nature"
+],
+"SVQ": [
+"ville",
+"fete",
+"gastronomie"
+],
+"SXB": [
+"ville",
+"gastronomie"
+],
+"TCI": [
+"soleil",
+"nature"
+],
+"TIA": [
+"ville",
+"nature"
+],
+"TLS": [
+"ville",
+"gastronomie"
+],
+"TLV": [
+"soleil",
+"fete",
+"gastronomie"
+],
+"TNG": [
+"ville",
+"soleil"
+],
+"TUN": [
+"ville",
+"soleil"
+],
+"VCE": [
+"ville"
+],
+"VIE": [
+"ville",
+"gastronomie"
+],
+"VLC": [
+"soleil",
+"ville",
+"gastronomie"
+],
+"VNO": [
+"ville"
+],
+"WAW": [
+"ville"
+],
+"YMQ": [
+"ville",
+"fete",
+"gastronomie"
+]
+}
