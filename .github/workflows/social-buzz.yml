@@ -1,0 +1,50 @@
+# Lancé à la main : collecte ce que disent TikTok, Instagram, YouTube et Reddit sur une ville
+# (restaurants ou activités). Le résultat est une pièce jointe de l'Action, gardée 7 jours,
+# jamais publiée sur le site. Coût : prélevé sur le crédit Apify (plafonds dans le script).
+name: Tendances réseaux sociaux
+
+on:
+  workflow_dispatch:
+    inputs:
+      sujet:
+        description: 'restos ou activites'
+        default: 'restos'
+      ville_en:
+        description: 'Nom de la ville en anglais'
+        default: 'Warsaw'
+      ville_fr:
+        description: 'Nom de la ville en français'
+        default: 'Varsovie'
+      requetes_locales:
+        description: 'Recherches TikTok dans la langue locale, séparées par ;'
+        default: 'gdzie zjeść Warszawa;najlepsze restauracje Warszawa'
+      hashtags:
+        description: 'Hashtags Instagram sans #, séparés par ;'
+        default: 'warsawfood;warszawarestauracje;warszawajedzenie'
+
+permissions:
+  contents: read
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Collecter
+        run: node scripts/social-buzz.mjs
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          SUJET: ${{ inputs.sujet }}
+          VILLE_EN: ${{ inputs.ville_en }}
+          VILLE_FR: ${{ inputs.ville_fr }}
+          REQUETES_LOCALES: ${{ inputs.requetes_locales }}
+          HASHTAGS: ${{ inputs.hashtags }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: buzz-${{ inputs.ville_en }}-${{ inputs.sujet }}
+          path: buzz/
+          retention-days: 7

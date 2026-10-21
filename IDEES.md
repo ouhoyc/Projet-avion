@@ -174,7 +174,18 @@ la plus proche de toutes les activités (« pile au milieu »).
   **pas pour l'instant** (perte de contrôle sur le design, script tiers à déclarer pour les
   cookies, peu utile sans trafic). On place les liens Tiqets à la main.
 
-### 13. 💡 Matchs et événements pendant le séjour
+### 13. 🛠 Matchs et événements pendant le séjour
+- ✅ (18/10/2026) **Matchs faits** : foot, basket, rugby dans toutes les destinations, source
+  gratuite SofaScore (MatchEnDirect et Flashscore n'ont pas d'API ; TheSportsDB gratuit ne donne
+  qu'un match ; ESPN n'a pas la Pologne), via `matchs/CODE.json`, mis à jour à la main depuis une session Claude (SofaScore bloque GitHub). Les
+  matchs du séjour apparaissent dans « Sport » comme des activités (prix estimé, lien billets).
+  Reste : F1/MotoGP, tennis, et les grandes fêtes ci-dessous.
+- ✅ (19/10/2026) **Mise à jour automatique** : tâche Claude programmée chaque lundi (Sonnet), car
+  SofaScore bloque GitHub et Vercel (403) et l'offre gratuite d'API-Sports ne donne que
+  hier/aujourd'hui/demain (payant ≈ 19 $/mois par sport : à reconsidérer si le site rapporte).
+  Matchs reportés ou annulés : **retirés** du site (choix du propriétaire : « on n'est pas un site
+  de foot »). **Pas de promesse** du genre « d'autres matchs seront annoncés »
+  (refusé par le propriétaire).
 Sur la page d'une ville, selon les dates du voyageur : « Pendant votre séjour : Barça – Real,
 sam. 14 nov. ». À Barcelone : FC Barcelona et Espanyol (foot), Barça et Joventut Badalona
 (basket) ; plus F1/MotoGP à Montmeló, tennis en avril. Le match devient une activité à cocher.
@@ -248,6 +259,51 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 - ✅ (21/10/2026) Liens affiliés Tiqets en ligne sur 12 activités de Barcelone (bouton « Réserver »).
   Sans lien : Picasso (Tiqets = visite guidée plus chère), téléphérique de Montjuïc et Tibidabo (absents de Tiqets).
+- ✅ (18/10/2026) Prix des vols **pour tout le groupe** (choix « Voyageurs ») : pastilles de la carte,
+  légende, liste, barre des mois, panneau « Voir » et budget max ; « soit X € / pers. » en petit,
+  et « / pers. » sur le prix de chaque vol. Les bébés (moins de 2 ans, sur les genoux) ne sont pas
+  comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
+  cru à 162 € pour 4 alors que c'était 162 € par personne.)
+
+- ✅ (19/10/2026) **Page guide de Bordeaux** (`guides/BOD.json`), préparée en autonomie : 24 activités
+  (3 tendance : miroir d'eau, Vieux Bordeaux et Grosse Cloche, Chartrons ; match de l'UBB, rugby), 18 restaurants
+  (note pondérée, C = 4,39, 488 restaurants lus via Wanderlog ; Michelin 2026 : Pressoir d'Argent et Maison
+  Nouvelle 2 étoiles, Gabriel, Cent 33 et Soléna 1 étoile, Mets Mots Bib Gourmand), 5 quartiers.
+  Réseaux sociaux : TikTok n'a rien rendu cette fois, signal faible (Instagram, YouTube, Reddit) → peu de badges.
+  Écartés : tour Pey-Berland (fermée jusqu'à nouvel ordre, foudre), musée des Beaux-Arts (travaux), Girondins
+  (descendus en National 2). Flèche Saint-Michel rouverte en juin 2026 (avril à octobre).
+  Prix à confirmer (`a_verifier`) : Cité du Vin, Bassins des Lumières, flèche Saint-Michel, Grand-Théâtre, musées
+  (Aquitaine, CAPC, MADD, Muséum, Vin et Négoce), croisière, École du vin, UBB, Saint-Émilion, Pilat, Médoc.
+  Photos des restaurants : surtout des photos d'illustration (seule La Tupina a une vraie photo libre).
+- ✅ (19/10/2026) **Page guide de Londres** (`guides/LON.json`), préparée en autonomie : 28 activités
+  (4 tendance : Horizon 22, Camden, Primrose Hill, St Dunstan in the East), 18 restaurants (note pondérée,
+  C = 4,53, ~1 900 lieux lus via Wanderlog ; Michelin 2026 : The Ledbury et Sketch 3 étoiles, Brat et St. John
+  1 étoile, Padella, BAO, Kiln et Berenjak Bib Gourmand), 5 quartiers. Prix convertis à 1 £ ≈ 1,15 €.
+  Réseaux sociaux : TikTok n'a rien renvoyé ce jour-là (Instagram, YouTube et Reddit seulement).
+  Prix à confirmer (`a_verifier`) : abbaye de Westminster, Tour de Londres, Tower Bridge, Saint-Paul,
+  London Eye, Churchill War Rooms, Greenwich, Kew, studios Harry Potter, comédie musicale, bateau, Arsenal, Windsor.
+  Fish and chips : The Golden Hind (institution, note 4,3 seulement ; Poppies écarté, 4,1-4,2).
+- ✅ (19/10/2026) **Page guide de Lisbonne** (`guides/LIS.json`), préparée en autonomie : 27 activités
+  (5 tendance : MAAT, LX Factory, belvédères de Senhora do Monte et Santa Luzia, Pilier 7), 18 restaurants
+  (note pondérée, C = 4,42, 852 restaurants lus via Wanderlog ; Michelin 2026 : Belcanto et Fifty
+  Seconds 2 étoiles, Encanto et Sála 1 étoile, Pigmeu et Canalha Bib Gourmand), 5 quartiers.
+  Écartés car fermés : ascenseur de Santa Justa et funiculaires de la Glória, de Bica et du Lavra
+  (arrêtés depuis l'accident de 2025), musée de l'Azulejo et musée d'Art ancien (travaux).
+  Prix confirmés sur les sites officiels : château (17 €), Padrão (10 €), Cristo Rei (10 €), fado (23 €).
+  Prix à confirmer (`a_verifier`) : Hiéronymites, tour de Belém, MAAT, Océanarium, Carmo, Gulbenkian,
+  Pena, Cascais, croisière, Pilier 7, Benfica, téléphérique, surf, arc de la rue Augusta.
+  Restaurants à surveiller : Casa do Alentejo et Taberna da Rua das Flores (très connus mais note 4,2).
+- ✅ (18/10/2026) **Page guide de Varsovie** (`guides/WAW.json`), préparée en autonomie (le
+  propriétaire ne connaît pas la ville) : 26 activités sans activité « manger » (3 tendance : Varso
+  Tower, jardin de la BUW, musée du Néon), 18 restaurants (note pondérée, C = 4,51, notes Google
+  lues via Wanderlog), 5 quartiers. Musée Chopin écarté (fermé toute l'année 2026).
+  Recoupé ensuite avec TikTok, Instagram, YouTube et Reddit (Apify, ~2 $) : Bar Bambino et Lekko
+  entrent, Prasowy et Vege Miasto sortent (le match du Legia, retiré par erreur, est remis : un match du club populaire dans chaque ville), badges « Tendance » limités aux lieux
+  vus sur 2 sources. À revoir : Babka (cuisine polonaise, Koneser, très partagée mais pas de note
+  fiable), Włoski Strajk (risque d'expulsion du local).
+  Prix à confirmer sur place (`a_verifier`) : tour Sainte-Anne, terrasse du Palais de la Culture,
+  musée d'art moderne, visite Nysa.
+
 - ✅ (18/10/2026) « Rechercher » fait défiler jusqu'aux résultats (iPhone : la carte puis la liste ;
   PC : la liste), un testeur croyait que le bouton ne faisait rien.
 - ✅ (17/10/2026) « Où ? » : on tape une ville ou un pays (sans se soucier des accents), liste de

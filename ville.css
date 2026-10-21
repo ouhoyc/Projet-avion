@@ -84,6 +84,7 @@ a { color: inherit; }
 .tag-conseille { background: var(--mid-bg); color: var(--mid); }
 .tag-sur_place { background: var(--ok-bg); color: var(--ok); }
 .tag-libre { background: var(--free-bg); color: var(--free); }
+.tag-match { background: #14213d; color: #fff; margin-right: 4px; }
 
 .v-map { height: 340px; border-radius: 16px; border: 2px solid var(--ink); overflow: hidden; background: var(--soft); }
 .v-map-note { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
@@ -317,7 +318,7 @@ body { padding-bottom: 130px; }
 .r-row.is-none { opacity: .55; cursor: default; }
 .r-main { flex: 1; min-width: 0; }
 .r-main b { display: block; font-size: 15px; }
-.r-main small { display: block; font-size: 12px; color: var(--muted); }
+.r-main small { display: block; font-size: 12px; color: var(--muted); line-height: 1.5; }
 .r-row strong { white-space: nowrap; font-size: 15px; }
 .r-h3 { margin: 22px 0 4px; font-size: 18px; }
 .r-steps { list-style: none; margin: 0; padding: 0; }

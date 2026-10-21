@@ -70,6 +70,21 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - `data.json` et `daily.json` : prix, régénérés chaque matin par la GitHub Action
   `.github/workflows/update-prices.yml`, qui lance `scripts/fetch-prices.mjs` (données gratuites
   Travelpayouts, rares au-delà de 2-3 mois).
+- `matchs/CODE.json` (un fichier par ville) : matchs de foot, basket et rugby joués dans chaque
+  destination (12 mois, champ `niveau` 1 = le plus important) ; `matchs-cache.json` garde les
+  centres des villes, leurs noms en toutes langues et le stade de chaque club. Mise à jour **chaque lundi ~6 h par une tâche Claude programmée** (« Mise à jour des matchs »,
+  modèle Sonnet) qui réveille la session dédiée « Mise à jour des matchs (chaque lundi) » (dépôt branché,
+  sinon le push est refusé) : `node scripts/fetch-matchs.mjs` ~10-25 min, puis commit.
+  SofaScore bloque GitHub et Vercel (403), le proxy Apify gratuit est refusé, et l'offre gratuite
+  d'API-Sports ne donne que hier/aujourd'hui/demain (testé oct. 2026 ; payant ≈ 19 $/mois/sport) :
+  l'Action `update-matchs.yml` reste seulement en lancement à la main.
+  Source gratuite et sans clé : l'interface publique de SofaScore (par `curl` : le `fetch` de Node
+  est bloqué par leur anti-robots). Pour chaque pays desservi : 2 championnats + la coupe de foot,
+  1er championnat de basket, liste fixe pour le rugby (`RUGBY`), et les coupes d'Europe. Un match est rattaché à une ville si
+  son stade est à moins de 25 km du centre (OpenStreetMap), sinon par le nom de la ville.
+  `ville.js` (`addMatchs`) les ajoute aux activités « Sport » pendant les dates du séjour
+  (10 au plus, prix estimé par sport, bouton « Trouver des billets ») ; ils remplacent l'activité générique
+  du club (champ `club` dans le guide, ex. Legia). Rien à faire pour une nouvelle ville.
 - `api/prix.js` : fonction Vercel pour le prix en direct (Ignav, clé dans la variable Vercel
   `IGNAV_API_KEY`). **Chaque appel coûte un crédit** : ne jamais lancer de vérification en direct
   pendant les tests ; les bloquer dans Playwright avec `page.route('**/api/prix**', r => r.abort())`.
@@ -92,6 +107,16 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   HTML d'une catégorie Commons, puis lire la licence sur la page `File:` (classe
   `licensetpl&#95;short`, prendre une licence CC si le fichier est aussi en GFDL). User-Agent
   neutre, sans e-mail. Toujours regarder une planche recadrée avant de choisir.
+  Varsovie (oct. 2026) : l'API Wikipédia et `Special:FilePath?width=800` répondent aussi « 429 » ;
+  ce qui marche : la recherche de catégories (`Special:Search` avec `ns14=1`), la page HTML de la
+  catégorie, puis la vignette standard `upload.wikimedia.org/.../thumb/x/xy/NOM/960px-NOM`
+  (ou l'original si le fichier est petit), lentement (1 s entre deux).
+  Lisbonne (oct. 2026) : le plus rapide est la recherche de **fichiers** en HTML
+  (`Special:Search` avec `ns6=1`), qui donne directement les vignettes ; l'id
+  `fileinfotpl&#95;aut` de la page `File:` donne l'auteur.
+  Bordeaux (oct. 2026) : la recherche de fichiers répondait « 429 » ; ce qui marche : la recherche de
+  catégories (`ns14=1`), puis la page HTML de la catégorie (vignettes + `data-file-width`), lentement
+  (3-4 s entre deux pages). Dans la page `File:`, les `_` des classes sont écrits `&#95;`.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
@@ -100,6 +125,10 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
 1. **Activités** (~25-30) : les incontournables + 2-3 lieux « réseaux sociaux » (badge `tendance`).
    Chaque activité : type, quartier, position, texte vendeur, prix + `prix_detail`, `tarifs`
    (adulte + enfants), réservation (+ délai), durée, moment, site officiel, photo libre Commons.
+   **Pas d'activité « manger »** (halle, atelier cuisine, donuts…) : c'est le rôle de l'étape Restos.
+   **Match de foot** du club local s'il est populaire (Camp Nou, Legia…), type `sport`, sans badge
+   d'office : on le garde même si les réseaux sociaux en parlent peu (ils ne sont pas cherchés pour ça).
+   Vérifier qu'aucun lieu n'est fermé pour travaux (le musée Chopin de Varsovie l'est toute l'année 2026).
 2. **Restaurants** : **18 = 3 gammes × 6** (petit < 30 €, moyen 25-60 €, haut 50 € et +).
    - Site de **voyage**, pas guide culinaire : adresses **connues et photogéniques** (Instagram,
      TikTok) + tables **récompensées** (Michelin, World's 50 Best) + **institutions** historiques.
@@ -114,15 +143,30 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
    - Le score **seul** ne suffit pas (il favorise les restaurants qui réclament des avis en masse :
      grills argentins, pizzerias touristiques) : il sert à **départager et écarter** les adresses
      réputées/tendance, pas à faire le classement. Garde-fou : note Google ≥ 4,3 environ. Le propriétaire a autorisé (une fois par an) la lecture
-     des notes sur Google Maps depuis ici ; ne **jamais** afficher les étoiles ni les avis Google
+     des notes sur Google Maps depuis ici (Google Maps n'affiche pas les notes au navigateur
+     automatique : les listes Wanderlog `wanderlog.com/list/geoCategory/ID` contiennent la note
+     Google et le nombre d'avis, `"rating"` et `"numRatings"`, ~600 lieux pour Varsovie) ; ne **jamais** afficher les étoiles ni les avis Google
      sur le site. Se méfier des notes gonflées (restaurants qui réclament des avis en masse).
    - Vérifier l'adresse de chaque lieu (Sala Equis était à Madrid !).
    - Badges : `tendance` 🔥, `recompense` 🍽️ (+ texte `recompense`), `institution` 🏛️.
    - Photo : vraie photo libre Commons si possible, sinon photo libre du plat/de la vue avec
      `illustration: true`. **Jamais** de photo protégée, même si le propriétaire le propose.
    - Prix et délais de réservation = estimations, à faire vérifier par le propriétaire.
+   - **Réseaux sociaux (Apify)** : lancer l'Action « Tendances réseaux sociaux »
+     (`.github/workflows/social-buzz.yml`, `scripts/social-buzz.mjs`, secret `APIFY_TOKEN`, compte
+     Apify gratuit partagé avec la veille IA : ~1 $ par lancement, plafonds dans le script) deux
+     fois : `sujet=restos` puis `sujet=activites`, avec des recherches et hashtags dans la langue
+     locale. Résultat = pièce jointe de l'Action (7 jours), à télécharger avec les outils GitHub ;
+     **jamais** dans le dépôt ni sur le site (aucun chiffre, aucun nom de réseau affiché).
+     Compter les citations par lieu et par réseau : badge `tendance` seulement si le lieu sort
+     sur **2 sources** au moins (une seule vidéo, même virale, ne suffit pas ; se méfier des
+     vidéos sponsorisées « zaproszenie », « współpraca », « AD »). Lire aussi Reddit pour les
+     pièges à touristes (Varsovie : faux sites de billets → note dans les fiches).
 3. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
-   fait dans toute la ville (LiteAPI), le quartier conseillé est dessiné en pointillés.
+   fait dans toute la ville (LiteAPI). Point conseillé (`idealQuartier`, `ville.js`) : le milieu
+   des activités cochées s'il est à moins de 800 m d'un quartier du guide (« Près de … », hôtels
+   triés par distance à ce point) ; sinon le quartier qui a le plus d'activités à pied. Les
+   quartiers servent donc à nommer le point et de secours (point dans l'eau, en zone sans hôtels).
 4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
 
 ## Économie (demande du propriétaire)

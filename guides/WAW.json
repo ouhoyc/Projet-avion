@@ -1,0 +1,1646 @@
+{
+  "city_code": "WAW",
+  "statut": "préparé en autonomie, prix estimés au 18/10/2026",
+  "verifie_le": "2026-10-18",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "vieille-ville",
+      "nom": "Vieille ville et place du Marché",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Stare Miasto",
+      "lat": 52.2497,
+      "lng": 21.0122,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans les rues",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Tôt le matin pour les photos, ou le soir quand les façades s'illuminent",
+      "enfants": true,
+      "texte": "Rasée en 1944, rebâtie pierre par pierre d'après les tableaux de Canaletto : la place du Marché, ses façades pastel et la Barbacane sont classées à l'UNESCO. Un décor de conte, en vrai.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Kapitel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warszawa_Rynek_Starego_Miasta_(dron1).jpg",
+        "src": "img/activites/WAW/vieille-ville.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "chateau-royal",
+      "nom": "Château royal",
+      "emoji": "👑",
+      "type": "culture",
+      "quartier": "Stare Miasto",
+      "lat": 52.248,
+      "lng": 21.0152,
+      "prix": 14,
+      "prix_detail": [
+        [
+          "Billet (audioguide compris)",
+          14
+        ],
+        [
+          "Tarif réduit",
+          10.5
+        ],
+        [
+          "7-26 ans (programme national)",
+          "0,25 € (1 zł)"
+        ],
+        [
+          "Le mercredi",
+          "parcours court gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            17,
+            0.25
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "En matinée, en semaine",
+      "enfants": true,
+      "texte": "Salles de bal dorées, appartements des rois et deux vrais Rembrandt : le château a été reconstruit à l'identique après la guerre, jusqu'aux dorures.",
+      "site_officiel": "https://www.zamek-krolewski.pl/en",
+      "partenaire": "tiqets",
+      "note": "Achetez vos billets à la caisse ou sur le site officiel : de faux sites les revendent plus cher. Pour les enfants, le billet à 1 zł se demande à la caisse.",
+      "photo": {
+        "auteur": "Marcin Białek",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warszawa-Zamek_Kr%C3%B3lewski.jpg",
+        "src": "img/activites/WAW/chateau-royal.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "route-royale",
+      "nom": "Route royale (Krakowskie Przedmieście)",
+      "emoji": "🚶",
+      "type": "balade",
+      "quartier": "Śródmieście",
+      "lat": 52.242,
+      "lng": 21.015,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En fin de journée, le long des palais éclairés",
+      "enfants": true,
+      "texte": "La plus belle avenue de Varsovie : palais, églises baroques, cafés historiques et bancs qui jouent du Chopin quand on appuie sur un bouton. Elle file de la vieille ville jusqu'à Nowy Świat.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Adrian Grycuk",
+        "licence": "CC BY-SA 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File:Ulica_Krakowskie_Przedmie%C5%9Bcie_w_Warszawie_2019c.jpg",
+        "src": "img/activites/WAW/route-royale.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "tour-sainte-anne",
+      "nom": "Tour de l'église Sainte-Anne",
+      "emoji": "🔭",
+      "type": "vue",
+      "quartier": "Stare Miasto",
+      "lat": 52.2465,
+      "lng": 21.0145,
+      "prix": 2.5,
+      "prix_detail": [
+        [
+          "Montée (150 marches)",
+          2.5
+        ],
+        [
+          "Tarif réduit",
+          1.75
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2.5,
+        "enfants": [
+          [
+            17,
+            1.75
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "30 min",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "texte": "Le meilleur point de vue sur la place du Château et les toits de la vieille ville, pour le prix d'un café. 150 marches, et presque personne en haut.",
+      "site_officiel": "https://www.stanneswarsaw.org/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Guillaume Speurt from Vilnius, Lithuania",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Castle_square_and_Saint_Anne_church_in_Warsaw_(8121542752).jpg",
+        "src": "img/activites/WAW/tour-sainte-anne.jpg"
+      }
+    },
+    {
+      "id": "soldat-inconnu",
+      "nom": "Tombe du Soldat inconnu et jardin de Saxe",
+      "emoji": "🎖️",
+      "type": "culture",
+      "quartier": "Śródmieście",
+      "lat": 52.2412,
+      "lng": 21.0105,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Le dimanche à midi pour la relève solennelle de la garde",
+      "enfants": true,
+      "texte": "Sous les arcades, seul vestige d'un palais détruit, deux soldats montent la garde jour et nuit devant la flamme. Juste derrière, le jardin de Saxe, plus vieux parc public de la ville.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Aw58",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gr%C3%B3b_Nieznanego_%C5%BBo%C5%82nierza_w_Warszawie_-_2026.06.04._MW.jpg",
+        "src": "img/activites/WAW/soldat-inconnu.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "musee-insurrection",
+      "nom": "Musée de l'Insurrection de Varsovie",
+      "emoji": "🕯️",
+      "type": "culture",
+      "quartier": "Wola",
+      "lat": 52.2323,
+      "lng": 20.981,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Billet",
+          8
+        ],
+        [
+          "Tarif réduit",
+          7
+        ],
+        [
+          "Le jeudi",
+          "gratuit (venez tôt)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            17,
+            7
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille en été",
+      "duree": "2 h 30",
+      "moment": "En semaine, dès l'ouverture (fermé le mardi)",
+      "enfants": true,
+      "texte": "Le musée qui fait comprendre Varsovie : 63 jours de révolte en 1944, racontés avec des sons, des objets et un film en 3D sur la ville en ruines. On en sort bouleversé.",
+      "site_officiel": "https://www.1944.pl/en",
+      "partenaire": "tiqets",
+      "note": "Conseillé à partir de 10 ans environ. Achetez vos billets sur 1944.pl : de faux sites les revendent plus cher.",
+      "photo": {
+        "auteur": "Adrian Grycuk",
+        "licence": "CC BY 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File:Muzeum_Powstania_Warszawskiego_2023.jpg",
+        "src": "img/activites/WAW/musee-insurrection.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "polin",
+      "nom": "POLIN, musée de l'histoire des Juifs polonais",
+      "emoji": "🕍",
+      "type": "culture",
+      "quartier": "Muranów",
+      "lat": 52.2495,
+      "lng": 20.9931,
+      "prix": 11,
+      "prix_detail": [
+        [
+          "Billet (audioguide compris)",
+          10.5
+        ],
+        [
+          "Tarif réduit",
+          8
+        ],
+        [
+          "Le jeudi",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10.5,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "duree": "3 h",
+      "moment": "En matinée",
+      "enfants": true,
+      "texte": "Mille ans d'histoire juive en Pologne dans un bâtiment spectaculaire, au cœur de l'ancien ghetto. Le plafond peint de la synagogue reconstitué vaut à lui seul la visite.",
+      "site_officiel": "https://polin.pl/en",
+      "partenaire": "tiqets",
+      "photo": {
+        "auteur": "Moreio",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Muzeum_Historii_%C5%BByd%C3%B3w_Polskich_POLIN.jpg",
+        "src": "img/activites/WAW/polin.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "ghetto",
+      "nom": "Sur les traces du ghetto",
+      "emoji": "🧱",
+      "type": "culture",
+      "quartier": "Śródmieście",
+      "lat": 52.2312,
+      "lng": 20.9985,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Pendant la journée, en combinant avec POLIN",
+      "enfants": false,
+      "texte": "Un des derniers pans du mur du ghetto, caché dans une cour au 55 rue Sienna, puis les plaques au sol qui dessinent son tracé. Un parcours court et fort.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Nelson Pérez",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Varsovia,_Polonia_-_panoramio_(50).jpg",
+        "src": "img/activites/WAW/ghetto.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "palais-culture",
+      "nom": "Palais de la Culture, terrasse du 30ᵉ étage",
+      "emoji": "🏙️",
+      "type": "vue",
+      "quartier": "Śródmieście",
+      "lat": 52.2318,
+      "lng": 21.006,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Terrasse",
+          6
+        ],
+        [
+          "Tarif réduit",
+          5
+        ],
+        [
+          "Soirée (ven. et sam. en été)",
+          8
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            17,
+            5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "En fin d'après-midi, ou le soir en été",
+      "enfants": true,
+      "texte": "Le « cadeau » de Staline à la Pologne, 237 m de style soviétique, est devenu l'emblème de la ville. Du 30ᵉ étage, Varsovie entière et ses gratte-ciel de verre.",
+      "site_officiel": "https://pkin.pl/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Hrs Poland",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Palac_Kultury_I_Nauki_(152972931).jpeg",
+        "src": "img/activites/WAW/palais-culture.jpg"
+      }
+    },
+    {
+      "id": "varso",
+      "nom": "Varso Tower, la plus haute terrasse de l'UE",
+      "emoji": "🌇",
+      "type": "vue",
+      "quartier": "Śródmieście",
+      "badges": [
+        "tendance"
+      ],
+      "lat": 52.2289,
+      "lng": 21.0006,
+      "prix": 11,
+      "prix_detail": [
+        [
+          "Billet standard sur place",
+          "à partir de 11 €"
+        ],
+        [
+          "Créneau coucher de soleil",
+          "à partir de 8 €"
+        ],
+        [
+          "Soirée au bar HighGarden (dès 22 h)",
+          "à partir de 8 € + consommation"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 11,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant pour le coucher de soleil",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "texte": "Ouverte en septembre 2025 au 53ᵉ étage, à 230 m : la vue la plus haute de l'Union européenne, avec jardin suspendu et bar à cocktails. Le spot photo du moment.",
+      "site_officiel": "https://highlinewarsaw.com/",
+      "note": "Prix variables selon l'heure et le jour : vérifiez au moment de réserver.",
+      "photo": {
+        "auteur": "Anty000",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Varso_05.2022.jpg",
+        "src": "img/activites/WAW/varso.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "jardin-buw",
+      "nom": "Jardin sur le toit de la bibliothèque universitaire",
+      "emoji": "🌿",
+      "type": "vue",
+      "quartier": "Powiśle",
+      "badges": [
+        "tendance"
+      ],
+      "lat": 52.2425,
+      "lng": 21.0248,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "D'avril à octobre, en fin de journée",
+      "enfants": true,
+      "texte": "Un jardin secret de passerelles, de cascades et de fleurs sur le toit d'une bibliothèque, avec vue sur la Vistule. Gratuit, peu connu des touristes, adoré sur Instagram.",
+      "site_officiel": "https://www.buw.uw.edu.pl/en/",
+      "note": "Fermé l'hiver (en général de novembre à mars).",
+      "photo": {
+        "auteur": "Marek et Ewa Wojciechowscy",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:6_Warszawa_385.jpg",
+        "src": "img/activites/WAW/jardin-buw.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "lazienki",
+      "nom": "Parc Łazienki et palais sur l'Eau",
+      "emoji": "🦚",
+      "type": "nature",
+      "quartier": "Ujazdów",
+      "lat": 52.215,
+      "lng": 21.0352,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Parc",
+          "gratuit"
+        ],
+        [
+          "Palais sur l'Eau",
+          12
+        ],
+        [
+          "Tarif réduit",
+          6
+        ],
+        [
+          "8-26 ans (programme national)",
+          "0,25 € (1 zł)"
+        ],
+        [
+          "Le vendredi",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            7,
+            0
+          ],
+          [
+            17,
+            0.25
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h 30",
+      "moment": "Le matin, ou l'automne pour les couleurs",
+      "enfants": true,
+      "texte": "Le Versailles intime du dernier roi de Pologne : un palais posé sur l'eau, des paons en liberté et des écureuils qui viennent manger dans la main.",
+      "site_officiel": "https://www.lazienki-krolewskie.pl/en",
+      "partenaire": "tiqets",
+      "photo": {
+        "auteur": "Fred Romero from Paris, France",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warszawa_-_Pa%C5%82ac_%C5%81azienkowski_(13).jpg",
+        "src": "img/activites/WAW/lazienki.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "concert-chopin",
+      "nom": "Concert Chopin gratuit au parc Łazienki",
+      "emoji": "🎹",
+      "type": "sortir",
+      "quartier": "Ujazdów",
+      "lat": 52.2163,
+      "lng": 21.0263,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Concert en plein air",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Le dimanche à 12 h et 16 h, de mi-mai à fin septembre",
+      "enfants": true,
+      "texte": "Chaque dimanche d'été, un pianiste joue Chopin au pied de sa statue, entre les roses. On s'assoit dans l'herbe : c'est gratuit, et c'est magique.",
+      "site_officiel": "https://www.lazienki-krolewskie.pl/en",
+      "note": "Seulement de mi-mai à fin septembre. Le musée Chopin est fermé pour travaux toute l'année 2026.",
+      "photo": {
+        "auteur": "Tomasz Goździewicz",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Chopin_denkmal_wwa.jpeg",
+        "src": "img/activites/WAW/concert-chopin.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "wilanow",
+      "nom": "Palais de Wilanów",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Wilanów",
+      "lat": 52.1652,
+      "lng": 21.0904,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Palais (avril-octobre)",
+          16
+        ],
+        [
+          "Palais (novembre-mars)",
+          14
+        ],
+        [
+          "Tarif réduit",
+          8
+        ],
+        [
+          "8-26 ans (programme national)",
+          "0,25 € (1 zł)"
+        ],
+        [
+          "Le jeudi",
+          "gratuit (places limitées)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            7,
+            0
+          ],
+          [
+            17,
+            0.25
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "duree": "3 h",
+      "moment": "Une demi-journée, avec les jardins",
+      "enfants": true,
+      "texte": "Le « Versailles polonais », baroque et doré, rescapé de la guerre avec ses meubles d'origine. Jardins à la française et à l'anglaise au bord d'un lac.",
+      "site_officiel": "https://www.wilanow-palac.pl/en",
+      "partenaire": "tiqets",
+      "note": "À 10 km du centre : 30 min en bus (116, 180).",
+      "photo": {
+        "auteur": "Przemysław Jahr",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Wilan%C3%B3w_Palace.jpg",
+        "src": "img/activites/WAW/wilanow.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "copernic",
+      "nom": "Centre des sciences Copernic",
+      "emoji": "🔬",
+      "type": "culture",
+      "quartier": "Powiśle",
+      "lat": 52.2419,
+      "lng": 21.0287,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Billet en semaine",
+          11
+        ],
+        [
+          "Billet le week-end",
+          12
+        ],
+        [
+          "Tarif réduit (enfants)",
+          8
+        ],
+        [
+          "Planétarium",
+          "en plus"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant le week-end et pendant les vacances",
+      "duree": "3 h",
+      "moment": "En semaine, l'après-midi (les matins sont pris par les écoles)",
+      "enfants": true,
+      "texte": "Plus de 400 expériences à toucher : un robot qui parle, une tornade, un tremblement de terre. Les adultes s'amusent autant que les enfants.",
+      "site_officiel": "https://www.kopernik.org.pl/en",
+      "partenaire": "tiqets",
+      "photo": {
+        "auteur": "Kapitel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warszawa_Centrum_Nauki_Kopernik_(dron).jpg",
+        "src": "img/activites/WAW/copernic.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "musee-national",
+      "nom": "Musée national",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Śródmieście",
+      "lat": 52.2316,
+      "lng": 21.0247,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Collections permanentes",
+          7
+        ],
+        [
+          "Tarif réduit",
+          3.5
+        ],
+        [
+          "Jusqu'à 26 ans",
+          "0,25 € (1 zł, à la caisse)"
+        ],
+        [
+          "Le mardi",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            17,
+            0.25
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "Un jour de pluie",
+      "enfants": true,
+      "texte": "Les grands peintres polonais, dont la « Bataille de Grunwald » de Matejko, immense, et une galerie unique de fresques sauvées du désert soudanais.",
+      "site_officiel": "https://www.mnw.art.pl/en/",
+      "photo": {
+        "auteur": "BurgererSF",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gallery_of_19th-century_Art_Aleksander_Gierymski.jpg",
+        "src": "img/activites/WAW/musee-national.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "msn",
+      "nom": "Musée d'art moderne (MSN)",
+      "emoji": "⬜",
+      "type": "culture",
+      "quartier": "Śródmieście",
+      "lat": 52.2333,
+      "lng": 21.0092,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Billet journée",
+          "environ 5 €"
+        ],
+        [
+          "Le jeudi",
+          "gratuit"
+        ],
+        [
+          "8-26 ans",
+          "0,25 € (1 zł)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            17,
+            0.25
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Le jeudi (gratuit)",
+      "enfants": true,
+      "texte": "Le grand cube blanc ouvert fin 2024 face au Palais de la Culture : expos d'art contemporain, escaliers photogéniques et terrasse sur la place.",
+      "site_officiel": "https://artmuseum.pl/en",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Adrian Grycuk",
+        "licence": "CC BY 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File:Muzeum_Sztuki_Nowoczesnej_w_Warszawie_2025.jpg",
+        "src": "img/activites/WAW/msn.jpg"
+      }
+    },
+    {
+      "id": "neon",
+      "nom": "Musée du Néon",
+      "emoji": "💡",
+      "type": "culture",
+      "quartier": "Śródmieście",
+      "badges": [
+        "tendance"
+      ],
+      "lat": 52.2313,
+      "lng": 21.0072,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Billet",
+          6.5
+        ],
+        [
+          "Tarif réduit",
+          4
+        ],
+        [
+          "Jeunes enfants",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6.5,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            17,
+            4
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "N'importe quand",
+      "enfants": true,
+      "texte": "Des centaines d'enseignes lumineuses sauvées des rues de la Pologne communiste, qui brillent dans le noir. Un décor de film, et des photos garanties.",
+      "site_officiel": "https://www.neonmuzeum.org/",
+      "note": "Le musée a quitté Praga : il est installé au Palais de la Culture depuis juillet 2025.",
+      "photo": {
+        "auteur": "Neon Muzeum",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:NM_Panorama_2020_sm.jpg",
+        "src": "img/activites/WAW/neon.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "praga",
+      "nom": "Praga et le centre Koneser",
+      "emoji": "🎨",
+      "type": "balade",
+      "quartier": "Praga",
+      "lat": 52.2547,
+      "lng": 21.0447,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "L'après-midi, puis un verre en terrasse",
+      "enfants": true,
+      "texte": "L'autre rive, épargnée par les bombes : immeubles d'avant-guerre, petites chapelles dans les cours, street art, et l'ancienne distillerie Koneser devenue le quartier branché.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Kgbo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Koneser_Warszawska_Wytw%C3%B3rnia_W%C3%B3dek,_Poland,_2019,_05.jpg",
+        "src": "img/activites/WAW/praga.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "vodka",
+      "nom": "Musée de la Vodka polonaise",
+      "emoji": "🥃",
+      "type": "culture",
+      "quartier": "Praga",
+      "lat": 52.2552,
+      "lng": 21.0446,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Visite guidée + dégustation",
+          "à partir de 18 €"
+        ],
+        [
+          "Formule premium (dégustation et diplôme)",
+          "plus cher"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "duree": "1 h 20",
+      "moment": "En fin d'après-midi",
+      "enfants": false,
+      "texte": "Dans une distillerie de briques rouges de 1897, 500 ans d'histoire de la vodka racontés en une heure, et une dégustation à la fin pour savoir la boire comme un Polonais.",
+      "site_officiel": "https://muzeumpolskiejwodki.pl/en/",
+      "partenaire": "tiqets",
+      "note": "Visites en anglais 40 minutes après chaque heure pile. Dégustation réservée aux plus de 18 ans.",
+      "photo": {
+        "auteur": "Adrian Grycuk",
+        "licence": "CC BY-SA 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File:Muzeum_Polskiej_W%C3%B3dki_Galeria_4_2018c.jpg",
+        "src": "img/activites/WAW/vodka.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "nysa",
+      "nom": "Varsovie communiste en camionnette Nysa",
+      "emoji": "🚐",
+      "type": "balade",
+      "quartier": "Śródmieście",
+      "lat": 52.2251,
+      "lng": 21.017,
+      "prix": 40,
+      "prix_detail": [
+        [
+          "Visite en groupe (2 h, musée de la vie sous le communisme compris)",
+          "environ 40 €"
+        ],
+        [
+          "Visite privée (jusqu'à 7)",
+          "environ 175 € le véhicule"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 40,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant",
+      "duree": "2 h",
+      "moment": "En journée",
+      "enfants": true,
+      "texte": "À bord d'une vraie camionnette des années 70, un guide vous emmène dans la Varsovie de la Pologne populaire : grands ensembles, néons, bars à lait et anecdotes savoureuses.",
+      "site_officiel": "https://adventurewarsaw.pl/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Dwxn",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Krakowskie_Klasyki_Noc%C4%85_-_rozpocz%C4%99cie_sezonu_2023_20230525_192256_19.jpg",
+        "src": "img/activites/WAW/nysa.jpg"
+      }
+    },
+    {
+      "id": "bulwary",
+      "nom": "Bords de la Vistule et passerelle",
+      "emoji": "🌊",
+      "type": "plage",
+      "quartier": "Powiśle",
+      "lat": 52.2392,
+      "lng": 21.0318,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Les soirs d'été, quand les bars de plage s'animent",
+      "enfants": true,
+      "texte": "Les quais où tout Varsovie se retrouve l'été : bars sur l'eau, plages de sable sur la rive sauvage, la passerelle de 2024 face aux gratte-ciel et, en été, de petits bacs gratuits pour passer d'une rive à l'autre.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Cybularny",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:2024_Warszawa_k%C5%82adka_na_Wi%C5%9Ble,_5.jpg",
+        "src": "img/activites/WAW/bulwary.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "fontaines",
+      "nom": "Parc des fontaines multimédias",
+      "emoji": "⛲",
+      "type": "sortir",
+      "quartier": "Stare Miasto",
+      "lat": 52.2541,
+      "lng": 21.0123,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Spectacle",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Les vendredis et samedis soir à la nuit tombée, de mai à septembre",
+      "enfants": true,
+      "texte": "Au pied de la vieille ville, l'eau danse en musique avec lasers et projections : un spectacle gratuit qui réunit familles et amoureux les soirs d'été.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "note": "Spectacles de mai à fin septembre seulement ; vérifiez les dates avant d'y aller.",
+      "photo": {
+        "auteur": "Philippe Salgarolo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Varsovie_fontaines_de_nuit.jpg",
+        "src": "img/activites/WAW/fontaines.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "powazki",
+      "nom": "Cimetière de Powązki",
+      "emoji": "🍂",
+      "type": "culture",
+      "quartier": "Wola",
+      "lat": 52.2545,
+      "lng": 20.9853,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "À l'automne, et le soir de la Toussaint, illuminé de milliers de bougies",
+      "enfants": true,
+      "texte": "Le Père-Lachaise de Varsovie : allées sous les arbres, tombes sculptées et sépultures de la mère et de la sœur de Chopin. D'une beauté saisissante en automne.",
+      "site_officiel": "https://go2warsaw.pl/en/",
+      "photo": {
+        "auteur": "Cybularny",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2025_Warszawa_Cmentarz_Pow%C4%85zkowski,_11.jpg",
+        "src": "img/activites/WAW/powazki.jpg"
+      },
+      "a_verifier": false
+    },
+    {
+      "id": "legia",
+      "nom": "Match du Legia Varsovie",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Ujazdów",
+      "lat": 52.2205,
+      "lng": 21.0405,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Billet (selon match et place)",
+          "10 à 35 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 semaines avant pour les grands matchs",
+      "duree": "3 h",
+      "moment": "Les soirs de match (championnat d'août à mai)",
+      "enfants": true,
+      "texte": "Le club le plus titré de Pologne et l'une des ambiances les plus chaudes d'Europe : chants sans arrêt et tifos géants. Une expérience, même sans aimer le foot.",
+      "site_officiel": "https://legia.com/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Валерий Дед",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warsaw_Polish_Army_Stadium_9.jpg",
+        "src": "img/activites/WAW/legia.jpg"
+      },
+      "club": "Legia"
+    },
+    {
+      "id": "zoo",
+      "nom": "Zoo de Varsovie",
+      "emoji": "🐘",
+      "type": "nature",
+      "quartier": "Praga",
+      "lat": 52.258,
+      "lng": 21.0213,
+      "prix": 11,
+      "prix_detail": [
+        [
+          "Billet (avril-octobre)",
+          10.5
+        ],
+        [
+          "Tarif réduit (dès 3 ans)",
+          8
+        ],
+        [
+          "Moins de 3 ans",
+          "0,25 € (1 zł)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10.5,
+        "enfants": [
+          [
+            2,
+            0.25
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "3 h",
+      "moment": "Le matin, quand les animaux sont actifs",
+      "enfants": true,
+      "texte": "Le zoo de « La Femme du gardien de zoo », où l'on cachait des Juifs pendant la guerre. Aujourd'hui, éléphants, hippopotames et un grand parc à deux pas de la vieille ville.",
+      "site_officiel": "https://zoo.waw.pl/",
+      "note": "Tarifs d'hiver plus bas.",
+      "photo": {
+        "auteur": "Zdzisław Adam Niedźw…",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warszawskie_Zoo_ul.Ratuszowa_-_panoramio.jpg",
+        "src": "img/activites/WAW/zoo.jpg"
+      },
+      "a_verifier": false
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "stare-miasto",
+      "nom": "Vieille ville",
+      "lat": 52.249,
+      "lng": 21.0125,
+      "texte": "Le décor de carte postale, à pied : ruelles pavées, place du Marché et château. Calme le soir une fois les visiteurs partis."
+    },
+    {
+      "id": "route-royale",
+      "nom": "Route royale et Nowy Świat",
+      "lat": 52.2375,
+      "lng": 21.0175,
+      "texte": "Entre la vieille ville et le centre : palais, cafés et restaurants, tout se fait à pied. Le meilleur compromis pour un premier séjour."
+    },
+    {
+      "id": "centrum",
+      "nom": "Centre (Palais de la Culture)",
+      "lat": 52.23,
+      "lng": 21.009,
+      "texte": "Gratte-ciel, grands hôtels modernes et gare centrale à deux pas. Pratique, bien relié par le métro et les trams."
+    },
+    {
+      "id": "powisle",
+      "nom": "Powiśle",
+      "lat": 52.2385,
+      "lng": 21.027,
+      "texte": "Le quartier jeune et branché, entre la Vistule et le centre : bars, terrasses, jardin de la bibliothèque et centre Copernic."
+    },
+    {
+      "id": "praga",
+      "nom": "Praga",
+      "lat": 52.2535,
+      "lng": 21.04,
+      "texte": "L'autre rive, authentique et créative : ateliers, street art et le centre Koneser. Hôtels moins chers, à 10 min de tram de la vieille ville."
+    }
+  ],
+  "hotel_petit_prix_max": 70,
+  "restaurants": [
+    {
+      "id": "bambino",
+      "nom": "Bar Bambino",
+      "emoji": "🥣",
+      "gamme": "petit",
+      "genre": "Bar à lait",
+      "quartier": "Śródmieście",
+      "adresse": "Hoża 19, 00-521 Warszawa",
+      "lat": 52.22685,
+      "lng": 21.01812,
+      "prix": "6 à 10 €",
+      "prix_min": 6,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Le plus connu des « bars à lait », les cantines populaires de l'époque communiste : soupe, pierogi et crêpes pour quelques euros, au milieu des Varsoviens. Une expérience à part.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on commande au comptoir",
+      "photo": {
+        "src": "img/restos/WAW/bambino.jpg",
+        "auteur": "Ana Paula Hirama",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Polish_milk_bar_04.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "pyzy",
+      "nom": "Pyzy Flaki Gorące!",
+      "emoji": "🫙",
+      "gamme": "petit",
+      "genre": "Boulettes servies en bocal",
+      "quartier": "Praga",
+      "adresse": "Brzeska 29/31, 03-739 Warszawa",
+      "prix": "8 à 12 €",
+      "prix_min": 8,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Dans une petite salle façon années 70, des pyzy (boulettes de pomme de terre farcies) servies dans des bocaux en verre, comme au marché d'autrefois. Culte à Praga.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "lat": 52.2529,
+      "lng": 21.04126,
+      "photo": {
+        "src": "img/restos/WAW/pyzy.jpg",
+        "auteur": "Ewkaa",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pyzy_z_mi%C4%99sem.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "gosciniec",
+      "nom": "Gościniec Polskie Pierogi",
+      "emoji": "🥟",
+      "gamme": "petit",
+      "genre": "Pierogi",
+      "quartier": "Śródmieście",
+      "adresse": "Nowy Świat 43, 00-042 Warszawa",
+      "prix": "12 à 18 €",
+      "prix_min": 12,
+      "badges": [],
+      "texte": "L'adresse de pierogi préférée des voyageurs, sur la plus belle rue commerçante : décor d'auberge, une vingtaine de farces, et des parts généreuses.",
+      "reservation": "sur_place",
+      "reservation_delai": "venez avant 18 h pour éviter l'attente",
+      "lat": 52.2347,
+      "lng": 21.01843,
+      "photo": {
+        "src": "img/restos/WAW/gosciniec.jpg",
+        "auteur": "Silar",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:02014_Beskidische_Teigtaschen.JPG",
+        "illustration": true
+      }
+    },
+    {
+      "id": "koszyki",
+      "nom": "Hala Koszyki",
+      "emoji": "🏛️",
+      "gamme": "petit",
+      "genre": "Halle gourmande",
+      "quartier": "Śródmieście",
+      "adresse": "Koszykowa 63, 00-667 Warszawa",
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "tendance",
+        "institution"
+      ],
+      "texte": "Un marché couvert de 1909 en brique et fer forgé, devenu le rendez-vous des Varsoviens : une vingtaine de comptoirs du monde entier et des bars, sous la verrière.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "lat": 52.2223,
+      "lng": 21.01102,
+      "photo": {
+        "src": "img/restos/WAW/koszyki.jpg",
+        "auteur": "Cybularny",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2026_Warszawa_Hala_Koszyki,_5.jpg"
+      }
+    },
+    {
+      "id": "lekko",
+      "nom": "Lekko",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pizza napolitaine",
+      "quartier": "Muranów",
+      "adresse": "Al. Jana Pawła II 50/15, 00-148 Warszawa",
+      "lat": 52.24381,
+      "lng": 20.99257,
+      "prix": "10 à 20 €",
+      "prix_min": 10,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La pizzeria qui fait le buzz : pâte napolitaine légère, et le week-end, un petit-déjeuner à prix mini qui attire les foules de 11 h à 13 h.",
+      "reservation": "sur_place",
+      "reservation_delai": "venez tôt le week-end",
+      "photo": {
+        "src": "img/restos/WAW/lekko.jpg",
+        "auteur": "Dwxn",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:20260131_133215_pizza_in_Olio_restaurant,_Krak%C3%B3w_1.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "uki-uki",
+      "nom": "Uki Uki",
+      "emoji": "🍜",
+      "gamme": "petit",
+      "genre": "Udon japonais",
+      "quartier": "Śródmieście",
+      "adresse": "Krucza 23, 00-521 Warszawa",
+      "prix": "12 à 18 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des nouilles udon tirées à la main sous vos yeux, réputées parmi les meilleures d'Europe. La file d'attente sur le trottoir fait partie de l'expérience.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : venez à l'ouverture",
+      "lat": 52.22742,
+      "lng": 21.01763,
+      "photo": {
+        "src": "img/restos/WAW/uki-uki.jpg",
+        "auteur": "Gatorfan252525",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:A_bowl_of_duck_udon_in_Arashiyama,_Kyoto,_Japan.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "stary-dom",
+      "nom": "Stary Dom",
+      "emoji": "🍖",
+      "gamme": "moyen",
+      "genre": "Cuisine polonaise traditionnelle",
+      "quartier": "Mokotów",
+      "adresse": "Puławska 104/106, 02-620 Warszawa",
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La grande maison des classiques polonais : żurek dans un pain, jarret de porc, tartare. Haute charpente en bois, service à l'ancienne. Les Varsoviens y emmènent leurs invités.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant le week-end",
+      "lat": 52.19555,
+      "lng": 21.02383,
+      "photo": {
+        "src": "img/restos/WAW/stary-dom.jpg",
+        "auteur": "MOs810",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Golonka_Poznan.JPG",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kieliszki",
+      "nom": "Kieliszki na Próżnej",
+      "emoji": "🍷",
+      "gamme": "moyen",
+      "genre": "Bar à vins et cuisine polonaise moderne",
+      "quartier": "Śródmieście",
+      "adresse": "Próżna 12, 00-801 Warszawa",
+      "prix": "35 à 60 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "Des centaines de vins au verre et une cuisine polonaise revisitée, dans l'une des rares rues d'avant-guerre de l'ancien quartier juif.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "lat": 52.23652,
+      "lng": 21.00464,
+      "photo": {
+        "src": "img/restos/WAW/kieliszki.jpg",
+        "auteur": "Mark Mitchell",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:00_Steak_Tartare.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "koneser-grill",
+      "nom": "Koneser Grill",
+      "emoji": "🔥",
+      "gamme": "moyen",
+      "genre": "Grillades",
+      "quartier": "Praga",
+      "adresse": "Ząbkowska 29, 03-736 Warszawa",
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "Viandes et poissons cuits au feu de bois, dans les briques rouges de l'ancienne distillerie Koneser. Parfait après le musée de la Vodka.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant",
+      "lat": 52.25497,
+      "lng": 21.04442,
+      "photo": {
+        "src": "img/restos/WAW/koneser-grill.jpg",
+        "auteur": "Adrian Grycuk",
+        "licence": "CC BY-SA 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File:Centrum_Praskie_Koneser_2019b.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "elixir",
+      "nom": "Elixir by Dom Wódki",
+      "emoji": "🥃",
+      "gamme": "moyen",
+      "genre": "Vodka et cuisine polonaise",
+      "quartier": "Śródmieście",
+      "adresse": "Wierzbowa 9, 00-094 Warszawa",
+      "lat": 52.2414,
+      "lng": 21.011,
+      "prix": "40 à 60 €",
+      "prix_min": 40,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "Plus de 1 000 vodkas polonaises, et des plats pensés pour aller avec. Le menu « accords vodka » est la meilleure leçon de culture polonaise de la ville.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant",
+      "photo": {
+        "src": "img/restos/WAW/elixir.jpg",
+        "auteur": "Francesc Fort",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Wsciekly_pies.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rusiko",
+      "nom": "Rusiko",
+      "emoji": "🫓",
+      "gamme": "moyen",
+      "genre": "Géorgien",
+      "quartier": "Śródmieście",
+      "adresse": "Wierzbowa 11, 00-094 Warszawa",
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [],
+      "texte": "Les Varsoviens adorent la cuisine géorgienne, et Rusiko est leur adresse fétiche : khachapuri en forme de barque, œuf coulant et vins ambrés en amphore.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "lat": 52.24361,
+      "lng": 21.00755,
+      "photo": {
+        "src": "img/restos/WAW/rusiko.jpg",
+        "auteur": "Maksym Kozlenko",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2019-07-17_Khachapuri_(Adjaruli)_served_at_Georgian_Restaurant_in_Kyiv.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "sloik",
+      "nom": "Słoik",
+      "emoji": "🍽️",
+      "gamme": "moyen",
+      "genre": "Polonais moderne et convivial",
+      "quartier": "Śródmieście",
+      "adresse": "Złota 11, 00-019 Warszawa",
+      "prix": "25 à 35 €",
+      "prix_min": 25,
+      "badges": [],
+      "texte": "« Le bocal » : pierogi, viandes grillées et cocktails dans un décor de maison de campagne revisitée. Bruyant, joyeux, toujours plein.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir",
+      "lat": 52.23234,
+      "lng": 21.01132,
+      "photo": {
+        "src": "img/restos/WAW/sloik.jpg",
+        "auteur": "Dmitry Dzema",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kotlet_Schabowy.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "nuta",
+      "nom": "NUTA",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Cuisine créative",
+      "quartier": "Śródmieście",
+      "adresse": "Plac Trzech Krzyży 10/14, 00-499 Warszawa",
+      "prix": "≈ 150 €",
+      "prix_min": 150,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Étoilé Michelin",
+      "texte": "La table la plus en vue de Varsovie : un menu dégustation qui mêle Italie, Asie et produits polonais, dans un décor sombre et intime.",
+      "reservation": "indispensable",
+      "reservation_delai": "3 à 4 semaines avant",
+      "lat": 52.229,
+      "lng": 21.02332,
+      "photo": {
+        "src": "img/restos/WAW/nuta.jpg",
+        "auteur": "Kapitel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Warszawa_plac_Trzech_Krzyzy_(dron).jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "hub-praga",
+      "nom": "hub.praga",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Menu dégustation polonais",
+      "quartier": "Praga",
+      "adresse": "Jagiellońska 22, 03-719 Warszawa",
+      "prix": "≈ 85 €",
+      "prix_min": 85,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Étoilé Michelin",
+      "texte": "22 couverts seulement, autour de la cuisine ouverte : le chef réinvente les saveurs polonaises en une dizaine de petites assiettes. Une des étoiles les plus abordables d'Europe.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "lat": 52.25111,
+      "lng": 21.03617,
+      "photo": {
+        "src": "img/restos/WAW/hub-praga.jpg",
+        "auteur": "Kgbo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Beef_tartare_at_Mosconi_Restaurant,_Fortiude_Valley,_Queensland.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rozbrat-20",
+      "nom": "Rozbrat 20",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Bistronomie et vins",
+      "quartier": "Powiśle",
+      "adresse": "Rozbrat 20, 00-447 Warszawa",
+      "lat": 52.2263,
+      "lng": 21.0337,
+      "prix": "80 à 100 €",
+      "prix_min": 80,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Étoilé Michelin",
+      "texte": "Ancien bar à vins devenu étoilé, sans rien perdre de sa simplicité : produits de saison, cuisson juste et une cave remarquable.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "src": "img/restos/WAW/rozbrat-20.jpg",
+        "auteur": "A.Savin",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Red_and_white_wine_12-2015.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "epoka",
+      "nom": "Epoka",
+      "emoji": "📜",
+      "gamme": "haut",
+      "genre": "Cuisine historique polonaise",
+      "quartier": "Śródmieście",
+      "adresse": "Ossolińskich 3, 00-072 Warszawa",
+      "prix": "120 à 150 €",
+      "prix_min": 120,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "Un voyage dans le temps : des recettes de grands chefs polonais des siècles passés, réinterprétées dans le palace Europejski, sur la Route royale.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "lat": 52.24204,
+      "lng": 21.01401,
+      "photo": {
+        "src": "img/restos/WAW/epoka.jpg",
+        "auteur": "Adrian Grycuk",
+        "licence": "CC BY 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File:Hotel_Europejski_w_Warszawie_od_strony_placu_Pi%C5%82sudskiego_2026.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "belvedere",
+      "nom": "Belvedere",
+      "emoji": "🌿",
+      "gamme": "haut",
+      "genre": "Cuisine polonaise dans une orangerie",
+      "quartier": "Ujazdów",
+      "adresse": "Nowa Oranżeria, Agrykola 1, 00-460 Warszawa",
+      "prix": "60 à 90 €",
+      "prix_min": 60,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Dîner sous la verrière d'une orangerie du XIXᵉ siècle, au milieu des palmiers du parc Łazienki. L'adresse romantique par excellence.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, une semaine le week-end",
+      "lat": 52.21154,
+      "lng": 21.03325,
+      "photo": {
+        "src": "img/restos/WAW/belvedere.jpg",
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Belvedere_Restaurant,_%C5%81azienki_Park,_Warsaw,_Poland.jpg"
+      }
+    },
+    {
+      "id": "butchery",
+      "nom": "Butchery & Wine",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Viandes maturées",
+      "quartier": "Śródmieście",
+      "adresse": "Żurawia 22, 00-515 Warszawa",
+      "prix": "60 à 80 €",
+      "prix_min": 60,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "Le steakhouse des connaisseurs : bœuf maturé sur place, cuit au charbon de bois, et une très belle carte des vins.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant",
+      "lat": 52.22857,
+      "lng": 21.01549,
+      "photo": {
+        "src": "img/restos/WAW/butchery.jpg",
+        "auteur": "Silar",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:02021_0906_(3)_Entrecote_Steak.jpg",
+        "illustration": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1501 @@
+{
+ "city_code": "BOD",
+ "statut": "préparé en autonomie, prix estimés au 19/10/2026",
+ "verifie_le": "2026-10-19",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "miroir-eau",
+   "nom": "Place de la Bourse et Miroir d'eau",
+   "emoji": "💧",
+   "type": "vue",
+   "quartier": "Quais",
+   "lat": 44.841692,
+   "lng": -0.569083,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Au coucher du soleil, puis à la nuit tombée quand la façade s'illumine",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus grand miroir d'eau du monde : 2 cm d'eau sur le granit, et la façade du XVIIIe siècle qui s'y reflète à l'identique. Toutes les quinze minutes, un brouillard monte du sol. La photo de Bordeaux, c'est ici.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "note": "Le miroir est vidé l'hiver (en général de novembre à mars) : la place reste magnifique, sans le reflet.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Remi Jouan",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_-_Miroir_eau_%282%29.JPG",
+    "src": "img/activites/BOD/miroir-eau.jpg"
+   }
+  },
+  {
+   "id": "vieux-bordeaux",
+   "nom": "Vieux Bordeaux : Saint-Pierre, porte Cailhau et Grosse Cloche",
+   "emoji": "🏰",
+   "type": "balade",
+   "quartier": "Saint-Pierre",
+   "lat": 44.838753,
+   "lng": -0.56849,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les ruelles",
+     "gratuit"
+    ],
+    [
+     "Porte Cailhau (intérieur)",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin, puis une terrasse place du Parlement",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des ruelles pavées, des places à terrasses et deux portes de conte de fées : la porte Cailhau, au bord des quais, et la Grosse Cloche, beffroi du XVe siècle. Le Bordeaux que l'on photographie sous tous les angles.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FrDr",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_400_15.jpg",
+    "src": "img/activites/BOD/vieux-bordeaux.jpg"
+   }
+  },
+  {
+   "id": "cite-du-vin",
+   "nom": "La Cité du Vin",
+   "emoji": "🍷",
+   "type": "culture",
+   "quartier": "Bacalan",
+   "lat": 44.860567,
+   "lng": -0.554204,
+   "prix": 23,
+   "prix_detail": [
+    [
+     "Billet adulte (parcours + un verre au belvédère)",
+     23
+    ],
+    [
+     "6 à 17 ans (avec un jus de raisin)",
+     9
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 23,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne avec horaire, quelques jours avant le week-end et en été",
+   "duree": "2 h 30",
+   "moment": "En semaine ; finissez au belvédère du 8e étage, verre en main",
+   "enfants": true,
+   "texte": "Un bâtiment en forme de carafe au bord de la Garonne, et un parcours interactif autour des vins du monde entier. La visite se termine tout en haut, avec un verre et une vue sur toute la ville.",
+   "site_officiel": "https://www.laciteduvin.com/",
+   "partenaire": "tiqets",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Zairon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_Cit%C3%A9_du_Vin_Vue_panoramique_1.jpg",
+    "src": "img/activites/BOD/cite-du-vin.jpg"
+   }
+  },
+  {
+   "id": "bassins-lumieres",
+   "nom": "Bassins des Lumières",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Bacalan (base sous-marine)",
+   "lat": 44.870366,
+   "lng": -0.55887,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Billet adulte",
+     16
+    ],
+    [
+     "6 à 25 ans",
+     9
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne avec horaire, surtout le week-end et pendant les vacances",
+   "duree": "1 h 30",
+   "moment": "En semaine, en milieu de journée",
+   "enfants": true,
+   "texte": "Une base sous-marine de la Seconde Guerre mondiale transformée en plus grand centre d'art numérique du monde : les images géantes se reflètent dans quatre bassins d'eau noire. Depuis octobre 2026 : les dinosaures.",
+   "site_officiel": "https://www.bassins-lumieres.com/",
+   "partenaire": "tiqets",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Immersivearteditor",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGustav_Klimt_-_d%27or_et_du_couleurs.jpg",
+    "src": "img/activites/BOD/bassins-lumieres.jpg"
+   }
+  },
+  {
+   "id": "fleche-saint-michel",
+   "nom": "Flèche Saint-Michel",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Saint-Michel",
+   "lat": 44.834361,
+   "lng": -0.565941,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Billet",
+     7
+    ],
+    [
+     "Tarif réduit",
+     5
+    ],
+    [
+     "Moins de 13 ans",
+     "gratuit"
+    ],
+    [
+     "Billet jumelé avec la porte Cailhau",
+     11
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place, carte bancaire uniquement",
+   "duree": "1 h",
+   "moment": "Par temps clair, en fin de matinée (fermée de 13 h à 14 h)",
+   "enfants": true,
+   "texte": "Le plus haut clocher du sud de la France, rouvert en juin 2026 après cinq ans de travaux : 230 marches, puis Bordeaux à vos pieds, des toits de Saint-Michel jusqu'au pont de pierre.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "note": "Ouverte d'avril à octobre : vérifiez les horaires d'hiver. Pas d'accès en fauteuil (escalier).",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Orikrin1998",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A10-Bordeaux_-_basilique_Saint-Michel_%283%29.JPG",
+    "src": "img/activites/BOD/fleche-saint-michel.jpg"
+   }
+  },
+  {
+   "id": "cathedrale",
+   "nom": "Cathédrale Saint-André",
+   "emoji": "🕍",
+   "type": "culture",
+   "quartier": "Pey-Berland",
+   "lat": 44.837656,
+   "lng": -0.577802,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cathédrale",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée, hors offices",
+   "enfants": true,
+   "texte": "Une cathédrale gothique immense, où Aliénor d'Aquitaine a épousé le futur roi de France en 1137. Sa porte Royale sculptée et ses voûtes valent le détour, entre deux rues commerçantes.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "note": "La tour Pey-Berland, juste à côté, est fermée jusqu'à nouvel ordre (dégâts de la foudre) : montez plutôt à la flèche Saint-Michel.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale_St_Andr%C3%A9_Bordeaux_3.jpg",
+    "src": "img/activites/BOD/cathedrale.jpg"
+   }
+  },
+  {
+   "id": "grand-theatre",
+   "nom": "Grand-Théâtre et Opéra",
+   "emoji": "🎭",
+   "type": "culture",
+   "quartier": "Triangle d’or",
+   "lat": 44.842624,
+   "lng": -0.573675,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Visite guidée",
+     "≈ 10 €"
+    ],
+    [
+     "Spectacle (opéra, ballet)",
+     "à partir de ≈ 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "visites guidées certains jours seulement : réservez quelques jours avant",
+   "duree": "1 h",
+   "moment": "Une visite guidée en journée, ou mieux : un spectacle le soir",
+   "enfants": true,
+   "texte": "Douze colonnes, douze statues et une salle tout en bleu et or : le théâtre du XVIIIe siècle qui a inspiré l'Opéra Garnier. Le voir pendant un spectacle est le meilleur moyen d'en profiter.",
+   "site_officiel": "https://www.opera-bordeaux.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "P. Hughes",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_-_Grand_Theatre_de_Bordeaux.jpg",
+    "src": "img/activites/BOD/grand-theatre.jpg"
+   }
+  },
+  {
+   "id": "chartrons",
+   "nom": "Les Chartrons",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Chartrons",
+   "lat": 44.851785,
+   "lng": -0.571233,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le dimanche matin pour le marché du quai, ou le samedi pour les boutiques",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'ancien quartier des négociants en vin devenu le village chic de Bordeaux : antiquaires rue Notre-Dame, épiceries fines, cafés à brunch et le grand marché du dimanche au bord de l'eau.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marc Ryckaert",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_Quai_des_Chartrons_R01.jpg",
+    "src": "img/activites/BOD/chartrons.jpg"
+   }
+  },
+  {
+   "id": "darwin",
+   "nom": "Darwin, l’écosystème de la rive droite",
+   "emoji": "🛹",
+   "type": "balade",
+   "quartier": "La Bastide",
+   "lat": 44.849397,
+   "lng": -0.562077,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "L'après-midi, le week-end",
+   "enfants": true,
+   "texte": "D'anciennes casernes couvertes de graffitis, transformées en lieu alternatif : skatepark couvert, épicerie bio, brocante et grandes tablées. On y traverse la Garonne pour la vue sur les quais en face.",
+   "site_officiel": "https://darwin.camp/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ludovic Macia",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANiel_06.jpg",
+    "src": "img/activites/BOD/darwin.jpg"
+   }
+  },
+  {
+   "id": "pont-pierre",
+   "nom": "Les quais et le pont de pierre",
+   "emoji": "🌉",
+   "type": "balade",
+   "quartier": "Quais",
+   "lat": 44.838422,
+   "lng": -0.562842,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade à pied",
+     "gratuit"
+    ],
+    [
+     "Vélo en libre-service (V³), 24 h",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, quand la lumière dore les façades",
+   "enfants": true,
+   "texte": "Quatre kilomètres de quais rendus aux piétons, avec les façades classées à l'Unesco d'un côté et la Garonne de l'autre. Le pont de pierre, voulu par Napoléon, a 17 arches : une pour chaque lettre de son nom, dit la légende.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bert Kaufmann from Roermond, Netherlands",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_%282418988310%29.jpg",
+    "src": "img/activites/BOD/pont-pierre.jpg"
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière sur la Garonne",
+   "emoji": "🚢",
+   "type": "sortir",
+   "quartier": "Quai Richelieu",
+   "lat": 44.839216,
+   "lng": -0.568046,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Croisière commentée, 1 h 30",
+     "≈ 18 €"
+    ],
+    [
+     "Enfant (4-12 ans)",
+     "≈ 10 €"
+    ],
+    [
+     "Croisière apéritif au coucher du soleil",
+     "≈ 30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      10
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, de mai à septembre",
+   "enfants": true,
+   "texte": "La meilleure façon de comprendre le « port de la Lune » : la courbe de la Garonne, les façades de pierre blonde, puis le pont levant Chaban-Delmas qui s'ouvre parfois pour laisser passer les grands navires.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "partenaire": "tiqets",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Marcel Roblin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALe_Bato_TBM_Bordeaux_2025.jpg",
+    "src": "img/activites/BOD/croisiere.jpg"
+   }
+  },
+  {
+   "id": "jardin-public",
+   "nom": "Jardin public",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Jardin public",
+   "lat": 44.848849,
+   "lng": -0.577973,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, ou pour une pause pique-nique",
+   "enfants": true,
+   "texte": "Le grand parc à l'anglaise du centre-ville : un étang, des canards, un vieux manège et des pelouses où les Bordelais font la sieste. Le guignol Guérin y joue depuis plus d'un siècle.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pline",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AXDSC_7599-jardin-public-de-Bordeaux.jpg",
+    "src": "img/activites/BOD/jardin-public.jpg"
+   }
+  },
+  {
+   "id": "museum",
+   "nom": "Muséum de Bordeaux",
+   "emoji": "🦒",
+   "type": "culture",
+   "quartier": "Jardin public",
+   "lat": 44.848505,
+   "lng": -0.57999,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Billet",
+     5
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Un jour de pluie, avec des enfants (fermé le lundi)",
+   "enfants": true,
+   "texte": "Un muséum d'histoire naturelle rénové, dans un hôtel particulier au bord du Jardin public : girafe, baleine, animaux naturalisés et un espace pour les tout-petits. Idéal avec des enfants.",
+   "site_officiel": "https://www.museum-bordeaux.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jefunky",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel_de_Lisleferme%2C_Mus%C3%A9um_d%27histoire_naturelle_de_Bordeaux%2C_2019_-_1.jpg",
+    "src": "img/activites/BOD/museum.jpg"
+   }
+  },
+  {
+   "id": "musee-aquitaine",
+   "nom": "Musée d'Aquitaine",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Saint-Paul",
+   "lat": 44.835619,
+   "lng": -0.574691,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Collections permanentes",
+     "≈ 5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Premier dimanche du mois",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "En semaine (fermé le lundi)",
+   "enfants": true,
+   "texte": "Toute l'histoire de Bordeaux, de la préhistoire au port négrier puis au vin, dans un ancien palais universitaire. La salle sur la traite atlantique est l'une des plus fortes de France sur ce sujet.",
+   "site_officiel": "https://www.musee-aquitaine-bordeaux.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Lysiane Gauthier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade_mus%C3%A9e_d%27Aquitaine_au_20%C3%A8me_si%C3%A8cle.jpg",
+    "src": "img/activites/BOD/musee-aquitaine.jpg"
+   }
+  },
+  {
+   "id": "capc",
+   "nom": "CAPC, musée d'art contemporain",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Chartrons",
+   "lat": 44.8488,
+   "lng": -0.570516,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Billet (avec exposition dans la nef)",
+     8
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Premier dimanche du mois (sauf l’été)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En semaine (fermé le lundi)",
+   "enfants": true,
+   "texte": "Un entrepôt de denrées coloniales du XIXe siècle aux arcades de pierre gigantesques, rempli d'art d'aujourd'hui. Même sans être amateur, la nef vaut la visite, et le toit-terrasse aussi.",
+   "site_officiel": "https://www.capc-bordeaux.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Where_is_J",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_-_entrep%C3%B4t_Lain%C3%A9_-_2026-10-02_18-43-51_001.jpg",
+    "src": "img/activites/BOD/capc.jpg"
+   }
+  },
+  {
+   "id": "madd",
+   "nom": "MADD, musée des Arts décoratifs et du Design",
+   "emoji": "🪑",
+   "type": "culture",
+   "quartier": "Pey-Berland",
+   "lat": 44.838875,
+   "lng": -0.580229,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Billet",
+     "≈ 5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En semaine (fermé le mardi)",
+   "enfants": true,
+   "texte": "Rouvert au printemps 2026 après trois ans de travaux : un hôtel particulier du XVIIIe siècle meublé comme au temps des grandes familles bordelaises, et une aile design moderne.",
+   "site_officiel": "https://madd-bordeaux.fr/",
+   "note": "Une partie des travaux continue jusqu'en 2027.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Dark Attsios",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_des_arts_d%C3%A9coratifs_de_Bordeaux.jpg",
+    "src": "img/activites/BOD/madd.jpg"
+   }
+  },
+  {
+   "id": "musee-vin",
+   "nom": "Musée du Vin et du Négoce",
+   "emoji": "🍇",
+   "type": "culture",
+   "quartier": "Chartrons",
+   "lat": 44.854628,
+   "lng": -0.569391,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Visite et dégustation de 2 vins",
+     "≈ 12 €"
+    ],
+    [
+     "Moins de 18 ans (sans dégustation)",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      17,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En journée, avant une balade aux Chartrons",
+   "enfants": true,
+   "texte": "Les caves voûtées d'un négociant du XVIIIe siècle, pour comprendre comment le vin de Bordeaux a conquis le monde. Petit, chaleureux, et la visite se termine par une dégustation.",
+   "site_officiel": "https://www.museeduvinbordeaux.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_du_vin_et_du_n%C3%A9goce_de_Bordeaux_%282%29.jpg",
+    "src": "img/activites/BOD/musee-vin.jpg"
+   }
+  },
+  {
+   "id": "quinconces",
+   "nom": "Esplanade des Quinconces",
+   "emoji": "⛲",
+   "type": "vue",
+   "quartier": "Quinconces",
+   "lat": 44.845395,
+   "lng": -0.574855,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En passant, à pied ou en tram",
+   "enfants": true,
+   "texte": "L'une des plus grandes places d'Europe, et au bout, le monument aux Girondins : une fontaine de bronze spectaculaire, chevaux marins et allégories, à regarder de près.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Where_is_J",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_-_monument_aux_Girondins_-_2026-10-02_18-26-16_001.jpg",
+    "src": "img/activites/BOD/quinconces.jpg"
+   }
+  },
+  {
+   "id": "sainte-catherine",
+   "nom": "Rue Sainte-Catherine",
+   "emoji": "🛒",
+   "type": "balade",
+   "quartier": "Centre",
+   "lat": 44.8397,
+   "lng": -0.574146,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En semaine (bondée le samedi après-midi)",
+   "enfants": true,
+   "texte": "La plus longue rue piétonne commerçante d'Europe : 1,2 km de boutiques entre la place de la Comédie et la place de la Victoire. À prendre en entier, ou par tronçons entre deux visites.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APromenade_Sainte_Catherine_-_Bordeaux_%28FR33%29_-_2022-09-10_-_2.jpg",
+    "src": "img/activites/BOD/sainte-catherine.jpg"
+   }
+  },
+  {
+   "id": "ecole-vin",
+   "nom": "Atelier de dégustation à l'École du vin",
+   "emoji": "🥂",
+   "type": "sortir",
+   "quartier": "Triangle d’or",
+   "lat": 44.843709,
+   "lng": -0.574791,
+   "prix": 39,
+   "prix_detail": [
+    [
+     "Atelier découverte, 2 h",
+     "≈ 39 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 39,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (places limitées)",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi",
+   "enfants": false,
+   "texte": "Deux heures pour apprendre à goûter un bordeaux, guidé par un professionnel, dans la Maison du vin face au Grand-Théâtre. En français ou en anglais, sans prétention.",
+   "site_officiel": "https://www.bordeaux.com/",
+   "note": "Réservé aux plus de 18 ans.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Véronique PAGNIER",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9gstation_en_Caveau_en_C%C3%B4tes_du_Rh%C3%B4ne.jpg",
+    "src": "img/activites/BOD/ecole-vin.jpg"
+   }
+  },
+  {
+   "id": "ubb",
+   "nom": "Match de l'Union Bordeaux-Bègles",
+   "emoji": "🏉",
+   "type": "sport",
+   "quartier": "Stade Chaban-Delmas",
+   "lat": 44.829308,
+   "lng": -0.598264,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Billet de Top 14",
+     "≈ 20 à 80 €"
+    ],
+    [
+     "Coupe d’Europe",
+     "≈ 30 à 100 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente : les matchs affichent souvent complet",
+   "duree": "3 h",
+   "moment": "Soir de match : arrivez une heure avant pour l'ambiance",
+   "enfants": true,
+   "club": "Union Bordeaux Bègles",
+   "texte": "L'un des clubs de rugby les plus suivis de France, champion d'Europe en 2025 : un stade des années 1930 plein à craquer, des chants, et l'ambiance d'une ville entière derrière son équipe.",
+   "site_officiel": "https://www.ubbrugby.com/",
+   "note": "Achetez sur la billetterie officielle du club : méfiez-vous des revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Hervé Simon",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJour_de_Foot_-_Soccer_day_-_Flickr_-_Herv%C3%A9_S%2C_France.jpg",
+    "src": "img/activites/BOD/ubb.jpg"
+   }
+  },
+  {
+   "id": "saint-emilion",
+   "nom": "Saint-Émilion",
+   "emoji": "🍇",
+   "type": "nature",
+   "quartier": "Saint-Émilion (40 min en train)",
+   "lat": 44.893145,
+   "lng": -0.156066,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Train Bordeaux-Saint-Émilion aller-retour",
+     "≈ 20 €"
+    ],
+    [
+     "Visite de l’église monolithe",
+     "≈ 10 €"
+    ],
+    [
+     "Visite d’un château avec dégustation",
+     "≈ 20 à 40 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "église monolithe et châteaux : réservez quelques jours avant",
+   "duree": "Journée",
+   "moment": "En semaine, au printemps ou pendant les vendanges (septembre)",
+   "enfants": true,
+   "texte": "Un village médiéval classé à l'Unesco, au milieu des vignes les plus célèbres du monde. Ruelles en pente, église creusée dans la roche, et des châteaux où l'on goûte le vin chez celui qui le fait.",
+   "site_officiel": "https://www.saint-emilion-tourisme.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Didier Descouens",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APanorama_de_Saint_Emilion_De_la_tour_du_roi_2_-_Gironde.jpg",
+    "src": "img/activites/BOD/saint-emilion.jpg"
+   }
+  },
+  {
+   "id": "dune-pilat",
+   "nom": "Dune du Pilat et Arcachon",
+   "emoji": "🏖️",
+   "type": "nature",
+   "quartier": "Arcachon (1 h en train)",
+   "lat": 44.576843,
+   "lng": -1.224635,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Train Bordeaux-Arcachon aller-retour",
+     "≈ 25 €"
+    ],
+    [
+     "Bus Arcachon-dune",
+     "≈ 1 €"
+    ],
+    [
+     "Dune",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Journée",
+   "moment": "De mai à septembre, en fin de journée sur la dune",
+   "enfants": true,
+   "texte": "La plus haute dune d'Europe : 100 mètres de sable fin entre la forêt de pins et l'océan, avec le bassin d'Arcachon et ses huîtres en contrebas. Une des plus belles vues de France.",
+   "site_officiel": "https://www.ladunedupilat.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Mtu33260",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADunePyla2.jpg",
+    "src": "img/activites/BOD/dune-pilat.jpg"
+   }
+  },
+  {
+   "id": "medoc",
+   "nom": "Route des châteaux du Médoc",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Médoc (1 h en car)",
+   "lat": 45.199563,
+   "lng": -0.748499,
+   "prix": 95,
+   "prix_detail": [
+    [
+     "Excursion guidée d’une demi-journée, 2 châteaux et dégustations",
+     "≈ 95 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 95,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 7 jours avant (petits groupes)",
+   "duree": "Demi-journée",
+   "moment": "Départ en début d'après-midi depuis le centre",
+   "enfants": false,
+   "texte": "Margaux, Pauillac, Saint-Julien : les grands crus classés, leurs châteaux comme des palais au milieu des vignes, et des dégustations dans les chais. Sans voiture, l'excursion organisée est la solution la plus simple.",
+   "site_officiel": "https://www.bordeaux-tourisme.com/",
+   "partenaire": "tiqets",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "PA",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APichon-Longueville.jpg",
+    "src": "img/activites/BOD/medoc.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "saint-pierre",
+   "nom": "Vieux Bordeaux (Saint-Pierre)",
+   "lat": 44.8395,
+   "lng": -0.5712,
+   "texte": "Le cœur historique, tout à pied : place de la Bourse, ruelles, terrasses et quais. Le meilleur choix pour un premier séjour."
+  },
+  {
+   "id": "triangle-or",
+   "nom": "Triangle d’or et Grand-Théâtre",
+   "lat": 44.8428,
+   "lng": -0.576,
+   "texte": "Le Bordeaux chic du XVIIIe siècle : grandes avenues, boutiques, Grand-Théâtre et tram à chaque coin de rue."
+  },
+  {
+   "id": "chartrons",
+   "nom": "Chartrons",
+   "lat": 44.852,
+   "lng": -0.5715,
+   "texte": "Un quartier-village, calme le soir : antiquaires, brunchs, marché du dimanche, à 15 minutes à pied du centre."
+  },
+  {
+   "id": "saint-michel",
+   "nom": "Saint-Michel et Capucins",
+   "lat": 44.8335,
+   "lng": -0.5665,
+   "texte": "Le quartier populaire et vivant, avec le marché des Capucins et des hôtels moins chers. Un peu animé la nuit."
+  },
+  {
+   "id": "bassins-a-flot",
+   "nom": "Bassins à flot",
+   "lat": 44.8615,
+   "lng": -0.5545,
+   "texte": "Le Bordeaux moderne, au pied de la Cité du Vin : hôtels récents et calmes, à 10 minutes de tram du centre."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "chez-jean-mi",
+   "nom": "Chez Jean-Mi",
+   "emoji": "🦪",
+   "gamme": "petit",
+   "genre": "Huîtres au marché",
+   "quartier": "Capucins",
+   "adresse": "Marché des Capucins, place des Capucins, 33800 Bordeaux",
+   "lat": 44.830443,
+   "lng": -0.567787,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le comptoir à huîtres le plus célèbre du marché des Capucins : une douzaine du bassin d'Arcachon, un verre de blanc, debout au milieu des étals. Le samedi matin, tout Bordeaux est là.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez avant 11 h le week-end (fermé le lundi)",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOysters_March%C3%A9_des_Capucins_Bordeaux_%281%29.jpg",
+    "src": "img/restos/BOD/chez-jean-mi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "halles-bacalan",
+   "nom": "Halles de Bacalan",
+   "emoji": "🍽️",
+   "gamme": "petit",
+   "genre": "Halle gourmande",
+   "quartier": "Bassins à flot",
+   "adresse": "15 quai du Maroc, 33300 Bordeaux",
+   "lat": 44.863373,
+   "lng": -0.551778,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Une halle moderne face aux bassins à flot, juste à côté de la Cité du Vin : huîtres, fromages, tapas basques, rôtisserie… Chacun choisit son stand, tout le monde s'assoit à la même table.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation (fermé le lundi)",
+   "photo": {
+    "auteur": "Romainbehar",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_-_Bassins_%C3%A0_flot_-_Oz_Boat_-_Vue_sur_le_quai_du_Maroc.jpg",
+    "src": "img/restos/BOD/halles-bacalan.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "que-toi",
+   "nom": "Que Toi",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Vietnamien",
+   "quartier": "Saint-Pierre",
+   "adresse": "20 rue Saint-Siméon, 33000 Bordeaux",
+   "lat": 44.838949,
+   "lng": -0.573005,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Une petite cantine vietnamienne adorée des Bordelais : bo bun généreux, soupes parfumées et prix doux, au cœur du Vieux Bordeaux. Parfait pour un déjeuner rapide entre deux visites.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir ; le midi, venez tôt",
+   "photo": {
+    "auteur": "HungryHuy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVietnamese_grilled_pork_with_rice_noodles_and_fish_sauce.jpg",
+    "src": "img/restos/BOD/que-toi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "petit-mignon",
+   "nom": "Petit Mignon",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "Saint-Pierre",
+   "adresse": "33 rue Saint-Rémi, 33000 Bordeaux",
+   "lat": 44.84136,
+   "lng": -0.572248,
+   "prix": "15 à 22 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Des burgers faits maison avec des produits du coin, servis dans une salle minuscule à deux pas de la place de la Bourse. Simple, bon, et cité dans presque tous les guides de la ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : comptez un peu d’attente aux heures de pointe",
+   "photo": {
+    "auteur": "Gnangcomapp",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrilld_hamburger_gn.jpg",
+    "src": "img/restos/BOD/petit-mignon.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cassonade",
+   "nom": "Cassonade",
+   "emoji": "🧁",
+   "gamme": "petit",
+   "genre": "Canelés",
+   "quartier": "Saint-Pierre",
+   "adresse": "53 rue Saint-James, 33000 Bordeaux",
+   "lat": 44.835559,
+   "lng": -0.571414,
+   "prix": "2 à 10 €",
+   "prix_min": 2,
+   "badges": [],
+   "texte": "Le canelé, petit gâteau caramélisé au rhum et à la vanille, est LE goût de Bordeaux. Cette boutique de la rue Saint-James le fait croustillant dehors, fondant dedans, à deux pas de la Grosse Cloche.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Roboppy at English Wikipedia",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACaneles_stemilion.jpg",
+    "src": "img/restos/BOD/cassonade.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "books-coffee",
+   "nom": "Books & Coffee",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café-librairie, brunch",
+   "quartier": "Saint-Pierre",
+   "adresse": "26 rue Saint-James, 33000 Bordeaux",
+   "lat": 44.836028,
+   "lng": -0.57139,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un café-librairie aux murs couverts de livres, au pied de la Grosse Cloche : pâtisseries, brunch et grands cafés, dans un décor que l'on voit partout sur les réseaux sociaux.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : le week-end, venez à l’ouverture",
+   "photo": {
+    "auteur": "ASC Leiden",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AASC_Leiden_-_Rwanda_2021_-_056_-_A_decorative_white_tree_of_cream_in_a_cup_of_coffee_-_Kigali.jpg",
+    "src": "img/restos/BOD/books-coffee.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "entrecote",
+   "nom": "L'Entrecôte",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Steak-frites à volonté",
+   "quartier": "Triangle d’or",
+   "adresse": "4 cours du 30-Juillet, 33000 Bordeaux",
+   "lat": 44.843271,
+   "lng": -0.574202,
+   "prix": "30 à 40 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un seul plat depuis 1966 : salade aux noix, entrecôte tranchée, sauce secrète et frites à volonté, servies deux fois. La file d'attente sur le trottoir fait partie de la légende.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez 15 min avant l’ouverture (12 h et 19 h) pour éviter la file",
+   "photo": {
+    "auteur": "Juan Emilio Prades Bel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEntrecot_cocinado_a_la_brasa.jpg",
+    "src": "img/restos/BOD/entrecote.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tupina",
+   "nom": "La Tupina",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Cuisine du Sud-Ouest au feu de bois",
+   "quartier": "Saint-Michel",
+   "adresse": "6 rue Porte-de-la-Monnaie, 33800 Bordeaux",
+   "lat": 44.832869,
+   "lng": -0.562079,
+   "prix": "45 à 65 €",
+   "prix_min": 45,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La maison du Sud-Ouest à Bordeaux : une grande cheminée où rôtissent volailles et magrets, des frites cuites à la graisse de canard, et une salle de ferme chaleureuse. Une institution depuis 1968.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant pour le week-end",
+   "photo": {
+    "auteur": "Guallendra",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABordeaux_La_Tupina_accueil_Grenier_du_M%C3%A9doc.JPG",
+    "src": "img/restos/BOD/tupina.jpg"
+   }
+  },
+  {
+   "id": "bouchon-bordelais",
+   "nom": "Le Bouchon Bordelais",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Bistrot bordelais",
+   "quartier": "Triangle d’or",
+   "adresse": "2 rue Courbin, 33000 Bordeaux",
+   "lat": 44.841824,
+   "lng": -0.573011,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Le bistrot que l'on recommande quand on demande « où manger vraiment bordelais ? » : plats du marché, bonne carte de vins de la région, et une cuisine qui change selon les saisons.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant, une semaine pour le samedi soir",
+   "photo": {
+    "auteur": "Pierre LANNES",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMagret_de_canard_dans_un_restaurant_de_Castera-Verduzan.jpg",
+    "src": "img/restos/BOD/bouchon-bordelais.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mets-mots",
+   "nom": "Mets Mots",
+   "emoji": "📖",
+   "gamme": "moyen",
+   "genre": "Cuisine de marché et bar à vins",
+   "quartier": "Chartrons",
+   "adresse": "98 rue Fondaudège, 33000 Bordeaux",
+   "lat": 44.848377,
+   "lng": -0.582638,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "Une ancienne imprimerie, une équipe passée chez Pierre Gagnaire, et une cuisine du marché généreuse le midi ; le soir, petites assiettes à partager autour d'un verre. Récompensé par le guide Michelin en 2026.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Michael Browning michaelwb",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A11_Depot_St%2C_Concord%2C_United_States_%28Unsplash%29.jpg",
+    "src": "img/restos/BOD/mets-mots.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "madame-pang",
+   "nom": "Madame Pang",
+   "emoji": "🥢",
+   "gamme": "moyen",
+   "genre": "Asiatique et cocktails",
+   "quartier": "Saint-Pierre",
+   "adresse": "16 rue de la Devise, 33000 Bordeaux",
+   "lat": 44.83995,
+   "lng": -0.571504,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Un décor d'appartement de Shanghai des années 1930, des cocktails créatifs et des plats asiatiques à partager. L'adresse pour un dîner qui se prolonge, au cœur du Vieux Bordeaux.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, quelques jours avant pour le week-end",
+   "photo": {
+    "auteur": "LeonardKong",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChinese_DimSum_%289023590541%29.jpg",
+    "src": "img/restos/BOD/madame-pang.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "symbiose",
+   "nom": "Symbiose",
+   "emoji": "🍸",
+   "gamme": "moyen",
+   "genre": "Bistrot et bar à cocktails",
+   "quartier": "Chartrons",
+   "adresse": "4 quai des Chartrons, 33000 Bordeaux",
+   "lat": 44.849025,
+   "lng": -0.570748,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Un bar à cocktails caché derrière une porte discrète et une cuisine de produits locaux, en partie cueillis dans leur propre jardin. L'une des adresses les plus citées des Chartrons.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le dîner",
+   "photo": {
+    "auteur": "Cocktailmarler",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAdonis_Cocktail.JPG",
+    "src": "img/restos/BOD/symbiose.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pressoir-argent",
+   "nom": "Le Pressoir d'Argent",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Grand restaurant d’hôtel",
+   "quartier": "Triangle d’or",
+   "adresse": "2-5 place de la Comédie, 33000 Bordeaux",
+   "lat": 44.84278,
+   "lng": -0.574676,
+   "prix": "à partir de ≈ 200 €",
+   "prix_min": 200,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Dans le palace face au Grand-Théâtre, la table de Gordon Ramsay et son homard bleu pressé devant vous dans une rare presse en argent massif. Le grand soir de Bordeaux.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant",
+   "photo": {
+    "auteur": "Patrick Despoix",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A001_-_Grand_H%C3%B4tel_-_Bordeaux.jpg",
+    "src": "img/restos/BOD/pressoir-argent.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "maison-nouvelle",
+   "nom": "Maison Nouvelle",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomique (Philippe Etchebest)",
+   "quartier": "Chartrons",
+   "adresse": "11 rue Rode, 33000 Bordeaux",
+   "lat": 44.852451,
+   "lng": -0.572126,
+   "prix": "à partir de ≈ 180 €",
+   "prix_min": 180,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "La table intime de Philippe Etchebest, le chef star de la télévision, dans une maison de pierre des Chartrons : une vingtaine de couverts seulement, et deux étoiles au guide Michelin.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant",
+   "photo": {
+    "auteur": "stu_spivack",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AScallop_-_tangerine-gastrique.jpg",
+    "src": "img/restos/BOD/maison-nouvelle.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chapon-fin",
+   "nom": "Le Chapon Fin",
+   "emoji": "🏛️",
+   "gamme": "haut",
+   "genre": "Grande maison historique",
+   "quartier": "Triangle d’or",
+   "adresse": "5 rue Montesquieu, 33000 Bordeaux",
+   "lat": 44.842818,
+   "lng": -0.57814,
+   "prix": "60 à 120 €",
+   "prix_min": 60,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1825, c'est l'un des plus vieux restaurants de France : une salle Belle Époque en rocaille, où dînaient Sarah Bernhardt et Toulouse-Lautrec. Un voyage dans le temps, avec une cuisine actuelle.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant",
+   "photo": {
+    "auteur": "PierreSelim",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMagret_de_canard_et_foie_gras.jpg",
+    "src": "img/restos/BOD/chapon-fin.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gabriel",
+   "nom": "L'Observatoire du Gabriel",
+   "emoji": "🌅",
+   "gamme": "haut",
+   "genre": "Gastronomique avec vue",
+   "quartier": "Quais",
+   "adresse": "10 place de la Bourse, 33000 Bordeaux",
+   "lat": 44.841328,
+   "lng": -0.570755,
+   "prix": "à partir de ≈ 100 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Au dernier étage d'un pavillon de la place de la Bourse, une salle qui donne directement sur le miroir d'eau et la Garonne. La plus belle vue de Bordeaux, dans l'assiette aussi.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; demandez une table côté fenêtre",
+   "photo": {
+    "auteur": "Patrick Despoix",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A139_-_Place_de_la_Bourse_et_le_miroir_d%27eau_-_Bordeaux.jpg",
+    "src": "img/restos/BOD/gabriel.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cent33",
+   "nom": "Le Cent 33",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Bistronomie étoilée",
+   "quartier": "Chartrons",
+   "adresse": "133 rue du Jardin-Public, 33000 Bordeaux",
+   "lat": 44.854893,
+   "lng": -0.574081,
+   "prix": "60 à 120 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin (2026)",
+   "texte": "Le restaurant du chef Fabien Beaufour, passé chez les plus grands, dans une salle lumineuse des Chartrons. Sa première étoile en 2026 en fait l'adresse du moment.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "Palauenc05",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACigala_elbulli.jpg",
+    "src": "img/restos/BOD/cent33.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "solena",
+   "nom": "Soléna",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine créative de saison",
+   "quartier": "Saint-Seurin",
+   "adresse": "5 rue Chauffour, 33000 Bordeaux",
+   "lat": 44.840482,
+   "lng": -0.590346,
+   "prix": "à partir de ≈ 90 €",
+   "prix_min": 90,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une petite salle sobre, à l'écart des touristes, et une cuisine créative qui suit les saisons et les producteurs du Sud-Ouest. Un menu surprise, et souvent la meilleure surprise du séjour.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "jetalone from Oyama, Isehara, Kanagawa",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AYuba_with_shrimp_and_asparagus_by_jetalone_in_Isehara.jpg",
+    "src": "img/restos/BOD/solena.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

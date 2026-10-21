@@ -53,7 +53,7 @@ const RESTO_GAMMES = [
 const BADGES = {
   tendance: { icon: '🔥', nom: 'Tendance', long: 'Restaurant tendance', why: 'Très partagé sur Instagram et TikTok.' },
   recompense: { icon: '🍽️', nom: 'Récompensé', long: 'Récompensé', why: 'Distingué par les guides gastronomiques.' },
-  institution: { icon: '🏛️', nom: 'Institution', long: 'Institution', why: 'Une adresse historique, connue de tous les Barcelonais.' },
+  institution: { icon: '🏛️', nom: 'Institution', long: 'Institution', why: 'Une adresse historique, connue de tous les habitants.' },
 };
 const RESTO_BOOKING = {
   indispensable: 'Réservation indispensable',
@@ -109,14 +109,15 @@ let book = loadBook();
 init();
 
 async function init() {
-  const [villes, g, data] = await Promise.all([
-    getJson('villes.json'), getJson(`guides/${code}.json`), getJson('data.json'),
+  const [villes, g, data, matchs] = await Promise.all([
+    getJson('villes.json'), getJson(`guides/${code}.json`), getJson('data.json'), getJson(`matchs/${code}.json`),
   ]);
   if (!g) {
     $('v-city').textContent = 'Guide pas encore disponible';
     return;
   }
   guide = g;
+  addMatchs(matchs?.matchs || []);
   ville = villes?.[code] || {};
   selected = new Set([...selected].filter((id) => guide.activites.some((a) => a.id === id)));
   restos = new Set([...restos].filter((id) => (guide.restaurants || []).some((r) => r.id === id)));
@@ -200,6 +201,52 @@ function groupCost(a, pax) {
 
 
 // ---------------------------------------------------------------------------
+// Matchs pendant le séjour (matchs/CODE.json, mis à jour par une GitHub Action) : ils deviennent
+// des activités « Sport » comme les autres (liste, fiche, carte, devis, récapitulatif).
+// ---------------------------------------------------------------------------
+const SPORTS = {
+  football: { emoji: '⚽', nom: 'Football', prix: 25 },
+  basketball: { emoji: '🏀', nom: 'Basket', prix: 15 },
+  rugby: { emoji: '🏉', nom: 'Rugby', prix: 20 },
+};
+const GRANDS_MATCHS = /champions league|euroleague|champions cup|six nations/i;
+const MAX_MATCHS = 10; // les plus importants d'abord (1re division, coupes d'Europe), puis par date
+
+function addMatchs(list) {
+  const saved = (() => { try { return JSON.parse(localStorage.getItem(`dates-${code}`)) || {}; } catch { return {}; } })();
+  const inD = trip?.out || saved.inD;
+  const outD = trip?.ret || saved.outD || inD;
+  if (!inD || !list.length) return;
+  const acts = list.filter((m) => m.jour >= inD && m.jour <= outD && SPORTS[m.sport])
+    .sort((a, b) => (a.niveau || 2) - (b.niveau || 2) || a.debut.localeCompare(b.debut))
+    .slice(0, MAX_MATCHS)
+    .sort((a, b) => a.debut.localeCompare(b.debut))
+    .map((m) => {
+    const sp = SPORTS[m.sport];
+    const prix = GRANDS_MATCHS.test(m.competition) ? sp.prix * 2 : sp.prix;
+    const quand = `${fmtDay.format(new Date(`${m.jour}T12:00`))} à ${m.heure.replace(/:00$/, ' h').replace(':', ' h ')}`;
+    return {
+      id: `match-${m.id}`, match: true, club: m.domicile,
+      nom: `${m.domicile} – ${m.exterieur}`, emoji: sp.emoji, type: 'sport', quartier: m.stade,
+      lat: m.lat, lng: m.lng, prix, enfants: true,
+      prix_detail: [['Billet (selon le match et la place)', `environ ${prix} €`]],
+      tarifs: { adulte: prix, enfants: [], estimation: true },
+      reservation: 'conseille', reservation_delai: 'dès que possible, les grands matchs affichent vite complet',
+      duree: quand, moment: 'environ 2 h, arrivez une heure avant',
+      texte: `${sp.nom} · ${m.competition}. Un match a lieu pendant votre séjour : l'occasion de vivre l'ambiance d'un match avec les supporters locaux.`,
+      note: 'Prix estimé, et horaire qui peut encore changer : vérifiez sur la billetterie du club avant de réserver.',
+      lien_billets: `https://www.google.com/search?q=${encodeURIComponent(`billets ${m.domicile} ${m.exterieur}`)}`,
+    };
+  });
+  // Avec des dates, l'activité générique du club (« Match du Legia »…) disparaît : soit un vrai match
+  // la remplace, soit le club ne joue pas à domicile pendant le séjour.
+  guide.activites = guide.activites.filter((a) => !a.club);
+  if (!acts.length) return;
+  const i = guide.activites.findIndex((a) => a.type === 'sport');
+  guide.activites.splice(i < 0 ? guide.activites.length : i, 0, ...acts);
+}
+
+// ---------------------------------------------------------------------------
 // Liste des activités
 // ---------------------------------------------------------------------------
 function renderChips() {
@@ -240,7 +287,7 @@ function renderList() {
         <span class="v-act-main">
           <span class="v-act-name">${esc(a.nom)}</span>
           <span class="v-act-meta">${esc(TYPES[a.type] || '')} · ${esc(a.duree)}</span>
-          <span class="v-tags"><span class="tag tag-${a.reservation}">${BOOKING[a.reservation]}</span>${badgeTags(a.badges)}</span>
+          <span class="v-tags">${a.match ? '<span class="tag tag-match">📅 Pendant votre séjour</span>' : ''}<span class="tag tag-${a.reservation}">${BOOKING[a.reservation]}</span>${badgeTags(a.badges)}</span>
         </span>
         <span class="v-act-price">${priceLabel(a)}</span>
       </button>
@@ -369,6 +416,7 @@ function openSheet(id) {
       <button type="button" class="btn ${on ? 'btn-line' : 'btn-ink'}" id="a-toggle">${on ? '✓ Dans mon séjour · retirer' : '+ Ajouter à mon séjour'}</button>
       ${partner ? `<a class="btn btn-main" href="${esc(partner)}" target="_blank" rel="sponsored noopener">Réserver</a>` : ''}
       ${a.site_officiel ? `<a class="btn btn-line" href="${esc(a.site_officiel)}" target="_blank" rel="noopener">Site officiel</a>` : ''}
+      ${a.lien_billets ? `<a class="btn btn-line" href="${esc(a.lien_billets)}" target="_blank" rel="noopener">Trouver des billets</a>` : ''}
       ${partner ? '<p class="a-legal">Le bouton « Réserver » passe par notre partenaire : nous touchons une petite commission, sans frais en plus pour vous.</p>' : ''}
     </div>`);
   $('a-toggle').onclick = () => {
@@ -403,6 +451,7 @@ function openCredits() {
       <p class="c-item"><b>Carte</b>© OpenStreetMap contributors, OpenMapTiles, fond OpenFreeMap.</p>
       <p class="c-item"><b>Prix des activités</b>Relevés le ${esc(new Date(guide.verifie_le).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }))} sur les sites officiels et des guides récents. Ils peuvent changer : vérifiez avant de réserver.</p>
       <p class="c-item"><b>Prix des vols</b>Prix repérés par les voyageurs (Travelpayouts), mis à jour chaque matin.</p>
+      <p class="c-item"><b>Calendrier des matchs</b>SofaScore, mis à jour deux fois par semaine.</p>
     </div>`);
 }
 
@@ -444,11 +493,11 @@ async function setupMap() {
     const acts = guide.activites.filter((a) => a.lat && a.type !== 'nature');
     const bounds = new maplibregl.LngLatBounds();
     (chosenPlaces().length ? chosenPlaces() : acts).forEach((a) => bounds.extend([a.lng, a.lat]));
-    const { q } = currentQuartier();
-    if (q) bounds.extend([q.lng, q.lat]);
+    const { pt } = currentQuartier();
+    if (pt) bounds.extend([pt.lng, pt.lat]);
     map = new maplibregl.Map({
       container: 'v-map', style, bounds, fitBoundsOptions: { padding: 40, maxZoom: 15 },
-      attributionControl: false, dragRotate: false, pitchWithRotate: false, cooperativeGestures: true,
+      attributionControl: false, dragRotate: false, pitchWithRotate: false,
     });
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
@@ -518,25 +567,32 @@ function chosenPlaces() {
   return guide.activites.filter((a) => selected.has(a.id) && a.lat && a.type !== 'nature');
 }
 
+// Le milieu des activités n'est retenu que s'il tombe près d'un quartier du guide : sinon il
+// peut être dans le fleuve ou une zone sans hôtels (Belém + Alfama → docks d'Alcântara).
+const NEAR_Q_KM = 0.8;
+
+// Point conseillé pour dormir (pt) et quartier qui lui donne son nom et son texte (q).
 function idealQuartier() {
   const places = chosenPlaces();
   const qs = guide.quartiers || [];
   if (!qs.length) return null;
-  if (!places.length) return { q: qs[0], places, center: null };
+  if (!places.length) return { q: qs[0], pt: qs[0], places, exact: false };
   const center = { lat: places.reduce((s, p) => s + p.lat, 0) / places.length, lng: places.reduce((s, p) => s + p.lng, 0) / places.length };
-  // Le quartier qui a le plus d'activités à pied ; à égalité, le plus proche du centre des activités.
+  const nearest = qs.reduce((best, x) => (km(x, center) < km(best, center) ? x : best));
+  if (km(nearest, center) <= NEAR_Q_KM) return { q: nearest, pt: center, places, exact: true };
+  // Sinon : le quartier qui a le plus d'activités à pied ; à égalité, le plus proche du milieu.
   const score = (x) => places.filter((p) => km(p, x) <= WALK_KM).length;
   const q = qs.reduce((best, x) => {
     const d = score(x) - score(best);
     return d > 0 || (d === 0 && km(x, center) < km(best, center)) ? x : best;
   });
-  return { q, places, center };
+  return { q, pt: q, places, exact: false };
 }
 
 function currentQuartier() {
   const ideal = idealQuartier();
-  const q = (guide.quartiers || []).find((x) => x.id === quartierChoisi) || ideal?.q;
-  return { q, ideal };
+  const chosen = (guide.quartiers || []).find((x) => x.id === quartierChoisi);
+  return chosen ? { q: chosen, pt: chosen, ideal } : { q: ideal?.q, pt: ideal?.pt, ideal };
 }
 
 function stayDates() {
@@ -588,29 +644,31 @@ function setupHotel() {
 
 function renderHotel() {
   if (!guide.quartiers?.length) return;
-  const { q, ideal } = currentQuartier();
-  const isIdeal = q.id === ideal.q.id;
+  const { q, pt, ideal } = currentQuartier();
+  const isIdeal = !quartierChoisi;
   const n = ideal.places.length;
-  const near = ideal.places.filter((p) => km(p, q) <= WALK_KM).length;
-  const avg = n ? ideal.places.reduce((s, p) => s + km(p, q), 0) / n : 0;
+  const near = ideal.places.filter((p) => km(p, pt) <= WALK_KM).length;
+  const avg = n ? ideal.places.reduce((s, p) => s + km(p, pt), 0) / n : 0;
+  const best = isIdeal && n ? (ideal.exact ? 'Au milieu de vos activités' : 'Le plus proche de vos activités') : '';
   const why = !n
-    ? 'Cochez des activités : on calcule le quartier le plus proche de vos visites.'
+    ? 'Cochez des activités : on calcule le meilleur endroit pour dormir, au milieu de vos visites.'
     : near
       ? (n === 1 ? 'Votre activité est à moins de 20 min à pied.' : `${near} de vos ${n} activités à moins de 20 min à pied.`)
       : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : le métro vous y emmène vite.`;
   $('h-zone').innerHTML = `
     <div class="h-card">
-      <p class="h-q"><b>${esc(q.nom)}</b>${isIdeal && ideal.places.length ? '<span class="h-best">Le plus proche de vos activités</span>' : ''}</p>
+      <p class="h-q"><b>${isIdeal && ideal.exact && n ? 'Près de ' : ''}${esc(q.nom)}</b>${best ? `<span class="h-best">${best}</span>` : ''}</p>
       <p class="h-text">${esc(q.texte)}</p>
       <p class="h-why">${esc(why)}</p>
     </div>
     <div class="h-others" role="group" aria-label="Autres quartiers">
       <span>Autres quartiers :</span>
-      ${guide.quartiers.filter((x) => x.id !== q.id).map((x) => `<button type="button" class="h-other" data-q="${x.id === ideal.q.id ? 'ideal' : x.id}">${esc(x.nom)}</button>`).join('')}
+      ${isIdeal ? '' : `<button type="button" class="h-other" data-q="ideal">${ideal.exact && n ? 'Au milieu de mes activités' : esc(ideal.q.nom)}</button>`}
+      ${guide.quartiers.filter((x) => x.id !== q.id && (isIdeal || ideal.exact || x.id !== ideal.q.id)).map((x) => `<button type="button" class="h-other" data-q="${x.id}">${esc(x.nom)}</button>`).join('')}
     </div>`;
   $('h-gammes').innerHTML = GAMMES.map((g) => `
     <button type="button" class="h-gamme" data-g="${g.id}" aria-pressed="${g.id === hotel.gamme}"><b>${g.nom}</b><small>${g.sous}</small></button>`).join('');
-  renderHotels(q);
+  renderHotels({ nom: q.nom, lat: pt.lat, lng: pt.lng });
   drawZone();
 }
 
@@ -662,7 +720,7 @@ function bookingFallback(q, inD, outD, pax, g, why) {
 function drawZone() {
   const src = map?.getSource?.('zone');
   if (!src || !guide?.quartiers?.length) return;
-  const { q } = currentQuartier();
+  const { pt: q } = currentQuartier();
   const r = 1.0, pts = [];
   for (let i = 0; i <= 48; i++) {
     const t = (i / 48) * 2 * Math.PI;
@@ -725,7 +783,9 @@ function tierOf(h, t) {
 }
 
 function showHotels() {
-  const list = hotelResults.hotels;
+  // Les plus proches du point conseillé en premier.
+  const { pt } = currentQuartier();
+  const list = [...hotelResults.hotels].sort((a, b) => km(a, pt) - km(b, pt));
   const n = hotelResults.nights;
   const t = tiers(list);
   $('h-hotels').innerHTML = `<p class="h-found">${list.length} hôtel${list.length > 1 ? 's' : ''} trouvé${list.length > 1 ? 's' : ''} pour vos dates · prix total pour ${n} nuit${n > 1 ? 's' : ''}, ${esc(paxLabel(paxGet()))}</p>`;
@@ -734,7 +794,7 @@ function showHotels() {
   $('lg-high').textContent = `> ${Math.round(t.mid)} €/nuit`;
   $('v-legend').hidden = false;
   $('v-map-note').textContent = 'Touchez un prix pour voir l\'hôtel, ou un point pour voir l\'activité.';
-  $('h-list').innerHTML = list.slice(0, 20).map((h) => hotelCard(h, tierOf(h, t))).join('');
+  $('h-list').innerHTML = list.slice(0, 20).map((h) => hotelCard(h, tierOf(h, t), km(h, pt))).join('');
   $('h-list').onclick = (e) => {
     const b = e.target.closest('[data-hotel]');
     if (b) openHotel(b.dataset.hotel);
@@ -746,12 +806,13 @@ function starsTxt(s) {
   return s ? '★'.repeat(Math.round(s)) : '';
 }
 
-function hotelCard(h, tier) {
+function hotelCard(h, tier, dist) {
   const on = hotel.id === h.id;
+  const distTxt = dist < 0.95 ?`${Math.max(100, Math.round(dist * 10) * 100)} m` : `${dist.toFixed(1).replace('.', ',')} km`;
   return `
     <li><button type="button" class="h-item${on ? ' is-on' : ''}" data-hotel="${esc(h.id)}">
       ${h.photo ? `<img src="${esc(h.photo)}" alt="" loading="lazy">` : '<span class="h-noimg" aria-hidden="true">🏨</span>'}
-      <span class="h-item-main"><b>${esc(h.name)}</b><small>${starsTxt(h.stars)}${h.rating ? ` · ${String(h.rating).replace('.', ',')}/10` : ''}${on ? ' · ✓ choisi' : ''}</small></span>
+      <span class="h-item-main"><b>${esc(h.name)}</b><small>${starsTxt(h.stars)}${h.rating ? ` · ${String(h.rating).replace('.', ',')}/10` : ''} · à ${distTxt}${on ? ' · ✓ choisi' : ''}</small></span>
       <span class="h-item-price t-${tier}">${euro(h.total)}<small>${euro(Math.round(h.total / hotelResults.nights))}/nuit</small></span>
     </button></li>`;
 }
@@ -932,7 +993,7 @@ function show(n) {
 
 function totals() {
   const pax = paxGet();
-  const flight = trip ? trip.price * paxCount(pax) : 0;
+  const flight = trip ? trip.price * paxSeats(pax) : 0; // bébés sur les genoux : pas de place payée
   const acts = guide.activites.filter((a) => selected.has(a.id)).reduce((s, a) => s + groupCost(a, pax).total, 0);
   const hotelPrice = hotel.prix > 0 ? hotel.prix : 0;
   return { pax, flight, acts, hotelPrice, total: flight + acts + hotelPrice };
@@ -984,14 +1045,15 @@ function renderFlight(flights) {
   $('t-s1').textContent = `Votre vol pour ${cityName}`;
   const dur = trip.dur ? `${Math.floor(trip.dur / 60)} h ${String(trip.dur % 60).padStart(2, '0')}` : '';
   const day = (d) => fmtDay.format(new Date(`${d}T12:00`));
-  const n = paxCount(pax);
+  const n = paxSeats(pax);
+  const babies = paxCount(pax) - n;
   $('s1-flight').innerHTML = `
     <div class="f-card">
       <p class="f-route">${esc(origin.city)} → ${esc(cityName)} · vol direct${dur ? ` · ${dur}` : ''}</p>
       <div class="f-leg"><span><b>Aller</b> · ${esc(day(trip.out))}</span><strong>${trip.vo ? euro(trip.vo) : ''}</strong></div>
       ${trip.ret ? `<div class="f-leg"><span><b>Retour</b> · ${esc(day(trip.ret))}</span><strong>${trip.vr ? euro(trip.vr) : ''}</strong></div>` : ''}
-      <div class="f-leg f-sum"><span>${n} voyageur${n > 1 ? 's' : ''} × ${euro(trip.price)}</span><strong>${euro(trip.price * n)}</strong></div>
-      <p class="f-small">Prix repérés par les voyageurs ; le prix exact s'affiche au moment de réserver.</p>
+      <div class="f-leg f-sum"><span>${n} voyageur${n > 1 ? 's' : ''} × ${euro(trip.price)}${babies ? ` (+ ${babies > 1 ? `${babies} bébés` : 'bébé'} sur les genoux)` : ''}</span><strong>${euro(trip.price * n)}</strong></div>
+      <p class="f-small">Prix repérés par les voyageurs ; le prix exact s'affiche au moment de réserver.${babies ? ' Les bébés de moins de 2 ans voyagent sur les genoux, avec un petit supplément selon la compagnie.' : ''}</p>
       <a class="f-change" href="index.html">Changer de vol ou de dates</a>
     </div>`;
 }
@@ -1043,7 +1105,7 @@ function renderRecap() {
       : row('vol', false, '✈', 'Vol', 'pas encore choisi', '—', false),
     hotel.prix ? row('hotel', book.hotel, '🏨', esc(hotel.nom || 'Hôtel'), `${hotel.nuits || nights()} nuit${(hotel.nuits || nights()) > 1 ? 's' : ''}`, euro(t.hotelPrice))
       : row('hotel', false, '🏨', 'Hôtel', hotel.aucun ? 'vous avez déjà un logement' : 'pas choisi', '—', false),
-    acts.length ? row('acts', book.acts, '🎟', `${acts.length} activité${acts.length > 1 ? 's' : ''}`, esc(acts.map((a) => a.nom).join(', ')), euro(t.acts))
+    acts.length ? row('acts', book.acts, '🎟', `${acts.length} activité${acts.length > 1 ? 's' : ''}`, acts.map((a) => `– ${esc(a.nom)}`).join('<br>'), euro(t.acts))
       : row('acts', false, '🎟', 'Activités', 'aucune choisie', '—', false),
   ].join('');
 

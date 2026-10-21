@@ -1,0 +1,1690 @@
+{
+ "city_code": "LON",
+ "statut": "préparé en autonomie, prix estimés au 19/10/2026 (1 £ ≈ 1,15 €)",
+ "verifie_le": "2026-10-19",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "westminster",
+   "nom": "Big Ben et le Parlement",
+   "emoji": "🕰️",
+   "type": "balade",
+   "quartier": "Westminster",
+   "lat": 51.5007,
+   "lng": -0.1246,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade et vue depuis le pont de Westminster",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, depuis le pont ou la rive d'en face",
+   "enfants": true,
+   "texte": "La carte postale de Londres : la tour de Big Ben, le palais gothique du Parlement au bord de la Tamise, et la vue depuis le pont de Westminster. Traversez ensuite vers la rive sud pour la photo d'ensemble.",
+   "site_officiel": "https://www.parliament.uk/visiting/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "src": "img/activites/LON/westminster.jpg"
+   }
+  },
+  {
+   "id": "westminster-abbey",
+   "nom": "Abbaye de Westminster",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Westminster",
+   "lat": 51.4994,
+   "lng": -0.1273,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     35
+    ],
+    [
+     "6 à 17 ans",
+     15
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille ou quelques jours avant (moins cher et sans file)",
+   "duree": "1 h 30",
+   "moment": "À l'ouverture, en semaine (fermée aux visites le dimanche)",
+   "enfants": true,
+   "texte": "Mille ans de couronnements, de mariages royaux et de tombeaux de rois, de reines, de Newton et de Darwin. Les voûtes de la chapelle Henry VII sont parmi les plus belles d'Europe.",
+   "site_officiel": "https://www.westminster-abbey.org/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAbad%C3%ADa_de_Westminster%2C_Londres%2C_Inglaterra%2C_2022-11-23%2C_DD_67-69_HDR.jpg",
+    "src": "img/activites/LON/westminster-abbey.jpg"
+   }
+  },
+  {
+   "id": "buckingham",
+   "nom": "Relève de la garde à Buckingham",
+   "emoji": "💂",
+   "type": "culture",
+   "quartier": "Westminster",
+   "lat": 51.5014,
+   "lng": -0.1419,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Relève de la garde",
+     "gratuit"
+    ],
+    [
+     "Salons d'apparat (l'été seulement)",
+     "≈ 38 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Vers 10 h 30 pour une place devant les grilles (relève à 11 h, certains jours seulement)",
+   "enfants": true,
+   "texte": "Bonnets à poils, tuniques rouges et fanfare : la relève de la garde devant le palais de Buckingham, puis la balade dans St James's Park jusqu'au lac des pélicans.",
+   "site_officiel": "https://www.householddivision.org.uk/changing-the-guard-calendar",
+   "note": "La relève n'a pas lieu tous les jours : vérifiez le calendrier officiel la veille.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABand_of_the_Welsh_Guards%2C_Buckingham_Palace%2C_London_-_Diliff.jpg",
+    "src": "img/activites/LON/buckingham.jpg"
+   }
+  },
+  {
+   "id": "tower-of-london",
+   "nom": "Tour de Londres et joyaux de la Couronne",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Tower Hill",
+   "lat": 51.5081,
+   "lng": -0.0759,
+   "prix": 41,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     41
+    ],
+    [
+     "5 à 15 ans",
+     21
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 41,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      15,
+      21
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne quelques jours avant (moins cher qu'au guichet)",
+   "duree": "3 h",
+   "moment": "À l'ouverture : filez d'abord voir les joyaux de la Couronne, avant la file",
+   "enfants": true,
+   "texte": "Forteresse de Guillaume le Conquérant, prison royale et écrin des joyaux de la Couronne. Les gardiens « Beefeaters » racontent les exécutions et les corbeaux qui, dit-on, protègent le royaume.",
+   "site_officiel": "https://www.hrp.org.uk/tower-of-london/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Bob Collowan",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATower_of_London_viewed_from_the_River_Thames.jpg",
+    "src": "img/activites/LON/tower-of-london.jpg"
+   }
+  },
+  {
+   "id": "tower-bridge",
+   "nom": "Tower Bridge et sa passerelle de verre",
+   "emoji": "🌉",
+   "type": "vue",
+   "quartier": "Tower Hill",
+   "lat": 51.5055,
+   "lng": -0.0754,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Adulte",
+     17
+    ],
+    [
+     "5 à 15 ans",
+     8
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ],
+    [
+     "Traverser le pont à pied",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      15,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Quand le pont se lève pour laisser passer un bateau (horaires sur le site)",
+   "enfants": true,
+   "texte": "Le pont le plus célèbre du monde se visite : salles des machines victoriennes et passerelles hautes au plancher de verre, 42 m au-dessus de la Tamise et des bus rouges.",
+   "site_officiel": "https://www.towerbridge.org.uk/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "The Cosmonaut",
+    "licence": "CC BY-SA 2.5 CA",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATower_Bridge_golden_hour.jpg",
+    "src": "img/activites/LON/tower-bridge.jpg"
+   }
+  },
+  {
+   "id": "st-pauls",
+   "nom": "Cathédrale Saint-Paul",
+   "emoji": "🏛️",
+   "type": "vue",
+   "quartier": "City",
+   "lat": 51.5138,
+   "lng": -0.0984,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     30
+    ],
+    [
+     "6 à 17 ans",
+     13
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      13
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille (moins cher qu'au guichet)",
+   "duree": "2 h",
+   "moment": "Le matin, puis montée au dôme (528 marches) par temps clair",
+   "enfants": true,
+   "texte": "Le chef-d'œuvre de Christopher Wren, rebâti après le grand incendie de 1666. Montez les 528 marches : galerie des murmures, puis la Golden Gallery et sa vue à 360° sur la City.",
+   "site_officiel": "https://www.stpauls.co.uk/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Colin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASt_Paul%27s_Cathedral_Dome_from_One_New_Change.jpg",
+    "src": "img/activites/LON/st-pauls.jpg"
+   }
+  },
+  {
+   "id": "british-museum",
+   "nom": "British Museum",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Bloomsbury",
+   "lat": 51.5194,
+   "lng": -0.127,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "≈ 20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau gratuit en ligne conseillé, surtout le week-end et en vacances",
+   "duree": "3 h",
+   "moment": "À l'ouverture (10 h) ou le vendredi soir (ouvert jusqu'à 20 h 30)",
+   "enfants": true,
+   "texte": "La pierre de Rosette, les momies égyptiennes, les marbres du Parthénon et la grande cour couverte de verre : deux millions d'années d'histoire, et l'entrée est gratuite.",
+   "site_officiel": "https://www.britishmuseum.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABritish_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg",
+    "src": "img/activites/LON/british-museum.jpg"
+   }
+  },
+  {
+   "id": "national-gallery",
+   "nom": "National Gallery et Trafalgar Square",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Trafalgar Square",
+   "lat": 51.5089,
+   "lng": -0.1283,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En semaine, le matin ; le vendredi soir jusqu'à 21 h",
+   "enfants": true,
+   "texte": "Les Tournesols de Van Gogh, les Nymphéas de Monet, Vermeer, Turner et Léonard de Vinci, gratuitement, sur la place de Trafalgar et sa colonne de Nelson.",
+   "site_officiel": "https://www.nationalgallery.org.uk/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "mattbuck",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALondon_MMB_29_Trafalgar_Square.jpg",
+    "src": "img/activites/LON/national-gallery.jpg"
+   }
+  },
+  {
+   "id": "natural-history",
+   "nom": "Muséum d'histoire naturelle",
+   "emoji": "🦕",
+   "type": "culture",
+   "quartier": "South Kensington",
+   "lat": 51.4967,
+   "lng": -0.1764,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau gratuit en ligne pour éviter la file, surtout le week-end",
+   "duree": "2 h 30",
+   "moment": "À l'ouverture, en semaine (file très longue le week-end)",
+   "enfants": true,
+   "texte": "Une cathédrale de la science : la baleine bleue suspendue dans le grand hall, les dinosaures et le tremblement de terre à vivre. Le préféré des enfants, gratuit.",
+   "site_officiel": "https://www.nhm.ac.uk/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "APK",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHintze_Hall%2C_Natural_History_Museum%2C_London_-_1.jpg",
+    "src": "img/activites/LON/natural-history.jpg"
+   }
+  },
+  {
+   "id": "tate-modern",
+   "nom": "Tate Modern et Millennium Bridge",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "South Bank",
+   "lat": 51.5076,
+   "lng": -0.0994,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Collections",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "≈ 25 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "L'après-midi, puis la terrasse du 10e étage au coucher du soleil",
+   "enfants": true,
+   "texte": "Une ancienne centrale électrique devenue musée d'art moderne : Picasso, Warhol, Rothko, et la terrasse gratuite du 10e étage face à Saint-Paul, de l'autre côté de la passerelle.",
+   "site_officiel": "https://www.tate.org.uk/visit/tate-modern",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "The wub",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATate_Modern_and_Millennium_Bridge_2025-09-20.jpg",
+    "src": "img/activites/LON/tate-modern.jpg"
+   }
+  },
+  {
+   "id": "london-eye",
+   "nom": "London Eye",
+   "emoji": "🎡",
+   "type": "vue",
+   "quartier": "South Bank",
+   "lat": 51.5033,
+   "lng": -0.1196,
+   "prix": 38,
+   "prix_detail": [
+    [
+     "Adulte (en ligne, selon le jour)",
+     "dès ≈ 38 €"
+    ],
+    [
+     "3 à 15 ans",
+     "≈ 33 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 38,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      15,
+      33
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (moins cher, et créneau horaire garanti)",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, en semaine",
+   "enfants": true,
+   "texte": "La grande roue de 135 m face à Big Ben : 30 minutes dans une capsule de verre pour voir tout Londres d'un coup d'œil, jusqu'au château de Windsor par temps clair.",
+   "site_officiel": "https://www.londoneye.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Rhododendrites",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALondon_Eye_%2800776p%29.jpg",
+    "src": "img/activites/LON/london-eye.jpg"
+   }
+  },
+  {
+   "id": "sky-garden",
+   "nom": "Sky Garden",
+   "emoji": "🌿",
+   "type": "vue",
+   "quartier": "City",
+   "lat": 51.5113,
+   "lng": -0.0835,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billets gratuits mis en ligne environ 3 semaines avant, partis en quelques heures pour le coucher du soleil",
+   "duree": "1 h",
+   "moment": "En fin de journée pour le coucher du soleil",
+   "enfants": true,
+   "texte": "Un jardin tropical sous une verrière, au 35e étage du « Talkie-Walkie » : terrasse, bar et vue sur la Tamise, Tower Bridge et le Shard, gratuitement.",
+   "site_officiel": "https://skygarden.london/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Colin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Sky_Garden.jpg",
+    "src": "img/activites/LON/sky-garden.jpg"
+   }
+  },
+  {
+   "id": "horizon-22",
+   "nom": "Horizon 22",
+   "emoji": "🏙️",
+   "type": "vue",
+   "quartier": "City",
+   "lat": 51.5146,
+   "lng": -0.0822,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "créneaux gratuits mis en ligne environ 2 semaines avant",
+   "duree": "45 min",
+   "moment": "Par temps clair, en fin d'après-midi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus haut belvédère gratuit d'Europe, à 254 m, au 58e étage d'une tour de la City : baies vitrées du sol au plafond et vue plongeante sur le Gherkin et la Tamise.",
+   "site_officiel": "https://horizon22.co.uk/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Matt Brown",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APanorama_of_Horizon_22.jpg",
+    "src": "img/activites/LON/horizon-22.jpg"
+   }
+  },
+  {
+   "id": "churchill-war-rooms",
+   "nom": "Churchill War Rooms",
+   "emoji": "🎖️",
+   "type": "culture",
+   "quartier": "Westminster",
+   "lat": 51.5022,
+   "lng": -0.1291,
+   "prix": 38,
+   "prix_detail": [
+    [
+     "Adulte",
+     38
+    ],
+    [
+     "5 à 15 ans",
+     19
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 38,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      15,
+      19
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau horaire en ligne 1 à 2 jours avant",
+   "duree": "2 h",
+   "moment": "À l'ouverture (les couloirs sont étroits et vite bondés)",
+   "enfants": true,
+   "texte": "Le bunker secret d'où Churchill a dirigé la guerre, resté tel quel en 1945 : cartes punaisées, téléphones, chambre du Premier ministre, et un musée de sa vie.",
+   "site_officiel": "https://www.iwm.org.uk/visits/churchill-war-rooms",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jordiferrer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChurchill_Cabinet_War_Rooms_01.jpg",
+    "src": "img/activites/LON/churchill-war-rooms.jpg"
+   }
+  },
+  {
+   "id": "camden",
+   "nom": "Camden Market",
+   "emoji": "🎸",
+   "type": "balade",
+   "quartier": "Camden",
+   "lat": 51.5415,
+   "lng": -0.146,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans le marché",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le week-end pour l'ambiance, en semaine pour flâner",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Punk, vintage et canal : les écuries victoriennes de Camden Lock abritent des centaines de stands de fripes, de vinyles et de créateurs, au bord du Regent's Canal.",
+   "site_officiel": "https://www.camdenmarket.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Iulianu",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChalk_Farm_Road_near_Camden_Lock_Market_16_April_2005.jpg",
+    "src": "img/activites/LON/camden.jpg"
+   }
+  },
+  {
+   "id": "notting-hill",
+   "nom": "Notting Hill et Portobello Road",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Notting Hill",
+   "lat": 51.515,
+   "lng": -0.205,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le samedi matin, jour du grand marché aux antiquités",
+   "enfants": true,
+   "texte": "Les maisons couleur bonbon du film « Coup de foudre à Notting Hill », les brocanteurs de Portobello Road et les petites rues fleuries : le Londres le plus photogénique.",
+   "site_officiel": "https://www.visitlondon.com/things-to-do/place/437451-portobello-road-market",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bex Walton",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AColourful_houses_in_Lancaster_Road%2C_Notting_Hill_-_2020-07-05.jpg",
+    "src": "img/activites/LON/notting-hill.jpg"
+   }
+  },
+  {
+   "id": "covent-garden",
+   "nom": "Covent Garden et Soho",
+   "emoji": "🎭",
+   "type": "balade",
+   "quartier": "Covent Garden",
+   "lat": 51.5117,
+   "lng": -0.124,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, avant un spectacle",
+   "enfants": true,
+   "texte": "La halle de verre et ses artistes de rue, Neal's Yard et ses façades colorées, puis Soho, Chinatown et Carnaby Street : le cœur vivant de Londres, à pied.",
+   "site_officiel": "https://www.coventgarden.london/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALondon%2C_Covent_Garden_--_2016_--_4878.jpg",
+    "src": "img/activites/LON/covent-garden.jpg"
+   }
+  },
+  {
+   "id": "shoreditch",
+   "nom": "Shoreditch, Brick Lane et le street art",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Shoreditch",
+   "lat": 51.5237,
+   "lng": -0.075,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le dimanche, jour des marchés de Brick Lane et de Columbia Road",
+   "enfants": true,
+   "texte": "Le quartier créatif de l'Est : murs peints par les meilleurs graffeurs, friperies, marchés du dimanche et bars branchés dans d'anciens entrepôts.",
+   "site_officiel": "https://www.visitlondon.com/things-to-do/london-areas/shoreditch",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Robert Lamb",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_street_art_on_the_old_Shoreditch_tube_station_building_from_Pedley_Street_-_geograph.org.uk_-_5167206.jpg",
+    "src": "img/activites/LON/shoreditch.jpg"
+   }
+  },
+  {
+   "id": "hyde-park",
+   "nom": "Hyde Park et Kensington Gardens",
+   "emoji": "🌳",
+   "type": "nature",
+   "quartier": "Hyde Park",
+   "lat": 51.505,
+   "lng": -0.165,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Barque ou pédalo sur la Serpentine (l'été)",
+     "≈ 18 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin ou en fin de journée, au printemps et en été",
+   "enfants": true,
+   "texte": "142 hectares de pelouses en plein Londres : le lac de la Serpentine et ses pédalos, les écureuils, le palais de Kensington et le jardin de Peter Pan.",
+   "site_officiel": "https://www.royalparks.org.uk/visit/parks/hyde-park",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mike Peel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAt_Hyde_Park_2023_025.jpg",
+    "src": "img/activites/LON/hyde-park.jpg"
+   }
+  },
+  {
+   "id": "primrose-hill",
+   "nom": "Primrose Hill",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Primrose Hill",
+   "lat": 51.5394,
+   "lng": -0.16,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, avec un pique-nique",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La colline préférée des Londoniens, au nord de Regent's Park : toute la ville s'étale à vos pieds, du Shard à Saint-Paul. À combiner avec Camden, à 15 minutes à pied.",
+   "site_officiel": "https://www.royalparks.org.uk/visit/parks/primrose-hill",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Duncan",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALondon_from_Primrose_Hill_May_2013.jpg",
+    "src": "img/activites/LON/primrose-hill.jpg"
+   }
+  },
+  {
+   "id": "st-dunstan",
+   "nom": "Église en ruine de St Dunstan in the East",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "City",
+   "lat": 51.5097,
+   "lng": -0.083,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Le matin en semaine, avant les photographes",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une église bombardée en 1941, envahie par la vigne vierge et les palmiers : un jardin secret entre les tours de verre de la City, à 5 minutes de la Tour de Londres.",
+   "site_officiel": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/city-gardens",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bryn Holmes",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASt_Dunstan_in_the_East_Church_Garden%2C_St_Dunstan%27s_Hill_-_geograph.org.uk_-_7404228.jpg",
+    "src": "img/activites/LON/st-dunstan.jpg"
+   }
+  },
+  {
+   "id": "greenwich",
+   "nom": "Greenwich et le méridien",
+   "emoji": "🧭",
+   "type": "culture",
+   "quartier": "Greenwich",
+   "lat": 51.4769,
+   "lng": -0.0005,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Observatoire royal (méridien)",
+     25
+    ],
+    [
+     "4 à 15 ans",
+     13
+    ],
+    [
+     "Parc, musée maritime et vue",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      15,
+      13
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une demi-journée",
+   "moment": "En arrivant en bateau par la Tamise, puis la vue du haut du parc au coucher du soleil",
+   "enfants": true,
+   "texte": "Un pied à l'est, un pied à l'ouest sur le méridien zéro, puis la plus belle vue sur les gratte-ciel de Canary Wharf depuis le parc royal. Le voilier Cutty Sark vous attend en bas.",
+   "site_officiel": "https://www.rmg.co.uk/royal-observatory",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALondon%2C_Greenwich%2C_Blick_vom_H%C3%BCgel_des_Royal_Greenwich_Observatory_--_2016_--_4736-8.jpg",
+    "src": "img/activites/LON/greenwich.jpg"
+   }
+  },
+  {
+   "id": "kew",
+   "nom": "Jardins botaniques de Kew",
+   "emoji": "🌺",
+   "type": "nature",
+   "quartier": "Kew",
+   "lat": 51.4787,
+   "lng": -0.2955,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Adulte (selon la saison)",
+     "≈ 25 €"
+    ],
+    [
+     "4 à 15 ans",
+     "≈ 8 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      15,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "en ligne pour un prix un peu plus bas",
+   "duree": "Une demi-journée",
+   "moment": "Au printemps ou en été, par beau temps",
+   "enfants": true,
+   "texte": "Les jardins botaniques les plus célèbres du monde : la grande serre victorienne aux palmiers géants, la passerelle dans la cime des arbres et la pagode chinoise.",
+   "site_officiel": "https://www.kew.org/kew-gardens",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Daniel Case",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlantings_behind_Palm_House%2C_Kew_Gardens.jpg",
+    "src": "img/activites/LON/kew.jpg"
+   }
+  },
+  {
+   "id": "warner-bros",
+   "nom": "Studios Harry Potter (Warner Bros.)",
+   "emoji": "⚡",
+   "type": "sortir",
+   "quartier": "Leavesden",
+   "lat": 51.6904,
+   "lng": -0.4181,
+   "prix": 65,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 65 €"
+    ],
+    [
+     "5 à 15 ans",
+     "≈ 52 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ],
+    [
+     "Train Euston → Watford Junction, puis navette",
+     "≈ 20 € aller-retour"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 65,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      15,
+      52
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant (souvent complet, aucun billet vendu sur place)",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, en comptant 1 h de trajet depuis le centre",
+   "enfants": true,
+   "texte": "Les vrais décors des huit films : la Grande Salle de Poudlard, le Chemin de Traverse, le Poudlard Express et la maquette géante du château. Magique, même pour les adultes.",
+   "site_officiel": "https://www.wbstudiotour.co.uk/",
+   "note": "Achetez uniquement sur le site officiel : les revendeurs vendent plus cher.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ank Kumar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_making_of_Harry_Potter%2C_Warner_Bros_Studio%2C_London%28Ank_Kumar%29_05.jpg",
+    "src": "img/activites/LON/warner-bros.jpg"
+   }
+  },
+  {
+   "id": "comedie-musicale",
+   "nom": "Comédie musicale dans le West End",
+   "emoji": "🎶",
+   "type": "sortir",
+   "quartier": "West End",
+   "lat": 51.5118,
+   "lng": -0.1318,
+   "prix": 60,
+   "prix_detail": [
+    [
+     "Billet (selon le spectacle et la place)",
+     "≈ 35 à 120 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 60,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours à quelques semaines avant ; billets du jour au kiosque TKTS de Leicester Square",
+   "duree": "2 h 30",
+   "moment": "Le soir (19 h 30) ou en matinée le mercredi et le samedi",
+   "enfants": true,
+   "texte": "Le Roi Lion, Les Misérables, Wicked, Mamma Mia ! : Londres est la capitale mondiale de la comédie musicale, dans des théâtres victoriens tout en dorures.",
+   "site_officiel": "https://officiallondontheatre.com/",
+   "note": "Le kiosque TKTS de Leicester Square vend les places du jour moins cher.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Mark Kobayashi-Hillary",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AShaftesbury_Avenue%2C_London.jpg",
+    "src": "img/activites/LON/comedie-musicale.jpg"
+   }
+  },
+  {
+   "id": "tamise-bateau",
+   "nom": "La Tamise en bateau",
+   "emoji": "⛴️",
+   "type": "balade",
+   "quartier": "Tamise",
+   "lat": 51.5019,
+   "lng": -0.1233,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Trajet en bateau-bus (Uber Boat), selon la distance",
+     "≈ 6 à 15 €"
+    ],
+    [
+     "5 à 15 ans",
+     "moitié prix"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      15,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "De Westminster à Greenwich, en fin d'après-midi",
+   "enfants": true,
+   "texte": "Le bateau-bus rapide glisse sous Tower Bridge, devant le Parlement, Saint-Paul et le Shard : la plus belle façon d'aller à Greenwich, au prix d'un ticket de transport.",
+   "site_officiel": "https://www.thamesclippers.com/",
+   "note": "Payez avec votre carte bancaire sans contact, comme dans le métro.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Acabashi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGalaxy_Clipper_MBNA_Thames_Clippers%2C_east_of_Millenium_Bridge%2C_River_Thames.jpg",
+    "src": "img/activites/LON/tamise-bateau.jpg"
+   }
+  },
+  {
+   "id": "arsenal",
+   "nom": "Match d'Arsenal à l'Emirates Stadium",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Highbury",
+   "lat": 51.5549,
+   "lng": -0.1084,
+   "prix": 90,
+   "prix_detail": [
+    [
+     "Billet de Premier League",
+     "≈ 60 à 150 €"
+    ],
+    [
+     "Visite du stade",
+     "≈ 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 90,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente : les places sont d'abord réservées aux abonnés et membres du club",
+   "duree": "3 h",
+   "moment": "Soirs de match ; sinon la visite du stade et du vestiaire",
+   "enfants": true,
+   "club": "Arsenal",
+   "texte": "60 000 supporters en rouge et blanc dans l'un des plus beaux stades d'Europe : la Premier League, c'est le meilleur football du monde, à vivre au moins une fois.",
+   "site_officiel": "https://www.arsenal.com/tickets",
+   "note": "Achetez sur le site officiel du club (revente officielle) : méfiez-vous des revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ed g2s",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEmirates_Stadium_-_East_stand_Club_Level.jpg",
+    "src": "img/activites/LON/arsenal.jpg"
+   }
+  },
+  {
+   "id": "windsor",
+   "nom": "Château de Windsor",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Windsor",
+   "lat": 51.4839,
+   "lng": -0.6044,
+   "prix": 37,
+   "prix_detail": [
+    [
+     "Adulte",
+     37
+    ],
+    [
+     "5 à 17 ans",
+     19
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ],
+    [
+     "Train depuis Waterloo ou Paddington",
+     "≈ 20 € aller-retour"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 37,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      19
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (le château ferme parfois pour les visites officielles)",
+   "duree": "Une journée",
+   "moment": "En semaine ; fermé certains jours (vérifiez le calendrier)",
+   "enfants": true,
+   "texte": "Le plus ancien château habité du monde, résidence du roi : grands appartements, chapelle Saint-Georges et relève de la garde, à 40 minutes de train de Londres.",
+   "site_officiel": "https://www.rct.uk/visit/windsor-castle",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ввласенко",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKing_George_IV_Gate_in_the_South_Wing_of_Castle._Windsor%2C_UK.jpg",
+    "src": "img/activites/LON/windsor.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "covent-garden",
+   "nom": "Covent Garden et West End",
+   "lat": 51.5117,
+   "lng": -0.124,
+   "texte": "Le cœur de Londres, tout à pied : théâtres, restaurants, Soho et Trafalgar Square. Le meilleur choix pour un premier séjour, mais le plus cher."
+  },
+  {
+   "id": "south-bank",
+   "nom": "South Bank et Southwark",
+   "lat": 51.5045,
+   "lng": -0.1,
+   "texte": "La rive sud de la Tamise : London Eye, Tate Modern, Borough Market et Tower Bridge à pied, avec une balade au bord de l'eau chaque soir."
+  },
+  {
+   "id": "south-kensington",
+   "nom": "South Kensington",
+   "lat": 51.4941,
+   "lng": -0.174,
+   "texte": "Chic et calme, à deux pas des grands musées gratuits et de Hyde Park. Idéal en famille."
+  },
+  {
+   "id": "shoreditch",
+   "nom": "Shoreditch",
+   "lat": 51.5255,
+   "lng": -0.079,
+   "texte": "Le Londres branché : street art, bars, marchés du dimanche et hôtels design souvent moins chers qu'au centre. Animé le soir."
+  },
+  {
+   "id": "kings-cross",
+   "nom": "King's Cross",
+   "lat": 51.532,
+   "lng": -0.124,
+   "texte": "Le quartier des gares, rénové et pratique : métro vers tout Londres, canal, Coal Drops Yard, et le quai 9 3/4 de Harry Potter."
+  }
+ ],
+ "hotel_petit_prix_max": 140,
+ "restaurants": [
+  {
+   "id": "borough-market",
+   "nom": "Borough Market",
+   "emoji": "🧺",
+   "gamme": "petit",
+   "genre": "Marché gourmand",
+   "quartier": "Southwark",
+   "adresse": "8 Southwark St, London SE1 1TL",
+   "lat": 51.5055,
+   "lng": -0.0904,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le plus vieux marché alimentaire de Londres, sous ses verrières victoriennes : raclette, huîtres, sandwichs au bœuf rôti, beignets de Bread Ahead… On grignote d'étal en étal.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez avant midi, en semaine (fermé le lundi pour une partie des stands)",
+   "photo": {
+    "auteur": "Jeremy Keith",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABorough_Market_%284701274756%29.jpg",
+    "src": "img/restos/LON/borough-market.jpg"
+   }
+  },
+  {
+   "id": "padella",
+   "nom": "Padella",
+   "emoji": "🍝",
+   "gamme": "petit",
+   "genre": "Pâtes fraîches",
+   "quartier": "Southwark",
+   "adresse": "6 Southwark St, London SE1 1TQ",
+   "lat": 51.5051,
+   "lng": -0.0899,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Des pâtes fraîches roulées à la main sous vos yeux, à petit prix : les pici cacio e pepe et la pappardelle au ragoût de bœuf font la queue devant la porte tous les jours.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file d'attente virtuelle sur place, à l'ouverture pour passer vite",
+   "photo": {
+    "auteur": "Roy Katzenberg",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APadella%2C_Southwark_Street.jpg",
+    "src": "img/restos/LON/padella.jpg"
+   }
+  },
+  {
+   "id": "bao-soho",
+   "nom": "BAO Soho",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Brioches vapeur taïwanaises",
+   "quartier": "Soho",
+   "adresse": "53 Lexington St, London W1F 9AS",
+   "lat": 51.5132,
+   "lng": -0.1365,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Les petits pains vapeur moelleux garnis de porc braisé ou de poulet frit qui ont lancé la mode du bao à Londres, dans une petite salle en bois toujours pleine.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture ou attendez 20 à 40 min",
+   "photo": {
+    "auteur": "City Foodsters",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APork_Belly_Steamed_Buns_-_Duroc_pork_belly%2C_cilantro%2C_scallions%2C_radish%2C_boiled_egg%2C_Chinese_black_vinaigrette%2C_hoisin_BBQ_sauce_-_10065043266.jpg",
+    "src": "img/restos/LON/bao-soho.jpg"
+   }
+  },
+  {
+   "id": "regency-cafe",
+   "nom": "Regency Cafe",
+   "emoji": "🍳",
+   "gamme": "petit",
+   "genre": "Petit-déjeuner anglais",
+   "quartier": "Westminster",
+   "adresse": "17-19 Regency St, London SW1P 4BY",
+   "lat": 51.494,
+   "lng": -0.1321,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un café ouvrier de 1946 resté dans son jus, carrelage noir et rideaux vichy, où l'on sert le vrai full English breakfast : œufs, bacon, saucisses, haricots et pain grillé.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on commande au comptoir, le serveur crie votre plat quand il est prêt (fermé le dimanche)",
+   "photo": {
+    "auteur": "The wub",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARegency_Cafe%2C_Westminster_%281%29.jpg",
+    "src": "img/restos/LON/regency-cafe.jpg"
+   }
+  },
+  {
+   "id": "beigel-bake",
+   "nom": "Beigel Bake",
+   "emoji": "🥯",
+   "gamme": "petit",
+   "genre": "Bagels au bœuf salé",
+   "quartier": "Brick Lane",
+   "adresse": "159 Brick Ln, London E1 6SB",
+   "lat": 51.5245,
+   "lng": -0.0718,
+   "prix": "3 à 10 €",
+   "prix_min": 3,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La boulangerie juive de Brick Lane, ouverte 24 h sur 24 : le bagel au bœuf salé tranché à la main et à la moutarde forte est une légende de l'East End.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : la file avance très vite, même à 3 h du matin",
+   "photo": {
+    "auteur": "Bex Walton",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABeigel_Bake%2C_Brick_Lane_%2833936265604%29.jpg",
+    "src": "img/restos/LON/beigel-bake.jpg"
+   }
+  },
+  {
+   "id": "golden-hind",
+   "nom": "The Golden Hind",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Fish and chips",
+   "quartier": "Marylebone",
+   "adresse": "73 Marylebone Ln, London W1U 2PN",
+   "lat": 51.518,
+   "lng": -0.151,
+   "prix": "18 à 28 €",
+   "prix_min": 18,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une friterie de poisson ouverte en 1914, avec son vieux fourneau d'époque : cabillaud en pâte croustillante, frites épaisses et purée de petits pois, comme il se doit.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir (petite salle) ; fermé le dimanche",
+   "photo": {
+    "auteur": "Tatty (Wikipédia)",
+    "licence": "Copyrighted free use",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFish%2C_chips_%26_mushy_peas.JPG",
+    "src": "img/restos/LON/golden-hind.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dishoom",
+   "nom": "Dishoom Covent Garden",
+   "emoji": "🍛",
+   "gamme": "moyen",
+   "genre": "Café indien de Bombay",
+   "quartier": "Covent Garden",
+   "adresse": "12 Upper St Martin's Ln, London WC2H 9FB",
+   "lat": 51.5124,
+   "lng": -0.1269,
+   "prix": "30 à 40 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Le restaurant préféré des Londoniens, inspiré des vieux cafés iraniens de Bombay : naan au bacon le matin, poulet ruby et dal noir mijoté 24 h le soir.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation possible avant 17 h 45 seulement ; ensuite, file d'attente sur place (30 à 60 min)",
+   "photo": {
+    "auteur": "Scott Dexter",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADishoom_breakfast.jpg",
+    "src": "img/restos/LON/dishoom.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kiln",
+   "nom": "Kiln",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Grill thaïlandais",
+   "quartier": "Soho",
+   "adresse": "58 Brewer St, London W1F 9TL",
+   "lat": 51.5114,
+   "lng": -0.136,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Assis au comptoir, face aux flammes : des plats du nord de la Thaïlande cuits au feu de bois, épicés et parfumés, dans une ambiance de bistrot animé.",
+   "reservation": "sur_place",
+   "reservation_delai": "peu de réservations : venez tôt (avant 18 h) ou attendez au bar",
+   "photo": {
+    "auteur": "Pattaya Patrol",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADFC_5235-_Charcoal-grilled_skewers_of_juicy%2C_marinated_chicken_sizzling_to_a_perfect_caramelized_finish.jpg",
+    "src": "img/restos/LON/kiln.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fallow",
+   "nom": "Fallow",
+   "emoji": "🌽",
+   "gamme": "moyen",
+   "genre": "Cuisine britannique anti-gaspi",
+   "quartier": "St James's",
+   "adresse": "52 Haymarket, London SW1Y 4RP",
+   "lat": 51.5094,
+   "lng": -0.1327,
+   "prix": "45 à 60 €",
+   "prix_min": 45,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le restaurant le plus partagé de Londres : épis de maïs grillés façon travers, tête de cabillaud entière, champignons cultivés sur place, avec une cuisine qui ne jette rien.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 semaines avant pour le week-end",
+   "photo": {
+    "auteur": "Rccn",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFallow_entrance.jpg",
+    "src": "img/restos/LON/fallow.jpg"
+   }
+  },
+  {
+   "id": "blacklock",
+   "nom": "Blacklock Soho",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Rôti du dimanche et grillades",
+   "quartier": "Soho",
+   "adresse": "24 Great Windmill St, London W1D 7LG",
+   "lat": 51.5118,
+   "lng": -0.1346,
+   "prix": "40 à 55 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Dans une ancienne cave de Soho, le meilleur rôti du dimanche de Londres : bœuf, porc et agneau, Yorkshire puddings et sauce à volonté. En semaine, des côtelettes grillées.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 semaines avant pour le dimanche",
+   "photo": {
+    "auteur": "Jeremy Keith",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASunday_roast_-_roast_beef_1.jpg",
+    "src": "img/restos/LON/blacklock.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "wolseley",
+   "nom": "The Wolseley",
+   "emoji": "☕",
+   "gamme": "moyen",
+   "genre": "Grand café",
+   "quartier": "Piccadilly",
+   "adresse": "160 Piccadilly, London W1J 9EB",
+   "lat": 51.5074,
+   "lng": -0.1409,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une ancienne salle d'exposition automobile devenue grand café viennois, colonnes et lustres compris : le petit-déjeuner ou le thé de l'après-midi le plus chic de Londres, sans se ruiner.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (le petit-déjeuner se réserve aussi)",
+   "photo": {
+    "auteur": "Michaelmas1957",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWolseleyRestaurantInterior2014.jpg",
+    "src": "img/restos/LON/wolseley.jpg"
+   }
+  },
+  {
+   "id": "berenjak",
+   "nom": "Berenjak Soho",
+   "emoji": "🍢",
+   "gamme": "moyen",
+   "genre": "Grill persan",
+   "quartier": "Soho",
+   "adresse": "27 Romilly St, London W1D 5AL",
+   "lat": 51.513,
+   "lng": -0.1308,
+   "prix": "35 à 50 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Un grill de rue de Téhéran en plein Soho : kebabs au charbon de bois, pains chauds sortis du four en argile, houmous et yaourts aux herbes, à partager.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Roozitaa",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKabab_koobideh_2012.10.jpg",
+    "src": "img/restos/LON/berenjak.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sketch",
+   "nom": "Sketch",
+   "emoji": "🎀",
+   "gamme": "haut",
+   "genre": "Thé de l'après-midi et haute gastronomie",
+   "quartier": "Mayfair",
+   "adresse": "9 Conduit St, London W1S 2XG",
+   "lat": 51.5127,
+   "lng": -0.1415,
+   "prix": "80 à 120 €",
+   "prix_min": 80,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin (The Lecture Room)",
+   "texte": "Une maison du XVIIIe siècle transformée en terrain de jeu artistique : le thé de l'après-midi dans la célèbre salle rose, et à l'étage une table trois étoiles. Ne manquez pas les toilettes en œufs !",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant pour le thé de l'après-midi",
+   "photo": {
+    "auteur": "Robert Lamb",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_the_dog_statue_on_the_wall_of_the_Sketch_tea_room-cocktail_bar_on_Conduit_Street_-_geograph.org.uk_-_5200254.jpg",
+    "src": "img/restos/LON/sketch.jpg"
+   }
+  },
+  {
+   "id": "rules",
+   "nom": "Rules",
+   "emoji": "🦌",
+   "gamme": "haut",
+   "genre": "Cuisine britannique traditionnelle",
+   "quartier": "Covent Garden",
+   "adresse": "35 Maiden Ln, London WC2E 7LB",
+   "lat": 51.5108,
+   "lng": -0.1232,
+   "prix": "70 à 100 €",
+   "prix_min": 70,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le plus vieux restaurant de Londres, ouvert en 1798 : banquettes de velours rouge, gibier de ses propres terres et tourtes au bœuf, là où ont dîné Dickens et Chaplin.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, une semaine pour le week-end",
+   "photo": {
+    "auteur": "Neil Theasby",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARules_Restaurant%2C_Maiden_Lane%2C_London_-_geograph.org.uk_-_7233905.jpg",
+    "src": "img/restos/LON/rules.jpg"
+   }
+  },
+  {
+   "id": "duck-waffle",
+   "nom": "Duck & Waffle",
+   "emoji": "🦆",
+   "gamme": "haut",
+   "genre": "Brasserie panoramique",
+   "quartier": "City",
+   "adresse": "110 Bishopsgate, London EC2N 4AY",
+   "lat": 51.5163,
+   "lng": -0.0809,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Au 40e étage d'une tour de la City, ouvert jour et nuit : on y mange la gaufre au confit de canard et à l'œuf, face à toute la ville illuminée. L'ascenseur vitré vaut déjà le détour.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant, surtout pour le coucher du soleil",
+   "photo": {
+    "auteur": "Acabashi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABishopsgate_Heron_Tower_City_of_London_England_01.jpg",
+    "src": "img/restos/LON/duck-waffle.jpg"
+   }
+  },
+  {
+   "id": "ledbury",
+   "nom": "The Ledbury",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Haute gastronomie",
+   "quartier": "Notting Hill",
+   "adresse": "127 Ledbury Rd, London W11 2AQ",
+   "lat": 51.5167,
+   "lng": -0.2001,
+   "prix": "menu dégustation ≈ 330 €",
+   "prix_min": 330,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "La grande table de Notting Hill, trois étoiles Michelin : le chef Brett Graham y sublime le gibier et les produits de sa ferme, dans une salle chaleureuse et sans chichis.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant (ouverture des réservations en ligne)",
+   "photo": {
+    "auteur": "Roger Davies",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Ledbury_on_Ledbury_Road_in_Notting_Hill_-_geograph.org.uk_-_4016926.jpg",
+    "src": "img/restos/LON/ledbury.jpg"
+   }
+  },
+  {
+   "id": "brat",
+   "nom": "Brat",
+   "emoji": "🐠",
+   "gamme": "haut",
+   "genre": "Poissons grillés au feu de bois",
+   "quartier": "Shoreditch",
+   "adresse": "4 Redchurch St, London E1 6JL",
+   "lat": 51.5243,
+   "lng": -0.0767,
+   "prix": "70 à 110 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Au-dessus d'un vieux pub de Shoreditch, des poissons entiers grillés à la braise dans le style basque, dont le fameux turbot. Une étoile Michelin et une ambiance de taverne.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant",
+   "photo": {
+    "auteur": "pompi",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlated_grilled_fish_%28cropped%29.jpg",
+    "src": "img/restos/LON/brat.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "st-john",
+   "nom": "St. John",
+   "emoji": "🦴",
+   "gamme": "haut",
+   "genre": "Cuisine « de la tête à la queue »",
+   "quartier": "Smithfield",
+   "adresse": "26 St John St, London EC1M 4AY",
+   "lat": 51.5205,
+   "lng": -0.1013,
+   "prix": "70 à 100 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le restaurant qui a remis la cuisine anglaise à la mode en 1994 : os à moelle rôti et salade de persil, abats et madeleines tièdes, dans une ancienne fumerie aux murs blancs.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant",
+   "photo": {
+    "auteur": "Ewan Munro",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASt_John_Restaurant%2C_Smithfield%2C_London_%284409853989%29.jpg",
+    "src": "img/restos/LON/st-john.jpg"
+   }
+  }
+ ]
+}

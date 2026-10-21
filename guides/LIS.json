@@ -1,0 +1,1651 @@
+{
+  "city_code": "LIS",
+  "statut": "préparé en autonomie, prix estimés au 19/10/2026",
+  "verifie_le": "2026-10-19",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "alfama",
+      "nom": "Alfama, le vieux Lisbonne",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Alfama",
+      "lat": 38.7114,
+      "lng": -9.1305,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans les ruelles",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le matin, avant la chaleur et les groupes",
+      "enfants": true,
+      "texte": "Le quartier qui a survécu au tremblement de terre de 1755 : escaliers, linge aux fenêtres, azulejos et petites places où l'on entend le fado le soir. On s'y perd exprès, et c'est le meilleur moment du séjour.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jocelyn Erskine-Kellie",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAlfama%2C_Lisbon_%2847427417292%29.jpg",
+        "src": "img/activites/LIS/alfama.jpg"
+      }
+    },
+    {
+      "id": "castelo",
+      "nom": "Château Saint-Georges",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Castelo",
+      "lat": 38.7139,
+      "lng": -9.1335,
+      "prix": 17,
+      "prix_detail": [
+        [
+          "Billet adulte",
+          17
+        ],
+        [
+          "13 à 25 ans",
+          8.5
+        ],
+        [
+          "Plus de 65 ans",
+          14
+        ],
+        [
+          "Moins de 13 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 17,
+        "enfants": [
+          [
+            12,
+            0
+          ],
+          [
+            17,
+            8.5
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille en été : la file d'attente à l'entrée peut dépasser 30 min",
+      "duree": "1 h 30",
+      "moment": "À l'ouverture (9 h) ou en fin de journée pour le coucher du soleil",
+      "enfants": true,
+      "texte": "Perché tout en haut de la ville, le château offre LA vue sur Lisbonne : les toits rouges, le Tage et le pont du 25-Avril à vos pieds. Remparts, pins parasols et paons en liberté.",
+      "site_officiel": "https://castelodesaojorge.pt/",
+      "partenaire": "tiqets",
+      "note": "Seul site de vente en ligne officiel : celui du château. Les revendeurs ajoutent des frais.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jan Helebrant",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2019-05-16_13-33-37_PT_Lisbon_JHe_K70_%2854146909650%29.jpg",
+        "src": "img/activites/LIS/castelo.jpg"
+      }
+    },
+    {
+      "id": "tram-28",
+      "nom": "Tramway 28",
+      "emoji": "🚋",
+      "type": "balade",
+      "quartier": "Martim Moniz → Estrela",
+      "lat": 38.7158,
+      "lng": -9.1367,
+      "prix": 3.3,
+      "prix_detail": [
+        [
+          "Ticket acheté à bord",
+          3.3
+        ],
+        [
+          "Avec la carte Navegante / Viva Viagem",
+          "1,90 €"
+        ],
+        [
+          "Passe 24 h bus, tram et métro",
+          "7,25 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 3.3,
+        "enfants": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : montez au terminus de Martim Moniz avant 9 h, ou dans l'autre sens depuis Estrela",
+      "duree": "45 min",
+      "moment": "Tôt le matin ou après 18 h (bondé en journée)",
+      "enfants": true,
+      "texte": "Le petit tram jaune de 1930 grimpe des pentes impossibles et frôle les façades d'Alfama, de Graça et du Chiado. Le plus beau trajet de la ville, à prendre côté fenêtre.",
+      "site_officiel": "https://www.carris.pt/",
+      "note": "Gardez votre sac devant vous : les pickpockets aiment ce tram bondé.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Giuseppe Milo",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATram_28_Lisbon_Portugal_Travel_Photography_%28143822317%29.jpeg",
+        "src": "img/activites/LIS/tram-28.jpg"
+      }
+    },
+    {
+      "id": "jeronimos",
+      "nom": "Monastère des Hiéronymites",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Belém",
+      "lat": 38.6979,
+      "lng": -9.2068,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Cloître",
+          18
+        ],
+        [
+          "Église",
+          "gratuit"
+        ],
+        [
+          "Moins de 13 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            12,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne quelques jours avant en été (sinon 30 à 60 min de file)",
+      "duree": "1 h 30",
+      "moment": "À l'ouverture, en semaine (fermé le lundi)",
+      "enfants": true,
+      "texte": "Un cloître de dentelle de pierre, payé par l'or des grandes découvertes : cordages, coquillages et créatures marines sculptés partout. Vasco de Gama repose dans l'église. Classé à l'UNESCO.",
+      "site_officiel": "https://www.museusemonumentos.pt/",
+      "partenaire": "tiqets",
+      "note": "À 2 minutes à pied de la pâtisserie Pastéis de Belém : gardez-vous une pause.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Dick O'Brien",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJeronimosMonastery1.jpg",
+        "src": "img/activites/LIS/jeronimos.jpg"
+      }
+    },
+    {
+      "id": "torre-belem",
+      "nom": "Tour de Belém",
+      "emoji": "🗼",
+      "type": "culture",
+      "quartier": "Belém",
+      "lat": 38.6916,
+      "lng": -9.216,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Billet",
+          10
+        ],
+        [
+          "Moins de 13 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            12,
+            0
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "créneau horaire à réserver en ligne quelques jours avant : 900 visiteurs par jour depuis la réouverture",
+      "duree": "1 h",
+      "moment": "Le matin, puis le jardin au bord du Tage au coucher du soleil",
+      "enfants": true,
+      "texte": "La forteresse de conte de fées qui saluait les caravelles au départ. Rouverte en mai 2026 après un an de restauration, elle brille comme neuve, avec ses balcons ouvragés posés sur l'eau.",
+      "site_officiel": "https://www.museusemonumentos.pt/",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Jules Verne Times Two",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATorre_de_Bel%C3%A9m_at_sunrise%2C_Lisbon%2C_Portugal_julesvernex2.jpg",
+        "src": "img/activites/LIS/torre-belem.jpg"
+      }
+    },
+    {
+      "id": "padrao",
+      "nom": "Monument des Découvertes",
+      "emoji": "⛵",
+      "type": "vue",
+      "quartier": "Belém",
+      "lat": 38.6936,
+      "lng": -9.2057,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Belvédère, exposition et film",
+          10
+        ],
+        [
+          "13 à 25 ans",
+          5
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            11,
+            0
+          ],
+          [
+            17,
+            5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "Par temps clair, en fin de journée (dernière entrée 30 min avant la fermeture)",
+      "enfants": true,
+      "texte": "Henri le Navigateur et 32 explorateurs en proue d'une caravelle de pierre de 52 m. L'ascenseur monte au sommet : vue plongeante sur la rose des vents géante, le monastère et le pont.",
+      "site_officiel": "https://padraodosdescobrimentos.pt/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "xiquinhosilva",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A33286-Padr%C3%A3o_dos_Descobrimentos_%2836569390292%29.jpg",
+        "src": "img/activites/LIS/padrao.jpg"
+      }
+    },
+    {
+      "id": "maat",
+      "nom": "MAAT, le musée vague",
+      "emoji": "🌊",
+      "type": "culture",
+      "quartier": "Belém",
+      "lat": 38.6957,
+      "lng": -9.1946,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Expositions",
+          15
+        ],
+        [
+          "Toit-promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            12,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Au coucher du soleil sur le toit (musée fermé le mardi)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une vague de céramique blanche posée sur le Tage, que l'on peut gravir à pied : son toit en pente est le spot photo du moment, face au pont du 25-Avril. Expositions d'art et de design à l'intérieur.",
+      "site_officiel": "https://www.maat.pt/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Maria Eklind",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMAAT_-_The_Museum_of_Art%2C_Architecture_and_Technology_%2834180927816%29.jpg",
+        "src": "img/activites/LIS/maat.jpg"
+      }
+    },
+    {
+      "id": "oceanario",
+      "nom": "Océanarium de Lisbonne",
+      "emoji": "🐟",
+      "type": "nature",
+      "quartier": "Parque das Nações",
+      "lat": 38.7635,
+      "lng": -9.0937,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Adulte (13-64 ans)",
+          25
+        ],
+        [
+          "Enfant (3-12 ans)",
+          15
+        ],
+        [
+          "Moins de 3 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            12,
+            15
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne avec horaire, surtout le week-end",
+      "duree": "2 h 30",
+      "moment": "En semaine, dès l'ouverture",
+      "enfants": true,
+      "texte": "L'un des plus beaux aquariums d'Europe : un immense bassin central où passent requins, raies et le poisson-lune géant, entouré de quatre océans. Les loutres de mer font fondre les enfants.",
+      "site_officiel": "https://www.oceanario.pt/",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Sonse",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AOcean_sunfish_%E2%80%A2_Mondfisch_%28mola_mola%29_%E2%80%A2_Lisbon_Oceanarium_%E2%80%A2_Ocean%C3%A1rio_de_Lisboa.jpg",
+        "src": "img/activites/LIS/oceanario.jpg"
+      }
+    },
+    {
+      "id": "lx-factory",
+      "nom": "LX Factory",
+      "emoji": "🎨",
+      "type": "balade",
+      "quartier": "Alcântara",
+      "lat": 38.7034,
+      "lng": -9.1784,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le dimanche (marché de créateurs) ou en fin d'après-midi",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une ancienne usine textile sous le pont, devenue repaire créatif : street art, boutiques de créateurs, rooftops et la librairie Ler Devagar, avec son vélo volant au milieu des livres.",
+      "site_officiel": "https://lxfactory.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dale Cruse",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACobblestone_Lane_and_Water_Tower_View_at_LX_Factory%2C_Lisbon_%2854712988968%29.jpg",
+        "src": "img/activites/LIS/lx-factory.jpg"
+      }
+    },
+    {
+      "id": "senhora-do-monte",
+      "nom": "Belvédère de Senhora do Monte",
+      "emoji": "🌅",
+      "type": "vue",
+      "quartier": "Graça",
+      "lat": 38.7193,
+      "lng": -9.1327,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Au coucher du soleil (arrivez 30 min avant)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le plus haut belvédère de Lisbonne : toute la ville en panorama, le château en face et le soleil qui plonge dans le Tage. Le funiculaire de Graça, rouvert en avril 2026, vous évite la montée.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Filipe Rocha",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMiradouro_Nossa_Senhora_do_Monte_II.jpg",
+        "src": "img/activites/LIS/senhora-do-monte.jpg"
+      }
+    },
+    {
+      "id": "santa-luzia",
+      "nom": "Belvédères de Santa Luzia et Portas do Sol",
+      "emoji": "🌺",
+      "type": "vue",
+      "quartier": "Alfama",
+      "lat": 38.7118,
+      "lng": -9.1301,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Le matin, quand la lumière éclaire les toits d'Alfama",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Deux terrasses voisines en haut d'Alfama : pergola fleurie de bougainvilliers, bancs en azulejos et vue sur les toits jusqu'au fleuve. La carte postale la plus partagée de Lisbonne, sur la ligne du tram 28.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ardfern",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMiradouro_de_Santa_Luzia%2C_Lisbon%2C_Portugal%2C_May_2017.JPG",
+        "src": "img/activites/LIS/santa-luzia.jpg"
+      }
+    },
+    {
+      "id": "sao-pedro-alcantara",
+      "nom": "Belvédère de São Pedro de Alcântara",
+      "emoji": "🌳",
+      "type": "vue",
+      "quartier": "Bairro Alto",
+      "lat": 38.7151,
+      "lng": -9.1446,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "En fin d'après-midi, avant de sortir au Bairro Alto",
+      "enfants": true,
+      "texte": "Un jardin en balcon face au château : kiosque, musiciens de rue et vue sur la Baixa qui s'allume au crépuscule. Le point de départ idéal d'une soirée au Bairro Alto.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "note": "Le funiculaire de la Glória, qui y montait, est arrêté depuis l'accident de 2025 : montez à pied depuis Restauradores (10 min).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Carlos Felipe Pardo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALisboa_2019_Nov_%2849788722813%29.jpg",
+        "src": "img/activites/LIS/sao-pedro-alcantara.jpg"
+      }
+    },
+    {
+      "id": "praca-comercio",
+      "nom": "Place du Commerce et arc de la rue Augusta",
+      "emoji": "🏛️",
+      "type": "vue",
+      "quartier": "Baixa",
+      "lat": 38.7084,
+      "lng": -9.1366,
+      "prix": 4,
+      "prix_detail": [
+        [
+          "Terrasse de l'arc",
+          4
+        ],
+        [
+          "Place",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "En fin de journée, quand la place devient dorée",
+      "enfants": true,
+      "texte": "L'immense place jaune ouverte sur le Tage, où arrivaient les rois par bateau. Un ascenseur monte en haut de l'arc triomphal : vue dans l'axe de la rue Augusta jusqu'au château.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "note": "Évitez les restaurants de la rue Augusta, chers et sans intérêt.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Deensel",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALisbon_main_square_%2836622604910%29.jpg",
+        "src": "img/activites/LIS/praca-comercio.jpg"
+      }
+    },
+    {
+      "id": "carmo",
+      "nom": "Couvent du Carmo",
+      "emoji": "🕍",
+      "type": "culture",
+      "quartier": "Chiado",
+      "lat": 38.7122,
+      "lng": -9.1406,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Billet (ruines et musée)",
+          7
+        ],
+        [
+          "Moins de 14 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            13,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "En journée (fermé le dimanche)",
+      "enfants": true,
+      "texte": "Une église gothique restée à ciel ouvert depuis le séisme de 1755 : ses arches nues découpent le ciel bleu. Saisissant, et l'un des lieux les plus photogéniques de la ville.",
+      "site_officiel": "https://www.museuarqueologicodocarmo.pt/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Leila Borges",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARu%C3%ADnas_do_Carmo_Lisboa.jpg",
+        "src": "img/activites/LIS/carmo.jpg"
+      }
+    },
+    {
+      "id": "gulbenkian",
+      "nom": "Musée Calouste Gulbenkian",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Avenidas Novas",
+      "lat": 38.7372,
+      "lng": -9.1546,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Billet",
+          16
+        ],
+        [
+          "Jardin",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            12,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "En semaine (fermé le mardi), puis pique-nique au jardin",
+      "enfants": true,
+      "texte": "La collection d'un magnat du pétrole qui a tout acheté : Égypte ancienne, Rembrandt, Monet, bijoux de Lalique. Rouvert en juillet 2026 après rénovation, au milieu d'un jardin luxuriant.",
+      "site_officiel": "https://gulbenkian.pt/museu/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Fundação Calouste Gulbenkian",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMuseu_Calouste_Gulbenkian_%28Main_Entrance%29.jpg",
+        "src": "img/activites/LIS/gulbenkian.jpg"
+      }
+    },
+    {
+      "id": "fado",
+      "nom": "Spectacle de fado",
+      "emoji": "🎶",
+      "type": "sortir",
+      "quartier": "Chiado",
+      "lat": 38.7106,
+      "lng": -9.1438,
+      "prix": 23,
+      "prix_detail": [
+        [
+          "Spectacle (50 min)",
+          23
+        ]
+      ],
+      "tarifs": {
+        "adulte": 23,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille (petite salle)",
+      "duree": "50 min",
+      "moment": "Du lundi au samedi, 19 h (et 17 h 30 d'avril à octobre)",
+      "enfants": false,
+      "texte": "Le chant de la saudade, classé à l'UNESCO : une voix, une guitare portugaise, et la salle retient son souffle. Ce spectacle court explique chaque chanson ; idéal pour découvrir le fado avant un dîner.",
+      "site_officiel": "https://www.fadoinchiado.com/",
+      "note": "Dans Alfama, beaucoup de « casas de fado » imposent un dîner : regardez le prix avant d'entrer.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Gerd Eichmann",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALissabon-Fado_mit_Joana_Veiga-02-2011-gje.jpg",
+        "src": "img/activites/LIS/fado.jpg"
+      }
+    },
+    {
+      "id": "sintra",
+      "nom": "Sintra et le palais de Pena",
+      "emoji": "🏯",
+      "type": "nature",
+      "quartier": "Sintra (40 min en train)",
+      "lat": 38.7876,
+      "lng": -9.3906,
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Palais de Pena et parc",
+          20
+        ],
+        [
+          "Train Lisbonne-Sintra aller-retour",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "créneau horaire en ligne, 1 à 2 semaines avant en été",
+      "duree": "Journée",
+      "moment": "En semaine, train de 8 h depuis la gare du Rossio",
+      "enfants": true,
+      "texte": "Un palais jaune et rouge de conte de fées, perché dans la forêt au-dessus des nuages. Autour : la Quinta da Regaleira et son puits initiatique, le château des Maures. L'excursion à ne pas manquer.",
+      "site_officiel": "https://www.parquesdesintra.pt/",
+      "partenaire": "tiqets",
+      "note": "Achetez sur le site des Parques de Sintra (moins cher en ligne) et prenez le bus 434 depuis la gare.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "CEphoto, Uwe Aranas",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg",
+        "src": "img/activites/LIS/sintra.jpg"
+      }
+    },
+    {
+      "id": "cascais",
+      "nom": "Cascais et ses plages",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "Cascais (40 min en train)",
+      "lat": 38.6975,
+      "lng": -9.4196,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Train aller-retour depuis Cais do Sodré",
+          "≈ 5 €"
+        ],
+        [
+          "Plages",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "reservation": "libre",
+      "duree": "Demi-journée",
+      "moment": "De juin à septembre pour la baignade (eau à 18-20 °C)",
+      "enfants": true,
+      "texte": "Le train longe l'océan jusqu'à l'ancien village de pêcheurs des rois : petites criques dorées, villas Belle Époque et glaces sur le port. La plage, à 40 minutes du centre.",
+      "site_officiel": "https://www.visitcascais.com/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Michael Coghlan",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACascais_Beach_%285965222397%29.jpg",
+        "src": "img/activites/LIS/cascais.jpg"
+      }
+    },
+    {
+      "id": "bairro-alto",
+      "nom": "Soirée au Bairro Alto",
+      "emoji": "🍹",
+      "type": "sortir",
+      "quartier": "Bairro Alto",
+      "lat": 38.7133,
+      "lng": -9.1452,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ],
+        [
+          "Verre dans la rue",
+          "≈ 3 à 6 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Soirée",
+      "moment": "Après 22 h, du jeudi au samedi",
+      "enfants": false,
+      "texte": "Le soir, ce dédale de ruelles devient un immense bar à ciel ouvert : on prend son verre au comptoir et on le boit dans la rue, au milieu de la foule. L'ambiance la plus festive de Lisbonne.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "note": "La « rue rose » (Pink Street) de Cais do Sodré, toute proche, est plus touristique et plus chère.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jorge Franganillo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALisboa_Bairro_Alto_%2853893930842%29.jpg",
+        "src": "img/activites/LIS/bairro-alto.jpg"
+      }
+    },
+    {
+      "id": "croisiere",
+      "nom": "Croisière au coucher du soleil sur le Tage",
+      "emoji": "⛵",
+      "type": "sortir",
+      "quartier": "Doca de Santo Amaro",
+      "lat": 38.7036,
+      "lng": -9.1757,
+      "prix": 35,
+      "prix_detail": [
+        [
+          "Voilier, 2 h avec un verre",
+          "≈ 35 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 35,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            20
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant en été",
+      "duree": "2 h",
+      "moment": "Départ 1 h 30 avant le coucher du soleil",
+      "enfants": true,
+      "texte": "Glisser sous le pont du 25-Avril pendant que Lisbonne s'embrase de rose : la ville vue du fleuve, verre de porto à la main. Le moment le plus romantique du séjour.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Eduardo(Goody)",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALisbon_Portugal_Traditional-boats_River-Boats_river-Tagus_14.jpg",
+        "src": "img/activites/LIS/croisiere.jpg"
+      }
+    },
+    {
+      "id": "pilar-7",
+      "nom": "Pilier 7 du pont du 25-Avril",
+      "emoji": "🌉",
+      "type": "vue",
+      "quartier": "Alcântara",
+      "lat": 38.7006,
+      "lng": -9.1773,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Billet",
+          6
+        ],
+        [
+          "Moins de 5 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet avec horaire, en ligne les jours chargés",
+      "duree": "45 min",
+      "moment": "En journée (10 h-18 h)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un ascenseur monte dans le pilier du pont jusqu'à une plateforme au plancher de verre, à 80 m : les voitures grondent au-dessus de votre tête et le Tage s'étend sous vos pieds. Frissons garantis.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Mike (500px)",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A25_De_Abril_Bridge_%28226290561%29.jpeg",
+        "src": "img/activites/LIS/pilar-7.jpg"
+      }
+    },
+    {
+      "id": "cristo-rei",
+      "nom": "Cristo Rei",
+      "emoji": "✝️",
+      "type": "vue",
+      "quartier": "Almada (ferry)",
+      "lat": 38.6786,
+      "lng": -9.1714,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Ascension jusqu'à la terrasse",
+          10
+        ],
+        [
+          "Enfant (8-12 ans)",
+          3
+        ],
+        [
+          "Moins de 8 ans",
+          "gratuit"
+        ],
+        [
+          "Ferry Cais do Sodré-Cacilhas aller-retour",
+          "≈ 3 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            7,
+            0
+          ],
+          [
+            12,
+            3
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet vendu uniquement sur place",
+      "duree": "Demi-journée",
+      "moment": "Par temps clair, en fin de journée",
+      "enfants": true,
+      "texte": "Le Christ aux bras ouverts de l'autre rive, cousin de celui de Rio. Un ascenseur monte à 82 m : toute Lisbonne en face, le pont à vos pieds. On y va en ferry, la traversée fait partie du plaisir.",
+      "site_officiel": "https://www.cristorei.pt/",
+      "note": "Les 74 dernières marches se montent à pied (pas d'accès en fauteuil).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Deensel",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACristo_Rei_%2836211699613%29_%28cropped%29.jpg",
+        "src": "img/activites/LIS/cristo-rei.jpg"
+      }
+    },
+    {
+      "id": "feira-da-ladra",
+      "nom": "Marché aux puces Feira da Ladra",
+      "emoji": "🧺",
+      "type": "balade",
+      "quartier": "Graça",
+      "lat": 38.715,
+      "lng": -9.1257,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Mardi et samedi matin",
+      "enfants": true,
+      "texte": "Le plus vieux marché aux puces de la ville, au pied du Panthéon : vinyles, céramiques, vieux appareils photo et trésors improbables. On chine, on négocie, on y passe la matinée.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "note": "N'achetez pas d'azulejos anciens : beaucoup sont arrachés illégalement aux façades.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "JnpoJuwan",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFeira_da_Ladra%2C_Lisboa%2C_Jul_2024.jpg",
+        "src": "img/activites/LIS/feira-da-ladra.jpg"
+      }
+    },
+    {
+      "id": "benfica",
+      "nom": "Match de Benfica au stade de la Luz",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Benfica",
+      "lat": 38.7527,
+      "lng": -9.1847,
+      "prix": 40,
+      "prix_detail": [
+        [
+          "Billet de championnat",
+          "≈ 25 à 60 €"
+        ],
+        [
+          "Visite du stade et du musée",
+          "≈ 20 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 40,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "dès la mise en vente pour les grands matchs (Porto, Sporting, coupe d'Europe)",
+      "duree": "3 h",
+      "moment": "Soirs de match, ambiance et aigle qui survole la pelouse avant le coup d'envoi",
+      "enfants": true,
+      "club": "Benfica",
+      "texte": "65 000 supporters en rouge et l'aigle Vitória qui fait le tour du stade avant chaque match : Benfica, le club le plus populaire du Portugal, c'est une ferveur à vivre au moins une fois.",
+      "site_officiel": "https://www.slbenfica.pt/",
+      "note": "Achetez sur le site officiel du club : méfiez-vous des revendeurs.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Juntas",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AEst%C3%A1dio_da_Luz_2005_%283%29.jpg",
+        "src": "img/activites/LIS/benfica.jpg"
+      }
+    },
+    {
+      "id": "parque-nacoes",
+      "nom": "Parc des Nations et téléphérique",
+      "emoji": "🚡",
+      "type": "balade",
+      "quartier": "Parque das Nações",
+      "lat": 38.765,
+      "lng": -9.095,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Téléphérique aller simple",
+          "≈ 6 €"
+        ],
+        [
+          "Promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "En fin d'après-midi, à combiner avec l'Océanarium",
+      "enfants": true,
+      "texte": "Le Lisbonne futuriste de l'Expo 98 : la tour Vasco de Gama, le pont de 17 km qui disparaît à l'horizon, et un téléphérique qui survole le bord du fleuve. Grand bol d'air garanti.",
+      "site_officiel": "https://www.telecabinelisboa.pt/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Felipe Tofani",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATelecabine_Lisboa_%2853530819279%29.jpg",
+        "src": "img/activites/LIS/parque-nacoes.jpg"
+      }
+    },
+    {
+      "id": "principe-real",
+      "nom": "Príncipe Real et ses jardins",
+      "emoji": "🌲",
+      "type": "balade",
+      "quartier": "Príncipe Real",
+      "lat": 38.7167,
+      "lng": -9.1485,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Le samedi matin (marché bio) ou en fin d'après-midi",
+      "enfants": true,
+      "texte": "Le quartier chic et tranquille de Lisbonne : un cèdre géant taillé en parasol, des palais devenus concept-stores et l'Embaixada, galerie de créateurs dans un palais mauresque.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Donald Judge",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A16.4.14_Lisbon_57_%2813929761434%29.jpg",
+        "src": "img/activites/LIS/principe-real.jpg"
+      }
+    },
+    {
+      "id": "surf-caparica",
+      "nom": "Cours de surf à Costa da Caparica",
+      "emoji": "🏄",
+      "type": "plage",
+      "quartier": "Costa da Caparica (30 min)",
+      "lat": 38.6424,
+      "lng": -9.2382,
+      "prix": 35,
+      "prix_detail": [
+        [
+          "Cours de 2 h, planche et combinaison",
+          "≈ 35 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 35,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "duree": "Demi-journée",
+      "moment": "D'avril à octobre, le matin",
+      "enfants": true,
+      "texte": "30 km de plage sauvage face à l'Atlantique, juste de l'autre côté du pont : les vagues douces sont parfaites pour se lever sur sa première planche. Et pour finir, sardines grillées les pieds dans le sable.",
+      "site_officiel": "https://www.visitlisboa.com/",
+      "note": "Cours dès 8 ans environ, selon les écoles.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Hansueli Krapf",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2010-03-07_14_02_24_Portugal-Costa_de_Caparica_%28cropped%29.jpg",
+        "src": "img/activites/LIS/surf-caparica.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "baixa-chiado",
+      "nom": "Baixa et Chiado",
+      "lat": 38.7105,
+      "lng": -9.1395,
+      "texte": "Le cœur de Lisbonne, tout à pied : grandes places, cafés historiques, tram 28 et métro. Le meilleur choix pour un premier séjour."
+    },
+    {
+      "id": "alfama",
+      "nom": "Alfama",
+      "lat": 38.7115,
+      "lng": -9.13,
+      "texte": "Le charme du vieux Lisbonne : ruelles, belvédères et fado le soir. Ça monte et descend beaucoup, et les taxis passent mal."
+    },
+    {
+      "id": "bairro-alto",
+      "nom": "Bairro Alto et Cais do Sodré",
+      "lat": 38.7095,
+      "lng": -9.1455,
+      "texte": "Pour sortir : bars, restaurants et vie nocturne jusqu'à tard. Animé, donc bruyant le week-end : demandez une chambre sur cour."
+    },
+    {
+      "id": "avenida",
+      "nom": "Avenida da Liberdade",
+      "lat": 38.7195,
+      "lng": -9.145,
+      "texte": "La grande avenue chic : beaux hôtels, boutiques de luxe et métro. Plus calme le soir, à 15 min à pied de la Baixa."
+    },
+    {
+      "id": "principe-real",
+      "nom": "Príncipe Real",
+      "lat": 38.7165,
+      "lng": -9.149,
+      "texte": "Le quartier élégant et tranquille : jardins, concept-stores et maisons d'hôtes de charme, près du Bairro Alto sans son bruit."
+    }
+  ],
+  "hotel_petit_prix_max": 90,
+  "restaurants": [
+    {
+      "id": "pasteis-de-belem",
+      "nom": "Pastéis de Belém",
+      "emoji": "🥧",
+      "gamme": "petit",
+      "genre": "Pâtisserie historique",
+      "quartier": "Belém",
+      "adresse": "Rua de Belém 84-92, 1300-085 Lisboa",
+      "lat": 38.697511,
+      "lng": -9.203228,
+      "prix": "2 à 8 €",
+      "prix_min": 2,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Le berceau du pastel de nata, depuis 1837 : la recette secrète des moines voisins, servie tiède avec cannelle et sucre glace. Mangez-le sur place, dans les salles aux azulejos bleus.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : la file avance vite, et les salles du fond ont souvent de la place",
+      "photo": {
+        "auteur": "Shoestring (Wikivoyage)",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APasteis_de_Belem%2C_Lisbon%2C_Portugal.JPG",
+        "src": "img/restos/LIS/pasteis-de-belem.jpg"
+      }
+    },
+    {
+      "id": "bifanas-afonso",
+      "nom": "As Bifanas do Afonso",
+      "emoji": "🥪",
+      "gamme": "petit",
+      "genre": "Sandwich au porc (bifana)",
+      "quartier": "Baixa",
+      "adresse": "Rua da Madalena 146, 1100-340 Lisboa",
+      "lat": 38.711525,
+      "lng": -9.135692,
+      "prix": "4 à 8 €",
+      "prix_min": 4,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le comptoir de quartier qui sert la meilleure bifana de Lisbonne : porc mariné à l'ail et au vin, petit pain croustillant, verre de bière. Debout au comptoir, comme les habitués.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : au comptoir, file courte en dehors de midi",
+      "photo": {
+        "auteur": "Sonse",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADelicious_Bifana_Sandwich%2C_As_Bifana_do_Afonso_%2849652989992%29.jpg",
+        "src": "img/restos/LIS/bifanas-afonso.jpg"
+      }
+    },
+    {
+      "id": "sal-grosso",
+      "nom": "Taberna Sal Grosso",
+      "emoji": "🐙",
+      "gamme": "petit",
+      "genre": "Taverne portugaise (petiscos)",
+      "quartier": "Alfama",
+      "adresse": "Calçada do Forte 22, 1100-256 Lisboa",
+      "lat": 38.713699,
+      "lng": -9.124445,
+      "prix": "20 à 30 €",
+      "prix_min": 20,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une minuscule taverne d'Alfama où l'on partage des petites assiettes portugaises revisitées : poulpe, morue, fromages et vins du pays. Six tables, une ambiance de copains.",
+      "reservation": "indispensable",
+      "reservation_delai": "plusieurs jours avant : six tables seulement",
+      "photo": {
+        "auteur": "August Dominus",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APolvo_%C3%A0_Lagareiro_u_Portu.jpg",
+        "src": "img/restos/LIS/sal-grosso.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "time-out-market",
+      "nom": "Time Out Market",
+      "emoji": "🏪",
+      "gamme": "petit",
+      "genre": "Halle gourmande",
+      "quartier": "Cais do Sodré",
+      "adresse": "Mercado da Ribeira, Av. 24 de Julho 49, 1200-479 Lisboa",
+      "lat": 38.707061,
+      "lng": -9.145669,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Sous la halle du marché de 1882, les meilleurs chefs de la ville tiennent chacun un stand : on goûte de tout, de la bifana au plat étoilé, sur de grandes tables partagées.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : venez avant 12 h 30 ou après 14 h pour trouver une table",
+      "photo": {
+        "auteur": "Vitor Oliveira",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMercado_da_Ribeira_%28Time_Out_Market%29_-_Lisboa_-_Portugal_%2851018939231%29.jpg",
+        "src": "img/restos/LIS/time-out-market.jpg"
+      }
+    },
+    {
+      "id": "dom-frango",
+      "nom": "El-Rei Dom Frango",
+      "emoji": "🍗",
+      "gamme": "petit",
+      "genre": "Poulet grillé piri-piri",
+      "quartier": "Bairro Alto",
+      "adresse": "Calçada do Duque 5, 1200-155 Lisboa",
+      "lat": 38.713381,
+      "lng": -9.14102,
+      "prix": "12 à 18 €",
+      "prix_min": 12,
+      "badges": [],
+      "texte": "Le poulet grillé au feu de bois, badigeonné de piment piri-piri : le grand classique portugais, servi simplement avec frites et salade, en haut des escaliers qui montent au Bairro Alto.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : venez tôt le soir",
+      "photo": {
+        "auteur": "Kolforn",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2018-02-03_Chicken_Piri-Piri%2C_Albufeira_%281%29.JPG",
+        "src": "img/restos/LIS/dom-frango.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "lupita",
+      "nom": "Lupita",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pizzeria",
+      "quartier": "Cais do Sodré",
+      "adresse": "Rua de São Paulo 79, 1200-427 Lisboa",
+      "lat": 38.708261,
+      "lng": -9.146061,
+      "prix": "12 à 20 €",
+      "prix_min": 12,
+      "badges": [],
+      "texte": "Une petite pizzeria de quartier à la pâte longuement fermentée et aux garnitures portugaises inattendues. L'adresse que les Lisboètes se refilent, à deux pas du Time Out Market.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : venez à l'ouverture ou attendez avec un verre",
+      "photo": {
+        "auteur": "Punch Pizza",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APunch_Neapolitan_Pizza_Margherita.jpg",
+        "src": "img/restos/LIS/lupita.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "ramiro",
+      "nom": "Cervejaria Ramiro",
+      "emoji": "🦐",
+      "gamme": "moyen",
+      "genre": "Fruits de mer",
+      "quartier": "Intendente",
+      "adresse": "Av. Almirante Reis 1-H, 1150-007 Lisboa",
+      "lat": 38.720257,
+      "lng": -9.135743,
+      "prix": "40 à 60 €",
+      "prix_min": 40,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "La brasserie de fruits de mer la plus célèbre de Lisbonne depuis 1956 : crevettes à l'ail, palourdes, tourteau, et pour finir un prego (sandwich au bœuf), comme le veut la tradition.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : arrivez avant 19 h ou attendez 30 à 60 min (la file avance vite)",
+      "photo": {
+        "auteur": "Kent Wang",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACervejaria_Ramiro_%2829109082128%29.jpg",
+        "src": "img/restos/LIS/ramiro.jpg"
+      }
+    },
+    {
+      "id": "ponto-final",
+      "nom": "Ponto Final",
+      "emoji": "🌅",
+      "gamme": "moyen",
+      "genre": "Cuisine portugaise au bord du Tage",
+      "quartier": "Cacilhas (Almada)",
+      "adresse": "Rua do Ginjal 72, 2800-285 Almada",
+      "lat": 38.685002,
+      "lng": -9.157564,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des tables jaunes posées au ras de l'eau, face à tout Lisbonne qui s'illumine : la terrasse la plus photographiée de la ville. Poisson grillé et riz aux fruits de mer, après 10 min de ferry.",
+      "reservation": "conseille",
+      "reservation_delai": "plusieurs jours avant pour une table au bord de l'eau au coucher du soleil",
+      "photo": {
+        "auteur": "Bosc d'Anjou",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAl_fresco_%2816663172875%29.jpg",
+        "src": "img/restos/LIS/ponto-final.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "cafe-sao-bento",
+      "nom": "Café de São Bento",
+      "emoji": "🥩",
+      "gamme": "moyen",
+      "genre": "Steak à la portugaise",
+      "quartier": "São Bento",
+      "adresse": "Rua de São Bento 212, 1200-821 Lisboa",
+      "lat": 38.713312,
+      "lng": -9.153137,
+      "prix": "35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Un club feutré aux banquettes rouges, près du Parlement, réputé pour le meilleur bife de Lisbonne : un steak nappé de sa sauce crémeuse secrète, servi avec des frites maison.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, deux jours avant le week-end",
+      "photo": {
+        "auteur": "Márcia Cristina Machado",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABife_a_cavalo.jpg",
+        "src": "img/restos/LIS/cafe-sao-bento.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "pigmeu",
+      "nom": "Pigmeu",
+      "emoji": "🐖",
+      "gamme": "moyen",
+      "genre": "Cuisine du porc, du groin à la queue",
+      "quartier": "Campo de Ourique",
+      "adresse": "Rua 4 de Infantaria 68, 1350-274 Lisboa",
+      "lat": 38.719798,
+      "lng": -9.164724,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "Le porc noir de l'Alentejo cuisiné de A à Z, sans rien jeter : un bistrot gourmand et décontracté du quartier de Campo de Ourique, salué par le guide Michelin pour son excellent rapport qualité-prix.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant",
+      "photo": {
+        "auteur": "avlxyz",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASlow_roasted_belly_pork_with_fennel_salad_and_citrus_jam_-_d%27Arry%27s_Verandah_AUD29.jpg",
+        "src": "img/restos/LIS/pigmeu.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "canalha",
+      "nom": "Canalha",
+      "emoji": "🐚",
+      "gamme": "moyen",
+      "genre": "Cuisine du marché",
+      "quartier": "Belém",
+      "adresse": "Rua da Junqueira 207, 1300-338 Lisboa",
+      "lat": 38.697482,
+      "lng": -9.193224,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "La taverne du chef João Rodrigues, près de Belém : produits de la criée et du marché, cuisinés simplement et parfaitement. L'adresse gourmande idéale après les monuments.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 semaine avant",
+      "photo": {
+        "auteur": "ricardo",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAm%C3%AAijoas_%C3%A0_Bulh%C3%A3o_Pato.jpg",
+        "src": "img/restos/LIS/canalha.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "cevicheria",
+      "nom": "A Cevicheria",
+      "emoji": "🍋",
+      "gamme": "moyen",
+      "genre": "Ceviche péruvien",
+      "quartier": "Príncipe Real",
+      "adresse": "Rua Dom Pedro V 129, 1250-096 Lisboa",
+      "lat": 38.715971,
+      "lng": -9.147499,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [],
+      "texte": "Sous une pieuvre géante suspendue au plafond, le chef Kiko sert des ceviches qui mêlent Pérou et poissons portugais. Frais, acidulés, et un pisco sour pour patienter.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : arrivez à l'ouverture, ou laissez votre nom et allez boire un verre",
+      "photo": {
+        "auteur": "Jorge G. Mori",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACeviche_de_pescado_%28La_Punta%2C_Callao%29.jpg",
+        "src": "img/restos/LIS/cevicheria.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "belcanto",
+      "nom": "Belcanto",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Grande cuisine portugaise",
+      "quartier": "Chiado",
+      "adresse": "Rua Serpa Pinto 10A, 1200-445 Lisboa",
+      "lat": 38.710099,
+      "lng": -9.141466,
+      "prix": "≈ 250 € (menu)",
+      "prix_min": 250,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "La table de José Avillez, le chef star du Portugal : un voyage dans la cuisine portugaise réinventée, de la mer à la terre, dans un salon intime du Chiado. Le grand dîner d'une vie.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 mois avant",
+      "photo": {
+        "auteur": "ADT 04",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHomard_bleu_r%C3%B4ti_%C3%A0_la_coriandre_et_tomate_%C3%A9mulsionn%C3%A9e.jpg",
+        "src": "img/restos/LIS/belcanto.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "fifty-seconds",
+      "nom": "Fifty Seconds",
+      "emoji": "🗼",
+      "gamme": "haut",
+      "genre": "Menu dégustation avec vue",
+      "quartier": "Parque das Nações",
+      "adresse": "Torre Vasco da Gama, Rua Cais das Naus, 1990-173 Lisboa",
+      "lat": 38.774731,
+      "lng": -9.091838,
+      "prix": "≈ 250 € (menu)",
+      "prix_min": 250,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "Cinquante secondes d'ascenseur jusqu'au sommet de la tour Vasco de Gama, à 120 m : le Tage à perte de vue et la cuisine du chef Rui Silvestre, passée à deux étoiles en 2026.",
+      "reservation": "indispensable",
+      "reservation_delai": "3 à 4 semaines avant",
+      "photo": {
+        "auteur": "Ø11",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATorre_Vasco_da_Gama_-_Lisbon.jpg",
+        "src": "img/restos/LIS/fifty-seconds.jpg"
+      }
+    },
+    {
+      "id": "encanto",
+      "nom": "Encanto",
+      "emoji": "🌿",
+      "gamme": "haut",
+      "genre": "Gastronomie végétarienne",
+      "quartier": "Chiado",
+      "adresse": "Largo de São Carlos 10, 1200-410 Lisboa",
+      "lat": 38.709931,
+      "lng": -9.141498,
+      "prix": "≈ 170 € (menu)",
+      "prix_min": 170,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Étoilé Michelin, étoile verte",
+      "texte": "Le seul restaurant végétarien étoilé du Portugal, face à l'opéra São Carlos : des légumes du pays sublimés en menu dégustation, si inventif qu'on ne pense pas une seconde à la viande.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "photo": {
+        "auteur": "ADT 04",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFleurs_de_courgettes_farcies_et_fleurs_de_mauve.jpg",
+        "src": "img/restos/LIS/encanto.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "sala",
+      "nom": "SÁLA de João Sá",
+      "emoji": "🐟",
+      "gamme": "haut",
+      "genre": "Cuisine de la mer créative",
+      "quartier": "Baixa",
+      "adresse": "Rua dos Bacalhoeiros 103, 1100-068 Lisboa",
+      "lat": 38.709112,
+      "lng": -9.133893,
+      "prix": "≈ 150 € (menu)",
+      "prix_min": 150,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Étoilé Michelin",
+      "texte": "Une salle voûtée en pierre près du fleuve, où le jeune chef João Sá sublime poissons et légumes portugais. Une étoile Michelin à prix plus doux que les grandes tables.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "photo": {
+        "auteur": "Salwa Farwaneh",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARua_dos_Bacalhoeiros_em_Lisboa_2024.jpg",
+        "src": "img/restos/LIS/sala.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "jncquoi",
+      "nom": "JNcQUOI Avenida",
+      "emoji": "🦖",
+      "gamme": "haut",
+      "genre": "Brasserie de luxe",
+      "quartier": "Avenida da Liberdade",
+      "adresse": "Av. da Liberdade 182-184, 1250-146 Lisboa",
+      "lat": 38.72028,
+      "lng": -9.144996,
+      "prix": "70 à 100 €",
+      "prix_min": 70,
+      "badges": [],
+      "texte": "Le restaurant le plus glamour de l'avenue chic : un squelette de dinosaure au plafond, du velours, des lustres et une cuisine de brasserie raffinée. On y vient aussi pour voir et être vu.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, une semaine le week-end",
+      "photo": {
+        "auteur": "Osvaldo Gago",
+        "licence": "CC BY-SA 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAvenida_Liberdade_Lisboa_1.JPG",
+        "src": "img/restos/LIS/jncquoi.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "palacio-chiado",
+      "nom": "Palácio Chiado",
+      "emoji": "🦁",
+      "gamme": "haut",
+      "genre": "Dîner dans un palais",
+      "quartier": "Chiado",
+      "adresse": "Rua do Alecrim 70, 1200-018 Lisboa",
+      "lat": 38.709682,
+      "lng": -9.143029,
+      "prix": "50 à 70 €",
+      "prix_min": 50,
+      "badges": [],
+      "texte": "Un palais de 1781 aux plafonds peints et au lion doré suspendu, transformé en salles à manger : on dîne sous les fresques et les vitraux. Décor inoubliable, cuisine portugaise et internationale.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant",
+      "photo": {
+        "auteur": "Vitor Oliveira",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APal%C3%A1cio_Chiado_-_Lisboa_-_Portugal_%2853410348514%29.jpg",
+        "src": "img/restos/LIS/palacio-chiado.jpg"
+      }
+    }
+  ]
+}

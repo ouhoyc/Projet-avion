@@ -474,7 +474,7 @@ function renderMonths() {
   const button = (key, label, title, price) => `
     <button type="button" class="month${price == null ? ' is-empty' : ''}" data-month="${key}" aria-pressed="${key === month}" title="${escapeHtml(title)}">
       <span class="month-name">${escapeHtml(label)}</span>
-      <span class="month-price">${price == null ? '—' : fmtPrice.format(price)}</span>
+      <span class="month-price">${price == null ? '—' : fmtGroup(price)}</span>
     </button>`;
   sEls.months.innerHTML = button('', 'Tous', '12 prochains mois', overall) + months.map((m) => {
     const date = parseDay(`${m.key}-01`);
@@ -504,7 +504,7 @@ function searchCity(airports, daily, q) {
     const prices = daily.dests[dest.code];
     const combos = q.type === 'ow' ? oneWayCombos(prices, q) : roundTripCombos(prices, q);
     for (const c of combos) {
-      if (c.total > q.budget) continue;
+      if (c.total * seats() > q.budget) continue;
       c.code = dest.code;
       (q.type === 'ow' || (c.nights >= q.minN && c.nights <= q.maxN) ? wanted : others).push(c);
     }
@@ -590,6 +590,7 @@ function describeQuery(q) {
   if (q.month) parts.push(`départ en ${fmtMonthLong.format(parseDay(`${q.month}-01`))}`);
   else if (q.exact) parts.push(`${formatDayShortWeek(q.start)} → ${formatDayShortWeek(q.end)}`);
   else parts.push(q.datesGiven ? `meilleures dates entre le ${formatDayShort(q.start)} et le ${formatDayShort(q.end)}` : '12 prochains mois');
+  if (seats() > 1) parts.push(`${seats()} voyageurs`);
   if (Number.isFinite(q.budget)) parts.push(`${fmtPrice.format(q.budget)} max`);
   return parts.join(' · ');
 }
@@ -621,7 +622,7 @@ function renderResults() {
     <ul class="cards result-list" id="result-list"></ul>
     <button type="button" class="btn btn-secondary-wide" data-more hidden></button>
     <p class="disclaimer"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-      <span>Derniers prix repérés par les voyageurs${roundTrip ? ' (total aller + retour)' : ''}. Touchez « Voir » pour vérifier les prix en direct avant de réserver sur Kiwi.com.</span></p>`;
+      <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour compris' : ''}${groupLabel() ? `, ${groupLabel().trim()}` : ''}. Touchez « Voir » pour vérifier les prix en direct avant de réserver sur Kiwi.com.</span></p>`;
   renderMore();
 }
 
@@ -644,10 +645,16 @@ function updateMap(fit) {
   const { results, view, query: q } = searchState;
   const roundTrip = q.type === 'rt';
   // En aller-retour, la couleur se base sur le prix moyen par vol (total ÷ 2).
-  sEls.legendLow.textContent = roundTrip ? '≤ 80 €' : '≤ 40 €';
-  sEls.legendMid.textContent = roundTrip ? '81–160 €' : '41–80 €';
-  sEls.legendHigh.textContent = roundTrip ? '> 160 €' : '> 80 €';
-  sEls.mapCaption.textContent = roundTrip ? 'prix total aller + retour' : 'prix aller simple';
+  // Paliers de couleur par personne ; la légende les donne pour tout le groupe, comme les pastilles.
+  const n = seats();
+  const [low, high] = roundTrip ? [80, 160] : [40, 80];
+  sEls.legendLow.textContent = `≤ ${fmtPrice.format(low * n)}`;
+  sEls.legendMid.textContent = `${low * n + 1}–${fmtPrice.format(high * n)}`;
+  sEls.legendHigh.textContent = `> ${fmtPrice.format(high * n)}`;
+  // À plusieurs, les prix sont pour tout le groupe : on le dit en gros, sinon 3 000 € fait peur.
+  sEls.mapCaption.innerHTML = n > 1
+    ? `<span class="group-pill">Total pour ${n} voyageurs</span>${roundTrip ? ' aller + retour' : ''}`
+    : (roundTrip ? 'prix total aller + retour' : 'prix aller simple') + groupLabel();
 
   showOnMap(view.map((i) => {
     const city = results[i];
@@ -656,12 +663,13 @@ function updateMap(fit) {
     return {
       resultIndex: i,
       dest: city.dest,
-      price: o.total,
+      price: o.total * n,
       tierPrice: roundTrip ? o.total / 2 : o.total,
       popup: `
         <div class="popup-city">${flag(city.dest.country_code)} ${escapeHtml(city.dest.city)}</div>
         <div class="popup-meta">${escapeHtml(formatDayShortWeek(o.out.day))}${o.ret ? ` → ${escapeHtml(formatDayShortWeek(o.ret.day))} · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}</div>
-        <div class="popup-price"><small>${roundTrip ? 'aller + retour' : 'prix repéré'}</small> ${fmtPrice.format(o.total)}</div>
+        <div class="popup-price"><small>${roundTrip ? 'aller + retour' : 'prix repéré'}${groupLabel()}</small> ${fmtGroup(o.total)}</div>
+        ${perPersonHtml(o.total)}
         <button type="button" class="btn btn-primary" data-trip='${escapeHtml(JSON.stringify(trip))}'>Voir</button>`,
     };
   }), fit);
@@ -702,7 +710,7 @@ function cityCardHtml(city, index) {
           <span class="alt-title">${city.exactNights && chips.every(({ o }) => o.total < best.total) ? 'Moins cher :' : 'Autres durées :'}</span>
           ${chips.map(({ o, i }) => `
             <button type="button" class="chip chip-alt${o.total < best.total ? '' : ' is-pricier'}" data-pick="${index}:${i}">
-              ${o.nights} nuit${o.nights > 1 ? 's' : ''} · <strong>${fmtPrice.format(o.total)}</strong>
+              ${o.nights} nuit${o.nights > 1 ? 's' : ''} · <strong>${fmtGroup(o.total)}</strong>
             </button>`).join('')}
         </div>` : ''}
     </li>`;
@@ -777,10 +785,31 @@ function optionHtml(o, city) {
       </div>
       <div class="option-side">
         ${o.nights ? `<span class="nights-badge">${o.nights} nuit${o.nights > 1 ? 's' : ''}</span>` : ''}
-        <strong class="option-total">${fmtPrice.format(o.total)}</strong>
+        ${seats() > 1 ? `<span class="group-tag">Total pour ${seats()}</span>` : ''}
+        <strong class="option-total">${fmtGroup(o.total)}</strong>
+        ${perPersonHtml(o.total)}
         <button type="button" class="btn btn-primary btn-small" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Voir</button>
       </div>
     </div>`;
+}
+
+// Prix du vol pour tout le groupe (choix « Voyageurs ») : les prix repérés sont par personne.
+function seats() {
+  return typeof paxGet === 'function' ? paxSeats(paxGet()) : 1;
+}
+function fmtGroup(perPerson) {
+  return fmtPrice.format(perPerson * seats());
+}
+function groupLabel() {
+  const n = seats();
+  const babies = typeof paxGet === 'function' && paxGet().children.some((age) => age < 2);
+  return n > 1 || babies ? ` pour ${n} voyageur${n > 1 ? 's' : ''}${babies ? ' (bébé sur les genoux en plus)' : ''}` : '';
+}
+function perPersonHtml(perPerson) {
+  return seats() > 1 ? `<small class="per-person">soit ${fmtPrice.format(perPerson)} / pers.</small>` : '';
+}
+function perPersonSuffix() {
+  return seats() > 1 ? '<small class="pp"> / pers.</small>' : '';
 }
 
 // Une ligne par vol : « Aller · lun. 2 nov. 15:40 · 38 € », puis compagnie et fraîcheur du prix.
@@ -790,7 +819,7 @@ function legHtml(label, l) {
   return `
     <p class="leg">
       <span class="leg-label">${label}</span>
-      <span class="leg-main">${escapeHtml(formatDayShortWeek(l.day))}${l.time ? ` · ${escapeHtml(l.time)}` : ''} · <strong>${fmtPrice.format(l.price)}</strong></span>
+      <span class="leg-main">${escapeHtml(formatDayShortWeek(l.day))}${l.time ? ` · ${escapeHtml(l.time)}` : ''} · <strong>${fmtPrice.format(l.price)}</strong>${perPersonSuffix()}</span>
       <span class="leg-sub">${escapeHtml(airline)}${escapeHtml(seen)}</span>
     </p>`;
 }
@@ -812,7 +841,7 @@ function shortSeen(day) {
 // Panneau de réservation : vérifie l'aller (et le retour) en direct
 // ---------------------------------------------------------------------------
 // Villes qui ont une page guide (ville.html?c=CODE, activités dans guides/CODE.json).
-const GUIDES = ['BCN'];
+const GUIDES = ['BCN', 'WAW', 'LIS', 'LON', 'BOD'];
 
 // Lien vers le circuit « Mon voyage » (ville.html), avec le vol choisi : aéroport, dates,
 // prix repérés par personne (aller, retour) et durée du vol.
@@ -846,7 +875,7 @@ function openTripSheet(trip) {
       ${trip.ret ? `<div class="live" id="live-ret" aria-live="polite">${legSeenHtml('Retour', trip.ret, trip.retPrice)}</div>` : ''}
       ${trip.ret ? '<p class="sheet-total" id="live-total"></p>' : ''}
 
-      <p class="sheet-seen">Prix repéré : <strong>${fmtPrice.format(repere)}</strong>${trip.ret ? ' (aller + retour)' : ''}</p>
+      <p class="sheet-seen">Prix repéré : <strong>${fmtGroup(repere)}</strong>${trip.ret ? ' aller + retour' : ''}${groupLabel()}${seats() > 1 ? ` (${fmtPrice.format(repere)} par personne)` : ''}</p>
       <button type="button" class="btn btn-secondary-wide" id="live-check">
         <svg class="icon" aria-hidden="true"><use href="#i-refresh"/></svg> Vérifier le prix en direct
       </button>
@@ -885,7 +914,7 @@ function runLiveChecks(legs, id) {
     const totalEl = $('live-total');
     if (id !== liveRequest || !totalEl || legs.length < 2) return;
     totalEl.innerHTML = outPrice != null && retPrice != null
-      ? `Total vérifié : <strong>${fmtPrice.format(outPrice + retPrice)}</strong>`
+      ? `Total vérifié : <strong>${fmtGroup(outPrice + retPrice)}</strong>${groupLabel()}`
       : '';
   });
 }
@@ -893,7 +922,7 @@ function runLiveChecks(legs, id) {
 function legSeenHtml(label, day, price) {
   return `<p class="live-leg">${label} · ${escapeHtml(formatDay(day))}</p>
     <p class="live-label muted">Prix repéré par les voyageurs</p>
-    <p class="live-price">${price != null ? fmtPrice.format(price) : '—'}</p>`;
+    <p class="live-price">${price != null ? fmtPrice.format(price) + perPersonSuffix() : '—'}</p>`;
 }
 
 // Résultats déjà vérifiés : on ne repaie pas une recherche pour le même vol pendant 30 min.
@@ -933,7 +962,7 @@ async function checkLeg(elId, label, from, to, day, id) {
       .filter(Boolean).map(escapeHtml).join(' · ');
     el.innerHTML = `${head}
       <p class="live-label"><span class="live-dot" aria-hidden="true"></span>Prix vérifié à l'instant</p>
-      <p class="live-price">${fmtPrice.format(result.price)}</p>
+      <p class="live-price">${fmtPrice.format(result.price)}${perPersonSuffix()}</p>
       ${details ? `<p class="live-details">${details}</p>` : ''}`;
     return result.price;
   }
@@ -1095,5 +1124,6 @@ setupSearchForm();
   if (!btn || typeof paxGet !== 'function') return;
   const show = () => { $('s-pax-label').textContent = paxLabel(paxGet()); };
   show();
-  btn.addEventListener('click', () => paxOpen($('pax-sheet'), show));
+  // Les prix affichés sont pour tout le groupe : on les recalcule si les voyageurs changent.
+  btn.addEventListener('click', () => paxOpen($('pax-sheet'), () => { show(); if (searchState.base) runSearch(); }));
 })();
