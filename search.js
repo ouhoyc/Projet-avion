@@ -350,7 +350,9 @@ function updatePills() {
   $('p-stay').textContent = ow ? 'Aller simple' : exactDates() ? 'Dates exactes' : STAY_NIGHTS[stayValue()] || 'Durée';
   const budget = Number(sEls.budget.value);
   $('p-budget').textContent = budget ? `${fmtPrice.format(budget)} max` : 'Budget';
-  $('p-where').textContent = whereLabel() || 'Une idée ?';
+  // Pastille : le nom seul (« Barcelone », « Italie »), le pays est dans le panneau.
+  const city = sEls.city.value && places.find((x) => x.type === 'city' && x.code === sEls.city.value);
+  $('p-where').textContent = city ? city.label : sEls.country.value || 'Une idée\u00a0?';
   sEls.form.querySelector('[data-filter="f-budget"]').classList.toggle('has-value', Boolean(budget));
   sEls.form.querySelector('[data-filter="f-where"]').classList.toggle('has-value', Boolean(sEls.country.value));
 }

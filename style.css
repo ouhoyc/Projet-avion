@@ -924,6 +924,29 @@ label.exact-check {
 .pill.has-value { background: var(--text); color: var(--bg); border-color: var(--text); }
 .pill:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
 
+/* Téléphone : les 5 filtres en boutons-icônes sur une seule ligne, tous visibles sans glisser
+   (on ne pense pas à faire défiler sur le côté). Le texte garde son sens complet
+   (« N'importe quand ») et peut passer sur deux lignes sous l'icône. */
+@media (max-width: 759px) {
+  .filters-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; overflow: visible; }
+  .filters-row .pill {
+    flex-direction: column; justify-content: flex-start; gap: 4px;
+    min-width: 0; min-height: 64px; padding: 8px 3px 6px;
+    border-radius: 14px; font-size: 12px; line-height: 1.15; white-space: normal; text-align: center;
+  }
+  .filters-row .pill .icon { width: 20px; height: 20px; }
+  .filters-row .pill .chevron { display: none; }
+  .filters-row .pill span {
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
+    overflow: hidden; max-width: 100%;
+  }
+}
+/* Petits téléphones (≤ 374 px) : un peu plus serré pour que « N'importe » tienne sans être coupé */
+@media (max-width: 374px) {
+  .filters-row { gap: 4px; }
+  .filters-row .pill { padding: 8px 1px 6px; font-size: 11px; }
+}
+
 /* Panneau ouvert : la page derrière ne bouge plus (sur iPhone, elle défilait et « sautait ») */
 html:has(dialog[open]) { overflow: hidden; }
 

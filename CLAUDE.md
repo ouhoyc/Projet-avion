@@ -40,6 +40,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
     grande photo, bandeau, ce qui est compris, dates, prix du vol, bouton « Préparer mon séjour »
     (ouvre le panneau du vol ; sans guide, mention « arrivent bientôt »).
   - Carte gardée : sous les filtres sur téléphone, fixe à droite sur ordinateur.
+  - Téléphone (< 760 px) : les 5 filtres en **boutons-icônes** sur une ligne (icône + texte sur 2 lignes
+    max), tous visibles sans glisser ; garder « N'importe quand » en entier (dit qu'on est libre de
+    ne pas choisir de dates) ; la pastille du lieu montre le nom seul (« Barcelone »).
   - **Pas d'aller simple** : le site prépare des séjours (champ caché `trip` = `rt`).
   - Titre de la liste **générique** « Votre séjour clé en main » (pas de nombre) : on accompagne
     le client pour choisir activités, restos et hôtel.
