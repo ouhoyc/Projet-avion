@@ -282,14 +282,17 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
 - ✅ (21/10/2026) **Page guide de Vienne** (`guides/VIE.json`), préparée en autonomie : 28 activités
-  (4 tendance : salle d'apparat de la Bibliothèque nationale, maison Hundertwasser, Karlskirche, canal du Danube ;
-  match du Rapid), 18 restaurants (note pondérée, C = 4,39, 860 restaurants lus via Wanderlog ; Michelin 2026 :
-  Steirereck et Amador 3 étoiles, Konstantin Filippou 2 étoiles, JOLA 1 étoile, Mochi et Tian Bistro Bib Gourmand),
-  5 quartiers. Saisonniers : marché de Noël (13 nov.-26 déc. 2026), Schweizerhaus (mi-mars à fin oct.), Wachau
-  en bateau (avril-oct.), baignade (été). Musée Sissi fermé jusqu'au 18/11/2026 (noté dans la fiche).
-  **Réseaux sociaux non lancés** : le crédit Apify du mois est épuisé (« Monthly usage hard limit exceeded ») ;
-  badges « Tendance » donnés d'après les guides Instagram trouvés sur le web (2 sources), seulement 1 restaurant
-  (Das LOFT). À relancer en novembre (`sujet=restos` puis `activites`, Vienna / Vienne).
+  (6 tendance : KHM pour son café sous la coupole, salle d'apparat de la Bibliothèque nationale, maison
+  Hundertwasser, Karlskirche, canal du Danube, Palmenhaus et maison des papillons ; match du Rapid), 18 restaurants
+  (note pondérée, C = 4,39, 860 restaurants lus via Wanderlog ; Michelin 2026 : Steirereck et Amador 3 étoiles,
+  Konstantin Filippou 2 étoiles, JOLA 1 étoile, Mochi et Chez Bernard Bib Gourmand), 5 quartiers. Saisonniers :
+  marché de Noël (13 nov.-26 déc. 2026), Schweizerhaus (mi-mars à fin oct.), Wachau en bateau (avril-oct.),
+  baignade (été). Musée Sissi fermé jusqu'au 18/11/2026 (noté dans la fiche).
+  Réseaux sociaux (Apify, 21/10, après rechargement du compte) : Demel (3 sources, ~30 citations) remplace
+  Ilona Stüberl (aucune), Chez Bernard (2 sources) remplace Tian Bistro (aucune), Palmenhaus et papillons
+  (3 sources) remplace la Maison de la Musique (aucune). Tendance restaurants : Café Central, Demel, Figlmüller,
+  Chez Bernard, Das LOFT. Écartés malgré le buzz : Café Sacher (note 3,9), Onyx (TikTok seulement).
+  Pièges relevés : vendeurs de concerts déguisés en Mozart (déjà dans la fiche concert), file chez Demel.
   Prix confirmés : Schönbrunn (30 €, dépliant officiel 2026), Belvédère (23 €), Hofburg (20 €). Les autres sont
   marqués `a_verifier`. Restaurants : prix et délais estimés, à vérifier.
 - ✅ (19/10/2026) **Page guide de Bordeaux** (`guides/BOD.json`), préparée en autonomie : 24 activités

@@ -285,6 +285,9 @@
    "duree": "2 h 30",
    "moment": "Le jeudi soir (ouvert jusqu'à 21 h), puis un café sous la coupole",
    "enfants": true,
+   "badges": [
+    "tendance"
+   ],
    "texte": "Les tableaux des Habsbourg dans un palais de marbre : la plus belle salle de Bruegel au monde, Vermeer, Raphaël, Rembrandt, Vélasquez. Et le café installé sous la coupole, peut-être le plus beau de Vienne.",
    "site_officiel": "https://www.khm.at/",
    "a_verifier": true,
@@ -988,54 +991,58 @@
    }
   },
   {
-   "id": "haus-der-musik",
-   "nom": "Maison de la Musique",
-   "emoji": "🎼",
-   "type": "culture",
-   "quartier": "Innere Stadt",
-   "lat": 48.203792,
-   "lng": 16.373155,
-   "prix": 19,
+   "id": "palmenhaus",
+   "nom": "Palmenhaus et maison des papillons",
+   "emoji": "🦋",
+   "type": "nature",
+   "quartier": "Hofburg",
+   "lat": 48.2053,
+   "lng": 16.3674,
+   "prix": 10,
    "prix_detail": [
     [
-     "Adulte",
-     "≈ 19 €"
+     "Maison des papillons, adulte",
+     "≈ 10 €"
     ],
     [
-     "3 à 12 ans",
-     "≈ 8 €"
+     "Enfants (dès 3 ans)",
+     "≈ 6 €"
     ],
     [
-     "Moins de 3 ans",
+     "Jardin du Burggarten",
      "gratuit"
     ]
    ],
    "tarifs": {
-    "adulte": 19,
+    "adulte": 10,
     "enfants": [
      [
       2,
       0
      ],
      [
-      12,
-      8
+      14,
+      6
      ]
     ]
    },
    "reservation": "sur_place",
-   "reservation_delai": "billets sur place",
-   "duree": "2 h",
-   "moment": "Un jour de pluie, ou le soir (ouvert jusqu'à 22 h)",
+   "reservation_delai": "billets à l'entrée",
+   "duree": "1 h (plus avec un brunch)",
+   "moment": "Un matin de pluie ou d'hiver, puis un brunch sous la verrière",
    "enfants": true,
-   "texte": "Un musée du son où l'on joue avec la musique : dirigez vous-même l'Orchestre philharmonique de Vienne sur écran géant, composez une valse aux dés comme Mozart et découvrez les compositeurs qui ont fait la gloire de la ville.",
-   "site_officiel": "https://www.hdm.at/",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une immense serre Art nouveau de verre et de fer, adossée à la Hofburg : d'un côté, des centaines de papillons tropicaux volent en liberté autour de vous ; de l'autre, la Brasserie Palmenhaus sert le brunch sous les palmiers, l'une des adresses les plus partagées de Vienne.",
+   "site_officiel": "https://www.schmetterlinghaus.at/",
+   "note": "Maison des papillons ouverte tous les jours, de 10 h à 15 h 45 de novembre à mars (17 h 45 d'avril à octobre).",
    "a_verifier": true,
    "photo": {
-    "auteur": "Agathe Freischütz",
+    "auteur": "Hubertl",
     "licence": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File%3AHaus_der_Musik_Wien_Kinosaal_Virtueller_Dirigent.jpg",
-    "src": "img/activites/VIE/haus-der-musik.jpg"
+    "page": "https://commons.wikimedia.org/wiki/File%3AAT-13768_Palmenhaus_Burggarten_05.JPG",
+    "src": "img/activites/VIE/palmenhaus.jpg"
    }
   },
   {
@@ -1388,7 +1395,8 @@
    "prix": "10 à 30 €",
    "prix_min": 10,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Voûtes, colonnes et lustres dans un palais de 1876 où Freud et Trotski avaient leurs habitudes. Une mélange (le café viennois), une part de strudel ou de Sachertorte, et vous voilà dans la Vienne de 1900.",
    "reservation": "sur_place",
@@ -1401,29 +1409,29 @@
    }
   },
   {
-   "id": "ilona",
-   "nom": "Ilona Stüberl",
-   "emoji": "🍲",
+   "id": "demel",
+   "nom": "Demel",
+   "emoji": "🥞",
    "gamme": "petit",
-   "genre": "Cuisine hongroise",
-   "quartier": "Graben",
-   "adresse": "Bräunerstraße 2, 1010 Wien",
-   "lat": 48.208547,
-   "lng": 16.369438,
-   "prix": "15 à 25 €",
-   "prix_min": 15,
+   "genre": "Pâtisserie impériale",
+   "quartier": "Kohlmarkt",
+   "adresse": "Kohlmarkt 14, 1010 Wien",
+   "lat": 48.208605,
+   "lng": 16.367211,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
-   "texte": "Une petite salle de 25 couverts ouverte en 1957, où l'on vient pour le goulash, le poulet au paprika et les crêpes Gundel : la Hongrie voisine, qui a tant marqué la cuisine viennoise, à deux pas du Graben.",
-   "reservation": "conseille",
-   "reservation_delai": "la veille, la salle est minuscule",
+   "texte": "L'ancien pâtissier de la cour impériale, depuis 1786 : vitrines de gâteaux, salons de velours et le Kaiserschmarrn, crêpe épaisse caramélisée et déchirée, servie avec sa compote de prunes. On voit les pâtissiers travailler derrière la vitre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : longue file l'après-midi ; le guichet à emporter, sur le côté, va bien plus vite",
    "photo": {
-    "auteur": "Hu Totya",
-    "licence": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File%3AHungarian_goulash_soup.jpg",
-    "src": "img/restos/VIE/ilona.jpg",
-    "illustration": true
+    "auteur": "Geolina163",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHofzuckerb%C3%A4cker_Demel_Kaiserschmarrn_3.jpg",
+    "src": "img/restos/VIE/demel.jpg"
    }
   },
   {
@@ -1463,7 +1471,8 @@
    "prix": "25 à 40 €",
    "prix_min": 25,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Depuis 1905, la maison du schnitzel « plus grand que l'assiette » : une escalope de porc aplatie à 30 cm et dorée, avec salade de pommes de terre. Très touristique, mais c'est la référence, et la salle a gardé son charme.",
    "reservation": "conseille",
@@ -1551,29 +1560,30 @@
    }
   },
   {
-   "id": "tian-bistro",
-   "nom": "Tian Bistro am Spittelberg",
-   "emoji": "🥗",
+   "id": "chez-bernard",
+   "nom": "Chez Bernard",
+   "emoji": "🍷",
    "gamme": "moyen",
-   "genre": "Cuisine végétarienne",
-   "quartier": "Spittelberg",
-   "adresse": "Schrankgasse 4, 1070 Wien",
-   "lat": 48.202962,
-   "lng": 16.354853,
-   "prix": "25 à 45 €",
-   "prix_min": 25,
+   "genre": "Brasserie française sur les toits",
+   "quartier": "Mariahilf",
+   "adresse": "Mariahilfer Straße 71A, 1060 Wien (hôtel Motto, 7e étage)",
+   "lat": 48.198315,
+   "lng": 16.350541,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
    "badges": [
-    "recompense"
+    "recompense",
+    "tendance"
    ],
    "recompense": "Bib Gourmand Michelin",
-   "texte": "Le petit frère décontracté du TIAN étoilé, dans les ruelles pavées du Spittelberg : une cuisine végétarienne de saison, colorée et gourmande, qui séduit même les amateurs de viande. Jolie cour-terrasse l'été.",
+   "texte": "Une brasserie parisienne au dernier étage de l'hôtel Motto, avec une coupole vitrée et une terrasse sur les toits de Vienne : bouillabaisse, steak frites et cocktails au coucher du soleil. Saluée par le guide Michelin pour son rapport qualité-prix.",
    "reservation": "conseille",
-   "reservation_delai": "2 à 3 jours avant",
+   "reservation_delai": "quelques jours avant, une semaine pour le week-end",
    "photo": {
-    "auteur": "Bex Walton",
-    "licence": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File%3ASeven-course_tasting_menu_at_Monstera_Bistro%2C_Ljubljana_%2848702049837%29.jpg",
-    "src": "img/restos/VIE/tian-bistro.jpg",
+    "auteur": "Sergey A. Demidov",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20250903_Bouillabaisse_in_Khimki_%2826200%29.jpg",
+    "src": "img/restos/VIE/chez-bernard.jpg",
     "illustration": true
    }
   },
