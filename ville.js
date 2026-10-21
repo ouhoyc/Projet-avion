@@ -24,6 +24,16 @@ const PARTNER_LINKS = {
     'montserrat': tiqets('activites-attractions-barcelone-c66342/billets-pour-tot-montserrat-carte-transport-public-depuis-barcelone-p1123073'),
     'mnac': tiqets('activites-attractions-barcelone-c66342/billets-pour-museu-nacional-dart-de-catalunya-billet-coupe-file-p974918'),
   },
+  LON: {
+    'westminster-abbey': tiqets('activites-attractions-londres-c67458/billets-pour-westminster-abbey-p976342'),
+    'tower-of-london': tiqets('activites-attractions-londres-c67458/billets-pour-exposition-sur-la-tour-de-londres-et-les-joyaux-de-la-couronne-billet-d-entree-p974054'),
+    'tower-bridge': tiqets('activites-attractions-londres-c67458/billets-pour-tower-bridge-billet-d-entree-p979895'),
+    'st-pauls': tiqets('activites-attractions-londres-c67458/billets-pour-la-cathedrale-saint-paul-billet-d-entree-p975047'),
+    'kew': tiqets('activites-attractions-londres-c67458/billets-pour-jardins-botaniques-royaux-de-kew-billet-coupe-file-p974403'),
+    'warner-bros': tiqets('activites-attractions-londres-c67458/billets-pour-harry-potter-warner-bros-studio-tour-transfert-en-autocar-depuis-londres-p1111536'),
+    'tamise-bateau': tiqets('activites-attractions-londres-c67458/billets-pour-la-tamise-croisiere-touristique-par-thames-clipper-p1111367'),
+    'windsor': tiqets('activites-attractions-windsor-c67223/billets-pour-chateau-de-windsor-billet-d-entree-p975208'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 

@@ -257,6 +257,9 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (21/10/2026) Londres : liens Tiqets sur 8 activités (Westminster, Tour de Londres, Tower Bridge,
+  Saint-Paul, Kew, Harry Potter avec bus, Tamise, Windsor). Sans lien : London Eye et Churchill War Rooms
+  (Tiqets = formules plus chères), Greenwich, Arsenal, comédie musicale ; musées et Sky Garden gratuits.
 - ✅ (21/10/2026) Liens affiliés Tiqets en ligne sur 12 activités de Barcelone (bouton « Réserver »).
   Sans lien : Picasso (Tiqets = visite guidée plus chère), téléphérique de Montjuïc et Tibidabo (absents de Tiqets).
 - ✅ (18/10/2026) Prix des vols **pour tout le groupe** (choix « Voyageurs ») : pastilles de la carte,
