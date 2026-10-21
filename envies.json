@@ -1,7 +1,8 @@
 {
-"_info": "Envies par ville (accueil, question « Vous avez envie de quoi ? »). Ordre = la plus forte en premier. Clés : soleil (Soleil et plage), culture (Culture et histoire), gastronomie, nature, fete. Chaque ville en a au moins une.",
+"_info": "Envies par ville (accueil, question « Vous avez envie de quoi ? »). Ordre = la plus forte en premier. Clés : soleil (Soleil et plage), culture (Culture et histoire), gastronomie, nature, fete. Chaque ville en a au moins une. Vérifié le 21/10/2026 (recherches web : Algérie, Oujda, Tirana, Koutaïssi, classements vie nocturne Time Out 2025).",
 "AAE": [
-"soleil"
+"soleil",
+"culture"
 ],
 "ACE": [
 "soleil",
@@ -9,7 +10,8 @@
 ],
 "AGP": [
 "soleil",
-"gastronomie"
+"gastronomie",
+"nature"
 ],
 "AJA": [
 "soleil",
@@ -33,10 +35,12 @@
 ],
 "ATH": [
 "culture",
-"soleil"
+"soleil",
+"fete"
 ],
 "AYT": [
 "soleil",
+"culture",
 "nature"
 ],
 "BCN": [
@@ -83,7 +87,8 @@
 ],
 "BRI": [
 "soleil",
-"gastronomie"
+"gastronomie",
+"culture"
 ],
 "BRU": [
 "gastronomie",
@@ -108,10 +113,12 @@
 ],
 "CFU": [
 "soleil",
-"nature"
+"nature",
+"culture"
 ],
 "CMN": [
-"culture"
+"culture",
+"soleil"
 ],
 "CPH": [
 "gastronomie"
@@ -119,7 +126,8 @@
 "CTA": [
 "soleil",
 "nature",
-"gastronomie"
+"gastronomie",
+"culture"
 ],
 "CZL": [
 "culture",
@@ -151,12 +159,14 @@
 ],
 "ESU": [
 "soleil",
+"culture",
 "nature"
 ],
 "EVN": [
 "culture",
 "gastronomie",
-"nature"
+"nature",
+"fete"
 ],
 "FAO": [
 "soleil",
@@ -243,7 +253,8 @@
 ],
 "MRS": [
 "soleil",
-"nature"
+"nature",
+"gastronomie"
 ],
 "MUC": [
 "fete",
@@ -252,7 +263,8 @@
 "NAP": [
 "gastronomie",
 "culture",
-"soleil"
+"soleil",
+"nature"
 ],
 "NCE": [
 "soleil"
@@ -266,13 +278,15 @@
 ],
 "ORN": [
 "soleil",
+"culture",
 "fete"
 ],
 "OSL": [
 "nature"
 ],
 "OUD": [
-"soleil"
+"soleil",
+"nature"
 ],
 "PAR": [
 "culture",
@@ -281,8 +295,8 @@
 ],
 "PMI": [
 "soleil",
-"fete",
-"nature"
+"nature",
+"fete"
 ],
 "PMO": [
 "gastronomie",
@@ -335,7 +349,8 @@
 ],
 "TIA": [
 "fete",
-"nature"
+"nature",
+"culture"
 ],
 "TLS": [
 "gastronomie"
@@ -368,7 +383,8 @@
 "culture"
 ],
 "WAW": [
-"culture"
+"culture",
+"fete"
 ],
 "YMQ": [
 "fete",

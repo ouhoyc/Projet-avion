@@ -169,10 +169,12 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
    quartiers servent donc à nommer le point et de secours (point dans l'eau, en zone sans hôtels).
 4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
 
-## Économie (demande du propriétaire)
-- Sa consommation a explosé : limiter les captures aux vérifications utiles et à celles qu'il doit
-  voir, limiter les recherches web, ne pas relire des fichiers déjà connus.
-- Conseiller une **nouvelle conversation** par grand sujet.
+## Qualité d'abord (demande du propriétaire, 21/10/2026)
+- **La qualité passe avant l'économie de tokens** : faire les recherches nécessaires, vérifier,
+  creuser, plutôt que de répondre de mémoire. Il ne veut pas refaire le site plusieurs fois.
+- Garder des captures utiles (vérifications iPhone + PC, et ce qu'il doit voir), sans en abuser.
+- Une nouvelle conversation par grand sujet reste conseillée (les conversations très longues
+  deviennent lentes et chères), mais ce n'est plus une contrainte.
 
 ## Prochaines étapes prévues
 1. **Nom et logo : en pause** (voir point 11 d'`IDEES.md` : critères, noms écartés, noms libres).
