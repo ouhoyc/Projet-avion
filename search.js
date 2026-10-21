@@ -186,11 +186,10 @@ function setupSearchForm() {
   document.addEventListener('data-ready', () => {
     fillPlaces();
     updateFormHelp();
-    // Durée vierge à l'arrivée : on la demande tout de suite (panneau ouvert), car sans elle
-    // pas de prix aller-retour. La liste propose aussi les 4 durées tant qu'aucune n'est choisie.
+    // Durée vierge à l'arrivée : sans elle, pas de prix aller-retour. La page reste vide et
+    // propose les 4 durées (« Choisissez une durée pour commencer »).
     updateFormHelp();
     runSearch();
-    if (!readyToSearch()) $('f-stay').showModal();
   });
 }
 
@@ -350,7 +349,6 @@ function updateFormHelp() {
 function updatePills() {
   const ow = tripType() === 'ow';
   $('p-stay').textContent = ow ? 'Aller simple' : exactDates() ? 'Dates exactes' : STAY_NIGHTS[stayValue()] || 'Durée\u00a0?';
-  sEls.form.querySelector('[data-filter="f-stay"]').classList.toggle('needs-value', !readyToSearch());
   const budget = Number(sEls.budget.value);
   $('p-budget').textContent = budget ? `${fmtPrice.format(budget)} max` : 'Budget';
   // Pastille : le nom seul (« Barcelone », « Italie »), le pays est dans le panneau.
@@ -416,6 +414,7 @@ async function runSearch() {
     return;
   }
 
+  document.body.classList.remove('needs-stay');
   sEls.results.innerHTML = '<div class="live-loading"><span class="spinner" aria-hidden="true"></span>Recherche des meilleures dates…</div>';
   let daily;
   try {
@@ -459,10 +458,11 @@ async function runSearch() {
   showMonth(true);
 }
 
-// Pas encore de durée : la liste demande « Combien de temps partez-vous ? » avec les 4 choix,
-// la carte et la barre des mois sont vidées.
+// Pas encore de durée : page vide (carte, mois et tri cachés), avec seulement l'invitation
+// « Choisissez une durée pour commencer » et les 4 durées.
 function showStayPrompt() {
   searchState.base = null;
+  document.body.classList.add('needs-stay');
   sEls.monthsBar.hidden = true;
   sEls.refine.hidden = true;
   sEls.mapCaption.textContent = '';
@@ -471,8 +471,8 @@ function showStayPrompt() {
     .map((r) => `<button type="button" class="pill" data-stay="${r.value}">${escapeHtml(r.nextElementSibling.textContent)}<small>${STAY_NIGHTS[r.value]}</small></button>`).join('');
   sEls.results.innerHTML = `
     <div class="stay-prompt">
-      <p class="stay-prompt-title">Combien de temps partez-vous&nbsp;?</p>
-      <p>Choisissez une durée pour voir les séjours et leurs prix.</p>
+      <p class="stay-prompt-title">Choisissez une durée pour commencer</p>
+      <p>Combien de nuits voulez-vous partir&nbsp;? On vous montre ensuite toutes les destinations et leurs prix.</p>
       <div class="stay-prompt-choices">${choices}</div>
     </div>`;
 }

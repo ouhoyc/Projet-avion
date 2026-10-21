@@ -956,9 +956,10 @@ label.exact-check {
   .filters-row .pill { padding: 8px 1px 6px; font-size: 11px; }
 }
 
-/* Durée pas encore choisie : la pastille se signale en corail */
-.pill.needs-value { border-color: var(--primary); color: var(--primary); }
-@media (prefers-reduced-motion: no-preference) { .pill.needs-value { animation: nudge 600ms var(--ease-out) 2; } }
+/* Durée pas encore choisie : la page reste vide (pas de carte ni de liste), avec seulement
+   l'invitation à choisir une durée */
+body.needs-stay .map-section, body.needs-stay #liste > .section-head, body.needs-stay .list-intro { display: none; }
+body.needs-stay #liste { max-width: 640px; margin: var(--s-6) auto; }
 
 /* « Tout remettre à zéro » : discret, visible seulement si un filtre est réglé */
 .reset-filters {
@@ -969,7 +970,7 @@ label.exact-check {
 .reset-filters[hidden] { display: none; }
 
 /* Invitation à choisir la durée (à la place des résultats) */
-.stay-prompt { display: grid; gap: var(--s-2); padding: var(--s-5) var(--s-4); border: 2px dashed var(--border); border-radius: var(--r-lg); background: var(--surface); text-align: center; }
+.stay-prompt { display: grid; gap: var(--s-2); padding: var(--s-6) var(--s-4); border: 2px dashed var(--border); border-radius: var(--r-lg); background: var(--surface); text-align: center; }
 .stay-prompt-title { font-size: 22px; font-weight: 800; letter-spacing: -.02em; }
 .stay-prompt p:not(.stay-prompt-title) { color: var(--text-muted); }
 .stay-prompt-choices { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-2); margin-top: var(--s-2); }
@@ -1052,6 +1053,7 @@ html:has(dialog[open]) { overflow: hidden; }
   }
   #liste { grid-area: list; }
   .map-section { grid-area: map; position: sticky; top: 78px; margin-top: var(--s-5); }
+  body.needs-stay main { grid-template-columns: minmax(0, 1fr); grid-template-areas: "list"; }
   .map-section .section-head { margin-top: 0; }
   #map { height: calc(100vh - 170px); max-height: none; min-height: 480px; }
   .hero-inner, .footer { max-width: 1440px; }
