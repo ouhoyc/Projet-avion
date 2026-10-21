@@ -4,11 +4,28 @@
 // navigateur et la flèche de retour reviennent à l'étape précédente.
 // Lit la fiche de la ville (villes.json), ses activités (guides/CODE.json) et data.json.
 
-// Liens partenaires par activité (Tiqets…), à remplir quand les liens seront créés dans
-// Travelpayouts. Sans lien, seul le bouton « Site officiel » s'affiche.
+// Liens partenaires par ville puis par activité. Tiqets : lien Travelpayouts (numéro 787111)
+// + « ?u= » la page Tiqets voulue ; chaque clic reçoit son propre code de suivi.
+// Sans lien (pas d'offre Tiqets au bon prix), seul le bouton « Site officiel » s'affiche.
+const TIQETS_LINK = 'https://tiqets.tp.st/7mjOjUCp';
+const tiqets = (page) => `${TIQETS_LINK}?u=${encodeURIComponent(`https://www.tiqets.com/fr/${page}/`)}`;
 const PARTNER_LINKS = {
-  // 'sagrada-familia': 'https://…',
+  BCN: {
+    'sagrada-familia': tiqets('activites-attractions-barcelone-c66342/billets-pour-sagrada-familia-billet-avec-acces-rapide-tours-en-option-p1111400'),
+    'parc-guell': tiqets('activites-attractions-barcelone-c66342/billets-pour-parc-guell-billet-d-entree-audioguide-p1111514'),
+    'casa-batllo': tiqets('activites-attractions-barcelone-c66342/billets-pour-casa-batllo-billet-d-entree-p1111363'),
+    'la-pedrera': tiqets('activites-attractions-barcelone-c66342/billets-pour-casa-mila-la-pedrera-billet-d-entree-audioguide-p973460'),
+    'casa-vicens': tiqets('activites-attractions-barcelone-c66342/billets-pour-casa-vicens-billet-coupe-file-p975130'),
+    'sant-pau': tiqets('activites-attractions-barcelone-c66342/billets-pour-site-art-nouveau-de-sant-pau-billet-coupe-file-p974414'),
+    'palau-musica': tiqets('activites-attractions-barcelone-c66342/billets-pour-palau-de-la-musica-catalana-billet-coupe-file-p1119139'),
+    'fondation-miro': tiqets('activites-attractions-barcelone-c66342/billets-pour-fundacio-joan-miro-billet-coupe-file-p973973'),
+    'camp-nou': tiqets('activites-attractions-barcelone-c66342/billets-pour-musee-du-fc-barcelone-billet-pour-la-visite-immersive-du-barca-audioguide-p1141201'),
+    'flamenco': tiqets('activites-attractions-barcelone-c66342/billets-pour-tablao-flamenco-cordobes-spectacle-de-flamenco-repas-et-ou-boissons-p1111500'),
+    'montserrat': tiqets('activites-attractions-barcelone-c66342/billets-pour-tot-montserrat-carte-transport-public-depuis-barcelone-p1123073'),
+    'mnac': tiqets('activites-attractions-barcelone-c66342/billets-pour-museu-nacional-dart-de-catalunya-billet-coupe-file-p974918'),
+  },
 };
+const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 
 // Identifiant partenaire Stay22 (carte d'hôtels avec les prix en direct). Ce n'est pas un
 // secret : il apparaît dans l'adresse de la carte. Vide = carte remplacée par un lien Booking.
@@ -333,7 +350,7 @@ function sheetTop(x, cls = '') {
 function openSheet(id) {
   const a = guide.activites.find((x) => x.id === id);
   if (!a) return;
-  const partner = PARTNER_LINKS[a.id];
+  const partner = partnerLink(a);
   const on = selected.has(a.id);
   const boxClass = a.reservation === 'indispensable' ? 'box-warn' : a.reservation === 'conseille' ? 'box-mid' : '';
   const booking = a.reservation === 'libre'
@@ -1036,7 +1053,7 @@ function renderRecap() {
   if (hotel.prix && book.hotel) steps.push({ id: 'hotel', title: `L'hôtel · ${esc(hotel.nom || '')}`, sub: 'sur Booking.com, dates et voyageurs déjà remplis', href: hotelLink(pax) });
   if (acts.length && book.acts) {
     for (const a of acts.filter((x) => x.reservation !== 'libre')) {
-      const partner = PARTNER_LINKS[a.id];
+      const partner = partnerLink(a);
       const href = partner || a.site_officiel;
       if (href) steps.push({ id: `a-${a.id}`, title: esc(a.nom), sub: partner ? 'chez notre partenaire' : 'sur le site officiel', href, sponsored: Boolean(partner) });
     }

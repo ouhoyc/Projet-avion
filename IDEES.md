@@ -246,6 +246,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (21/10/2026) Liens affiliés Tiqets en ligne sur 12 activités de Barcelone (bouton « Réserver »).
+  Sans lien : Picasso (Tiqets = visite guidée plus chère), téléphérique de Montjuïc et Tibidabo (absents de Tiqets).
 - ✅ (18/10/2026) « Rechercher » fait défiler jusqu'aux résultats (iPhone : la carte puis la liste ;
   PC : la liste), un testeur croyait que le bouton ne faisait rien.
 - ✅ (17/10/2026) « Où ? » : on tape une ville ou un pays (sans se soucier des accents), liste de

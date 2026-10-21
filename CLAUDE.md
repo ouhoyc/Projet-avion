@@ -45,7 +45,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   - le résultat est gardé 30 min dans le navigateur.
 - `ville.html` + `ville.js` + `ville.css` : page guide d'une ville (`ville.html?c=BCN`), qui lit
   `guides/CODE.json` (activités : prix, réservation, durée, position…). Les villes qui ont un
-  guide sont listées dans `GUIDES` (`search.js`) ; liens partenaires dans `PARTNER_LINKS` (`ville.js`).
+  guide sont listées dans `GUIDES` (`search.js`) ; liens partenaires dans `PARTNER_LINKS` (`ville.js`, par ville puis activité) : Tiqets =
+  `tiqets('chemin de la page Tiqets')`, qui passe par le lien Travelpayouts `TIQETS_LINK` + `?u=`
+  (un code de suivi neuf à chaque clic). Pas de lien si Tiqets n'a qu'une offre plus chère (ex. Picasso).
   Chaque activité a des `tarifs` (adulte + règles enfants [âge max, prix]) pour le devis.
   Partie « Où dormir ? » : `quartiers` dans le guide, `GAMMES` et `STAY22_AID` dans `ville.js`.
   Circuit en 5 étapes (#1 à #5) : Vol, Activités, Restos, Hôtel, Réserver. Restaurants dans
