@@ -101,7 +101,12 @@ function setupSearchForm() {
     const pill = e.target.closest('[data-filter]');
     if (pill) {
       $(pill.dataset.filter).showModal();
-      if (pill.dataset.filter === 'f-where') sEls.where.focus();
+      // « Une idée ? » : liste des pays tout de suite. Sur téléphone, pas de clavier d'office :
+      // il ouvrait d'un coup et Safari faisait sauter la page ; on touche le champ pour écrire.
+      if (pill.dataset.filter === 'f-where') {
+        if (matchMedia('(pointer: fine)').matches) sEls.where.focus();
+        else sEls.where.dispatchEvent(new Event('input'));
+      }
       return;
     }
     if (e.target.closest('[data-filter-close]') || e.target.matches('.filter-sheet')) closeFilters();
@@ -323,7 +328,7 @@ function updateFormHelp() {
   recap.hidden = !exact;
   if (exact) {
     const nights = nightsBetween(from, to);
-    recap.innerHTML = `✈️ Aller ${escapeHtml(formatDayShortWeek(from))} · Retour ${escapeHtml(formatDayShortWeek(to))}<small>${nights} nuit${nights > 1 ? 's' : ''} sur place</small>`;
+    recap.innerHTML = `<svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Aller ${escapeHtml(formatDayShortWeek(from))} · Retour ${escapeHtml(formatDayShortWeek(to))}<small>${nights} nuit${nights > 1 ? 's' : ''} sur place</small>`;
   }
 
   // Même mois : « 2 » et « 7 nov. » ; sinon « 30 nov. » et « 4 déc. »
@@ -624,7 +629,6 @@ function renderResults() {
   const roundTrip = q.type === 'rt';
   searchState.shown = 0;
   sEls.count.textContent = '';
-  $('results-title').textContent = view.length ? `✨ ${view.length} séjour${view.length > 1 ? 's' : ''} clé en main` : '✨ Séjours clé en main';
 
   if (!view.length) {
     sEls.results.innerHTML = `
@@ -724,13 +728,13 @@ function cityCardHtml(city, index) {
     <li class="card result trip-card" data-result="${index}">
       <div class="tc-photo">
         ${photo ? `<img src="${escapeHtml(photo.src)}" alt="${escapeHtml(photo.alt || dest.city)}" loading="lazy" decoding="async">` : `<span class="tc-noimg" aria-hidden="true">${flag(dest.country_code)}</span>`}
-        <span class="tc-ribbon">✨ Séjour clé en main</span>
+        <span class="tc-ribbon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg> Séjour clé en main</span>
       </div>
       <div class="tc-body">
         <h3 class="card-city">${flag(dest.country_code)} ${escapeHtml(dest.city)}</h3>
-        <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''} · <span class="card-route">${escapeHtml(data.origin.code)} ✈ ${escapeHtml(best.code)}</span></p>
+        <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''} · <span class="card-route">${escapeHtml(data.origin.code)} <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg> ${escapeHtml(best.code)}</span></p>
         ${factsHtml(dest, best.out.day, best.out.duration, false)}
-        <ul class="tc-inc" aria-label="Compris dans le séjour"><li>✈️ Vol</li><li>🎟️ Activités</li><li>🍽️ Restos</li><li>🏨 Hôtel</li></ul>
+        <ul class="tc-inc" aria-label="Compris dans le séjour"><li><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Vol</li><li><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg> Activités</li><li><svg class="icon" aria-hidden="true"><use href="#i-utensils"/></svg> Restos</li><li><svg class="icon" aria-hidden="true"><use href="#i-bed"/></svg> Hôtel</li></ul>
         ${mainOptions.map((o) => tripOptionHtml(o, city, roundTrip)).join('')}
         ${chips.length ? `
           <div class="chips-alt">
@@ -750,7 +754,7 @@ function tripOptionHtml(o, city, roundTrip) {
   const dates = `${escapeHtml(formatDayShortWeek(o.out.day))}${o.ret ? ` → ${escapeHtml(formatDayShortWeek(o.ret.day))}` : ''}`;
   return `
     <div class="tc-option">
-      <p class="tc-dates">📅 ${dates}${o.nights ? ` · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}${airport ? `<small>Aéroport : ${escapeHtml(airport)}</small>` : ''}</p>
+      <p class="tc-dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> ${dates}${o.nights ? ` · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}${airport ? `<small>Aéroport : ${escapeHtml(airport)}</small>` : ''}</p>
       <div class="tc-foot">
         <p class="tc-price"><small>${roundTrip ? 'Vol aller-retour' : 'Vol aller simple'}${seats() > 1 ? ` · ${seats()} voyageurs` : ''}</small><strong>${fmtGroup(o.total)}</strong>${perPersonHtml(o.total)}</p>
         <button type="button" class="btn btn-primary tc-go" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Préparer mon séjour <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
@@ -771,19 +775,19 @@ function photoHtml(dest) {
     </figure>`;
 }
 
-// Temps typique d'un mois, d'après les heures de soleil par jour et les jours de pluie.
+// Temps typique d'un mois (nom de l'icône + texte), d'après les heures de soleil par jour et les jours de pluie.
 const DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 function monthWeather(c, m) {
   const rain = c.pluie?.[m];
   const sun = c.soleil?.[m] != null ? c.soleil[m] / DAYS_IN_MONTH[m] : null;
-  if (sun == null || rain == null) return { icon: '🌡️', label: '' };
-  if (sun >= 8 && rain <= 7) return { icon: '☀️', label: 'ensoleillé' };
-  if (sun >= 6 && rain <= 10) return { icon: '🌤️', label: 'plutôt ensoleillé' };
-  if (sun >= 5.5 && rain > 10) return { icon: '🌦️', label: 'soleil et averses' };
-  if (rain >= 11 || (rain >= 10 && sun < 4)) return { icon: '🌧️', label: 'pluvieux' };
-  if (sun >= 5) return { icon: '⛅', label: 'soleil et nuages' };
-  if (sun >= 3.5) return { icon: '☁️', label: 'plutôt nuageux' };
-  return { icon: '☁️', label: 'gris' };
+  if (sun == null || rain == null) return { icon: 'thermo', label: '' };
+  if (sun >= 8 && rain <= 7) return { icon: 'sun', label: 'ensoleillé' };
+  if (sun >= 6 && rain <= 10) return { icon: 'cloud-sun', label: 'plutôt ensoleillé' };
+  if (sun >= 5.5 && rain > 10) return { icon: 'cloud-sun-rain', label: 'soleil et averses' };
+  if (rain >= 11 || (rain >= 10 && sun < 4)) return { icon: 'cloud-rain', label: 'pluvieux' };
+  if (sun >= 5) return { icon: 'cloud-sun', label: 'soleil et nuages' };
+  if (sun >= 3.5) return { icon: 'cloud', label: 'plutôt nuageux' };
+  return { icon: 'cloud', label: 'gris' };
 }
 
 // Météo moyenne du mois du départ + durée de vol. `long` : version détaillée (panneau).
@@ -800,9 +804,9 @@ function factsHtml(dest, day, duration, long) {
     const text = long
       ? `En ${MONTH_NAMES[m]}, en moyenne : ${w.label ? `${w.label}, ` : ''}${temps}${rain != null ? `, ${rain} jours de pluie` : ''}`
       : `${w.label ? capitalize(w.label) + ' · ' : ''}${lo != null ? `${lo}–${hi}°` : `${hi}°`} en ${fmtMonthShort.format(parseDay(day))}`;
-    facts.push(`<span title="Moyennes ${escapeHtml(c.source || '')}">${w.icon} ${escapeHtml(text)}</span>`);
+    facts.push(`<span title="Moyennes ${escapeHtml(c.source || '')}"><svg class="icon" aria-hidden="true"><use href="#i-${w.icon}"/></svg> ${escapeHtml(text)}</span>`);
   }
-  if (duration) facts.push(`<span>✈️ ${escapeHtml(formatDuration(duration))}${long ? ' de vol' : ''}</span>`);
+  if (duration) facts.push(`<span><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> ${escapeHtml(formatDuration(duration))}${long ? ' de vol' : ''}</span>`);
   return facts.length ? `<p class="${long ? 'sheet-facts' : 'card-facts'}">${facts.join('')}</p>` : '';
 }
 
@@ -891,7 +895,7 @@ function openTripSheet(trip) {
         Réserver sur Kiwi.com <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
       </a>
       <p class="sheet-note">Vous serez redirigé vers Kiwi.com (en français, prix en euros) pour choisir vos vols et payer.</p>
-      <p class="sheet-soon">✨ Activités, restos et hôtel arrivent bientôt pour cette ville : vous pourrez préparer tout le séjour ici.</p>`}
+      <p class="sheet-soon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg> Activités, restos et hôtel arrivent bientôt pour cette ville : vous pourrez préparer tout le séjour ici.</p>`}
     </div>`;
   sheet.showModal();
   const id = ++liveRequest;
@@ -1040,7 +1044,8 @@ function setupCalendar() {
     paintCalendar();
     dialog.showModal();
     const target = months.querySelector(`[data-day="${cal.start || isoDay(today)}"]`);
-    target?.closest('.cal-month')?.scrollIntoView({ block: 'start' });
+    const month = target?.closest('.cal-month');
+    months.scrollTop = month ? month.offsetTop - months.offsetTop : 0; // pas scrollIntoView : il faisait défiler la page sur iPhone
   });
 
   months.addEventListener('click', (e) => {

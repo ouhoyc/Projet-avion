@@ -40,6 +40,18 @@
     <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
     <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2M13 17v2M13 11v2"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.94 15.5a2 2 0 0 0-1.44-1.44l-6.13-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0l1.58 6.14a2 2 0 0 0 1.44 1.44l6.14 1.58a.5.5 0 0 1 0 .96l-6.14 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/><path d="M20 3v4M22 5h-4M4 17v2M5 18H3"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+    <symbol id="i-cloud-sun" viewBox="0 0 24 24"><path d="M12 2v2M4.93 4.93l1.41 1.41M20 12h2M19.07 4.93l-1.41 1.41M15.95 12.65a4 4 0 0 0-5.93-4.13"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></symbol>
+    <symbol id="i-cloud-rain" viewBox="0 0 24 24"><path d="M4 14.9A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.24M16 14v6M8 14v6M12 16v6"/></symbol>
+    <symbol id="i-cloud-sun-rain" viewBox="0 0 24 24"><path d="M12 2v2M4.93 4.93l1.41 1.41M20 12h2M19.07 4.93l-1.41 1.41M15.95 12.65a4 4 0 0 0-5.93-4.13"/><path d="M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24M11 20v2M7 19v2"/></symbol>
+    <symbol id="i-thermo" viewBox="0 0 24 24"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></symbol>
   </svg>
 
   <a class="skip-link" href="#liste">Aller à la liste des destinations</a>
@@ -64,16 +76,16 @@
           <svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span id="s-when-label">N'importe quand</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
         </button>
         <button type="button" class="pill" data-filter="f-stay" aria-haspopup="dialog" aria-label="Durée du séjour">
-          <span aria-hidden="true">🌙</span><span id="p-stay">2 à 4 nuits</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+          <svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg><span id="p-stay">2 à 4 nuits</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
         </button>
         <button type="button" class="pill" id="s-pax" aria-haspopup="dialog" aria-label="Voyageurs">
           <svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><span id="s-pax-label">1 adulte</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
         </button>
         <button type="button" class="pill" data-filter="f-budget" aria-haspopup="dialog" aria-label="Budget maximum">
-          <span aria-hidden="true">💶</span><span id="p-budget">Budget</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+          <svg class="icon" aria-hidden="true"><use href="#i-wallet"/></svg><span id="p-budget">Budget</span><svg class="icon chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
         </button>
         <button type="button" class="pill" data-filter="f-where" aria-haspopup="dialog" aria-label="Une idée de destination ?">
-          <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><span id="p-where">Une idée ?</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span id="p-where">Une idée ?</span>
         </button>
         <input type="hidden" id="s-from">
         <input type="hidden" id="s-to">
@@ -84,10 +96,8 @@
           <div class="sheet-grip" aria-hidden="true"></div>
           <button type="button" class="sheet-close" data-filter-close aria-label="Fermer"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
           <h2 class="filter-title">Combien de temps partez-vous ?</h2>
-          <div class="segmented" role="radiogroup" aria-label="Type de voyage">
-            <label><input type="radio" name="trip" value="rt" checked><span>Aller-retour</span></label>
-            <label><input type="radio" name="trip" value="ow"><span>Aller simple</span></label>
-          </div>
+          <!-- Toujours un aller-retour : le site prépare des séjours, pas des allers simples -->
+          <input type="hidden" name="trip" value="rt">
           <!-- Avec une période choisie : partir le 1er jour et revenir le dernier -->
           <label class="exact-check" id="s-exact-field" hidden><input type="checkbox" id="s-exact"><span>Partir et revenir à ces dates exactes</span></label>
           <p class="exact-recap" id="s-exact-recap" hidden></p>
@@ -163,10 +173,10 @@
     <!-- Résultats de la recherche (remplissent aussi la carte) -->
     <section class="list-section" id="liste" aria-labelledby="results-title" tabindex="-1">
       <div class="section-head">
-        <h2 id="results-title">✨ Séjours clé en main</h2>
+        <h2 id="results-title"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg> Votre séjour clé en main</h2>
         <p class="result-count" id="results-count" aria-live="polite"></p>
       </div>
-      <p class="list-intro">Choisissez une destination : on prépare tout, vol, activités, restos et hôtel, avec le prix total.</p>
+      <p class="list-intro">Choisissez une destination : on vous accompagne pas à pas pour choisir vos activités, vos restos et votre hôtel, avec le prix total à la fin.</p>
       <!-- Mois de départ (quand « Quand ? » est vide) : on glisse pour changer de mois -->
       <div class="months-bar" id="months-bar" hidden>
         <button type="button" class="months-arrow" data-month-step="-1" aria-label="Mois précédent"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>

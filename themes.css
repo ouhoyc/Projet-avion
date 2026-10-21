@@ -121,7 +121,7 @@ html[data-da^="pop"] {
 }
 [data-da^="pop"] .stay-chips input:checked + span { background: var(--ink); color: var(--paper); transform: translate(2px, 2px); box-shadow: none; }
 [data-da^="pop"] .stay-chips input:checked + span::before { background: var(--ink); border-color: var(--paper); }
-[data-da^="pop"] .field > label.exact-check { font-family: inherit; font-size: 14px; font-weight: 600; text-transform: none; letter-spacing: 0; justify-content: flex-start; }
+[data-da^="pop"] label.exact-check { font-family: inherit; font-size: 14px; font-weight: 600; text-transform: none; letter-spacing: 0; justify-content: flex-start; }
 [data-da^="pop"] .where-box input::placeholder { color: var(--ink); }
 [data-da^="pop"] .where-list li[aria-selected="true"] { background: var(--paper); }
 [data-da^="pop"] .exact-check input { border-color: var(--ink); background: #fff; box-shadow: 2px 2px 0 var(--ink); }

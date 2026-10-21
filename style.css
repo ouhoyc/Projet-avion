@@ -783,7 +783,7 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .search-recap { font-size: 14px; line-height: 1.45; text-align: center; padding: 0 var(--s-1); }
 .search-recap b { color: var(--primary); }
 /* « Partir et revenir à ces dates exactes » */
-.field > label.exact-check {
+label.exact-check {
   display: flex; align-items: center; gap: 10px; margin-top: 10px;
   font: inherit; font-size: 14px; font-weight: 600; color: var(--text);
   text-transform: none; letter-spacing: 0; cursor: pointer;
@@ -919,11 +919,17 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .pill.has-value { background: var(--text); color: var(--bg); border-color: var(--text); }
 .pill:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
 
+/* Panneau ouvert : la page derrière ne bouge plus (sur iPhone, elle défilait et « sautait ») */
+html:has(dialog[open]) { overflow: hidden; }
+
 /* Panneaux des filtres (en bas de l'écran sur téléphone) */
 .filter-title { font-size: 22px; font-weight: 800; letter-spacing: -.02em; padding-right: 48px; }
 .filter-help { font-size: 14px; color: var(--text-muted); margin-top: calc(-1 * var(--s-2)); }
 .filter-sheet .segmented { justify-self: start; }
-.filter-sheet .where-list { position: static; margin-top: var(--s-2); max-height: 45vh; box-shadow: none; }
+.filter-sheet .where-list { position: static; margin-top: var(--s-2); max-height: 38vh; box-shadow: none; }
+/* « Une idée ? » : panneau haut et fixe, pour que le clavier ne cache ni le champ ni la liste */
+#f-where { height: 86vh; height: 86dvh; }
+#f-where .sheet-body { align-content: start; }
 .filter-sheet .stay-explain:empty { display: none; }
 
 /* Liste : titre « ✨ 44 séjours clé en main » et phrase d'explication */
@@ -937,7 +943,7 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .tc-noimg { display: grid; place-items: center; height: 100%; }
 .tc-noimg .flag-img { width: 72px; height: auto; }
 .tc-ribbon {
-  position: absolute; left: 0; right: 0; bottom: 0;
+  position: absolute; left: 0; right: 0; bottom: 0; display: flex; align-items: center; gap: 6px;
   padding: 7px 14px; background: var(--primary); color: #fff;
   font-size: 14px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase;
 }
@@ -948,9 +954,12 @@ fieldset.field legend { padding: 0; margin-bottom: 6px; font-size: 13px; font-we
 .trip-card .card-route { display: inline; margin: 0; padding: 0; background: none; color: inherit; font-size: 12px; }
 .trip-card .card-facts { margin: 0; color: rgba(255, 255, 255, .85); }
 .tc-inc { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; margin: 0; padding: 0; }
-.tc-inc li { padding: 4px 10px; border-radius: var(--r-full); background: rgba(255, 255, 255, .12); font-size: 13px; font-weight: 600; }
+.tc-inc li { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: var(--r-full); background: rgba(255, 255, 255, .12); font-size: 13px; font-weight: 600; }
 .tc-option { display: grid; gap: 8px; padding-top: 10px; border-top: 1px dashed rgba(255, 255, 255, .25); }
 .tc-dates { font-size: 14px; font-weight: 600; }
+.tc-dates > .icon { vertical-align: -2px; margin-right: 4px; }
+.card-facts .icon, .sheet-facts .icon { vertical-align: -2px; }
+#results-title .icon { color: var(--primary); vertical-align: -3px; }
 .tc-dates small { display: block; font-weight: 500; color: rgba(255, 255, 255, .7); }
 .tc-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-2) var(--s-3); }
 .tc-price { display: grid; line-height: 1.1; }
