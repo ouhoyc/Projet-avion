@@ -936,16 +936,46 @@ label.exact-check {
   }
   .filters-row .pill .icon { width: 20px; height: 20px; }
   .filters-row .pill .chevron { display: none; }
-  .filters-row .pill span {
+  .filters-row .pill > span {
     display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;
     overflow: hidden; max-width: 100%;
   }
 }
+/* Voyageurs : « 1 adulte » puis « 1 enfant » sur deux lignes (téléphone), à la suite sur ordinateur */
+.pax-line + .pax-line::before { content: ", "; }
+@media (max-width: 759px) {
+  .filters-row .pill > #s-pax-label { -webkit-line-clamp: 3; }
+  .pax-line { display: block; }
+  .pax-line + .pax-line::before { content: none; }
+  .reset-filters { grid-column: 1 / -1; justify-self: end; margin-top: -2px; }
+}
+
 /* Petits téléphones (≤ 374 px) : un peu plus serré pour que « N'importe » tienne sans être coupé */
 @media (max-width: 374px) {
   .filters-row { gap: 4px; }
   .filters-row .pill { padding: 8px 1px 6px; font-size: 11px; }
 }
+
+/* Durée pas encore choisie : la pastille se signale en corail */
+.pill.needs-value { border-color: var(--primary); color: var(--primary); }
+@media (prefers-reduced-motion: no-preference) { .pill.needs-value { animation: nudge 600ms var(--ease-out) 2; } }
+
+/* « Tout remettre à zéro » : discret, visible seulement si un filtre est réglé */
+.reset-filters {
+  flex: none; display: inline-flex; align-items: center; gap: 6px; align-self: center;
+  padding: 4px 6px; border: 0; background: none; color: var(--text-muted);
+  font: inherit; font-size: 13px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
+}
+.reset-filters[hidden] { display: none; }
+
+/* Invitation à choisir la durée (à la place des résultats) */
+.stay-prompt { display: grid; gap: var(--s-2); padding: var(--s-5) var(--s-4); border: 2px dashed var(--border); border-radius: var(--r-lg); background: var(--surface); text-align: center; }
+.stay-prompt-title { font-size: 22px; font-weight: 800; letter-spacing: -.02em; }
+.stay-prompt p:not(.stay-prompt-title) { color: var(--text-muted); }
+.stay-prompt-choices { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-2); margin-top: var(--s-2); }
+.stay-prompt-choices .pill { flex-direction: column; justify-content: center; gap: 2px; min-height: 60px; border-radius: 14px; font-size: 16px; }
+.stay-prompt-choices small { font-size: 12px; font-weight: 500; color: var(--text-muted); }
+@media (min-width: 760px) { .stay-prompt-choices { grid-template-columns: repeat(4, 1fr); } }
 
 /* Panneau ouvert : la page derrière ne bouge plus (sur iPhone, elle défilait et « sautait ») */
 html:has(dialog[open]) { overflow: hidden; }

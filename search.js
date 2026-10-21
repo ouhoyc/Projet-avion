@@ -13,7 +13,6 @@ const NIGHTS_SPREAD = 2;     // suggestions : jusqu'à 2 nuits de moins / de plu
 const MAX_DATE_OPTIONS = 8;  // dates proposées pour une destination précise
 const PAGE_SIZE = 10;        // villes affichées avant « Voir plus »
 const MONTHS_AHEAD = 12;     // barre des mois : mois en cours + 11 suivants
-const STAY_KEY = 'vols-lyon-sejour'; // durée mémorisée dans le navigateur
 
 const STAY_LABELS = { '1-1': 'une nuit', '2-4': 'court séjour', '5-8': 'une semaine', '9-21': '9 nuits et plus' };
 
@@ -79,7 +78,6 @@ function setupSearchForm() {
       if (readyToSearch()) runSearch();
     }
     if (e.target.name === 'stay') {
-      try { localStorage.setItem(STAY_KEY, e.target.value); } catch { /* navigation privée */ }
       updateFormHelp();
       runSearch();
     }
@@ -119,6 +117,7 @@ function setupSearchForm() {
   for (const el of [sEls.refineCountry, sEls.sort]) el.addEventListener('change', () => applyView(false));
 
   setupWhere();
+  $('s-reset').addEventListener('click', resetFilters);
 
   // « Voir » (liste ou bulle de la carte) : panneau de réservation avec vérification en direct.
   document.addEventListener('click', (e) => {
@@ -138,6 +137,12 @@ function setupSearchForm() {
       return;
     }
     if (e.target.closest('[data-more]')) renderMore();
+    const stay = e.target.closest('[data-stay]');
+    if (stay) {
+      sEls.form.querySelector(`input[name="stay"][value="${stay.dataset.stay}"]`).checked = true;
+      updateFormHelp();
+      runSearch();
+    }
   });
 
   // Ordinateur : survoler une fiche allume son point sur la carte.
@@ -181,14 +186,11 @@ function setupSearchForm() {
   document.addEventListener('data-ready', () => {
     fillPlaces();
     updateFormHelp();
-    // Les destinations s'affichent dès l'arrivée : durée de la visite précédente, sinon court séjour.
-    let saved = null;
-    try { saved = localStorage.getItem(STAY_KEY); } catch { /* indisponible */ }
-    const radio = (saved && sEls.form.querySelector(`input[name="stay"][value="${saved}"]`))
-      || sEls.form.querySelector('input[name="stay"][value="2-4"]');
-    radio.checked = true;
+    // Durée vierge à l'arrivée : on la demande tout de suite (panneau ouvert), car sans elle
+    // pas de prix aller-retour. La liste propose aussi les 4 durées tant qu'aucune n'est choisie.
     updateFormHelp();
     runSearch();
+    if (!readyToSearch()) $('f-stay').showModal();
   });
 }
 
@@ -347,7 +349,8 @@ function updateFormHelp() {
 // Texte des pastilles : ce qui est choisi, ou le nom du filtre. Une pastille réglée passe en foncé.
 function updatePills() {
   const ow = tripType() === 'ow';
-  $('p-stay').textContent = ow ? 'Aller simple' : exactDates() ? 'Dates exactes' : STAY_NIGHTS[stayValue()] || 'Durée';
+  $('p-stay').textContent = ow ? 'Aller simple' : exactDates() ? 'Dates exactes' : STAY_NIGHTS[stayValue()] || 'Durée\u00a0?';
+  sEls.form.querySelector('[data-filter="f-stay"]').classList.toggle('needs-value', !readyToSearch());
   const budget = Number(sEls.budget.value);
   $('p-budget').textContent = budget ? `${fmtPrice.format(budget)} max` : 'Budget';
   // Pastille : le nom seul (« Barcelone », « Italie »), le pays est dans le panneau.
@@ -355,6 +358,26 @@ function updatePills() {
   $('p-where').textContent = city ? city.label : sEls.country.value || 'Une idée\u00a0?';
   sEls.form.querySelector('[data-filter="f-budget"]').classList.toggle('has-value', Boolean(budget));
   sEls.form.querySelector('[data-filter="f-where"]').classList.toggle('has-value', Boolean(sEls.country.value));
+  const pax = typeof paxGet === 'function' ? paxGet() : { adults: 1, children: [] };
+  $('s-reset').hidden = !(sEls.from.value || stayValue() || budget || sEls.country.value || pax.adults > 1 || pax.children.length);
+}
+
+// « Tout remettre à zéro » : dates, durée, voyageurs (1 adulte), budget, lieu, mois et tri.
+function resetFilters() {
+  sEls.from.value = sEls.to.value = '';
+  sEls.exact.checked = false;
+  for (const r of sEls.form.querySelectorAll('input[name="stay"]')) r.checked = false;
+  sEls.budget.value = '';
+  sEls.country.value = sEls.city.value = '';
+  sEls.where.value = '';
+  sEls.whereClear.hidden = true;
+  if (typeof paxSave === 'function') { paxSave({ adults: 1, children: [] }); showPax(); }
+  searchState.month = '';
+  sEls.refineCountry.value = '';
+  sEls.sort.value = 'price';
+  updateWhenLabel();
+  updateFormHelp();
+  runSearch();
 }
 
 function closeFilters() {
@@ -389,7 +412,7 @@ async function runSearch() {
   if (!data) return;
   const type = tripType();
   if (!readyToSearch()) {
-    $('f-stay').showModal();
+    showStayPrompt();
     return;
   }
 
@@ -434,6 +457,24 @@ async function runSearch() {
   if (!months.some((m) => m.key === searchState.month)) searchState.month = '';
   Object.assign(searchState, { base: query, daily, months, airlines: daily.airlines || {} });
   showMonth(true);
+}
+
+// Pas encore de durée : la liste demande « Combien de temps partez-vous ? » avec les 4 choix,
+// la carte et la barre des mois sont vidées.
+function showStayPrompt() {
+  searchState.base = null;
+  sEls.monthsBar.hidden = true;
+  sEls.refine.hidden = true;
+  sEls.mapCaption.textContent = '';
+  showOnMap([], false);
+  const choices = [...sEls.form.querySelectorAll('input[name="stay"]')]
+    .map((r) => `<button type="button" class="pill" data-stay="${r.value}">${escapeHtml(r.nextElementSibling.textContent)}<small>${STAY_NIGHTS[r.value]}</small></button>`).join('');
+  sEls.results.innerHTML = `
+    <div class="stay-prompt">
+      <p class="stay-prompt-title">Combien de temps partez-vous&nbsp;?</p>
+      <p>Choisissez une durée pour voir les séjours et leurs prix.</p>
+      <div class="stay-prompt-choices">${choices}</div>
+    </div>`;
 }
 
 // Recherche limitée aux départs d'un mois (le retour peut tomber le mois suivant).
@@ -1128,11 +1169,15 @@ setupSearchForm();
 // Voyageurs (adultes + enfants) : gardés dans le navigateur, repris par les pages guides
 // pour calculer le prix des activités du groupe.
 // ---------------------------------------------------------------------------
+// Pastille Voyageurs : « 1 adulte » et « 1 enfant » chacun sur sa ligne (sur téléphone).
+function showPax() {
+  $('s-pax-label').innerHTML = paxLabel(paxGet()).split(', ').map((t) => `<span class="pax-line">${escapeHtml(t)}</span>`).join('');
+}
+
 (function setupPax() {
   const btn = $('s-pax');
   if (!btn || typeof paxGet !== 'function') return;
-  const show = () => { $('s-pax-label').textContent = paxLabel(paxGet()); };
-  show();
+  showPax();
   // Les prix affichés sont pour tout le groupe : on les recalcule si les voyageurs changent.
-  btn.addEventListener('click', () => paxOpen($('pax-sheet'), () => { show(); if (searchState.base) runSearch(); }));
+  btn.addEventListener('click', () => paxOpen($('pax-sheet'), () => { showPax(); updatePills(); if (searchState.base) runSearch(); }));
 })();

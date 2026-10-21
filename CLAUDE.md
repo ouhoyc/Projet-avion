@@ -29,8 +29,13 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 
 ## Fichiers
 - `index.html` : la page.
-  - **Accueil « agence de voyage »** (22/10/2026) : titre court « Où partir depuis Lyon ? » ; les
-    destinations s'affichent **dès l'arrivée** (court séjour par défaut), sans formulaire à remplir.
+  - **Accueil « agence de voyage »** (22/10/2026) : titre court « Où partir depuis Lyon ? ».
+    **Durée vierge à l'arrivée** (choix du propriétaire, rien n'est mémorisé) : le panneau Durée
+    s'ouvre tout seul, la pastille « Durée ? » est en corail et la liste propose les 4 durées
+    (`showStayPrompt`) ; les destinations s'affichent dès qu'une durée est choisie.
+  - « Tout remettre à zéro » (`#s-reset`, `resetFilters()`) : visible dès qu'un filtre est réglé ;
+    remet dates, durée, voyageurs (1 adulte), budget, lieu, mois et tri.
+  - Pastille Voyageurs : « 1 adulte » / « 1 enfant » sur deux lignes sur téléphone (`showPax()`).
   - Filtres en **pastilles** collées en haut (`.search` > `.filters-row`) : Quand (calendrier), Durée
     (panneau `#f-stay` : aller-retour/aller simple, case « dates exactes », nuits), Voyageurs, Budget
     (`#f-budget`), « Une idée ? » (`#f-where`, saisie libre ville ou pays, `setupWhere()`). Texte des
