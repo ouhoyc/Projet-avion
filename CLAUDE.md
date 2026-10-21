@@ -147,6 +147,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Vienne (oct. 2026) : la recherche de fichiers en HTML (`ns6=1`) marchait ; vignettes `960px-` (ou
   `1280px-`) à redemander quelques secondes plus tard si la première réponse n'est pas une image.
   Notes Google : ~115 listes Wanderlog « …-in-vienna » lues en suivant les liens d'une liste à l'autre.
+  Dubaï (oct. 2026) : vignettes de la recherche en `120px-`/`500px-` aussi (remplacer toute taille par
+  `960px-`) ; 6-8 s entre deux fichiers sinon « 429 ». Positions des lieux : Nominatim (OpenStreetMap),
+  1 requête par seconde, User-Agent neutre. Wanderlog : ~150 listes « …-in-dubai ».
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

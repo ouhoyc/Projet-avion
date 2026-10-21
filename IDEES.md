@@ -281,6 +281,23 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
+- ✅ (21/10/2026) **Page guide de Dubaï** (`guides/DXB.json`), préparée en autonomie : 29 activités
+  (3 tendance : Aura Skypool, Kite Beach et la vue sur Burj Al Arab, Miracle Garden ; excursions à Abou Dhabi,
+  Hatta, safari ; courses de Meydan à la place d'un club de foot, peu suivi), 18 restaurants (note pondérée,
+  C = 4,53, ~1 600 restaurants lus via Wanderlog ; Michelin 2026 : Orfali Bros 2 étoiles, Tasca et 11 Woodfire
+  1 étoile ; 3Fils, Al Khayma, Shabestan, Bait Maryam, Kinoya, Hawkerboi Bib Gourmand), 5 quartiers.
+  Prix convertis à 1 € ≈ 4,1 AED. **Contexte à connaître** : guerre États-Unis/Israël – Iran en 2026 (aéroport
+  de Dubaï touché en mars) ; France Diplomatie : « vigilance renforcée » (10/09/2026), pas de déconseil.
+  Beaucoup de lieux ont fermé ou réduit leur activité : **musée du Futur fermé jusqu'au 1er trimestre 2027**
+  et Ain Dubai (ouverture incertaine) écartés ; restaurants fermés écartés (Ossiano, Al Muntaha, Hakkasan…).
+  Saisonniers : Miracle Garden (8 oct.-31 mai), Global Village (14 oct.-mai), Meydan (6 nov.-27 mars).
+  Ravi et Al Mallah (institutions) écartés : note Google 4,0 ; Bu Qtair (4,2) aussi.
+  **Réseaux sociaux non lancés** (crédit Apify du mois épuisé) : badges « Tendance » d'après le web
+  (classement Instagram 2026, guides photo) ; à relancer en novembre (Dubai / Dubaï).
+  Prix à confirmer (`a_verifier`) : Burj Khalifa, aquarium, Al Shindagha, Etihad, mosquée de Jumeirah,
+  Dubai Frame, The View, Aura, Burj Al Arab, safari, mosquée Cheikh Zayed, Hatta, Miracle Garden, Ski Dubai,
+  Aquaventure, Meydan. Restaurants : prix et délais estimés ; vérifier qu'Al Hadheerah et At.mosphere sont ouverts.
+  Positions : Nominatim (OpenStreetMap) ; 3Fils, Kinoya, 11 Woodfire et Arabian Tea House placés à la main.
 - ✅ (21/10/2026) **Page guide de Vienne** (`guides/VIE.json`), préparée en autonomie : 28 activités
   (6 tendance : KHM pour son café sous la coupole, salle d'apparat de la Bibliothèque nationale, maison
   Hundertwasser, Karlskirche, canal du Danube, Palmenhaus et maison des papillons ; match du Rapid), 18 restaurants

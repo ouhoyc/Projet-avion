@@ -1,0 +1,1706 @@
+{
+ "city_code": "DXB",
+ "statut": "préparé en autonomie, prix estimés au 21/10/2026 (1 € ≈ 4,1 AED)",
+ "verifie_le": "2026-10-21",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "burj-khalifa",
+   "nom": "Burj Khalifa, At the Top",
+   "emoji": "🏙️",
+   "type": "vue",
+   "quartier": "Downtown",
+   "lat": 25.1972,
+   "lng": 55.2744,
+   "prix": 46,
+   "prix_detail": [
+    [
+     "Niveaux 124 et 125, adulte (hors heures de pointe)",
+     46
+    ],
+    [
+     "4 à 12 ans",
+     31
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Créneau du coucher du soleil",
+     "≈ 60 € et plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 46,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      31
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant, et une semaine avant pour le créneau du coucher du soleil (le plus demandé)",
+   "duree": "1 h 30",
+   "moment": "Une heure avant le coucher du soleil, ou tôt le matin (moins cher et moins de monde)",
+   "enfants": true,
+   "texte": "Montez au 125e étage de la plus haute tour du monde : en 1 minute d'ascenseur, Dubaï se déploie à vos pieds, des gratte-ciel au désert d'un côté et aux îles artificielles de l'autre.",
+   "site_officiel": "https://www.burjkhalifa.ae/",
+   "a_verifier": true,
+   "note": "Inutile d'acheter la photo souvenir vendue à l'entrée, très chère.",
+   "photo": {
+    "auteur": "Tim Reckmann from Hamm, Deutschland",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Skyline_mit_Burj_Khalifa_%28cropped%29.jpg",
+    "src": "img/activites/DXB/burj-khalifa.jpg"
+   }
+  },
+  {
+   "id": "fontaine",
+   "nom": "Spectacle de la fontaine de Dubaï",
+   "emoji": "⛲",
+   "type": "sortir",
+   "quartier": "Downtown",
+   "lat": 25.1951,
+   "lng": 55.2752,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Spectacle depuis les rives du lac",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Le soir : un spectacle toutes les 30 min de 18 h à 23 h (aussi à 13 h et 13 h 30)",
+   "enfants": true,
+   "texte": "Des jets d'eau de 150 mètres qui dansent sur de la musique arabe, de l'opéra ou de la pop, au pied de Burj Khalifa illuminée. Le plus beau spectacle gratuit de la ville.",
+   "site_officiel": "https://www.thedubaimall.com/",
+   "a_verifier": false,
+   "note": "Les meilleures places : le pont qui mène au Souk Al Bahar, ou les terrasses face au lac.",
+   "photo": {
+    "auteur": "Nealt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Fountain_7.JPG",
+    "src": "img/activites/DXB/fontaine.jpg"
+   }
+  },
+  {
+   "id": "dubai-mall",
+   "nom": "Dubai Mall",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Downtown",
+   "lat": 25.1981,
+   "lng": 55.2796,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée et balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "En journée, pour échapper à la chaleur, puis la fontaine à la nuit tombée",
+   "enfants": true,
+   "texte": "Bien plus qu'un centre commercial : 1 200 boutiques, une patinoire, une cascade de plongeurs sculptés et un aquarium géant visible gratuitement depuis les allées. Le rendez-vous des habitants quand il fait 40 °C dehors.",
+   "site_officiel": "https://www.thedubaimall.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diligent",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Mall_gallery%2C_6_December_2008.jpg",
+    "src": "img/activites/DXB/dubai-mall.jpg"
+   }
+  },
+  {
+   "id": "aquarium",
+   "nom": "Aquarium et zoo sous-marin de Dubaï",
+   "emoji": "🦈",
+   "type": "culture",
+   "quartier": "Downtown",
+   "lat": 25.1975,
+   "lng": 55.279,
+   "prix": 49,
+   "prix_detail": [
+    [
+     "Billet (dès 2 ans)",
+     49
+    ],
+    [
+     "Moins de 2 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 49,
+    "enfants": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille (souvent moins cher qu'au guichet)",
+   "duree": "1 h 30",
+   "moment": "En semaine, le matin",
+   "enfants": true,
+   "texte": "Passez sous 10 millions de litres d'eau dans un tunnel de verre, entre raies, requins et mérous géants. La vitre de l'aquarium se voit gratuitement depuis le centre commercial ; le billet donne le tunnel et le zoo sous-marin.",
+   "site_officiel": "https://www.thedubaiaquarium.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ank Kumar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Aquarium_and_underwater_Zoo_%28Ank_Kumar%2C_Infosys%29_01.jpg",
+    "src": "img/activites/DXB/aquarium.jpg"
+   }
+  },
+  {
+   "id": "al-fahidi",
+   "nom": "Quartier historique d'Al Fahidi",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Bur Dubaï",
+   "lat": 25.2642,
+   "lng": 55.3002,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les ruelles",
+     "gratuit"
+    ],
+    [
+     "Musée du café",
+     "≈ 2,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin ou en fin d'après-midi, puis la promenade d'Al Seef au bord de la crique",
+   "enfants": true,
+   "texte": "Le Dubaï d'avant le pétrole : maisons en corail et en gypse, tours à vent qui rafraîchissaient les pièces, ruelles ombragées, petites galeries et cafés dans les cours. Un autre monde, à 15 minutes des gratte-ciel.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "EditQ",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAl_Bastakiya_6.jpg",
+    "src": "img/activites/DXB/al-fahidi.jpg"
+   }
+  },
+  {
+   "id": "abra",
+   "nom": "Traversée de la crique en abra",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Bur Dubaï → Deira",
+   "lat": 25.2645,
+   "lng": 55.293,
+   "prix": 0.25,
+   "prix_detail": [
+    [
+     "Traversée en abra traditionnelle",
+     "1 AED (≈ 0,25 €), en espèces"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0.25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : les bateaux partent dès qu'ils sont pleins, à la station de Bur Dubaï",
+   "duree": "10 min",
+   "moment": "En fin de journée, quand la lumière dore la crique",
+   "enfants": true,
+   "texte": "Pour quelques centimes, montez dans un bateau-taxi en bois avec les habitants et traversez la crique de Dubaï, entre les boutres chargés de marchandises. Le trajet le moins cher et le plus authentique de la ville.",
+   "site_officiel": "https://www.rta.ae/",
+   "a_verifier": false,
+   "note": "Prévoyez des pièces ou de petits billets en dirhams.",
+   "photo": {
+    "auteur": "Jpbowen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAbra_ferry_boats%2C_Dubai_Creek.jpg",
+    "src": "img/activites/DXB/abra.jpg"
+   }
+  },
+  {
+   "id": "souks",
+   "nom": "Souks de l'or et des épices",
+   "emoji": "💛",
+   "type": "balade",
+   "quartier": "Deira",
+   "lat": 25.27,
+   "lng": 55.2981,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, juste après la traversée en abra",
+   "enfants": true,
+   "texte": "Des vitrines qui débordent de colliers en or, puis les sacs de safran, d'encens et de roses séchées du souk des épices : le Dubaï des marchands, bruyant et parfumé, comme il y a cent ans.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": false,
+   "note": "Pour un achat en or, demandez le poinçon et la facture ; on négocie le prix de la façon, pas celui de l'or.",
+   "photo": {
+    "auteur": "Imre Solt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Gold_Souk_on_31_May_2007_Pict_2.jpg",
+    "src": "img/activites/DXB/souks.jpg"
+   }
+  },
+  {
+   "id": "shindagha",
+   "nom": "Musée Al Shindagha",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Al Shindagha",
+   "lat": 25.2665,
+   "lng": 55.289,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     12
+    ],
+    [
+     "Étudiants",
+     5
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le matin, avant la chaleur",
+   "enfants": true,
+   "texte": "Le plus grand musée du patrimoine de la ville, dans les maisons de la famille régnante au bord de la crique : l'histoire de Dubaï, des pêcheurs de perles à la ville d'aujourd'hui, et un étonnant musée des parfums.",
+   "site_officiel": "https://www.dubaiculture.gov.ae/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Vaishnavi.vinodkumar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMuseum_house_Al_Shindagha.jpg",
+    "src": "img/activites/DXB/shindagha.jpg"
+   }
+  },
+  {
+   "id": "etihad",
+   "nom": "Musée de l'Union (Etihad Museum)",
+   "emoji": "🇦🇪",
+   "type": "culture",
+   "quartier": "Jumeirah",
+   "lat": 25.2414,
+   "lng": 55.2693,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Adulte",
+     6
+    ],
+    [
+     "5 à 24 ans",
+     2.5
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      2.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En journée (horaires à vérifier sur le site)",
+   "enfants": true,
+   "texte": "Là où les Émirats sont nés en 1971 : un bâtiment en forme de parchemin, des films et des archives qui racontent comment sept émirats du désert sont devenus un pays en une génération.",
+   "site_officiel": "https://www.dubaiculture.gov.ae/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Lxs",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUAE_flat_with_Etihad_Museum_in_background%2C_Dubai%2C_UAE.jpg",
+    "src": "img/activites/DXB/etihad.jpg"
+   }
+  },
+  {
+   "id": "jumeirah-mosque",
+   "nom": "Mosquée de Jumeirah",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Jumeirah",
+   "lat": 25.234,
+   "lng": 55.2654,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Visite guidée avec café et dattes",
+     11
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : inscription sur place 30 min avant",
+   "duree": "1 h 15",
+   "moment": "Visites à 10 h et 14 h, sauf le vendredi",
+   "enfants": true,
+   "texte": "L'une des rares mosquées de Dubaï ouvertes aux non-musulmans : une visite guidée avec café arabe et dattes, où l'on peut poser toutes ses questions sur l'islam et la vie aux Émirats.",
+   "site_officiel": "https://www.cultures.ae/",
+   "a_verifier": true,
+   "note": "Tenue couvrant bras et jambes ; foulard pour les femmes (prêté sur place si besoin).",
+   "photo": {
+    "auteur": "Aidas U.",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJumeirah_Mosque_-_panoramio_%284%29.jpg",
+    "src": "img/activites/DXB/jumeirah-mosque.jpg"
+   }
+  },
+  {
+   "id": "dubai-frame",
+   "nom": "Dubai Frame",
+   "emoji": "🖼️",
+   "type": "vue",
+   "quartier": "Zabeel",
+   "lat": 25.2354,
+   "lng": 55.3004,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Adulte",
+     13
+    ],
+    [
+     "3 à 12 ans",
+     6
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, pour voir les deux Dubaï au coucher du soleil",
+   "enfants": true,
+   "texte": "Un cadre doré de 150 mètres de haut : d'un côté le vieux Dubaï, de l'autre les gratte-ciel. Au sommet, une passerelle au plancher de verre vous fait marcher au-dessus du vide.",
+   "site_officiel": "https://www.dubaiframe.ae/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Rennboot",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A190410_Dubai_Frame.jpg",
+    "src": "img/activites/DXB/dubai-frame.jpg"
+   }
+  },
+  {
+   "id": "view-palm",
+   "nom": "The View at The Palm",
+   "emoji": "🌴",
+   "type": "vue",
+   "quartier": "Palm Jumeirah",
+   "lat": 25.114,
+   "lng": 55.1398,
+   "prix": 27,
+   "prix_detail": [
+    [
+     "Billet adulte (hors heures de pointe)",
+     27
+    ],
+    [
+     "Créneau du coucher du soleil",
+     "≈ 40 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 27,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille",
+   "duree": "1 h",
+   "moment": "En journée pour la mer turquoise, ou au coucher du soleil",
+   "enfants": true,
+   "texte": "Du 52e étage de la tour The Palm, la seule vue d'ensemble sur Palm Jumeirah : l'île en forme de palmier, ses villas les pieds dans l'eau et l'Atlantis au bout.",
+   "site_officiel": "https://www.theviewpalm.ae/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Imre Solt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalm_Jumeirah_on_8_May_2008_Pict_2.jpg",
+    "src": "img/activites/DXB/view-palm.jpg"
+   }
+  },
+  {
+   "id": "aura",
+   "nom": "Aura Skypool",
+   "emoji": "🏊",
+   "type": "vue",
+   "quartier": "Palm Jumeirah",
+   "lat": 25.1138,
+   "lng": 55.1394,
+   "prix": 61,
+   "prix_detail": [
+    [
+     "Séance en journée",
+     "≈ 61 €"
+    ],
+    [
+     "Coucher du soleil",
+     "nettement plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 61,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant, et plus tôt pour le coucher du soleil",
+   "duree": "2 à 3 h",
+   "moment": "Le matin, ou au coucher du soleil (le plus prisé)",
+   "enfants": false,
+   "texte": "La plus haute piscine à débordement à 360° du monde, au 50e étage : on nage avec Palm Jumeirah et la marina à perte de vue. La photo que tout le monde rapporte de Dubaï.",
+   "site_officiel": "https://www.auraskypool.com/",
+   "a_verifier": true,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Imre Solt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalm_Jumeirah_on_8_May_2008_Pict_4.jpg",
+    "src": "img/activites/DXB/aura.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "marina",
+   "nom": "Promenade de la marina",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Dubai Marina",
+   "lat": 25.0805,
+   "lng": 55.1405,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le soir, quand les tours s'illuminent",
+   "enfants": true,
+   "texte": "Sept kilomètres de quais entre les yachts et une forêt de tours, dont la célèbre tour torsadée Cayan. Le soir, terrasses et reflets sur l'eau : Dubaï version Manhattan les pieds dans l'eau.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Khanshahab06",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Marina_Skyline_93.jpg",
+    "src": "img/activites/DXB/marina.jpg"
+   }
+  },
+  {
+   "id": "jbr",
+   "nom": "Plage de JBR",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Jumeirah Beach Residence",
+   "lat": 25.079,
+   "lng": 55.1335,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol",
+     "≈ 25 € la journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "Le matin ou en fin d'après-midi ; d'octobre à avril (trop chaud l'été)",
+   "enfants": true,
+   "texte": "Une plage de sable blanc devant les tours de la marina, avec la grande roue Ain Dubai en face : douches, maîtres-nageurs, et la promenade The Walk pour dîner les pieds dans le sable.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "pe-sa",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Jumeirah_Beach.JPG",
+    "src": "img/activites/DXB/jbr.jpg"
+   }
+  },
+  {
+   "id": "kite-beach",
+   "nom": "Kite Beach et la vue sur Burj Al Arab",
+   "emoji": "🪁",
+   "type": "plage",
+   "quartier": "Umm Suqeim",
+   "lat": 25.1585,
+   "lng": 55.2,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Au coucher du soleil, quand le Burj Al Arab se découpe sur le ciel",
+   "enfants": true,
+   "texte": "La plage des habitants : kitesurf, piste de course, camions-restaurants, et au sud le Burj Al Arab en forme de voile. Allez jusqu'à la plage publique d'Umm Suqeim pour la photo la plus partagée de Dubaï.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Farrah Zakir",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABurj_Al_Arab_sunset.jpg",
+    "src": "img/activites/DXB/kite-beach.jpg"
+   }
+  },
+  {
+   "id": "madinat",
+   "nom": "Souk Madinat Jumeirah",
+   "emoji": "🏮",
+   "type": "balade",
+   "quartier": "Umm Suqeim",
+   "lat": 25.1334,
+   "lng": 55.1858,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Tour en abra sur les canaux",
+     "payant"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le soir, quand les lanternes s'allument",
+   "enfants": true,
+   "texte": "Un souk arabe recréé au bord de canaux, avec des tours à vent et le Burj Al Arab en toile de fond. Plus mis en scène que les souks de Deira, mais magnifique à la nuit tombée.",
+   "site_officiel": "https://www.jumeirah.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Renek78",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_in_January_2025_12.jpg",
+    "src": "img/activites/DXB/madinat.jpg"
+   }
+  },
+  {
+   "id": "burj-al-arab",
+   "nom": "Visite de Burj Al Arab",
+   "emoji": "⛵",
+   "type": "culture",
+   "quartier": "Umm Suqeim",
+   "lat": 25.1413,
+   "lng": 55.1853,
+   "prix": 61,
+   "prix_detail": [
+    [
+     "Visite guidée, adulte",
+     61
+    ],
+    [
+     "Enfant",
+     24
+    ]
+   ],
+   "tarifs": {
+    "adulte": 61,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      24
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant (groupes limités)",
+   "duree": "1 h 30",
+   "moment": "En journée",
+   "enfants": true,
+   "texte": "Entrez enfin dans l'hôtel en forme de voile : l'atrium doré de 180 mètres, les suites royales et l'histoire du palace le plus photographié du monde, sans y dormir.",
+   "site_officiel": "https://www.jumeirah.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Atila rs at English Wikipedia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABurj_al-arab_indoor.jpg",
+    "src": "img/activites/DXB/burj-al-arab.jpg"
+   }
+  },
+  {
+   "id": "safari",
+   "nom": "Safari dans le désert",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Désert de Lahbab",
+   "lat": 24.99,
+   "lng": 55.66,
+   "prix": 61,
+   "prix_detail": [
+    [
+     "Safari du soir avec dîner, adulte",
+     "≈ 61 €"
+    ],
+    [
+     "Enfant",
+     "≈ 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 61,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      50
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant, prise en charge à l'hôtel",
+   "duree": "6 h",
+   "moment": "Départ vers 15 h, retour vers 21 h ; d'octobre à avril",
+   "enfants": true,
+   "texte": "Montagnes russes en 4x4 sur les dunes rouges, coucher de soleil sur le sable, balade à dos de chameau, puis dîner sous les étoiles avec spectacle. L'aventure que tout le monde fait à Dubaï, et à raison.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": true,
+   "note": "Évitez les offres les moins chères (bus bondés, camps surpeuplés) : préférez les petits groupes, et dites si vous êtes sensible au mal des transports.",
+   "photo": {
+    "auteur": "Rob Young from United Kingdom",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABlack_Chevrolet_Suburban_%28Desert_Safari_Dubai%29_%288667292413%29.jpg",
+    "src": "img/activites/DXB/safari.jpg"
+   }
+  },
+  {
+   "id": "grande-mosquee",
+   "nom": "Grande mosquée Cheikh Zayed (Abou Dhabi)",
+   "emoji": "🕌",
+   "type": "nature",
+   "quartier": "Abou Dhabi",
+   "lat": 24.4124,
+   "lng": 54.4743,
+   "prix": 2.5,
+   "prix_detail": [
+    [
+     "Entrée",
+     "10 AED (≈ 2,50 €)"
+    ],
+    [
+     "Moins de 3 ans et plus de 60 ans",
+     "gratuit"
+    ],
+    [
+     "Bus Dubaï – Abou Dhabi",
+     "≈ 6 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2.5,
+    "enfants": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau à réserver en ligne sur le site officiel (jusqu'à un mois avant)",
+   "duree": "Une journée (avec le Louvre)",
+   "moment": "Au coucher du soleil, quand le marbre blanc devient doré",
+   "enfants": true,
+   "texte": "Quatre-vingts coupoles de marbre blanc, le plus grand tapis noué à la main du monde et des lustres de cristal : la plus belle mosquée du Golfe, à 1 h 30 de Dubaï. À combiner avec le Louvre Abou Dhabi.",
+   "site_officiel": "https://www.szgmc.gov.ae/",
+   "a_verifier": true,
+   "note": "Tenue longue obligatoire ; foulard pour les femmes. Fermée le vendredi matin.",
+   "photo": {
+    "auteur": "Francesco Bini",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAbu_dhabi%2C_Moschea_dello_Sceicco_Zayed%2C_atrio_della_sala_di_preghiera_01.jpg",
+    "src": "img/activites/DXB/grande-mosquee.jpg"
+   }
+  },
+  {
+   "id": "louvre-ad",
+   "nom": "Louvre Abou Dhabi",
+   "emoji": "🖼️",
+   "type": "nature",
+   "quartier": "Abou Dhabi",
+   "lat": 24.5337,
+   "lng": 54.3986,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Adulte",
+     16
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille",
+   "duree": "2 à 3 h",
+   "moment": "En fin d'après-midi, puis la mosquée au coucher du soleil",
+   "enfants": true,
+   "texte": "Sous une immense coupole qui fait pleuvoir la lumière, un voyage dans l'histoire de l'art, de l'Antiquité à aujourd'hui, avec des œuvres prêtées par le Louvre de Paris. L'architecture de Jean Nouvel vaut à elle seule le détour.",
+   "site_officiel": "https://www.louvreabudhabi.ae/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Francisco Anzola",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWater_Under_The_Canopy_%28250155755%29.jpeg",
+    "src": "img/activites/DXB/louvre-ad.jpg"
+   }
+  },
+  {
+   "id": "hatta",
+   "nom": "Hatta, lac et montagnes",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Hatta",
+   "lat": 24.7836,
+   "lng": 56.1145,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au barrage",
+     "gratuit"
+    ],
+    [
+     "Kayak sur le lac",
+     "≈ 15 € l'heure"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une journée",
+   "moment": "D'octobre à avril ; 1 h 30 de route, location de voiture ou excursion",
+   "enfants": true,
+   "texte": "Un lac turquoise entre des montagnes de roche ocre, à la frontière d'Oman : kayak, randonnée et villages de pierre. Le visage nature et inattendu de l'émirat.",
+   "site_officiel": "https://www.visithatta.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Tms2007",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APicturesque_view_in_Hatta_Dam.jpg",
+    "src": "img/activites/DXB/hatta.jpg"
+   }
+  },
+  {
+   "id": "miracle",
+   "nom": "Miracle Garden",
+   "emoji": "🌸",
+   "type": "nature",
+   "quartier": "Al Barsha South",
+   "lat": 25.0597,
+   "lng": 55.2446,
+   "prix": 26,
+   "prix_detail": [
+    [
+     "Adulte",
+     26
+    ],
+    [
+     "3 à 12 ans",
+     21
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 26,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      21
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille",
+   "duree": "2 h",
+   "moment": "Ouvert d'octobre à fin mai ; en fin d'après-midi",
+   "enfants": true,
+   "texte": "Des millions de fleurs en forme de cœurs, de châteaux et même d'un Airbus A380 grandeur nature, au milieu du désert. Kitsch, spectaculaire et irrésistible pour les photos.",
+   "site_officiel": "https://www.dubaimiraclegarden.com/",
+   "a_verifier": true,
+   "note": "Fermé l'été : saison du 8 octobre 2026 au 31 mai 2027.",
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Balou46",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVAE-dubai-miracle-03.jpg",
+    "src": "img/activites/DXB/miracle.jpg"
+   }
+  },
+  {
+   "id": "global-village",
+   "nom": "Global Village",
+   "emoji": "🎡",
+   "type": "sortir",
+   "quartier": "Dubailand",
+   "lat": 25.07,
+   "lng": 55.3071,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Entrée (selon le jour)",
+     "25 à 30 AED (≈ 6 à 7 €)"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 à 4 h",
+   "moment": "Le soir, d'octobre à mai (ouvert de 18 h à minuit)",
+   "enfants": true,
+   "texte": "Le tour du monde en une soirée : des pavillons de 90 cultures, street food de partout, manèges, spectacles et feux d'artifice. Une sortie très populaire chez les familles de Dubaï.",
+   "site_officiel": "https://www.globalvillage.ae/",
+   "a_verifier": false,
+   "note": "Saison du 14 octobre 2026 à mai 2027 ; fermé l'été.",
+   "photo": {
+    "auteur": "Philosographer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGlobal_village_6.jpg",
+    "src": "img/activites/DXB/global-village.jpg"
+   }
+  },
+  {
+   "id": "alserkal",
+   "nom": "Alserkal Avenue",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Al Quoz",
+   "lat": 25.1418,
+   "lng": 55.2256,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Galeries et balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi en semaine (beaucoup de galeries ferment le lundi)",
+   "enfants": true,
+   "texte": "Des entrepôts transformés en galeries d'art contemporain, cinéma d'art et d'essai, cafés de torréfacteurs et chocolaterie : le Dubaï créatif, loin des centres commerciaux.",
+   "site_officiel": "https://alserkal.online/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Fuzheado",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Alserkal_Avenue_2024-11-17.jpg",
+    "src": "img/activites/DXB/alserkal.jpg"
+   }
+  },
+  {
+   "id": "ski",
+   "nom": "Ski Dubai",
+   "emoji": "⛷️",
+   "type": "sport",
+   "quartier": "Mall of the Emirates",
+   "lat": 25.1174,
+   "lng": 55.1981,
+   "prix": 55,
+   "prix_detail": [
+    [
+     "Snow Park (luge, pingouins, télésiège)",
+     "≈ 55 €"
+    ],
+    [
+     "Séance de ski, matériel compris",
+     "≈ 75 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille",
+   "duree": "2 h",
+   "moment": "Quand il fait 40 °C dehors !",
+   "enfants": true,
+   "texte": "Skier dans un centre commercial au milieu du désert : une vraie piste enneigée à -4 °C, luge, télésiège et rencontre avec des manchots. Vêtements chauds prêtés.",
+   "site_officiel": "https://www.skidxb.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ian and Wendy Sewell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai-Ski-Dubai-11.JPG",
+    "src": "img/activites/DXB/ski.jpg"
+   }
+  },
+  {
+   "id": "aquaventure",
+   "nom": "Aquaventure (Atlantis)",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Palm Jumeirah",
+   "lat": 25.1346,
+   "lng": 55.1207,
+   "prix": 85,
+   "prix_detail": [
+    [
+     "Plus de 8 ans",
+     85
+    ],
+    [
+     "3 à 7 ans",
+     73
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 85,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      7,
+      73
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (moins cher)",
+   "duree": "Une journée",
+   "moment": "En semaine, dès l'ouverture",
+   "enfants": true,
+   "texte": "L'un des plus grands parcs aquatiques du monde, au pied de l'Atlantis : toboggans à pic de 30 mètres, tunnels au milieu des requins, rivière lente et plage privée.",
+   "site_officiel": "https://www.atlantis.com/dubai/aquaventure",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Rokaszil",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAtlantis_Aquapark.JPG",
+    "src": "img/activites/DXB/aquaventure.jpg"
+   }
+  },
+  {
+   "id": "meydan",
+   "nom": "Courses de chevaux à Meydan",
+   "emoji": "🏇",
+   "type": "sport",
+   "quartier": "Meydan",
+   "lat": 25.1576,
+   "lng": 55.3032,
+   "prix": 2.5,
+   "prix_detail": [
+    [
+     "Entrée générale",
+     "10 AED (≈ 2,50 €)"
+    ],
+    [
+     "Paddock Garden",
+     "≈ 18 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2.5,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Le vendredi soir, du 6 novembre 2026 au 27 mars 2027 (Dubai World Cup)",
+   "enfants": true,
+   "texte": "Une tribune futuriste de 1,6 km, des pur-sang parmi les plus chers du monde et une foule élégante : les courses du soir à Meydan, c'est le grand spectacle à petit prix. Les paris d'argent sont interdits aux Émirats.",
+   "site_officiel": "https://www.dubairacingclub.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Amir Hosseini",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2019_Dubai_World_Cup_20190331_11.jpg",
+    "src": "img/activites/DXB/meydan.jpg"
+   }
+  },
+  {
+   "id": "qudra",
+   "nom": "Lacs d'Al Qudra",
+   "emoji": "🦢",
+   "type": "nature",
+   "quartier": "Al Qudra",
+   "lat": 24.8348,
+   "lng": 55.376,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Au coucher du soleil ; voiture indispensable (45 min de Dubaï)",
+   "enfants": true,
+   "texte": "Des lacs en plein désert où nagent des cygnes noirs et des flamants, un lac en forme de cœurs entrelacés et un ciel étoilé loin des lumières : le pique-nique préféré des habitants.",
+   "site_officiel": "https://www.visitdubai.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Labrez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASunset_sight_at_Al_Qudra_Lake.jpg",
+    "src": "img/activites/DXB/qudra.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "downtown",
+   "nom": "Downtown et Business Bay",
+   "lat": 25.195,
+   "lng": 55.276,
+   "texte": "Au pied de Burj Khalifa, du Dubai Mall et de la fontaine, avec le métro : le meilleur choix pour un premier séjour. Business Bay, juste à côté, est un peu moins cher."
+  },
+  {
+   "id": "marina",
+   "nom": "Dubai Marina et JBR",
+   "lat": 25.08,
+   "lng": 55.139,
+   "texte": "Les tours au bord de l'eau, la plage de JBR et des dizaines de terrasses : idéal pour alterner plage et sorties. Le centre est à 30 min en métro."
+  },
+  {
+   "id": "vieux-dubai",
+   "nom": "Vieux Dubaï (Bur Dubaï et Deira)",
+   "lat": 25.262,
+   "lng": 55.299,
+   "texte": "Le Dubaï authentique, autour de la crique, des souks et d'Al Fahidi : les hôtels les moins chers de la ville, bien reliés par le métro, mais loin des plages."
+  },
+  {
+   "id": "jumeirah",
+   "nom": "Jumeirah et Umm Suqeim",
+   "lat": 25.165,
+   "lng": 55.205,
+   "texte": "La côte des villas et des plages publiques, de Kite Beach au Burj Al Arab : calme, familial et au bord de la mer, mais il faut un taxi pour presque tout."
+  },
+  {
+   "id": "palm",
+   "nom": "Palm Jumeirah",
+   "lat": 25.118,
+   "lng": 55.136,
+   "texte": "L'île en forme de palmier et ses hôtels de luxe avec plage privée, Atlantis en tête : pour un séjour « resort », loin de l'agitation, à 10 min de la marina."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "al-ustad",
+   "nom": "Al Ustad Special Kebab",
+   "emoji": "🍢",
+   "gamme": "petit",
+   "genre": "Kebabs iraniens",
+   "quartier": "Bur Dubaï",
+   "adresse": "Al Musalla Rd, Al Fahidi, Bur Dubaï",
+   "lat": 25.2598,
+   "lng": 55.2988,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1978, la famille Ansari grille ses brochettes d'agneau sur le charbon dans une salle aux murs couverts de photos de clients célèbres. Riz safrané, tomates grillées et pain chaud : le classique du vieux Dubaï.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file courte avant 13 h et avant 20 h",
+   "photo": {
+    "auteur": "Ankur P from Pune, India",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAl_Ustad_Special_Kabab_%2845904790751%29.jpg",
+    "src": "img/restos/DXB/al-ustad.jpg"
+   }
+  },
+  {
+   "id": "arabian-tea-house",
+   "nom": "Arabian Tea House",
+   "emoji": "🫖",
+   "gamme": "petit",
+   "genre": "Petit-déjeuner émirati",
+   "quartier": "Al Fahidi",
+   "adresse": "Al Fahidi Street, quartier historique, Bur Dubaï",
+   "lat": 25.2635,
+   "lng": 55.2996,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Dans la cour d'une vieille maison à tour à vent, sous un grand arbre et des chaises blanches et turquoise : thé à la cardamome, galettes chabab au miel de dattes et œufs aux épices. Le petit-déjeuner le plus photogénique de la ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez avant 10 h le week-end",
+   "photo": {
+    "auteur": "Saaremees",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AArabian_Tea_House-Dubai_UAE-Andres_Larin.jpg",
+    "src": "img/restos/DXB/arabian-tea-house.jpg"
+   }
+  },
+  {
+   "id": "salt",
+   "nom": "SALT",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "Kite Beach",
+   "adresse": "Kite Beach, Umm Suqeim 1",
+   "lat": 25.1678,
+   "lng": 55.2112,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Né d'un camion argenté garé sur la plage, SALT est devenu une marque culte grâce à Instagram : petits burgers au bœuf wagyu, frites au cheddar et glaces au lotus, à manger sur des poufs face à la mer.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : mieux vaut éviter le coucher du soleil le week-end",
+   "photo": {
+    "auteur": "Kurtkaiser",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACheeseburger_and_fries_2.jpg",
+    "src": "img/restos/DXB/salt.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "calicut-paragon",
+   "nom": "Calicut Paragon",
+   "emoji": "🍛",
+   "gamme": "petit",
+   "genre": "Cuisine du Kerala",
+   "quartier": "Karama",
+   "adresse": "Mattar Al Rayar Building, Al Karama",
+   "lat": 25.2432,
+   "lng": 55.3061,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Le Dubaï des millions d'Indiens qui y vivent : la cantine star du Kerala, ouverte à Kozhikode en 1939, sert un biryani de Malabar parfumé et des currys de poisson au lait de coco. Grande salle animée, prix très doux.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file le vendredi midi",
+   "photo": {
+    "auteur": "Thouseef",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATraditional_Malabar_Biriyani.jpg",
+    "src": "img/restos/DXB/calicut-paragon.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "hawkerboi",
+   "nom": "Hawkerboi",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Street food d'Asie du Sud-Est",
+   "quartier": "JLT",
+   "adresse": "The Park, Cluster U, Jumeirah Lakes Towers",
+   "lat": 25.0751,
+   "lng": 55.1467,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026",
+   "texte": "Laksa au curry, poulet de Hainan, roti au beurre : les recettes des marchés de rue de Singapour et de Malaisie, dans un petit restaurant joyeux près de la marina.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez tôt le soir",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMalaysian_Curry_Laksa_with_Rice_Noodles_and_King_Prawns_-_Ho_Chiak.jpg",
+    "src": "img/restos/DXB/hawkerboi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "al-safadi",
+   "nom": "Al Safadi",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Grillades et mezzés libanais",
+   "quartier": "Sheikh Zayed Road",
+   "adresse": "127 Sheikh Zayed Road, Trade Centre",
+   "lat": 25.2076,
+   "lng": 55.2737,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Le libanais populaire où les familles de Dubaï se retrouvent : houmous, taboulé, chich taouk et pain sorti du four, servis vite et en abondance, à deux pas du centre d'affaires.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : rotation rapide",
+   "photo": {
+    "auteur": "Tatakdh",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANourriture_terreste_dans_un_restaurant_libanais%2C_quartie_des_Grottes_%C3%A0_Gen%C3%AAve.jpg",
+    "src": "img/restos/DXB/al-safadi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "al-khayma",
+   "nom": "Al Khayma Heritage",
+   "emoji": "🏺",
+   "gamme": "moyen",
+   "genre": "Cuisine émiratie",
+   "quartier": "Al Fahidi",
+   "adresse": "79 Al Musalla Rd, quartier historique d'Al Fahidi",
+   "lat": 25.2638,
+   "lng": 55.3007,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026",
+   "texte": "L'une des rares tables émiraties de la ville, dans une maison traditionnelle du quartier historique, avec des tables dans la cour : machboos d'agneau aux épices, poisson grillé de la crique et loqaimat au sirop de dattes.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour la terrasse le soir",
+   "photo": {
+    "auteur": "Vengolis",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKabsa_001.jpg",
+    "src": "img/restos/DXB/al-khayma.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "3fils",
+   "nom": "3Fils",
+   "emoji": "🍣",
+   "gamme": "moyen",
+   "genre": "Cuisine asiatique de la mer",
+   "quartier": "Jumeirah",
+   "adresse": "Jumeirah Fishing Harbour, Jumeirah",
+   "lat": 25.2113,
+   "lng": 55.245,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026 ; n° 1 du premier classement 50 Best Moyen-Orient (2022)",
+   "texte": "Une petite terrasse sur le port de pêche, des tables en plastique et une cuisine japonaise et asiatique inventive : le restaurant classé premier du tout premier palmarès des meilleures tables du Moyen-Orient, sans nappe ni chichis.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture (18 h) ou attendez avec un verre",
+   "photo": {
+    "auteur": "Syed Ali",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFishing_Harbour_-_Jumeirah_1_30_Nov_2013_322.jpg",
+    "src": "img/restos/DXB/3fils.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "shabestan",
+   "nom": "Shabestan",
+   "emoji": "🌙",
+   "gamme": "moyen",
+   "genre": "Cuisine persane",
+   "quartier": "Deira",
+   "adresse": "Hôtel Radisson Blu Deira Creek, Baniyas Rd",
+   "lat": 25.265,
+   "lng": 55.3111,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026",
+   "texte": "Depuis des décennies, la grande table persane de Dubaï : riz safrané, ragoûts aux grenades et noix, kebabs de bœuf, avec la crique et ses boutres illuminés derrière les baies vitrées.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; demandez une table près de la fenêtre",
+   "photo": {
+    "auteur": "Rod Waddington from Kergunyah, Australia",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Creek%2C_City_and_Dhow_%2812870166304%29.jpg",
+    "src": "img/restos/DXB/shabestan.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bombay-borough",
+   "nom": "Bombay Borough",
+   "emoji": "🪔",
+   "gamme": "moyen",
+   "genre": "Indien moderne",
+   "quartier": "DIFC",
+   "adresse": "Gate Village, Building 3, DIFC",
+   "lat": 25.2134,
+   "lng": 55.2827,
+   "prix": "35 à 50 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Un décor de demeure coloniale de Bombay, des carreaux colorés et des plats indiens revisités : poulet au beurre fumé, biryani en croûte et cocktails aux épices, au cœur du quartier financier.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant pour le week-end",
+   "photo": {
+    "auteur": "Mallikarjunasj",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIndian_thali_with_poori_and_rice.jpg",
+    "src": "img/restos/DXB/bombay-borough.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bait-maryam",
+   "nom": "Bait Maryam",
+   "emoji": "🫓",
+   "gamme": "moyen",
+   "genre": "Cuisine levantine familiale",
+   "quartier": "JLT",
+   "adresse": "Cluster D, Jumeirah Lakes Towers",
+   "lat": 25.0706,
+   "lng": 55.1414,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026",
+   "texte": "La cuisine de la maison de Maryam, la mère de la cheffe : fatteh au yaourt et pignons, kebbé maison, maqlouba renversée à table. Une salle chaleureuse comme une salle à manger de famille.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "روتانا",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHummus_Fatteh_with_Meat.jpg",
+    "src": "img/restos/DXB/bait-maryam.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kinoya",
+   "nom": "Kinoya",
+   "emoji": "🍥",
+   "gamme": "moyen",
+   "genre": "Ramen et izakaya japonais",
+   "quartier": "The Greens",
+   "adresse": "The Onyx Tower 2, The Greens",
+   "lat": 25.0936,
+   "lng": 55.1745,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026",
+   "texte": "Le comptoir à ramen préféré des habitants : bouillon tonkotsu crémeux cuit pendant des heures, gyoza croustillants et petits plats d'izakaya, à partager au bar face aux cuisiniers.",
+   "reservation": "sur_place",
+   "reservation_delai": "réservations limitées : venez tôt, la file est courante le week-end",
+   "photo": {
+    "auteur": "Joli Rumi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AA_bowl_of_ramen_in_Osaka%2C_Japan.jpg",
+    "src": "img/restos/DXB/kinoya.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "orfali-bros",
+   "nom": "Orfali Bros",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine syrienne créative",
+   "quartier": "Jumeirah",
+   "adresse": "Wasl 51, Al Wasl Rd, Jumeirah 1",
+   "lat": 25.2187,
+   "lng": 55.2613,
+   "prix": "70 à 110 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles au guide Michelin 2026",
+   "texte": "Trois frères d'Alep réinventent la cuisine de leur enfance : kebbé crue au piment, shish barak façon raviolis, pâtisseries spectaculaires. Le restaurant qui monte le plus vite de Dubaï.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant",
+   "photo": {
+    "auteur": "122589423KM at English Wikipedia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKibbeh_Nayyeh.jpg",
+    "src": "img/restos/DXB/orfali-bros.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "atmosphere",
+   "nom": "At.mosphere",
+   "emoji": "🌆",
+   "gamme": "haut",
+   "genre": "Restaurant au 122e étage",
+   "quartier": "Downtown",
+   "adresse": "Burj Khalifa, niveau 122",
+   "lat": 25.1972,
+   "lng": 55.2744,
+   "prix": "à partir de 105 €",
+   "prix_min": 105,
+   "badges": [],
+   "texte": "Dîner ou prendre le thé à 441 mètres, au 122e étage de Burj Khalifa : la ville scintille sous vos pieds. Une dépense de prestige, à garder pour une occasion.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; tables près des fenêtres plus chères (minimum à dépenser)",
+   "photo": {
+    "auteur": "David Jones from Isle of Wight, United Kingdom",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAt.mosphere_at_the_Burj_Khalifa_%286934714069%29.jpg",
+    "src": "img/restos/DXB/atmosphere.jpg"
+   }
+  },
+  {
+   "id": "thiptara",
+   "nom": "Thiptara",
+   "emoji": "🪷",
+   "gamme": "haut",
+   "genre": "Cuisine thaïe",
+   "quartier": "Downtown",
+   "adresse": "Hôtel Palace Downtown",
+   "lat": 25.1943,
+   "lng": 55.2751,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "Un pavillon de bois posé sur le lac de la fontaine de Dubaï : curry vert, crevettes au tamarin et spectacle de la fontaine toutes les 30 minutes depuis votre table.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant ; demandez une table en terrasse face à la fontaine",
+   "photo": {
+    "auteur": "Aidas U.",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Palace_Downtown_Dubai_-_panoramio.jpg",
+    "src": "img/restos/DXB/thiptara.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tasca",
+   "nom": "Tasca",
+   "emoji": "🐟",
+   "gamme": "haut",
+   "genre": "Cuisine portugaise",
+   "quartier": "Jumeirah",
+   "adresse": "Hôtel Mandarin Oriental Jumeira, Jumeirah 1",
+   "lat": 25.2167,
+   "lng": 55.2504,
+   "prix": "70 à 110 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin 2026",
+   "texte": "Le chef José Avillez apporte les saveurs de Lisbonne au bord de la mer : morue, poulpe grillé et pastéis de nata, sur une terrasse en hauteur face à la mer.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Mentxuwiki",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABacalhau_%C3%A0_bras%2C_Miranda_do_Douro.jpg",
+    "src": "img/restos/DXB/tasca.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "11-woodfire",
+   "nom": "11 Woodfire",
+   "emoji": "🔥",
+   "gamme": "haut",
+   "genre": "Cuisine au feu de bois",
+   "quartier": "Jumeirah",
+   "adresse": "Villa 11, 75B St, Jumeirah 1",
+   "lat": 25.2185,
+   "lng": 55.2535,
+   "prix": "80 à 120 €",
+   "prix_min": 80,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin 2026",
+   "texte": "Presque tout est cuit au feu de bois et à la braise, des légumes aux viandes maturées, dans une villa avec jardin. Une cuisine de braise d'une grande finesse.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant",
+   "photo": {
+    "auteur": "total13 (Flickr)",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteaks_cooked_on_a_disc_in_a_wood-fired_oven_with_saut%C3%A9ed_vegetables.jpg",
+    "src": "img/restos/DXB/11-woodfire.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "al-hadheerah",
+   "nom": "Al Hadheerah",
+   "emoji": "🏜️",
+   "gamme": "haut",
+   "genre": "Dîner-spectacle dans le désert",
+   "quartier": "Bab Al Shams (désert)",
+   "adresse": "Bab Al Shams Desert Resort, Al Qudra Rd",
+   "lat": 24.8185,
+   "lng": 55.228,
+   "prix": "≈ 100 € (buffet et spectacle)",
+   "prix_min": 100,
+   "badges": [],
+   "texte": "Un fort de sable au milieu des dunes : buffet de grillades et de cuisine arabe, musiciens, danse du ventre, fauconnerie et cavaliers. L'expérience « mille et une nuits », sans le 4x4 du safari.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; taxi ou voiture (45 min de Dubaï)",
+   "photo": {
+    "auteur": "DraVega",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADesierto_Dub%C3%A1i.jpg",
+    "src": "img/restos/DXB/al-hadheerah.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
