@@ -137,6 +137,10 @@ function setupSearchForm() {
       return;
     }
     if (e.target.closest('[data-more]')) renderMore();
+    const recap = e.target.closest('[data-recap]')?.dataset.recap;
+    if (recap === 'pax') $('s-pax').click();
+    else if (recap === 'when') $('s-when').click();
+    else if (recap) $(recap).showModal();
     const stay = e.target.closest('[data-stay]');
     if (stay) {
       sEls.form.querySelector(`input[name="stay"][value="${stay.dataset.stay}"]`).checked = true;
@@ -690,12 +694,34 @@ function renderResults() {
   const title = q.city ? `<p class="results-intro">Meilleures dates pour <strong>${escapeHtml(results[view[0]].dest.city)}</strong></p>` : '';
   sEls.results.innerHTML = `
     ${title}
-    <p class="results-query">${escapeHtml(describeQuery(q))}</p>
+    ${recapHtml(q)}
     <ul class="cards result-list" id="result-list"></ul>
     <button type="button" class="btn btn-secondary-wide" data-more hidden></button>
     <p class="disclaimer"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
       <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour compris' : ''}${groupLabel() ? `, ${groupLabel().trim()}` : ''}. Touchez « Préparer mon séjour » pour vérifier le prix du vol en direct.</span></p>`;
   renderMore();
+}
+
+// « Vos réglages » au début de la liste : les choix utilisés pour la recherche, là où l'on
+// regarde en descendant (une testeuse n'avait pas vu les pastilles du haut). Chaque réglage
+// se touche et ouvre son panneau.
+function recapHtml(q) {
+  const icon = (n) => `<svg class="icon" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+  const item = (key, ic, text) => `<button type="button" class="recap-item" data-recap="${key}">${icon(ic)}${escapeHtml(text)}</button>`;
+  const items = [
+    item('pax', 'users', typeof paxGet === 'function' ? paxLabel(paxGet()) : '1 adulte'),
+    item('when', 'calendar', $('s-when-label').textContent),
+    item('f-stay', 'moon', $('p-stay').textContent),
+  ];
+  if (Number.isFinite(q.budget)) items.push(item('f-budget', 'wallet', `${fmtPrice.format(q.budget)} max`));
+  if (q.country) items.push(item('f-where', 'pin', $('p-where').textContent));
+  if (q.month) items.push(`<span class="recap-item is-static">${icon('calendar')}Départ en ${escapeHtml(fmtMonthLong.format(parseDay(`${q.month}-01`)).replace(/ \d{4}$/, ''))}</span>`);
+  return `
+    <div class="recap">
+      <p class="recap-title">Vos réglages</p>
+      <div class="recap-items">${items.join('')}</div>
+      <p class="recap-help">Touchez un réglage pour le changer.</p>
+    </div>`;
 }
 
 // Ajoute les 10 villes suivantes.
@@ -799,7 +825,7 @@ function tripOptionHtml(o, city, roundTrip) {
     <div class="tc-option">
       <p class="tc-dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> ${dates}${o.nights ? ` · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}${airport ? `<small>Aéroport : ${escapeHtml(airport)}</small>` : ''}</p>
       <div class="tc-foot">
-        <p class="tc-price"><small>${roundTrip ? 'Vol aller-retour' : 'Vol aller simple'}${seats() > 1 ? ` · ${seats()} voyageurs` : ''}</small><strong>${fmtGroup(o.total)}</strong>${perPersonHtml(o.total)}</p>
+        <p class="tc-price"><small>${roundTrip ? 'Vol aller-retour' : 'Vol aller simple'} pour <button type="button" class="tc-pax" data-recap="pax">${escapeHtml(typeof paxGet === 'function' ? paxLabel(paxGet()) : '1 adulte')}</button></small><strong>${fmtGroup(o.total)}</strong>${perPersonHtml(o.total)}</p>
         <button type="button" class="btn btn-primary tc-go" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Préparer mon séjour <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
       </div>
     </div>`;

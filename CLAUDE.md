@@ -36,6 +36,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
     couleur ni d'animation (le propriétaire n'aime pas).
   - « Tout remettre à zéro » (`#s-reset`, `resetFilters()`) : visible dès qu'un filtre est réglé ;
     remet dates, durée, voyageurs (1 adulte), budget, lieu, mois et tri.
+  - **« Vos réglages »** au début de la liste (`recapHtml`) et « Vol aller-retour **pour 1 adulte** » sous
+    chaque prix (`.tc-pax`) : une testeuse avait choisi la durée puis fait défiler sans voir les
+    pastilles du haut. Chaque réglage se touche et ouvre son panneau (`data-recap`).
   - Pastille Voyageurs : « 1 adulte » / « 1 enfant » sur deux lignes sur téléphone (`showPax()`).
   - Filtres en **pastilles** collées en haut (`.search` > `.filters-row`) : Quand (calendrier), Durée
     (panneau `#f-stay` : aller-retour/aller simple, case « dates exactes », nuits), Voyageurs, Budget

@@ -514,3 +514,4 @@ html[data-da="postale"] {
   [data-da^="pop"] .result-list .card.trip-card.is-hovered { box-shadow: 8px 8px 0 var(--coral); }
 }
 [data-da^="pop"] .stay-prompt { border-color: var(--ink); }
+[data-da^="pop"] .recap { border: 2px solid var(--ink); background: #fff; box-shadow: 3px 3px 0 var(--ink); }
