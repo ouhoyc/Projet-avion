@@ -281,8 +281,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
-- ✅ (21/10/2026) **Page guide de Dubaï** (`guides/DXB.json`), préparée en autonomie : 29 activités
-  (3 tendance : Aura Skypool, Kite Beach et la vue sur Burj Al Arab, Miracle Garden ; excursions à Abou Dhabi,
+- ✅ (21/10/2026) **Page guide de Dubaï** (`guides/DXB.json`), préparée en autonomie : 30 activités
+  (6 tendance : Sky Views, Al Fahidi, Dubai Frame, Kite Beach, Miracle Garden, Global Village ; excursions à Abou Dhabi,
   Hatta, safari ; courses de Meydan à la place d'un club de foot, peu suivi), 18 restaurants (note pondérée,
   C = 4,53, ~1 600 restaurants lus via Wanderlog ; Michelin 2026 : Orfali Bros 2 étoiles, Tasca et 11 Woodfire
   1 étoile ; 3Fils, Al Khayma, Shabestan, Bait Maryam, Kinoya, Hawkerboi Bib Gourmand), 5 quartiers.
@@ -292,8 +292,11 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   et Ain Dubai (ouverture incertaine) écartés ; restaurants fermés écartés (Ossiano, Al Muntaha, Hakkasan…).
   Saisonniers : Miracle Garden (8 oct.-31 mai), Global Village (14 oct.-mai), Meydan (6 nov.-27 mars).
   Ravi et Al Mallah (institutions) écartés : note Google 4,0 ; Bu Qtair (4,2) aussi.
-  **Réseaux sociaux non lancés** (crédit Apify du mois épuisé) : badges « Tendance » d'après le web
-  (classement Instagram 2026, guides photo) ; à relancer en novembre (Dubai / Dubaï).
+  **Réseaux sociaux** (Apify, relancé après paiement, ~0,9 $) : 120 TikTok, 60 Instagram, 40 YouTube,
+  30 Reddit. Badge « Tendance » si 2 sources : Sky Views (ajouté, toboggan de verre + Edge Walk ; pas de
+  photo libre → illustration), Arabian Tea House et Tasca côté restos ; retiré à Aura Skypool et SALT
+  (1 seule source). Signal restos faible (#dubaifood = comptes de reprise). Le plafond TikTok du script
+  (0,45 $) était sous le minimum Apify (0,50 $) : corrigé, et choix `reseaux` pour relancer un seul réseau.
   Prix à confirmer (`a_verifier`) : Burj Khalifa, aquarium, Al Shindagha, Etihad, mosquée de Jumeirah,
   Dubai Frame, The View, Aura, Burj Al Arab, safari, mosquée Cheikh Zayed, Hatta, Miracle Garden, Ski Dubai,
   Aquaventure, Meydan. Restaurants : prix et délais estimés ; vérifier qu'Al Hadheerah et At.mosphere sont ouverts.

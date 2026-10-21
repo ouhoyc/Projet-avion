@@ -66,6 +66,48 @@
    }
   },
   {
+   "id": "sky-views",
+   "nom": "Sky Views : toboggan de verre et Edge Walk",
+   "emoji": "🫣",
+   "type": "vue",
+   "quartier": "Downtown",
+   "lat": 25.2015,
+   "lng": 55.2707,
+   "prix": 21,
+   "prix_detail": [
+    [
+     "Observatoire et toboggan de verre",
+     "≈ 21 €"
+    ],
+    [
+     "Edge Walk (marche dans le vide, harnais)",
+     "499 AED (≈ 120 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 21,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille ; quelques jours avant pour l'Edge Walk (12 ans et plus)",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, avec Burj Khalifa juste en face",
+   "enfants": true,
+   "texte": "Au 53e étage, glissez dans un toboggan de verre suspendu à 220 mètres au-dessus du vide, puis, pour les plus courageux, marchez au bord du toit, harnaché, face à Burj Khalifa. Les sensations fortes les plus partagées de Dubaï.",
+   "site_officiel": "https://www.skyviewsdubai.com/",
+   "a_verifier": true,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Guilhem Vellut from Annecy, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubai_Fountain_%40_At_the_Top_SKY_%40_Burj_Khalifa_%40_Dubai_%2815266500693%29.jpg",
+    "src": "img/activites/DXB/sky-views.jpg",
+    "illustration": true
+   }
+  },
+  {
    "id": "fontaine",
    "nom": "Spectacle de la fontaine de Dubaï",
    "emoji": "⛲",
@@ -205,6 +247,9 @@
    "texte": "Le Dubaï d'avant le pétrole : maisons en corail et en gypse, tours à vent qui rafraîchissaient les pièces, ruelles ombragées, petites galeries et cafés dans les cours. Un autre monde, à 15 minutes des gratte-ciel.",
    "site_officiel": "https://www.visitdubai.com/",
    "a_verifier": false,
+   "badges": [
+    "tendance"
+   ],
    "photo": {
     "auteur": "EditQ",
     "licence": "CC0",
@@ -456,6 +501,9 @@
    "texte": "Un cadre doré de 150 mètres de haut : d'un côté le vieux Dubaï, de l'autre les gratte-ciel. Au sommet, une passerelle au plancher de verre vous fait marcher au-dessus du vide.",
    "site_officiel": "https://www.dubaiframe.ae/",
    "a_verifier": true,
+   "badges": [
+    "tendance"
+   ],
    "photo": {
     "auteur": "Rennboot",
     "licence": "CC BY 3.0",
@@ -532,9 +580,6 @@
    "texte": "La plus haute piscine à débordement à 360° du monde, au 50e étage : on nage avec Palm Jumeirah et la marina à perte de vue. La photo que tout le monde rapporte de Dubaï.",
    "site_officiel": "https://www.auraskypool.com/",
    "a_verifier": true,
-   "badges": [
-    "tendance"
-   ],
    "photo": {
     "auteur": "Imre Solt",
     "licence": "CC BY-SA 3.0",
@@ -1000,6 +1045,9 @@
    "site_officiel": "https://www.globalvillage.ae/",
    "a_verifier": false,
    "note": "Saison du 14 octobre 2026 à mai 2027 ; fermé l'été.",
+   "badges": [
+    "tendance"
+   ],
    "photo": {
     "auteur": "Philosographer",
     "licence": "CC BY-SA 4.0",
@@ -1277,7 +1325,8 @@
    "prix": "15 à 25 €",
    "prix_min": 15,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Dans la cour d'une vieille maison à tour à vent, sous un grand arbre et des chaises blanches et turquoise : thé à la cardamome, galettes chabab au miel de dattes et œufs aux épices. Le petit-déjeuner le plus photogénique de la ville.",
    "reservation": "sur_place",
@@ -1301,9 +1350,7 @@
    "lng": 55.2112,
    "prix": "12 à 20 €",
    "prix_min": 12,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Né d'un camion argenté garé sur la plage, SALT est devenu une marque culte grâce à Instagram : petits burgers au bœuf wagyu, frites au cheddar et glaces au lotus, à manger sur des poufs face à la mer.",
    "reservation": "sur_place",
    "reservation_delai": "pas de réservation : mieux vaut éviter le coucher du soleil le week-end",
@@ -1637,7 +1684,8 @@
    "prix": "70 à 110 €",
    "prix_min": 70,
    "badges": [
-    "recompense"
+    "recompense",
+    "tendance"
    ],
    "recompense": "1 étoile au guide Michelin 2026",
    "texte": "Le chef José Avillez apporte les saveurs de Lisbonne au bord de la mer : morue, poulpe grillé et pastéis de nata, sur une terrasse en hauteur face à la mer.",
