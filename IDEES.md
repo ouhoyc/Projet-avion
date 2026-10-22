@@ -344,8 +344,10 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   2 étoiles, Bacira Bib Gourmand ; tendance : San Ginés, Botín, marché de San Miguel, Bel Mondo), 5 quartiers.
   Réseaux sociaux lancés (Apify, un passage). Écartés car fermés : téléphérique (jusqu'en 2027), musée Sorolla
   (travaux). Photo du hammam : celui de Málaga, même enseigne (« Photo d'illustration »).
-  À vérifier (`a_verifier`) : Almudena, Goya, CaixaForum, rooftop du Riu, Cibeles, flamenco, hammam, matchs,
-  excursions, zoo, jardin botanique. Restaurants : prix et délais estimés.
+  Tout vérifié en autonomie (sources officielles quand elles existent : BOE 2025 pour les prix du Patrimonio
+  Nacional, esmadrid.com, TheFork pour DSTAgE) : l'Escurial coûte 14 € (pas 18), le Villa Rosa s'appelle
+  désormais Tablao Flamenco 1911, Takos al Pastor est calle de la Abada 13. Délais de réservation des
+  restaurants : jugés d'après les avis et la notoriété.
 - ✅ (22/10/2026) **Fiches des 7 villes qui n'en avaient pas** : Caen, Dubrovnik, La Rochelle, Louxor,
   Montréal, Pau, Stockholm (photo libre Commons, texte vendeur, météo). 95 fiches en tout.
 

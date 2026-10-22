@@ -214,7 +214,7 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
    - Badges : `tendance` 🔥, `recompense` 🍽️ (+ texte `recompense`), `institution` 🏛️.
    - Photo : vraie photo libre Commons si possible, sinon photo libre du plat/de la vue avec
      `illustration: true`. **Jamais** de photo protégée, même si le propriétaire le propose.
-   - Prix et délais de réservation = estimations, à faire vérifier par le propriétaire.
+   - Prix et délais de réservation : les vérifier soi-même (site du restaurant, TheFork, presse) et trancher.
    - **Réseaux sociaux (Apify)** : lancer l'Action « Tendances réseaux sociaux »
      (`.github/workflows/social-buzz.yml`, `scripts/social-buzz.mjs`, secret `APIFY_TOKEN`, compte
      Apify gratuit partagé avec la veille IA, 5 $/mois) **une seule fois par ville** (restos et
@@ -234,6 +234,9 @@ Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). U
 4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
 
 ## Qualité d'abord (demande du propriétaire, 21/10/2026)
+- **Autonomie totale** (22/10/2026) : vérifier soi-même chaque prix, horaire, adresse et fermeture (sites
+  officiels, presse récente) et trancher ; ne rien laisser « à vérifier par le propriétaire ». Ne le solliciter
+  que si l'on est vraiment bloqué.
 - **La qualité passe avant l'économie de tokens** : faire les recherches nécessaires, vérifier,
   creuser, plutôt que de répondre de mémoire. Il ne veut pas refaire le site plusieurs fois.
 - Garder des captures utiles (vérifications iPhone + PC, et ce qu'il doit voir), sans en abuser.
