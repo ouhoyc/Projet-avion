@@ -262,6 +262,17 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (22/10/2026) **Page guide d'Istanbul** (`guides/IST.json`), préparée en autonomie : 28 activités
+  (5 tendance : citerne Basilique, Balat, Kadıköy et Moda, tour de Léandre, Ortaköy ; match de Galatasaray,
+  club « Galatasaray », carte Passolig obligatoire), 18 restaurants (note pondérée, C = 4,345, 983 restaurants
+  lus via Wanderlog ; Michelin 2026 : TURK Fatih Tutak 2 étoiles, Mikla, Nicole, Sankai 1 étoile, Pandeli,
+  Ali Ocakbaşı et Karaköy Lokantası Bib Gourmand, Yeni Lokanta sélection ; tendance : Seven Hills), 5 quartiers
+  (Sultanahmet, Sirkeci, Karaköy, Beyoğlu, Kadıköy). Réseaux sociaux (Apify, un seul lancement, ~0,75 $) : signal
+  faible côté restaurants. Écartés pour note trop basse : Çiya, Hamdi, bateaux à balık ekmek d'Eminönü.
+  Prix en livres turques convertis (1 € ≈ 55,5 TL, inflation forte : à revoir souvent). À vérifier (`a_verifier`) :
+  18 activités sur 28 (Topkapı, citerne, Galata, Dolmabahçe, hammam, derviches, musées, îles, match…).
+  Restaurants : prix et délais estimés ; 15 photos d'illustration (peu de photos libres des lieux) ; Mikla sans photo (Commons refusait le téléchargement, à ajouter : « The Marmara Pera Hotel Istanbul.jpg », domaine public).
+  Pas encore de liens Tiqets (`PARTNER_LINKS`).
 - ✅ (22/10/2026) **Page guide de Berlin** (`guides/BER.json`), préparée en autonomie (en deux fois : la première
   conversation s'est arrêtée sur la limite d'usage, reprise ensuite) : 28 activités (5 tendance : tour de télévision,
   East Side Gallery, Sanssouci, Mauerpark le dimanche, Hackesche Höfe ; match de l'Union, club « 1. FC Union Berlin »),

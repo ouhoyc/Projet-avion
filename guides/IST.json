@@ -1,0 +1,1598 @@
+{
+ "city_code": "IST",
+ "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "ayasofya",
+   "nom": "Sainte-Sophie (Ayasofya)",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Sultanahmet",
+   "lat": 41.008587,
+   "lng": 28.979801,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Visite des galeries (mosaïques byzantines)",
+     25
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ],
+    [
+     "Salle de prière du rez-de-chaussée",
+     "gratuit (réservée aux fidèles)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille pour éviter la file (la file du matin peut dépasser 1 h)",
+   "duree": "1 h",
+   "moment": "À l'ouverture, ou en fin d'après-midi ; fermé aux visiteurs pendant les prières (surtout le vendredi midi)",
+   "enfants": true,
+   "texte": "Quinze siècles d'histoire sous une coupole qui semble flotter dans les airs : basilique byzantine, puis mosquée impériale. Depuis les galeries, vous êtes nez à nez avec les mosaïques dorées du Christ et de l'impératrice Zoé, et la vue plonge sur l'immense nef.",
+   "site_officiel": "https://ayasofyacamii.gov.tr/",
+   "note": "Les visiteurs étrangers entrent par la galerie (billet) ; le rez-de-chaussée est réservé à la prière. Tenue couvrant épaules et genoux, foulard pour les femmes (prêté sur place).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Arild Vågen",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+    "src": "img/activites/IST/ayasofya.jpg"
+   }
+  },
+  {
+   "id": "mosquee-bleue",
+   "nom": "Mosquée Bleue (Sultanahmet)",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Sultanahmet",
+   "lat": 41.005438,
+   "lng": 28.976817,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "pas de réservation : file d'attente en dehors des heures de prière",
+   "duree": "45 min",
+   "moment": "Le matin tôt ; fermée aux visiteurs pendant les cinq prières",
+   "enfants": true,
+   "texte": "Six minarets, une cascade de coupoles et 20 000 carreaux de faïence d'Iznik aux reflets bleus : la mosquée la plus célèbre d'Istanbul fait face à Sainte-Sophie. Le soir, l'esplanade illuminée entre les deux monuments est l'une des plus belles scènes de la ville.",
+   "site_officiel": "https://sultanahmetcamii.org/",
+   "note": "Entrée gratuite mais tenue correcte exigée (épaules et genoux couverts, foulard pour les femmes, chaussures à la main).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Moonik",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul,_Turkey_002.jpg",
+    "src": "img/activites/IST/mosquee-bleue.jpg"
+   }
+  },
+  {
+   "id": "topkapi",
+   "nom": "Palais de Topkapı et son harem",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Sultanahmet",
+   "lat": 41.011529,
+   "lng": 28.983391,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Billet palais + harem + Sainte-Irène",
+     "2 750 TL (≈ 50 €)"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne (muze.gov.tr) quelques jours avant en été",
+   "duree": "3 h",
+   "moment": "À l'ouverture (9 h) ; fermé le mardi",
+   "enfants": true,
+   "texte": "Pendant près de quatre siècles, les sultans ottomans ont gouverné un empire depuis ces cours en terrasse au-dessus du Bosphore. Le harem et ses salles couvertes de faïences, le trésor et le célèbre poignard aux émeraudes, puis les kiosques avec vue sur deux continents.",
+   "site_officiel": "https://muze.gov.tr/",
+   "note": "Prix officiel 2026 relevé sur les guides récents (2 750 TL) : à vérifier sur muze.gov.tr. La Museum Pass Istanbul est acceptée.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Julian Lupyan",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sultan%27s_Throne,_Imperial_Hall,_Topkap%C4%B1_Palace_Harem.jpg",
+    "src": "img/activites/IST/topkapi.jpg"
+   }
+  },
+  {
+   "id": "citerne",
+   "nom": "Citerne Basilique (Yerebatan)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Sultanahmet",
+   "lat": 41.008389,
+   "lng": 28.977903,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Journée",
+     "1 950 TL (≈ 35 €)"
+    ],
+    [
+     "Séance du soir (19 h 30 - 22 h)",
+     "3 000 TL (≈ 54 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne pour éviter la file en milieu de journée",
+   "duree": "45 min",
+   "moment": "À l'ouverture (9 h) ou en séance du soir, plus calme",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une forêt de 336 colonnes qui se reflètent dans l'eau, sous une lumière rougeoyante : ce réservoir byzantin du VIe siècle est l'un des lieux les plus spectaculaires de la ville. Au fond, deux têtes de Méduse servent de socles aux colonnes.",
+   "site_officiel": "https://yerebatan.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Basilica_Cistern,_Istanbul,_20260606_1541_1638.jpg",
+    "src": "img/activites/IST/citerne.jpg"
+   }
+  },
+  {
+   "id": "grand-bazar",
+   "nom": "Grand Bazar (Kapalıçarşı)",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Beyazıt",
+   "lat": 41.010679,
+   "lng": 28.968067,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "En semaine le matin ; fermé le dimanche",
+   "enfants": true,
+   "texte": "Plus de 4 000 boutiques sous 60 ruelles couvertes : lampes de toutes les couleurs, tapis, céramiques, cuir et bijoux. Le plus vieux marché couvert du monde se parcourt le nez en l'air, entre les coupoles peintes, avec un thé offert au détour d'une négociation.",
+   "site_officiel": "https://kapalicarsi.org.tr/",
+   "note": "Le marchandage fait partie du jeu : proposez la moitié du premier prix et montez doucement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Slyronit",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamps_at_Grand_Bazaar,_Istanbul.jpg",
+    "src": "img/activites/IST/grand-bazar.jpg"
+   }
+  },
+  {
+   "id": "bazar-epices",
+   "nom": "Bazar égyptien (bazar aux épices)",
+   "emoji": "🌶️",
+   "type": "balade",
+   "quartier": "Eminönü",
+   "lat": 41.016521,
+   "lng": 28.970558,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h",
+   "moment": "Le matin, avant la foule ; ouvert tous les jours",
+   "enfants": true,
+   "texte": "Des pyramides d'épices, de loukoums, de thés et de fruits secs à perte de vue, dans une halle en L de 1664. Goûtez avant d'acheter, puis ressortez côté Golden Horn pour voir les ferries partir de l'embarcadère d'Eminönü.",
+   "site_officiel": "https://misircarsisi.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Miomir Magdevski",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spices_on_Spice_Bazaar_in_Istanbul_03.jpg",
+    "src": "img/activites/IST/bazar-epices.jpg"
+   }
+  },
+  {
+   "id": "suleymaniye",
+   "nom": "Mosquée Süleymaniye",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Fatih",
+   "lat": 41.016171,
+   "lng": 28.963993,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre en dehors des prières",
+   "duree": "1 h",
+   "moment": "Fin d'après-midi, pour la terrasse au coucher du soleil",
+   "enfants": true,
+   "texte": "Le chef-d'œuvre de Sinan, le grand architecte ottoman, domine la Corne d'Or du haut de sa colline. Moins fréquentée que la Mosquée Bleue, elle offre un intérieur immense et lumineux, et depuis son jardin, l'une des plus belles vues sur la ville.",
+   "site_officiel": "https://www.suleymaniyecamii.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_-_Golden_Horn.jpg",
+    "src": "img/activites/IST/suleymaniye.jpg"
+   }
+  },
+  {
+   "id": "galata",
+   "nom": "Tour de Galata",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Galata",
+   "lat": 41.025605,
+   "lng": 28.974158,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Entrée",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne, file très longue en fin de journée",
+   "duree": "1 h",
+   "moment": "À l'ouverture (8 h 30) ; le coucher du soleil attire la foule",
+   "enfants": true,
+   "texte": "Construite par les Génois en 1348, la tour veille sur Beyoğlu depuis presque sept siècles. Son balcon circulaire offre un tour d'horizon complet : la vieille ville et ses minarets, la Corne d'Or, le Bosphore et la rive asiatique.",
+   "site_officiel": "https://muze.gov.tr/",
+   "note": "La tour est aussi belle vue d'en bas : les ruelles autour (Galip Dede, Serdar-ı Ekrem) sont parmi les plus photogéniques d'Istanbul.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Alexxx1979",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Galata_Tower_IMG_8211_1920.jpg",
+    "src": "img/activites/IST/galata.jpg"
+   }
+  },
+  {
+   "id": "bosphore",
+   "nom": "Croisière en ferry sur le Bosphore",
+   "emoji": "⛴️",
+   "type": "balade",
+   "quartier": "Eminönü",
+   "lat": 41.017903,
+   "lng": 28.974702,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Tour court Şehir Hatları (Eminönü - Ortaköy, 1 h 30)",
+     "340 TL (≈ 6 €)"
+    ],
+    [
+     "Tour long jusqu'à Anadolu Kavağı (journée)",
+     "≈ 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      11,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet de l'embarcadère, le jour même",
+   "duree": "1 h 30 à 6 h",
+   "moment": "L'après-midi, pour la lumière dorée sur les palais",
+   "enfants": true,
+   "texte": "Le moment que tout le monde garde en mémoire : glisser entre l'Europe et l'Asie sur un vieux ferry public, un thé à la main, en passant devant les palais, les forteresses et les yalı, ces maisons de bois au bord de l'eau. Les mouettes suivent le bateau tout du long.",
+   "site_officiel": "https://sehirhatlari.istanbul/",
+   "note": "Les ferries publics sont bien moins chers que les croisières privées vendues dans la rue, pour la même vue.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Moonik",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sultanahmet_ferry_on_the_Bosphorus_in_Istanbul,_Turkey_001.jpg",
+    "src": "img/activites/IST/bosphore.jpg"
+   }
+  },
+  {
+   "id": "dolmabahce",
+   "nom": "Palais de Dolmabahçe",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Beşiktaş",
+   "lat": 41.039169,
+   "lng": 29.000488,
+   "prix": 36,
+   "prix_detail": [
+    [
+     "Selamlık + harem",
+     "2 000 TL (≈ 36 €)"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 36,
+    "enfants": [
+     [
+      6,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets en vente sur place, arrivez tôt (nombre de visiteurs limité)",
+   "duree": "2 h",
+   "moment": "Le matin ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le Versailles du Bosphore : les derniers sultans quittèrent Topkapı pour ce palais au luxe européen, avec 14 tonnes d'or aux plafonds et un lustre de cristal de 4,5 tonnes. Atatürk y est mort en 1938 ; toutes les horloges y sont arrêtées à 9 h 05.",
+   "site_officiel": "https://www.millisaraylar.gov.tr/",
+   "note": "Photos interdites à l'intérieur ; visite par groupes.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Dolmabah%C3%A7e,_Estambul,_Turqu%C3%ADa,_2024-09-28,_DD_111.jpg",
+    "src": "img/activites/IST/dolmabahce.jpg"
+   }
+  },
+  {
+   "id": "balat",
+   "nom": "Balat et Fener, les maisons colorées",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Balat",
+   "lat": 41.029195,
+   "lng": 28.948305,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "Le matin en semaine, pour des photos sans foule",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des maisons de bois peintes en rose, jaune ou turquoise, des escaliers en pente raide, des cafés d'antiquaires : l'ancien quartier grec et juif est devenu le décor préféré d'Instagram. Montez la rue Kiremit, puis l'église bulgare Saint-Étienne, toute en fonte.",
+   "site_officiel": "",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vogueeatss",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Colorful_Balat.jpg",
+    "src": "img/activites/IST/balat.jpg"
+   }
+  },
+  {
+   "id": "kadikoy",
+   "nom": "Kadıköy et Moda, côté Asie",
+   "emoji": "🌅",
+   "type": "balade",
+   "quartier": "Kadıköy",
+   "lat": 40.983705,
+   "lng": 29.026501,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Ferry depuis Eminönü ou Karaköy",
+     "≈ 1 € avec l'Istanbulkart"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "3 h",
+   "moment": "L'après-midi, puis le coucher du soleil sur la promenade de Moda",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Vingt minutes de ferry et vous voici sur la rive asiatique, là où vivent les Stambouliotes : marché aux poissons et aux épices, cafés, friperies, bars vivants le soir. La promenade de Moda, au bord de la mer de Marmara, offre l'un des plus beaux couchers de soleil sur la vieille ville.",
+   "site_officiel": "",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "VikiPicture",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C4%B0stanbul_-_Kad%C4%B1k%C3%B6y,_Moda_r1-_Mart_2013.JPG",
+    "src": "img/activites/IST/kadikoy.jpg"
+   }
+  },
+  {
+   "id": "hammam",
+   "nom": "Hammam historique de Çemberlitaş",
+   "emoji": "🛁",
+   "type": "sortir",
+   "quartier": "Çemberlitaş",
+   "lat": 41.008574,
+   "lng": 28.971283,
+   "prix": 68,
+   "prix_detail": [
+    [
+     "Bain + gommage + massage au savon",
+     "≈ 2 650 TL (≈ 68 €)"
+    ],
+    [
+     "Bain seul (sans service)",
+     "≈ 55 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 68,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservation en ligne conseillée, surtout le soir",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, après les visites",
+   "enfants": false,
+   "texte": "Se faire frotter au gant de crin puis masser dans des nuages de mousse, allongé sur une dalle de marbre chaud, sous une coupole percée d'étoiles : le rituel du bain turc dans un hammam construit par Sinan en 1584. On en ressort la peau neuve.",
+   "site_officiel": "https://www.cemberlitashamami.com/",
+   "note": "Autres adresses réputées : Kılıç Ali Paşa (Tophane, plus cher, magnifique) et Hürrem Sultan (face à Sainte-Sophie, très haut de gamme). La photo montre le hammam Hürrem Sultan.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Gryffindor",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bath_of_Roxelane_Istanbul_2007_001.jpg",
+    "src": "img/activites/IST/hammam.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "derviches",
+   "nom": "Cérémonie des derviches tourneurs",
+   "emoji": "🌀",
+   "type": "sortir",
+   "quartier": "Sirkeci",
+   "lat": 41.015402,
+   "lng": 28.975907,
+   "prix": 36,
+   "prix_detail": [
+    [
+     "Spectacle (1 h)",
+     "≈ 36 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 36,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réserver un ou deux jours avant (salle de 150 places)",
+   "duree": "1 h",
+   "moment": "Le soir (19 h)",
+   "enfants": true,
+   "texte": "Vêtus de blanc, les derviches tournent sur eux-mêmes, bras ouverts, au son de la flûte ney : une cérémonie soufie inscrite au patrimoine de l'Unesco, présentée dans un ancien hammam de 1475. Un moment de calme hors du temps.",
+   "site_officiel": "https://www.hodjapasha.com/",
+   "note": "Le dimanche, le couvent des derviches de Galata (Galata Mevlevihanesi) accueille aussi une cérémonie.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Kemal.kubbe",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Whirling_Dervishes_at_Hodjapasha.jpg",
+    "src": "img/activites/IST/derviches.jpg"
+   }
+  },
+  {
+   "id": "archeologie",
+   "nom": "Musées archéologiques d'Istanbul",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Gülhane",
+   "lat": 41.011708,
+   "lng": 28.981101,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée",
+     "15 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place, rarement d'attente",
+   "duree": "2 h",
+   "moment": "Le matin, juste à côté de Topkapı",
+   "enfants": true,
+   "texte": "Trois musées dans les jardins de Topkapı, avec l'une des plus riches collections antiques au monde : le sarcophage dit d'Alexandre, aux scènes de bataille sculptées, le plus vieux traité de paix connu et des trésors de Troie.",
+   "site_officiel": "https://muze.gov.tr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Metuboy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Istanbularcheology.jpg",
+    "src": "img/activites/IST/archeologie.jpg"
+   }
+  },
+  {
+   "id": "arts-islamiques",
+   "nom": "Musée des Arts turcs et islamiques",
+   "emoji": "🧶",
+   "type": "culture",
+   "quartier": "Sultanahmet",
+   "lat": 41.006325,
+   "lng": 28.975183,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Entrée",
+     "17 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "1 h 30",
+   "moment": "Pendant les heures chaudes ou s'il pleut",
+   "enfants": true,
+   "texte": "Dans le palais d'Ibrahim Pacha, face à l'Hippodrome, une collection de tapis anciens parmi les plus belles du monde, des corans enluminés et des tentes nomades reconstituées. Sa terrasse de café donne sur la Mosquée Bleue.",
+   "site_officiel": "https://muze.gov.tr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Chapultepec",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_and_Islamic_Arts_Museum_01.jpg",
+    "src": "img/activites/IST/arts-islamiques.jpg"
+   }
+  },
+  {
+   "id": "kariye",
+   "nom": "Mosquée Kariye (Saint-Sauveur-in-Chora)",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Edirnekapı",
+   "lat": 41.031101,
+   "lng": 28.939001,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Galeries des mosaïques",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "1 h",
+   "moment": "Le matin ; fermée aux visiteurs pendant les prières",
+   "enfants": true,
+   "texte": "Les plus belles mosaïques et fresques byzantines au monde, d'or et de bleu, racontent la vie du Christ et de la Vierge dans une petite église du XIVe siècle. Rouverte en 2024 après une longue restauration, elle vaut à elle seule le détour vers les remparts.",
+   "site_officiel": "https://muze.gov.tr/",
+   "note": "Combinez avec Balat, à 15 minutes à pied.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "ArtProjection",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chora,_Kariye_Camii,_Life_of_Christ_Mosaic.jpg",
+    "src": "img/activites/IST/kariye.jpg"
+   }
+  },
+  {
+   "id": "iles-princes",
+   "nom": "Îles des Princes (Büyükada)",
+   "emoji": "🏝️",
+   "type": "nature",
+   "quartier": "Büyükada",
+   "lat": 40.874302,
+   "lng": 29.129001,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Ferry depuis Kabataş ou Eminönü (1 h 30)",
+     "≈ 3 € avec l'Istanbulkart"
+    ],
+    [
+     "Location de vélo",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "pas de réservation",
+   "duree": "une journée",
+   "moment": "En semaine, de mai à octobre",
+   "enfants": true,
+   "texte": "Sans voitures, à 1 h 30 de ferry : grandes villas de bois au milieu des pins et des bougainvilliers, criques, vélos et petits bus électriques. Büyükada, la plus grande des îles, est l'échappée préférée des Stambouliotes le week-end.",
+   "site_officiel": "https://sehirhatlari.istanbul/",
+   "note": "Les calèches ont été supprimées en 2020 ; on circule à vélo, à pied ou en minibus électrique.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Kış sardunyasi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:B%C3%BCy%C3%BCkada_beyaz_k%C3%B6%C5%9Fk.jpg",
+    "src": "img/activites/IST/iles-princes.jpg"
+   }
+  },
+  {
+   "id": "tour-jeune-fille",
+   "nom": "Tour de Léandre (Kız Kulesi)",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Üsküdar",
+   "lat": 41.021112,
+   "lng": 29.004128,
+   "prix": 32,
+   "prix_detail": [
+    [
+     "Entrée",
+     "27 €"
+    ],
+    [
+     "Bateau aller-retour depuis Üsküdar ou Karaköy",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 32,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place, bateaux toutes les 15 min",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, pour le coucher du soleil sur la vieille ville",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Posée sur un îlot au milieu du Bosphore, la petite tour blanche est le symbole romantique d'Istanbul. Restaurée et rouverte en 2023, elle se visite en bateau ; mais la plus belle vue reste celle du quai de Salacak, en face, au coucher du soleil.",
+   "site_officiel": "https://kizkulesi.gov.tr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Sonse",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C4%B1z_Kulesi,_Maiden%27s_Tower_(52396926549).jpg",
+    "src": "img/activites/IST/tour-jeune-fille.jpg"
+   }
+  },
+  {
+   "id": "istanbul-modern",
+   "nom": "Istanbul Modern",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Karaköy",
+   "lat": 41.026401,
+   "lng": 28.981801,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Entrée",
+     "900 TL (≈ 16 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "2 h",
+   "moment": "Fermé le lundi",
+   "enfants": true,
+   "texte": "Le grand musée d'art moderne et contemporain turc, dans un bâtiment signé Renzo Piano posé au bord du Bosphore (2023). Expositions, salle de cinéma et un café-terrasse avec vue sur la vieille ville.",
+   "site_officiel": "https://www.istanbulmodern.org/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Kurmanbek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Modern_in_September_2023.jpg",
+    "src": "img/activites/IST/istanbul-modern.jpg"
+   }
+  },
+  {
+   "id": "innocence",
+   "nom": "Musée de l'Innocence",
+   "emoji": "💌",
+   "type": "culture",
+   "quartier": "Çukurcuma",
+   "lat": 41.031302,
+   "lng": 28.978603,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "1 h",
+   "moment": "Fermé le lundi",
+   "enfants": true,
+   "texte": "Le prix Nobel Orhan Pamuk a créé un musée pour le roman qu'il écrivait : 83 vitrines remplies d'objets du quotidien stambouliote des années 1950-1980, qui racontent une histoire d'amour. Un lieu unique, dans le quartier des antiquaires.",
+   "site_officiel": "https://masumiyetmuzesi.org/",
+   "note": "Prix à vérifier sur place.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Fuzheado",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Museum_of_Innocence.jpg",
+    "src": "img/activites/IST/innocence.jpg"
+   }
+  },
+  {
+   "id": "istiklal",
+   "nom": "Avenue İstiklal et tramway rouge",
+   "emoji": "🚋",
+   "type": "balade",
+   "quartier": "Beyoğlu",
+   "lat": 41.033903,
+   "lng": 28.977903,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Tramway nostalgique",
+     "≈ 1 € avec l'Istanbulkart"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "En soirée, quand l'avenue s'anime",
+   "enfants": true,
+   "texte": "Trois kilomètres piétons entre la place Taksim et la tour de Galata, parcourus par un tramway rouge de 1914 : passages couverts du XIXe siècle, églises, librairies, pâtisseries et musique de rue. Le cœur battant de la ville moderne.",
+   "site_officiel": "",
+   "note": "Restez attentif à votre portefeuille dans la foule.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Antoine Taveneaux",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_nostalgic_tram_4.jpg",
+    "src": "img/activites/IST/istiklal.jpg"
+   }
+  },
+  {
+   "id": "ortakoy",
+   "nom": "Mosquée d'Ortaköy et pont du Bosphore",
+   "emoji": "📸",
+   "type": "balade",
+   "quartier": "Ortaköy",
+   "lat": 41.047302,
+   "lng": 29.027002,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, et le dimanche pour le marché d'artisans",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La photo la plus célèbre d'Istanbul : une mosquée baroque toute blanche, au bord de l'eau, sous le grand pont suspendu qui relie l'Europe à l'Asie. Sur la place, goûtez le kumpir, une pomme de terre géante garnie à volonté.",
+   "site_officiel": "",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pragdon",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ortak%C3%B6y_Mosque,_2025.jpg",
+    "src": "img/activites/IST/ortakoy.jpg"
+   }
+  },
+  {
+   "id": "rumeli-hisari",
+   "nom": "Forteresse de Rumeli Hisarı",
+   "emoji": "🏯",
+   "type": "vue",
+   "quartier": "Sarıyer",
+   "lat": 41.084702,
+   "lng": 29.056603,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Entrée",
+     "6 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "1 h",
+   "moment": "Le matin ; à combiner avec une balade à Bebek",
+   "enfants": true,
+   "texte": "Construite en quatre mois seulement par Mehmet II pour préparer la prise de Constantinople en 1453, la forteresse escalade la colline au point le plus étroit du Bosphore. Ses remparts offrent une vue plongeante sur le détroit et le deuxième pont.",
+   "site_officiel": "https://muze.gov.tr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "mike",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rumeli_Hisar%C4%B1_Fortress_in_2025.jpg",
+    "src": "img/activites/IST/rumeli-hisari.jpg"
+   }
+  },
+  {
+   "id": "pierre-loti",
+   "nom": "Colline Pierre Loti (téléphérique)",
+   "emoji": "🚡",
+   "type": "vue",
+   "quartier": "Eyüp",
+   "lat": 41.054201,
+   "lng": 28.933802,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Téléphérique depuis Eyüp",
+     "≈ 1 € avec l'Istanbulkart"
+    ],
+    [
+     "Thé au café",
+     "≈ 1 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "pas de réservation",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, pour le coucher du soleil sur la Corne d'Or",
+   "enfants": true,
+   "texte": "L'écrivain Pierre Loti venait rêver dans ce café en haut de la colline d'Eyüp. On y monte en téléphérique au-dessus d'un vieux cimetière ottoman, pour boire un thé face à toute la Corne d'Or.",
+   "site_officiel": "",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Joseolgon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Pierre_Loti_Hill_7.jpg",
+    "src": "img/activites/IST/pierre-loti.jpg"
+   }
+  },
+  {
+   "id": "pera",
+   "nom": "Musée de Pera",
+   "emoji": "🐢",
+   "type": "culture",
+   "quartier": "Beyoğlu",
+   "lat": 41.031802,
+   "lng": 28.974702,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Entrée",
+     "300 TL (≈ 6 €)"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "1 h 30",
+   "moment": "Fermé le lundi ; entrée gratuite certains soirs",
+   "enfants": true,
+   "texte": "Un petit musée élégant de Beyoğlu, célèbre pour « Le Dresseur de tortues » d'Osman Hamdi Bey, le tableau le plus aimé des Turcs, et pour ses peintures orientalistes de l'Istanbul d'autrefois. De belles expositions temporaires.",
+   "site_officiel": "https://www.peramuzesi.org.tr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Tatiana Matlina",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Istanbul_Beyoglu_Pera_museum.jpg",
+    "src": "img/activites/IST/pera.jpg"
+   }
+  },
+  {
+   "id": "match",
+   "nom": "Match de foot : Galatasaray, Fenerbahçe ou Beşiktaş",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Beşiktaş",
+   "lat": 41.039402,
+   "lng": 28.994501,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 25 à 100 € selon le match"
+    ],
+    [
+     "Carte Passolig (obligatoire)",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créez votre carte Passolig (appli Passo, avec votre passeport) avant le jour du match, puis achetez le billet",
+   "duree": "3 h",
+   "moment": "Les soirs de match ; les derbys affichent complet",
+   "enfants": true,
+   "club": "Galatasaray",
+   "texte": "Istanbul a trois grands clubs et une ferveur unique en Europe : chants à pleine voix, fumigènes, stades qui tremblent. Le stade de Beşiktaş, au bord du Bosphore, est l'un des plus beaux ; celui de Galatasaray, l'un des plus bruyants du monde.",
+   "site_officiel": "https://www.passo.com.tr/",
+   "note": "Un billet ne peut être acheté qu'avec une carte Passolig nominative, créée en ligne avec votre passeport. Évitez les revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Thomas Berwing",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20220606-L1000240.jpg",
+    "src": "img/activites/IST/match.jpg"
+   }
+  },
+  {
+   "id": "emirgan",
+   "nom": "Parc d'Emirgan et ses tulipes",
+   "emoji": "🌷",
+   "type": "nature",
+   "quartier": "Emirgan",
+   "lat": 41.108201,
+   "lng": 29.052902,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "En avril pour le festival des tulipes ; agréable toute l'année",
+   "enfants": true,
+   "texte": "En avril, des millions de tulipes dessinent des tapis de couleurs sur les pelouses de ce grand parc au bord du Bosphore : la tulipe est née ici, dans les jardins des sultans, avant de conquérir la Hollande. Le reste de l'année, pavillons ottomans et cafés sous les pins.",
+   "site_officiel": "",
+   "note": "Festival des tulipes : avril seulement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Husain007",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tulip_Festival_Emirgan_2018.jpg",
+    "src": "img/activites/IST/emirgan.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "sultanahmet",
+   "nom": "Sultanahmet (vieille ville)",
+   "lat": 41.0065,
+   "lng": 28.9765,
+   "texte": "Au pied de Sainte-Sophie et de la Mosquée Bleue : tout se visite à pied et beaucoup d'hôtels ont une terrasse avec vue. Idéal pour un premier séjour, mais calme (et assez touristique) le soir."
+  },
+  {
+   "id": "sirkeci",
+   "nom": "Sirkeci et Eminönü",
+   "lat": 41.014,
+   "lng": 28.975,
+   "texte": "Entre la gare de Sirkeci et l'embarcadère des ferries : à 10 minutes à pied de Sainte-Sophie, avec le tramway et le métro Marmaray (qui file vers l'Asie et l'aéroport Sabiha Gökçen) à la porte. Des hôtels souvent moins chers qu'à Sultanahmet."
+  },
+  {
+   "id": "karakoy",
+   "nom": "Karaköy et Galata",
+   "lat": 41.0245,
+   "lng": 28.976,
+   "texte": "Le quartier branché, de l'autre côté du pont de Galata : cafés, galeries, restaurants et vue sur la vieille ville. Le tramway mène à Sultanahmet en 10 minutes et les ferries pour l'Asie partent du quai."
+  },
+  {
+   "id": "beyoglu",
+   "nom": "Beyoğlu, Cihangir et Taksim",
+   "lat": 41.0335,
+   "lng": 28.98,
+   "texte": "Autour de l'avenue İstiklal : la vie du soir, les meyhanes, les bars sur les toits. Cihangir, plus calme, est le coin des cafés et des expatriés. Le funiculaire relie Taksim aux ferries de Kabataş."
+  },
+  {
+   "id": "kadikoy",
+   "nom": "Kadıköy et Moda (rive asiatique)",
+   "lat": 40.9895,
+   "lng": 29.0265,
+   "texte": "Pour vivre comme les Stambouliotes : marchés, cafés, bars et la promenade de Moda, à 20 minutes de ferry de la vieille ville. Des prix plus doux, mais chaque visite commence par une traversée (un vrai plaisir)."
+  }
+ ],
+ "hotel_petit_prix_max": 70,
+ "restaurants": [
+  {
+   "id": "hafiz-mustafa",
+   "nom": "Hafız Mustafa 1864",
+   "emoji": "🍯",
+   "gamme": "petit",
+   "genre": "Baklava et loukoums",
+   "quartier": "Sirkeci",
+   "adresse": "Muradiye Cd. No:51, 34080 Fatih",
+   "lat": 41.0148,
+   "lng": 28.976,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1864, la maison des douceurs ottomanes : baklava à la pistache encore tiède, loukoums à la rose, künefe au fromage fondant. Les vitrines dorées sont une tentation à chaque coin de Sirkeci, et la salle de l'étage permet de s'attabler avec un thé.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on choisit au comptoir",
+   "photo": {
+    "auteur": "Ryan Snyder",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haf%C4%B1z_Mustafa_1864,_Baklava_(14099465040).jpg",
+    "src": "img/restos/IST/hafiz-mustafa.jpg"
+   }
+  },
+  {
+   "id": "durumzade",
+   "nom": "Dürümzade",
+   "emoji": "🌯",
+   "gamme": "petit",
+   "genre": "Dürüm au feu de bois",
+   "quartier": "Beyoğlu",
+   "adresse": "Kamer Hatun Cd. 26/A, 34435 Beyoğlu",
+   "lat": 41.035399,
+   "lng": 28.977313,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Une minuscule échoppe derrière İstiklal, devenue célèbre dans le monde entier grâce au chef Anthony Bourdain : des brochettes grillées au charbon, roulées dans un lavash avec oignons au sumac et persil. Le meilleur en-cas de la ville, à toute heure de la nuit.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, quelques tabourets",
+   "photo": {
+    "auteur": "Amin Noubahar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kebab_Gerashi.jpg",
+    "src": "img/restos/IST/durumzade.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "van-kahvalti",
+   "nom": "Van Kahvaltı Evi",
+   "emoji": "🍳",
+   "gamme": "petit",
+   "genre": "Petit-déjeuner turc",
+   "quartier": "Cihangir",
+   "adresse": "Defterdar Yokuşu 52/A, 34425 Beyoğlu",
+   "lat": 41.0298,
+   "lng": 28.9805,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Le rituel du kahvaltı, le grand petit-déjeuner turc : une table couverte de petites assiettes, fromages de Van, miel et crème de bufflonne, olives, œufs au sucuk et pain chaud, le tout arrosé de thé. Une adresse adorée des Stambouliotes à Cihangir.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file le week-end, venez avant 10 h",
+   "photo": {
+    "auteur": "Jwslubbock",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_breakfast_in_Rumelihisar%C4%B1.jpg",
+    "src": "img/restos/IST/van-kahvalti.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "karadeniz-pide",
+   "nom": "Karadeniz Pide Vefa",
+   "emoji": "🫓",
+   "gamme": "petit",
+   "genre": "Pide de la mer Noire",
+   "quartier": "Vefa",
+   "adresse": "Muabbir Sk. No:6, 34134 Fatih",
+   "lat": 41.015,
+   "lng": 28.9585,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Le pide, la « pizza » turque en forme de bateau, sort du four à bois avec son œuf coulant et son beurre fondu. Une adresse de quartier simple et très appréciée, à deux pas de la mosquée Süleymaniye.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "kardeşler karadeniz …",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karadeniz_pide_-_panoramio.jpg",
+    "src": "img/restos/IST/karadeniz-pide.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kadikoy-midyecisi",
+   "nom": "Kadıköy Midyecisi",
+   "emoji": "🦪",
+   "gamme": "petit",
+   "genre": "Moules farcies (midye dolma)",
+   "quartier": "Kadıköy",
+   "adresse": "Sarraf Ali Sk. 22/b, 34710 Kadıköy",
+   "lat": 40.9907,
+   "lng": 29.0255,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Les midye dolma, moules farcies de riz épicé qu'on mange d'une main avec un filet de citron, sont la passion des Stambouliotes. Cette adresse du marché de Kadıköy est l'une des mieux notées de la ville : on en commande dix, puis dix autres.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Midye_dolma_Lido_Restaurant_Adalar.JPG",
+    "src": "img/restos/IST/kadikoy-midyecisi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "yilmaz-usta",
+   "nom": "Yılmaz Usta Balık Dürüm",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Sandwich au poisson grillé",
+   "quartier": "Eminönü",
+   "adresse": "Ragıp Gümüşpala Cd. No:13, 34116 Fatih",
+   "lat": 41.0182,
+   "lng": 28.9688,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Le poisson grillé au bord de la Corne d'Or est le casse-croûte emblématique d'Eminönü. Ici, le maquereau est roulé dans une galette avec salade et oignons, une version plus soignée que les bateaux à touristes du quai, à quelques pas des ferries.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Jpbazard Jean-Pierre Bazard",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vendeurs_de_balik_ekmek_(1).jpg",
+    "src": "img/restos/IST/yilmaz-usta.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pandeli",
+   "nom": "Pandeli",
+   "emoji": "🏺",
+   "gamme": "moyen",
+   "genre": "Cuisine stambouliote classique",
+   "quartier": "Eminönü",
+   "adresse": "Mısır Çarşısı, Balık Pazarı Kapısı Sk. 1, 34110 Fatih",
+   "lat": 41.017145,
+   "lng": 28.971179,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution",
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Au-dessus de l'entrée du bazar égyptien, trois salles tapissées de faïences turquoise où l'on sert depuis 1901 les classiques de la cuisine stambouliote : kebab d'agneau en papillote, aubergines farcies, börek. Atatürk et la reine Élisabeth II y ont déjeuné.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille, ouvert le midi seulement",
+   "photo": {
+    "auteur": "Turkey; Iznik",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey;_Iznik_-_Two_Tiles_-_Google_Art_Project.jpg",
+    "src": "img/restos/IST/pandeli.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ali-ocakbasi",
+   "nom": "Ali Ocakbaşı Karaköy",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Grillades au charbon (ocakbaşı)",
+   "quartier": "Karaköy",
+   "adresse": "Grifin Han, Kardeşim Sk. No:45, 34420 Beyoğlu",
+   "lat": 41.0232,
+   "lng": 28.9765,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Assis autour du grand grill de cuivre, vous regardez le maître griller kebab d'Adana, côtelettes et légumes sur la braise. Une cuisine d'ocakbaşı à son meilleur, dans un ancien han de Karaköy avec une terrasse qui regarde la vieille ville.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver un ou deux jours avant pour le soir",
+   "photo": {
+    "auteur": "Anatolianpride",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Adana_kebab.jpg",
+    "src": "img/restos/IST/ali-ocakbasi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "karakoy-lokantasi",
+   "nom": "Karaköy Lokantası",
+   "emoji": "🥗",
+   "gamme": "moyen",
+   "genre": "Lokanta le midi, meyhane le soir",
+   "quartier": "Karaköy",
+   "adresse": "Kemankeş Cd. No:57, 34425 Beyoğlu",
+   "lat": 41.024474,
+   "lng": 28.980047,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une salle aux carreaux turquoise et aux escaliers en fer forgé. Le midi, plats mijotés de lokanta ; le soir, l'ambiance meyhane : mezzés froids, poisson grillé et rakı, l'apéritif anisé qu'on allonge d'eau. Une valeur sûre et très stambouliote.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille pour le soir",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meze_plate.jpg",
+    "src": "img/restos/IST/karakoy-lokantasi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "yeni-lokanta",
+   "nom": "Yeni Lokanta",
+   "emoji": "🥟",
+   "gamme": "moyen",
+   "genre": "Cuisine turque revisitée",
+   "quartier": "Beyoğlu",
+   "adresse": "Kumbaracı Yokuşu No:66/B, 34433 Beyoğlu",
+   "lat": 41.028363,
+   "lng": 28.97695,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "recompense": "Sélection du Guide Michelin",
+   "texte": "Le chef Civan Er revisite les recettes d'Anatolie avec des produits de petits producteurs : mantı (raviolis turcs) au yaourt fumé, pain cuit au feu de bois, légumes de saison. Une salle chaleureuse, parmi les tables préférées des gourmets d'Istanbul.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver quelques jours avant",
+   "photo": {
+    "auteur": "ekke vasli from Eskisehir, Turkey",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Manti_in_Cappadocia.jpg",
+    "src": "img/restos/IST/yeni-lokanta.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "balikci-sabahattin",
+   "nom": "Balıkçı Sabahattin",
+   "emoji": "🐠",
+   "gamme": "moyen",
+   "genre": "Poisson et mezzés",
+   "quartier": "Sultanahmet",
+   "adresse": "Şht. Hasan Kuyu Sk. No:1, 34122 Fatih",
+   "lat": 41.004701,
+   "lng": 28.980572,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Dans une vieille maison de bois de Sultanahmet et sur sa terrasse sous la vigne, la référence du poisson à Istanbul depuis 1927 : mezzés froids, calamars, et le poisson du jour choisi à l'étal puis grillé. Le dîner idéal après les visites de la vieille ville.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille pour une table en terrasse",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:L%C3%BCfer_in_Ankara.jpg",
+    "src": "img/restos/IST/balikci-sabahattin.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "asmali-cavit",
+   "nom": "Asmalı Cavit",
+   "emoji": "🥂",
+   "gamme": "moyen",
+   "genre": "Meyhane (mezzés et rakı)",
+   "quartier": "Asmalı Mescit",
+   "adresse": "Asmalı Mescit Cd. 16/D, 34430 Beyoğlu",
+   "lat": 41.03155,
+   "lng": 28.97465,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "La soirée meyhane comme la vivent les Stambouliotes : on commence par une ronde de mezzés froids (aubergines, haydari, foie frit à l'albanaise), on continue au rakı et on refait le monde jusqu'à tard. Cavit Bey règne sur l'une des meilleures tables de la rue des meyhanes.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver un ou deux jours avant, toujours plein le soir",
+   "photo": {
+    "auteur": "Dreamchef",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meze-Taba%C4%9F%C4%B1.jpg",
+    "src": "img/restos/IST/asmali-cavit.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "turk",
+   "nom": "TURK Fatih Tutak",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Gastronomie turque d'auteur",
+   "quartier": "Harbiye",
+   "adresse": "Yeniyol Sk. No:2, 34440 Şişli",
+   "lat": 41.0465,
+   "lng": 28.987,
+   "prix": "≈ 300 à 430 € (menu)",
+   "prix_min": 300,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin + étoile verte",
+   "texte": "La meilleure table de Turquie : le chef Fatih Tutak, passé par les grandes maisons d'Asie, raconte la cuisine de son enfance en quatorze plats surprenants. Le premier restaurant turc à recevoir deux étoiles, avec l'étoile verte pour son travail avec les producteurs.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver plusieurs semaines à l'avance (turkft.com)",
+   "photo": {
+    "auteur": "Dclemens1971",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dinner_at_Hi%C5%A1a_Franko,_summer_2022_05.jpg",
+    "src": "img/restos/IST/turk.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mikla",
+   "nom": "Mikla",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Cuisine anatolienne moderne, sur le toit",
+   "quartier": "Beyoğlu",
+   "adresse": "The Marmara Pera, Meşrutiyet Cd. No:15, 34430 Beyoğlu",
+   "lat": 41.031109,
+   "lng": 28.974101,
+   "prix": "≈ 190 € (menu)",
+   "prix_min": 190,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Au sommet de l'hôtel Marmara Pera, une terrasse avec la plus belle vue de la ville : la Corne d'Or, Sainte-Sophie, le Bosphore. Le chef Mehmet Gürs y marie produits d'Anatolie et rigueur nordique, à déguster au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver deux à trois semaines avant pour une table près des baies"
+  },
+  {
+   "id": "nicole",
+   "nom": "Nicole",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Menu méditerranéen de saison",
+   "quartier": "Tomtom",
+   "adresse": "Tomtom Kaptan Sk. No:18, 34433 Beyoğlu",
+   "lat": 41.03029,
+   "lng": 28.97858,
+   "prix": "≈ 150 à 200 € (menu)",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Dans un ancien couvent du XIXe siècle de Tomtom, une salle tout en verre perchée sur le toit, face à la vieille ville et au Bosphore. La cheffe Aylin Yazıcıoğlu compose un menu de saison qui suit les marchés et la mer Égée.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver une à deux semaines avant",
+   "photo": {
+    "auteur": "Maurice Flesier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bosphorus_and_Golden_Horn_view_from_Galata_Tower.jpg",
+    "src": "img/restos/IST/nicole.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sankai",
+   "nom": "Sankai by Nagaya",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Japonais (omakase)",
+   "quartier": "Bebek",
+   "adresse": "Cevdet Paşa Cd. No:34, 34342 Beşiktaş",
+   "lat": 41.077,
+   "lng": 29.0435,
+   "prix": "≈ 150 à 250 €",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le chef japonais Nagaya Yoshi signe une cuisine japonaise de haute précision, en omakase au comptoir, dans le village chic de Bebek au bord du Bosphore. Une parenthèse raffinée, à combiner avec une promenade sur les quais.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver une à deux semaines avant",
+   "photo": {
+    "auteur": "Original uploader was Mirada at tr.wikipedia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bebek_bay.jpg",
+    "src": "img/restos/IST/sankai.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tugra",
+   "nom": "Tuğra",
+   "emoji": "👑",
+   "gamme": "haut",
+   "genre": "Cuisine du palais ottoman",
+   "quartier": "Beşiktaş",
+   "adresse": "Çırağan Palace Kempinski, Çırağan Cd. 32, 34349 Beşiktaş",
+   "lat": 41.043467,
+   "lng": 29.015314,
+   "prix": "80 à 150 €",
+   "prix_min": 80,
+   "badges": [],
+   "texte": "Dîner dans un palais de sultan, sous les lustres de cristal, avec le Bosphore au pied des fenêtres : Tuğra fait revivre les recettes des cuisines impériales (agneau confit, pilaf aux fruits secs, desserts à la rose). La table la plus romantique de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver quelques jours avant, demander une table côté Bosphore",
+   "photo": {
+    "auteur": "Wolfgang Moroder. Feel free to use my photos, but please men",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciragan_Palace_2014.JPG",
+    "src": "img/restos/IST/tugra.jpg"
+   }
+  },
+  {
+   "id": "seven-hills",
+   "nom": "Seven Hills",
+   "emoji": "🕊️",
+   "gamme": "haut",
+   "genre": "Poisson et grillades, terrasse panoramique",
+   "quartier": "Sultanahmet",
+   "adresse": "Tevkifhane Sk. No:8 Kat:3, 34122 Fatih",
+   "lat": 41.00675,
+   "lng": 28.97915,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La terrasse la plus photographiée d'Istanbul : Sainte-Sophie d'un côté, la Mosquée Bleue de l'autre, la mer de Marmara au fond, et les mouettes qui viennent picorer à la main. On y vient d'abord pour la vue, au petit-déjeuner ou au coucher du soleil.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille pour le coucher du soleil (terrasse)",
+   "photo": {
+    "auteur": "QuartierLatin1968",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%91%CE%B3%CE%AF%CE%B1_%CE%A3%CE%BF%CF%86%CE%AF%CE%B1.jpg",
+    "src": "img/restos/IST/seven-hills.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
