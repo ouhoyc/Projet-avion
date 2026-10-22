@@ -62,6 +62,17 @@ const PARTNER_LINKS = {
     'croisiere': tiqets('activites-attractions-paris-c66746/billets-pour-la-seine-croisiere-en-bateaux-mouches-r-p982823'),
     'versailles': tiqets('activites-attractions-versailles-c66594/tickets-for-chateau-de-versailles-billet-d-entree-acces-aux-jardins-domaine-de-trianon-p1130024'),
   },
+  AMS: {
+    'van-gogh': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-van-gogh-amsterdam-billet-d-entree-p974079'),
+    'stedelijk': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-stedelijk-amsterdam-billet-d-entree-p973982'),
+    'moco': tiqets('activites-attractions-amsterdam-c75061/billets-pour-moco-museum-amsterdam-billet-d-entree-audioguide-p974431'),
+    'rembrandthuis': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-de-la-maison-rembrandt-billet-d-entree-guide-multimedia-p972886'),
+    'ons-lieve-heer': tiqets('activites-attractions-amsterdam-c75061/billets-pour-ons-lieve-heer-op-solder-guide-audio-p974148'),
+    'scheepvaart': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-national-de-la-marine-coupe-file-p883086'),
+    'nemo': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-des-sciences-nemo-billet-d-entree-p706076'),
+    'heineken': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-heineken-experience-amsterdam-billet-d-entree-p703726'),
+    'croisiere': tiqets('activites-attractions-amsterdam-c75061/billets-pour-amsterdam-croisiere-traditionnelle-d-une-heure-sur-les-canaux-p1135497'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 

@@ -288,6 +288,20 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   18 activités sur 28 (Topkapı, citerne, Galata, Dolmabahçe, hammam, derviches, musées, îles, match…).
   Restaurants : prix et délais estimés ; 15 photos d'illustration (peu de photos libres des lieux) ; Mikla sans photo (Commons refusait le téléchargement, à ajouter : « The Marmara Pera Hotel Istanbul.jpg », domaine public).
   Pas encore de liens Tiqets (`PARTNER_LINKS`).
+- ✅ (22/10/2026) **Page guide d'Amsterdam** (`guides/AMS.json`), préparée en autonomie : 26 activités
+  (4 tendance : A'DAM Lookout et sa balançoire, NDSM et musée STRAAT, Moco, Jordaan ; match de l'Ajax), 18 restaurants
+  (note pondérée, C = 4,42, ~1 150 restaurants lus via Wanderlog ; Michelin 2026 : Ciel Bleu et 212 2 étoiles, De Kas et
+  RIJKS 1 étoile, Brasserie Marie Bib Gourmand ; Amsterdam n'a gagné aucune étoile cette année, Daalder a perdu la sienne),
+  5 quartiers. 9 liens Tiqets au prix officiel (Van Gogh, Stedelijk, Moco, Rembrandt, église cachée, musée maritime, NEMO,
+  Heineken, croisière) ; pas de lien pour le Rijksmuseum (Tiqets = visite guidée plus chère) ni le palais royal.
+  Saisonnier : Keukenhof (mi-mars à mi-mai). Musée Van Gogh : travaux prévus seulement à l'automne 2028.
+  Réseaux sociaux (Apify : Instagram, YouTube, Reddit ; TikTok non collecté, plafond atteint) : tendance confirmée pour
+  Fabel Friet, Van Dobben, De Kas, A'DAM Lookout, Moco, Jordaan. Écartés : CHUN (note 4,2), Sea Palace (4,2).
+  Prix confirmés sur les sites officiels : Rijksmuseum (25 €), Anne Frank (16,50 €), Stedelijk (22,50 €), Rembrandt
+  (23,50 €), église cachée (18 €), palais royal (13,50 €), musée maritime (20 €), NEMO (21,50 €), STRAAT (21,50 €),
+  A'DAM Lookout (16,50 €), ARTIS (29,50 €), Hortus (14,75 €), Heineken (24,95 €), Keukenhof (21 €).
+  À confirmer (`a_verifier`) : Van Gogh (27 € d'après Tiqets et un guide de sept. 2026), Moco, croisière, Ajax,
+  tarifs enfants du musée maritime et de l'Hortus. Restaurants : prix et délais estimés, à vérifier.
 - ✅ (22/10/2026) **Page guide de Berlin** (`guides/BER.json`), préparée en autonomie (en deux fois : la première
   conversation s'est arrêtée sur la limite d'usage, reprise ensuite) : 28 activités (5 tendance : tour de télévision,
   East Side Gallery, Sanssouci, Mauerpark le dimanche, Hackesche Höfe ; match de l'Union, club « 1. FC Union Berlin »),

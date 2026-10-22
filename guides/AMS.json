@@ -1,0 +1,1675 @@
+{
+  "city_code": "AMS",
+  "statut": "préparé en autonomie, prix estimés au 21/10/2026",
+  "verifie_le": "2026-10-21",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "rijksmuseum",
+      "nom": "Rijksmuseum",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Museumplein",
+      "lat": 52.359843,
+      "lng": 4.88504,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Adulte",
+          25
+        ],
+        [
+          "Moins de 19 ans",
+          "gratuit (billet à réserver quand même)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [
+          [
+            18,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "créneau horaire en ligne quelques jours avant (obligatoire pour tous, même gratuit)",
+      "duree": "3 h",
+      "moment": "À l'ouverture (9 h) : la Ronde de nuit avant la foule",
+      "enfants": true,
+      "texte": "La Ronde de nuit de Rembrandt, la Laitière de Vermeer et huit siècles d'histoire hollandaise dans un palais de briques. Et sous le musée, un passage où les vélos traversent le bâtiment.",
+      "site_officiel": "https://www.rijksmuseum.nl/en",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Trougnouf (Benoit Brummer)",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASouth_facade_of_the_Rijksmuseum_Amsterdam_%28DSCF0528%29.jpg",
+        "src": "img/activites/AMS/rijksmuseum.jpg"
+      }
+    },
+    {
+      "id": "van-gogh",
+      "nom": "Musée Van Gogh",
+      "emoji": "🌻",
+      "type": "culture",
+      "quartier": "Museumplein",
+      "lat": 52.358367,
+      "lng": 4.88109,
+      "prix": 27,
+      "prix_detail": [
+        [
+          "Adulte",
+          27
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit (billet à réserver)"
+        ],
+        [
+          "Audioguide",
+          "≈ 4 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 27,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 3 semaines avant : aucun billet vendu sur place",
+      "duree": "2 h",
+      "moment": "Tôt le matin ou le vendredi soir",
+      "enfants": true,
+      "texte": "La plus grande collection de Van Gogh au monde : les Tournesols, la Chambre, les autoportraits et ses lettres à Théo. On suit sa vie tableau après tableau, des Pays-Bas à Arles.",
+      "site_officiel": "https://www.vangoghmuseum.nl/en",
+      "note": "Achetez sur le site officiel ou chez un revendeur agréé : les créneaux sont nominatifs et horodatés.",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Gargarapalvin",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_-_Van_Gogh_Museum_54.jpg",
+        "src": "img/activites/AMS/van-gogh.jpg"
+      }
+    },
+    {
+      "id": "anne-frank",
+      "nom": "Maison d'Anne Frank",
+      "emoji": "📖",
+      "type": "culture",
+      "quartier": "Prinsengracht",
+      "lat": 52.375156,
+      "lng": 4.884081,
+      "prix": 16.5,
+      "prix_detail": [
+        [
+          "Adulte",
+          16.5
+        ],
+        [
+          "10 à 17 ans",
+          7
+        ],
+        [
+          "Moins de 10 ans",
+          1
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16.5,
+        "enfants": [
+          [
+            9,
+            1
+          ],
+          [
+            17,
+            7
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "billets mis en vente chaque mardi à 10 h, pour les visites 6 semaines plus tard ; partis très vite",
+      "duree": "1 h 30",
+      "moment": "Le soir, plus calme ; la visite n'est pas conseillée avant 10 ans",
+      "enfants": true,
+      "texte": "L'Annexe secrète où Anne Frank a écrit son journal, caché derrière une bibliothèque pivotante. Une visite bouleversante, dans les pièces mêmes où huit personnes ont vécu deux ans.",
+      "site_officiel": "https://www.annefrank.org/en/",
+      "note": "Billets vendus uniquement sur le site officiel, jamais sur place.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dietmar Rabich",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_%28NL%29%2C_Anne-Frank-Huis_--_2015_--_7185.jpg",
+        "src": "img/activites/AMS/anne-frank.jpg"
+      }
+    },
+    {
+      "id": "stedelijk",
+      "nom": "Stedelijk Museum",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Museumplein",
+      "lat": 52.3579,
+      "lng": 4.87986,
+      "prix": 22.5,
+      "prix_detail": [
+        [
+          "Adulte",
+          22.5
+        ],
+        [
+          "Moins de 19 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 22.5,
+        "enfants": [
+          [
+            18,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "L'après-midi, après le Rijksmuseum ou le Van Gogh",
+      "enfants": true,
+      "texte": "Matisse, Mondrian, Malevitch, Warhol, Basquiat : l'art moderne dans un bâtiment surnommé « la baignoire » pour sa façade blanche et lisse.",
+      "site_officiel": "https://www.stedelijk.nl/en",
+      "partenaire": "tiqets",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ank Kumar",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam%2C_Holland_%28Ank_kumar_%29_09.jpg",
+        "src": "img/activites/AMS/stedelijk.jpg"
+      }
+    },
+    {
+      "id": "moco",
+      "nom": "Moco Museum (Banksy)",
+      "emoji": "🎈",
+      "type": "culture",
+      "quartier": "Museumplein",
+      "lat": 52.358716,
+      "lng": 4.881962,
+      "prix": 21,
+      "prix_detail": [
+        [
+          "Adulte",
+          "≈ 18 à 23 € selon le créneau"
+        ],
+        [
+          "Enfants",
+          "réduit ou gratuit selon l'âge"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 21,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne la veille (prix plus bas que sur place)",
+      "duree": "1 h 30",
+      "moment": "En semaine, en milieu de journée",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une villa de 1904 remplie de Banksy, Kaws et d'art numérique immersif : le petit musée le plus photographié de la place des Musées.",
+      "site_officiel": "https://www.mocomuseum.com/",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "C messier",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMoco_Museum_Amsterdam_2159.jpg",
+        "src": "img/activites/AMS/moco.jpg"
+      }
+    },
+    {
+      "id": "rembrandthuis",
+      "nom": "Maison de Rembrandt",
+      "emoji": "🖌️",
+      "type": "culture",
+      "quartier": "Waterlooplein",
+      "lat": 52.369369,
+      "lng": 4.90125,
+      "prix": 23.5,
+      "prix_detail": [
+        [
+          "Adulte",
+          23.5
+        ],
+        [
+          "Adulte de 16 h à 18 h",
+          19.5
+        ],
+        [
+          "6 à 17 ans",
+          8
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 23.5,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "En fin de journée (moins cher de 16 h à 18 h)",
+      "enfants": true,
+      "texte": "La maison où Rembrandt a vécu et peint pendant vingt ans, meublée comme en 1650 : son atelier, sa collection de curiosités, et une démonstration de gravure à l'ancienne.",
+      "site_officiel": "https://www.rembrandthuis.nl/en/",
+      "partenaire": "tiqets",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Spider",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_Jodenbreestraat_4_top.jpg",
+        "src": "img/activites/AMS/rembrandthuis.jpg"
+      }
+    },
+    {
+      "id": "ons-lieve-heer",
+      "nom": "Église cachée « Notre-Seigneur au grenier »",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Vieille ville",
+      "lat": 52.375096,
+      "lng": 4.89929,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Adulte",
+          18
+        ],
+        [
+          "5 à 17 ans",
+          7.5
+        ],
+        [
+          "Moins de 5 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            4,
+            0
+          ],
+          [
+            17,
+            7.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "En matinée, avant l'affluence",
+      "enfants": true,
+      "texte": "Derrière la façade d'une maison de marchand, une vraie église catholique clandestine de 1663, sous les toits. On monte des escaliers étroits et on tombe sur un autel, des orgues et des balcons : l'une des surprises d'Amsterdam.",
+      "site_officiel": "https://opsolder.nl/en/",
+      "partenaire": "tiqets",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Remi Mathis",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_-_Museum_Ons%27_Lieve_Heer_op_Solder_-_church.JPG",
+        "src": "img/activites/AMS/ons-lieve-heer.jpg"
+      }
+    },
+    {
+      "id": "palais-royal",
+      "nom": "Palais royal sur la place du Dam",
+      "emoji": "👑",
+      "type": "culture",
+      "quartier": "Dam",
+      "lat": 52.373145,
+      "lng": 4.891336,
+      "prix": 13.5,
+      "prix_detail": [
+        [
+          "Adulte (audioguide compris)",
+          13.5
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 13.5,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 15",
+      "moment": "Vérifiez le calendrier : le palais ferme les jours de réceptions officielles",
+      "enfants": true,
+      "texte": "L'ancien hôtel de ville du Siècle d'or, devenu palais du roi : une salle des citoyens de marbre blanc avec le monde entier dessiné au sol, lustres et mobilier Empire de Louis Bonaparte.",
+      "site_officiel": "https://www.paleisamsterdam.nl/en/",
+      "note": "Le palais ferme certains jours pour les réceptions du roi : regardez le calendrier sur le site avant d'y aller.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Suicasmo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoyal_Palace_of_Amsterdam_20180701-2.jpg",
+        "src": "img/activites/AMS/palais-royal.jpg"
+      }
+    },
+    {
+      "id": "scheepvaart",
+      "nom": "Musée maritime et navire de la VOC",
+      "emoji": "⚓",
+      "type": "culture",
+      "quartier": "Oosterdok",
+      "lat": 52.372005,
+      "lng": 4.914953,
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Adulte",
+          20
+        ],
+        [
+          "5 à 17 ans",
+          "≈ 10 € (gratuit à certaines périodes)"
+        ],
+        [
+          "Moins de 5 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            4,
+            0
+          ],
+          [
+            17,
+            10
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h 30",
+      "moment": "Un jour de pluie, en famille",
+      "enfants": true,
+      "texte": "Une réplique grandeur nature d'un trois-mâts de la Compagnie des Indes à visiter des cales au pont, dans l'ancien arsenal de la marine : cartes, globes et récits des grands voyages hollandais.",
+      "site_officiel": "https://www.hetscheepvaartmuseum.com/",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Eddo Hartmann",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHSM_04_A4.jpg",
+        "src": "img/activites/AMS/scheepvaart.jpg"
+      }
+    },
+    {
+      "id": "nemo",
+      "nom": "NEMO, musée des sciences",
+      "emoji": "🔬",
+      "type": "culture",
+      "quartier": "Oosterdok",
+      "lat": 52.373853,
+      "lng": 4.912111,
+      "prix": 21.5,
+      "prix_detail": [
+        [
+          "À partir de 4 ans",
+          21.5
+        ],
+        [
+          "Moins de 4 ans",
+          "gratuit"
+        ],
+        [
+          "Toit-terrasse",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 21.5,
+        "enfants": [
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne quelques jours avant pendant les vacances scolaires néerlandaises",
+      "duree": "3 h",
+      "moment": "En semaine ; le toit-terrasse au coucher du soleil",
+      "enfants": true,
+      "texte": "Le grand bateau vert de Renzo Piano : cinq étages d'expériences à toucher, faire exploser et démonter. Les enfants ne veulent plus partir, et le toit offre une vue gratuite sur le port.",
+      "site_officiel": "https://www.nemosciencemuseum.nl/en/",
+      "partenaire": "tiqets",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ank Kumar",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2018_-_NEMO_Science_Museum%2C_Amsterdam%2C_Netherlands_%28_Ank_Kumar_%29_04.jpg",
+        "src": "img/activites/AMS/nemo.jpg"
+      }
+    },
+    {
+      "id": "straat",
+      "nom": "NDSM et le musée du street art STRAAT",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Amsterdam-Noord",
+      "lat": 52.401946,
+      "lng": 4.893854,
+      "prix": 21.5,
+      "prix_detail": [
+        [
+          "Ferry depuis la gare centrale",
+          "gratuit"
+        ],
+        [
+          "Musée STRAAT, adulte",
+          21.5
+        ],
+        [
+          "13 à 18 ans",
+          11.5
+        ],
+        [
+          "Moins de 13 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 21.5,
+        "enfants": [
+          [
+            12,
+            0
+          ],
+          [
+            18,
+            11.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "3 h",
+      "moment": "L'après-midi, puis un verre au bord de l'eau au coucher du soleil",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un ferry gratuit, quinze minutes sur l'IJ, et l'on débarque dans un ancien chantier naval couvert de graffitis. Dans un hangar géant, STRAAT expose plus de 150 fresques d'artistes du monde entier.",
+      "site_officiel": "https://www.straatmuseum.com/en/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Matthias Süßen",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASTRAAT_-_Museum_for_street_art_and_graffiti_-_Amsterdam-msu-9334-.jpg",
+        "src": "img/activites/AMS/straat.jpg"
+      }
+    },
+    {
+      "id": "adam-lookout",
+      "nom": "A'DAM Lookout et sa balançoire dans le vide",
+      "emoji": "🎢",
+      "type": "vue",
+      "quartier": "Amsterdam-Noord",
+      "lat": 52.383772,
+      "lng": 4.902138,
+      "prix": 16.5,
+      "prix_detail": [
+        [
+          "Adulte (en ligne)",
+          16.5
+        ],
+        [
+          "4 à 12 ans",
+          10.5
+        ],
+        [
+          "Balançoire « Over the Edge »",
+          "+ 7,50 €"
+        ],
+        [
+          "Sur place",
+          "+ 2 € par billet"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16.5,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            10.5
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne : 2 € moins cher qu'au guichet",
+      "duree": "1 h 30",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La terrasse panoramique à 100 m au-dessus de l'IJ, juste en face de la gare centrale (ferry gratuit). Les plus courageux s'assoient sur la balançoire qui part au-dessus du vide.",
+      "site_officiel": "https://www.adamlookout.com/en/",
+      "note": "La balançoire demande une taille minimale de 1,20 m et ferme par grand vent.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Muck",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AA%27DAM_Lookout-04-Swing.jpg",
+        "src": "img/activites/AMS/adam-lookout.jpg"
+      }
+    },
+    {
+      "id": "croisiere",
+      "nom": "Croisière sur les canaux",
+      "emoji": "🛥️",
+      "type": "balade",
+      "quartier": "Grachtengordel",
+      "lat": 52.361825,
+      "lng": 4.882686,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Croisière classique (1 h à 1 h 15)",
+          "≈ 15 à 26 €"
+        ],
+        [
+          "Enfants",
+          "≈ 10 à 13 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            12
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour choisir l'horaire du coucher du soleil",
+      "duree": "1 h 15",
+      "moment": "En fin de journée, ou le soir quand les ponts sont illuminés",
+      "enfants": true,
+      "texte": "Les canaux du XVIIe siècle, classés à l'Unesco, vus au ras de l'eau : maisons de marchands penchées, ponts bas, péniches habitées. La meilleure façon de comprendre la ville le premier jour.",
+      "site_officiel": "https://www.iamsterdam.com/en/see-and-do/things-to-do/canal-cruises",
+      "partenaire": "tiqets",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "HJ Mitchell",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACanal_boats_in_Amsterdam_04.jpg",
+        "src": "img/activites/AMS/croisiere.jpg"
+      }
+    },
+    {
+      "id": "jordaan",
+      "nom": "Jordaan et les Neuf Petites Rues",
+      "emoji": "🚲",
+      "type": "balade",
+      "quartier": "Jordaan",
+      "lat": 52.379202,
+      "lng": 4.886317,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h 30",
+      "moment": "Le samedi matin pour le marché de Noordermarkt, ou en fin d'après-midi",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le quartier le plus charmant d'Amsterdam : petits canaux fleuris, cafés bruns, boutiques de créateurs des Neuf Petites Rues et le marché bio du samedi devant la Noorderkerk.",
+      "site_officiel": "https://www.iamsterdam.com/en/explore/neighbourhoods/centrum/jordaan",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Clay Gilliland",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_%2811347979016%29.jpg",
+        "src": "img/activites/AMS/jordaan.jpg"
+      }
+    },
+    {
+      "id": "begijnhof",
+      "nom": "Béguinage (Begijnhof)",
+      "emoji": "🌷",
+      "type": "balade",
+      "quartier": "Spui",
+      "lat": 52.369396,
+      "lng": 4.889956,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Tôt le matin, en silence : des habitants y vivent",
+      "enfants": true,
+      "texte": "Une porte discrète sur la place du Spui, et soudain le silence : une cour cachée bordée de maisons du XIVe au XVIIIe siècle, dont la plus vieille maison en bois d'Amsterdam.",
+      "site_officiel": "https://www.iamsterdam.com/en/see-and-do/things-to-do/begijnhof",
+      "note": "Lieu habité : on y entre en silence, sans groupe ; ouvert en journée seulement.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Bert K.",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABegijnhof%2C_Amsterdam.jpg",
+        "src": "img/activites/AMS/begijnhof.jpg"
+      }
+    },
+    {
+      "id": "magere-brug",
+      "nom": "Pont Maigre et canaux illuminés",
+      "emoji": "🌉",
+      "type": "balade",
+      "quartier": "Amstel",
+      "lat": 52.363584,
+      "lng": 4.902375,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "À la nuit tombée",
+      "enfants": true,
+      "texte": "Le soir, 1 200 ampoules dessinent le Pont Maigre sur l'Amstel. Un peu plus loin, depuis le croisement de la Reguliersgracht, on voit sept ponts alignés : la carte postale d'Amsterdam la nuit.",
+      "site_officiel": "https://www.iamsterdam.com/en",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jorge Royan",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_-_Magere_Brug_-_0823.jpg",
+        "src": "img/activites/AMS/magere-brug.jpg"
+      }
+    },
+    {
+      "id": "velo",
+      "nom": "Amsterdam à vélo",
+      "emoji": "🚲",
+      "type": "balade",
+      "quartier": "Centre",
+      "lat": 52.377575,
+      "lng": 4.902518,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Location à la journée",
+          "≈ 12 à 18 €"
+        ],
+        [
+          "Balade guidée (2 à 3 h)",
+          "≈ 35 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "duree": "Une demi-journée",
+      "moment": "Le dimanche matin, quand la ville dort encore",
+      "enfants": true,
+      "texte": "Ici, il y a plus de vélos que d'habitants. Une demi-journée en selle le long des canaux, puis jusqu'au Vondelpark : c'est la façon la plus locale de voir la ville.",
+      "site_officiel": "https://www.iamsterdam.com/en/travel-stay/getting-around/bikes",
+      "note": "Roulez à droite sur les pistes cyclables, attention aux rails de tram, et cadenassez toujours le vélo.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Alfredo Borba",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_Cycling_4.jpg",
+        "src": "img/activites/AMS/velo.jpg"
+      }
+    },
+    {
+      "id": "vondelpark",
+      "nom": "Vondelpark",
+      "emoji": "🌳",
+      "type": "nature",
+      "quartier": "Oud-Zuid",
+      "lat": 52.357197,
+      "lng": 4.864119,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Le dimanche, ou par une belle soirée d'été",
+      "enfants": true,
+      "texte": "Le poumon vert d'Amsterdam, à deux pas des musées : étangs, pelouses, cyclistes, un théâtre en plein air l'été et le salon de thé en forme de soucoupe.",
+      "site_officiel": "https://www.amsterdam.nl/vondelpark/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ceescamel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2023_Monster_Loch_Vondelpark%2C_asd-Frankey_%281%29.jpg",
+        "src": "img/activites/AMS/vondelpark.jpg"
+      }
+    },
+    {
+      "id": "artis",
+      "nom": "ARTIS, le zoo historique",
+      "emoji": "🦒",
+      "type": "nature",
+      "quartier": "Plantage",
+      "lat": 52.366238,
+      "lng": 4.916546,
+      "prix": 29.5,
+      "prix_detail": [
+        [
+          "À partir de 13 ans (en ligne)",
+          "dès 29,50 €"
+        ],
+        [
+          "3 à 12 ans",
+          "dès 25,50 €"
+        ],
+        [
+          "Moins de 3 ans",
+          "gratuit"
+        ],
+        [
+          "Après 16 h (dès septembre)",
+          "15 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 29.5,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            12,
+            25.5
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne : moins cher qu'au guichet, prix selon le jour",
+      "duree": "4 h",
+      "moment": "Le matin, en famille",
+      "enfants": true,
+      "texte": "Le plus vieux zoo des Pays-Bas, en pleine ville : girafes, aquarium du XIXe siècle, planétarium et grands arbres centenaires. À côté, Micropia, le musée des microbes.",
+      "site_officiel": "https://www.artis.nl/en",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tobias Niepel",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGiraffes_at_Amsterdam_Zoo_-_Artis_%2825673267474%29.jpg",
+        "src": "img/activites/AMS/artis.jpg"
+      }
+    },
+    {
+      "id": "hortus",
+      "nom": "Hortus Botanicus",
+      "emoji": "🌴",
+      "type": "nature",
+      "quartier": "Plantage",
+      "lat": 52.366806,
+      "lng": 4.907778,
+      "prix": 14.75,
+      "prix_detail": [
+        [
+          "Adulte",
+          14.75
+        ],
+        [
+          "Enfants",
+          "réduit"
+        ],
+        [
+          "Paiement",
+          "par carte uniquement"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14.75,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Un jour gris, pour la serre tropicale",
+      "enfants": true,
+      "texte": "L'un des plus vieux jardins botaniques du monde (1638) : une serre à trois climats, des palmiers centenaires et une serre aux papillons qui volent autour de vous.",
+      "site_officiel": "https://www.dehortus.nl/en/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Fons Heijnsbroek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_city_-_view_over_the_Botanical_Garden_and_pool%2C_seen_from_canal_border_of_the_Nieuwe_Herengracht%3B_free_photo_by_Fons_Heijnsbroek%2C_April_2022.jpg",
+        "src": "img/activites/AMS/hortus.jpg"
+      }
+    },
+    {
+      "id": "heineken",
+      "nom": "Heineken Experience",
+      "emoji": "🍺",
+      "type": "sortir",
+      "quartier": "De Pijp",
+      "lat": 52.35784,
+      "lng": 4.891784,
+      "prix": 24.95,
+      "prix_detail": [
+        [
+          "Visite libre",
+          24.95
+        ],
+        [
+          "Visite + bar sur le toit (2 boissons)",
+          29.95
+        ],
+        [
+          "Moins de 18 ans",
+          "avec un adulte, boissons sans alcool"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 24.95,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne quelques jours avant (créneaux complets le week-end)",
+      "duree": "1 h 30",
+      "moment": "En fin d'après-midi, avant d'aller dîner dans De Pijp",
+      "enfants": false,
+      "texte": "La brasserie d'origine de Heineken, transformée en parcours interactif : écuries des chevaux de livraison, dégustation, et une bière servie à la fin sur le toit.",
+      "site_officiel": "https://www.heinekenexperience.com/en/",
+      "partenaire": "tiqets",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Winonave",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHeineken_Brew_Room.jpg",
+        "src": "img/activites/AMS/heineken.jpg"
+      }
+    },
+    {
+      "id": "concertgebouw",
+      "nom": "Concert gratuit au Concertgebouw",
+      "emoji": "🎻",
+      "type": "sortir",
+      "quartier": "Museumplein",
+      "lat": 52.356198,
+      "lng": 4.879045,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Concert du midi (30 min)",
+          "gratuit, billet à réserver"
+        ],
+        [
+          "Concert du soir",
+          "≈ 20 à 100 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "billets gratuits en ligne une semaine avant (2 par personne)",
+      "duree": "30 min",
+      "moment": "Le mercredi à 12 h 30 (sauf juillet et août)",
+      "enfants": true,
+      "texte": "L'une des trois plus belles salles de concert du monde pour l'acoustique. Chaque mercredi midi, un concert gratuit de trente minutes : orchestre, piano ou musique de chambre.",
+      "site_officiel": "https://www.concertgebouw.nl/en/lunchtime-concerts",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AConcertgebouw%2C_%C3%81msterdam%2C_Pa%C3%ADses_Bajos%2C_2016-05-30%2C_DD_22-24_HDR.jpg",
+        "src": "img/activites/AMS/concertgebouw.jpg"
+      }
+    },
+    {
+      "id": "ajax",
+      "nom": "Match de l'Ajax",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Johan Cruijff ArenA",
+      "lat": 52.314353,
+      "lng": 4.942843,
+      "prix": 45,
+      "prix_detail": [
+        [
+          "Billet d'Eredivisie",
+          "≈ 25 à 100 €"
+        ],
+        [
+          "Visite du stade",
+          "≈ 25 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 45,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "dès la mise en vente : une partie des billets est réservée aux membres du club",
+      "duree": "3 h",
+      "moment": "Soir de match : arrivez une heure avant pour l'ambiance",
+      "enfants": true,
+      "club": "AFC Ajax",
+      "texte": "Le club de Johan Cruyff, quatre fois champion d'Europe : 55 000 supporters en rouge et blanc dans l'Arena. Le football d'Amsterdam, à vivre au moins une fois.",
+      "site_officiel": "https://www.ajax.nl/en/",
+      "note": "Achetez sur la billetterie officielle de l'Ajax (revente officielle) : méfiez-vous des revendeurs.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Bjørn Giesenbauer from Randers, Denmark",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAjax_Werder_2007_%283199386177%29.jpg",
+        "src": "img/activites/AMS/ajax.jpg"
+      }
+    },
+    {
+      "id": "zaanse-schans",
+      "nom": "Moulins de la Zaanse Schans",
+      "emoji": "🌬️",
+      "type": "nature",
+      "quartier": "Zaandam",
+      "lat": 52.475053,
+      "lng": 4.817976,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Village et moulins (extérieur)",
+          "gratuit"
+        ],
+        [
+          "Visite d'un moulin",
+          "≈ 6 €"
+        ],
+        [
+          "Train depuis Amsterdam",
+          "≈ 4 € le trajet"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "Tôt le matin, avant les cars de touristes",
+      "enfants": true,
+      "texte": "Des moulins à vent du XVIIIe siècle qui tournent encore, des maisons de bois vertes et un sabotier : la Hollande de carte postale, à 20 minutes de train.",
+      "site_officiel": "https://www.dezaanseschans.nl/en/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "renato agostini",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACanne_al_vento_-_panoramio.jpg",
+        "src": "img/activites/AMS/zaanse-schans.jpg"
+      }
+    },
+    {
+      "id": "keukenhof",
+      "nom": "Champs de tulipes de Keukenhof",
+      "emoji": "🌷",
+      "type": "nature",
+      "quartier": "Lisse",
+      "lat": 52.269873,
+      "lng": 4.547257,
+      "prix": 21,
+      "prix_detail": [
+        [
+          "Adulte (en ligne)",
+          21
+        ],
+        [
+          "4 à 18 ans",
+          11
+        ],
+        [
+          "Moins de 4 ans",
+          "gratuit"
+        ],
+        [
+          "Au guichet",
+          "27 € (enfants 15 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 21,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            18,
+            11
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "billet daté en ligne, avec le car depuis Amsterdam",
+      "duree": "Une journée",
+      "moment": "Uniquement au printemps (de mi-mars à mi-mai), en semaine",
+      "enfants": true,
+      "texte": "Sept millions de bulbes en fleurs dans un parc de 32 hectares, et autour, les champs de tulipes à perte de vue. Le spectacle le plus coloré des Pays-Bas, quelques semaines par an.",
+      "site_officiel": "https://keukenhof.nl/en/",
+      "note": "Ouvert seulement au printemps, de mi-mars à mi-mai environ : hors saison, le parc est fermé.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Janus Josef Plewniak",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A59_HOLENDERSKIE_PASIAKI_Keukenhof.jpg",
+        "src": "img/activites/AMS/keukenhof.jpg"
+      }
+    },
+    {
+      "id": "haarlem",
+      "nom": "Journée à Haarlem",
+      "emoji": "🏘️",
+      "type": "nature",
+      "quartier": "Haarlem",
+      "lat": 52.381367,
+      "lng": 4.636093,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Train depuis Amsterdam (15 min)",
+          "≈ 5 € le trajet"
+        ],
+        [
+          "Musée Frans Hals",
+          "≈ 20 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "Le samedi, jour de marché sur la Grote Markt",
+      "enfants": true,
+      "texte": "Un petit Amsterdam sans la foule, à quinze minutes de train : une grande place pavée, une cathédrale gothique, des cours cachées et le moulin De Adriaan au bord de la rivière.",
+      "site_officiel": "https://www.visithaarlem.com/en/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Fryslan0109",
+        "licence": "Domaine public",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGrote_Markt%2C_Haarlem.jpg",
+        "src": "img/activites/AMS/haarlem.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "centrum",
+      "nom": "Centre et canaux (Grachtengordel)",
+      "lat": 52.373116,
+      "lng": 4.892351,
+      "texte": "Le cœur d'Amsterdam, tout à pied : place du Dam, canaux, Neuf Petites Rues et maison d'Anne Frank. Le meilleur choix pour un premier séjour, mais le plus cher."
+    },
+    {
+      "id": "jordaan",
+      "nom": "Jordaan",
+      "lat": 52.374547,
+      "lng": 4.883986,
+      "texte": "Le quartier le plus charmant : petits canaux, cafés bruns et marchés. Calme le soir, à dix minutes à pied du centre."
+    },
+    {
+      "id": "museumkwartier",
+      "nom": "Quartier des musées (Oud-Zuid)",
+      "lat": 52.357271,
+      "lng": 4.88154,
+      "texte": "Chic et calme, autour du Rijksmuseum, du Van Gogh et du Vondelpark. Idéal en famille et pour les amateurs de musées."
+    },
+    {
+      "id": "de-pijp",
+      "nom": "De Pijp",
+      "lat": 52.354375,
+      "lng": 4.896388,
+      "texte": "Le quartier vivant et populaire : marché Albert Cuyp, restaurants du monde entier, terrasses. Souvent un peu moins cher que le centre."
+    },
+    {
+      "id": "plantage",
+      "nom": "Plantage et quartier juif",
+      "lat": 52.367892,
+      "lng": 4.908897,
+      "texte": "Verdoyant et paisible, entre le zoo ARTIS, l'Hortus et la maison de Rembrandt. À quelques arrêts de tram du centre."
+    }
+  ],
+  "hotel_petit_prix_max": 150,
+  "restaurants": [
+    {
+      "id": "fabel-friet",
+      "nom": "Fabel Friet",
+      "emoji": "🍟",
+      "gamme": "petit",
+      "genre": "Frites",
+      "quartier": "Neuf Petites Rues",
+      "adresse": "Runstraat 1, 1016 GJ Amsterdam",
+      "lat": 52.368811,
+      "lng": 4.884042,
+      "prix": "5 à 10 €",
+      "prix_min": 5,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Les frites dont tout le monde parle : pommes de terre néerlandaises fraîches, cuites deux fois, avec des sauces maison originales. La file avance vite.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : comptez 15 à 30 min de file aux heures de pointe",
+      "photo": {
+        "auteur": "Ziko van Dijk",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A20220717_patat%2C_frietsaus_en_kroket.jpg",
+        "src": "img/restos/AMS/fabel-friet.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "stubbes",
+      "nom": "Stubbe's Haring",
+      "emoji": "🐟",
+      "gamme": "petit",
+      "genre": "Hareng cru",
+      "quartier": "Singel",
+      "adresse": "Singel 8 (sur le pont), 1013 GA Amsterdam",
+      "lat": 52.379151,
+      "lng": 4.89393,
+      "prix": "4 à 10 €",
+      "prix_min": 4,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le stand à hareng préféré des Amstellodamois, sur un pont du Singel près de la gare : hareng cru, oignons et cornichons, à manger debout. Le vrai goût d'Amsterdam.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation, pas de places assises",
+      "photo": {
+        "auteur": "Tamorlan",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHering-Amsterdam.JPG",
+        "src": "img/restos/AMS/stubbes.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "upstairs",
+      "nom": "Upstairs Pannenkoekenhuis",
+      "emoji": "🥞",
+      "gamme": "petit",
+      "genre": "Crêpes hollandaises",
+      "quartier": "Vieille ville",
+      "adresse": "Grimburgwal 2, 1012 GA Amsterdam",
+      "lat": 52.369301,
+      "lng": 4.893325,
+      "prix": "12 à 20 €",
+      "prix_min": 12,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une maison de 1537, un escalier raide comme une échelle, et au sommet quatre tables sous des centaines de théières suspendues : les pannenkoeken les plus charmantes de la ville, depuis 1961.",
+      "reservation": "conseille",
+      "reservation_delai": "par téléphone environ une semaine avant (paiement en espèces)",
+      "photo": {
+        "auteur": "Mack Male from Edmonton, AB, Canada",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APfanntastic_Pannenkoek_Haus_%283360826865%29.jpg",
+        "src": "img/restos/AMS/upstairs.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "winkel-43",
+      "nom": "Winkel 43",
+      "emoji": "🍎",
+      "gamme": "petit",
+      "genre": "Tarte aux pommes",
+      "quartier": "Jordaan",
+      "adresse": "Noordermarkt 43, 1015 NA Amsterdam",
+      "lat": 52.379084,
+      "lng": 4.886234,
+      "prix": "8 à 20 €",
+      "prix_min": 8,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La tarte aux pommes la plus célèbre d'Amsterdam : haute, croustillante, encore tiède, avec une montagne de crème fouettée. Le samedi, avec le marché devant, c'est le cœur du Jordaan.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : venez avant 11 h le samedi",
+      "photo": {
+        "auteur": "dronepicr",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AWinkel_43_bester_Apfelkuchen_von_Amsterdam_%2838960584364%29.jpg",
+        "src": "img/restos/AMS/winkel-43.jpg"
+      }
+    },
+    {
+      "id": "foodhallen",
+      "nom": "Foodhallen",
+      "emoji": "🏭",
+      "gamme": "petit",
+      "genre": "Halle gourmande",
+      "quartier": "Oud-West",
+      "adresse": "Bellamyplein 51, 1053 AT Amsterdam",
+      "lat": 52.367245,
+      "lng": 4.868035,
+      "prix": "12 à 25 €",
+      "prix_min": 12,
+      "badges": [],
+      "texte": "Un ancien dépôt de tramways transformé en halle gourmande : une vingtaine de stands (dim sum, tacos, burgers, bitterballen) et des longues tables pour tout le monde. Parfait en famille ou en groupe.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : trouvez une table avant 19 h",
+      "photo": {
+        "auteur": "Paul Arps from The Netherlands",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFoodhallen_in_Oud-West_%28Amsterdam%2C_The_Netherlands_2017%29_%2834245643401%29.jpg",
+        "src": "img/restos/AMS/foodhallen.jpg"
+      }
+    },
+    {
+      "id": "van-dobben",
+      "nom": "Eetsalon Van Dobben",
+      "emoji": "🥪",
+      "gamme": "petit",
+      "genre": "Croquettes et sandwichs",
+      "quartier": "Rembrandtplein",
+      "adresse": "Korte Reguliersdwarsstraat 5-9, 1017 BH Amsterdam",
+      "lat": 52.365982,
+      "lng": 4.895075,
+      "prix": "5 à 15 €",
+      "prix_min": 5,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Depuis 1945, la croquette de bœuf (kroket) sur un petit pain, avec de la moutarde, au comptoir carrelé de blanc. Un classique de la cuisine de rue néerlandaise, ouvert tard le soir.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "www.snack-nieuws.nl",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABroodje_kroket_%2835832701711%29.jpg",
+        "src": "img/restos/AMS/van-dobben.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "moeders",
+      "nom": "Moeders",
+      "emoji": "🍲",
+      "gamme": "moyen",
+      "genre": "Cuisine hollandaise familiale",
+      "quartier": "Jordaan",
+      "adresse": "Rozengracht 251, 1016 SX Amsterdam",
+      "lat": 52.371843,
+      "lng": 4.874978,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [],
+      "texte": "« Mères » : des centaines de photos de mamans aux murs, apportées par les clients, et la cuisine qu'elles faisaient : stamppot, ragoût de bœuf, boulettes. Le plat national, dans l'adresse la plus chaleureuse.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, surtout le week-end",
+      "photo": {
+        "auteur": "Amin",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABoerenkool_met_worst.jpg",
+        "src": "img/restos/AMS/moeders.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "blauw",
+      "nom": "Blauw",
+      "emoji": "🍛",
+      "gamme": "moyen",
+      "genre": "Rijsttafel indonésienne",
+      "quartier": "Oud-Zuid",
+      "adresse": "Amstelveenseweg 158-160, 1075 XN Amsterdam",
+      "lat": 52.353451,
+      "lng": 4.855698,
+      "prix": "40 à 55 €",
+      "prix_min": 40,
+      "badges": [],
+      "texte": "Héritage de l'histoire coloniale, la rijsttafel est une table de riz entourée d'une quinzaine de petits plats indonésiens, doux ou épicés. Blauw en sert l'une des meilleures d'Amsterdam.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 4 jours avant",
+      "photo": {
+        "auteur": "Milliped",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARijsttafel-OKT2020-1.jpg",
+        "src": "img/restos/AMS/blauw.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "seafood-bar",
+      "nom": "The Seafood Bar",
+      "emoji": "🦞",
+      "gamme": "moyen",
+      "genre": "Poissons et fruits de mer",
+      "quartier": "Spui",
+      "adresse": "Spui 15, 1012 WX Amsterdam",
+      "lat": 52.368725,
+      "lng": 4.890586,
+      "prix": "35 à 60 €",
+      "prix_min": 35,
+      "badges": [],
+      "texte": "Murs de carrelage blanc, comptoir à poissons et plateaux de fruits de mer sur glace : moules, huîtres, homard ou fish and chips, en plein centre.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille ou le jour même, ou file d'attente sur place",
+      "photo": {
+        "auteur": "Frits Hoogesteger",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APlateau_van_zeevruchten.jpg",
+        "src": "img/restos/AMS/seafood-bar.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "brasserie-marie",
+      "nom": "Brasserie Marie",
+      "emoji": "🥂",
+      "gamme": "moyen",
+      "genre": "Brasserie chic au bord de l'Amstel",
+      "quartier": "Muntplein",
+      "adresse": "Hôtel De L'Europe, Nieuwe Doelenstraat 2-14, 1012 CP Amsterdam",
+      "lat": 52.367644,
+      "lng": 4.894466,
+      "prix": "45 à 60 €",
+      "prix_min": 45,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "La brasserie du grand hôtel De L'Europe, au bord de l'Amstel : cuisine française de saison, récompensée pour son excellent rapport qualité-prix.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "photo": {
+        "auteur": "Steven Lek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADe_L%27Europe_Amsterdam_2017_2.jpg",
+        "src": "img/restos/AMS/brasserie-marie.jpg"
+      }
+    },
+    {
+      "id": "pllek",
+      "nom": "Pllek",
+      "emoji": "⛱️",
+      "gamme": "moyen",
+      "genre": "Cantine les pieds dans le sable",
+      "quartier": "Amsterdam-Noord",
+      "adresse": "T.T. Neveritaweg 59, 1033 WB Amsterdam",
+      "lat": 52.398863,
+      "lng": 4.892902,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [],
+      "texte": "Des conteneurs maritimes, une plage de sable face à l'IJ et des transats : la cantine du chantier NDSM, idéale au coucher du soleil après le musée du street art.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas besoin de réserver, sauf le soir le week-end",
+      "photo": {
+        "auteur": "Marion Golsteijn",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AStadsstrand_Pllek.JPG",
+        "src": "img/restos/AMS/pllek.jpg"
+      }
+    },
+    {
+      "id": "cafe-de-klos",
+      "nom": "Café de Klos",
+      "emoji": "🍖",
+      "gamme": "moyen",
+      "genre": "Travers de porc grillés",
+      "quartier": "Leidseplein",
+      "adresse": "Kerkstraat 41, 1017 GB Amsterdam",
+      "lat": 52.365354,
+      "lng": 4.885666,
+      "prix": "25 à 35 €",
+      "prix_min": 25,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Un café brun minuscule, enfumé par le gril, qui sert depuis des années les meilleurs travers de porc (spareribs) d'Amsterdam, en portions gigantesques.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on s'inscrit sur la liste et on attend (souvent 1 h) au café d'en face",
+      "photo": {
+        "auteur": "www.snack-nieuws.nl",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFriet_met_spareribs_%2834513077843%29.jpg",
+        "src": "img/restos/AMS/cafe-de-klos.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "ciel-bleu",
+      "nom": "Ciel Bleu",
+      "emoji": "✨",
+      "gamme": "haut",
+      "genre": "Haute gastronomie au 23e étage",
+      "quartier": "De Pijp",
+      "adresse": "Hôtel Okura, Ferdinand Bolstraat 333, 1072 LH Amsterdam",
+      "lat": 52.348619,
+      "lng": 4.893199,
+      "prix": "à partir de ≈ 250 €",
+      "prix_min": 250,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "Au 23e étage de l'hôtel Okura, une vue sur toute la ville et l'une des tables les plus étoilées des Pays-Bas. Le dîner d'une vie, quand le soleil se couche sur les toits.",
+      "reservation": "indispensable",
+      "reservation_delai": "3 à 4 semaines avant",
+      "photo": {
+        "auteur": "Annevangulik",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHotel_Okura_Amsterdam_-_Amstel_Canal.jpg",
+        "src": "img/restos/AMS/ciel-bleu.jpg"
+      }
+    },
+    {
+      "id": "restaurant-212",
+      "nom": "Restaurant 212",
+      "emoji": "🔥",
+      "gamme": "haut",
+      "genre": "Comptoir face aux chefs",
+      "quartier": "Amstel",
+      "adresse": "Amstel 212, 1017 AH Amsterdam",
+      "lat": 52.365878,
+      "lng": 4.90026,
+      "prix": "à partir de ≈ 200 €",
+      "prix_min": 200,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "Pas de salle : un grand comptoir en U autour de la cuisine ouverte, au bord de l'Amstel. Les chefs servent eux-mêmes chaque assiette, à quelques centimètres de vous.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant",
+      "photo": {
+        "auteur": "ADT 04",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATot%C3%A8nes_ou_petits_calmars_farcis_aux_%C3%A9pinards_et_aux_pignons.jpg",
+        "src": "img/restos/AMS/restaurant-212.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "de-kas",
+      "nom": "De Kas",
+      "emoji": "🌱",
+      "gamme": "haut",
+      "genre": "Cuisine du potager sous serre",
+      "quartier": "Frankendael",
+      "adresse": "Kamerlingh Onneslaan 3, 1097 DE Amsterdam",
+      "lat": 52.352305,
+      "lng": 4.930564,
+      "prix": "à partir de ≈ 75 €",
+      "prix_min": 75,
+      "badges": [
+        "recompense",
+        "tendance"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "On dîne dans une immense serre en verre de 1926, au milieu d'un parc : les légumes et les herbes poussent à côté de votre table et le menu change chaque jour selon la récolte.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "ADT 04",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABaudroie_en_nage_de_l%C3%A9gumes.jpg",
+        "src": "img/restos/AMS/de-kas.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rijks",
+      "nom": "RIJKS®",
+      "emoji": "🏛️",
+      "gamme": "haut",
+      "genre": "Cuisine néerlandaise créative",
+      "quartier": "Museumplein",
+      "adresse": "Museumstraat 2, 1071 XX Amsterdam",
+      "lat": 52.359598,
+      "lng": 4.884293,
+      "prix": "à partir de ≈ 90 €",
+      "prix_min": 90,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Le restaurant du Rijksmuseum : les produits des Pays-Bas et les épices des anciens comptoirs, dans une salle claire au pied du musée. Idéal pour un déjeuner après la Ronde de nuit.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "Marianne Casamance",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMonteux_Noix_de_Saint-Jacques_de_la_C%C3%B4te_d%27Armor_et_ses_perles_de_ciboulette.JPG",
+        "src": "img/restos/AMS/rijks.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "vijff-vlieghen",
+      "nom": "D'Vijff Vlieghen",
+      "emoji": "🕯️",
+      "gamme": "haut",
+      "genre": "Cuisine hollandaise dans des maisons du XVIIe",
+      "quartier": "Spui",
+      "adresse": "Spuistraat 294-302, 1012 VX Amsterdam",
+      "lat": 52.36965,
+      "lng": 4.888736,
+      "prix": "à partir de ≈ 65 €",
+      "prix_min": 65,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Cinq maisons du XVIIe siècle reliées entre elles, des boiseries, des faïences de Delft et de vraies gravures de Rembrandt aux murs : la table historique d'Amsterdam depuis 1939.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "photo": {
+        "auteur": "Harry Sagers / Anefo",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABraziliaans_Opleidingsschip._Adelborsten_in_de_vijf_Vlieghen%2C_Bestanddeelnr_902-4325.jpg",
+        "src": "img/restos/AMS/vijff-vlieghen.jpg"
+      }
+    },
+    {
+      "id": "the-duchess",
+      "nom": "The Duchess",
+      "emoji": "🕰️",
+      "gamme": "haut",
+      "genre": "Grand café de luxe",
+      "quartier": "Spui",
+      "adresse": "Spuistraat 172, 1012 VT Amsterdam",
+      "lat": 52.372811,
+      "lng": 4.889353,
+      "prix": "60 à 90 €",
+      "prix_min": 60,
+      "badges": [],
+      "texte": "Un ancien hall de banque du XIXe siècle, tout en marbre noir, dorures et lustres : le restaurant le plus spectaculaire d'Amsterdam. Cuisine méditerranéenne le soir, thé de l'après-midi le week-end.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant (une semaine pour le thé du week-end)",
+      "photo": {
+        "auteur": "Havang(nl)",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAmsterdam_Rijksmonument_518453_Spuistraat_172.JPG",
+        "src": "img/restos/AMS/the-duchess.jpg"
+      }
+    }
+  ]
+}

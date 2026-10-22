@@ -165,6 +165,10 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Wanderlog : ~220 listes « …-in-paris », 1 608 restaurants.
   Berlin (oct. 2026) : recherche de fichiers en HTML (`ns6=1`) et vignettes `960px-` (« 429 » fréquents : 20 s de pause
   puis réessayer) ; auteur et licence sur la page `File:`. Wanderlog : ~126 listes « …-in-berlin » (géo 9623).
+  Amsterdam (oct. 2026) : catégories Commons (page HTML) puis recherche de fichiers (`ns6=1`) ; vignettes `960px-`
+  très limitées (« 429 » toutes les 2-3 images : 30 s de pause, 8 s entre deux) avec un User-Agent qui donne l'adresse
+  du site (sans e-mail). Prix Tiqets lisibles par `curl` (champ `"priceEur"` de la page produit). Wanderlog : 80 listes
+  « …-in-amsterdam » (géo 9625), ~1 150 restaurants.
   Si une conversation s'arrête en route, son historique se relit avec `list_events` (crédits photo, prix, positions).
   Venise (oct. 2026) : l'API de Commons (`action=query&generator=search` + `prop=imageinfo&iiprop=extmetadata`)
   donne vignette, auteur et licence d'un coup ; avec 10 villes en parallèle elle répond souvent « 429 » :
