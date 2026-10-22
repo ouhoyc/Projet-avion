@@ -262,6 +262,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (22/10/2026) **Page guide de Paris** (`guides/PAR.json`), préparée en autonomie : 29 activités
+  (5 tendance d'après les réseaux sociaux, 2 sources au moins : Montmartre et le Sacré-Cœur, croisière sur la Seine,
+  coupole des Galeries Lafayette, jardin du Petit Palais, salle Ovale de la BnF ; match du PSG, club
+  « Paris Saint-Germain » ; Versailles, Disneyland et Giverny en excursions), 18 restaurants (note pondérée,
+  C = 4,43, 1 608 restaurants lus via ~220 listes Wanderlog ; Michelin 2026 : Arpège et Le Cinq 3 étoiles,
+  Jules Verne 2 étoiles, Septime 1 étoile, Kodawari et Clamato Bib Gourmand ; Arpège et Septime aussi au
+  World's 50 Best 2025), 5 quartiers. Écartés pour note trop basse : Chartier historique, Relais de l'Entrecôte,
+  Paul Bert, Girafe. Lieux fermés écartés : tour Montparnasse (fermée depuis le 31/03/2026 pour des années),
+  Centre Pompidou (fermé jusqu'en 2030) ; Fondation Louis Vuitton non retenue (pas de photo libre possible).
+  Catacombes rouvertes au printemps 2026 ; salle de l'Opéra Garnier fermée de mi-2027 à mi-2029 (note dans la fiche) ;
+  Giverny ouvert du 1er avril au 1er novembre. Prix officiels relevés (Tour Eiffel 36,70 € au sommet, Louvre 22 €
+  pour l'Europe et 32 € hors Europe, Orsay 16 €, Versailles 32 €…) ; les autres sont `a_verifier` ; restaurants :
+  prix et délais estimés. Photos : 45 sur 47 (Disneyland et Septime sans photo libre utilisable : Disneyland
+  n'a presque pas de photos sur Commons, pas de liberté de panorama en France) ; 7 photos d'illustration (restaurants).
+  Liens Tiqets : Orsay, Orangerie, Bourse de Commerce, Arc de Triomphe, croisière, Versailles.
 - ✅ (22/10/2026) **Page guide d'Istanbul** (`guides/IST.json`), préparée en autonomie : 28 activités
   (5 tendance : citerne Basilique, Balat, Kadıköy et Moda, tour de Léandre, Ortaköy ; match de Galatasaray,
   club « Galatasaray », carte Passolig obligatoire), 18 restaurants (note pondérée, C = 4,345, 983 restaurants

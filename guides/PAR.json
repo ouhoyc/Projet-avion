@@ -1,0 +1,1800 @@
+{
+ "city_code": "PAR",
+ "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "tour-eiffel",
+   "nom": "Tour Eiffel",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Champ-de-Mars",
+   "lat": 48.85837,
+   "lng": 2.294481,
+   "prix": 36.7,
+   "prix_detail": [
+    [
+     "Sommet en ascenseur",
+     36.7
+    ],
+    [
+     "2e étage en ascenseur",
+     23.5
+    ],
+    [
+     "2e étage par l'escalier",
+     14.8
+    ],
+    [
+     "12 à 24 ans",
+     "moitié prix"
+    ],
+    [
+     "4 à 11 ans",
+     "environ un quart du prix"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 36.7,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      9.2
+     ],
+     [
+      17,
+      18.4
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billets mis en vente environ 60 jours avant ; l'escalier se réserve aussi depuis fin septembre 2026",
+   "duree": "2 h 30",
+   "moment": "En fin d'après-midi, pour voir Paris de jour puis les lumières",
+   "enfants": true,
+   "texte": "330 mètres de fer puddlé et la plus belle vue de Paris : depuis le sommet, la ville entière se déroule jusqu'à l'horizon, de la Défense à Montmartre. Le soir, la tour scintille cinq minutes au début de chaque heure.",
+   "site_officiel": "https://www.toureiffel.paris/fr",
+   "note": "Achetez sur le site officiel (ticket.toureiffel.paris) : les revendeurs font payer le même billet bien plus cher.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Benh LIEU SONG",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATour_Eiffel_Wikimedia_Commons.jpg",
+    "src": "img/activites/PAR/tour-eiffel.jpg",
+    "pos": "center 70%"
+   }
+  },
+  {
+   "id": "louvre",
+   "nom": "Musée du Louvre",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Louvre",
+   "lat": 48.860611,
+   "lng": 2.337644,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Billet (résidents de l'Espace économique européen)",
+     22
+    ],
+    [
+     "Visiteurs hors Espace économique européen",
+     32
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "créneau horaire obligatoire, à réserver en ligne quelques jours avant (même pour les entrées gratuites)",
+   "duree": "3 h",
+   "moment": "À l'ouverture (9 h) ou en nocturne le mercredi et le vendredi",
+   "enfants": true,
+   "texte": "Le plus grand musée du monde, dans l'ancien palais des rois : la Joconde, la Vénus de Milo, la Victoire de Samothrace et des kilomètres de chefs-d'œuvre. Choisissez deux ou trois ailes plutôt que de vouloir tout voir.",
+   "site_officiel": "https://www.louvre.fr/",
+   "note": "Seuls les billets achetés en ligne garantissent l'entrée : réservez sur ticket.louvre.fr.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gary Todd from Xinzheng, China",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACour_Carr%C3%A9e_in_Louvre_Palace_%2828006726830%29.jpg",
+    "src": "img/activites/PAR/louvre.jpg"
+   }
+  },
+  {
+   "id": "orsay",
+   "nom": "Musée d'Orsay",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Saint-Germain",
+   "lat": 48.859961,
+   "lng": 2.326561,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Billet en ligne",
+     16
+    ],
+    [
+     "Nocturne du jeudi (dès 18 h)",
+     12
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet à heure fixe en ligne, la veille ou quelques jours avant",
+   "duree": "2 h 30",
+   "moment": "Le jeudi soir, plus calme",
+   "enfants": true,
+   "texte": "Monet, Renoir, Van Gogh, Degas : la plus belle collection impressionniste du monde, dans une ancienne gare aux grandes horloges. Derrière l'horloge du 5e étage, la vue sur la Seine et le Louvre est inoubliable.",
+   "site_officiel": "https://www.musee-orsay.fr/",
+   "note": "Méfiez-vous des faux sites de billets : achetez sur musee-orsay.fr ou chez notre partenaire.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ibex73",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrande_galerie_du_Mus%C3%A9e_d%27Orsay_%283%29.jpg",
+    "src": "img/activites/PAR/orsay.jpg"
+   }
+  },
+  {
+   "id": "orangerie",
+   "nom": "Musée de l'Orangerie (Nymphéas de Monet)",
+   "emoji": "🪷",
+   "type": "culture",
+   "quartier": "Tuileries",
+   "lat": 48.863788,
+   "lng": 2.322672,
+   "prix": 12.5,
+   "prix_detail": [
+    [
+     "Billet",
+     12.5
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12.5,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau horaire en ligne quelques jours avant",
+   "duree": "1 h 15",
+   "moment": "À l'ouverture (9 h), pour avoir les Nymphéas presque pour vous",
+   "enfants": true,
+   "texte": "Deux salles ovales baignées de lumière, entièrement couvertes par les Nymphéas de Monet : 100 mètres de toiles qui vous plongent dans son jardin d'eau. Un moment suspendu, au bout du jardin des Tuileries.",
+   "site_officiel": "https://www.musee-orangerie.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Brady Brenot",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_de_L%27Orangerie_Water_Lilies_Room.jpg",
+    "src": "img/activites/PAR/orangerie.jpg"
+   }
+  },
+  {
+   "id": "sainte-chapelle",
+   "nom": "Sainte-Chapelle",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Île de la Cité",
+   "lat": 48.855389,
+   "lng": 2.345,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Billet (résidents de l'Espace économique européen)",
+     16
+    ],
+    [
+     "Visiteurs hors Espace économique européen",
+     22
+    ],
+    [
+     "Avec la Conciergerie",
+     23
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "créneau horaire en ligne : sans lui, l'attente au contrôle de sécurité peut dépasser une heure",
+   "duree": "45 min",
+   "moment": "Par une journée ensoleillée, vers midi, quand les vitraux s'embrasent",
+   "enfants": true,
+   "texte": "Le joyau gothique de Saint Louis : 1 113 vitraux sur 15 mètres de haut, si fins que les murs semblent faits de lumière. Une des plus belles salles du monde, cachée dans le palais de justice.",
+   "site_officiel": "https://www.sainte-chapelle.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASainte-Chapelle%2C_Paris%2C_upper_chapel_rose.jpg",
+    "src": "img/activites/PAR/sainte-chapelle.jpg"
+   }
+  },
+  {
+   "id": "notre-dame",
+   "nom": "Cathédrale Notre-Dame de Paris",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Île de la Cité",
+   "lat": 48.852968,
+   "lng": 2.349902,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cathédrale",
+     "gratuit"
+    ],
+    [
+     "Montée aux tours (424 marches)",
+     16
+    ],
+    [
+     "Tours, moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau gratuit en ligne pour la cathédrale (moins d'attente) ; billet en ligne pour les tours",
+   "duree": "1 h (2 h avec les tours)",
+   "moment": "Tôt le matin, ou en semaine en fin de journée",
+   "enfants": true,
+   "texte": "Rouverte en décembre 2024 après l'incendie, la cathédrale a retrouvé une blancheur que personne n'avait vue depuis des siècles. Montez aux tours pour approcher les gargouilles et embrasser la Seine.",
+   "site_officiel": "https://www.notredamedeparis.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParis%2C_Notre_Dame_--_2014_--_1437.jpg",
+    "src": "img/activites/PAR/notre-dame.jpg"
+   }
+  },
+  {
+   "id": "invalides",
+   "nom": "Invalides et tombeau de Napoléon",
+   "emoji": "🎖️",
+   "type": "culture",
+   "quartier": "Invalides",
+   "lat": 48.855,
+   "lng": 2.3125,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Musée de l'Armée + tombeau de Napoléon",
+     17
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "En semaine, le matin",
+   "enfants": true,
+   "texte": "Sous le dôme doré qui brille sur Paris repose Napoléon, dans un tombeau de quartzite rouge. Autour, le musée de l'Armée raconte mille ans d'histoire, des armures des chevaliers aux deux guerres mondiales.",
+   "site_officiel": "https://www.musee-armee.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Maksim Sokolov (maxergon.com)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASouth_facade_of_D%C3%B4me_des_Invalides.jpg",
+    "src": "img/activites/PAR/invalides.jpg"
+   }
+  },
+  {
+   "id": "rodin",
+   "nom": "Musée Rodin",
+   "emoji": "🗿",
+   "type": "culture",
+   "quartier": "Invalides",
+   "lat": 48.855333,
+   "lng": 2.315833,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Musée et jardin",
+     14
+    ],
+    [
+     "Jardin seul",
+     5
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne conseillé le week-end",
+   "duree": "1 h 30",
+   "moment": "Par beau temps, pour le jardin",
+   "enfants": true,
+   "texte": "Le Penseur, la Porte de l'Enfer et le Baiser dans un hôtel particulier du XVIIIe siècle et son jardin de roses. Le musée le plus romantique de Paris, à deux pas des Invalides.",
+   "site_officiel": "https://www.musee-rodin.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALe_Penseur_in_the_Jardin_du_Mus%C3%A9e_Rodin%2C_Paris_25_June_2008.jpg",
+    "src": "img/activites/PAR/rodin.jpg"
+   }
+  },
+  {
+   "id": "opera-garnier",
+   "nom": "Opéra Garnier (Palais Garnier)",
+   "emoji": "🎭",
+   "type": "culture",
+   "quartier": "Opéra",
+   "lat": 48.871944,
+   "lng": 2.331667,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Visite libre",
+     15
+    ],
+    [
+     "Pendant les expositions",
+     18
+    ],
+    [
+     "Visite guidée",
+     35
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      11,
+      0
+     ],
+     [
+      17,
+      10
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billets de visite vendus seulement en ligne, quelques jours avant",
+   "duree": "1 h 15",
+   "moment": "En matinée, quand la salle n'est pas en répétition",
+   "enfants": true,
+   "texte": "Marbre, ors et velours : le grand escalier et le Grand Foyer de l'Opéra sont parmi les décors les plus fastueux du monde. Levez les yeux dans la salle vers le plafond peint par Chagall.",
+   "site_officiel": "https://www.operadeparis.fr/visites/palais-garnier",
+   "note": "La salle de spectacle fermera pour travaux de mi-2027 à mi-2029 : vérifiez les visites si vous partez après.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Benh LIEU SONG",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOpera_Garnier_Grand_Escalier.jpg",
+    "src": "img/activites/PAR/opera-garnier.jpg"
+   }
+  },
+  {
+   "id": "bourse-commerce",
+   "nom": "Bourse de Commerce – Pinault Collection",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Les Halles",
+   "lat": 48.862778,
+   "lng": 2.342778,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Billet",
+     15
+    ],
+    [
+     "18 à 26 ans",
+     10
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau en ligne la veille",
+   "duree": "1 h 30",
+   "moment": "Le premier samedi du mois en soirée (gratuit, de 17 h à 21 h)",
+   "enfants": true,
+   "texte": "Une ancienne halle aux grains coiffée d'une coupole peinte, transformée en musée d'art contemporain : on y tourne autour d'un grand cylindre de béton sous un ciel de verre. L'art d'aujourd'hui dans un écrin du XIXe siècle.",
+   "site_officiel": "https://www.pinaultcollection.com/fr/boursedecommerce",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "patrick janicek from Courbevoie, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABOURSE_DE_COMMERCE_%2833373115155%29.jpg",
+    "src": "img/activites/PAR/bourse-commerce.jpg"
+   }
+  },
+  {
+   "id": "pantheon",
+   "nom": "Panthéon",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Quartier latin",
+   "lat": 48.846222,
+   "lng": 2.346111,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Billet, d'octobre à mai",
+     13
+    ],
+    [
+     "Billet, de juin à septembre",
+     16
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En fin de matinée, puis déjeuner au Quartier latin",
+   "enfants": true,
+   "texte": "Le temple des grands hommes et des grandes femmes : Victor Hugo, Marie Curie, Joséphine Baker reposent dans sa crypte. Sous la coupole, le pendule de Foucault prouve que la Terre tourne.",
+   "site_officiel": "https://www.paris-pantheon.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade_Panth%C3%A9on_Paris_1.jpg",
+    "src": "img/activites/PAR/pantheon.jpg"
+   }
+  },
+  {
+   "id": "catacombes",
+   "nom": "Catacombes de Paris",
+   "emoji": "💀",
+   "type": "culture",
+   "quartier": "Denfert-Rochereau",
+   "lat": 48.833889,
+   "lng": 2.332222,
+   "prix": 31,
+   "prix_detail": [
+    [
+     "Billet avec audioguide",
+     31
+    ],
+    [
+     "18 à 26 ans",
+     25
+    ],
+    [
+     "5 à 17 ans (sans audioguide)",
+     12
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 31,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      12
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "uniquement en ligne, une à deux semaines avant (créneaux de 200 personnes)",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, souvent moins de monde",
+   "enfants": true,
+   "texte": "À 20 mètres sous les rues, les ossements de six millions de Parisiens rangés en murs de crânes et de tibias : un voyage étrange et fascinant, rénové au printemps 2026 avec un nouveau parcours.",
+   "site_officiel": "https://www.catacombes.paris.fr/",
+   "note": "Réservez sur le site officiel : des revendeurs vendent le même billet presque deux fois plus cher. 243 marches, 14 °C : prévoyez une petite laine.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Shadowgate from Novara, ITALY",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACatacombs_of_Paris%2C_16_August_2013_013.jpg",
+    "src": "img/activites/PAR/catacombes.jpg"
+   }
+  },
+  {
+   "id": "atelier-lumieres",
+   "nom": "Atelier des Lumières",
+   "emoji": "🌈",
+   "type": "culture",
+   "quartier": "Bastille",
+   "lat": 48.861944,
+   "lng": 2.380833,
+   "prix": 19.5,
+   "prix_detail": [
+    [
+     "Billet adulte",
+     19.5
+    ],
+    [
+     "Enfants et jeunes",
+     "tarif réduit"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19.5,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      14
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet à heure fixe en ligne, quelques jours avant",
+   "duree": "1 h 15",
+   "moment": "En semaine, en fin de journée",
+   "enfants": true,
+   "texte": "Une ancienne fonderie où les tableaux des grands peintres sont projetés en géant sur les murs et le sol, en musique : on marche à l'intérieur des œuvres. Le programme change chaque année.",
+   "site_officiel": "https://www.atelier-lumieres.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Caroline Léna Becker",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAtelier_des_Lumi%C3%A8res_Klimt.jpg",
+    "src": "img/activites/PAR/atelier-lumieres.jpg"
+   }
+  },
+  {
+   "id": "petit-palais",
+   "nom": "Petit Palais",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Champs-Élysées",
+   "lat": 48.866111,
+   "lng": 2.314722,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Collections permanentes",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "payant"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "À l'heure du déjeuner, avec un café dans le jardin intérieur",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Construit pour l'Exposition universelle de 1900, ce palais doré abrite un musée gratuit et un jardin intérieur à colonnades, l'un des coins les plus photogéniques de Paris. Courbet, Monet et Rembrandt en prime.",
+   "site_officiel": "https://www.petitpalais.paris.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Petit Palais",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJardin_int%C3%A9rieur_du_Petit_Palais.jpg",
+    "src": "img/activites/PAR/petit-palais.jpg"
+   }
+  },
+  {
+   "id": "bnf-salle-ovale",
+   "nom": "Salle Ovale de la Bibliothèque nationale",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "Bourse",
+   "lat": 48.867,
+   "lng": 2.338889,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En semaine le matin, dans le silence des lecteurs",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une immense salle de lecture ovale sous une verrière, bordée de livres sur quatre étages : la bibliothèque de rêve qui affole les réseaux, ouverte à tous et gratuite. Entrée par le 5, rue Vivienne.",
+   "site_officiel": "https://www.bnf.fr/fr/la-salle-ovale",
+   "note": "Fermée le lundi. Restez discret : c'est aussi une vraie salle de lecture.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "DominikPeters",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASalle_Ovale_BnF_Richelieu_2024-05-19.jpg",
+    "src": "img/activites/PAR/bnf-salle-ovale.jpg"
+   }
+  },
+  {
+   "id": "arc-triomphe",
+   "nom": "Arc de Triomphe",
+   "emoji": "🏛️",
+   "type": "vue",
+   "quartier": "Champs-Élysées",
+   "lat": 48.873792,
+   "lng": 2.295028,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Terrasse, d'octobre à mars",
+     16
+    ],
+    [
+     "Terrasse, d'avril à septembre",
+     22
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne pour éviter la file",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, la tour Eiffel s'allume en face",
+   "enfants": true,
+   "texte": "284 marches et une terrasse au centre de l'étoile : douze avenues partent sous vos pieds, les Champs-Élysées filent vers le Louvre et la tour Eiffel se dresse juste à côté.",
+   "site_officiel": "https://www.paris-arc-de-triomphe.fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Benh LIEU SONG",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AArc_Triomphe.jpg",
+    "src": "img/activites/PAR/arc-triomphe.jpg"
+   }
+  },
+  {
+   "id": "galeries-lafayette",
+   "nom": "Coupole et terrasse des Galeries Lafayette",
+   "emoji": "🛍️",
+   "type": "vue",
+   "quartier": "Opéra",
+   "lat": 48.873611,
+   "lng": 2.332222,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Coupole et terrasse",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En semaine en fin d'après-midi ; en décembre pour le grand sapin",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Sous une coupole Art nouveau de vitraux, le grand magasin le plus célèbre de Paris ; au 8e étage, une terrasse gratuite offre une vue à 360° sur l'Opéra, la tour Eiffel et Montmartre.",
+   "site_officiel": "https://haussmann.galerieslafayette.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Art-Facts.com",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGaleries_Lafayette_in_Paris.jpg",
+    "src": "img/activites/PAR/galeries-lafayette.jpg"
+   }
+  },
+  {
+   "id": "montmartre",
+   "nom": "Montmartre et le Sacré-Cœur",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Montmartre",
+   "lat": 48.886705,
+   "lng": 2.343104,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Basilique",
+     "gratuit"
+    ],
+    [
+     "Montée au dôme",
+     "environ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "3 h",
+   "moment": "Tôt le matin pour les ruelles vides, ou au coucher du soleil sur les marches",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le village des peintres : ruelles pavées, vignes, la place du Tertre et ses portraitistes, la Maison Rose et, tout en haut, la basilique blanche avec tout Paris à ses pieds.",
+   "site_officiel": "https://www.sacre-coeur-montmartre.com/",
+   "note": "Attention aux vendeurs de « bracelets d'amitié » au pied des marches : ne tendez pas la main.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Terragio67",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL%27escalier_de_droite_menant_%C3%A0_la_Basilique_de_Montmartre_-_GT_03_-_2024.jpg",
+    "src": "img/activites/PAR/montmartre.jpg"
+   }
+  },
+  {
+   "id": "marais",
+   "nom": "Le Marais et la place des Vosges",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Le Marais",
+   "lat": 48.855558,
+   "lng": 2.365408,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h 30",
+   "moment": "Le dimanche, quand les boutiques restent ouvertes",
+   "enfants": true,
+   "texte": "Hôtels particuliers, rue des Rosiers, boutiques de créateurs et la plus belle place de Paris, la place des Vosges, avec ses arcades en brique rose. Le quartier où il fait bon se perdre.",
+   "site_officiel": "https://www.parisjetaime.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Guilhem Vellut from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFountain_%40_Square_Louis_XIII_%40_Place_des_Vosges_%40_Marais_%40_Paris_%2830896795463%29.jpg",
+    "src": "img/activites/PAR/marais.jpg"
+   }
+  },
+  {
+   "id": "canal-saint-martin",
+   "nom": "Canal Saint-Martin",
+   "emoji": "🌉",
+   "type": "balade",
+   "quartier": "Canal Saint-Martin",
+   "lat": 48.870833,
+   "lng": 2.365278,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, quand les Parisiens s'installent au bord de l'eau",
+   "enfants": true,
+   "texte": "Passerelles en fer, écluses et platanes : le Paris d'Amélie Poulain, où l'on pique-nique les jambes au-dessus de l'eau. Cafés, friperies et bars à vin sur les quais.",
+   "site_officiel": "https://www.parisjetaime.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Steve from Austin, TX, USA",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APasserelle_Alibert%2C_Canal_Saint-Martin%2C_Paris_6_July_2016.jpg",
+    "src": "img/activites/PAR/canal-saint-martin.jpg"
+   }
+  },
+  {
+   "id": "luxembourg",
+   "nom": "Jardin du Luxembourg",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Saint-Germain",
+   "lat": 48.846222,
+   "lng": 2.337222,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, ou un après-midi ensoleillé sur les chaises vertes",
+   "enfants": true,
+   "texte": "Le jardin préféré des Parisiens : chaises vertes autour du grand bassin, voiliers d'enfants, fontaine Médicis et palais du Sénat. Une pause de calme entre Saint-Germain et le Quartier latin.",
+   "site_officiel": "https://www.senat.fr/visite/jardin/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jebulon",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3APantheon_Luxembourg_2.jpg",
+    "src": "img/activites/PAR/luxembourg.jpg"
+   }
+  },
+  {
+   "id": "pere-lachaise",
+   "nom": "Cimetière du Père-Lachaise",
+   "emoji": "🍂",
+   "type": "balade",
+   "quartier": "Belleville",
+   "lat": 48.861389,
+   "lng": 2.393333,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin en automne, sous les feuillages",
+   "enfants": true,
+   "texte": "Un parc romantique de tombes sculptées sous les arbres, où reposent Jim Morrison, Édith Piaf, Chopin et Oscar Wilde. Une promenade étonnante et paisible, loin des foules.",
+   "site_officiel": "https://www.paris.fr/lieux/cimetiere-du-pere-lachaise-4082",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tylwyth Eldar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AP%C3%A8re-Lachaise_-_All%C3%A9e_16.jpg",
+    "src": "img/activites/PAR/pere-lachaise.jpg"
+   }
+  },
+  {
+   "id": "passages",
+   "nom": "Passages couverts (Galerie Vivienne)",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Bourse",
+   "lat": 48.866389,
+   "lng": 2.34,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Un jour de pluie, ou en fin d'après-midi",
+   "enfants": true,
+   "texte": "Verrières, mosaïques et boiseries du XIXe siècle : la galerie Vivienne, le passage des Panoramas et le passage Jouffroy forment un Paris secret, avec librairies anciennes et salons de thé.",
+   "site_officiel": "https://www.parisjetaime.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Benh LIEU SONG",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGalerie_Vivienne%2C_12_March_2015.jpg",
+    "src": "img/activites/PAR/passages.jpg"
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière sur la Seine en bateau-mouche",
+   "emoji": "🚢",
+   "type": "sortir",
+   "quartier": "Pont de l'Alma",
+   "lat": 48.863611,
+   "lng": 2.300833,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Croisière d'1 h 10",
+     17
+    ],
+    [
+     "4 à 12 ans",
+     8
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en ligne conseillé les soirs d'été",
+   "duree": "1 h 10",
+   "moment": "À la tombée de la nuit, quand les monuments s'illuminent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Notre-Dame, le Louvre, le musée d'Orsay et la tour Eiffel défilent depuis le pont du bateau : la façon la plus simple de voir tout Paris en une heure, surtout le soir.",
+   "site_officiel": "https://www.bateaux-mouches.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Joe deSousa",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABateaux_Mouches_on_the_Seine%2C_Paris_July_2013.jpg",
+    "src": "img/activites/PAR/croisiere.jpg"
+   }
+  },
+  {
+   "id": "moulin-rouge",
+   "nom": "Spectacle au Moulin Rouge",
+   "emoji": "💃",
+   "type": "sortir",
+   "quartier": "Pigalle",
+   "lat": 48.884123,
+   "lng": 2.332269,
+   "prix": 120,
+   "prix_detail": [
+    [
+     "Revue de 21 h (avec champagne)",
+     "dès 120 €"
+    ],
+    [
+     "Dîner-spectacle de 19 h",
+     "dès 255 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 120,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant, surtout le week-end",
+   "duree": "2 h",
+   "moment": "Le soir",
+   "enfants": false,
+   "texte": "Le plus célèbre cabaret du monde : 60 artistes, plumes, strass et le french cancan sous le moulin rouge de Pigalle, depuis 1889. Une soirée de music-hall à vivre une fois.",
+   "site_officiel": "https://www.moulinrouge.fr/",
+   "note": "Enfants admis à partir de 6 ans. Tenue correcte exigée (pas de short ni de baskets de sport).",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Juanedc from Zaragoza, España",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMoulin_Rouge%2C_17_April_2011.jpg",
+    "src": "img/activites/PAR/moulin-rouge.jpg"
+   }
+  },
+  {
+   "id": "psg",
+   "nom": "Match du PSG au Parc des Princes",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Porte de Saint-Cloud",
+   "lat": 48.84136,
+   "lng": 2.25307,
+   "prix": 80,
+   "prix_detail": [
+    [
+     "Billet de Ligue 1",
+     "≈ 50 à 150 €"
+    ],
+    [
+     "Ligue des champions",
+     "bien plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 80,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente : les places partent d'abord aux abonnés et membres du club",
+   "duree": "3 h",
+   "moment": "Soirs de match",
+   "enfants": true,
+   "club": "Paris Saint-Germain",
+   "texte": "Le champion d'Europe 2025 dans son stade mythique : 48 000 supporters, le chant du virage Auteuil et le meilleur football de France, à 15 minutes de la tour Eiffel en métro.",
+   "site_officiel": "https://billetterie.psg.fr/",
+   "note": "Achetez sur la billetterie officielle du club (revente officielle comprise) : méfiez-vous des revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Валерий Дед",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParis_Parc_des_Princes_1.jpg",
+    "src": "img/activites/PAR/psg.jpg"
+   }
+  },
+  {
+   "id": "versailles",
+   "nom": "Château de Versailles",
+   "emoji": "👑",
+   "type": "nature",
+   "quartier": "Versailles",
+   "lat": 48.804865,
+   "lng": 2.120355,
+   "prix": 32,
+   "prix_detail": [
+    [
+     "Billet Passeport (château, jardins, Trianon), haute saison",
+     32
+    ],
+    [
+     "Basse saison (novembre à mars)",
+     22
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 32,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "créneau horaire obligatoire en ligne, une à deux semaines avant en été",
+   "duree": "1 journée",
+   "moment": "Dès l'ouverture (9 h), sauf le lundi (fermé)",
+   "enfants": true,
+   "texte": "La galerie des Glaces, les appartements du Roi-Soleil, les jardins de Le Nôtre et le hameau de Marie-Antoinette : le plus grand château d'Europe, à 40 minutes de Paris en RER C.",
+   "site_officiel": "https://www.chateauversailles.fr/",
+   "note": "Les visiteurs hors Espace économique européen paient 3 € de plus.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Myrabella",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChateau_Versailles_Galerie_des_Glaces.jpg",
+    "src": "img/activites/PAR/versailles.jpg"
+   }
+  },
+  {
+   "id": "disneyland",
+   "nom": "Disneyland Paris",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Marne-la-Vallée",
+   "lat": 48.872234,
+   "lng": 2.775808,
+   "prix": 51,
+   "prix_detail": [
+    [
+     "Billet daté 1 jour, 1 parc",
+     "dès 51 € (prix selon la date)"
+    ],
+    [
+     "3 à 11 ans",
+     "dès 47 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 51,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      47
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet daté en ligne, pas de vente en caisse ; les jours de semaine hors vacances sont les moins chers",
+   "duree": "1 journée",
+   "moment": "Un jour de semaine, hors vacances scolaires",
+   "enfants": true,
+   "texte": "Le château de la Belle au bois dormant, Star Wars et le nouveau monde de La Reine des neiges : le parc le plus visité d'Europe, à 40 minutes de Paris en RER A.",
+   "site_officiel": "https://www.disneylandparis.com/fr-fr/",
+   "a_verifier": true
+  },
+  {
+   "id": "giverny",
+   "nom": "Maison et jardins de Monet à Giverny",
+   "emoji": "🌷",
+   "type": "nature",
+   "quartier": "Giverny",
+   "lat": 49.075611,
+   "lng": 1.533611,
+   "prix": 13.5,
+   "prix_detail": [
+    [
+     "Billet adulte",
+     13.5
+    ],
+    [
+     "7 à 17 ans",
+     7.5
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13.5,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      7.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne, surtout en mai et juin",
+   "duree": "1 journée",
+   "moment": "D'avril à début novembre seulement (fermé l'hiver)",
+   "enfants": true,
+   "texte": "Le pont japonais, le bassin aux nymphéas et la maison rose aux volets verts du peintre : entrez dans les tableaux de Monet, à 1 h 15 de Paris (train jusqu'à Vernon puis navette).",
+   "site_officiel": "https://claudemonetgiverny.fr/",
+   "note": "Ouvert du 1er avril au 1er novembre 2026.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALe_jardin_d%27eau_de_Claude_Monet_%28Giverny%29_%2848743477716%29.jpg",
+    "src": "img/activites/PAR/giverny.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "saint-germain",
+   "nom": "Saint-Germain-des-Prés et Quartier latin",
+   "lat": 48.8535,
+   "lng": 2.3375,
+   "texte": "La rive gauche des cafés littéraires, des librairies et du jardin du Luxembourg, avec Notre-Dame et le Louvre à pied. Le meilleur choix pour un premier séjour, mais cher."
+  },
+  {
+   "id": "marais",
+   "nom": "Le Marais",
+   "lat": 48.8585,
+   "lng": 2.3605,
+   "texte": "Le quartier le plus vivant du centre : hôtels particuliers, boutiques, bars et restaurants ouverts le dimanche, à pied de Notre-Dame et de la place des Vosges."
+  },
+  {
+   "id": "opera",
+   "nom": "Opéra et Grands Boulevards",
+   "lat": 48.8722,
+   "lng": 2.336,
+   "texte": "Pratique et central : grands magasins, Opéra Garnier, nombreuses lignes de métro et beaucoup d'hôtels, souvent moins chers que sur la rive gauche."
+  },
+  {
+   "id": "tour-eiffel",
+   "nom": "Tour Eiffel et Champ-de-Mars",
+   "lat": 48.8553,
+   "lng": 2.3015,
+   "texte": "Calme et chic, avec la tour Eiffel au bout de la rue, les Invalides et les bateaux sur la Seine. Idéal en famille, plus tranquille le soir."
+  },
+  {
+   "id": "montmartre",
+   "nom": "Montmartre et Pigalle",
+   "lat": 48.884,
+   "lng": 2.339,
+   "texte": "Le Paris village des peintres, avec ses ruelles et ses vues sur la ville ; les hôtels y sont souvent moins chers, mais le centre est à 20 minutes de métro."
+  }
+ ],
+ "hotel_petit_prix_max": 150,
+ "restaurants": [
+  {
+   "id": "bouillon-pigalle",
+   "nom": "Bouillon Pigalle",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Bouillon parisien (cuisine française à petits prix)",
+   "quartier": "Pigalle",
+   "adresse": "22 boulevard de Clichy, 75018 Paris",
+   "lat": 48.882575,
+   "lng": 2.337444,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Œufs mayo à 2 €, bœuf bourguignon, profiteroles : la cuisine des bistrots d'autrefois à prix d'il y a trente ans, dans une immense salle qui ne désemplit pas. L'adresse qui a relancé la mode des bouillons à Paris.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : la file avance vite, venez avant 19 h",
+   "photo": {
+    "auteur": "Thomon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABouillon_Pigalle.jpg",
+    "src": "img/restos/PAR/bouillon-pigalle.jpg"
+   }
+  },
+  {
+   "id": "as-du-fallafel",
+   "nom": "L'As du Fallafel",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Falafel du Marais",
+   "quartier": "Le Marais",
+   "adresse": "34 rue des Rosiers, 75004 Paris",
+   "lat": 48.85741,
+   "lng": 2.359049,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le sandwich le plus célèbre de la rue des Rosiers depuis 1979 : pita chaude, falafels croustillants, aubergines grillées et sauce tahini. À emporter pour flâner dans le Marais, ou sur place dans la petite salle.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; fermé le samedi",
+   "photo": {
+    "auteur": "Ed Ogle",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL%27As_du_Fallafel%2C_Jewish_Quarter%2C_Paris_2015.jpg",
+    "src": "img/restos/PAR/as-du-fallafel.jpg"
+   }
+  },
+  {
+   "id": "kodawari",
+   "nom": "Kodawari Ramen (Yokochō)",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Ramen japonais",
+   "quartier": "Saint-Germain",
+   "adresse": "29 rue Mazarine, 75006 Paris",
+   "lat": 48.854642,
+   "lng": 2.338071,
+   "prix": "18 à 25 €",
+   "prix_min": 18,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "On mange ses ramen dans une ruelle de Tokyo reconstituée, avec lanternes, enseignes et bruits de la ville. Le bouillon est à la hauteur du décor, et le guide Michelin l'a distingué en 2026.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file d'attente le soir, venez à l'ouverture",
+   "photo": {
+    "auteur": "Guilhem Vellut from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABlack_Sesame_Ramen%2C_Kodawari_Ramen%2C_Paris_001.jpg",
+    "src": "img/restos/PAR/kodawari.jpg"
+   }
+  },
+  {
+   "id": "breizh-cafe",
+   "nom": "Breizh Café",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Crêperie bretonne",
+   "quartier": "Odéon",
+   "adresse": "1 rue de l'Odéon, 75006 Paris",
+   "lat": 48.85161,
+   "lng": 2.338773,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Des galettes de sarrasin croustillantes au beurre demi-sel et des crêpes au caramel maison, avec un cidre fermier : la crêperie qui a donné ses lettres de noblesse à la crêpe à Paris.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation en ligne conseillée le soir et le week-end",
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGaletteCidre.JPG",
+    "src": "img/restos/PAR/breizh-cafe.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "angelina",
+   "nom": "Angelina",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Salon de thé historique",
+   "quartier": "Tuileries",
+   "adresse": "226 rue de Rivoli, 75001 Paris",
+   "lat": 48.865078,
+   "lng": 2.32841,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Sous les arcades de la rue de Rivoli depuis 1903, le salon de thé de Coco Chanel sert un chocolat chaud « l'Africain » épais comme une crème, et le mont-blanc, sa pâtisserie signature. Décor Belle Époque.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file d'attente l'après-midi, venez le matin",
+   "photo": {
+    "auteur": "Bob Hall from Christchurch, New Zealand",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAngelina%2C_rue_de_Rivoli_2_Paris%2C_France_2011.jpg",
+    "src": "img/restos/PAR/angelina.jpg"
+   }
+  },
+  {
+   "id": "holybelly",
+   "nom": "Holybelly",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Brunch et pancakes",
+   "quartier": "Canal Saint-Martin",
+   "adresse": "5 rue Lucien Sampaix, 75010 Paris",
+   "lat": 48.871003,
+   "lng": 2.359819,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Le brunch qui a lancé la mode à Paris : piles de pancakes au sirop d'érable et au bacon, œufs parfaits et excellent café, à deux pas du canal Saint-Martin.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture le week-end",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Smoking_Stack_Pancakes_-_Laughing_Dog_2026-08-25.jpg",
+    "src": "img/restos/PAR/holybelly.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pink-mamma",
+   "nom": "Pink Mamma",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Trattoria italienne sur 4 étages",
+   "quartier": "Pigalle",
+   "adresse": "20 bis rue de Douai, 75009 Paris",
+   "lat": 48.881861,
+   "lng": 2.334598,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Quatre étages de plantes, de néons roses et de verrière, avec pâtes à la truffe et pizzas napolitaines : la trattoria la plus photographiée de Paris, de la bande Big Mamma.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation en ligne quelques jours avant ; sinon file d'attente",
+   "photo": {
+    "auteur": "Super nabla",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATagliatelle_kun_Trufo%2C_Historia_centro_de_Florenco.jpg",
+    "src": "img/restos/PAR/pink-mamma.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bon-georges",
+   "nom": "Le Bon Georges",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Bistrot parisien",
+   "quartier": "Saint-Georges",
+   "adresse": "45 rue Saint-Georges, 75009 Paris",
+   "lat": 48.877629,
+   "lng": 2.337262,
+   "prix": "45 à 70 €",
+   "prix_min": 45,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le bistrot comme on l'imagine : zinc, ardoise du jour, côte de bœuf, tartare au couteau et une belle cave. Les Parisiens comme les visiteurs le citent parmi leurs bistrots préférés.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez quelques jours avant, surtout le soir",
+   "photo": {
+    "auteur": "LuvsMG481",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteak_frites_-_yummy.jpg",
+    "src": "img/restos/PAR/bon-georges.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "procope",
+   "nom": "Le Procope",
+   "emoji": "🏛️",
+   "gamme": "moyen",
+   "genre": "Plus vieux café-restaurant de Paris",
+   "quartier": "Odéon",
+   "adresse": "13 rue de l'Ancienne Comédie, 75006 Paris",
+   "lat": 48.853006,
+   "lng": 2.338736,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1686, le Procope a vu passer Voltaire, Rousseau et Benjamin Franklin ; on y montre encore le bicorne de Napoléon. Coq au vin et tête de veau dans des salons du XVIIIe siècle.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation conseillée le soir",
+   "photo": {
+    "auteur": "Britchi Mirela",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParis%2C_France._Restaurant_LE_PROCOPE_%28Entrance%29%28PA00088496%29.jpg",
+    "src": "img/restos/PAR/procope.jpg"
+   }
+  },
+  {
+   "id": "chez-janou",
+   "nom": "Chez Janou",
+   "emoji": "🍫",
+   "gamme": "moyen",
+   "genre": "Bistrot provençal",
+   "quartier": "Le Marais",
+   "adresse": "2 rue Roger Verlomme, 75003 Paris",
+   "lat": 48.856688,
+   "lng": 2.367265,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un coin de Provence à deux pas de la place des Vosges : terrasse sous les arbres, pastis, cuisine du Sud et sa célèbre mousse au chocolat servie à volonté dans un grand saladier.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez un ou deux jours avant, indispensable le week-end",
+   "photo": {
+    "auteur": "Lu from Seattle, USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChocolate_coffee_mousse.jpg",
+    "src": "img/restos/PAR/chez-janou.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "coupole",
+   "nom": "La Coupole",
+   "emoji": "🦪",
+   "gamme": "moyen",
+   "genre": "Grande brasserie Art déco",
+   "quartier": "Montparnasse",
+   "adresse": "102 boulevard du Montparnasse, 75014 Paris",
+   "lat": 48.842306,
+   "lng": 2.32808,
+   "prix": "40 à 70 €",
+   "prix_min": 40,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La brasserie des Années folles, où dînaient Picasso, Hemingway et Joséphine Baker : piliers peints, mosaïques et plateaux de fruits de mer dans une salle Art déco de 1927.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation conseillée le soir",
+   "photo": {
+    "auteur": "LPLT",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALa_Coupole_-_Paris.JPG",
+    "src": "img/restos/PAR/coupole.jpg"
+   }
+  },
+  {
+   "id": "clamato",
+   "nom": "Clamato",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Bar à poissons et fruits de mer",
+   "quartier": "Bastille",
+   "adresse": "80 rue de Charonne, 75011 Paris",
+   "lat": 48.85355,
+   "lng": 2.3811,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Le petit frère de Septime, consacré à la mer : huîtres, crudos et petites assiettes à partager, avec la tarte au sirop d'érable en dessert. Une des adresses les plus courues de l'est parisien.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez à l'ouverture",
+   "photo": {
+    "auteur": "Jean-Pierre Bazard Jpbazard",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALes_Hu%C3%AEtres_de_Trousse_Chemise_%2815%29.JPG",
+    "src": "img/restos/PAR/clamato.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "train-bleu",
+   "nom": "Le Train Bleu",
+   "emoji": "🚂",
+   "gamme": "haut",
+   "genre": "Brasserie Belle Époque de la gare de Lyon",
+   "quartier": "Gare de Lyon",
+   "adresse": "Gare de Lyon, place Louis-Armand, 75012 Paris",
+   "lat": 48.845115,
+   "lng": 2.373036,
+   "prix": "70 à 120 €",
+   "prix_min": 70,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Dorures, lustres et 41 grandes peintures des villes desservies par le train : le plus beau buffet de gare du monde, monument historique depuis 1900. Gigot d'agneau découpé en salle et baba au rhum.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez une semaine avant pour le soir ; pratique avant de reprendre le TGV pour Lyon",
+   "photo": {
+    "auteur": "Gryffindor",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALe_Train_Bleu.jpg",
+    "src": "img/restos/PAR/train-bleu.jpg"
+   }
+  },
+  {
+   "id": "jules-verne",
+   "nom": "Le Jules Verne",
+   "emoji": "🗼",
+   "gamme": "haut",
+   "genre": "Gastronomie dans la tour Eiffel",
+   "quartier": "Champ-de-Mars",
+   "adresse": "Tour Eiffel, avenue Gustave-Eiffel, 75007 Paris",
+   "lat": 48.8584,
+   "lng": 2.2945,
+   "prix": "≈ 190 € (déjeuner) à 300 € (menu)",
+   "prix_min": 190,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Dîner au 2e étage de la tour Eiffel, à 125 mètres au-dessus de la Seine : la cuisine du chef triplement étoilé Frédéric Anton, avec Paris entier derrière la vitre. L'ascenseur privé est compris.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservations ouvertes 90 jours avant, les tables en vitrine partent vite",
+   "photo": {
+    "auteur": "Stephan Juillard",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJV_SalleQuaiBranly1_Cr%C3%A9dit_Stephan_Juilliard.jpg",
+    "src": "img/restos/PAR/jules-verne.jpg"
+   }
+  },
+  {
+   "id": "arpege",
+   "nom": "Arpège",
+   "emoji": "🥕",
+   "gamme": "haut",
+   "genre": "Grande cuisine des légumes",
+   "quartier": "Invalides",
+   "adresse": "84 rue de Varenne, 75007 Paris",
+   "lat": 48.855754,
+   "lng": 2.317013,
+   "prix": "≈ 260 € (déjeuner) à 420 € (menu)",
+   "prix_min": 260,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin · World's 50 Best (45e en 2025)",
+   "texte": "Alain Passard, trois étoiles depuis 1996, cuisine les légumes de ses propres potagers comme personne : depuis 2025, la carte est entièrement végétale. Une expérience unique au monde.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez plusieurs semaines avant",
+   "photo": {
+    "auteur": "NIeFH from Taipei, Taiwan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL%27Arp%C3%A8ge_restaurant%2C_Paris_Arpege_%288899605217%29.jpg",
+    "src": "img/restos/PAR/arpege.jpg"
+   }
+  },
+  {
+   "id": "septime",
+   "nom": "Septime",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Bistronomie de saison",
+   "quartier": "Bastille",
+   "adresse": "80 rue de Charonne, 75011 Paris",
+   "lat": 48.853603,
+   "lng": 2.380956,
+   "prix": "≈ 95 € (déjeuner) à 135 € (menu)",
+   "prix_min": 95,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin · World's 50 Best (40e en 2025)",
+   "texte": "La table qui a inventé le Paris gourmand d'aujourd'hui : menu surprise de légumes, poissons et vins nature dans une salle simple en bois et métal. La réservation la plus convoitée de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservations ouvertes 21 jours avant à 10 h, complet en quelques minutes"
+  },
+  {
+   "id": "laperouse",
+   "nom": "Lapérouse",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Salons historiques sur les quais",
+   "quartier": "Saint-Germain",
+   "adresse": "51 quai des Grands-Augustins, 75006 Paris",
+   "lat": 48.85512,
+   "lng": 2.341534,
+   "prix": "100 à 160 €",
+   "prix_min": 100,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1766, au bord de la Seine : des petits salons privés tendus de velours, où les dames gravaient leurs diamants sur les miroirs pour vérifier qu'ils étaient vrais. Le Paris galant et secret.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez une semaine avant, plus pour un salon privé",
+   "photo": {
+    "auteur": "Carl Campbell from Santiago de Querétaro, México",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALap%C3%A9rouse%2C_51_Quai_des_Grands_Augustins%2C_75006_Paris%2C_September_2016.jpg",
+    "src": "img/restos/PAR/laperouse.jpg"
+   }
+  },
+  {
+   "id": "le-cinq",
+   "nom": "Le Cinq (Four Seasons George V)",
+   "emoji": "💎",
+   "gamme": "haut",
+   "genre": "Restaurant de palace",
+   "quartier": "Champs-Élysées",
+   "adresse": "31 avenue George-V, 75008 Paris",
+   "lat": 48.868784,
+   "lng": 2.300677,
+   "prix": "≈ 175 € (déjeuner) à 400 € (menu)",
+   "prix_min": 175,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "Une salle gris et or ouverte sur le jardin du palace George V, des bouquets spectaculaires et la cuisine de Christian Le Squer, trois étoiles depuis dix ans. Le grand luxe à la française.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez deux à trois semaines avant",
+   "photo": {
+    "auteur": "Sarah_Ackerman",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChristmas_Decor_at_The_Four_Seasons_George_V_2.jpg",
+    "src": "img/restos/PAR/le-cinq.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

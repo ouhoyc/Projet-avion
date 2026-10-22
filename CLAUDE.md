@@ -159,6 +159,10 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   tournent en même temps, elle répond « 429 » par vagues de 10-30 min (attendre, ne pas insister). Requêtes en
   anglais et sans accents (les caractères turcs passaient mal).
   Wanderlog : 137 listes « …-in-prague » (géo 9620), 1 730 lieux.
+  Paris (oct. 2026) : recherche de fichiers en HTML (`ns6=1`), planches de 8 vignettes par lieu pour choisir,
+  puis vignette `960px-` ; ~3 min par lieu, l'ordinateur de travail redémarre toutes les ~5 h (relancer les
+  scripts). Peu ou pas de photos libres de Disneyland Paris (pas de liberté de panorama en France).
+  Wanderlog : ~220 listes « …-in-paris », 1 608 restaurants.
   Berlin (oct. 2026) : recherche de fichiers en HTML (`ns6=1`) et vignettes `960px-` (« 429 » fréquents : 20 s de pause
   puis réessayer) ; auteur et licence sur la page `File:`. Wanderlog : ~126 listes « …-in-berlin » (géo 9623).
   Si une conversation s'arrête en route, son historique se relit avec `list_events` (crédits photo, prix, positions).

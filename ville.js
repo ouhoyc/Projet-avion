@@ -54,6 +54,14 @@ const PARTNER_LINKS = {
     'bassins-lumieres': `${TIQETS_LINK}?u=${encodeURIComponent('https://www.tiqets.com/fr/billets-bassins-des-lumieres-l200556/')}`,
     'saint-emilion': tiqets('activites-attractions-bordeaux-c67101/billets-pour-demi-journee-oenologique-dans-le-village-de-saint-emilion-au-depart-de-bordeaux-p979424'),
   },
+  PAR: {
+    'orsay': tiqets('activites-attractions-paris-c66746/billets-pour-musee-d-orsay-entree-reservee-p973980'),
+    'orangerie': tiqets('activites-attractions-paris-c66746/billets-pour-musee-de-l-orangerie-billet-d-entree-p974438'),
+    'bourse-commerce': tiqets('activites-attractions-paris-c66746/billets-pour-bourse-de-commerce-pinault-collection-entree-avec-creneau-horaire-p1033590'),
+    'arc-triomphe': tiqets('activites-attractions-paris-c66746/billets-pour-arc-de-triomphe-billet-d-entree-acces-au-toit-p974146'),
+    'croisiere': tiqets('activites-attractions-paris-c66746/billets-pour-la-seine-croisiere-en-bateaux-mouches-r-p982823'),
+    'versailles': tiqets('activites-attractions-versailles-c66594/tickets-for-chateau-de-versailles-billet-d-entree-acces-aux-jardins-domaine-de-trianon-p1130024'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 
