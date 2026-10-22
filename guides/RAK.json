@@ -1,0 +1,1481 @@
+{
+ "city_code": "RAK",
+ "statut": "préparé en autonomie, prix estimés au 22/10/2026 (1 € ≈ 10,7 dirhams)",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "jemaa",
+   "nom": "Place Jemaa el-Fna à la tombée du jour",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Médina",
+   "lat": 31.625952,
+   "lng": -7.989049,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès à la place",
+     "gratuit"
+    ],
+    [
+     "Photo avec un charmeur de serpents ou un singe",
+     "on vous demandera 10 à 20 dirhams (≈ 1 à 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Vers 18 h : les étals de grillades s'installent et la place s'embrase",
+   "enfants": true,
+   "texte": "Classée au patrimoine immatériel de l'Unesco, la grande place change de visage au coucher du soleil : conteurs, musiciens gnaouas, jus d'orange pressés et fumée des grillades. Montez sur une terrasse de café pour voir le spectacle d'en haut.",
+   "site_officiel": "https://ich.unesco.org/fr/RL/l-espace-culturel-de-la-place-jemaa-el-fna-00014",
+   "a_verifier": false,
+   "note": "Ne photographiez pas les artistes sans accord (ils réclament de l'argent) et gardez vos affaires près de vous dans la foule.",
+   "photo": {
+    "auteur": "Herokk",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jemaa_el-Fnaa_Marrakech_at_sunset.jpg",
+    "src": "img/activites/RAK/jemaa.jpg"
+   }
+  },
+  {
+   "id": "souks",
+   "nom": "Les souks de la médina",
+   "emoji": "🏮",
+   "type": "balade",
+   "quartier": "Médina",
+   "lat": 31.628037,
+   "lng": -7.988067,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les souks",
+     "gratuit"
+    ],
+    [
+     "Guide officiel (badge du ministère du Tourisme)",
+     "≈ 30 à 40 € la demi-journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Le matin, plus calme, ou en fin de journée quand les lanternes s'allument",
+   "enfants": true,
+   "texte": "Un labyrinthe de ruelles couvertes où chaque souk a son métier : lanternes ciselées des forgerons, épices en pyramides, babouches, tapis et teinturiers aux écheveaux colorés. Perdez-vous sans crainte : on finit toujours par retomber sur Jemaa el-Fna.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": false,
+   "note": "Le marchandage fait partie du jeu : proposez environ la moitié du premier prix. Refusez poliment les « guides » improvisés qui vous emmènent aux tanneries, un piège à touristes classique.",
+   "photo": {
+    "auteur": "Petar Milošević",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oriental_hanging_lanterns._Souk_Haddadine,_Marrakech_Medina_(%D8%B3%D9%88%D9%82_%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF%D9%8A%D9%86_%D9%85%D8%B1%D8%A7%D9%83%D8%B4).jpg",
+    "src": "img/activites/RAK/souks.jpg"
+   }
+  },
+  {
+   "id": "majorelle",
+   "nom": "Jardin Majorelle",
+   "emoji": "🌵",
+   "type": "culture",
+   "quartier": "Guéliz",
+   "lat": 31.641203,
+   "lng": -8.00324,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Jardin, adulte",
+     "170 dirhams (≈ 16 €)"
+    ],
+    [
+     "Plus de 10 ans",
+     "95 dirhams (≈ 9 €)"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ],
+    [
+     "Billet jardin + musée berbère + musée Yves Saint Laurent",
+     "≈ 330 dirhams (≈ 31 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billets en ligne uniquement, sur le site officiel, quelques jours avant ; on choisit un créneau horaire",
+   "duree": "1 h",
+   "moment": "À l'ouverture (8 h), avant la foule et la chaleur",
+   "enfants": true,
+   "texte": "Le célèbre bleu Majorelle, les cactus géants, les bassins de nénuphars et les bambous : le jardin du peintre Jacques Majorelle, sauvé par Yves Saint Laurent et Pierre Bergé, est l'endroit le plus photographié de Marrakech.",
+   "site_officiel": "https://www.jardinmajorelle.com/",
+   "a_verifier": true,
+   "note": "Seuls les billets du site officiel (tickets.jardinmajorelle.com) ouvrent les portes : ceux vendus ailleurs sont refusés.",
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Viault",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_jardin_des_majorelle_20.JPG",
+    "src": "img/activites/RAK/majorelle.jpg"
+   }
+  },
+  {
+   "id": "ysl",
+   "nom": "Musée Yves Saint Laurent",
+   "emoji": "👗",
+   "type": "culture",
+   "quartier": "Guéliz",
+   "lat": 31.642593,
+   "lng": -8.003142,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 140 dirhams (≈ 13 €)"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ],
+    [
+     "Billet combiné avec le jardin Majorelle",
+     "≈ 330 dirhams (≈ 31 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      9,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "en ligne, sur la même billetterie que le jardin Majorelle",
+   "duree": "1 h",
+   "moment": "Juste après le jardin Majorelle, à 100 m",
+   "enfants": true,
+   "texte": "Un bâtiment de brique dentelée comme une trame de tissu, consacré au couturier qui aimait tant Marrakech : croquis, robes de haute couture et l'histoire de son coup de foudre pour la ville.",
+   "site_officiel": "https://www.museeyslmarrakech.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Pivari",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Architetti_studio_ko,_museo_YSL_a_Marrakech.jpg",
+    "src": "img/activites/RAK/ysl.jpg"
+   }
+  },
+  {
+   "id": "bahia",
+   "nom": "Palais de la Bahia",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Médina",
+   "lat": 31.621707,
+   "lng": -7.981969,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "100 dirhams (≈ 9 €)"
+    ],
+    [
+     "7 à 13 ans",
+     "50 dirhams (≈ 5 €)"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      13,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet, en espèces de préférence ; file plus courte à l'ouverture",
+   "duree": "1 h",
+   "moment": "À l'ouverture (9 h) ou en fin d'après-midi",
+   "enfants": true,
+   "texte": "Un palais de vizir du XIXe siècle : 8 hectares de cours de marbre, plafonds de cèdre peints, zelliges et jardins d'orangers. Chaque salle est plus fine que la précédente.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Val Traveler",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahia_Palace_large_court.jpg",
+    "src": "img/activites/RAK/bahia.jpg"
+   }
+  },
+  {
+   "id": "ben-youssef",
+   "nom": "Médersa Ben Youssef",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Médina nord",
+   "lat": 31.632054,
+   "lng": -7.986276,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "50 dirhams (≈ 5 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "≈ 10 dirhams (≈ 1 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      11,
+      1
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet",
+   "duree": "45 min",
+   "moment": "Tôt le matin, quand la cour est vide pour les photos",
+   "enfants": true,
+   "texte": "L'ancienne école coranique, la plus grande du Maghreb, rouverte après sa restauration : une cour de marbre avec son bassin, entourée de stuc ciselé, de cèdre sculpté et de mosaïques. La photo symétrique que tout le monde veut.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Tom Neys",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marrakech_medersa-ben-youssef.jpg",
+    "src": "img/activites/RAK/ben-youssef.jpg"
+   }
+  },
+  {
+   "id": "saadiens",
+   "nom": "Tombeaux saadiens",
+   "emoji": "⚱️",
+   "type": "culture",
+   "quartier": "Kasbah",
+   "lat": 31.617355,
+   "lng": -7.988761,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 100 dirhams (≈ 9 €)"
+    ],
+    [
+     "Enfants",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      13,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet ; files fréquentes en fin de matinée",
+   "duree": "30 min",
+   "moment": "À l'ouverture, car la salle des douze colonnes se voit par une seule porte",
+   "enfants": true,
+   "texte": "Les sépultures de la dynastie saadienne (XVIe siècle), murées pendant des siècles et redécouvertes en 1917 : la salle des douze colonnes, en marbre de Carrare et stuc doré, est un joyau.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "note": "Lieu petit et vite bondé : on fait la queue pour apercevoir la plus belle salle. À combiner avec le palais El Badi, à 5 minutes à pied.",
+   "photo": {
+    "auteur": "John Leeson from Toronto, Canada",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saadian_Tombs,_Marrakech_(53488190422).jpg",
+    "src": "img/activites/RAK/saadiens.jpg"
+   }
+  },
+  {
+   "id": "badi",
+   "nom": "Palais El Badi",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Kasbah",
+   "lat": 31.618236,
+   "lng": -7.985862,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 100 dirhams (≈ 9 €)"
+    ],
+    [
+     "Enfants",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      13,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, pour la lumière sur les remparts",
+   "enfants": true,
+   "texte": "Les ruines immenses du palais « l'Incomparable », construit au XVIe siècle avec l'or du Soudan : bassins géants, orangers en contrebas et cigognes nichées sur les murs. Montez sur les remparts pour la vue sur la médina.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Badi_Palace,_Marrakesh,_Morocco,_20250125_0957_7118.jpg",
+    "src": "img/activites/RAK/badi.jpg"
+   }
+  },
+  {
+   "id": "dar-el-bacha",
+   "nom": "Dar el Bacha et son café",
+   "emoji": "☕",
+   "type": "culture",
+   "quartier": "Médina, Bab Doukkala",
+   "lat": 31.631438,
+   "lng": -7.992289,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Musée des Confluences, adulte",
+     "≈ 60 dirhams (≈ 6 €)"
+    ],
+    [
+     "Café (Bacha Coffee), en plus",
+     "≈ 10 à 15 € pour un café et une pâtisserie"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture pour le café, la file d'attente peut dépasser une heure",
+   "duree": "1 h 30",
+   "moment": "À l'ouverture (10 h)",
+   "enfants": true,
+   "texte": "L'ancien palais du pacha Glaoui, aux patios de zellige et aux jardins andalous, abrite un musée et le café le plus photographié de la ville, Bacha Coffee, avec ses 200 cafés servis dans des cafetières d'argent.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "note": "Fermé le lundi (à vérifier). Le billet du musée est demandé pour accéder au café.",
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "YassirZek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dar_El_Bacha_Thami_EL_Glaoui.jpg",
+    "src": "img/activites/RAK/dar-el-bacha.jpg"
+   }
+  },
+  {
+   "id": "maison-photo",
+   "nom": "Maison de la Photographie",
+   "emoji": "📷",
+   "type": "culture",
+   "quartier": "Médina nord",
+   "lat": 31.631995,
+   "lng": -7.984239,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 50 dirhams (≈ 5 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En fin de matinée, puis un thé sur le toit",
+   "enfants": true,
+   "texte": "Le Maroc d'hier en milliers de photos anciennes (1870-1960), dans un riad restauré. Sa terrasse sur les toits offre une des plus belles vues sur la médina et l'Atlas.",
+   "site_officiel": "https://www.maisondelaphotographie.ma/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "DRAGANCESTIC",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maison_de_la_Photographie_de_Marrakech%2C_a_small_photography_museum_-_House_of_Photography_in_Marrakech%2C_Morroco.jpg",
+    "src": "img/activites/RAK/maison-photo.jpg"
+   }
+  },
+  {
+   "id": "koutoubia",
+   "nom": "Mosquée de la Koutoubia et ses jardins",
+   "emoji": "🕌",
+   "type": "balade",
+   "quartier": "Médina",
+   "lat": 31.62372,
+   "lng": -7.99362,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardins de la Koutoubia",
+     "gratuit"
+    ],
+    [
+     "Intérieur de la mosquée",
+     "réservé aux musulmans"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Au coucher du soleil, quand le minaret rougit",
+   "enfants": true,
+   "texte": "Son minaret de 77 mètres, modèle de la Giralda de Séville, veille sur la ville depuis le XIIe siècle : c'est le repère de toute la médina. Promenez-vous dans les jardins de roses et de palmiers à ses pieds.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kutubiyya_Mosque,_Marrakesh,_Morocco,_20250125_0859_7061.jpg",
+    "src": "img/activites/RAK/koutoubia.jpg"
+   }
+  },
+  {
+   "id": "jardin-secret",
+   "nom": "Le Jardin Secret",
+   "emoji": "🌿",
+   "type": "culture",
+   "quartier": "Médina, Mouassine",
+   "lat": 31.630691,
+   "lng": -7.98952,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 100 dirhams (≈ 9 €)"
+    ],
+    [
+     "Montée à la tour",
+     "≈ 40 dirhams (≈ 4 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "En milieu de journée, pour souffler loin des souks",
+   "enfants": true,
+   "texte": "Au cœur des souks, un palais du XIXe siècle et ses deux jardins restaurés : l'un islamique, géométrique et fleuri, l'autre exotique. Montez à la tour pour voir la médina et l'Atlas par-dessus les toits.",
+   "site_officiel": "https://lejardinsecretmarrakech.com/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "muffinn from Worcester, UK",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morocco_-_Marrakech_-_Le_Jardin_Secret_(49133982557).jpg",
+    "src": "img/activites/RAK/jardin-secret.jpg"
+   }
+  },
+  {
+   "id": "menara",
+   "nom": "Jardins de la Ménara",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Hivernage",
+   "lat": 31.614327,
+   "lng": -8.022542,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardins et bassin",
+     "gratuit"
+    ],
+    [
+     "Pavillon",
+     "≈ 10 dirhams (≈ 1 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de journée, par temps clair pour voir l'Atlas enneigé (de décembre à mars)",
+   "enfants": true,
+   "texte": "Un grand bassin du XIIe siècle au milieu des oliviers, et son pavillon au toit vert qui se reflète dans l'eau, avec les sommets de l'Atlas en toile de fond : la carte postale classique de Marrakech.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "JopkeB",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Menara_Bassin_and_Garden_Pavilion%2C_Marrakech_1989.jpg",
+    "src": "img/activites/RAK/menara.jpg"
+   }
+  },
+  {
+   "id": "mellah",
+   "nom": "Le Mellah et la synagogue Lazama",
+   "emoji": "🕍",
+   "type": "balade",
+   "quartier": "Mellah",
+   "lat": 31.620019,
+   "lng": -7.982417,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Balade dans le quartier",
+     "gratuit"
+    ],
+    [
+     "Synagogue Slat al-Azama",
+     "≈ 20 dirhams (≈ 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, en combinaison avec le palais de la Bahia tout proche",
+   "enfants": true,
+   "texte": "L'ancien quartier juif de Marrakech, fondé au XVIe siècle : ruelles aux balcons de bois, marché aux épices de la place des Ferblantiers et la synagogue Lazama, avec sa cour carrelée de bleu et blanc.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "David Berkowitz from New York, NY, USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lazama_Jewish_Synagogue_-_Mellah_-_Hay_Essalam_-_Marrakech%2C_Morocco_%288139028794%29.jpg",
+    "src": "img/activites/RAK/mellah.jpg"
+   }
+  },
+  {
+   "id": "hammam",
+   "nom": "Hammam et gommage",
+   "emoji": "🧖",
+   "type": "sortir",
+   "quartier": "Kasbah",
+   "lat": 31.617406,
+   "lng": -7.990623,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Hammam et gommage dans un spa (ex. Les Bains de Marrakech)",
+     "≈ 40 à 60 €"
+    ],
+    [
+     "Avec massage",
+     "≈ 70 à 100 €"
+    ],
+    [
+     "Hammam de quartier (traditionnel, sans soins)",
+     "≈ 2 à 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même pour les spas",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin d'après-midi, après une journée de visites",
+   "enfants": false,
+   "texte": "Le rituel marocain : bain de vapeur, savon noir à l'eucalyptus et gommage énergique au gant de kessa, puis thé à la menthe. Vous ressortez avec une peau neuve, prêt pour le dîner.",
+   "site_officiel": "https://www.lesbainsdemarrakech.com/",
+   "a_verifier": true,
+   "note": "Dans un hammam de quartier, apportez savon noir, gant et serviette ; les hommes et les femmes ont des horaires ou des salles séparés.",
+   "photo": {
+    "auteur": "R Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hammam_Saffarin_20260705_114042.jpg",
+    "src": "img/activites/RAK/hammam.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "caleche",
+   "nom": "Tour des remparts en calèche",
+   "emoji": "🐴",
+   "type": "balade",
+   "quartier": "Départ place Foucault",
+   "lat": 31.6247,
+   "lng": -7.9905,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Calèche (jusqu'à 4-5 personnes), 1 heure",
+     "≈ 200 dirhams (≈ 20 €) par calèche"
+    ],
+    [
+     "Enfants dans la même calèche",
+     "compris"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : station au pied de la Koutoubia ; fixez le prix et la durée avant de monter",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, quand la lumière dore les remparts",
+   "enfants": true,
+   "texte": "Faites le tour des 19 km de remparts ocre et des portes monumentales, puis passez par la Palmeraie ou les jardins de la Ménara, au trot, sans marcher sous le soleil.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "note": "Les tarifs officiels sont affichés dans chaque calèche : demandez à les voir."
+  },
+  {
+   "id": "montgolfiere",
+   "nom": "Montgolfière au lever du soleil",
+   "emoji": "🎈",
+   "type": "vue",
+   "quartier": "Environs de Marrakech",
+   "lat": 31.7,
+   "lng": -7.75,
+   "prix": 170,
+   "prix_detail": [
+    [
+     "Vol d'une heure, transfert et petit-déjeuner berbère compris",
+     "≈ 150 à 200 €"
+    ],
+    [
+     "Vol privé",
+     "≈ 350 € et plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 170,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant (une semaine en haute saison) ; départ de l'hôtel vers 5 h 30",
+   "duree": "Matinée (vol d'1 h)",
+   "moment": "Au lever du soleil, d'octobre à mai pour la vue sur l'Atlas enneigé",
+   "enfants": true,
+   "texte": "Survolez en silence les villages berbères, les palmeraies et les champs, pendant que le soleil se lève derrière l'Atlas enneigé. Le souvenir le plus magique d'un séjour à Marrakech.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "note": "Les enfants sont acceptés dès 6 ans environ, selon les compagnies. Le vol est annulé (et remboursé) en cas de vent.",
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Jane82",
+    "licence": "GFDL",
+    "page": "https://commons.wikimedia.org/wiki/File:Hot_air_balloon%2C_Morocco.JPG",
+    "src": "img/activites/RAK/montgolfiere.jpg"
+   }
+  },
+  {
+   "id": "agafay",
+   "nom": "Désert d'Agafay : dromadaires et dîner sous les étoiles",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Agafay (40 min)",
+   "lat": 31.45,
+   "lng": -8.2,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Balade à dromadaire au coucher du soleil + dîner, transfert compris",
+     "≈ 40 à 60 €"
+    ],
+    [
+     "Avec quad (1 h)",
+     "≈ 60 à 80 €"
+    ],
+    [
+     "Nuit dans un camp de luxe",
+     "≈ 100 € et plus par personne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      11,
+      30
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant",
+   "duree": "Demi-journée (14 h - 22 h)",
+   "moment": "En fin de journée, pour le coucher du soleil et le ciel étoilé",
+   "enfants": true,
+   "texte": "À 40 minutes de la ville, un désert de pierres aux collines dorées, face aux sommets de l'Atlas : dromadaires au coucher du soleil, dîner sous une tente berbère, musique autour du feu et ciel plein d'étoiles.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "note": "Ce n'est pas un désert de dunes de sable comme le Sahara, mais un désert de pierres : les photos de « dunes » sont trompeuses.",
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Agafay_Desert%2C_Morocco%2C_20250125_1751_7274.jpg",
+    "src": "img/activites/RAK/agafay.jpg"
+   }
+  },
+  {
+   "id": "palmeraie",
+   "nom": "Dromadaire ou quad dans la Palmeraie",
+   "emoji": "🌴",
+   "type": "nature",
+   "quartier": "Palmeraie",
+   "lat": 31.665,
+   "lng": -7.96,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Balade à dromadaire (1 h), transfert compris",
+     "≈ 20 à 30 €"
+    ],
+    [
+     "Quad (2 h)",
+     "≈ 35 à 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      11,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "2 à 3 h",
+   "moment": "En fin d'après-midi, la lumière est plus douce",
+   "enfants": true,
+   "texte": "À 15 minutes de la médina, une forêt de 100 000 palmiers dattiers : balade à dos de dromadaire entre les troncs, avec un thé dans une maison berbère, ou virée en quad sur les pistes.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Viault",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Palmeraie_de_Marrakech_692.JPG",
+    "src": "img/activites/RAK/palmeraie.jpg"
+   }
+  },
+  {
+   "id": "anima",
+   "nom": "Jardin Anima d'André Heller",
+   "emoji": "🎨",
+   "type": "nature",
+   "quartier": "Route de l'Ourika (30 min)",
+   "lat": 31.4846,
+   "lng": -7.8655,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Adulte",
+     "140 dirhams (≈ 13 €)"
+    ],
+    [
+     "12 à 16 ans",
+     "60 dirhams (≈ 6 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ],
+    [
+     "Navette depuis la médina",
+     "gratuite, à réserver"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      11,
+      0
+     ],
+     [
+      16,
+      6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez la navette gratuite en ligne (places limitées)",
+   "duree": "2 h",
+   "moment": "Le matin, avant la chaleur",
+   "enfants": true,
+   "texte": "Le jardin-œuvre d'art de l'artiste autrichien André Heller : sculptures surprenantes (dont des œuvres de Keith Haring), plantes du monde entier et vue sur l'Atlas. Une parenthèse poétique au calme.",
+   "site_officiel": "https://www.anima-garden.com/",
+   "a_verifier": true
+  },
+  {
+   "id": "ourika",
+   "nom": "Vallée de l'Ourika",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Haut Atlas (1 h)",
+   "lat": 31.33,
+   "lng": -7.78,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Journée en groupe, transport compris",
+     "≈ 20 à 30 €"
+    ],
+    [
+     "Guide local pour les cascades de Setti Fatma",
+     "≈ 5 à 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      11,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Journée",
+   "moment": "De mars à juin et de septembre à novembre",
+   "enfants": true,
+   "texte": "La porte du Haut Atlas, à une heure de route : villages berbères en terre rouge, rivière bordée de restaurants les pieds dans l'eau et randonnée jusqu'aux cascades de Setti Fatma.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Anton Zelenov",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ourika_river.jpg",
+    "src": "img/activites/RAK/ourika.jpg"
+   }
+  },
+  {
+   "id": "ouzoud",
+   "nom": "Cascades d'Ouzoud",
+   "emoji": "💧",
+   "type": "nature",
+   "quartier": "Moyen Atlas (2 h 30)",
+   "lat": 32.0153,
+   "lng": -6.7194,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Journée en groupe, transport compris",
+     "≈ 25 à 35 €"
+    ],
+    [
+     "Guide local et barque au pied des chutes",
+     "≈ 5 à 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Journée",
+   "moment": "Au printemps, quand le débit est le plus fort",
+   "enfants": true,
+   "texte": "Les plus hautes chutes du Maroc (110 m) plongent dans des bassins turquoise au milieu des oliviers ; des singes magots se promènent sur le sentier. Baignade possible et arc-en-ciel garanti l'après-midi.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ouzoud_Falls,_Morocco,_20250126_1428_7496.jpg",
+    "src": "img/activites/RAK/ouzoud.jpg"
+   }
+  },
+  {
+   "id": "ait-ben-haddou",
+   "nom": "Aït-Ben-Haddou et le col du Tichka",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Route de Ouarzazate (3 h 30)",
+   "lat": 31.047,
+   "lng": -7.1293,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Journée en groupe, transport compris",
+     "≈ 30 à 45 €"
+    ],
+    [
+     "Entrée du ksar",
+     "libre (certaines maisons demandent ≈ 1 à 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      11,
+      25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Journée (12 h)",
+   "moment": "De septembre à mai ; le col peut être enneigé en hiver",
+   "enfants": true,
+   "texte": "Un village fortifié en terre rouge, classé par l'Unesco, décor de Gladiator et de Game of Thrones, après la route spectaculaire du col du Tichka (2 260 m) à travers le Haut Atlas. Une longue journée, mais inoubliable.",
+   "site_officiel": "https://whc.unesco.org/fr/list/444/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "cliff williams",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A%C3%AFtBenhaddou_Morocco_2.jpg",
+    "src": "img/activites/RAK/ait-ben-haddou.jpg"
+   }
+  },
+  {
+   "id": "essaouira",
+   "nom": "Journée à Essaouira",
+   "emoji": "🌊",
+   "type": "nature",
+   "quartier": "Côte atlantique (2 h 30)",
+   "lat": 31.5125,
+   "lng": -9.77,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Journée en groupe, transport compris",
+     "≈ 25 à 35 €"
+    ],
+    [
+     "En bus (Supratours), aller-retour",
+     "≈ 18 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Journée",
+   "moment": "Toute l'année, pour fuir la chaleur en été",
+   "enfants": true,
+   "texte": "Les remparts blancs et bleus face à l'Atlantique, le port aux barques bleues et ses mouettes, les galeries d'art et le poisson grillé sur le port : la ville bohème des alizés, classée par l'Unesco.",
+   "site_officiel": "https://whc.unesco.org/fr/list/753/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ahmed.magdy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Essaouira_Citadel.jpg",
+    "src": "img/activites/RAK/essaouira.jpg"
+   }
+  },
+  {
+   "id": "imlil",
+   "nom": "Imlil et le Toubkal",
+   "emoji": "🥾",
+   "type": "nature",
+   "quartier": "Haut Atlas (1 h 30)",
+   "lat": 31.1369,
+   "lng": -7.9196,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Journée avec randonnée guidée et déjeuner chez l'habitant",
+     "≈ 30 à 45 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      11,
+      25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Journée",
+   "moment": "D'avril à octobre (neige en hiver)",
+   "enfants": true,
+   "texte": "Au pied du Toubkal, le plus haut sommet d'Afrique du Nord (4 167 m) : sentiers entre noyers et villages en terrasses, déjeuner de tajine chez une famille berbère et grand air garanti.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/marrakech",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Mounir Neddi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Imlil_Marakech_Morocco_3.jpg",
+    "src": "img/activites/RAK/imlil.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "medina",
+   "nom": "Médina (autour de Jemaa el-Fna)",
+   "lat": 31.6275,
+   "lng": -7.9885,
+   "texte": "Dormez dans un riad, une maison traditionnelle autour d'un patio : tout se fait à pied, souks et monuments compris. Les ruelles sont animées et les voitures n'y entrent pas : prévoyez de marcher un peu avec vos bagages."
+  },
+  {
+   "id": "mouassine",
+   "nom": "Mouassine et Bab Doukkala",
+   "lat": 31.6315,
+   "lng": -7.993,
+   "texte": "Le nord-ouest de la médina, plus calme et chic : riads de charme, Dar el Bacha, Jardin Secret et boutiques de créateurs, à 10 minutes à pied de Jemaa el-Fna."
+  },
+  {
+   "id": "kasbah",
+   "nom": "Kasbah",
+   "lat": 31.617,
+   "lng": -7.9885,
+   "texte": "Le sud de la médina, près des tombeaux saadiens et du palais El Badi : plus tranquille, avec des riads un peu moins chers et des taxis faciles à trouver à Bab Agnaou."
+  },
+  {
+   "id": "gueliz",
+   "nom": "Guéliz",
+   "lat": 31.636,
+   "lng": -8.012,
+   "texte": "La ville nouvelle : hôtels modernes, restaurants, cafés et boutiques, avec des trottoirs et des taxis partout. À 10 minutes à pied du jardin Majorelle et 20 minutes de la médina."
+  },
+  {
+   "id": "hivernage",
+   "nom": "Hivernage",
+   "lat": 31.622,
+   "lng": -8.004,
+   "texte": "Le quartier des grands hôtels avec piscine et jardins, entre Guéliz et la médina : calme, verdoyant, avec les restaurants et la vie nocturne de Marrakech."
+  }
+ ],
+ "hotel_petit_prix_max": 60,
+ "restaurants": [
+  {
+   "id": "amal",
+   "nom": "Amal",
+   "emoji": "🥘",
+   "gamme": "petit",
+   "genre": "Cuisine familiale marocaine",
+   "quartier": "Guéliz",
+   "adresse": "Rue Allal Ben Ahmed, Guéliz",
+   "lat": 31.639013,
+   "lng": -8.013798,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Une association qui forme des femmes en difficulté au métier de cuisinière : au déjeuner, couscous du vendredi, tajines et pastilla faits maison, dans un jardin tranquille. Bon, pas cher et utile.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le déjeuner ; ouvert surtout le midi",
+   "photo": {
+    "auteur": "Rystheguy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amal_Women%27s_Training_Center_and_Moroccan_Restaurant_trainees_preparing_lunch.jpg",
+    "src": "img/restos/RAK/amal.jpg"
+   }
+  },
+  {
+   "id": "naranj",
+   "nom": "Naranj",
+   "emoji": "🧆",
+   "gamme": "petit",
+   "genre": "Cuisine libanaise",
+   "quartier": "Médina",
+   "adresse": "84 rue Riad Zitoun el Jdid",
+   "lat": 31.62461,
+   "lng": -7.98517,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Mezzés, chawarmas et houmous à partager dans une salle aux carreaux colorés ou sur le toit-terrasse, entre la place Jemaa el-Fna et le palais de la Bahia. Un des restaurants les mieux notés de la médina.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour le dîner"
+  },
+  {
+   "id": "clock",
+   "nom": "Café Clock",
+   "emoji": "🐫",
+   "gamme": "petit",
+   "genre": "Café culturel",
+   "quartier": "Kasbah",
+   "adresse": "224 Derb Chtouka, Kasbah",
+   "lat": 31.612895,
+   "lng": -7.987251,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Un café sur plusieurs étages et une terrasse, célèbre pour son burger de chameau, ses soirées de conteurs et ses concerts. L'adresse conviviale de la Kasbah, où voyageurs et habitants se mélangent.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; soirées de contes le jeudi (à vérifier)"
+  },
+  {
+   "id": "mazel",
+   "nom": "Mazel",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Cuisine de rue",
+   "quartier": "Mellah",
+   "adresse": "8 place des Ferblantiers",
+   "lat": 31.619748,
+   "lng": -7.985023,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Sur la place des Ferblantiers, à deux pas du palais El Badi : sandwichs, brochettes et assiettes de cuisine de rue marocaine, simples et généreuses, à prix doux. Parfait entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marrakech_Place_des_Ferblantiers_(54270359506).jpg",
+    "src": "img/restos/RAK/mazel.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "atay",
+   "nom": "Atay Café",
+   "emoji": "🍵",
+   "gamme": "petit",
+   "genre": "Terrasse sur les toits",
+   "quartier": "Médina, souks",
+   "adresse": "62 rue Amsafah, Sidi Abdelaziz",
+   "lat": 31.632613,
+   "lng": -7.988469,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Trois étages de terrasses colorées au-dessus des souks : salades, tajines et jus frais face aux toits de la médina. Le refuge idéal pour déjeuner pendant le shopping.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 13 h"
+  },
+  {
+   "id": "princes",
+   "nom": "Pâtisserie des Princes",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Pâtisserie marocaine",
+   "quartier": "Médina",
+   "adresse": "Rue Bab Agnaou (passage Prince Moulay Rachid)",
+   "lat": 31.624114,
+   "lng": -7.989131,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [
+    "institution"
+   ],
+   "texte": "À deux pas de Jemaa el-Fna, la pâtisserie où les Marrakchis viennent depuis des décennies acheter cornes de gazelle, chebakia au miel et glaces. Goûtez-les avec un thé dans le salon du fond.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation"
+  },
+  {
+   "id": "fassia",
+   "nom": "Al Fassia",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine marocaine traditionnelle",
+   "quartier": "Agdal (sud de la ville)",
+   "adresse": "Km 2, route de l'Ourika",
+   "lat": 31.589693,
+   "lng": -7.985668,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un restaurant tenu entièrement par des femmes depuis 1987, réputé pour l'épaule d'agneau confite, les pastillas et les plateaux de salades marocaines. L'adresse que les habitants recommandent pour un vrai repas marocain.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; la salle de Guéliz était fermée en octobre 2026 (à vérifier), celle-ci est à 15 min de taxi de la médina"
+  },
+  {
+   "id": "cherifa",
+   "nom": "Dar Cherifa",
+   "emoji": "📚",
+   "gamme": "moyen",
+   "genre": "Riad du XVIe siècle",
+   "quartier": "Médina, Mouassine",
+   "adresse": "8 Derb Chorfa Lakbir, Mouassine",
+   "lat": 31.629217,
+   "lng": -7.990054,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'une des plus vieilles maisons de Marrakech, avec ses boiseries et son stuc du XVIe siècle, devenue café littéraire et galerie : on y déjeune d'un tajine dans le patio ou sur la terrasse, au calme absolu.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner"
+  },
+  {
+   "id": "limoni",
+   "nom": "Limoni",
+   "emoji": "🍋",
+   "gamme": "moyen",
+   "genre": "Cuisine italienne",
+   "quartier": "Médina nord",
+   "adresse": "40 rue Diour Saboun",
+   "lat": 31.635563,
+   "lng": -7.989015,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Des pâtes fraîches et des risottos servis sous les citronniers d'un patio de riad : une parenthèse italienne lumineuse au milieu de la médina, très prisée des habitants.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même"
+  },
+  {
+   "id": "poste",
+   "nom": "Grand Café de la Poste",
+   "emoji": "🕰️",
+   "gamme": "moyen",
+   "genre": "Brasserie de l'époque coloniale",
+   "quartier": "Guéliz",
+   "adresse": "Angle boulevard El Mansour Eddahbi et avenue Mohammed V",
+   "lat": 31.633074,
+   "lng": -8.010075,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une brasserie de 1925 aux ventilateurs, palmiers en pot et fauteuils de rotin, derrière la grande poste de Guéliz : cuisine française et marocaine, et une terrasse parfaite pour l'apéritif.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour le dîner"
+  },
+  {
+   "id": "plus61",
+   "nom": "+61",
+   "emoji": "🥗",
+   "gamme": "moyen",
+   "genre": "Cuisine de saison",
+   "quartier": "Guéliz",
+   "adresse": "96 rue Mohammed el Beqal",
+   "lat": 31.635101,
+   "lng": -8.015479,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "MENA's 50 Best Restaurants 2026 (31e)",
+   "texte": "Un chef australien et des produits marocains de saison : assiettes à partager, légères et créatives, dans une salle claire et minimaliste. Une des tables qui font bouger Marrakech.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant"
+  },
+  {
+   "id": "kabana",
+   "nom": "Kabana",
+   "emoji": "🌇",
+   "gamme": "moyen",
+   "genre": "Toit-terrasse et cocktails",
+   "quartier": "Médina, face à la Koutoubia",
+   "adresse": "1 rue Fatima Zahra, Kissariat Ben Khalid",
+   "lat": 31.626179,
+   "lng": -7.993099,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Un toit-terrasse bohème face au minaret de la Koutoubia : cuisine du monde, cocktails et musique, pour regarder le soleil se coucher sur la médina.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table au bord de la terrasse au coucher du soleil"
+  },
+  {
+   "id": "grande-table",
+   "nom": "La Grande Table Marocaine",
+   "emoji": "👑",
+   "gamme": "haut",
+   "genre": "Haute cuisine marocaine",
+   "quartier": "Royal Mansour",
+   "adresse": "Royal Mansour, rue Abou el Abbas Sebti",
+   "lat": 31.625273,
+   "lng": -7.998207,
+   "prix": "≈ 120 à 180 €",
+   "prix_min": 120,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "MENA's 50 Best Restaurants 2026 (19e) et prix de l'art de l'accueil",
+   "texte": "Dans le palais du Royal Mansour, la cuisine marocaine portée au sommet : pastilla, couscous et pâtisseries revisités avec une finesse rare, dans un salon de stuc et de cèdre sculpté.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; tenue soignée"
+  },
+  {
+   "id": "sesamo",
+   "nom": "Sesamo",
+   "emoji": "🍝",
+   "gamme": "haut",
+   "genre": "Gastronomie italienne",
+   "quartier": "Royal Mansour",
+   "adresse": "Royal Mansour, rue Abou el Abbas Sebti",
+   "lat": 31.625474,
+   "lng": -7.998216,
+   "prix": "≈ 100 à 150 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "MENA's 50 Best Restaurants 2026 (24e)",
+   "texte": "La cuisine italienne du chef triplement étoilé Massimiliano Alajmo, servie sous une verrière au milieu des jardins du Royal Mansour : pâtes, risottos et saveurs méditerranéennes.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 semaines avant ; tenue soignée"
+  },
+  {
+   "id": "cornichon",
+   "nom": "Le Petit Cornichon",
+   "emoji": "🥒",
+   "gamme": "haut",
+   "genre": "Bistronomie française",
+   "quartier": "Guéliz",
+   "adresse": "27 rue Moulay Ali",
+   "lat": 31.637502,
+   "lng": -8.01317,
+   "prix": "≈ 50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "MENA's 50 Best Restaurants 2026 (21e)",
+   "texte": "Un bistrot chic et intime, où la cuisine française se marie aux produits marocains : menus de saison et belle carte de vins. Il a fait un bond dans le classement des meilleurs restaurants du Moyen-Orient et d'Afrique du Nord.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant"
+  },
+  {
+   "id": "darna",
+   "nom": "Comptoir Darna",
+   "emoji": "💃",
+   "gamme": "haut",
+   "genre": "Dîner-spectacle",
+   "quartier": "Hivernage",
+   "adresse": "Avenue Echouhada, Hivernage",
+   "lat": 31.623879,
+   "lng": -8.003152,
+   "prix": "≈ 50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1999, la soirée la plus festive de Marrakech : dîner marocain dans une villa aux lanternes, danseuses orientales qui passent entre les tables, puis ambiance club à l'étage.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant, surtout le week-end"
+  },
+  {
+   "id": "yacout",
+   "nom": "Dar Yacout",
+   "emoji": "🏮",
+   "gamme": "haut",
+   "genre": "Festin marocain dans un palais",
+   "quartier": "Médina nord",
+   "adresse": "79 Derb Sidi Ahmed Soussi",
+   "lat": 31.636394,
+   "lng": -7.993531,
+   "prix": "≈ 70 à 90 € (menu)",
+   "prix_min": 70,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Un palais de contes des mille et une nuits, aux colonnes de zellige et aux chandeliers : apéritif sur la terrasse au coucher du soleil, puis grand menu marocain (salades, pastilla, tajine, couscous) au son du luth.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; dîner seulement, boissons comprises dans le menu (à vérifier)"
+  },
+  {
+   "id": "lingling",
+   "nom": "Ling Ling",
+   "emoji": "🥢",
+   "gamme": "haut",
+   "genre": "Cuisine cantonaise",
+   "quartier": "Route du Golf royal",
+   "adresse": "Mandarin Oriental, route du Golf royal",
+   "lat": 31.604316,
+   "lng": -7.951521,
+   "prix": "≈ 70 à 120 €",
+   "prix_min": 70,
+   "badges": [],
+   "texte": "La table asiatique des créateurs de Hakkasan, au milieu des oliviers du Mandarin Oriental : dim sum, canard laqué et cocktails, dans une ambiance tamisée de club chic. Une soirée à 20 minutes de taxi de la médina.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; le week-end, la semaine d'avant"
+  }
+ ]
+}
