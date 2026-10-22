@@ -275,6 +275,17 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   Prix à confirmer (`a_verifier`) : Neues Museum, cathédrale, tour de télévision, Charlottenburg, Colonne de la Victoire,
   croisière, zoo (prix variables), Philharmonie, Berghain, Teufelsberg, Neue Nationalgalerie, Union, marché de Noël.
   Restaurants : prix et délais estimés ; 11 photos d'illustration. Pas encore de liens Tiqets (`PARTNER_LINKS`).
+- ✅ (22/10/2026) **Page guide de Venise** (`guides/VCE.json`), préparée en autonomie : 28 activités
+  (5 tendance d'après les réseaux sociaux, 2 sources au moins : pont du Rialto, gondole, Burano, librairie Acqua Alta,
+  Scala Contarini del Bovolo ; match du Venezia FC, dernière saison au stade Penzo), 18 restaurants (note pondérée,
+  C = 4,40, 392 restaurants lus via Wanderlog ; Michelin 2026 : Glam 2 étoiles, Local, Oro, Wistèria et Venissa
+  1 étoile ; aucun Bib Gourmand à Venise), 6 quartiers dont Mestre (petit budget). Florian, Harry's Bar et Quadri
+  écartés : note Google trop basse (3,6 à 3,8). Saisonniers : Biennale (jusqu'au 22/11/2026), carnaval (fin janv.
+  au 9 févr. 2027), Lido (été), Venissa (avril à novembre). Prix confirmés : palais des Doges (30 € en ligne
+  1 mois avant, 35 € sinon), basilique (6 € en ligne), campanile (12 €), Accademia (20 €), Guggenheim (17 €),
+  Biennale (30 €), gondole (90 € la gondole de jour). Les autres sont marqués `a_verifier` ; restaurants : prix et
+  délais estimés, à vérifier. Droit d'entrée des visiteurs à la journée : seulement certains jours d'avril à
+  juillet, les clients d'un hôtel en sont exemptés.
 - ✅ (22/10/2026) **Page guide de Prague** (`guides/PRG.json`), préparée en autonomie : 29 activités
   (6 tendance : Klementinum, mur Lennon et Kampa, Vyšehrad, Letná, Maison dansante, tête de Kafka ; match du
   Sparta ou du Slavia ; excursions à Kutná Hora, Český Krumlov, Karlštejn), 18 restaurants (note pondérée,

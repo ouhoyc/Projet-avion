@@ -158,6 +158,10 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Berlin (oct. 2026) : recherche de fichiers en HTML (`ns6=1`) et vignettes `960px-` (« 429 » fréquents : 20 s de pause
   puis réessayer) ; auteur et licence sur la page `File:`. Wanderlog : ~126 listes « …-in-berlin » (géo 9623).
   Si une conversation s'arrête en route, son historique se relit avec `list_events` (crédits photo, prix, positions).
+  Venise (oct. 2026) : l'API de Commons (`action=query&generator=search` + `prop=imageinfo&iiprop=extmetadata`)
+  donne vignette, auteur et licence d'un coup ; avec 10 villes en parallèle elle répond souvent « 429 » :
+  relancer lentement. Michelin : la page `guide.michelin.com/it/it/veneto/venezia/ristoranti/stelle-michelin`
+  se lit par `curl` (attribut `data-dtm-distinction` de chaque carte). Wanderlog : 115 listes, 991 lieux.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

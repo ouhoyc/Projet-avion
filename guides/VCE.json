@@ -991,7 +991,13 @@
       "enfants": true,
       "texte": "Le plus grand rendez-vous d'art contemporain au monde : une centaine de pavillons nationaux dans les jardins de Castello et les immenses corderies de l'ancien arsenal. En 2027, place à la Biennale d'architecture (mai à novembre).",
       "site_officiel": "https://www.labiennale.org/",
-      "a_verifier": false
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AArsenale_%28Venice%29_-_The_Lion_of_Venice_on_the_pediment_of_the_arsenal.jpg",
+        "src": "img/activites/VCE/biennale.jpg"
+      }
     },
     {
       "id": "vivaldi",
@@ -1293,7 +1299,7 @@
       "reservation": "sur_place",
       "reservation_delai": "pas de réservation, au comptoir",
       "photo": {
-        "auteur": "Tim Sackton [1]",
+        "auteur": "Tim Sackton",
         "licence": "CC BY-SA 2.0",
         "page": "https://commons.wikimedia.org/wiki/File%3A%22_05_-_ITALY_-_un_bacaro_a_Venezia_Osteria_appetizers_restaurant_in_Venice_wine_enoteca.jpg",
         "src": "img/restos/VCE/schiavi.jpg"
@@ -1316,7 +1322,14 @@
       ],
       "texte": "La glace dont tout le monde parle à Venise, à deux pas du Rialto : parfums maison crémeux comme « Doge's Ring » ou « Manna di Venezia », servis généreusement. Il y a souvent la queue, et elle avance vite.",
       "reservation": "sur_place",
-      "reservation_delai": "pas de réservation"
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Sue Reynolds",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGelato%2C_Florence%2C_Italy_2016.jpg",
+        "src": "img/restos/VCE/suso.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "tonolo",
@@ -1336,7 +1349,14 @@
       ],
       "texte": "La pâtisserie préférée des Vénitiens depuis 1886 : on y prend un café debout au comptoir avec une « frittella » (beignet du carnaval à la crème), un croissant ou des petits choux, comme les habitants du quartier.",
       "reservation": "sur_place",
-      "reservation_delai": "pas de réservation"
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Simone Coletta",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACarnival_Frittelle_%28250677305%29.jpeg",
+        "src": "img/restos/VCE/tonolo.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "antico-forno",
@@ -1381,7 +1401,14 @@
       ],
       "texte": "Le « street food » vénitien : un cornet de petits poissons et calamars frits, ou de la morue crémeuse sur polenta, à grignoter en marchant dans les ruelles de San Polo.",
       "reservation": "sur_place",
-      "reservation_delai": "pas de réservation"
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "SimonePascuzzi",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFritto_misto.JPG",
+        "src": "img/restos/VCE/acqua-e-mais.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "carampane",
@@ -1400,7 +1427,14 @@
       ],
       "texte": "Cachée dans une ruelle introuvable, avec l'enseigne « ni pizza, ni lasagne, ni menu touristique » : une trattoria vénitienne pur jus, citée par le guide Michelin, pour les crabes mous, la friture et les spaghetti aux palourdes.",
       "reservation": "indispensable",
-      "reservation_delai": "plusieurs jours avant (souvent complet le soir)"
+      "reservation_delai": "plusieurs jours avant (souvent complet le soir)",
+      "photo": {
+        "auteur": "Giulioberg",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_alle_vongole_con_prezzemolo.jpg",
+        "src": "img/restos/VCE/carampane.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "gatto-nero",
@@ -1419,7 +1453,14 @@
       ],
       "texte": "Depuis 1965, la même famille sert le fameux risotto de gobies de la lagune sur une terrasse au bord d'un canal coloré de Burano. Le déjeuner parfait pour une journée dans les îles, cité par le guide Michelin.",
       "reservation": "indispensable",
-      "reservation_delai": "quelques jours avant, surtout pour la terrasse"
+      "reservation_delai": "quelques jours avant, surtout pour la terrasse",
+      "photo": {
+        "auteur": "Luigi936",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASan_Benedetto_del_Tronto_Risotto_ai_frutti_di_mare.jpg",
+        "src": "img/restos/VCE/gatto-nero.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "al-covo",
@@ -1439,7 +1480,14 @@
       "recompense": "Sélection du guide Michelin",
       "texte": "Une petite salle chaleureuse près de la Riva degli Schiavoni, où un couple passionné ne cuisine que le poisson du jour de la lagune et les légumes des îles. L'une des adresses les plus aimées de Venise.",
       "reservation": "indispensable",
-      "reservation_delai": "plusieurs jours avant"
+      "reservation_delai": "plusieurs jours avant",
+      "photo": {
+        "auteur": "Arnaud 25",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_alle_vongole_et_crevettes.jpg",
+        "src": "img/restos/VCE/al-covo.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "vini-da-gigio",
@@ -1486,7 +1534,14 @@
       "recompense": "Sélection du guide Michelin",
       "texte": "Des centaines de vins nature et une cuisine de saison inventive (tartare, pâtes maison, cicchetti revisités) : la table jeune et branchée de Dorsoduro, saluée par le guide Michelin.",
       "reservation": "conseille",
-      "reservation_delai": "la veille pour le soir"
+      "reservation_delai": "la veille pour le soir",
+      "photo": {
+        "auteur": "Zairon",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVenezia_Campo_Santa_Margherita.jpg",
+        "src": "img/restos/VCE/estro.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "giorgione-masa",
@@ -1533,7 +1588,14 @@
       "recompense": "2 étoiles Michelin",
       "texte": "Deux étoiles Michelin dans un palais du XVIe siècle, avec jardin privé au bord du Grand Canal : la cuisine vénitienne réinventée par Enrico Bartolini, le chef le plus étoilé d'Italie.",
       "reservation": "indispensable",
-      "reservation_delai": "2 à 4 semaines avant"
+      "reservation_delai": "2 à 4 semaines avant",
+      "photo": {
+        "auteur": "John Salatas",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVaporetto_grand_canal_venice.jpg",
+        "src": "img/restos/VCE/glam.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "local",
@@ -1553,7 +1615,14 @@
       "recompense": "1 étoile Michelin",
       "texte": "Une salle épurée, une cuisine ouverte et un menu dégustation qui ne cuisine que des produits de la lagune et de la Vénétie. L'étoile la plus moderne et la plus « locale » de Venise.",
       "reservation": "indispensable",
-      "reservation_delai": "1 à 2 semaines avant"
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "The New Foxy",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACeviche_yucateco%2C_Mazatl%C3%A1n%2C_6_de_diciembre_de_2022_02.jpg",
+        "src": "img/restos/VCE/local.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "oro",
@@ -1599,7 +1668,14 @@
       "recompense": "1 étoile Michelin",
       "texte": "Une petite salle intime près des Frari, et un chef qui sublime les poissons et crustacés de l'Adriatique. L'étoile Michelin la plus accessible et la plus chaleureuse de la ville.",
       "reservation": "indispensable",
-      "reservation_delai": "1 à 2 semaines avant"
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "Isabelle Cheret",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALangoustine_%28Nephrops_norvegicus%29_%28Ifremer_00710-82223%29.jpg",
+        "src": "img/restos/VCE/wisteria.jpg",
+        "illustration": true
+      }
     },
     {
       "id": "venissa",
@@ -1644,7 +1720,14 @@
       ],
       "texte": "Depuis 1978, la grande adresse de poisson de Venise, longtemps étoilée : crudités de la lagune, risotto aux fruits de mer et soles parfaites, servis dans une salle élégante, avec une table romantique au bord du canal.",
       "reservation": "indispensable",
-      "reservation_delai": "1 semaine avant ; demandez la table près de la fenêtre sur le canal"
+      "reservation_delai": "1 semaine avant ; demandez la table près de la fenêtre sur le canal",
+      "photo": {
+        "auteur": "ezioman",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASarde_in_sa%C3%B2r.jpg",
+        "src": "img/restos/VCE/da-fiore.jpg",
+        "illustration": true
+      }
     }
   ]
 }
