@@ -1,0 +1,1784 @@
+{
+ "city_code": "PRG",
+ "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "chateau",
+   "nom": "Château de Prague et cathédrale Saint-Guy",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Hradčany",
+   "lat": 50.090864,
+   "lng": 14.400571,
+   "prix": 19,
+   "prix_detail": [
+    [
+     "Circuit principal (cathédrale, ancien palais royal, basilique Saint-Georges, ruelle d'Or)",
+     19
+    ],
+    [
+     "Enfants 6 à 16 ans",
+     "12 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Cours et jardins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      16,
+      12
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet valable 2 jours, en ligne ou aux caisses des cours II et III",
+   "duree": "3 h",
+   "moment": "À l'ouverture (9 h), puis la relève de la garde à midi",
+   "enfants": true,
+   "texte": "Le plus grand château ancien du monde domine la ville depuis plus de mille ans. Sous les flèches de la cathédrale Saint-Guy et ses vitraux signés Mucha, on traverse la salle Vladislav, puis la ruelle d'Or, où les maisonnettes colorées des orfèvres abritaient aussi Kafka.",
+   "site_officiel": "https://www.hrad.cz/fr",
+   "note": "Château fermé au public le 28 octobre 2026 à partir de 15 h (fête nationale).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "A.Savin",
+    "licence": "Licence Art Libre",
+    "page": "https://commons.wikimedia.org/wiki/File%3APrague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img5.jpg",
+    "src": "img/activites/PRG/chateau.jpg"
+   }
+  },
+  {
+   "id": "pont-charles",
+   "nom": "Pont Charles au lever du soleil",
+   "emoji": "🌅",
+   "type": "balade",
+   "quartier": "Staré Město",
+   "lat": 50.086175,
+   "lng": 14.413609,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Traversée du pont",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Avant 8 h : le pont est presque vide et la lumière dorée",
+   "enfants": true,
+   "texte": "Six siècles de pierre, trente statues baroques et le château en toile de fond : le plus beau pont d'Europe se mérite à l'aube, quand on l'a pour soi. Touchez la plaque de saint Jean Népomucène, elle porterait chance.",
+   "site_officiel": "https://prague.eu/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Øyvind Holmstad",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APrague_Praha_2014_Holmstad_flott_karlsbrua_Charles_Bridge_morgen_veldig_flott.jpg",
+    "src": "img/activites/PRG/pont-charles.jpg"
+   }
+  },
+  {
+   "id": "orloj",
+   "nom": "Horloge astronomique et tour de l'hôtel de ville",
+   "emoji": "🕰️",
+   "type": "vue",
+   "quartier": "Staré Město",
+   "lat": 50.086979,
+   "lng": 14.420293,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Tour et salles historiques",
+     14
+    ],
+    [
+     "6 à 15 ans",
+     "9,50 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Défilé des apôtres (de 9 h à 23 h, toutes les heures)",
+     "gratuit, depuis la place"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      9.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place ou en ligne (-50 % la première heure)",
+   "duree": "1 h",
+   "moment": "À l'ouverture pour la réduction, ou au coucher du soleil",
+   "enfants": true,
+   "texte": "L'horloge de 1410 fait défiler ses apôtres à chaque heure devant une foule le nez en l'air. Montez ensuite en haut de la tour : la vue plonge sur les toits rouges de la place de la Vieille-Ville et les tours de Notre-Dame-de-Týn.",
+   "site_officiel": "https://prague.eu/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "A.Savin",
+    "licence": "Licence Art Libre",
+    "page": "https://commons.wikimedia.org/wiki/File%3APrague_07-2016_View_from_Old_Town_Hall_Tower_img3.jpg",
+    "src": "img/activites/PRG/orloj.jpg"
+   }
+  },
+  {
+   "id": "josefov",
+   "nom": "Quartier juif (Josefov) et ses synagogues",
+   "emoji": "🕍",
+   "type": "culture",
+   "quartier": "Josefov",
+   "lat": 50.090359,
+   "lng": 14.420847,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Billet Musée juif (4 synagogues et vieux cimetière)",
+     25
+    ],
+    [
+     "6 à 15 ans",
+     "8 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet valable 3 jours",
+   "duree": "2 h 30",
+   "moment": "En semaine le matin (fermé le samedi et les jours de fêtes juives)",
+   "enfants": true,
+   "texte": "Mille ans d'histoire en quelques rues : le vieux cimetière aux 12 000 stèles serrées les unes contre les autres, la synagogue Pinkas et ses murs couverts de noms, et la synagogue espagnole, éblouissante de dorures mauresques.",
+   "site_officiel": "https://www.jewishmuseum.cz/fr/",
+   "note": "La synagogue Vieille-Nouvelle (la plus ancienne d'Europe encore en activité) demande un billet à part.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Maikking",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpanish_Synagogue_in_Prague_Interior_2_MK.jpg",
+    "src": "img/activites/PRG/josefov.jpg"
+   }
+  },
+  {
+   "id": "saint-nicolas",
+   "nom": "Église Saint-Nicolas de Malá Strana",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Malá Strana",
+   "lat": 50.08802,
+   "lng": 14.40343,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Église",
+     "≈ 6 €"
+    ],
+    [
+     "Clocher (vue sur Malá Strana)",
+     "≈ 6 €"
+    ],
+    [
+     "Concert d'orgue le soir",
+     "≈ 20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      9,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'entrée",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, ou pour un concert d'orgue le soir",
+   "enfants": true,
+   "texte": "Le chef-d'œuvre du baroque pragois : une coupole peinte vertigineuse, des statues géantes et un orgue sur lequel Mozart a joué. Le clocher voisin offre l'une des plus jolies vues sur les toits de Malá Strana.",
+   "site_officiel": "https://www.stnicholas.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Uoaei1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APraha_St._Nicholas_Church_Dome_01.jpg",
+    "src": "img/activites/PRG/saint-nicolas.jpg"
+   }
+  },
+  {
+   "id": "klementinum",
+   "nom": "Bibliothèque baroque du Klementinum",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "Staré Město",
+   "lat": 50.086655,
+   "lng": 14.416119,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Visite guidée (bibliothèque, salle méridienne, tour astronomique)",
+     16
+    ],
+    [
+     "6 à 15 ans",
+     "9,50 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Visites de 9 h et 9 h 30",
+     "-50 %"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      9.5
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billets en ligne, mis en vente chaque lundi pour les deux semaines suivantes (groupes de 20 personnes)",
+   "duree": "50 min",
+   "moment": "La première visite du matin (moitié prix)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Souvent élue plus belle bibliothèque du monde : des rayonnages de bois sculpté, des globes anciens et un plafond peint en trompe-l'œil. La visite se termine en haut de la tour astronomique, avec Prague à 360°.",
+   "site_officiel": "https://www.klementinum.com/",
+   "note": "On admire la salle depuis l'entrée, sans y marcher. Escaliers seulement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Skot",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AClementinum_baroque_library_5.jpg",
+    "src": "img/activites/PRG/klementinum.jpg"
+   }
+  },
+  {
+   "id": "strahov",
+   "nom": "Monastère et bibliothèque de Strahov",
+   "emoji": "📖",
+   "type": "culture",
+   "quartier": "Hradčany",
+   "lat": 50.086293,
+   "lng": 14.388709,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Bibliothèque (salles théologique et philosophique)",
+     9
+    ],
+    [
+     "Bibliothèque et galerie",
+     "14 €"
+    ],
+    [
+     "Tarif réduit",
+     "4,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      4.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'entrée ou en ligne",
+   "duree": "45 min",
+   "moment": "À l'ouverture (9 h), avant de descendre vers le château",
+   "enfants": true,
+   "texte": "Deux salles baroques couvertes de fresques, de globes et de livres anciens, au sommet de la colline : un décor de film, à dix minutes à pied du château. La terrasse du monastère offre en prime une vue superbe sur la ville.",
+   "site_officiel": "https://www.strahovskyklaster.cz/",
+   "note": "On regarde les salles depuis la porte, sans y entrer.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "VitVit",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStrahov_knihovna_Teolog_2.jpg",
+    "src": "img/activites/PRG/strahov.jpg"
+   }
+  },
+  {
+   "id": "lennon",
+   "nom": "Mur John Lennon et île de Kampa",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Malá Strana",
+   "lat": 50.086242,
+   "lng": 14.406815,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Mur et île",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, avant les groupes",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un mur couvert de graffitis et de messages de paix depuis la mort de Lennon en 1980, repeint chaque jour par les visiteurs. Juste à côté, l'île de Kampa, ses moulins sur le petit canal de la Čertovka et ses bébés géants signés David Černý.",
+   "site_officiel": "https://prague.eu/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "David Sedlecký",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALennon_Wall_Prague_2020.jpg",
+    "src": "img/activites/PRG/lennon.jpg"
+   }
+  },
+  {
+   "id": "petrin",
+   "nom": "Colline et tour de Petřín",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Malá Strana",
+   "lat": 50.083517,
+   "lng": 14.395086,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Tour d'observation",
+     10
+    ],
+    [
+     "6 à 15 ans",
+     "7 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Funiculaire (aller simple)",
+     "≈ 4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place (-50 % la première heure)",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, pour le coucher de soleil sur le château",
+   "enfants": true,
+   "texte": "Une petite tour Eiffel au milieu des vergers : 299 marches pour voir toute la ville, le château à vos pieds. Montez en funiculaire, rouvert en septembre 2026 avec des cabines neuves, et redescendez à pied par les jardins.",
+   "site_officiel": "https://prague.eu/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Suisant7",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APet%C5%99%C3%ADn_tower_05_2018.jpg",
+    "src": "img/activites/PRG/petrin.jpg"
+   }
+  },
+  {
+   "id": "vysehrad",
+   "nom": "Forteresse de Vyšehrad",
+   "emoji": "🏯",
+   "type": "balade",
+   "quartier": "Vyšehrad",
+   "lat": 50.064418,
+   "lng": 14.417882,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Remparts, basilique (extérieur) et cimetière",
+     "gratuit"
+    ],
+    [
+     "Casemates souterraines",
+     "≈ 6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Au coucher du soleil, depuis les remparts au-dessus de la Vltava",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La colline des légendes pragoises, loin de la foule : remparts au-dessus du fleuve, basilique aux flèches noires et cimetière où reposent Dvořák et Mucha. Les Pragois y viennent pique-niquer et regarder le soleil se coucher sur le château.",
+   "site_officiel": "https://www.praha-vysehrad.cz/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mister No",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABasilica_of_St_Peter_and_St_Paul_-_panoramio_%282%29.jpg",
+    "src": "img/activites/PRG/vysehrad.jpg"
+   }
+  },
+  {
+   "id": "letna",
+   "nom": "Parc de Letná et la vue sur les ponts",
+   "emoji": "🌉",
+   "type": "vue",
+   "quartier": "Letná",
+   "lat": 50.096456,
+   "lng": 14.427175,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et belvédère",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, quand les ponts s'allument",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La carte postale de Prague : depuis le belvédère du grand métronome, les ponts s'alignent sur la Vltava comme des perles. Le soir, les Pragois s'installent dans le jardin à bière du parc, sous les châtaigniers.",
+   "site_officiel": "https://prague.eu/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stavros Argyropoulos",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_from_Letna_park.jpg",
+    "src": "img/activites/PRG/letna.jpg"
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière sur la Vltava",
+   "emoji": "🛥️",
+   "type": "sortir",
+   "quartier": "Vltava",
+   "lat": 50.092957,
+   "lng": 14.417098,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Croisière d'1 h",
+     "≈ 15 à 20 €"
+    ],
+    [
+     "Croisière dîner (2 à 3 h)",
+     "≈ 50 à 70 €"
+    ],
+    [
+     "Pédalo (1 h, Slovanský ostrov)",
+     "≈ 12 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'embarcadère ou en ligne la veille",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil ou le soir, quand le château s'illumine",
+   "enfants": true,
+   "texte": "Glisser sous les arches du pont Charles, le château illuminé au-dessus de vous : la croisière est la façon la plus reposante de voir Prague. Pour plus de liberté, louez un pédalo et approchez-vous de la Čertovka.",
+   "site_officiel": "https://www.prague-boats.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20190816_Widok_z_Mostu_Karola_w_stron%C4%99_Teatru_Narodowego_w_Pradze_1809_5440.jpg",
+    "src": "img/activites/PRG/croisiere.jpg"
+   }
+  },
+  {
+   "id": "maison-dansante",
+   "nom": "Maison dansante et sa terrasse",
+   "emoji": "💃",
+   "type": "vue",
+   "quartier": "Nové Město",
+   "lat": 50.075426,
+   "lng": 14.414172,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Terrasse sur le toit (Glass Bar)",
+     "≈ 6 € ou une boisson"
+    ],
+    [
+     "Façade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin de journée, puis la promenade le long des quais",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "« Fred et Ginger » : deux tours qui semblent danser au bord de la Vltava, dessinées par Frank Gehry en 1996. Montez sur le toit pour un verre face au château, puis descendez sur les quais de Náplavka.",
+   "site_officiel": "https://www.tancici-dum.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Pedro Szekely from Los Angeles, USA",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADancing_House%2C_Prague_%285651359716%29.jpg",
+    "src": "img/activites/PRG/maison-dansante.jpg"
+   }
+  },
+  {
+   "id": "obecni-dum",
+   "nom": "Maison municipale (Obecní dům)",
+   "emoji": "🎼",
+   "type": "culture",
+   "quartier": "Staré Město",
+   "lat": 50.087756,
+   "lng": 14.427764,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Visite guidée (1 h, salle Smetana, salon du maire décoré par Mucha)",
+     13
+    ],
+    [
+     "Tarif réduit",
+     "11 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      11
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "visites en anglais à heures fixes, à réserver la veille",
+   "duree": "1 h",
+   "moment": "L'après-midi, puis un café dans sa salle Art nouveau",
+   "enfants": false,
+   "texte": "Le palais Art nouveau le plus fou de Prague : mosaïques dorées, vitraux, et le salon du maire entièrement décoré par Alfons Mucha. C'est ici que fut proclamée l'indépendance de la Tchécoslovaquie en 1918.",
+   "site_officiel": "https://www.obecnidum.cz/",
+   "note": "Portes ouvertes gratuites le 28 octobre 2026 (9 h - 15 h).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Uoaei1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APrague_Municipal_House_01.jpg",
+    "src": "img/activites/PRG/obecni-dum.jpg"
+   }
+  },
+  {
+   "id": "mucha",
+   "nom": "Musée Mucha (palais Savarin)",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Nové Město",
+   "lat": 50.08495,
+   "lng": 14.4253,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Entrée",
+     12
+    ],
+    [
+     "Tarif réduit",
+     "10 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      10,
+      0
+     ],
+     [
+      15,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place ou en ligne",
+   "duree": "1 h 30",
+   "moment": "Un après-midi de pluie",
+   "enfants": true,
+   "texte": "Les affiches de Sarah Bernhardt, les « Saisons », les bijoux : tout l'univers d'Alfons Mucha, le maître de l'Art nouveau, dans un palais baroque rénové en 2025 en plein centre, sur l'avenue Na Příkopě.",
+   "site_officiel": "https://www.mucha.cz/",
+   "note": "C'est le musée officiel de la fondation Mucha. L'ancienne adresse de la rue Panská n'est plus liée à la fondation.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Alfons Mucha",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlphonse_Mucha_-_Zodiac%2C_1869.jpg",
+    "src": "img/activites/PRG/mucha.jpg"
+   }
+  },
+  {
+   "id": "kafka",
+   "nom": "Tête de Kafka de David Černý",
+   "emoji": "🪞",
+   "type": "balade",
+   "quartier": "Nové Město",
+   "lat": 50.08185,
+   "lng": 14.4205,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Sculpture",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "15 min",
+   "moment": "À l'heure pile, quand les 42 plaques se mettent à tourner",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une tête de 11 mètres faite de 42 plaques d'acier poli qui tournent chacune de leur côté, puis se réalignent pour former le visage de Kafka. L'œuvre la plus filmée du sculpteur provocateur David Černý.",
+   "site_officiel": "https://prague.eu/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHead_of_Franz_Kafka_-_kinetic_sculpture_06.jpg",
+    "src": "img/activites/PRG/kafka.jpg"
+   }
+  },
+  {
+   "id": "wallenstein",
+   "nom": "Jardins Wallenstein",
+   "emoji": "🦚",
+   "type": "nature",
+   "quartier": "Malá Strana",
+   "lat": 50.090164,
+   "lng": 14.406429,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "D'avril à octobre (fermés l'hiver), le matin",
+   "enfants": true,
+   "texte": "Un jardin baroque caché derrière un haut mur, avec ses paons en liberté, son bassin, ses statues et un étrange mur de stalactites. Une parenthèse de calme au pied du château.",
+   "site_officiel": "https://www.senat.cz/",
+   "note": "Ouvert d'avril à octobre seulement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ymblanter",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APrague_Wallenstein_Gardens_Pond_seen_from_the_northeast.jpg",
+    "src": "img/activites/PRG/wallenstein.jpg"
+   }
+  },
+  {
+   "id": "concert",
+   "nom": "Concert classique au Rudolfinum",
+   "emoji": "🎻",
+   "type": "sortir",
+   "quartier": "Josefov",
+   "lat": 50.089939,
+   "lng": 14.415501,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Philharmonie tchèque",
+     "≈ 15 à 60 €"
+    ],
+    [
+     "Concert dans une église baroque",
+     "≈ 20 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 à 3 semaines avant",
+   "duree": "2 h",
+   "moment": "Le soir",
+   "enfants": false,
+   "texte": "La ville de Dvořák et de Smetana se vit en musique : la Philharmonie tchèque joue dans la salle dorée du Rudolfinum, au bord du fleuve. Plus simple, les concerts du soir dans les églises baroques font aussi de beaux souvenirs.",
+   "site_officiel": "https://www.ceskafilharmonie.cz/",
+   "note": "Préférez les billetteries officielles aux vendeurs de rue en costume d'époque.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Sintakso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARudolfinum-Dvo%C5%99%C3%A1kova-s%C3%AD%C5%88-06.jpg",
+    "src": "img/activites/PRG/concert.jpg"
+   }
+  },
+  {
+   "id": "theatre-national",
+   "nom": "Opéra ou ballet au Théâtre national",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Nové Město",
+   "lat": 50.080864,
+   "lng": 14.41357,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Opéra ou ballet",
+     "≈ 10 à 60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 à 4 semaines avant pour les bonnes places",
+   "duree": "3 h",
+   "moment": "Le soir, en tenue un peu habillée",
+   "enfants": false,
+   "texte": "Une salle d'or et de velours rouge, payée au XIXe siècle par une collecte des Tchèques eux-mêmes. Les places sont bien moins chères qu'à Paris ou Vienne : c'est le moment d'oser l'opéra. Mozart créa aussi « Don Giovanni » au théâtre des États, tout proche.",
+   "site_officiel": "https://www.narodni-divadlo.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Tadeáš Gregor",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AN%C3%A1rodn%C3%AD_divadlo_z_Kampy.jpg",
+    "src": "img/activites/PRG/theatre-national.jpg"
+   }
+  },
+  {
+   "id": "zizkov",
+   "nom": "Tour de télévision de Žižkov",
+   "emoji": "📡",
+   "type": "vue",
+   "quartier": "Žižkov",
+   "lat": 50.081022,
+   "lng": 14.451058,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Observatoire (93 m)",
+     "≈ 12 €"
+    ],
+    [
+     "6 à 15 ans",
+     "≈ 6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil",
+   "enfants": true,
+   "texte": "Une fusée de béton de 216 mètres, élue un temps « bâtiment le plus laid du monde »… escaladée par les bébés géants de David Černý. Depuis l'observatoire, la plus haute vue sur Prague.",
+   "site_officiel": "https://www.towerpark.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Norbert Požár",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%C5%BDi%C5%BEkov_tv_tower.jpg",
+    "src": "img/activites/PRG/zizkov.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo de Prague",
+   "emoji": "🦒",
+   "type": "nature",
+   "quartier": "Troja",
+   "lat": 50.1169,
+   "lng": 14.4065,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte",
+     14
+    ],
+    [
+     "3 à 15 ans",
+     "10 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      15,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en ligne pour éviter la file",
+   "duree": "Demi-journée",
+   "moment": "Le matin ; y aller en bateau depuis le centre (d'avril à octobre)",
+   "enfants": true,
+   "texte": "Classé parmi les plus beaux zoos du monde : gorilles, éléphants, girafes et un télésiège qui survole le parc, sur une colline au bord de la Vltava. Le paradis des familles.",
+   "site_officiel": "https://www.zoopraha.cz/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "A.Savin",
+    "licence": "Licence Art Libre",
+    "page": "https://commons.wikimedia.org/wiki/File%3APrague_07-2016_Zoo_img12_Acinonyx_jubatus.jpg",
+    "src": "img/activites/PRG/zoo.jpg"
+   }
+  },
+  {
+   "id": "musee-national",
+   "nom": "Musée national",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Nové Město",
+   "lat": 50.078919,
+   "lng": 14.430968,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Bâtiment historique et nouveau bâtiment",
+     "≈ 15 €"
+    ],
+    [
+     "Moins de 15 ans (avec un adulte)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place ou en ligne",
+   "duree": "2 h",
+   "moment": "Un jour de pluie ; montez sous la coupole pour la vue sur la place Venceslas",
+   "enfants": true,
+   "texte": "Le palais néo-Renaissance qui ferme la place Venceslas : escalier d'honneur, panthéon des grands Tchèques, squelette de baleine et vue depuis la coupole sur l'avenue où s'est jouée la révolution de Velours.",
+   "site_officiel": "https://www.nm.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "fawasp",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANight_at_National_Museum%2C_Prague_-_panoramio.jpg",
+    "src": "img/activites/PRG/musee-national.jpg"
+   }
+  },
+  {
+   "id": "musee-communisme",
+   "nom": "Musée du communisme",
+   "emoji": "☭",
+   "type": "culture",
+   "quartier": "Nové Město",
+   "lat": 50.087851,
+   "lng": 14.430011,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Adulte",
+     16
+    ],
+    [
+     "Étudiant",
+     "12 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      15,
+      13
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "1 h 30",
+   "moment": "Avant d'aller place Venceslas",
+   "enfants": false,
+   "texte": "Une salle de classe, une épicerie vide, un bureau d'interrogatoire de la police secrète : 40 ans de régime communiste racontés de façon vivante, jusqu'aux images de la révolution de Velours de 1989.",
+   "site_officiel": "https://www.muzeumkomunismu.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ferfive",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVisiting_the_Museum_of_Communism_13.jpg",
+    "src": "img/activites/PRG/musee-communisme.jpg"
+   }
+  },
+  {
+   "id": "naplavka",
+   "nom": "Quais de Náplavka",
+   "emoji": "🍻",
+   "type": "sortir",
+   "quartier": "Nové Město",
+   "lat": 50.075508,
+   "lng": 14.413808,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Marché fermier",
+     "le samedi matin"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Un soir d'été, ou le samedi matin pour le marché",
+   "enfants": true,
+   "texte": "Le lieu de sortie des Pragois : des péniches transformées en bars, des bancs au bord de l'eau, des concerts l'été et la vue sur le château. Le samedi matin, le marché fermier y attire tout le quartier.",
+   "site_officiel": "https://www.naplavka.cz/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ŠJů",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARa%C5%A1%C3%ADnovo_n%C3%A1b%C5%99e%C5%BE%C3%AD%2C_p%C5%99%C3%ADstavi%C5%A1t%C4%9B_PPS%2C_Jir%C3%A1sk%C5%AFv_most_a_Pra%C5%BEsk%C3%BD_hrad.jpg",
+    "src": "img/activites/PRG/naplavka.jpg"
+   }
+  },
+  {
+   "id": "marche-noel",
+   "nom": "Marché de Noël de la Vieille-Ville",
+   "emoji": "🎄",
+   "type": "balade",
+   "quartier": "Staré Město",
+   "lat": 50.087445,
+   "lng": 14.420971,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Vin chaud",
+     "≈ 4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "À la nuit tombée, quand le sapin géant s'allume",
+   "enfants": true,
+   "texte": "Un immense sapin illuminé devant les tours de Notre-Dame-de-Týn, des chalets de bois, du vin chaud et des trdelník tout chauds : l'un des plus beaux marchés de Noël d'Europe.",
+   "site_officiel": "https://prague.eu/fr/",
+   "note": "Prévu du 28 novembre 2026 au 6 janvier 2027 (dates à confirmer). Autre joli marché : place de la Paix, à Vinohrady.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Helena Melezínková",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChristmas_market_Prague_2021_04.jpg",
+    "src": "img/activites/PRG/marche-noel.jpg"
+   }
+  },
+  {
+   "id": "match",
+   "nom": "Match du Sparta ou du Slavia",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Letná",
+   "lat": 50.099713,
+   "lng": 14.415892,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 15 à 40 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente pour le derby Sparta-Slavia",
+   "duree": "3 h",
+   "moment": "Les soirs de match",
+   "enfants": true,
+   "club": "AC Sparta Praha",
+   "texte": "Le Sparta (rouge grenat, à Letná) et le Slavia (rouge et blanc, à Vršovice) se disputent le titre tchèque depuis plus d'un siècle. L'ambiance des tribunes et la bière à la mi-temps valent le déplacement, surtout pour le derby.",
+   "site_officiel": "https://www.sparta.cz/",
+   "note": "Achetez sur le site officiel du club (sparta.cz ou slavia.cz) : méfiez-vous des revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Gjaylen5",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGenerali_Arena-AC_Sparta_Praha.jpg",
+    "src": "img/activites/PRG/match.jpg"
+   }
+  },
+  {
+   "id": "kutna-hora",
+   "nom": "Excursion à Kutná Hora (ossuaire de Sedlec)",
+   "emoji": "💀",
+   "type": "nature",
+   "quartier": "Kutná Hora (1 h de Prague)",
+   "lat": 49.961776,
+   "lng": 15.288092,
+   "prix": 24,
+   "prix_detail": [
+    [
+     "Train aller-retour",
+     "≈ 9 €"
+    ],
+    [
+     "Ossuaire et cathédrale Sainte-Barbe (billet combiné)",
+     "≈ 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet de l'ossuaire à heure fixe, en ligne",
+   "duree": "Journée",
+   "moment": "En semaine, avec un départ tôt le matin",
+   "enfants": true,
+   "texte": "Une chapelle décorée avec les os de 40 000 personnes, dont un lustre fait de chaque os du corps humain : l'ossuaire de Sedlec est unique au monde. La ville, ancienne cité de l'argent classée par l'Unesco, cache aussi la splendide cathédrale Sainte-Barbe.",
+   "site_officiel": "https://www.sedlec.info/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jan Kameníček",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOssuary_in_Sedlec.JPG",
+    "src": "img/activites/PRG/kutna-hora.jpg"
+   }
+  },
+  {
+   "id": "cesky-krumlov",
+   "nom": "Excursion à Český Krumlov",
+   "emoji": "🏘️",
+   "type": "nature",
+   "quartier": "Bohême du Sud (3 h de Prague)",
+   "lat": 48.812783,
+   "lng": 14.315326,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Car aller-retour",
+     "≈ 20 €"
+    ],
+    [
+     "Visite du château",
+     "≈ 15 €"
+    ],
+    [
+     "Excursion guidée depuis Prague",
+     "≈ 60 à 90 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "car à réserver quelques jours avant",
+   "duree": "Journée (longue)",
+   "moment": "D'avril à octobre (l'intérieur du château ferme l'hiver)",
+   "enfants": true,
+   "texte": "Une petite ville médiévale lovée dans un méandre de la Vltava, sous un château à la tour peinte : le Český Krumlov classé par l'Unesco ressemble à un décor de conte de fées. Idéal pour un séjour de 4 jours ou plus.",
+   "site_officiel": "https://www.ckrumlov.info/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Pudelek (Marcin Szala)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%C4%8Cesk%C3%BD_Krumlov_%28Krummau%29_-_panorama.JPG",
+    "src": "img/activites/PRG/cesky-krumlov.jpg"
+   }
+  },
+  {
+   "id": "karlstejn",
+   "nom": "Excursion au château de Karlštejn",
+   "emoji": "🛡️",
+   "type": "nature",
+   "quartier": "Karlštejn (40 min de Prague)",
+   "lat": 49.939361,
+   "lng": 14.188254,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Train aller-retour",
+     "≈ 5 €"
+    ],
+    [
+     "Visite guidée du château",
+     "≈ 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "visite guidée à réserver en ligne",
+   "duree": "Demi-journée",
+   "moment": "Le matin, puis une balade dans la forêt",
+   "enfants": true,
+   "texte": "Le château fort de l'empereur Charles IV, perché sur un rocher boisé, où l'on gardait les joyaux de la couronne. Une demi-journée facile en train, avec une jolie montée à pied depuis le village.",
+   "site_officiel": "https://www.hrad-karlstejn.cz/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ввласенко",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_the_castle_Karlstejn_from_the_southeast._Czech_Republic.jpg",
+    "src": "img/activites/PRG/karlstejn.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "stare-mesto",
+   "nom": "Staré Město (Vieille-Ville)",
+   "lat": 50.0868,
+   "lng": 14.4195,
+   "texte": "Le cœur historique, tout à pied : horloge astronomique, pont Charles, quartier juif. Le meilleur choix pour un premier séjour, mais aussi le plus touristique et le plus cher."
+  },
+  {
+   "id": "mala-strana",
+   "nom": "Malá Strana",
+   "lat": 50.0878,
+   "lng": 14.4045,
+   "texte": "Le « Petit Côté », sous le château : ruelles baroques, palais et jardins, très calme le soir. Romantique, idéal pour un couple, un peu en pente."
+  },
+  {
+   "id": "nove-mesto",
+   "nom": "Nové Město (Nouvelle-Ville)",
+   "lat": 50.0805,
+   "lng": 14.4245,
+   "texte": "Autour de la place Venceslas : beaucoup d'hôtels à tous les prix, métro partout, à 10 min à pied de la Vieille-Ville. Le meilleur rapport qualité-prix près du centre."
+  },
+  {
+   "id": "vinohrady",
+   "nom": "Vinohrady",
+   "lat": 50.0755,
+   "lng": 14.441,
+   "texte": "Le quartier résidentiel préféré des Pragois : immeubles Art nouveau, parcs, cafés et bonnes tables, plus calme et moins cher. À 2 stations de métro du centre."
+  },
+  {
+   "id": "karlin",
+   "nom": "Karlín",
+   "lat": 50.0925,
+   "lng": 14.45,
+   "texte": "Les anciennes usines au bord de la Vltava devenues le quartier tendance : bistrots, cafés et hôtels design récents. Tram et métro directs pour le centre en 10 min."
+  }
+ ],
+ "hotel_petit_prix_max": 80,
+ "restaurants": [
+  {
+   "id": "lokal",
+   "nom": "Lokál Dlouhááá",
+   "emoji": "🍺",
+   "gamme": "petit",
+   "genre": "Brasserie tchèque et bière de tank",
+   "quartier": "Staré Město",
+   "adresse": "Dlouhá 33, 110 00 Praha 1",
+   "lat": 50.090717,
+   "lng": 14.425906,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une immense salle voûtée façon cantine d'autrefois, où la Pilsner Urquell arrive chaque jour en citerne et coule « non pasteurisée » des tanks. Goulasch, svíčková (bœuf sauce crème) et schnitzel : la cuisine tchèque simple et bien faite, à prix doux.",
+   "reservation": "conseille",
+   "reservation_delai": "conseillé le soir et le week-end, la veille suffit",
+   "photo": {
+    "auteur": "Sharon Hahn Darlin",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARestaurace_Pod_ka%C5%A1tanem%2C_Hory%2C_Czech_Republic_June_2022_-_Sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B.jpg",
+    "src": "img/restos/PRG/lokal.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kantyna",
+   "nom": "Kantýna",
+   "emoji": "🥩",
+   "gamme": "petit",
+   "genre": "Boucherie-cantine",
+   "quartier": "Nové Město",
+   "adresse": "Politických vězňů 1511/5, 110 00 Praha 1",
+   "lat": 50.083362,
+   "lng": 14.428729,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dans le hall en marbre d'une ancienne banque, on choisit sa viande au comptoir du boucher, on la regarde griller et on mange debout ou au bar, bière à la main. Tartare, côtes de bœuf, saucisses maison : le repaire des carnivores, que les Pragois adorent.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on commande au comptoir",
+   "photo": {
+    "auteur": "Dr. Bernd Gross",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteak_Tartare_in_Dresden.jpg",
+    "src": "img/restos/PRG/kantyna.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lehka-hlava",
+   "nom": "Lehká hlava",
+   "emoji": "🌙",
+   "gamme": "petit",
+   "genre": "Végétarien",
+   "quartier": "Staré Město",
+   "adresse": "Boršov 280/2, 110 00 Praha 1",
+   "lat": 50.084048,
+   "lng": 14.414509,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "« Tête légère » : une petite salle sous un plafond étoilé qui scintille, cachée dans une ruelle près du pont Charles. Curry, burgers de légumes, desserts maison : une cuisine végétarienne généreuse qui séduit même les amateurs de viande.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le soir (petite salle)",
+   "photo": {
+    "auteur": "Horakvlado",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AM%C4%9B%C5%A1%C5%A5ansk%C3%BD_d%C5%AFm%2C_Bor%C5%A1ov_2%2C_Star%C3%A9_M%C4%9Bsto_%28Praha%29%2C_Hlavn%C3%AD_m%C4%9Bsto_Praha_03.jpg",
+    "src": "img/restos/PRG/lehka-hlava.jpg"
+   }
+  },
+  {
+   "id": "louvre",
+   "nom": "Café Louvre",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café historique",
+   "quartier": "Nové Město",
+   "adresse": "Národní 22, 110 00 Praha 1",
+   "lat": 50.082067,
+   "lng": 14.418731,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Ouvert en 1902, ce grand café aux murs crème a accueilli Kafka et Einstein. On y vient pour le petit-déjeuner, un strudel ou un goulasch, sous les lustres, avant une partie de billard dans la salle du fond.",
+   "reservation": "sur_place",
+   "reservation_delai": "réservation possible pour le petit-déjeuner du week-end",
+   "photo": {
+    "auteur": "Dobroš",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACaf%C3%A9_Louvre_Praha_-_interi%C3%A9r.jpg",
+    "src": "img/restos/PRG/louvre.jpg"
+   }
+  },
+  {
+   "id": "pho",
+   "nom": "Pho Vietnam (Anglická)",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Soupe pho vietnamienne",
+   "quartier": "Vinohrady",
+   "adresse": "Anglická 529/15, 120 00 Praha 2",
+   "lat": 50.076789,
+   "lng": 14.43332,
+   "prix": "8 à 12 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Prague compte l'une des plus grandes communautés vietnamiennes d'Europe, et les Pragois ont fait du pho leur plat réconfort. Ici, un bouillon parfumé mijoté des heures, des nouilles fraîches et des herbes : simple, rapide et délicieux.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Blue Lotus",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APho_bo.jpg",
+    "src": "img/restos/PRG/pho.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "eska",
+   "nom": "Eska",
+   "emoji": "🥖",
+   "gamme": "petit",
+   "genre": "Boulangerie-bistrot",
+   "quartier": "Karlín",
+   "adresse": "Pernerova 49, 186 00 Praha 8",
+   "lat": 50.09133,
+   "lng": 14.45442,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Une ancienne usine textile de Karlín transformée en boulangerie et bistrot : pains au levain sortis du four sous vos yeux, pommes de terre cuites dans la cendre, produits fermentés. Le meilleur brunch de Prague, dans le quartier qui monte.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le brunch du week-end",
+   "photo": {
+    "auteur": "JiriMatejicek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APraha_Karlin_Pernerova_49.jpg",
+    "src": "img/restos/PRG/eska.jpg"
+   }
+  },
+  {
+   "id": "imperial",
+   "nom": "Café Imperial",
+   "emoji": "🏺",
+   "gamme": "moyen",
+   "genre": "Brasserie Art déco",
+   "quartier": "Nové Město",
+   "adresse": "Na Poříčí 15, 110 00 Praha 1",
+   "lat": 50.089844,
+   "lng": 14.432859,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un décor de 1914 entièrement couvert de céramiques sculptées, du sol au plafond : l'une des plus belles salles de Prague. Le chef star Zdeněk Pohlreich y sert les classiques tchèques, du canard rôti aux knedlíky, dans une ambiance de grand café.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant pour le soir",
+   "photo": {
+    "auteur": "paddy (Patrick-Emil Zörner)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APraha_2009-12-26-51.jpg",
+    "src": "img/restos/PRG/imperial.jpg"
+   }
+  },
+  {
+   "id": "kuchyn",
+   "nom": "Kuchyň",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine tchèque maison",
+   "quartier": "Hradčany",
+   "adresse": "Hradčanské náměstí 1, 118 00 Praha 1",
+   "lat": 50.089193,
+   "lng": 14.397858,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "« La cuisine » : ici, pas de carte, on entre en cuisine et on soulève les couvercles des marmites pour choisir son plat du jour. Le tout servi sur une terrasse aux portes du château, avec tout Prague à vos pieds.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour la terrasse au coucher du soleil",
+   "photo": {
+    "auteur": "VitVit",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHrad%C4%8Dansk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD_ve%C4%8Der.jpg",
+    "src": "img/restos/PRG/kuchyn.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mlynec",
+   "nom": "Mlýnec",
+   "emoji": "🌉",
+   "gamme": "moyen",
+   "genre": "Cuisine moderne face au pont Charles",
+   "quartier": "Staré Město",
+   "adresse": "Novotného lávka 9, 110 00 Praha 1",
+   "lat": 50.085405,
+   "lng": 14.413561,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Une table élégante installée dans un ancien moulin, au ras de l'eau : la terrasse donne directement sur le pont Charles et le château. Cuisine tchèque revisitée, comme le canard ou le cerf, et l'une des plus belles vues de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "1 semaine avant pour une table en terrasse",
+   "photo": {
+    "auteur": "Tilman2007",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANovotn%C3%A9ho_l%C3%A1vka_201-1_Praha_20170809_001.jpg",
+    "src": "img/restos/PRG/mlynec.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pasta-fresca",
+   "nom": "Pasta Fresca",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Pâtes fraîches italiennes",
+   "quartier": "Staré Město",
+   "adresse": "Celetná 11, 110 00 Praha 1",
+   "lat": 50.08721,
+   "lng": 14.423695,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "À deux pas de la place de la Vieille-Ville, des pâtes fraîches faites chaque jour, servies dans une cave gothique aux voûtes de brique. Une valeur sûre très appréciée des Pragois, pour changer de la cuisine tchèque.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir",
+   "photo": {
+    "auteur": "David Adam Kess",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg",
+    "src": "img/restos/PRG/pasta-fresca.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "alma",
+   "nom": "Alma",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Bistrot moderne au feu de bois",
+   "quartier": "Nové Město",
+   "adresse": "V Jirchářích 150/8, 110 00 Praha 1",
+   "lat": 50.08003,
+   "lng": 14.416168,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "L'équipe des célèbres boulangeries-bistrots KRO a ouvert ici une cuisine ouverte autour du feu : bœuf maturé, beaux légumes, pain au levain maison et cocktails, avec une cour-terrasse. La nouvelle adresse que tout Prague veut tester.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "total13 (Flickr)",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteaks_cooked_on_a_disc_in_a_wood-fired_oven_with_saut%C3%A9ed_vegetables.jpg",
+    "src": "img/restos/PRG/alma.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "strahov-pivovar",
+   "nom": "Brasserie du monastère de Strahov",
+   "emoji": "🍻",
+   "gamme": "moyen",
+   "genre": "Bière de monastère",
+   "quartier": "Hradčany",
+   "adresse": "Strahovské nádvoří 301, 118 00 Praha 1",
+   "lat": 50.086808,
+   "lng": 14.388306,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Les moines de Strahov ont brassé pendant des siècles : la brasserie a rouvert en 2000 dans la cour du monastère, et sa bière Saint-Norbert accompagne goulasch et jarret de porc. L'étape idéale entre la bibliothèque de Strahov et le château.",
+   "reservation": "sur_place",
+   "reservation_delai": "réservation conseillée pour les groupes",
+   "photo": {
+    "auteur": "Nice0205",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKl%C3%A1%C5%A1tern%C3%AD_pivovar_Strahov_-_monastic_brewery_Strahov.JPG",
+    "src": "img/restos/PRG/strahov-pivovar.jpg"
+   }
+  },
+  {
+   "id": "la-degustation",
+   "nom": "La Degustation Bohême Bourgeoise",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Menu dégustation tchèque",
+   "quartier": "Staré Město",
+   "adresse": "Haštalská 18, 110 00 Praha 1",
+   "lat": 50.091032,
+   "lng": 14.425106,
+   "prix": "≈ 150 € (menu)",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le chef Oldřich Sahajdák réinvente les recettes d'un livre de cuisine bohème du XIXe siècle, avec des produits de petits fermiers. Un long menu en une dizaine de plats, dans une salle intime : la grande table de la cuisine tchèque.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant, le soir seulement",
+   "photo": {
+    "auteur": "Shixart1985",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADelicious_gourmet_dish_served_at_a_restaurant_highlighting_tender_meat_undefined.jpg",
+    "src": "img/restos/PRG/la-degustation.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "field",
+   "nom": "Field",
+   "emoji": "🌾",
+   "gamme": "haut",
+   "genre": "Cuisine de saison étoilée",
+   "quartier": "Josefov",
+   "adresse": "U Milosrdných 12, 110 00 Praha 1",
+   "lat": 50.09171,
+   "lng": 14.421936,
+   "prix": "≈ 130 € (menu)",
+   "prix_min": 130,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Près du couvent Sainte-Agnès, dans une salle épurée, la cuisine suit la nature et les saisons tchèques, légère, créative et très belle à regarder : l'une des deux étoiles historiques de Prague.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant pour le vendredi et le samedi",
+   "photo": {
+    "auteur": "Michal Kmínek",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKl%C3%A1%C5%A1ter_Ane%C5%BEsk%C3%BD_%28Star%C3%A9_M%C4%9Bsto%29%2C_Praha_1%2C_Ane%C5%BEsk%C3%A1%2C_%28Na_Franti%C5%A1ku%29_12%2C_Star%C3%A9_M%C4%9Bsto.jpg",
+    "src": "img/restos/PRG/field.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-de-carli",
+   "nom": "Casa de Carli",
+   "emoji": "🇮🇹",
+   "gamme": "haut",
+   "genre": "Italien étoilé",
+   "quartier": "Josefov",
+   "adresse": "Vězeňská 5, 110 00 Praha 1",
+   "lat": 50.090492,
+   "lng": 14.421717,
+   "prix": "70 à 110 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une affaire de famille italienne nichée dans le quartier juif, étoilée en 2025 : pâtes faites maison, poissons, risottos et une belle cave de vins italiens. À la carte, ou en menu surprise du chef.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "JIP",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASaffron_risotto_at_Deliberi_Jumbo.jpg",
+    "src": "img/restos/PRG/casa-de-carli.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "stangl",
+   "nom": "Štangl",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine de ferme étoilée",
+   "quartier": "Karlín",
+   "adresse": "Pernerova 49, 186 00 Praha 8",
+   "lat": 50.0914,
+   "lng": 14.4546,
+   "prix": "≈ 100 € (menu)",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin et étoile verte",
+   "texte": "Une cuisine ouverte au cœur de Karlín, où chaque plat part d'un producteur tchèque choisi avec soin : légumes, gibier, fromages fermiers. Le restaurant a décroché d'un coup l'étoile et l'étoile verte, qui récompense les tables responsables.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant",
+   "photo": {
+    "auteur": "City Foodsters",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADish_of_greens._Some_of_the_vegetables_are_grilled._Some_are_fresh._And_others_have_been_lightly_salted._The_plate_beneath_has_been_brushed_with_a_paste_made_of_dry_scallops._%2819259696676%29.jpg",
+    "src": "img/restos/PRG/stangl.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kampa-park",
+   "nom": "Kampa Park",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer au bord de l'eau",
+   "quartier": "Malá Strana",
+   "adresse": "Na Kampě 8b, 118 00 Praha 1",
+   "lat": 50.087378,
+   "lng": 14.409306,
+   "prix": "70 à 100 €",
+   "prix_min": 70,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1994, la table des stars de passage, sur la pointe de l'île de Kampa : une terrasse posée sur la Vltava, au pied du pont Charles illuminé. Homard, poissons et cuisine internationale pour un dîner romantique.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant pour la terrasse",
+   "photo": {
+    "auteur": "Falk2",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJ21_878_Burg%2C_Kampa-Nordspitze.jpg",
+    "src": "img/restos/PRG/kampa-park.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "zlata-studne",
+   "nom": "Terasa U Zlaté studně",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Terrasse gastronomique panoramique",
+   "quartier": "Malá Strana",
+   "adresse": "U Zlaté studně 4, 118 00 Praha 1",
+   "lat": 50.090681,
+   "lng": 14.404494,
+   "prix": "70 à 110 €",
+   "prix_min": 70,
+   "badges": [],
+   "texte": "Accrochée sous le château, la terrasse du « Puits d'or » offre peut-être la plus belle vue sur les toits de Prague, du pont Charles aux tours de la Vieille-Ville. Une cuisine raffinée et une belle carte des vins, pour une grande occasion.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant, en demandant une table en terrasse",
+   "photo": {
+    "auteur": "Matěj Baťha",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APraha%2C_Mala_Strana_-_U_Zlate_studne_%28pohled_ze_slepeho_konce%29.jpg",
+    "src": "img/restos/PRG/zlata-studne.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
