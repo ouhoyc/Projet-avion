@@ -1,0 +1,1650 @@
+{
+  "city_code": "VCE",
+  "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+  "verifie_le": "2026-10-22",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "basilique",
+      "nom": "Basilique Saint-Marc",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "San Marco",
+      "lat": 45.434548,
+      "lng": 12.339822,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Basilique (billet en ligne, sans attente)",
+          6
+        ],
+        [
+          "Basilique (file d'attente sur place)",
+          3
+        ],
+        [
+          "Pala d'Oro (retable d'or, sur place)",
+          5
+        ],
+        [
+          "Musée et terrasse des chevaux (en ligne)",
+          10
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne quelques jours avant pour éviter la file (souvent 30 à 60 min en été)",
+      "duree": "45 min (1 h 30 avec le musée et la terrasse)",
+      "moment": "À l'ouverture (9 h 30), ou en fin d'après-midi",
+      "enfants": true,
+      "texte": "Huit siècles d'or byzantin : plus de 8 000 m² de mosaïques dorées couvrent les coupoles. Montez ensuite sur la terrasse des chevaux de bronze, avec la place Saint-Marc à vos pieds.",
+      "site_officiel": "https://www.basilicasanmarco.it/",
+      "note": "Épaules et genoux couverts obligatoires, et pas de grand sac (consigne gratuite à côté, Ateneo San Basso).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "dconvertini",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APalazzo_Ducale%2C_Venezia%2C_Italy.jpg",
+        "src": "img/activites/VCE/basilique.jpg"
+      }
+    },
+    {
+      "id": "doges",
+      "nom": "Palais des Doges et pont des Soupirs",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "San Marco",
+      "lat": 45.434211,
+      "lng": 12.340592,
+      "prix": 30,
+      "prix_detail": [
+        [
+          "Billet en ligne au moins 1 mois avant",
+          30
+        ],
+        [
+          "Billet sur place ou moins d'un mois avant",
+          35
+        ],
+        [
+          "Itinéraires secrets (visite guidée, sur réservation)",
+          "≈ 32 €"
+        ],
+        [
+          "6 à 14 ans, étudiants jusqu'à 25 ans",
+          "15 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 30,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            14,
+            15
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne plus d'un mois avant : 5 € de moins (le billet comprend aussi le musée Correr)",
+      "duree": "2 h à 2 h 30",
+      "moment": "À l'ouverture (9 h), ou après 15 h",
+      "enfants": true,
+      "texte": "Le siège du pouvoir de la Sérénissime pendant mille ans : escalier d'or, salle du Grand Conseil couverte de Tintoret et de Véronèse, puis les prisons, que l'on rejoint par le pont des Soupirs, le dernier regard sur Venise des condamnés.",
+      "site_officiel": "https://palazzoducale.visitmuve.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "jeffwarder",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVenezia_-_the_facade_of_the_Palazzo_Ducale_-_panoramio.jpg",
+        "src": "img/activites/VCE/doges.jpg"
+      }
+    },
+    {
+      "id": "campanile",
+      "nom": "Campanile de Saint-Marc",
+      "emoji": "🗼",
+      "type": "vue",
+      "quartier": "San Marco",
+      "lat": 45.434036,
+      "lng": 12.339044,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Billet en ligne (heure fixe, sans attente)",
+          12
+        ],
+        [
+          "File d'attente sur place",
+          10
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne la veille ou quelques jours avant en été",
+      "duree": "30 min",
+      "moment": "En fin de journée, pour la lumière dorée sur les toits",
+      "enfants": true,
+      "texte": "98 mètres et un ascenseur : en une minute, toute Venise s'étale sous vos yeux, avec ses toits rouges, la lagune, les îles et, par temps clair, les Dolomites enneigées à l'horizon.",
+      "site_officiel": "https://www.basilicasanmarco.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%28Venice%29_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg",
+        "src": "img/activites/VCE/campanile.jpg"
+      }
+    },
+    {
+      "id": "rialto",
+      "nom": "Pont du Rialto et Grand Canal",
+      "emoji": "🌉",
+      "type": "balade",
+      "quartier": "Rialto",
+      "lat": 45.438069,
+      "lng": 12.335655,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          0
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h (avec le marché du Rialto)",
+      "moment": "Tôt le matin, avant la foule, ou au coucher du soleil",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le pont de pierre le plus célèbre de Venise, et la plus belle vue sur le Grand Canal où se croisent gondoles, vaporettos et bateaux de livraison. Juste à côté, le marché aux poissons du Rialto s'anime chaque matin depuis mille ans.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "note": "Le marché aux poissons ouvre du mardi au samedi, le matin seulement.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "kallerna",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APonte_di_Rialto_Venice_1.jpg",
+        "src": "img/activites/VCE/rialto.jpg"
+      }
+    },
+    {
+      "id": "grand-canal",
+      "nom": "Le Grand Canal en vaporetto (ligne 1)",
+      "emoji": "🚤",
+      "type": "balade",
+      "quartier": "Grand Canal",
+      "lat": 45.440946,
+      "lng": 12.321987,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Billet simple (75 min)",
+          "9,50 €"
+        ],
+        [
+          "Pass 24 h / 48 h / 72 h",
+          "25 € / 35 € / 45 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9.5,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet aux guichets ACTV ou sur l'application, à valider avant de monter",
+      "duree": "45 min de la gare à Saint-Marc",
+      "moment": "En fin d'après-midi ; asseyez-vous à l'avant ou à l'arrière, à l'extérieur",
+      "enfants": true,
+      "texte": "La plus belle balade de Venise coûte le prix d'un ticket de bus : de la gare à Saint-Marc, la ligne 1 descend lentement tout le Grand Canal, devant près de 200 palais, le pont du Rialto et le dôme de la Salute.",
+      "site_officiel": "https://actv.avmspa.it/",
+      "note": "Si vous restez plus d'un jour, un pass 48 h ou 72 h est vite rentabilisé (il sert aussi pour Murano, Burano et le Lido).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Julian Herzog",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGrand_Canal_Santa_Maria_della_Salute_Vaporetto_Gondola_Venice_01.jpg",
+        "src": "img/activites/VCE/grand-canal.jpg"
+      }
+    },
+    {
+      "id": "gondole",
+      "nom": "Balade en gondole",
+      "emoji": "🛶",
+      "type": "balade",
+      "quartier": "San Marco",
+      "lat": 45.434265,
+      "lng": 12.336942,
+      "prix": 45,
+      "prix_detail": [
+        [
+          "La gondole, 30 min de jour (jusqu'à 5 personnes)",
+          90
+        ],
+        [
+          "La gondole, 30 min après 19 h",
+          "≈ 110 €"
+        ],
+        [
+          "Prix par personne à deux, de jour",
+          "≈ 45 €"
+        ],
+        [
+          "Traversée du Grand Canal en « traghetto »",
+          "2 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 45,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "directement aux stations de gondoles, sans réservation",
+      "duree": "30 min",
+      "moment": "En fin de journée, dans les petits canaux plutôt que sur le Grand Canal",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le cliché le plus célèbre du monde, et il tient ses promesses : glisser sans bruit dans les petits canaux, sous les ponts et le long des façades, guidé par un gondolier en marinière.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "note": "Le tarif est fixé par la ville et se paie pour la gondole entière : mettez-vous d'accord sur le prix et la durée avant de monter. Les chansons sont en supplément.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Iain Cameron",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGondolas_on_Canal_Grande%2C_Venice_%2815454089631%29.jpg",
+        "src": "img/activites/VCE/gondole.jpg"
+      }
+    },
+    {
+      "id": "burano",
+      "nom": "Île de Burano",
+      "emoji": "🎨",
+      "type": "nature",
+      "quartier": "Burano",
+      "lat": 45.485356,
+      "lng": 12.417538,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre (vaporetto ligne 12, compris dans les pass)",
+          0
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée avec Murano ou Torcello",
+      "moment": "Le matin, ou en fin d'après-midi quand les groupes repartent",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des maisons de pêcheurs peintes de toutes les couleurs, rose, turquoise, jaune citron, alignées le long des canaux : l'île la plus photogénique de la lagune, célèbre aussi pour sa dentelle.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "note": "Comptez 45 min de vaporetto depuis les Fondamente Nove.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jorge Franganillo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACanal_and_colourful_houses_in_Burano_%2850416720017%29.jpg",
+        "src": "img/activites/VCE/burano.jpg"
+      }
+    },
+    {
+      "id": "murano",
+      "nom": "Île de Murano et ses souffleurs de verre",
+      "emoji": "🔥",
+      "type": "nature",
+      "quartier": "Murano",
+      "lat": 45.456619,
+      "lng": 12.356889,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Musée du verre",
+          10
+        ],
+        [
+          "Musée du verre + musée de la dentelle de Burano",
+          12
+        ],
+        [
+          "Démonstration de soufflage dans un atelier",
+          "gratuit à 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 à 3 h",
+      "moment": "Le matin, quand les fours tournent",
+      "enfants": true,
+      "texte": "L'île des maîtres verriers depuis 1291 : regardez une boule de verre en fusion devenir un cheval ou un vase en quelques gestes, puis flânez le long du canal des verriers, bordé d'ateliers et de boutiques.",
+      "site_officiel": "https://museovetro.visitmuve.it/",
+      "note": "Méfiez-vous des « visites gratuites » proposées dans la rue : elles finissent dans un magasin. Pour du vrai verre de Murano, cherchez la marque « Vetro Artistico Murano ».",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Miguel Mendez",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGlass_blowing_in_the_Murano_island_%2814023312236%29.jpg",
+        "src": "img/activites/VCE/murano.jpg"
+      }
+    },
+    {
+      "id": "torcello",
+      "nom": "Île de Torcello",
+      "emoji": "🌿",
+      "type": "nature",
+      "quartier": "Torcello",
+      "lat": 45.4975,
+      "lng": 12.4185,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Cathédrale",
+          5
+        ],
+        [
+          "Cathédrale, campanile et musée",
+          "≈ 9 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Après Burano (5 min en bateau)",
+      "enfants": true,
+      "texte": "Le berceau de Venise, aujourd'hui presque désert : quelques maisons, des champs, des canaux sauvages et une cathédrale millénaire dont le mur entier est couvert d'un Jugement dernier en mosaïques d'or.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Gleb Simonov",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATorcello_Cathedral_-_Last_Judgement.jpg",
+        "src": "img/activites/VCE/torcello.jpg"
+      }
+    },
+    {
+      "id": "accademia",
+      "nom": "Gallerie dell'Accademia",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Dorsoduro",
+      "lat": 45.431366,
+      "lng": 12.328092,
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Plein tarif (mai à octobre)",
+          20
+        ],
+        [
+          "18 à 25 ans (Union européenne)",
+          "2 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ],
+        [
+          "Gratuit pour tous",
+          "le 1er dimanche du mois"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30 à 2 h",
+      "moment": "En semaine, dans la matinée",
+      "enfants": true,
+      "texte": "Le plus grand musée de peinture vénitienne : Bellini, Giorgione, Titien, Tintoret et Véronèse, dont l'immense « Repas chez Lévi », une toile de 13 mètres qui lui valut un procès devant l'Inquisition.",
+      "site_officiel": "https://www.gallerieaccademia.it/",
+      "note": "Fermé le lundi après-midi ; tarif un peu plus bas en hiver.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "oursana",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGallerie_dell%27Accademia_Venezia_2.JPG",
+        "src": "img/activites/VCE/accademia.jpg"
+      }
+    },
+    {
+      "id": "guggenheim",
+      "nom": "Collection Peggy Guggenheim",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Dorsoduro",
+      "lat": 45.430802,
+      "lng": 12.331541,
+      "prix": 17,
+      "prix_detail": [
+        [
+          "Plein tarif",
+          17
+        ],
+        [
+          "10 à 18 ans, étudiants jusqu'à 26 ans",
+          "9 €"
+        ],
+        [
+          "Moins de 10 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 17,
+        "enfants": [
+          [
+            9,
+            0
+          ],
+          [
+            18,
+            9
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne la veille en haute saison",
+      "duree": "1 h 30",
+      "moment": "Le matin ; fermé le mardi",
+      "enfants": true,
+      "texte": "Picasso, Dalí, Magritte, Pollock et Kandinsky dans le palais d'une collectionneuse américaine excentrique, posé sur le Grand Canal, avec un jardin de sculptures et une terrasse au bord de l'eau.",
+      "site_officiel": "https://www.guggenheim-venice.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Peter Haas",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGuggenheim_Venedig-DSC_0053w.jpg",
+        "src": "img/activites/VCE/guggenheim.jpg"
+      }
+    },
+    {
+      "id": "salute",
+      "nom": "Basilique de la Salute",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Dorsoduro",
+      "lat": 45.4307,
+      "lng": 12.3346,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Basilique",
+          0
+        ],
+        [
+          "Sacristie (Titien, Tintoret)",
+          "≈ 6 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Au coucher du soleil, depuis la pointe de la Douane juste derrière",
+      "enfants": true,
+      "texte": "Le grand dôme blanc qui veille sur l'entrée du Grand Canal, bâti pour remercier la Vierge d'avoir arrêté la peste de 1630. Derrière, la pointe de la Douane offre l'une des plus belles vues sur Saint-Marc.",
+      "site_officiel": "https://basilicasalutevenezia.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%28Venice%29_-_Santa_Maria_della_Salute_-_Le_due_cupole_e_i_due_campanili.jpg",
+        "src": "img/activites/VCE/salute.jpg"
+      }
+    },
+    {
+      "id": "acqua-alta",
+      "nom": "Librairie Acqua Alta",
+      "emoji": "📚",
+      "type": "balade",
+      "quartier": "Castello",
+      "lat": 45.438056,
+      "lng": 12.342269,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée libre",
+          0
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "20 à 30 min",
+      "moment": "À l'ouverture (9 h) ou en fin de journée ; il y a souvent la queue",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des milliers de livres empilés dans des baignoires, des barques et même une gondole, pour les protéger des inondations, des chats endormis sur les piles et, au fond de la cour, un escalier fait de vieux livres avec vue sur le canal.",
+      "site_officiel": "https://www.instagram.com/libreriaacquaalta/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Davide Mauro",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALibreria_Acqua_Alta_03.jpg",
+        "src": "img/activites/VCE/acqua-alta.jpg"
+      }
+    },
+    {
+      "id": "bovolo",
+      "nom": "Scala Contarini del Bovolo",
+      "emoji": "🌀",
+      "type": "vue",
+      "quartier": "San Marco",
+      "lat": 45.43481,
+      "lng": 12.334546,
+      "prix": 9,
+      "prix_detail": [
+        [
+          "Entrée",
+          9
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "30 min",
+      "moment": "Toute la journée",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un escalier en colimaçon de dentelle de pierre, caché au fond d'une cour : on monte ses arcades blanches jusqu'à un belvédère sur les toits et les coupoles, presque sans touristes.",
+      "site_officiel": "https://www.gioiellinascostidivenezia.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AScala_Contarini_del_Bovolo_%28Venice%29.jpg",
+        "src": "img/activites/VCE/bovolo.jpg"
+      }
+    },
+    {
+      "id": "fenice",
+      "nom": "Théâtre La Fenice",
+      "emoji": "🎭",
+      "type": "sortir",
+      "quartier": "San Marco",
+      "lat": 45.43371,
+      "lng": 12.333857,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Visite libre avec audioguide",
+          12
+        ],
+        [
+          "Visite guidée",
+          "≈ 25 €"
+        ],
+        [
+          "Opéra ou concert",
+          "à partir de ≈ 30 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "opéra : plusieurs semaines avant ; visite : la veille suffit",
+      "duree": "45 min (visite)",
+      "moment": "En journée pour la visite, le soir pour un opéra",
+      "enfants": true,
+      "texte": "Le « Phénix », deux fois brûlé, deux fois reconstruit à l'identique : cinq rangées de loges dorées où furent créés La Traviata et Rigoletto. Visitez-le en journée, ou offrez-vous un opéra le soir.",
+      "site_officiel": "https://www.teatrolafenice.it/",
+      "note": "La visite peut être annulée au dernier moment les jours de répétition.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Pietro Tessarin",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALa_Fenice_Opera_House_from_the_stage.jpg",
+        "src": "img/activites/VCE/fenice.jpg"
+      }
+    },
+    {
+      "id": "san-giorgio",
+      "nom": "Île San Giorgio Maggiore et son campanile",
+      "emoji": "🔭",
+      "type": "vue",
+      "quartier": "San Giorgio",
+      "lat": 45.429,
+      "lng": 12.343,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Montée au campanile (ascenseur)",
+          "6 à 8 €"
+        ],
+        [
+          "Basilique",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "En fin d'après-midi",
+      "enfants": true,
+      "texte": "La plus belle vue sur Saint-Marc, sans la foule : un vaporetto de 3 minutes vous dépose devant l'église blanche de Palladio, et l'ascenseur du campanile montre le palais des Doges, la lagune et le Lido.",
+      "site_officiel": "https://www.abbaziasangiorgio.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Wolfgang Moroder",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABasilica_di_San_Giorgio_Maggiore_a_Venezia.jpg",
+        "src": "img/activites/VCE/san-giorgio.jpg"
+      }
+    },
+    {
+      "id": "ghetto",
+      "nom": "Le Ghetto de Cannaregio",
+      "emoji": "🕍",
+      "type": "balade",
+      "quartier": "Cannaregio",
+      "lat": 45.4446,
+      "lng": 12.3262,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade libre",
+          0
+        ],
+        [
+          "Musée juif et visite des synagogues",
+          "≈ 12 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En journée (fermé le samedi pour le musée)",
+      "enfants": true,
+      "texte": "Le premier ghetto du monde (1516), qui a donné son nom à tous les autres : ses immeubles sont les plus hauts de Venise, faute de place pour s'agrandir. Une grande place paisible, des boulangeries cachères et cinq synagogues cachées dans les étages.",
+      "site_officiel": "https://www.museoebraico.it/",
+      "note": "Le musée juif rouvre après de longs travaux : vérifiez les horaires avant de venir.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGhetto_%28Venice%29_Panorama.jpg",
+        "src": "img/activites/VCE/ghetto.jpg"
+      }
+    },
+    {
+      "id": "frari",
+      "nom": "Basilique des Frari",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "San Polo",
+      "lat": 45.436872,
+      "lng": 12.326225,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Entrée",
+          "≈ 5 €"
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            11,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "En semaine ; le dimanche, ouverture l'après-midi seulement",
+      "enfants": true,
+      "texte": "Une immense église de briques qui cache le chef-d'œuvre de Titien, « l'Assomption », une Vierge rouge et or qui s'élève au-dessus de l'autel, et le tombeau du peintre lui-même.",
+      "site_officiel": "https://www.basilicadeifrari.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABasilica_di_Santa_Maria_dei_Frari_interno_-_Monumento_di_Canova.jpg",
+        "src": "img/activites/VCE/frari.jpg"
+      }
+    },
+    {
+      "id": "san-rocco",
+      "nom": "Scuola Grande di San Rocco",
+      "emoji": "🖌️",
+      "type": "culture",
+      "quartier": "San Polo",
+      "lat": 45.436542,
+      "lng": 12.325268,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée",
+          10
+        ],
+        [
+          "Moins de 18 ans",
+          "réduit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "À combiner avec les Frari, juste à côté",
+      "enfants": true,
+      "texte": "La « chapelle Sixtine » de Tintoret : plus de 60 toiles géantes peintes pendant 24 ans couvrent murs et plafonds. Des miroirs sont prêtés à l'entrée pour admirer les plafonds sans se tordre le cou.",
+      "site_officiel": "https://www.scuolagrandesanrocco.org/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AScuola_Grande_di_San_Rocco_%28Venice%29_-_Il_Salone_Maggiore.jpg",
+        "src": "img/activites/VCE/san-rocco.jpg"
+      }
+    },
+    {
+      "id": "ca-rezzonico",
+      "nom": "Ca' Rezzonico, Venise au XVIIIe siècle",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Dorsoduro",
+      "lat": 45.433247,
+      "lng": 12.327124,
+      "prix": 14,
+      "prix_detail": [
+        [
+          "Plein tarif",
+          "≈ 14 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            14,
+            10
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "L'après-midi ; fermé le mardi",
+      "enfants": true,
+      "texte": "Entrez dans un palais du Grand Canal tel que l'ont connu Casanova et les dernières grandes familles vénitiennes : salle de bal aux fresques de Tiepolo, lustres de Murano, meubles laqués et gondole d'époque.",
+      "site_officiel": "https://carezzonico.visitmuve.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACa%27_Rezzonico_%28Venice%29.jpg",
+        "src": "img/activites/VCE/ca-rezzonico.jpg"
+      }
+    },
+    {
+      "id": "lido",
+      "nom": "Plages du Lido",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "Lido",
+      "lat": 45.417026,
+      "lng": 12.368539,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plages publiques",
+          0
+        ],
+        [
+          "Cabine et transat dans un établissement",
+          "≈ 20 à 40 € la journée"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "De juin à septembre",
+      "enfants": true,
+      "texte": "À 15 minutes de vaporetto, le long cordon de sable qui protège Venise : 12 km de plage sur l'Adriatique, des cabines rayées, des villas Belle Époque et le palais du festival du film. Idéal pour souffler avec des enfants.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Florian Fuchs",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABeach_Cabins_in_front_of_Hotel_Excelsior_%28Lido_di_Venezia%29-01.jpg",
+        "src": "img/activites/VCE/lido.jpg"
+      }
+    },
+    {
+      "id": "biennale",
+      "nom": "Biennale d'art contemporain",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Castello",
+      "lat": 45.42902,
+      "lng": 12.357933,
+      "prix": 30,
+      "prix_detail": [
+        [
+          "Plein tarif (Giardini + Arsenale)",
+          30
+        ],
+        [
+          "Étudiants et moins de 26 ans, enfants dès 7 ans",
+          "16 €"
+        ],
+        [
+          "6 ans et moins",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 30,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            25,
+            16
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne quelques jours avant",
+      "duree": "Une journée entière (deux sites)",
+      "moment": "Jusqu'au 22 novembre 2026 ; fermé le lundi",
+      "enfants": true,
+      "texte": "Le plus grand rendez-vous d'art contemporain au monde : une centaine de pavillons nationaux dans les jardins de Castello et les immenses corderies de l'ancien arsenal. En 2027, place à la Biennale d'architecture (mai à novembre).",
+      "site_officiel": "https://www.labiennale.org/",
+      "a_verifier": false
+    },
+    {
+      "id": "vivaldi",
+      "nom": "Concert Vivaldi des Interpreti Veneziani",
+      "emoji": "🎻",
+      "type": "sortir",
+      "quartier": "San Marco",
+      "lat": 45.432424,
+      "lng": 12.329526,
+      "prix": 35,
+      "prix_detail": [
+        [
+          "Concert (1 h 30), musée de la musique compris",
+          "≈ 30 à 40 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 35,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille ou le jour même",
+      "duree": "1 h 30",
+      "moment": "Le soir, à 21 h",
+      "enfants": true,
+      "texte": "Les Quatre Saisons dans la ville natale de Vivaldi, jouées par l'un des meilleurs ensembles baroques de Venise dans l'église San Vidal, à deux pas du pont de l'Accademia. Une soirée magique.",
+      "site_officiel": "https://www.interpretiveneziani.com/",
+      "note": "Préférez ce vrai ensemble aux concerts proposés par des vendeurs en costume dans la rue.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AChiesa_di_San_Vidal_%28Venice%29_Facade.jpg",
+        "src": "img/activites/VCE/vivaldi.jpg"
+      }
+    },
+    {
+      "id": "venezia-fc",
+      "nom": "Match du Venezia FC",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Sant'Elena",
+      "lat": 45.42779,
+      "lng": 12.36394,
+      "prix": 35,
+      "prix_detail": [
+        [
+          "Billet de Serie A",
+          "≈ 25 à 60 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 35,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "dès la mise en vente pour les grands clubs (Inter, Milan, Juventus)",
+      "duree": "3 h",
+      "moment": "Les soirs de match",
+      "enfants": true,
+      "club": "Venezia",
+      "texte": "Le seul stade où l'on arrive en bateau : le Penzo, posé au bout de l'île de Sant'Elena, vit sa dernière saison avant le nouveau stade. Maillots noir, vert et orange, parmi les plus beaux d'Europe.",
+      "site_officiel": "https://www.veneziafc.it/",
+      "note": "Achetez sur le site officiel du club : méfiez-vous des revendeurs.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "kallerna",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AStadio_Pierluigi_Penzo.jpg",
+        "src": "img/activites/VCE/venezia-fc.jpg"
+      }
+    },
+    {
+      "id": "carnaval",
+      "nom": "Carnaval de Venise",
+      "emoji": "🎭",
+      "type": "balade",
+      "quartier": "San Marco",
+      "lat": 45.434257,
+      "lng": 12.338672,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Défilés et costumes dans la rue",
+          0
+        ],
+        [
+          "Bal masqué dans un palais",
+          "à partir de ≈ 200 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une journée",
+      "moment": "Fin janvier au 9 février 2027 (mardi gras)",
+      "enfants": true,
+      "texte": "Deux semaines où Venise retourne au XVIIIe siècle : masques dorés, robes à panier et capes de velours défilent sur la place Saint-Marc. L'un des plus beaux spectacles du monde, gratuit dans la rue.",
+      "site_officiel": "https://www.carnevale.venezia.it/",
+      "note": "Les hôtels se remplissent des mois à l'avance pour les week-ends du carnaval.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Lucarelli",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACarnevale_venezia_maschere_1.jpg",
+        "src": "img/activites/VCE/carnaval.jpg"
+      }
+    },
+    {
+      "id": "zattere",
+      "nom": "Les Zattere et le chantier des gondoles",
+      "emoji": "🌅",
+      "type": "balade",
+      "quartier": "Dorsoduro",
+      "lat": 45.430338,
+      "lng": 12.326022,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade libre",
+          0
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "texte": "Le long quai ensoleillé face à l'île de la Giudecca, où les Vénitiens viennent marcher au soleil. En chemin, le squero San Trovaso, l'un des derniers chantiers où l'on fabrique et répare les gondoles à la main.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jorge Franganillo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVenezia_-_Dorsoduro_-_Squero_di_San_Trovaso.jpg",
+        "src": "img/activites/VCE/zattere.jpg"
+      }
+    },
+    {
+      "id": "misericordia",
+      "nom": "Cannaregio et la Fondamenta della Misericordia",
+      "emoji": "🍹",
+      "type": "balade",
+      "quartier": "Cannaregio",
+      "lat": 45.4433,
+      "lng": 12.3318,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade libre",
+          0
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "En fin de journée, à l'heure du spritz",
+      "enfants": true,
+      "texte": "La Venise des Vénitiens : de longs quais au bord de l'eau, du linge aux fenêtres, l'église de la Madonna dell'Orto où repose Tintoret, et le soir, les terrasses des bacari où l'on prend le spritz les pieds au-dessus du canal.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Didier Descouens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAbbazia_della_Misericordia_Venezia2.jpg",
+        "src": "img/activites/VCE/misericordia.jpg"
+      }
+    },
+    {
+      "id": "pont-accademia",
+      "nom": "Vue du pont de l'Accademia",
+      "emoji": "📸",
+      "type": "vue",
+      "quartier": "Dorsoduro",
+      "lat": 45.431684,
+      "lng": 12.32895,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          0
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "15 min",
+      "moment": "Au coucher du soleil, quand le dôme de la Salute devient rose",
+      "enfants": true,
+      "texte": "La carte postale de Venise : depuis ce pont de bois, le Grand Canal file droit vers le dôme de la Salute et la lagune. Le plus beau point de vue gratuit de la ville.",
+      "site_officiel": "https://www.veneziaunica.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Wolfgang Moroder",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACanal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg",
+        "src": "img/activites/VCE/pont-accademia.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "san-marco",
+      "nom": "San Marco",
+      "lat": 45.4345,
+      "lng": 12.3365,
+      "texte": "Le cœur de Venise, à deux pas de la place Saint-Marc, du palais des Doges et de la Fenice. Tout se fait à pied, mais c'est le quartier le plus cher et le plus fréquenté en journée."
+    },
+    {
+      "id": "cannaregio",
+      "nom": "Cannaregio",
+      "lat": 45.4425,
+      "lng": 12.3305,
+      "texte": "Le quartier vivant des Vénitiens, près de la gare : canaux tranquilles, bacari de la Fondamenta della Misericordia, le Ghetto. Des hôtels plus abordables, à 20 min à pied du Rialto."
+    },
+    {
+      "id": "castello",
+      "nom": "Castello",
+      "lat": 45.4355,
+      "lng": 12.346,
+      "texte": "Derrière Saint-Marc, vers l'Arsenal et les jardins de la Biennale : ruelles calmes, linge aux fenêtres, la Riva degli Schiavoni au bord de la lagune. Bon rapport qualité-prix tout près du centre."
+    },
+    {
+      "id": "dorsoduro",
+      "nom": "Dorsoduro",
+      "lat": 45.4315,
+      "lng": 12.327,
+      "texte": "Le quartier des musées (Accademia, Guggenheim) et des étudiants : le campo Santa Margherita pour l'apéritif, les Zattere au soleil couchant. Élégant et plus paisible le soir."
+    },
+    {
+      "id": "san-polo",
+      "nom": "San Polo et Santa Croce",
+      "lat": 45.4375,
+      "lng": 12.3285,
+      "texte": "Autour du marché du Rialto et des Frari : petites places, bacari et trattorias. Central et bien relié à la gare et à l'arrêt de bus de l'aéroport (Piazzale Roma)."
+    },
+    {
+      "id": "mestre",
+      "nom": "Mestre (sur la terre ferme)",
+      "lat": 45.484,
+      "lng": 12.238,
+      "texte": "La solution petit budget : des hôtels bien moins chers, près de la gare de Mestre, à 10 min de train ou 20 min de bus de Venise. On perd le charme du soir sur les canaux."
+    }
+  ],
+  "hotel_petit_prix_max": 130,
+  "restaurants": [
+    {
+      "id": "dal-moro",
+      "nom": "Dal Moro's Fresh Pasta To Go",
+      "emoji": "🍝",
+      "gamme": "petit",
+      "genre": "Pâtes fraîches à emporter",
+      "quartier": "Castello",
+      "adresse": "Calle de la Casseleria 5324, 30122 Venezia",
+      "lat": 45.436227,
+      "lng": 12.339921,
+      "prix": "8 à 12 €",
+      "prix_min": 8,
+      "badges": [],
+      "texte": "Des pâtes fraîches cuites à la minute et servies dans une boîte en carton, à manger en marchant ou assis sur les marches d'un pont : la pause déjeuner préférée des voyageurs, à cinq minutes de Saint-Marc.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : file d'attente rapide au comptoir",
+      "photo": {
+        "auteur": "brownpau from Washington, DC",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABigoli_with_anchovy_sauce_at_Ristorante_Ribot%2C_Venice.jpg",
+        "src": "img/restos/VCE/dal-moro.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "schiavi",
+      "nom": "Cantine del Vino già Schiavi",
+      "emoji": "🍷",
+      "gamme": "petit",
+      "genre": "Cicchetti (bouchées vénitiennes)",
+      "quartier": "Dorsoduro",
+      "adresse": "Fondamenta Nani 992, 30123 Venezia",
+      "lat": 45.430272,
+      "lng": 12.326257,
+      "prix": "2 à 15 €",
+      "prix_min": 5,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Le bacaro le plus célèbre de Venise, tenu par la même famille depuis 1949 : des dizaines de cicchetti (petites tartines de morue, thon, figues…) à 2 € pièce, un verre d'ombra, et on déguste debout au bord du canal, face au chantier des gondoles.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation, au comptoir",
+      "photo": {
+        "auteur": "Tim Sackton [1]",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%22_05_-_ITALY_-_un_bacaro_a_Venezia_Osteria_appetizers_restaurant_in_Venice_wine_enoteca.jpg",
+        "src": "img/restos/VCE/schiavi.jpg"
+      }
+    },
+    {
+      "id": "suso",
+      "nom": "Gelatoteca Suso",
+      "emoji": "🍨",
+      "gamme": "petit",
+      "genre": "Glacier artisanal",
+      "quartier": "Rialto",
+      "adresse": "Sotoportego de la Bissa 5453, 30124 Venezia",
+      "lat": 45.437806,
+      "lng": 12.336977,
+      "prix": "3 à 7 €",
+      "prix_min": 3,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La glace dont tout le monde parle à Venise, à deux pas du Rialto : parfums maison crémeux comme « Doge's Ring » ou « Manna di Venezia », servis généreusement. Il y a souvent la queue, et elle avance vite.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation"
+    },
+    {
+      "id": "tonolo",
+      "nom": "Pasticceria Tonolo",
+      "emoji": "🥐",
+      "gamme": "petit",
+      "genre": "Pâtisserie historique",
+      "quartier": "Dorsoduro",
+      "adresse": "Calle San Pantalon 3764, 30123 Venezia",
+      "lat": 45.435921,
+      "lng": 12.325179,
+      "prix": "2 à 8 €",
+      "prix_min": 2,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "La pâtisserie préférée des Vénitiens depuis 1886 : on y prend un café debout au comptoir avec une « frittella » (beignet du carnaval à la crème), un croissant ou des petits choux, comme les habitants du quartier.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation"
+    },
+    {
+      "id": "antico-forno",
+      "nom": "Antico Forno",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pizza à la part",
+      "quartier": "San Polo",
+      "adresse": "Rugheta del Ravano 973, 30125 Venezia",
+      "lat": 45.438052,
+      "lng": 12.333273,
+      "prix": "5 à 12 €",
+      "prix_min": 5,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des parts de pizza à pâte épaisse et moelleuse, garnies généreusement, près du Rialto : la « pizza al taglio » idéale pour un déjeuner rapide et pas cher entre deux visites.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation, à emporter ou sur quelques tabourets",
+      "photo": {
+        "auteur": "JIP",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APizza_al_taglio_at_Br%C3%B6d_%26_Salt.jpg",
+        "src": "img/restos/VCE/antico-forno.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "acqua-e-mais",
+      "nom": "Acqua e Mais",
+      "emoji": "🐟",
+      "gamme": "petit",
+      "genre": "Friture de poisson à emporter",
+      "quartier": "San Polo",
+      "adresse": "Campiello dei Meloni 1411, 30125 Venezia",
+      "lat": 45.4373,
+      "lng": 12.3293,
+      "prix": "6 à 14 €",
+      "prix_min": 6,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le « street food » vénitien : un cornet de petits poissons et calamars frits, ou de la morue crémeuse sur polenta, à grignoter en marchant dans les ruelles de San Polo.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation"
+    },
+    {
+      "id": "carampane",
+      "nom": "Trattoria Antiche Carampane",
+      "emoji": "🦐",
+      "gamme": "moyen",
+      "genre": "Trattoria de poisson de la lagune",
+      "quartier": "San Polo",
+      "adresse": "Rio Terà de le Carampane 1911, 30125 Venezia",
+      "lat": 45.4386687,
+      "lng": 12.3310933,
+      "prix": "45 à 65 €",
+      "prix_min": 45,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Cachée dans une ruelle introuvable, avec l'enseigne « ni pizza, ni lasagne, ni menu touristique » : une trattoria vénitienne pur jus, citée par le guide Michelin, pour les crabes mous, la friture et les spaghetti aux palourdes.",
+      "reservation": "indispensable",
+      "reservation_delai": "plusieurs jours avant (souvent complet le soir)"
+    },
+    {
+      "id": "gatto-nero",
+      "nom": "Trattoria Al Gatto Nero",
+      "emoji": "🐈‍⬛",
+      "gamme": "moyen",
+      "genre": "Risotto et poisson à Burano",
+      "quartier": "Burano",
+      "adresse": "Fondamenta della Giudecca 88, 30142 Burano",
+      "lat": 45.4847718,
+      "lng": 12.4163344,
+      "prix": "50 à 70 €",
+      "prix_min": 50,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Depuis 1965, la même famille sert le fameux risotto de gobies de la lagune sur une terrasse au bord d'un canal coloré de Burano. Le déjeuner parfait pour une journée dans les îles, cité par le guide Michelin.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, surtout pour la terrasse"
+    },
+    {
+      "id": "al-covo",
+      "nom": "Al Covo",
+      "emoji": "🐚",
+      "gamme": "moyen",
+      "genre": "Cuisine de la lagune, produits locaux",
+      "quartier": "Castello",
+      "adresse": "Campiello de la Pescaria 3968, 30122 Venezia",
+      "lat": 45.434174,
+      "lng": 12.3476275,
+      "prix": "50 à 75 €",
+      "prix_min": 50,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Une petite salle chaleureuse près de la Riva degli Schiavoni, où un couple passionné ne cuisine que le poisson du jour de la lagune et les légumes des îles. L'une des adresses les plus aimées de Venise.",
+      "reservation": "indispensable",
+      "reservation_delai": "plusieurs jours avant"
+    },
+    {
+      "id": "vini-da-gigio",
+      "nom": "Vini da Gigio",
+      "emoji": "🍷",
+      "gamme": "moyen",
+      "genre": "Cuisine vénitienne de terre et de mer",
+      "quartier": "Cannaregio",
+      "adresse": "Calle Stua 3628A, 30121 Venezia",
+      "lat": 45.4419797,
+      "lng": 12.3337217,
+      "prix": "40 à 60 €",
+      "prix_min": 40,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Une osteria familiaire au bord d'un canal de Cannaregio, connue pour son foie à la vénitienne, ses pâtes au canard et une cave à vins impressionnante. L'adresse où les Vénitiens emmènent leurs amis.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant",
+      "photo": {
+        "auteur": "Xaura",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFegato_alla_veneziana.jpg",
+        "src": "img/restos/VCE/vini-da-gigio.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "estro",
+      "nom": "Estro Vino e Cucina",
+      "emoji": "🥂",
+      "gamme": "moyen",
+      "genre": "Bar à vins et cuisine moderne",
+      "quartier": "Dorsoduro",
+      "adresse": "Dorsoduro 3778, 30123 Venezia",
+      "lat": 45.4360388,
+      "lng": 12.3250367,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Des centaines de vins nature et une cuisine de saison inventive (tartare, pâtes maison, cicchetti revisités) : la table jeune et branchée de Dorsoduro, saluée par le guide Michelin.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir"
+    },
+    {
+      "id": "giorgione-masa",
+      "nom": "Osteria Giorgione da Masa",
+      "emoji": "🍣",
+      "gamme": "moyen",
+      "genre": "Cuisine vénitienne à la japonaise",
+      "quartier": "Cannaregio",
+      "adresse": "Calle Larga dei Proverbi 4582/A, 30121 Venezia",
+      "lat": 45.4410394,
+      "lng": 12.3372203,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Un chef japonais installé à Venise marie le poisson de la lagune et les techniques de son pays : sashimis de poissons vénitiens, pâtes à l'encre de seiche, tempura de légumes des îles. Une rencontre étonnante et réussie.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant",
+      "photo": {
+        "auteur": "Daderot",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASashimi_plate_-_Massachusetts.jpg",
+        "src": "img/restos/VCE/giorgione-masa.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "glam",
+      "nom": "Glam Enrico Bartolini",
+      "emoji": "✨",
+      "gamme": "haut",
+      "genre": "Grande table sur le Grand Canal",
+      "quartier": "Santa Croce",
+      "adresse": "Palazzo Venart, Calle Tron 1961, 30135 Venezia",
+      "lat": 45.4413057,
+      "lng": 12.3298209,
+      "prix": "à partir de 180 €",
+      "prix_min": 180,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "Deux étoiles Michelin dans un palais du XVIe siècle, avec jardin privé au bord du Grand Canal : la cuisine vénitienne réinventée par Enrico Bartolini, le chef le plus étoilé d'Italie.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant"
+    },
+    {
+      "id": "local",
+      "nom": "Local",
+      "emoji": "🍽️",
+      "gamme": "haut",
+      "genre": "Cuisine vénitienne contemporaine",
+      "quartier": "Castello",
+      "adresse": "Salizada dei Greci 3303, 30122 Venezia",
+      "lat": 45.4356,
+      "lng": 12.345893,
+      "prix": "à partir de 150 €",
+      "prix_min": 150,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Une salle épurée, une cuisine ouverte et un menu dégustation qui ne cuisine que des produits de la lagune et de la Vénétie. L'étoile la plus moderne et la plus « locale » de Venise.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant"
+    },
+    {
+      "id": "oro",
+      "nom": "Oro Restaurant",
+      "emoji": "🌅",
+      "gamme": "haut",
+      "genre": "Table de palace face à la lagune",
+      "quartier": "Giudecca",
+      "adresse": "Hotel Cipriani, Giudecca 10, 30133 Venezia",
+      "lat": 45.4271,
+      "lng": 12.3412,
+      "prix": "à partir de 200 €",
+      "prix_min": 200,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Au palace Cipriani, sur l'île de la Giudecca : un bateau privé vous emmène depuis Saint-Marc vers une terrasse face à la lagune, pour un dîner étoilé dans l'un des hôtels les plus mythiques du monde.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant ; navette en bateau depuis Saint-Marc",
+      "photo": {
+        "auteur": "Bjoertvedt",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGiudecca_island_Hotel_Cipriani_IMG_9202.jpg",
+        "src": "img/restos/VCE/oro.jpg"
+      }
+    },
+    {
+      "id": "wisteria",
+      "nom": "Wistèria",
+      "emoji": "🌸",
+      "gamme": "haut",
+      "genre": "Poissons et crustacés en menu dégustation",
+      "quartier": "San Polo",
+      "adresse": "San Polo 2908, 30125 Venezia",
+      "lat": 45.43566,
+      "lng": 12.32682,
+      "prix": "à partir de 120 €",
+      "prix_min": 120,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Une petite salle intime près des Frari, et un chef qui sublime les poissons et crustacés de l'Adriatique. L'étoile Michelin la plus accessible et la plus chaleureuse de la ville.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant"
+    },
+    {
+      "id": "venissa",
+      "nom": "Venissa",
+      "emoji": "🍇",
+      "gamme": "haut",
+      "genre": "Table étoilée dans un vignoble de la lagune",
+      "quartier": "Mazzorbo",
+      "adresse": "Fondamenta di Santa Caterina 3, 30142 Mazzorbo",
+      "lat": 45.4886784,
+      "lng": 12.4111088,
+      "prix": "à partir de 150 €",
+      "prix_min": 150,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Sur l'île de Mazzorbo, reliée à Burano par un pont de bois : un vignoble clos du Moyen Âge, un potager et une table étoilée qui cuisine les herbes sauvages et les poissons de la lagune. Un déjeuner hors du temps.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant ; ouvert d'avril à novembre",
+      "photo": {
+        "auteur": "Acquario51",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVenezia_-_Comune_di_Venezia_-_2023-09-27_18-11-27_002.jpg",
+        "src": "img/restos/VCE/venissa.jpg"
+      }
+    },
+    {
+      "id": "da-fiore",
+      "nom": "Osteria da Fiore",
+      "emoji": "🦞",
+      "gamme": "haut",
+      "genre": "Grand classique du poisson vénitien",
+      "quartier": "San Polo",
+      "adresse": "Calle del Scaleter 2202, 30125 Venezia",
+      "lat": 45.4386827,
+      "lng": 12.3293006,
+      "prix": "100 à 150 €",
+      "prix_min": 100,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Depuis 1978, la grande adresse de poisson de Venise, longtemps étoilée : crudités de la lagune, risotto aux fruits de mer et soles parfaites, servis dans une salle élégante, avec une table romantique au bord du canal.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 semaine avant ; demandez la table près de la fenêtre sur le canal"
+    }
+  ]
+}
