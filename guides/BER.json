@@ -1,0 +1,1704 @@
+{
+ "city_code": "BER",
+ "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 90,
+ "activites": [
+  {
+   "id": "brandenburger-tor",
+   "nom": "Porte de Brandebourg",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Mitte",
+   "lat": 52.516275,
+   "lng": 13.377704,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Passage sous la porte et place de Paris",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "À la nuit tombée, quand elle s'illumine, ou tôt le matin pour la photo sans la foule",
+   "enfants": true,
+   "texte": "Le symbole de Berlin et de sa réunification : pendant 28 ans, la porte s'est dressée au milieu du no man's land. Passez dessous à pied, du côté ouest au côté est, comme des milliers de Berlinois le soir du 9 novembre 1989, puis remontez l'avenue Unter den Linden.",
+   "site_officiel": "https://www.visitberlin.de/fr/porte-de-brandebourg",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Thomas Wolf, www.foto-tw.de",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrandenburger_Tor_abends.jpg",
+    "src": "img/activites/BER/brandenburger-tor.jpg"
+   }
+  },
+  {
+   "id": "reichstag",
+   "nom": "Coupole de verre du Reichstag",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Tiergarten",
+   "lat": 52.518654,
+   "lng": 13.376102,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Coupole et terrasse sur le toit (sur inscription)",
+     "gratuit"
+    ],
+    [
+     "Audioguide en français",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "inscription gratuite en ligne, quelques jours avant (souvent complet des semaines à l'avance l'été) ; pièce d'identité obligatoire",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, ou le soir pour la ville illuminée",
+   "enfants": true,
+   "texte": "Montez en spirale dans la coupole de verre de Norman Foster, au-dessus de la salle où siègent les députés allemands. La vue à 360° sur le Tiergarten, la chancellerie et la porte de Brandebourg est gratuite : il suffit de s'inscrire en ligne.",
+   "site_officiel": "https://www.bundestag.de/fr/visiter",
+   "note": "Coupole fermée pour entretien du 19 au 30 octobre 2026 (la terrasse reste ouverte). Inscrivez-vous uniquement sur bundestag.de : la visite est gratuite.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Perituss",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AInterior_of_the_Reichstag_dome_2015_2.jpg",
+    "src": "img/activites/BER/reichstag.jpg"
+   }
+  },
+  {
+   "id": "holocaust",
+   "nom": "Mémorial aux Juifs assassinés d'Europe",
+   "emoji": "🕯️",
+   "type": "culture",
+   "quartier": "Mitte",
+   "lat": 52.513873,
+   "lng": 13.378735,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Champ de stèles",
+     "gratuit"
+    ],
+    [
+     "Centre d'information souterrain",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En journée, pour le centre d'information (fermé le lundi)",
+   "enfants": true,
+   "texte": "Un champ de 2 711 stèles de béton, de hauteurs différentes, où le sol ondule et où l'on se perd vite, seul, entre les blocs gris. Sous le mémorial, le centre d'information raconte des destins de familles, sobrement et de façon bouleversante.",
+   "site_officiel": "https://www.stiftung-denkmal.de/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Slaunger",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMemorial_to_the_Murdered_Jews_of_Europe_Berlin_2014-07-13.jpg",
+    "src": "img/activites/BER/holocaust.jpg"
+   }
+  },
+  {
+   "id": "neues-museum",
+   "nom": "Neues Museum et buste de Néfertiti",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Île aux Musées",
+   "lat": 52.520155,
+   "lng": 13.397738,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte (créneau horaire)",
+     14
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass Île aux Musées (tous les musées ouverts, 1 jour)",
+     "≈ 24 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, le créneau horaire évite la file",
+   "duree": "2 h 30",
+   "moment": "À l'ouverture (10 h), Néfertiti est encore tranquille",
+   "enfants": true,
+   "texte": "Le buste de Néfertiti, 3 300 ans, intact et d'une beauté troublante, trône seul dans sa salle sous une coupole. Autour, l'Égypte ancienne, le chapeau d'or de l'âge du bronze et un musée reconstruit par David Chipperfield, où les cicatrices de la guerre ont été gardées.",
+   "site_officiel": "https://www.smb.museum/museen-einrichtungen/neues-museum/home/",
+   "note": "Le musée de Pergame est fermé pour travaux jusqu'au 4 juin 2027 : sur l'Île aux Musées, le Neues Museum est le plus beau à voir aujourd'hui.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Rüdiger Stehn from Kiel, Deutschland",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A08_Berlin-Klassenfahrt_1979-_Nofretete-B%C3%BCste%2C_%C3%84gyptisches_Museum_%2817461602724%29.jpg",
+    "src": "img/activites/BER/neues-museum.jpg"
+   }
+  },
+  {
+   "id": "berliner-dom",
+   "nom": "Cathédrale de Berlin et sa coupole",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Île aux Musées",
+   "lat": 52.519082,
+   "lng": 13.401094,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte (cathédrale, crypte des Hohenzollern et chemin de la coupole)",
+     15
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Fin d'après-midi, puis le coucher du soleil depuis la coupole",
+   "enfants": true,
+   "texte": "La plus grande église de Berlin, vert-de-gris au bord de la Spree. Après l'immense nef dorée et la crypte des rois de Prusse (rouverte en 2026), 270 marches mènent à la galerie extérieure de la coupole, avec la tour de télévision juste en face.",
+   "site_officiel": "https://www.berlinerdom.de/fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ansgar Koreng",
+    "licence": "CC BY 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerliner_Dom%2C_170409%2C_ako_%282%29.jpg",
+    "src": "img/activites/BER/berliner-dom.jpg"
+   }
+  },
+  {
+   "id": "fernsehturm",
+   "nom": "Tour de télévision de l'Alexanderplatz",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Alexanderplatz",
+   "lat": 52.520828,
+   "lng": 13.409421,
+   "prix": 27.5,
+   "prix_detail": [
+    [
+     "Adulte, billet en ligne avec créneau",
+     "≈ 27,50 €"
+    ],
+    [
+     "Enfants 4 à 14 ans",
+     "≈ 17,50 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 27.5,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      14,
+      17.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, moins cher qu'au guichet et sans file",
+   "duree": "1 h",
+   "moment": "Une heure avant le coucher du soleil, pour voir la ville passer du jour à la nuit",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le monument le plus haut d'Allemagne (368 m), construit par la RDA pour montrer sa modernité. L'ascenseur file à 203 m en 40 secondes : sous vos pieds, tout Berlin, de la porte de Brandebourg aux barres de l'Est, et par temps clair jusqu'à 80 km.",
+   "site_officiel": "https://tv-turm.de/fr/",
+   "note": "Fermé le 23 novembre 2026. Pour dîner là-haut, voir Sphere dans les restaurants.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "ArildV",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Mitte_June_2023_01.jpg",
+    "src": "img/activites/BER/fernsehturm.jpg"
+   }
+  },
+  {
+   "id": "east-side-gallery",
+   "nom": "East Side Gallery",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Friedrichshain",
+   "lat": 52.505229,
+   "lng": 13.439681,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade le long du Mur",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, avant les groupes ; finissez sur le pont de l'Oberbaum",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus long morceau du Mur encore debout : 1,3 km de béton peint par 118 artistes du monde entier en 1990. On y cherche le baiser Brejnev-Honecker et la Trabant qui traverse le mur, avant de passer le pont de l'Oberbaum, en brique rouge, vers Kreuzberg.",
+   "site_officiel": "https://www.stiftung-berliner-mauer.de/fr/east-side-gallery",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Emeric.tourniaire",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABaiser.JPG",
+    "src": "img/activites/BER/east-side-gallery.jpg"
+   }
+  },
+  {
+   "id": "mur-bernauer",
+   "nom": "Mémorial du Mur, Bernauer Straße",
+   "emoji": "🧱",
+   "type": "culture",
+   "quartier": "Mitte",
+   "lat": 52.5353,
+   "lng": 13.389554,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Mémorial en plein air, centre de documentation et belvédère",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En journée (centre de documentation fermé le lundi)",
+   "enfants": true,
+   "texte": "Le seul endroit où l'on comprend vraiment ce qu'était le Mur : un vrai tronçon avec le chemin de ronde, le mirador et la « bande de la mort », là où des maisons coupées en deux voyaient leurs habitants sauter par les fenêtres. Montez au belvédère pour la vue d'ensemble.",
+   "site_officiel": "https://www.stiftung-berliner-mauer.de/fr/memorial-du-mur-de-berlin",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ansgar Koreng",
+    "licence": "CC BY 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerliner_Mauer%2C_Bernauer_Stra%C3%9Fe%2C_Berlin-Mitte%2C_160326%2C_ako.jpg",
+    "src": "img/activites/BER/mur-bernauer.jpg"
+   }
+  },
+  {
+   "id": "topographie",
+   "nom": "Topographie de la terreur",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Kreuzberg",
+   "lat": 52.506214,
+   "lng": 13.384155,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Exposition et parcours en plein air",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En journée, en combinant avec Checkpoint Charlie à 5 min",
+   "enfants": false,
+   "texte": "Sur le site même des anciens quartiers de la Gestapo et des SS, une exposition gratuite, claire et saisissante sur la mécanique de la terreur nazie, longée par l'un des derniers pans du Mur au centre-ville.",
+   "site_officiel": "https://www.topographie.de/fr/",
+   "note": "Checkpoint Charlie, à deux rues, est jugé décevant par beaucoup de visiteurs (faux soldats, boutiques) : une photo en passant suffit.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Arild Vågen",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATopographie_des_Terrors_November_2013.jpg",
+    "src": "img/activites/BER/topographie.jpg"
+   }
+  },
+  {
+   "id": "musee-juif",
+   "nom": "Musée juif (bâtiment de Libeskind)",
+   "emoji": "✡️",
+   "type": "culture",
+   "quartier": "Kreuzberg",
+   "lat": 52.502247,
+   "lng": 13.395147,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Exposition permanente",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "≈ 10 € (gratuit moins de 18 ans)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "En semaine ; fermé le lundi",
+   "enfants": true,
+   "texte": "Un bâtiment en zigzag de zinc où l'architecture raconte autant que les vitrines : la tour de l'Holocauste, froide et vide, le jardin de l'Exil aux colonnes penchées et les 10 000 visages de métal qui crissent sous vos pas. Puis 1 700 ans de vie juive en Allemagne.",
+   "site_officiel": "https://www.jmberlin.de/fr",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marek Śliwecki",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_J%C3%BCdisches_Museum_und_der_Libeskind-Bau.jpg",
+    "src": "img/activites/BER/musee-juif.jpg"
+   }
+  },
+  {
+   "id": "ddr-museum",
+   "nom": "Musée de la RDA",
+   "emoji": "🚗",
+   "type": "culture",
+   "quartier": "Mitte",
+   "lat": 52.519403,
+   "lng": 13.402866,
+   "prix": 13.5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "13,50 €"
+    ],
+    [
+     "Enfants dès 6 ans, étudiants",
+     "8 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13.5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, la veille suffit",
+   "duree": "1 h 30",
+   "moment": "Tôt le matin ou après 18 h (ouvert jusqu'à 21 h), il est souvent bondé l'après-midi",
+   "enfants": true,
+   "texte": "La vie quotidienne à l'Est, à toucher : on s'assoit au volant d'une Trabant, on ouvre les tiroirs d'un appartement de HLM, on écoute en cachette dans un bureau de la Stasi. Le musée le plus vivant de Berlin, idéal avec des ados.",
+   "site_officiel": "https://www.ddr-museum.de/fr",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "HerrAdams",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin%2C_DDR-Museum%2C_Trabant_2014-07.jpg",
+    "src": "img/activites/BER/ddr-museum.jpg"
+   }
+  },
+  {
+   "id": "charlottenburg",
+   "nom": "Château de Charlottenburg",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Charlottenburg",
+   "lat": 52.520867,
+   "lng": 13.295779,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Vieux château et aile neuve",
+     12
+    ],
+    [
+     "Billet charlottenburg+ (tout le domaine, 1 jour)",
+     "19 €"
+    ],
+    [
+     "Réduit",
+     "8 €"
+    ],
+    [
+     "Parc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Le matin ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le plus beau palais de Berlin, résidence d'été des rois de Prusse : la salle de porcelaine, les salons dorés de Frédéric le Grand, puis un grand parc à la française et à l'anglaise qui descend jusqu'à la Spree. Du 23 novembre au 27 décembre, un marché de Noël gratuit s'installe devant.",
+   "site_officiel": "https://www.spsg.de/schloesser-gaerten/objekt/schloss-charlottenburg-altes-schloss/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Michael.F.H.Barth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Schloss_Charlottenburg_%28S41_2558%29.jpg",
+    "src": "img/activites/BER/charlottenburg.jpg"
+   }
+  },
+  {
+   "id": "sanssouci",
+   "nom": "Château de Sanssouci à Potsdam",
+   "emoji": "🌿",
+   "type": "culture",
+   "quartier": "Potsdam",
+   "lat": 52.404347,
+   "lng": 13.039297,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Château de Sanssouci (créneau horaire)",
+     14
+    ],
+    [
+     "Billet sanssouci+ (tous les châteaux de Potsdam, 1 jour)",
+     "22 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Parc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      10
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne sur tickets.spsg.de : les places par créneau sont limitées",
+   "duree": "5 h (avec le trajet)",
+   "moment": "Une journée de beau temps ; partez tôt (40 min en S-Bahn, billet zone ABC)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le « Versailles prussien » de Frédéric le Grand : un palais rococo posé en haut de six terrasses de vignes, un parc immense semé de folies (la maison chinoise dorée, le Nouveau Palais), et la vieille ville de Potsdam avec son quartier hollandais en brique rouge.",
+   "site_officiel": "https://www.spsg.de/schloesser-gaerten/objekt/schloss-sanssouci/",
+   "note": "Fermé le lundi. En hiver, certains palais du parc sont fermés : le château de Sanssouci reste ouvert.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Detlef Huhn",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEin_Blick_%C3%BCber_die_Gro%C3%9Fe_Font%C3%A4ne_zum_Schloss_Sanssouci.JPG",
+    "src": "img/activites/BER/sanssouci.jpg"
+   }
+  },
+  {
+   "id": "tempelhof",
+   "nom": "Tempelhofer Feld, l'aéroport devenu parc",
+   "emoji": "🪁",
+   "type": "nature",
+   "quartier": "Tempelhof",
+   "lat": 52.474419,
+   "lng": 13.402601,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès aux pistes",
+     "gratuit"
+    ],
+    [
+     "Location de vélo ou de trottinette (à côté)",
+     "≈ 10 à 15 € la demi-journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Fin d'après-midi, quand les cerfs-volants et les rollers envahissent les pistes",
+   "enfants": true,
+   "texte": "L'ancien aéroport du pont aérien de 1948 est devenu un parc géant : on roule, on pique-nique et on fait du cerf-volant sur les pistes d'atterrissage, devant l'immense aérogare des années 1930. Un lieu qu'on ne trouve nulle part ailleurs.",
+   "site_officiel": "https://gruen-berlin.de/projekte/parks/tempelhofer-feld/",
+   "note": "Le parc ouvre au lever du soleil et ferme au coucher.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "A.Savin",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Spring_2012_Tempelhofer_Feld.jpg",
+    "src": "img/activites/BER/tempelhof.jpg"
+   }
+  },
+  {
+   "id": "siegessaeule",
+   "nom": "Colonne de la Victoire",
+   "emoji": "👼",
+   "type": "vue",
+   "quartier": "Tiergarten",
+   "lat": 52.514508,
+   "lng": 13.350111,
+   "prix": 4.5,
+   "prix_detail": [
+    [
+     "Adulte (espèces uniquement)",
+     "4,50 €"
+    ],
+    [
+     "Réduit",
+     "3,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4.5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      3.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Par temps clair, avant une balade dans le Tiergarten",
+   "enfants": true,
+   "texte": "Au milieu du Tiergarten, l'ange doré « Goldelse » des Ailes du désir veille sur Berlin. 285 marches en colimaçon mènent à la plateforme, avec la vue sur les grandes avenues qui partent en étoile vers la porte de Brandebourg et la tour de télévision.",
+   "site_officiel": "https://www.berlin.de/sehenswuerdigkeiten/3560160-3558930-siegessaeule.html",
+   "note": "Pas d'ascenseur, et paiement en espèces seulement.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Steffen Prößdorf",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2025-05-28_Stadtansicht_Berlin%3B_Siegess%C3%A4ule_Gro%C3%9Fer_Stern_STP_5757.jpg",
+    "src": "img/activites/BER/siegessaeule.jpg"
+   }
+  },
+  {
+   "id": "gendarmenmarkt",
+   "nom": "Gendarmenmarkt",
+   "emoji": "🎻",
+   "type": "balade",
+   "quartier": "Mitte",
+   "lat": 52.51357,
+   "lng": 13.392297,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Place, Konzerthaus et deux cathédrales jumelles",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin de journée, puis un concert au Konzerthaus",
+   "enfants": true,
+   "texte": "Souvent appelée la plus belle place d'Europe : le Konzerthaus de Schinkel encadré par les cathédrales française et allemande, presque identiques. La cathédrale française rappelle les 20 000 huguenots accueillis par la Prusse au XVIIe siècle.",
+   "site_officiel": "https://www.visitberlin.de/fr/gendarmenmarkt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Berthold Werner",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Gendarmenmarkt_BW_4.jpg",
+    "src": "img/activites/BER/gendarmenmarkt.jpg"
+   }
+  },
+  {
+   "id": "gedaechtniskirche",
+   "nom": "Église du Souvenir",
+   "emoji": "🔔",
+   "type": "culture",
+   "quartier": "City West",
+   "lat": 52.504787,
+   "lng": 13.335194,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Ruine du clocher et nouvelle église",
+     "gratuit (don apprécié)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Par une journée ensoleillée, pour la lumière bleue des vitraux",
+   "enfants": true,
+   "texte": "La « dent creuse » des Berlinois : le clocher bombardé en 1943 a été gardé tel quel, en mémorial. À côté, l'église octogonale de 1961 cache un trésor : plus de 20 000 carreaux de verre bleu qui baignent la nef d'une lumière irréelle. Puis le Kurfürstendamm et le KaDeWe.",
+   "site_officiel": "https://gedaechtniskirche-berlin.de/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "John Samuel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AExterior_of_Kaiser-Wilhelm-Ged%C3%A4chtniskirche%2C_Berlin_03.jpg",
+    "src": "img/activites/BER/gedaechtniskirche.jpg"
+   }
+  },
+  {
+   "id": "croisiere-spree",
+   "nom": "Croisière d'une heure sur la Spree",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Île aux Musées",
+   "lat": 52.517564,
+   "lng": 13.405561,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Tour du centre en 1 h, adulte",
+     "≈ 18 à 23 €"
+    ],
+    [
+     "Enfants",
+     "≈ moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      14,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En fin de journée, quand la lumière dorée tombe sur la cathédrale",
+   "enfants": true,
+   "texte": "La façon la plus reposante de voir le centre : la cathédrale, l'Île aux Musées, le quartier du gouvernement et le Reichstag défilent depuis l'eau. Les bateaux partent de l'embarcadère du Nikolaiviertel ou de la cathédrale, toutes les 30 minutes environ.",
+   "site_officiel": "https://www.visitberlin.de/fr/croisieres-sur-la-spree",
+   "note": "Moins de départs en hiver (bateaux chauffés). Plusieurs compagnies : comparez les prix à l'embarcadère.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "David Merrett",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATrip_Boats_pass_under_Monbijoubr%C3%BCcke_with_Berlin_Cathedral_in_the_Background%2C_2017.jpg",
+    "src": "img/activites/BER/croisiere-spree.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo de Berlin",
+   "emoji": "🐼",
+   "type": "nature",
+   "quartier": "City West",
+   "lat": 52.508449,
+   "lng": 13.339231,
+   "prix": 21,
+   "prix_detail": [
+    [
+     "Adulte (prix selon le jour)",
+     "≈ 16 à 25 €"
+    ],
+    [
+     "Enfants 4 à 15 ans",
+     "≈ 7,50 à 12,50 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Zoo + aquarium, adulte",
+     "≈ 24 à 37 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 21,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      15,
+      10
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, moins cher qu'à la caisse (prix variables)",
+   "duree": "3 h",
+   "moment": "Le matin en semaine, au moment des repas des animaux",
+   "enfants": true,
+   "texte": "Le plus vieux zoo d'Allemagne, et l'un des plus riches en espèces du monde : pandas géants, hippopotames vus sous l'eau, gorilles. On entre par la porte des éléphants, en pagode, en plein centre-ville.",
+   "site_officiel": "https://www.zoo-berlin.de/fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Marek Śliwecki",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_-_Zoologischer_Garten_Elefantentor.jpg",
+    "src": "img/activites/BER/zoo.jpg"
+   }
+  },
+  {
+   "id": "mauerpark",
+   "nom": "Mauerpark le dimanche",
+   "emoji": "🎤",
+   "type": "sortir",
+   "quartier": "Prenzlauer Berg",
+   "lat": 52.5435,
+   "lng": 13.4024,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Marché aux puces et karaoké en plein air",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h 30",
+   "moment": "Le dimanche, de 10 h à 18 h ; karaoké l'après-midi aux beaux jours",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le dimanche le plus berlinois qui soit : un immense marché aux puces (vinyles, vêtements vintage, objets de RDA), des stands de street food, et l'après-midi des centaines de personnes en gradins qui encouragent les inconnus au karaoké en plein air, sur l'ancien tracé du Mur.",
+   "site_officiel": "https://www.flohmarktimmauerpark.de/",
+   "note": "Le karaoké a lieu seulement les dimanches d'été (environ avril à octobre) ; le marché, toute l'année.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin-Mauerpark-Flohmarkt_%281%29.jpg",
+    "src": "img/activites/BER/mauerpark.jpg"
+   }
+  },
+  {
+   "id": "hackesche-hoefe",
+   "nom": "Hackesche Höfe et cours cachées",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Mitte",
+   "lat": 52.524357,
+   "lng": 13.402226,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade dans les cours",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de matinée, quand les boutiques ouvrent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Huit cours en enfilade, carrelées Art nouveau, avec boutiques de créateurs, cinéma et théâtre. Juste à côté, la Haus Schwarzenberg est leur contraire : une cour couverte de street art et d'affiches, telle que le Berlin alternatif des années 1990.",
+   "site_officiel": "https://www.hackesche-hoefe.de/",
+   "note": "Les restaurants autour du Hackescher Markt sont chers pour ce qu'ils servent : mangez plutôt dans les rues voisines.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Schlaier",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHackesche_H%C3%B6fe_Berlin1.JPG",
+    "src": "img/activites/BER/hackesche-hoefe.jpg"
+   }
+  },
+  {
+   "id": "philharmonie",
+   "nom": "Concert à la Philharmonie",
+   "emoji": "🎼",
+   "type": "sortir",
+   "quartier": "Tiergarten",
+   "lat": 52.509722,
+   "lng": 13.369722,
+   "prix": 60,
+   "prix_detail": [
+    [
+     "Concert des Berliner Philharmoniker",
+     "≈ 30 à 250 €"
+    ],
+    [
+     "Concert de midi dans le foyer (mercredi 13 h, septembre à juin)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 60,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente, souvent plusieurs semaines avant ; quelques places de dernière minute à la caisse",
+   "duree": "2 h 30",
+   "moment": "Le soir ; ou le mercredi à 13 h pour le concert gratuit",
+   "enfants": false,
+   "texte": "L'une des plus belles salles de concert du monde, en forme de tente dorée, où le public entoure l'orchestre. Écouter les Berliner Philharmoniker chez eux est un souvenir pour la vie ; à défaut, le concert gratuit de midi, le mercredi, permet d'entrer dans le bâtiment.",
+   "site_officiel": "https://www.berliner-philharmoniker.de/fr/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Chris Alban Hansen",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerliner_Philharmonie_2014.jpg",
+    "src": "img/activites/BER/philharmonie.jpg"
+   }
+  },
+  {
+   "id": "techno",
+   "nom": "Nuit techno au Berghain",
+   "emoji": "🎧",
+   "type": "sortir",
+   "quartier": "Friedrichshain",
+   "lat": 52.511167,
+   "lng": 13.443036,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Entrée (espèces)",
+     "≈ 25 à 30 €"
+    ],
+    [
+     "Vestiaire",
+     "≈ 2 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Toute la nuit",
+   "moment": "Le dimanche après-midi, la file est plus courte qu'au milieu de la nuit du samedi",
+   "enfants": false,
+   "texte": "Le club techno le plus célèbre du monde, dans une ancienne centrale électrique de l'Est. Le videur choisit qui entre, sans explication : venez seul ou à deux, en tenue sobre, parlez peu et sans alcool dans la file. Si la porte reste fermée, Sisyphos ou Kater Blau valent aussi la nuit.",
+   "site_officiel": "https://www.berghain.berlin/",
+   "note": "Plus de 18 ans. Les photos sont interdites à l'intérieur : un autocollant couvre l'objectif du téléphone à l'entrée.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Gunnar Klack",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHeizkraftwerk-Ruedersdorfer-Str-Berlin-Friedrichshain-Berghain-Panorama-Bar-Lab-Oratory-06-2018a.jpg",
+    "src": "img/activites/BER/techno.jpg"
+   }
+  },
+  {
+   "id": "teufelsberg",
+   "nom": "Teufelsberg, la station d'espionnage",
+   "emoji": "📡",
+   "type": "vue",
+   "quartier": "Grunewald",
+   "lat": 52.4973,
+   "lng": 13.2411,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 12 €"
+    ],
+    [
+     "Réduit",
+     "≈ 10 €"
+    ],
+    [
+     "Enfants",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "en ligne ou sur place (espèces et carte)",
+   "duree": "2 h 30",
+   "moment": "Un après-midi de beau temps (ouvert de 11 h au coucher du soleil)",
+   "enfants": true,
+   "texte": "Sur une colline faite des ruines de la guerre, les dômes blancs de l'ancienne station d'écoute américaine de la guerre froide sont devenus une galerie de street art géante. Vue sur la forêt de Grunewald et tout Berlin au loin.",
+   "site_officiel": "https://www.teufelsberg-berlin.de/",
+   "note": "S-Bahn jusqu'à Heerstraße, puis 20 à 25 min de marche en forêt, ça monte : de bonnes chaussures.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Jedesto",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATeufelsberg_Listening_Station.jpg",
+    "src": "img/activites/BER/teufelsberg.jpg"
+   }
+  },
+  {
+   "id": "neue-nationalgalerie",
+   "nom": "Neue Nationalgalerie",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Tiergarten",
+   "lat": 52.506944,
+   "lng": 13.367222,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Billet du jour (collection et expositions)",
+     "≈ 14 à 22 € selon l'exposition"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er jeudi du mois, 16 h à 20 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, créneau horaire",
+   "duree": "2 h",
+   "moment": "En semaine en fin de journée, quand la lumière traverse la grande salle de verre",
+   "enfants": false,
+   "texte": "Le temple de verre et d'acier de Mies van der Rohe, le musée d'art moderne le plus visité de Berlin : Kirchner, Dix, Beckmann, Picasso, et de grandes expositions temporaires sous un toit qui semble flotter.",
+   "site_officiel": "https://www.smb.museum/museen-einrichtungen/neue-nationalgalerie/home/",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "A.Savin",
+    "licence": "Licence Art Libre",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABerlin_Neue_Nationalgalerie_asv2021-11_img1.jpg",
+    "src": "img/activites/BER/neue-nationalgalerie.jpg"
+   }
+  },
+  {
+   "id": "sachsenhausen",
+   "nom": "Mémorial du camp de Sachsenhausen",
+   "emoji": "🕊️",
+   "type": "culture",
+   "quartier": "Oranienburg",
+   "lat": 52.76628,
+   "lng": 13.262805,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Site et expositions",
+     "gratuit"
+    ],
+    [
+     "Audioguide",
+     "3,50 €"
+    ],
+    [
+     "Visite guidée au départ de Berlin",
+     "≈ 20 à 30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "5 h (avec le trajet)",
+   "moment": "Partez le matin : S1 jusqu'à Oranienburg (45 min, billet zone ABC) puis 20 min à pied",
+   "enfants": false,
+   "texte": "Le camp de concentration modèle des SS, à 35 km de Berlin, puis camp soviétique après 1945. Une visite dure et nécessaire, très bien expliquée, pour comprendre l'histoire du XXe siècle allemand.",
+   "site_officiel": "https://www.sachsenhausen-sbg.de/fr/",
+   "note": "Déconseillé aux moins de 12 ans. Musées intérieurs fermés le lundi d'octobre à mars.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Christian Michelides",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGedenkst%C3%A4tte_Sachsenhausen_01.jpg",
+    "src": "img/activites/BER/sachsenhausen.jpg"
+   }
+  },
+  {
+   "id": "union",
+   "nom": "Match de l'Union Berlin",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Köpenick",
+   "lat": 52.456974,
+   "lng": 13.568079,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Billet debout",
+     "dès ≈ 16 €"
+    ],
+    [
+     "Billet assis",
+     "jusqu'à ≈ 48 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente, les membres du club sont prioritaires",
+   "duree": "3 h",
+   "moment": "Les jours de match, en arrivant tôt pour l'ambiance autour du stade",
+   "enfants": true,
+   "club": "1. FC Union Berlin",
+   "texte": "Le club « culte » de l'Est, en Bundesliga : un stade dans la forêt construit par ses propres supporters, presque que des places debout, et des chants qui ne s'arrêtent jamais. Les billets sont rares ; le Hertha, en 2e division au stade olympique, est plus facile à voir.",
+   "site_officiel": "https://www.fc-union-berlin.de/",
+   "note": "Achetez seulement sur le site du club (bourse d'échange officielle) : méfiez-vous des revendeurs.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Berlinschneid",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStadion_An_der_Alten_F%C3%B6rsterei%2C_Weihnachtssingen_2019_steht.jpeg",
+    "src": "img/activites/BER/union.jpg"
+   }
+  },
+  {
+   "id": "marche-noel",
+   "nom": "Marché de Noël du Gendarmenmarkt",
+   "emoji": "🎄",
+   "type": "balade",
+   "quartier": "Mitte",
+   "lat": 52.5133,
+   "lng": 13.3929,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 2 €"
+    ],
+    [
+     "Vin chaud",
+     "≈ 5 à 6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "À la nuit tombée, en semaine pour éviter la foule",
+   "enfants": true,
+   "texte": "Le plus élégant des marchés de Noël berlinois : chalets blancs, artisans au travail et vin chaud au pied du Konzerthaus illuminé et des deux cathédrales.",
+   "site_officiel": "https://www.gendarmenmarktberlin.de/",
+   "note": "Du 23 novembre au 31 décembre 2026. Gratuits : le marché du château de Charlottenburg (23 novembre-27 décembre) et le marché d'hiver du Humboldt Forum (18 novembre-3 janvier).",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Andreas Trojak",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWeihnachtszauber-Gendarmenmarkt-Berlin2016-Weihnachtsmarkt.jpg",
+    "src": "img/activites/BER/marche-noel.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "mustafa",
+   "nom": "Mustafa's Gemüse Kebap",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Kebab aux légumes grillés",
+   "quartier": "Kreuzberg",
+   "adresse": "Mehringdamm 32, 10961 Berlin",
+   "lat": 52.493962,
+   "lng": 13.387386,
+   "prix": "6 à 10 €",
+   "prix_min": 6,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le kebab le plus célèbre de Berlin : poulet, légumes grillés, feta, citron pressé et sauce maison dans un pain croustillant. Une file d'attente légendaire, à prendre avec humour : venez entre midi et 17 h, c'est bien plus court.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : 15 min en début d'après-midi, jusqu'à 1 h le soir",
+   "photo": {
+    "auteur": "Bodhisattwa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHahnchen_Doner_mit_Gemuse_at_Mustafas_Gemusekebap.jpg",
+    "src": "img/restos/BER/mustafa.jpg"
+   }
+  },
+  {
+   "id": "konnopke",
+   "nom": "Konnopke's Imbiss",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Currywurst sous le métro aérien",
+   "quartier": "Prenzlauer Berg",
+   "adresse": "Schönhauser Allee 44B, 10435 Berlin",
+   "lat": 52.540475,
+   "lng": 13.412219,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1930, sous les arches du métro aérien de Prenzlauer Berg : la currywurst berlinoise dans sa version d'origine, saucisse sans boyau à l'Est, sauce secrète et frites. Une institution, déjà célèbre au temps de la RDA.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, au comptoir",
+   "photo": {
+    "auteur": "Orderinchaos",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKonnopke_Imbiss_2014_1.jpg",
+    "src": "img/restos/BER/konnopke.jpg"
+   }
+  },
+  {
+   "id": "burgermeister",
+   "nom": "Burgermeister Schlesisches Tor",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers dans d'anciennes toilettes publiques",
+   "quartier": "Kreuzberg",
+   "adresse": "Oberbaumstraße 8, 10997 Berlin",
+   "lat": 52.501121,
+   "lng": 13.442458,
+   "prix": "8 à 14 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Des burgers juteux servis dans un petit pavillon de 1900, d'anciennes toilettes publiques en fer forgé, sous le métro aérien. On mange debout ou en terrasse pendant que la ligne U1 passe au-dessus : du Berlin pur jus, à deux pas de l'East Side Gallery.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, au comptoir",
+   "photo": {
+    "auteur": "Burgermeister Berlin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABurgermeister-Schlesisches-Tor.jpg",
+    "src": "img/restos/BER/burgermeister.jpg"
+   }
+  },
+  {
+   "id": "annelies",
+   "nom": "Annelies",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Café de brunch",
+   "quartier": "Kreuzberg",
+   "adresse": "Görlitzer Straße 68, 10997 Berlin",
+   "lat": 52.498507,
+   "lng": 13.434937,
+   "prix": "12 à 22 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le brunch qui fait le tour des réseaux sociaux : pancakes, œufs brouillés fumés sur pain au levain, sandwich à la saucisse et très bon café, dans une salle chaleureuse au bord du Görlitzer Park.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file le week-end, venez à l'ouverture",
+   "photo": {
+    "auteur": "Juan Fernández",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACafe_con_leche_y_cruas%C3%A1n.jpg",
+    "src": "img/restos/BER/annelies.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "zeit-fur-brot",
+   "nom": "Zeit für Brot",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie bio, roulés à la cannelle",
+   "quartier": "Mitte",
+   "adresse": "Alte Schönhauser Straße 4, 10119 Berlin",
+   "lat": 52.527977,
+   "lng": 13.408526,
+   "prix": "4 à 10 €",
+   "prix_min": 4,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une boulangerie bio où l'on voit pétrir derrière la vitre, célèbre pour ses roulés à la cannelle (« Zimtschnecken ») encore tièdes, collants et généreux. Parfait pour un petit-déjeuner avant de flâner dans le quartier des boutiques.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Horacio Cambeiro",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARollo_de_canela_%28Cinnamon_roll%29.jpg",
+    "src": "img/restos/BER/zeit-fur-brot.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "henne",
+   "nom": "Alt-Berliner Wirtshaus Henne",
+   "emoji": "🍗",
+   "gamme": "petit",
+   "genre": "Demi-poulet croustillant d'auberge berlinoise",
+   "quartier": "Kreuzberg",
+   "adresse": "Leuschnerdamm 25, 10999 Berlin",
+   "lat": 52.504253,
+   "lng": 13.417862,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis 1907, on n'y sert quasiment qu'un plat : un demi-poulet doré, croustillant, avec salade de chou ou de pommes de terre, et une bière pression. Le Mur passait devant la porte ; au mur, une lettre de John F. Kennedy, qui n'avait pas pu venir.",
+   "reservation": "conseille",
+   "reservation_delai": "conseillé le soir, quelques jours avant",
+   "photo": {
+    "auteur": "Ceeseven",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHalf_of_Roast_Spring_Chicken.jpg",
+    "src": "img/restos/BER/henne.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "claerchens",
+   "nom": "Clärchens Ballhaus",
+   "emoji": "💃",
+   "gamme": "moyen",
+   "genre": "Salle de bal de 1913",
+   "quartier": "Mitte",
+   "adresse": "Auguststraße 24, 10117 Berlin",
+   "lat": 52.526474,
+   "lng": 13.39691,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Une salle de bal ouverte en 1913, qui a traversé deux guerres et la RDA : on y dîne sous les lustres ou dans le jardin, puis on danse le swing ou le tango. Le Berlin des années folles, en vrai.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, surtout les soirs de bal",
+   "photo": {
+    "auteur": "Clärchens Ballhaus",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHinterhof_Cl%C3%A4rchens_Ballhaus.jpg",
+    "src": "img/restos/BER/claerchens.jpg"
+   }
+  },
+  {
+   "id": "barra",
+   "nom": "Barra",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Petites assiettes de saison à partager",
+   "quartier": "Neukölln",
+   "adresse": "Okerstraße 2, 12049 Berlin",
+   "lat": 52.474337,
+   "lng": 13.426975,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "La table que les chefs berlinois recommandent : un bar tout simple de Neukölln où l'on partage de petites assiettes de saison, inventives et précises, avec des vins nature. L'adresse « qu'on se refile » entre gourmets.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant, les places sont rares",
+   "photo": {
+    "auteur": "Haydn Blackey",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMung_and_urad_bean_lasagna_with_the_miso_and_chive_sauce_on_top_-_Plates_Restaurant_-_Old_Street_-_London_2025-02-15.jpg",
+    "src": "img/restos/BER/barra.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cafe-am-neuen-see",
+   "nom": "Café am Neuen See",
+   "emoji": "🍺",
+   "gamme": "moyen",
+   "genre": "Biergarten au bord du lac",
+   "quartier": "Tiergarten",
+   "adresse": "Lichtensteinallee 2, 10787 Berlin",
+   "lat": 52.510507,
+   "lng": 13.344299,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Caché au cœur du Tiergarten, au bord d'un petit lac où l'on loue des barques : l'été, le plus beau biergarten de Berlin, pizza au feu de bois et bière à la main ; l'hiver, un restaurant avec cheminée et curling bavarois devant la porte.",
+   "reservation": "sur_place",
+   "reservation_delai": "biergarten sans réservation ; réservez la salle en hiver",
+   "photo": {
+    "auteur": "Fridolin freudenfett",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATiergarten_Caf%C3%A9_am_Neuen_See.JPG",
+    "src": "img/restos/BER/cafe-am-neuen-see.jpg"
+   }
+  },
+  {
+   "id": "november",
+   "nom": "November Brasserie",
+   "emoji": "🍣",
+   "gamme": "moyen",
+   "genre": "Brasserie japonaise",
+   "quartier": "Prenzlauer Berg",
+   "adresse": "Husemannstraße 15, 10435 Berlin",
+   "lat": 52.538102,
+   "lng": 13.417376,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Dans l'une des plus jolies rues de Prenzlauer Berg, une brasserie japonaise distinguée par le Michelin : sashimis d'une grande fraîcheur, nigiri au thon gras flambé et petits plats à partager.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (fermé le lundi)",
+   "photo": {
+    "auteur": "Hanabishi",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUme_suisho_Japanese_appetizer.jpg",
+    "src": "img/restos/BER/november.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "einstein",
+   "nom": "Café Einstein Stammhaus",
+   "emoji": "☕",
+   "gamme": "moyen",
+   "genre": "Café viennois dans une villa",
+   "quartier": "Tiergarten",
+   "adresse": "Kurfürstenstraße 58, 10785 Berlin",
+   "lat": 52.502023,
+   "lng": 13.354716,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une villa de 1878 transformée en grand café viennois : boiseries, journaux sur leurs baguettes, serveurs en tablier. On y vient pour l'escalope viennoise, l'apfelstrudel et le café maison, dans le décor d'un film.",
+   "reservation": "conseille",
+   "reservation_delai": "conseillé pour le déjeuner du week-end",
+   "photo": {
+    "auteur": "Fridolin freudenfett",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATiergartenKurf%C3%BCrstenstra%C3%9FeCafeEinstein.jpg",
+    "src": "img/restos/BER/einstein.jpg"
+   }
+  },
+  {
+   "id": "katz-orange",
+   "nom": "Katz Orange",
+   "emoji": "🐷",
+   "gamme": "moyen",
+   "genre": "Cuisine mijotée dans une ancienne brasserie",
+   "quartier": "Mitte",
+   "adresse": "Bergstraße 22, 10115 Berlin",
+   "lat": 52.531523,
+   "lng": 13.395324,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Une ancienne brasserie en brique rouge du XIXe siècle, cachée au fond d'une cour, avec jardin et cocktails. Son plat signature : le porc effiloché cuit 12 heures, servi à partager.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Michael J. Bennett",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APile_of_Pulled_Pork.jpg",
+    "src": "img/restos/BER/katz-orange.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "rutz",
+   "nom": "Rutz",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Grande cuisine de l'Allemagne d'aujourd'hui",
+   "quartier": "Mitte",
+   "adresse": "Chausseestraße 8, 10115 Berlin",
+   "lat": 52.528223,
+   "lng": 13.386216,
+   "prix": "≈ 320 à 360 €",
+   "prix_min": 320,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "Le seul trois étoiles de Berlin. Marco Müller y cuisine les produits de la région (gibier, poissons d'eau douce, légumes oubliés) avec une précision rare, accompagnés de l'une des plus belles caves d'Allemagne.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant",
+   "photo": {
+    "auteur": "Dclemens1971",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADinner_at_Hi%C5%A1a_Franko%2C_summer_2022_05.jpg",
+    "src": "img/restos/BER/rutz.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tim-raue",
+   "nom": "Restaurant Tim Raue",
+   "emoji": "🦆",
+   "gamme": "haut",
+   "genre": "Cuisine asiatique gastronomique",
+   "quartier": "Kreuzberg",
+   "adresse": "Rudi-Dutschke-Straße 26, 10969 Berlin",
+   "lat": 52.506979,
+   "lng": 13.391532,
+   "prix": "≈ 250 à 300 €",
+   "prix_min": 250,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Le chef star de Berlin, enfant de Kreuzberg, fait se rencontrer la Chine, le Japon et la Thaïlande : langoustine au wasabi, canard laqué revisité. Une cuisine piquante et acidulée, dans une salle épurée près de Checkpoint Charlie.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant",
+   "photo": {
+    "auteur": "Peachyeung316",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APeking_Duck_from_Duck_Victoria.jpg",
+    "src": "img/restos/BER/tim-raue.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "coda",
+   "nom": "CODA Dessert Dining",
+   "emoji": "🍫",
+   "gamme": "haut",
+   "genre": "Menu entièrement en desserts",
+   "quartier": "Neukölln",
+   "adresse": "Friedelstraße 47, 12047 Berlin",
+   "lat": 52.48992,
+   "lng": 13.427478,
+   "prix": "≈ 240 €",
+   "prix_min": 240,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Une expérience unique au monde : un menu entier de desserts, peu sucrés et surprenants, chaque assiette accordée à un cocktail ou un vin. Le seul restaurant de desserts doublement étoilé, au cœur de Neukölln.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant",
+   "photo": {
+    "auteur": "Gzen92",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARestaurant_-_Dessert_%28millefeuilles%29.jpg",
+    "src": "img/restos/BER/coda.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cookies-cream",
+   "nom": "Cookies Cream",
+   "emoji": "🥕",
+   "gamme": "haut",
+   "genre": "Gastronomie végétarienne",
+   "quartier": "Mitte",
+   "adresse": "Behrenstraße 55, 10117 Berlin",
+   "lat": 52.516383,
+   "lng": 13.388075,
+   "prix": "150 à 200 €",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "On y entre par une arrière-cour un peu louche, derrière l'hôtel Westin : c'est voulu. À l'étage, l'un des premiers restaurants végétariens étoilés d'Europe, inventif et gourmand, dans l'ancien décor d'un club des années 1990.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 semaines avant",
+   "photo": {
+    "auteur": "Haydn Blackey",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABitter_leaf_and_beetroot_-_Fish_Market_-_New_Street_-_London_2025-02-14.jpg",
+    "src": "img/restos/BER/cookies-cream.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sphere",
+   "nom": "Sphere Tim Raue",
+   "emoji": "🌆",
+   "gamme": "haut",
+   "genre": "Restaurant tournant à 207 m",
+   "quartier": "Alexanderplatz",
+   "adresse": "Panoramastraße 1a, 10178 Berlin (tour de télévision)",
+   "lat": 52.520828,
+   "lng": 13.409421,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dîner dans la boule de la tour de télévision, qui fait un tour complet en une heure : tout Berlin défile pendant le repas. La carte, signée du chef doublement étoilé Tim Raue, revisite les classiques berlinois.",
+   "reservation": "indispensable",
+   "reservation_delai": "réserver en ligne le billet « restaurant » (≈ 29 €, montée comprise), une à deux semaines avant",
+   "photo": {
+    "auteur": "Denis Apel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVolksb%C3%BChne_Berlin_Blick_vom_Fernsehturm_Berlin_Denis_Apel.jpg",
+    "src": "img/restos/BER/sphere.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "grill-royal",
+   "nom": "Grill Royal",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Steakhouse chic au bord de la Spree",
+   "quartier": "Mitte",
+   "adresse": "Friedrichstraße 105b, 10117 Berlin",
+   "lat": 52.522563,
+   "lng": 13.38844,
+   "prix": "70 à 120 €",
+   "prix_min": 70,
+   "badges": [],
+   "texte": "Le steakhouse du Tout-Berlin : de grandes pièces de bœuf maturé du monde entier, des huîtres, une salle pleine d'art contemporain et une terrasse au bord de la Spree. On y croise artistes, acteurs et ministres.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant, une table en terrasse l'été",
+   "photo": {
+    "auteur": "Gunnar Klack",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrill-Royal-Riverside-Hotel-Friedrichstr-Berlin-Mitte-04-2017.jpg",
+    "src": "img/restos/BER/grill-royal.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "mitte",
+   "nom": "Mitte (centre historique)",
+   "lat": 52.5205,
+   "lng": 13.4035,
+   "texte": "Le cœur de Berlin, tout à pied : Île aux Musées, cathédrale, porte de Brandebourg, Hackesche Höfe. Le meilleur choix pour un premier séjour, mais aussi le plus cher."
+  },
+  {
+   "id": "prenzlauer-berg",
+   "nom": "Prenzlauer Berg",
+   "lat": 52.5385,
+   "lng": 13.4155,
+   "texte": "Des rues bordées d'immeubles anciens restaurés, des cafés et des terrasses partout, le Mauerpark le dimanche. Calme et charmant, à 10 min de tram du centre."
+  },
+  {
+   "id": "kreuzberg",
+   "nom": "Kreuzberg",
+   "lat": 52.499,
+   "lng": 13.418,
+   "texte": "Le Berlin alternatif et multiculturel : canal, street art, kebabs, bars et cuisines du monde. Animé le soir, bien relié au centre par le métro."
+  },
+  {
+   "id": "friedrichshain",
+   "nom": "Friedrichshain",
+   "lat": 52.5125,
+   "lng": 13.4495,
+   "texte": "L'Est festif, autour de l'East Side Gallery et de la gare de l'Ostkreuz : clubs techno, bars et brunchs, avec des hôtels souvent moins chers que dans le centre."
+  },
+  {
+   "id": "charlottenburg",
+   "nom": "Charlottenburg et City West",
+   "lat": 52.5045,
+   "lng": 13.326,
+   "texte": "L'Ouest élégant autour du Kurfürstendamm : grands magasins, château, zoo. Plus calme et plus classique, à 15 min de S-Bahn de Mitte."
+  }
+ ]
+}

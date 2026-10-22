@@ -155,6 +155,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Prague (oct. 2026) : la recherche de fichiers en HTML (`ns6=1`) marchait (1 à 2 s entre deux) ; prix
   officiels lisibles par `curl` sur `prague.eu/en/objevujte/<lieu>/` (hrad.cz bloque les robots).
   Wanderlog : 137 listes « …-in-prague » (géo 9620), 1 730 lieux.
+  Berlin (oct. 2026) : recherche de fichiers en HTML (`ns6=1`) et vignettes `960px-` (« 429 » fréquents : 20 s de pause
+  puis réessayer) ; auteur et licence sur la page `File:`. Wanderlog : ~126 listes « …-in-berlin » (géo 9623).
+  Si une conversation s'arrête en route, son historique se relit avec `list_events` (crédits photo, prix, positions).
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

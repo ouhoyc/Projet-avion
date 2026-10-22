@@ -262,6 +262,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (22/10/2026) **Page guide de Berlin** (`guides/BER.json`), préparée en autonomie (en deux fois : la première
+  conversation s'est arrêtée sur la limite d'usage, reprise ensuite) : 28 activités (5 tendance : tour de télévision,
+  East Side Gallery, Sanssouci, Mauerpark le dimanche, Hackesche Höfe ; match de l'Union, club « 1. FC Union Berlin »),
+  18 restaurants (note pondérée, C = 4,455, 1 403 restaurants lus via ~126 listes Wanderlog ; Michelin 2026 : Rutz
+  3 étoiles, Tim Raue et CODA 2 étoiles, Cookies Cream 1 étoile, Barra et November Brasserie Bib Gourmand), 5 quartiers.
+  Réseaux sociaux (Apify, un seul lancement, ~0,75 $) : tendance restos Mustafa, Annelies, Zeit für Brot, Henne,
+  Clärchens Ballhaus, Barra, Café am Neuen See, Rutz, Tim Raue, Sphere. Reddit : file de Mustafa « entretenue »
+  (venir entre 12 h et 17 h), Checkpoint Charlie et restos du Hackescher Markt jugés décevants (notes dans les fiches).
+  Pergame fermé jusqu'au 4 juin 2027 ; coupole du Reichstag fermée du 19 au 30 octobre 2026 ; marché de Noël du
+  Gendarmenmarkt du 23 novembre au 31 décembre 2026.
+  Prix à confirmer (`a_verifier`) : Neues Museum, cathédrale, tour de télévision, Charlottenburg, Colonne de la Victoire,
+  croisière, zoo (prix variables), Philharmonie, Berghain, Teufelsberg, Neue Nationalgalerie, Union, marché de Noël.
+  Restaurants : prix et délais estimés ; 11 photos d'illustration. Pas encore de liens Tiqets (`PARTNER_LINKS`).
 - ✅ (22/10/2026) **Page guide de Prague** (`guides/PRG.json`), préparée en autonomie : 29 activités
   (6 tendance : Klementinum, mur Lennon et Kampa, Vyšehrad, Letná, Maison dansante, tête de Kafka ; match du
   Sparta ou du Slavia ; excursions à Kutná Hora, Český Krumlov, Karlštejn), 18 restaurants (note pondérée,
