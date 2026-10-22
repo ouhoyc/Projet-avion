@@ -152,6 +152,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Dubaï (oct. 2026) : vignettes de la recherche en `120px-`/`500px-` aussi (remplacer toute taille par
   `960px-`) ; 6-8 s entre deux fichiers sinon « 429 ». Positions des lieux : Nominatim (OpenStreetMap),
   1 requête par seconde, User-Agent neutre. Wanderlog : ~150 listes « …-in-dubai ».
+  Prague (oct. 2026) : la recherche de fichiers en HTML (`ns6=1`) marchait (1 à 2 s entre deux) ; prix
+  officiels lisibles par `curl` sur `prague.eu/en/objevujte/<lieu>/` (hrad.cz bloque les robots).
+  Wanderlog : 137 listes « …-in-prague » (géo 9620), 1 730 lieux.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

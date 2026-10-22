@@ -262,6 +262,17 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (22/10/2026) **Page guide de Prague** (`guides/PRG.json`), préparée en autonomie : 29 activités
+  (6 tendance : Klementinum, mur Lennon et Kampa, Vyšehrad, Letná, Maison dansante, tête de Kafka ; match du
+  Sparta ou du Slavia ; excursions à Kutná Hora, Český Krumlov, Karlštejn), 18 restaurants (note pondérée,
+  C = 4,46, 1 730 lieux lus via Wanderlog ; Michelin 2026 : La Degustation, Field, Casa de Carli, Štangl
+  1 étoile, Alma Bib Gourmand), 5 quartiers. Réseaux sociaux lancés (Apify, un passage) : tendance =
+  au moins 2 sources (Kantýna, Lokál, Café Louvre, Kuchyň, Pasta Fresca). Prix officiels (prague.eu, oct. 2026) :
+  château 450 Kč, horloge 350 Kč, Klementinum 380 Kč, Petřín 250 Kč, Strahov 220 Kč, Maison municipale 320 Kč,
+  zoo 330 Kč (1 € ≈ 24,3 Kč). Saisonniers : jardins Wallenstein (avril-oct.), marché de Noël (28 nov. 2026 -
+  6 janv. 2027, à confirmer). Château fermé le 28/10/2026 dès 15 h. Funiculaire de Petřín rouvert le 22/09/2026.
+  À vérifier (`a_verifier`) : Josefov, Saint-Nicolas, croisière, Maison dansante, Mucha, concert, opéra, Žižkov,
+  Musée national, musée du communisme, marché de Noël, match, excursions. Restaurants : prix et délais estimés.
 - ✅ (22/10/2026) **Fiches des 7 villes qui n'en avaient pas** : Caen, Dubrovnik, La Rochelle, Louxor,
   Montréal, Pau, Stockholm (photo libre Commons, texte vendeur, météo). 95 fiches en tout.
 
