@@ -73,6 +73,7 @@ const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
 const TYPES = {
   culture: 'Culture', sport: 'Sport', vue: 'Points de vue', sortir: 'Sorties',
   balade: 'Balades', restos: 'Manger', plage: 'Plages', nature: 'Excursions',
+  bains: 'Bains thermaux',
 };
 // Restaurants : 3 gammes de prix, et des badges pour dire pourquoi on les a choisis.
 const RESTO_GAMMES = [

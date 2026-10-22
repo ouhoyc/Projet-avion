@@ -1,0 +1,1716 @@
+{
+  "city_code": "BUD",
+  "statut": "préparé en autonomie, prix estimés au 22/10/2026 (1 € ≈ 363 forints)",
+  "verifie_le": "2026-10-22",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "parlement",
+      "nom": "Parlement hongrois (visite guidée)",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Lipótváros",
+      "lat": 47.507121,
+      "lng": 19.045669,
+      "prix": 19,
+      "prix_detail": [
+        [
+          "Visite guidée (citoyens de l'UE)",
+          "7 000 HUF ≈ 19 €"
+        ],
+        [
+          "6 à 24 ans (UE)",
+          "3 500 HUF ≈ 10 €"
+        ],
+        [
+          "Hors UE",
+          "14 000 HUF ≈ 39 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 19,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            10
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "en ligne 1 à 2 semaines avant d'avril à octobre (les créneaux en français partent vite)",
+      "duree": "1 h 30",
+      "moment": "Le matin ; puis revenez le soir le voir illuminé depuis la rive de Buda",
+      "enfants": true,
+      "texte": "Le plus grand bâtiment de Hongrie et l'un des plus beaux parlements du monde : 691 salles, un escalier d'honneur couvert d'or et, sous la coupole, la Sainte Couronne de saint Étienne gardée par deux soldats en grande tenue.",
+      "site_officiel": "https://www.parlament.hu/web/visitors",
+      "note": "Prenez une pièce d'identité : le tarif UE se prouve à l'entrée. Achetez sur le site officiel (jegymester.hu) : les revendeurs vendent le même billet bien plus cher.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Yair-haklai",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHungarian_Parliament_Building_from_across_the_Danube-.jpg",
+        "src": "img/activites/BUD/parlement.jpg"
+      }
+    },
+    {
+      "id": "bastion",
+      "nom": "Bastion des Pêcheurs",
+      "emoji": "🏰",
+      "type": "vue",
+      "quartier": "Colline du château (Buda)",
+      "lat": 47.502183,
+      "lng": 19.034781,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Terrasses hautes",
+          "≈ 1 700 HUF ≈ 5 €"
+        ],
+        [
+          "Terrasses basses, escaliers et arcades",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet au guichet, pas besoin de réserver",
+      "duree": "45 min",
+      "moment": "Au lever du soleil (personne, et les terrasses hautes sont gratuites tôt le matin et le soir)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Sept tourelles blanches de conte de fées posées au-dessus du Danube, avec le Parlement en face : c'est LA vue de Budapest, celle des cartes postales et de milliers de photos. Au lever du jour, la pierre devient dorée et le lieu est presque à vous.",
+      "site_officiel": "https://www.fishermansbastion.com/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Ermell",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest_Fisherman%27s_Bastion-20080321-RM-120519.jpg",
+        "src": "img/activites/BUD/bastion.jpg"
+      }
+    },
+    {
+      "id": "matthias",
+      "nom": "Église Matthias",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Colline du château (Buda)",
+      "lat": 47.501954,
+      "lng": 19.034162,
+      "prix": 9,
+      "prix_detail": [
+        [
+          "Église",
+          "≈ 3 200 HUF ≈ 9 €"
+        ],
+        [
+          "Tour (197 marches)",
+          "≈ 3 200 HUF ≈ 9 €"
+        ],
+        [
+          "Église + tour",
+          "≈ 6 000 HUF ≈ 17 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet ; la tour se visite par petits groupes à heure fixe",
+      "duree": "45 min (1 h 15 avec la tour)",
+      "moment": "En semaine ; le dimanche matin est réservé aux messes",
+      "enfants": true,
+      "texte": "Son toit de tuiles vernissées multicolores brille comme une mosaïque juste à côté du Bastion des Pêcheurs. À l'intérieur, chaque mur est peint de motifs dorés : c'est ici que furent couronnés François-Joseph et Sissi, roi et reine de Hongrie.",
+      "site_officiel": "https://www.matyas-templom.hu/",
+      "note": "Épaules et genoux couverts.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "John Samuel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoof_of_Matthias_Church%2C_Budapest_02.jpg",
+        "src": "img/activites/BUD/matthias.jpg"
+      }
+    },
+    {
+      "id": "chateau",
+      "nom": "Château de Buda et quartier du château",
+      "emoji": "👑",
+      "type": "balade",
+      "quartier": "Colline du château (Buda)",
+      "lat": 47.496205,
+      "lng": 19.039567,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Rues, cours et terrasses du palais",
+          "gratuit"
+        ],
+        [
+          "Galerie nationale ou musée d'Histoire",
+          "≈ 10 à 15 € [À VÉRIFIER]"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "2 h",
+      "moment": "En fin d'après-midi, pour finir au coucher du soleil sur les terrasses",
+      "enfants": true,
+      "texte": "Un village de ruelles pavées et de maisons baroques perché au-dessus du Danube, couronné par l'immense palais royal. On y flâne des terrasses du palais à la relève de la garde devant le palais Sándor, avec tout Pest à vos pieds.",
+      "site_officiel": "https://budavar.btk.mta.hu/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A20190502_Zamek_w_Budapeszcie_0647_1862_DxO.jpg",
+        "src": "img/activites/BUD/chateau.jpg"
+      }
+    },
+    {
+      "id": "siklo",
+      "nom": "Funiculaire du château (Budavári Sikló)",
+      "emoji": "🚡",
+      "type": "vue",
+      "quartier": "Clark Ádám tér (Buda)",
+      "lat": 47.497891,
+      "lng": 19.039787,
+      "prix": 14,
+      "prix_detail": [
+        [
+          "Aller-retour adulte",
+          "5 000 HUF ≈ 14 €"
+        ],
+        [
+          "Enfant de 3 à 14 ans (aller-retour)",
+          "2 000 HUF ≈ 6 €"
+        ],
+        [
+          "Moins de 3 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            14,
+            6
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet ou sur siklojegy.hu ; l'attente peut dépasser 30 min l'après-midi",
+      "duree": "15 min",
+      "moment": "Le matin avant 10 h ou le soir",
+      "enfants": true,
+      "texte": "Deux petites cabines de bois de 1870 qui grimpent la colline en 95 secondes, avec le pont des Chaînes qui s'éloigne sous vos pieds. Un moment rétro et charmant, surtout avec des enfants.",
+      "site_officiel": "https://bkv.hu/en/content/funicular",
+      "note": "Pour éviter la queue : montez à pied par les escaliers du jardin (10 min) ou prenez le bus 16 depuis le pont des Chaînes, et gardez le funiculaire pour la descente.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Random photos 1989",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest%2C_Clark_%C3%81d%C3%A1m_t%C3%A9r%2C_sikl%C3%B3%2C_Budav%C3%A1ri_sikl%C3%B3%2C_13.jpg",
+        "src": "img/activites/BUD/siklo.jpg"
+      }
+    },
+    {
+      "id": "citadelle",
+      "nom": "Citadelle et mont Gellért",
+      "emoji": "🗽",
+      "type": "vue",
+      "quartier": "Mont Gellért (Buda)",
+      "lat": 47.487019,
+      "lng": 19.046065,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Parc, terrasses et statue de la Liberté",
+          "gratuit"
+        ],
+        [
+          "Exposition « Bastion de la Liberté »",
+          "≈ 4 900 HUF ≈ 13 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre (de 6 h à minuit)",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Au coucher du soleil, quand les ponts et le Parlement s'allument",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le plus beau panorama de Budapest, enfin rouvert au printemps 2026 après des années de travaux : la forteresse rénovée, un grand escalier blanc et la statue de la Liberté qui domine le Danube et ses huit ponts.",
+      "site_officiel": "https://citadella.hu/",
+      "note": "Montée raide à pied depuis le pont Élisabeth (25 min), ou bus 27 depuis Móricz Zsigmond körtér.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Paul Colin Hennig firstdorsal.eu",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALiberty_Statue_on_Gell%C3%A9rt_Hill_%282025%29.jpg",
+        "src": "img/activites/BUD/citadelle.jpg"
+      }
+    },
+    {
+      "id": "basilique",
+      "nom": "Basilique Saint-Étienne",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Lipótváros",
+      "lat": 47.50089,
+      "lng": 19.053989,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Église",
+          "≈ 2 600 HUF ≈ 7 €"
+        ],
+        [
+          "Coupole panoramique et trésor",
+          "≈ 5 000 HUF ≈ 14 €"
+        ],
+        [
+          "Billet complet",
+          "≈ 6 800 HUF ≈ 19 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet ; ascenseur ou 364 marches pour la coupole",
+      "duree": "1 h",
+      "moment": "En fin de journée pour la vue depuis la coupole ; le soir pour les concerts d'orgue",
+      "enfants": true,
+      "texte": "La plus grande église de Budapest, aussi haute que le Parlement (96 m). Montez sur la galerie de la coupole pour un tour complet de la ville, puis voyez la relique la plus vénérée du pays, la main droite du roi saint Étienne.",
+      "site_officiel": "https://www.bazilika.biz/",
+      "note": "Épaules et genoux couverts.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Zdvihak",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest_-_Szent_Istv%C3%A1n_Bazilika%2C_St._Stephen%27s_Basilica_-_panoramio_%281%29.jpg",
+        "src": "img/activites/BUD/basilique.jpg"
+      }
+    },
+    {
+      "id": "synagogue",
+      "nom": "Grande Synagogue (rue Dohány)",
+      "emoji": "🕍",
+      "type": "culture",
+      "quartier": "Quartier juif (Erzsébetváros)",
+      "lat": 47.495907,
+      "lng": 19.060614,
+      "prix": 40,
+      "prix_detail": [
+        [
+          "Adulte (visite guidée de 45 min comprise)",
+          "14 500 HUF ≈ 40 €"
+        ],
+        [
+          "Enfant de 6 à 12 ans",
+          "5 500 HUF ≈ 15 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 40,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            12,
+            15
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne quelques jours avant (entrée plus rapide)",
+      "duree": "1 h 30",
+      "moment": "Fermée le samedi et les jours de fêtes juives ; le vendredi, fermeture plus tôt",
+      "enfants": true,
+      "texte": "La plus grande synagogue d'Europe, avec ses deux tours mauresques et son intérieur doré de 3 000 places. Le billet comprend une visite guidée, le Musée juif et le jardin du souvenir avec son saule pleureur en métal portant le nom des victimes de la Shoah.",
+      "site_officiel": "https://www.dohany-zsinagoga.hu/en/",
+      "note": "Épaules et genoux couverts ; une kippa est prêtée aux hommes. Contrôle de sécurité : pas de grand sac à dos.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Suicasmo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AInterior_of_the_Great_Synagogue_in_Doh%C3%A1ny_Street_20180824.jpg",
+        "src": "img/activites/BUD/synagogue.jpg"
+      }
+    },
+    {
+      "id": "chaussures",
+      "nom": "Les Chaussures au bord du Danube",
+      "emoji": "🕯️",
+      "type": "balade",
+      "quartier": "Quais de Pest",
+      "lat": 47.503927,
+      "lng": 19.044802,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Mémorial",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "20 min",
+      "moment": "En longeant les quais entre le Parlement et le pont des Chaînes",
+      "enfants": true,
+      "texte": "Soixante paires de chaussures en fer, comme laissées au bord de l'eau. Un hommage bouleversant aux Juifs fusillés ici en 1944-1945, que l'on découvre en silence, face au château de Buda.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dennis G. Jarvis",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AShoes_on_the_Danube.jpg",
+        "src": "img/activites/BUD/chaussures.jpg"
+      }
+    },
+    {
+      "id": "pont-chaines",
+      "nom": "Pont des Chaînes et promenade du Danube",
+      "emoji": "🌉",
+      "type": "balade",
+      "quartier": "Centre (Pest et Buda)",
+      "lat": 47.498993,
+      "lng": 19.043699,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "1 h",
+      "moment": "À la nuit tombée, quand le pont, le château et le Parlement s'illuminent",
+      "enfants": true,
+      "texte": "Le premier pont permanent entre Buda et Pest (1849), gardé par ses lions de pierre et rénové en 2023. Traversez-le à pied le soir puis suivez les quais : le château illuminé d'un côté, le Parlement doré de l'autre.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Wilfredor",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg",
+        "src": "img/activites/BUD/pont-chaines.jpg"
+      }
+    },
+    {
+      "id": "croisiere",
+      "nom": "Croisière de nuit sur le Danube",
+      "emoji": "🛳️",
+      "type": "vue",
+      "quartier": "Quais de Pest (Vigadó tér)",
+      "lat": 47.495942,
+      "lng": 19.04935,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Croisière d'1 h le soir avec un verre",
+          "≈ 20 à 30 €"
+        ],
+        [
+          "Dîner-croisière",
+          "≈ 60 à 80 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille ou le jour même (quelques jours avant en été)",
+      "duree": "1 h",
+      "moment": "À la nuit tombée (vers 17 h en hiver, 21 h en été)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le Parlement, le château et les ponts illuminés, vus depuis l'eau, un verre à la main : le moment le plus magique d'un séjour à Budapest, et le plus photographié.",
+      "note": "Choisissez une compagnie à quai à Vigadó tér ou au pont Élisabeth (Legenda, par exemple) et évitez les rabatteurs.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "david.volgyes",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABuda_Castle_and_the_Sz%C3%A9chenyi_Chain_Bridge_-_panoramio.jpg",
+        "src": "img/activites/BUD/croisiere.jpg"
+      }
+    },
+    {
+      "id": "szechenyi",
+      "nom": "Bains Széchenyi",
+      "emoji": "♨️",
+      "type": "bains",
+      "quartier": "Városliget (bois de Ville)",
+      "lat": 47.518657,
+      "lng": 19.082379,
+      "prix": 36,
+      "prix_detail": [
+        [
+          "Journée avec casier, en semaine",
+          "13 200 HUF ≈ 36 €"
+        ],
+        [
+          "Journée avec casier, le week-end",
+          "14 800 HUF ≈ 41 €"
+        ],
+        [
+          "Avant 9 h en semaine",
+          "10 500 HUF ≈ 29 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 36,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne la veille (file d'attente plus courte)",
+      "duree": "3 h",
+      "moment": "À l'ouverture ou en hiver, quand l'eau à 38 °C fume dans l'air froid",
+      "enfants": false,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Se baigner dans une eau à 38 °C au milieu d'un palais néo-baroque jaune, entouré de statues, pendant que des papis jouent aux échecs dans le bassin : c'est l'image de Budapest. 18 bassins, saunas et hammams, toute l'année, même sous la neige.",
+      "site_officiel": "https://www.szechenyifurdo.hu/en/",
+      "note": "Interdit aux moins de 14 ans depuis août 2025. Prenez maillot, serviette et tongs (location possible mais chère).",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Slyronit",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASz%C3%A9chenyi_thermal_bath%2C_Budapest.jpg",
+        "src": "img/activites/BUD/szechenyi.jpg"
+      }
+    },
+    {
+      "id": "rudas",
+      "nom": "Bains Rudas (bain turc et piscine sur le toit)",
+      "emoji": "♨️",
+      "type": "bains",
+      "quartier": "Pied du mont Gellért (Buda)",
+      "lat": 47.48916,
+      "lng": 19.047972,
+      "prix": 33,
+      "prix_detail": [
+        [
+          "Journée, du lundi au jeudi",
+          "12 000 HUF ≈ 33 €"
+        ],
+        [
+          "Journée, du vendredi au dimanche",
+          "15 000 HUF ≈ 41 €"
+        ],
+        [
+          "Nuit du vendredi et du samedi",
+          "≈ 15 000 HUF ≈ 41 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 33,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne quelques jours avant pour les bains de nuit",
+      "duree": "2 à 3 h",
+      "moment": "Le vendredi ou le samedi soir, pour la baignade de nuit",
+      "enfants": false,
+      "texte": "Un bain turc de 1566 sous une coupole percée d'étoiles de lumière, puis une piscine panoramique sur le toit avec vue sur le Danube et les ponts. Le soir du week-end, on s'y baigne jusque tard dans la nuit.",
+      "site_officiel": "https://www.rudasfurdo.hu/en",
+      "note": "Interdit aux moins de 14 ans. Le bain Gellért voisin est fermé pour travaux jusqu'en 2028 au moins.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Elekes Andor",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARudas_F%C3%BCrd%C5%91.jpg",
+        "src": "img/activites/BUD/rudas.jpg"
+      }
+    },
+    {
+      "id": "ruin-bars",
+      "nom": "Bars en ruines (Szimpla Kert)",
+      "emoji": "🍻",
+      "type": "sortir",
+      "quartier": "Quartier juif (Erzsébetváros)",
+      "lat": 47.496965,
+      "lng": 19.063346,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Bière ou cocktail",
+          "≈ 3 à 8 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "entrée libre",
+      "duree": "2 h",
+      "moment": "Le soir à partir de 20 h ; le dimanche matin, marché de producteurs à Szimpla",
+      "enfants": false,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des immeubles abandonnés transformés en bars labyrinthes : vieille Trabant en guise de table, baignoires-canapés, guirlandes et graffitis à chaque étage. Szimpla Kert, le premier et le plus fou, est devenu un emblème de la ville.",
+      "site_officiel": "https://szimpla.hu/",
+      "note": "Le quartier est très animé et bruyant le week-end : pratique pour sortir, moins pour dormir.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Random photos 1989",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest%2C_Szimpla_Kert%2C_2.jpg",
+        "src": "img/activites/BUD/ruin-bars.jpg"
+      }
+    },
+    {
+      "id": "opera",
+      "nom": "Opéra national de Hongrie",
+      "emoji": "🎭",
+      "type": "sortir",
+      "quartier": "Avenue Andrássy",
+      "lat": 47.502717,
+      "lng": 19.058308,
+      "prix": 33,
+      "prix_detail": [
+        [
+          "Visite guidée en anglais (1 h)",
+          "12 000 HUF ≈ 33 €"
+        ],
+        [
+          "Place de spectacle",
+          "à partir de ≈ 10 € (places hautes) [À VÉRIFIER]"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 33,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant (plusieurs semaines pour un ballet le week-end)",
+      "duree": "1 h (visite) à 3 h (spectacle)",
+      "moment": "Visites l'après-midi (13 h 30, 15 h, 16 h 30) ; spectacles le soir",
+      "enfants": true,
+      "texte": "Un écrin néo-Renaissance de 1884 entièrement restauré : escalier de marbre, fresques et salle rouge et or. Le bon plan : une place pour un opéra ou un ballet coûte parfois moins cher que la visite guidée.",
+      "site_officiel": "https://www.opera.hu/en/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Dennis G. Jarvis",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHungary-02616_-_Opera_House_%2832461514282%29.jpg",
+        "src": "img/activites/BUD/opera.jpg"
+      }
+    },
+    {
+      "id": "heros",
+      "nom": "Place des Héros, bois de Ville et château Vajdahunyad",
+      "emoji": "🏯",
+      "type": "balade",
+      "quartier": "Városliget (bois de Ville)",
+      "lat": 47.514943,
+      "lng": 19.077863,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Place et parc",
+          "gratuit"
+        ],
+        [
+          "Patinoire en hiver",
+          "≈ 10 € [À VÉRIFIER]"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "1 h 30",
+      "moment": "L'après-midi, en sortant des bains Széchenyi ; l'hiver, le lac devient la plus grande patinoire d'Europe",
+      "enfants": true,
+      "texte": "Au bout de l'avenue Andrássy, la colonne et les statues des sept chefs magyars ouvrent sur le bois de Ville et son château Vajdahunyad, un château de conte posé au bord d'un lac, qui réunit tous les styles de la Hongrie.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Godot13",
+        "licence": "Attribution",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHUN-2015-Budapest-Heroes%E2%80%99_Square.jpg",
+        "src": "img/activites/BUD/heros.jpg"
+      }
+    },
+    {
+      "id": "beaux-arts",
+      "nom": "Musée des Beaux-Arts",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Place des Héros",
+      "lat": 47.515804,
+      "lng": 19.0769,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Collection permanente",
+          "≈ 5 800 HUF ≈ 16 € [À VÉRIFIER]"
+        ],
+        [
+          "Expositions temporaires",
+          "en plus"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet ; en ligne pour les grandes expositions",
+      "duree": "2 h",
+      "moment": "Du mardi au dimanche (fermé le lundi)",
+      "enfants": true,
+      "texte": "L'un des grands musées d'Europe centrale : sept Greco, Goya, Raphaël, Rembrandt et les impressionnistes, et la somptueuse salle romane entièrement restaurée, à deux pas de la place des Héros.",
+      "site_officiel": "https://www.szepmuveszeti.hu/en/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Slyronit",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMuseum_of_fine_arts%2C_Heroes%E2%80%99_square%2C_Budapest.jpg",
+        "src": "img/activites/BUD/beaux-arts.jpg"
+      }
+    },
+    {
+      "id": "maison-musique",
+      "nom": "Maison de la Musique hongroise",
+      "emoji": "🎶",
+      "type": "culture",
+      "quartier": "Városliget (bois de Ville)",
+      "lat": 47.513181,
+      "lng": 19.083594,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Exposition permanente",
+          "≈ 4 500 HUF ≈ 12 €"
+        ],
+        [
+          "Étudiants",
+          "≈ 2 700 HUF ≈ 7 €"
+        ],
+        [
+          "Dôme sonore",
+          "billet à part"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            7
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne, entrée par créneau horaire",
+      "duree": "1 h 30",
+      "moment": "En semaine ; restez dans le parc pour photographier le toit percé d'arbres",
+      "enfants": true,
+      "texte": "Un toit ondulé percé de 100 trous d'où sortent les arbres, signé de l'architecte japonais Sou Fujimoto : le bâtiment le plus photographié du bois de Ville. Dedans, une exposition interactive où l'on écoute la musique au casque, salle après salle.",
+      "site_officiel": "https://zenehaza.hu/en",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Elekes Andor",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHouse_of_Hungarian_Music_%283%29.jpg",
+        "src": "img/activites/BUD/maison-musique.jpg"
+      }
+    },
+    {
+      "id": "terreur",
+      "nom": "Maison de la Terreur",
+      "emoji": "🏚️",
+      "type": "culture",
+      "quartier": "Avenue Andrássy",
+      "lat": 47.506894,
+      "lng": 19.065126,
+      "prix": 11,
+      "prix_detail": [
+        [
+          "Adulte",
+          "4 000 HUF ≈ 11 €"
+        ],
+        [
+          "Tarif réduit",
+          "2 000 HUF ≈ 6 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 11,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            6
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets vendus seulement sur place (pas de vente en ligne)",
+      "duree": "2 h",
+      "moment": "Du mardi au dimanche, 10 h-18 h (fermé le lundi)",
+      "enfants": false,
+      "texte": "L'ancien siège des polices nazie puis communiste, transformé en musée saisissant : un char dans la cour, un mur de portraits des victimes et les cellules du sous-sol. Pour comprendre en deux heures le XXe siècle hongrois.",
+      "site_officiel": "https://terrorhaza.hu/en",
+      "note": "Déconseillé aux jeunes enfants.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Slyronit",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHouse_of_Terror%2C_Budapest.jpg",
+        "src": "img/activites/BUD/terreur.jpg"
+      }
+    },
+    {
+      "id": "hopital-roche",
+      "nom": "Hôpital dans la roche",
+      "emoji": "🏥",
+      "type": "culture",
+      "quartier": "Colline du château (Buda)",
+      "lat": 47.500764,
+      "lng": 19.031512,
+      "prix": 30,
+      "prix_detail": [
+        [
+          "Adulte (visite guidée en anglais)",
+          "30 €"
+        ],
+        [
+          "6 à 18 ans",
+          "15 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "non admis"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 30,
+        "enfants": [
+          [
+            18,
+            15
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "en ligne la veille (visites guidées à heure fixe)",
+      "duree": "1 h",
+      "moment": "Toute la journée, par mauvais temps",
+      "enfants": true,
+      "texte": "Un hôpital secret creusé sous le château pendant la Seconde Guerre mondiale, devenu abri antiatomique pendant la guerre froide. Salles d'opération, lits et mannequins plantés comme en 1944 : une visite guidée captivante, 15 mètres sous terre.",
+      "site_officiel": "https://www.sziklakorhaz.eu/en/",
+      "note": "Interdit aux moins de 6 ans, déconseillé avant 12 ans.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Hospital in the Rock Marketing",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AIII._sz._k%C3%B3rterem.jpg",
+        "src": "img/activites/BUD/hopital-roche.jpg"
+      }
+    },
+    {
+      "id": "ile-marguerite",
+      "nom": "Île Marguerite et sa fontaine musicale",
+      "emoji": "🌳",
+      "type": "balade",
+      "quartier": "Île Marguerite",
+      "lat": 47.526641,
+      "lng": 19.046394,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Île et fontaine musicale",
+          "gratuit"
+        ],
+        [
+          "Bains Palatinus (été)",
+          "≈ 10 € [À VÉRIFIER]"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "2 h",
+      "moment": "Le soir d'avril à octobre, pour le spectacle d'eau, de musique et de lumière de la fontaine",
+      "enfants": true,
+      "texte": "Un grand parc de 2,5 km au milieu du Danube, sans voitures : jardin japonais, ruines médiévales, piste de course et, en été, la piscine en plein air Palatinus. Le soir, sa fontaine danse en musique sous les lumières.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Nikolai Karaneschev",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMusical_fountain_on_Margaret_Island%2C_2015_Budapest_-_panoramio_%2883%29.jpg",
+        "src": "img/activites/BUD/ile-marguerite.jpg"
+      }
+    },
+    {
+      "id": "memento",
+      "nom": "Memento Park (statues communistes)",
+      "emoji": "🗿",
+      "type": "culture",
+      "quartier": "Budafok (30 min du centre)",
+      "lat": 47.426365,
+      "lng": 18.99893,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Adulte",
+          "3 000 HUF ≈ 8 €"
+        ],
+        [
+          "Enfant de 6 à 14 ans",
+          "1 200 HUF ≈ 3 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            14,
+            3
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet",
+      "duree": "1 h 30 (+ 1 h de trajet aller-retour)",
+      "moment": "Par beau temps, toute la journée",
+      "enfants": true,
+      "texte": "Le cimetière des statues géantes de Lénine, Marx et des soldats soviétiques, déboulonnées en 1989 et rassemblées dans ce parc à ciel ouvert. Insolite, parfois drôle, toujours instructif, avec une vraie Trabant à photographier.",
+      "site_officiel": "https://www.mementopark.hu/",
+      "note": "Bus 101E ou 150 depuis Kelenföld (métro M4), ou navette directe depuis le centre.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Pudelek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMemento_Park%2C_Budapest_04.jpg",
+        "src": "img/activites/BUD/memento.jpg"
+      }
+    },
+    {
+      "id": "collines-buda",
+      "nom": "Collines de Buda : télésiège, mont János et train des enfants",
+      "emoji": "🚞",
+      "type": "nature",
+      "quartier": "Collines de Buda",
+      "lat": 47.516626,
+      "lng": 18.974513,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Télésiège (Libegő), un trajet",
+          "≈ 2 000 HUF ≈ 6 € [À VÉRIFIER]"
+        ],
+        [
+          "Train des enfants, un trajet",
+          "≈ 1 000 HUF ≈ 3 €"
+        ],
+        [
+          "Tour Élisabeth au sommet",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet (espèces conseillées pour le train)",
+      "duree": "Demi-journée",
+      "moment": "Par beau temps ; le train des enfants ne roule pas le lundi de septembre à avril",
+      "enfants": true,
+      "texte": "Une demi-journée en forêt sans quitter la ville : montée en télésiège au-dessus des arbres, la tour Élisabeth au sommet du mont János (le point culminant de Budapest), puis retour dans le petit train de forêt conduit par des enfants en uniforme.",
+      "site_officiel": "https://gyermekvasut.hu/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "kallerna",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest_Chairlift_1.jpg",
+        "src": "img/activites/BUD/collines-buda.jpg"
+      }
+    },
+    {
+      "id": "coude-danube",
+      "nom": "Coude du Danube (Szentendre et Visegrád)",
+      "emoji": "⛰️",
+      "type": "nature",
+      "quartier": "Coude du Danube (40 km)",
+      "lat": 47.7956,
+      "lng": 18.9622,
+      "prix": 23,
+      "prix_detail": [
+        [
+          "Bateau Budapest-Szentendre-Visegrád, aller-retour",
+          "8 500 HUF ≈ 23 €"
+        ],
+        [
+          "Train HÉV jusqu'à Szentendre",
+          "≈ 1 000 HUF ≈ 3 €"
+        ],
+        [
+          "Excursion guidée depuis Budapest",
+          "≈ 60 à 90 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 23,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            14,
+            17
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant pour le bateau (de mai à septembre)",
+      "duree": "Journée",
+      "moment": "De mai à septembre en bateau ; en train et en bus le reste de l'année",
+      "enfants": true,
+      "texte": "Là où le Danube fait un virage spectaculaire entre les collines : Szentendre, village d'artistes aux ruelles colorées, puis la citadelle de Visegrád et sa vue vertigineuse sur le fleuve. La plus belle excursion depuis Budapest, en bateau à l'aller.",
+      "site_officiel": "https://mahartpassnave.hu/en",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Bahnfrend",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AViews_from_Visegr%C3%A1d_Castle%2C_2006_%2803%29.jpg",
+        "src": "img/activites/BUD/coude-danube.jpg"
+      }
+    },
+    {
+      "id": "ferencvaros",
+      "nom": "Match de Ferencváros",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Ferencváros",
+      "lat": 47.475399,
+      "lng": 19.095254,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Billet de championnat",
+          "≈ 8 à 25 €"
+        ],
+        [
+          "Coupe d'Europe",
+          "plus cher"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant ; dès la mise en vente pour la Coupe d'Europe",
+      "duree": "3 h",
+      "moment": "Les soirs de match",
+      "enfants": true,
+      "club": "Ferencváros TC",
+      "texte": "Le « Fradi », club le plus titré et le plus populaire de Hongrie, joue dans une arène verte et blanche gardée par un aigle géant. Ambiance bouillante de la tribune nord, surtout les soirs de Coupe d'Europe.",
+      "site_officiel": "https://www.fradi.hu/en",
+      "note": "Il faut une carte de supporter Fradi (avec une pièce d'identité, quelques euros) pour acheter un billet : achetez sur le site du club ou au guichet du stade, méfiez-vous des revendeurs.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Marcell Katona",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGroupama_Arena_Budapest_%2817267881892%29.jpg",
+        "src": "img/activites/BUD/ferencvaros.jpg"
+      }
+    },
+    {
+      "id": "marche-noel",
+      "nom": "Marchés de Noël (Vörösmarty tér et basilique)",
+      "emoji": "🎄",
+      "type": "balade",
+      "quartier": "Centre (Belváros)",
+      "lat": 47.496484,
+      "lng": 19.050703,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Vin chaud",
+          "≈ 3 à 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "2 h",
+      "moment": "De mi-novembre au 31 décembre 2026 (jusqu'au 1er janvier devant la basilique) ; le soir, pour les illuminations",
+      "enfants": true,
+      "texte": "Parmi les plus beaux marchés de Noël d'Europe : chalets d'artisans, vin chaud et kürtőskalács sur la place Vörösmarty, et devant la basilique, une patinoire et des images projetées sur la façade toutes les heures.",
+      "note": "Dates 2026 annoncées autour du 13-14 novembre : à confirmer.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "ucsendre",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest%2C_V%C3%B6r%C3%B6smarty_t%C3%A9r_%282009_kar%C3%A1csonyi_v%C3%A1s%C3%A1r%29_-_panoramio_%282%29-crop.jpg",
+        "src": "img/activites/BUD/marche-noel.jpg"
+      }
+    },
+    {
+      "id": "ethnographie",
+      "nom": "Musée d'ethnographie et son toit-jardin",
+      "emoji": "🌿",
+      "type": "culture",
+      "quartier": "Városliget (bois de Ville)",
+      "lat": 47.511505,
+      "lng": 19.081371,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Toit-jardin",
+          "gratuit"
+        ],
+        [
+          "Expositions",
+          "≈ 3 000 HUF ≈ 8 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "au guichet",
+      "duree": "1 h 30",
+      "moment": "Au coucher du soleil sur le toit ; musée du mardi au dimanche",
+      "enfants": true,
+      "texte": "Un bâtiment spectaculaire en forme de vague, ouvert en 2022 : on marche sur son toit végétalisé qui s'élève au-dessus du bois de Ville. Dedans, costumes brodés, masques et objets populaires de Hongrie et du monde entier.",
+      "site_officiel": "https://www.neprajz.hu/en",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Lessormore",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMuseum_of_Ethnography_%28Budapest%29_05.jpg",
+        "src": "img/activites/BUD/ethnographie.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "belvaros",
+      "nom": "Belváros et Lipótváros (centre, Ve arr.)",
+      "lat": 47.5,
+      "lng": 19.051,
+      "texte": "Le cœur de Pest, tout à pied : Parlement, basilique, quais du Danube, Váci utca et le pont des Chaînes. Le meilleur choix pour un premier séjour, et le plus cher."
+    },
+    {
+      "id": "erzsebetvaros",
+      "nom": "Erzsébetváros (quartier juif, VIIe arr.)",
+      "lat": 47.4985,
+      "lng": 19.0625,
+      "texte": "Le quartier des bars en ruines, des restaurants et de la Grande Synagogue : idéal pour sortir, à 10 min à pied du centre. Les rues de Kazinczy et Gozsdu sont bruyantes le week-end : demandez une chambre sur cour."
+    },
+    {
+      "id": "terezvaros",
+      "nom": "Terézváros et avenue Andrássy (VIe arr.)",
+      "lat": 47.5045,
+      "lng": 19.061,
+      "texte": "Autour de l'Opéra et de la « Broadway » de Budapest : de beaux immeubles, des théâtres et le métro M1 qui file jusqu'à la place des Héros et aux bains Széchenyi. Animé mais plus calme que le quartier juif."
+    },
+    {
+      "id": "var",
+      "nom": "Quartier du château et Víziváros (Buda)",
+      "lat": 47.5015,
+      "lng": 19.038,
+      "texte": "Côté Buda, au pied ou au sommet de la colline du château : ruelles calmes, vue sur le Parlement et le Danube, soirées romantiques. Plus de montées et moins de restaurants le soir."
+    },
+    {
+      "id": "ferencvaros",
+      "nom": "Ferencváros et rue Ráday (IXe arr.)",
+      "lat": 47.4865,
+      "lng": 19.0625,
+      "texte": "Juste au sud du centre, autour de la Grande Halle et de la rue piétonne Ráday et ses terrasses : des hôtels souvent moins chers, le métro M3 vers l'aéroport (bus 100E) et le centre à 15 min à pied."
+    }
+  ],
+  "hotel_petit_prix_max": 70,
+  "restaurants": [
+    {
+      "id": "retro-langos",
+      "nom": "Retro Lángos",
+      "emoji": "🫓",
+      "gamme": "petit",
+      "genre": "Lángos (beignet hongrois)",
+      "quartier": "Lipótváros",
+      "adresse": "Bajcsy-Zsilinszky út 25, 1065 Budapest",
+      "lat": 47.503227,
+      "lng": 19.05522,
+      "prix": "4 à 9 €",
+      "prix_min": 4,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le casse-croûte national : une grande galette de pâte frite, croustillante dehors et moelleuse dedans, nappée de crème aigre, d'ail et de fromage râpé. Ce petit comptoir près de la station Arany János est l'adresse préférée des Budapestois pour en manger un tout chaud.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on commande au comptoir",
+      "photo": {
+        "auteur": "Christo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest%2C_Retro_L%C3%A1ngos_B%C3%BCf%C3%A9.jpg",
+        "src": "img/restos/BUD/retro-langos.jpg"
+      }
+    },
+    {
+      "id": "bors",
+      "nom": "Bors GasztroBár",
+      "emoji": "🍲",
+      "gamme": "petit",
+      "genre": "Soupes et sandwichs chauds",
+      "quartier": "Quartier juif",
+      "adresse": "Kazinczy u. 10, 1075 Budapest",
+      "lat": 47.496727,
+      "lng": 19.063549,
+      "prix": "4 à 10 €",
+      "prix_min": 4,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un minuscule comptoir de la rue des bars en ruines, avec une file d'attente à toute heure : chaque jour, de nouvelles soupes inventives et des baguettes grillées aux garnitures folles, servies par une équipe qui plaisante avec tout le monde.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on mange debout ou sur le trottoir",
+      "illustration": true,
+      "photo": {
+        "auteur": "tomasz przechlewski",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKazinczy_utca%2C_Budapest.jpg",
+        "src": "img/restos/BUD/bors.jpg"
+      }
+    },
+    {
+      "id": "central",
+      "nom": "Centrál Kávéház",
+      "emoji": "☕",
+      "gamme": "petit",
+      "genre": "Grand café historique",
+      "quartier": "Belváros (centre)",
+      "adresse": "Károlyi utca 9, 1053 Budapest",
+      "lat": 47.491985,
+      "lng": 19.056884,
+      "prix": "8 à 25 €",
+      "prix_min": 8,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le café des écrivains depuis 1887 : hauts plafonds, lustres, banquettes et serveurs en tablier. On y vient pour un petit-déjeuner, un goulash ou une part de Dobos (le gâteau hongrois au caramel), avec l'élégance de la Belle Époque sans la foule des cafés plus célèbres.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation la plupart du temps",
+      "photo": {
+        "auteur": "Ato 01",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACentral_Caf%C3%A9_Budapest-2022.jpg",
+        "src": "img/restos/BUD/central.jpg"
+      }
+    },
+    {
+      "id": "getto-gulyas",
+      "nom": "Gettó Gulyás",
+      "emoji": "🥘",
+      "gamme": "petit",
+      "genre": "Goulash et ragoûts hongrois",
+      "quartier": "Quartier juif",
+      "adresse": "Wesselényi utca 18, 1077 Budapest",
+      "lat": 47.497381,
+      "lng": 19.062396,
+      "prix": "12 à 22 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le vrai goulash, la soupe au paprika de bœuf, et le pörkölt (ragoût de bœuf mijoté) servi avec ses petites nouilles maison, dans une salle chaleureuse du quartier juif. Simple, copieux et juste : de quoi goûter la cuisine hongroise sans se ruiner.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir (petite salle)",
+      "illustration": true,
+      "photo": {
+        "auteur": "Hu Totya",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHungarian_goulash_soup.jpg",
+        "src": "img/restos/BUD/getto-gulyas.jpg"
+      }
+    },
+    {
+      "id": "molnar",
+      "nom": "Molnár's Kürtőskalács",
+      "emoji": "🥐",
+      "gamme": "petit",
+      "genre": "Gâteau-cheminée",
+      "quartier": "Váci utca",
+      "adresse": "Váci u. 31, 1052 Budapest",
+      "lat": 47.492647,
+      "lng": 19.053085,
+      "prix": "4 à 8 €",
+      "prix_min": 4,
+      "texte": "Le kürtőskalács, une pâte enroulée sur un rouleau et cuite à la braise, puis roulée dans le sucre, la cannelle ou la noix : il sort chaud et croustillant sous vos yeux. La version gourmande se garnit de glace, pour une pause sucrée en pleine rue piétonne.",
+      "reservation": "sur_place",
+      "reservation_delai": "au comptoir",
+      "illustration": true,
+      "badges": [],
+      "photo": {
+        "auteur": "Christo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AK%C3%BCrt%C5%91skal%C3%A1cs%2C_2.jpg",
+        "src": "img/restos/BUD/molnar.jpg"
+      }
+    },
+    {
+      "id": "artizan",
+      "nom": "Artizán Bakery",
+      "emoji": "🥖",
+      "gamme": "petit",
+      "genre": "Boulangerie artisanale",
+      "quartier": "Lipótváros",
+      "adresse": "Hold u. 3, 1054 Budapest",
+      "lat": 47.503782,
+      "lng": 19.052859,
+      "prix": "4 à 10 €",
+      "prix_min": 4,
+      "texte": "La boulangerie qui a lancé la mode du pain au levain à Budapest : brioches roulées au cacao (kakaós csiga), viennoiseries feuilletées et sandwichs, à emporter ou à manger sur place, à deux pas du Parlement. Le petit-déjeuner parfait avant la visite.",
+      "reservation": "sur_place",
+      "reservation_delai": "au comptoir",
+      "illustration": true,
+      "badges": [],
+      "photo": {
+        "auteur": "Vauia Rex",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKaka%C3%B3s_Csiga_20260410_141847.jpg",
+        "src": "img/restos/BUD/artizan.jpg"
+      }
+    },
+    {
+      "id": "mazel-tov",
+      "nom": "Mazel Tov",
+      "emoji": "🥙",
+      "gamme": "moyen",
+      "genre": "Cuisine israélienne dans une cour-jardin",
+      "quartier": "Quartier juif",
+      "adresse": "Akácfa u. 47, 1073 Budapest",
+      "lat": 47.500278,
+      "lng": 19.065524,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Une ancienne cour d'immeuble à moitié en ruine devenue un jardin couvert de plantes suspendues et de guirlandes : l'un des cadres les plus photogéniques de la ville. Au menu, houmous, shawarma, falafels et grillades à partager.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant pour le soir",
+      "illustration": true,
+      "photo": {
+        "auteur": "Beyrouthhh at English Wikipedia",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALebanese_style_hummus.jpg",
+        "src": "img/restos/BUD/mazel-tov.jpg"
+      }
+    },
+    {
+      "id": "hungarikum",
+      "nom": "Hungarikum Bisztró",
+      "emoji": "🍗",
+      "gamme": "moyen",
+      "genre": "Cuisine hongroise de grand-mère",
+      "quartier": "Lipótváros (Parlement)",
+      "adresse": "Steindl Imre u. 13, 1051 Budapest",
+      "lat": 47.503483,
+      "lng": 19.047919,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Une petite salle familiale près du Parlement, où l'on sert les grands classiques comme à la maison : poulet au paprika et ses galuskas, chou farci, crêpes Gundel au chocolat. Les habitués saluent la générosité des assiettes et l'accueil.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant (petite salle très demandée)",
+      "illustration": true,
+      "photo": {
+        "auteur": "stu_spivack",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AChicken_paprikash.jpg",
+        "src": "img/restos/BUD/hungarikum.jpg"
+      }
+    },
+    {
+      "id": "n28",
+      "nom": "N28 Wine and Kitchen",
+      "emoji": "🍷",
+      "gamme": "moyen",
+      "genre": "Bistrot hongrois et vins",
+      "quartier": "Terézváros (Opéra)",
+      "adresse": "Nagymező u. 28, 1065 Budapest",
+      "lat": 47.503993,
+      "lng": 19.059282,
+      "prix": "30 à 50 €",
+      "prix_min": 30,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "Une cuisine hongroise de saison revisitée, inspirée de la Transdanubie, et une belle carte de vins du pays, dans la « Broadway » de Budapest, la rue des théâtres. Michelin le distingue chaque année pour son excellent rapport qualité-prix.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "illustration": true,
+      "photo": {
+        "auteur": "Fauvirt",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AThe_Nagymez%C5%91_Street_from_the_Zichy_Jen%C5%91_Street.jpg",
+        "src": "img/restos/BUD/n28.jpg"
+      }
+    },
+    {
+      "id": "deryne",
+      "nom": "Déryné Bisztró",
+      "emoji": "🥂",
+      "gamme": "moyen",
+      "genre": "Brasserie Art déco",
+      "quartier": "Krisztinaváros (Buda)",
+      "adresse": "Krisztina tér 3, 1013 Budapest",
+      "lat": 47.49724,
+      "lng": 19.031642,
+      "prix": "25 à 45 €",
+      "prix_min": 25,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une boulangerie de 1914 au pied du château, devenue une brasserie Art déco pleine de charme : boiseries, comptoir en zinc et piano le soir. On y prend un brunch, un schnitzel ou un goulash, au calme côté Buda.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir et le brunch du week-end",
+      "illustration": true,
+      "photo": {
+        "auteur": "Globetrotter19",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASz%C5%B1z_M%C3%A1ria-szobor_%C3%A9s_%C3%A9ttermek%2C_2017_Krisztinav%C3%A1ros.jpg",
+        "src": "img/restos/BUD/deryne.jpg"
+      }
+    },
+    {
+      "id": "kehli",
+      "nom": "Kéhli Vendéglő",
+      "emoji": "🍖",
+      "gamme": "moyen",
+      "genre": "Taverne hongroise de 1899",
+      "quartier": "Óbuda",
+      "adresse": "Mókus u. 22, 1036 Budapest",
+      "lat": 47.537885,
+      "lng": 19.043436,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La taverne préférée de l'écrivain Krúdy, dans le vieux village d'Óbuda : nappes à carreaux, musique tzigane le soir et os à moelle servi sur pain grillé à l'ail, la spécialité depuis plus d'un siècle. Une soirée hongroise authentique, loin des pièges à touristes.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant pour le soir",
+      "photo": {
+        "auteur": "Kaboldy",
+        "licence": "CC BY-SA 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File%3AK%C3%A9hli_vend%C3%A9gl%C5%91_Budapest_M%C3%B3kus_utca_22.JPG",
+        "src": "img/restos/BUD/kehli.jpg"
+      }
+    },
+    {
+      "id": "bestia",
+      "nom": "Bestia",
+      "emoji": "🥩",
+      "gamme": "moyen",
+      "genre": "Grill et cocktails",
+      "quartier": "Lipótváros (basilique)",
+      "adresse": "Szent István tér 9, 1051 Budapest",
+      "lat": 47.501121,
+      "lng": 19.052878,
+      "prix": "25 à 45 €",
+      "prix_min": 25,
+      "badges": [],
+      "texte": "Un grill animé en face de la basilique : burgers, côtes de bœuf et ribs cuits à la braise, cocktails maison et grande terrasse sur la place. Le bon plan pour un dîner décontracté après la visite.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour la terrasse le week-end",
+      "illustration": true,
+      "photo": {
+        "auteur": "Yoav Dothan",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest_V-_Szent_Istv%C3%A1n_t%C3%A9r_a_Bazilika_fel%C5%91l._-_2009%2C_BudapestDSCN3468.jpg",
+        "src": "img/restos/BUD/bestia.jpg"
+      }
+    },
+    {
+      "id": "stand",
+      "nom": "Stand",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Grande cuisine hongroise moderne",
+      "quartier": "Terézváros",
+      "adresse": "Székely Mihály u. 2, 1061 Budapest",
+      "lat": 47.50026,
+      "lng": 19.059541,
+      "prix": "≈ 230 €",
+      "prix_min": 230,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "La meilleure table de Budapest : les chefs Tamás Széll et Szabina Szulló réinventent les plats hongrois de leur enfance (goulash, paprika, chou) avec une finesse rare. Le seul restaurant de la ville à deux étoiles (menu unique en 8 plats).",
+      "reservation": "indispensable",
+      "reservation_delai": "3 à 6 semaines avant",
+      "illustration": true,
+      "photo": {
+        "auteur": "Dclemens1971",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADinner_at_Hi%C5%A1a_Franko%2C_summer_2022_02.jpg",
+        "src": "img/restos/BUD/stand.jpg"
+      }
+    },
+    {
+      "id": "rumour",
+      "nom": "Rumour by Rácz Jenő",
+      "emoji": "🎭",
+      "gamme": "haut",
+      "genre": "Table du chef en spectacle",
+      "quartier": "Belváros (quais)",
+      "adresse": "Petőfi tér 3-5, 1051 Budapest",
+      "lat": 47.493696,
+      "lng": 19.050603,
+      "prix": "100 à 170 €",
+      "prix_min": 100,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Un dîner-spectacle autour d'un grand comptoir : le chef Jenő Rácz cuisine sous vos yeux et raconte chaque plat, entre humour et techniques de haute voltige. Une expérience autant qu'un repas (menus en 6 ou 9 plats).",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant (peu de places)",
+      "illustration": true,
+      "photo": {
+        "auteur": "Dguendel",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABudapest%2C_Pet%C5%91fi_t%C3%A9r_and_Orthodox_Cathedral_of_Our_Lady.jpg",
+        "src": "img/restos/BUD/rumour.jpg"
+      }
+    },
+    {
+      "id": "babel",
+      "nom": "Babel",
+      "emoji": "🍽️",
+      "gamme": "haut",
+      "genre": "Gastronomie inspirée de la Transylvanie",
+      "quartier": "Belváros (centre)",
+      "adresse": "Piarista köz 2, 1052 Budapest",
+      "lat": 47.492701,
+      "lng": 19.052202,
+      "prix": "≈ 170 €",
+      "prix_min": 170,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Dans une salle intime aux murs de briques, le chef István Veres transforme les saveurs de la Transylvanie de son enfance en assiettes d'une grande précision. Beaucoup de critiques le jugent digne d'une deuxième étoile (menu en 13 plats).",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "illustration": true,
+      "photo": {
+        "auteur": "Dclemens1971",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADinner_at_Hi%C5%A1a_Franko%2C_summer_2022_07.jpg",
+        "src": "img/restos/BUD/babel.jpg"
+      }
+    },
+    {
+      "id": "borkonyha",
+      "nom": "Borkonyha Winekitchen",
+      "emoji": "🍾",
+      "gamme": "haut",
+      "genre": "Cuisine du marché et grands vins hongrois",
+      "quartier": "Lipótváros (basilique)",
+      "adresse": "Sas u. 3, 1051 Budapest",
+      "lat": 47.49959,
+      "lng": 19.052559,
+      "prix": "70 à 110 €",
+      "prix_min": 70,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin (depuis 2014)",
+      "texte": "L'étoilé le plus décontracté de la ville, à deux pas de la basilique : une carte courte qui change chaque semaine, du foie gras façon hongroise, et plus de 200 vins du pays, dont de nombreux tokajis au verre.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 semaines avant",
+      "illustration": true,
+      "photo": {
+        "auteur": "Raf24",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASas_utca_BUD.JPG",
+        "src": "img/restos/BUD/borkonyha.jpg"
+      }
+    },
+    {
+      "id": "gundel",
+      "nom": "Gundel",
+      "emoji": "🏛️",
+      "gamme": "haut",
+      "genre": "Grand restaurant historique",
+      "quartier": "Városliget (bois de Ville)",
+      "adresse": "Gundel Károly út 4, 1146 Budapest",
+      "lat": 47.517446,
+      "lng": 19.077276,
+      "prix": "60 à 90 €",
+      "prix_min": 60,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le restaurant le plus célèbre de Hongrie depuis 1894, dans une villa à côté du zoo : salles lambrissées, tableaux de maîtres et la fameuse crêpe Gundel flambée au chocolat et aux noix. Le midi, un menu bien plus abordable permet de s'offrir le lieu. Le soir, comptez un menu en 3 plats ; un service de 15 % s'ajoute à l'addition.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant ; tenue correcte le soir",
+      "photo": {
+        "auteur": "Steve Talas",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGundel_%C3%A9tterem_a_V%C3%A1rosligetben.jpg",
+        "src": "img/restos/BUD/gundel.jpg"
+      }
+    },
+    {
+      "id": "felix",
+      "nom": "FELIX Kitchen & Bar",
+      "emoji": "🌉",
+      "gamme": "haut",
+      "genre": "Cuisine européenne avec vue sur le Danube",
+      "quartier": "Várkert Bazár (Buda)",
+      "adresse": "Ybl Miklós tér 9, 1013 Budapest",
+      "lat": 47.493959,
+      "lng": 19.043522,
+      "prix": "50 à 80 €",
+      "prix_min": 50,
+      "badges": [],
+      "texte": "Dans l'ancienne salle des machines du jardin du château, une terrasse face au Danube, au pont des Chaînes et au Parlement : l'une des plus belles vues de Budapest à table, surtout au coucher du soleil.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant pour une table en terrasse",
+      "illustration": true,
+      "photo": {
+        "auteur": "Építész 1997",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AV%C3%A1rkert_Baz%C3%A1r_WHB.jpg",
+        "src": "img/restos/BUD/felix.jpg"
+      }
+    }
+  ]
+}

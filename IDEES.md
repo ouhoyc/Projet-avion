@@ -286,6 +286,14 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
+- ✅ (22/10/2026) **Page guide de Budapest** (`guides/BUD.json`), préparée en autonomie : 27 activités
+  (5 tendance : bastion des Pêcheurs, citadelle rouverte au printemps 2026, croisière du soir, bains Széchenyi,
+  bars en ruines ; nouveau type « Bains thermaux » dans `TYPES` de `ville.js` : Széchenyi et Rudas, 14 ans et plus ;
+  Gellért fermé pour travaux jusqu'en 2028, pas mis ; match de Ferencváros ; excursions collines de Buda et coude
+  du Danube ; marché de Noël de mi-novembre au 31 décembre), 18 restaurants (note pondérée, C = 4,50, 1 759 lieux
+  lus via Wanderlog ; Michelin Hongrie 2025 : Stand 2 étoiles, Rumour, Babel, Borkonyha 1 étoile, N28 Bib Gourmand),
+  5 quartiers. Réseaux sociaux (Apify, 1 passage) : tendance pour Retro Lángos, Bors, Gettó Gulyás. Prix en forints
+  convertis (1 € ≈ 363 Ft), à vérifier ; 14 photos de restaurants sur 18 sont des illustrations.
 - ✅ (22/10/2026) **Page guide d'Athènes** (`guides/ATH.json`), préparée en autonomie : 26 activités
   (5 tendance : Plaka et Anafiotika, mont Lycabette, lac de Vouliagmeni, Monastiraki, stade panathénaïque ;
   match de l'Olympiakos ; excursions Sounion, Égine, Delphes), 18 restaurants (note pondérée, C = 4,45, 704 restaurants
