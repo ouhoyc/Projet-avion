@@ -89,7 +89,7 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 - `voyageurs.js` + `voyageurs.css` : choix « Qui part ? » (adultes, âges des enfants), gardé
   dans le navigateur, utilisé par l'accueil (champ Voyageurs) et le devis des pages guides.
 - `style.css` et `themes.css` : le style ; le Pop est dans `themes.css`.
-- `villes.json` : fiches des **88 villes**, rangées par `city_code` :
+- `villes.json` : fiches des **95 villes**, rangées par `city_code` :
   - `pitch` : texte vendeur ;
   - `photo` : src, auteur, licence, page Commons ;
   - `climate` : min, max, pluie, soleil (12 mois) et source.

@@ -5987,5 +5987,474 @@
       ],
       "source": "Météo-France (via Meteociel), normales 1991–2020 (Brest-Guipavas)"
     }
+  },
+  "DBV": {
+    "pitch": "La perle de l'Adriatique : une vieille ville en pierre blonde ceinte de remparts, des toits orange au-dessus d'une mer turquoise et des criques où se baigner au pied des murailles.",
+    "photo": {
+      "src": "img/villes/DBV.jpg",
+      "alt": "La vieille ville de Dubrovnik et son port, entre remparts et mer turquoise",
+      "author": "Bracodbk",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Dubrovnik_june_2011..JPG"
+    },
+    "climate": {
+      "min": [
+        6.6,
+        6.8,
+        8.4,
+        11.0,
+        15.3,
+        18.9,
+        21.4,
+        21.6,
+        18.4,
+        14.9,
+        10.7,
+        7.8
+      ],
+      "max": [
+        12.3,
+        12.6,
+        14.4,
+        16.9,
+        21.5,
+        25.3,
+        28.2,
+        28.5,
+        25.1,
+        21.1,
+        16.6,
+        13.4
+      ],
+      "pluie": [
+        11.2,
+        11.2,
+        11.2,
+        12.0,
+        9.4,
+        6.4,
+        4.7,
+        5.1,
+        7.2,
+        10.8,
+        12.4,
+        12.0
+      ],
+      "soleil": [
+        130.2,
+        142.8,
+        179.8,
+        207.0,
+        266.6,
+        312.0,
+        347.2,
+        325.5,
+        309.0,
+        189.1,
+        135.0,
+        124.0
+      ],
+      "source": "Service météorologique croate (DHMZ), normales 1971–2000 (jours de pluie au seuil ≥ 0,1 mm)"
+    }
+  },
+  "LXR": {
+    "pitch": "Le plus grand musée à ciel ouvert du monde : temples de Karnak et de Louxor, tombeaux colorés de la Vallée des Rois et lever du soleil en montgolfière au-dessus du Nil.",
+    "photo": {
+      "src": "img/villes/LXR.jpg",
+      "alt": "Le pylône et la colonnade du temple de Louxor sous un ciel bleu",
+      "author": "Marc Ryckaert",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Luxor_Temple_R04.jpg"
+    },
+    "climate": {
+      "min": [
+        7.1,
+        8.9,
+        12.8,
+        17.5,
+        22.1,
+        25.0,
+        25.7,
+        25.6,
+        23.3,
+        19.6,
+        13.4,
+        8.6
+      ],
+      "max": [
+        22.8,
+        25.3,
+        29.7,
+        35.0,
+        39.1,
+        41.2,
+        41.4,
+        41.2,
+        39.3,
+        35.5,
+        29.1,
+        24.2
+      ],
+      "pluie": [
+        0.3,
+        0.4,
+        0.3,
+        0.1,
+        0.3,
+        0.0,
+        0.0,
+        0.0,
+        0.1,
+        0.3,
+        0.1,
+        1.0
+      ],
+      "soleil": [
+        288.6,
+        277.7,
+        305.0,
+        308.6,
+        348.9,
+        369.9,
+        383.7,
+        366.7,
+        321.0,
+        316.4,
+        291.0,
+        282.6
+      ],
+      "source": "NOAA (OMM), normales 1991–2020 (aéroport de Louxor) ; soleil : Weather2Travel"
+    }
+  },
+  "YMQ": {
+    "pitch": "L'Amérique du Nord qui parle français : un Vieux-Montréal aux airs d'Europe, des festivals tout l'été, des couleurs d'automne flamboyantes et une gourmandise sans complexe.",
+    "photo": {
+      "src": "img/villes/YMQ.jpg",
+      "alt": "Les gratte-ciel de Montréal illuminés à la tombée du jour, vus du belvédère Kondiaronk",
+      "author": "Paolo Costa Baldi",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Belvedere_Kondiaronk_chalet_du_Mont_Royal.jpg"
+    },
+    "climate": {
+      "min": [
+        -13.5,
+        -12.4,
+        -6.5,
+        1.1,
+        8.3,
+        13.8,
+        16.7,
+        15.6,
+        10.9,
+        4.5,
+        -1.7,
+        -8.7
+      ],
+      "max": [
+        -5.0,
+        -3.4,
+        2.4,
+        11.3,
+        19.4,
+        24.2,
+        26.7,
+        25.7,
+        21.1,
+        13.2,
+        6.1,
+        -1.2
+      ],
+      "pluie": [
+        4.5,
+        3.8,
+        7.0,
+        11.4,
+        13.7,
+        12.9,
+        12.8,
+        11.2,
+        11.3,
+        13.2,
+        11.1,
+        6.7
+      ],
+      "soleil": [
+        101.2,
+        127.8,
+        164.3,
+        178.3,
+        228.9,
+        240.3,
+        271.5,
+        246.3,
+        182.2,
+        143.5,
+        83.6,
+        83.6
+      ],
+      "source": "Environnement et Changement climatique Canada, normales 1991–2020 (aéroport Montréal-Trudeau) ; soleil 1981–2010 ; jours de pluie au seuil ≥ 0,2 mm (neige non comptée)"
+    }
+  },
+  "CFR": {
+    "pitch": "La ville de Guillaume le Conquérant : abbayes et château millénaires, une vie étudiante animée, et les plages du Débarquement comme la côte normande à deux pas.",
+    "photo": {
+      "src": "img/villes/CFR.jpg",
+      "alt": "L'abbaye aux Hommes de Caen et ses jardins fleuris",
+      "author": "Mattana",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Caen,_Abbaye_aux_Hommes_01.jpg"
+    },
+    "climate": {
+      "min": [
+        2.9,
+        2.8,
+        4.2,
+        5.5,
+        8.5,
+        11.2,
+        13.1,
+        13.3,
+        11.1,
+        8.8,
+        5.6,
+        3.3
+      ],
+      "max": [
+        8.3,
+        9.1,
+        11.7,
+        14.4,
+        17.4,
+        20.5,
+        22.9,
+        23.2,
+        20.4,
+        16.2,
+        11.8,
+        8.8
+      ],
+      "pluie": [
+        11.6,
+        11.2,
+        10.0,
+        10.0,
+        9.5,
+        8.6,
+        8.0,
+        8.3,
+        9.1,
+        12.2,
+        13.4,
+        14.2
+      ],
+      "soleil": [
+        70.5,
+        90.2,
+        130.0,
+        179.1,
+        203.4,
+        212.6,
+        218.5,
+        204.8,
+        170.9,
+        117.1,
+        81.9,
+        67.2
+      ],
+      "source": "Météo-France, normales 1991–2020 (Caen-Carpiquet)"
+    }
+  },
+  "LRH": {
+    "pitch": "La plus lumineuse des villes de l'Atlantique : un Vieux-Port gardé par ses tours médiévales, des rues à arcades, et l'île de Ré à vélo juste en face.",
+    "photo": {
+      "src": "img/villes/LRH.jpg",
+      "alt": "Les tours Saint-Nicolas et de la Chaîne à l'entrée du Vieux-Port de La Rochelle",
+      "author": "André ALLIOT",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:La_Rochelle,_entr%C3%A9e_du_vieux_port.jpg"
+    },
+    "climate": {
+      "min": [
+        4.4,
+        4.1,
+        6.1,
+        7.9,
+        11.3,
+        14.4,
+        16.4,
+        16.3,
+        13.6,
+        11.2,
+        7.4,
+        4.8
+      ],
+      "max": [
+        9.6,
+        10.6,
+        13.6,
+        16.1,
+        19.6,
+        22.8,
+        24.6,
+        24.9,
+        22.5,
+        18.3,
+        13.4,
+        10.3
+      ],
+      "pluie": [
+        12.2,
+        10.0,
+        9.6,
+        9.7,
+        8.5,
+        7.2,
+        6.3,
+        6.5,
+        7.2,
+        11.4,
+        12.5,
+        13.0
+      ],
+      "soleil": [
+        91.0,
+        130.9,
+        178.8,
+        230.6,
+        257.8,
+        252.8,
+        296.8,
+        277.6,
+        233.5,
+        154.7,
+        108.5,
+        90.3
+      ],
+      "source": "Météo-France, normales 1991–2020 (La Rochelle-Île de Ré)"
+    }
+  },
+  "PUF": {
+    "pitch": "Le balcon des Pyrénées : un boulevard face aux sommets enneigés, le château natal d'Henri IV, un air de douceur anglaise, et l'océan comme la montagne à une heure.",
+    "photo": {
+      "src": "img/villes/PUF.jpg",
+      "alt": "Le château de Pau, natal d'Henri IV, dans la lumière dorée du soir",
+      "author": "Capbourrut",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Pau_Enceinte.jpg"
+    },
+    "climate": {
+      "min": [
+        2.4,
+        2.5,
+        5.0,
+        7.4,
+        11.0,
+        14.1,
+        15.8,
+        15.7,
+        12.8,
+        9.8,
+        5.5,
+        3.0
+      ],
+      "max": [
+        11.2,
+        12.3,
+        15.5,
+        17.5,
+        21.0,
+        24.1,
+        25.9,
+        26.5,
+        23.9,
+        20.1,
+        14.5,
+        12.0
+      ],
+      "pluie": [
+        11.8,
+        10.4,
+        10.5,
+        12.7,
+        12.2,
+        9.8,
+        8.5,
+        8.0,
+        9.0,
+        10.6,
+        12.1,
+        11.1
+      ],
+      "soleil": [
+        100.6,
+        121.6,
+        163.7,
+        167.0,
+        186.4,
+        196.2,
+        213.2,
+        210.9,
+        193.0,
+        150.3,
+        107.4,
+        99.4
+      ],
+      "source": "Météo-France, normales 1991–2020 (Pau-Uzein)"
+    }
+  },
+  "STO": {
+    "pitch": "La Venise du Nord, posée sur 14 îles : ruelles colorées de Gamla Stan, design scandinave, pauses « fika » et archipel à explorer en bateau.",
+    "photo": {
+      "src": "img/villes/STO.jpg",
+      "alt": "Riddarholmen et l'hôtel de ville de Stockholm au bord de l'eau",
+      "author": "OleNeitzel",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gamla_Stan_tunnelbanestation,_Centralbron,_Riddarfj%C3%A4rden,_Stadshus,_Riddarholmskyrkan_and_Norra_tornen,_Stockholm,_Sweden.jpg"
+    },
+    "climate": {
+      "min": [
+        -2.9,
+        -3.2,
+        -1.1,
+        2.6,
+        7.1,
+        11.6,
+        14.8,
+        14.2,
+        10.2,
+        5.5,
+        1.9,
+        -1.2
+      ],
+      "max": [
+        1.0,
+        1.2,
+        4.7,
+        10.7,
+        16.5,
+        20.8,
+        23.6,
+        22.1,
+        16.6,
+        10.1,
+        5.4,
+        2.5
+      ],
+      "soleil": [
+        43.9,
+        75.1,
+        150.8,
+        215.9,
+        277.4,
+        277.4,
+        279.5,
+        234.5,
+        170.3,
+        95.8,
+        44.6,
+        33.4
+      ],
+      "source": "SMHI, normales 1991–2020 (Stockholm-Observatorielunden) ; soleil : Weather Atlas"
+    }
   }
 }

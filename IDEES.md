@@ -16,7 +16,9 @@ hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
   → pas de type de temps affiché ces mois-là, seulement la température.
 - Jours de pluie retirés (source au seuil ≥ 0,1 mm, trop « pluvieux ») : Bruxelles, Vilnius.
 - Jours de pluie au seuil ≥ 0,1 mm gardés (un peu surestimés) : Francfort, Düsseldorf, Belgrade,
-  Istanbul, Tel Aviv.
+  Istanbul, Tel Aviv, Dubrovnik (et source ancienne : 1971–2000).
+- Jours de pluie absents de la source : Stockholm → seulement la température.
+- Montréal : jours de pluie seulement (neige non comptée), seuil ≥ 0,2 mm.
 - Seuil non précisé dans la source : Athènes, Corfou, Tanger, Oslo, Prague (jours de pluie),
   Amman, Sétif.
 - Sources plus faibles ou anciennes : Beyrouth (période inconnue), Corfou et Athènes (1955–2010),
@@ -259,6 +261,9 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 - Crédit Ignav : 1 000 recherches gratuites, puis ~2 $ / 1 000.
 
 ## Fait
+
+- ✅ (22/10/2026) **Fiches des 7 villes qui n'en avaient pas** : Caen, Dubrovnik, La Rochelle, Louxor,
+  Montréal, Pau, Stockholm (photo libre Commons, texte vendeur, météo). 95 fiches en tout.
 
 - ✅ (22/10/2026) **Nouvel accueil « agence de voyage »** (retour testeurs : on croyait à un comparateur,
   on ne voyait pas les résultats ni le « séjour complet ») : titre « Où partir depuis Lyon ? »,
