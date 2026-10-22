@@ -162,6 +162,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   donne vignette, auteur et licence d'un coup ; avec 10 villes en parallèle elle répond souvent « 429 » :
   relancer lentement. Michelin : la page `guide.michelin.com/it/it/veneto/venezia/ristoranti/stelle-michelin`
   se lit par `curl` (attribut `data-dtm-distinction` de chaque carte). Wanderlog : 115 listes, 991 lieux.
+  Rome (oct. 2026) : l'API Commons `action=query&prop=imageinfo&iiprop=extmetadata` répond (auteur, licence,
+  vignette 960 px) ; pour une photo d'œuvre d'art, le photographe est dans `Credit` (« Own work … »), pas `Artist`.
+  Wanderlog Rome : départ de la liste `geoCategory/72433`.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

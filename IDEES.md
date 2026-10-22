@@ -339,6 +339,17 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (pas mis). Prix confirmés : Acropole 30 € (gratuit moins de 18 ans et moins de 25 ans UE). Les autres sont
   `a_verifier` (Agora et temple de Zeus 20 € d'après un guide d'août 2026, musée national 20 € depuis janv. 2026).
   Restaurants : prix et délais estimés ; 17 photos sur 18 sont des illustrations (seul Little Kook est photographié).
+- ✅ (22/10/2026) **Page guide de Rome** (`guides/ROM.json`), préparée en autonomie : 30 activités
+  (5 tendance : fontaine de Trevi, Trastevere, Pincio, trou de serrure de l'Aventin, galerie Sciarra ; match de
+  l'AS Roma ; excursions à Ostie et Tivoli), 18 restaurants (note pondérée, C = 4,41, ~990 restaurants lus via
+  Wanderlog ; Michelin 2026 : La Pergola 3 étoiles, Acquolina 2 étoiles, Imàgo et Glass Hostaria 1 étoile ;
+  tendance : Supplì Roma, Trapizzino, Giolitti, Roscioli, Da Enzo), 5 quartiers.
+  **Nouveautés 2026 à connaître** : fontaine de Trevi payante (2 €, 9 h-22 h, depuis le 2 février) ; Panthéon
+  passé à 7 € et château Saint-Ange à 18 € (juillet 2026). Bonci Pizzarium, Da Baffetto, Piperno et Nonna Betta
+  écartés (note Google ≤ 4,2) ; Tonnarello écarté (avis en masse). **Réseaux sociaux** (Apify, 1 passage) :
+  120 TikTok, 60 Instagram, 40 YouTube, 30 Reddit. Prix confirmés : Vatican (20 + 5 €), Panthéon, Trevi,
+  Saint-Ange, Caracalla, Capitole (15 €, 16,50 € avec exposition). Les autres sont marqués `a_verifier`.
+  Photos des restaurants : aucune photo libre des salles → photos de plats (`illustration`).
 - ✅ (21/10/2026) **Page guide de Dubaï** (`guides/DXB.json`), préparée en autonomie : 30 activités
   (6 tendance : Sky Views, Al Fahidi, Dubai Frame, Kite Beach, Miracle Garden, Global Village ; excursions à Abou Dhabi,
   Hatta, safari ; courses de Meydan à la place d'un club de foot, peu suivi), 18 restaurants (note pondérée,

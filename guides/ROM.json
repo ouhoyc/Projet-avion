@@ -1,0 +1,1790 @@
+{
+  "city_code": "ROM",
+  "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+  "verifie_le": "2026-10-22",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "colisee",
+      "nom": "Colisée, Forum romain et Palatin",
+      "emoji": "🏟️",
+      "type": "culture",
+      "quartier": "Colisée",
+      "lat": 41.89021,
+      "lng": 12.492231,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Billet 24 h (Colisée, Forum, Palatin)",
+          18
+        ],
+        [
+          "Full Experience (arène ou souterrains, 2 jours)",
+          24
+        ],
+        [
+          "Moins de 18 ans",
+          "2 € (frais de réservation)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            17,
+            2
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "dès l'ouverture des ventes, 30 jours avant (complet en quelques heures en été)",
+      "duree": "3 à 4 h",
+      "moment": "À l'ouverture (8 h 30), avant la chaleur et les groupes",
+      "enfants": true,
+      "texte": "Entrez dans l'arène où 50 000 Romains acclamaient les gladiateurs, puis marchez sur la Voie sacrée du Forum, le cœur de l'Empire, jusqu'aux palais des empereurs sur le Palatin. Le même billet ouvre les trois sites : deux mille ans d'histoire en une matinée.",
+      "site_officiel": "https://ticketing.colosseo.it/",
+      "note": "Achetez uniquement sur ticketing.colosseo.it : de nombreux sites revendent les mêmes billets deux à trois fois plus cher. Le billet est nominatif (pièce d'identité à l'entrée).",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Nicholas Hartmann",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARome_Colosseum_exterior_panorama.jpg",
+        "src": "img/activites/ROM/colisee.jpg"
+      }
+    },
+    {
+      "id": "vatican",
+      "nom": "Musées du Vatican et chapelle Sixtine",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Vatican",
+      "lat": 41.906488,
+      "lng": 12.453641,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Billet coupe-file en ligne",
+          "20 € + 5 €"
+        ],
+        [
+          "Sur place (longue file)",
+          20
+        ],
+        [
+          "6 à 18 ans",
+          "10 € + 5 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            15
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant (60 jours en été)",
+      "duree": "3 h",
+      "moment": "Dès 8 h, ou en fin de journée. Fermé le dimanche (sauf le dernier du mois, gratuit et bondé)",
+      "enfants": true,
+      "texte": "Sept kilomètres de chefs-d'œuvre rassemblés par les papes : les Chambres de Raphaël, la galerie des Cartes, le Laocoon… et, au bout du chemin, la chapelle Sixtine, où le plafond et le Jugement dernier de Michel-Ange coupent le souffle à tout le monde.",
+      "site_officiel": "https://www.museivaticani.va/",
+      "note": "Réservez sur museivaticani.va : les revendeurs facturent souvent plus de 30 €. Épaules et genoux couverts.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Antoine Taveneaux",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASistine_Chapel_ceiling_03.jpg",
+        "src": "img/activites/ROM/vatican.jpg"
+      }
+    },
+    {
+      "id": "saint-pierre",
+      "nom": "Basilique Saint-Pierre",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Vatican",
+      "lat": 41.902168,
+      "lng": 12.453937,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Basilique",
+          "gratuit"
+        ],
+        [
+          "Coupole",
+          "voir l'activité « Coupole »"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "file de sécurité de 30 min à 1 h 30 en journée",
+      "duree": "1 h 30",
+      "moment": "Tôt le matin (ouverture à 7 h), quand la file est courte",
+      "enfants": true,
+      "texte": "La plus grande église du monde, sur sa place encerclée par la colonnade du Bernin. À l'intérieur : la Pietà de Michel-Ange, le baldaquin de bronze du Bernin et une lumière dorée qui tombe de la coupole. Gratuit, et inoubliable.",
+      "site_officiel": "https://www.basilicasanpietro.va/",
+      "note": "Tenue correcte exigée (épaules et genoux couverts). Ne payez pas les « coupe-file » vendus dans la rue : l'entrée est gratuite.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dietmar Rabich",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVatican_City_%28VA%29%2C_Petersdom_--_2013_--_4352.jpg",
+        "src": "img/activites/ROM/saint-pierre.jpg"
+      }
+    },
+    {
+      "id": "coupole",
+      "nom": "Coupole de Saint-Pierre",
+      "emoji": "🔭",
+      "type": "vue",
+      "quartier": "Vatican",
+      "lat": 41.90222,
+      "lng": 12.45333,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Ascenseur + 320 marches (sur place)",
+          "≈ 15 €"
+        ],
+        [
+          "À pied, 551 marches (sur place)",
+          "≈ 10 €"
+        ],
+        [
+          "En ligne, horaire garanti",
+          "17 à 22 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet à la caisse au pied de la coupole, ou en ligne pour un horaire garanti",
+      "duree": "1 h 30",
+      "moment": "À l'ouverture (7 h 30), avant la basilique",
+      "enfants": false,
+      "texte": "Grimpez dans la coupole dessinée par Michel-Ange, d'abord le long de la galerie intérieure, à 50 m au-dessus de l'autel, puis par un escalier qui se penche avec la courbe du dôme. Au sommet : tout Rome et les jardins du Vatican à vos pieds.",
+      "site_officiel": "https://www.basilicasanpietro.va/",
+      "note": "Déconseillé si vous êtes sujet au vertige ou à la claustrophobie : les derniers escaliers sont très étroits.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Colin W",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASt._Peter%27s_Cathedral%2C_Vatican_-_panoramio.jpg",
+        "src": "img/activites/ROM/coupole.jpg"
+      }
+    },
+    {
+      "id": "pantheon",
+      "nom": "Panthéon",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 41.898611,
+      "lng": 12.476873,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Adulte",
+          7
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ],
+        [
+          "1er dimanche du mois",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant en ligne, pour éviter la file",
+      "duree": "45 min",
+      "moment": "Le matin, ou sous la pluie : elle tombe par l'oculus",
+      "enfants": true,
+      "texte": "Un temple romain intact depuis 1 900 ans, coiffé de la plus grande coupole en béton non armé jamais construite. Par l'oculus de 9 m, un rayon de soleil tourne lentement sur les marbres. On entre, on lève la tête, et on comprend le génie de Rome.",
+      "site_officiel": "https://www.pantheonroma.com/",
+      "note": "Prix passé de 5 à 7 € en juillet 2026.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Sarah Nichols",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APantheon_in_Rome%2C_Italy.jpg",
+        "src": "img/activites/ROM/pantheon.jpg"
+      }
+    },
+    {
+      "id": "trevi",
+      "nom": "Fontaine de Trevi",
+      "emoji": "⛲",
+      "type": "balade",
+      "quartier": "Trevi",
+      "lat": 41.900932,
+      "lng": 12.483313,
+      "prix": 2,
+      "prix_detail": [
+        [
+          "Accès au bord du bassin (9 h-22 h)",
+          2
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ],
+        [
+          "Vue depuis la place, et avant 9 h ou après 22 h",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place par carte, ou en ligne",
+      "duree": "30 min",
+      "moment": "Avant 9 h ou après 22 h : gratuit, et presque sans personne",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le chef-d'œuvre baroque de la Dolce Vita, où Anita Ekberg se baignait dans le film de Fellini. Tournez le dos au bassin et lancez une pièce par-dessus l'épaule : la légende dit que vous reviendrez à Rome.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "note": "Depuis février 2026, l'accès au bord du bassin coûte 2 € (la place reste gratuite). Le vendredi, il n'ouvre qu'à 11 h 30.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "NikonZ7II",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATrevi_Fountain_-_Roma.jpg",
+        "src": "img/activites/ROM/trevi.jpg"
+      }
+    },
+    {
+      "id": "navone",
+      "nom": "Place Navone",
+      "emoji": "⛲",
+      "type": "balade",
+      "quartier": "Centre historique",
+      "lat": 41.899163,
+      "lng": 12.473074,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "En fin de journée, avec les artistes de rue",
+      "enfants": true,
+      "texte": "Un ancien stade romain devenu la plus belle place baroque du monde : la fontaine des Quatre-Fleuves du Bernin face à l'église de Borromini, son grand rival. Artistes, peintres et musiciens en font un théâtre à ciel ouvert.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "note": "Les terrasses de la place sont très chères pour la qualité : prenez plutôt un café dans les ruelles voisines.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Krzysztof Golik",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APiazza_Navona_in_Rome_12.jpg",
+        "src": "img/activites/ROM/navone.jpg"
+      }
+    },
+    {
+      "id": "espagne",
+      "nom": "Place d'Espagne et Trinité-des-Monts",
+      "emoji": "🌸",
+      "type": "balade",
+      "quartier": "Spagna",
+      "lat": 41.90599,
+      "lng": 12.482775,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Tôt le matin pour la photo, ou au coucher du soleil",
+      "enfants": true,
+      "texte": "Les 135 marches les plus célèbres de Rome, fleuries d'azalées au printemps, montent vers l'église de la Trinité-des-Monts. En bas, la fontaine de la Barcaccia et la via Condotti, la rue des grandes maisons de mode.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "note": "Il est interdit de s'asseoir sur les marches (amende possible).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "John Chapman",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASpanish_Steps_and_Trinit%C3%A0_dei_Monti_church_-_Rome.JPG",
+        "src": "img/activites/ROM/espagne.jpg"
+      }
+    },
+    {
+      "id": "trastevere",
+      "nom": "Trastevere",
+      "emoji": "🏮",
+      "type": "balade",
+      "quartier": "Trastevere",
+      "lat": 41.889493,
+      "lng": 12.469836,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "En fin d'après-midi, puis le soir pour l'apéritif",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Ruelles pavées, façades ocre couvertes de lierre, linge aux fenêtres et lampions le soir : le Rome des cartes postales, de l'autre côté du Tibre. Entrez voir les mosaïques d'or de Sainte-Marie-du-Trastevere, puis laissez-vous porter jusqu'à la nuit.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Alessandro Cossu",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATrastevere_streets%2C_Rome%2C_Italy.jpg",
+        "src": "img/activites/ROM/trastevere.jpg"
+      }
+    },
+    {
+      "id": "chateau",
+      "nom": "Château Saint-Ange",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Vatican",
+      "lat": 41.903063,
+      "lng": 12.466276,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Adulte",
+          18
+        ],
+        [
+          "18 à 25 ans (UE)",
+          2
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet nominatif, en ligne ou sur place",
+      "duree": "1 h 30",
+      "moment": "En fin d'après-midi, pour le coucher du soleil sur Saint-Pierre. Fermé le lundi",
+      "enfants": true,
+      "texte": "Tombeau d'Hadrien devenu forteresse des papes, relié au Vatican par un passage secret. Montez la rampe antique jusqu'à la terrasse de l'Ange : la vue sur le Tibre et la coupole de Saint-Pierre est l'une des plus belles de Rome. Arrivez par le pont aux anges du Bernin.",
+      "site_officiel": "https://castelsantangelo.cultura.gov.it/",
+      "note": "Prix passé à 18 € en juillet 2026. Pièce d'identité demandée à l'entrée.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Thomas Fabian",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACastel_Sant_Angelo_%28182729427%29.jpeg",
+        "src": "img/activites/ROM/chateau.jpg"
+      }
+    },
+    {
+      "id": "borghese",
+      "nom": "Galerie Borghèse",
+      "emoji": "🗿",
+      "type": "culture",
+      "quartier": "Villa Borghèse",
+      "lat": 41.914212,
+      "lng": 12.492155,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Adulte (créneau de 2 h)",
+          "16 € + 2 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "2 € (frais de réservation)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            17,
+            2
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant : pas de billets sur place",
+      "duree": "2 h",
+      "moment": "Le premier créneau du matin",
+      "enfants": true,
+      "texte": "Le plus bel écrin de Rome : une villa où les sculptures du Bernin semblent vivantes (Apollon et Daphné, l'Enlèvement de Proserpine, où les doigts s'enfoncent dans le marbre), entourées de six Caravage et d'un Raphaël. Seulement 360 visiteurs à la fois.",
+      "site_officiel": "https://galleriaborghese.cultura.gov.it/",
+      "note": "Achetez sur le site officiel ; les sacs doivent être laissés au vestiaire.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Sailko",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoma%2C_galleria_borghese%2C_galleria_degli_imperatori_01.jpg",
+        "src": "img/activites/ROM/borghese.jpg"
+      }
+    },
+    {
+      "id": "pincio",
+      "nom": "Terrasse du Pincio et Villa Borghèse",
+      "emoji": "🌅",
+      "type": "vue",
+      "quartier": "Villa Borghèse",
+      "lat": 41.911121,
+      "lng": 12.477939,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ],
+        [
+          "Location de vélo ou de rosalie",
+          "≈ 5 à 15 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Du haut de la place du Peuple, la terrasse du Pincio offre le plus beau coucher de soleil de Rome, avec la coupole de Saint-Pierre en ombre chinoise. Derrière vous s'étend la Villa Borghèse, le grand parc romain : allées de pins, petit lac et barques.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jerzy Strzelecki",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARome_-_view_from_Terrazza_del_Pincio_02_%28js%29.jpg",
+        "src": "img/activites/ROM/pincio.jpg"
+      }
+    },
+    {
+      "id": "capitole",
+      "nom": "Musées du Capitole",
+      "emoji": "🐺",
+      "type": "culture",
+      "quartier": "Capitole",
+      "lat": 41.892943,
+      "lng": 12.482558,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Adulte (sans exposition)",
+          15
+        ],
+        [
+          "Avec exposition temporaire",
+          "16,50 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            9.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "L'après-midi, puis la vue sur le Forum depuis la terrasse",
+      "enfants": true,
+      "texte": "Le plus vieux musée du monde (1471), sur la place dessinée par Michel-Ange : la Louve qui allaita Romulus et Rémus, la statue équestre de Marc Aurèle, la tête géante de Constantin. Et une fenêtre secrète sur tout le Forum romain.",
+      "site_officiel": "https://www.museicapitolini.org/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Cezar Suceveanu",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APiazza_del_Campidoglio_din_Roma7.jpg",
+        "src": "img/activites/ROM/capitole.jpg"
+      }
+    },
+    {
+      "id": "aventin",
+      "nom": "Trou de serrure de l'Aventin et jardin des Orangers",
+      "emoji": "🗝️",
+      "type": "vue",
+      "quartier": "Aventin",
+      "lat": 41.8834,
+      "lng": 12.47776,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "En fin d'après-midi ; tôt le matin pour éviter la file au trou de serrure",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Collez votre œil à la serrure d'une porte verte de l'ordre de Malte : au bout d'une allée de lauriers, la coupole de Saint-Pierre apparaît, parfaitement encadrée. À deux pas, le jardin des Orangers offre un balcon sur les toits de Rome.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Galen Crout",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKnights_of_Malta_Keyhole%2C_Aventine_Hill%2C_Rome_%28cropped%29.jpg",
+        "src": "img/activites/ROM/aventin.jpg"
+      }
+    },
+    {
+      "id": "catacombes",
+      "nom": "Catacombes de Saint-Calixte",
+      "emoji": "🕯️",
+      "type": "culture",
+      "quartier": "Voie Appienne",
+      "lat": 41.8587,
+      "lng": 12.5106,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte (visite guidée en français)",
+          10
+        ],
+        [
+          "Enfants",
+          "≈ 7 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            15,
+            7
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille ou quelques jours avant en ligne",
+      "duree": "1 h (40 min sous terre)",
+      "moment": "Le matin, à combiner avec la voie Appienne. Fermé le mercredi",
+      "enfants": true,
+      "texte": "Vingt kilomètres de galeries creusées par les premiers chrétiens, sur plusieurs étages sous la campagne romaine. Un guide vous fait descendre jusqu'à la crypte des papes du IIIe siècle : émouvant et saisissant.",
+      "site_officiel": "https://www.catacombe.roma.it/",
+      "note": "Visite seulement guidée ; photos interdites sous terre.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "User GerardM on nl.wikipedia",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACatacombe.jpg",
+        "src": "img/activites/ROM/catacombes.jpg"
+      }
+    },
+    {
+      "id": "via-appia",
+      "nom": "Voie Appienne antique à vélo",
+      "emoji": "🚲",
+      "type": "nature",
+      "quartier": "Voie Appienne",
+      "lat": 41.849927,
+      "lng": 12.522935,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ],
+        [
+          "Location de vélo",
+          "≈ 15 à 25 € la journée"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "3 h",
+      "moment": "Le dimanche, quand la route est fermée aux voitures",
+      "enfants": true,
+      "texte": "La « reine des routes », pavée il y a 2 300 ans, file entre les pins parasols, les tombeaux antiques et les aqueducs. À vélo, vous quittez la ville en dix minutes pour une campagne romaine hors du temps, idéale pour une demi-journée au calme.",
+      "site_officiel": "https://www.parcoappiaantica.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Kleuske at Dutch Wikipedia",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVia_appia.jpg",
+        "src": "img/activites/ROM/via-appia.jpg"
+      }
+    },
+    {
+      "id": "caracalla",
+      "nom": "Thermes de Caracalla",
+      "emoji": "🛁",
+      "type": "culture",
+      "quartier": "Aventin",
+      "lat": 41.879038,
+      "lng": 12.492439,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Adulte",
+          8
+        ],
+        [
+          "18 à 25 ans (UE)",
+          2
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "L'après-midi ; l'été, l'opéra de Rome y joue en plein air",
+      "enfants": true,
+      "texte": "Des murs de briques hauts de 30 m, des mosaïques encore au sol : ces bains géants accueillaient 1 600 Romains à la fois. On mesure ici, mieux qu'ailleurs, la démesure de l'Empire, souvent sans la foule du Colisée.",
+      "site_officiel": "https://www.museiitaliani.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Ethan Doyle White",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABaths_of_Caracalla%2C_facing_Caldarium.jpg",
+        "src": "img/activites/ROM/caracalla.jpg"
+      }
+    },
+    {
+      "id": "vittoriano",
+      "nom": "Vittoriano et sa terrasse panoramique",
+      "emoji": "🦅",
+      "type": "vue",
+      "quartier": "Place de Venise",
+      "lat": 41.894598,
+      "lng": 12.483127,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Monument (escaliers et terrasses basses)",
+          "gratuit"
+        ],
+        [
+          "Ascenseur panoramique « Roma dal cielo »",
+          "≈ 12 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "En fin d'après-midi",
+      "enfants": true,
+      "texte": "L'immense monument de marbre blanc de la place de Venise, que les Romains surnomment « la machine à écrire ». Un ascenseur de verre vous hisse sur son toit : la vue à 360° balaie le Forum, le Colisée et toutes les coupoles de Rome.",
+      "site_officiel": "https://vive.cultura.gov.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Paolo Costa Baldi",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APiazza_Venezia_-_Il_Vittoriano_%28cropped%29.jpg",
+        "src": "img/activites/ROM/vittoriano.jpg"
+      }
+    },
+    {
+      "id": "saint-clement",
+      "nom": "Basilique Saint-Clément",
+      "emoji": "🕳️",
+      "type": "culture",
+      "quartier": "Colisée",
+      "lat": 41.889335,
+      "lng": 12.497576,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Fouilles souterraines",
+          10
+        ],
+        [
+          "Église",
+          "gratuit"
+        ],
+        [
+          "Moins de 16 ans avec leurs parents",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            15,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "L'après-midi, à 5 minutes du Colisée",
+      "enfants": true,
+      "texte": "Une église du XIIe siècle bâtie sur une église du IVe siècle, elle-même posée sur un temple païen du dieu Mithra. On descend les époques une à une, jusqu'à entendre couler une rivière souterraine : le voyage dans le temps le plus fascinant de Rome.",
+      "site_officiel": "https://www.basilicasanclemente.com/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Allie Caulfield",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMithreum_San_Clemente.jpg",
+        "src": "img/activites/ROM/saint-clement.jpg"
+      }
+    },
+    {
+      "id": "saint-louis",
+      "nom": "Saint-Louis-des-Français et ses Caravage",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 41.89965,
+      "lng": 12.47456,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée libre",
+          "gratuit"
+        ],
+        [
+          "Éclairage des tableaux",
+          "pièce de 1 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Le matin ou en fin d'après-midi (fermé à l'heure du déjeuner)",
+      "enfants": true,
+      "texte": "L'église des Français de Rome cache trois chefs-d'œuvre du Caravage consacrés à saint Matthieu, dont la célèbre Vocation, avec son rayon de lumière. Gratuit, entre le Panthéon et la place Navone.",
+      "site_officiel": "https://www.saintlouisdesfrancais.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Phyrexian",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoma_-_San_Luigi_dei_Francesi_8276.jpg",
+        "src": "img/activites/ROM/saint-louis.jpg"
+      }
+    },
+    {
+      "id": "gianicolo",
+      "nom": "Belvédère du Janicule",
+      "emoji": "🌇",
+      "type": "vue",
+      "quartier": "Trastevere",
+      "lat": 41.891725,
+      "lng": 12.461133,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "À midi pile (coup de canon) ou au coucher du soleil",
+      "enfants": true,
+      "texte": "La colline au-dessus du Trastevere offre le panorama le plus complet de Rome, des monts Albains au Vittoriano. Chaque jour à midi, un canon tire un coup à blanc, comme depuis 1847. Montez à pied depuis le Trastevere par les escaliers fleuris.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Krzysztof Golik",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACastel_Sant%27Angelo_%26_St_John_of_the_Florentins_basilica_from_Gianicolo_Hill_%281%29.jpg",
+        "src": "img/activites/ROM/gianicolo.jpg"
+      }
+    },
+    {
+      "id": "latran",
+      "nom": "Saint-Jean-de-Latran et la Scala Santa",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Saint-Jean",
+      "lat": 41.885881,
+      "lng": 12.505673,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Basilique",
+          "gratuit"
+        ],
+        [
+          "Cloître",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Le matin",
+      "enfants": true,
+      "texte": "La cathédrale de Rome, « mère de toutes les églises », plus ancienne que Saint-Pierre, avec ses apôtres géants et son cloître de mosaïques. En face, la Scala Santa : 28 marches que les pèlerins montent à genoux depuis des siècles.",
+      "site_officiel": "https://www.vatican.va/various/basiliche/san_giovanni/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Wilfredor",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AArchbasilica_of_Saint_John_Lateran%2C_Rome.jpg",
+        "src": "img/activites/ROM/latran.jpg"
+      }
+    },
+    {
+      "id": "ostia",
+      "nom": "Ostie antique (excursion)",
+      "emoji": "🏺",
+      "type": "culture",
+      "quartier": "Ostie",
+      "lat": 41.756418,
+      "lng": 12.293217,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Adulte (valable 8 jours)",
+          18
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ],
+        [
+          "Train depuis Rome (Piramide)",
+          "≈ 1,50 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "Demi-journée",
+      "moment": "Le matin, avec un pique-nique. Fermé le lundi",
+      "enfants": true,
+      "texte": "Le port de la Rome antique, à 30 minutes de train : une ville entière à parcourir librement, avec ses rues, son théâtre, ses thermes à mosaïques et même ses « bars » antiques. Une Pompéi sans la foule, aux portes de Rome.",
+      "site_officiel": "https://www.ostiaantica.beniculturali.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Rabax63",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATheater_%28Ostia_Antica%29.jpg",
+        "src": "img/activites/ROM/ostia.jpg"
+      }
+    },
+    {
+      "id": "tivoli",
+      "nom": "Villa d'Este à Tivoli (excursion)",
+      "emoji": "⛲",
+      "type": "nature",
+      "quartier": "Tivoli",
+      "lat": 41.963,
+      "lng": 12.7961,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Villa d'Este",
+          "≈ 15 €"
+        ],
+        [
+          "Billet avec la Villa d'Hadrien",
+          "≈ 25 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant en ligne",
+      "duree": "Journée (1 h de train ou de bus)",
+      "moment": "Au printemps et en été, quand toutes les fontaines jouent",
+      "enfants": true,
+      "texte": "Des jardins Renaissance en terrasses où jaillissent des centaines de fontaines, d'allées d'eau en orgue hydraulique qui joue encore de la musique. À combiner avec la Villa d'Hadrien, la résidence de campagne de l'empereur.",
+      "site_officiel": "https://www.villae.cultura.gov.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Burkhard Mücke",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGarten_und_Villa_D%C2%B4Este_39.jpg",
+        "src": "img/activites/ROM/tivoli.jpg"
+      }
+    },
+    {
+      "id": "as-roma",
+      "nom": "Match de l'AS Roma au Stadio Olimpico",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Foro Italico",
+      "lat": 41.93394,
+      "lng": 12.45477,
+      "prix": 45,
+      "prix_detail": [
+        [
+          "Billet de Serie A",
+          "≈ 30 à 100 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 45,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "dès la mise en vente, surtout pour le derby contre la Lazio",
+      "duree": "3 h",
+      "moment": "Les soirs de match ; « Roma Roma Roma » chanté par tout le stade avant le coup d'envoi",
+      "enfants": true,
+      "club": "AS Roma",
+      "texte": "70 000 supporters, la Curva Sud en jaune et rouge et l'hymne chanté à pleins poumons : un match de la Roma, c'est l'âme passionnée de la ville. Le stade Olimpico est aussi celui de la Lazio, le grand rival.",
+      "site_officiel": "https://www.asroma.com/",
+      "note": "Les billets sont nominatifs (passeport ou carte d'identité demandés à l'achat et à l'entrée) : achetez sur le site officiel du club, méfiez-vous des revendeurs.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Wikipal",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACoppa_Italia_10-11.jpg",
+        "src": "img/activites/ROM/as-roma.jpg"
+      }
+    },
+    {
+      "id": "coppede",
+      "nom": "Quartier Coppedè",
+      "emoji": "🏯",
+      "type": "balade",
+      "quartier": "Trieste",
+      "lat": 41.91808,
+      "lng": 12.50051,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Le matin, avec la lumière sur les façades",
+      "enfants": true,
+      "texte": "Un décor de conte de fées caché dans un quartier résidentiel : lustre géant suspendu sous une arche, palais mêlant gothique, Art nouveau et Babylone, fontaine des Grenouilles. Peu de touristes le connaissent, mais tous les photographes l'adorent.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Livioandronico2013",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AYellow_Palace_in_Quartiere_Copped%C3%A8.jpg",
+        "src": "img/activites/ROM/coppede.jpg"
+      }
+    },
+    {
+      "id": "sciarra",
+      "nom": "Galerie Sciarra",
+      "emoji": "🌺",
+      "type": "culture",
+      "quartier": "Trevi",
+      "lat": 41.89994,
+      "lng": 12.482055,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre (cour d'immeuble)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "15 min",
+      "moment": "En semaine aux heures de bureau (portail fermé le soir et le week-end)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "À deux minutes de la fontaine de Trevi, une cour couverte d'une verrière dont les murs sont entièrement peints de fresques Art nouveau : femmes élégantes, fleurs et dorures. Un trésor gratuit que la plupart des passants ne remarquent pas.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "note": "C'est une cour privée : restez discret.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Labicanense",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGalleria_Sciarra.jpg",
+        "src": "img/activites/ROM/sciarra.jpg"
+      }
+    },
+    {
+      "id": "bocca",
+      "nom": "Bouche de la Vérité",
+      "emoji": "🗣️",
+      "type": "culture",
+      "quartier": "Forum Boarium",
+      "lat": 41.888238,
+      "lng": 12.481444,
+      "prix": 2,
+      "prix_detail": [
+        [
+          "Adulte",
+          "≈ 2 €"
+        ],
+        [
+          "Moins de 10 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": [
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "30 min",
+      "moment": "Tôt le matin, pour éviter la file",
+      "enfants": true,
+      "texte": "Glissez la main dans la bouche de ce masque de marbre : la légende dit qu'il mord les menteurs, comme dans « Vacances romaines » avec Audrey Hepburn. Juste à côté, deux temples romains parfaitement conservés et le Cirque Maxime.",
+      "site_officiel": "https://www.turismoroma.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Jorge Franganillo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoma-_Bocca_della_Verit%C3%A0_-_52347330118.jpg",
+        "src": "img/activites/ROM/bocca.jpg"
+      }
+    },
+    {
+      "id": "capucins",
+      "nom": "Crypte des Capucins",
+      "emoji": "💀",
+      "type": "culture",
+      "quartier": "Via Veneto",
+      "lat": 41.9042,
+      "lng": 12.48861,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte (musée et crypte)",
+          "≈ 10 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            17,
+            5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "Tous les jours, en évitant 13 h 30-14 h 30 (fermé)",
+      "enfants": false,
+      "texte": "Six petites chapelles décorées avec les os de 3 700 moines capucins, en rosaces, lustres et arabesques. Macabre et pourtant étrangement beau, avec ce message : « Ce que vous êtes, nous l'étions ; ce que nous sommes, vous le serez. »",
+      "site_officiel": "https://museoecriptacappuccini.it/",
+      "note": "Tenue correcte ; photos interdites. Peut impressionner les enfants.",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Anil Öztas",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARom_%28IT%29%2C_Kapuzinergruft_--_2024_--_0657.jpg",
+        "src": "img/activites/ROM/capucins.jpg"
+      }
+    },
+    {
+      "id": "bioparco",
+      "nom": "Bioparco, le zoo de Rome",
+      "emoji": "🦒",
+      "type": "nature",
+      "quartier": "Villa Borghèse",
+      "lat": 41.917278,
+      "lng": 12.48775,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Adulte (date fixe, en ligne)",
+          "≈ 18 €"
+        ],
+        [
+          "Enfant de plus d'un mètre",
+          "≈ 14 €"
+        ],
+        [
+          "Moins d'un mètre",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            11,
+            14
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "moins cher en ligne",
+      "duree": "3 h",
+      "moment": "Le matin, quand les animaux sont actifs",
+      "enfants": true,
+      "texte": "Dans la Villa Borghèse, plus de 1 000 animaux de 200 espèces, des girafes aux lémuriens : la pause idéale pour les enfants entre deux musées, sous les grands pins du parc.",
+      "site_officiel": "https://www.bioparco.it/",
+      "a_verifier": true,
+      "photo": {
+        "auteur": "Albarubescens",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFenicotteri_al_Bioparco_di_Roma.jpg",
+        "src": "img/activites/ROM/bioparco.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "centro",
+      "nom": "Navone et Panthéon (centre historique)",
+      "lat": 41.8986,
+      "lng": 12.4745,
+      "texte": "Le cœur de Rome, tout à pied : Panthéon, place Navone, Campo de' Fiori, fontaine de Trevi. Le choix idéal pour un premier séjour, mais aussi le plus cher et parfois bruyant le soir."
+    },
+    {
+      "id": "trastevere",
+      "nom": "Trastevere",
+      "lat": 41.8885,
+      "lng": 12.4705,
+      "texte": "Ruelles pavées, trattorias et vie nocturne de l'autre côté du Tibre, à 15 min à pied du centre. Charmant et animé, mais le métro n'y passe pas (tram 8)."
+    },
+    {
+      "id": "monti",
+      "nom": "Monti et le Colisée",
+      "lat": 41.8955,
+      "lng": 12.4925,
+      "texte": "Le village bohème de Rome, entre le Colisée et la gare Termini : boutiques vintage, bars à vin, métro Cavour. Idéal pour visiter la Rome antique à pied."
+    },
+    {
+      "id": "prati",
+      "nom": "Prati et le Vatican",
+      "lat": 41.9065,
+      "lng": 12.4615,
+      "texte": "Quartier élégant et calme aux larges avenues, à côté du Vatican et du château Saint-Ange, avec le métro Ottaviano. Des hôtels souvent moins chers qu'au centre, à 20 min à pied de la place Navone."
+    },
+    {
+      "id": "termini",
+      "nom": "Termini et l'Esquilin",
+      "lat": 41.8995,
+      "lng": 12.5005,
+      "texte": "Autour de la gare : le train direct pour l'aéroport de Fiumicino (32 min), les deux lignes de métro et les hôtels les moins chers. Pratique, mais moins charmant, et à éviter seul tard le soir côté gare."
+    }
+  ],
+  "hotel_petit_prix_max": 110,
+  "restaurants": [
+    {
+      "id": "suppli",
+      "nom": "Supplì Roma",
+      "emoji": "🍙",
+      "gamme": "petit",
+      "genre": "Supplì, la croquette romaine",
+      "quartier": "Trastevere",
+      "adresse": "Via di San Francesco a Ripa 137, 00153 Roma",
+      "lat": 41.887147,
+      "lng": 12.471746,
+      "prix": "3 à 10 €",
+      "prix_min": 3,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Depuis 1979, la petite boutique du Trastevere frit les meilleurs supplì de Rome : une boule de riz à la sauce tomate, panée, au cœur de mozzarella filante. On en mange un debout dans la rue, avec une part de pizza au comptoir.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on commande au comptoir",
+      "photo": {
+        "auteur": "FrederikBianko",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVari_Suppl%C3%AC.JPG",
+        "src": "img/restos/ROM/suppli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "trapizzino",
+      "nom": "Trapizzino",
+      "emoji": "🥪",
+      "gamme": "petit",
+      "genre": "Street food romaine",
+      "quartier": "Testaccio",
+      "adresse": "Via Giovanni Branca 88, 00153 Roma",
+      "lat": 41.87961,
+      "lng": 12.473635,
+      "prix": "5 à 15 €",
+      "prix_min": 5,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le berceau du trapizzino, inventé ici en 2008 : un triangle de pizza blanche croustillant, garni des grands plats mijotés de Rome (poulet à la cacciatora, boulettes à la sauce, tripes). Toute la cuisine romaine dans une main.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Diego Zitelli",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATrapizzino_-_Pollo_alla_Cacciatora.jpg",
+        "src": "img/restos/ROM/trapizzino.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "remo",
+      "nom": "Pizzeria Remo a Testaccio",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pizza romaine fine et croustillante",
+      "quartier": "Testaccio",
+      "adresse": "Piazza di Santa Maria Liberatrice 44, 00153 Roma",
+      "lat": 41.880905,
+      "lng": 12.475464,
+      "prix": "10 à 20 €",
+      "prix_min": 10,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La pizzeria de quartier comme on n'en fait plus : salle bruyante, fours à bois, et la pizza romaine ultra fine et croustillante, à commander en cochant une petite fiche. Commencez par les fritti, fleurs de courgette et supplì.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : arrivez à l'ouverture (19 h) ou attendez 20-30 min ; fermé le dimanche",
+      "photo": {
+        "auteur": "Peachyeung316",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APizza_Margherita_at_Pizza_hut.jpg",
+        "src": "img/restos/ROM/remo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "regoli",
+      "nom": "Pasticceria Regoli",
+      "emoji": "🥐",
+      "gamme": "petit",
+      "genre": "Pâtisserie, le maritozzo",
+      "quartier": "Esquilin",
+      "adresse": "Via dello Statuto 60, 00185 Roma",
+      "lat": 41.894817,
+      "lng": 12.500949,
+      "prix": "3 à 8 €",
+      "prix_min": 3,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Depuis 1916, la référence romaine du maritozzo : une brioche fendue et débordante de crème fouettée, le petit-déjeuner des Romains. Avec un cappuccino au comptoir du café d'à côté, c'est le début de journée parfait.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; venez le matin, les maritozzi partent vite (fermé le mardi)",
+      "photo": {
+        "auteur": "Giacomo Alessandroni",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMaritozzo_con_panna.jpg",
+        "src": "img/restos/ROM/regoli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "giolitti",
+      "nom": "Giolitti",
+      "emoji": "🍨",
+      "gamme": "petit",
+      "genre": "Glacier historique",
+      "quartier": "Panthéon",
+      "adresse": "Via degli Uffici del Vicario 40, 00186 Roma",
+      "lat": 41.901025,
+      "lng": 12.477203,
+      "prix": "3 à 8 €",
+      "prix_min": 3,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Le glacier le plus célèbre de Rome, servi par des serveurs en veste blanche depuis 1900, à deux pas du Panthéon. Plus de 50 parfums, à couronner de panna, la crème fouettée maison, comme le faisaient Audrey Hepburn et Gregory Peck.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on paie à la caisse, puis on commande au comptoir",
+      "photo": {
+        "auteur": "Sv32000",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGiolitti_in_Rome.jpg",
+        "src": "img/restos/ROM/giolitti.jpg"
+      }
+    },
+    {
+      "id": "forno-roscioli",
+      "nom": "Antico Forno Roscioli",
+      "emoji": "🥖",
+      "gamme": "petit",
+      "genre": "Boulangerie, pizza à la coupe",
+      "quartier": "Campo de' Fiori",
+      "adresse": "Via dei Chiavari 34, 00186 Roma",
+      "lat": 41.894567,
+      "lng": 12.474278,
+      "prix": "3 à 10 €",
+      "prix_min": 3,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La boulangerie où les Romains font la queue pour la pizza bianca encore chaude, simplement huilée et salée, ou la pizza rossa à la tomate, vendue au poids. Le casse-croûte idéal entre le Campo de' Fiori et le ghetto.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; fermé le dimanche",
+      "photo": {
+        "auteur": "Shoebill2",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File%3APizza_al_taglio.jpg",
+        "src": "img/restos/ROM/forno-roscioli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "roscioli",
+      "nom": "Roscioli Salumeria con Cucina",
+      "emoji": "🧀",
+      "gamme": "moyen",
+      "genre": "Épicerie fine et carbonara culte",
+      "quartier": "Campo de' Fiori",
+      "adresse": "Via dei Giubbonari 21, 00186 Roma",
+      "lat": 41.894256,
+      "lng": 12.474242,
+      "prix": "40 à 60 €",
+      "prix_min": 40,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une épicerie fine aux murs couverts de jambons, de fromages et de vins, où l'on dîne entre les vitrines. Sa carbonara, au guanciale croustillant et au poivre, est souvent citée comme la meilleure de Rome. Une adresse que tous les gourmands du monde connaissent.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant en ligne",
+      "photo": {
+        "auteur": "Triplec85",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_Carbonara_von_Unico_Tauberbischofsheim_2.jpg",
+        "src": "img/restos/ROM/roscioli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "enzo",
+      "nom": "Da Enzo al 29",
+      "emoji": "🍝",
+      "gamme": "moyen",
+      "genre": "Trattoria familiale du Trastevere",
+      "quartier": "Trastevere",
+      "adresse": "Via dei Vascellari 29, 00153 Roma",
+      "lat": 41.888085,
+      "lng": 12.477855,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une petite trattoria de famille aux nappes à carreaux et aux tables sur la ruelle, devenue la plus célèbre du Trastevere. Artichauts à la juive, carbonara, amatriciana et tiramisu : la cuisine romaine dans ce qu'elle a de plus simple et de plus réconfortant.",
+      "reservation": "conseille",
+      "reservation_delai": "réservation en ligne pour une partie des tables seulement ; sinon file d'attente avant l'ouverture (fermé le dimanche)",
+      "photo": {
+        "auteur": "Daniel Ventura",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACarciofi_alla_giudeca.jpg",
+        "src": "img/restos/ROM/enzo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "felice",
+      "nom": "Felice a Testaccio",
+      "emoji": "🧀",
+      "gamme": "moyen",
+      "genre": "Cacio e pepe servie à table",
+      "quartier": "Testaccio",
+      "adresse": "Via Mastro Giorgio 29, 00153 Roma",
+      "lat": 41.878554,
+      "lng": 12.477454,
+      "prix": "35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "institution"
+      ],
+      "texte": "L'institution de Testaccio depuis 1936 : le serveur mélange devant vous les tonnarelli cacio e pepe, pecorino et poivre noir, jusqu'à obtenir une crème parfaite. Suivez avec l'agneau rôti aux pommes de terre, comme les Romains le dimanche.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "Camelia.boban",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATonnarelli_cacio_e_pepe.jpg",
+        "src": "img/restos/ROM/felice.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "armando",
+      "nom": "Armando al Pantheon",
+      "emoji": "🍷",
+      "gamme": "moyen",
+      "genre": "Trattoria historique",
+      "quartier": "Panthéon",
+      "adresse": "Salita de' Crescenzi 31, 00186 Roma",
+      "lat": 41.899093,
+      "lng": 12.476243,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "institution"
+      ],
+      "texte": "À 50 mètres du Panthéon, la même famille sert depuis 1961 une cuisine romaine d'une justesse rare : pâtes all'amatriciana, abats, artichauts, et une belle cave. Une adresse authentique là où tout le reste vise les touristes.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant ; fermé le dimanche",
+      "photo": {
+        "auteur": "Blackcat",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABucatini_amatriciana_Roma_2019.jpg",
+        "src": "img/restos/ROM/armando.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "colline",
+      "nom": "Colline Emiliane",
+      "emoji": "🥟",
+      "gamme": "moyen",
+      "genre": "Pâtes fraîches d'Émilie",
+      "quartier": "Trevi",
+      "adresse": "Via degli Avignonesi 22, 00187 Roma",
+      "lat": 41.902952,
+      "lng": 12.487371,
+      "prix": "35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Depuis 1931, une salle intime près de la place Barberini où l'on abaisse chaque matin la pâte à la main : tortellini en bouillon, tagliatelles au ragù, jambon de Parme. La gourmandise de l'Émilie, à cinq minutes de la fontaine de Trevi.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant ; petite salle",
+      "photo": {
+        "auteur": "Nick.mon",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATortellini_in_brodo_Bologna.jpg",
+        "src": "img/restos/ROM/colline.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "pianostrada",
+      "nom": "Pianostrada",
+      "emoji": "🥬",
+      "gamme": "moyen",
+      "genre": "Cuisine de marché moderne",
+      "quartier": "Trastevere",
+      "adresse": "Via della Luce 65, 00153 Roma",
+      "lat": 41.888789,
+      "lng": 12.475272,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [],
+      "texte": "Un grand comptoir ouvert sur les fourneaux : légumes de saison, pâtes inventives et focaccias géantes garnies, dans une salle lumineuse prolongée d'un jardin. La Rome d'aujourd'hui, fraîche et colorée.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "photo": {
+        "auteur": "Alessio Sbarbaro User_talk:Yoggysot",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFocacette_Crevari_01.jpg",
+        "src": "img/restos/ROM/pianostrada.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "pergola",
+      "nom": "La Pergola",
+      "emoji": "✨",
+      "gamme": "haut",
+      "genre": "Grande cuisine panoramique",
+      "quartier": "Monte Mario",
+      "adresse": "Via Alberto Cadlolo 101, 00136 Roma (hôtel Rome Cavalieri)",
+      "lat": 41.918999,
+      "lng": 12.446661,
+      "prix": "≈ 300 € (menu)",
+      "prix_min": 300,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "3 étoiles Michelin (la seule de Rome)",
+      "texte": "Au sommet de la colline de Monte Mario, Heinz Beck signe la seule table trois étoiles de Rome, avec toute la ville illuminée derrière les baies vitrées. Ses fagottelli carbonara sont entrés dans l'histoire de la gastronomie italienne.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 mois avant ; dîner seulement, fermé dimanche et lundi",
+      "photo": {
+        "auteur": "Livioandronico2013",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APanorama_of_Rome_at_night.jpg",
+        "src": "img/restos/ROM/pergola.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "acquolina",
+      "nom": "Acquolina",
+      "emoji": "🐟",
+      "gamme": "haut",
+      "genre": "Grande cuisine de la mer",
+      "quartier": "Place du Peuple",
+      "adresse": "Via del Vantaggio 14, 00186 Roma (The First Roma Arte)",
+      "lat": 41.908768,
+      "lng": 12.475572,
+      "prix": "≈ 200 € (menu)",
+      "prix_min": 200,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "Entre la place du Peuple et la place d'Espagne, le chef Daniele Lippi fait de la mer Tyrrhénienne le cœur de chaque assiette : crus, poissons du jour, pâtes aux fruits de mer d'une grande finesse. Et un apéritif sur le toit-terrasse de l'hôtel.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant",
+      "photo": {
+        "auteur": "Carlillasa",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACeviche_en_Desaguadero%2C_lado_peruano.jpg",
+        "src": "img/restos/ROM/acquolina.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "imago",
+      "nom": "Imàgo",
+      "emoji": "🌆",
+      "gamme": "haut",
+      "genre": "Gastronomie avec vue",
+      "quartier": "Place d'Espagne",
+      "adresse": "Piazza della Trinità dei Monti 6, 00187 Roma (hôtel Hassler)",
+      "lat": 41.905973,
+      "lng": 12.484033,
+      "prix": "≈ 200 € (menu)",
+      "prix_min": 200,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Au sixième étage de l'hôtel Hassler, au sommet de l'escalier de la Trinité-des-Monts, une salle entièrement vitrée face aux dômes de Rome. Le chef Andrea Antonini y revisite les classiques italiens : le dîner romantique par excellence.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant, demandez une table côté vitres ; dîner seulement",
+      "photo": {
+        "auteur": "TeddyRome",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHassler_Roma_credit_Nico_Marziali.jpg",
+        "src": "img/restos/ROM/imago.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "glass",
+      "nom": "Glass Hostaria",
+      "emoji": "🍽️",
+      "gamme": "haut",
+      "genre": "Cuisine d'auteure contemporaine",
+      "quartier": "Trastevere",
+      "adresse": "Vicolo del Cinque 58, 00153 Roma",
+      "lat": 41.890517,
+      "lng": 12.469161,
+      "prix": "≈ 130 à 160 € (menu)",
+      "prix_min": 130,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Derrière une façade discrète du Trastevere, un décor de verre et d'acier et la cuisine audacieuse de Cristina Bowerman, l'une des cheffes les plus connues d'Italie : saveurs du monde entier, mais racines bien romaines.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant ; dîner seulement, fermé le lundi",
+      "photo": {
+        "auteur": "Gobbler",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoma_Trastevere_Vicolo_del_Cinque.jpg",
+        "src": "img/restos/ROM/glass.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "antico-arco",
+      "nom": "Antico Arco",
+      "emoji": "🍷",
+      "gamme": "haut",
+      "genre": "Cuisine italienne raffinée",
+      "quartier": "Janicule",
+      "adresse": "Piazzale Aurelio 7, 00152 Roma",
+      "lat": 41.888283,
+      "lng": 12.461179,
+      "prix": "60 à 90 €",
+      "prix_min": 60,
+      "badges": [],
+      "texte": "En haut du Janicule, à deux pas du belvédère, une salle élégante qui revisite depuis plus de 20 ans les classiques italiens : carbonara, risotto, viandes et une cave remarquable. Parfait après le coucher de soleil sur Rome.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours à une semaine avant",
+      "photo": {
+        "auteur": "Andy Li",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg",
+        "src": "img/restos/ROM/antico-arco.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "checchino",
+      "nom": "Checchino dal 1887",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Cuisine romaine du « cinquième quartier »",
+      "quartier": "Testaccio",
+      "adresse": "Via di Monte Testaccio 30, 00153 Roma",
+      "lat": 41.876403,
+      "lng": 12.474067,
+      "prix": "50 à 80 €",
+      "prix_min": 50,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Face aux anciens abattoirs de Testaccio, la même famille cuisine depuis 1887 le « quinto quarto », les morceaux que l'on donnait aux ouvriers : queue de bœuf à la vaccinara, rigatoni à la pajata. C'est ici qu'est née une partie de la cuisine romaine, avec une cave creusée dans la colline.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant ; fermé lundi et mardi",
+      "photo": {
+        "auteur": "Popo le Chien",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARigatoni.jpg",
+        "src": "img/restos/ROM/checchino.jpg",
+        "illustration": true
+      }
+    }
+  ]
+}
