@@ -1,0 +1,112 @@
+{
+"prado": {
+"id": "prado",
+"photo": {
+"auteur": "Jean-Pierre Dalbéra",
+"licence": "CC BY 2.0",
+"page": "https://commons.wikimedia.org/wiki/File%3AMuseo_del_Prado_%28Madrid%29_19.jpg",
+"src": "img/activites/MAD/prado.jpg"
+},
+"name": "Museo_del_Prado_(Madrid)_19.jpg"
+},
+"palacio-real": {
+"id": "palacio-real",
+"photo": {
+"auteur": "Heshan",
+"licence": "CC BY-SA 3.0 es",
+"page": "https://commons.wikimedia.org/wiki/File%3APalacio_Real_de_Madrid_Fachada_con_Patio_Real.JPG",
+"src": "img/activites/MAD/palacio-real.jpg"
+},
+"name": "Palacio_Real_de_Madrid_Fachada_con_Patio_Real.JPG"
+},
+"almudena": {
+"id": "almudena",
+"photo": {
+"auteur": ".mw-parser-output .commons-creator-table{background-color:#f0f0ff;box-sizing:bor",
+"licence": "CC BY-SA 4.0",
+"page": "https://commons.wikimedia.org/wiki/File%3ACatedral_de_la_Almudena%2C_Madrid%2C_Espa%C3%B1a%2C_2023-01-03%2C_DD_30.jpg",
+"src": "img/activites/MAD/almudena.jpg"
+},
+"name": "Catedral_de_la_Almudena,_Madrid,_España,_2023-01-03,_DD_30.jpg"
+},
+"goya": {
+"id": "goya",
+"photo": {
+"auteur": "FouPic",
+"licence": "CC BY 2.0",
+"page": "https://commons.wikimedia.org/wiki/File%3AFrescos_de_Goya_en_San_Antonio_de_la_Florida.jpg",
+"src": "img/activites/MAD/goya.jpg"
+},
+"name": "Frescos_de_Goya_en_San_Antonio_de_la_Florida.jpg"
+},
+"caixaforum": {
+"id": "caixaforum",
+"photo": {
+"auteur": "Zarateman",
+"licence": "CC0",
+"page": "https://commons.wikimedia.org/wiki/File%3AMadrid_-_CaixaForum%2C_jard%C3%ADn_vertical_1.jpg",
+"src": "img/activites/MAD/caixaforum.jpg"
+},
+"name": "Madrid_-_CaixaForum,_jardín_vertical_1.jpg"
+},
+"riu-360": {
+"id": "riu-360",
+"photo": {
+"auteur": "Zarateman",
+"licence": "CC BY-SA 3.0",
+"page": "https://commons.wikimedia.org/wiki/File%3AMadrid_-_Plaza_de_Espa%C3%B1a%2C_Edificio_Espa%C3%B1a_y_Torre_de_Madrid.jpg",
+"src": "img/activites/MAD/riu-360.jpg"
+},
+"name": "Madrid_-_Plaza_de_España,_Edificio_España_y_Torre_de_Madrid.jpg"
+},
+"debod": {
+"id": "debod",
+"photo": {
+"auteur": "Emilio García from Parla, Spain",
+"licence": "CC BY-SA 2.0",
+"page": "https://commons.wikimedia.org/wiki/File%3AAtardecer_en_el_Templo_de_Debod_%28I%29_%284037042183%29.jpg",
+"src": "img/activites/MAD/debod.jpg"
+},
+"name": "Atardecer_en_el_Templo_de_Debod_(I)_(4037042183).jpg"
+},
+"faro": {
+"id": "faro",
+"photo": {
+"auteur": "Denis Redfern",
+"licence": "CC BY-SA 4.0",
+"page": "https://commons.wikimedia.org/wiki/File%3AFaro_de_Moncloa_Madrid.jpg",
+"src": "img/activites/MAD/faro.jpg"
+},
+"name": "Faro_de_Moncloa_Madrid.jpg"
+},
+"cibeles": {
+"id": "cibeles",
+"photo": {
+"auteur": "Carlos Delgado",
+"licence": "CC BY-SA 3.0",
+"page": "https://commons.wikimedia.org/wiki/File%3APalacio_de_Comunicaciones_-_47.jpg",
+"src": "img/activites/MAD/cibeles.jpg"
+},
+"name": "Palacio_de_Comunicaciones_-_47.jpg"
+},
+"retiro": {
+"id": "retiro",
+"photo": {
+"auteur": "Carlos Delgado",
+"licence": "CC BY-SA 3.0",
+"page": "https://commons.wikimedia.org/wiki/File%3APalacio_de_Cristal_-_02.jpg",
+"src": "img/activites/MAD/retiro.jpg"
+},
+"name": "Palacio_de_Cristal_-_02.jpg"
+},
+"circulo": {
+"id": "circulo",
+"photo": {
+"auteur": "siestecita",
+"licence": "CC BY-SA 4.0",
+"page": "https://commons.wikimedia.org/wiki/File%3AVista_desde_la_azotea_del_C%C3%ADrculo_de_Bellas_Artes%2C_Madrid_%28Espa%C3%B1a%29.jpg",
+"src": "img/activites/MAD/circulo.jpg"
+},
+"name": "Vista_desde_la_azotea_del_Círculo_de_Bellas_Artes,_Madrid_(España).jpg"
+}
+}
