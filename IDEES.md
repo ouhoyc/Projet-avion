@@ -295,8 +295,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   5 quartiers. 9 liens Tiqets au prix officiel (Van Gogh, Stedelijk, Moco, Rembrandt, église cachée, musée maritime, NEMO,
   Heineken, croisière) ; pas de lien pour le Rijksmuseum (Tiqets = visite guidée plus chère) ni le palais royal.
   Saisonnier : Keukenhof (mi-mars à mi-mai). Musée Van Gogh : travaux prévus seulement à l'automne 2028.
-  Réseaux sociaux (Apify : Instagram, YouTube, Reddit ; TikTok non collecté, plafond atteint) : tendance confirmée pour
-  Fabel Friet, Van Dobben, De Kas, A'DAM Lookout, Moco, Jordaan. Écartés : CHUN (note 4,2), Sea Palace (4,2).
+  Réseaux sociaux (Apify : Instagram, YouTube, Reddit, puis TikTok relancé le 22/10 : 120 vidéos) : tendance pour
+  Fabel Friet, Van Dobben, De Kas, Moeders, A'DAM Lookout, Moco, Jordaan, NDSM. Écartés : CHUN (note 4,2), Sea Palace (4,2).
   Prix confirmés sur les sites officiels : Rijksmuseum (25 €), Anne Frank (16,50 €), Stedelijk (22,50 €), Rembrandt
   (23,50 €), église cachée (18 €), palais royal (13,50 €), musée maritime (20 €), NEMO (21,50 €), STRAAT (21,50 €),
   A'DAM Lookout (16,50 €), ARTIS (29,50 €), Hortus (14,75 €), Heineken (24,95 €), Keukenhof (21 €).
