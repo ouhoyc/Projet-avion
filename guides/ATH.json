@@ -1,0 +1,1607 @@
+{
+  "city_code": "ATH",
+  "statut": "préparé en autonomie, prix estimés au 22/10/2026",
+  "verifie_le": "2026-10-22",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "acropole",
+      "nom": "Acropole et Parthénon",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Acropole",
+      "prix": 30,
+      "prix_detail": [
+        [
+          "Billet Acropole (avec créneau horaire)",
+          30
+        ],
+        [
+          "Moins de 18 ans, et moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+          "gratuit"
+        ],
+        [
+          "Plus de 65 ans de l'UE, du 1er octobre au 31 mai",
+          "15 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 30,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "billet à heure fixe sur hhticket.gr, 2 à 7 jours avant (les créneaux de 8 h partent en premier l'été)",
+      "duree": "2 h",
+      "moment": "À l'ouverture (8 h) ou en fin d'après-midi ; jamais à midi en été (aucune ombre là-haut)",
+      "enfants": true,
+      "texte": "Le monument le plus célèbre du monde grec : le Parthénon, le temple d'Athéna Niké et les Caryatides de l'Érechthéion, posés depuis 2 500 ans sur un rocher qui domine toute la ville, jusqu'à la mer.",
+      "site_officiel": "https://hhticket.gr/",
+      "note": "Achetez sur le site officiel hhticket.gr : des sites au nom presque identique revendent le même billet bien plus cher. Chaussures qui accrochent conseillées : le marbre est glissant.",
+      "a_verifier": false,
+      "lat": 37.9715,
+      "lng": 23.72662,
+      "photo": {
+        "auteur": "acediscovery",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AParthenon_on_Acropolis_in_Athens.jpg",
+        "src": "img/activites/ATH/acropole.jpg"
+      }
+    },
+    {
+      "id": "musee-acropole",
+      "nom": "Musée de l'Acropole",
+      "emoji": "🏺",
+      "type": "culture",
+      "quartier": "Makrygianni",
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Adulte",
+          20
+        ],
+        [
+          "Tarif réduit (étudiants UE, plus de 65 ans…)",
+          "10 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            10
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne la veille, surtout l'été et le week-end",
+      "duree": "2 h",
+      "moment": "Le vendredi soir (ouvert jusqu'à 22 h), ou juste après l'Acropole",
+      "enfants": true,
+      "texte": "Un musée de verre au pied du rocher : on marche au-dessus des fouilles d'un quartier antique, on voit les vraies Caryatides, et la galerie du dernier étage reconstitue la frise du Parthénon face au monument lui-même.",
+      "site_officiel": "https://www.theacropolismuseum.gr/en",
+      "a_verifier": true,
+      "lat": 37.96853,
+      "lng": 23.72847,
+      "photo": {
+        "auteur": "Pinterpandai.com",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAcropolis_Museum_in_Athens_with_Acropolis_View.jpg",
+        "src": "img/activites/ATH/musee-acropole.jpg"
+      }
+    },
+    {
+      "id": "agora",
+      "nom": "Agora antique et temple d'Héphaïstos",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Thissio",
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Adulte",
+          20
+        ],
+        [
+          "Moins de 18 ans, et moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place ou sur hhticket.gr",
+      "duree": "1 h 30",
+      "moment": "Le matin, avant la chaleur",
+      "enfants": true,
+      "texte": "La place où Socrate débattait : au milieu des oliviers, le temple d'Héphaïstos est le temple grec le mieux conservé au monde, avec son toit presque intact. Moins de monde qu'à l'Acropole et une vue superbe sur elle.",
+      "site_officiel": "https://hhticket.gr/",
+      "a_verifier": true,
+      "lat": 37.9756,
+      "lng": 23.72141,
+      "photo": {
+        "auteur": "Tommi Nikkilä",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHephaistos_temple_2006.jpg",
+        "src": "img/activites/ATH/agora.jpg"
+      }
+    },
+    {
+      "id": "olympieion",
+      "nom": "Temple de Zeus olympien",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Plaka",
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Adulte",
+          20
+        ],
+        [
+          "Moins de 18 ans, et moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place ou sur hhticket.gr",
+      "duree": "45 min",
+      "moment": "En passant, à côté de l'arc d'Hadrien",
+      "enfants": true,
+      "texte": "Les colonnes les plus hautes de Grèce : 17 m de marbre, vestiges d'un temple géant achevé par l'empereur Hadrien. L'arc d'Hadrien, juste devant, se voit gratuitement depuis le trottoir.",
+      "site_officiel": "https://hhticket.gr/",
+      "a_verifier": true,
+      "lat": 37.96944,
+      "lng": 23.7331,
+      "photo": {
+        "auteur": "Chrisfl",
+        "licence": "CC BY-SA 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATemple_Of_Olympian_Zeus_-_Olympieion_%28retouched%29.jpg",
+        "src": "img/activites/ATH/olympieion.jpg"
+      }
+    },
+    {
+      "id": "agora-romaine",
+      "nom": "Agora romaine et tour des Vents",
+      "emoji": "🌬️",
+      "type": "culture",
+      "quartier": "Plaka",
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Agora romaine",
+          10
+        ],
+        [
+          "Bibliothèque d'Hadrien, à 100 m",
+          "10 €"
+        ],
+        [
+          "Moins de 18 ans, et moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "45 min",
+      "moment": "En flânant entre Plaka et Monastiraki",
+      "enfants": true,
+      "texte": "Au cœur de Plaka, la tour des Vents est une horloge antique de marbre : huit faces sculptées des huit vents, un cadran solaire et, à l'intérieur, une horloge à eau. Petite visite, grand effet.",
+      "site_officiel": "https://hhticket.gr/",
+      "a_verifier": true,
+      "lat": 37.9742,
+      "lng": 23.72703,
+      "photo": {
+        "auteur": "Zde",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARoman_Agora_with_Tower_of_the_Winds%2C_Athens%2C_225204.jpg",
+        "src": "img/activites/ATH/agora-romaine.jpg"
+      }
+    },
+    {
+      "id": "musee-national",
+      "nom": "Musée national archéologique",
+      "emoji": "🏺",
+      "type": "culture",
+      "quartier": "Exarchia",
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Adulte",
+          20
+        ],
+        [
+          "Moins de 18 ans, et moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place ou en ligne",
+      "duree": "2 h 30",
+      "moment": "Un après-midi chaud : c'est climatisé",
+      "enfants": true,
+      "texte": "Le plus grand trésor de la Grèce antique : le masque d'or dit d'Agamemnon, le dieu de bronze de l'Artémision, le petit jockey au galop et le mécanisme d'Anticythère, « ordinateur » vieux de 2 000 ans.",
+      "site_officiel": "https://www.namuseum.gr/en/",
+      "a_verifier": true,
+      "lat": 37.98901,
+      "lng": 23.73296,
+      "photo": {
+        "auteur": "Bjørn Erik Pedersen",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AStatue_National_Archaeological_Museum_of_Athens_2022-14.jpg",
+        "src": "img/activites/ATH/musee-national.jpg"
+      }
+    },
+    {
+      "id": "anafiotika",
+      "nom": "Plaka et Anafiotika",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Plaka",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "1 h 30",
+      "moment": "Tôt le matin pour les photos, ou le soir pour l'ambiance",
+      "enfants": true,
+      "texte": "Un village des Cyclades caché sous l'Acropole : maisons blanches, volets bleus, bougainvilliers et chats dans des ruelles à peine plus larges qu'un escalier. Plus bas, Plaka et ses rues piétonnes, bordées de boutiques et de tavernes.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "note": "Anafiotika est un quartier habité : restez discret dans les ruelles.",
+      "a_verifier": false,
+      "lat": 37.97241,
+      "lng": 23.72813,
+      "photo": {
+        "auteur": "Palickap",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAthens%2C_Anafiotika_07.JPG",
+        "src": "img/activites/ATH/anafiotika.jpg"
+      },
+      "badges": [
+        "tendance"
+      ]
+    },
+    {
+      "id": "philopappos",
+      "nom": "Colline de Philopappos",
+      "emoji": "🌅",
+      "type": "vue",
+      "quartier": "Koukaki",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "texte": "La plus belle vue de face sur l'Acropole : 15 minutes de montée parmi les pins et les oliviers, et le Parthénon à hauteur des yeux, avec la mer au loin. Les Athéniens y viennent pour le coucher du soleil.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "a_verifier": false,
+      "lat": 37.96736,
+      "lng": 23.72137,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AView_of_the_Acropolis_from_Philopappos_Hill%2C_Athens%2C_20240601_1112_0077.jpg",
+        "src": "img/activites/ATH/philopappos.jpg"
+      }
+    },
+    {
+      "id": "lycabette",
+      "nom": "Mont Lycabette",
+      "emoji": "⛰️",
+      "type": "vue",
+      "quartier": "Kolonaki",
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Funiculaire aller-retour",
+          10
+        ],
+        [
+          "Funiculaire aller simple",
+          "7 €"
+        ],
+        [
+          "À pied (30-40 min de montée)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet au départ du funiculaire (souvent en espèces)",
+      "duree": "1 h 30",
+      "moment": "Au coucher du soleil, puis la ville qui s'allume",
+      "enfants": true,
+      "texte": "Le point le plus haut d'Athènes : 277 m, une petite chapelle blanche au sommet et toute la ville à 360°, de l'Acropole jusqu'au Pirée et aux îles. Montée en funiculaire dans le rocher, ou à pied par les pins.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "a_verifier": true,
+      "lat": 37.9843,
+      "lng": 23.74165,
+      "photo": {
+        "auteur": "Eusebius",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMont_Lycabettus_1.jpg",
+        "src": "img/activites/ATH/lycabette.jpg"
+      },
+      "badges": [
+        "tendance"
+      ]
+    },
+    {
+      "id": "areopage",
+      "nom": "Colline de l'Aréopage",
+      "emoji": "🌇",
+      "type": "vue",
+      "quartier": "Acropole",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "30 min",
+      "moment": "Au coucher du soleil",
+      "enfants": true,
+      "texte": "Un gros rocher juste sous l'entrée de l'Acropole, où siégeait le tribunal d'Athènes. On s'y assoit, gratuitement, face à l'Agora et aux toits de la ville qui rougissent au coucher du soleil.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "note": "Le rocher est poli et glissant : prenez l'escalier de métal.",
+      "a_verifier": false,
+      "lat": 37.97241,
+      "lng": 23.7231,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AZach%C3%B3d_s%C5%82o%C5%84ca_na_Wzg%C3%B3rzu_Areopagu_w_Atenach%2C_20240531_2026_9950.jpg",
+        "src": "img/activites/ATH/areopage.jpg"
+      }
+    },
+    {
+      "id": "evzones",
+      "nom": "Relève de la garde (evzones)",
+      "emoji": "💂",
+      "type": "culture",
+      "quartier": "Syntagma",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Spectacle",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "20 min",
+      "moment": "À chaque heure pile ; grande relève le dimanche à 11 h",
+      "enfants": true,
+      "texte": "Devant le Parlement, les evzones en jupette plissée et chaussures à pompons relèvent la garde au pas lent, jambes levées très haut. Le dimanche à 11 h, toute la garde défile en musique.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "a_verifier": false,
+      "lat": 37.97534,
+      "lng": 23.73655,
+      "photo": {
+        "auteur": "DMY",
+        "licence": "Libre (attribution)",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASyntagma_-_Evzones_at_the_Tomb_of_the_Unknown_Soldier.JPG",
+        "src": "img/activites/ATH/evzones.jpg"
+      }
+    },
+    {
+      "id": "jardin-national",
+      "nom": "Jardin national et Zappeion",
+      "emoji": "🌳",
+      "type": "nature",
+      "quartier": "Syntagma",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre (du lever au coucher du soleil)",
+      "duree": "1 h",
+      "moment": "Aux heures chaudes, pour l'ombre",
+      "enfants": true,
+      "texte": "Le jardin de la reine Amalia : allées à l'ombre des palmiers, bassins à tortues et canards, puis le beau palais du Zappeion. La pause fraîcheur entre Syntagma et le temple de Zeus.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "a_verifier": false,
+      "lat": 37.97358,
+      "lng": 23.73779,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ANational_Garden_of_Athens%2C_20240531_1540_9794.jpg",
+        "src": "img/activites/ATH/jardin-national.jpg"
+      }
+    },
+    {
+      "id": "panathenaique",
+      "nom": "Stade panathénaïque",
+      "emoji": "🏟️",
+      "type": "culture",
+      "quartier": "Pangrati",
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Adulte (audioguide compris)",
+          12
+        ],
+        [
+          "Étudiants",
+          "6 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            6
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "1 h",
+      "moment": "Le matin ou en fin d'après-midi",
+      "enfants": true,
+      "texte": "Le seul stade au monde tout en marbre, où se sont tenus les premiers Jeux olympiques modernes en 1896. On peut courir sur la piste, monter sur le podium et voir les torches de chaque Jeux.",
+      "site_officiel": "https://www.panathenaicstadium.gr/",
+      "a_verifier": true,
+      "lat": 37.96844,
+      "lng": 23.74095,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APanathenaic_Stadium%2C_Athens%2C_20240601_1013_0058.jpg",
+        "src": "img/activites/ATH/panathenaique.jpg"
+      },
+      "badges": [
+        "tendance"
+      ]
+    },
+    {
+      "id": "monastiraki",
+      "nom": "Monastiraki et son marché aux puces",
+      "emoji": "🛍️",
+      "type": "balade",
+      "quartier": "Monastiraki",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "1 h 30",
+      "moment": "Le dimanche matin pour la brocante",
+      "enfants": true,
+      "texte": "La place la plus vivante d'Athènes, avec l'Acropole en toile de fond, et ses ruelles de bric-à-brac : sandales en cuir, vieux disques, objets de cuivre. Le dimanche, la brocante d'Avissinias déborde dans tout le quartier.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "note": "Gardez un œil sur votre sac dans la foule et le métro.",
+      "a_verifier": false,
+      "lat": 37.97636,
+      "lng": 23.72595,
+      "photo": {
+        "auteur": "Maksym Kozlenko",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2018-07-25_Monastiraki_Square%2C_Athens.jpg",
+        "src": "img/activites/ATH/monastiraki.jpg"
+      },
+      "badges": [
+        "tendance"
+      ]
+    },
+    {
+      "id": "benaki",
+      "nom": "Musée Benaki",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Kolonaki",
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Adulte",
+          12
+        ],
+        [
+          "Tarif réduit",
+          "environ 8 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            11,
+            0
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "1 h 30",
+      "moment": "Fin de visite au café du toit, face au Jardin national",
+      "enfants": true,
+      "texte": "Toute l'histoire grecque dans une belle demeure : bijoux en or antiques, icônes, costumes des îles et salons ottomans remontés pièce par pièce. Le café du dernier étage a une terrasse sur le Jardin national.",
+      "site_officiel": "https://www.benaki.org/",
+      "a_verifier": true,
+      "lat": 37.97566,
+      "lng": 23.74046,
+      "photo": {
+        "auteur": "Texniths",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABenaki_Museum_traditional_house.jpg",
+        "src": "img/activites/ATH/benaki.jpg"
+      }
+    },
+    {
+      "id": "cycladique",
+      "nom": "Musée d'art cycladique",
+      "emoji": "🗿",
+      "type": "culture",
+      "quartier": "Kolonaki",
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Adulte",
+          12
+        ],
+        [
+          "Tarif réduit",
+          "environ 6 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "1 h 30",
+      "moment": "Quand vous voulez, la visite est au calme",
+      "enfants": true,
+      "texte": "Des statuettes de marbre de 5 000 ans, si pures et modernes qu'elles ont inspiré Picasso et Modigliani. Un petit musée élégant, à deux pas des boutiques chics de Kolonaki.",
+      "site_officiel": "https://cycladic.gr/en",
+      "a_verifier": true,
+      "lat": 37.9757,
+      "lng": 23.74231,
+      "photo": {
+        "auteur": "Tilemahos Efthimiadis from Athens, Greece",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACycladic_Art_Museum%2C_Athens_%283309881076%29.jpg",
+        "src": "img/activites/ATH/cycladique.jpg"
+      }
+    },
+    {
+      "id": "sounion",
+      "nom": "Cap Sounion et temple de Poséidon",
+      "emoji": "🌊",
+      "type": "culture",
+      "quartier": "Sounion (70 km)",
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Entrée du site (été)",
+          20
+        ],
+        [
+          "Entrée du site (hiver)",
+          "10 €"
+        ],
+        [
+          "Bus KTEL depuis le centre, aller",
+          "environ 8 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place ; excursions en car à réserver la veille",
+      "duree": "Demi-journée (1 h 30 de route par la côte)",
+      "moment": "Pour le coucher du soleil sur la mer",
+      "enfants": true,
+      "texte": "Un temple blanc tout au bout de la Grèce, sur une falaise au-dessus de la mer Égée. Lord Byron a gravé son nom sur une colonne, et le coucher de soleil y est le plus célèbre du pays.",
+      "site_officiel": "https://hhticket.gr/",
+      "a_verifier": true,
+      "lat": 37.65015,
+      "lng": 24.02434,
+      "photo": {
+        "auteur": "Berthold Werner",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGreece_Cape_Sounion_BW_2017-10-09_10-03-04.jpg",
+        "src": "img/activites/ATH/sounion.jpg"
+      }
+    },
+    {
+      "id": "herode-atticus",
+      "nom": "Spectacle à l'Odéon d'Hérode Atticus",
+      "emoji": "🎭",
+      "type": "sortir",
+      "quartier": "Acropole",
+      "prix": 30,
+      "prix_detail": [
+        [
+          "Billet (selon le spectacle et la place)",
+          "de 15 à 100 € environ"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 30,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "dès la sortie du programme du Festival d'Athènes (au printemps) ; souvent complet",
+      "duree": "Une soirée",
+      "moment": "De juin à septembre seulement",
+      "enfants": false,
+      "texte": "Un théâtre romain de 5 000 places, au pied de l'Acropole, où l'on assiste encore à des concerts, opéras et tragédies grecques sous les étoiles. On ne peut y entrer que pendant les spectacles.",
+      "site_officiel": "https://aefestival.gr/?lang=en",
+      "note": "Saison d'été (Festival d'Athènes et d'Épidaure) : hors saison, admirez-le d'en haut, depuis l'Acropole.",
+      "a_verifier": true,
+      "lat": 37.97082,
+      "lng": 23.72455,
+      "photo": {
+        "auteur": "Tomisti",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AOdeon_of_Herodes_Atticus_night-time_panorama.jpg",
+        "src": "img/activites/ATH/herode-atticus.jpg"
+      }
+    },
+    {
+      "id": "cine-thisio",
+      "nom": "Cinéma en plein air Thission",
+      "emoji": "🎬",
+      "type": "sortir",
+      "quartier": "Thissio",
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Séance",
+          "environ 10 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            11,
+            8
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place, en avance le week-end",
+      "duree": "2 h 30",
+      "moment": "Mai à octobre, première séance vers 21 h",
+      "enfants": true,
+      "texte": "Un cinéma en plein air depuis 1935, au milieu des bougainvilliers, avec le Parthénon illuminé au-dessus de l'écran. Les films sont en version originale sous-titrée en grec.",
+      "site_officiel": "https://www.cine-thisio.gr/",
+      "note": "Ouvert seulement de mai à octobre.",
+      "a_verifier": true,
+      "lat": 37.97143,
+      "lng": 23.7195,
+      "photo": {
+        "auteur": "Rammoskostas",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%CE%97_%CE%91%CE%BA%CF%81%CF%8C%CF%80%CE%BF%CE%BB%CE%B7_%CF%86%CF%89%CF%84%CE%B9%CF%83%CE%BC%CE%AD%CE%BD%CE%B7_-_%CE%9A%CF%8E%CF%83%CF%84%CE%B1%CF%82_%CE%A1%CE%AC%CE%BC%CE%BC%CE%BF%CF%82.jpg",
+        "src": "img/activites/ATH/cine-thisio.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "vouliagmeni",
+      "nom": "Lac de Vouliagmeni",
+      "emoji": "🏊",
+      "type": "plage",
+      "quartier": "Riviera athénienne (20 km)",
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Entrée (transat compris selon la saison)",
+          "environ 15 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            4,
+            0
+          ],
+          [
+            12,
+            8
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "entrée sur place",
+      "duree": "Demi-journée",
+      "moment": "Toute l'année : l'eau reste entre 22 et 29 °C",
+      "enfants": true,
+      "texte": "Un lac d'eau turquoise, chaude et légèrement salée, au pied d'une falaise, à 200 m de la mer. On s'y baigne même en hiver, entouré de petits poissons qui viennent chatouiller les pieds.",
+      "site_officiel": "https://www.limnivouliagmenis.gr/",
+      "a_verifier": true,
+      "lat": 37.80773,
+      "lng": 23.78571,
+      "photo": {
+        "auteur": "GeorgeBRAINiac",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AVouliagmeni_lake.jpg",
+        "src": "img/activites/ATH/vouliagmeni.jpg"
+      },
+      "badges": [
+        "tendance"
+      ]
+    },
+    {
+      "id": "egine",
+      "nom": "Journée sur l'île d'Égine",
+      "emoji": "⛴️",
+      "type": "nature",
+      "quartier": "Égine (ferry depuis le Pirée)",
+      "prix": 30,
+      "prix_detail": [
+        [
+          "Ferry aller-retour depuis le Pirée",
+          "de 20 à 40 € environ"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 30,
+        "enfants": [
+          [
+            4,
+            0
+          ],
+          [
+            11,
+            15
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet de ferry en ligne la veille l'été",
+      "duree": "Une journée",
+      "moment": "D'avril à octobre, pour se baigner",
+      "enfants": true,
+      "texte": "L'île la plus proche d'Athènes, à 40 minutes de bateau rapide : port de pêche coloré, pistaches réputées dans toute la Grèce, criques pour se baigner et le temple d'Aphaïa dans les pins.",
+      "site_officiel": "https://www.ferryhopper.com/",
+      "a_verifier": true,
+      "lat": 37.74541,
+      "lng": 23.42614,
+      "photo": {
+        "auteur": "Jebulon",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAegina_harbour_1.jpg",
+        "src": "img/activites/ATH/egine.jpg"
+      }
+    },
+    {
+      "id": "delphes",
+      "nom": "Excursion à Delphes",
+      "emoji": "🏔️",
+      "type": "culture",
+      "quartier": "Delphes (180 km)",
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Site et musée",
+          20
+        ],
+        [
+          "Bus KTEL aller-retour (3 h de route)",
+          "environ 35 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "excursion en car ou bus à réserver quelques jours avant",
+      "duree": "Une journée",
+      "moment": "Départ tôt le matin",
+      "enfants": true,
+      "texte": "Le « nombril du monde » des Grecs : le sanctuaire d'Apollon, où l'on venait consulter l'oracle, accroché à la montagne au-dessus d'une mer d'oliviers. Le paysage est aussi grandiose que les ruines.",
+      "site_officiel": "https://hhticket.gr/",
+      "a_verifier": true,
+      "lat": 38.48234,
+      "lng": 22.501,
+      "photo": {
+        "auteur": "Michael Nicht",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AThe_tholos_of_Athena_Pronaia.jpg",
+        "src": "img/activites/ATH/delphes.jpg"
+      }
+    },
+    {
+      "id": "snfcc",
+      "nom": "Centre culturel Stavros-Niarchos",
+      "emoji": "🌿",
+      "type": "balade",
+      "quartier": "Kallithea",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Parc, canal et phare",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "2 h",
+      "moment": "En fin d'après-midi et au coucher du soleil",
+      "enfants": true,
+      "texte": "L'opéra et la bibliothèque nationale signés Renzo Piano, sous un immense toit couvert de panneaux solaires : on monte au « phare » pour voir à la fois l'Acropole et la mer, puis on flâne dans le parc et le long du canal.",
+      "site_officiel": "https://www.snfcc.org/en",
+      "a_verifier": false,
+      "lat": 37.94104,
+      "lng": 23.69331,
+      "photo": {
+        "auteur": "Strange Traveler",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AStavros_Niarchos_Foundation_Cultural_Center_-_52035300972.jpg",
+        "src": "img/activites/ATH/snfcc.jpg"
+      }
+    },
+    {
+      "id": "psyrri",
+      "nom": "Street art de Psyrri",
+      "emoji": "🎨",
+      "type": "balade",
+      "quartier": "Psyrri",
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "accès libre",
+      "duree": "1 h",
+      "moment": "En fin de journée, avant de sortir dans le quartier",
+      "enfants": true,
+      "texte": "Athènes est une capitale du street art : à Psyrri, juste derrière Monastiraki, des fresques géantes couvrent les façades, entre petits bars, ateliers et tavernes qui s'animent à la nuit tombée.",
+      "site_officiel": "https://www.thisisathens.org/",
+      "a_verifier": false,
+      "lat": 37.97843,
+      "lng": 23.72492,
+      "photo": {
+        "auteur": "Jean Housen",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A20211104_athenes078.jpg",
+        "src": "img/activites/ATH/psyrri.jpg"
+      }
+    },
+    {
+      "id": "kaisariani",
+      "nom": "Monastère de Kaisariani et mont Hymette",
+      "emoji": "⛪",
+      "type": "nature",
+      "quartier": "Kaisariani",
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Église du monastère",
+          "environ 6 €"
+        ],
+        [
+          "Forêt et sentiers",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "2 h 30",
+      "moment": "Le matin, avant la chaleur",
+      "enfants": true,
+      "texte": "Un monastère byzantin du XIe siècle aux fresques dorées, caché dans une forêt de pins au pied du mont Hymette, à 20 minutes du centre. Les sentiers grimpent ensuite vers de grandes vues sur toute la ville.",
+      "site_officiel": "https://hhticket.gr/",
+      "a_verifier": true,
+      "lat": 37.96075,
+      "lng": 23.79845,
+      "photo": {
+        "auteur": "Antonis Giakoumakis",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKaisariani_Monastery_%28DSC_8593%29.jpg",
+        "src": "img/activites/ATH/kaisariani.jpg"
+      }
+    },
+    {
+      "id": "football",
+      "nom": "Match de l'Olympiakos",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Le Pirée",
+      "club": "Olympiacos FC",
+      "prix": 35,
+      "prix_detail": [
+        [
+          "Billet (selon le match et la place)",
+          "de 20 à 60 € environ"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 35,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billets nominatifs en ligne, quelques semaines avant (passeport ou carte d'identité demandé)",
+      "duree": "2 h (arrivez 1 h avant)",
+      "moment": "Le week-end, de mi-août à mai",
+      "enfants": true,
+      "texte": "Le club le plus titré de Grèce, dans son stade Karaïskakis en bord de mer, à 15 minutes de métro du centre. Une ambiance volcanique, surtout face aux grands rivaux athéniens, le Panathinaïkos et l'AEK.",
+      "site_officiel": "https://www.olympiacos.org/",
+      "note": "Les derbies sont très chauds : préférez un match plus calme avec des enfants.",
+      "a_verifier": true,
+      "lat": 37.94647,
+      "lng": 23.66441,
+      "photo": {
+        "auteur": "Mark Freeman from Hornchurch, UK",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AImage_Olympiacos_Chelsea_CL0708_2.jpg",
+        "src": "img/activites/ATH/football.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "plaka",
+      "nom": "Plaka et Monastiraki (centre historique)",
+      "lat": 37.9735,
+      "lng": 23.729,
+      "texte": "Au pied de l'Acropole, tout se fait à pied : ruelles piétonnes, tavernes, ruines et métro à la porte. Le meilleur choix pour un premier séjour, mais animé et un peu plus cher."
+    },
+    {
+      "id": "koukaki",
+      "nom": "Koukaki et Makrygianni",
+      "lat": 37.9665,
+      "lng": 23.7265,
+      "texte": "Le quartier préféré des voyageurs : calme, vivant, à 5 minutes de l'entrée de l'Acropole et du musée, avec des cafés et petites tavernes de quartier. Bon rapport qualité-prix."
+    },
+    {
+      "id": "syntagma",
+      "nom": "Syntagma",
+      "lat": 37.9755,
+      "lng": 23.7348,
+      "texte": "Le centre moderne, face au Parlement : métro direct pour l'aéroport et le port du Pirée, grands hôtels avec toits-terrasses, Plaka à deux pas. Pratique pour un séjour court."
+    },
+    {
+      "id": "psyrri",
+      "nom": "Psyrri et Thissio",
+      "lat": 37.977,
+      "lng": 23.7215,
+      "texte": "Pour sortir le soir : street art, bars et tavernes à Psyrri, promenade piétonne avec vue sur l'Acropole à Thissio. Bruyant certaines nuits, mais très central."
+    },
+    {
+      "id": "kolonaki",
+      "nom": "Kolonaki",
+      "lat": 37.9775,
+      "lng": 23.742,
+      "texte": "Le quartier chic, au pied du Lycabette : boutiques, musées Benaki et d'art cycladique, cafés élégants. Plus calme et un peu en hauteur, à 10 minutes à pied de Syntagma."
+    }
+  ],
+  "hotel_petit_prix_max": 90,
+  "restaurants": [
+    {
+      "id": "kostas",
+      "nom": "Kostas",
+      "emoji": "🥙",
+      "gamme": "petit",
+      "genre": "Souvlaki et pita",
+      "quartier": "Monastiraki",
+      "adresse": "Plateia Agias Irinis 2, 105 60 Athína",
+      "lat": 37.977,
+      "lng": 23.7276,
+      "prix": "4 à 8 €",
+      "prix_min": 4,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Le souvlaki le plus célèbre d'Athènes depuis 1950 : une petite échoppe sur la place Agia Irini, une file d'attente, et une pita moelleuse garnie de porc grillé, tomate, oignon et sauce tomate maison. Rapide, pas cher, inoubliable.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : on commande au comptoir (ouvert le midi, fermé le dimanche)",
+      "photo": {
+        "auteur": "Miyagawa",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASouvlaki_in_Athens.JPG",
+        "src": "img/restos/ATH/kostas.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "lukumades",
+      "nom": "Lukumades",
+      "emoji": "🍩",
+      "gamme": "petit",
+      "genre": "Beignets grecs au miel",
+      "quartier": "Monastiraki",
+      "adresse": "Aiolou 21, 105 51 Athína",
+      "lat": 37.97695,
+      "lng": 23.72758,
+      "prix": "5 à 9 €",
+      "prix_min": 5,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Les loukoumades, petits beignets dorés de la tradition grecque, version moderne : au miel et à la cannelle, au praliné, à la pistache ou fourrés, avec une boule de glace. La pause sucrée que tout le monde filme.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation, ouvert tard le soir",
+      "photo": {
+        "auteur": "Alpha from Melbourne, Australia",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALoukoumades_Greek_Doughnuts_with_Walnuts_and_Honey.jpg",
+        "src": "img/restos/ATH/lukumades.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "littlekook",
+      "nom": "Little Kook",
+      "emoji": "🧁",
+      "gamme": "petit",
+      "genre": "Salon de thé féerique",
+      "quartier": "Psyrri",
+      "adresse": "Karaiskaki 17, 105 54 Athína",
+      "lat": 37.97775,
+      "lng": 23.72437,
+      "prix": "8 à 15 €",
+      "prix_min": 8,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un salon de thé entièrement redécoré à chaque saison comme un décor de conte (Alice, Noël, Halloween…), jusque dans la rue. On y vient pour les photos autant que pour les gâteaux à étages.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; file d'attente le week-end",
+      "photo": {
+        "auteur": "George E. Koronaios",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALittle_Kook_Toy_Store_on_January_5%2C_2022.jpg",
+        "src": "img/restos/ATH/littlekook.jpg"
+      }
+    },
+    {
+      "id": "atlantikos",
+      "nom": "Atlantikos",
+      "emoji": "🐟",
+      "gamme": "petit",
+      "genre": "Petite friture de la mer",
+      "quartier": "Psyrri",
+      "adresse": "Avliton 7, 105 54 Athína",
+      "lat": 37.97753,
+      "lng": 23.72298,
+      "prix": "12 à 20 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une minuscule adresse cachée dans une ruelle de Psyrri, adorée des Athéniens : anchois et calamars frits, salade de poulpe, verre de vin blanc, le tout pour quelques euros. La Grèce de la mer, sans chichis.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; venez tôt, il y a peu de tables",
+      "photo": {
+        "auteur": "E4024",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHamsi_tava%2C_roka%2C_lemon_and_red_onions.jpg",
+        "src": "img/restos/ATH/atlantikos.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "feyrouz",
+      "nom": "Feyrouz",
+      "emoji": "🫓",
+      "gamme": "petit",
+      "genre": "Galettes du Levant",
+      "quartier": "Monastiraki",
+      "adresse": "Karori 23, 105 51 Athína",
+      "lat": 37.97815,
+      "lng": 23.72774,
+      "prix": "5 à 10 €",
+      "prix_min": 5,
+      "badges": [],
+      "texte": "Des lahmacun et galettes du Levant cuites à la commande, garnies de viande épicée, de fromage ou de légumes, et des desserts au sirop : l'en-cas le plus apprécié du centre, dans une ruelle derrière Monastiraki.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation, à emporter ou au comptoir",
+      "photo": {
+        "auteur": "Rainer Zenz",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALahmacun.jpg",
+        "src": "img/restos/ATH/feyrouz.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "stani",
+      "nom": "Stani",
+      "emoji": "🍯",
+      "gamme": "petit",
+      "genre": "Crèmerie : yaourt au miel",
+      "quartier": "Omonia",
+      "adresse": "Marikas Kotopouli 10, 104 32 Athína",
+      "lat": 37.98515,
+      "lng": 23.72777,
+      "prix": "4 à 8 €",
+      "prix_min": 4,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une crèmerie de 1931 qui sert le meilleur yaourt de brebis d'Athènes, épais comme une crème, avec du miel de thym et des noix, ou un riz au lait à la cannelle. Le vrai petit-déjeuner grec.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "ProjectManhattan",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGreek_yoghurt_with_honey.jpg",
+        "src": "img/restos/ATH/stani.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "karamanlidika",
+      "nom": "Karamanlidika tou Fani",
+      "emoji": "🧀",
+      "gamme": "moyen",
+      "genre": "Épicerie-taverne de charcuteries",
+      "quartier": "Marché central",
+      "adresse": "Evripidou 52, 105 52 Athína",
+      "lat": 37.97967,
+      "lng": 23.72839,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une épicerie fine devenue taverne, près du marché central : pastourma, saucisses épicées et fromages des Grecs d'Anatolie, servis en petites assiettes à partager entre les jambons suspendus.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir et le week-end",
+      "photo": {
+        "auteur": "E4024",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APastirma_and_cheese_starter.jpg",
+        "src": "img/restos/ATH/karamanlidika.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "nolan",
+      "nom": "Nolan",
+      "emoji": "🥟",
+      "gamme": "moyen",
+      "genre": "Cuisine grecque et japonaise",
+      "quartier": "Syntagma",
+      "adresse": "Voulis 31-33, 105 57 Athína",
+      "lat": 37.97482,
+      "lng": 23.73241,
+      "prix": "30 à 50 €",
+      "prix_min": 30,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "Une petite salle tendance où un chef gréco-japonais marie les deux cuisines : raviolis au pastourma, poulet frit à la grecque, salades inattendues. Distinguée par le Michelin pour son excellent rapport qualité-prix.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant pour le soir",
+      "photo": {
+        "auteur": "pelican from Tokyo, Japan",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGyoza_dumplings_%2853726549642%29.jpg",
+        "src": "img/restos/ATH/nolan.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "avli",
+      "nom": "Avli",
+      "emoji": "🫒",
+      "gamme": "moyen",
+      "genre": "Cuisine des régions grecques",
+      "quartier": "Psyrri",
+      "adresse": "Agiou Dimitriou 12, 105 54 Athína",
+      "lat": 37.97965,
+      "lng": 23.72594,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une cour cachée derrière une porte de Psyrri, des tables serrées et une cuisine de grand-mère venue des régions grecques : keftedes, saucisses, pites au fromage, vin maison en pichet. Simple, généreux, authentique.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir, sinon file d'attente",
+      "photo": {
+        "auteur": "Joehawkins",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AChania%2C_Abendessen_auf_der_Stra%C3%9Fe_Theotokopoulou.jpg",
+        "src": "img/restos/ATH/avli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "klimataria",
+      "nom": "Taverne Klimataria",
+      "emoji": "🎶",
+      "gamme": "moyen",
+      "genre": "Taverne en musique",
+      "quartier": "Marché central",
+      "adresse": "Plateia Theatrou 2, 105 52 Athína",
+      "lat": 37.98109,
+      "lng": 23.72476,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Une taverne de 1927 où, le soir, les musiciens jouent du rebetiko, le blues grec, au bouzouki, et où la salle finit souvent par danser entre les plats de moussaka et d'agneau.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour une table le soir de musique (vendredi et samedi surtout)",
+      "photo": {
+        "auteur": "Rakoon",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADSC_3510_athens_Bouzouki_player_street_july_2018.jpg",
+        "src": "img/restos/ATH/klimataria.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kuzina",
+      "nom": "Kuzina",
+      "emoji": "🌇",
+      "gamme": "moyen",
+      "genre": "Cuisine grecque moderne, toit avec vue",
+      "quartier": "Thissio",
+      "adresse": "Adrianou 9, 105 55 Athína",
+      "lat": 37.97644,
+      "lng": 23.72206,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [],
+      "texte": "Une cuisine grecque revisitée, et surtout une terrasse sur le toit face au Parthénon illuminé, au-dessus de la rue piétonne d'Adrianou. Le dîner de carte postale, sans le prix des palaces.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant, en demandant une table sur le toit",
+      "photo": {
+        "auteur": "Davide Aversa",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AView_of_Athen%27s_Acropolis.jpg",
+        "src": "img/restos/ATH/kuzina.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "amalachei",
+      "nom": "Ama Lachei",
+      "emoji": "🌿",
+      "gamme": "moyen",
+      "genre": "Mezedes dans une cour d'école",
+      "quartier": "Exarchia",
+      "adresse": "Kallidromiou 69, 106 83 Athína",
+      "lat": 37.98793,
+      "lng": 23.73696,
+      "prix": "20 à 30 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Dans la cour d'une ancienne école d'Exarchia, au pied de la colline de Strefi : mezedes créatifs à partager sous les arbres, ambiance de quartier étudiant. Le soir d'été, c'est l'une des tables les plus agréables d'Athènes.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir",
+      "photo": {
+        "auteur": "Heiko Gorski (Moonshadow)",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ANaxos_Taverna.jpg",
+        "src": "img/restos/ATH/amalachei.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "tudor",
+      "nom": "Tudor Hall",
+      "emoji": "🏛️",
+      "gamme": "haut",
+      "genre": "Gastronomie grecque, salle panoramique",
+      "quartier": "Syntagma",
+      "adresse": "Hôtel Grande-Bretagne, Vasileos Georgiou A 1, 105 64 Athína",
+      "lat": 37.97655,
+      "lng": 23.7354,
+      "prix": "à partir de 150 €",
+      "prix_min": 150,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Au 7e étage du mythique hôtel Grande-Bretagne, une salle de palais face à l'Acropole et au Lycabette, et une cuisine grecque de haute volée autour des produits des îles. Le grand soir du séjour.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "photo": {
+        "auteur": "George E. Koronaios",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AHotel_Grande_Bretagne_on_September_17%2C_2019.jpg",
+        "src": "img/restos/ATH/tudor.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "aleria",
+      "nom": "Aleria",
+      "emoji": "🍽️",
+      "gamme": "haut",
+      "genre": "Cuisine grecque créative dans une maison néoclassique",
+      "quartier": "Metaxourgeio",
+      "adresse": "Megalou Alexandrou 57, 104 35 Athína",
+      "lat": 37.98309,
+      "lng": 23.71781,
+      "prix": "à partir de 100 €",
+      "prix_min": 100,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin (nouvelle en 2026)",
+      "texte": "Une maison néoclassique avec son patio, dans un quartier en plein renouveau : menus dégustation qui réinventent les classiques grecs. Étoilée pour la première fois en 2026.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "Dclemens1971",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADinner_at_Hi%C5%A1a_Franko%2C_summer_2022_05.jpg",
+        "src": "img/restos/ATH/aleria.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "soil",
+      "nom": "Soil",
+      "emoji": "🌱",
+      "gamme": "haut",
+      "genre": "Menu dégustation de saison",
+      "quartier": "Pangrati",
+      "adresse": "Ferekydou 5, 116 35 Athína",
+      "lat": 37.96702,
+      "lng": 23.743,
+      "prix": "à partir de 120 €",
+      "prix_min": 120,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Une villa des années 1920 et son jardin, à deux pas du stade panathénaïque : un jeune chef y compose des menus autour des produits de la terre grecque, herbes, légumes oubliés et poissons des côtes.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "City Foodsters",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKadeau_in_Bornholm_%28July_2016%29_%2831313906754%29.jpg",
+        "src": "img/restos/ATH/soil.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "spondi",
+      "nom": "Spondi",
+      "emoji": "🍷",
+      "gamme": "haut",
+      "genre": "Haute cuisine franco-méditerranéenne",
+      "quartier": "Pangrati",
+      "adresse": "Pyrronos 5, 116 36 Athína",
+      "lat": 37.96437,
+      "lng": 23.74277,
+      "prix": "à partir de 150 €",
+      "prix_min": 150,
+      "badges": [
+        "recompense",
+        "institution"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "L'adresse gastronomique de référence d'Athènes depuis 1996 : cuisine à la française et produits grecs, servie dans une cour couverte de bougainvilliers. Une très belle cave.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 semaines avant",
+      "photo": {
+        "auteur": "Dclemens1971",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADinner_at_Hi%C5%A1a_Franko%2C_summer_2022_02.jpg",
+        "src": "img/restos/ATH/spondi.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "zonars",
+      "nom": "Dionysos Zonar's",
+      "emoji": "🏛️",
+      "gamme": "haut",
+      "genre": "Grande terrasse face à l'Acropole",
+      "quartier": "Acropole",
+      "adresse": "Rovertou Galli 43, 117 42 Athína",
+      "lat": 37.969,
+      "lng": 23.723,
+      "prix": "50 à 80 €",
+      "prix_min": 50,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une institution des années 1950 juste en face de l'entrée de l'Acropole : grande terrasse sous les pins, cuisine grecque classique soignée, et le Parthénon qui s'illumine pendant le dîner.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant pour une table en terrasse au coucher du soleil",
+      "photo": {
+        "auteur": "George E. Koronaios",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AView_of_the_Acropolis_of_Athens_from_Dionysiou_Areopagitou_Pedestrian_Street_on_March_17%2C_2021.jpg",
+        "src": "img/restos/ATH/zonars.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "varoulko",
+      "nom": "Varoulko Seaside",
+      "emoji": "🦐",
+      "gamme": "haut",
+      "genre": "Poissons et fruits de mer, port du Pirée",
+      "quartier": "Le Pirée (Mikrolimano)",
+      "adresse": "Akti Koumoundourou 54, 185 33 Pireas",
+      "lat": 37.93715,
+      "lng": 23.65847,
+      "prix": "70 à 120 €",
+      "prix_min": 70,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Sur le petit port de pêche de Mikrolimano, au Pirée, la table du chef Lefteris Lazarou, pionnier de la cuisine de la mer grecque : poisson du jour, poulpe, oursins, les pieds presque dans l'eau.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, en demandant une table en bord de quai",
+      "photo": {
+        "auteur": "Texniths",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AMikrolimano_%28May_2021%29.jpg",
+        "src": "img/restos/ATH/varoulko.jpg",
+        "illustration": true
+      }
+    }
+  ]
+}

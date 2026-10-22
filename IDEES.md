@@ -286,6 +286,16 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   comptés dans le prix du vol. Changer les voyageurs relance la recherche. (Le propriétaire avait
   cru à 162 € pour 4 alors que c'était 162 € par personne.)
 
+- ✅ (22/10/2026) **Page guide d'Athènes** (`guides/ATH.json`), préparée en autonomie : 26 activités
+  (5 tendance : Plaka et Anafiotika, mont Lycabette, lac de Vouliagmeni, Monastiraki, stade panathénaïque ;
+  match de l'Olympiakos ; excursions Sounion, Égine, Delphes), 18 restaurants (note pondérée, C = 4,45, 704 restaurants
+  lus via Wanderlog ; Michelin 2026 annoncé en oct. : Tudor Hall, Aleria (nouvelle), Soil, Spondi 1 étoile, Nolan
+  Bib Gourmand ; Delta passe de 2 à 1 étoile), 5 quartiers. Réseaux sociaux (Apify, 1 passage) : tendance pour
+  Kostas, Lukumades, Little Kook, Atlantikos, Avli, Klimataria (2 sources au moins). Saisonniers : Odéon d'Hérode
+  Atticus (juin-sept.), cinéma Thission (mai-oct.), baignade et Égine (avril-oct.). Kerameikos fermé depuis mai 2025
+  (pas mis). Prix confirmés : Acropole 30 € (gratuit moins de 18 ans et moins de 25 ans UE). Les autres sont
+  `a_verifier` (Agora et temple de Zeus 20 € d'après un guide d'août 2026, musée national 20 € depuis janv. 2026).
+  Restaurants : prix et délais estimés ; 17 photos sur 18 sont des illustrations (seul Little Kook est photographié).
 - ✅ (21/10/2026) **Page guide de Dubaï** (`guides/DXB.json`), préparée en autonomie : 30 activités
   (6 tendance : Sky Views, Al Fahidi, Dubai Frame, Kite Beach, Miracle Garden, Global Village ; excursions à Abou Dhabi,
   Hatta, safari ; courses de Meydan à la place d'un club de foot, peu suivi), 18 restaurants (note pondérée,
