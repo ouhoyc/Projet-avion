@@ -337,6 +337,15 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   6 janv. 2027, à confirmer). Château fermé le 28/10/2026 dès 15 h. Funiculaire de Petřín rouvert le 22/09/2026.
   À vérifier (`a_verifier`) : Josefov, Saint-Nicolas, croisière, Maison dansante, Mucha, concert, opéra, Žižkov,
   Musée national, musée du communisme, marché de Noël, match, excursions. Restaurants : prix et délais estimés.
+- ✅ (22/10/2026) **Page guide de Madrid** (`guides/MAD.json`), préparée en autonomie : 28 activités
+  (4 tendance : Temple de Debod, Retiro et Palais de cristal, terrasse du Círculo de Bellas Artes, rooftop du Riu ;
+  visite du Bernabéu, matchs du Real et de l'Atlético ; excursions à Tolède, Ségovie, l'Escurial), 18 restaurants
+  (note pondérée, C = 4,39, ~1 100 lieux lus via Wanderlog ; Michelin 2026 : DiverXO 3 étoiles, Coque et DSTAgE
+  2 étoiles, Bacira Bib Gourmand ; tendance : San Ginés, Botín, marché de San Miguel, Bel Mondo), 5 quartiers.
+  Réseaux sociaux lancés (Apify, un passage). Écartés car fermés : téléphérique (jusqu'en 2027), musée Sorolla
+  (travaux). Photo du hammam : celui de Málaga, même enseigne (« Photo d'illustration »).
+  À vérifier (`a_verifier`) : Almudena, Goya, CaixaForum, rooftop du Riu, Cibeles, flamenco, hammam, matchs,
+  excursions, zoo, jardin botanique. Restaurants : prix et délais estimés.
 - ✅ (22/10/2026) **Fiches des 7 villes qui n'en avaient pas** : Caen, Dubrovnik, La Rochelle, Louxor,
   Montréal, Pau, Stockholm (photo libre Commons, texte vendeur, météo). 95 fiches en tout.
 

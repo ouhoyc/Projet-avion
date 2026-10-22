@@ -177,6 +177,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Rome (oct. 2026) : l'API Commons `action=query&prop=imageinfo&iiprop=extmetadata` répond (auteur, licence,
   vignette 960 px) ; pour une photo d'œuvre d'art, le photographe est dans `Credit` (« Own work … »), pas `Artist`.
   Wanderlog Rome : départ de la liste `geoCategory/72433`.
+  Madrid (oct. 2026) : `upload.wikimedia.org` (original) répondait « 429 » ; ce qui marche : la page `File:`
+  pour l'auteur et la licence, puis la vignette `thumb.wikimedia.org/wikipedia/commons/thumb/x/xy/NOM/960px-NOM`
+  (ou `commons.wikimedia.org/w/thumb.php?f=NOM&w=960` pour les petits fichiers), 4 s entre deux.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
