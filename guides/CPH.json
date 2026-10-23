@@ -1,0 +1,1775 @@
+{
+ "city_code": "CPH",
+ "statut": "vérifié en autonomie, prix relevés le 22/10/2026 (1 € ≈ 7,46 DKK)",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "tivoli",
+   "nom": "Jardins de Tivoli",
+   "emoji": "🎡",
+   "type": "sortir",
+   "quartier": "Vesterbro (gare centrale)",
+   "lat": 55.673416,
+   "lng": 12.569182,
+   "prix": 26.8,
+   "prix_detail": [
+    [
+     "Entrée (adulte, dès 8 ans)",
+     "dès 200 DKK ≈ 27 €"
+    ],
+    [
+     "Enfants 3 à 7 ans",
+     "dès 100 DKK ≈ 13,50 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Bracelet manèges illimités",
+     "dès 199 DKK ≈ 27 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 26.8,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      7,
+      13.4
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille ; le prix change selon le jour",
+   "duree": "3 h à une soirée",
+   "moment": "Le soir, quand les milliers d'ampoules s'allument ; ouvert pour Halloween jusqu'au 1er novembre puis pour Noël du 13 novembre au 3 janvier",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le parc d'attractions qui a inspiré Walt Disney, ouvert en 1843 en plein centre-ville. Montagnes russes en bois de 1914, pagode chinoise, jardins fleuris et, à la nuit tombée, des milliers d'ampoules qui s'allument : magique même sans faire un seul manège.",
+   "site_officiel": "https://www.tivoli.dk/en",
+   "note": "Le parc ferme entre les saisons : fermé du 2 au 12 novembre 2026 et du 4 janvier au 18 mars 2027. Les manèges se paient en plus de l'entrée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Johan Wessman / News Oresund",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATivoli_K%C3%B8benhavn_20121130_0564F_%288233474507%29.jpg",
+    "src": "img/activites/CPH/tivoli.jpg"
+   }
+  },
+  {
+   "id": "nyhavn",
+   "nom": "Nyhavn",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Nyhavn",
+   "lat": 55.679736,
+   "lng": 12.590886,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade le long du canal",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Tôt le matin pour la photo sans la foule, ou en fin de journée pour les terrasses",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La carte postale de Copenhague : un canal du XVIIe siècle bordé de maisons ocre, rouges et bleues et de vieux voiliers en bois. Hans Christian Andersen a vécu au n° 20, puis au 67 et au 18. Une bière en terrasse au soleil, et vous comprendrez le « hygge ».",
+   "site_officiel": "https://www.visitcopenhagen.com/copenhagen/planning/nyhavn-gdk474735",
+   "note": "Les terrasses du quai ensoleillé sont chères : pour manger, mieux vaut s'éloigner de quelques rues.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Moahim",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2018_-_Nyhavn_on_sunset.jpg",
+    "src": "img/activites/CPH/nyhavn.jpg"
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière sur les canaux",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Nyhavn et Gammel Strand",
+   "lat": 55.676991,
+   "lng": 12.582081,
+   "prix": 20.0,
+   "prix_detail": [
+    [
+     "Croisière classique Stromma (1 h)",
+     "dès 149 DKK ≈ 20 €"
+    ],
+    [
+     "Enfants 6 à 15 ans",
+     "moitié prix"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Bateaux Netto (avril à octobre)",
+     "≈ 60 DKK ≈ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20.0,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      15,
+      10.1
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (moins cher au moins 3 jours à l'avance)",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi ; prenez une veste, même l'été, le vent souffle sur l'eau",
+   "enfants": true,
+   "texte": "Le meilleur moyen de comprendre la ville, née d'un port : en une heure, le bateau découvert passe sous des ponts si bas qu'il faut baisser la tête, longe l'Opéra, la Petite Sirène, Christianshavn et ses péniches, puis revient à Nyhavn.",
+   "site_officiel": "https://www.stromma.com/en-dk/copenhagen/sightseeing/sightseeing-by-boat/",
+   "note": "D'octobre à début janvier, seules les croisières avec guide en direct partent de Nyhavn.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Leif Jørgensen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACanal_Tours_at_Christianshavn.jpg",
+    "src": "img/activites/CPH/croisiere.jpg"
+   }
+  },
+  {
+   "id": "kastellet",
+   "nom": "Kastellet et la Petite Sirène",
+   "emoji": "🧜",
+   "type": "balade",
+   "quartier": "Langelinie",
+   "lat": 55.691383,
+   "lng": 12.593745,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Citadelle et statue",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Tôt le matin, avant l'arrivée des cars de touristes à la Petite Sirène",
+   "enfants": true,
+   "texte": "Une citadelle en étoile du XVIIe siècle, toujours militaire, que l'on traverse sur ses remparts herbeux, entre casernes rouges et moulin à vent. Juste derrière, sur son rocher au bord de l'eau, la Petite Sirène d'Andersen : plus petite qu'on l'imagine, mais incontournable.",
+   "site_officiel": "https://www.visitcopenhagen.com/copenhagen/planning/kastellet-gdk416313",
+   "note": "La statue mesure 1,25 m et attire la foule : allez-y en passant, en combinant avec Kastellet et Amalienborg.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pudelek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKastellet%2C_Copenhagen_%28by_Pudelek%29_02.JPG",
+    "src": "img/activites/CPH/kastellet.jpg"
+   }
+  },
+  {
+   "id": "rosenborg",
+   "nom": "Château de Rosenborg",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Jardin du Roi",
+   "lat": 55.685693,
+   "lng": 12.57742,
+   "prix": 18.8,
+   "prix_detail": [
+    [
+     "Entrée (en ligne)",
+     "140 DKK ≈ 19 €"
+    ],
+    [
+     "Sur place",
+     "150 DKK ≈ 20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass 3 palais (Rosenborg, Amalienborg, Christiansborg)",
+     "245 DKK ≈ 33 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet à heure fixe en ligne, la veille suffit hors été",
+   "duree": "1 h 30",
+   "moment": "À l'ouverture (10 h), puis une promenade dans le Jardin du Roi",
+   "enfants": true,
+   "texte": "Le petit château Renaissance de Christian IV, tout en briques rouges et flèches de cuivre, au milieu du plus vieux jardin royal de la ville. Au sous-sol, dans la salle forte, les joyaux de la Couronne danoise brillent sous verre : couronnes, sceptres et épées d'apparat.",
+   "site_officiel": "https://denkongeligesamling.dk/en/rosenborg-castle/",
+   "note": "Grands sacs et sacs à dos interdits dans le château : consigne gratuite à l'entrée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARosenborg_Slot%2C_hedges.jpg",
+    "src": "img/activites/CPH/rosenborg.jpg"
+   }
+  },
+  {
+   "id": "amalienborg",
+   "nom": "Amalienborg et la relève de la garde",
+   "emoji": "💂",
+   "type": "culture",
+   "quartier": "Frederiksstaden",
+   "lat": 55.683972,
+   "lng": 12.593221,
+   "prix": 16.8,
+   "prix_detail": [
+    [
+     "Place et relève de la garde (12 h)",
+     "gratuit"
+    ],
+    [
+     "Musée d'Amalienborg (en ligne)",
+     "125 DKK ≈ 17 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "À midi, pour la relève de la garde (départ du Rosenborg à 11 h 30)",
+   "enfants": true,
+   "texte": "Quatre palais rococo identiques autour d'une place octogonale : c'est ici que vit la famille royale. Chaque jour à midi, la Garde royale arrive en bonnets à poils et uniformes bleus, au son des tambours. Le musée ouvre les appartements privés des rois du XIXe et XXe siècle.",
+   "site_officiel": "https://denkongeligesamling.dk/en/amalienborg-museum/",
+   "note": "Depuis la place, la vue file jusqu'à l'église de Marbre et son grand dôme vert, à deux pas.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADenmark_0104_-_Amalienborg_Palace_%283990546376%29.jpg",
+    "src": "img/activites/CPH/amalienborg.jpg"
+   }
+  },
+  {
+   "id": "christiansborg",
+   "nom": "Palais de Christiansborg",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Slotsholmen",
+   "lat": 55.675651,
+   "lng": 12.580041,
+   "prix": 28.8,
+   "prix_detail": [
+    [
+     "Billet palais : 4 lieux (en ligne)",
+     "215 DKK ≈ 29 €"
+    ],
+    [
+     "Salles de réception seules",
+     "140 DKK ≈ 19 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Tour du palais (106 m)",
+     "gratuit, créneau à réserver"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 28.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne ; pour la tour, créneau gratuit à réserver",
+   "duree": "2 h",
+   "moment": "Le matin pour les salons, puis la tour en fin de journée (fermée le lundi)",
+   "enfants": true,
+   "texte": "Parlement, Cour suprême et salons royaux sous le même toit : un cas unique au monde. Les salles de réception, avec leurs tapisseries modernes qui racontent mille ans d'histoire danoise, les ruines du château médiéval sous vos pieds, et la plus haute tour de la ville, gratuite, pour la vue.",
+   "site_officiel": "https://denkongeligesamling.dk/en/christiansborg-palace/",
+   "note": "Les salons peuvent fermer sans prévenir lors des réceptions officielles : vérifiez les horaires de la semaine.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Moahim",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2018_-_Christiansborg_from_the_Marble_Bridge.jpg",
+    "src": "img/activites/CPH/christiansborg.jpg"
+   }
+  },
+  {
+   "id": "rundetarn",
+   "nom": "Tour Ronde (Rundetårn)",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Quartier latin",
+   "lat": 55.681358,
+   "lng": 12.575794,
+   "prix": 8.0,
+   "prix_detail": [
+    [
+     "Entrée adulte",
+     "60 DKK ≈ 8 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8.0,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, pour la lumière sur les toits",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un observatoire de 1642 où l'on monte non pas par des marches, mais par une rampe pavée qui fait sept tours et demi, assez large pour un carrosse. En haut, une vue à 360° sur les toits de cuivre vert et les flèches de la vieille ville.",
+   "site_officiel": "https://www.rundetaarn.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marek Ślusarczyk (Tupungato)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A002_Copenhagen_landmark_-_The_Round_Tower_%28Rundetaarn%29_spiral_ramp.jpg",
+    "src": "img/activites/CPH/rundetarn.jpg"
+   }
+  },
+  {
+   "id": "vor-frelsers",
+   "nom": "Flèche de l'église du Sauveur",
+   "emoji": "🌀",
+   "type": "vue",
+   "quartier": "Christianshavn",
+   "lat": 55.672908,
+   "lng": 12.594252,
+   "prix": 9.4,
+   "prix_detail": [
+    [
+     "Montée de la flèche (adulte)",
+     "70 DKK ≈ 9,50 €"
+    ],
+    [
+     "Enfant",
+     "20 DKK ≈ 2,70 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9.4,
+    "enfants": [
+     [
+      14,
+      2.7
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau à heure fixe en ligne, souvent complet l'après-midi l'été",
+   "duree": "1 h",
+   "moment": "Par temps calme et sec (la flèche ferme en cas de pluie ou de vent fort) ; fermée tout le mois de janvier",
+   "enfants": false,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une flèche baroque noire et or, tournée en tire-bouchon, avec un escalier extérieur qui s'enroule autour jusqu'au sommet, à 90 mètres. Les dernières marches se rétrécissent jusqu'à disparaître : le frisson garanti, et la plus belle vue sur Christiansborg et le port.",
+   "site_officiel": "https://www.vorfrelserskirke.dk/en",
+   "note": "400 marches, dont les 150 dernières à l'extérieur : déconseillé si vous avez le vertige, et pas en poussette.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKopenhagen_%28DK%29%2C_Vor_Frelsers_Kirk_--_2017_--_1640.jpg",
+    "src": "img/activites/CPH/vor-frelsers.jpg"
+   }
+  },
+  {
+   "id": "christiania",
+   "nom": "Christiania",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Christianshavn",
+   "lat": 55.677211,
+   "lng": 12.610452,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En journée ; prolongez par les maisons de bois au bord du lac",
+   "enfants": true,
+   "texte": "Une ancienne caserne occupée depuis 1971 par des hippies, devenue « ville libre » avec ses propres règles. Maisons bricolées, fresques géantes, ateliers d'artistes et sentiers au bord de l'eau : un autre Copenhague, bohème et un peu frondeur, à dix minutes de Nyhavn.",
+   "site_officiel": "https://www.christiania.org/",
+   "note": "Les photos sont mal vues dans la rue principale (Pusher Street, fermée en 2024) : rangez votre téléphone, ne courez pas, et restez sur les chemins.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Superchilum",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChristiania_%28Copenhagen%29_08.jpg",
+    "src": "img/activites/CPH/christiania.jpg"
+   }
+  },
+  {
+   "id": "glyptotek",
+   "nom": "Ny Carlsberg Glyptotek",
+   "emoji": "🗿",
+   "type": "culture",
+   "quartier": "Centre (Tivoli)",
+   "lat": 55.672534,
+   "lng": 12.571766,
+   "prix": 18.1,
+   "prix_detail": [
+    [
+     "Entrée (en ligne)",
+     "135 DKK ≈ 18 €"
+    ],
+    [
+     "Sur place",
+     "150 DKK ≈ 20 €"
+    ],
+    [
+     "Moins de 27 ans",
+     "120 DKK ≈ 16 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Dernier mercredi du mois",
+     "gratuit pour tous"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.1,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le jeudi soir (ouvert jusqu'à 21 h) ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le musée offert à la ville par le brasseur de Carlsberg : sculptures romaines et égyptiennes, Rodin et Degas, et surtout un jardin d'hiver sous une coupole de verre, avec palmiers et fontaine. Le café sous la verrière est l'un des plus beaux de la ville.",
+   "site_officiel": "https://www.glyptoteket.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daderot",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWinter_garden_-_Ny_Carlsberg_Glyptotek_-_Copenhagen_-_DSC09235.JPG",
+    "src": "img/activites/CPH/glyptotek.jpg"
+   }
+  },
+  {
+   "id": "smk",
+   "nom": "SMK, Galerie nationale",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Jardin botanique",
+   "lat": 55.688764,
+   "lng": 12.57837,
+   "prix": 18.8,
+   "prix_detail": [
+    [
+     "Entrée adulte",
+     "140 DKK ≈ 19 €"
+    ],
+    [
+     "Moins de 27 ans",
+     "95 DKK ≈ 13 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le mercredi soir (ouvert jusqu'à 20 h) ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le grand musée d'art du Danemark : l'âge d'or danois, des maîtres flamands, Matisse et les modernes, dans un palais du XIXe siècle relié par une rue de verre à une aile contemporaine. L'atelier gratuit pour les enfants y est une vraie trouvaille.",
+   "site_officiel": "https://www.smk.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jiří Komárek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStatens_Museum_for_Kunst%2C_K%C3%B8benhavn.jpg",
+    "src": "img/activites/CPH/smk.jpg"
+   }
+  },
+  {
+   "id": "nationalmuseet",
+   "nom": "Musée national",
+   "emoji": "🛡️",
+   "type": "culture",
+   "quartier": "Centre",
+   "lat": 55.67471,
+   "lng": 12.574355,
+   "prix": 18.1,
+   "prix_detail": [
+    [
+     "Entrée (en ligne)",
+     "135 DKK ≈ 18 €"
+    ],
+    [
+     "Sur place",
+     "150 DKK ≈ 20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.1,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h à 3 h",
+   "moment": "Un jour de pluie ; ouvert tous les jours de 10 h à 17 h",
+   "enfants": true,
+   "texte": "Les Vikings comme vous ne les avez jamais vus : épées, bijoux en or, pierres runiques, et le Char solaire de Trundholm, vieux de 3 400 ans. Le billet reste valable un an. Le musée des enfants fait essayer casques et armures.",
+   "site_officiel": "https://en.natmus.dk/museums-and-palaces/the-national-museum-of-denmark/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANational_Museum_of_Denmark%2C_Copenhagen_%283%29_%2836267234721%29.jpg",
+    "src": "img/activites/CPH/nationalmuseet.jpg"
+   }
+  },
+  {
+   "id": "designmuseum",
+   "nom": "Designmuseum Danmark",
+   "emoji": "🪑",
+   "type": "culture",
+   "quartier": "Frederiksstaden",
+   "lat": 55.686374,
+   "lng": 12.594408,
+   "prix": 18.8,
+   "prix_detail": [
+    [
+     "Entrée adulte",
+     "140 DKK ≈ 19 €"
+    ],
+    [
+     "Moins de 27 ans",
+     "90 DKK ≈ 12 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Le jeudi soir (ouvert jusqu'à 20 h)",
+   "enfants": true,
+   "texte": "Le pays de la chaise culte : un mur entier de chaises danoises, de la « Fourmi » d'Arne Jacobsen aux modèles de Wegner, dans un ancien hôpital rococo avec un jardin intérieur paisible. Pour comprendre pourquoi le design scandinave est partout chez vous.",
+   "site_officiel": "https://designmuseum.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rob Deutscher from Melbourne, Australia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADesignmuseum_Danmark_-_cafe.jpg",
+    "src": "img/activites/CPH/designmuseum.jpg"
+   }
+  },
+  {
+   "id": "louisiana",
+   "nom": "Musée Louisiana",
+   "emoji": "🌊",
+   "type": "nature",
+   "quartier": "Humlebæk (35 km au nord)",
+   "lat": 55.969352,
+   "lng": 12.543157,
+   "prix": 19.4,
+   "prix_detail": [
+    [
+     "Entrée adulte",
+     "145 DKK ≈ 19,50 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Train depuis la gare centrale (≈ 40 min)",
+     "≈ 13 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19.4,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une demi-journée",
+   "moment": "En semaine (ouvert jusqu'à 22 h du mardi au vendredi) ; fermé le lundi",
+   "enfants": true,
+   "texte": "Sans doute le plus beau musée d'art moderne d'Europe : des galeries de verre posées dans un parc qui descend jusqu'à la mer, avec des sculptures de Calder et Giacometti face à la côte suédoise. Le déjeuner sur la terrasse du café vaut le voyage à lui seul.",
+   "site_officiel": "https://louisiana.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "JRodSilva",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AK%C3%B8benhavn_Louisiana_-_Museum_for_Moderne_Kunst_%28Museum_of_Modern_Art%29.jpg",
+    "src": "img/activites/CPH/louisiana.jpg"
+   }
+  },
+  {
+   "id": "kronborg",
+   "nom": "Château de Kronborg (Hamlet)",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Helsingør (45 km au nord)",
+   "lat": 56.039052,
+   "lng": 12.621207,
+   "prix": 18.1,
+   "prix_detail": [
+    [
+     "Entrée (en ligne)",
+     "135 DKK ≈ 18 €"
+    ],
+    [
+     "Sur place",
+     "150 DKK ≈ 20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Train depuis la gare centrale (≈ 45 min)",
+     "≈ 15 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.1,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une demi-journée",
+   "moment": "Combinez avec le musée Louisiana, sur la même ligne de train",
+   "enfants": true,
+   "texte": "Le château d'Elseneur, où Shakespeare a placé Hamlet : une forteresse Renaissance classée par l'Unesco, posée sur le détroit face à la Suède. Salle de bal immense, casemates souterraines où dort le héros légendaire Holger le Danois, et comédiens qui jouent Hamlet dans les salles.",
+   "site_officiel": "https://www.kronborg.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ArildV",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKronborg_April_2026_06.jpg",
+    "src": "img/activites/CPH/kronborg.jpg"
+   }
+  },
+  {
+   "id": "copenhill",
+   "nom": "CopenHill",
+   "emoji": "⛷️",
+   "type": "vue",
+   "quartier": "Amager",
+   "lat": 55.684742,
+   "lng": 12.620634,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Sentier jusqu'au toit (85 m)",
+     "gratuit"
+    ],
+    [
+     "Ski ou snowboard (1 h)",
+     "≈ 150 DKK ≈ 20 € + carte et assurance"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, depuis le bar du sommet",
+   "enfants": true,
+   "texte": "Une usine qui transforme les déchets en chauffage… avec une piste de ski toute l'année sur son toit ! Montez à pied par le sentier vert ou en ascenseur jusqu'à 85 mètres, avec vue sur la ville, le port et le pont vers la Suède. Une idée très danoise.",
+   "site_officiel": "https://www.copenhill.dk/en",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAmager_Bakke_Copenhagen_1.jpg",
+    "src": "img/activites/CPH/copenhill.jpg"
+   }
+  },
+  {
+   "id": "bains",
+   "nom": "Bain du port d'Islands Brygge",
+   "emoji": "🏊",
+   "type": "bains",
+   "quartier": "Islands Brygge",
+   "lat": 55.668522,
+   "lng": 12.577507,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Bassins dans le port",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "De juin à août, quand les maîtres-nageurs surveillent les bassins ; pique-nique sur la pelouse",
+   "enfants": true,
+   "texte": "L'eau du port est si propre qu'on s'y baigne en plein centre-ville ! Plongeoirs, bassins pour enfants et grande pelouse où tout Copenhague se retrouve dès qu'il fait beau. L'expérience la plus locale qui soit, et elle est gratuite.",
+   "site_officiel": "https://www.visitcopenhagen.com/copenhagen/planning/islands-brygge-harbour-bath-gdk410731",
+   "note": "Bain surveillé seulement en été ; hors saison, les Danois s'y baignent quand même, en sortant du sauna.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jacob Friis Saxberg from Denmark",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIslandsbrygge_waterfront.jpg",
+    "src": "img/activites/CPH/bains.jpg"
+   }
+  },
+  {
+   "id": "sauna",
+   "nom": "Sauna et bain froid à CopenHot",
+   "emoji": "🧖",
+   "type": "bains",
+   "quartier": "Refshaleøen",
+   "lat": 55.690754,
+   "lng": 12.623939,
+   "prix": 46.9,
+   "prix_detail": [
+    [
+     "Accès saunas et bains chauds partagés (« HotDays »)",
+     "350 DKK ≈ 47 €"
+    ],
+    [
+     "Séance de sauna « gus » (rituel aux huiles)",
+     "195 DKK ≈ 26 €"
+    ],
+    [
+     "Sauna privatisé (jusqu'à 8)",
+     "dès 700 DKK ≈ 94 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 46.9,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "en ligne quelques jours avant, surtout le week-end",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin de journée, de l'automne au printemps : le plongeon dans le port n'en est que meilleur",
+   "enfants": false,
+   "texte": "Le grand rituel danois : saunas au feu de bois et bains chauds posés au bord du port, puis un plongeon dans l'eau froide. Sur l'ancien chantier naval de Refshaleøen, face à la ville, c'est la détente la plus « scandinave » que vous puissiez offrir à votre séjour.",
+   "site_officiel": "https://copenhot.com/en/little-siberia",
+   "note": "Serviette et vestiaire chauffé compris ; apportez votre maillot.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARefshale%C3%B8en%2C_Copenhagen%2C_20220618_1507_7234.jpg",
+    "src": "img/activites/CPH/sauna.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "amager",
+   "nom": "Plage d'Amager Strand",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Amager",
+   "lat": 55.656575,
+   "lng": 12.645257,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Métro M2 jusqu'à Amager Strand",
+     "≈ 4 € le trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "De juin à août ; le pavillon de bain de Kastrup (« l'escargot ») est à deux stations",
+   "enfants": true,
+   "texte": "Une plage de sable de 4 km à 15 minutes de métro du centre, avec lagune peu profonde pour les enfants, pontons et vue sur les éoliennes de l'Øresund. Les Copenhaguois y viennent nager, pique-niquer et regarder le coucher du soleil.",
+   "site_officiel": "https://www.visitcopenhagen.com/copenhagen/planning/amager-strandpark-gdk414113",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Casey Hugelfink from Munich",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAmager_Strandpark_-_%C3%98resund_Bridge.jpg",
+    "src": "img/activites/CPH/amager.jpg"
+   }
+  },
+  {
+   "id": "velo",
+   "nom": "La ville à vélo",
+   "emoji": "🚲",
+   "type": "balade",
+   "quartier": "Toute la ville",
+   "lat": 55.676062,
+   "lng": 12.568909,
+   "prix": 13.3,
+   "prix_detail": [
+    [
+     "Vélo en libre-service (24 h)",
+     "≈ 99 DKK ≈ 13 €"
+    ],
+    [
+     "Vélo électrique (24 h)",
+     "≈ 195 DKK ≈ 26 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13.3,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Une demi-journée",
+   "moment": "Évitez 8 h-9 h et 16 h-17 h 30 : les pistes deviennent des autoroutes",
+   "enfants": false,
+   "texte": "Ici, il y a plus de vélos que d'habitants. Pistes larges partout, ponts réservés aux cyclistes comme le Cykelslangen orange qui serpente au-dessus du port : à vélo, vous traversez Nørrebro, les lacs et Christianshavn comme un vrai Copenhaguois.",
+   "site_officiel": "https://www.visitcopenhagen.com/copenhagen/activities/cycling-copenhagen",
+   "note": "On roule à droite, on lève la main avant de s'arrêter, et on ne s'arrête jamais au milieu d'une piste pour une photo.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tony Webster from Portland, Oregon, United States",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHolmens_Kanal_Cyclists_%2815325678721%29.jpg",
+    "src": "img/activites/CPH/velo.jpg"
+   }
+  },
+  {
+   "id": "goboat",
+   "nom": "Piloter son bateau (GoBoat)",
+   "emoji": "🚤",
+   "type": "balade",
+   "quartier": "Islands Brygge",
+   "lat": 55.669112,
+   "lng": 12.578555,
+   "prix": 18.4,
+   "prix_detail": [
+    [
+     "Bateau solaire 1 h (8 places, sans permis)",
+     "dès 549 DKK ≈ 74 €"
+    ],
+    [
+     "Soit à 4 personnes",
+     "≈ 18 € par personne"
+    ],
+    [
+     "Heures creuses",
+     "dès 349 DKK ≈ 47 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.4,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant pour les beaux jours",
+   "duree": "1 h à 2 h",
+   "moment": "Par une belle fin d'après-midi, avec un pique-nique à bord",
+   "enfants": true,
+   "texte": "Devenez capitaine pour une heure : un petit bateau électrique avec une table de pique-nique au milieu, sans permis, pour glisser à votre rythme sur les canaux de Christianshavn et dans le port. Le moment préféré des groupes d'amis et des familles.",
+   "site_officiel": "https://goboat.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Leif Jørgensen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGoBoat%2C_Islands_Brygge_02.jpg",
+    "src": "img/activites/CPH/goboat.jpg"
+   }
+  },
+  {
+   "id": "blaa-planet",
+   "nom": "Den Blå Planet (aquarium)",
+   "emoji": "🐠",
+   "type": "nature",
+   "quartier": "Kastrup (près de l'aéroport)",
+   "lat": 55.638143,
+   "lng": 12.6561,
+   "prix": 29.4,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     "219 DKK ≈ 29,50 €"
+    ],
+    [
+     "Enfants 3 à 11 ans (en ligne)",
+     "116 DKK ≈ 15,50 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Week-end et vacances",
+     "≈ 10 DKK de plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29.4,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      15.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet à créneau horaire en ligne (30 DKK de moins qu'au guichet)",
+   "duree": "2 h 30",
+   "moment": "En semaine, à l'ouverture ; idéal le jour du départ, l'aéroport est à côté",
+   "enfants": true,
+   "texte": "Le plus grand aquarium d'Europe du Nord, dans un bâtiment en forme de tourbillon d'eau. Requins-marteaux, loutres de mer, forêt tropicale avec piranhas, et un tunnel où les poissons nagent au-dessus de vous.",
+   "site_officiel": "https://denblaaplanet.dk/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Doyle of London",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADen_Bl%C3%A5_Planet%2C_Kastrup_%28East_Face_-_02%29.jpg",
+    "src": "img/activites/CPH/blaa-planet.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo de Copenhague",
+   "emoji": "🐼",
+   "type": "nature",
+   "quartier": "Frederiksberg",
+   "lat": 55.672943,
+   "lng": 12.520971,
+   "prix": 34.9,
+   "prix_detail": [
+    [
+     "Adulte (mars à octobre)",
+     "260 DKK ≈ 35 €"
+    ],
+    [
+     "Enfants 3 à 14 ans",
+     "160 DKK ≈ 21,50 €"
+    ],
+    [
+     "De novembre à février",
+     "230 DKK et 130 DKK"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 34.9,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      14,
+      21.4
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne pour passer devant la file",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, quand les animaux sont actifs",
+   "enfants": true,
+   "texte": "L'un des plus vieux zoos d'Europe : deux pandas géants dans un jardin dessiné en forme de yin et yang, une savane avec girafes et zèbres, une maison des éléphants signée Norman Foster, et la tour en bois de 1905 pour voir toute la ville.",
+   "site_officiel": "https://www.zoo.dk/en",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daderot",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGiraffes_-_Copenhagen_Zoo_-_DSC09012.JPG",
+    "src": "img/activites/CPH/zoo.jpg"
+   }
+  },
+  {
+   "id": "botanique",
+   "nom": "Jardin botanique et Palmehus",
+   "emoji": "🌴",
+   "type": "nature",
+   "quartier": "Nørreport",
+   "lat": 55.686909,
+   "lng": 12.573983,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardin",
+     "gratuit"
+    ],
+    [
+     "Palmehus et maison des papillons",
+     "billet dès 40 DKK ≈ 5,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Un jour gris : la serre tropicale réchauffe ; fermée le lundi",
+   "enfants": true,
+   "texte": "Un jardin de 10 hectares au cœur de la ville, avec un lac et une grande serre de verre et de fer forgé de 1874, où l'escalier en colimaçon monte jusqu'aux cimes des palmiers. Le décor préféré des photographes de Copenhague.",
+   "site_officiel": "https://snm.ku.dk/english/visit-the-botanical-garden/",
+   "note": "Le Palmehus est en travaux : certaines parties sont fermées par moments (le reste du jardin est ouvert).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daderot",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalm_House_%28University_of_Copenhagen_Botanical_Garden%29_-_DSC07445.JPG",
+    "src": "img/activites/CPH/botanique.jpg"
+   }
+  },
+  {
+   "id": "carlsberg",
+   "nom": "Home of Carlsberg",
+   "emoji": "🍺",
+   "type": "sortir",
+   "quartier": "Carlsberg Byen",
+   "lat": 55.667316,
+   "lng": 12.532196,
+   "prix": 30.2,
+   "prix_detail": [
+    [
+     "Exposition + une bière (ou boisson)",
+     "225 DKK ≈ 30 €"
+    ],
+    [
+     "6 à 17 ans",
+     "155 DKK ≈ 21 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Dégustation de bières",
+     "+155 DKK ≈ 21 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30.2,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      20.8
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille ; ouvert tous les jours de 10 h à 18 h",
+   "duree": "2 h",
+   "moment": "L'après-midi, pour finir au bar de la brasserie",
+   "enfants": true,
+   "texte": "La brasserie historique de Carlsberg, où la bière blonde moderne a été mise au point. Porte monumentale gardée par quatre éléphants de granit, la plus grande collection de bouteilles de bière au monde, écuries des chevaux de trait, et une pression offerte à la fin.",
+   "site_officiel": "https://homeofcarlsberg.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Troels Dejgaard  Hansen from Copenhagen, Denmark",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AElefantporten_%28Carlsberg%29.jpg",
+    "src": "img/activites/CPH/carlsberg.jpg"
+   }
+  },
+  {
+   "id": "fck",
+   "nom": "Match du FC Copenhague",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Østerbro (Parken)",
+   "lat": 55.702704,
+   "lng": 12.572264,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Place en tribune (prix estimé)",
+     "≈ 200 à 400 DKK ≈ 25 à 55 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "sur le site officiel du club dès la mise en vente ; les matchs contre Brøndby affichent complet",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pour l'ambiance du stade national",
+   "enfants": true,
+   "club": "FC København",
+   "texte": "Le club le plus titré du Danemark joue au Parken, le stade national de 38 000 places. Chants des supporters en blanc et bleu, bière danoise et, si vous tombez dessus, le derby contre Brøndby : l'ambiance la plus chaude de Scandinavie.",
+   "site_officiel": "https://www.fck.dk/billetter",
+   "note": "Achetez uniquement sur la billetterie officielle du club (billet.fck.dk) : les revendeurs prennent de grosses marges.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Guillaume Baviere from Copenhagen, Denmark",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParken_2014-09-21_%2815456993926%29.jpg",
+    "src": "img/activites/CPH/fck.jpg"
+   }
+  },
+  {
+   "id": "marmorkirken",
+   "nom": "Église de Marbre et son dôme",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Frederiksstaden",
+   "lat": 55.684974,
+   "lng": 12.589552,
+   "prix": 6.7,
+   "prix_detail": [
+    [
+     "Église",
+     "gratuit"
+    ],
+    [
+     "Montée au dôme (sam. et dim. à 13 h 30)",
+     "50 DKK ≈ 6,70 €"
+    ],
+    [
+     "Moins de 13 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6.7,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets vendus sur place seulement, le jour même",
+   "duree": "45 min",
+   "moment": "Le week-end à 13 h 30 pour le dôme, en combinant avec la relève de la garde à Amalienborg à midi",
+   "enfants": true,
+   "texte": "Le plus grand dôme de Scandinavie, vert-de-gris, posé dans l'axe du palais d'Amalienborg. L'intérieur est gratuit et lumineux ; le week-end, une visite guidée vous fait monter par les combles jusqu'à la galerie extérieure, avec une vue plongeante sur les palais et le port.",
+   "site_officiel": "https://www.marmorkirken.dk/visitthedome",
+   "note": "La montée au dôme est annulée en cas d'office, de concert ou de mauvais temps.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Christoph Strässler from Oberdorf BL, Schweiz",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFrederiks_Kirke%2C_Copenhagen%2C_Denmark_%2854067751720%29.jpg",
+    "src": "img/activites/CPH/marmorkirken.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "indre-by",
+   "nom": "Indre By (vieille ville)",
+   "lat": 55.6795,
+   "lng": 12.577,
+   "texte": "Le cœur historique, entre Strøget, la Tour Ronde et Christiansborg : tout se fait à pied, musées et restaurants compris. Idéal pour un premier séjour, mais les hôtels y sont les plus chers de la ville."
+  },
+  {
+   "id": "nyhavn",
+   "nom": "Nyhavn et Frederiksstaden",
+   "lat": 55.6825,
+   "lng": 12.5915,
+   "texte": "Le Copenhague des cartes postales et des palais : Nyhavn, Amalienborg, l'église de Marbre, et la Petite Sirène à 15 minutes à pied. Élégant et calme le soir, à deux pas des bateaux."
+  },
+  {
+   "id": "christianshavn",
+   "nom": "Christianshavn",
+   "lat": 55.6735,
+   "lng": 12.5925,
+   "texte": "De l'autre côté du pont, une petite Amsterdam de canaux, de péniches et de maisons anciennes, avec Christiania et l'église du Sauveur. Plus paisible et plus local, à 5 minutes de métro du centre."
+  },
+  {
+   "id": "vesterbro",
+   "nom": "Vesterbro",
+   "lat": 55.67,
+   "lng": 12.556,
+   "texte": "Ancien quartier ouvrier devenu le plus branché de la ville : cafés, boutiques de créateurs et restaurants de Kødbyen, l'ancien quartier des abattoirs. Pratique : la gare centrale et Tivoli sont au bout de la rue, et les prix y sont plus doux."
+  },
+  {
+   "id": "norrebro",
+   "nom": "Nørrebro et les lacs",
+   "lat": 55.689,
+   "lng": 12.556,
+   "texte": "Le quartier multiculturel et jeune, autour de Jægersborggade et des lacs où l'on court au lever du soleil. Bars, friperies et petites tables à prix doux ; le centre est à 15 minutes à pied ou à vélo."
+  }
+ ],
+ "hotel_petit_prix_max": 150,
+ "restaurants": [
+  {
+   "id": "torvehallerne",
+   "nom": "Torvehallerne",
+   "emoji": "🥖",
+   "gamme": "petit",
+   "genre": "Marché couvert gourmand",
+   "quartier": "Nørreport",
+   "adresse": "Frederiksborggade 21, 1362 København",
+   "lat": 55.684319,
+   "lng": 12.569502,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Deux halles de verre et d'acier avec une soixantaine d'étals : smørrebrød, porridge, poisson fumé, café de spécialité, fromages et pâtisseries. On pioche de stand en stand et on mange au comptoir : le meilleur résumé de la cuisine danoise d'aujourd'hui.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; évitez 12 h-13 h le samedi",
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATorvehallerne_%2846563862204%29.jpg",
+    "src": "img/restos/CPH/torvehallerne.jpg"
+   }
+  },
+  {
+   "id": "juno",
+   "nom": "Juno the Bakery",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie (brioches à la cardamome)",
+   "quartier": "Østerbro",
+   "adresse": "Århusgade 48, 2100 København",
+   "lat": 55.706159,
+   "lng": 12.581694,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La file sur le trottoir dit tout : la brioche à la cardamome de cette petite boulangerie, tenue par un ancien du Noma, est souvent citée comme la meilleure de la ville. Pâte feuilletée, sucre et épices : à manger tiède, sur le banc d'en face.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 9 h 30 le week-end, les brioches partent vite",
+   "photo": {
+    "auteur": "W.carter",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACardamom_buns.jpg",
+    "src": "img/restos/CPH/juno.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "doep",
+   "nom": "DØP",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Hot-dog danois bio",
+   "quartier": "Strøget",
+   "adresse": "Amagertorv 31, 1160 København",
+   "lat": 55.67869,
+   "lng": 12.57784,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Le hot-dog est un rite danois, et cette charrette devant l'église du Saint-Esprit en fait la version bio : saucisse de qualité, pain complet, oignons frits et rémoulade maison. Le déjeuner le plus rapide et le plus copenhaguois de votre séjour.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, on mange debout",
+   "photo": {
+    "auteur": "Ian Watson",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AP%C3%B8lsevogn_%28hot_dog_stand%29_in_Copenhagen%2C_1988.jpg",
+    "src": "img/restos/CPH/doep.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gasoline",
+   "nom": "Gasoline Grill",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "Kongens Nytorv",
+   "adresse": "Landgreven 10, 1301 København",
+   "lat": 55.683238,
+   "lng": 12.585147,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des burgers servis… dans une vraie station-service, entre les pompes à essence. Bœuf bio haché le jour même, cheddar fondu, pain moelleux : simple, parfait, et ouvert jusqu'à épuisement du stock, ce qui arrive souvent avant la fermeture.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez tôt, la viande du jour part vite",
+   "photo": {
+    "auteur": "Josikersul",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALandgreven_image_banner01.jpg",
+    "src": "img/restos/CPH/gasoline.jpg"
+   }
+  },
+  {
+   "id": "groed",
+   "nom": "GRØD",
+   "emoji": "🥣",
+   "gamme": "petit",
+   "genre": "Bar à porridge",
+   "quartier": "Nørrebro",
+   "adresse": "Jægersborggade 50, 2200 København",
+   "lat": 55.693622,
+   "lng": 12.54288,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Le premier bar à porridge du monde, né en 2011 dans la rue la plus branchée de Nørrebro : flocons d'avoine au caramel, pommes fraîches et amandes grillées, ou bols garnis à votre goût. Une idée qui ne pouvait venir que d'ici, et le petit-déjeuner idéal avant d'explorer le quartier.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "UserTwoSix",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOatmeal_porridge_1-minute_with_additional_ingredients.jpg",
+    "src": "img/restos/CPH/groed.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "la-glace",
+   "nom": "Conditori La Glace",
+   "emoji": "🍰",
+   "gamme": "petit",
+   "genre": "Pâtisserie et salon de thé",
+   "quartier": "Strøget",
+   "adresse": "Skoubogade 3, 1158 København",
+   "lat": 55.67859,
+   "lng": 12.573587,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La plus ancienne pâtisserie de Copenhague, ouverte en 1870 : lambris, petites tables et vitrines de gâteaux à la crème. Goûtez la « Sportskage », sa spécialité de nougatine et de chantilly, avec un chocolat chaud épais, à deux pas de Strøget.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu d'attente le week-end après-midi",
+   "photo": {
+    "auteur": "Leif Jørgensen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASkoubogade_05.JPG",
+    "src": "img/restos/CPH/la-glace.jpg"
+   }
+  },
+  {
+   "id": "schonnemann",
+   "nom": "Schønnemann",
+   "emoji": "🥪",
+   "gamme": "moyen",
+   "genre": "Smørrebrød (tartines danoises)",
+   "quartier": "Quartier latin",
+   "adresse": "Hauser Plads 16, 1127 København",
+   "lat": 55.682766,
+   "lng": 12.576084,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1877, le temple du smørrebrød, ces tartines de pain de seigle garnies comme des œuvres d'art : hareng mariné, anguille fumée, rôti de porc. Dans une salle basse aux murs boisés, on les accompagne d'un petit verre d'aquavit, comme le veut la tradition. Midi seulement.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; fermé mi-août et du 24 décembre au 5 janvier",
+   "photo": {
+    "auteur": "Nillerdk",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASm%C3%B8rrebr%C3%B8d_1.jpg",
+    "src": "img/restos/CPH/schonnemann.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fiskebar",
+   "nom": "Kødbyens Fiskebar",
+   "emoji": "🦪",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Vesterbro (Kødbyen)",
+   "adresse": "Flæsketorvet 100, 1711 København",
+   "lat": 55.667878,
+   "lng": 12.559262,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une ancienne boucherie carrelée de blanc dans le quartier des abattoirs devenu le coin le plus festif de la ville. Huîtres du Limfjord, langoustines, poisson des pêcheurs danois en petites assiettes à partager, avec du vin nature : animé, simple et délicieux.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le week-end",
+   "photo": {
+    "auteur": "Riemann at da.wikipedia",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKoedbyen_hvide.jpg",
+    "src": "img/restos/CPH/fiskebar.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vaekst",
+   "nom": "Vækst",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Cuisine nordique sous une serre",
+   "quartier": "Quartier latin",
+   "adresse": "Sankt Peders Stræde 34, 1453 København",
+   "lat": 55.678827,
+   "lng": 12.567178,
+   "prix": "45 à 60 €",
+   "prix_min": 45,
+   "badges": [],
+   "texte": "On dîne dans une serre construite au milieu du restaurant, entre plantes vertes et herbes aromatiques. Légumes de saison, poisson et viande en menu de trois plats : la nouvelle cuisine nordique à un prix raisonnable, dans un des décors les plus photographiés de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Orf3us",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASankt_Peders_Str%C3%A6de_Kbh.JPG",
+    "src": "img/restos/CPH/vaekst.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "marv-ben",
+   "nom": "Marv & Ben",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Bistrot nordique",
+   "quartier": "Gammel Strand",
+   "adresse": "Snaregade 4, 1205 København",
+   "lat": 55.677304,
+   "lng": 12.576943,
+   "prix": "45 à 60 €",
+   "prix_min": 45,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une petite salle intime dans une ruelle de la vieille ville, où la cuisine travaille les produits de fermes danoises partenaires. Le menu de plats « préférés » change avec les saisons : la qualité d'un restaurant étoilé, sans la cérémonie ni l'addition.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; dîner seulement",
+   "photo": {
+    "auteur": "cofiem from Brisbane, Australia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASnaregade_%28Copenhagen%29.jpg",
+    "src": "img/restos/CPH/marv-ben.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "faergecafe",
+   "nom": "Christianshavns Færgecafé",
+   "emoji": "🛶",
+   "gamme": "moyen",
+   "genre": "Cuisine danoise traditionnelle",
+   "quartier": "Christianshavn",
+   "adresse": "Strandgade 50, 1401 København",
+   "lat": 55.6755,
+   "lng": 12.592477,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Une vieille maison au bord du canal de Christianshavn, avec ses bateaux amarrés devant la terrasse. On y mange la cuisine que les Danois préfèrent : poitrine de porc croustillante sauce persil (le plat national), boulettes et harengs, dans une ambiance de taverne chaleureuse.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout pour la terrasse l'été",
+   "photo": {
+    "auteur": "Marie Thérèse Hébert & Jean Robert Thibault from Québec, Canada",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADanemark%2C_Copenhague%2C_le_Christianshavns_Faergecaf%C3%A9_longeant_le_Wilders_Kanal_o%C3%B9_d%C3%A9guster_un_bon_sm%C3%B6rrebr%C3%B6d_%2832385017594%29.jpg",
+    "src": "img/restos/CPH/faergecafe.jpg"
+   }
+  },
+  {
+   "id": "warpigs",
+   "nom": "WarPigs",
+   "emoji": "🍖",
+   "gamme": "moyen",
+   "genre": "Barbecue texan et bières artisanales",
+   "quartier": "Vesterbro (Kødbyen)",
+   "adresse": "Flæsketorvet 25, 1711 København",
+   "lat": 55.668568,
+   "lng": 12.559886,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "La brasserie de Mikkeller, star danoise de la bière artisanale : une vingtaine de bières brassées sur place et un barbecue fumé façon Texas, servi au poids sur du papier kraft. Grandes tables en bois partagées et ambiance de fête dans l'ancien quartier des abattoirs.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; commande au comptoir",
+   "photo": {
+    "auteur": "Kent Wang",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrisket_and_hot_guts_from_Southside_Market.jpg",
+    "src": "img/restos/CPH/warpigs.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "geranium",
+   "nom": "Geranium",
+   "emoji": "🌸",
+   "gamme": "haut",
+   "genre": "Haute gastronomie végétale et marine",
+   "quartier": "Østerbro (Parken)",
+   "adresse": "Per Henrik Lings Allé 4, 8e étage, 2100 København",
+   "lat": 55.703755,
+   "lng": 12.572072,
+   "prix": "à partir de ≈ 605 €",
+   "prix_min": 605,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "Au 8e étage du stade national, face aux arbres du parc Fælledparken, le chef Rasmus Kofoed, seul cuisinier à avoir gagné le Bocuse d'or, bronze, argent et or, compose un long menu sans viande, d'une finesse inouïe. Un des meilleurs restaurants du monde.",
+   "reservation": "indispensable",
+   "reservation_delai": "dès l'ouverture des réservations, environ 3 mois avant ; menu 4 500 DKK",
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParken_Copenhagen.jpg",
+    "src": "img/restos/CPH/geranium.jpg"
+   }
+  },
+  {
+   "id": "alchemist",
+   "nom": "Alchemist",
+   "emoji": "🔮",
+   "gamme": "haut",
+   "genre": "Dîner-spectacle sous un dôme",
+   "quartier": "Refshaleøen",
+   "adresse": "Refshalevej 173C, 1432 København",
+   "lat": 55.693831,
+   "lng": 12.613876,
+   "prix": "à partir de ≈ 750 €",
+   "prix_min": 750,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Plus qu'un dîner, une expérience de cinq heures : une cinquantaine de bouchées servies dans plusieurs salles, dont un dôme où des projections enveloppent les convives comme dans un planétarium. Rasmus Munk y mêle cuisine, art et messages engagés. Inoubliable.",
+   "reservation": "indispensable",
+   "reservation_delai": "les places sont mises en vente tous les 3 mois et partent en quelques minutes ; menu 5 600 DKK prépayé",
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARefshale%C3%B8en%2C_Copenhagen%2C_20220618_1506_7231.jpg",
+    "src": "img/restos/CPH/alchemist.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kong-hans",
+   "nom": "Kong Hans Kælder",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Cuisine française classique",
+   "quartier": "Quartier latin",
+   "adresse": "Vingårdstræde 6, 1070 København",
+   "lat": 55.678774,
+   "lng": 12.583996,
+   "prix": "à partir de ≈ 430 €",
+   "prix_min": 430,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Dans une cave aux voûtes gothiques du Moyen Âge, éclairée aux bougies, sous l'une des plus vieilles maisons de Copenhague. Cuisine française dans les règles de l'art, chariot de fromages et de desserts : le restaurant romantique par excellence, pour un grand soir.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant ; ouvert du mercredi au samedi, fermé en août ; menu 3 200 DKK",
+   "photo": {
+    "auteur": "City Foodsters",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKong_Hans_K%C3%A6lder_IMG_2611_%2823693053072%29.jpg",
+    "src": "img/restos/CPH/kong-hans.jpg"
+   }
+  },
+  {
+   "id": "krogs",
+   "nom": "Krogs Fiskerestaurant",
+   "emoji": "🐟",
+   "gamme": "haut",
+   "genre": "Poissons et caviar",
+   "quartier": "Gammel Strand",
+   "adresse": "Gammel Strand 38, 1202 København",
+   "lat": 55.677767,
+   "lng": 12.578537,
+   "prix": "80 à 200 €",
+   "prix_min": 80,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1910, la grande table de poisson de la ville, face au canal et au palais de Christiansborg, là où les poissonnières vendaient leur pêche. Salle Belle Époque aux murs peints, turbot, flétan et huîtres : le classique élégant, à la carte ou en menu dégustation.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; menu dégustation du mercredi au samedi soir",
+   "photo": {
+    "auteur": "Chris Brown",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGammel_Strand_%28Copenhagen%29.jpg",
+    "src": "img/restos/CPH/krogs.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "host",
+   "nom": "Høst",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Menu nordique en décor rustique",
+   "quartier": "Nørreport",
+   "adresse": "Nørre Farimagsgade 41, 1364 København",
+   "lat": 55.683361,
+   "lng": 12.566165,
+   "prix": "60 à 120 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Bois brut, bougies, peaux de mouton et vaisselle en grès : un décor nordique primé dans le monde entier, que l'on voit partout sur Instagram. Dans l'assiette, un menu de saison en trois ou cinq plats, coquilles Saint-Jacques fumées, gibier, baies du Nord.",
+   "reservation": "conseille",
+   "reservation_delai": "3 à 5 jours avant ; menu 3 plats 450 DKK ≈ 60 €",
+   "photo": {
+    "auteur": "JIP",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AScallop_and_asparagus_at_Caf%C3%A9_Piritta.jpg",
+    "src": "img/restos/CPH/host.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "barr",
+   "nom": "Barr",
+   "emoji": "🍺",
+   "gamme": "haut",
+   "genre": "Brasserie des mers du Nord",
+   "quartier": "Christianshavn",
+   "adresse": "Strandgade 93, 1401 København",
+   "lat": 55.67793,
+   "lng": 12.59624,
+   "prix": "60 à 110 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Dans l'entrepôt du XVIIIe siècle où est né le Noma, au bord de l'eau, Barr revisite la cuisine des pays de la mer du Nord : schnitzel au beurre d'anchois, tartare, smørrebrød à midi, avec une carte de bières remarquable. Chaleureux, tout en bois.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; menu 4 plats 765 DKK ≈ 103 €",
+   "photo": {
+    "auteur": "ezioman",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANordatlantens_Brygge.jpg",
+    "src": "img/restos/CPH/barr.jpg"
+   }
+  }
+ ]
+}

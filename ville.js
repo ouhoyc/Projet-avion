@@ -73,6 +73,11 @@ const PARTNER_LINKS = {
     'heineken': tiqets('activites-attractions-amsterdam-c75061/billets-pour-musee-heineken-experience-amsterdam-billet-d-entree-p703726'),
     'croisiere': tiqets('activites-attractions-amsterdam-c75061/billets-pour-amsterdam-croisiere-traditionnelle-d-une-heure-sur-les-canaux-p1135497'),
   },
+  CPH: {
+    'tivoli': tiqets('activites-attractions-copenhague-c113/billets-pour-les-jardins-de-tivoli-billet-d-entree-p974108'),
+    'nationalmuseet': tiqets('activites-attractions-copenhague-c113/billets-pour-musee-national-du-danemark-p976347'),
+    'zoo': tiqets('activites-attractions-frederiksberg-c65331/billets-pour-zoo-de-copenhague-billet-coupe-file-p976349'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 

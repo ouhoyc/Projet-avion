@@ -187,6 +187,12 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   départ `geoCategory/70678`. Prix : beaucoup de sites officiels portugais se lisent par `curl` (tarifs en clair).
   Séville (oct. 2026) : même méthode Commons (planches de 8 vignettes, 4 s entre deux, aucun « 429 ») ; Wanderlog : départ
   `geoCategory/104665`, 90 listes « …-in-seville ». Michelin : la page du guide renvoie 202 (anti-robots), passer par la presse locale.
+  Copenhague (oct. 2026) : l'API Commons (`generator=search`, `gsrnamespace=6`, `prop=imageinfo`) répondait, mais les
+  vignettes répondaient « 429 » une fois sur deux (2-3 min par lieu pour une planche de 8 : lancer tôt, en tâche de
+  fond). Beaucoup de sites officiels danois affichent leurs prix en JavaScript : les lire avec Playwright
+  (`/opt/node-tools/node_modules/playwright`, `document.body.innerText`, ou `textContent` pour les onglets cachés).
+  Michelin : `guide.michelin.com/dk/en/capital-region/copenhagen/restaurants/page/N`. Wanderlog : géo 9643, 116 listes.
+  La Petite Sirène est protégée (sculpteur mort en 1959) : pas de photo de la statue.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

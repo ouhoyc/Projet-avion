@@ -383,6 +383,18 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   Nacional, esmadrid.com, TheFork pour DSTAgE) : l'Escurial coûte 14 € (pas 18), le Villa Rosa s'appelle
   désormais Tablao Flamenco 1911, Takos al Pastor est calle de la Abada 13. Délais de réservation des
   restaurants : jugés d'après les avis et la notoriété.
+- ✅ (22/10/2026) **Page guide de Copenhague** (`guides/CPH.json`), préparée en autonomie : 28 activités
+  (4 tendance : Tivoli, Nyhavn, Tour Ronde, flèche de l'église du Sauveur ; Petite Sirène regroupée avec Kastellet,
+  car la statue est encore protégée par le droit d'auteur et n'a pas de photo libre ; sauna CopenHot, bain du port,
+  CopenHill, GoBoat ; match du FC Copenhague ; excursions au musée Louisiana et à Kronborg), 18 restaurants
+  (note pondérée, C = 4,34, 1 400 lieux lus via Wanderlog, 116 listes ; Michelin 2026 : Geranium 3 étoiles,
+  Alchemist et Kong Hans Kælder 2 étoiles, Marv & Ben Bib Gourmand ; tendance : Torvehallerne, Juno, Gasoline Grill,
+  Kødbyens Fiskebar), 5 quartiers, 3 liens Tiqets (Tivoli, Musée national, zoo ; croisière Stromma et Carlsberg
+  plus chers sur Tiqets, donc sans lien). Réseaux sociaux lancés (Apify, un passage).
+  Prix relevés sur les sites officiels (1 € ≈ 7,46 DKK). Écartés : Noma (réouvert en août 2026 sans étoiles, saison
+  courte, direction contestée), Reffen (doublon avec Torvehallerne). À savoir : Tivoli fermé du 2 au 12 nov. 2026 et
+  du 4 janv. au 18 mars 2027 ; Palmehus du jardin botanique en travaux (parties fermées) ; zoo 260 DKK (230 de nov. à
+  fév.). Délais de réservation des restaurants : jugés d'après les avis et la notoriété.
 - ✅ (22/10/2026) **Fiches des 7 villes qui n'en avaient pas** : Caen, Dubrovnik, La Rochelle, Louxor,
   Montréal, Pau, Stockholm (photo libre Commons, texte vendeur, météo). 95 fiches en tout.
 
