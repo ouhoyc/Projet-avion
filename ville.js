@@ -177,7 +177,7 @@ async function init() {
   selected = new Set([...selected].filter((id) => guide.activites.some((a) => a.id === id)));
   restos = new Set([...restos].filter((id) => (guide.restaurants || []).some((r) => r.id === id)));
   const flights = (data?.destinations || []).filter((d) => d.city_code === code);
-  cityName = flights[0]?.city || code;
+  cityName = flights[0]?.city || guide.ville || code;
 
   if (data?.origin) origin = data.origin;
   document.title = `Mon voyage à ${cityName} · Vols directs depuis ${origin.city}`;

@@ -199,6 +199,16 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   page `File:` par `curl` pour l'auteur et la licence, puis la vignette **`1280px-`** (la `960px-` répondait « 429 »).
   Wanderlog répondait « servers overloaded » pendant ~20 min (sans doute une autre conversation) : attendre puis relancer.
   Wanderlog : départ `geoCategory/198762` (géo 9671), 93 listes, ~1 150 lieux.
+  Tunis (oct. 2026) : l'API Commons répondait « 429 » dès le départ ; la recherche de fichiers en HTML (`ns6=1`) puis la vignette
+  `upload.wikimedia.org/.../thumb/x/xy/NOM/960px-NOM` marchent (lentement). Prix et horaires officiels des monuments tunisiens :
+  `patrimoinedetunisie.com.tn/fr/monuments|musees|sites/…/apercu/` (lisible par `curl` ; tarifs affichés = grille 2023, appliquer
+  la grille d'avril 2026). Wanderlog Tunis : départ `geoCategory/208524`, ~370 lieux (Google Maps et Wanderlog `explore` bloqués).
+  Positions : les « plus codes » Google des listes Wanderlog (`V8PF+5J7`) se décodent sans bibliothèque (référence Tunis).
+  Ajaccio (oct. 2026) : l'API Commons et `upload.wikimedia.org` répondaient « 429 » ; la recherche de fichiers en HTML (`ns6=1`)
+  marche (planches de 8 vignettes). Les listes Wanderlog donnent les positions dans `boardSections` (`"place":{…"longitude","latitude"}`).
+  Michelin : `guide.michelin.com/fr/fr/corse/ajaccio/restaurants` (distinctions dans `data-dtm-distinction`, avec Playwright).
+  Billetterie de l'office de tourisme (`reservation.ajaccio-tourisme.com`) : prix officiels des visites et concerts.
+  Champ `ville` du guide : nom affiché quand la ville n'a pas de vol en ce moment (ligne saisonnière).
 - **Île (`"ile": true` dans le guide)** : les stations sont trop loin les unes des autres pour chercher les hôtels « dans
   toute la ville » (rayon 6 km au plus) : la recherche se fait autour du lieu choisi (5 km), on parle d'« Autres lieux »
   et de « voiture de location » au lieu du métro (`ville.js`). Le nom affiché vient de `data.json` : corriger le nom de

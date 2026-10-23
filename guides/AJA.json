@@ -1,0 +1,1461 @@
+{
+ "city_code": "AJA",
+ "ville": "Ajaccio",
+ "statut": "vérifié en autonomie, prix relevés le 23/10/2026",
+ "verifie_le": "2026-10-23",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "bonaparte",
+   "nom": "Maison Bonaparte",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 41.918101,
+   "lng": 8.738655,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Entrée (adulte)",
+     "10 €"
+    ],
+    [
+     "Tarif réduit",
+     "8 €"
+    ],
+    [
+     "Moins de 26 ans (résidents de l'UE)",
+     "gratuit"
+    ],
+    [
+     "Visite guidée de l'office de tourisme",
+     "10 € (enfant 5 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place ; la visite guidée de l'office de tourisme se réserve en ligne",
+   "duree": "1 h",
+   "moment": "Le matin à l'ouverture ; fermé le lundi et entre 12 h 30 et 13 h 15",
+   "enfants": true,
+   "texte": "La maison natale de Napoléon, au cœur de la vieille ville : c'est ici que le futur empereur est né en 1769 et a grandi. Salons d'époque, chambre de sa naissance, souvenirs de la famille Bonaparte : une plongée intime dans la jeunesse de l'homme avant la légende.",
+   "site_officiel": "https://affluences.com/sites/rmn-gp/maison-bonaparte",
+   "note": "Musée national : premier dimanche du mois gratuit. Les grands sacs et valises ne sont pas acceptés.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sebring12Hrs",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_de_la_maison_Bonaparte.jpg",
+    "src": "img/activites/AJA/bonaparte.jpg"
+   }
+  },
+  {
+   "id": "fesch",
+   "nom": "Palais Fesch – musée des Beaux-Arts",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Rue Cardinal-Fesch",
+   "lat": 41.921982,
+   "lng": 8.738676,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Entrée (adulte)",
+     "9 €"
+    ],
+    [
+     "Tarif réduit (7 à 17 ans, étudiants)",
+     "6 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Visite guidée « chefs-d'œuvre »",
+     "12 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place, sans réservation",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Un jour de pluie ou aux heures chaudes ; ouvert tous les jours (fermé du 1er au 15 janvier)",
+   "enfants": true,
+   "texte": "La deuxième collection de peinture italienne de France après le Louvre, réunie par l'oncle de Napoléon : Botticelli, Titien, Véronèse, dans un palais qui donne sur une cour plantée de palmiers. La surprise qu'on n'attend pas sur une île de plages.",
+   "site_officiel": "https://www.musee-fesch.com/",
+   "note": "La chapelle impériale, où reposent les parents de Napoléon, n'ouvre qu'en été. Grands sacs interdits.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mussklprozz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccioPalaisFesch_2018-04.jpg",
+    "src": "img/activites/AJA/fesch.jpg"
+   }
+  },
+  {
+   "id": "cathedrale",
+   "nom": "Cathédrale Santa Maria Assunta",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 41.917353,
+   "lng": 8.737712,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "20 min",
+   "moment": "En dehors des messes ; ouverte en journée",
+   "enfants": true,
+   "texte": "La cathédrale ocre où Napoléon a été baptisé en 1771, avec ses fonts baptismaux toujours en place et une Vierge peinte par Delacroix. Le pape François y a prié en décembre 2024 : un petit bijou baroque en plein cœur de la vieille ville.",
+   "site_officiel": "https://www.corse.catholique.fr/cathedrale-notre-dame-de-lassomption",
+   "note": "Tenue correcte demandée (épaules couvertes).",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Myrabella",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_cathedrale_facade.jpg",
+    "src": "img/activites/AJA/cathedrale.jpg"
+   }
+  },
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville, place Foch et marché",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 41.918942,
+   "lng": 8.738911,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "Le matin, quand le marché bat son plein sur le boulevard du Roi-Jérôme (tous les jours sauf le lundi)",
+   "enfants": true,
+   "texte": "Façades ocre aux volets verts, ruelles en pente vers la mer, la fontaine aux quatre lions de la place Foch et la rue Fesch pour flâner. Juste à côté, le marché : charcuterie, fromages de brebis, canistrelli et cédrats. Le meilleur résumé de l'art de vivre ajaccien.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/",
+   "badges": [
+    "tendance"
+   ],
+   "note": "Le petit train touristique part de la place Foch (circuit ville 45 min : 8 €, enfant 4 €).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Isiwal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACorsica_Ajaccio_Place_Foch_Fontaine_des_Quatre_Lions.jpg",
+    "src": "img/activites/AJA/vieille-ville.jpg"
+   }
+  },
+  {
+   "id": "citadelle",
+   "nom": "Citadelle et jetée",
+   "emoji": "🏰",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 41.91667,
+   "lng": 8.740247,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "En fin de journée, pour la lumière sur les remparts et le phare",
+   "enfants": true,
+   "texte": "La citadelle génoise du XVIe siècle, posée sur la mer, s'ouvre peu à peu au public après des siècles de vie militaire. Faites le tour par la jetée jusqu'au petit phare rouge : vue sur tout le golfe et sur la plage Saint-François au pied des remparts.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/",
+   "note": "Le site est en cours d'aménagement : certaines parties restent fermées.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Myrabella",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_citadelle_phare.jpg",
+    "src": "img/activites/AJA/citadelle.jpg"
+   }
+  },
+  {
+   "id": "austerlitz",
+   "nom": "Place d'Austerlitz (U Casone)",
+   "emoji": "🗿",
+   "type": "balade",
+   "quartier": "Quartier des Étrangers",
+   "lat": 41.916461,
+   "lng": 8.723762,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, quand il fait moins chaud ; 15 min à pied du centre",
+   "enfants": true,
+   "texte": "Un Napoléon en redingote au sommet d'une immense pyramide de granit gravée de ses victoires : le monument le plus spectaculaire de la ville. Juste à côté, la grotte où le jeune Bonaparte venait, dit-on, rêver et lire.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/",
+   "note": "",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "giggel",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKorsika_%E2%80%93_Ajaccio_%E2%80%93_Place_d%27Austerlitz_-_Napoleon_Bonaparte_-_panoramio_%282%29.jpg",
+    "src": "img/activites/AJA/austerlitz.jpg"
+   }
+  },
+  {
+   "id": "cimetiere",
+   "nom": "Cimetière marin",
+   "emoji": "🌅",
+   "type": "balade",
+   "quartier": "Route des Sanguinaires",
+   "lat": 41.9132,
+   "lng": 8.7135,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "En fin de journée, quand le soleil descend sur les îles Sanguinaires",
+   "enfants": false,
+   "texte": "Une vraie ville en miniature, avec ses rues et ses chapelles familiales aux toits de tuiles, face à la mer. On y croise la tombe de Tino Rossi, l'enfant du pays. Un lieu paisible et étonnant, qui raconte la Corse mieux qu'un musée.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/",
+   "note": "Lieu de recueillement : restez discret. Sur la route des Sanguinaires, à 2 km du centre (bus n° 5).",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Julian Nyča",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAiacciu_%E2%80%93_Cemetery_3.jpg",
+    "src": "img/activites/AJA/cimetiere.jpg"
+   }
+  },
+  {
+   "id": "parata",
+   "nom": "Pointe de la Parata et tour génoise",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Route des Sanguinaires",
+   "lat": 41.895015,
+   "lng": 8.608415,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au site",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Au coucher du soleil, l'un des plus beaux de Méditerranée ; prévoyez une lampe pour le retour",
+   "enfants": true,
+   "texte": "Au bout de la route des Sanguinaires, un sentier grimpe jusqu'à la tour génoise de la Parata, face aux quatre îles rouges qui s'embrasent au coucher du soleil. Grand Site de France : le panorama qui fait la carte postale d'Ajaccio.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-iles-sanguinaires-et-la-presquile-de-la-parata/",
+   "badges": [
+    "tendance"
+   ],
+   "note": "À 12 km du centre : bus n° 5 depuis la place De-Gaulle, ou petit train (circuit Sanguinaires 1 h 40 : 12 €, enfant 5 €). Le chemin des douaniers continue vers Capo di Feno (9,5 km).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Isiwal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACorsica_Ajaccio_Pointe_de_la_Parata_Tour_g%C3%A9noise.jpg",
+    "src": "img/activites/AJA/parata.jpg"
+   }
+  },
+  {
+   "id": "cretes",
+   "nom": "Sentier des Crêtes",
+   "emoji": "🥾",
+   "type": "vue",
+   "quartier": "Hauts d'Ajaccio (Bois des Anglais)",
+   "lat": 41.918267,
+   "lng": 8.725955,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Randonnée",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h 30 à 3 h",
+   "moment": "Tôt le matin (pas d'ombre en été) ; emportez de l'eau",
+   "enfants": true,
+   "texte": "La randonnée préférée des Ajacciens part du Bois des Anglais, à deux pas du centre, et longe les hauteurs dans le maquis parfumé. Tout le golfe se déroule sous vos pieds jusqu'aux îles Sanguinaires : la ville et la mer d'un seul regard.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/decouvrir/activites-et-loisirs/activites-de-plein-air/",
+   "note": "Bonnes chaussures conseillées. Le sentier redescend vers la route des Sanguinaires (retour en bus).",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pir6mon",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APSajaccio8440tonemapped.jpg",
+    "src": "img/activites/AJA/cretes.jpg"
+   }
+  },
+  {
+   "id": "sanguinaires",
+   "nom": "Îles Sanguinaires en bateau",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Départ du port Tino-Rossi",
+   "lat": 41.918725,
+   "lng": 8.741357,
+   "prix": 36,
+   "prix_detail": [
+    [
+     "Adulte",
+     "dès 36 €"
+    ],
+    [
+     "Enfant 4 à 12 ans",
+     "18 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 36,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      18
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en saison, en ligne ou au kiosque du port",
+   "duree": "3 h 15",
+   "moment": "Le matin (9 h 30) ou l'après-midi (14 h 30), d'avril à fin octobre selon la météo",
+   "enfants": true,
+   "texte": "Une croisière commentée le long des plages de la rive nord jusqu'à l'archipel aux roches rouges, avec une heure d'escale sur la grande île : montée au phare qui a inspiré Alphonse Daudet ou baignade dans une eau cristalline.",
+   "site_officiel": "https://www.naveva.com/circuits",
+   "note": "Pas de plage sur l'île, seulement des rochers : prenez des chaussures d'eau. Commentaire en français.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Olivier Dugornay",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APhare_des_%C3%AEles_Sanguinaires_%28Corse%29_%28Ifremer_00727-83866_-_36484%29.jpg",
+    "src": "img/activites/AJA/sanguinaires.jpg"
+   }
+  },
+  {
+   "id": "coucher-soleil",
+   "nom": "Coucher de soleil en mer aux Sanguinaires",
+   "emoji": "🌇",
+   "type": "sortir",
+   "quartier": "Départ du port Tino-Rossi",
+   "lat": 41.918725,
+   "lng": 8.741357,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Balade en semi-rigide avec apéritif",
+     "dès 50 €"
+    ],
+    [
+     "Soirée en bateau avec dégustation et musique",
+     "dès 70 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été, places limitées",
+   "duree": "2 h 30 à 3 h",
+   "moment": "En fin de journée, de mai à septembre surtout",
+   "enfants": true,
+   "texte": "Le grand spectacle d'Ajaccio vu depuis la mer : le soleil plonge derrière les îles Sanguinaires qui virent au rouge, un verre de vin corse à la main. Le moment que tout le monde filme, et qui vaut vraiment le détour.",
+   "site_officiel": "https://www.naveva.com/magie-des-sens",
+   "badges": [
+    "tendance"
+   ],
+   "note": "",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_coucher_%C3%A0_la_Parata.jpg",
+    "src": "img/activites/AJA/coucher-soleil.jpg"
+   }
+  },
+  {
+   "id": "scandola",
+   "nom": "Scandola, Girolata et calanques de Piana en bateau",
+   "emoji": "🚤",
+   "type": "nature",
+   "quartier": "Départ du port Tino-Rossi",
+   "lat": 42.37,
+   "lng": 8.55,
+   "prix": 70,
+   "prix_detail": [
+    [
+     "Adulte",
+     "dès 70 €"
+    ],
+    [
+     "Enfant 4 à 12 ans",
+     "≈ 37 € (tarif réduit)"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 70,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      37
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant en été : le bateau part complet",
+   "duree": "Journée (8 h 30)",
+   "moment": "Départ vers 8 h ; de la fin du printemps à fin octobre, par mer calme",
+   "enfants": true,
+   "texte": "La plus belle sortie en mer de Corse : falaises de lave rouge de la réserve de Scandola, classée par l'UNESCO, escale de deux heures dans le village de pêcheurs de Girolata (sans route) et retour par les aiguilles granitiques des calanques de Piana.",
+   "site_officiel": "https://www.naveva.com/scandola-girolata-piana",
+   "note": "Déjeuner à Girolata non compris (restaurants ou pique-nique). Prévoyez une protection contre le mal de mer.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Michael Clarke (michael clarke stuff on Flickr) https://www.flickr.com/people/michaelclarke/",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AScandola_Nature_Reserve_in_Corsica_in_France_-_2013-09-25_L.jpg",
+    "src": "img/activites/AJA/scandola.jpg"
+   }
+  },
+  {
+   "id": "bonifacio",
+   "nom": "Bonifacio en bateau",
+   "emoji": "🛥️",
+   "type": "nature",
+   "quartier": "Départ du port Tino-Rossi",
+   "lat": 41.387234,
+   "lng": 9.159061,
+   "prix": 72,
+   "prix_detail": [
+    [
+     "Adulte",
+     "dès 72 €"
+    ],
+    [
+     "Enfant",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 72,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      38
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant, départs certains jours seulement",
+   "duree": "Journée",
+   "moment": "En été ; consultez le programme des départs",
+   "enfants": true,
+   "texte": "Une journée pour la ville la plus spectaculaire de Corse : la vieille cité perchée au bord de falaises blanches, vue depuis la mer, puis quatre heures d'escale pour monter dans la haute ville en petit train (compris) et flâner dans ses ruelles.",
+   "site_officiel": "https://www.naveva.com/bonifacio-circuit",
+   "note": "En voiture, Bonifacio est à 2 h 30 d'Ajaccio par une route sinueuse : le bateau évite la route.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Myrabella",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABonifacio_falaises_escalier_roi_Aragon.jpg",
+    "src": "img/activites/AJA/bonifacio.jpg"
+   }
+  },
+  {
+   "id": "piana",
+   "nom": "Calanques de Piana par la route",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Piana (70 km)",
+   "lat": 42.2531,
+   "lng": 8.656955,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Site",
+     "gratuit (voiture nécessaire)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Journée",
+   "moment": "Le matin tôt ou au coucher du soleil, quand le granit devient rouge feu",
+   "enfants": true,
+   "texte": "Une route en corniche qui serpente entre des rochers de granit rose sculptés par le vent, 400 mètres au-dessus de la mer : château fort, tête de chien, cœur… Classées par l'UNESCO, les calanques de Piana sont la route la plus folle de l'île.",
+   "site_officiel": "https://www.visit-corsica.com/",
+   "note": "Environ 1 h 45 de route par Cargèse. Route étroite : prudence avec les cars en été.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Myrabella",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A04_Calanche_Piana.jpg",
+    "src": "img/activites/AJA/piana.jpg"
+   }
+  },
+  {
+   "id": "tolla",
+   "nom": "Gorges du Prunelli et lac de Tolla",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Tolla (40 km)",
+   "lat": 41.968166,
+   "lng": 8.971316,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Site",
+     "gratuit (voiture nécessaire)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Demi-journée",
+   "moment": "Au printemps et à l'automne, pour les couleurs ; baignade dans les vasques en été",
+   "enfants": true,
+   "texte": "À une heure de la mer, une autre Corse : routes de montagne, gorges vertigineuses du Prunelli et un lac d'émeraude au pied du village de Tolla. Idéal pour respirer l'air frais du maquis et déjeuner dans une auberge de village.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/les-alentours/",
+   "note": "Route de montagne étroite et sinueuse.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "© Ra Boe / Wikipedia",
+    "licence": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACorsica_-Lac_de_Tolla-_2019_by-RaBoe_271.jpg",
+    "src": "img/activites/AJA/tolla.jpg"
+   }
+  },
+  {
+   "id": "train",
+   "nom": "Train de montagne jusqu'à Vizzavona",
+   "emoji": "🚂",
+   "type": "nature",
+   "quartier": "Départ de la gare d'Ajaccio",
+   "lat": 42.128584,
+   "lng": 9.133764,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Aller-retour adulte (estimation)",
+     "≈ 18 €"
+    ],
+    [
+     "Enfant 4 à 12 ans",
+     "50 % de réduction"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Pass illimité 7 jours",
+     "50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      9
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en gare le jour même",
+   "duree": "Journée",
+   "moment": "Prenez le premier train du matin ; quelques trains par jour seulement (moins le dimanche)",
+   "enfants": true,
+   "texte": "Le petit train corse grimpe de la mer à la forêt de Vizzavona par des viaducs et des tunnels. À l'arrivée, 30 minutes de marche sous les pins laricio mènent aux cascades des Anglais, des vasques d'eau claire où l'on se baigne en été.",
+   "site_officiel": "https://cf-corse.corsica/",
+   "note": "Vérifiez les horaires de retour avant de partir. L'office de tourisme propose aussi une randonnée guidée avec le train (54 €).",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Herbert wie",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATrain_gare_Vizzavona_Corsica.jpg",
+    "src": "img/activites/AJA/train.jpg"
+   }
+  },
+  {
+   "id": "cupulatta",
+   "nom": "A Cupulatta, le parc des tortues",
+   "emoji": "🐢",
+   "type": "nature",
+   "quartier": "Vero (22 km)",
+   "lat": 42.026795,
+   "lng": 8.908028,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte (dès 12 ans)",
+     "15 €"
+    ],
+    [
+     "Enfant 5 à 11 ans",
+     "10 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      11,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation nécessaire",
+   "duree": "2 h",
+   "moment": "Le matin, quand les tortues sont actives ; ouvert du 30 mars au 11 novembre",
+   "enfants": true,
+   "texte": "Le plus grand parc d'Europe consacré aux tortues : 130 espèces du monde entier, des minuscules tortues d'eau aux géantes des Seychelles, dans un jardin ombragé au bord d'une rivière. Une sortie qui plaît autant aux enfants qu'aux parents.",
+   "site_officiel": "https://www.acupulatta.com/",
+   "badges": [
+    "tendance"
+   ],
+   "note": "Fermé l'hiver (du 12 novembre au 29 mars). À 30 min en voiture, sur la route de Corte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Eveha",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAldabrachelys_gigantea_A_Cupulatta_01.JPG",
+    "src": "img/activites/AJA/cupulatta.jpg"
+   }
+  },
+  {
+   "id": "saint-francois",
+   "nom": "Plage Saint-François",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Vieille ville",
+   "lat": 41.91681,
+   "lng": 8.736819,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "Le matin ou en fin de journée ; on s'y baigne souvent jusqu'en octobre",
+   "enfants": true,
+   "texte": "La plage du centre-ville, au pied des remparts de la citadelle : sable doré, eau claire et palmiers, à cinq minutes de la place Foch. Un plongeon entre deux musées, c'est tout le charme d'Ajaccio.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/le-littoral-ajaccien-ses-plages-et-ses-criques-incontournables/",
+   "note": "Les plages de la route des Sanguinaires (Marinella, Barbicaja, Scudo) s'enchaînent ensuite vers l'ouest, en bus n° 5.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_Citadelle_et_plage_Saint-Fran%C3%A7ois.jpg",
+    "src": "img/activites/AJA/saint-francois.jpg"
+   }
+  },
+  {
+   "id": "capo-di-feno",
+   "nom": "Plage de Capo di Feno",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Capo di Feno (15 km)",
+   "lat": 41.936232,
+   "lng": 8.623136,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit (voiture nécessaire)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Demi-journée",
+   "moment": "En semaine ou hors été ; les surfeurs y viennent quand il y a du vent d'ouest",
+   "enfants": false,
+   "texte": "Une grande plage sauvage au bout d'une piste, protégée en site naturel : sable fin, maquis et vagues de l'océan… version Méditerranée. Le spot de surf d'Ajaccio, à vingt minutes et à mille lieues de la ville.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/le-littoral-ajaccien-ses-plages-et-ses-criques-incontournables/",
+   "badges": [
+    "tendance"
+   ],
+   "note": "Pas de surveillance et des courants dangereux par mer agitée : baignade prudente. Pas d'ombre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "JeanbaptisteM from France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACapo_di_Feno_%288326616998%29.jpg",
+    "src": "img/activites/AJA/capo-di-feno.jpg"
+   }
+  },
+  {
+   "id": "porticcio",
+   "nom": "Porticcio par la navette maritime",
+   "emoji": "⛴️",
+   "type": "plage",
+   "quartier": "Porticcio",
+   "lat": 41.889391,
+   "lng": 8.803327,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Aller-retour",
+     "10 €"
+    ],
+    [
+     "Aller simple",
+     "6 €"
+    ],
+    [
+     "Moins de 2 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet au départ du port",
+   "duree": "Demi-journée",
+   "moment": "Toute l'année (9 traversées par jour) ; en fin d'après-midi pour le coucher de soleil sur Ajaccio",
+   "enfants": true,
+   "texte": "Vingt minutes de traversée du golfe pour rejoindre la station balnéaire d'en face : longues plages de sable, eau turquoise et la plus jolie vue sur Ajaccio et ses montagnes. Sans voiture et sans bouchons.",
+   "site_officiel": "https://www.promenades-en-mer.org/navette-maritime-ajaccio-porticcio-6-fr.html",
+   "note": "Navette Muvimare. Vérifiez l'horaire du dernier retour.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gwentux",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorticcio.JPG",
+    "src": "img/activites/AJA/porticcio.jpg"
+   }
+  },
+  {
+   "id": "rive-sud",
+   "nom": "Rive sud : Isolella et plage d'Argent",
+   "emoji": "💎",
+   "type": "plage",
+   "quartier": "Pietrosella (30 km)",
+   "lat": 41.815113,
+   "lng": 8.77425,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit (voiture nécessaire)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Journée",
+   "moment": "Arrivez avant 10 h en été : le parking est vite plein",
+   "enfants": true,
+   "texte": "Après Porticcio, la côte devient un lagon : criques de l'Isolella et plage d'Argent (Mare e Sole), sable blanc et eau aux mille bleus qu'on croirait aux Caraïbes. La plage dont tout le monde partage les photos.",
+   "site_officiel": "https://www.ajaccio-tourisme.com/decouvrir/patrimoine-naturel/le-littoral-ajaccien-ses-plages-et-ses-criques-incontournables/",
+   "badges": [
+    "tendance"
+   ],
+   "note": "Environ 40 min de route.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Communepietrosella",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMouillage_de_Pietrosella.JPG",
+    "src": "img/activites/AJA/rive-sud.jpg"
+   }
+  },
+  {
+   "id": "polyphonies",
+   "nom": "Concert de polyphonies corses",
+   "emoji": "🎶",
+   "type": "sortir",
+   "quartier": "Vieille ville (église Saint-Érasme)",
+   "lat": 41.9166,
+   "lng": 8.7393,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Adulte",
+     "20 €"
+    ],
+    [
+     "Moins de 17 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      16,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, sur la billetterie de l'office de tourisme",
+   "duree": "1 h 15",
+   "moment": "En fin de journée ; dates sur la billetterie de l'office de tourisme",
+   "enfants": true,
+   "texte": "Les voix d'hommes du groupe Passione font vibrer l'église des marins, a cappella ou à la guitare : le chant corse traditionnel, puissant et poignant, dans une acoustique qui donne des frissons. Une émotion à vivre au moins une fois.",
+   "site_officiel": "https://reservation.ajaccio-tourisme.com/polyphonies-chants-corses.html",
+   "note": "Dans l'église Saint-Érasme, ornée de maquettes de bateaux offertes par les pêcheurs.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Paulu",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASant%27Eramu_d%27Aiacciu9.jpg",
+    "src": "img/activites/AJA/polyphonies.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville et port",
+   "lat": 41.9192,
+   "lng": 8.7385,
+   "texte": "Le cœur d'Ajaccio, entre la place Foch, le marché, la maison Bonaparte et la plage Saint-François : musées, restaurants et port à pied. Idéal pour un premier séjour sans voiture, mais les hôtels y sont rares et petits."
+  },
+  {
+   "id": "centre",
+   "nom": "Centre-ville (cours Napoléon)",
+   "lat": 41.9245,
+   "lng": 8.7372,
+   "texte": "La grande avenue commerçante, près de la gare, de la gare routière et du port des ferries : pratique pour les bus vers les plages et le train de montagne, avec des hôtels plus abordables à 10 minutes à pied de la vieille ville."
+  },
+  {
+   "id": "etrangers",
+   "nom": "Quartier des Étrangers",
+   "lat": 41.9175,
+   "lng": 8.7265,
+   "texte": "Les belles villas du XIXe siècle où séjournaient les riches Anglais d'hiver, sur le boulevard qui longe la mer vers les Sanguinaires. Calme, résidentiel, avec vue sur le golfe et le centre à 15 minutes à pied."
+  },
+  {
+   "id": "sanguinaires",
+   "nom": "Route des Sanguinaires",
+   "lat": 41.9085,
+   "lng": 8.672,
+   "texte": "Les hôtels face à la mer, le long des plages de la Marinella, de Barbicaja et du Scudo, jusqu'à la Parata. Pour un séjour plage et couchers de soleil ; le centre est à 10 minutes en voiture ou en bus n° 5."
+  },
+  {
+   "id": "porticcio",
+   "nom": "Porticcio",
+   "lat": 41.8894,
+   "lng": 8.8033,
+   "texte": "La station balnéaire d'en face, avec ses longues plages et ses résidences de vacances, reliée à Ajaccio par la navette maritime (20 minutes). Idéal en famille, l'été, avec une voiture."
+  }
+ ],
+ "hotel_petit_prix_max": 110,
+ "restaurants": [
+  {
+   "id": "a-casetta",
+   "nom": "A Casetta",
+   "emoji": "🧀",
+   "gamme": "petit",
+   "genre": "Bar à charcuterie et vins corses",
+   "quartier": "Vieille ville",
+   "adresse": "3 avenue du Premier-Consul, 20000 Ajaccio",
+   "lat": 41.918576,
+   "lng": 8.73733,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Une épicerie fine qui sert aussi au comptoir : planches de coppa, lonzu et figatellu, tomme de brebis et verre de vin du pays, à deux pas de la place Foch. L'apéritif corse comme on le rêve, à prix doux.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; peu de places en terrasse le soir",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFromage_et_charcuterie_corse.jpg",
+    "src": "img/restos/AJA/a-casetta.jpg"
+   }
+  },
+  {
+   "id": "cheval-blanc",
+   "nom": "Le Petit Cheval Blanc",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers maison",
+   "quartier": "Vieille ville",
+   "adresse": "20 rue Bonaparte, 20000 Ajaccio",
+   "lat": 41.917615,
+   "lng": 8.739418,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Le repaire des Ajacciens pour un burger généreux, smashé à la plancha, dans une ruelle de la vieille ville près de la maison Bonaparte. Simple, copieux et pas cher : parfait entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; fermé le dimanche et le lundi midi",
+   "photo": {
+    "auteur": "Wiki.cullin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADouble_Smash_Burger_with_Fries.jpg",
+    "src": "img/restos/AJA/cheval-blanc.jpg"
+   }
+  },
+  {
+   "id": "la-mostra",
+   "nom": "La Mostra",
+   "emoji": "🥗",
+   "gamme": "petit",
+   "genre": "Cuisine du marché",
+   "quartier": "Marché (boulevard du Roi-Jérôme)",
+   "adresse": "13 boulevard du Roi-Jérôme, 20000 Ajaccio",
+   "lat": 41.920931,
+   "lng": 8.738624,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "En face du marché, une petite table qui cuisine ce qu'elle a trouvé sur les étals le matin : entrées originales, plats maison à l'italienne, option végétarienne et terrasse détendue. L'adresse que les locaux se refilent.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, la salle est petite",
+   "photo": {
+    "auteur": "Jean-Pol GRANDMONT",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_March%C3%A9_JPG1.jpg",
+    "src": "img/restos/AJA/la-mostra.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fredo",
+   "nom": "L'Epizzeria Fredo",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza napolitaine",
+   "quartier": "Saint-Jean",
+   "adresse": "12 rue du Docteur-Del-Pellegrino, 20090 Ajaccio",
+   "lat": 41.929157,
+   "lng": 8.736633,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Pâte légère qui gonfle au four, mozzarella fondante, tomates italiennes : la pizza napolitaine dans les règles de l'art, qui fait dire à ses fans qu'ils ont mangé la meilleure margherita de leur vie.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "CDibisceglia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza_Napoletana_Contemporanea.jpg",
+    "src": "img/restos/AJA/fredo.jpg"
+   }
+  },
+  {
+   "id": "via-lattea",
+   "nom": "Via Lattea",
+   "emoji": "🍦",
+   "gamme": "petit",
+   "genre": "Glacier artisanal",
+   "quartier": "Rue Cardinal-Fesch",
+   "adresse": "70 rue Cardinal-Fesch, 20000 Ajaccio",
+   "lat": 41.923287,
+   "lng": 8.738664,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Glaces et sorbets faits maison, crémeux et généreux, parmi les mieux notés de la ville. La pause gourmande de la rue Fesch, à déguster en flânant vers le port.",
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "photo": {
+    "auteur": "rawpixel",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGelato_ice_cream.jpg",
+    "src": "img/restos/AJA/via-lattea.jpg"
+   }
+  },
+  {
+   "id": "ardoise",
+   "nom": "L'Ardoise",
+   "emoji": "🐙",
+   "gamme": "petit",
+   "genre": "Brasserie corse",
+   "quartier": "Marché (boulevard du Roi-Jérôme)",
+   "adresse": "11 boulevard du Roi-Jérôme, 20000 Ajaccio",
+   "lat": 41.920823,
+   "lng": 8.73856,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Brasserie conviviale près du port et du marché : plateau corse avec charcuterie, fromages et terrine de sanglier, poulpe grillé, sauté de veau aux olives et pizzas. Copieux, frais et bon rapport qualité-prix.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été",
+   "photo": {
+    "auteur": "Alain Rouiller",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APiran%2C_Istrie_%28Slov%C3%A9nie%29_%28242_sur_268%29_%2853532796790%29.jpg",
+    "src": "img/restos/AJA/ardoise.jpg"
+   }
+  },
+  {
+   "id": "le-20123",
+   "nom": "Le 20123",
+   "emoji": "🏘️",
+   "gamme": "moyen",
+   "genre": "Cuisine corse traditionnelle",
+   "quartier": "Vieille ville",
+   "adresse": "2 rue du Roi-de-Rome, 20000 Ajaccio",
+   "lat": 41.917917,
+   "lng": 8.73735,
+   "prix": "35 à 45 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "On dîne sur la place d'un village corse reconstitué, avec fontaine, vieux bureau de poste et ciel étoilé, en souvenir du village d'origine des patrons. Menu unique très copieux : charcuterie maison, civet de sanglier, polenta de châtaigne, fromages.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant en été ; fermé le lundi en hiver",
+   "photo": {
+    "auteur": "dronepicr",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACivet_de_Sanglier_Wild_boar_casserole_in_Calvi%2C_Corsica_%2852723820611%29.jpg",
+    "src": "img/restos/AJA/le-20123.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "via-roma",
+   "nom": "Via Roma",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Italien",
+   "quartier": "Vieille ville",
+   "adresse": "6 rue du Roi-de-Rome, 20000 Ajaccio",
+   "lat": 41.917749,
+   "lng": 8.737993,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une terrasse dans une ruelle de la vieille ville, des pâtes fraîches, des risottos et des assiettes soignées : la table italienne dont les vidéos d'Ajaccio disent qu'elle vaut le détour, avec un accueil aux petits soins.",
+   "reservation": "conseille",
+   "reservation_delai": "2 jours avant en été",
+   "photo": {
+    "auteur": "giggel",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKorsika_%E2%80%93_Ajaccio_%E2%80%93_Rue_Saint-Charles_-_Casa_Napoleon_Bonaparte_-_panoramio_%282%29.jpg",
+    "src": "img/restos/AJA/via-roma.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "don-quichotte",
+   "nom": "Le Don Quichotte",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Vieille ville",
+   "adresse": "6 rue des Halles, 20000 Ajaccio",
+   "lat": 41.920019,
+   "lng": 8.738045,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Dans une ruelle près du marché, sous une terrasse couverte, les poissons et fruits de mer du golfe : moules à la corse, poisson du jour, pâtes aux fruits de mer. Une valeur sûre, plébiscitée par les habitués.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMoules_marini%C3%A8res_02.jpg",
+    "src": "img/restos/AJA/don-quichotte.jpg"
+   }
+  },
+  {
+   "id": "ecrin",
+   "nom": "L'Écrin",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Bistronomie",
+   "quartier": "Quartier des Étrangers",
+   "adresse": "16 cours du Général-Leclerc, 20000 Ajaccio",
+   "lat": 41.917147,
+   "lng": 8.727037,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Un peu à l'écart de l'agitation de la vieille ville, une cuisine moderne, fine et de saison, à des prix encore raisonnables. Le genre de table qu'on garde pour soi après l'avoir découverte.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant",
+   "photo": {
+    "auteur": "Super nabla",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARostita_polpo%2C_kiel_ratatujo%2C_%C4%89e_L%E2%80%99Ami_Jean%2C_franca_restoracio%2C_27_Rue_Malar%2C_75007_Parizo%2C_Francio.jpg",
+    "src": "img/restos/AJA/ecrin.jpg"
+   }
+  },
+  {
+   "id": "la-crique",
+   "nom": "La Crique",
+   "emoji": "🏝️",
+   "gamme": "moyen",
+   "genre": "Les pieds dans l'eau",
+   "quartier": "Route des Sanguinaires",
+   "adresse": "Route des Sanguinaires, 20000 Ajaccio",
+   "lat": 41.909051,
+   "lng": 8.654794,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Une terrasse suspendue au-dessus d'une petite crique de sable, face aux îles Sanguinaires : poisson du jour et viandes au feu de bois, aziminu (la bouillabaisse corse) et langouste du golfe. Allez-y pour le coucher de soleil.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant pour une table au bord de l'eau",
+   "photo": {
+    "auteur": "Jean-Pol GRANDMONT",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_Sanguinaires_1.jpg",
+    "src": "img/restos/AJA/la-crique.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sur-la-braise",
+   "nom": "Sur la Braise",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Grillades au feu de bois",
+   "quartier": "Vieille ville",
+   "adresse": "15 rue de la Porta, 20000 Ajaccio",
+   "lat": 41.918272,
+   "lng": 8.737668,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Viandes, poissons et légumes grillés au feu de bois, au cœur de la vieille ville : des produits de grande qualité, une cuisson parfaite et une terrasse dans la ruelle. L'adresse des amateurs de bonne viande.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "https://www.flickr.com/people/total13/",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteaks_cooked_on_a_disc_in_a_wood-fired_oven_with_saut%C3%A9ed_vegetables.jpg",
+    "src": "img/restos/AJA/sur-la-braise.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "terrasse-fesch",
+   "nom": "La Terrasse du Fesch",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Rooftop méditerranéen",
+   "quartier": "Rue Cardinal-Fesch",
+   "adresse": "Hôtel Fesch, 7 rue Cardinal-Fesch, 20000 Ajaccio",
+   "lat": 41.92,
+   "lng": 8.737663,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Sur le toit d'un hôtel du centre, une vue à 360° sur les toits, le golfe et les montagnes. Le chef Franck Radiu, enfant d'Ajaccio, y sublime le terroir corse : artichaut à l'anchois fumé, poissons du golfe, desserts de pâtissier.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant en été ; le restaurant ouvre le soir d'avril à octobre (bar du rooftop toute l'année)",
+   "photo": {
+    "auteur": "Jean-Pol GRANDMONT",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAjaccio_Cit%C3%A9_5JPG.jpg",
+    "src": "img/restos/AJA/terrasse-fesch.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "a-nepita",
+   "nom": "A Nepita",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine du marché",
+   "quartier": "Centre (près de la gare)",
+   "adresse": "4 rue San-Lazaro, 20000 Ajaccio",
+   "lat": 41.925352,
+   "lng": 8.73739,
+   "prix": "35 à 70 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Simon Andrews, chef anglais passé par de grandes maisons étoilées, est tombé amoureux de la Corse : sa carte change chaque jour au gré du marché, servie avec les conseils vins de son épouse Roberta. Le midi, la formule entrée-plat-dessert à 35 € est une affaire.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 jours avant ; fermé le dimanche et le lundi",
+   "photo": {
+    "auteur": "Popolon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AC%C3%A9drat-march%C3%A9_d%27Ajaccio.jpg",
+    "src": "img/restos/AJA/a-nepita.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-charlie",
+   "nom": "Le Charlie",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomique étoilé",
+   "quartier": "Porticcio (hauteurs)",
+   "adresse": "Hôtel Bella Vista, 20166 Porticcio",
+   "lat": 41.8935,
+   "lng": 8.8085,
+   "prix": "115 à 170 €",
+   "prix_min": 115,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin",
+   "texte": "La seule table étoilée du golfe, sur les hauteurs de Porticcio, face aux îles Sanguinaires. Richard Toix y mêle produits corses, souvenirs du continent et touches d'Asie dans des menus en 5 ou 8 temps qui changent toutes les deux semaines.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant",
+   "photo": {
+    "auteur": "Ripnel Patricia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABaie_Ajaccio_Porticcio.jpg",
+    "src": "img/restos/AJA/le-charlie.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chez-seraphin",
+   "nom": "Chez Séraphin (U Sciatellu)",
+   "emoji": "🏡",
+   "gamme": "haut",
+   "genre": "Auberge corse de village",
+   "quartier": "Peri (25 km)",
+   "adresse": "Au village, 20167 Peri",
+   "lat": 42.004977,
+   "lng": 8.920963,
+   "prix": "≈ 60 €",
+   "prix_min": 55,
+   "badges": [
+    "tendance",
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Dans un village de montagne à 30 minutes d'Ajaccio, une maison de famille où l'on passe trois heures à table : charcuterie, beignets de fleurs de courgette réputés les meilleurs de l'île, gigot cuit au feu de bois, fromages. Une expérience plus qu'un repas.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; carte bancaire non acceptée",
+   "photo": {
+    "auteur": "Sy.forester",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChez_Seraphin.JPG",
+    "src": "img/restos/AJA/chez-seraphin.jpg"
+   }
+  },
+  {
+   "id": "bilboq",
+   "nom": "Le Bilboq – Chez Jean-Jean",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Langouste aux spaghettis",
+   "quartier": "Vieille ville",
+   "adresse": "1 rue des Glacis, 20000 Ajaccio",
+   "lat": 41.918603,
+   "lng": 8.738782,
+   "prix": "≈ 80 €",
+   "prix_min": 79,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un plat unique, depuis des décennies : la langouste aux spaghettis, cuisinée vivante dès le matin dans une sauce rouge intense dont Jean-Jean et son fils gardent le secret. Une légende ajaccienne, vue à la télévision et dans les guides du monde entier.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; ouvert seulement pendant la saison de la langouste",
+   "photo": {
+    "auteur": "LETCHY06",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALangouste_au_spaghetti.jpg",
+    "src": "img/restos/AJA/bilboq.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "petit-restaurant",
+   "nom": "Le Petit Restaurant",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Cuisine moderne intimiste",
+   "quartier": "Vieille ville",
+   "adresse": "3 rue Pozzo-di-Borgo, 20000 Ajaccio",
+   "lat": 41.918069,
+   "lng": 8.739636,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Quelques tables au cœur de la vieille ville, où le chef Vincent Boucher marie charcuterie et fraises de Corse à des touches venues de bien plus loin que la Méditerranée. L'adresse discrète pour un dîner en amoureux.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant ; fermé le samedi et le dimanche",
+   "photo": {
+    "auteur": "Tim Evanson from Cleveland Heights, Ohio, USA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AObama_china_service_-_luncheon_plate_for_Shinzo_Abe_%2817322929431%29.jpg",
+    "src": "img/restos/AJA/petit-restaurant.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

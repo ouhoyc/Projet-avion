@@ -259,6 +259,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 - Ryanair : la vérification en direct (Ignav) n'a pas trouvé le vol Ryanair Lyon → Dublin
   (Aer Lingus proposé à la place). Couverture Ryanair à confirmer.
 - Crédit Ignav : 1 000 recherches gratuites, puis ~2 $ / 1 000.
+- Tunis (`guides/TUN.json`) : le 1er janvier 2027, les entrées des musées et sites tunisiens augmentent (Bardo 45 dinars,
+  Carthage, El Jem et Kairouan 30, billet combiné Bardo + Carthage 70) : mettre à jour les prix de la fiche.
 
 ## Fait
 
@@ -280,6 +282,31 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   catamaran Catlanza 85 €, Museo Atlántico dès 115 €, Rancho Texas 45 €, LagOmar 10 €, Papagayo 3 € par voiture.
   `a_verifier` à false partout. Pas encore de liens Tiqets (`PARTNER_LINKS`).
 
+- ✅ (23/10/2026) **Page guide d'Ajaccio** (`guides/AJA.json`), préparée en autonomie : 22 activités (tendance d'après les
+  réseaux sociaux, 2 sources au moins : vieille ville et marché, pointe de la Parata, coucher de soleil en mer, A Cupulatta,
+  Capo di Feno, rive sud Isolella / plage d'Argent ; excursions en bateau Sanguinaires, Scandola-Girolata-Piana et Bonifacio
+  (Nave Va), train de Vizzavona, Piana et Tolla par la route ; concert de polyphonies à Saint-Érasme), 18 restaurants (note
+  pondérée, C = 4,42, ~250 lieux lus via Wanderlog, 16 listes ; Michelin 2026 : Le Charlie à Porticcio 1 étoile, Terrasse du
+  Fesch, A Nepita, L'Écrin, Le Petit Restaurant et Chez Séraphin sélectionnés ; tendance : Le 20123, Via Roma, La Mostra,
+  L'Ardoise, Chez Séraphin ; institution : Le Bilboq, langouste aux spaghettis 79 €), 5 quartiers, pas de lien Tiqets (rien à
+  Ajaccio). Réseaux sociaux lancés une fois (Apify). Prix relevés sur les sites officiels (musée Fesch 9 €, maison Bonaparte
+  10 € via Affluences/RMN, A Cupulatta 15 €, Nave Va : Sanguinaires dès 36 €, Scandola dès 70 €, navette Porticcio 6/10 €,
+  polyphonies 20 € sur la billetterie de l'office de tourisme). Pas de match : l'AC Ajaccio, exclu des compétitions nationales
+  en 2025, joue en régional. Écartés : Milelli (ouverture non confirmée), NapoRama (pas de photo libre), U Papacionu (avis
+  d'intoxication). À savoir : la Terrasse du Fesch ne sert le dîner que d'avril à octobre ; Chez Séraphin ne prend pas la carte
+  bancaire ; A Cupulatta fermé du 12 novembre au 29 mars. Le guide porte le nom de la ville (`ville`) : sans vol Lyon–Ajaccio
+  (ligne saisonnière), la page affichait « AJA » ; `ville.js` le prend en secours.
+- ✅ (23/10/2026) **Page guide de Tunis** (`guides/TUN.json`), préparée en autonomie : 24 activités (tendance d'après les
+  réseaux sociaux, 2 sources au moins : médina, Bardo, Carthage, Sidi Bou Saïd, avenue Bourguiba, plage de La Marsa, El Jem,
+  Hammamet, Bizerte ; match de l'Espérance, club « Espérance Sportive De Tunis » ; Festival de Carthage en juillet-août ;
+  excursions Dougga, Kairouan, El Jem, Cap Bon, Hammamet-Nabeul, Zaghouan, Bizerte), 18 restaurants (note pondérée, C = 4,07,
+  ~370 lieux lus via Wanderlog ; pas de guide Michelin en Tunisie ; Le Golfe 46e du MENA's 50 Best 2026), 5 quartiers, pas de
+  lien Tiqets (rien à Tunis). Réseaux sociaux lancés une fois (Apify). Prix : nouvelle grille des musées et sites du 1er avril
+  2026 (Bardo 30 dinars, Carthage 20, billet combiné 45, Dougga/Thuburbo/Kerkouane 8, Zitouna et Tourbet el Bey 5 ; nouvelle
+  hausse au 1er janvier 2027 : Bardo 45, Carthage 30, combiné 70 → à mettre à jour en janvier), horaires sur
+  patrimoinedetunisie.com.tn, palais Ennejma Ezzahra 10 dinars (cmam.tn), 1 € ≈ 3,37 dinars. Écartés : musée Dar Ben Abdallah
+  (fermé depuis des années), Acropolium (fermé pour travaux), sources chaudes de Korbous (route abîmée, éboulements
+  sept. 2026), café des Délices (piège à touristes d'après Reddit : mention dans la fiche de Sidi Bou Saïd).
 - ✅ (23/10/2026) **Page guide de Marrakech** (`guides/RAK.json`), reprise du brouillon de la branche
   `claude/project-thread-wgcv4a` : 25 activités (tendance : Majorelle, médersa Ben Youssef, Dar el Bacha, montgolfière,
   Agafay ; excursions Ourika, Ouzoud, Aït-Ben-Haddou, Essaouira, Imlil), 18 restaurants (MENA's 50 Best 2026 : La Grande
