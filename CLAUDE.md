@@ -198,6 +198,9 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
 Tout va dans `guides/CODE.json` ; ajouter le code dans `GUIDES` (`search.js`). Une ville n'est
 « prête » que si les 4 étapes du circuit marchent (vérifier iPhone + PC).
+**Liste de suivi** (page « Villes à préparer », https://claude.ai/artifact/Uc9hnX9sfXuEjJKNZEiHYM) :
+une fois la ville en ligne, la barrer avec l'outil `ArtifactData` (collection `villes`, document = code
+de la ville, `update` de `{"fait": true, "date": "JJ/MM/AAAA"}` ; lire le document avant pour son `version`).
 1. **Activités** (~25-30) : les incontournables + 2-3 lieux « réseaux sociaux » (badge `tendance`).
    Chaque activité : type, quartier, position, texte vendeur, prix + `prix_detail`, `tarifs`
    (adulte + enfants), réservation (+ délai), durée, moment, site officiel, photo libre Commons.
