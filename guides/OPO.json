@@ -1,0 +1,1672 @@
+{
+ "city_code": "OPO",
+ "statut": "vérifié en autonomie, prix relevés le 22/10/2026",
+ "verifie_le": "2026-10-22",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "ribeira",
+   "nom": "La Ribeira, le vieux port",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Ribeira",
+   "lat": 41.140691,
+   "lng": -8.613007,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h à 2 h",
+   "moment": "En fin de journée, quand les façades prennent la lumière",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des maisons colorées empilées sur la colline, le linge aux fenêtres, les bateaux rabelos amarrés devant le pont : la carte postale de Porto, classée par l'Unesco. On flâne sur le quai, on se perd dans les ruelles en escalier du Barredo, puis on s'assoit en terrasse face au fleuve.",
+   "site_officiel": "https://visitporto.travel/",
+   "note": "Les terrasses du quai sont les plus chères de la ville : pour manger, remontez d'une ou deux rues.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_Ribeira_from_Cais_de_Gaia%2C_20250605_1628_9890.jpg",
+    "src": "img/activites/OPO/ribeira.jpg"
+   }
+  },
+  {
+   "id": "ponte-luis",
+   "nom": "Pont Dom Luís I",
+   "emoji": "🌉",
+   "type": "vue",
+   "quartier": "Ribeira et Gaia",
+   "lat": 41.14017,
+   "lng": -8.609458,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Traversée à pied",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "30 min à 1 h",
+   "moment": "Au coucher du soleil, sur le tablier du haut",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le grand arc de métal de Porto, dessiné par Théophile Seyrig, ancien associé de Gustave Eiffel. Traversez-le par le tablier du haut, à 45 mètres au-dessus du Douro, partagé avec le métro : la vue sur la Ribeira et les caves de Gaia y est la plus belle de la ville. Le tablier du bas relie directement les deux quais.",
+   "site_officiel": "https://visitporto.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Krzysztof Golik",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADom_Luis_I_bridge_from_Jardim_do_Morro_%281%29.jpg",
+    "src": "img/activites/OPO/ponte-luis.jpg"
+   }
+  },
+  {
+   "id": "morro",
+   "nom": "Jardin du Morro et belvédère de la Serra do Pilar",
+   "emoji": "🌇",
+   "type": "vue",
+   "quartier": "Vila Nova de Gaia",
+   "lat": 41.137613,
+   "lng": -8.608727,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardin et belvédère",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h",
+   "moment": "Pour le coucher du soleil (venez 30 min avant)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le rendez-vous de tout Porto au coucher du soleil : sur la pelouse du jardin, au bout du pont, on regarde la Ribeira s'allumer, souvent en musique. Montez quelques minutes de plus jusqu'au monastère de la Serra do Pilar pour la vue la plus large sur la ville.",
+   "site_officiel": "https://www.gaiacablecar.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dale Cruse",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASerra_do_Pilar_Monastery_and_Ponte_Lu%C3%ADs_I_Overlooking_the_Douro_River_in_Porto_%2854821605338%29.jpg",
+    "src": "img/activites/OPO/morro.jpg"
+   }
+  },
+  {
+   "id": "clerigos",
+   "nom": "Tour des Clérigos",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Baixa",
+   "lat": 41.145655,
+   "lng": -8.614627,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Tour + musée",
+     "10 €"
+    ],
+    [
+     "Tour seule",
+     "5 €"
+    ],
+    [
+     "Étudiants (tour + musée)",
+     "7 €"
+    ],
+    [
+     "Moins de 11 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      10,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille ou le matin même pour choisir son créneau",
+   "duree": "1 h",
+   "moment": "À l'ouverture (9 h) ou en fin d'après-midi",
+   "enfants": true,
+   "texte": "Le clocher baroque qui domine Porto depuis 1763. On grimpe plus de 200 marches en colimaçon jusqu'au balcon, à 75 mètres : toute la ville se dévoile, des toits orange jusqu'à l'océan. Le billet ouvre aussi l'église et son musée d'art sacré.",
+   "site_officiel": "https://www.torredosclerigos.pt/",
+   "note": "Ouvert tous les jours de 9 h à 19 h. Escalier étroit, déconseillé si l'on a le vertige.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vlach Pavel",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APohled_z_v%C4%9B%C5%BEe_Torre_dos_Cl%C3%A9rigos_Porto.jpg",
+    "src": "img/activites/OPO/clerigos.jpg"
+   }
+  },
+  {
+   "id": "lello",
+   "nom": "Librairie Lello",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "Baixa",
+   "lat": 41.146832,
+   "lng": -8.614849,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Billet-bon (déduit de l'achat d'un livre)",
+     "10 €"
+    ],
+    [
+     "Billet « Gold » avec entrée prioritaire",
+     "15,95 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet en ligne à heure fixe, quelques jours avant en été",
+   "duree": "30 à 45 min",
+   "moment": "Au premier créneau du matin (9 h), avant la foule",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On la dit la plus belle librairie du monde : un escalier rouge qui s'enroule comme un ruban, des boiseries néogothiques et une grande verrière. Une merveille de 1906, connue dans le monde entier.",
+   "site_officiel": "https://www.livrarialello.pt/",
+   "note": "Le billet est remboursé si vous achetez un livre sur place. Ouvert tous les jours de 9 h à 19 h 30.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "John Samuel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AInterior_view_of_Livraria_Lello_03.jpg",
+    "src": "img/activites/OPO/lello.jpg"
+   }
+  },
+  {
+   "id": "sao-bento",
+   "nom": "Gare de São Bento",
+   "emoji": "🚉",
+   "type": "culture",
+   "quartier": "Baixa",
+   "lat": 41.14548,
+   "lng": -8.610522,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Hall de la gare",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "20 min",
+   "moment": "À toute heure, la lumière est plus douce le matin",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Peut-être la plus belle gare du monde : 20 000 azulejos bleus et blancs racontent l'histoire du Portugal sur les murs du grand hall. On y passe dix minutes, bouche bée, entre deux trains.",
+   "site_officiel": "https://www.cp.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "jad99 from Graz, Austria",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAzulejos_%28Esta%C3%A7%C3%A3o_de_S%C3%A3o_Bento%29_%2814027333363%29.jpg",
+    "src": "img/activites/OPO/sao-bento.jpg"
+   }
+  },
+  {
+   "id": "se",
+   "nom": "Cathédrale (Sé)",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Sé",
+   "lat": 41.142799,
+   "lng": -8.611206,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Cathédrale",
+     "gratuit"
+    ],
+    [
+     "Cloître et trésor",
+     "3 €"
+    ],
+    [
+     "Moins de 11 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [
+     [
+      10,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "45 min",
+   "moment": "Le matin, puis descente à pied vers la Ribeira",
+   "enfants": true,
+   "texte": "La cathédrale-forteresse posée au sommet de la vieille ville. Ne manquez pas son cloître gothique tapissé d'azulejos, ni la terrasse devant l'entrée : la vue plonge sur les toits jusqu'au pont Dom Luís I.",
+   "site_officiel": "https://visitporto.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jakub Hałun",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_Porto_Cathedral_from_Cl%C3%A9rigos_Tower%2C_20250605_1724_9965.jpg",
+    "src": "img/activites/OPO/se.jpg"
+   }
+  },
+  {
+   "id": "bolsa",
+   "nom": "Palais de la Bourse",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Ribeira",
+   "lat": 41.141312,
+   "lng": -8.616,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Visite guidée (obligatoire)",
+     "14 €"
+    ],
+    [
+     "Étudiants et seniors",
+     "9,50 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez votre créneau en ligne la veille : les groupes par langue sont limités",
+   "duree": "30 min",
+   "moment": "Visites de 9 h à 18 h 30",
+   "enfants": true,
+   "texte": "Derrière une façade sobre, un palais du XIXᵉ siècle d'une richesse folle. La visite guidée se termine dans le salon arabe, couvert d'or et d'arabesques façon Alhambra : on en reste sans voix.",
+   "site_officiel": "https://palaciodabolsa.com/",
+   "note": "Visite seulement guidée (environ 30 min), en français possible.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daniel VILLAFRUELA.",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorto-Pal%C3%A1cio_da_Bolsa-Sal%C3%A3o_%C3%81rabe-Galeria-20142910.jpg",
+    "src": "img/activites/OPO/bolsa.jpg"
+   }
+  },
+  {
+   "id": "sao-francisco",
+   "nom": "Église Saint-François",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Ribeira",
+   "lat": 41.140982,
+   "lng": -8.615708,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Église, catacombes et musée",
+     "9 €"
+    ],
+    [
+     "Étudiants",
+     "6,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "45 min",
+   "moment": "Tous les jours de 9 h à 19 h (20 h d'avril à septembre)",
+   "enfants": true,
+   "texte": "Une église gothique toute simple dehors, et dedans, une explosion d'or : les autels baroques sont entièrement couverts de bois sculpté et doré. La visite descend aussi dans les catacombes, sous le plancher.",
+   "site_officiel": "https://ordemsaofranciscoporto.pt/igrejas/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "António Amen",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AS%C3%A3o_Nicolau-Igreja_de_S%C3%A3o_Francisco_-_Tectos_em_talha_dourada_%281%29.jpg",
+    "src": "img/activites/OPO/sao-francisco.jpg"
+   }
+  },
+  {
+   "id": "carmo",
+   "nom": "Églises du Carmo et des Carmelitas",
+   "emoji": "💙",
+   "type": "culture",
+   "quartier": "Baixa",
+   "lat": 41.147456,
+   "lng": -8.616255,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Église du Carmo",
+     "gratuit"
+    ],
+    [
+     "Circuit : catacombes, maison cachée, toits",
+     "5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "45 min",
+   "moment": "En matinée, pour la façade d'azulejos au soleil",
+   "enfants": true,
+   "texte": "Deux églises collées l'une à l'autre, séparées par une maison d'un mètre de large où vivaient les gardiens. La façade latérale du Carmo, entièrement couverte d'azulejos bleus, est l'une des plus photographiées de Porto ; le circuit payant ouvre la maison cachée et les toits.",
+   "site_officiel": "https://visitporto.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "John Samuel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIgreja_do_Carmo_02.jpg",
+    "src": "img/activites/OPO/carmo.jpg"
+   }
+  },
+  {
+   "id": "capela-almas",
+   "nom": "Chapelle des Âmes et rue Santa Catarina",
+   "emoji": "🔷",
+   "type": "balade",
+   "quartier": "Baixa",
+   "lat": 41.149831,
+   "lng": -8.605579,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Chapelle et rue",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h",
+   "moment": "En journée, la rue est animée jusqu'au soir",
+   "enfants": true,
+   "texte": "La chapelle aux 16 000 azulejos bleus, d'un bleu éclatant sous le soleil, ouvre la rue piétonne Santa Catarina : boutiques, artistes de rue et le café Majestic et son décor Belle Époque, à quelques pas.",
+   "site_officiel": "https://visitporto.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACapilla_de_las_Almas%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_01.JPG",
+    "src": "img/activites/OPO/capela-almas.jpg"
+   }
+  },
+  {
+   "id": "caves",
+   "nom": "Caves de porto à Vila Nova de Gaia",
+   "emoji": "🍷",
+   "type": "culture",
+   "quartier": "Vila Nova de Gaia",
+   "lat": 41.13434,
+   "lng": -8.614403,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Taylor's : visite audioguidée + 3 portos",
+     "≈ 25 €"
+    ],
+    [
+     "Cálem : visite guidée + 2 portos",
+     "≈ 22 €"
+    ],
+    [
+     "Dégustations premium",
+     "40 € et plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez votre visite en ligne quelques jours avant",
+   "duree": "1 h à 1 h 30",
+   "moment": "L'après-midi, puis apéritif sur les quais de Gaia",
+   "enfants": false,
+   "texte": "Le porto vieillit ici, de l'autre côté du fleuve, dans des chais centenaires où dorment des milliers de fûts. Une visite chez Taylor's, Graham's ou Cálem raconte trois siècles d'histoire et se termine par une dégustation, souvent avec vue sur Porto.",
+   "site_officiel": "https://www.taylor.pt/",
+   "note": "Prix différents d'une maison à l'autre ; Taylor's et Graham's sont en haut de la colline, Cálem au bord du quai.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jairo from São Paulo, Brazil",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWine_cellars_of_taylor%C2%B4s.jpg",
+    "src": "img/activites/OPO/caves.jpg"
+   }
+  },
+  {
+   "id": "wow",
+   "nom": "WOW, World of Wine",
+   "emoji": "🍫",
+   "type": "culture",
+   "quartier": "Vila Nova de Gaia",
+   "lat": 41.134737,
+   "lng": -8.614346,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Musée du vin (avec dégustation)",
+     "≈ 25 €"
+    ],
+    [
+     "Billets combinés plusieurs musées",
+     "plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place ou en ligne",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Par mauvais temps, ou en famille",
+   "enfants": true,
+   "texte": "Un ancien quartier de chais transformé en cité de la culture : six musées interactifs (vin, liège, chocolat, histoire de Porto…), des restaurants et une grande place avec vue sur la Ribeira. Le musée du chocolat ravit les enfants.",
+   "site_officiel": "https://wow.pt/",
+   "a_verifier": false
+  },
+  {
+   "id": "teleferico",
+   "nom": "Téléphérique de Gaia",
+   "emoji": "🚡",
+   "type": "vue",
+   "quartier": "Vila Nova de Gaia",
+   "lat": 41.137617,
+   "lng": -8.612911,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Aller simple",
+     "7 €"
+    ],
+    [
+     "Aller-retour",
+     "10 €"
+    ],
+    [
+     "Enfants 5-12 ans",
+     "3,50 € (5 € aller-retour)"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      12,
+      3.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "10 min",
+   "moment": "Montez en fin de journée et redescendez à pied par le pont",
+   "enfants": true,
+   "texte": "Six minutes en cabine au-dessus des toits des caves, du quai de Gaia jusqu'au pied du pont Dom Luís I. La façon la plus douce de grimper la colline, avec Porto en face pendant toute la montée.",
+   "site_officiel": "https://gaiacablecar.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Matt Kieffer from London, United Kingdom",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATelef%C3%A9rico_de_Gaia%2C_cable_car_%2824378866108%29.jpg",
+    "src": "img/activites/OPO/teleferico.jpg"
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière des six ponts",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Ribeira",
+   "lat": 41.140546,
+   "lng": -8.611842,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Croisière de 50 min",
+     "≈ 20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur le quai ; en ligne en été",
+   "duree": "50 min",
+   "moment": "En fin de journée (dernier départ vers 16 h 30 en hiver)",
+   "enfants": true,
+   "texte": "Une petite heure sur un bateau inspiré des rabelos, qui transportaient autrefois les fûts de porto. On passe sous les six ponts de la ville et on découvre la Ribeira et les caves depuis le fleuve.",
+   "site_officiel": "https://www.douroazul.com/cruzeiro-das-6-pontes-rio-douro/",
+   "note": "Départs du quai de la Ribeira ou de Gaia, toutes les 30 min environ.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "TeWeBs",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorto_Rabelo_124976.JPG",
+    "src": "img/activites/OPO/croisiere.jpg"
+   }
+  },
+  {
+   "id": "tram",
+   "nom": "Tramway n° 1 jusqu'à Foz",
+   "emoji": "🚋",
+   "type": "balade",
+   "quartier": "Ribeira → Foz",
+   "lat": 41.141524,
+   "lng": -8.614659,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Trajet simple",
+     "6 €"
+    ],
+    [
+     "Enfants 4-12 ans",
+     "3,50 €"
+    ],
+    [
+     "2 trajets le même jour",
+     "8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      3.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "ticket à bord, au conducteur",
+   "duree": "25 min",
+   "moment": "Le matin, puis retour à pied le long de l'océan",
+   "enfants": true,
+   "texte": "Un vieux tramway en bois, comme au début du XXᵉ siècle, qui longe le Douro de la Ribeira jusqu'à l'océan. Vingt-cinq minutes de balade au ras du fleuve, à prolonger par la promenade de Foz.",
+   "site_officiel": "https://www.stcp.pt/",
+   "note": "Départ près de l'église Saint-François (arrêt Infante), arrivée au Passeio Alegre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "René Hourdry",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATramway_de_Porto_-_Tram_131.jpg",
+    "src": "img/activites/OPO/tram.jpg"
+   }
+  },
+  {
+   "id": "foz",
+   "nom": "Foz do Douro et plage de Matosinhos",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Foz do Douro",
+   "lat": 41.146734,
+   "lng": -8.677299,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade et plages",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "Une demi-journée",
+   "moment": "Les jours de grosse houle, pour les vagues qui frappent le phare",
+   "enfants": true,
+   "texte": "Là où le Douro rencontre l'Atlantique : une longue promenade face à l'océan, le petit phare de Felgueiras battu par les vagues, des plages et des cafés. On peut la suivre jusqu'à Matosinhos, sa grande plage de surf et ses grills à poisson.",
+   "site_officiel": "https://visitporto.travel/",
+   "note": "L'eau reste fraîche, même en été (environ 17 °C).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pveverdingen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFoz_do_Douro_-_Farolim_de_Felgueiras_%E2%80%93_20230228_PvE_%28Q10280208%29.jpg",
+    "src": "img/activites/OPO/foz.jpg"
+   }
+  },
+  {
+   "id": "serralves",
+   "nom": "Fondation Serralves",
+   "emoji": "🌳",
+   "type": "culture",
+   "quartier": "Boavista",
+   "lat": 41.159132,
+   "lng": -8.659406,
+   "prix": 24,
+   "prix_detail": [
+    [
+     "Musée, parc et passerelle dans les arbres",
+     "24 €"
+    ],
+    [
+     "Parc seul",
+     "15 €"
+    ],
+    [
+     "12-17 ans",
+     "moitié prix"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24,
+    "enfants": [
+     [
+      11,
+      0
+     ],
+     [
+      17,
+      12
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place ou en ligne",
+   "duree": "2 h 30 à 3 h",
+   "moment": "Le matin, par beau temps pour le parc",
+   "enfants": true,
+   "texte": "Le musée d'art contemporain d'Álvaro Siza, architecte star de Porto, posé dans un parc de 18 hectares : villa Art déco rose, roseraie, ferme et une passerelle suspendue dans la cime des arbres. Une demi-journée de calme à 15 minutes du centre.",
+   "site_officiel": "https://www.serralves.pt/visitar-serralves/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Caravasar",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASerralves_museum_from_outside.JPG",
+    "src": "img/activites/OPO/serralves.jpg"
+   }
+  },
+  {
+   "id": "casa-musica",
+   "nom": "Casa da Música",
+   "emoji": "🎼",
+   "type": "culture",
+   "quartier": "Boavista",
+   "lat": 41.158903,
+   "lng": -8.630775,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Visite guidée",
+     "12 €"
+    ],
+    [
+     "13-18 ans",
+     "5 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      12,
+      0
+     ],
+     [
+      18,
+      5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez la visite guidée en ligne (places limitées)",
+   "duree": "1 h",
+   "moment": "Visite en journée, ou un concert le soir",
+   "enfants": true,
+   "texte": "Un énorme bloc blanc taillé comme un diamant, signé Rem Koolhaas : à l'intérieur, salles de concert vitrées, escaliers inattendus et une salle couverte d'azulejos. La visite guidée raconte ce bâtiment hors norme ; un concert le soir, c'est encore mieux.",
+   "site_officiel": "https://casadamusica.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dale Cruse",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACasa_da_M%C3%BAsica%2C_Porto%2C_Portugal_%2854828599094%29.jpg",
+    "src": "img/activites/OPO/casa-musica.jpg"
+   }
+  },
+  {
+   "id": "palacio-cristal",
+   "nom": "Jardins du palais de Cristal",
+   "emoji": "🦚",
+   "type": "balade",
+   "quartier": "Massarelos",
+   "lat": 41.147034,
+   "lng": -8.626276,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, pour la lumière sur le Douro",
+   "enfants": true,
+   "texte": "Des jardins romantiques perchés au-dessus du fleuve, où se promènent des paons en liberté. Des terrasses et belvédères, la vue file sur le Douro jusqu'à son embouchure : le coin préféré des habitants pour souffler.",
+   "site_officiel": "https://visitporto.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "John Samuel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGardens_of_the_Pal%C3%A1cio_de_Cristal_%28Porto%29_29.jpg",
+    "src": "img/activites/OPO/palacio-cristal.jpg"
+   }
+  },
+  {
+   "id": "bombarda",
+   "nom": "Rue Miguel Bombarda et ses galeries",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Cedofeita",
+   "lat": 41.149852,
+   "lng": -8.619323,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h à 2 h",
+   "moment": "L'après-midi, quand galeries et boutiques sont ouvertes",
+   "enfants": true,
+   "texte": "Le quartier des artistes : galeries d'art, boutiques de créateurs, librairies et cafés, avec le petit centre commercial Bombarda et ses concept-stores. Le Porto jeune et créatif, à deux pas de la tour des Clérigos.",
+   "site_officiel": "https://visitporto.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Manuel de Sousa",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARua_Miguel_Bombarda_%28Porto%29.jpg",
+    "src": "img/activites/OPO/bombarda.jpg"
+   }
+  },
+  {
+   "id": "fado",
+   "nom": "Spectacle de fado",
+   "emoji": "🎶",
+   "type": "sortir",
+   "quartier": "Sé",
+   "lat": 41.142612,
+   "lng": -8.610299,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Spectacle avec un verre de porto",
+     "≈ 20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille, la salle est petite",
+   "duree": "50 min",
+   "moment": "En fin de journée, avant le dîner",
+   "enfants": true,
+   "texte": "Le chant de l'âme portugaise, nostalgique et bouleversant, accompagné à la guitare portugaise. À la Casa da Guitarra, au pied de la cathédrale, un concert intime d'une heure, sans dîner imposé, suivi d'un verre de porto.",
+   "site_officiel": "https://www.casadaguitarra.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMuseu_do_Fado_-_Lisboa_-_Portugal_%2850046925078%29.jpg",
+    "src": "img/activites/OPO/fado.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fcporto",
+   "nom": "Match du FC Porto",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Estádio do Dragão",
+   "lat": 41.161823,
+   "lng": -8.583749,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 30 à 80 €"
+    ],
+    [
+     "Grands matchs (Benfica, Ligue des champions)",
+     "bien plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "sur le site du club, dès l'ouverture de la vente au grand public (quelques jours avant le match)",
+   "duree": "3 h",
+   "moment": "Les soirs de match",
+   "enfants": true,
+   "club": "FC Porto",
+   "texte": "Le club le plus titré du Portugal des vingt dernières années, deux fois champion d'Europe, dans son stade du Dragão de 50 000 places. Une ambiance bleue et blanche, chants et tifos, à 15 minutes de métro du centre.",
+   "site_officiel": "https://www.fcporto.pt/",
+   "note": "Achetez uniquement sur la billetterie officielle du club, où il faut créer un compte ; les revendeurs pratiquent des prix énormes.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Edgar Jiménez from Porto, Portugal",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEst%C3%A1dio_do_Drag%C3%A3o_%288468978586%29.jpg",
+    "src": "img/activites/OPO/fcporto.jpg"
+   }
+  },
+  {
+   "id": "museu-fcporto",
+   "nom": "Musée du FC Porto et visite du stade",
+   "emoji": "🏆",
+   "type": "sport",
+   "quartier": "Estádio do Dragão",
+   "lat": 41.161823,
+   "lng": -8.583749,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Musée + visite du stade",
+     "25 €"
+    ],
+    [
+     "Musée seul",
+     "17 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille (visites du stade à heures fixes)",
+   "duree": "2 h",
+   "moment": "En journée, sauf les jours de match",
+   "enfants": true,
+   "texte": "Un musée moderne et très interactif sur l'histoire du club et de la ville, puis la visite du Dragão : vestiaires, couloir des joueurs et bord du terrain. À faire même sans match pendant le séjour.",
+   "site_officiel": "https://museu.fcporto.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Threeohsix",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASeveral_domestic_titles_at_Museu_FC_Porto.jpg",
+    "src": "img/activites/OPO/museu-fcporto.jpg"
+   }
+  },
+  {
+   "id": "douro",
+   "nom": "Excursion dans la vallée du Douro",
+   "emoji": "🍇",
+   "type": "nature",
+   "quartier": "Pinhão (2 h 30 en train)",
+   "lat": 41.190395,
+   "lng": -7.545135,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Train aller-retour São Bento ↔ Pinhão",
+     "≈ 25 €"
+    ],
+    [
+     "Enfants 4-12 ans",
+     "moitié prix"
+    ],
+    [
+     "Dégustations dans les domaines",
+     "en plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      12.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet de train la veille ; dégustations à réserver dans les domaines",
+   "duree": "La journée",
+   "moment": "Partez par le premier train du matin",
+   "enfants": true,
+   "texte": "Les vignes du porto en terrasses, à perte de vue, au-dessus d'un fleuve qui serpente : un paysage classé par l'Unesco. Le train longe le Douro pendant la seconde moitié du trajet ; à Pinhão, on visite un domaine, on déguste et l'on peut faire un tour en bateau.",
+   "site_officiel": "https://www.cp.pt/",
+   "note": "Asseyez-vous côté droit à l'aller pour avoir le fleuve sous les yeux. Septembre, mois des vendanges, est le plus beau.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "peuplier from Switzerland Suisse romande",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APortugal_Vall%C3%A9e_du_Douro_%288121915978%29.jpg",
+    "src": "img/activites/OPO/douro.jpg"
+   }
+  },
+  {
+   "id": "guimaraes",
+   "nom": "Excursion à Guimarães",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Guimarães (1 h 15 en train)",
+   "lat": 41.447912,
+   "lng": -8.29041,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Train aller-retour depuis São Bento",
+     "≈ 8 €"
+    ],
+    [
+     "Château + palais des ducs",
+     "8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet de train à la gare, sans réservation",
+   "duree": "La journée",
+   "moment": "Le matin, avec retour en fin d'après-midi",
+   "enfants": true,
+   "texte": "Le « berceau du Portugal », où naquit le premier roi : un château du Xᵉ siècle, le palais des ducs de Bragance et un centre médiéval classé par l'Unesco, aux places bordées de maisons à balcons. Charmant et peu touristique.",
+   "site_officiel": "https://www.guimaraesturismo.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "John Samuel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AExterior_view_of_Castelo_de_Guimar%C3%A3es_08.jpg",
+    "src": "img/activites/OPO/guimaraes.jpg"
+   }
+  },
+  {
+   "id": "braga",
+   "nom": "Excursion à Braga et au Bom Jesus",
+   "emoji": "🙏",
+   "type": "nature",
+   "quartier": "Braga (1 h en train)",
+   "lat": 41.554475,
+   "lng": -8.377812,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Train aller-retour depuis São Bento",
+     "≈ 8 €"
+    ],
+    [
+     "Funiculaire du Bom Jesus",
+     "petit supplément"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet de train à la gare, sans réservation",
+   "duree": "La journée",
+   "moment": "Le matin pour le sanctuaire, l'après-midi pour la vieille ville",
+   "enfants": true,
+   "texte": "La « Rome portugaise » et son sanctuaire du Bom Jesus, au sommet d'un immense escalier baroque en zigzag de 573 marches. On monte à pied ou par le plus vieux funiculaire à eau du monde (1882), puis on redescend vers la cathédrale et le centre.",
+   "site_officiel": "https://bomjesus.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Scott Crowe",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABaroque_stairway_of_Bom_Jesus_do_Monte_-_panoramio_-_Scott_Crowe_%281%29.jpg",
+    "src": "img/activites/OPO/braga.jpg"
+   }
+  },
+  {
+   "id": "aveiro",
+   "nom": "Excursion à Aveiro et Costa Nova",
+   "emoji": "🛶",
+   "type": "nature",
+   "quartier": "Aveiro (1 h 15 en train)",
+   "lat": 40.620073,
+   "lng": -8.752624,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Train aller-retour depuis São Bento",
+     "≈ 8 €"
+    ],
+    [
+     "Balade en moliceiro",
+     "en plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet de train à la gare, sans réservation",
+   "duree": "La journée",
+   "moment": "Par beau temps, pour les couleurs de Costa Nova",
+   "enfants": true,
+   "texte": "La « Venise portugaise » : des canaux parcourus par des barques colorées à proue relevée, des maisons Art nouveau, et à 20 minutes en bus les célèbres maisons rayées de Costa Nova, face à une plage immense. Goûtez les ovos moles, la douceur locale.",
+   "site_officiel": "https://www.visitportoandnorth.travel/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Xosema",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAveiro_-_Ilhavo_-_Palheiros_da_Costa_Nova_-_02.jpg",
+    "src": "img/activites/OPO/aveiro.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "ribeira",
+   "nom": "Ribeira et Sé",
+   "lat": 41.1415,
+   "lng": -8.6125,
+   "texte": "Le cœur historique au bord du Douro : ruelles en escalier, terrasses sur le quai et vue sur les caves de Gaia. Magique pour un premier séjour, mais ça monte beaucoup et c'est plus cher."
+  },
+  {
+   "id": "baixa",
+   "nom": "Baixa et Aliados",
+   "lat": 41.1475,
+   "lng": -8.611,
+   "texte": "Le centre-ville autour de l'avenue des Aliados, de la gare de São Bento et des Clérigos : tout se fait à pied, métro à la porte. Le meilleur choix pour tout voir sans voiture."
+  },
+  {
+   "id": "cedofeita",
+   "nom": "Cedofeita et Miguel Bombarda",
+   "lat": 41.151,
+   "lng": -8.6175,
+   "texte": "Le Porto des artistes, entre galeries, boutiques de créateurs et cafés. Plus calme le soir et un peu moins cher, à 10 minutes à pied de la Baixa."
+  },
+  {
+   "id": "gaia",
+   "nom": "Vila Nova de Gaia",
+   "lat": 41.1365,
+   "lng": -8.6135,
+   "texte": "L'autre rive, celle des caves de porto, face à la Ribeira : la plus belle vue sur Porto depuis sa chambre. On traverse le pont à pied pour rejoindre le centre."
+  },
+  {
+   "id": "foz",
+   "nom": "Foz do Douro",
+   "lat": 41.152,
+   "lng": -8.673,
+   "texte": "Le quartier chic au bord de l'océan : promenade, plages et bons restaurants. Idéal pour un séjour au calme, à 20 minutes de tramway ou de bus du centre."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "santiago",
+   "nom": "Café Santiago",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Francesinha",
+   "quartier": "Baixa",
+   "adresse": "Rua de Passos Manuel 226, 4000-382 Porto",
+   "lat": 41.146382,
+   "lng": -8.604825,
+   "prix": "15 à 20 €",
+   "prix_min": 15,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le temple de la francesinha, le sandwich-monument de Porto : pain de mie, viandes, fromage fondu, le tout noyé dans une sauce épicée à la bière, avec des frites. On fait la queue pour cette version, l'une des plus célèbres de la ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 12 h 30 ou après 14 h",
+   "photo": {
+    "auteur": "Argos42",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFrancesinha_with_egg.jpg",
+    "src": "img/restos/OPO/santiago.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-guedes",
+   "nom": "Casa Guedes",
+   "emoji": "🐖",
+   "gamme": "petit",
+   "genre": "Sandwich au porc rôti",
+   "quartier": "Baixa",
+   "adresse": "Praça dos Poveiros 130, 4000-393 Porto",
+   "lat": 41.146016,
+   "lng": -8.603486,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le sandwich culte de Porto : du porc rôti lentement et effiloché, dans un petit pain croustillant, avec ou sans fromage de la Serra da Estrela fondant. Simple, juteux, inoubliable, à manger en terrasse sur la place.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; la file avance vite",
+   "photo": {
+    "auteur": "Bex Walton from London, England",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASande_de_pernil_%E2%80%94_pork_sandwich_%E2%80%94_at_Casa_Guedes_%2851706948828%29.jpg",
+    "src": "img/restos/OPO/casa-guedes.jpg"
+   }
+  },
+  {
+   "id": "gazela",
+   "nom": "Gazela",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Cachorrinho (petit hot-dog gratiné)",
+   "quartier": "Batalha",
+   "adresse": "Travessa do Cimo de Vila 4, 4000-434 Porto",
+   "lat": 41.144883,
+   "lng": -8.607595,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis 1962, un comptoir où l'on mange le cachorrinho : un fin sandwich à la saucisse et au fromage, gratiné, coupé en bouchées et relevé de sauce piquante. Le chef Anthony Bourdain l'avait rendu célèbre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; places au comptoir",
+   "photo": {
+    "auteur": "Chester from Toronto, Canada",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorto_%2827217118772%29.jpg",
+    "src": "img/restos/OPO/gazela.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "manteigaria",
+   "nom": "Manteigaria",
+   "emoji": "🥧",
+   "gamme": "petit",
+   "genre": "Pastel de nata",
+   "quartier": "Clérigos",
+   "adresse": "Rua dos Clérigos 37, 4050-205 Porto",
+   "lat": 41.145833,
+   "lng": -8.61297,
+   "prix": "2 à 5 €",
+   "prix_min": 2,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La meilleure pastel de nata de la ville pour beaucoup : pâte feuilletée qui craque, crème encore tiède, cannelle à volonté. On les voit sortir du four, et l'on en reprend une deuxième sans hésiter.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; à emporter ou au comptoir",
+   "photo": {
+    "auteur": "Reading Tom from Reading, UK",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorto_PXL_20251123_104355194_%2855205588493%29.jpg",
+    "src": "img/restos/OPO/manteigaria.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bolhao",
+   "nom": "Marché du Bolhão",
+   "emoji": "🧺",
+   "gamme": "petit",
+   "genre": "Marché couvert",
+   "quartier": "Baixa",
+   "adresse": "Rua Formosa 322, 4000-248 Porto",
+   "lat": 41.149386,
+   "lng": -8.607117,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le grand marché de Porto, né en 1914 et superbement rénové en 2022 : étals de poissons, fruits, fleurs et charcuteries, et à l'étage de petits comptoirs où l'on déguste huîtres, morue, sandwichs et vins du Douro.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; fermé le dimanche",
+   "photo": {
+    "auteur": "Brunnaiz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMercado_do_Bolh%C3%A3o_a_Porto_%28Portugal%29_%2886324%29.jpg",
+    "src": "img/restos/OPO/bolhao.jpg"
+   }
+  },
+  {
+   "id": "buraco",
+   "nom": "O Buraco",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Tasca de cuisine portugaise",
+   "quartier": "Baixa",
+   "adresse": "Rua do Bolhão 95, 4000-112 Porto",
+   "lat": 41.151149,
+   "lng": -8.607501,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "« Le Trou » : une tasca d'habitués, sans chichis, où l'on sert une vraie cuisine de grand-mère à petits prix : morue, tripes à la mode de Porto, poulpe, desserts maison. L'un des derniers repaires authentiques du centre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; arrivez tôt, la salle est petite",
+   "photo": {
+    "auteur": "Jeremy Keith from Brighton & Hove, United Kingdom",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATripas_%288907365960%29.jpg",
+    "src": "img/restos/OPO/buraco.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mercadores",
+   "nom": "Taberna dos Mercadores",
+   "emoji": "🐙",
+   "gamme": "moyen",
+   "genre": "Taverne portugaise",
+   "quartier": "Ribeira",
+   "adresse": "Rua dos Mercadores 36, 4050-374 Porto",
+   "lat": 41.141329,
+   "lng": -8.61292,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une minuscule taverne de la Ribeira, une dizaine de tables autour de la cuisine ouverte. Poulpe grillé, riz de fruits de mer, viande à la braise : des plats portugais copieux et parfaits, à deux pas du fleuve.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant (par téléphone) : peu de tables",
+   "photo": {
+    "auteur": "silvar.net",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APolvo_%C3%A0_Lagareiro_%288568957506%29.jpg",
+    "src": "img/restos/OPO/mercadores.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tapabento",
+   "nom": "Tapabento",
+   "emoji": "🍤",
+   "gamme": "moyen",
+   "genre": "Petiscos (petites assiettes) créatifs",
+   "quartier": "São Bento",
+   "adresse": "Rua da Madeira 221, 4000-330 Porto",
+   "lat": 41.145818,
+   "lng": -8.610004,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Juste derrière la gare de São Bento, des petites assiettes portugaises revisitées à partager : poulpe, morue, viandes et poissons du jour, dans une salle de pierre et d'azulejos toujours pleine.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même pour le soir",
+   "photo": {
+    "auteur": "Eduardo P",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABolinhos_de_bacalhau.jpg",
+    "src": "img/restos/OPO/tapabento.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gaveto",
+   "nom": "O Gaveto",
+   "emoji": "🦀",
+   "gamme": "moyen",
+   "genre": "Fruits de mer",
+   "quartier": "Matosinhos",
+   "adresse": "Rua Roberto Ivens 826, 4450-279 Matosinhos",
+   "lat": 41.180306,
+   "lng": -8.690564,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La marisqueira chérie des habitants, à Matosinhos : crabe farci, homard, crevettes, palourdes à la Bulhão Pato et poissons de la criée voisine. Le grand repas de fruits de mer à faire une fois à Porto.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le week-end ; fermé le mardi",
+   "photo": {
+    "auteur": "Renhour48",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlateau_de_fruits_de_mer_%C3%A0_la_mer.jpg",
+    "src": "img/restos/OPO/gaveto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lage",
+   "nom": "Lage Senhor do Padrão",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poisson grillé",
+   "quartier": "Matosinhos",
+   "adresse": "Rua Heróis de França 516, 4450-159 Matosinhos",
+   "lat": 41.181581,
+   "lng": -8.693707,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Dans la rue des grills de Matosinhos, où la fumée des braseros embaume le trottoir : sardines, bar ou turbot grillés au charbon, choisis en vitrine et servis avec pommes de terre et salade. Le vrai goût de l'océan, sans façon.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; attente possible à midi le week-end",
+   "photo": {
+    "auteur": "Duarte Briz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASardinhas_assadas.jpg",
+    "src": "img/restos/OPO/lage.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "flow",
+   "nom": "Flow",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Cuisine méditerranéenne créative",
+   "quartier": "Baixa",
+   "adresse": "Rua da Conceição 63, 4050-215 Porto",
+   "lat": 41.14988,
+   "lng": -8.614577,
+   "prix": "40 à 55 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Une grande salle élégante pleine de plantes, des plats colorés à partager entre Portugal et Méditerranée, et des cocktails soignés. L'adresse chic et décontractée pour un dîner entre amis.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir",
+   "photo": {
+    "auteur": "Manuel de Sousa",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3APr_Carlos_Alberto_%28Porto%29.JPG",
+    "src": "img/restos/OPO/flow.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ode",
+   "nom": "ODE Porto Wine House",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Cuisine portugaise et vins naturels",
+   "quartier": "Ribeira",
+   "adresse": "Largo do Terreiro 7, 4050-269 Porto",
+   "lat": 41.140373,
+   "lng": -8.614786,
+   "prix": "45 à 60 €",
+   "prix_min": 45,
+   "badges": [],
+   "texte": "Une petite maison de pierre près du quai, où le chef cuisine les produits de petits producteurs portugais avec beaucoup de goût : riz de poulpe, tripes revisitées, belle carte de vins naturels.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant ; ouvert le soir du mardi au samedi",
+   "photo": {
+    "auteur": "Yellow.Cat from Roma, Italy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_from_Largo_do_Terreiro_%287871361754%29.jpg",
+    "src": "img/restos/OPO/ode.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "antiqvvm",
+   "nom": "Antiqvvm",
+   "emoji": "🌸",
+   "gamme": "haut",
+   "genre": "Cuisine créative, vue sur le Douro",
+   "quartier": "Massarelos",
+   "adresse": "Rua de Entre-Quintas 220, 4050-240 Porto",
+   "lat": 41.147458,
+   "lng": -8.628484,
+   "prix": "185 à 265 € (menus)",
+   "prix_min": 185,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "À côté des jardins du palais de Cristal, une villa avec terrasse sur le Douro où le chef Vítor Matos signe une cuisine précise et pleine de saveurs portugaises. Un grand moment, avec l'une des plus belles vues de Porto.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant",
+   "photo": {
+    "auteur": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJardins_do_Pal%C3%A1cio_de_Cristal_-_Porto_-_Portugal_%2849570067138%29.jpg",
+    "src": "img/restos/OPO/antiqvvm.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "yeatman",
+   "nom": "The Yeatman",
+   "emoji": "🍾",
+   "gamme": "haut",
+   "genre": "Grande table gastronomique",
+   "quartier": "Vila Nova de Gaia",
+   "adresse": "Rua do Choupelo, 4400-088 Vila Nova de Gaia",
+   "lat": 41.133346,
+   "lng": -8.613011,
+   "prix": "260 à 300 € (menus)",
+   "prix_min": 260,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "La table de l'hôtel-vignoble de Gaia, avec une vue spectaculaire sur la Ribeira depuis la salle. Le chef Ricardo Costa y propose un menu dégustation d'exception, accompagné de l'une des plus grandes caves du pays.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant",
+   "photo": {
+    "auteur": "Валерий Дед",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2011_-_panoramio_%28331%29.jpg",
+    "src": "img/restos/OPO/yeatman.jpg"
+   }
+  },
+  {
+   "id": "boa-nova",
+   "nom": "Casa de Chá da Boa Nova",
+   "emoji": "🌊",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer d'exception",
+   "quartier": "Leça da Palmeira",
+   "adresse": "Avenida da Liberdade 1681, 4450-718 Leça da Palmeira",
+   "lat": 41.202999,
+   "lng": -8.715109,
+   "prix": "205 à 295 € (menus)",
+   "prix_min": 205,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Un pavillon dessiné par Álvaro Siza, posé sur les rochers au ras des vagues : on dîne face à l'océan. Le chef Rui Paula y sert un menu dédié à la mer, inspiré des poèmes de Camões. Lieu unique au monde.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant ; à 20 min en taxi du centre",
+   "photo": {
+    "auteur": "Joaomorgado",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABoa_Nova_Tea_House_Renovation.jpg",
+    "src": "img/restos/OPO/boa-nova.jpg"
+   }
+  },
+  {
+   "id": "pedro-lemos",
+   "nom": "Pedro Lemos",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Cuisine portugaise contemporaine",
+   "quartier": "Foz do Douro",
+   "adresse": "Rua do Ouro 258, 4150-554 Porto",
+   "lat": 41.148064,
+   "lng": -8.650036,
+   "prix": "150 à 180 € (menus)",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le chef qui a apporté la première étoile à Porto a installé sa table dans un ancien entrepôt face à l'embouchure du Douro. Produits de la mer et du terroir, cuisine fine et généreuse, service chaleureux.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant",
+   "photo": {
+    "auteur": "bebatut",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARua_do_OurO_%2826321101262%29.jpg",
+    "src": "img/restos/OPO/pedro-lemos.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "euskalduna",
+   "nom": "Euskalduna Studio",
+   "emoji": "🔥",
+   "gamme": "haut",
+   "genre": "Comptoir du chef",
+   "quartier": "Bolhão",
+   "adresse": "Rua de Santo Ildefonso 404, 4000-466 Porto",
+   "lat": 41.147387,
+   "lng": -8.600928,
+   "prix": "160 € (menu)",
+   "prix_min": 160,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "On sonne à la porte, puis on s'assoit au comptoir face à la cuisine : le chef Vasco Coelho Santos et son équipe enchaînent devant vous une longue série de bouchées inventives. L'adresse la plus convoitée de Porto.",
+   "reservation": "indispensable",
+   "reservation_delai": "quatre semaines avant, dès l'ouverture des réservations",
+   "photo": {
+    "auteur": "-wuppertaler",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APOR_Porto_Rua_de_Santo_Ildefonso_03.jpg",
+    "src": "img/restos/OPO/euskalduna.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cafeina",
+   "nom": "Cafeína",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Bistrot chic",
+   "quartier": "Foz do Douro",
+   "adresse": "Rua do Padrão 100, 4150-557 Porto",
+   "lat": 41.156522,
+   "lng": -8.679721,
+   "prix": "50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "institution",
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Depuis trente ans, la table élégante de Foz : une villa à la façade d'azulejos, une salle feutrée et une cuisine moderne impeccable. Parfait après une promenade au bord de l'océan.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, quelques jours avant le week-end",
+   "photo": {
+    "auteur": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMiradouro_da_P%C3%A9rgola_da_Foz_do_Douro_-_Porto_-_Portugal_%2812790174864%29.jpg",
+    "src": "img/restos/OPO/cafeina.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

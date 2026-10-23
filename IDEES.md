@@ -262,6 +262,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide de Porto** (`guides/OPO.json`), préparée en autonomie : 28 activités
+  (5 tendance d'après les réseaux sociaux, 2 sources au moins : Ribeira, pont Dom Luís I, jardin du Morro et Serra do Pilar,
+  librairie Lello, gare de São Bento ; match du FC Porto, club « FC Porto », et visite du musée et du stade ; excursions
+  vallée du Douro en train jusqu'à Pinhão, Guimarães, Braga et Bom Jesus, Aveiro et Costa Nova), 18 restaurants (note
+  pondérée, C = 4,47, 905 restaurants lus via 140 listes Wanderlog ; Michelin 2026 : Antiqvvm, The Yeatman et Casa de Chá
+  da Boa Nova 2 étoiles, Pedro Lemos et Euskalduna Studio 1 étoile, Cafeína sélectionné ; aucun Bib Gourmand à Porto ;
+  tendance : Café Santiago, Casa Guedes, Gazela, Manteigaria, Bolhão, Taberna dos Mercadores, O Gaveto, Euskalduna), 5 quartiers.
+  Réseaux sociaux (Apify, un seul lancement) ; Reddit insiste sur Matosinhos pour le poisson (Gaveto, grills de la rue Heróis
+  de França). Écartés : Majestic Café (note 4,1, cité dans la fiche de la chapelle des Âmes), Cantinho do Avillez (4,3).
+  Prix officiels relevés : Clérigos 10 €, Bourse 14 €, Serralves 24 €, Casa da Música 12 €, téléphérique 7 €, tram 6 €,
+  Lello 10 € (déduit d'un livre), menus Antiqvvm 185-265 €, Yeatman 260-300 €, Boa Nova 205-295 €, Pedro Lemos 150-180 €,
+  Euskalduna 160 €. `a_verifier` à false partout. Photos : 45 sur 46 (WOW sans photo libre), 14 d'illustration.
+  Pas encore de liens Tiqets (`PARTNER_LINKS`).
 - ✅ (22/10/2026) **Page guide de Paris** (`guides/PAR.json`), préparée en autonomie : 29 activités
   (5 tendance d'après les réseaux sociaux, 2 sources au moins : Montmartre et le Sacré-Cœur, croisière sur la Seine,
   coupole des Galeries Lafayette, jardin du Petit Palais, salle Ovale de la BnF ; match du PSG, club
