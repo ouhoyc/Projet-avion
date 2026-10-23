@@ -262,6 +262,15 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide de Marrakech** (`guides/RAK.json`), reprise du brouillon de la branche
+  `claude/project-thread-wgcv4a` : 25 activités (tendance : Majorelle, médersa Ben Youssef, Dar el Bacha, montgolfière,
+  Agafay ; excursions Ourika, Ouzoud, Aït-Ben-Haddou, Essaouira, Imlil), 18 restaurants (MENA's 50 Best 2026 : La Grande
+  Table Marocaine 19e, Le Petit Cornichon 21e, Sesamo 24e, +61 31e ; pas de guide Michelin restaurants au Maroc), 5 quartiers.
+  Réseaux sociaux (Apify) lancés une seule fois, pendant le brouillon. Prix vérifiés : Majorelle 170 DH (combiné 330),
+  musée YSL 140 DH (fermé le mercredi), Bahia 100 DH, Dar el Bacha 60 DH (fermé le lundi), Jardin Secret 100 DH (+40 la tour),
+  Ben Youssef 50 DH, hammam en spa 150-450 DH, montgolfière ≈ 130-190 €, navette gratuite du jardin Anima depuis la Koutoubia.
+  `a_verifier` à false partout. Photos : 43 sur 43, 16 restaurants en photo d'illustration (peu de photos libres des
+  restaurants de Marrakech sur Commons). Pas encore de `matchs/RAK.json` : la tâche du lundi le créera s'il y a des matchs.
 - ✅ (23/10/2026) **Page guide de Séville** (`guides/SVQ.json`), préparée en autonomie : 26 activités
   (4 tendance d'après les réseaux sociaux, 2 sources au moins : Plaza de España, Setas, Santa Cruz, Triana ; matchs du Séville FC,
   club « Sevilla », et du Betis, club « Real Betis » ; visite des toits de la cathédrale ; flamenco au musée du Baile Flamenco ;
