@@ -74,3 +74,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   marche (planches de 8 vignettes). Les listes Wanderlog donnent les positions dans `boardSections` (`"place":{…"longitude","latitude"}`).
   Michelin : `guide.michelin.com/fr/fr/corse/ajaccio/restaurants` (distinctions dans `data-dtm-distinction`, avec Playwright).
   Billetterie de l'office de tourisme (`reservation.ajaccio-tourisme.com`) : prix officiels des visites et concerts.
+- Tirana (oct. 2026) : l'API Commons répondait « 429 » et les vignettes `upload.wikimedia.org` aussi par vagues ; ce qui marche
+  bien et vite : recherche de fichiers en HTML (`ns6=1`) puis vignettes par `commons.wikimedia.org/w/thumb.php?f=NOM&w=330`
+  (planches) et `w=960` (photo finale), ~40 s par planche. Prix et horaires : `albaniaguidebook.com` (relevés datés d'oct. 2026,
+  sur les sites des exploitants). Wanderlog : départ `geoCategory/207293`, 103 listes, ~900 lieux (positions dans
+  `"placeId":…,"longitude":…,"latitude":…`). Évitez les photos d'un fournisseur commercial (ex. « oakwoodfirepizza ») sur Commons.
+

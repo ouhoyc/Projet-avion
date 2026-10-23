@@ -264,6 +264,18 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide de Tirana** (`guides/TIA.json`), préparée en autonomie : 24 activités (tendance d'après les
+  réseaux sociaux : Pyramide, téléphérique du Dajti, mosquée Namazgah, soirée Albanian Night ; Bunk'Art 1 et 2, Maison des
+  Feuilles, Blloku et Postbllok, Nouveau Bazar, château, Grand Parc, Mère Albanie ; match du KF Tirana, club « KF Tirana » ;
+  excursions Bovilla, Krujë, Berat, Durrës, Pëllumbas, Shkodër ; visite à pied au pourboire), 18 restaurants (note pondérée,
+  C = 4,56, ~900 lieux lus via 103 listes Wanderlog ; pas de Michelin en Albanie ; Mullixhiu sélection « 50 Best Discovery »,
+  gardé malgré sa note 4,2 ; tendance : Salt, Mrizi i Zanave, Folium, Sky Club, In's ; institutions : Met Kodra, Oda, Era,
+  Komiteti), 5 quartiers, pas de lien Tiqets (rien à Tirana). Réseaux sociaux lancés une fois (Apify). Prix (1 € ≈ 91 lek) :
+  Bunk'Art 900 lek (espèces), Maison des Feuilles 700 lek (moins de 12 ans gratuit), Dajti 1 500 lek A/R (fermé le mardi),
+  Albanian Night 3 800 lek (6 000 avec dîner), Onufri à Berat 400 lek (musées fermés le lundi de novembre à avril), KF Tirana
+  300 à 1 000 lek. Écartés : musée national d'histoire (fermé jusqu'en 2028) et Galerie nationale (fermée pour travaux),
+  château de Petrela et marché aux puces (infos invérifiables), OPA (chaîne). Bati, très bien noté, est en fait un milieu de
+  gamme (carte relevée) : pas retenu, Kripë dhe Piper couvre le poisson.
 - ✅ (23/10/2026) **Page guide de Lanzarote** (`guides/ACE.json`), préparée en autonomie : première **île** du site
   (`"ile": true` : hôtels cherchés autour du lieu choisi, « Autres lieux », « voiture de location » ; nom « Lanzarote »
   au lieu d'« Arrecife » dans `data.json` et `CITY_NAMES`). 27 activités (6 tendance d'après les réseaux sociaux :

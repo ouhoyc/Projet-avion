@@ -1,0 +1,1453 @@
+{
+  "city_code": "TIA",
+  "statut": "vérifié en autonomie, prix relevés le 23/10/2026 (1 € ≈ 91 lek)",
+  "verifie_le": "2026-10-23",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "skanderbeg",
+      "nom": "Place Skanderbeg",
+      "emoji": "🏛️",
+      "type": "balade",
+      "quartier": "Centre",
+      "lat": 41.32773,
+      "lng": 19.818512,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès à la place",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min à 1 h",
+      "moment": "En fin d'après-midi, quand les Tiranais s'y promènent ; le soir, l'opéra et les façades s'illuminent",
+      "enfants": true,
+      "texte": "Le cœur de la capitale : une immense esplanade piétonne pavée de pierres venues de toutes les régions du pays, autour de la statue équestre du héros national. D'un même regard : l'opéra, la mosquée Et'hem Bey, la tour de l'Horloge et la grande mosaïque « Les Albanais » sur la façade du musée d'histoire.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "note": "Le musée national d'histoire est fermé pour travaux jusqu'en 2028 : seule sa mosaïque se voit de l'extérieur. Les terrasses qui bordent la place sont plus chères qu'ailleurs.",
+      "photo": {
+        "auteur": "Andrew Milligan sumo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Skanderbeg_Square%2C_Tirana_%2849593783026%29.jpg",
+        "src": "img/activites/TIA/skanderbeg.jpg"
+      }
+    },
+    {
+      "id": "ethem-bey",
+      "nom": "Mosquée Et'hem Bey",
+      "emoji": "🕌",
+      "type": "culture",
+      "quartier": "Centre",
+      "lat": 41.327789,
+      "lng": 19.819277,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuite (petite offrande libre)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "20 à 30 min",
+      "moment": "En dehors des heures de prière, surtout le vendredi midi",
+      "enfants": true,
+      "texte": "Une petite mosquée du début du XIXe siècle, rescapée de la dictature qui avait interdit toutes les religions. Sous son portique et dans la salle de prière, des fresques rares de paysages, d'arbres et de cascades. En 1991, des milliers de Tiranais y sont entrés malgré la police : un symbole de la fin du régime.",
+      "site_officiel": "https://qarkutirane.gov.al/xhamia-e-ethem-beut-tirane/",
+      "a_verifier": false,
+      "note": "Épaules et genoux couverts, chaussures retirées à l'entrée ; un foulard est prêté aux femmes.",
+      "photo": {
+        "auteur": "Yastay",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Interior_de_la_Mezquita_de_Et%27hem_Bey_03.jpg",
+        "src": "img/activites/TIA/ethem-bey.jpg"
+      }
+    },
+    {
+      "id": "tour-horloge",
+      "nom": "Tour de l'Horloge",
+      "emoji": "🕰️",
+      "type": "vue",
+      "quartier": "Centre",
+      "lat": 41.327729,
+      "lng": 19.819744,
+      "prix": 2,
+      "prix_detail": [
+        [
+          "Montée",
+          "≈ 200 lek (≈ 2 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet au pied de la tour",
+      "duree": "20 min",
+      "moment": "En journée (fermée le soir, horaires réduits le week-end)",
+      "enfants": true,
+      "texte": "La tour de 1822, haute de 35 mètres, voisine de la mosquée Et'hem Bey. Quelque 90 marches d'un escalier étroit, puis la place Skanderbeg et les montagnes du Dajti à vos pieds.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "aXeLuS",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Clock_Tower_Tirana_2017.jpg",
+        "src": "img/activites/TIA/tour-horloge.jpg"
+      }
+    },
+    {
+      "id": "bunkart2",
+      "nom": "Bunk'Art 2",
+      "emoji": "🛡️",
+      "type": "culture",
+      "quartier": "Centre",
+      "lat": 41.326981,
+      "lng": 19.819563,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée",
+          "900 lek (≈ 10 €), en espèces"
+        ],
+        [
+          "Avec audioguide",
+          "≈ 1 000 lek (≈ 11 €)"
+        ],
+        [
+          "Billet jumelé Bunk'Art 1 + 2",
+          "moins cher que deux billets, valable 72 h"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "1 h à 1 h 30",
+      "moment": "Tous les jours de 9 h 30 à 18 h 30 ; idéal en fin de journée",
+      "enfants": true,
+      "texte": "À deux pas de la place Skanderbeg, un dôme de béton ouvre sur l'abri antiatomique du ministère de l'Intérieur. Couloirs et salles racontent la Sigurimi, la police secrète qui surveillait tout un pays : uniformes, matériel d'écoute, cellules. Saisissant et indispensable pour comprendre l'Albanie.",
+      "site_officiel": "https://bunkart.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Sharon Hahn Darlin",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tiran%C3%AB%2C_Albania_January_2023_-_BUNK%27ART_2_museum_10.jpg",
+        "src": "img/activites/TIA/bunkart2.jpg"
+      }
+    },
+    {
+      "id": "bunkart1",
+      "nom": "Bunk'Art 1",
+      "emoji": "🚇",
+      "type": "culture",
+      "quartier": "Pied du mont Dajti",
+      "lat": 41.349793,
+      "lng": 19.860459,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée",
+          "900 lek (≈ 10 €), en espèces"
+        ],
+        [
+          "Bus L11 depuis le centre",
+          "40 lek (≈ 0,50 €)"
+        ],
+        [
+          "Taxi depuis le centre",
+          "≈ 700 à 1 000 lek (≈ 8 à 11 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "2 h",
+      "moment": "Le matin, puis enchaînez avec le téléphérique du Dajti, à 2 minutes ; ouvert tous les jours dès 9 h 30",
+      "enfants": true,
+      "texte": "Le bunker secret d'Enver Hoxha, creusé sous la montagne : un long tunnel, puis cinq étages et 106 salles, dont l'appartement du dictateur et une grande salle de réunion transformée en salle de concert. Une plongée unique dans la paranoïa de la guerre froide.",
+      "site_officiel": "https://bunkart.al/",
+      "a_verifier": false,
+      "note": "Il fait frais sous terre toute l'année : prenez une petite laine. Les enfants jeunes s'y ennuient vite (beaucoup de textes).",
+      "photo": {
+        "auteur": "BBB2021",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bunk%27Art_1_Entrance.jpg",
+        "src": "img/activites/TIA/bunkart1.jpg"
+      }
+    },
+    {
+      "id": "maison-feuilles",
+      "nom": "Maison des Feuilles (musée de la Surveillance)",
+      "emoji": "🎧",
+      "type": "culture",
+      "quartier": "Centre",
+      "lat": 41.326679,
+      "lng": 19.816413,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Adulte",
+          "700 lek (≈ 8 €), en espèces"
+        ],
+        [
+          "Élèves et étudiants",
+          "210 lek (≈ 2 €)"
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit (avec pièce d'identité)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [
+          [
+            11,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "1 h à 1 h 30",
+      "moment": "L'été tous les jours de 9 h à 19 h ; l'hiver fermé le lundi (9 h-16 h, dimanche 10 h-15 h)",
+      "enfants": true,
+      "texte": "L'ancien siège de la police secrète, une villa couverte de vigne vierge d'où son surnom. Micros cachés, centrales d'écoute, dossiers d'espionnage : un musée prenant, récompensé par le prix du musée du Conseil de l'Europe en 2020.",
+      "site_officiel": "https://muzeugjethi.gov.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Senada Kusi",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:House_of_Leaves_Museum_Tirana_-_Interior_Staircase_-_2026.jpg",
+        "src": "img/activites/TIA/maison-feuilles.jpg"
+      }
+    },
+    {
+      "id": "pyramide",
+      "nom": "Pyramide de Tirana",
+      "emoji": "🔺",
+      "type": "vue",
+      "quartier": "Boulevard (près de Blloku)",
+      "lat": 41.32307,
+      "lng": 19.821461,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Montée par les marches extérieures",
+          "gratuite"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Au coucher du soleil, quand la ville devient dorée",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Construite en 1988 comme musée à la gloire d'Enver Hoxha, abandonnée, presque démolie, elle renaît en 2023 grâce aux architectes néerlandais de MVRDV : des cubes colorés, une école de code pour ados, et des escaliers jusqu'au sommet. Le symbole de la nouvelle Tirana, et la photo que tout le monde veut.",
+      "site_officiel": "https://piramida.edu.al/",
+      "a_verifier": false,
+      "note": "Les marches sont raides et sans rampe par endroits : bonnes chaussures, et prudence avec les enfants.",
+      "photo": {
+        "auteur": "BBB2021",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pyramid_of_Tirana_October_2023.jpg",
+        "src": "img/activites/TIA/pyramide.jpg"
+      }
+    },
+    {
+      "id": "blloku",
+      "nom": "Blloku, l'ancien quartier interdit",
+      "emoji": "🍸",
+      "type": "sortir",
+      "quartier": "Blloku",
+      "lat": 41.319368,
+      "lng": 19.81721,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuite"
+        ],
+        [
+          "Cocktail dans un bar",
+          "≈ 600 à 1 000 lek (≈ 7 à 11 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une soirée",
+      "moment": "Le soir, à partir de 21 h ; la fête dure jusque tard du jeudi au samedi",
+      "enfants": false,
+      "texte": "Sous la dictature, seuls les dirigeants avaient le droit d'y entrer ; la villa d'Enver Hoxha y est toujours. Aujourd'hui, c'est le quartier le plus vivant de la ville : cafés, bars à cocktails et boutiques jusqu'au bout de la nuit. Au coin, le mémorial Postbllok réunit un bunker, un morceau du mur de Berlin et des piliers du camp de travail de Spaç.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kj1595",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tirana_Park%2BStatues.jpg",
+        "src": "img/activites/TIA/blloku.jpg"
+      }
+    },
+    {
+      "id": "pazari",
+      "nom": "Nouveau Bazar (Pazari i Ri)",
+      "emoji": "🧺",
+      "type": "balade",
+      "quartier": "Pazari i Ri",
+      "lat": 41.329983,
+      "lng": 19.824466,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans le marché",
+          "gratuite"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Le matin pour le marché, le soir pour les terrasses",
+      "enfants": true,
+      "texte": "Le marché couvert rénové et ses façades multicolores : fruits, olives, fromages, miel de montagne, raki fait maison et figues séchées. Autour, une ribambelle de terrasses et de petits restaurants. À cinq minutes, le pont des Tanneurs, joli pont ottoman en pierre.",
+      "site_officiel": "https://pazariiri.com/",
+      "a_verifier": false,
+      "note": "Sur la place du marché, demandez la carte avec les prix avant de commander : certaines terrasses visent les touristes.",
+      "photo": {
+        "auteur": "Kevin Jasini",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pazari_i_ri.jpg",
+        "src": "img/activites/TIA/pazari.jpg"
+      }
+    },
+    {
+      "id": "kalaja",
+      "nom": "Château de Tirana (Kalaja)",
+      "emoji": "🏰",
+      "type": "balade",
+      "quartier": "Centre",
+      "lat": 41.326435,
+      "lng": 19.822146,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 à 45 min",
+      "moment": "En fin de journée, avant un dîner sur place",
+      "enfants": true,
+      "texte": "Derrière un pan des anciennes murailles, une ruelle piétonne pavée et rénovée : restaurants, cafés, boutiques d'artisans. Un îlot de vieille pierre et de calme au milieu de la ville moderne, à deux pas du boulevard.",
+      "site_officiel": "http://kalajaetiranes.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Pasztilla aka Attila Terbócs",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tirana_Castle%2C_Albania_2019_02.jpg",
+        "src": "img/activites/TIA/kalaja.jpg"
+      }
+    },
+    {
+      "id": "dajti",
+      "nom": "Téléphérique Dajti Ekspres",
+      "emoji": "🚠",
+      "type": "vue",
+      "quartier": "Mont Dajti",
+      "lat": 41.350669,
+      "lng": 19.860757,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Aller-retour",
+          "1 500 lek (≈ 16 €)"
+        ],
+        [
+          "Moins de 3 ans",
+          "gratuit"
+        ],
+        [
+          "Bus L11 jusqu'à la gare du bas",
+          "40 lek"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets vendus seulement au guichet du bas, valables le jour même",
+      "duree": "3 h (15 min de montée)",
+      "moment": "Fermé le mardi ; montez en fin d'après-midi par temps clair",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Quinze minutes de cabine au-dessus des collines, sur 4,3 km, le plus long téléphérique des Balkans. En haut, à plus de 1 000 mètres, toute la ville et parfois la mer au loin, des balades en forêt, un parc d'accrobranche et un mini-golf pour les enfants.",
+      "site_officiel": "https://www.dajtiekspres.com/",
+      "a_verifier": false,
+      "note": "Le téléphérique s'arrête par grand vent : regardez la météo avant de partir.",
+      "photo": {
+        "auteur": "Roy r lindman",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dajti_Ekspres_by_Roy_Lindman.jpg",
+        "src": "img/activites/TIA/dajti.jpg"
+      }
+    },
+    {
+      "id": "grand-parc",
+      "nom": "Grand Parc et lac artificiel",
+      "emoji": "🌳",
+      "type": "nature",
+      "quartier": "Grand Parc",
+      "lat": 41.311393,
+      "lng": 19.817954,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 à 2 h",
+      "moment": "Le matin ou en fin de journée, comme les Tiranais",
+      "enfants": true,
+      "texte": "Près de 300 hectares de pinèdes au sud du centre, autour d'un grand lac : le tour à pied ou à vélo, des cafés au bord de l'eau, des aires de jeux. Le poumon vert où toute la ville vient courir, flâner et pique-niquer.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Leeturtle",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tirana_artificial_lake_park.jpg",
+        "src": "img/activites/TIA/grand-parc.jpg"
+      }
+    },
+    {
+      "id": "namazgah",
+      "nom": "Grande mosquée Namazgah",
+      "emoji": "🕌",
+      "type": "culture",
+      "quartier": "Centre",
+      "lat": 41.3257216,
+      "lng": 19.8242425,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuite"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "20 à 30 min",
+      "moment": "En dehors des heures de prière ; très belle éclairée le soir",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La plus grande mosquée des Balkans, toute neuve, face au Parlement : quatre minarets élancés, une coupole immense et une salle de prière lumineuse. Un contraste saisissant avec la petite Et'hem Bey, à dix minutes à pied.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "note": "Épaules et genoux couverts, chaussures retirées ; foulard pour les femmes.",
+      "photo": {
+        "auteur": "Bjørn Christian Tørrissen",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Great-Mosque-of-Tirana-2018.jpg",
+        "src": "img/activites/TIA/namazgah.jpg"
+      }
+    },
+    {
+      "id": "cathedrale",
+      "nom": "Cathédrale orthodoxe de la Résurrection",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Centre",
+      "lat": 41.326455,
+      "lng": 19.817167,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuite"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "20 à 30 min",
+      "moment": "En journée, hors offices",
+      "enfants": true,
+      "texte": "L'une des plus grandes églises orthodoxes des Balkans, consacrée en 2012 : un dôme doré, des mosaïques et des icônes qui brillent dans la pénombre. À côté de la place Skanderbeg, elle raconte avec les mosquées voisines le pays où les religions cohabitent en paix.",
+      "site_officiel": "https://orthodoxalbania.org/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Leeturtle",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Resurrection_of_Christ_Orthodox_Cathedral.jpg",
+        "src": "img/activites/TIA/cathedrale.jpg"
+      }
+    },
+    {
+      "id": "albanian-night",
+      "nom": "Soirée folklorique Albanian Night",
+      "emoji": "🎶",
+      "type": "sortir",
+      "quartier": "Centre (rue de Kavaja)",
+      "lat": 41.328098,
+      "lng": 19.81517,
+      "prix": 42,
+      "prix_detail": [
+        [
+          "Spectacle seul",
+          "3 800 lek (≈ 42 €)"
+        ],
+        [
+          "Spectacle et dîner",
+          "6 000 lek (≈ 66 €)"
+        ],
+        [
+          "Moins de 10 ans",
+          "gratuit (spectacle seul)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 42,
+        "enfants": [
+          [
+            9,
+            0
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "en ligne, quelques jours avant : beaucoup de soirées affichent complet",
+      "duree": "1 h 30 (2 h 30 avec le dîner)",
+      "moment": "Presque tous les soirs à 19 h ; arrivez vers 18 h 30 pour enfiler un costume",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un mariage albanais joué comme au village : chants polyphoniques classés par l'Unesco, musique live, danses du nord au sud, et la grande ronde du valle où tout le public finit par danser. Costumes traditionnels prêtés, raki à la fin : la soirée dont on parle en rentrant.",
+      "site_officiel": "https://albaniannight.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Albinfo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Logu_i_Bjeshk%C3%ABve_2017_%E2%80%93_dancers_on_stage.jpg",
+        "src": "img/activites/TIA/albanian-night.jpg"
+      }
+    },
+    {
+      "id": "match-tirana",
+      "nom": "Match du KF Tirana",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Stade Selman Stërmasi",
+      "lat": 41.318948,
+      "lng": 19.811303,
+      "prix": 4,
+      "prix_detail": [
+        [
+          "Tribunes populaires",
+          "≈ 300 lek (≈ 3 €)"
+        ],
+        [
+          "Tribunes centrales A et B",
+          "≈ 1 000 lek (≈ 11 €)"
+        ],
+        [
+          "Derby contre le Partizani",
+          "de 500 à 5 000 lek (≈ 5 à 55 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, en ligne ou au guichet du stade",
+      "duree": "2 h",
+      "moment": "Le week-end ; le derby de la capitale contre le Partizani est le grand rendez-vous",
+      "enfants": true,
+      "club": "KF Tirana",
+      "texte": "Le club le plus titré d'Albanie joue dans un stade à taille humaine, à dix minutes à pied de Blloku. Écharpes blanc et bleu, chants des ultras, billets à petit prix : une sortie authentique au milieu des Tiranais.",
+      "site_officiel": "https://kftirana.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Sadsadas",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Selman_St%C3%ABrmasi_Stadium_%2810%29.jpg",
+        "src": "img/activites/TIA/match-tirana.jpg"
+      }
+    },
+    {
+      "id": "nena-shqiperi",
+      "nom": "Mère Albanie et le cimetière des Martyrs",
+      "emoji": "🗿",
+      "type": "vue",
+      "quartier": "Colline de Sauk",
+      "lat": 41.3085403,
+      "lng": 19.840069,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ],
+        [
+          "Taxi depuis le centre",
+          "≈ 500 à 700 lek (≈ 6 à 8 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "En fin de journée, pour la lumière sur la ville",
+      "enfants": true,
+      "texte": "Sur une colline au sud-est, une statue de pierre de 12 mètres tenant une couronne de laurier veille sur les tombes des résistants de la Seconde Guerre mondiale. Enver Hoxha y fut d'abord enterré. Un lieu calme, chargé d'histoire, avec une large vue sur Tirana et le Dajti.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Pasztilla aka Attila Terbócs",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mother_Albania%2C_Tirana_2017_01.jpg",
+        "src": "img/activites/TIA/nena-shqiperi.jpg"
+      }
+    },
+    {
+      "id": "bovilla",
+      "nom": "Lac de Bovilla et mont Gamti",
+      "emoji": "🏞️",
+      "type": "nature",
+      "quartier": "À 1 h au nord-est",
+      "lat": 41.4508426,
+      "lng": 19.8971429,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Excursion guidée d'une demi-journée (transport compris)",
+          "≈ 15 à 35 €"
+        ],
+        [
+          "Taxi aller-retour avec attente",
+          "≈ 50 à 70 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille, auprès d'une agence : aucun bus ne va jusqu'au lac",
+      "duree": "Une demi-journée (montée de 30 à 45 min)",
+      "moment": "Le matin, au printemps et en automne ; évitez les midis d'été",
+      "enfants": false,
+      "texte": "Un lac turquoise encaissé entre les montagnes, comme un fjord à une heure de la capitale. Une montée courte mais raide mène au belvédère du mont Gamti : la vue plongeante sur l'eau est l'une des plus belles photos d'Albanie.",
+      "site_officiel": "https://tirana.al/",
+      "a_verifier": false,
+      "note": "Baignade interdite : c'est la réserve d'eau potable de Tirana. Chaussures de marche et eau indispensables ; la fin de la piste est en terre.",
+      "photo": {
+        "auteur": "Desarashimi1",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Liqeni_i_Bovill%C3%ABs.jpg",
+        "src": "img/activites/TIA/bovilla.jpg"
+      }
+    },
+    {
+      "id": "kruja",
+      "nom": "Excursion à Krujë, la citadelle de Skanderbeg",
+      "emoji": "🏯",
+      "type": "culture",
+      "quartier": "À 1 h au nord",
+      "lat": 41.5068912,
+      "lng": 19.7939332,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Musée Skanderbeg",
+          "≈ 500 lek (≈ 5,50 €)"
+        ],
+        [
+          "Musée ethnographique",
+          "≈ 400 lek (≈ 4,50 €)"
+        ],
+        [
+          "Minibus depuis Tirana",
+          "≈ 150 à 200 lek par trajet (≈ 2 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets sur place",
+      "duree": "Une demi-journée",
+      "moment": "Le matin, avant les cars de touristes ; dernier minibus retour vers 16 h",
+      "enfants": true,
+      "texte": "Accrochée à la montagne, la citadelle où Skanderbeg a tenu tête aux Ottomans au XVe siècle. Vue jusqu'à la mer, musée du héros national, et surtout un bazar ottoman de plus de 400 ans : tapis, cuivres, broderies et miel local. À 20 minutes de l'aéroport.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ravi Dwivedi",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kruj%C3%AB_castle_during_sunset.jpg",
+        "src": "img/activites/TIA/kruja.jpg"
+      }
+    },
+    {
+      "id": "berat",
+      "nom": "Excursion à Berat, la ville aux mille fenêtres",
+      "emoji": "🏘️",
+      "type": "culture",
+      "quartier": "À 2 h 20 au sud",
+      "lat": 40.708073,
+      "lng": 19.9455322,
+      "prix": 4,
+      "prix_detail": [
+        [
+          "Musée d'icônes Onufri",
+          "400 lek (≈ 4,50 €)"
+        ],
+        [
+          "12-18 ans et étudiants",
+          "120 lek"
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit"
+        ],
+        [
+          "Bus depuis Tirana",
+          "23 départs par jour, ≈ 2 h 20"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4,
+        "enfants": [
+          [
+            11,
+            0
+          ],
+          [
+            18,
+            1
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets sur place",
+      "duree": "Une journée",
+      "moment": "Du 1er novembre au 30 avril, musées fermés le lundi et dès 16 h (14 h le dimanche)",
+      "enfants": true,
+      "texte": "Classée par l'Unesco, une ville de maisons ottomanes blanches empilées sur deux collines face à face, séparées par la rivière Osum. En haut, une citadelle toujours habitée, des églises byzantines et les icônes d'Onufri. La plus belle journée hors de Tirana.",
+      "site_officiel": "https://whc.unesco.org/fr/list/569/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Wolfgang Sauber",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Berat_-_Mangalem_1a.jpg",
+        "src": "img/activites/TIA/berat.jpg"
+      }
+    },
+    {
+      "id": "durres",
+      "nom": "Durrës : amphithéâtre romain et plage",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "À 40 min à l'ouest",
+      "lat": 41.3121228,
+      "lng": 19.445002,
+      "prix": 3,
+      "prix_detail": [
+        [
+          "Amphithéâtre",
+          "300 lek (≈ 3,50 €)"
+        ],
+        [
+          "Bus ou minibus depuis Tirana",
+          "150 à 300 lek par trajet (≈ 2 à 3 €), toutes les 20-30 min"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 3,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "Une demi-journée ou une journée",
+      "moment": "De juin à septembre pour la baignade ; toute l'année pour les ruines",
+      "enfants": true,
+      "texte": "Le port de l'Adriatique, à 35 km : un immense amphithéâtre romain à moitié dégagé au milieu des immeubles, des remparts byzantins, une tour vénitienne, puis une longue plage pour finir la journée les pieds dans l'eau.",
+      "a_verifier": false,
+      "note": "La plage de la ville est très fréquentée l'été : ce n'est pas la Riviera albanaise.",
+      "photo": {
+        "auteur": "Pudelek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amphitheatre_of_Durr%C3%ABs_%28by_Pudelek%29.JPG",
+        "src": "img/activites/TIA/durres.jpg"
+      }
+    },
+    {
+      "id": "pellumbas",
+      "nom": "Grotte de Pëllumbas et canyon de l'Erzen",
+      "emoji": "🦇",
+      "type": "nature",
+      "quartier": "À 45 min au sud-est",
+      "lat": 41.2571035,
+      "lng": 19.9681677,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée de la grotte",
+          "gratuite"
+        ],
+        [
+          "Randonnée guidée depuis Tirana (transport compris)",
+          "≈ 25 à 45 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille si vous partez avec un guide",
+      "duree": "Une demi-journée (1 h de marche à l'aller)",
+      "moment": "Du printemps à l'automne ; l'été, baignade dans les vasques de l'Erzen",
+      "enfants": false,
+      "texte": "Depuis le village de Pëllumbas, un sentier grimpe au-dessus des gorges jusqu'à la « grotte noire », une immense cavité de 360 mètres où l'on a trouvé des ossements d'ours des cavernes. On redescend se rafraîchir dans les piscines naturelles du canyon.",
+      "a_verifier": false,
+      "note": "Lampe frontale et chaussures qui accrochent : le chemin est caillouteux et la grotte n'est pas éclairée.",
+      "photo": {
+        "auteur": "Albinfo",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Shpella_e_zeze_-_Pellumbas.jpg",
+        "src": "img/activites/TIA/pellumbas.jpg"
+      }
+    },
+    {
+      "id": "shkoder",
+      "nom": "Excursion à Shkodër et au château de Rozafa",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "À 2 h au nord",
+      "lat": 42.0465304,
+      "lng": 19.4939106,
+      "prix": 4,
+      "prix_detail": [
+        [
+          "Château de Rozafa",
+          "≈ 400 lek (≈ 4,50 €)"
+        ],
+        [
+          "Bus depuis Tirana",
+          "≈ 2 h de trajet"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet sur place",
+      "duree": "Une journée",
+      "moment": "Partez tôt le matin ; le château est ouvert de 9 h à 19 h",
+      "enfants": true,
+      "texte": "La grande ville du nord : le château de Rozafa et sa légende, perché au-dessus de trois rivières, le plus grand lac des Balkans à ses pieds, et une rue piétonne aux façades pastel où l'on se déplace à vélo comme les habitants.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "kallerna",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Rozafa_Fortress_7.jpg",
+        "src": "img/activites/TIA/shkoder.jpg"
+      }
+    },
+    {
+      "id": "visite-guidee",
+      "nom": "Visite guidée à pied (au pourboire)",
+      "emoji": "🚶",
+      "type": "balade",
+      "quartier": "Centre (devant l'opéra)",
+      "lat": 41.328985,
+      "lng": 19.819167,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Visite",
+          "gratuite"
+        ],
+        [
+          "Pourboire conseillé",
+          "≈ 500 lek (≈ 5 €) par personne"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "inscription en ligne gratuite la veille",
+      "duree": "2 h 15",
+      "moment": "Tous les jours à 10 h, départ devant l'opéra",
+      "enfants": true,
+      "texte": "Un guide tiranais vous raconte sa ville comme personne : l'isolement sous Hoxha, les 170 000 bunkers, les façades repeintes de couleurs vives par le maire après la chute du régime. Le meilleur moyen de commencer le séjour.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Colin W",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Painted_buildings_in_Tirana_-_panoramio.jpg",
+        "src": "img/activites/TIA/visite-guidee.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "blloku",
+      "nom": "Blloku",
+      "lat": 41.3195,
+      "lng": 19.8165,
+      "texte": "Le quartier le plus animé : cafés, bars, restaurants et boutiques en bas de l'hôtel, la place Skanderbeg à 10 minutes à pied. Choisissez une chambre sur cour : la fête dure tard du jeudi au samedi."
+    },
+    {
+      "id": "centre",
+      "nom": "Centre (place Skanderbeg)",
+      "lat": 41.3277,
+      "lng": 19.8185,
+      "texte": "Au pied des monuments, de l'opéra, des mosquées et de Bunk'Art 2 : le plus pratique pour une première visite, avec le bus de l'aéroport qui s'arrête à côté. Plus calme le soir, une fois les bureaux fermés."
+    },
+    {
+      "id": "pazari",
+      "nom": "Pazari i Ri (Nouveau Bazar)",
+      "lat": 41.33,
+      "lng": 19.8243,
+      "texte": "Le quartier des gourmands, autour du marché couvert et de ses façades colorées : petits restaurants, cafés et boulangeries, la place Skanderbeg à 10 minutes. Le marché se réveille tôt : demandez une chambre en retrait si vous avez le sommeil léger."
+    },
+    {
+      "id": "grand-parc",
+      "nom": "Grand Parc et lac",
+      "lat": 41.3165,
+      "lng": 19.8195,
+      "texte": "Au calme, près des pinèdes et du lac où courent les Tiranais : parfait en famille ou pour se reposer. Blloku reste à 10-15 minutes à pied pour dîner ou sortir."
+    },
+    {
+      "id": "komuna",
+      "nom": "Komuna e Parisit",
+      "lat": 41.3195,
+      "lng": 19.8005,
+      "texte": "Un quartier résidentiel arboré, apprécié des expatriés : boulangeries, cafés, restaurants de quartier et prix plus doux. Blloku à 10 minutes à pied, le centre à 20 minutes ou en taxi."
+    }
+  ],
+  "hotel_petit_prix_max": 50,
+  "restaurants": [
+    {
+      "id": "met-kodra",
+      "nom": "Qofte Tradita Met Kodra",
+      "emoji": "🍢",
+      "gamme": "petit",
+      "genre": "Boulettes grillées (qofte)",
+      "quartier": "Pazari i Ri",
+      "adresse": "Rruga Thimi Mitko, près du Nouveau Bazar",
+      "lat": 41.330123,
+      "lng": 19.82469,
+      "prix": "2 à 5 €",
+      "prix_min": 2,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le comptoir à qofte le plus célèbre de Tirana : de petites boulettes aux herbes grillées depuis des décennies, vendues à la pièce, ou par quatre dans un pain avec de l'oignon cru. Un déjeuner de deux minutes au milieu des habitants, pour le prix d'un café en France.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; file au déjeuner, mais ça va vite ; espèces",
+      "photo": {
+        "auteur": "MirelaAndoni",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Buke_me_qofte_dhe_qepe.jpg",
+        "src": "img/restos/TIA/met-kodra.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "luani",
+      "nom": "Byrek Special « Luani »",
+      "emoji": "🥧",
+      "gamme": "petit",
+      "genre": "Byrek (feuilleté albanais)",
+      "quartier": "Centre",
+      "adresse": "Rruga Bardhok Biba, au nord de la place Skanderbeg",
+      "lat": 41.330851,
+      "lng": 19.819244,
+      "prix": "1 à 3 €",
+      "prix_min": 1,
+      "badges": [],
+      "texte": "Le petit-déjeuner des Albanais : une part de byrek tout juste sorti du four, feuilleté et croustillant, aux épinards, au fromage ou à la viande, avec un verre de dhallë (yaourt à boire). L'une des adresses les plus réputées de la ville.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; venez le matin, les plateaux partent vite",
+      "photo": {
+        "auteur": "Sharon Hahn Darlin",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tiran%C3%AB%2C_Albania%2C_31_December_2022_-_cheese_byrek.jpg",
+        "src": "img/restos/TIA/luani.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "ins",
+      "nom": "In's (Myslym Shyri)",
+      "emoji": "🍔",
+      "gamme": "petit",
+      "genre": "Burgers et brunch",
+      "quartier": "Blloku",
+      "adresse": "Rruga Sami Frashëri, au bout de la rue Myslym Shyri",
+      "lat": 41.323482,
+      "lng": 19.813386,
+      "prix": "7 à 14 €",
+      "prix_min": 7,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le burger dont tout Tirana parle sur les réseaux, et un brunch copieux servi toute la journée. Une adresse jeune et animée, à deux pas de Blloku, plébiscitée par les habitants comme par les voyageurs.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation ; un peu d'attente le soir et le week-end",
+      "photo": {
+        "auteur": "Horacio Cambeiro",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Homemade_Argentine_hamburger_with_fried_potatoes.jpg",
+        "src": "img/restos/TIA/ins.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "era",
+      "nom": "Era Blloku",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pizzas et plats albanais",
+      "quartier": "Blloku",
+      "adresse": "Rruga Ismail Qemali, Blloku",
+      "lat": 41.320125,
+      "lng": 19.81464,
+      "prix": "8 à 15 €",
+      "prix_min": 8,
+      "badges": [
+        "institution"
+      ],
+      "texte": "L'une des adresses les plus populaires de Blloku, toujours pleine : pizzas au feu de bois, tavë kosi, fërgesë et byrek maison, servis sur une grande terrasse au cœur du quartier. Le bon plan pour goûter la cuisine albanaise avant de sortir.",
+      "reservation": "conseille",
+      "reservation_delai": "le jour même pour la terrasse le soir, ou venez avant 20 h 30",
+      "photo": {
+        "auteur": "Kj1595",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg",
+        "src": "img/restos/TIA/era.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "komiteti",
+      "nom": "Komiteti – Kafe Muzeum",
+      "emoji": "📻",
+      "gamme": "petit",
+      "genre": "Café-musée et raki",
+      "quartier": "Près de la Pyramide",
+      "adresse": "Rruga Papa Gjon Pali II, derrière la Pyramide",
+      "lat": 41.323313,
+      "lng": 19.822528,
+      "prix": "3 à 10 €",
+      "prix_min": 3,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Un café rempli d'objets de l'époque communiste : postes de radio, télévisions, meubles et tapis d'antan. On y goûte l'une des deux douzaines de raki maison avec quelques mezze ou une part de byrek, en terrasse ou dans le jardin.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Klejdi Shtrepi",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Christmas_Eve_-_Komiteti_Cafe_Museum%2C_Tirana%2C_Albania.jpg",
+        "src": "img/restos/TIA/komiteti.jpg"
+      }
+    },
+    {
+      "id": "oda",
+      "nom": "Oda",
+      "emoji": "🏺",
+      "gamme": "petit",
+      "genre": "Cuisine albanaise familiale",
+      "quartier": "Pazari i Ri",
+      "adresse": "Rruga Riza Jasa, près du Nouveau Bazar",
+      "lat": 41.331527,
+      "lng": 19.824638,
+      "prix": "10 à 18 €",
+      "prix_min": 10,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Depuis 2005, deux petites salles décorées comme une maison de famille, tapis tissés et cuivres aux murs. La carte est un livre de recettes de grand-mère : tavë kosi (agneau au yaourt), fërgesë, poivrons farcis, fli feuilleté, et le raki maison pour trinquer.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille le week-end ; le midi est plus calme",
+      "photo": {
+        "auteur": "MirelaAndoni",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tav%C3%AB_kosi.jpg",
+        "src": "img/restos/TIA/oda.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "mrizi",
+      "nom": "Mrizi i Zanave (Tirana)",
+      "emoji": "🧀",
+      "gamme": "moyen",
+      "genre": "Cuisine de ferme",
+      "quartier": "Pont des Tanneurs",
+      "adresse": "Bulevardi Zhan D'Ark, à côté du pont des Tanneurs",
+      "lat": 41.326841,
+      "lng": 19.826156,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Pain de ferme, fromages, charcuteries et légumes de saison : une cuisine paysanne généreuse, servie au bord de la Lana depuis 2004. Son pain fourré au fromage fondu fait le tour des réseaux, et la salle chante le week-end au son de la musique live.",
+      "reservation": "indispensable",
+      "reservation_delai": "la veille, surtout le vendredi et le samedi soir ; prévoyez des espèces",
+      "photo": {
+        "auteur": "Arianit",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mrizi_i_Zanave_restaurant_3.jpg",
+        "src": "img/restos/TIA/mrizi.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "ceren",
+      "nom": "Ceren Ismet Shehu",
+      "emoji": "🍖",
+      "gamme": "moyen",
+      "genre": "Viandes de ferme à la broche",
+      "quartier": "Château de Tirana",
+      "adresse": "Dans le château de Tirana, rue Murat Toptani",
+      "lat": 41.326191,
+      "lng": 19.822328,
+      "prix": "20 à 30 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Une table de famille, née dans les collines de Surrel, qui a ouvert une seconde maison dans les murs du vieux château : une ribambelle d'entrées maison, puis la viande de votre choix, agneau, chevreau ou veau, rôtie lentement. Des milliers d'habitants et de voyageurs l'ont élue parmi les meilleures tables de la ville.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner",
+      "photo": {
+        "auteur": "Marcos Escudero Olano",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fergese-albanian-dish.jpg",
+        "src": "img/restos/TIA/ceren.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kripe",
+      "nom": "Kripë dhe Piper",
+      "emoji": "🐟",
+      "gamme": "moyen",
+      "genre": "Poissons et fruits de mer",
+      "quartier": "Sud de Blloku",
+      "adresse": "Rruga Sami Frashëri 44",
+      "lat": 41.316671,
+      "lng": 19.814893,
+      "prix": "15 à 30 €",
+      "prix_min": 15,
+      "badges": [],
+      "texte": "« Sel et poivre » : le poisson du jour arrive chaque matin de la côte et se cuisine simplement, grillé avec un filet d'huile d'olive et de citron. Poulpe, plateau de fruits de mer, accueil chaleureux : l'une des tables les mieux notées de Tirana.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille ou le jour même",
+      "photo": {
+        "auteur": "T.Tseng",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Grilled_Japanese_sea_bream.jpg",
+        "src": "img/restos/TIA/kripe.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "tymi",
+      "nom": "Tymi",
+      "emoji": "🎸",
+      "gamme": "moyen",
+      "genre": "Grillades dans un décor vintage",
+      "quartier": "Rue de Kavaja",
+      "adresse": "Rruga e Kavajës, à 10 min de la place Skanderbeg",
+      "lat": 41.328601,
+      "lng": 19.812576,
+      "prix": "12 à 20 €",
+      "prix_min": 12,
+      "badges": [],
+      "texte": "Des murs couverts d'enseignes lumineuses, d'affiches de cinéma et de vieux vinyles, de la musique rock, de belles grillades et des plats albanais. L'un des décors les plus photographiés de Tirana, pour un dîner joyeux entre amis.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille le week-end",
+      "photo": {
+        "auteur": "Radosław Botev",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Rruga_e_Kavaj%C3%ABs_Tirana_%282%29.jpg",
+        "src": "img/restos/TIA/tymi.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "artigiano",
+      "nom": "Artigiano Vila",
+      "emoji": "🍝",
+      "gamme": "moyen",
+      "genre": "Italien dans une villa des années 1940",
+      "quartier": "Près de la Pyramide",
+      "adresse": "Rruga Papa Gjon Pali II 9",
+      "lat": 41.322427,
+      "lng": 19.822808,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [],
+      "texte": "Une villa restaurée et son jardin, des pâtes fraîches, des pizzas au feu de bois et du pain cuit chaque jour, avec la propre huile d'olive de la maison. L'Italie a toujours inspiré la cuisine albanaise : ici, elle se marie aux vins du pays.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner",
+      "photo": {
+        "auteur": "Zacatillo1",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Wood-fired_Pizza_Oven_at_Baronessa_Italian_Restaurant.jpg",
+        "src": "img/restos/TIA/artigiano.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "folium",
+      "nom": "Folium",
+      "emoji": "🌿",
+      "gamme": "moyen",
+      "genre": "Jardin, brunch et cuisine méditerranéenne",
+      "quartier": "Est du centre",
+      "adresse": "Rruga Faik Konica, près de la rue d'Elbasan",
+      "lat": 41.318509,
+      "lng": 19.828381,
+      "prix": "15 à 30 €",
+      "prix_min": 15,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un jardin de verdure et de fleurs en pleine ville, du brunch du matin au dîner aux chandelles. Le cadre le plus « Instagram » de Tirana, avec une cuisine méditerranéenne soignée et des cocktails maison.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir (tenue correcte exigée après la tombée de la nuit)",
+      "photo": {
+        "auteur": "Mark Miller",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Traditional_Eggs_Benedict.jpg",
+        "src": "img/restos/TIA/folium.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "mullixhiu",
+      "nom": "Mullixhiu",
+      "emoji": "🌾",
+      "gamme": "haut",
+      "genre": "Cuisine albanaise réinventée",
+      "quartier": "Grand Parc",
+      "adresse": "Promenade Lasgush Poradeci, entrée du Grand Parc près du barrage du lac",
+      "lat": 41.313456,
+      "lng": 19.816587,
+      "prix": "45 à 60 €",
+      "prix_min": 45,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection « 50 Best Discovery » (The World's 50 Best Restaurants)",
+      "texte": "Le chef Bledar Kola, passé par le Noma de Copenhague, moud lui-même ses céréales et revisite les recettes oubliées des campagnes albanaises. Un menu dégustation en plusieurs services dans une salle de bois brut, au bord du Grand Parc : la grande table du pays, pour un prix qui étonne.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, une semaine pour le week-end",
+      "photo": {
+        "auteur": "Manuel Krug",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bledar_Kola.jpg",
+        "src": "img/restos/TIA/mullixhiu.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "salt",
+      "nom": "Salt",
+      "emoji": "🍣",
+      "gamme": "haut",
+      "genre": "Méditerranéen et sushis",
+      "quartier": "Blloku",
+      "adresse": "Rruga Pjetër Bogdani, Blloku",
+      "lat": 41.321637,
+      "lng": 19.817127,
+      "prix": "30 à 50 €",
+      "prix_min": 30,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La table chic de Blloku depuis 2016 : poissons, viandes grillées, pâtes et un comptoir de sushis, dans une salle élégante qui se transforme en club du jeudi au samedi. Le restaurant que les voyageurs recommandent le plus sur les réseaux.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant, surtout le week-end",
+      "photo": {
+        "auteur": "chidorian from Japan",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg",
+        "src": "img/restos/TIA/salt.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "padam",
+      "nom": "Padam",
+      "emoji": "🍷",
+      "gamme": "haut",
+      "genre": "Gastronomie dans une villa des années 1930",
+      "quartier": "Près de la Pyramide",
+      "adresse": "Rruga Papa Gjon Pali II, près de la Pyramide",
+      "lat": 41.322062,
+      "lng": 19.822798,
+      "prix": "40 à 60 €",
+      "prix_min": 40,
+      "badges": [],
+      "texte": "Une villa des années 1930 joliment restaurée, son jardin et une cave de plus de 300 vins. Cuisine méditerranéenne raffinée et service attentif : l'adresse que les Tiranais choisissent pour une grande occasion.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant le week-end",
+      "photo": {
+        "auteur": "Vyacheslav Argenberg",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Wine_bottles_aging_in_Massandra_cellars.jpg",
+        "src": "img/restos/TIA/padam.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "sky-club",
+      "nom": "Sky Club (Sky Tower)",
+      "emoji": "🌆",
+      "gamme": "haut",
+      "genre": "Restaurant et bar panoramiques",
+      "quartier": "Blloku",
+      "adresse": "Sky Tower, Rruga Ibrahim Rugova",
+      "lat": 41.322381,
+      "lng": 19.817999,
+      "prix": "35 à 60 €",
+      "prix_min": 35,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Au sommet de la Sky Tower, le bar tourne lentement sur lui-même : en une heure, toute la ville, le Dajti et le coucher de soleil défilent sous vos yeux. Dîner au restaurant ou simple cocktail : le premier soir idéal à Tirana.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour une table près des vitres au coucher du soleil",
+      "photo": {
+        "auteur": "Brams",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Tirana_View_from_Sky_Tower_2.JPG",
+        "src": "img/restos/TIA/sky-club.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "uka-farm",
+      "nom": "Uka Farm",
+      "emoji": "🍇",
+      "gamme": "haut",
+      "genre": "Ferme et domaine viticole",
+      "quartier": "Laknas (à 20 min, route de l'aéroport)",
+      "adresse": "Rruga Adem Jashari, Laknas",
+      "lat": 41.368927,
+      "lng": 19.742418,
+      "prix": "25 à 45 €",
+      "prix_min": 25,
+      "badges": [],
+      "texte": "Une ferme bio fondée en 1996 par un ancien ministre de l'Agriculture : légumes du potager, fromages, agneau, et les vins du domaine, dont le kallmet, cépage rouge albanais. Un long déjeuner à la campagne, idéal le jour de l'arrivée ou du départ.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille : la ferme cuisine selon les réservations ; taxi depuis le centre ≈ 20 à 25 €",
+      "photo": {
+        "auteur": "Albinfo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kallmet_i_madh_church_%28WPWTR16%29.JPG",
+        "src": "img/restos/TIA/uka-farm.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "lift",
+      "nom": "LIFT Steak & Rooftop",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Steakhouse sur les toits",
+      "quartier": "Près de la Pyramide",
+      "adresse": "ABA Business Center, 4e étage, Rruga Papa Gjon Pali II",
+      "lat": 41.319938,
+      "lng": 19.822857,
+      "prix": "45 à 70 €",
+      "prix_min": 45,
+      "badges": [],
+      "texte": "Un ascenseur, et vous voilà sur une terrasse au-dessus du boulevard : belles pièces de bœuf, fruits de mer et cocktails, avec la ville illuminée en toile de fond. L'adresse des grandes soirées tiranaises, et un brunch le week-end.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant le week-end : c'est souvent complet",
+      "photo": {
+        "auteur": "Jon Sullivan",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Ribeyes.jpeg",
+        "src": "img/restos/TIA/lift.jpg",
+        "illustration": true
+      }
+    }
+  ]
+}
