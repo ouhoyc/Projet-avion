@@ -262,6 +262,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide de Séville** (`guides/SVQ.json`), préparée en autonomie : 26 activités
+  (4 tendance d'après les réseaux sociaux, 2 sources au moins : Plaza de España, Setas, Santa Cruz, Triana ; matchs du Séville FC,
+  club « Sevilla », et du Betis, club « Real Betis » ; visite des toits de la cathédrale ; flamenco au musée du Baile Flamenco ;
+  excursions Cordoue, Itálica, Cadix), 18 restaurants (note pondérée, C = 4,37, 614 restaurants lus via 90 listes Wanderlog ;
+  Michelin 2026 : Abantal et Cañabota 1 étoile, Az-Zait et Lalola Bib Gourmand, Sobretablas et Basque sélectionnés ;
+  tendance : El Comercio, Las Columnas, Fatouch, marché de Triana, Casa Ruperto, El Rinconcillo, Lama La Uva, Cañabota), 5 quartiers.
+  Réseaux sociaux (Apify, un seul lancement). Écartés : Las Teresas (note 3,9), Confitería La Campana (4,0), Río Grande (ouvert en 2023,
+  pas une institution), Hospital de la Caridad (église fermée pour travaux en 2026).
+  Prix officiels relevés : Alcázar 15,50 €, cathédrale 13 € en ligne (14 € au guichet, toits 20 €), Setas 16 €, Dueñas 15 €,
+  Pilatos 12 € (+6 € l'étage), Lebrija 15 €, Maestranza 12 €, musée du Flamenco 29 €, Aire 68 €, mosquée de Cordoue 15 €.
+  `a_verifier` à false partout. Photos : 44 sur 44, 16 d'illustration (restaurants surtout, et les bains Aire).
+  `matchs/SVQ.json` n'existe pas encore (Séville est une destination récente) : la tâche du lundi le créera.
+  Pas encore de liens Tiqets (`PARTNER_LINKS`).
 - ✅ (23/10/2026) **Page guide de Porto** (`guides/OPO.json`), préparée en autonomie : 28 activités
   (5 tendance d'après les réseaux sociaux, 2 sources au moins : Ribeira, pont Dom Luís I, jardin du Morro et Serra do Pilar,
   librairie Lello, gare de São Bento ; match du FC Porto, club « FC Porto », et visite du musée et du stade ; excursions

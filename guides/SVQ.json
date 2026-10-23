@@ -1,0 +1,1651 @@
+{
+ "city_code": "SVQ",
+ "statut": "vérifié en autonomie, prix relevés le 23/10/2026",
+ "verifie_le": "2026-10-23",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "alcazar",
+   "nom": "Real Alcázar",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Santa Cruz",
+   "lat": 37.38321,
+   "lng": -5.99018,
+   "prix": 15.5,
+   "prix_detail": [
+    [
+     "Entrée générale (palais et jardins)",
+     15.5
+    ],
+    [
+     "Étage royal (Cuarto Real Alto), en plus",
+     5.5
+    ],
+    [
+     "Étudiants 14-30 ans, plus de 65 ans",
+     8
+    ],
+    [
+     "Moins de 14 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15.5,
+    "enfants": [
+     [
+      13,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet à heure fixe en ligne, 1 à 2 semaines avant au printemps ; la file sans billet dépasse souvent l'heure",
+   "duree": "2 h 30 à 3 h",
+   "moment": "À l'ouverture (9 h 30) ; d'octobre à mars, fermeture à 17 h (19 h d'avril à septembre)",
+   "enfants": true,
+   "texte": "Le plus ancien palais royal encore habité d'Europe : patios de stuc ciselé comme de la dentelle, azulejos, bassins et jardins d'orangers où ont été tournées des scènes de Game of Thrones. Le patio des Demoiselles, à l'ouverture, avant la foule, est un moment suspendu.",
+   "site_officiel": "https://www.alcazarsevilla.org/",
+   "note": "Achetez sur le site officiel : de nombreux faux sites revendent le même billet bien plus cher. Le billet donne aussi accès au centre de la céramique de Triana.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "o_andras",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AReal_Alc%C3%A1zar_of_Sevilla_-_patio_4.jpg",
+    "src": "img/activites/SVQ/alcazar.jpg"
+   }
+  },
+  {
+   "id": "catedral",
+   "nom": "Cathédrale et Giralda",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Santa Cruz",
+   "lat": 37.38592,
+   "lng": -5.99314,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Cathédrale + Giralda, en ligne",
+     13
+    ],
+    [
+     "Au guichet",
+     14
+    ],
+    [
+     "Plus de 65 ans, étudiants jusqu'à 25 ans (en ligne)",
+     7
+    ],
+    [
+     "Jusqu'à 13 ans",
+     "gratuit"
+    ],
+    [
+     "Audioguide",
+     5
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      13,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (1 € moins cher et sans file)",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Lun.-sam. 10 h 45-19 h, dim. 14 h 30-19 h (guichet fermé à 18 h)",
+   "enfants": true,
+   "texte": "La plus grande cathédrale gothique du monde, avec le tombeau de Christophe Colomb porté par quatre rois. On grimpe ensuite la Giralda, l'ancien minaret, par 35 rampes faites pour monter à cheval : la vue sur les toits de Séville est la récompense.",
+   "site_officiel": "https://www.catedraldesevilla.es/",
+   "note": "Le billet comprend aussi l'église du Salvador, magnifique retable baroque, à 10 minutes à pied. Visite gratuite certains dimanches en fin d'après-midi (billets distribués sur place dès 17 h).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_Virgen_de_los_Reyes%2C_Seville%2C_Spain_-_Sep_2009.jpg",
+    "src": "img/activites/SVQ/catedral.jpg"
+   }
+  },
+  {
+   "id": "toits",
+   "nom": "Visite des toits de la cathédrale",
+   "emoji": "🧗",
+   "type": "vue",
+   "quartier": "Santa Cruz",
+   "lat": 37.38575,
+   "lng": -5.9928,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Visite guidée des toits, en ligne",
+     20
+    ],
+    [
+     "Au guichet",
+     21
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "en ligne plusieurs jours avant (petits groupes, peu de créneaux)",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, pour la lumière",
+   "enfants": false,
+   "texte": "Marcher sur les terrasses de pierre de la cathédrale, entre arcs-boutants, pinacles et coupoles, avec la Giralda en face : un point de vue que la plupart des visiteurs ne soupçonnent pas, et des photos que personne d'autre n'aura.",
+   "site_officiel": "https://www.catedraldesevilla.es/",
+   "note": "Visite guidée en espagnol ou en anglais selon les horaires ; marches et passages étroits.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anual",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACatedral_sevilla_2019An002.jpg",
+    "src": "img/activites/SVQ/toits.jpg"
+   }
+  },
+  {
+   "id": "plaza-espana",
+   "nom": "Plaza de España",
+   "emoji": "🏛️",
+   "type": "vue",
+   "quartier": "Parc María Luisa",
+   "lat": 37.37697,
+   "lng": -5.98694,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ],
+    [
+     "Barque sur le canal",
+     "≈ 6 € les 35 min"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, ou tôt le matin pour être presque seul",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un immense demi-cercle de briques et de céramiques, des ponts en azulejos au-dessus d'un canal, et un banc décoré pour chaque province d'Espagne. C'est le décor le plus photographié de Séville (et un décor de Star Wars) : on y vient même sans plan.",
+   "site_officiel": "https://visitasevilla.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Carlos Delgado",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_de_Espa%C3%B1a_%28Sevilla%29_-_01.jpg",
+    "src": "img/activites/SVQ/plaza-espana.jpg"
+   }
+  },
+  {
+   "id": "maria-luisa",
+   "nom": "Parc María Luisa",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Parc María Luisa",
+   "lat": 37.37477,
+   "lng": -5.98879,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, quand l'ombre est la plus douce",
+   "enfants": true,
+   "texte": "Le grand jardin romantique de Séville : allées de palmiers et d'orangers, bassins, pavillons couverts d'azulejos et la place des Colombes. Le meilleur refuge à l'ombre entre deux visites, à côté de la Plaza de España.",
+   "site_officiel": "https://visitasevilla.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Juan",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParque_de_Maria_Luisa_-_Sevilla.jpg",
+    "src": "img/activites/SVQ/maria-luisa.jpg"
+   }
+  },
+  {
+   "id": "setas",
+   "nom": "Setas de Sevilla (Metropol Parasol)",
+   "emoji": "🍄",
+   "type": "vue",
+   "quartier": "Encarnación",
+   "lat": 37.39312,
+   "lng": -5.99185,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Entrée (belvédère, film et spectacle de lumières)",
+     16
+    ],
+    [
+     "Avec un spectacle de flamenco",
+     "dès 48 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne le jour même pour le coucher du soleil",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, puis le spectacle de lumières à la nuit tombée",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus grande structure en bois du monde, six « champignons » géants au-dessus des toits du vieux Séville. La passerelle ondule à 26 mètres de haut, avec la Giralda à l'horizon : le coucher de soleil le plus partagé de la ville.",
+   "site_officiel": "https://setasdesevilla.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzzz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMetropol_Parasol_2019_%284%29.jpg",
+    "src": "img/activites/SVQ/setas.jpg"
+   }
+  },
+  {
+   "id": "santa-cruz",
+   "nom": "Quartier de Santa Cruz",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Santa Cruz",
+   "lat": 37.38519,
+   "lng": -5.98846,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "1 h 30",
+   "moment": "Tôt le matin ou à la nuit tombée, sans les groupes",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'ancien quartier juif : un labyrinthe de ruelles blanchies à la chaux, de placettes plantées d'orangers et de patios fleuris, où l'on se perd volontiers. Callejón del Agua, place Doña Elvira, rue de la Vida : chaque recoin est une carte postale.",
+   "site_officiel": "https://visitasevilla.es/",
+   "note": "Le soir, les terrasses de la rue Mateos Gago sont pleines de touristes : pour manger, préférez les bars des ruelles voisines.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "CarlosVdeHabsburgo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_de_Do%C3%B1a_Elvira_02.jpg",
+    "src": "img/activites/SVQ/santa-cruz.jpg"
+   }
+  },
+  {
+   "id": "triana",
+   "nom": "Triana et la calle Betis",
+   "emoji": "🌉",
+   "type": "balade",
+   "quartier": "Triana",
+   "lat": 37.38628,
+   "lng": -6.00243,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade libre",
+     "gratuit"
+    ],
+    [
+     "Château San Jorge (musée)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, puis l'apéritif au bord de l'eau",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "De l'autre côté du pont d'Isabel II, le quartier des potiers, des marins et du flamenco. Façades colorées de la calle Betis face au fleuve, ateliers de céramique de la rue Alfarería, marché couvert et ruines du château de l'Inquisition : la Séville la plus vivante.",
+   "site_officiel": "https://visitasevilla.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anual",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATriana_calle_Betis_2019An001.jpg",
+    "src": "img/activites/SVQ/triana.jpg"
+   }
+  },
+  {
+   "id": "pilatos",
+   "nom": "Casa de Pilatos",
+   "emoji": "🏯",
+   "type": "culture",
+   "quartier": "San Bartolomé",
+   "lat": 37.39024,
+   "lng": -5.98725,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Rez-de-chaussée et jardins",
+     12
+    ],
+    [
+     "Étage (visite guidée), en plus",
+     6
+    ],
+    [
+     "Jusqu'à 11 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place ; l'étage se visite par petits groupes, à réserver le matin même",
+   "duree": "1 h",
+   "moment": "Tous les jours 9 h-18 h ; tôt le matin",
+   "enfants": true,
+   "texte": "Le plus beau palais privé de Séville, mélange de mudéjar, de gothique et de Renaissance italienne : patio de marbre, des milliers d'azulejos et jardins secrets. On y a tourné Lawrence d'Arabie, et il reste bien moins fréquenté que l'Alcázar.",
+   "site_officiel": "https://fundacionmedinaceli.org/monumentos/casa-de-pilatos/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jl FilpoC",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APatio_de_la_Casa_de_Pilatos%2C_Sevilla.jpg",
+    "src": "img/activites/SVQ/pilatos.jpg"
+   }
+  },
+  {
+   "id": "duenas",
+   "nom": "Palais de las Dueñas",
+   "emoji": "🌺",
+   "type": "culture",
+   "quartier": "Feria",
+   "lat": 37.39538,
+   "lng": -5.98941,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée générale",
+     15
+    ],
+    [
+     "Réduit (6-16 ans, étudiants, plus de 65 ans)",
+     11
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Lundi dès 16 h, sur réservation",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      16,
+      11
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place ; le lundi gratuit se réserve en ligne",
+   "duree": "1 h",
+   "moment": "Oct.-mars 10 h-18 h, avril-sept. 10 h-19 h",
+   "enfants": true,
+   "texte": "Le palais de la maison d'Albe, où est né le poète Antonio Machado : patio couvert de bougainvilliers, citronniers, salons remplis de tableaux et d'objets de la duchesse. On visite une vraie demeure de famille, toujours habitée par ses souvenirs.",
+   "site_officiel": "https://www.lasduenas.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzzz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APatio_principal_del_Palacio_de_las_Due%C3%B1as_%281%29.jpg",
+    "src": "img/activites/SVQ/duenas.jpg"
+   }
+  },
+  {
+   "id": "torre-oro",
+   "nom": "Torre del Oro",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Arenal",
+   "lat": 37.3824,
+   "lng": -5.99632,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Entrée (musée naval et terrasse)",
+     3
+    ],
+    [
+     "Réduit",
+     1.5
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place",
+   "duree": "45 min",
+   "moment": "En journée ; la tour est la plus belle illuminée, le soir, depuis Triana",
+   "enfants": true,
+   "texte": "Tour de guet almohade du XIIIe siècle, au bord du Guadalquivir, qui gardait le port d'où partaient les galions vers les Amériques. Petit musée naval et terrasse avec vue sur le fleuve et Triana.",
+   "site_officiel": "https://armada.defensa.gob.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Benjamin Smith",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASevilla_-_Torre_del_Oro_and_river_Guadalquivir_-_1.jpg",
+    "src": "img/activites/SVQ/torre-oro.jpg"
+   }
+  },
+  {
+   "id": "maestranza",
+   "nom": "Arènes de la Maestranza",
+   "emoji": "🐂",
+   "type": "culture",
+   "quartier": "Arenal",
+   "lat": 37.38591,
+   "lng": -5.99892,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Entrée (visite audioguidée)",
+     12
+    ],
+    [
+     "12-16 ans, étudiants, plus de 65 ans",
+     7
+    ],
+    [
+     "7-11 ans",
+     4
+    ],
+    [
+     "Famille (2 adultes + enfants)",
+     29
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      11,
+      4
+     ],
+     [
+      16,
+      7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place ou en ligne",
+   "duree": "50 min",
+   "moment": "Tous les jours 9 h 30-19 h 30 ; jusqu'à 15 h les jours de corrida",
+   "enfants": true,
+   "texte": "L'une des plus anciennes et des plus belles arènes d'Espagne, ocre et blanche, au bord du fleuve. La visite montre la piste, la chapelle des toreros, l'infirmerie et un musée de costumes de lumière, sans assister à une corrida.",
+   "site_officiel": "https://visitaplazadetorosdesevilla.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Harlock20",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_de_Toros_de_la_Real_Maestranza_-_Sevilla.jpg",
+    "src": "img/activites/SVQ/maestranza.jpg"
+   }
+  },
+  {
+   "id": "bellas-artes",
+   "nom": "Musée des Beaux-Arts",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Museo",
+   "lat": 37.39242,
+   "lng": -6.00001,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     1.5
+    ],
+    [
+     "Citoyens de l'Union européenne",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "1 h 30",
+   "moment": "Mar.-sam. 9 h-21 h, dim. 9 h-15 h ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le deuxième musée de peinture d'Espagne après le Prado, dans un ancien couvent aux cloîtres fleuris : Murillo, Zurbarán, Valdés Leal… L'âge d'or de la peinture sévillane, pour presque rien.",
+   "site_officiel": "https://www.museosdeandalucia.es/web/museodebellasartesdesevilla",
+   "note": "Gratuit pour les citoyens de l'Union européenne (pièce d'identité demandée), 1,50 € pour les autres.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anual",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMuseo_de_Bellas_Artes_001.jpg",
+    "src": "img/activites/SVQ/bellas-artes.jpg"
+   }
+  },
+  {
+   "id": "indias",
+   "nom": "Archives des Indes",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Santa Cruz",
+   "lat": 37.38471,
+   "lng": -5.99304,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "45 min",
+   "moment": "Mar.-sam. 9 h 30-16 h 45, dim. 10 h-13 h 45",
+   "enfants": true,
+   "texte": "Toute l'histoire de l'Amérique espagnole tient dans ce palais Renaissance classé par l'Unesco : galeries de marbre, rayonnages d'acajou et documents signés par Colomb ou Cortés. Une pause fraîche et gratuite entre la cathédrale et l'Alcázar.",
+   "site_officiel": "https://www.cultura.gob.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "José L. Filpo",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AArchivo_General_de_Indias._Sevilla.jpg",
+    "src": "img/activites/SVQ/indias.jpg"
+   }
+  },
+  {
+   "id": "lebrija",
+   "nom": "Palais de la comtesse de Lebrija",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Centre",
+   "lat": 37.39215,
+   "lng": -5.9937,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Visite complète",
+     15
+    ],
+    [
+     "6-12 ans",
+     6
+    ],
+    [
+     "Vendredi 10 h, rez-de-chaussée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      12,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place",
+   "duree": "1 h",
+   "moment": "Tous les jours ; le vendredi à 10 h, visite gratuite du rez-de-chaussée",
+   "enfants": true,
+   "texte": "Le palais aux mosaïques : la comtesse a fait paver son patio avec des mosaïques romaines venues d'Itálica. Azulejos, salons et collections archéologiques, en plein cœur commerçant, à deux pas de la rue Sierpes.",
+   "site_officiel": "https://www.palaciodelebrija.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Benjamin Smith",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASevilla_-_Palacio_de_la_Condesa_de_Lebrija_-_1.jpg",
+    "src": "img/activites/SVQ/lebrija.jpg"
+   }
+  },
+  {
+   "id": "venerables",
+   "nom": "Hospital de los Venerables",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Santa Cruz",
+   "lat": 37.38524,
+   "lng": -5.99033,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Entrée",
+     12
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ],
+    [
+     "Lundi après-midi, sur réservation",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place ; le lundi gratuit se réserve en ligne",
+   "duree": "1 h",
+   "moment": "Lun.-sam. 10 h-19 h, dim. 10 h-15 h",
+   "enfants": true,
+   "texte": "Un joyau baroque caché au cœur de Santa Cruz : patio en contrebas, église entièrement peinte à fresque et centre Velázquez, avec des toiles du peintre né à Séville. Calme et éblouissant.",
+   "site_officiel": "https://losvenerables.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "José Luis Filpo Cabana",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APatio_del_Hospital_de_los_Venerables_%28Sevilla%29.jpg",
+    "src": "img/activites/SVQ/venerables.jpg"
+   }
+  },
+  {
+   "id": "macarena",
+   "nom": "Basilique de la Macarena",
+   "emoji": "🕯️",
+   "type": "culture",
+   "quartier": "Macarena",
+   "lat": 37.40316,
+   "lng": -5.98956,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Basilique",
+     "gratuit"
+    ],
+    [
+     "Musée du trésor",
+     5
+    ],
+    [
+     "7-16 ans (musée)",
+     3
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "45 min",
+   "moment": "Lun.-sam. matin et fin d'après-midi",
+   "enfants": true,
+   "texte": "La Vierge la plus vénérée de Séville, qui sort dans la nuit du Vendredi saint devant des foules en larmes. Le musée expose ses chars d'argent et ses manteaux brodés d'or : on comprend ici ce qu'est la Semaine sainte sévillane.",
+   "site_officiel": "https://www.hermandaddelamacarena.es/",
+   "note": "Juste à côté, l'arc de la Macarena et un pan de l'ancienne muraille.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzzz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APuerta_de_la_Macarena_%282%29.jpg",
+    "src": "img/activites/SVQ/macarena.jpg"
+   }
+  },
+  {
+   "id": "flamenco",
+   "nom": "Spectacle au musée du Flamenco",
+   "emoji": "💃",
+   "type": "sortir",
+   "quartier": "Alfalfa",
+   "lat": 37.38895,
+   "lng": -5.99113,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Spectacle (1 h)",
+     29
+    ],
+    [
+     "Étudiants",
+     22
+    ],
+    [
+     "6-12 ans",
+     15
+    ],
+    [
+     "Spectacle + musée",
+     33
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      12,
+      15
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "en ligne quelques jours avant (petite salle, complet le week-end)",
+   "duree": "1 h",
+   "moment": "Tous les soirs : 17 h, 19 h et 20 h 45",
+   "enfants": true,
+   "texte": "Séville est la capitale du flamenco. Dans la cour voûtée du musée fondé par la danseuse Cristina Hoyos, guitare, chant et danse se jouent à quelques mètres de vous : une heure intense, sans repas imposé ni prix gonflés.",
+   "site_officiel": "https://www.museodelbaileflamenco.com/",
+   "note": "Pour une ambiance plus brute, les bars de Triana proposent parfois du flamenco gratuit en fin de soirée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Schnobby",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFlamenco_in_Sevilla_02.jpg",
+    "src": "img/activites/SVQ/flamenco.jpg"
+   }
+  },
+  {
+   "id": "aire",
+   "nom": "Bains arabes Aire",
+   "emoji": "🛁",
+   "type": "sortir",
+   "quartier": "Santa Cruz",
+   "lat": 37.38783,
+   "lng": -5.99002,
+   "prix": 68,
+   "prix_detail": [
+    [
+     "Bains (1 h 30)",
+     68
+    ],
+    [
+     "Bains + massage",
+     "dès 95 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 68,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "en ligne 1 à 2 semaines avant (créneaux limités)",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, après la chaleur",
+   "enfants": false,
+   "texte": "Des bassins chauds, tièdes et froids sous les voûtes d'un palais mudéjar, à la lueur des bougies : la pause la plus douce après une journée de marche. Réservé aux plus de 18 ans.",
+   "site_officiel": "https://beaire.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "CarlosVdeHabsburgo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABa%C3%B1os_%C3%81rabes%2C_Calle_Mateos_Gago%2C_Sevilla.jpg",
+    "src": "img/activites/SVQ/aire.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière sur le Guadalquivir",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Arenal",
+   "lat": 37.38557,
+   "lng": -5.9995,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Croisière d'1 h",
+     18
+    ],
+    [
+     "6-12 ans",
+     3
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      12,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place au ponton, ou en ligne",
+   "duree": "1 h",
+   "moment": "Départs toutes les heures ; au coucher du soleil",
+   "enfants": true,
+   "texte": "Une heure sur le fleuve, de la Torre del Oro au pont de l'Alamillo : Triana, les pavillons de l'Exposition de 1929 et l'île de la Cartuja défilent. Idéal en famille ou pour reposer les jambes.",
+   "site_officiel": "https://www.crucerostorredeloro.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Frobles",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACruceroporelGuadalquivir.jpg",
+    "src": "img/activites/SVQ/croisiere.jpg"
+   }
+  },
+  {
+   "id": "sevilla-fc",
+   "nom": "Match du Séville FC",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Nervión",
+   "lat": 37.38409,
+   "lng": -5.97063,
+   "prix": 55,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 45 à 125 € selon la tribune"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "sur le site du club, quelques semaines avant le match",
+   "duree": "3 h",
+   "moment": "Les soirs de match",
+   "enfants": true,
+   "club": "Sevilla",
+   "texte": "Le club aux sept Ligues Europa, dans le chaudron du Sánchez-Pizjuán. Avant le coup d'envoi, tout le stade chante l'hymne a cappella, écharpes tendues : un frisson même pour qui ne suit pas le foot.",
+   "site_officiel": "https://www.sevillafc.es/",
+   "note": "Achetez sur le site officiel du club : les revendeurs pratiquent des prix bien plus élevés.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Niels98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2022-10-25_2_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
+    "src": "img/activites/SVQ/sevilla-fc.jpg"
+   }
+  },
+  {
+   "id": "betis",
+   "nom": "Match du Real Betis",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Heliópolis",
+   "lat": 37.35645,
+   "lng": -5.98092,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 40 à 100 € selon la tribune"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "sur le site du club, dès la mise en vente",
+   "duree": "3 h",
+   "moment": "Les soirs de match",
+   "enfants": true,
+   "club": "Real Betis",
+   "texte": "L'autre grand club de Séville, vert et blanc, porté par l'une des ferveurs les plus joyeuses d'Espagne au stade Benito Villamarín, près du parc María Luisa. Le derby contre le Séville FC paralyse toute la ville.",
+   "site_officiel": "https://www.realbetisbalompie.es/",
+   "note": "Achetez sur le site officiel du club.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anual",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEstadio_Benito_Villamar%C3%ADn_2018001.jpg",
+    "src": "img/activites/SVQ/betis.jpg"
+   }
+  },
+  {
+   "id": "cordoba",
+   "nom": "Excursion à Cordoue",
+   "emoji": "🕌",
+   "type": "nature",
+   "quartier": "Cordoue (45 min en train)",
+   "lat": 37.87903,
+   "lng": -4.77945,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Train aller-retour (AVE, Avlo, Iryo)",
+     "≈ 15 à 60 € selon l'heure et le jour"
+    ],
+    [
+     "Mosquée-cathédrale",
+     15
+    ],
+    [
+     "Mosquée : 10-14 ans",
+     8
+    ],
+    [
+     "Mosquée : moins de 10 ans",
+     "gratuit"
+    ],
+    [
+     "Mosquée : lun.-sam. 8 h 30-9 h 30",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "train à réserver quelques jours avant (moins cher)",
+   "duree": "La journée",
+   "moment": "Partez tôt pour l'entrée gratuite de 8 h 30",
+   "enfants": true,
+   "texte": "À 45 minutes de TGV, la mosquée-cathédrale et sa forêt de 850 colonnes aux arcs rouges et blancs, l'un des plus beaux monuments du monde. Ajoutez le quartier juif et ses patios fleuris : une journée inoubliable.",
+   "site_officiel": "https://mezquita-catedraldecordoba.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "CEphoto, Uwe Aranas",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AC%C3%B3rdoba_Spain_Mezquita-Catedral-de-C%C3%B3rdoba-01.jpg",
+    "src": "img/activites/SVQ/cordoba.jpg"
+   }
+  },
+  {
+   "id": "italica",
+   "nom": "Ruines romaines d'Itálica",
+   "emoji": "🏟️",
+   "type": "nature",
+   "quartier": "Santiponce (25 min en bus)",
+   "lat": 37.4419,
+   "lng": -6.04532,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "1,50 €"
+    ],
+    [
+     "Citoyens de l'Union européenne",
+     "gratuit"
+    ],
+    [
+     "Bus M-170 depuis Plaza de Armas",
+     "≈ 1,60 € le trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "La demi-journée",
+   "moment": "Le matin ; mar.-sam. 9 h-18 h en hiver (21 h au printemps), dim. 9 h-15 h, fermé le lundi",
+   "enfants": true,
+   "texte": "La ville natale des empereurs Trajan et Hadrien : un amphithéâtre de 25 000 places, des rues et des maisons aux mosaïques encore en place. On y a tourné Game of Thrones (Fosse aux dragons). Gratuit pour les Européens.",
+   "site_officiel": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-italica",
+   "note": "Peu d'ombre : chapeau et eau indispensables.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAnfiteatro_de_las_ruinas_romanas_de_It%C3%A1lica%2C_Santiponce%2C_Sevilla%2C_Espa%C3%B1a%2C_2015-12-06%2C_DD_26-29_PAN.JPG",
+    "src": "img/activites/SVQ/italica.jpg"
+   }
+  },
+  {
+   "id": "cadiz",
+   "nom": "Excursion à Cadix",
+   "emoji": "🌊",
+   "type": "nature",
+   "quartier": "Cadix (1 h 30 en train)",
+   "lat": 36.52895,
+   "lng": -6.29532,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Train aller-retour",
+     "≈ 25 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets de train la veille ou le jour même",
+   "duree": "La journée",
+   "moment": "Toute l'année ; baignade de juin à septembre",
+   "enfants": true,
+   "texte": "La plus vieille ville d'Occident, cernée par l'océan : ruelles blanches, cathédrale au dôme doré face à la mer, marché aux poissons et la plage de la Caleta au coucher du soleil. Une bouffée d'air atlantique.",
+   "site_officiel": "https://turismo.cadiz.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Patrirh",
+    "licence": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASunset_in_Cadiz.jpg",
+    "src": "img/activites/SVQ/cadiz.jpg"
+   }
+  },
+  {
+   "id": "alameda",
+   "nom": "Alameda de Hércules",
+   "emoji": "🍹",
+   "type": "sortir",
+   "quartier": "Alameda",
+   "lat": 37.39888,
+   "lng": -5.99374,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune",
+   "duree": "La soirée",
+   "moment": "Le soir, à l'heure de l'apéritif",
+   "enfants": true,
+   "texte": "La grande promenade bordée de terrasses où sortent les Sévillans, entre colonnes romaines et bars branchés. Le quartier alentour (rue Feria, San Lorenzo) est le plus bohème de la ville, avec le marché aux puces du jeudi matin.",
+   "site_officiel": "https://visitasevilla.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzzz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlameda_de_Hercules_Sevilla_2.JPG",
+    "src": "img/activites/SVQ/alameda.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "santa-cruz",
+   "nom": "Santa Cruz et la cathédrale",
+   "lat": 37.3858,
+   "lng": -5.9905,
+   "texte": "Au pied de la Giralda et de l'Alcázar, dans les ruelles fleuries de l'ancien quartier juif : tout se fait à pied. Idéal pour un premier séjour, mais très touristique et plus cher."
+  },
+  {
+   "id": "centro",
+   "nom": "Centre (Alfalfa et Setas)",
+   "lat": 37.3915,
+   "lng": -5.9915,
+   "texte": "Le cœur commerçant, entre la rue Sierpes, la place de l'Alfalfa et les Setas : bars à tapas à chaque coin, monuments à 10 minutes, ambiance sévillane plus que touristique."
+  },
+  {
+   "id": "arenal",
+   "nom": "El Arenal",
+   "lat": 37.3866,
+   "lng": -5.9969,
+   "texte": "Entre la cathédrale et le fleuve, autour des arènes de la Maestranza : central, élégant et un peu plus calme le soir. Pratique pour la croisière et pour passer à Triana."
+  },
+  {
+   "id": "triana",
+   "nom": "Triana",
+   "lat": 37.3845,
+   "lng": -6.003,
+   "texte": "De l'autre côté du fleuve, le quartier des potiers et du flamenco : vie de quartier, bars au bord de l'eau, prix plus doux. Le centre est à 10-15 minutes à pied par le pont."
+  },
+  {
+   "id": "alameda",
+   "nom": "Alameda et San Lorenzo",
+   "lat": 37.398,
+   "lng": -5.9945,
+   "texte": "Le quartier bohème, autour de la grande promenade de l'Alameda : terrasses, bars branchés et bonnes tables. Animé le soir, à 15 minutes à pied de la cathédrale."
+  }
+ ],
+ "hotel_petit_prix_max": 100,
+ "restaurants": [
+  {
+   "id": "el-comercio",
+   "nom": "Bar El Comercio",
+   "emoji": "🍫",
+   "gamme": "petit",
+   "genre": "Churros et chocolat chaud",
+   "quartier": "Centre",
+   "adresse": "Calle Lineros, 9, 41004 Sevilla",
+   "lat": 37.39076,
+   "lng": -5.99228,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis 1904, comptoir de bois, carreaux de faïence et churros frits devant vous, à tremper dans un chocolat épais. Le petit-déjeuner sévillan dans son décor d'origine.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; le matin ou au goûter",
+   "photo": {
+    "auteur": "J W from France",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChurros_and_chocolate.jpg",
+    "src": "img/restos/SVQ/el-comercio.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "las-columnas",
+   "nom": "Bodega Santa Cruz « Las Columnas »",
+   "emoji": "🥖",
+   "gamme": "petit",
+   "genre": "Tapas debout au comptoir",
+   "quartier": "Santa Cruz",
+   "adresse": "Calle Rodrigo Caro, 1, 41004 Sevilla",
+   "lat": 37.38604,
+   "lng": -5.99077,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le bar le plus animé de Santa Cruz : on commande au comptoir, le serveur note l'addition à la craie, et l'on mange debout sur un tonneau dans la rue. Montaditos, solomillo al whisky et bière fraîche à petits prix.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 13 h 30 ou 20 h 30",
+   "photo": {
+    "auteur": "CarlosVdeHabsburgo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABar_Las_Columnas.jpg",
+    "src": "img/restos/SVQ/las-columnas.jpg"
+   }
+  },
+  {
+   "id": "la-isla",
+   "nom": "Freiduría La Isla",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson frit en cornet",
+   "quartier": "Arenal",
+   "adresse": "Calle García de Vinuesa, 13, 41001 Sevilla",
+   "lat": 37.38648,
+   "lng": -5.99471,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Le pescaíto frito, c'est l'Andalousie en cornet de papier : calamars, cazón mariné, crevettes et petits poissons frits à la minute, à grignoter en marchant vers la cathédrale.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Javier Leiva from Vic, Barcelona",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEl_Pimpi_Pesca%C3%ADto_frito_%285782407641%29.jpg",
+    "src": "img/restos/SVQ/la-isla.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fatouch",
+   "nom": "Fatouch",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Cuisine libanaise",
+   "quartier": "Feria",
+   "adresse": "Calle Feria, 33, 41003 Sevilla",
+   "lat": 37.39708,
+   "lng": -5.99131,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La pause libanaise préférée des Sévillans dans la rue la plus bohème du centre : houmous, falafels, chawarma et mezze à partager, généreux et bon marché.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir ; sinon un peu d'attente",
+   "photo": {
+    "auteur": "Beyrouthhh at English Wikipedia",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALebanese_style_hummus.jpg",
+    "src": "img/restos/SVQ/fatouch.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mercado-triana",
+   "nom": "Marché de Triana",
+   "emoji": "🍤",
+   "gamme": "petit",
+   "genre": "Halle gourmande",
+   "quartier": "Triana",
+   "adresse": "Calle San Jorge, 6, 41010 Sevilla",
+   "lat": 37.38575,
+   "lng": -6.00355,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au pied du pont, le marché couvert bâti sur les ruines du château de l'Inquisition. Entre les étals de fruits et de jambons, des comptoirs servent huîtres, tapas et vin de Xérès : on picore de stand en stand.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; fermé le dimanche, le midi en semaine",
+   "photo": {
+    "auteur": "Anual",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMercado_de_triana_2018An02.jpg",
+    "src": "img/restos/SVQ/mercado-triana.jpg"
+   }
+  },
+  {
+   "id": "ruperto",
+   "nom": "Bar Casa Ruperto",
+   "emoji": "🐦",
+   "gamme": "petit",
+   "genre": "Cailles frites",
+   "quartier": "Triana",
+   "adresse": "Avenida Santa Cecilia, 2, 41010 Sevilla",
+   "lat": 37.38188,
+   "lng": -6.00858,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un bar de quartier sans chichis, connu dans tout Séville pour une spécialité : la caille frite, croustillante et parfumée. On la mange avec les doigts, debout, une bière fraîche à la main.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "D.W. Fisher-Freberg",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMinang_fried_quail.JPG",
+    "src": "img/restos/SVQ/ruperto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "rinconcillo",
+   "nom": "El Rinconcillo",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Taverne historique (1670)",
+   "quartier": "Encarnación",
+   "adresse": "Calle Gerona, 40, 41003 Sevilla",
+   "lat": 37.39334,
+   "lng": -5.98829,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le plus vieux bar de Séville, ouvert en 1670 : jambons au plafond, azulejos, bouteilles poussiéreuses et addition notée à la craie sur le bois du comptoir. Épinards aux pois chiches et morue frite, comme il y a trois siècles.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table dans la salle ; le comptoir sans réservation",
+   "photo": {
+    "auteur": "Victoria Rachitzky Hoch",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEl_Rinconcillo_%28108215924%29.jpg",
+    "src": "img/restos/SVQ/rinconcillo.jpg"
+   }
+  },
+  {
+   "id": "az-zait",
+   "nom": "Az-Zait",
+   "emoji": "🫒",
+   "gamme": "moyen",
+   "genre": "Cuisine andalouse de marché",
+   "quartier": "San Lorenzo",
+   "adresse": "Plaza de San Lorenzo, 1, 41002 Sevilla",
+   "lat": 37.39682,
+   "lng": -5.99647,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une salle calme sur une jolie place du quartier San Lorenzo, et une cuisine andalouse fine et généreuse : salmorejo, poissons du jour, plats mijotés. Le genre d'adresse que les Sévillans gardent pour eux.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "ShashiBellamkonda",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASalmorejo_at_Jaleo_DC.jpg",
+    "src": "img/restos/SVQ/az-zait.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lalola",
+   "nom": "Lalola de Javi Abascal",
+   "emoji": "🐖",
+   "gamme": "moyen",
+   "genre": "Porc ibérique et cuisine d'auteur",
+   "quartier": "Feria",
+   "adresse": "Calle Conde de Torrejón, 9, 41003 Sevilla",
+   "lat": 37.39713,
+   "lng": -5.99205,
+   "prix": "35 à 65 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Dans le patio d'un ancien palais devenu hôtel, près de l'Alameda, le chef Javi Abascal célèbre le porc ibérique sous toutes ses formes, avec un menu dégustation autour de 65 €. Élégant, créatif et étonnamment abordable.",
+   "reservation": "conseille",
+   "reservation_delai": "1 semaine avant pour le week-end",
+   "photo": {
+    "auteur": "Juan Emilio Prades Bel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASecreto_a_la_parrilla.jpg",
+    "src": "img/restos/SVQ/lalola.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lama-la-uva",
+   "nom": "Vinoteca Lama La Uva",
+   "emoji": "🍇",
+   "gamme": "moyen",
+   "genre": "Bar à vins et petites assiettes",
+   "quartier": "Encarnación",
+   "adresse": "Calle Regina, 1, 41003 Sevilla",
+   "lat": 37.3941,
+   "lng": -5.99186,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un bar à vins chaleureux au pied des Setas : vins andalous au verre, xérès, fromages et petites assiettes soignées, servis par des passionnés qui conseillent volontiers. Parfait avant ou après le coucher de soleil sur les champignons.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table le soir",
+   "photo": {
+    "auteur": "Anual",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_encarnaci%C3%B3n_2017001.jpg",
+    "src": "img/restos/SVQ/lama-la-uva.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "manolo-leon",
+   "nom": "Casa Manolo León",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Cuisine andalouse dans un patio",
+   "quartier": "San Lorenzo",
+   "adresse": "Calle Guadalquivir, 8, 41002 Sevilla",
+   "lat": 37.39986,
+   "lng": -5.99709,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Une maison sévillane tout entière, avec patios couverts de plantes, azulejos et fontaine : on dîne comme chez des amis aisés. Cuisine andalouse généreuse, viandes et poissons, dans l'un des cadres les plus charmants de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant, plus pour le week-end",
+   "photo": {
+    "auteur": "Rafael Ortega Díaz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APatio_Sevillano.jpg",
+    "src": "img/restos/SVQ/manolo-leon.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "eslava",
+   "nom": "Espacio Eslava",
+   "emoji": "🍆",
+   "gamme": "moyen",
+   "genre": "Tapas créatives",
+   "quartier": "San Lorenzo",
+   "adresse": "Calle Eslava, 3, 41002 Sevilla",
+   "lat": 37.39755,
+   "lng": -5.99692,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le bar qui a réinventé la tapa sévillane : son œuf parfait sur biscuit de cèpes et son « cigare » de Bécquer ont remporté des concours et fait école. Comptoir bondé et restaurant attenant, à deux pas de la basilique du Gran Poder.",
+   "reservation": "conseille",
+   "reservation_delai": "le restaurant se réserve 2 jours avant ; le bar sans réservation (venez à l'ouverture)",
+   "photo": {
+    "auteur": "amanderson2",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEggplant_with_honey_Tapas_Bodegas_Santa_Cruz_%2822419111523%29.jpg",
+    "src": "img/restos/SVQ/eslava.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "abantal",
+   "nom": "Abantal",
+   "emoji": "✨",
+   "gamme": "haut",
+   "genre": "Cuisine andalouse d'auteur",
+   "quartier": "Nervión",
+   "adresse": "Calle Alcalde José de la Bandera, 7, 41003 Sevilla",
+   "lat": 37.38793,
+   "lng": -5.98371,
+   "prix": "90 à 140 €",
+   "prix_min": 90,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le chef Julio Fernández revisite les produits et les recettes d'Andalousie dans un long menu dégustation précis et inventif, autour de 90 €. Son étoile Michelin, renouvelée en 2026, en fait la référence gastronomique de Séville.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; fermé dimanche et lundi",
+   "photo": {
+    "auteur": "Laura Lynch",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlato_de_jamon_iberico_2014.jpg",
+    "src": "img/restos/SVQ/abantal.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "canabota",
+   "nom": "Cañabota",
+   "emoji": "🦐",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Centre",
+   "adresse": "Calle José Gestoso, 19, 41003 Sevilla",
+   "lat": 37.39359,
+   "lng": -5.99363,
+   "prix": "80 à 150 €",
+   "prix_min": 80,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une poissonnerie devenue table étoilée : les poissons et crevettes du golfe de Cadix, exposés comme à l'étal, sont grillés sur la braise ou frits sous vos yeux. Menus dégustation de 120 à 150 €, ou à la carte au comptoir. Sa petite sœur, La Barra de Cañabota, à deux pas (calle Orfila, 5), propose la même qualité en formule bar, à petits prix.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant",
+   "photo": {
+    "auteur": "Venta Aurelio",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGambas-blancas-de-huelva-a-la-plancha-venta-aurelio.jpg",
+    "src": "img/restos/SVQ/canabota.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ispal",
+   "nom": "Ispal",
+   "emoji": "🌾",
+   "gamme": "haut",
+   "genre": "Produits de la province de Séville",
+   "quartier": "San Bernardo",
+   "adresse": "Plaza de San Sebastián, 1, 41004 Sevilla",
+   "lat": 37.38151,
+   "lng": -5.98658,
+   "prix": "70 à 90 €",
+   "prix_min": 70,
+   "badges": [],
+   "texte": "Un restaurant pensé comme un voyage dans la province : riz de marais, porc ibérique de la sierra, fromages et vins locaux, en menus dégustation de 70 à 90 €. Grande salle lumineuse face au parc du Prado de San Sebastián.",
+   "reservation": "conseille",
+   "reservation_delai": "1 semaine avant",
+   "photo": {
+    "auteur": "Gzzz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJardines_del_Prado_de_San_Sebasti%C3%A1n_Sevilla_%281%29.JPG",
+    "src": "img/restos/SVQ/ispal.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sobretablas",
+   "nom": "Sobretablas",
+   "emoji": "🍾",
+   "gamme": "haut",
+   "genre": "Cuisine de marché et grande cave",
+   "quartier": "El Porvenir",
+   "adresse": "Calle Colombia, 7, 41013 Sevilla",
+   "lat": 37.36975,
+   "lng": -5.98453,
+   "prix": "60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin",
+   "texte": "Dans le quartier résidentiel d'El Porvenir, près du parc María Luisa, la cheffe Camila Ferraro signe une cuisine andalouse délicate, et son compagnon sommelier tient l'une des caves à vins les plus primées d'Espagne. Menus de 60 à 100 € avec les vins.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "tak.wing",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALisboa_L1190851_%2825137526721%29.jpg",
+    "src": "img/restos/SVQ/sobretablas.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "alabardero",
+   "nom": "Taberna del Alabardero",
+   "emoji": "🏛️",
+   "gamme": "haut",
+   "genre": "Cuisine classique dans un palais",
+   "quartier": "Arenal",
+   "adresse": "Calle Zaragoza, 20, 41001 Sevilla",
+   "lat": 37.38843,
+   "lng": -5.99801,
+   "prix": "50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un palais sévillan du XIXe siècle avec patio, salons à l'ancienne et service en veste blanche, tenu par une école hôtelière réputée. Cuisine classique de saison ; le bistrot du rez-de-chaussée et le menu des élèves coûtent bien moins cher.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "CarlosVdeHabsburgo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATienda_Arenal_de_Sevilla.jpg",
+    "src": "img/restos/SVQ/alabardero.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "basque",
+   "nom": "Basque (Eneko Atxa)",
+   "emoji": "🌶️",
+   "gamme": "haut",
+   "genre": "Cuisine basque d'un chef triplement étoilé",
+   "quartier": "Magdalena",
+   "adresse": "Plaza de la Magdalena, 1, 41001 Sevilla",
+   "lat": 37.39121,
+   "lng": -5.99673,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin",
+   "texte": "Le chef Eneko Atxa, trois étoiles au Pays basque, signe ici une table plus accessible : grands classiques basques revisités, en deux menus dégustation, dans un hôtel élégant de la place de la Magdalena.",
+   "reservation": "conseille",
+   "reservation_delai": "1 semaine avant",
+   "photo": {
+    "auteur": "CarlosVdeHabsburgo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_de_la_Magdalena.jpg",
+    "src": "img/restos/SVQ/basque.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

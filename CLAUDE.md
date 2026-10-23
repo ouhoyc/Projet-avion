@@ -183,6 +183,8 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Porto (oct. 2026) : même méthode (recherche de fichiers `ns6=1` puis `thumb.wikimedia.org`, enlever le `?utm…`) ;
   l'auteur d'un modèle « Creator » est dans `<span class="fn">` (retirer d'abord les `<style>`). Wanderlog Porto : géo 9653,
   départ `geoCategory/70678`. Prix : beaucoup de sites officiels portugais se lisent par `curl` (tarifs en clair).
+  Séville (oct. 2026) : même méthode Commons (planches de 8 vignettes, 4 s entre deux, aucun « 429 ») ; Wanderlog : départ
+  `geoCategory/104665`, 90 listes « …-in-seville ». Michelin : la page du guide renvoie 202 (anti-robots), passer par la presse locale.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
