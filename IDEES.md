@@ -262,6 +262,24 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide de Lanzarote** (`guides/ACE.json`), préparée en autonomie : première **île** du site
+  (`"ile": true` : hôtels cherchés autour du lieu choisi, « Autres lieux », « voiture de location » ; nom « Lanzarote »
+  au lieu d'« Arrecife » dans `data.json` et `CITY_NAMES`). 27 activités (6 tendance d'après les réseaux sociaux :
+  Timanfaya, El Golfo, Jameos del Agua, Papagayo, La Graciosa, LagOmar ; centres de César Manrique, Los Hervideros,
+  Janubio, La Geria et El Grifo, Teguise et son marché du dimanche, surf à Famara, plongée au Museo Atlántico, catamaran,
+  Caldera Blanca, excursion à Fuerteventura, Rancho Texas pour les enfants), 18 restaurants (note pondérée, C = 4,39,
+  ~1 150 lieux lus via 93 listes Wanderlog ; Michelin : Kamezí 1 étoile, Lilium, Tacande, SeBE, Colacho et Palacio Ico
+  sélectionnés ; Soleil Repsol : Lilium, Palacio Ico ; soletes Repsol pour les petits prix), 5 lieux pour dormir
+  (Puerto del Carmen, Playa Blanca, Costa Teguise, Arrecife, Caleta de Famara). Pas de match : l'UD Lanzarote joue
+  dans les divisions inférieures. Réseaux sociaux (Apify, un seul lancement) : signal net pour les sites, faible pour les restaurants
+  (Casa Rafa et Kamezí seulement). Écartés pour note trop basse : El Diablo (4,1, cité dans la fiche Timanfaya),
+  Bar Stop (4,1), El Risco (4,2), Bogavante (4,2).
+  Prix officiels relevés : Timanfaya 30 € (billets en ligne seulement, créneau fixe), Jameos et Cueva de los Verdes 17 €,
+  Mirador del Río et jardin de cactus 9 €, château de San José 5,40 € (enfants 7-12 ans à moitié prix, moins de 7 ans
+  gratuit), fondation Manrique et maison de Haría 10 € (combiné 17 €), El Grifo 15 €, ferry de La Graciosa 29 € A/R,
+  catamaran Catlanza 85 €, Museo Atlántico dès 115 €, Rancho Texas 45 €, LagOmar 10 €, Papagayo 3 € par voiture.
+  `a_verifier` à false partout. Pas encore de liens Tiqets (`PARTNER_LINKS`).
+
 - ✅ (23/10/2026) **Page guide de Marrakech** (`guides/RAK.json`), reprise du brouillon de la branche
   `claude/project-thread-wgcv4a` : 25 activités (tendance : Majorelle, médersa Ben Youssef, Dar el Bacha, montgolfière,
   Agafay ; excursions Ourika, Ouzoud, Aït-Ben-Haddou, Essaouira, Imlil), 18 restaurants (MENA's 50 Best 2026 : La Grande

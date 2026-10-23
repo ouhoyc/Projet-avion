@@ -193,6 +193,16 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   (`/opt/node-tools/node_modules/playwright`, `document.body.innerText`, ou `textContent` pour les onglets cachés).
   Michelin : `guide.michelin.com/dk/en/capital-region/copenhagen/restaurants/page/N`. Wanderlog : géo 9643, 116 listes.
   La Petite Sirène est protégée (sculpteur mort en 1959) : pas de photo de la statue.
+  Lanzarote (oct. 2026) : l'API Commons et `upload.wikimedia.org` répondaient « 429 », et Python (`urllib`) était bloqué
+  même quand `curl` passait. Ce qui marche : recherche de fichiers en HTML (`ns6=1`), vignettes calculées soi-même
+  (`thumb.wikimedia.org/wikipedia/commons/thumb/x/xy/NOM/330px-NOM`, x/xy = MD5 du nom avec des `_`) pour les planches,
+  page `File:` par `curl` pour l'auteur et la licence, puis la vignette **`1280px-`** (la `960px-` répondait « 429 »).
+  Wanderlog répondait « servers overloaded » pendant ~20 min (sans doute une autre conversation) : attendre puis relancer.
+  Wanderlog : départ `geoCategory/198762` (géo 9671), 93 listes, ~1 150 lieux.
+- **Île (`"ile": true` dans le guide)** : les stations sont trop loin les unes des autres pour chercher les hôtels « dans
+  toute la ville » (rayon 6 km au plus) : la recherche se fait autour du lieu choisi (5 km), on parle d'« Autres lieux »
+  et de « voiture de location » au lieu du métro (`ville.js`). Le nom affiché vient de `data.json` : corriger le nom de
+  l'aéroport dans `CITY_NAMES` (`scripts/fetch-prices.mjs`), ex. ACE = Lanzarote (pas Arrecife), TCI = Tenerife.
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

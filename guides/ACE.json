@@ -1,0 +1,1726 @@
+{
+ "city_code": "ACE",
+ "statut": "vérifié en autonomie, prix relevés le 23/10/2026",
+ "verifie_le": "2026-10-23",
+ "ile": true,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "timanfaya",
+   "nom": "Volcans de Timanfaya",
+   "emoji": "🌋",
+   "type": "nature",
+   "quartier": "Timanfaya (sud-ouest)",
+   "lat": 29.00597,
+   "lng": -13.75312,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Route des volcans en car + démonstrations",
+     "30 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "15 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Visite « Insólita » en petit groupe avec guide (lun., mer., sam.)",
+     "59,90 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      15
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant : billets en ligne seulement, pour un créneau précis",
+   "duree": "1 h 30",
+   "moment": "De 9 h à 15 h 45 ; le matin, la lumière fait ressortir le rouge des cratères",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Plus de 25 cratères rouges, noirs et ocre nés des éruptions de 1730 à 1736 : le car de la route des volcans serpente dans un paysage de planète Mars (la NASA y a entraîné des astronautes). En haut, le sol est encore si chaud qu'un fagot y prend feu tout seul et qu'un seau d'eau en ressort en geyser.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/montanas-del-fuego",
+   "a_verifier": false,
+   "note": "Il n'y a plus de vente sur place : sans billet en ligne, on vous refuse l'entrée. On reste dans le car pendant les 35 minutes du circuit (pas d'arrêt photo à pied).",
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monta%C3%B1a_del_Selado_-_Caldera_del_Corazoncillo_-_Lanzarote.jpg",
+    "src": "img/activites/ACE/timanfaya.jpg"
+   }
+  },
+  {
+   "id": "golfo",
+   "nom": "El Golfo et son lac vert",
+   "emoji": "💚",
+   "type": "vue",
+   "quartier": "El Golfo (sud-ouest)",
+   "lat": 28.9832,
+   "lng": -13.83142,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au belvédère",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "En fin de journée, puis coucher de soleil sur le port de pêche d'El Golfo",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un lagon vert fluo posé au pied d'un demi-cratère strié de rouge, face à une plage de sable noir : la photo la plus étonnante de l'île. Le vert vient d'une algue qui vit dans cette eau très salée. Juste à côté, le petit village d'El Golfo aligne ses restaurants de poisson face à l'océan.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "note": "On ne descend plus au bord du lac (zone protégée) : la vue se prend du belvédère, à 10 minutes à pied du parking situé à l'entrée du village.",
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caldera_El_Golfo_02.jpg",
+    "src": "img/activites/ACE/golfo.jpg"
+   }
+  },
+  {
+   "id": "hervideros",
+   "nom": "Los Hervideros",
+   "emoji": "🌊",
+   "type": "vue",
+   "quartier": "Côte sud-ouest (entre El Golfo et Janubio)",
+   "lat": 28.9533,
+   "lng": -13.8318,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "30 min",
+   "moment": "Par mer agitée et vers 17 h, pour le spectacle des vagues et la lumière",
+   "enfants": true,
+   "texte": "Là où la lave a rencontré l'océan, elle a laissé des grottes et des tunnels dans lesquels les vagues s'engouffrent et explosent en gerbes d'écume. Un sentier aménagé passe au-dessus des « marmites » : on entend la mer bouillonner sous ses pieds.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "note": "Restez sur les passerelles : la roche est coupante et glissante, et les vagues peuvent être violentes.",
+   "photo": {
+    "auteur": "Luis Miguel Bugallo Sánchez (Lmbuga)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Los_Hervideros_-_Lanzarote_-_LH02.jpg",
+    "src": "img/activites/ACE/hervideros.jpg"
+   }
+  },
+  {
+   "id": "janubio",
+   "nom": "Salines de Janubio",
+   "emoji": "🧂",
+   "type": "vue",
+   "quartier": "Yaiza (sud-ouest)",
+   "lat": 28.93806,
+   "lng": -13.82069,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédère au bord de la route",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "20 min",
+   "moment": "Au coucher du soleil, quand les bassins virent au rose et à l'orange",
+   "enfants": true,
+   "texte": "Un damier de bassins blancs, ocre et rosés entre la lagune et la mer, avec la plage de sable noir en contrebas : les plus grandes salines des Canaries, toujours exploitées à la main. Une halte de quelques minutes sur la route d'El Golfo, superbe au coucher du soleil.",
+   "site_officiel": "https://www.salinasdejanubio.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "MiljenkoSuljic",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salinas_de_Janubio_aerial.jpg",
+    "src": "img/activites/ACE/janubio.jpg"
+   }
+  },
+  {
+   "id": "geria",
+   "nom": "Vignes de La Geria et bodega El Grifo",
+   "emoji": "🍇",
+   "type": "balade",
+   "quartier": "La Geria (centre)",
+   "lat": 28.9693,
+   "lng": -13.71493,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Route des vignes (en voiture ou à vélo)",
+     "gratuit"
+    ],
+    [
+     "El Grifo : visite audioguidée + 2 vins",
+     "15 €"
+    ],
+    [
+     "El Grifo : moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "El Grifo : visite guidée et 6 vins (adultes)",
+     "50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour la visite d'El Grifo (en ligne)",
+   "duree": "2 h à une demi-journée",
+   "moment": "Le matin ou en fin d'après-midi, quand les murets dessinent des ombres",
+   "enfants": true,
+   "texte": "Des milliers de pieds de vigne plantés chacun au fond d'un trou creusé dans la cendre noire, protégés du vent par un muret de pierre en demi-lune : un paysage unique au monde. Arrêtez-vous dans une bodega pour goûter la malvoisie volcanique, puis visitez El Grifo, la plus vieille cave des Canaries (1775), et son musée du vin.",
+   "site_officiel": "https://elgrifo.com/pages/experiencias",
+   "a_verifier": false,
+   "note": "La visite d'El Grifo (route de Teguise à Uga) est libre de 10 h à 18 h en semaine. Si vous goûtez les vins, prévoyez un conducteur qui ne boit pas.",
+   "photo": {
+    "auteur": "Andreas Tusche",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lanzarote_LaGeria.jpg",
+    "src": "img/activites/ACE/geria.jpg"
+   }
+  },
+  {
+   "id": "jameos",
+   "nom": "Jameos del Agua",
+   "emoji": "🏝️",
+   "type": "culture",
+   "quartier": "Nord-est (Haría)",
+   "lat": 29.15749,
+   "lng": -13.43168,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Adulte",
+     "17 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "8,50 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Avec le musée Casa de los Volcanes",
+     "22,40 € (enfant 11,20 €)"
+    ],
+    [
+     "« Noches de Jameos » (vendredi : visite, dîner, concert)",
+     "sur réservation"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      8.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (moins d'attente)",
+   "duree": "1 h à 2 h",
+   "moment": "À l'ouverture (10 h) ou après 16 h, avant ou après les cars d'excursion",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le chef-d'œuvre de César Manrique : un tunnel de lave effondré transformé en jardin tropical, avec un lac souterrain où vivent de minuscules crabes blancs et aveugles, une piscine turquoise bordée de palmiers et une salle de concert creusée dans la roche. L'un des lieux les plus photographiés de l'île.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/jameos-del-agua",
+   "a_verifier": false,
+   "note": "Ne jetez pas de pièces dans le lac (les crabes, uniques au monde, en meurent). Le vendredi soir, les « Noches de Jameos » ajoutent dîner et concert dans la grotte.",
+   "photo": {
+    "auteur": "Mike Peel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:At_Jameos_del_Agua_2022_083.jpg",
+    "src": "img/activites/ACE/jameos.jpg"
+   }
+  },
+  {
+   "id": "verdes",
+   "nom": "Cueva de los Verdes",
+   "emoji": "🕳️",
+   "type": "culture",
+   "quartier": "Nord-est (Haría)",
+   "lat": 29.16042,
+   "lng": -13.43936,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Adulte (visite guidée)",
+     "17 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "8,50 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      8.5
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant : billets en ligne seulement, à heure fixe",
+   "duree": "50 min",
+   "moment": "De 9 h 30 à 16 h 45 ; à combiner avec Jameos del Agua, à 1 km",
+   "enfants": true,
+   "texte": "Un kilomètre de galeries de lave aux couleurs rouille et ocre, où les pirates et les habitants se cachaient autrefois. Le guide vous réserve une illusion d'optique bluffante, qu'on se garde bien de dévoiler ici.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/cueva-de-los-verdes",
+   "a_verifier": false,
+   "note": "Passages bas et étroits par endroits : déconseillé aux claustrophobes. Billets en ligne seulement, pour un créneau précis.",
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lava_-_Cueva_de_los_Verdes.JPG",
+    "src": "img/activites/ACE/verdes.jpg"
+   }
+  },
+  {
+   "id": "rio",
+   "nom": "Mirador del Río",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Nord (Haría)",
+   "lat": 29.21442,
+   "lng": -13.48137,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "9 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "4,50 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      4.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "Par temps clair, le matin (10 h - 17 h) ; le soleil est dans le dos",
+   "enfants": true,
+   "texte": "Caché dans la falaise à 475 m de haut, ce belvédère imaginé par Manrique s'ouvre d'un coup sur l'île de La Graciosa, son eau turquoise et les salines au pied de la falaise. Prenez un café derrière les grandes baies vitrées : la vue la plus spectaculaire des Canaries.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/mirador-del-rio",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Edmundo Sáez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Graciosa_from_Mirador_del_Rio.jpg",
+    "src": "img/activites/ACE/rio.jpg"
+   }
+  },
+  {
+   "id": "cactus",
+   "nom": "Jardín de Cactus",
+   "emoji": "🌵",
+   "type": "culture",
+   "quartier": "Guatiza (nord-est)",
+   "lat": 29.08064,
+   "lng": -13.47607,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "9 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "4,50 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      4.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "1 h",
+   "moment": "En fin de matinée (10 h - 17 h), en route vers le nord",
+   "enfants": true,
+   "texte": "Dans une ancienne carrière en forme d'amphithéâtre, 4 500 cactus de 450 espèces poussent en terrasses de lave noire, sous un moulin à vent blanc. La dernière grande œuvre de Manrique, et un décor graphique irrésistible.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/jardin-de-cactus",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alchemist-hp",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_cactus_7049.jpg",
+    "src": "img/activites/ACE/cactus.jpg"
+   }
+  },
+  {
+   "id": "fcm",
+   "nom": "Fondation César Manrique",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Tahíche (centre)",
+   "lat": 29.00308,
+   "lng": -13.54727,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "3 €"
+    ],
+    [
+     "Billet combiné avec la maison de Haría",
+     "17 € (enfant 4 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "1 h 30",
+   "moment": "Tous les jours de 10 h à 17 h 30 ; tôt le matin pour éviter les groupes",
+   "enfants": true,
+   "texte": "La maison que Manrique s'est construite sur une coulée de lave : en bas, cinq bulles volcaniques transformées en salons blancs, rouges et jaunes, reliées par des tunnels, avec une piscine et un palmier qui sortent de la roche. Au-dessus, des œuvres de Picasso, Miró et de l'artiste lui-même.",
+   "site_officiel": "https://fcmanrique.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "wollex",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taro_Tahiche_2002.JPG",
+    "src": "img/activites/ACE/fcm.jpg"
+   }
+  },
+  {
+   "id": "haria",
+   "nom": "Haría, la vallée des mille palmiers",
+   "emoji": "🌴",
+   "type": "culture",
+   "quartier": "Haría (nord)",
+   "lat": 29.14187,
+   "lng": -13.50405,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Village et marché artisanal (samedi matin)",
+     "gratuit"
+    ],
+    [
+     "Maison-musée César Manrique : adulte",
+     "10 €"
+    ],
+    [
+     "Maison-musée : enfant de 7 à 12 ans",
+     "3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "Le samedi matin pour le marché de la place ; maison ouverte de 10 h 30 à 17 h 30",
+   "enfants": true,
+   "texte": "Une oasis de palmiers au fond d'une vallée verte, avec ses maisons blanches et sa place ombragée : le village le plus doux de l'île. Manrique y a passé ses dernières années ; sa maison est restée comme il l'a laissée, atelier et pinceaux compris.",
+   "site_officiel": "https://fcmanrique.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "MiguelAlanCS",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa-Museo_C%C3%A9sar_Manrique_29.jpg",
+    "src": "img/activites/ACE/haria.jpg"
+   }
+  },
+  {
+   "id": "campesino",
+   "nom": "Monument au Paysan",
+   "emoji": "👨‍🌾",
+   "type": "culture",
+   "quartier": "Mozaga (centre)",
+   "lat": 29.02188,
+   "lng": -13.61611,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "Tous les jours de 10 h à 18 h, sur la route de La Geria",
+   "enfants": true,
+   "texte": "Une grande sculpture blanche de Manrique, au centre exact de l'île, en hommage aux paysans qui ont fait pousser des vignes dans la cendre. Autour, une ferme traditionnelle reconstituée, des ateliers d'artisans et un patio blanc et vert très photogénique.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/casa-museo-del-campesino",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Maesi64",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monumento_al_Campesino_%E2%80%93_San_Bartolom%C3%A9_-_03.jpg",
+    "src": "img/activites/ACE/campesino.jpg"
+   }
+  },
+  {
+   "id": "miac",
+   "nom": "Château de San José et son musée",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Arrecife",
+   "lat": 28.97097,
+   "lng": -13.53323,
+   "prix": 5.4,
+   "prix_detail": [
+    [
+     "Adulte",
+     "5,40 €"
+    ],
+    [
+     "Enfant de 7 à 12 ans",
+     "2,70 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5.4,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      12,
+      2.7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "1 h",
+   "moment": "De 11 h à 18 h ; restez dîner au restaurant vitré qui domine le port",
+   "enfants": true,
+   "texte": "Une forteresse du XVIIIe siècle sur le port d'Arrecife, transformée par Manrique en musée d'art contemporain (Miró, Tàpies…). Le clou : l'escalier en colimaçon qui descend vers un restaurant aux immenses baies vitrées, face à l'océan.",
+   "site_officiel": "https://cactlanzarote.com/en/visit/castillo-de-san-jose",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arrecife_-_Avenida_de_Naos_-_Castillo_de_San_Jos%C3%A9_02_ies.jpg",
+    "src": "img/activites/ACE/miac.jpg"
+   }
+  },
+  {
+   "id": "teguise",
+   "nom": "Teguise et son marché du dimanche",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Teguise (centre)",
+   "lat": 29.05933,
+   "lng": -13.56011,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Village et marché",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 à 3 h",
+   "moment": "Le dimanche de 9 h à 14 h pour le marché ; en semaine pour le calme",
+   "enfants": true,
+   "texte": "L'ancienne capitale de l'île, avec ses rues pavées, ses palais aux balcons de bois et ses églises blanches. Le dimanche, le plus grand marché des Canaries envahit le village : artisanat, musiciens, aloe vera et petits plats. En semaine, on a le village presque pour soi.",
+   "site_officiel": "https://www.teguise.es/",
+   "a_verifier": false,
+   "note": "Le dimanche, arrivez avant 10 h : les parkings se remplissent vite et les cars arrivent ensuite.",
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teguise_-_Plaza_-_Iglesia.jpg",
+    "src": "img/activites/ACE/teguise.jpg"
+   }
+  },
+  {
+   "id": "papagayo",
+   "nom": "Plages de Papagayo",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Playa Blanca (sud)",
+   "lat": 28.84242,
+   "lng": -13.78812,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée en voiture dans l'espace protégé",
+     "3 € par voiture"
+    ],
+    [
+     "À pied ou à vélo depuis Playa Blanca",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, avant que le parking ne se remplisse ; l'eau est la plus calme de l'île",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une série de criques de sable doré entre des falaises ocre, avec une eau turquoise et calme : les plus belles plages de Lanzarote, dans un espace naturel protégé sans construction. Papagayo, Mujeres et Caleta del Congrio se rejoignent par un sentier côtier.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "note": "Piste de terre de 5 km pour y arriver (roulez doucement). Pas d'ombre ni de magasin : emportez eau, chapeau et pique-nique. Le paiement de 3 € se fait à l'entrée de la piste.",
+   "photo": {
+    "auteur": "Lviatour",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lanzarote_1_Luc_Viatour.jpg",
+    "src": "img/activites/ACE/papagayo.jpg"
+   }
+  },
+  {
+   "id": "famara",
+   "nom": "Plage de Famara et Caleta de Famara",
+   "emoji": "🏄",
+   "type": "plage",
+   "quartier": "Famara (nord-ouest)",
+   "lat": 29.1177,
+   "lng": -13.5518,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Une demi-journée",
+   "moment": "En fin d'après-midi, quand la falaise rougit au soleil couchant",
+   "enfants": true,
+   "texte": "Six kilomètres de sable doré au pied d'une falaise de 600 m, avec des dizaines de surfeurs dans les rouleaux. À côté, le village de Caleta de Famara et ses rues de sable, ses maisons basses et ses cafés de surfeurs : l'ambiance la plus libre de l'île.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "note": "Baignade dangereuse (courants forts, souvent pas de surveillance) : contentez-vous de patauger, ou prenez un cours de surf.",
+   "photo": {
+    "auteur": "Chmee2",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Famara_on_Lanzarote%2C_June_2013_%282%29.jpg",
+    "src": "img/activites/ACE/famara.jpg"
+   }
+  },
+  {
+   "id": "surf",
+   "nom": "Cours de surf à Famara",
+   "emoji": "🏄",
+   "type": "sport",
+   "quartier": "Famara (nord-ouest)",
+   "lat": 29.11885,
+   "lng": -13.56598,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Cours collectif de 3 h 30 (planche et combinaison fournies)",
+     "≈ 50 €"
+    ],
+    [
+     "Avec transport depuis Costa Teguise",
+     "≈ 65 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant",
+   "duree": "3 h 30",
+   "moment": "Le matin, toute l'année (eau à 19-23 °C)",
+   "enfants": true,
+   "texte": "Famara est la plage-école de Lanzarote : des vagues longues et régulières, un grand fond de sable et des moniteurs qui vous mettent debout sur la planche dès le premier cours. Dès 8 ans environ, si l'on sait nager.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dguendel",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caleta_de_Famara%2C_surfing.JPG",
+    "src": "img/activites/ACE/surf.jpg"
+   }
+  },
+  {
+   "id": "graciosa",
+   "nom": "Excursion à La Graciosa",
+   "emoji": "⛴️",
+   "type": "nature",
+   "quartier": "La Graciosa (ferry depuis Órzola, 25 min)",
+   "lat": 29.2302,
+   "lng": -13.5026,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Ferry aller-retour depuis Órzola : adulte",
+     "29 €"
+    ],
+    [
+     "Ferry aller-retour : enfant",
+     "15 €"
+    ],
+    [
+     "Location de vélo sur l'île",
+     "≈ 15 € la journée"
+    ],
+    [
+     "Taxi 4x4 jusqu'à la plage de Las Conchas",
+     "≈ 20 € par trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      1,
+      0
+     ],
+     [
+      11,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été",
+   "duree": "La journée",
+   "moment": "Premier bateau (vers 8 h 30-9 h), retour en fin d'après-midi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une île sans route goudronnée, où l'on marche dans le sable du port à l'épicerie : 25 minutes de ferry suffisent pour changer de monde. Louez un vélo et filez jusqu'à la plage de Las Conchas, sable blond et eau turquoise au pied d'un volcan rouge. Le dépaysement absolu de Lanzarote.",
+   "site_officiel": "https://biosferaexpress.com/",
+   "a_verifier": false,
+   "note": "Plage de Las Conchas : baignade souvent dangereuse (courants). Vérifiez l'heure du dernier bateau du retour.",
+   "photo": {
+    "auteur": "Marc Ryckaert",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Graciosa_R01.jpg",
+    "src": "img/activites/ACE/graciosa.jpg"
+   }
+  },
+  {
+   "id": "atlantico",
+   "nom": "Plongée au Museo Atlántico",
+   "emoji": "🤿",
+   "type": "sport",
+   "quartier": "Playa Blanca (sud)",
+   "lat": 28.8535,
+   "lng": -13.8017,
+   "prix": 115,
+   "prix_detail": [
+    [
+     "Plongée pour plongeurs brevetés (bateau, guide, entrée)",
+     "dès 115 €"
+    ],
+    [
+     "Journée « baptême » : 2 plongées dont le musée, sans brevet",
+     "dès 175 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 115,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, quand la mer est la plus calme",
+   "enfants": false,
+   "texte": "Le premier musée sous-marin d'Europe : des centaines de statues grandeur nature de l'artiste Jason deCaires Taylor, posées par 14 m de fond et peu à peu colonisées par les poissons, les éponges et les anges de mer. Une plongée qui ne ressemble à aucune autre, possible même sans brevet.",
+   "site_officiel": "https://www.rubicondiving.com/en/diving/discover-the-atlantic-museum-in-lanzarote-with-rubicon-diving",
+   "a_verifier": false,
+   "note": "Plongée à partir de 10-12 ans selon le club, avec un certificat médical si vous avez un souci de santé. Ne prenez pas l'avion moins de 24 h après une plongée."
+  },
+  {
+   "id": "catamaran",
+   "nom": "Catamaran jusqu'aux plages de Papagayo",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Puerto Calero (sud)",
+   "lat": 28.9168,
+   "lng": -13.7036,
+   "prix": 85,
+   "prix_detail": [
+    [
+     "Sortie de 4 h avec déjeuner, boissons, kayak et masque",
+     "85 €"
+    ],
+    [
+     "Adolescent (13 ans et +)",
+     "60 €"
+    ],
+    [
+     "Enfant",
+     "50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 85,
+    "enfants": [
+     [
+      12,
+      50
+     ],
+     [
+      17,
+      60
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "duree": "4 h",
+   "moment": "Départ en fin de matinée de Puerto Calero (transport depuis votre hôtel possible)",
+   "enfants": true,
+   "texte": "Voguer le long de la côte sud jusqu'aux criques de Papagayo, puis plonger dans l'eau turquoise avec masque, kayak et paddle : la façon la plus détendue de voir les plus belles plages de l'île, déjeuner et boissons à bord.",
+   "site_officiel": "https://catlanza.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "IDS.photos from Tiverton, UK",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubicon_Marina%2C_Playa_Blanca%2C_Lanzarote%2C_Canary_Islands_%282666938519%29.jpg",
+    "src": "img/activites/ACE/catamaran.jpg"
+   }
+  },
+  {
+   "id": "calderablanca",
+   "nom": "Randonnée de la Caldera Blanca",
+   "emoji": "🥾",
+   "type": "balade",
+   "quartier": "Mancha Blanca (centre-ouest)",
+   "lat": 29.03441,
+   "lng": -13.73175,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "3 h (10 km aller-retour)",
+   "moment": "Tôt le matin : aucune ombre en chemin",
+   "enfants": true,
+   "texte": "Une marche à travers une mer de lave figée, puis une montée sur le bord du plus grand cratère de l'île, presque parfaitement rond. Là-haut, le regard porte sur les volcans de Timanfaya et jusqu'à l'océan. La randonnée phare de Lanzarote, sans difficulté technique.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "note": "Pas d'eau ni de toilettes : emportez 1,5 l par personne et de bonnes chaussures (cailloux roulants dans la montée). Avec de jeunes enfants, le volcan del Cuervo, tout proche, se fait en 1 h.",
+   "photo": {
+    "auteur": "GerritR",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Auf_dem_Rand_der_Caldera_Blanca%2C_Lanzarote_II.jpg",
+    "src": "img/activites/ACE/calderablanca.jpg"
+   }
+  },
+  {
+   "id": "arrecife",
+   "nom": "Arrecife : Charco de San Ginés et plage du Reducto",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Arrecife",
+   "lat": 28.96112,
+   "lng": -13.5463,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "En fin de journée, pour l'apéritif au bord du lagon",
+   "enfants": true,
+   "texte": "La capitale, loin des stations : un lagon où dansent les barques de pêcheurs, bordé de maisons blanches et de terrasses de tapas, puis une promenade le long de la mer jusqu'à la plage du Reducto, où se baignent les habitants. Lanzarote comme la vivent les Lanzarotéens.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mike Peel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:At_Lanzarote_2022_043.jpg",
+    "src": "img/activites/ACE/arrecife.jpg"
+   }
+  },
+  {
+   "id": "lagomar",
+   "nom": "LagOmar, la maison d'Omar Sharif",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Nazaret (centre)",
+   "lat": 29.04529,
+   "lng": -13.55497,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "Enfant de 4 à 12 ans",
+     "4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      4
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "1 h",
+   "moment": "Tous les jours de 10 h à 18 h ; restez pour un verre au bar de la grotte",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une maison troglodyte sculptée dans une ancienne carrière, avec escaliers secrets, tunnels, bassins et grottes-salons : on dit qu'Omar Sharif l'aurait perdue au bridge le soir même de son achat. Un labyrinthe blanc et noir digne d'un film.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marc Ryckaert (MJJR)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lanzarote_Nazaret_R02.jpg",
+    "src": "img/activites/ACE/lagomar.jpg"
+   }
+  },
+  {
+   "id": "camellos",
+   "nom": "Balade à dos de dromadaire à Timanfaya",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Timanfaya (sud-ouest)",
+   "lat": 28.99168,
+   "lng": -13.74218,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Par personne (2 personnes par dromadaire, 20 min)",
+     "≈ 11 €"
+    ],
+    [
+     "Seul sur le dromadaire",
+     "≈ 22 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "20 min de balade, 1 h sur place",
+   "moment": "Le matin (9 h - 13 h), avant la chaleur et les cars",
+   "enfants": true,
+   "texte": "Une caravane de dromadaires qui monte en file indienne sur les pentes de cendre d'un volcan : une image des Canaries depuis plus d'un siècle, quand ces animaux tiraient encore les charrues. Les enfants adorent, et la vue sur les cratères est superbe.",
+   "site_officiel": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/timanfaya.html",
+   "a_verifier": false,
+   "note": "Le départ est à l'Echadero de los Camellos, sur la route de Yaiza à Timanfaya, avec un petit musée gratuit sur le parc. Payez directement au chamelier.",
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yaiza_-_PNT_-_LZ-67_-_Echadero_%28Camel%29_05_ies.jpg",
+    "src": "img/activites/ACE/camellos.jpg"
+   }
+  },
+  {
+   "id": "fuerteventura",
+   "nom": "Fuerteventura et ses dunes",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Fuerteventura (ferry depuis Playa Blanca, 25 min)",
+   "lat": 28.73,
+   "lng": -13.867,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Ferry aller-retour à pied depuis Playa Blanca",
+     "≈ 45 à 60 €"
+    ],
+    [
+     "Dunes de Corralejo (parc naturel)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (moins cher)",
+   "duree": "La journée",
+   "moment": "Premier ferry du matin, retour en fin d'après-midi",
+   "enfants": true,
+   "texte": "L'île voisine est à 25 minutes de bateau : on débarque à Corralejo, petit port animé, et quelques kilomètres plus loin commencent des dunes de sable blanc qui plongent dans une mer turquoise. Une journée de désert et de plage, totalement différente des paysages noirs de Lanzarote.",
+   "site_officiel": "https://www.fredolsen.es/",
+   "a_verifier": false,
+   "note": "Trois compagnies font la traversée (Fred. Olsen, Armas, Líneas Romero) : comparez les horaires. Le bus 6 relie le port de Corralejo aux dunes.",
+   "photo": {
+    "auteur": "Benjamín Núñez González",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arena%2C_Dunas_de_Corralejo%2C_Fuerteventura%2C_Espa%C3%B1a%2C_2015.JPG",
+    "src": "img/activites/ACE/fuerteventura.jpg"
+   }
+  },
+  {
+   "id": "femes",
+   "nom": "Belvédère de Femés",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Femés (sud)",
+   "lat": 28.91379,
+   "lng": -13.77893,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "30 min",
+   "moment": "Au coucher du soleil, avec Fuerteventura à l'horizon",
+   "enfants": true,
+   "texte": "Un village perché sur la montagne, au-dessus de la plaine du Rubicón : d'un côté les toits blancs de Playa Blanca, de l'autre l'île de Fuerteventura qui flotte sur l'océan. Le plus beau coucher de soleil du sud, à 15 minutes des plages.",
+   "site_officiel": "https://www.turismolanzarote.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Edgar El",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lanzarote_-_Fem%C3%A9s_-_Mirador_-_panoramio.jpg",
+    "src": "img/activites/ACE/femes.jpg"
+   }
+  },
+  {
+   "id": "rancho",
+   "nom": "Rancho Texas Lanzarote Park",
+   "emoji": "🦁",
+   "type": "sortir",
+   "quartier": "Puerto del Carmen",
+   "lat": 28.93268,
+   "lng": -13.64548,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Adulte",
+     "45 €"
+    ],
+    [
+     "Enfant de 3 à 12 ans",
+     "30 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Senior (65 ans et +)",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      30
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne",
+   "duree": "La journée",
+   "moment": "Tous les jours de 9 h 30 à 17 h 30 ; regardez l'horaire des spectacles en arrivant",
+   "enfants": true,
+   "texte": "Un parc animalier façon Far West : otaries, rapaces, perroquets et spectacles de cow-boys, plus des piscines pour se rafraîchir l'après-midi. La journée qui fait le bonheur des enfants entre deux plages.",
+   "site_officiel": "https://ranchotexaslanzarote.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ramon Espiña Fernand…",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rancho_Texas_-_panoramio.jpg",
+    "src": "img/activites/ACE/rancho.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "puerto-del-carmen",
+   "nom": "Puerto del Carmen",
+   "lat": 28.9225,
+   "lng": -13.656,
+   "texte": "La station la plus vivante de l'île : six kilomètres de plages de sable doré, une promenade au bord de l'eau, des restaurants pour tous les budgets et le vieux port de pêche pour dîner. À 10 minutes de l'aéroport et au centre de l'île : pratique pour tout visiter en voiture."
+  },
+  {
+   "id": "playa-blanca",
+   "nom": "Playa Blanca",
+   "lat": 28.8625,
+   "lng": -13.83,
+   "texte": "Tout au sud, la station la plus calme et la plus ensoleillée : promenade en bord de mer, marina Rubicón, et les criques de Papagayo à deux pas. Idéal pour les familles et la plage ; comptez 30 à 45 minutes de route pour les sites du nord."
+  },
+  {
+   "id": "costa-teguise",
+   "nom": "Costa Teguise",
+   "lat": 29.0,
+   "lng": -13.498,
+   "texte": "Une station à taille humaine sur la côte est, avec des plages abritées du vent et une ambiance détendue. À 10 minutes d'Arrecife et à 25 minutes des grands sites de Manrique du nord (Jameos del Agua, jardin de cactus)."
+  },
+  {
+   "id": "arrecife",
+   "nom": "Arrecife",
+   "lat": 28.9615,
+   "lng": -13.548,
+   "texte": "La capitale, vivante et authentique : lagon de San Ginés, plage du Reducto, tapas avec les habitants et hôtels souvent moins chers que dans les stations. C'est aussi d'ici que partent les bus vers toute l'île."
+  },
+  {
+   "id": "famara",
+   "nom": "Caleta de Famara",
+   "lat": 29.117,
+   "lng": -13.565,
+   "texte": "Un village de surfeurs aux rues de sable, face à une immense plage et à la falaise de Famara : surtout des maisons et des appartements, une ambiance bohème et des couchers de soleil spectaculaires. Pour ceux qui fuient les stations ; voiture indispensable."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "casa-playa",
+   "nom": "La Casa de la Playa",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson grillé au bord de l'eau",
+   "quartier": "Arrieta (nord-est)",
+   "adresse": "Calle el Lajero, 1C, 35542 Arrieta",
+   "lat": 29.12819,
+   "lng": -13.46481,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Solete du guide Repsol",
+   "texte": "Une maison de pêcheurs posée sur les rochers de la plage d'Arrieta : poisson du jour grillé, lapas (patelles) à l'ail, pommes de terre ridées au mojo, et les vagues à deux mètres de la table. Le déjeuner idéal après Jameos del Agua.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le week-end (très prisé des habitants)",
+   "photo": {
+    "auteur": "Jon (Tagzania)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arrieta%28Lanzarote%29_-_Arrieta_%28Har%C3%ADa%29_-_Tagzania_-_1780844282934.jpg",
+    "src": "img/restos/ACE/casa-playa.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "roferos",
+   "nom": "Bar Los Roferos",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine canarienne de village",
+   "quartier": "Máguez (nord)",
+   "adresse": "Calle las Casillas, 1, 35541 Máguez",
+   "lat": 29.15787,
+   "lng": -13.49445,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Un bar de village à deux pas de Haría, où l'on mange comme chez une grand-mère canarienne : chèvre en sauce, ropa vieja, fromage de chèvre de l'île, portions généreuses et prix d'avant. Ici, on parle espagnol et on prend son temps.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez tôt (vers 13 h) le week-end",
+   "photo": {
+    "auteur": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maguez_-_La_Atalaya.jpg",
+    "src": "img/restos/ACE/roferos.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "levain",
+   "nom": "Levain",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie et petit-déjeuner",
+   "quartier": "Tahíche (centre)",
+   "adresse": "Avenida Néstor de la Torre, 22, 35507 Tahíche",
+   "lat": 29.01504,
+   "lng": -13.54357,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Solete du guide Repsol",
+   "texte": "La boulangerie que les habitants traversent l'île pour trouver : pain au levain, viennoiseries feuilletées, tartines et cafés soignés. Parfait pour un petit-déjeuner avant la fondation César Manrique, à cinq minutes.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; les meilleures viennoiseries partent le matin",
+   "photo": {
+    "auteur": "Agelaia",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sourdough_Bread_Loaf.jpg",
+    "src": "img/restos/ACE/levain.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "charco-vivo",
+   "nom": "Charco Vivo",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Sandwichs de poisson et tapas de la mer",
+   "quartier": "Arrecife (Charco de San Ginés)",
+   "adresse": "Calle Juan de Quesada, 9, 35500 Arrecife",
+   "lat": 28.96194,
+   "lng": -13.54407,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Solete du guide Repsol",
+   "texte": "Au bord du lagon de San Ginés, une petite adresse connue pour ses sandwichs de calamars et de poisson frit, servis dès le petit-déjeuner, et ses tapas de la mer. Une pause simple et délicieuse au cœur du vieux quartier des pêcheurs.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Joy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bocadillo_de_calamares_%2827101898090%29.jpg",
+    "src": "img/restos/ACE/charco-vivo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "volcan-corona",
+   "nom": "Grill-Asador Volcán de La Corona",
+   "emoji": "🥩",
+   "gamme": "petit",
+   "genre": "Grillades au feu de bois",
+   "quartier": "Ye (nord)",
+   "adresse": "Calle San Francisco Javier, 28, 35541 Ye",
+   "lat": 29.19582,
+   "lng": -13.47857,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Au pied du volcan de La Corona, à cinq minutes du Mirador del Río, une grande salle de village où les viandes grillent au feu de bois : côtes, brochettes, chorizo canarien, avec papas arrugadas et mojo. Copieux, simple et très apprécié des familles de l'île.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le week-end",
+   "photo": {
+    "auteur": "Patrice78500",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ye.jpg",
+    "src": "img/restos/ACE/volcan-corona.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "puerta-verde",
+   "nom": "La Puerta Verde",
+   "emoji": "🥗",
+   "gamme": "petit",
+   "genre": "Cuisine du monde végétarienne et végane",
+   "quartier": "Haría (nord)",
+   "adresse": "Calle Fajardo, 24, 35520 Haría",
+   "lat": 29.14841,
+   "lng": -13.49832,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Derrière une porte verte de Haría, un jardin fleuri et une cuisine végétale qui voyage : currys, falafels, plats péruviens ou marocains, desserts maison. Une parenthèse colorée et apaisante au cœur de la vallée des palmiers.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille (petite salle)",
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Har%C3%ADa_-_Lanzarote_-_01.JPG",
+    "src": "img/restos/ACE/puerta-verde.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-rafa",
+   "nom": "Casa Rafa, restaurant de la mer",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "El Golfo (sud-ouest)",
+   "adresse": "Avenida Marítima, 10, 35570 El Golfo",
+   "lat": 28.98142,
+   "lng": -13.83046,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le restaurant le mieux noté du petit port d'El Golfo, avec une terrasse sur les rochers face à l'océan : poisson du jour grillé, poulpe, riz noir et crevettes, servis pendant que le soleil plonge dans l'Atlantique. À combiner avec le lac vert, à 5 minutes.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant pour une table en terrasse au coucher du soleil",
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yaiza_El_Golfo_-_Avenida_Maritima_14_ies.jpg",
+    "src": "img/restos/ACE/casa-rafa.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "jameos-resto",
+   "nom": "Restaurant de Jameos del Agua",
+   "emoji": "🕯️",
+   "gamme": "moyen",
+   "genre": "Cuisine canarienne dans une grotte",
+   "quartier": "Jameos del Agua (nord-est)",
+   "adresse": "Carretera Arrieta-Órzola, 35542 Punta Mujeres",
+   "lat": 29.15749,
+   "lng": -13.43168,
+   "prix": "27 à 45 €",
+   "prix_min": 27,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Déjeuner au fond d'un tunnel de lave aménagé par César Manrique, entre la roche noire et la lumière qui tombe du ciel : croquettes de poisson, cherne au mojo, viande mijotée, vins de Lanzarote. Le cadre le plus étonnant de l'île pour un repas.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; il faut le billet d'entrée de Jameos (le vendredi soir, formule dîner-concert à part)",
+   "photo": {
+    "auteur": "Edmundo Sáez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Restaurant_in_Jameos_del_Agua.jpg",
+    "src": "img/restos/ACE/jameos-resto.jpg"
+   }
+  },
+  {
+   "id": "lilium",
+   "nom": "Lilium",
+   "emoji": "🌺",
+   "gamme": "moyen",
+   "genre": "Cuisine canarienne revisitée",
+   "quartier": "Arrecife (Marina Lanzarote)",
+   "adresse": "Marina Lanzarote, Avenida Olof Palme, 35500 Arrecife",
+   "lat": 28.9625,
+   "lng": -13.5384,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Un Soleil du guide Repsol 2026, sélectionné par le guide Michelin",
+   "texte": "Le chef Orlando Ortega remet au goût du jour les recettes des grands-mères de l'île avec les produits des pêcheurs et des maraîchers de Lanzarote, face aux bateaux de la marina. Une table récompensée à prix doux, avec un menu dégustation pour découvrir.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant (fermé le lundi)",
+   "photo": {
+    "auteur": "Fry72 (Karel Frydrýšek)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:V%C3%BDhled%2C_Terraza%2C_Hotel_Miramar%2C_Arrecife%2C_Lanzarote%2C_Kan%C3%A1rsk%C3%A9_ostrovy_01.jpg",
+    "src": "img/restos/ACE/lilium.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tacande",
+   "nom": "Tacande",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Cuisine créative de produits de l'île",
+   "quartier": "Haría (nord)",
+   "adresse": "Plaza del Castillo, 5, 35520 Haría",
+   "lat": 29.14663,
+   "lng": -13.49939,
+   "prix": "35 à 50 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Sur la place de Haría, une cuisine moderne qui fait la part belle aux produits canariens : poissons de la côte, chevreau, légumes du nord de l'île, assiettes soignées et vins volcaniques. L'adresse gourmande du village des mille palmiers.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Har%C3%ADa_-_Plaza_Leon_Y_Castillo_07_ies.jpg",
+    "src": "img/restos/ACE/tacande.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ikarus",
+   "nom": "Ikarus",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Cuisine méditerranéenne d'auteur",
+   "quartier": "Teguise (centre)",
+   "adresse": "Plaza Clavijo y Fajardo, 6, 35530 Teguise",
+   "lat": 29.06001,
+   "lng": -13.56054,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Solete du guide Repsol",
+   "texte": "Dans une vieille maison de Teguise avec patio, une cuisine généreuse et inventive : mille-feuille de camembert et foie gras, cherne à l'encre de seiche, desserts maison. Idéal pour finir la visite du village, ou après le marché du dimanche.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; indispensable le dimanche (jour du marché)",
+   "photo": {
+    "auteur": "Marc Ryckaert (MJJR)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lanzarote_Teguise_R05.jpg",
+    "src": "img/restos/ACE/ikarus.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "barquillo",
+   "nom": "El Barquillo (El Sótano)",
+   "emoji": "🍤",
+   "gamme": "moyen",
+   "genre": "Riz et crevettes rouges de La Santa",
+   "quartier": "La Santa (nord-ouest)",
+   "adresse": "Calle Recalmón, 20, 35560 La Santa",
+   "lat": 29.10868,
+   "lng": -13.6667,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Solete du guide Repsol (2026)",
+   "texte": "Le petit village de pêcheurs de La Santa est célèbre pour ses crevettes rouges (carabineros) : ici, on les sert grillées ou dans des riz crémeux, avec le poisson du jour. Une adresse d'habitués sur la côte sauvage, à 15 minutes de Famara.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant",
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tinajo_La_Santa_-_Lugar_la_Santa_01_ies.jpg",
+    "src": "img/restos/ACE/barquillo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kamezi",
+   "nom": "Kamezí",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Menu dégustation gastronomique",
+   "quartier": "Playa Blanca (Montaña Roja)",
+   "adresse": "Calle Mónaco, 2, 35580 Playa Blanca",
+   "lat": 28.85969,
+   "lng": -13.86565,
+   "prix": "160 € (menu), 60 € les vins",
+   "prix_min": 160,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile au guide Michelin, la seule de l'île",
+   "texte": "La seule table étoilée de Lanzarote : un menu d'une douzaine de plats qui raconte l'île (poissons de la côte, fromages, vins volcaniques), face à l'océan et à Fuerteventura. Pour une soirée plus légère, un menu de tapas se sert sur la terrasse, dans des alcôves blanches façon Manrique.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant",
+   "photo": {
+    "auteur": "Marc Ryckaert (MJJR)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lanzarote_Monta%C3%B1a_Roja_R01.jpg",
+    "src": "img/restos/ACE/kamezi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "palacio-ico",
+   "nom": "Palacio Ico",
+   "emoji": "🏛️",
+   "gamme": "haut",
+   "genre": "Menu dégustation dans une maison noble",
+   "quartier": "Teguise (centre)",
+   "adresse": "Calle el Rayo, 2, 35530 Teguise",
+   "lat": 29.06078,
+   "lng": -13.56076,
+   "prix": "98 à 120 € (menus)",
+   "prix_min": 98,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Un Soleil du guide Repsol",
+   "texte": "Dans le patio d'une demeure historique de Teguise devenue hôtel de charme, un menu de saison entièrement tourné vers Lanzarote : légumes du jable, poissons de la côte, fromages et vins de l'île. Élégant, intime, et l'un des plus beaux cadres des Canaries.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant (dîner du lundi au vendredi)",
+   "photo": {
+    "auteur": "Millars",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Biblioteca_de_Teguise.jpg",
+    "src": "img/restos/ACE/palacio-ico.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sebe",
+   "nom": "SeBE",
+   "emoji": "🥘",
+   "gamme": "haut",
+   "genre": "Riz et poissons de l'île",
+   "quartier": "Costa Teguise",
+   "adresse": "Avenida de las Islas Canarias, 12, 35508 Costa Teguise",
+   "lat": 28.99998,
+   "lng": -13.48981,
+   "prix": "50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Le chef y prépare les meilleurs riz de l'île : riz aux crevettes rouges de La Santa, au poisson de roche, au homard, avec une carte qui change chaque jour selon la pêche. Une adresse sérieuse et gourmande au milieu de la station balnéaire.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant",
+   "photo": {
+    "auteur": "Juan Emilio Prades Bel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_caldoso_con_mariscos.jpg",
+    "src": "img/restos/ACE/sebe.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "colacho",
+   "nom": "La Cocina de Colacho",
+   "emoji": "👨‍🍳",
+   "gamme": "haut",
+   "genre": "Cuisine canarienne actualisée, menu unique",
+   "quartier": "Playa Blanca",
+   "adresse": "Calle Velázquez, 15, 35580 Playa Blanca",
+   "lat": 28.86491,
+   "lng": -13.81246,
+   "prix": "60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Vingt couverts autour d'une cuisine ouverte, où le chef Colacho revisite les recettes canariennes dans un menu unique qui change chaque semaine. Une soirée intime et chaleureuse, loin des restaurants du front de mer.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant (ouvert le soir du lundi au jeudi)",
+   "photo": {
+    "auteur": "Abhay Kumar from San Francisco, CA, USA",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mojo_verde_y_papas_arrug%C3%A1s.jpg",
+    "src": "img/restos/ACE/colacho.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "amura",
+   "nom": "Amura",
+   "emoji": "⚓",
+   "gamme": "haut",
+   "genre": "Cuisine créative face à la marina",
+   "quartier": "Puerto Calero",
+   "adresse": "Paseo Marítimo, 35571 Puerto Calero",
+   "lat": 28.91695,
+   "lng": -13.70486,
+   "prix": "50 à 60 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "Une grande maison blanche à colonnes, façon villa coloniale, posée sur la marina de Puerto Calero, avec sa terrasse face aux voiliers : poissons, viandes maturées et assiettes créatives. Le décor parfait pour un dîner chic au coucher du soleil.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant ; demandez la terrasse",
+   "photo": {
+    "auteur": "GerritR",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hafen_von_Puerto_Calero%2C_Lanzarote.jpg",
+    "src": "img/restos/ACE/amura.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "castillo",
+   "nom": "Restaurant du château de San José",
+   "emoji": "🏰",
+   "gamme": "haut",
+   "genre": "Cuisine canarienne face à la baie",
+   "quartier": "Arrecife",
+   "adresse": "Avenida de Naos, 35500 Arrecife",
+   "lat": 28.97097,
+   "lng": -13.53323,
+   "prix": "45 à 65 €",
+   "prix_min": 45,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Recommandé par le guide Repsol (2026)",
+   "texte": "Au pied de la forteresse, la salle en demi-cercle imaginée par César Manrique s'ouvre par une immense baie vitrée sur le port d'Arrecife. Dans l'assiette : poulpe glacé au mojo, cherne aux crevettes, riz aux crevettes rouges de La Santa. Spectaculaire le soir.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant (dîner du mercredi au samedi)",
+   "photo": {
+    "auteur": "Mike Peel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castillo_de_San_Jos%C3%A9_2022_08.jpg",
+    "src": "img/restos/ACE/castillo.jpg"
+   }
+  }
+ ]
+}

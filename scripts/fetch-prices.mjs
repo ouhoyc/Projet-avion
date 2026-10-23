@@ -46,6 +46,7 @@ const CITY_NAMES = {
   MAD: 'Madrid',
   BUD: 'Budapest',
   TCI: 'Tenerife',
+  ACE: 'Lanzarote',
   LPA: 'Las Palmas de Gran Canaria',
   FEZ: 'Fès',
   FNC: 'Funchal (Madère)',

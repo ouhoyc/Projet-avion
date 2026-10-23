@@ -712,7 +712,9 @@ function renderHotel() {
     ? 'Cochez des activités : on calcule le meilleur endroit pour dormir, au milieu de vos visites.'
     : near
       ? (n === 1 ? 'Votre activité est à moins de 20 min à pied.' : `${near} de vos ${n} activités à moins de 20 min à pied.`)
-      : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : le métro vous y emmène vite.`;
+      : guide.ile
+        ? `À environ ${Math.round(avg)} km en moyenne de vos activités : prévoyez une voiture de location.`
+        : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : le métro vous y emmène vite.`;
   $('h-zone').innerHTML = `
     <div class="h-card">
       <p class="h-q"><b>${isIdeal && ideal.exact && n ? 'Près de ' : ''}${esc(q.nom)}</b>${best ? `<span class="h-best">${best}</span>` : ''}</p>
@@ -720,7 +722,7 @@ function renderHotel() {
       <p class="h-why">${esc(why)}</p>
     </div>
     <div class="h-others" role="group" aria-label="Autres quartiers">
-      <span>Autres quartiers :</span>
+      <span>${guide.ile ? 'Autres lieux' : 'Autres quartiers'} :</span>
       ${isIdeal ? '' : `<button type="button" class="h-other" data-q="ideal">${ideal.exact && n ? 'Au milieu de mes activités' : esc(ideal.q.nom)}</button>`}
       ${guide.quartiers.filter((x) => x.id !== q.id && (isIdeal || ideal.exact || x.id !== ideal.q.id)).map((x) => `<button type="button" class="h-other" data-q="${x.id}">${esc(x.nom)}</button>`).join('')}
     </div>`;
@@ -741,7 +743,7 @@ function renderHotels(q) {
   }
   if (hotelsOn) return loadHotels(q, inD, outD, pax, g);
   $('h-hotels').innerHTML = `
-    <button type="button" class="btn btn-main" id="h-search">Voir les hôtels et leurs prix dans tout ${esc(cityName)}</button>
+    <button type="button" class="btn btn-main" id="h-search">Voir les hôtels et leurs prix ${guide.ile ? `autour de ${esc(q.nom)}` : `dans tout ${esc(cityName)}`}</button>
     <p class="h-hint">${n} nuit${n > 1 ? 's' : ''} · ${esc(paxLabel(pax))} · ${esc(g.nom)}. Les hôtels apparaissent sur la carte avec leur prix pour vos dates.</p>`;
   $('h-search').onclick = () => { hotelsOn = true; renderHotels(q); };
 }
@@ -794,7 +796,9 @@ function drawZone() {
 const HOTELS_CACHE_MIN = 30;
 
 // Recherche sur toute la ville : centre des quartiers du guide, rayon qui les couvre tous.
+// Sur une île (guide.ile), les stations sont trop loin les unes des autres : on cherche autour du lieu choisi.
 function cityArea() {
+  if (guide.ile) { const { q } = currentQuartier(); return { lat: q.lat, lng: q.lng, r: 5000 }; }
   const qs = guide.quartiers;
   const c = { lat: qs.reduce((s, x) => s + x.lat, 0) / qs.length, lng: qs.reduce((s, x) => s + x.lng, 0) / qs.length };
   const r = Math.min(6000, Math.max(3000, Math.round((Math.max(...qs.map((x) => km(c, x))) + 2) * 1000)));
@@ -806,7 +810,7 @@ async function loadHotels(q, inD, outD, pax, g) {
   const p = new URLSearchParams({ c: code, lat: area.lat.toFixed(4), lng: area.lng.toFixed(4), r: area.r, in: inD, out: outD, adults: pax.adults, children: pax.children.join(','), gamme: g.id });
   const key = p.toString();
   if (hotelResults?.key === key) return showHotels();
-  $('h-hotels').innerHTML = `<p class="h-loading">Recherche des hôtels dans tout ${esc(cityName)} pour vos dates…</p>`;
+  $('h-hotels').innerHTML = `<p class="h-loading">Recherche des hôtels ${guide.ile ? `autour de ${esc(q.nom)}` : `dans tout ${esc(cityName)}`} pour vos dates…</p>`;
   let data = null;
   try {
     const cached = JSON.parse(sessionStorage.getItem(`h:${key}`) || 'null');
