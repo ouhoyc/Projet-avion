@@ -264,6 +264,20 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide d'Ajaccio** (`guides/AJA.json`), préparée en autonomie : 22 activités (tendance d'après les
+  réseaux sociaux, 2 sources au moins : vieille ville et marché, pointe de la Parata, coucher de soleil en mer, A Cupulatta,
+  Capo di Feno, rive sud Isolella / plage d'Argent ; excursions en bateau Sanguinaires, Scandola-Girolata-Piana et Bonifacio
+  (Nave Va), train de Vizzavona, Piana et Tolla par la route ; concert de polyphonies à Saint-Érasme), 18 restaurants (note
+  pondérée, C = 4,42, ~250 lieux lus via Wanderlog, 16 listes ; Michelin 2026 : Le Charlie à Porticcio 1 étoile, Terrasse du
+  Fesch, A Nepita, L'Écrin, Le Petit Restaurant et Chez Séraphin sélectionnés ; tendance : Le 20123, Via Roma, La Mostra,
+  L'Ardoise, Chez Séraphin ; institution : Le Bilboq, langouste aux spaghettis 79 €), 5 quartiers, pas de lien Tiqets (rien à
+  Ajaccio). Réseaux sociaux lancés une fois (Apify). Prix relevés sur les sites officiels (musée Fesch 9 €, maison Bonaparte
+  10 € via Affluences/RMN, A Cupulatta 15 €, Nave Va : Sanguinaires dès 36 €, Scandola dès 70 €, navette Porticcio 6/10 €,
+  polyphonies 20 € sur la billetterie de l'office de tourisme). Pas de match : l'AC Ajaccio, exclu des compétitions nationales
+  en 2025, joue en régional. Écartés : Milelli (ouverture non confirmée), NapoRama (pas de photo libre), U Papacionu (avis
+  d'intoxication). À savoir : la Terrasse du Fesch ne sert le dîner que d'avril à octobre ; Chez Séraphin ne prend pas la carte
+  bancaire ; A Cupulatta fermé du 12 novembre au 29 mars. Le guide porte le nom de la ville (`ville`) : sans vol Lyon–Ajaccio
+  (ligne saisonnière), la page affichait « AJA » ; `ville.js` le prend en secours.
 - ✅ (23/10/2026) **Page guide de Tunis** (`guides/TUN.json`), préparée en autonomie : 24 activités (tendance d'après les
   réseaux sociaux, 2 sources au moins : médina, Bardo, Carthage, Sidi Bou Saïd, avenue Bourguiba, plage de La Marsa, El Jem,
   Hammamet, Bizerte ; match de l'Espérance, club « Espérance Sportive De Tunis » ; Festival de Carthage en juillet-août ;

@@ -198,6 +198,11 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   `patrimoinedetunisie.com.tn/fr/monuments|musees|sites/…/apercu/` (lisible par `curl` ; tarifs affichés = grille 2023, appliquer
   la grille d'avril 2026). Wanderlog Tunis : départ `geoCategory/208524`, ~370 lieux (Google Maps et Wanderlog `explore` bloqués).
   Positions : les « plus codes » Google des listes Wanderlog (`V8PF+5J7`) se décodent sans bibliothèque (référence Tunis).
+  Ajaccio (oct. 2026) : l'API Commons et `upload.wikimedia.org` répondaient « 429 » ; la recherche de fichiers en HTML (`ns6=1`)
+  marche (planches de 8 vignettes). Les listes Wanderlog donnent les positions dans `boardSections` (`"place":{…"longitude","latitude"}`).
+  Michelin : `guide.michelin.com/fr/fr/corse/ajaccio/restaurants` (distinctions dans `data-dtm-distinction`, avec Playwright).
+  Billetterie de l'office de tourisme (`reservation.ajaccio-tourisme.com`) : prix officiels des visites et concerts.
+  Champ `ville` du guide : nom affiché quand la ville n'a pas de vol en ce moment (ligne saisonnière).
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)
