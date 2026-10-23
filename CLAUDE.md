@@ -193,6 +193,11 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   (`/opt/node-tools/node_modules/playwright`, `document.body.innerText`, ou `textContent` pour les onglets cachés).
   Michelin : `guide.michelin.com/dk/en/capital-region/copenhagen/restaurants/page/N`. Wanderlog : géo 9643, 116 listes.
   La Petite Sirène est protégée (sculpteur mort en 1959) : pas de photo de la statue.
+  Tunis (oct. 2026) : l'API Commons répondait « 429 » dès le départ ; la recherche de fichiers en HTML (`ns6=1`) puis la vignette
+  `upload.wikimedia.org/.../thumb/x/xy/NOM/960px-NOM` marchent (lentement). Prix et horaires officiels des monuments tunisiens :
+  `patrimoinedetunisie.com.tn/fr/monuments|musees|sites/…/apercu/` (lisible par `curl` ; tarifs affichés = grille 2023, appliquer
+  la grille d'avril 2026). Wanderlog Tunis : départ `geoCategory/208524`, ~370 lieux (Google Maps et Wanderlog `explore` bloqués).
+  Positions : les « plus codes » Google des listes Wanderlog (`V8PF+5J7`) se décodent sans bibliothèque (référence Tunis).
 - Les villes sans fiche s'affichent quand même, simplement sans photo ni texte.
 
 ## Recette : préparer une nouvelle ville (méthode validée sur Barcelone, ville cobaye)

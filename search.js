@@ -915,7 +915,7 @@ function shortSeen(day) {
 // Panneau de réservation : vérifie l'aller (et le retour) en direct
 // ---------------------------------------------------------------------------
 // Villes qui ont une page guide (ville.html?c=CODE, activités dans guides/CODE.json).
-const GUIDES = ['BCN', 'WAW', 'LIS', 'LON', 'BOD', 'VIE', 'DXB', 'ATH', 'BUD', 'PRG', 'VCE', 'BER', 'ROM', 'IST', 'PAR', 'AMS', 'MAD', 'OPO', 'SVQ', 'RAK', 'CPH'];
+const GUIDES = ['BCN', 'WAW', 'LIS', 'LON', 'BOD', 'VIE', 'DXB', 'ATH', 'BUD', 'PRG', 'VCE', 'BER', 'ROM', 'IST', 'PAR', 'AMS', 'MAD', 'OPO', 'SVQ', 'RAK', 'CPH', 'TUN'];
 
 // Lien vers le circuit « Mon voyage » (ville.html), avec le vol choisi : aéroport, dates,
 // prix repérés par personne (aller, retour) et durée du vol.

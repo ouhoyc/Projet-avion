@@ -259,9 +259,22 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 - Ryanair : la vérification en direct (Ignav) n'a pas trouvé le vol Ryanair Lyon → Dublin
   (Aer Lingus proposé à la place). Couverture Ryanair à confirmer.
 - Crédit Ignav : 1 000 recherches gratuites, puis ~2 $ / 1 000.
+- Tunis (`guides/TUN.json`) : le 1er janvier 2027, les entrées des musées et sites tunisiens augmentent (Bardo 45 dinars,
+  Carthage, El Jem et Kairouan 30, billet combiné Bardo + Carthage 70) : mettre à jour les prix de la fiche.
 
 ## Fait
 
+- ✅ (23/10/2026) **Page guide de Tunis** (`guides/TUN.json`), préparée en autonomie : 24 activités (tendance d'après les
+  réseaux sociaux, 2 sources au moins : médina, Bardo, Carthage, Sidi Bou Saïd, avenue Bourguiba, plage de La Marsa, El Jem,
+  Hammamet, Bizerte ; match de l'Espérance, club « Espérance Sportive De Tunis » ; Festival de Carthage en juillet-août ;
+  excursions Dougga, Kairouan, El Jem, Cap Bon, Hammamet-Nabeul, Zaghouan, Bizerte), 18 restaurants (note pondérée, C = 4,07,
+  ~370 lieux lus via Wanderlog ; pas de guide Michelin en Tunisie ; Le Golfe 46e du MENA's 50 Best 2026), 5 quartiers, pas de
+  lien Tiqets (rien à Tunis). Réseaux sociaux lancés une fois (Apify). Prix : nouvelle grille des musées et sites du 1er avril
+  2026 (Bardo 30 dinars, Carthage 20, billet combiné 45, Dougga/Thuburbo/Kerkouane 8, Zitouna et Tourbet el Bey 5 ; nouvelle
+  hausse au 1er janvier 2027 : Bardo 45, Carthage 30, combiné 70 → à mettre à jour en janvier), horaires sur
+  patrimoinedetunisie.com.tn, palais Ennejma Ezzahra 10 dinars (cmam.tn), 1 € ≈ 3,37 dinars. Écartés : musée Dar Ben Abdallah
+  (fermé depuis des années), Acropolium (fermé pour travaux), sources chaudes de Korbous (route abîmée, éboulements
+  sept. 2026), café des Délices (piège à touristes d'après Reddit : mention dans la fiche de Sidi Bou Saïd).
 - ✅ (23/10/2026) **Page guide de Marrakech** (`guides/RAK.json`), reprise du brouillon de la branche
   `claude/project-thread-wgcv4a` : 25 activités (tendance : Majorelle, médersa Ben Youssef, Dar el Bacha, montgolfière,
   Agafay ; excursions Ourika, Ouzoud, Aït-Ben-Haddou, Essaouira, Imlil), 18 restaurants (MENA's 50 Best 2026 : La Grande

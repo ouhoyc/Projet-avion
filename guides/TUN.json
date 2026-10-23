@@ -1,0 +1,1485 @@
+{
+ "city_code": "TUN",
+ "statut": "vérifié en autonomie, prix relevés le 23/10/2026 (1 € ≈ 3,37 dinars)",
+ "verifie_le": "2026-10-23",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "medina",
+   "nom": "Médina de Tunis et ses souks",
+   "emoji": "🕌",
+   "type": "balade",
+   "quartier": "Médina",
+   "lat": 36.7978,
+   "lng": 10.1712,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les souks",
+     "gratuit"
+    ],
+    [
+     "Guide officiel (badge du ministère du Tourisme)",
+     "≈ 60 à 100 dinars la demi-journée (≈ 18 à 30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Le matin, quand les artisans ouvrent ; beaucoup de boutiques ferment le dimanche",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Classée par l'Unesco, l'une des médinas les mieux conservées du monde arabe : souk des parfumeurs, souk des chéchias où l'on feutre encore les bonnets rouges, portes cloutées bleues et palais cachés derrière de simples murs blancs. On y entre par la porte de France (Bab Bhar), au bout de l'avenue Bourguiba.",
+   "site_officiel": "https://whc.unesco.org/fr/list/36/",
+   "a_verifier": false,
+   "note": "Des « guides » improvisés proposent de vous montrer une « terrasse panoramique » : elle finit presque toujours dans une boutique de tapis. Dites non poliment, ou acceptez en sachant que vous ne devez rien acheter.",
+   "photo": {
+    "auteur": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Souq_in_the_Medina_of_Tunis_02.jpg",
+    "src": "img/activites/TUN/medina.jpg"
+   }
+  },
+  {
+   "id": "zitouna",
+   "nom": "Mosquée Zitouna",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Médina",
+   "lat": 36.797762,
+   "lng": 10.170453,
+   "prix": 1.5,
+   "prix_detail": [
+    [
+     "Accès à la cour (non-musulmans)",
+     "5 dinars (≈ 1,50 €)"
+    ],
+    [
+     "Salle de prière",
+     "réservée aux musulmans"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.5,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "30 min",
+   "moment": "Le matin (vers 8 h - 12 h), sauf le vendredi ; tenue couvrant épaules et genoux",
+   "enfants": true,
+   "texte": "Le cœur de la médina depuis le VIIIe siècle : une immense cour dallée bordée d'arcades, où les colonnes viennent des ruines de Carthage. Les non-musulmans visitent la cour et regardent la salle de prière depuis ses portes.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/mosquee-az-zaytuna/apercu/",
+   "a_verifier": false,
+   "note": "Horaires de visite variables selon les prières : passez de préférence le matin. Une étole est parfois prêtée à l'entrée.",
+   "photo": {
+    "auteur": "Sami Mlouhi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zitouna_mosque_courtyard_2.JPG",
+    "src": "img/activites/TUN/zitouna.jpg"
+   }
+  },
+  {
+   "id": "tourbet-el-bey",
+   "nom": "Tourbet el Bey, le mausolée des beys",
+   "emoji": "⚱️",
+   "type": "culture",
+   "quartier": "Médina",
+   "lat": 36.793669,
+   "lng": 10.173129,
+   "prix": 1.5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "5 dinars (≈ 1,50 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "≈ 2 dinars (≈ 0,60 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.5,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "30 min",
+   "moment": "En journée, fermé le lundi",
+   "enfants": true,
+   "texte": "Le tombeau des souverains de Tunisie, au sud de la médina : coupoles vertes, salles couvertes de faïences italiennes, de marbre et de stucs ciselés. Peu de visiteurs, une atmosphère hors du temps.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "IssamBarhoumi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourbet_El_Bey_144.jpg",
+    "src": "img/activites/TUN/tourbet-el-bey.jpg"
+   }
+  },
+  {
+   "id": "bardo",
+   "nom": "Musée national du Bardo",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Le Bardo",
+   "lat": 36.809264,
+   "lng": 10.134251,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "30 dinars (≈ 9 €)"
+    ],
+    [
+     "Billet combiné Bardo + sites de Carthage",
+     "45 dinars (≈ 13 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "≈ 2 dinars (≈ 0,60 €)"
+    ],
+    [
+     "Premier dimanche du mois",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur place ; billet combiné avec Carthage à la caisse",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche, de 9 h 30 à 16 h 30 (9 h - 17 h en été) ; fermé le lundi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus belle collection de mosaïques romaines au monde, dans un palais beylical aux plafonds sculptés : le portrait de Virgile entouré de ses muses, Ulysse attaché à son mât, des scènes de chasse et de banquet grandes comme des salles. Un choc, même pour qui n'aime pas les musées.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/musees/musee-national-du-bardo/apercu/",
+   "a_verifier": false,
+   "note": "Les prix des musées tunisiens augmentent au 1er janvier 2027 (Bardo : 45 dinars). Prenez un taxi ou le métro léger (ligne 4, arrêt Le Bardo).",
+   "photo": {
+    "auteur": "Céline Rabaud",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tunis%2C_mus%C3%A9e_du_Bardo%2C_salle_de_Carthage_03.jpg",
+    "src": "img/activites/TUN/bardo.jpg"
+   }
+  },
+  {
+   "id": "carthage",
+   "nom": "Ruines de Carthage",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Carthage",
+   "lat": 36.853859,
+   "lng": 10.332947,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Billet unique pour les sites (thermes d'Antonin, Byrsa et son musée, villas romaines, théâtre, Tophet, quartier punique…)",
+     "20 dinars (≈ 6 €)"
+    ],
+    [
+     "Billet combiné avec le musée du Bardo",
+     "45 dinars (≈ 13 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "≈ 2 dinars (≈ 0,60 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "Le matin, avant la chaleur ; train TGM jusqu'aux arrêts Carthage Hannibal ou Carthage Byrsa",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La cité d'Hannibal, rasée par Rome puis rebâtie par elle : colonnes des thermes d'Antonin face à la mer, colline de Byrsa avec la vue sur le golfe et les ports puniques, villas aux mosaïques encore en place. Les sites sont dispersés : un seul billet, et le train de banlieue pour passer de l'un à l'autre.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/les-thermes-dantonin/apercu/",
+   "a_verifier": false,
+   "note": "Gardez votre billet : on vous le demande à chaque site. Ouvert tous les jours, 8 h 30 - 17 h en hiver, 8 h - 18 h en été.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antonine_Baths.jpg",
+    "src": "img/activites/TUN/carthage.jpg"
+   }
+  },
+  {
+   "id": "sidi-bou-said",
+   "nom": "Sidi Bou Saïd, le village bleu et blanc",
+   "emoji": "💙",
+   "type": "balade",
+   "quartier": "Sidi Bou Saïd",
+   "lat": 36.8708,
+   "lng": 10.3475,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans le village",
+     "gratuit"
+    ],
+    [
+     "Train TGM depuis Tunis Marine",
+     "≈ 1 dinar (≈ 0,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "En fin d'après-midi, pour le coucher du soleil sur le golfe",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Maisons blanches, portes et moucharabiehs bleu vif, bougainvilliers, ruelles en pente qui descendent vers la mer : le village le plus photographié de Tunisie, perché sur une falaise face au golfe de Tunis. Goûtez un bambalouni, le beignet sucré du village, et descendez jusqu'au petit port.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "note": "Le célèbre café des Délices a une vue superbe mais des prix de piège à touristes : prenez la photo, buvez votre thé ailleurs.",
+   "photo": {
+    "auteur": "Mstyslav Chernov",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Streets_of_Sidi_Bou_Said._Northern_Tunisia%2C_Mediterranean_Sea%2C_Northern_Africa.Streets_of_Sidi_Bou_Said._Northern_Tunisia%2C_Mediterranean_Sea%2C_Northern_Africa.jpg",
+    "src": "img/activites/TUN/sidi-bou-said.jpg"
+   }
+  },
+  {
+   "id": "dar-el-annabi",
+   "nom": "Dar El Annabi, maison-musée",
+   "emoji": "🫖",
+   "type": "culture",
+   "quartier": "Sidi Bou Saïd",
+   "lat": 36.870946,
+   "lng": 10.347395,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Entrée (thé à la menthe offert)",
+     "≈ 8 à 10 dinars (≈ 2,50 à 3 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "En journée ; montez sur la terrasse pour la vue",
+   "enfants": true,
+   "texte": "Une grande maison de famille du XVIIIe siècle, ouverte à la visite : patios carrelés, chambres meublées comme autrefois, mannequins en costumes de mariage. On termine sur le toit-terrasse, avec un thé à la menthe offert et tout le village à vos pieds.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Youssefbensaad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dar_El_Annabi.jpg",
+    "src": "img/activites/TUN/dar-el-annabi.jpg"
+   }
+  },
+  {
+   "id": "ennejma-ezzahra",
+   "nom": "Palais Ennejma Ezzahra",
+   "emoji": "🎻",
+   "type": "culture",
+   "quartier": "Sidi Bou Saïd",
+   "lat": 36.869241,
+   "lng": 10.348213,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 dinars (≈ 3 €)"
+    ],
+    [
+     "Tarif réduit",
+     "5 dinars (≈ 1,50 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [
+     [
+      17,
+      1.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Du mardi au dimanche, 9 h - 13 h et 14 h - 17 h (9 h - 15 h 30 en juillet-août) ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le palais rêvé du baron d'Erlanger, peintre et musicologue, construit de 1912 à 1922 : salons de stuc et de bois peint, jardins en terrasses sur la mer et une collection d'instruments de musique arabes. Des concerts y ont lieu le soir.",
+   "site_officiel": "https://www.cmam.tn/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Houss 2020",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Palais_Ennejma_Ezzahra_14.jpg",
+    "src": "img/activites/TUN/ennejma-ezzahra.jpg"
+   }
+  },
+  {
+   "id": "bourguiba",
+   "nom": "Avenue Habib-Bourguiba et la ville coloniale",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Centre-ville",
+   "lat": 36.8,
+   "lng": 10.181,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade, cathédrale Saint-Vincent-de-Paul",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, quand les terrasses se remplissent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Les « Champs-Élysées » de Tunis : une allée de ficus entre la tour de l'Horloge et la porte de France, bordée d'immeubles Art nouveau, du théâtre municipal façon « bonbonnière » et de la cathédrale Saint-Vincent-de-Paul. Cafés en terrasse et marchands de fleurs : idéal pour sentir la ville vivre.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dacoslett",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:TunisAveHabibBourguiba.jpg",
+    "src": "img/activites/TUN/bourguiba.jpg"
+   }
+  },
+  {
+   "id": "cite-culture",
+   "nom": "Concert à la Cité de la Culture",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Centre-ville",
+   "lat": 36.810902,
+   "lng": 10.18608,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Concert, opéra ou théâtre",
+     "≈ 10 à 40 dinars (≈ 3 à 12 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (billets sur place ou sur teskerti.tn)",
+   "duree": "2 h",
+   "moment": "Le soir ; programme et billets sur teskerti.tn",
+   "enfants": true,
+   "texte": "Le grand centre culturel de Tunis, avec son opéra de 1 800 places : orchestre symphonique, malouf (la musique arabo-andalouse tunisienne), danse et théâtre à petit prix. Une soirée comme les Tunisois.",
+   "site_officiel": "https://teskerti.tn/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Habib M'henni",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_de_la_culture%2C_Tunis_27_d%C3%A9cembre_2014.jpg",
+    "src": "img/activites/TUN/cite-culture.jpg"
+   }
+  },
+  {
+   "id": "festival-carthage",
+   "nom": "Festival international de Carthage",
+   "emoji": "🎤",
+   "type": "sortir",
+   "quartier": "Carthage (théâtre romain)",
+   "lat": 36.857788,
+   "lng": 10.329453,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Place en gradins",
+     "30 à 100 dinars (≈ 9 à 30 €)"
+    ],
+    [
+     "Place sur chaise",
+     "80 à 150 dinars (≈ 24 à 45 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès l'ouverture de la billetterie (début juillet), les grands noms affichent complet",
+   "duree": "Soirée",
+   "moment": "De mi-juillet à mi-août seulement (16 juillet - 19 août en 2026)",
+   "enfants": true,
+   "texte": "Chaque été depuis 1964, les stars de la chanson arabe et internationale se produisent dans le théâtre romain de Carthage. Concert sous les étoiles, sur des gradins de 2 000 ans : une soirée qu'on n'oublie pas.",
+   "site_officiel": "https://www.festivaldecarthage.tn/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%B6misches_Theater%2C_Karthago%2C_Tunesien_Januar_2015_01.JPG",
+    "src": "img/activites/TUN/festival-carthage.jpg"
+   }
+  },
+  {
+   "id": "la-goulette",
+   "nom": "La Goulette, le port des pêcheurs",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "La Goulette",
+   "lat": 36.8186,
+   "lng": 10.3057,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Train TGM depuis Tunis Marine",
+     "≈ 1 dinar (≈ 0,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de journée, puis dîner de poisson sur l'avenue Franklin-Roosevelt",
+   "enfants": true,
+   "texte": "L'ancien quartier des Siciliens, des Maltais et des juifs de Tunis, rendu célèbre par le film « Un été à La Goulette » : forteresse de Charles Quint, église de Saint-Augustin, et une avenue entière de restaurants de poisson où l'on choisit son loup ou sa dorade sur l'étal.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Smailtn",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_la_goulette_Tunis.jpg",
+    "src": "img/activites/TUN/la-goulette.jpg"
+   }
+  },
+  {
+   "id": "la-marsa",
+   "nom": "Plage et corniche de La Marsa",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "La Marsa",
+   "lat": 36.8818,
+   "lng": 10.332,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre pour la baignade ; toute l'année pour la corniche",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plage des Tunisois, au bout de la ligne de train : sable fin, corniche blanche, glaces et cafés du vieux quartier de La Marsa. Prenez un thé aux pignons au café Saf-Saf, autour de son puits où tourne encore un chameau.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Azza Bani",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marsa-plage.jpg",
+    "src": "img/activites/TUN/la-marsa.jpg"
+   }
+  },
+  {
+   "id": "gammarth",
+   "nom": "Plages de Gammarth",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Gammarth",
+   "lat": 36.9178,
+   "lng": 10.2893,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ],
+    [
+     "Transat dans un club de plage",
+     "≈ 30 à 60 dinars (≈ 9 à 18 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre ; en été, les clubs de plage s'animent le soir",
+   "enfants": true,
+   "texte": "Au nord de La Marsa, la côte chic de Tunis : eau claire, collines de pins, grands hôtels et clubs de plage où l'on passe la journée sur un transat avant le dîner face au coucher du soleil.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Eyakaddour",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Depuis_Gammarth.jpg",
+    "src": "img/activites/TUN/gammarth.jpg"
+   }
+  },
+  {
+   "id": "hammam",
+   "nom": "Hammam et gommage",
+   "emoji": "♨️",
+   "type": "sortir",
+   "quartier": "Médina",
+   "lat": 36.7966,
+   "lng": 10.1716,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Hammam de quartier (entrée + gommage au gant)",
+     "≈ 15 à 25 dinars (≈ 5 à 8 €)"
+    ],
+    [
+     "Hammam dans un spa d'hôtel",
+     "≈ 80 à 150 dinars (≈ 25 à 45 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Hommes et femmes à des horaires ou dans des hammams séparés ; renseignez-vous sur place",
+   "enfants": false,
+   "texte": "Bain de vapeur, savon noir et gommage vigoureux au gant (kessa) : le rituel des Tunisois depuis des siècles. Dans la médina, les hammams de quartier comme le Kachachine (pour les hommes) ont des salles voûtées centenaires ; les spas d'hôtel proposent une version plus douce et mixte.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "note": "Prenez une serviette, des sandales et un maillot ou une culotte : on ne s'y met pas entièrement nu.",
+   "photo": {
+    "auteur": "م ض",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hammam_Tunis.jpg",
+    "src": "img/activites/TUN/hammam.jpg"
+   }
+  },
+  {
+   "id": "esperance",
+   "nom": "Match de l'Espérance de Tunis",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Radès (stade Hammadi-Agrebi)",
+   "lat": 36.747771,
+   "lng": 10.27314,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 15 à 20 dinars (≈ 5 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 25 à 50 dinars (≈ 8 à 15 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, sur la billetterie en ligne du club",
+   "duree": "2 h 30",
+   "moment": "Le week-end, l'après-midi ; ambiance maximale pour le derby contre le Club Africain",
+   "enfants": true,
+   "club": "Espérance Sportive De Tunis",
+   "texte": "Le club le plus titré d'Afrique du Nord joue au stade olympique de Radès, 60 000 places : tifos rouge et jaune, chants du début à la fin, fumigènes. Une expérience de foot comme on n'en vit plus en Europe.",
+   "site_officiel": "https://www.est.org.tn/",
+   "a_verifier": false,
+   "note": "Billets vendus seulement en ligne (plateforme indiquée par le club), avec pièce d'identité. Certains matchs se jouent à huis clos par décision de la fédération : vérifiez avant. Préférez la tribune au virage.",
+   "photo": {
+    "auteur": "Nasreddine Nas'h",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rad%C3%A8s_Olympic_stadium.jpg",
+    "src": "img/activites/TUN/esperance.jpg"
+   }
+  },
+  {
+   "id": "dougga",
+   "nom": "Dougga, la cité romaine sur la colline",
+   "emoji": "🏛️",
+   "type": "nature",
+   "quartier": "Gouvernorat de Béja (1 h 45)",
+   "lat": 36.422163,
+   "lng": 9.219652,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée du site",
+     "8 dinars (≈ 2,50 €)"
+    ],
+    [
+     "En louage (taxi collectif) jusqu'à Téboursouk, puis taxi",
+     "≈ 35 dinars aller-retour (≈ 10 €)"
+    ],
+    [
+     "Chauffeur à la journée (par voiture)",
+     "≈ 250 à 350 dinars (≈ 75 à 100 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      11,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Au printemps et à l'automne (site ouvert 8 h 30 - 17 h 30) ; très exposé au soleil",
+   "enfants": true,
+   "texte": "La ville romaine la mieux conservée d'Afrique, classée par l'Unesco : un Capitole intact, un théâtre de 3 500 places et des rues pavées au milieu des oliviers et des champs de blé, avec presque personne. Le plus beau site antique du pays.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/sites/le-site-archeologique-de-dougga/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "damian entwistle",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dougga_capitol_from_theatre.jpg",
+    "src": "img/activites/TUN/dougga.jpg"
+   }
+  },
+  {
+   "id": "kairouan",
+   "nom": "Kairouan, la ville sainte",
+   "emoji": "🕌",
+   "type": "nature",
+   "quartier": "Kairouan (2 h)",
+   "lat": 35.681541,
+   "lng": 10.104244,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Billet combiné des monuments (Grande Mosquée, bassins des Aghlabides, mausolée du Barbier…)",
+     "20 dinars (≈ 6 €)"
+    ],
+    [
+     "En louage (taxi collectif) depuis Tunis",
+     "≈ 30 dinars aller-retour (≈ 9 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      11,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Monuments ouverts le matin seulement (8 h - 14 h ; le vendredi jusqu'à midi) ; tenue couverte",
+   "enfants": true,
+   "texte": "Quatrième ville sainte de l'islam, classée par l'Unesco : la Grande Mosquée, l'une des plus anciennes du Maghreb, et son minaret massif, une médina ocre, des bassins du IXe siècle et les makrouds, gâteaux de semoule aux dattes, frits sous vos yeux.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/la-grande-mosquee-de-kairouan/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Monaam Ben Fredj",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Minaret_of_the_Great_Mosque_Okba_of_Kairouan%2C_Tunisia.jpg",
+    "src": "img/activites/TUN/kairouan.jpg"
+   }
+  },
+  {
+   "id": "el-jem",
+   "nom": "Amphithéâtre d'El Jem",
+   "emoji": "🏟️",
+   "type": "nature",
+   "quartier": "El Jem (3 h 30 en train)",
+   "lat": 35.296413,
+   "lng": 10.707509,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée (site et musée)",
+     "20 dinars (≈ 6 €)"
+    ],
+    [
+     "Train depuis Tunis (1re classe)",
+     "≈ 30 dinars aller-retour (≈ 9 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      11,
+      9
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Journée (train à 6 h)",
+   "moment": "Partez avec le premier train ; site ouvert 7 h 30 - 17 h 30 (18 h 30 en été)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le troisième plus grand amphithéâtre romain du monde, presque intact, posé au milieu d'une petite ville du Sahel : on parcourt les gradins, l'arène et les couloirs souterrains où attendaient fauves et gladiateurs. Classé par l'Unesco.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/lamphitheatre-de-thysdrus-el-jem/apercu/",
+   "a_verifier": false,
+   "note": "Long trajet : réservez le train la veille en gare de Tunis (vente 3 jours avant) ou faites étape à Sousse.",
+   "photo": {
+    "auteur": "Agnieszka Wolska",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amphitheater_at_El_Djem.jpg",
+    "src": "img/activites/TUN/el-jem.jpg"
+   }
+  },
+  {
+   "id": "cap-bon",
+   "nom": "Cap Bon : Kerkouane et El Haouaria",
+   "emoji": "🧭",
+   "type": "nature",
+   "quartier": "Cap Bon (1 h 30)",
+   "lat": 36.945711,
+   "lng": 11.099136,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Entrée de Kerkouane",
+     "8 dinars (≈ 2,50 €)"
+    ],
+    [
+     "Voiture de location à la journée",
+     "≈ 35 à 50 € (+ essence)"
+    ],
+    [
+     "Excursion organisée depuis Tunis, déjeuner compris",
+     "≈ 130 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      11,
+      30
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une voiture ou une excursion",
+   "duree": "Journée",
+   "moment": "D'avril à octobre ; carrières d'El Haouaria le matin",
+   "enfants": true,
+   "texte": "La pointe nord-est de la Tunisie : Kerkouane, seule ville punique conservée telle quelle, avec ses baignoires de mosaïque face à la mer, puis les carrières romaines d'El Haouaria creusées dans la falaise, et le fort de Kélibia au-dessus d'une eau turquoise.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/sites/kerkouane/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kerkouane%2C_Tunesien_Januar_2015_03.JPG",
+    "src": "img/activites/TUN/cap-bon.jpg"
+   }
+  },
+  {
+   "id": "hammamet",
+   "nom": "Hammamet et Nabeul",
+   "emoji": "🏺",
+   "type": "nature",
+   "quartier": "Hammamet (1 h)",
+   "lat": 36.3998,
+   "lng": 10.6146,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Train ou louage aller-retour",
+     "≈ 15 dinars (≈ 5 €)"
+    ],
+    [
+     "Kasbah (fort) de Hammamet",
+     "8 dinars (≈ 2,50 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      11,
+      3
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Journée",
+   "moment": "Le vendredi, grand marché hebdomadaire de Nabeul",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Hammamet, sa petite médina blanche ceinte de remparts au bord de la plage, et Nabeul, la capitale de la poterie peinte et du jasmin : une journée entre plage, céramiques et cafés sur le sable.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/la-citadelle-le-bordj-de-hammamet/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marc Ryckaert (MJJR)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hammamet_Medina_R01.jpg",
+    "src": "img/activites/TUN/hammamet.jpg"
+   }
+  },
+  {
+   "id": "zaghouan",
+   "nom": "Zaghouan et Thuburbo Majus",
+   "emoji": "💧",
+   "type": "nature",
+   "quartier": "Zaghouan (1 h)",
+   "lat": 36.387108,
+   "lng": 10.131156,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Entrée de Thuburbo Majus",
+     "8 dinars (≈ 2,50 €)"
+    ],
+    [
+     "Temple des Eaux de Zaghouan",
+     "gratuit"
+    ],
+    [
+     "Taxi ou chauffeur à la journée (par voiture)",
+     "≈ 200 dinars (≈ 60 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      11,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour réserver un chauffeur",
+   "duree": "Journée",
+   "moment": "Au printemps, quand la campagne est verte",
+   "enfants": true,
+   "texte": "Au pied du djebel Zaghouan, le temple romain des Eaux d'où partait l'aqueduc de 130 km qui alimentait Carthage, puis Thuburbo Majus, une ville antique déserte au milieu des champs : forum, Capitole et mosaïques, rien que pour vous.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/sites/site-archeologique-de-thuburbo-maius/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rbsangelo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Front_view_of_the_Water_Temple_of_Zaghouan..JPG",
+    "src": "img/activites/TUN/zaghouan.jpg"
+   }
+  },
+  {
+   "id": "bizerte",
+   "nom": "Bizerte et son vieux port",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Bizerte (1 h)",
+   "lat": 37.277146,
+   "lng": 9.874835,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Louage (taxi collectif) aller-retour",
+     "≈ 16 dinars (≈ 5 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      11,
+      3
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Journée",
+   "moment": "Toute l'année ; plage de la Corniche en été",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La ville la plus au nord de l'Afrique : un vieux port aux façades colorées gardé par la kasbah, des barques de pêcheurs, une corniche de plages et, à 30 minutes, le village de Ghar El Melh et son lagon.",
+   "site_officiel": "https://www.discovertunisia.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "David Ollier",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_port_of_Bizerte_%28132040767%29.jpg",
+    "src": "img/activites/TUN/bizerte.jpg"
+   }
+  },
+  {
+   "id": "cimetiere-americain",
+   "nom": "Cimetière américain de Carthage",
+   "emoji": "🕊️",
+   "type": "culture",
+   "quartier": "Carthage",
+   "lat": 36.865484,
+   "lng": 10.32998,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée (9 h - 17 h)",
+   "enfants": true,
+   "texte": "Le seul cimetière américain de la Seconde Guerre mondiale en Afrique : 2 841 tombes de marbre blanc alignées sur des pelouses impeccables, une chapelle et des cartes en mosaïque de la campagne de Tunisie. Un lieu très calme et émouvant.",
+   "site_officiel": "https://www.abmc.gov/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Auteur inconnu (domaine public)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:North_Africa_World_War_II_Cemetery_and_Memorial%2C_Carthage%2C_Tunisia_-_NARA_-_6003643.jpg",
+    "src": "img/activites/TUN/cimetiere-americain.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "medina",
+   "nom": "Médina",
+   "lat": 36.7978,
+   "lng": 10.1712,
+   "texte": "Dormez dans une maison d'hôtes ou un petit palais restauré (dar) : souks, mosquée et monuments à pied. Les ruelles sont calmes et peu éclairées le soir ; demandez à votre hôte de vous guider le premier jour."
+  },
+  {
+   "id": "centre",
+   "nom": "Centre-ville (avenue Bourguiba)",
+   "lat": 36.8,
+   "lng": 10.183,
+   "texte": "La ville du XIXe siècle, entre l'avenue Bourguiba et le port : hôtels pratiques, cafés et restaurants, la médina à 10 minutes à pied et la gare du train TGM pour Carthage, Sidi Bou Saïd et La Marsa."
+  },
+  {
+   "id": "lac",
+   "nom": "Les Berges du Lac",
+   "lat": 36.8355,
+   "lng": 10.2489,
+   "texte": "Le quartier d'affaires moderne, au bord du lac de Tunis : grands hôtels récents, centres commerciaux, restaurants à la mode, à 10 minutes de l'aéroport. Il faut un taxi pour tout le reste."
+  },
+  {
+   "id": "sidi-bou-said",
+   "nom": "Sidi Bou Saïd et Carthage",
+   "lat": 36.8675,
+   "lng": 10.3405,
+   "texte": "Des maisons d'hôtes de charme dans le village bleu et blanc, ou de belles villas au milieu des ruines de Carthage : le cadre le plus romantique, à 30 minutes du centre en train TGM."
+  },
+  {
+   "id": "la-marsa",
+   "nom": "La Marsa et Gammarth",
+   "lat": 36.885,
+   "lng": 10.322,
+   "texte": "Le bord de mer des Tunisois : plage, corniche, restaurants et cafés à la mode à La Marsa, grands hôtels avec plage privée à Gammarth. Idéal l'été, au terminus du train TGM."
+  }
+ ],
+ "hotel_petit_prix_max": 60,
+ "restaurants": [
+  {
+   "id": "bambalouni",
+   "nom": "Bambalouni de Sidi Bou Saïd",
+   "emoji": "🍩",
+   "gamme": "petit",
+   "genre": "Beignets tunisiens",
+   "quartier": "Sidi Bou Saïd",
+   "adresse": "Rue Hédi-Zarrouk, à côté du café des Nattes",
+   "lat": 36.8709,
+   "lng": 10.3481,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le beignet du village, frit à la minute et roulé dans le sucre, mangé tout chaud dans son papier en descendant les ruelles bleues. Une pause qu'aucun visiteur de Sidi Bou Saïd ne rate depuis des décennies.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu de file l'après-midi",
+   "photo": {
+    "auteur": "Yamen",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bambalouni_07.JPG",
+    "src": "img/restos/TUN/bambalouni.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-ali",
+   "nom": "El Ali",
+   "emoji": "🫖",
+   "gamme": "petit",
+   "genre": "Terrasse sur les toits",
+   "quartier": "Médina",
+   "adresse": "45, rue Jamaâ-Zitouna",
+   "lat": 36.7981,
+   "lng": 10.1718,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Une maison de la médina transformée en café-restaurant, avec une terrasse sur les toits face au minaret de la Zitouna. Thé à la menthe, brick et couscous du jour, au calme, au-dessus de l'agitation des souks.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Youssefbensaad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Souk_el_attarine_%C3%A0_Tunis.jpg",
+    "src": "img/restos/TUN/el-ali.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mrabet",
+   "nom": "Café M'Rabet",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café historique",
+   "quartier": "Médina",
+   "adresse": "27, souk Ettrouk",
+   "lat": 36.797303,
+   "lng": 10.170384,
+   "prix": "3 à 12 €",
+   "prix_min": 3,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le plus vieux café de la médina, sous des voûtes du XVIIe siècle et à côté du tombeau d'un saint : banquettes peintes, thé aux pignons et narguilé. À midi, l'étage sert des plats tunisiens simples.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Mohatatou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Mrabet%2C_Tunis%2C_2019.jpg",
+    "src": "img/restos/TUN/mrabet.jpg"
+   }
+  },
+  {
+   "id": "el-mida",
+   "nom": "El Mida",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine familiale tunisienne",
+   "quartier": "La Marsa",
+   "adresse": "Rue des Œillets, La Marsa",
+   "lat": 36.885412,
+   "lng": 10.324047,
+   "prix": "12 à 18 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Une petite adresse de La Marsa où l'on mange comme chez une grand-mère tunisienne : salade méchouia, chorba au frik, couscous à l'osbane, kamounia. Soupe et thé offerts, pas d'alcool, et des plats qui partent vite.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, ou venez tôt : certains plats sont épuisés en début de service",
+   "photo": {
+    "auteur": "Wajih Khalfallah",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tunisian_couscous_with_Osbene.JPG",
+    "src": "img/restos/TUN/el-mida.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bleue",
+   "nom": "bleue!",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Café-brunch",
+   "quartier": "Sidi Bou Saïd",
+   "adresse": "8, rue Habib-Thameur, Sidi Bou Saïd",
+   "lat": 36.8707,
+   "lng": 10.3461,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Un café-épicerie tout en bleu et blanc dans le haut du village : brunchs, tartines, gâteaux maison et bon café. L'adresse préférée des Tunisois pour une pause au calme, loin des pièges à touristes.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; attente possible le week-end",
+   "photo": {
+    "auteur": "Majn0122",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bahr_Sidi_Bou_Said.jpg",
+    "src": "img/restos/TUN/bleue.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "couscous-tree",
+   "nom": "The Couscous Tree",
+   "emoji": "🥘",
+   "gamme": "petit",
+   "genre": "Couscous",
+   "quartier": "La Marsa",
+   "adresse": "3, rue Mami, La Marsa",
+   "lat": 36.879449,
+   "lng": 10.326548,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Le couscous dans tous ses états : cinq recettes, à l'agneau, au poisson, aux légumes ou épicé, avec leurs boulettes de légumes. Simple, généreux et bon marché, à deux pas de la plage de La Marsa.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; venez tôt le week-end",
+   "photo": {
+    "auteur": "Wajih Khalfallah",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tunisian_couscous_with_Chabtya.JPG",
+    "src": "img/restos/TUN/couscous-tree.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fondouk",
+   "nom": "Fondouk El Attarine",
+   "emoji": "🏺",
+   "gamme": "moyen",
+   "genre": "Caravansérail des souks",
+   "quartier": "Médina",
+   "adresse": "9 bis, souk El Attarine",
+   "lat": 36.797844,
+   "lng": 10.171792,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Un ancien caravansérail du souk des parfumeurs, sa cour à arcades et ses lanternes : brick à l'œuf, mderbel d'aubergines, couscous et assida au zgougou, de la cuisine tunisienne soignée au cœur de la médina.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; ouvert surtout le midi",
+   "photo": {
+    "auteur": "Selma Jmii",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Etalages_dans_la_M%C3%A9dina.JPG",
+    "src": "img/restos/TUN/fondouk.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dar-belhadj",
+   "nom": "Dar Belhadj",
+   "emoji": "🏛️",
+   "gamme": "moyen",
+   "genre": "Maison de maître de la médina",
+   "quartier": "Médina",
+   "adresse": "Rue du Tamis, médina",
+   "lat": 36.798154,
+   "lng": 10.171655,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une demeure aux plafonds peints et faïences anciennes, entre les souks et la Zitouna. Menu tunisien généreux (ojja, couscous, poisson du jour) servi dans un décor de palais.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, quelques jours avant le week-end",
+   "photo": {
+    "auteur": "Youssefbensaad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Souk_el_berka_Tunis_04.JPG",
+    "src": "img/restos/TUN/dar-belhadj.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dar-slah",
+   "nom": "Dar Slah",
+   "emoji": "🥗",
+   "gamme": "moyen",
+   "genre": "Cuisine tunisienne du marché",
+   "quartier": "Médina",
+   "adresse": "145, rue de la Kasbah",
+   "lat": 36.798654,
+   "lng": 10.171247,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "La deuxième table d'une famille de restaurateurs de la médina, plus légère et inventive : herbes sauvages, poisson du jour, couscous et menu du midi qui change selon le marché, l'un des meilleurs rapports qualité-prix de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Phillyfoodie",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ojja_in_a_saucepan.png",
+    "src": "img/restos/TUN/dar-slah.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chez-slah",
+   "nom": "Chez Slah",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poisson grillé",
+   "quartier": "Centre-ville",
+   "adresse": "14 bis, rue Pierre-de-Coubertin",
+   "lat": 36.803985,
+   "lng": 10.184027,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'adresse de poisson des Tunisois depuis des décennies, cachée derrière le Passage : dorade, loup ou rouget de la pêche du jour, grillés simplement, et des fruits de mer très frais. Salle sans chichis, service à l'ancienne.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Shoestring (Wikivoyage)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_fish_and_chips%2C_Tunisia.JPG",
+    "src": "img/restos/TUN/chez-slah.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vinotheque",
+   "nom": "La Vinothèque by La Salle à Manger",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Bistrot à vins",
+   "quartier": "Mutuelleville",
+   "adresse": "3, rue Imam-Sahnoun",
+   "lat": 36.82195,
+   "lng": 10.1812,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Bistrot chic de Mutuelleville avec une belle cave de vins tunisiens (oui, la Tunisie fait du très bon vin) : assiettes à partager, poisson, viandes grillées et desserts maison dans un cadre élégant.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Habib M'henni",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Food_and_Red_wine_from_Tunisia%2C_Spetember_2025%2C_20250918_160308_02.jpg",
+    "src": "img/restos/TUN/vinotheque.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "the-kitchen",
+   "nom": "The Kitchen",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Grill et viandes maturées",
+   "quartier": "La Marsa",
+   "adresse": "10, avenue Taïeb-Mhiri, La Marsa",
+   "lat": 36.8863,
+   "lng": 10.3231,
+   "prix": "30 à 55 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "La rôtisserie à la mode de La Marsa : viandes maturées choisies au comptoir du boucher, burgers et grillades au feu de bois, dans une grande salle animée.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "Shixart1985",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_steak_on_black_slate_with_herbs_ready_for_serving.jpg",
+    "src": "img/restos/TUN/the-kitchen.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-golfe",
+   "nom": "Le Golfe",
+   "emoji": "🦑",
+   "gamme": "haut",
+   "genre": "Poissons face à la plage",
+   "quartier": "La Marsa",
+   "adresse": "5, rue Larbi-Zarrouk, La Marsa",
+   "lat": 36.879917,
+   "lng": 10.325806,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "MENA's 50 Best Restaurants 2026 (46e), meilleur restaurant de Tunisie",
+   "texte": "Sur la plage de La Marsa depuis 1955 : poissons et fruits de mer de la pêche du matin, carpaccio de poulpe, sardines grillées au citron vert, spaghetti à la boutargue, sous les oliviers. Le meilleur restaurant de Tunisie selon le classement des 50 Best.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant, plus en été",
+   "photo": {
+    "auteur": "Seif Allah Bouneb",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_marsa_1.jpg",
+    "src": "img/restos/TUN/le-golfe.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dar-el-jeld",
+   "nom": "Dar El Jeld",
+   "emoji": "🏮",
+   "gamme": "haut",
+   "genre": "Palais de la médina",
+   "quartier": "Médina",
+   "adresse": "5-10, rue Dar-El-Jeld",
+   "lat": 36.798555,
+   "lng": 10.169161,
+   "prix": "50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La grande table de la médina, dans une maison du XVIIIe siècle aux murs de faïence et stucs ciselés : couscous à l'agneau ou au poisson, tajine aux épinards, calamars farcis, et musique malouf certains soirs. À faire au moins une fois.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant ; les tables du patio partent vite",
+   "photo": {
+    "auteur": "T A",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Restaurant_Dar_El_Jeld_-_Medina_Tunis.jpg",
+    "src": "img/restos/TUN/dar-el-jeld.jpg"
+   }
+  },
+  {
+   "id": "astragale",
+   "nom": "L'Astragale",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Gastronomie française",
+   "quartier": "Mutuelleville",
+   "adresse": "17, avenue Charles-Nicolle",
+   "lat": 36.824853,
+   "lng": 10.179066,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "La table française de référence à Tunis, dans une villa avec jardin : cuisine classique et soignée, belle carte de vins, service en gants blancs. Pour un dîner élégant.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Shixart1985",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_steak_served_on_a_plate_with_avocado_and_sauce.jpg",
+    "src": "img/restos/TUN/astragale.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "creek",
+   "nom": "The Creek (Four Seasons)",
+   "emoji": "🌅",
+   "gamme": "haut",
+   "genre": "Riviera chic sur les toits",
+   "quartier": "Gammarth",
+   "adresse": "Four Seasons Hotel Tunis, Gammarth",
+   "lat": 36.920095,
+   "lng": 10.294921,
+   "prix": "60 à 100 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Au dernier étage du Four Seasons, une terrasse face à la mer : cuisine de la Riviera française et italienne, tartare de dorade, poissons et légumes de saison, cocktails au coucher du soleil.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; dîner seulement (17 h - 23 h)",
+   "photo": {
+    "auteur": "Ashoola",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gammarth_panoramique.JPG",
+    "src": "img/restos/TUN/creek.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "villa-bleue",
+   "nom": "La Villa Bleue",
+   "emoji": "💙",
+   "gamme": "haut",
+   "genre": "Terrasse sur la baie de Sidi Bou Saïd",
+   "quartier": "Sidi Bou Saïd",
+   "adresse": "Rue Hédi-Zarrouk, Sidi Bou Saïd",
+   "lat": 36.870071,
+   "lng": 10.352566,
+   "prix": "50 à 75 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "Un hôtel de charme accroché à la falaise de Sidi Bou Saïd, avec une terrasse cachée qui plonge sur le golfe : plats tunisiens revisités, cocktails maison et l'un des plus beaux couchers de soleil de Tunis.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; demandez une table en terrasse",
+   "photo": {
+    "auteur": "Paul SKG",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Golfe_de_Tunis_et_port_de_Sidi_Bou_Sa%C3%AFd.jpg",
+    "src": "img/restos/TUN/villa-bleue.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "table-du-chef",
+   "nom": "La Table du Chef (Mövenpick du Lac)",
+   "emoji": "🔥",
+   "gamme": "haut",
+   "genre": "Table du chef",
+   "quartier": "Les Berges du Lac",
+   "adresse": "Mövenpick Hotel du Lac, rue du Lac-Huron",
+   "lat": 36.835492,
+   "lng": 10.248867,
+   "prix": "50 à 90 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "On dîne autour de la cuisine ouverte : les chefs grillent devant vous viandes de choix, poissons et fruits de mer au four Josper et à la rôtisserie, et composent un menu sur mesure selon vos envies.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, par téléphone ou e-mail auprès de l'hôtel",
+   "photo": {
+    "auteur": "_BuBBy_ from USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilling_Steaks_%28with_border%29.jpg",
+    "src": "img/restos/TUN/table-du-chef.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
