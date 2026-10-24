@@ -97,4 +97,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   de Chrome normal** (avec celui de Chromium sans tête, le nombre d'avis n'apparaît pas) ; un mot générique (« forno »,
   « paella ») renvoie une liste là où un nom exact ouvre une fiche vide. Penser à couvrir la côte (Canastel, Aïn El Turck).
   Photos Commons : `thumb.php?w=960` échoue sur les petits fichiers, réessayer en `w=800` puis `Special:FilePath`.
-
+- Bruxelles (oct. 2026) : l'API Commons répondait « 429 » ; recherche de fichiers en HTML (`ns6=1`) puis
+  `commons.wikimedia.org/w/thumb.php?f=NOM&w=330` (planches) et `w=960`, sans « 429 ». Wanderlog : départ
+  `geoCategory/59964` (géo 9649), 107 listes, ~1 700 lieux. Sites bloqués d'ici : fine-arts-museum.be (Beaux-Arts,
+  Magritte), minieurope.com (403) ; Michelin renvoie 202 (passer par la presse : DH, La Libre). Tiqets Bruxelles :
+  `activites-attractions-bruxelles-c60843`. Musée Horta : prix seulement dans la billetterie (JavaScript).

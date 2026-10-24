@@ -78,6 +78,11 @@ const PARTNER_LINKS = {
     'nationalmuseet': tiqets('activites-attractions-copenhague-c113/billets-pour-musee-national-du-danemark-p976347'),
     'zoo': tiqets('activites-attractions-frederiksberg-c65331/billets-pour-zoo-de-copenhague-billet-coupe-file-p976349'),
   },
+  BRU: {
+    'atomium': tiqets('activites-attractions-bruxelles-c60843/billets-pour-atomium-design-museum-billet-d-entree-p975396'),
+    'mini-europe': tiqets('activites-attractions-bruxelles-c60843/billets-pour-mini-europe-bruxelles-billet-d-entree-p975270'),
+    'beer-world': tiqets('activites-attractions-bruxelles-c60843/billets-pour-belgian-beer-world-experience-entree-degustation-de-biere-p1081229'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 

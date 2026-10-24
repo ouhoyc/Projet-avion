@@ -1,0 +1,1706 @@
+{
+ "city_code": "BRU",
+ "statut": "vérifié en autonomie, prix relevés le 24/10/2026",
+ "verifie_le": "2026-10-24",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "grand-place",
+   "nom": "Grand-Place",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Îlot Sacré",
+   "lat": 50.846714,
+   "lng": 4.352515,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès à la place",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Deux fois : de jour pour les détails dorés, puis à la nuit tombée quand les façades s'illuminent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Victor Hugo la trouvait « la plus belle place du monde ». Hôtel de ville gothique à la flèche de 96 m, maisons des corporations couvertes de dorures, vieux cafés sous les pignons : on peut y repasser chaque soir, elle change de couleur à chaque heure.",
+   "site_officiel": "https://www.visit.brussels/fr/visiteurs/lieux/la-grand-place",
+   "note": "Les années paires, mi-août, un tapis de fleurs d'un million de bégonias recouvre la place (prochain en 2028). En décembre : grand sapin et spectacle son et lumière.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "iMahesh",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrand-Place_%28Brussels%29_-_View_of_the_Brussels_Town_Hall_and_adjacent_Baroque_guildhouses.jpg",
+    "src": "img/activites/BRU/grand-place.jpg"
+   }
+  },
+  {
+   "id": "manneken-pis",
+   "nom": "Manneken-Pis",
+   "emoji": "⛲",
+   "type": "balade",
+   "quartier": "Îlot Sacré",
+   "lat": 50.844986,
+   "lng": 4.349993,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Statue",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "15 min",
+   "moment": "En passant, entre la Grand-Place et les fresques BD de la rue de l'Étuve",
+   "enfants": true,
+   "texte": "Le plus célèbre Bruxellois mesure 55 cm et fait pipi depuis 1619. Il possède plus de 1 000 costumes, qu'on lui enfile plusieurs fois par semaine au son d'une fanfare : le voir habillé en Elvis ou en Père Noël fait partie du folklore.",
+   "site_officiel": "https://www.mannekenpis.brussels/fr/",
+   "note": "La statue est petite et toujours entourée de monde : n'en attendez pas plus que dix minutes de visite. Ses costumes sont exposés au GardeRobe MannekenPis, rue du Chêne 19.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Trougnouf",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AManneken_Pis%2C_Brussels_%28DSCF4467%29.jpg",
+    "src": "img/activites/BRU/manneken-pis.jpg"
+   }
+  },
+  {
+   "id": "galeries",
+   "nom": "Galeries royales Saint-Hubert",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Îlot Sacré",
+   "lat": 50.848192,
+   "lng": 4.355129,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Passage couvert",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Un jour de pluie, ou le soir quand les vitrines s'allument",
+   "enfants": true,
+   "texte": "Les premières grandes galeries couvertes d'Europe (1847) : plus de 200 m sous une verrière, entre chocolatiers, librairies, théâtre et cafés chics. Le décor idéal pour goûter les pralines des grandes maisons belges, au sec.",
+   "site_officiel": "https://grandplace.brussels/fr/patrimoine/galeries-royales-saint-hubert",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGaleries_royales_Saint-Hubert%2C_Bruselas%2C_B%C3%A9lgica%2C_2021-12-15%2C_DD_14-16_HDR.jpg",
+    "src": "img/activites/BRU/galeries.jpg"
+   }
+  },
+  {
+   "id": "parcours-bd",
+   "nom": "Fresques du parcours BD",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Centre et Marolles",
+   "lat": 50.845352,
+   "lng": 4.350259,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Fresques dans la rue",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 à 2 h",
+   "moment": "En journée, carte du parcours dans le téléphone",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Tintin et le capitaine Haddock qui dévalent un escalier de secours, Gaston, Lucky Luke, Néron, Spirou… Plus de 80 fresques de bande dessinée couvrent les murs de la ville. Une balade qui tourne à la chasse au trésor, et des photos qu'on ne fait nulle part ailleurs.",
+   "site_officiel": "https://www.cbbd.be/fr/visites-guidees/parcours-bd",
+   "note": "La fresque de Tintin est rue de l'Étuve, à deux pas du Manneken-Pis : commencez par là.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ferran Cornellà",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AComic_Mural_Tintin%2C_Herg%C3%A9%2C_Bruxelles.jpg",
+    "src": "img/activites/BRU/parcours-bd.jpg"
+   }
+  },
+  {
+   "id": "sablon",
+   "nom": "Le Sablon",
+   "emoji": "🏺",
+   "type": "balade",
+   "quartier": "Sablon",
+   "lat": 50.841179,
+   "lng": 4.354864,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Place, église et jardin",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le samedi (9 h-18 h) ou le dimanche matin (9 h-14 h), pendant le marché des antiquaires",
+   "enfants": true,
+   "texte": "Le quartier élégant de Bruxelles : l'église gothique Notre-Dame du Sablon et ses vitraux éclairés de l'intérieur le soir, les antiquaires, les terrasses et les vitrines des grands chocolatiers. Juste en face, le petit jardin du Petit Sablon et ses 48 statues des métiers anciens.",
+   "site_officiel": "https://www.visit.brussels/fr/visiteurs/organisez-votre-sejour/sablon",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "MeCorbeau",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlace_du_Grand_Sablon_and_Notre-Dame_du_Sablon.jpg",
+    "src": "img/activites/BRU/sablon.jpg"
+   }
+  },
+  {
+   "id": "mont-des-arts",
+   "nom": "Mont des Arts",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Mont des Arts",
+   "lat": 50.843795,
+   "lng": 4.356819,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardin et panorama",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "Au coucher du soleil, ou à la nuit tombée",
+   "enfants": true,
+   "texte": "Le plus beau point de vue du centre : un jardin à la française en escalier, d'où la flèche de l'hôtel de ville se détache au-dessus des toits de la ville basse. Au coucher du soleil, c'est le rendez-vous des photographes et des Bruxellois.",
+   "site_officiel": "https://www.visit.brussels/fr/visiteurs/lieux/mont-des-arts",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Trougnouf (Benoit Brummer)",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_from_Mont_des_Arts_during_civil_twilight_%28DSCF8292%29.jpg",
+    "src": "img/activites/BRU/mont-des-arts.jpg"
+   }
+  },
+  {
+   "id": "marolles",
+   "nom": "Marolles et marché aux puces",
+   "emoji": "🧺",
+   "type": "balade",
+   "quartier": "Marolles",
+   "lat": 50.837004,
+   "lng": 4.345841,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Marché et quartier",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 à 2 h",
+   "moment": "Le matin : le marché ouvre à 6 h et remballe vers 14 h (15 h le week-end)",
+   "enfants": true,
+   "texte": "Le vieux quartier populaire au pied du palais de justice. Tous les matins, le marché aux puces de la place du Jeu de Balle déballe meubles, vinyles, vieilles cartes postales et bibelots à même les pavés ; rue Haute et rue Blaes, brocantes, boutiques vintage et cafés complètent la chasse.",
+   "site_officiel": "https://www.visit.brussels/fr/visiteurs/lieux/marche-aux-puces-du-vieux-marche-de-la-place-du-jeu-de-balle",
+   "note": "Juste à côté, l'ascenseur public de la place Poelaert (gratuit) monte vers une terrasse avec vue sur toute la ville basse.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "DimiTalen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFlea_market_at_Place_du_Jeu_de_Balle%2C_Brussels%2C_2024.jpg",
+    "src": "img/activites/BRU/marolles.jpg"
+   }
+  },
+  {
+   "id": "cathedrale",
+   "nom": "Cathédrale Saints-Michel-et-Gudule",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Centre (Gare Centrale)",
+   "lat": 50.847843,
+   "lng": 4.360061,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cathédrale",
+     "gratuit"
+    ],
+    [
+     "Crypte et trésor",
+     "quelques euros, sur place"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Par une journée ensoleillée, pour les vitraux du XVIe siècle",
+   "enfants": true,
+   "texte": "Deux tours blanches gothiques qui dominent la ville depuis cinq siècles. À l'intérieur, des vitraux Renaissance offerts par Charles Quint, une chaire en bois sculpté où Adam et Ève fuient le paradis, et les grands mariages royaux de Belgique.",
+   "site_officiel": "https://www.cathedralisbruxellensis.be/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACatedral_de_San_Miguel_y_Santa_G%C3%BAdula_de_Bruselas%2C_B%C3%A9lgica%2C_2021-12-15%2C_DD_19-21_HDR.jpg",
+    "src": "img/activites/BRU/cathedrale.jpg"
+   }
+  },
+  {
+   "id": "atomium",
+   "nom": "Atomium",
+   "emoji": "⚛️",
+   "type": "vue",
+   "quartier": "Heysel (Laeken)",
+   "lat": 50.894941,
+   "lng": 4.341547,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Adulte",
+     17
+    ],
+    [
+     "Enfant de plus de 1,15 m (jusqu'à 17 ans)",
+     9
+    ],
+    [
+     "Enfant de moins de 1,15 m",
+     "gratuit"
+    ],
+    [
+     "Combiné Atomium + Mini-Europe (adulte)",
+     35
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille ; la file peut être longue aux beaux jours",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin d'après-midi, pour la vue depuis la boule du sommet ; ouvert tous les jours de 10 h à 18 h",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un cristal de fer agrandi 165 milliards de fois pour l'Expo 58 : neuf boules d'acier reliées par des escalators et des tubes lumineux, et tout en haut, à 92 m, une vue sur tout Bruxelles. Le monument le plus photographié de Belgique, aussi spectaculaire dedans que dehors.",
+   "site_officiel": "https://www.atomium.be/",
+   "partenaire": "tiqets",
+   "note": "À 25 minutes du centre en métro (ligne 6, arrêt Heysel). Mini-Europe est juste à côté : le billet combiné fait économiser quelques euros.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Trougnouf (Benoit Brummer)",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Atomium_during_civil_twilight_%28DSCF1135%29.jpg",
+    "src": "img/activites/BRU/atomium.jpg"
+   }
+  },
+  {
+   "id": "mini-europe",
+   "nom": "Mini-Europe",
+   "emoji": "🏰",
+   "type": "sortir",
+   "quartier": "Heysel (Laeken)",
+   "lat": 50.894164,
+   "lng": 4.338744,
+   "prix": 21.7,
+   "prix_detail": [
+    [
+     "Adulte",
+     21.7
+    ],
+    [
+     "Enfant de moins de 12 ans",
+     15.3
+    ],
+    [
+     "Enfant de moins de 1,15 m",
+     "gratuit"
+    ],
+    [
+     "Combiné Atomium + Mini-Europe (adulte)",
+     35
+    ]
+   ],
+   "tarifs": {
+    "adulte": 21.7,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      11,
+      15.3
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne (un peu moins cher qu'à la caisse)",
+   "duree": "2 h",
+   "moment": "Le même jour que l'Atomium, juste à côté",
+   "enfants": true,
+   "texte": "Toute l'Europe à l'échelle 1/25 dans un grand jardin : Big Ben, la tour Eiffel, les canaux de Venise, le Vésuve qui gronde et Ariane 5 qui décolle. Les enfants courent d'un pays à l'autre en appuyant sur les boutons qui animent les maquettes.",
+   "site_officiel": "https://www.minieurope.com/fr/",
+   "partenaire": "tiqets",
+   "note": "Parc saisonnier : ouvert du 14 mars 2026 au 3 janvier 2027, fermé en janvier et février.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Netha Hussain",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAntwerp_in_Mini_Europe_01.jpg",
+    "src": "img/activites/BRU/mini-europe.jpg"
+   }
+  },
+  {
+   "id": "beaux-arts",
+   "nom": "Musée Old Masters (Beaux-Arts)",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Quartier royal",
+   "lat": 50.84153,
+   "lng": 4.358156,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Adulte",
+     13
+    ],
+    [
+     "Combiné avec le musée Magritte",
+     20
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er mercredi du mois dès 13 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le matin, en semaine ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le grand musée de peinture de Belgique : les Bruegel, Rubens et Jordaens, Jérôme Bosch, et La Mort de Marat de David. Six siècles de peinture flamande dans un palais néoclassique, à deux pas de la place Royale.",
+   "site_officiel": "https://fine-arts-museum.be/fr",
+   "note": "Le même bâtiment abrite le musée Magritte : le billet combiné (20 €) vaut le coup si vous faites les deux.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Neoclassicism Enthusiast",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_main_hall_of_the_Royal_Museums_of_Fine_Arts_of_Belgium_3.jpg",
+    "src": "img/activites/BRU/beaux-arts.jpg"
+   }
+  },
+  {
+   "id": "magritte",
+   "nom": "Musée Magritte",
+   "emoji": "🎩",
+   "type": "culture",
+   "quartier": "Quartier royal",
+   "lat": 50.84238,
+   "lng": 4.358876,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Adulte",
+     13
+    ],
+    [
+     "Combiné avec le musée Old Masters",
+     20
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er mercredi du mois dès 13 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne quelques jours avant le week-end",
+   "duree": "1 h 30",
+   "moment": "À l'ouverture (10 h) ; fermé le lundi",
+   "enfants": true,
+   "texte": "La plus grande collection au monde de René Magritte : plus de 200 œuvres, des chapeaux melon flottant dans le ciel aux pommes qui cachent les visages. Le surréalisme belge raconté dans un bel hôtel particulier de la place Royale.",
+   "site_officiel": "https://musee-magritte-museum.be/fr",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "VitVit",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrusel_Kr%C3%A1lovsk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD.jpg",
+    "src": "img/activites/BRU/magritte.jpg"
+   }
+  },
+  {
+   "id": "horta",
+   "nom": "Musée Horta",
+   "emoji": "🌿",
+   "type": "culture",
+   "quartier": "Saint-Gilles (Châtelain)",
+   "lat": 50.824197,
+   "lng": 4.355436,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte",
+     14
+    ],
+    [
+     "6 à 17 ans",
+     3.5
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "1er dimanche du mois",
+     "gratuit (réserver quand même)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      3.5
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "créneau horaire en ligne 1 à 2 semaines avant : les places sont limitées",
+   "duree": "1 h",
+   "moment": "L'après-midi ; fermé le lundi",
+   "enfants": false,
+   "texte": "La maison que Victor Horta, père de l'Art nouveau, s'est construite en 1898 : escalier en fer forgé qui s'enroule comme une liane, verrière dorée, poignées de porte dessinées une à une. Classée par l'Unesco, c'est l'une des plus belles maisons d'Europe.",
+   "site_officiel": "https://hortamuseum.be/fr",
+   "note": "Pièces étroites et décors fragiles : sacs à dos interdits, photos sans flash. Des travaux de restauration sont en cours jusqu'en novembre 2026, le musée reste ouvert.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Busoni",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMaison_Horta%2C_d%C3%A9tail_de_la_fa%C3%A7ade.JPG",
+    "src": "img/activites/BRU/horta.jpg"
+   }
+  },
+  {
+   "id": "cbbd",
+   "nom": "Musée de la Bande Dessinée",
+   "emoji": "💬",
+   "type": "culture",
+   "quartier": "Centre (De Brouckère)",
+   "lat": 50.85101,
+   "lng": 4.360036,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte",
+     14
+    ],
+    [
+     "12 à 25 ans",
+     11
+    ],
+    [
+     "6 à 11 ans",
+     6
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      11,
+      6
+     ],
+     [
+      17,
+      11
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30 à 2 h",
+   "moment": "N'importe quand ; fermé le lundi (sauf en juillet-août)",
+   "enfants": true,
+   "texte": "Tintin, les Schtroumpfs, Spirou et Lucky Luke dans un magasin de tissus Art nouveau dessiné par Victor Horta. La fusée lunaire à damier rouge et blanc vous accueille dans le hall : le pays de la BD se visite ici.",
+   "site_officiel": "https://www.cbbd.be/fr",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Goiffon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACentre_belge_de_la_BD_2017.jpg",
+    "src": "img/activites/BRU/cbbd.jpg"
+   }
+  },
+  {
+   "id": "mim",
+   "nom": "Musée des instruments de musique (MIM)",
+   "emoji": "🎻",
+   "type": "culture",
+   "quartier": "Mont des Arts",
+   "lat": 50.842928,
+   "lng": 4.357544,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Adulte",
+     18
+    ],
+    [
+     "65 ans et plus",
+     14
+    ],
+    [
+     "18 à 25 ans",
+     7
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er mercredi du mois dès 13 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En semaine (ouvert dès 9 h 30) ; fermé le lundi",
+   "enfants": true,
+   "texte": "Plus de 1 000 instruments du monde entier, que l'on écoute dans un casque en passant devant chaque vitrine. Le tout dans Old England, un ancien grand magasin Art nouveau en fer et en verre, l'un des plus beaux bâtiments de la ville.",
+   "site_officiel": "https://www.mim.be/fr",
+   "note": "Le restaurant panoramique du dernier étage est fermé pour rénovation.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ad Meskens",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrussels_Music_instruments_museum_Old_England_building_09.jpg",
+    "src": "img/activites/BRU/mim.jpg"
+   }
+  },
+  {
+   "id": "parlamentarium",
+   "nom": "Parlamentarium",
+   "emoji": "🇪🇺",
+   "type": "culture",
+   "quartier": "Quartier européen",
+   "lat": 50.840089,
+   "lng": 4.374328,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En semaine ou le week-end (ouvert 7 jours sur 7)",
+   "enfants": true,
+   "texte": "Le centre des visiteurs du Parlement européen : écrans géants, carte interactive au sol et jeu de rôle pour comprendre comment se votent les lois de 27 pays. Gratuit, ludique, et dans votre langue grâce à un guide multimédia.",
+   "site_officiel": "https://visiting.europarl.europa.eu/fr/visitor-offer/brussels/parlamentarium",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FrDr",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParlamentarium_50.jpg",
+    "src": "img/activites/BRU/parlamentarium.jpg"
+   }
+  },
+  {
+   "id": "sciences-naturelles",
+   "nom": "Muséum des Sciences naturelles",
+   "emoji": "🦕",
+   "type": "culture",
+   "quartier": "Quartier européen",
+   "lat": 50.836424,
+   "lng": 4.376435,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte (26 ans et plus)",
+     15
+    ],
+    [
+     "3 à 25 ans",
+     6
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 à 3 h",
+   "moment": "Un jour de pluie avec des enfants ; fermé le lundi",
+   "enfants": true,
+   "texte": "La plus grande galerie de dinosaures d'Europe, avec une trentaine d'iguanodons découverts entiers dans une mine belge en 1878. Puis l'évolution de la vie, les minéraux qui brillent dans le noir et une galerie de l'Homme qui passionne petits et grands.",
+   "site_officiel": "https://www.naturalsciences.be/fr/musee",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ben2",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIguanodon_de_Bernissart_IRSNB_01.JPG",
+    "src": "img/activites/BRU/sciences-naturelles.jpg"
+   }
+  },
+  {
+   "id": "koekelberg",
+   "nom": "Basilique de Koekelberg",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Koekelberg",
+   "lat": 50.86708,
+   "lng": 4.316937,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Basilique",
+     "gratuit"
+    ],
+    [
+     "Panorama (terrasse de la coupole)",
+     8
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Par temps clair, en fin d'après-midi ; fermé le lundi",
+   "enfants": true,
+   "texte": "L'une des plus grandes églises du monde, toute en briques et en Art déco. Un ascenseur et quelques marches mènent à la terrasse de la coupole, à 53 m : de là, tout Bruxelles s'étale jusqu'à l'Atomium.",
+   "site_officiel": "https://www.basilicakoekelberg.be/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Markus Koljonen ( Dilaudid )",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABasilica_of_the_Sacred_Heart.jpg",
+    "src": "img/activites/BRU/koekelberg.jpg"
+   }
+  },
+  {
+   "id": "cinquantenaire",
+   "nom": "Parc du Cinquantenaire",
+   "emoji": "🏛️",
+   "type": "nature",
+   "quartier": "Quartier européen",
+   "lat": 50.840096,
+   "lng": 4.392698,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et arcades",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Un après-midi ensoleillé, pique-nique sur les pelouses",
+   "enfants": true,
+   "texte": "Un arc de triomphe monumental surmonté d'un quadrige de bronze, construit pour les 50 ans de la Belgique, au bout d'un grand parc à la française. Autour, trois musées : armes et avions, voitures anciennes (Autoworld), art et histoire.",
+   "site_officiel": "https://www.visit.brussels/fr/visiteurs/lieux/parc-du-cinquantenaire",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Val choko",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2043-00890_Parc_du_Cinquantenaire_-_Arcade_centrale_%286%29.JPG",
+    "src": "img/activites/BRU/cinquantenaire.jpg"
+   }
+  },
+  {
+   "id": "bois-cambre",
+   "nom": "Bois de la Cambre",
+   "emoji": "🌳",
+   "type": "nature",
+   "quartier": "Avenue Louise (sud)",
+   "lat": 50.806594,
+   "lng": 4.378059,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc",
+     "gratuit"
+    ],
+    [
+     "Bac pour le Chalet Robinson",
+     "quelques euros"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 à 2 h",
+   "moment": "Le week-end, quand les routes du bois sont fermées aux voitures ; superbe en automne",
+   "enfants": true,
+   "texte": "Le grand poumon vert des Bruxellois, au bout de l'avenue Louise : pelouses immenses, lac avec une île où l'on accède par un petit bac, et le chalet Robinson pour une boisson au milieu de l'eau. Il se prolonge par la forêt de Soignes et ses hêtres géants.",
+   "site_officiel": "https://www.visit.brussels/fr/visiteurs/lieux/bois-de-la-cambre",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Aktron",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrusel%2C_Bois_de_la_Cambre%2C_jezero.jpg",
+    "src": "img/activites/BRU/bois-cambre.jpg"
+   }
+  },
+  {
+   "id": "bruges",
+   "nom": "Journée à Bruges",
+   "emoji": "🚤",
+   "type": "nature",
+   "quartier": "Bruges (1 h de train)",
+   "lat": 51.207136,
+   "lng": 3.2275,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Train aller-retour (2de classe)",
+     "≈ 35 €"
+    ],
+    [
+     "Moins de 12 ans (avec un adulte)",
+     "gratuit"
+    ],
+    [
+     "Promenade en bateau sur les canaux",
+     "≈ 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une journée",
+   "moment": "En semaine, pour éviter la foule du week-end ; partez tôt le matin",
+   "enfants": true,
+   "texte": "La « Venise du Nord » à une heure de train : canaux bordés de maisons à pignons, beffroi de 83 m, béguinage paisible et ses cygnes. Une promenade en bateau sur les canaux et une gaufre sur la Grand-Place, et la journée est parfaite.",
+   "site_officiel": "https://www.visitbruges.be/fr",
+   "note": "Trains directs toutes les 30 minutes depuis les gares du Midi, Centrale et du Nord. Billet en ligne ou dans l'application de la SNCB ; moins cher le week-end en aller-retour.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ank Kumar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARozenhoedkaai_%28canal%29_and_Belfry_of_Bruges%2C_Bruges%2C_Belgium_%28Ank_Kumar%2C_Infosys_Limited%29_05.jpg",
+    "src": "img/activites/BRU/bruges.jpg"
+   }
+  },
+  {
+   "id": "gand",
+   "nom": "Journée à Gand",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Gand (35 min de train)",
+   "lat": 51.054814,
+   "lng": 3.720771,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Train aller-retour (2de classe)",
+     "≈ 22 €"
+    ],
+    [
+     "Moins de 12 ans (avec un adulte)",
+     "gratuit"
+    ],
+    [
+     "Retable de L'Agneau mystique (cathédrale)",
+     "≈ 16 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une journée",
+   "moment": "Restez jusqu'au soir : les quais de la Lys sont illuminés",
+   "enfants": true,
+   "texte": "Plus vivante et moins touristique que Bruges : un château fort médiéval en pleine ville, les quais de la Graslei et leurs façades de guildes, et L'Agneau mystique des frères Van Eyck, l'un des chefs-d'œuvre de la peinture mondiale.",
+   "site_officiel": "https://visit.gent.be/fr",
+   "note": "Trains directs toutes les 15 à 30 minutes depuis Bruxelles (gare de Gand-Saint-Pierre, puis 10 min de tram jusqu'au centre).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Martinvl",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGraslei_Ghent.jpg",
+    "src": "img/activites/BRU/gand.jpg"
+   }
+  },
+  {
+   "id": "waterloo",
+   "nom": "Champ de bataille de Waterloo",
+   "emoji": "🦁",
+   "type": "culture",
+   "quartier": "Braine-l'Alleud (20 km au sud)",
+   "lat": 50.678446,
+   "lng": 4.404822,
+   "prix": 25.5,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     25.5
+    ],
+    [
+     "Adulte (sur place)",
+     29
+    ],
+    [
+     "10 à 17 ans (en ligne)",
+     15.25
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25.5,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      17,
+      15.25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille (moins cher)",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, pour monter sur la Butte du Lion avant la foule ; autour du 18 juin, bivouacs et reconstitutions",
+   "enfants": true,
+   "texte": "Là où Napoléon a perdu son empire le 18 juin 1815. Un musée sous terre avec un film en 4D, un panorama peint de 110 m de long, la ferme d'Hougoumont et les 226 marches de la Butte du Lion, d'où l'on voit tout le champ de bataille.",
+   "site_officiel": "https://waterloo1815.be/",
+   "note": "Accès en 45 min : train jusqu'à Braine-l'Alleud puis bus, ou bus W depuis la gare du Midi. Le billet donne accès aux quatre sites du domaine.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Flocci Nivis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALion%27s_Mound.jpg",
+    "src": "img/activites/BRU/waterloo.jpg"
+   }
+  },
+  {
+   "id": "cantillon",
+   "nom": "Brasserie Cantillon",
+   "emoji": "🍺",
+   "type": "sortir",
+   "quartier": "Anderlecht (près de la gare du Midi)",
+   "lat": 50.841575,
+   "lng": 4.335615,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Visite libre + 3 bières à goûter",
+     9
+    ],
+    [
+     "Samedi : visite guidée (réservation obligatoire)",
+     13
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit (sans dégustation)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation lundi, mardi, jeudi et vendredi de 10 h à 16 h ; en ligne pour le samedi",
+   "duree": "1 h",
+   "moment": "En semaine, le matin ; fermé le mercredi, le dimanche et les jours fériés",
+   "enfants": false,
+   "texte": "La dernière brasserie de lambic de Bruxelles, inchangée depuis 1900 : cuves de cuivre, greniers où la bière fermente à l'air libre grâce aux levures sauvages de la ville, et des centaines de tonneaux de chêne. On repart après avoir goûté un lambic, une gueuze et une kriek.",
+   "site_officiel": "https://www.cantillon.be/visites",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Abujoy",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrasserie_Cantillon_12.jpg",
+    "src": "img/activites/BRU/cantillon.jpg"
+   }
+  },
+  {
+   "id": "beer-world",
+   "nom": "Belgian Beer World",
+   "emoji": "🍻",
+   "type": "sortir",
+   "quartier": "Bourse",
+   "lat": 50.847828,
+   "lng": 4.34912,
+   "prix": 21.5,
+   "prix_detail": [
+    [
+     "Adulte (avec dégustation)",
+     21.5
+    ],
+    [
+     "16 à 25 ans",
+     15.5
+    ],
+    [
+     "12 à 15 ans (boisson sans alcool)",
+     12
+    ],
+    [
+     "4 à 11 ans",
+     8
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 21.5,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      8
+     ],
+     [
+      15,
+      12
+     ],
+     [
+      17,
+      15.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créneau en ligne la veille le week-end",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, pour finir sur le toit-terrasse ; ouvert tous les jours",
+   "enfants": true,
+   "texte": "L'ancienne Bourse de Bruxelles, palais néo-Renaissance rénové, raconte la bière belge (inscrite au patrimoine de l'Unesco) en parcours interactif. La visite se termine au bar panoramique sur le toit, une bière à la main, face aux toits du centre.",
+   "site_officiel": "https://www.belgianbeerworld.be/fr",
+   "partenaire": "tiqets",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FrDr",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABelgian_Beer_World_41.jpg",
+    "src": "img/activites/BRU/beer-world.jpg"
+   }
+  },
+  {
+   "id": "toone",
+   "nom": "Théâtre royal de Toone",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Îlot Sacré",
+   "lat": 50.847232,
+   "lng": 4.353413,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Spectacle de marionnettes",
+     "dès 20 €"
+    ],
+    [
+     "Estaminet (café)",
+     "entrée libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant : petite salle",
+   "duree": "2 h",
+   "moment": "Le soir, du jeudi au samedi ; l'estaminet est ouvert du mercredi au dimanche",
+   "enfants": false,
+   "texte": "Au bout d'une ruelle de l'Îlot Sacré, un théâtre de marionnettes à tringle tenu par la même lignée de montreurs depuis 1830. Les Trois Mousquetaires ou Faust y sont joués en brusseleer, le patois de Bruxelles, avec un humour qui fait rire même sans tout comprendre. L'estaminet en bas sert de vieilles bières belges.",
+   "site_officiel": "https://www.toone.be/",
+   "note": "Certains spectacles sont joués en français : vérifiez la langue avant de réserver. Peu adapté aux jeunes enfants (soirée longue, humour pour adultes).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bdx",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStage_of_the_Royal_Toone_Theatre.jpg",
+    "src": "img/activites/BRU/toone.jpg"
+   }
+  },
+  {
+   "id": "anderlecht",
+   "nom": "Match du RSC Anderlecht",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Anderlecht (Lotto Park)",
+   "lat": 50.83402,
+   "lng": 4.297856,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Place en tribune (prix estimé)",
+     "≈ 25 à 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "sur la billetterie officielle du club dès la mise en vente ; le derby contre l'Union Saint-Gilloise affiche complet",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pour l'ambiance des tribunes mauves",
+   "enfants": true,
+   "club": "RSC Anderlecht",
+   "texte": "Le club le plus titré de Belgique (34 titres de champion) joue au Lotto Park, un stade de 22 000 places à l'anglaise où les tribunes sont collées au terrain. Chants en néerlandais et en français, écharpes mauves et frites à la mi-temps.",
+   "site_officiel": "https://www.rsca.be/fr",
+   "note": "Achetez uniquement sur la billetterie officielle du club : les revendeurs prennent de grosses marges. Une carte de supporter (gratuite) peut être demandée à l'achat.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dirk Grosemans",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AConstant_Vanden_Stockstadion%2C_Anderlecht.jpg",
+    "src": "img/activites/BRU/anderlecht.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Grand-Place et Îlot Sacré",
+   "lat": 50.8466,
+   "lng": 4.3528,
+   "texte": "Le cœur historique : Grand-Place, Galeries Saint-Hubert, Manneken-Pis et musées à quelques minutes à pied. Parfait pour un premier séjour, mais animé tard le soir et un peu plus cher."
+  },
+  {
+   "id": "sainte-catherine",
+   "nom": "Sainte-Catherine et Dansaert",
+   "lat": 50.8505,
+   "lng": 4.3465,
+   "texte": "L'ancien port de Bruxelles, devenu le quartier des restaurants de poisson, des créateurs de mode de la rue Dansaert et des bars branchés. Vivant, central (la Grand-Place est à 10 minutes) et plein de bonnes tables."
+  },
+  {
+   "id": "sablon",
+   "nom": "Sablon et quartier royal",
+   "lat": 50.8415,
+   "lng": 4.3555,
+   "texte": "Le Bruxelles élégant, entre la place Royale, les grands musées, les antiquaires et les chocolatiers du Sablon. Calme le soir, à 10 minutes à pied de la Grand-Place, avec les Marolles juste en contrebas."
+  },
+  {
+   "id": "louise",
+   "nom": "Louise et Châtelain (Ixelles)",
+   "lat": 50.8285,
+   "lng": 4.3605,
+   "texte": "Le quartier chic et résidentiel du sud : avenue Louise et ses boutiques, maisons Art nouveau, musée Horta, bistrots et brunchs du Châtelain, étangs d'Ixelles. Le centre est à 10 minutes en tram ou en métro."
+  },
+  {
+   "id": "europeen",
+   "nom": "Quartier européen et Cinquantenaire",
+   "lat": 50.8395,
+   "lng": 4.38,
+   "texte": "Le quartier des institutions européennes, du Parlamentarium et du parc du Cinquantenaire. Beaucoup d'hôtels d'affaires, souvent moins chers le week-end ; calme le soir, le centre est à 10 minutes de métro."
+  }
+ ],
+ "hotel_petit_prix_max": 100,
+ "restaurants": [
+  {
+   "id": "fin-de-siecle",
+   "nom": "Fin de Siècle",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine bruxelloise",
+   "quartier": "Sainte-Catherine",
+   "adresse": "Rue des Chartreux 9, 1000 Bruxelles",
+   "lat": 50.848913,
+   "lng": 4.347099,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La cantine préférée des Bruxellois : grandes tablées, menu à la craie et portions généreuses de carbonnade à la bière, de stoemp (purée de légumes) ou de jambonneau. Pas de chichis, pas de réservation, et une ambiance qui monte dès 19 h.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture (vers 18 h) ou attendez au bar",
+   "photo": {
+    "auteur": "Francisco Antunes",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACarbonnade_flamande_%C3%A0_la_bi%C3%A8re.jpg",
+    "src": "img/restos/BRU/fin-de-siecle.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "noordzee",
+   "nom": "Noordzee – Mer du Nord",
+   "emoji": "🦐",
+   "gamme": "petit",
+   "genre": "Comptoir de poisson",
+   "quartier": "Sainte-Catherine",
+   "adresse": "Rue Sainte-Catherine 45, 1000 Bruxelles",
+   "lat": 50.850293,
+   "lng": 4.347658,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une poissonnerie de quartier devenue l'apéro le plus couru de la ville : on commande au comptoir des croquettes aux crevettes grises, une soupe de poisson ou des scampis à l'ail, et on mange debout autour des tables hautes sur le trottoir, un verre de vin blanc à la main.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on mange debout dehors, la file avance vite",
+   "photo": {
+    "auteur": "Michel wal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABruxelles_rue_Sainte-Catherine_45.JPG",
+    "src": "img/restos/BRU/noordzee.jpg"
+   }
+  },
+  {
+   "id": "frit-flagey",
+   "nom": "Frit Flagey",
+   "emoji": "🍟",
+   "gamme": "petit",
+   "genre": "Friterie",
+   "quartier": "Flagey (Ixelles)",
+   "adresse": "Place Eugène Flagey, 1050 Ixelles",
+   "lat": 50.82835,
+   "lng": 4.372397,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La baraque à frites la plus célèbre de Bruxelles, au pied du paquebot Art déco de Flagey. Frites croustillantes cuites deux fois, servies en cornet avec une sauce andalouse ou samouraï : à manger sur un banc au bord des étangs d'Ixelles.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file aux heures des repas, le service est rapide",
+   "photo": {
+    "auteur": "Trougnouf (Benoit Brummer)",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFrit_Flagey_in_Brussels%2C_Belgium_%28DSCF0984%29.jpg",
+    "src": "img/restos/BRU/frit-flagey.jpg"
+   }
+  },
+  {
+   "id": "tonton-garby",
+   "nom": "Tonton Garby",
+   "emoji": "🥖",
+   "gamme": "petit",
+   "genre": "Sandwichs",
+   "quartier": "Grand-Place",
+   "adresse": "Rue Duquesnoy 6, 1000 Bruxelles",
+   "lat": 50.845149,
+   "lng": 4.354843,
+   "prix": "7 à 12 €",
+   "prix_min": 7,
+   "texte": "Une minuscule échoppe à deux pas de la Grand-Place, où le patron compose devant vous des sandwichs aux fromages affinés et charcuteries choisies, en vous faisant goûter chaque ingrédient. Une trentaine de recettes, et une file qui ne désemplit pas le midi.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : en journée, file vers 12 h 30",
+   "photo": {
+    "auteur": "Nat",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASandwichs_classiques.jpg",
+    "src": "img/restos/BRU/tonton-garby.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "wolf",
+   "nom": "Wolf",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Halle gourmande",
+   "quartier": "Monnaie (centre)",
+   "adresse": "Rue du Fossé aux Loups 50, 1000 Bruxelles",
+   "lat": 50.849921,
+   "lng": 4.35627,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "texte": "Une ancienne banque transformée en grande halle de cuisine du monde : une quinzaine de comptoirs (ramen, cuisine syrienne, pizzas, desserts), des bières belges à la pression et de longues tables où chacun mange ce qu'il veut. Pratique pour un groupe qui n'arrive pas à se mettre d'accord.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on commande aux comptoirs",
+   "photo": {
+    "auteur": "Fred Romero from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABruxelles_-_Former_Si%C3%A8ge_de_la_Caisse_G%C3%A9n%C3%A9rale_d%27%C3%89pargne_et_de_Retraite_%284%29.jpg",
+    "src": "img/restos/BRU/wolf.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pasta-divina",
+   "nom": "Pasta Divina",
+   "emoji": "🍝",
+   "gamme": "petit",
+   "genre": "Pâtes fraîches",
+   "quartier": "Grand-Place",
+   "adresse": "Rue de la Montagne 16, 1000 Bruxelles",
+   "lat": 50.846914,
+   "lng": 4.354987,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "texte": "Une petite salle familiale près de la Grand-Place qui ne fait qu'une chose, et la fait très bien : des pâtes fraîches maison, à marier soi-même avec une sauce du jour. Une adresse sûre, loin des pièges à touristes de la rue des Bouchers.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir : la salle est petite",
+   "photo": {
+    "auteur": "David Adam Kess",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%28Pasta%29_by_David_Adam_Kess_%28pic.2%29.jpg",
+    "src": "img/restos/BRU/pasta-divina.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nuetnigenough",
+   "nom": "Nüetnigenough",
+   "emoji": "🍺",
+   "gamme": "moyen",
+   "genre": "Cuisine à la bière",
+   "quartier": "Grand-Place",
+   "adresse": "Rue du Lombard 25, 1000 Bruxelles",
+   "lat": 50.845856,
+   "lng": 4.349844,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "texte": "Une brasserie à la façade Art nouveau où les plats belges mijotent à la bière : carbonnade, stoemp, boulettes. La carte des bières est longue comme le bras, et l'équipe sait conseiller celle qui va avec votre assiette.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : dès 17 h en semaine, dès midi le week-end ; venez tôt",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACarbonade_flamande_1.jpg",
+    "src": "img/restos/BRU/nuetnigenough.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "spinnekopke",
+   "nom": "In 't Spinnekopke",
+   "emoji": "🕸️",
+   "gamme": "moyen",
+   "genre": "Estaminet bruxellois",
+   "quartier": "Dansaert",
+   "adresse": "Place du Jardin aux Fleurs 1, 1000 Bruxelles",
+   "lat": 50.848409,
+   "lng": 4.343571,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une auberge de 1762 aux murs blancs, poutres basses et nappes à carreaux, sur une petite place tranquille. On y mange les classiques bruxellois cuisinés à la bière : lapin à la gueuze, anguilles au vert, moules et waterzooi.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le vendredi ou le samedi soir",
+   "photo": {
+    "auteur": "Michel wal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABruxelles_place_du_Jardin-aux-Fleurs_1-2.jpg",
+    "src": "img/restos/BRU/spinnekopke.jpg"
+   }
+  },
+  {
+   "id": "selecto",
+   "nom": "Le Selecto",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Bistronomie",
+   "quartier": "Sainte-Catherine",
+   "adresse": "Rue de Flandre 95, 1000 Bruxelles",
+   "lat": 50.852718,
+   "lng": 4.345921,
+   "prix": "45 à 60 €",
+   "prix_min": 44,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une salle blanche et animée, une ardoise qui change avec le marché, et une cuisine de bistrot très soignée : deux plats au choix pour 44 €, trois pour 52 €. Le Bib Gourmand de la rue de Flandre, rue la plus gourmande de Bruxelles.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, par téléphone ; ouvert du mardi au samedi",
+   "photo": {
+    "auteur": "Girdi",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AQuai_au_Bois_%C3%A0_Br%C3%BBler_et_quai_aux_Briques%2C_Bruxelles.jpg",
+    "src": "img/restos/BRU/selecto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vismet",
+   "nom": "Le Vismet",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Sainte-Catherine",
+   "adresse": "Place Sainte-Catherine 23, 1000 Bruxelles",
+   "lat": 50.851173,
+   "lng": 4.350118,
+   "prix": "45 à 65 €",
+   "prix_min": 45,
+   "texte": "Sur l'ancien marché aux poissons de Bruxelles, une table où le poisson arrive chaque matin de la mer du Nord : sole meunière, croquettes aux crevettes grises, moules en saison. Une cuisine franche et généreuse, avec terrasse sur la place aux beaux jours.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou l'avant-veille ; fermé le dimanche et le lundi",
+   "photo": {
+    "auteur": "Jay Cross from Berkeley, California, US",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASole_meuniere_%284689490702%29.jpg",
+    "src": "img/restos/BRU/vismet.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "osteria-bolognese",
+   "nom": "Osteria Bolognese",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Cuisine de Bologne",
+   "quartier": "Porte de Namur (Ixelles)",
+   "adresse": "Rue de la Paix 49, 1050 Ixelles",
+   "lat": 50.83633,
+   "lng": 4.366037,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une petite osteria qui défend la vraie cuisine de Bologne, avec des produits venus d'Émilie-Romagne : ses tagliatelles au ragù, citées par le Michelin, réconcilient avec les « spaghettis bolo ».",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant pour le week-end ; fermé le lundi",
+   "photo": {
+    "auteur": "wordridden (Flickr)",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATagliatelle_rag%C3%B9_bolognese_01.jpg",
+    "src": "img/restos/BRU/osteria-bolognese.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nenu",
+   "nom": "Nénu",
+   "emoji": "🥢",
+   "gamme": "moyen",
+   "genre": "Vietnamien",
+   "quartier": "Saint-Gilles",
+   "adresse": "Rue Dejoncker 21, 1060 Saint-Gilles",
+   "lat": 50.834227,
+   "lng": 4.354826,
+   "prix": "35 à 50 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Le Vietnam à partager, façon « nhậu » : de petites assiettes très parfumées qu'on commande à plusieurs autour de cocktails maison. Une des adresses qui ont fait de Bruxelles la capitale belge de la cuisine asiatique, saluée par le Michelin.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, en ligne",
+   "photo": {
+    "auteur": "Satdeep Gill",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACh%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_01.jpg",
+    "src": "img/restos/BRU/nenu.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "comme-chez-soi",
+   "nom": "Comme chez Soi",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Grande cuisine française",
+   "quartier": "Place Rouppe (Anneessens)",
+   "adresse": "Place Rouppe 23, 1000 Bruxelles",
+   "lat": 50.842362,
+   "lng": 4.345815,
+   "prix": "90 à 250 €",
+   "prix_min": 90,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La grande table historique de Bruxelles, tenue par la même famille depuis 1926. Salle Art nouveau inspirée de Victor Horta, filets de sole à la mousseline au riesling et aux crevettes grises : un siècle de gastronomie belge. Le menu du midi (90 €) est la meilleure porte d'entrée.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; déjeuner du mercredi au samedi",
+   "photo": {
+    "auteur": "edvvc",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABruxelles_Place_Rouppe.jpg",
+    "src": "img/restos/BRU/comme-chez-soi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bozar",
+   "nom": "Bozar Restaurant",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie (pâté en croûte)",
+   "quartier": "Mont des Arts",
+   "adresse": "Rue Baron Horta 3, 1000 Bruxelles",
+   "lat": 50.844186,
+   "lng": 4.359911,
+   "prix": "75 à 200 €",
+   "prix_min": 75,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Dans le palais des Beaux-Arts dessiné par Horta, le chef Karen Torosyan, champion du monde de pâté en croûte et chef de l'année 2026 pour le Gault & Millau, signe une cuisine de tradition française d'une précision rare. Deux étoiles Michelin, sans esbroufe.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant, surtout pour le dîner",
+   "photo": {
+    "auteur": "Fred Romero from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABruxelles_-_Palais_des_Beaux-Arts_%281%29.jpg",
+    "src": "img/restos/BRU/bozar.jpg"
+   }
+  },
+  {
+   "id": "villa-sky",
+   "nom": "La Villa in the Sky",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Gastronomie avec vue",
+   "quartier": "Avenue Louise",
+   "adresse": "Avenue Louise 480 (25e étage), 1050 Bruxelles",
+   "lat": 50.817146,
+   "lng": 4.372181,
+   "prix": "120 à 300 €",
+   "prix_min": 120,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une boîte de verre posée au 25e étage d'une tour de l'avenue Louise, à 120 m au-dessus de Bruxelles : la ville entière à vos pieds pendant un menu étoilé. Au coucher du soleil, l'un des dîners les plus spectaculaires de Belgique.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; fermé le dimanche et le lundi ; tenue correcte exigée",
+   "photo": {
+    "auteur": "Loginnigol",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIT_Tower%2C_Brussels.jpg",
+    "src": "img/restos/BRU/villa-sky.jpg"
+   }
+  },
+  {
+   "id": "kamo",
+   "nom": "Kamo",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Japonais (omakase)",
+   "quartier": "Châtelain (Ixelles)",
+   "adresse": "Chaussée de Waterloo 550A, 1050 Ixelles",
+   "lat": 50.8194,
+   "lng": 4.361489,
+   "prix": "90 à 150 €",
+   "prix_min": 90,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le chef Tomoyasu Kamo sert un menu japonais en plusieurs services, entre sushis d'une grande finesse et produits belges travaillés à la japonaise. Une étoile Michelin et une salle intime : à réserver pour une grande occasion.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant ; ouvert du lundi au vendredi seulement",
+   "photo": {
+    "auteur": "F ASTILY",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOmakase_1_2021-08-07.jpeg",
+    "src": "img/restos/BRU/kamo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "quincaillerie",
+   "nom": "La Quincaillerie",
+   "emoji": "🦪",
+   "gamme": "haut",
+   "genre": "Brasserie de fruits de mer",
+   "quartier": "Châtelain (Ixelles)",
+   "adresse": "Rue du Page 45, 1050 Ixelles",
+   "lat": 50.823193,
+   "lng": 4.358384,
+   "prix": "50 à 90 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une ancienne quincaillerie de 1903, dessinée par un élève de Horta, devenue brasserie de fruits de mer : grande horloge, tiroirs en bois jusqu'au plafond et galerie en fer forgé. Plateaux d'huîtres et de crustacés, homard et classiques belges dans l'un des plus beaux décors de Bruxelles.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le week-end",
+   "photo": {
+    "auteur": "Jean-Pierre Bazard Jpbazard",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALes_Hu%C3%AEtres_de_Trousse_Chemise_%2827%29.JPG",
+    "src": "img/restos/BRU/quincaillerie.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "humus-hortense",
+   "nom": "Humus x Hortense",
+   "emoji": "🌱",
+   "gamme": "haut",
+   "genre": "Cuisine végétale",
+   "quartier": "Flagey (Ixelles)",
+   "adresse": "Rue de Vergnies 2, 1050 Ixelles",
+   "lat": 50.829494,
+   "lng": 4.370422,
+   "prix": "100 à 200 €",
+   "prix_min": 97,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile et étoile verte Michelin",
+   "texte": "L'un des meilleurs restaurants de légumes au monde : un menu entièrement végétal qui suit les saisons et les récoltes d'une ferme sauvage, accordé à des cocktails de plantes. Une étoile Michelin et une étoile verte pour son engagement.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; du mercredi au samedi",
+   "photo": {
+    "auteur": "Guy Delsaut",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFlagey_in_2017_-_%C3%89tangs_d%27Ixelles_01.jpg",
+    "src": "img/restos/BRU/humus-hortense.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

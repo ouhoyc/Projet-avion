@@ -275,6 +275,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
   obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
   (8 €) et Tirana (4 €), comme le prix de l'activité du club local.
+- ✅ (24/10/2026) **Page guide de Bruxelles** (`guides/BRU.json`), préparée en autonomie : 27 activités (tendance :
+  Grand-Place, Atomium, fresques BD ; musées Old Masters, Magritte, Horta, BD, MIM, Sciences naturelles ; Cantillon,
+  Belgian Beer World, Toone ; match d'Anderlecht ; excursions Bruges, Gand, Waterloo), 18 restaurants (note pondérée,
+  C = 4,28, ~950 restaurants lus via 107 listes Wanderlog ; Michelin 2026 : Bozar 2 étoiles, Comme chez Soi, Villa in the
+  Sky, Kamo, Humus x Hortense 1 étoile, Selecto, Osteria Bolognese, Nénu Bib Gourmand ; tendance : Fin de Siècle,
+  Noordzee), 5 quartiers, 3 liens Tiqets (Atomium, Mini-Europe, Belgian Beer World, même prix qu'en officiel).
+  **Réseaux sociaux (Apify) pas lancés** : crédit du mois épuisé (« Monthly usage hard limit exceeded » au lancement
+  d'Oran) ; badges tendance décidés d'après les guides et la presse. Écartés : Maison Antoine et Maison Dandoy (note
+  Google 4,1 et 3,8), Chez Léon et Aux Armes de Bruxelles (rue des Bouchers, 3,9 et 4,1), La Villa Lorraine (étoile
+  perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
+  janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
+  combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade
