@@ -2,6 +2,7 @@
  "city_code": "TUN",
  "statut": "vérifié en autonomie, prix relevés le 23/10/2026 (1 € ≈ 3,37 dinars)",
  "verifie_le": "2026-10-23",
+ "avant_de_partir": "Passeport obligatoire depuis janvier 2025, y compris pour les enfants : la carte d'identité ne suffit plus. Il doit être valable au moins 3 mois à la date d'arrivée. Pas de visa pour un séjour de moins de 3 mois.",
  "reservation_legende": {
   "indispensable": "Réserver à l'avance (souvent complet sur place)",
   "conseille": "Réserver conseillé (moins cher ou moins d'attente)",

@@ -210,12 +210,19 @@ de la ville, `update` de `{"fait": true, "date": "JJ/MM/AAAA"}` ; lire le docume
        de voyage récents) pour repérer les adresses incontournables.
      - La qualité reste jugée d'abord sur les notes Google Maps pondérées : un lieu tendance mais mal noté
        n'entre pas dans la fiche.
-3. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
+3. **Formalités** (`avant_de_partir` dans le guide, encadré « À savoir avant de partir » à l'étape Vol) : hors Union
+   européenne, lire la rubrique « Entrée / séjour » de France Diplomatie
+   (`diplomatie.gouv.fr/fr/information-par-pays/<pays>/conseils-aux-voyageurs-entree-sejour`, lisible par `curl`) et
+   écrire en 2-3 phrases ce qu'il faut à un Français : passeport ou carte d'identité, validité, visa ou autorisation en
+   ligne (prix, délai, enfants). Rien pour les pays de l'Union européenne. Déjà prévus : Royaume-Uni (ETA 20 £), Israël
+   (ETA-IL), Canada (AVE), Égypte (visa 30 $), Jordanie (visa ou Jordan Pass), Arabie saoudite (e-visa), Algérie (visa),
+   Tunisie, Maroc, Sénégal, Dubaï, Arménie (passeport) ; Turquie (carte d'identité valable 150 jours).
+4. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
    fait dans toute la ville (LiteAPI). Point conseillé (`idealQuartier`, `ville.js`) : le milieu
    des activités cochées s'il est à moins de 800 m d'un quartier du guide (« Près de … », hôtels
    triés par distance à ce point) ; sinon le quartier qui a le plus d'activités à pied. Les
    quartiers servent donc à nommer le point et de secours (point dans l'eau, en zone sans hôtels).
-4. **Carte** : seuls les activités et restaurants choisis y apparaissent.
+5. **Carte** : seuls les activités et restaurants choisis y apparaissent.
 
 ## Qualité d'abord (demande du propriétaire, 21/10/2026)
 - **Autonomie totale** (22/10/2026) : vérifier soi-même chaque prix, horaire, adresse et fermeture (sites

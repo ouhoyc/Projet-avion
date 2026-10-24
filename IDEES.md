@@ -264,6 +264,10 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (24/10/2026) **Formalités « À savoir avant de partir »** étendues (validé par le propriétaire) : Londres (passeport +
+  ETA 20 £), Tunis (passeport), Marrakech (passeport, tampon à vérifier), Dubaï (passeport 6 mois), Istanbul (carte
+  d'identité ou passeport valable 150 jours), d'après France Diplomatie (pages du 15/09 et 05/10/2026). Étape ajoutée à la
+  recette de `CLAUDE.md` pour les prochains guides hors Union européenne.
 - ✅ (24/10/2026) Gammes de restaurants : la fourchette de prix affichée au-dessus de chaque gamme est calculée sur les
   restaurants de la ville (`gammeRange`, `ville.js`) au lieu d'être la même partout (« moins de 30 € », « à partir de 50 € ») :
   Annaba « 8 à 18 € » en gamme moyenne, Paris « 30 à 70 € ». Rien à faire pour les nouvelles villes.

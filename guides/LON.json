@@ -2,6 +2,7 @@
  "city_code": "LON",
  "statut": "préparé en autonomie, prix estimés au 19/10/2026 (1 £ ≈ 1,15 €)",
  "verifie_le": "2026-10-19",
+ "avant_de_partir": "Passeport obligatoire : la carte d'identité ne suffit plus pour entrer au Royaume-Uni. Il faut aussi une autorisation électronique de voyage (ETA), à demander avant le départ sur le site du gouvernement britannique (gov.uk) ou son application : 20 £ (≈ 23 €) par personne, enfants et bébés compris, valable 2 ans pour plusieurs séjours. Sans elle, la compagnie refuse l'embarquement. Méfiez-vous des sites qui la revendent plus cher.",
  "reservation_legende": {
   "indispensable": "Réserver à l'avance (souvent complet sur place)",
   "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
