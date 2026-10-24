@@ -195,6 +195,20 @@ de la ville, `update` de `{"fait": true, "date": "JJ/MM/AAAA"}` ; lire le docume
      sur **2 sources** au moins (une seule vidéo, même virale, ne suffit pas ; se méfier des
      vidéos sponsorisées « zaproszenie », « współpraca », « AD »). Lire aussi Reddit pour les
      pièges à touristes (Varsovie : faux sites de billets → note dans les fiches).
+   - **Quand lancer l'étape réseaux sociaux (Apify)** : le crédit Apify est limité chaque mois, il faut le
+     réserver aux villes où il fait vraiment la différence.
+     - À LANCER pour les grosses destinations touristiques, où il y a beaucoup de contenu
+       TikTok/Instagram/YouTube/Reddit (ex. Paris, Barcelone, Londres, Rome, Lisbonne, Amsterdam, Madrid, Istanbul…).
+     - À SAUTER pour les petites villes ou les destinations peu couvertes sur les réseaux (ex. Oran, Annaba,
+       Pau, Caen…) : on fait la fiche sans badges Tendance.
+     - En cas de doute, demander avant de lancer.
+     - Avant tout lancement, vérifier qu'il reste du crédit Apify. S'il n'y en a plus, ne pas augmenter la
+       limite de dépense : finir la fiche sans l'étape réseaux sociaux et noter la ville dans une liste
+       « Tendances à faire plus tard » pour la lancer au renouvellement du crédit.
+     - Sans Apify, compenser par une recherche web gratuite (fils Reddit, articles « où manger à… », blogs
+       de voyage récents) pour repérer les adresses incontournables.
+     - La qualité reste jugée d'abord sur les notes Google Maps pondérées : un lieu tendance mais mal noté
+       n'entre pas dans la fiche.
 3. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
    fait dans toute la ville (LiteAPI). Point conseillé (`idealQuartier`, `ville.js`) : le milieu
    des activités cochées s'il est à moins de 800 m d'un quartier du guide (« Près de … », hôtels
