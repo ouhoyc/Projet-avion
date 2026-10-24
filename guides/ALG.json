@@ -1,0 +1,1386 @@
+{
+ "city_code": "ALG",
+ "statut": "vérifié en autonomie, prix relevés le 24/10/2026 (1 € ≈ 151 dinars au taux officiel)",
+ "verifie_le": "2026-10-24",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "casbah",
+   "nom": "La Casbah d'Alger",
+   "emoji": "🕌",
+   "type": "balade",
+   "quartier": "Casbah",
+   "lat": 36.7865,
+   "lng": 3.0598,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les ruelles",
+     "gratuit"
+    ],
+    [
+     "Guide local (associations de la Casbah)",
+     "≈ 1 500 à 3 000 DA la demi-journée (≈ 10 à 20 €)"
+    ],
+    [
+     "Musées de la Casbah (Dar Mustapha Pacha, arts et traditions populaires…)",
+     "≈ 200 DA chacun (≈ 1,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "3 à 4 h",
+   "moment": "Le matin, avant la chaleur ; partez d'en haut (Citadelle) et descendez vers la place des Martyrs",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Classée par l'Unesco, la médina ottomane dégringole jusqu'à la mer en un labyrinthe d'escaliers blanchis à la chaux : fontaines, portes sculptées, palais de corsaires et maisons à patio où l'on prépare encore le thé à la menthe. C'est ici que s'est jouée la bataille d'Alger, et l'âme de la ville bat toujours dans ces ruelles.",
+   "site_officiel": "https://whc.unesco.org/fr/list/565/",
+   "note": "La haute Casbah est un vrai labyrinthe et certaines ruelles sont abîmées : le plus simple est d'y aller avec un guide de la Casbah, qui ouvre aussi les portes des maisons. Habillez-vous sobrement et demandez avant de photographier les habitants.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "SEBA Abdouellah",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALa_casbah_d%27Alger.jpg",
+    "src": "img/activites/ALG/casbah.jpg"
+   }
+  },
+  {
+   "id": "palais-rais",
+   "nom": "Palais des Raïs (Bastion 23)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Basse Casbah",
+   "lat": 36.78827,
+   "lng": 3.064,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Entrée",
+     "200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Étudiants",
+     "140 DA"
+    ],
+    [
+     "Moins de 16 ans et plus de 65 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Du lundi au samedi de 9 h à 17 h ; fermé le dimanche",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Trois palais et six maisons de pêcheurs du XVIe siècle, les derniers vestiges de l'ancien front de mer des corsaires : patios à colonnes torsadées, faïences bleues, terrasses qui donnent directement sur la Méditerranée. Le plus beau décor ottoman de la ville, et le mieux restauré.",
+   "site_officiel": "https://palaisdesrais-bastion23.dz/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalais_des_Ra%C3%AFs_18.jpg",
+    "src": "img/activites/ALG/palais-rais.jpg"
+   }
+  },
+  {
+   "id": "dar-mustapha",
+   "nom": "Dar Mustapha Pacha",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Basse Casbah",
+   "lat": 36.78565,
+   "lng": 3.06074,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Entrée (musée de l'Enluminure, de la Miniature et de la Calligraphie)",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "De 10 h à 18 h ; fermé le vendredi",
+   "enfants": true,
+   "texte": "Le palais d'un dey de la fin du XVIIIe siècle, couvert de centaines de milliers de faïences venues de Tunisie, d'Italie et d'Espagne. Autour du grand patio à arcades, les salles exposent les miniatures de Mohammed Racim, le peintre qui a fait renaître l'art de l'enluminure algérienne.",
+   "site_officiel": "https://whc.unesco.org/fr/list/565/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Reda Kerbouche",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADar_Mustapha_Pacha_1.JPG",
+    "src": "img/activites/ALG/dar-mustapha.jpg"
+   }
+  },
+  {
+   "id": "mosquees-casbah",
+   "nom": "Ketchaoua et les mosquées de la place des Martyrs",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Basse Casbah",
+   "lat": 36.78502,
+   "lng": 3.06083,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En dehors des heures de prière ; évitez le vendredi midi",
+   "enfants": true,
+   "texte": "Trois mosquées à deux pas l'une de l'autre racontent mille ans d'histoire : Djamaa el Kebir, la plus ancienne d'Alger (XIe siècle), Djamaa el Djedid et son dôme blanc face au port, et Ketchaoua, mosquée ottomane devenue cathédrale puis rendue au culte en 1962, restaurée avec l'aide de la Turquie.",
+   "site_officiel": "https://whc.unesco.org/fr/list/565/",
+   "note": "Tenue couvrante (épaules, genoux, foulard pour les femmes) ; chaussures retirées à l'entrée de la salle de prière.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rouibi Dhia Eddine Nadjm",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Ketchaoua_Mosque.jpg",
+    "src": "img/activites/ALG/mosquees-casbah.jpg"
+   }
+  },
+  {
+   "id": "notre-dame",
+   "nom": "Notre-Dame d'Afrique et le téléphérique",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Bologhine",
+   "lat": 36.801,
+   "lng": 3.04256,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Basilique",
+     "gratuit"
+    ],
+    [
+     "Téléphérique Bologhine – Notre-Dame d'Afrique",
+     "≈ 30 DA le trajet (≈ 0,20 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, pour le coucher du soleil sur la baie",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Perchée sur une falaise au-dessus de la mer, la basilique néo-byzantine porte une inscription qui résume Alger : « Notre-Dame d'Afrique, priez pour nous et pour les musulmans ». Le pape Léon XIV y a célébré une messe en avril 2026. On y monte par une petite cabine de téléphérique depuis le quartier de Bologhine.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chettouh Nabil",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANotre_Dame_d%27Afrique2.jpg",
+    "src": "img/activites/ALG/notre-dame.jpg"
+   }
+  },
+  {
+   "id": "maqam",
+   "nom": "Maqam Echahid et Riadh El Feth",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "El Madania",
+   "lat": 36.74589,
+   "lng": 3.06965,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Esplanade et monument",
+     "gratuit"
+    ],
+    [
+     "Musée national du Moudjahid (sous le monument)",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Téléphérique depuis le Jardin d'Essai",
+     "≈ 30 DA le trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le soir, quand le monument s'illumine",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Trois palmes de béton de 92 mètres dressées au-dessus de la baie : le mémorial du Martyr, construit pour les 20 ans de l'indépendance, se voit de toute la ville. À ses pieds, le musée du Moudjahid raconte la guerre d'Algérie vue d'ici, et le Bois des Arcades offre l'un des plus beaux panoramas d'Alger.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Magharebia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMaqam_Echahid_Algiers.jpg",
+    "src": "img/activites/ALG/maqam.jpg"
+   }
+  },
+  {
+   "id": "jardin-essai",
+   "nom": "Jardin d'Essai du Hamma",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Belouizdad (Hamma)",
+   "lat": 36.7484,
+   "lng": 3.07578,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Entrée du jardin",
+     "≈ 150 DA (≈ 1 €)"
+    ],
+    [
+     "Zoo (dans le jardin)",
+     "billet à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Tous les jours, le matin ou en fin d'après-midi ; métro Jardin d'Essai",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Créé en 1832, l'un des plus beaux jardins botaniques du monde : allées de palmiers géants, dragonniers, ficus aux racines aériennes (on y aurait tourné un Tarzan), jardin à la française qui descend vers la mer et vue sur le mémorial du Martyr. Une bouffée de fraîcheur au cœur de la ville.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sabi sabrwina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJardin_d%27essai_du_Hamma%2C_Alger_%2C_Alg%C3%A9rie.jpg",
+    "src": "img/activites/ALG/jardin-essai.jpg"
+   }
+  },
+  {
+   "id": "beaux-arts",
+   "nom": "Musée national des Beaux-Arts",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Belouizdad (Hamma)",
+   "lat": 36.7461,
+   "lng": 3.07226,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "De 9 h à 18 h (le vendredi l'après-midi seulement) ; fermé le dimanche ; juste au-dessus du Jardin d'Essai",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus grand musée d'art d'Afrique du Nord : plus de 8 000 œuvres, de Delacroix et Monet aux peintres algériens Baya, Issiakhem et Racim. Sa terrasse à colonnades domine le Jardin d'Essai et toute la baie.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ryadh BAHIDJ",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATerrasse_du_mus%C3%A9e_des_beaux_arts_d%27Alger.jpg",
+    "src": "img/activites/ALG/beaux-arts.jpg"
+   }
+  },
+  {
+   "id": "bardo",
+   "nom": "Musée national du Bardo",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Didouche Mourad",
+   "lat": 36.76072,
+   "lng": 3.04719,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "De 9 h à 17 h ; fermé le vendredi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une villa mauresque du XVIIIe siècle, avec bassin et jardin, qui abrite le musée de la préhistoire et des peuples d'Algérie : outils de la préhistoire saharienne, bijoux berbères, costumes et instruments touaregs. Le cadre vaut à lui seul la visite.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Yelles",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABardo-dz.jpg",
+    "src": "img/activites/ALG/bardo.jpg"
+   }
+  },
+  {
+   "id": "antiquites",
+   "nom": "Musée des Antiquités et des Arts islamiques",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Parc de la Liberté",
+   "lat": 36.76167,
+   "lng": 3.04576,
+   "prix": 1,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "De 9 h à 17 h ; le même billet donne accès aux deux bâtiments (Antiquité, art islamique)",
+   "enfants": true,
+   "texte": "Le plus vieux musée d'Algérie : mosaïques romaines (dont un Océan à la barbe de vagues), statues de Cherchell, puis la partie islamique, avec ses corans enluminés, lustres et lampes mameloukes. Un résumé de deux mille ans d'histoire, dans le joli parc de la Liberté.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kingdz16",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALa_mosa%C3%AFque_d%27oceanus_mus%C3%A9e_des_antiquit%C3%A9s_alger.jpg",
+    "src": "img/activites/ALG/antiquites.jpg"
+   }
+  },
+  {
+   "id": "grande-mosquee",
+   "nom": "Djamaa El Djazaïr, la Grande Mosquée d'Alger",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Mohammadia",
+   "lat": 36.735,
+   "lng": 3.14022,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Site et salle de prière",
+     "gratuit"
+    ],
+    [
+     "Montée au minaret et musée",
+     "visite encadrée, à demander à l'accueil des visiteurs"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "En semaine, hors heures de prière ; évitez le vendredi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Inaugurée en 2024, la troisième plus grande mosquée du monde et le plus haut minaret de la planète (265 mètres). Une salle de prière immense couverte de calligraphies, des jardins face à la mer et, au sommet du minaret, un belvédère à 360° sur toute la baie.",
+   "site_officiel": "https://eldjamaa.dz/",
+   "note": "Entrée des visiteurs à pied par la porte sud (avenue Ahmed-Azzouz). Tenue couvrante obligatoire ; un foulard peut être prêté aux femmes.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Askelaadden",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrande_Mosqu%C3%A9e_d%27Alger.jpg",
+    "src": "img/activites/ALG/grande-mosquee.jpg"
+   }
+  },
+  {
+   "id": "alger-centre",
+   "nom": "Alger la Blanche : Grande Poste et boulevards",
+   "emoji": "🏙️",
+   "type": "balade",
+   "quartier": "Alger-Centre",
+   "lat": 36.77288,
+   "lng": 3.05939,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Musée de la Poste (Grande Poste)",
+     "entrée libre ou symbolique"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, quand la rue Didouche Mourad s'anime",
+   "enfants": true,
+   "texte": "La Grande Poste néo-mauresque, devenue musée, la rue Didouche-Mourad et ses cafés, la rue Larbi-Ben-M'hidi, puis les arcades blanches du boulevard Che-Guevara au-dessus du port : la ville haussmannienne qui a valu à Alger son surnom d'« Alger la Blanche ».",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Poudou99",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACentre_commercial_de_la_Grande_Poste_d%27Alger_-_IMG_0282.jpg",
+    "src": "img/activites/ALG/alger-centre.jpg"
+   }
+  },
+  {
+   "id": "mama",
+   "nom": "MaMa, musée d'Art moderne d'Alger",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Alger-Centre",
+   "lat": 36.77734,
+   "lng": 3.05761,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En journée, du samedi au jeudi",
+   "enfants": true,
+   "texte": "Dans les anciennes Galeries de France, un grand magasin néo-mauresque du début du XXe siècle avec sa verrière, des expositions d'art contemporain algérien et africain. Une pause gratuite et fraîche au milieu de la balade dans le centre.",
+   "site_officiel": "https://www.mama-dz.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "DjazairiAhmed",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMAMA_Mus%C3%A9e_d%27Art_Moderne_d%27Alger.jpg",
+    "src": "img/activites/ALG/mama.jpg"
+   }
+  },
+  {
+   "id": "theatre",
+   "nom": "Une soirée au Théâtre national ou à l'Opéra",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Alger-Centre (Square Port-Saïd)",
+   "lat": 36.78118,
+   "lng": 3.06037,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Pièce ou concert au Théâtre national (TNA)",
+     "≈ 300 à 1 000 DA (≈ 2 à 7 €)"
+    ],
+    [
+     "Concert à l'Opéra d'Alger Boualem-Bessaïh (Ouled Fayet)",
+     "≈ 500 à 1 000 DA (≈ 3 à 7 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, au guichet ou sur le site de l'Opéra",
+   "duree": "2 h",
+   "moment": "Le soir ; programme sur les sites de l'Opéra et du Théâtre national",
+   "enfants": true,
+   "texte": "L'ancien opéra d'Alger (1853), au cœur du square Port-Saïd, accueille aujourd'hui le Théâtre national ; la nouvelle Opéra, à l'ouest de la ville, programme musique andalouse, chaâbi, ballets et orchestres. Un concert de chaâbi, la musique populaire née dans la Casbah, est un vrai moment d'Alger.",
+   "site_officiel": "https://operaalger.dz/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Yves Jalabert",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlgiers_Opera_4.jpg",
+    "src": "img/activites/ALG/theatre.jpg"
+   }
+  },
+  {
+   "id": "sablettes",
+   "nom": "Promenade des Sablettes",
+   "emoji": "🎡",
+   "type": "balade",
+   "quartier": "Hussein Dey",
+   "lat": 36.7451,
+   "lng": 3.10578,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Grande roue, manèges",
+     "quelques centaines de dinars"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le soir et le week-end, avec les familles algéroises",
+   "enfants": true,
+   "texte": "La corniche familiale d'Alger : des kilomètres de promenade au bord de l'eau, pelouses, glaciers, grande roue illuminée et vue sur toute la baie jusqu'à Notre-Dame d'Afrique. C'est ici que les Algérois viennent prendre l'air le soir.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kadir khaled",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALa_Grande_Roue_d%27Alger_%21_Sablette_-_Alger.jpg",
+    "src": "img/activites/ALG/sablettes.jpg"
+   }
+  },
+  {
+   "id": "match-mca",
+   "nom": "Match du Mouloudia (MC Alger)",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade du 5-Juillet (Dély Brahim)",
+   "lat": 36.75951,
+   "lng": 2.99527,
+   "prix": 4,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 300 à 500 DA (≈ 2 à 3 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 1 000 DA (≈ 7 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, sur la plateforme officielle de billetterie (Tadkirati) ou aux guichets",
+   "duree": "2 h 30",
+   "moment": "Le week-end ; derby contre l'USM Alger ou le CR Belouizdad pour l'ambiance la plus folle",
+   "enfants": false,
+   "club": "MC Alger",
+   "texte": "Le club le plus populaire d'Algérie, fondé en 1921, joue au stade du 5-Juillet devant des dizaines de milliers de supporters en vert et rouge : chants du début à la fin, tifos géants, fumigènes. Une ferveur rare, à vivre au moins une fois.",
+   "note": "Billet nominatif avec pièce d'identité. Préférez la tribune au virage et évitez les derbys si vous venez avec des enfants.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Billal Haddadi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStade_5_Juillet_1962.jpg",
+    "src": "img/activites/ALG/match-mca.jpg"
+   }
+  },
+  {
+   "id": "sidi-fredj",
+   "nom": "Sidi Fredj et les plages de la côte ouest",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Staoueli (30 min)",
+   "lat": 36.7611,
+   "lng": 2.84428,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage, port de plaisance",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre (VTC Yassir)",
+     "≈ 1 000 à 1 500 DA (≈ 7 à 10 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre pour la baignade ; toute l'année pour un déjeuner de poisson au port",
+   "enfants": true,
+   "texte": "La presqu'île où débarquèrent les Français en 1830 est devenue la marina des Algérois : port de plaisance, tour de guet, criques et plages de sable, restaurants de poisson. Plus à l'ouest, Palm Beach et Zéralda alignent les plages les plus fréquentées de l'été.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Habib kaki",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APort_de_Sidi_Fredj_%D9%85%D9%8A%D9%86%D8%A7%D8%A1_%D8%B3%D9%8A%D8%AF%D9%8A_%D9%81%D8%B1%D8%AC.jpg",
+    "src": "img/activites/ALG/sidi-fredj.jpg"
+   }
+  },
+  {
+   "id": "tamentfoust",
+   "nom": "Tamentfoust (La Pérouse)",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "El Marsa (40 min)",
+   "lat": 36.80752,
+   "lng": 3.23148,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre",
+     "≈ 1 000 à 1 500 DA (≈ 7 à 10 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Le week-end, à l'heure du déjeuner",
+   "enfants": true,
+   "texte": "De l'autre côté de la baie, un petit port de pêche aux barques colorées, un fort ottoman et des plages : la carte postale d'Alger vue depuis la mer, et une adresse que les Algérois gardent pour les déjeuners de poisson grillé.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "geomania",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATamentfoust-vue-port.jpg",
+    "src": "img/activites/ALG/tamentfoust.jpg"
+   }
+  },
+  {
+   "id": "visite-guidee",
+   "nom": "Visite guidée d'Alger avec un guide local",
+   "emoji": "🧭",
+   "type": "balade",
+   "quartier": "Casbah et centre",
+   "lat": 36.7848,
+   "lng": 3.062,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Visite de la Casbah avec un guide agréé (3 h)",
+     "≈ 30 à 35 € par personne"
+    ],
+    [
+     "Journée Alger en voiture avec guide",
+     "≈ 60 à 90 € par personne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant, en ligne",
+   "duree": "3 h à la journée",
+   "moment": "Le premier jour, pour prendre ses repères",
+   "enfants": true,
+   "texte": "Alger se livre mieux avec quelqu'un d'ici : un guide agréé vous fait entrer dans les maisons de la Casbah, raconte la bataille d'Alger sur les lieux mêmes et enchaîne Notre-Dame d'Afrique, le mémorial et la Grande Mosquée sans perdre de temps dans les embouteillages.",
+   "site_officiel": "https://www.viator.com/fr-FR/tours/Algiers/Algiers-Casbah-Visit/d25745-371895P1",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "toufik Lerari from Nice, France",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACasbah_of_Algiers%2C_patio.jpg",
+    "src": "img/activites/ALG/visite-guidee.jpg"
+   }
+  },
+  {
+   "id": "tipaza",
+   "nom": "Tipaza et le Tombeau de la Chrétienne",
+   "emoji": "🏛️",
+   "type": "nature",
+   "quartier": "Wilaya de Tipaza (1 h 15)",
+   "lat": 36.5937,
+   "lng": 2.4425,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Parc archéologique de Tipaza",
+     "110 DA (≈ 0,75 €)"
+    ],
+    [
+     "Mausolée royal de Maurétanie (Tombeau de la Chrétienne)",
+     "quelques centaines de dinars"
+    ],
+    [
+     "Chauffeur à la journée (par voiture)",
+     "≈ 8 000 à 12 000 DA (≈ 55 à 80 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Au printemps et à l'automne ; site ouvert en journée, payable en espèces seulement",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des ruines romaines au bord de l'eau, entre pins, oliviers et rochers : basiliques, thermes, amphithéâtre et tombeaux qui glissent dans la Méditerranée. Albert Camus y a écrit ses « Noces ». En route, le Tombeau de la Chrétienne, mausolée géant des rois de Maurétanie, domine la plaine depuis deux mille ans.",
+   "site_officiel": "https://whc.unesco.org/fr/list/193/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_Tipasa_01.jpg",
+    "src": "img/activites/ALG/tipaza.jpg"
+   }
+  },
+  {
+   "id": "cherchell",
+   "nom": "Cherchell, l'ancienne capitale de Juba II",
+   "emoji": "⚓",
+   "type": "nature",
+   "quartier": "Wilaya de Tipaza (1 h 45)",
+   "lat": 36.60834,
+   "lng": 2.19133,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Musée archéologique",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Chauffeur à la journée, avec Tipaza",
+     "≈ 10 000 à 14 000 DA (≈ 65 à 95 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "À combiner avec Tipaza, 30 km avant",
+   "enfants": true,
+   "texte": "Un petit port de pêche bâti sur Césarée, la capitale du roi Juba II et de Cléopâtre Séléné, fille de Cléopâtre. Son musée garde des mosaïques et des statues romaines parmi les plus belles d'Afrique du Nord, à deux pas du port et des ruines du théâtre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACherchell_Harbour_02.jpg",
+    "src": "img/activites/ALG/cherchell.jpg"
+   }
+  },
+  {
+   "id": "chrea",
+   "nom": "Chréa, les cèdres et les singes de l'Atlas",
+   "emoji": "🌲",
+   "type": "nature",
+   "quartier": "Wilaya de Blida (1 h 15)",
+   "lat": 36.42679,
+   "lng": 2.8765,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Parc national",
+     "gratuit"
+    ],
+    [
+     "Téléphérique Blida – Chréa",
+     "≈ 80 DA l'aller (≈ 0,50 €), arrêts fréquents pour entretien"
+    ],
+    [
+     "Chauffeur à la journée (par voiture)",
+     "≈ 8 000 à 12 000 DA (≈ 55 à 80 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "L'été pour la fraîcheur, l'hiver pour la neige (petite station de ski)",
+   "enfants": true,
+   "texte": "À 1 500 mètres d'altitude, une forêt de cèdres de l'Atlas où vivent des macaques en liberté, avec une petite station de ski l'hiver et la montée en téléphérique depuis Blida. Sur la route de Médéa, les gorges de la Chiffa et leur « ruisseau des singes » complètent la journée.",
+   "note": "Ne nourrissez pas les singes. Le téléphérique s'arrête souvent pour entretien : prévoyez la voiture.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zyadyammine",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACedars_of_Chrea.jpg",
+    "src": "img/activites/ALG/chrea.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Alger-Centre (Grande Poste, Didouche-Mourad)",
+   "lat": 36.7705,
+   "lng": 3.0565,
+   "texte": "Le cœur d'Alger la Blanche : hôtels dans des immeubles haussmanniens, cafés et restaurants de la rue Didouche-Mourad, métro à la Grande Poste, la Casbah et le front de mer à 15 minutes à pied. Le plus pratique pour un premier séjour."
+  },
+  {
+   "id": "casbah",
+   "nom": "Casbah et Bab El Oued",
+   "lat": 36.786,
+   "lng": 3.059,
+   "texte": "Quelques maisons d'hôtes installées dans d'anciennes demeures à patio, au milieu des ruelles et à deux pas du Palais des Raïs et de la place des Martyrs. Une immersion rare, mais des escaliers partout et peu de choix : réservez tôt et faites-vous guider le premier soir."
+  },
+  {
+   "id": "hamma",
+   "nom": "Hamma et El Madania (Jardin d'Essai, Maqam)",
+   "lat": 36.748,
+   "lng": 3.073,
+   "texte": "Entre le Jardin d'Essai, le musée des Beaux-Arts et le mémorial du Martyr : de grands hôtels modernes avec vue sur la baie, le métro et le téléphérique en bas de la rue. Calme le soir, à 10 minutes du centre."
+  },
+  {
+   "id": "hydra",
+   "nom": "Hydra et El Biar",
+   "lat": 36.7445,
+   "lng": 3.036,
+   "texte": "Les quartiers chics des hauteurs, au milieu des villas et des ambassades : hôtels récents, restaurants et cafés à la mode, brunchs et rooftops. Il faut un taxi (ou l'application Yassir) pour descendre vers la Casbah et le centre."
+  },
+  {
+   "id": "hauteurs",
+   "nom": "Les Tagarins et El Mouradia",
+   "lat": 36.764,
+   "lng": 3.049,
+   "texte": "Les collines qui dominent le centre, entre deux grands hôtels historiques : El Aurassi et sa vue sur toute la baie, et El Djazaïr (l'ancien Saint-George de 1889), avec son jardin. Calme, vert, et à 10 minutes en taxi de la Grande Poste."
+  }
+ ],
+ "hotel_petit_prix_max": 70,
+ "prix_match": 4,
+ "restaurants": [
+  {
+   "id": "roi-loubia",
+   "nom": "Le Roi de la Loubia",
+   "emoji": "🫘",
+   "gamme": "petit",
+   "genre": "Loubia et sardines frites",
+   "quartier": "Alger-Centre",
+   "adresse": "Rue Mohamed-Sidhoum (ex-rue de Tanger), Alger-Centre",
+   "lat": 36.778538,
+   "lng": 3.058652,
+   "prix": "5 à 8 €",
+   "prix_min": 5,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis les années 1970, trois plats et pas un de plus : la loubia (ragoût de haricots blancs au cumin), les sardines frites et la salade de poivrons grillés. Tables serrées jusque sur le trottoir, une bouteille de limonade Hamoud Boualem, et tout Alger qui défile à midi.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 12 h 30, c'est plein ensuite",
+   "photo": {
+    "auteur": "Ovva olfa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B1%D9%82%D8%A9_%D9%84%D9%88%D8%A8%D9%8A%D8%A7.JPG",
+    "src": "img/restos/ALG/roi-loubia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "garantita-zabadi",
+   "nom": "Garantita Zabadi",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Karantika (street food)",
+   "quartier": "El Madania",
+   "adresse": "El Madania, sous Riadh El Feth",
+   "lat": 36.741288,
+   "lng": 3.06626,
+   "prix": "1 à 2 €",
+   "prix_min": 1,
+   "badges": [],
+   "texte": "La karantika (ou garantita), flan de pois chiches au cumin servi brûlant dans un morceau de baguette avec harissa, c'est le casse-croûte des Algérois depuis l'époque espagnole. Ici on la mange avec un jus de citron frais pour moins d'un euro, à deux pas du mémorial du Martyr.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Plwnt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKarantika_Algerian.jpg",
+    "src": "img/restos/ALG/garantita-zabadi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lucas-castello",
+   "nom": "La Pâtisserie par Lucas Castello",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Pâtisserie fine",
+   "quartier": "Grande Poste",
+   "adresse": "Place de la Grande Poste, Alger-Centre",
+   "lat": 36.771956,
+   "lng": 3.058195,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "La vitrine la plus gourmande d'Alger : entremets, cheesecakes, pâtisseries à la pistache et viennoiseries d'inspiration française, que bien des visiteurs jugent dignes de Paris. Une pause sucrée face à la Grande Poste, entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Adonit",
+    "licence": "Copyrighted free use",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKalb-el-louz.jpg",
+    "src": "img/restos/ALG/lucas-castello.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "milk-bar",
+   "nom": "Milk Bar",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glacier et café historique",
+   "quartier": "Alger-Centre",
+   "adresse": "Angle de la rue Larbi-Ben-M'hidi et de la place Émir-Abdelkader",
+   "lat": 36.775951,
+   "lng": 3.05851,
+   "prix": "2 à 6 €",
+   "prix_min": 2,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un nom entré dans l'histoire : une bombe du FLN y a explosé le 30 septembre 1956, au début de la bataille d'Alger (la scène du film de Pontecorvo). Rénové et rouvert en 2025, il sert glaces, milk-shakes et cafés face à la statue de l'émir Abdelkader.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Saber68",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilk_Bar-Bataille_d%27Alger.jpg",
+    "src": "img/restos/ALG/milk-bar.jpg"
+   }
+  },
+  {
+   "id": "yulmaz",
+   "nom": "Yulmaz",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine familiale algéroise",
+   "quartier": "Place Audin",
+   "adresse": "8, rue Pichon, place Maurice-Audin, Alger-Centre",
+   "lat": 36.769422,
+   "lng": 3.055562,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "La cuisine des mères d'Alger, servie depuis 2000 au pied des escaliers de la place Audin : bourek croustillants, chorba, couscous, tajines et salades fraîches, avec un accueil qui vous fait sentir à la maison. L'adresse que les habitués gardent pour eux.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert surtout le midi, fermé le vendredi",
+   "photo": {
+    "auteur": "Sib2022",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABourek_alg%C3%A9rien.jpg",
+    "src": "img/restos/ALG/yulmaz.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "erudit",
+   "nom": "Érudit Connect Lounge",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Brunch et café",
+   "quartier": "Hydra",
+   "adresse": "14, rue du Sahel, Hydra",
+   "lat": 36.743365,
+   "lng": 3.040865,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Le café-brunch chouchou du quartier chic d'Hydra : croissants et pâtisseries maison, bons cafés et une terrasse privée au calme, loin du bruit de la ville. Parfait pour un long petit-déjeuner avant de redescendre vers le centre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; plein le week-end en fin de matinée",
+   "photo": {
+    "auteur": "LenaRosemberg / User:Léna",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APetit_dejeuner_Bordeaux.jpg",
+    "src": "img/restos/ALG/erudit.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "presquile",
+   "nom": "La Presqu'île",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poissonnerie-restaurant",
+   "quartier": "Hydra (Sidi Yahia)",
+   "adresse": "16, chemin Sidi-Yahia, Bir Mourad Raïs",
+   "lat": 36.738145,
+   "lng": 3.045563,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On choisit son poisson sur l'étal, au poids, puis on le fait griller, frire ou cuire en tajine : dorades, rougets, crevettes royales et calamars de la pêche du jour. L'adresse de poisson la plus citée sur les réseaux, au cœur de Sidi Yahia.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner du week-end",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADorade_royale_grill%C3%A9e.jpg",
+    "src": "img/restos/ALG/presquile.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fidelia",
+   "nom": "Le Fidélia",
+   "emoji": "🍜",
+   "gamme": "moyen",
+   "genre": "Bistrot algérien revisité",
+   "quartier": "Grande Poste",
+   "adresse": "7, rue de l'Émir-Abdelkrim-El-Khettabi (face à la Grande Poste)",
+   "lat": 36.772049,
+   "lng": 3.057904,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un décor soigné, très photogénique, et une carte qui revisite les classiques : rechta (fines nouilles fraîches en bouillon), chorba, tajines et pâtisseries maison, joliment dressés. Le restaurant qui fait le plus parler les créateurs de contenu d'Alger.",
+   "reservation": "conseille",
+   "reservation_delai": "1 ou 2 jours avant ; service parfois lent aux heures de pointe",
+   "photo": {
+    "auteur": "Ms10vc",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARechta.png",
+    "src": "img/restos/ALG/fidelia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sapori",
+   "nom": "Sapori",
+   "emoji": "🥘",
+   "gamme": "moyen",
+   "genre": "Couscous et plats algérois",
+   "quartier": "Basse Casbah",
+   "adresse": "20, rampe Chasseloup-Laubat, Casbah",
+   "lat": 36.781832,
+   "lng": 3.062399,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au pied de la Casbah, une salle paisible qui fait du couscous son art : couscous au poulpe, chakhchoukha, rechta, avec un proverbe algérois servi avec chaque assiette. Généreux, bien assaisonné, et parfait après la visite du Palais des Raïs.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "ABDERRAHMANE benamer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACouscous_alg%C3%A9rien.jpg",
+    "src": "img/restos/ALG/sapori.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "djenina",
+   "nom": "El Djenina",
+   "emoji": "🏛️",
+   "gamme": "moyen",
+   "genre": "Cuisine algérienne traditionnelle",
+   "quartier": "Didouche Mourad (Bardo)",
+   "adresse": "10, avenue Franklin-Roosevelt, à deux pas du musée du Bardo",
+   "lat": 36.761435,
+   "lng": 3.047609,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une institution depuis 1986, à deux minutes du musée du Bardo : service attentionné et grands classiques préparés dans les règles, comme le couscous au poulet à partager à deux. L'une des rares tables d'Alger à proposer des vins algériens.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Plwnt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlgerian_Chakhchoukha.jpg",
+    "src": "img/restos/ALG/djenina.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kheimat-essaoura",
+   "nom": "Kheimat Essaoura",
+   "emoji": "⛺",
+   "gamme": "moyen",
+   "genre": "Cuisine du Sud sous la tente",
+   "quartier": "Alger-Centre (Sacré-Cœur)",
+   "adresse": "Rue Hocine-Beladjel, près de la cathédrale du Sacré-Cœur",
+   "lat": 36.764483,
+   "lng": 3.04713,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "On s'installe sur des tapis, sous une grande tente saharienne, en plein centre-ville, pour une longue carte de plats algériens de toutes les régions. Un voyage dans le Sud algérien sans quitter la rue Didouche-Mourad.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A9_%C3%A0_la_menthe_001.JPG",
+    "src": "img/restos/ALG/kheimat-essaoura.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "caracoya",
+   "nom": "Caracoya",
+   "emoji": "🌅",
+   "gamme": "moyen",
+   "genre": "Méditerranéen avec vue",
+   "quartier": "Alger-Centre",
+   "adresse": "Rue Ben-Messaoud, Alger-Centre",
+   "lat": 36.766903,
+   "lng": 3.053497,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une grande salle qui ouvre sur la Méditerranée, en plein centre : cuisine soignée et vue à couper le souffle, sans se ruiner. Venez à l'heure du coucher du soleil, quand la baie s'allume.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en terrasse",
+   "photo": {
+    "auteur": "toufik Lerari from Nice, France",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABay_of_Algiers_by_night.jpg",
+    "src": "img/restos/ALG/caracoya.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mim",
+   "nom": "Mim",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine d'auteur sur un toit",
+   "quartier": "Dar El Beïda (près de l'aéroport)",
+   "adresse": "M Suite Hôtel, 9, rue de l'ALN, Dar El Beïda",
+   "lat": 36.718314,
+   "lng": 3.209059,
+   "prix": "40 à 70 €",
+   "prix_min": 40,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Distingué par La Liste (prix « Tables à explorer », 2023)",
+   "texte": "Le chef Rabah Ourrad, passé par le Ledbury (deux étoiles Michelin) et le Momo à Londres, signe une cuisine d'auteur sur le toit-terrasse du M Suite Hôtel, desserts compris. L'une des tables les plus créatives d'Alger, à 10 minutes de l'aéroport.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Ourytima",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFondant_au_chocolat_accompagnement_boule_de_glace.jpg",
+    "src": "img/restos/ALG/mim.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sfindja",
+   "nom": "Sfindja",
+   "emoji": "🦐",
+   "gamme": "haut",
+   "genre": "Méditerranéen face à la baie",
+   "quartier": "El Biar",
+   "adresse": "66, chemin Sfindja, El Biar",
+   "lat": 36.76821,
+   "lng": 3.041909,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une entrée couverte de zelliges bleus, puis une terrasse qui embrasse toute la baie d'Alger : cuisine méditerranéenne raffinée, comme les ravioles aux crevettes, dans l'une des plus belles maisons des hauteurs d'El Biar.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 ou 3 jours avant, surtout pour la terrasse",
+   "photo": {
+    "auteur": "Benoît Prieur",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADes_crevettes_grill%C3%A9es_au_Harenguier_%28juin_2020%29.jpg",
+    "src": "img/restos/ALG/sfindja.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bon-gibier",
+   "nom": "Le Bon Gibier",
+   "emoji": "🦆",
+   "gamme": "haut",
+   "genre": "Viandes et gibier",
+   "quartier": "Riadh El Feth",
+   "adresse": "Bois des Arcades, Riadh El Feth, El Madania",
+   "lat": 36.742465,
+   "lng": 3.073584,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Le rendez-vous des amateurs de viande, au pied du mémorial du Martyr : canard à l'orange, belles pièces de bœuf, pâtes aux crevettes et poissons, dans un cadre chaleureux et un service aux petits soins.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Bev Sykes",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADuck_a_l%27orange.jpg",
+    "src": "img/restos/ALG/bon-gibier.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "auberge-moulin",
+   "nom": "Auberge du Moulin",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Bistrot chic et méchoui",
+   "quartier": "Chéraga",
+   "adresse": "24, rue Abane-Ramdane, Chéraga",
+   "lat": 36.771413,
+   "lng": 2.9642,
+   "prix": "40 à 70 €",
+   "prix_min": 40,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'un des plus anciens restaurants d'Alger, aux airs de vieux bistrot européen : cheminées, pierre et tableaux, terrasse fleurie l'été. Sa spécialité, le méchoui d'agneau aux épices, passe pour l'un des meilleurs de la ville ; belle carte de poissons et de vins. Sur la route de Sidi Fredj.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; ouvert de 12 h à 15 h et de 18 h à 22 h 30",
+   "photo": {
+    "auteur": "Lucyin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMechwi_noices.JPG",
+    "src": "img/restos/ALG/auberge-moulin.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "daqdaq",
+   "nom": "El Daqdaq",
+   "emoji": "🏨",
+   "gamme": "haut",
+   "genre": "Cuisine algérienne raffinée",
+   "quartier": "Les Tagarins (hôtel El Aurassi)",
+   "adresse": "Hôtel El Aurassi, boulevard Frantz-Fanon",
+   "lat": 36.776464,
+   "lng": 3.051487,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Dans le grand hôtel El Aurassi qui domine la ville, un décor de maison de la Casbah, une exposition d'art et une vue plongeante sur la baie : les grands plats de la tradition algéroise, servis avec élégance.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Bwuhlgemuth",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEl_Aurassi_Hotel.jpg",
+    "src": "img/restos/ALG/daqdaq.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "torre-chica",
+   "nom": "Torre Chica",
+   "emoji": "⚓",
+   "gamme": "haut",
+   "genre": "Poissons sur le port",
+   "quartier": "Sidi Fredj",
+   "adresse": "Chemin du port, Sidi Fredj (Staoueli)",
+   "lat": 36.764243,
+   "lng": 2.846569,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Sur le port de plaisance de Sidi Fredj, une cuisine méditerranéenne de la mer, poissons et fruits de mer, avec les bateaux pour décor : la table la mieux notée de la côte ouest. Parfait pour finir une journée à la plage.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout l'été",
+   "photo": {
+    "auteur": "Rachid Hamatou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASidi_Fredj_Marina_18.jpg",
+    "src": "img/restos/ALG/torre-chica.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

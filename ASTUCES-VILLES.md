@@ -79,4 +79,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (planches) et `w=960` (photo finale), ~40 s par planche. Prix et horaires : `albaniaguidebook.com` (relevés datés d'oct. 2026,
   sur les sites des exploitants). Wanderlog : départ `geoCategory/207293`, 103 listes, ~900 lieux (positions dans
   `"placeId":…,"longitude":…,"latitude":…`). Évitez les photos d'un fournisseur commercial (ex. « oakwoodfirepizza ») sur Commons.
-
+- Alger (oct. 2026) : recherche de fichiers Commons en HTML (`ns6=1`) puis `commons.wikimedia.org/w/thumb.php?f=NOM&w=330`
+  (planches) et `w=960`, rapide et sans « 429 ». Les sites en `.dz` (musées, mosquée, ministère) ne répondent pas d'ici.
+  Wanderlog : peu de listes (départ `geoCategory/205463`), mais la page `wanderlog.com/placePageGeos/79369/algiers`
+  donne 662 fiches de lieux (`/place/details/ID/nom`) avec note, avis et position : les lire une par une (1 s entre deux).
+  Positions des sites : Nominatim. Attention aux photos de stade : banderoles d'un club rival (USMA au 5-Juillet).

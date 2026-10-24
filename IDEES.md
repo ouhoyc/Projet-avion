@@ -261,9 +261,29 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 - Crédit Ignav : 1 000 recherches gratuites, puis ~2 $ / 1 000.
 - Tunis (`guides/TUN.json`) : le 1er janvier 2027, les entrées des musées et sites tunisiens augmentent (Bardo 45 dinars,
   Carthage, El Jem et Kairouan 30, billet combiné Bardo + Carthage 70) : mettre à jour les prix de la fiche.
+- Matchs hors d'Europe : `prix_match` n'est rempli que pour Alger ; Tunis (≈ 8 €) et Tirana (≈ 5 €) affichent encore
+  25 € par match. Algérie : visa obligatoire pour les Français, rien ne le dit encore sur le site.
 
 ## Fait
 
+- ✅ (24/10/2026) **Page guide d'Alger** (`guides/ALG.json`), préparée en autonomie : 22 activités (tendance d'après les
+  réseaux sociaux, 2 sources au moins : Casbah, Palais des Raïs, Notre-Dame d'Afrique, Maqam Echahid, Jardin d'Essai,
+  Beaux-Arts, Bardo, Grande Mosquée, Tipaza ; Dar Mustapha Pacha, mosquées de la place des Martyrs, musée des Antiquités,
+  MaMa, Grande Poste et boulevards, Sablettes, Théâtre national / Opéra, Sidi Fredj, Tamentfoust, visite guidée ; match du
+  Mouloudia, club « MC Alger » ; excursions Tipaza + Tombeau de la Chrétienne, Cherchell, Chréa), 18 restaurants (note
+  pondérée, C = 4,03, 662 fiches de lieux Wanderlog lues une par une ; pas de Michelin ni de 50 Best en Algérie ; Mim du
+  chef Rabah Ourrad distingué par La Liste 2023 ; tendance : Le Roi de la Loubia, Le Fidélia, Sapori, La Presqu'île,
+  Sfindja ; institutions : Roi de la Loubia, Milk Bar, El Djenina, Auberge du Moulin, El Daqdaq), 5 quartiers, pas de lien
+  Tiqets (rien à Alger). Réseaux sociaux lancés une fois (Apify ; Reddit hors sujet). Prix : 1 € ≈ 151 DA au taux
+  officiel ; musées nationaux ≈ 200 DA (gratuit moins de 16 ans), Palais des Raïs 200 DA (fermé le dimanche), Tipaza
+  110 DA, téléphériques ≈ 30 DA. Les notes Google d'Alger sont basses (moyenne 4,03) : garde-fou ramené à ≈ 4,0.
+  Les sites officiels algériens (.dz) ne répondent pas d'ici et les prix des restaurants sont rarement publiés :
+  fourchettes tirées des avis récents et des vidéos (ex. Fidélia plats 1 000-2 500 DA). Montée au minaret de la Grande
+  Mosquée : tarif introuvable, fiche « à demander à l'accueil ». Nouveau champ `prix_match` du guide (billet de foot
+  moyen du pays, 4 € à Alger) : sans lui les matchs affichaient 25 €. Corrigé aussi : « Près d'Alger-Centre » et
+  « Photo d'Alger » (élision). Écartés : Citadelle (encore en partie en travaux), café Malakoff (ouverture non confirmée),
+  hammam (aucune adresse fiable pour un visiteur), Sidi Fredj comme quartier d'hôtels (trop loin : la recherche « dans
+  toute la ville » est limitée à 6 km). À dire aux clients : visa obligatoire pour les Français.
 - ✅ (23/10/2026) **Page guide de Tirana** (`guides/TIA.json`), préparée en autonomie : 24 activités (tendance d'après les
   réseaux sociaux : Pyramide, téléphérique du Dajti, mosquée Namazgah, soirée Albanian Night ; Bunk'Art 1 et 2, Maison des
   Feuilles, Blloku et Postbllok, Nouveau Bazar, château, Grand Parc, Mère Albanie ; match du KF Tirana, club « KF Tirana » ;

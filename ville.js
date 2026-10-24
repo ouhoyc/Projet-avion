@@ -281,7 +281,9 @@ function addMatchs(list) {
     .sort((a, b) => a.debut.localeCompare(b.debut))
     .map((m) => {
     const sp = SPORTS[m.sport];
-    const prix = GRANDS_MATCHS.test(m.competition) ? sp.prix * 2 : sp.prix;
+    // prix_match (guide) : billet de foot moyen du pays quand il est loin des 25 € européens (Alger : 4 €).
+    const base = m.sport === 'football' && guide.prix_match ? guide.prix_match : sp.prix;
+    const prix = GRANDS_MATCHS.test(m.competition) ? base * 2 : base;
     const quand = `${fmtDay.format(new Date(`${m.jour}T12:00`))} à ${m.heure.replace(/:00$/, ' h').replace(':', ' h ')}`;
     return {
       id: `match-${m.id}`, match: true, club: m.domicile,
@@ -491,7 +493,7 @@ function openCredits() {
       <h2 id="c-title">Crédits et mentions</h2>
       <div class="c-item"><b>Photos</b>
         Photos libres de droits venant de Wikimedia Commons, sous licence Creative Commons ou domaine public.
-        ${p ? `<p class="c-line">Photo de ${esc(cityName)} : ${esc(p.author)}, ${esc(p.license)}${p.page ? ` · <a href="${esc(p.page)}" target="_blank" rel="noopener">source</a>` : ''}</p>` : ''}
+        ${p ? `<p class="c-line">Photo ${/^[aeiouyéèêâîôh]/i.test(cityName) ? 'd\'' : 'de '}${esc(cityName)} : ${esc(p.author)}, ${esc(p.license)}${p.page ? ` · <a href="${esc(p.page)}" target="_blank" rel="noopener">source</a>` : ''}</p>` : ''}
         <details class="c-more">
           <summary>Photos des activités (${guide.activites.filter((a) => a.photo).length})</summary>
           <ul>${guide.activites.filter((a) => a.photo).map((a) => `
@@ -717,7 +719,7 @@ function renderHotel() {
         : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : le métro vous y emmène vite.`;
   $('h-zone').innerHTML = `
     <div class="h-card">
-      <p class="h-q"><b>${isIdeal && ideal.exact && n ? 'Près de ' : ''}${esc(q.nom)}</b>${best ? `<span class="h-best">${best}</span>` : ''}</p>
+      <p class="h-q"><b>${isIdeal && ideal.exact && n ? (/^[aeiouyéèêâîôh]/i.test(q.nom) ? 'Près d\'' : 'Près de ') : ''}${esc(q.nom)}</b>${best ? `<span class="h-best">${best}</span>` : ''}</p>
       <p class="h-text">${esc(q.texte)}</p>
       <p class="h-why">${esc(why)}</p>
     </div>
