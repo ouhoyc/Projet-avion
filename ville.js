@@ -101,9 +101,9 @@ const TYPES = {
 };
 // Restaurants : 3 gammes de prix, et des badges pour dire pourquoi on les a choisis.
 const RESTO_GAMMES = [
-  { id: 'petit', nom: 'Petit prix', sous: 'moins de 30 € par personne', dot: '🟢' },
-  { id: 'moyen', nom: 'Gamme moyenne', sous: '25 à 60 € par personne', dot: '🟠' },
-  { id: 'haut', nom: 'Haut de gamme', sous: 'à partir de 50 € par personne', dot: '🔴' },
+  { id: 'petit', nom: 'Petit prix', dot: '🟢' },
+  { id: 'moyen', nom: 'Gamme moyenne', dot: '🟠' },
+  { id: 'haut', nom: 'Haut de gamme', dot: '🔴' },
 ];
 const BADGES = {
   tendance: { icon: '🔥', nom: 'Tendance', long: 'Restaurant tendance', why: 'Très partagé sur Instagram et TikTok.' },
@@ -386,6 +386,16 @@ function badgeTags(list) {
   return (list || []).map((b) => BADGES[b] ? `<span class="badge badge-${b}">${BADGES[b].icon} ${BADGES[b].nom}</span>` : '').join('');
 }
 
+// Fourchette de prix d'une gamme, calculée sur les restaurants de la ville : une gamme ne coûte
+// pas pareil partout (« 8 à 18 € » à Annaba, « 30 à 70 € » à Paris).
+function gammeRange(id, list) {
+  const lo = Math.min(...list.map((r) => r.prix_min));
+  const hi = Math.max(...list.map((r) => Math.max(...(r.prix.match(/\d+(?:[.,]\d+)?/g) || [r.prix_min]).map((n) => Number(n.replace(',', '.'))))));
+  if (id === 'petit') return `jusqu'à ${hi} € par personne`;
+  if (id === 'haut') return `à partir de ${lo} € par personne`;
+  return `${lo} à ${hi} € par personne`;
+}
+
 function renderRestos() {
   const all = guide.restaurants || [];
   $('r-legend').innerHTML = Object.entries(BADGES).filter(([k]) => all.some((r) => (r.badges || []).includes(k)))
@@ -394,7 +404,7 @@ function renderRestos() {
     const list = all.filter((r) => r.gamme === g.id).sort((a, b) => a.prix_min - b.prix_min);
     if (!list.length) return '';
     return `
-      <h3 class="r-gamme"><span aria-hidden="true">${g.dot}</span> ${g.nom}<small>${g.sous}</small></h3>
+      <h3 class="r-gamme"><span aria-hidden="true">${g.dot}</span> ${g.nom}<small>${gammeRange(g.id, list)}</small></h3>
       <ul class="v-list">${list.map((r) => {
         const on = restos.has(r.id);
         return `

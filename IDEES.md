@@ -264,6 +264,9 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (24/10/2026) Gammes de restaurants : la fourchette de prix affichée au-dessus de chaque gamme est calculée sur les
+  restaurants de la ville (`gammeRange`, `ville.js`) au lieu d'être la même partout (« moins de 30 € », « à partir de 50 € ») :
+  Annaba « 8 à 18 € » en gamme moyenne, Paris « 30 à 70 € ». Rien à faire pour les nouvelles villes.
 - ✅ (24/10/2026) **Visa et prix des matchs** (validé par le propriétaire) : nouveau champ `avant_de_partir` du guide,
   affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
   obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
@@ -294,8 +297,6 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   6 000 DA, dîner de trois plats ≈ 2 150 DA en moyenne dans la ville. Écartés : El Hadja à Seraïdi (très connu mais
   note 3,7), Village de Neige (3,4) et Donatella (3,5) malgré leur succès sur TikTok, citadelle hafside (restauration
   relancée, fermée au public). Réseaux sociaux lancés une fois (Apify).
-  À surveiller : les libellés des gammes de restaurants sont les mêmes pour toutes les villes (« moins de 30 € »,
-  « à partir de 50 € ») alors qu'à Annaba le haut de gamme commence à 15 € — à revoir un jour.
 - ✅ (24/10/2026) **Page guide d'Alger** (`guides/ALG.json`), préparée en autonomie : 22 activités (tendance d'après les
   réseaux sociaux, 2 sources au moins : Casbah, Palais des Raïs, Notre-Dame d'Afrique, Maqam Echahid, Jardin d'Essai,
   Beaux-Arts, Bardo, Grande Mosquée, Tipaza ; Dar Mustapha Pacha, mosquées de la place des Martyrs, musée des Antiquités,
