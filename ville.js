@@ -184,6 +184,11 @@ async function init() {
   $('v-city').textContent = cityName;
   $('v-country').textContent = flights[0]?.country || '';
   if (ville.pitch) $('v-pitch').textContent = ville.pitch;
+  // avant_de_partir (guide) : formalité à connaître avant de réserver le vol (ex. visa pour l'Algérie).
+  if (guide.avant_de_partir) {
+    $('v-info').innerHTML = `<b>À savoir avant de partir</b>${esc(guide.avant_de_partir)}`;
+    $('v-info').hidden = false;
+  }
   if (ville.photo?.src) $('v-hero').style.backgroundImage = `url("${ville.photo.src}")`;
   $('t-acts').firstChild.textContent = `Que faire à ${cityName} ? `;
 

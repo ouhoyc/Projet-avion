@@ -266,6 +266,10 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (24/10/2026) **Visa et prix des matchs** (validé par le propriétaire) : nouveau champ `avant_de_partir` du guide,
+  affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
+  obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
+  (8 €) et Tirana (4 €), comme le prix de l'activité du club local.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

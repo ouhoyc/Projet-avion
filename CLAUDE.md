@@ -142,6 +142,7 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   Si une conversation s'arrête en route, son historique se relit avec `list_events` (crédits photo, prix, positions).
   Champ `ville` du guide : nom affiché quand la ville n'a pas de vol en ce moment (ligne saisonnière).
   Champ `prix_match` du guide : prix d'un billet de foot dans le pays (ex. 4 à Alger) ; sinon les matchs affichent 25 €.
+  Champ `avant_de_partir` du guide : formalité à connaître (ex. visa pour l'Algérie), encadré à l'étape Vol.
 - **Île (`"ile": true` dans le guide)** : les stations sont trop loin les unes des autres pour chercher les hôtels « dans
   toute la ville » (rayon 6 km au plus) : la recherche se fait autour du lieu choisi (5 km), on parle d'« Autres lieux »
   et de « voiture de location » au lieu du métro (`ville.js`). Le nom affiché vient de `data.json` : corriger le nom de

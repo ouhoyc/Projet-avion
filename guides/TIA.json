@@ -996,6 +996,7 @@
     }
   ],
   "hotel_petit_prix_max": 50,
+  "prix_match": 4,
   "restaurants": [
     {
       "id": "met-kodra",

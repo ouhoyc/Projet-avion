@@ -1038,6 +1038,7 @@
   }
  ],
  "hotel_petit_prix_max": 60,
+ "prix_match": 8,
  "restaurants": [
   {
    "id": "bambalouni",

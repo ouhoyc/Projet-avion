@@ -3,6 +3,7 @@
  "ville": "Annaba",
  "statut": "vérifié en autonomie, prix relevés le 24/10/2026 (1 € ≈ 151 dinars au taux officiel)",
  "verifie_le": "2026-10-24",
+ "avant_de_partir": "Les Français ont besoin d'un visa pour l'Algérie (la carte d'identité ne suffit pas). Il se demande en personne au consulat d'Algérie de votre région (à Lyon pour la région lyonnaise), avec un passeport valable 6 mois après le retour, une réservation d'hôtel et une assurance voyage : environ 110 €. Comptez jusqu'à 3 semaines : déposez votre dossier au moins un mois avant le départ.",
  "reservation_legende": {
   "indispensable": "Réserver à l'avance (souvent complet sur place)",
   "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
