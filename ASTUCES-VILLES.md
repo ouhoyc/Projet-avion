@@ -92,3 +92,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Photos Commons : recherche HTML (`ns6=1`) + `commons.wikimedia.org/w/thumb.php?f=NOM&w=330` / `w=960`, rapide et sans « 429 » ;
   peu de photos de restaurants algériens, prendre des photos de plats (`illustration: true`). Presse algérienne pour les prix
   (les `.dz` ne répondent pas) ; `combien-coute.net` donne un ordre de grandeur utile (dîner 3 plats ≈ 2 150 DA à Annaba).
+- Oran (oct. 2026) : Wanderlog presque vide (géo 79421) mais 9 listes `geoCategory` (départ 205503) donnent ~90 lieux avec un
+  résumé des avis (`generatedDescription`), utile pour écrire les fiches. Google Maps en affichage limité : **mettre un User-Agent
+  de Chrome normal** (avec celui de Chromium sans tête, le nombre d'avis n'apparaît pas) ; un mot générique (« forno »,
+  « paella ») renvoie une liste là où un nom exact ouvre une fiche vide. Penser à couvrir la côte (Canastel, Aïn El Turck).
+  Photos Commons : `thumb.php?w=960` échoue sur les petits fichiers, réessayer en `w=800` puis `Special:FilePath`.
+

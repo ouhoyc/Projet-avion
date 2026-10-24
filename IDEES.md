@@ -261,11 +261,24 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 - Crédit Ignav : 1 000 recherches gratuites, puis ~2 $ / 1 000.
 - Tunis (`guides/TUN.json`) : le 1er janvier 2027, les entrées des musées et sites tunisiens augmentent (Bardo 45 dinars,
   Carthage, El Jem et Kairouan 30, billet combiné Bardo + Carthage 70) : mettre à jour les prix de la fiche.
-- Matchs hors d'Europe : `prix_match` n'est rempli que pour Alger ; Tunis (≈ 8 €) et Tirana (≈ 5 €) affichent encore
+- Matchs hors d'Europe : `prix_match` n'est rempli que pour Alger, Annaba et Oran ; Tunis (≈ 8 €) et Tirana (≈ 5 €) affichent encore
   25 € par match. Algérie : visa obligatoire pour les Français, rien ne le dit encore sur le site.
 
 ## Fait
 
+- ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
+  sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
+  mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade
+  de Létang, Kristel, théâtre Abdelkader-Alloula, visite guidée à pied, excursion à Tlemcen ; match du Mouloudia, club « MC Oran »),
+  18 restaurants, 5 quartiers (centre, front de mer, Gambetta, Akid Lotfi, Canastel : tous à moins de 6 km), pas de lien Tiqets.
+  Pas de champ `ville` (vols Transavia en ce moment) ; `prix_match` 4 €. **Wanderlog ne donne presque rien pour Oran** (page
+  `placePageGeos` vide, 9 listes et ~90 lieux) : notes et positions relevées sur Google Maps (quadrillage, ~1 670 lieux), moyenne
+  pondérée de la ville C = 4,03. Prix : 1 € ≈ 151 DA ; Santa Cruz 60 à 110 DA, musée Zabana 200 DA (gratuit moins de 16 ans),
+  théâtre ≈ 300-500 DA ; prix des restaurants estimés (rarement publiés en Algérie : avis, vidéos, moyenne Numbeo d'un dîner
+  ≈ 1 500 DA). Écartés : Les Jumelles (très partagé sur TikTok mais note 3,2), El Bey (l'adresse semble être devenue « Fish
+  house »), MAMO (souvent fermé d'après les avis récents), îles Habibas (réserve, débarquement non autorisé), téléphérique de
+  Santa Cruz (à l'arrêt). Mosquée du Pacha (fermée depuis 2004) et palais du Bey (restauration) : vus de l'extérieur dans
+  Sidi El Houari. Le Mouloudia est revenu au stade Ahmed-Zabana en 2025 (certains matchs à Miloud-Hadefi).
 - ✅ (24/10/2026) **Page guide d'Annaba** (`guides/AAE.json`), préparée en autonomie : 18 activités (tendance d'après les
   réseaux sociaux, 2 sources au moins : Hippone et son musée, basilique Saint-Augustin, Cours de la Révolution, corniche
   et plage Chapuis, plage d'Aïn Achir, Cap de Garde, téléphérique, Seraïdi ; vieille ville et mosquées, cascades de

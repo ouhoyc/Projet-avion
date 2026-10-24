@@ -1,0 +1,1248 @@
+{
+ "city_code": "ORN",
+ "statut": "vérifié en autonomie, prix relevés le 24/10/2026 (1 € ≈ 151 dinars au taux officiel)",
+ "verifie_le": "2026-10-24",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "santa-cruz",
+   "nom": "Santa Cruz, le fort et la chapelle au-dessus de la baie",
+   "emoji": "🏰",
+   "type": "vue",
+   "quartier": "Mont Murdjadjo (4 km du centre)",
+   "lat": 35.70922,
+   "lng": -0.66505,
+   "prix": 0.7,
+   "prix_detail": [
+    [
+     "Entrée du fort",
+     "≈ 60 à 110 DA (moins de 1 €)"
+    ],
+    [
+     "Enfants",
+     "≈ 30 DA"
+    ],
+    [
+     "Chapelle Notre-Dame de Santa Cruz",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre (aller)",
+     "≈ 500 à 800 DA (≈ 3,50 à 5 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0.7,
+    "enfants": [
+     [
+      12,
+      0.2
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Avant 10 h pour la lumière et le calme, ou en fin d'après-midi pour le coucher du soleil",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Accrochés à 400 mètres au-dessus de la mer, le fort espagnol de la fin du XVIe siècle et la chapelle blanche à la Vierge dorée sont l'image d'Oran. D'en haut, toute la ville se déplie : le port, le front de mer, la rade de Mers El Kébir et, par temps clair, la côte jusqu'à Aïn El Turck. Les Oranais y montent en famille le week-end, et c'est la photo que vous rapporterez.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Fort_de_Santa_Cruz",
+   "note": "Montez en taxi par la route du Murdjadjo (20 minutes) : le téléphérique est à l'arrêt depuis des années. La chapelle est en contrebas du fort, à quelques minutes à pied ; prévoyez des chaussures fermées et un peu de monnaie en dinars pour le billet.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChapelle_de_Santa_Cruz_%28Oran%29_01.jpg",
+    "src": "img/activites/ORN/santa-cruz.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "front-de-mer",
+   "nom": "Le front de mer et le boulevard de l'ALN",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Front de mer",
+   "lat": 35.7066,
+   "lng": -0.63062,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Jus d'orange pressé ou thé en terrasse",
+     "≈ 100 à 300 DA (≈ 0,70 à 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le soir, quand toute la ville sort se promener et que le port s'allume",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Trois kilomètres de balcon au-dessus du port, bordés de palmiers et d'immeubles des années 1930 : c'est ici qu'Oran vient respirer. À la tombée du jour, les familles, les marchands de graines et de glaces et les couples s'y croisent face à Santa Cruz qui s'illumine. Le meilleur endroit pour sentir l'énergie de la ville, gratuitement.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Front_de_mer_d%27Oran",
+   "note": "Commencez près de la place du 1er-Novembre et marchez vers l'est jusqu'à la stèle du Maghreb ; les cafés et les vendeurs de jus sont du côté des immeubles.",
+   "photo": {
+    "auteur": "L'Algérie Pays du Soleil et de Beauté",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFront_de_Mer_Oran%2C_Boulevard_de_l%27ALN.jpg",
+    "src": "img/activites/ORN/front-de-mer.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "place-armes",
+   "nom": "La place d'Armes, l'hôtel de ville et ses lions",
+   "emoji": "🦁",
+   "type": "balade",
+   "quartier": "Centre-ville",
+   "lat": 35.7037,
+   "lng": -0.6485,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Place et façades",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, quand la place se remplit",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La place du 1er-Novembre, que tout le monde appelle encore place d'Armes, réunit en un coup d'œil le décor de la ville : l'hôtel de ville gardé par ses deux lions de bronze (l'emblème d'Oran), le théâtre aux coupoles dorées de 1907 et la colonne du Souvenir. C'est le point de rendez-vous des Oranais, et le départ idéal pour descendre vers la vieille ville.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Place_du_1er-Novembre-1954_(Oran)",
+   "note": "Les deux lions sont devant les marches de l'hôtel de ville : c'est la photo souvenir classique. Le quartier de Sidi El Houari commence juste en contrebas.",
+   "photo": {
+    "auteur": "Boumlik Messaïli",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlace_d%27armes.jpg",
+    "src": "img/activites/ORN/place-armes.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "sidi-el-houari",
+   "nom": "Sidi El Houari, la vieille ville",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Sidi El Houari",
+   "lat": 35.70378,
+   "lng": -0.65349,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade dans le quartier",
+     "gratuit"
+    ],
+    [
+     "Palais du Bey et mosquée du Pacha",
+     "vus de l'extérieur (restauration en cours)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin, quand les ruelles sont à l'ombre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le berceau d'Oran, accroché au pied du Murdjadjo : des ruelles en pente où se superposent les traces espagnoles, ottomanes et françaises. Vous passez la porte d'Espagne, longez le minaret octogonal de la mosquée du Pacha (1796), le palais du Bey et le mausolée du saint patron de la ville, puis redescendez vers la promenade de Létang. Un quartier populaire et vivant, loin des circuits touristiques.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Sidi_El_Houari",
+   "note": "La mosquée du Pacha est fermée depuis 2004 pour raisons de structure et le palais du Bey attend sa restauration : on les admire de l'extérieur. Pour comprendre le quartier, la visite guidée à pied (voir plus bas) est la meilleure solution.",
+   "photo": {
+    "auteur": "Rachid Hamatou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AResidential_buildings_in_Oran_and_Mosqu%C3%A9e_Imam_el-Houari.jpg",
+    "src": "img/activites/ORN/sidi-el-houari.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "cathedrale",
+   "nom": "La cathédrale du Sacré-Cœur, devenue bibliothèque",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "Centre-ville (place de la Kahina)",
+   "lat": 35.6986,
+   "lng": -0.6369,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En journée, du dimanche au jeudi, aux heures de la bibliothèque",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une cathédrale néo-byzantine de 1913, aux deux tours et à la grande mosaïque de façade, transformée en bibliothèque publique. Sous la coupole, les étudiants révisent sur de longues tables là où se trouvait la nef, entre l'orgue et le chœur restés en place. Une scène unique, que Camus a fait entrer dans La Peste.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_du_Sacr%C3%A9-C%C5%93ur_d%27Oran",
+   "note": "C'est une salle de lecture : entrez discrètement, sans flash, et demandez à l'accueil avant de photographier les lecteurs.",
+   "photo": {
+    "auteur": "Hani.ad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale_du_Sacr%C3%A9-C%C5%93ur_d%27Oran.jpg",
+    "src": "img/activites/ORN/cathedrale.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "ben-badis",
+   "nom": "La grande mosquée Abdelhamid-Ben-Badis",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Cité Djamel (3 km du centre)",
+   "lat": 35.69776,
+   "lng": -0.6062,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre",
+     "≈ 200 à 400 DA"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En matinée, en dehors des heures de prière (évitez le vendredi midi)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus grande mosquée de l'Ouest algérien, inaugurée en 2015 : un vaste ensemble blanc à arcades, coiffé de coupoles vertes et d'un minaret de 104 mètres que l'on voit de toute la ville. L'intérieur, avec ses lustres, ses boiseries et ses marbres, impressionne par ses dimensions.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_Abdelhamid_Ben_Badis",
+   "note": "Tenue couvrante (bras et jambes ; foulard pour les femmes), chaussures retirées à l'entrée. Demandez à l'accueil si vous pouvez entrer : les visites se font en dehors des prières.",
+   "photo": {
+    "auteur": "Amanidjilali",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D8%A8%D9%86_%D8%A8%D8%A7%D8%AF%D9%8A%D8%B3_%D9%88%D9%87%D8%B1%D8%A7%D9%86_%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1.jpg",
+    "src": "img/activites/ORN/ben-badis.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "zabana",
+   "nom": "Le musée national Ahmed-Zabana",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Boulevard Zabana (centre)",
+   "lat": 35.69564,
+   "lng": -0.64512,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 200 DA (≈ 1,30 €), en espèces"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du dimanche au jeudi, de 9 h à 16 h 30 ; le samedi après-midi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le grand musée de l'Ouest algérien réunit sous un même toit des mosaïques romaines, des stèles puniques, des faïences de l'époque espagnole, une belle galerie de peinture et des salles d'histoire naturelle. Une visite qui raconte en une heure et demie trois mille ans de la région.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_national_Zabana_d%27Oran",
+   "note": "Fermé le vendredi. Le billet se paie en dinars à l'entrée ; ne manquez pas les mosaïques romaines.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_national_Ahmed_Zabana_01.jpg",
+    "src": "img/activites/ORN/zabana.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "medina-jdida",
+   "nom": "Médina Jdida, le grand souk",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Médina Jdida",
+   "lat": 35.69553,
+   "lng": -0.64727,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Karantika dans la rue",
+     "≈ 30 à 60 DA la part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de matinée ; très animé avant les fêtes",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le quartier marchand d'Oran, autour de la place Tahtaha et de son monument : un dédale d'échoppes de tissus, de blouzas oranaises brodées, d'épices, de vaisselle et d'or. C'est aussi là que l'on goûte la karantika, le flan de pois chiches né à Oran, servie brûlante dans un morceau de pain. Une plongée dans la vie quotidienne, à deux pas du musée Zabana.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/M%C3%A9dina_Jedida",
+   "note": "Beaucoup de monde dans les ruelles : gardez votre téléphone et votre portefeuille devant vous. Les prix des tissus se discutent.",
+   "photo": {
+    "auteur": "Boumlik Messaïli",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATahtaha.jpg",
+    "src": "img/activites/ORN/medina-jdida.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "letang",
+   "nom": "La promenade de Létang",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "Sous le Château Neuf",
+   "lat": 35.7057,
+   "lng": -0.646,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardin",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, quand le soleil passe derrière Santa Cruz",
+   "enfants": true,
+   "texte": "Le plus vieux jardin public de l'Ouest algérien, créé au XIXe siècle sur les pentes qui dominent le port. Ses allées en terrasses, plantées de pins et de ficus géants, descendent du Château Neuf vers la mer, avec Santa Cruz en toile de fond. Un coin de calme et d'ombre entre la vieille ville et le front de mer.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Promenade_de_L%C3%A9tang",
+   "note": "Entrée près du Château Neuf (forteresse militaire, qui ne se visite pas). Le jardin se combine bien avec Sidi El Houari.",
+   "photo": {
+    "auteur": "elmagnifico",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APromenade_Ibn_Badis_%28L%C3%A9tang%29.jpg",
+    "src": "img/activites/ORN/letang.jpg"
+   },
+   "badges": [],
+   "a_verifier": false
+  },
+  {
+   "id": "cap-falcon",
+   "nom": "La corniche d'Aïn El Turck et le phare de Cap Falcon",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Aïn El Turck (15 km à l'ouest)",
+   "lat": 35.74004,
+   "lng": -0.75395,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plages et corniche",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre (aller)",
+     "≈ 1 000 à 1 500 DA (≈ 7 à 10 €)"
+    ],
+    [
+     "Parasol et deux chaises en été",
+     "≈ 500 à 1 000 DA"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre pour la baignade ; le reste de l'année pour la balade et le coucher du soleil",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Passé le tunnel de Mers El Kébir, la côte s'ouvre sur une enfilade de plages et de criques : Trouville, Bouisseville, Saint-Roch, puis le phare blanc de Cap Falcon, posé sur sa pointe depuis 1868. C'est la station balnéaire des Oranais, avec ses restaurants de poisson les pieds dans l'eau et ses couchers de soleil sur la mer.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/A%C3%AFn_El_Turk",
+   "note": "En juillet et en août, la route est chargée le week-end : partez tôt. Les meilleures tables de poisson sont sur le front de mer d'Aïn El Turck.",
+   "photo": {
+    "auteur": "Ahmd Abuissa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AA%C3%AFn_El_Turk%2C_Oran_Province_%28Algeria%29.jpg",
+    "src": "img/activites/ORN/cap-falcon.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "andalouses",
+   "nom": "La plage des Andalouses",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Les Andalouses (30 km à l'ouest)",
+   "lat": 35.70507,
+   "lng": -0.89691,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre (aller)",
+     "≈ 2 000 à 3 000 DA (≈ 13 à 20 €)"
+    ],
+    [
+     "Balade à cheval au club équestre",
+     "à demander sur place"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Journée",
+   "moment": "En juin ou en septembre : l'eau est bonne et la plage moins pleine qu'en août",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une grande baie de sable blond, abritée par le cap Lindlès, avec une eau claire et des dunes couvertes d'herbes : la plus belle plage des environs d'Oran, et l'une des plus propres. On y vient pour la journée, pour nager, dormir sous le parasol ou partir à cheval le long de la baie.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Les_Andalouses",
+   "note": "Peu de bus : le plus simple est un taxi pour la journée ou une voiture de location. Emportez de l'eau et de quoi déjeuner hors saison, quand les buvettes sont fermées.",
+   "photo": {
+    "auteur": "Fayçal Rezkallah",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_des_andalouses_Oran.jpg",
+    "src": "img/activites/ORN/andalouses.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "madagh",
+   "nom": "Madagh, la crique sauvage",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Aïn El Kerma (60 km à l'ouest)",
+   "lat": 35.64009,
+   "lng": -1.05899,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Taxi pour la journée (aller-retour avec attente)",
+     "≈ 6 000 à 8 000 DA (≈ 40 à 53 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Journée",
+   "moment": "De juin à septembre, en semaine de préférence",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au bout d'une route qui serpente dans la forêt, une anse turquoise fermée par un piton rocheux, des pins qui descendent jusqu'au sable et presque aucune construction. Madagh est la carte postale de la côte oranaise, celle que les Oranais gardent pour les beaux jours.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Madagh",
+   "note": "Comptez 1 h 15 de route depuis Oran. Il y a deux plages (Madagh 1 et Madagh 2) ; la première est la plus belle. Pas de distributeur sur place : prévoyez des espèces.",
+   "photo": {
+    "auteur": "Mbelkahla2",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOran_Madagh.jpg",
+    "src": "img/activites/ORN/madagh.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "bateau",
+   "nom": "En bateau vers l'île Plane",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Départ d'Aïn El Turck ou de la plage Corales",
+   "lat": 35.77081,
+   "lng": -0.90206,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Sortie partagée (bateau, baignade, île Plane)",
+     "≈ 2 000 à 3 000 DA par personne (≈ 13 à 20 €)"
+    ],
+    [
+     "Bateau privé, 3 heures, 6 personnes au plus",
+     "≈ 35 000 DA (≈ 230 €) le bateau"
+    ],
+    [
+     "Baptême de plongée",
+     "à demander au club"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou l'avant-veille, auprès d'un club nautique d'Aïn El Turck",
+   "duree": "3 à 4 h",
+   "moment": "De juin à septembre, quand la mer est calme",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au large des Andalouses, l'île Plane et les îlots Paloma forment une petite réserve où l'eau est d'une transparence rare : on y jette l'ancre pour nager, faire du masque et du tuba au-dessus des herbiers et pique-niquer sur l'île. Vue de la mer, la côte oranaise et ses falaises prennent une autre allure.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/%C3%8Ele_Plane_(Alg%C3%A9rie)",
+   "note": "Choisissez un club avec gilets de sauvetage et moteur entretenu, et demandez ce qui est compris (boissons, masque, repas). Les îles Habibas, plus au large, sont une réserve protégée : on ne peut pas y débarquer librement.",
+   "photo": {
+    "auteur": "Terki hassaine samir",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlonger_iles_plane_-_Oran_-_Alg%C3%A9rie.jpg",
+    "src": "img/activites/ORN/bateau.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "kristel",
+   "nom": "Kristel, le village de pêcheurs",
+   "emoji": "🎣",
+   "type": "nature",
+   "quartier": "Kristel (25 km à l'est)",
+   "lat": 35.82118,
+   "lng": -0.48366,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Village et sentiers",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre (aller)",
+     "≈ 1 500 à 2 000 DA (≈ 10 à 13 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Au printemps et à l'automne, quand la lumière est douce",
+   "enfants": true,
+   "texte": "De l'autre côté de la baie, la route de la corniche plonge vers un petit port où sèchent les filets rouges, des maisons étagées dans les jardins en terrasses et des criques de galets au pied des falaises. Kristel est le contraire de la ville : on y vient pour marcher le long de la côte sauvage jusqu'à la pointe de l'Aiguille, et manger le poisson du jour face aux barques.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Kristel",
+   "note": "La route est étroite et en lacets sur la fin. Sur place, quelques restaurants de poisson simples ; en dehors de l'été, certains n'ouvrent que le week-end.",
+   "photo": {
+    "auteur": "Abdelkader LAGRAA from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVue_de_Kristel.jpg",
+    "src": "img/activites/ORN/kristel.jpg"
+   },
+   "badges": [],
+   "a_verifier": false
+  },
+  {
+   "id": "match-mco",
+   "nom": "Un match du Mouloudia d'Oran",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade Ahmed-Zabana (El Hamri)",
+   "lat": 35.68336,
+   "lng": -0.63652,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 200 à 300 DA (≈ 1,30 à 2 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 400 à 600 DA (≈ 3 à 4 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en vente aux guichets du stade les jours de match, ou sur la plateforme nationale de billetterie quand le club l'annonce",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pendant la saison (septembre à mai)",
+   "enfants": false,
+   "club": "MC Oran",
+   "texte": "Le Mouloudia, le club du quartier d'El Hamri, est le club de cœur de toute la ville : quatre titres de champion, des chants repris par 40 000 voix et des tifos rouge et blanc qui couvrent les tribunes du vieux stade Ahmed-Zabana, redevenu son stade en 2025. Une soirée de foot à Oran, c'est un spectacle à part entière.",
+   "note": "Les dates sont annoncées quelques jours avant seulement. Préférez la tribune au virage, et n'y emmenez pas de jeunes enfants. Certains matchs se jouent au grand stade Miloud-Hadefi, à Bir El Djir : vérifiez sur le billet.",
+   "lien_billets": "https://www.google.com/search?q=billets+MC+Oran+match",
+   "photo": {
+    "auteur": "Faycal.09",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStade_Ahmed_Zabana_%28Supporters_du_MC_Oran%29.jpg",
+    "src": "img/activites/ORN/match-mco.jpg"
+   },
+   "badges": [],
+   "a_verifier": false
+  },
+  {
+   "id": "theatre",
+   "nom": "Une soirée au théâtre régional Abdelkader-Alloula",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Place d'Armes",
+   "lat": 35.70339,
+   "lng": -0.65025,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Billet",
+     "≈ 300 à 500 DA (≈ 2 à 3,50 €) selon le spectacle"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour les soirées de Ramadan et les concerts",
+   "duree": "2 h",
+   "moment": "En soirée ; programme surtout riche pendant le Ramadan et en mars (mois du théâtre)",
+   "enfants": true,
+   "texte": "Une salle à l'italienne de 1907, toute de velours rouge et de plafonds peints, qui porte le nom du grand dramaturge oranais. On y joue du théâtre en arabe et en darja, mais aussi des concerts de musique andalouse et de raï, la musique née à Oran : même sans comprendre les répliques, l'ambiance et le décor valent la soirée.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_r%C3%A9gional_d%27Oran",
+   "note": "Le programme est affiché à l'entrée et sur la page Facebook du théâtre. Les concerts de raï ont surtout lieu l'été, au théâtre de verdure Hasni-Chekroun et pendant le festival d'août.",
+   "photo": {
+    "auteur": "Dezedien",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARegional_Theatre_of_Oran_2024_03.jpg",
+    "src": "img/activites/ORN/theatre.jpg"
+   },
+   "badges": [],
+   "a_verifier": false
+  },
+  {
+   "id": "visite-guidee",
+   "nom": "Une visite guidée à pied du vieil Oran",
+   "emoji": "🚶",
+   "type": "culture",
+   "quartier": "Départ place d'Armes",
+   "lat": 35.704,
+   "lng": -0.6484,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Visite « au pourboire »",
+     "≈ 10 à 15 € par personne, à donner au guide à la fin"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, sur la plateforme GuruWalk (gratuit et annulable)",
+   "duree": "2 h 30",
+   "moment": "Le matin, quand il fait frais",
+   "enfants": true,
+   "texte": "Avec un guide oranais, la place d'Armes, le palais du Bey, la mosquée du Pacha, la porte d'Espagne et la promenade de Létang prennent tout leur sens : sièges espagnols, beys ottomans, quartiers européens et indépendance. Les guides parlent français et anglais, et connaissent les meilleures adresses de karantika du quartier.",
+   "site_officiel": "https://www.guruwalk.com/walks/60776-oran-heritage-history-art-of-living",
+   "note": "Rendez-vous devant les marches de l'hôtel de ville, entre les deux lions. Chaussures confortables : Sidi El Houari est en pente.",
+   "photo": {
+    "auteur": "Bachounda",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalais_du_Bey_DemeureMod_%28Oran%29_%2832%29.jpg",
+    "src": "img/activites/ORN/visite-guidee.jpg"
+   },
+   "badges": [],
+   "a_verifier": false
+  },
+  {
+   "id": "tlemcen",
+   "nom": "Une journée à Tlemcen, la perle du Maghreb",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Tlemcen (2 h de route)",
+   "lat": 34.87082,
+   "lng": -1.3386,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Bus ou taxi collectif (aller)",
+     "≈ 800 à 1 200 DA (≈ 5 à 8 €)"
+    ],
+    [
+     "Voiture avec chauffeur pour la journée",
+     "≈ 12 000 à 15 000 DA (≈ 80 à 100 €) la voiture"
+    ],
+    [
+     "Mansourah, Grande Mosquée, Sidi Boumediene",
+     "gratuit ou ≈ 100 à 200 DA"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Au printemps ou à l'automne ; partez tôt le matin",
+   "enfants": true,
+   "texte": "À 140 kilomètres, l'ancienne capitale des Zianides est le joyau de l'Ouest : le minaret de Mansourah dressé seul au milieu des remparts, la Grande Mosquée almoravide, la médersa et le mausolée de Sidi Boumediene aux zelliges somptueux, la citadelle du Méchouar. Une journée hors du temps, très différente de l'Oran méditerranéenne.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Tlemcen",
+   "note": "Le plus confortable est une voiture avec chauffeur (demandez à votre hôtel). Habillez-vous de façon couvrante pour les mosquées et mausolées.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMansourah_Mosque_01.jpg",
+    "src": "img/activites/ORN/tlemcen.jpg"
+   },
+   "badges": [],
+   "a_verifier": false
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Centre-ville (place d'Armes)",
+   "lat": 35.7025,
+   "lng": -0.645,
+   "texte": "Le cœur historique d'Oran : la place d'Armes, le boulevard de la Soummam et ses immeubles 1900, le Royal Hotel, le théâtre et la vieille ville de Sidi El Houari en contrebas. Tout se fait à pied, et c'est le plus pratique pour un premier séjour."
+  },
+  {
+   "id": "front-de-mer",
+   "nom": "Le front de mer",
+   "lat": 35.7085,
+   "lng": -0.63,
+   "texte": "Les hôtels du boulevard de l'ALN regardent le port et Santa Cruz. Le soir, la promenade est la plus animée de la ville ; le centre est à 10 minutes à pied et le tramway passe tout près."
+  },
+  {
+   "id": "gambetta",
+   "nom": "Gambetta et Les Falaises",
+   "lat": 35.712,
+   "lng": -0.613,
+   "texte": "Le prolongement est du front de mer, avec les grands hôtels sur la falaise (Oran Bay, Four Points), de bonnes tables et la vue sur toute la baie. Le centre est à 10 minutes en taxi."
+  },
+  {
+   "id": "akid-lotfi",
+   "nom": "Akid Lotfi et Le Méridien",
+   "lat": 35.725,
+   "lng": -0.589,
+   "texte": "Le quartier moderne qui sort le soir : centre des conventions, restaurants, cafés et glaciers à la mode, résidences récentes. Idéal si vous voulez vivre l'Oran d'aujourd'hui ; comptez 15 à 20 minutes de taxi pour le centre historique."
+  },
+  {
+   "id": "canastel",
+   "nom": "Canastel",
+   "lat": 35.746,
+   "lng": -0.572,
+   "texte": "Sur les falaises au nord-est de la ville, au bord de la forêt de Canastel : plus calme, avec la mer en face et quelques-unes des meilleures tables d'Oran. Le plus agréable pour un séjour au calme, mais il faut un taxi pour tout le reste."
+  }
+ ],
+ "hotel_petit_prix_max": 60,
+ "prix_match": 4,
+ "restaurants": [
+  {
+   "id": "aybout",
+   "nom": "Aybout Karantika",
+   "emoji": "🥧",
+   "gamme": "petit",
+   "genre": "La karantika, la spécialité d'Oran",
+   "quartier": "Centre-ville",
+   "adresse": "Rue Benali Hadj, centre-ville",
+   "lat": 35.70182,
+   "lng": -0.63987,
+   "prix": "moins de 1 €",
+   "prix_min": 0.5,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le plat que les Oranais défendent bec et ongles : un flan doré de farine de pois chiches, cuit en grande plaque, découpé brûlant et glissé dans un morceau de pain avec du cumin et de la harissa. La maison Aybout passe pour la plus ancienne de la ville et en sert depuis des décennies au comptoir. Quelques dinars, et vous goûtez à trois siècles d'histoire oranaise.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant midi, la plaque part vite",
+   "photo": {
+    "auteur": "Plwnt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKarantika_Algerian.jpg",
+    "src": "img/restos/ORN/aybout.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vanille-fraise",
+   "nom": "Vanille Fraise",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glaces maison",
+   "quartier": "Gambetta",
+   "adresse": "13 boulevard Wahrani-Boumediene",
+   "lat": 35.70843,
+   "lng": -0.61078,
+   "prix": "1 à 5 €",
+   "prix_min": 1,
+   "texte": "Le glacier préféré des Oranais, qui fabrique toutes ses glaces sur place. Coupes généreuses, parfums de fruits de saison et classiques bien faits : on vient en famille après la promenade du soir, et il y a souvent la queue devant la vitrine.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; plus calme en milieu d'après-midi",
+   "photo": {
+    "auteur": "Shoichi Iwashita",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADia_de_fazer_tira-teima_das_sorveterias_verdadeiramente_artesanais_%2826041653800%29.jpg",
+    "src": "img/restos/ORN/vanille-fraise.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "msirda",
+   "nom": "Restaurant M'sirda",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine traditionnelle de l'Ouest",
+   "quartier": "Est d'Oran (cité Djamel)",
+   "adresse": "Cité Djamel, à l'est du centre",
+   "lat": 35.69669,
+   "lng": -0.59532,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "texte": "Une adresse populaire où l'on mange comme dans une maison de l'Ouest algérien : tajines aux olives, chorba, couscous et plats du jour mijotés, servis copieusement à prix doux. Le genre de table que les Oranais conseillent quand on leur demande où goûter la vraie cuisine d'ici.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; le midi en semaine, les plats du jour partent vite",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATajine-zitoune-dzairi.jpg",
+    "src": "img/restos/ORN/msirda.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "cerise",
+   "nom": "Brunch La Cerise",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Brunch",
+   "quartier": "Akid Lotfi",
+   "adresse": "En face du centre des conventions (Le Méridien), Akid Lotfi",
+   "lat": 35.72636,
+   "lng": -0.58964,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "L'adresse de brunch dont tout Oran parle : pancakes empilés, œufs, viennoiseries, jus frais et assiettes salées soignées, dans une salle lumineuse face au Méridien. Pratique et généreux pour démarrer une journée de visite, ou pour un déjeuner tardif.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; le week-end, arrivez avant 10 h ou attendez un peu",
+   "photo": {
+    "auteur": "Japanexperterna.se",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlatt_brunch.jpg",
+    "src": "img/restos/ORN/cerise.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "pizzapp",
+   "nom": "PizzApp",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizzeria",
+   "quartier": "Les Falaises (Gambetta)",
+   "adresse": "Avenue des Palmiers, Les Falaises, à côté de l'hôtel Fantazia",
+   "lat": 35.71379,
+   "lng": -0.61698,
+   "prix": "4 à 9 €",
+   "prix_min": 4,
+   "texte": "Une pizzeria de quartier qui a conquis la ville avec ses pizzas à l'italienne, des produits frais et une salle chaleureuse sur les hauteurs des Falaises. Une valeur sûre pour un dîner simple et bon, à deux pas du front de mer est.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; vente à emporter possible",
+   "photo": {
+    "auteur": "Fabryx98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza-napoletana.jpg",
+    "src": "img/restos/ORN/pizzapp.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "philly",
+   "nom": "Philly's Buns",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers et sandwichs",
+   "quartier": "Akid Lotfi",
+   "adresse": "Akid Lotfi, près du Méridien",
+   "lat": 35.72638,
+   "lng": -0.58845,
+   "prix": "5 à 9 €",
+   "prix_min": 5,
+   "texte": "Le repaire des jeunes Oranais à Akid Lotfi, le quartier qui sort le soir : burgers généreux, sandwichs au fromage fondu et frites. Une adresse décontractée pour manger vite et bien entre deux balades.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "jeffreyw",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHamburger_and_onion_rings.jpg",
+    "src": "img/restos/ORN/philly.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "khayma",
+   "nom": "Khayma Beni Chougrane",
+   "emoji": "⛺",
+   "gamme": "moyen",
+   "genre": "Cuisine algérienne sous la tente",
+   "quartier": "Est du centre",
+   "adresse": "Rue Mimoun-Bouadiemi",
+   "lat": 35.6969,
+   "lng": -0.62053,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "« Khayma » veut dire « tente » : la salle reprend le décor d'une grande tente traditionnelle, et le nom vient des monts des Beni Chougrane, au sud-est d'Oran. Au menu, les grands plats du pays : chorba, couscous, tajines et grillades, servis dans de la vaisselle traditionnelle. Une soirée dépaysante, très appréciée des familles.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le week-end et les soirées de Ramadan",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChorba_frik_algerienne.jpg",
+    "src": "img/restos/ORN/khayma.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "bollywood",
+   "nom": "Bollywood",
+   "emoji": "🍛",
+   "gamme": "moyen",
+   "genre": "Cuisine indienne",
+   "quartier": "Point du Jour",
+   "adresse": "Point du Jour",
+   "lat": 35.70909,
+   "lng": -0.59636,
+   "prix": "9 à 17 €",
+   "prix_min": 9,
+   "texte": "La surprise d'Oran : un vrai restaurant indien, avec des cuisiniers venus d'Inde, devenu en quelques années l'une des tables les mieux notées de la ville. Biryani parfumé, poulet tikka et tandoori, currys et lassi à la mangue, dans un décor coloré. Les portions sont généreuses : on partage volontiers.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end (salle souvent pleine le soir)",
+   "photo": {
+    "auteur": "Jyothis",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AShrimp_Biriyani.JPG",
+    "src": "img/restos/ORN/bollywood.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "nahlos",
+   "nom": "Nahlo's",
+   "emoji": "🥘",
+   "gamme": "moyen",
+   "genre": "Paella et cuisine espagnole",
+   "quartier": "Bir El Djir",
+   "adresse": "Résidence Mirage 2, Bir El Djir",
+   "lat": 35.71724,
+   "lng": -0.57335,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "texte": "Oran a été espagnole pendant près de trois siècles, et la paella fait partie de sa cuisine. Chez Nahlo's, on la sert dans la poêle, chargée de fruits de mer, à côté d'autres classiques espagnols. Salle soignée et accueil chaleureux, que les clients saluent dans leurs avis.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le week-end ; la paella se commande parfois à l'avance",
+   "photo": {
+    "auteur": "Wilfredor",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APaella_de_fruit_de_mer.jpg",
+    "src": "img/restos/ORN/nahlos.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "forno",
+   "nom": "Forno Quattro Mori",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Cuisine italienne",
+   "quartier": "Canastel",
+   "adresse": "Canastel, Bir El Djir",
+   "lat": 35.74717,
+   "lng": -0.57096,
+   "prix": "8 à 17 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'italien de Canastel que les vidéos des Oranais présentent comme le meilleur de la ville : pizzas au feu de bois, pâtes fraîches et desserts maison, servis par une équipe souriante. Le quartier, au bord des falaises, se prête bien à une balade avant ou après le dîner.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le vendredi et le samedi soir",
+   "photo": {
+    "auteur": "ノボホショコロトソ",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza_Margherita_%E3%83%94%E3%82%B6%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%B2%E3%83%AA%E3%83%BC%E3%82%BF.jpg",
+    "src": "img/restos/ORN/forno.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cintra",
+   "nom": "Le Cintra",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Brasserie historique",
+   "quartier": "Centre-ville",
+   "adresse": "14 boulevard de la Soummam",
+   "lat": 35.70417,
+   "lng": -0.64582,
+   "prix": "13 à 23 €",
+   "prix_min": 13,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'une des plus vieilles tables d'Oran, sur le grand boulevard de la Soummam : salle à l'ancienne et cuisine méditerranéenne de poissons et de viandes. Des générations d'artistes et d'écrivains y ont eu leurs habitudes, et c'est l'une des rares adresses où l'on sert du vin d'Oranie.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation en semaine ; appelez pour le week-end",
+   "photo": {
+    "auteur": "Alain Rouiller",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APiran%2C_Istrie_%28Slov%C3%A9nie%29_%28245_sur_268%29_%2853532688819%29.jpg",
+    "src": "img/restos/ORN/cintra.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "o-poisson",
+   "nom": "O'Poisson",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poisson du jour",
+   "quartier": "Aïn El Turck",
+   "adresse": "Front de mer d'Aïn El Turck",
+   "lat": 35.7488,
+   "lng": -0.7741,
+   "prix": "13 à 26 €",
+   "prix_min": 13,
+   "texte": "On vient à Aïn El Turck pour le poisson, et c'est l'une des adresses les mieux notées de la station : dorades, rougets, crevettes et calamars de la pêche du jour, grillés simplement et servis avec salade et frites. Une fin de journée parfaite après la plage.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation hors saison ; en été, arrivez tôt le soir",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADorade_royale_grill%C3%A9e.jpg",
+    "src": "img/restos/ORN/o-poisson.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "maison-le-sept",
+   "nom": "Maison Le Sept",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Cuisine franco-italienne",
+   "quartier": "Canastel",
+   "adresse": "Canastel, Bir El Djir",
+   "lat": 35.74537,
+   "lng": -0.57196,
+   "prix": "23 à 40 €",
+   "prix_min": 23,
+   "texte": "La nouvelle table chic de Canastel, ouverte récemment et déjà très partagée sur les réseaux : une salle feutrée et élégante, une cuisine franco-italienne soignée, et une paella que beaucoup d'Oranais placent parmi les meilleures de la ville. L'adresse pour un dîner habillé.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant pour le week-end ; fermé le vendredi",
+   "photo": {
+    "auteur": "Benoît Prieur",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARisotto_de_gambas%2C_restaurant_Danieli_%28Vienne%2C_Autriche%29.jpg",
+    "src": "img/restos/ORN/maison-le-sept.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "le-ciel",
+   "nom": "Le Ciel d'Oran",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer, vue sur la baie",
+   "quartier": "Les Falaises (front de mer est)",
+   "adresse": "Hôtel Oran Bay, boulevard du Front-de-Mer",
+   "lat": 35.71554,
+   "lng": -0.60938,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "texte": "Le restaurant de poisson de l'hôtel Oran Bay, l'ancien Sheraton, face à la baie : plateaux de fruits de mer, poissons grillés et crevettes, dans un décor conçu par un architecte italien, souvent avec un orchestre de musique andalouse. Une table pour une occasion, avec la ville et la mer à vos pieds.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; demandez une table près des baies vitrées",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlateau_de_fruits_de_mer_001.jpg",
+    "src": "img/restos/ORN/le-ciel.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "royal",
+   "nom": "Les Ambassadeurs, au Royal Hotel",
+   "emoji": "🏛️",
+   "gamme": "haut",
+   "genre": "Table gastronomique d'un palace de 1920",
+   "quartier": "Centre-ville",
+   "adresse": "Royal Hotel, 1 boulevard de la Soummam",
+   "lat": 35.70327,
+   "lng": -0.64776,
+   "badges": [
+    "institution"
+   ],
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "Le Royal Hotel, inauguré en 1920 sur le boulevard de la Soummam, est le grand palace d'Oran : façade haussmannienne, salons ornés de tableaux orientalistes, meubles anciens. Son restaurant gastronomique, Les Ambassadeurs, marie produits algériens et cuisine internationale. Même pour un simple verre au bar Le Pacha, le décor vaut le détour.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, auprès de la réception de l'hôtel",
+   "photo": {
+    "auteur": "وهراني",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHotel_Royal%2C_Oran_2013.jpg",
+    "src": "img/restos/ORN/royal.jpg"
+   }
+  },
+  {
+   "id": "pralin",
+   "nom": "Pralin Illusion",
+   "emoji": "🥗",
+   "gamme": "haut",
+   "genre": "Cuisine du monde",
+   "quartier": "Gambetta",
+   "adresse": "35 avenue d'Arcole, Gambetta",
+   "lat": 35.70755,
+   "lng": -0.61605,
+   "prix": "20 à 33 €",
+   "prix_min": 20,
+   "texte": "Une grande salle au design soigné dans le quartier de Gambetta, et une carte qui fait le tour du monde : salades composées, gratins, viandes et pâtes, desserts maison. Un peu plus cher que la moyenne d'Oran, mais l'une des adresses les plus constantes de la ville, appréciée pour son service.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le week-end",
+   "photo": {
+    "auteur": "Geoff Peters from Vancouver, BC, Canada",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACaesar_salad_%282%29.jpg",
+    "src": "img/restos/ORN/pralin.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "scenario",
+   "nom": "Scenario",
+   "emoji": "🦐",
+   "gamme": "haut",
+   "genre": "Cuisine méditerranéenne",
+   "quartier": "Bir El Djir",
+   "adresse": "Bir El Djir",
+   "lat": 35.71647,
+   "lng": -0.5746,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "texte": "Un restaurant à la mise en scène soignée, très présent dans les vidéos des Oranais : cuisine méditerranéenne de poissons, crevettes et viandes grillées, et ambiance de sortie le soir. Une bonne adresse pour un dîner en couple ou entre amis.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; par téléphone ou par message sur ses réseaux",
+   "photo": {
+    "auteur": "Benoît Prieur",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGambas_grill%C3%A9s_%C3%A0_Dole_%28Jura%29.JPG",
+    "src": "img/restos/ORN/scenario.jpg",
+    "illustration": true
+   },
+   "badges": []
+  },
+  {
+   "id": "le-marquis",
+   "nom": "Le Marquis",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Cuisine française",
+   "quartier": "Centre-ville",
+   "adresse": "6 rue de la Paix",
+   "lat": 35.70278,
+   "lng": -0.64614,
+   "prix": "20 à 33 €",
+   "prix_min": 20,
+   "texte": "Une petite salle discrète à deux pas de la place d'Armes, et une cuisine de bistrot français bien exécutée : carpaccio, viandes en sauce, poissons et desserts classiques. Les avis saluent le service attentionné et la régularité de la cuisine, ce qui en fait une valeur sûre du centre-ville.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "Benoît Prieur",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACarpaccio_de_b%C5%93uf%2C_restaurant_Danieli_%28Vienne%2C_Autriche%29.jpg",
+    "src": "img/restos/ORN/le-marquis.jpg",
+    "illustration": true
+   },
+   "badges": []
+  }
+ ]
+}
