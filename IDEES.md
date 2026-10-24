@@ -266,6 +266,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (24/10/2026) **Page guide d'Annaba** (`guides/AAE.json`), préparée en autonomie : 18 activités (tendance d'après les
+  réseaux sociaux, 2 sources au moins : Hippone et son musée, basilique Saint-Augustin, Cours de la Révolution, corniche
+  et plage Chapuis, plage d'Aïn Achir, Cap de Garde, téléphérique, Seraïdi ; vieille ville et mosquées, cascades de
+  l'Edough, criques en kayak, parapente, théâtre Azzedine-Medjoubi ; match de l'USM Annaba, club « USM Annaba » ;
+  excursions Chetaïbi, parc national d'El Kala, Guelma + cascade de Hammam Debagh), 18 restaurants, 5 quartiers,
+  pas de lien Tiqets (rien en Algérie). Champ `"ville": "Annaba"` (pas de vol Lyon–Annaba en ce moment) et `prix_match` 4 €.
+  **Wanderlog ne connaît que 2 lieux à Annaba** : les notes et les positions viennent d'un quadrillage de Google Maps
+  (affichage limité, mais notes et nombre d'avis lisibles) — ~550 lieux relevés, moyenne pondérée de la ville C = 3,92
+  (encore plus bas qu'Alger : garde-fou à 4,0). Prix : 1 € ≈ 151 DA ; billet du site + musée d'Hippone ≈ 200 DA
+  (gratuit moins de 16 ans), téléphérique 50 DA le trajet (remis en service en juillet 2025), parapente à partir de
+  6 000 DA, dîner de trois plats ≈ 2 150 DA en moyenne dans la ville. Écartés : El Hadja à Seraïdi (très connu mais
+  note 3,7), Village de Neige (3,4) et Donatella (3,5) malgré leur succès sur TikTok, citadelle hafside (restauration
+  relancée, fermée au public). Réseaux sociaux lancés une fois (Apify).
+  À surveiller : les libellés des gammes de restaurants sont les mêmes pour toutes les villes (« moins de 30 € »,
+  « à partir de 50 € ») alors qu'à Annaba le haut de gamme commence à 15 € — à revoir un jour.
 - ✅ (24/10/2026) **Page guide d'Alger** (`guides/ALG.json`), préparée en autonomie : 22 activités (tendance d'après les
   réseaux sociaux, 2 sources au moins : Casbah, Palais des Raïs, Notre-Dame d'Afrique, Maqam Echahid, Jardin d'Essai,
   Beaux-Arts, Bardo, Grande Mosquée, Tipaza ; Dar Mustapha Pacha, mosquées de la place des Martyrs, musée des Antiquités,

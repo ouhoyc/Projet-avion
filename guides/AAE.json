@@ -1,0 +1,1264 @@
+{
+ "city_code": "AAE",
+ "ville": "Annaba",
+ "statut": "vérifié en autonomie, prix relevés le 24/10/2026 (1 € ≈ 151 dinars au taux officiel)",
+ "verifie_le": "2026-10-24",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "hippone",
+   "nom": "La cité antique d'Hippone",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Hippone (3 km du centre)",
+   "lat": 36.88203,
+   "lng": 7.75178,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Billet du site et du musée",
+     "≈ 200 DA (≈ 1,30 €), en espèces"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le Cours de la Révolution",
+     "≈ 200 à 300 DA (≈ 1,50 à 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Tôt le matin ou en fin d'après-midi : le site est presque sans ombre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "C'est ici que saint Augustin fut évêque et qu'il mourut, en 430, pendant le siège de la ville. Hippo Regius déroule sur plusieurs hectares son forum dallé, ses thermes, ses villas aux mosaïques encore en place et une grande allée bordée de colonnes, face à la mer et sous le regard de la basilique. Un des plus beaux sites romains d'Algérie, et vous y serez presque seul.",
+   "site_officiel": "https://whc.unesco.org/fr/tentativelists/5494/",
+   "note": "Billet à prendre à l'entrée du musée, route du musée d'Hippone : il donne accès au site et aux collections. Prévoyez des chaussures fermées et de l'eau, il n'y a pas de buvette.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dan Sloan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHippo_Regius_Algeria_2.jpg",
+    "src": "img/activites/AAE/hippone.jpg"
+   }
+  },
+  {
+   "id": "musee-hippone",
+   "nom": "Le musée d'Hippone",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Hippone (3 km du centre)",
+   "lat": 36.88212,
+   "lng": 7.75208,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "comprise dans le billet du site d'Hippone (≈ 200 DA)"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Après la visite du site, pour se mettre à l'ombre ; fermé le vendredi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Installé dans une ancienne caserne au bord des ruines, le musée garde ce qu'Hippone a livré de plus beau : les mosaïques des Amours vendangeurs, des statues de marbre, des bronzes, des monnaies et la grande vitrine des objets de la vie quotidienne, rouverte après restauration. Petit, mais on comprend enfin ce qu'on vient de voir dehors.",
+   "note": "Les collections ont été restaurées et le musée agrandi ces dernières années. Photos autorisées sans flash ; les cartels sont surtout en arabe et en français.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sébastien Cailleux",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHippone_Mosa%C3%AFque_romaine_les_Amours_vendangeurs.jpg",
+    "src": "img/activites/AAE/musee-hippone.jpg"
+   }
+  },
+  {
+   "id": "basilique",
+   "nom": "La basilique Saint-Augustin",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Colline d'Hippone",
+   "lat": 36.88192,
+   "lng": 7.74474,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuite, une offrande est bienvenue pour l'entretien"
+    ],
+    [
+     "Guide bénévole",
+     "au pourboire"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de journée, quand la lumière passe sur la baie ; messe le dimanche matin",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un vaisseau néo-byzantin posé sur la colline, construit entre 1881 et 1900 face aux ruines d'Hippone. À l'intérieur, marbres polychromes, coupole peinte et une statue de saint Augustin qui conserve une relique de son bras. Depuis le parvis, toute la baie d'Annaba s'étale à vos pieds : c'est la plus belle vue de la ville, et elle est gratuite.",
+   "site_officiel": "https://eglise-catholique-algerie.org/eglise-algerie/diocese-constantine-hippone/basilique-saint-augustin-annaba/",
+   "note": "Lieu de culte toujours actif, tenue correcte demandée (épaules et genoux couverts). Les horaires d'ouverture bougent selon les offices : le matin est le moment le plus sûr.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "BRAHIM DJELLOUL Mustapha",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABasilique_Saint-Augustin_Annaba_02.jpg",
+    "src": "img/activites/AAE/basilique.jpg"
+   }
+  },
+  {
+   "id": "cours",
+   "nom": "Le Cours de la Révolution",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Centre-ville",
+   "lat": 36.90028,
+   "lng": 7.76037,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuite"
+    ],
+    [
+     "Café sur les terrasses",
+     "≈ 60 à 150 DA (≈ 0,40 à 1 €)"
+    ],
+    [
+     "Créponné (sorbet au citron)",
+     "≈ 100 DA (≈ 0,70 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 à 2 h",
+   "moment": "En soirée, quand toute la ville descend marcher sous les ficus",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le salon d'Annaba : deux rangées de ficus centenaires, des immeubles à balcons de fer forgé, des terrasses de café et, le soir venu, des familles entières qui marchent de long en large. On y prend un créponné, on regarde passer la ville, on comprend pourquoi les Annabis sont si fiers de leur cours.",
+   "note": "Tout part d'ici : le théâtre et la vieille ville sont à cinq minutes à pied, les taxis attendent au bout de l'allée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dan Sloan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACours_de_la_R%C3%A9volution_-_Annaba.jpg",
+    "src": "img/activites/AAE/cours.jpg"
+   }
+  },
+  {
+   "id": "vieille-ville",
+   "nom": "La vieille ville et ses mosquées",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Place d'Armes",
+   "lat": 36.89901,
+   "lng": 7.7623,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Ruelles, marché",
+     "gratuit"
+    ],
+    [
+     "Mosquées (visite hors prière)",
+     "gratuit, chaussures à retirer"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin, quand le marché bat son plein ; évitez le vendredi midi",
+   "enfants": true,
+   "texte": "Au-dessus de la Place d'Armes, le vieux Bouna serre ses ruelles blanches autour de deux joyaux : la mosquée de Sidi Bou Merouane, bâtie en 1033 et posée sur deux niveaux de caves, et la mosquée Salah Bey (1792) et son minaret vert et blanc coiffé d'une horloge. Entre les deux, le marché El Hout, ses étals de poisson et ses marchands de bourek.",
+   "note": "Quartier vivant et populaire : habillez-vous sobrement, demandez avant de photographier les gens, et laissez les sacs encombrants à l'hôtel. Les mosquées se visitent entre deux prières, à la discrétion du gardien.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vicente Moratal Canales",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMezquita_El_Bey.jpg",
+    "src": "img/activites/AAE/vieille-ville.jpg"
+   }
+  },
+  {
+   "id": "corniche",
+   "nom": "La corniche et la plage Chapuis",
+   "emoji": "🏖️",
+   "type": "balade",
+   "quartier": "Rizzi-Amor / Chapuis",
+   "lat": 36.9276,
+   "lng": 7.76088,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage et promenade",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol (plages aménagées)",
+     "≈ 500 à 1 000 DA (≈ 3 à 7 €) la journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre pour la baignade ; au coucher du soleil le reste de l'année",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La promenade du bord de mer file du port jusqu'aux falaises, avec en chemin la grande plage de sable de Chapuis (Rizzi-Amor) et ses cabanons. C'est le rendez-vous de la ville au crépuscule : glaciers, grillades de poisson, scooters, et la mer qui devient rose derrière le cap.",
+   "note": "La saison estivale officielle démarre fin juin : c'est à ce moment que les plages sont surveillées et équipées.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Farouk bendjama80",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALa_plage_rizzi_amor_%28_Chapuis_%29_annaba.jpg",
+    "src": "img/activites/AAE/corniche.jpg"
+   }
+  },
+  {
+   "id": "ain-achir",
+   "nom": "La plage d'Aïn Achir",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Route du Cap de Garde",
+   "lat": 36.95714,
+   "lng": 7.78018,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuite ; certaines parties sont aménagées et payantes"
+    ],
+    [
+     "Taxi depuis le centre",
+     "≈ 400 à 600 DA (≈ 3 à 4 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre, tôt le matin pour avoir la plage à soi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Grande baie de sable clair piquée de gros rochers ronds, adossée aux pins et protégée des vents d'ouest : la plage préférée des familles d'Annaba, à un quart d'heure du centre sur la route du Cap de Garde. Eau claire, pente douce, et toute une rangée de petits restaurants de poisson derrière.",
+   "note": "Très fréquentée en juillet et en août, et loin du centre : prévoyez de quoi pique-niquer, ou déjeunez dans un des restaurants de la route.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Havockey",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_A%C3%AFn_Achir%2C_Annaba_%281%29.jpg",
+    "src": "img/activites/AAE/ain-achir.jpg"
+   }
+  },
+  {
+   "id": "cap-de-garde",
+   "nom": "Le Cap de Garde et son phare",
+   "emoji": "🪨",
+   "type": "vue",
+   "quartier": "Ras el Hamra",
+   "lat": 36.96708,
+   "lng": 7.78356,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès et point de vue",
+     "gratuit"
+    ],
+    [
+     "Taxi aller-retour avec attente",
+     "≈ 1 500 DA (≈ 10 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Au coucher du soleil, par temps clair",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La pointe nord de la ville : une route en lacets grimpe jusqu'au phare blanc de 1884, planté sur une falaise rousse qui tombe droit dans une mer très bleue. En haut, la vue embrasse toute la baie d'Annaba d'un côté, la côte sauvage et le massif de l'Edough de l'autre. Le spot photo de la ville.",
+   "note": "Le phare ne se visite pas de l'intérieur. Il n'y a ni commerce ni ombre là-haut : emportez de l'eau et demandez au taxi de vous attendre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "alioueche mokhtar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APhare_cap_de_garde_annaba_2.jpg",
+    "src": "img/activites/AAE/cap-de-garde.jpg"
+   }
+  },
+  {
+   "id": "kayak",
+   "nom": "Les criques du cap, en kayak ou en bateau",
+   "emoji": "🛶",
+   "type": "nature",
+   "quartier": "Côte nord",
+   "lat": 36.9655,
+   "lng": 7.78,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Sortie en kayak (demi-journée, matériel compris)",
+     "≈ 2 000 à 3 000 DA (≈ 13 à 20 €)"
+    ],
+    [
+     "Sortie en bateau vers les grottes",
+     "≈ 2 000 à 4 000 DA (≈ 13 à 26 €) selon la durée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      11,
+      8
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, par téléphone ou par message aux clubs de la corniche",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre, le matin quand la mer est plate",
+   "enfants": true,
+   "texte": "Entre le Cap de Garde et Chetaïbi, la côte n'est qu'une suite de criques, d'arches et de grottes marines qu'on n'atteint pas par la route. Les clubs d'Annaba y emmènent en kayak ou en bateau pour la journée, avec baignade dans des eaux turquoise et arrêt dans les fameuses « sept grottes ».",
+   "note": "Les sorties se font surtout l'été et dépendent de la météo. Les prix varient d'un club à l'autre : confirmez le tarif et ce qui est compris au moment de réserver.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Ladyalgeria",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACrique_de_la_c%C3%B4te_d%27Annaba.jpg",
+    "src": "img/activites/AAE/kayak.jpg"
+   }
+  },
+  {
+   "id": "telepherique",
+   "nom": "Le téléphérique d'Annaba à Seraïdi",
+   "emoji": "🚠",
+   "type": "vue",
+   "quartier": "Oued Forcha",
+   "lat": 36.8953,
+   "lng": 7.72112,
+   "prix": 0.35,
+   "prix_detail": [
+    [
+     "Un trajet",
+     "≈ 50 DA (≈ 0,35 €)"
+    ],
+    [
+     "Aller-retour",
+     "≈ 100 DA (≈ 0,70 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0.35,
+    "enfants": [
+     [
+      5,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "20 min de montée",
+   "moment": "Le matin, quand l'air est clair ; vérifiez qu'il circule avant de vous déplacer",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Remis en service en juillet 2025 après presque six ans d'arrêt, il grimpe en vingt minutes du bas de la ville jusqu'au village de Seraïdi, 800 mètres plus haut. Sous la cabine défilent la forêt de chênes-lièges, les toits d'Annaba, le port et toute la baie : le plus beau panorama de la région pour le prix d'un café.",
+   "note": "Service de l'État, fermé certains jours et par grand vent. Le ticket s'achète en espèces à la station ; au sommet, le village et l'hôtel El Mountazah sont à quelques minutes à pied.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rymheb",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFrom_the_Sky_to_the_Sea.jpg",
+    "src": "img/activites/AAE/telepherique.jpg"
+   }
+  },
+  {
+   "id": "seraidi",
+   "nom": "Seraïdi, le balcon de la baie",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Seraïdi (13 km)",
+   "lat": 36.91152,
+   "lng": 7.67527,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Village et points de vue",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis Annaba (aller)",
+     "≈ 800 à 1 200 DA (≈ 5 à 8 €)"
+    ],
+    [
+     "Café ou thé en terrasse panoramique",
+     "≈ 150 à 300 DA (≈ 1 à 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Au printemps et à l'automne ; l'été, on y monte pour fuir la chaleur",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "À 800 mètres au-dessus de la mer, un village perché dans les chênes-lièges où l'air est frais même en août. On y vient pour les terrasses suspendues au-dessus de la baie et pour l'hôtel El Mountazah, la grande villa blanche que Fernand Pouillon a posée sur la crête : les Annabis disent que la vue depuis sa piscine vaut celle des Cyclades.",
+   "note": "Par le téléphérique ou par la route en lacets (25 minutes). L'hôtel accepte les visiteurs de passage au bar et au restaurant : installez-vous côté terrasse.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Abdelkrim largueche",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHotel_el_Mountazah%2CSera%C3%AFdi_%28Alg%C3%A9rie%29.jpg",
+    "src": "img/activites/AAE/seraidi.jpg"
+   }
+  },
+  {
+   "id": "cascades",
+   "nom": "Les cascades de l'Edough",
+   "emoji": "💦",
+   "type": "nature",
+   "quartier": "Forêt de Seraïdi",
+   "lat": 36.91635,
+   "lng": 7.66943,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès et randonnée",
+     "gratuit"
+    ],
+    [
+     "Guide local (facultatif)",
+     "≈ 1 000 à 2 000 DA (≈ 7 à 13 €) la sortie"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "De décembre à mai, quand l'eau coule fort ; l'été, les cascades peuvent être à sec",
+   "enfants": true,
+   "texte": "Sous Seraïdi, le massif de l'Edough cache une forêt de chênes et d'eucalyptus traversée de ruisseaux qui tombent en cascades sur la roche noire. Un sentier d'une heure y descend depuis le village, entre les fougères et les vaches en liberté, avec la mer qui réapparaît à chaque trouée.",
+   "note": "Sentier non balisé et glissant après la pluie : chaussures qui tiennent aux pieds, et mieux vaut ne pas y aller seul. Demandez le chemin au village, tout le monde connaît.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ummadamelias",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACascade_two_in_Sera%C3%AFdi.jpg",
+    "src": "img/activites/AAE/cascades.jpg"
+   }
+  },
+  {
+   "id": "parapente",
+   "nom": "Un vol en parapente au-dessus de la baie",
+   "emoji": "🪂",
+   "type": "sport",
+   "quartier": "Seraïdi / Aïn Boukal",
+   "lat": 36.9166,
+   "lng": 7.6833,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Baptême en biplace",
+     "à partir de ≈ 6 000 DA (≈ 40 €)"
+    ],
+    [
+     "Photos et vidéo du vol",
+     "souvent en supplément"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours à l'avance, les places sont limitées",
+   "duree": "2 h (dont 15 à 20 min de vol)",
+   "moment": "Le matin ou en fin d'après-midi, hors jours de vent fort",
+   "enfants": false,
+   "texte": "Décoller de la crête d'Aïn Boukal, passer au-dessus de la forêt de l'Edough et venir se poser sur la plage de Djenane El Bey, les pieds dans le sable : Annaba est devenue le rendez-vous algérien du parapente, au point d'accueillir le premier meeting international du pays. Aucune expérience n'est nécessaire, le pilote s'occupe de tout.",
+   "note": "Casque et sellette fournis par le club. Le vol dépend entièrement de la météo : gardez un créneau de rattrapage dans votre séjour.",
+   "a_verifier": true,
+   "photo": {
+    "auteur": "Serinene",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAnnaba_seraidi.jpg",
+    "src": "img/activites/AAE/parapente.jpg"
+   }
+  },
+  {
+   "id": "theatre",
+   "nom": "Une soirée au théâtre Azzedine-Medjoubi",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Centre-ville",
+   "lat": 36.89969,
+   "lng": 7.75957,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Place pour une pièce ou un concert",
+     "≈ 200 à 500 DA (≈ 1,30 à 3,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      11,
+      1
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le soir, surtout pendant les Journées du théâtre d'Annaba",
+   "enfants": false,
+   "texte": "Le plus vieux théâtre d'Algérie, reconstruit en 1954 à l'italienne sur les ruines de l'ancien théâtre municipal, et rebaptisé en 2000 du nom du comédien Azzedine Medjoubi. Velours rouge, balcons dorés et une programmation très vivante : pièces en arabe et en français, musique malouf, festivals. Une soirée qui coûte le prix d'un sandwich.",
+   "note": "Le programme est affiché à l'entrée et sur la page Facebook du théâtre ; les billets se prennent au guichet, en espèces, le jour même.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "BRAHIM DJELLOUL Mustapha",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAu_Theatre_de_Annaba.jpg",
+    "src": "img/activites/AAE/theatre.jpg"
+   }
+  },
+  {
+   "id": "match-usma",
+   "nom": "Un match de l'USM Annaba",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade du 19-Mai-1956",
+   "lat": 36.88586,
+   "lng": 7.73393,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 200 à 300 DA (≈ 1,30 à 2 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 400 à 600 DA (≈ 3 à 4 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en vente aux guichets du stade les jours de match",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pendant la saison (septembre à mai)",
+   "enfants": false,
+   "club": "USM Annaba",
+   "texte": "L'USM Annaba, « la Tuilerie », joue dans un stade de 56 000 places où le public de l'Est algérien donne de la voix pendant quatre-vingt-dix minutes : tambours, fumigènes et chants repris par toute la tribune. Le club évolue en Ligue 2, mais l'ambiance, elle, n'a jamais quitté la première division.",
+   "note": "Match annoncé quelques jours avant seulement : vérifiez la date sur la page du club. Préférez la tribune au virage, et évitez d'y emmener de jeunes enfants.",
+   "lien_billets": "https://www.google.com/search?q=billets+USM+Annaba+match",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "siradj eddine",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAnnaba_Stadium.jpg",
+    "src": "img/activites/AAE/match-usma.jpg"
+   }
+  },
+  {
+   "id": "chetaibi",
+   "nom": "Chetaïbi et ses criques",
+   "emoji": "🏝️",
+   "type": "nature",
+   "quartier": "Chetaïbi (1 h 30)",
+   "lat": 37.01194,
+   "lng": 7.40259,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Village et plages",
+     "gratuit"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 8 000 à 12 000 DA (≈ 55 à 80 €)"
+    ],
+    [
+     "Taxi collectif depuis Annaba (par personne)",
+     "≈ 600 à 900 DA (≈ 4 à 6 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      11,
+      10
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "De mai à octobre ; la route de la corniche se fait de jour",
+   "enfants": true,
+   "texte": "Un village de pêcheurs aux maisons blanches posé sur une presqu'île, à une heure et demie à l'ouest d'Annaba par une route qui longe la mer. Autour, la côte se replie en criques de sable fin — les Sables d'Or, Oued Leghnem, la Baie Ouest — où l'eau passe du turquoise au vert bouteille. L'Algérie des cartes postales, sans la foule.",
+   "note": "Pas de distributeur de billets sur place et peu de commerces : emportez des espèces et de quoi déjeuner si vous visez les criques isolées.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Droussama2000",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChetaibi_IN_Annaba.jpg",
+    "src": "img/activites/AAE/chetaibi.jpg"
+   }
+  },
+  {
+   "id": "el-kala",
+   "nom": "Le parc national d'El Kala et le lac Tonga",
+   "emoji": "🦩",
+   "type": "nature",
+   "quartier": "El Tarf (1 h 30)",
+   "lat": 36.85297,
+   "lng": 8.49605,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Accès au parc et aux lacs",
+     "gratuit"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 9 000 à 13 000 DA (≈ 60 à 85 €)"
+    ],
+    [
+     "Guide ornithologue (facultatif)",
+     "≈ 2 000 à 4 000 DA (≈ 13 à 26 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      11,
+      12
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "De mars à mai pour les oiseaux migrateurs ; l'été pour les plages d'El Kala",
+   "enfants": true,
+   "texte": "À l'est d'Annaba, vers la frontière tunisienne, s'étend une mosaïque de lacs, de dunes et de forêts classée réserve de biosphère par l'Unesco. Le lac Tonga est la plus grande zone de nidification d'oiseaux du Maghreb : hérons, foulques, flamants. Entre deux lacs, le petit port d'El Kala aligne ses barques bleues et ses restaurants de poisson.",
+   "site_officiel": "https://www.ramsar.org/",
+   "note": "Grandes distances entre les sites : une voiture est indispensable. Jumelles bienvenues, et évitez le milieu de journée en été.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nora Mahfouf",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALac_Tonga%2C_El_Kala%2C_Alg%C3%A9rie.jpg",
+    "src": "img/activites/AAE/el-kala.jpg"
+   }
+  },
+  {
+   "id": "guelma",
+   "nom": "Guelma, le théâtre romain et la cascade chaude",
+   "emoji": "♨️",
+   "type": "nature",
+   "quartier": "Guelma (1 h 30 à 2 h)",
+   "lat": 36.46027,
+   "lng": 7.26769,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Théâtre romain de Guelma",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Cascade de Hammam Debagh",
+     "accès libre"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 10 000 à 14 000 DA (≈ 65 à 95 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      15,
+      15
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Au printemps ou à l'automne ; l'eau fume surtout le matin",
+   "enfants": true,
+   "texte": "À une heure et demie dans les terres, l'antique Calama a gardé un théâtre romain presque intact, où l'on s'assoit sur les gradins face à la scène. Vingt kilomètres plus loin, Hammam Debagh a sculpté en travertin une cascade d'eau chaude qui fume en permanence : une muraille orange et blanche de vingt mètres, parmi les plus hautes sources chaudes du monde.",
+   "note": "L'eau de la source sort à près de 95 °C : on ne s'y baigne pas, on se baigne dans les bassins aménagés en contrebas. Prévoyez une journée complète avec le trajet.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Habib kaki",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHammam_Debagh_%D8%AD%D9%85%D8%A7%D9%85_%D8%AF%D8%A8%D8%A7%D8%BA_04.jpg",
+    "src": "img/activites/AAE/guelma.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Centre-ville (Cours de la Révolution)",
+   "lat": 36.9003,
+   "lng": 7.7604,
+   "texte": "Le cœur d'Annaba : immeubles à balcons, terrasses sous les ficus, théâtre et vieille ville à cinq minutes à pied, taxis à toute heure. Le plus pratique pour un premier séjour, et le plus animé le soir."
+  },
+  {
+   "id": "victor-hugo",
+   "nom": "Boulevard Victor-Hugo et le port",
+   "lat": 36.9078,
+   "lng": 7.7687,
+   "texte": "Entre le centre et la mer : les hôtels les plus confortables de la ville, dont la tour du Sheraton, avec vue sur le port. Dix minutes à pied du Cours de la Révolution, et la route du Cap de Garde qui part juste devant."
+  },
+  {
+   "id": "saint-cloud",
+   "nom": "Saint-Cloud et la plage Belvédère",
+   "lat": 36.9211,
+   "lng": 7.7633,
+   "texte": "Le quartier des cafés, des brunchs et des burgers, le long de la plage Saint-Cloud. Jeune, vivant le soir, à dix minutes du centre en taxi : idéal si vous voulez dormir près de la mer sans quitter la ville."
+  },
+  {
+   "id": "chapuis",
+   "nom": "La Corniche (Chapuis, Rizzi-Amor)",
+   "lat": 36.928,
+   "lng": 7.76,
+   "texte": "La grande plage de sable d'Annaba et sa promenade, bordée de restaurants et de glaciers. Résidences et hôtels de bord de mer, baignade au pied de l'immeuble en été, et la ville à un quart d'heure."
+  },
+  {
+   "id": "ain-achir",
+   "nom": "Aïn Achir et la route du Cap de Garde",
+   "lat": 36.953,
+   "lng": 7.778,
+   "texte": "Au nord, la route qui longe la côte jusqu'au phare : criques, plages familiales et maisons d'hôtes au calme. Il faut un taxi pour rentrer en ville, mais on dort au son des vagues."
+  }
+ ],
+ "hotel_petit_prix_max": 55,
+ "prix_match": 4,
+ "restaurants": [
+  {
+   "id": "bourek-annabi",
+   "nom": "Bourek Annabi",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Le bourek, spécialité d'Annaba",
+   "quartier": "Centre-ville",
+   "adresse": "Rue Bouzerad Hocine, centre-ville",
+   "lat": 36.90002,
+   "lng": 7.74348,
+   "prix": "2 à 4 €",
+   "prix_min": 2,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le plat qui porte le nom de la ville : une grande feuille de brick carrée, farcie de viande hachée et d'un œuf qui reste coulant, pliée et frite minute. On la mange debout ou à une table en formica, avec de la harissa et un verre de limonade. La maison en sort des centaines par jour, et toute la ville a son avis sur la question.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; la file va vite, surtout en fin d'après-midi",
+   "photo": {
+    "auteur": "Achraf Drkma",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABourek_annabi.jpg",
+    "src": "img/restos/AAE/bourek-annabi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tonda",
+   "nom": "La Tonda Pizza Napolitaine",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza napolitaine au feu de bois",
+   "quartier": "Centre-ville",
+   "adresse": "10 Bd Bouzerad Hocine, Annaba",
+   "lat": 36.9023,
+   "lng": 7.75421,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Une vraie pâte napolitaine, levée longuement et cuite trente secondes au feu de bois : bords gonflés, cœur souple, tomate San Marzano et mozzarella. C'est la meilleure note de la ville pour une pizza, dans une petite salle où l'on voit le four travailler.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; à emporter aussi",
+   "photo": {
+    "auteur": "Fabryx98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza-napoletana.jpg",
+    "src": "img/restos/AAE/tonda.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "zaguette",
+   "nom": "Zaguette Family Food",
+   "emoji": "🍗",
+   "gamme": "petit",
+   "genre": "Poulet croustillant et tacos, face à la plage",
+   "quartier": "Aïn Achir",
+   "adresse": "Plage d'Aïn Achir, route du Cap de Garde",
+   "lat": 36.9575,
+   "lng": 7.77949,
+   "prix": "3 à 7 €",
+   "prix_min": 3,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'adresse que les vidéos d'Annaba citent en premier quand il s'agit de manger vite et bien : poulet pané très croustillant, tacos algériens généreux, frites maison, le tout à deux pas du sable. Grande salle familiale, service rapide, et la plage juste derrière pour la sieste.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; file d'attente les soirs d'été",
+   "photo": {
+    "auteur": "Brian Chan",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFried_Chicken_%28Unsplash%29.jpg",
+    "src": "img/restos/AAE/zaguette.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "uncles-burger",
+   "nom": "Uncle's Burger (Saint-Cloud)",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers maison",
+   "quartier": "Saint-Cloud",
+   "adresse": "76 Rue de Cirta, Saint-Cloud",
+   "lat": 36.91927,
+   "lng": 7.76294,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Le burger qui a mis tout le monde d'accord à Annaba : pain brioché, viande hachée du jour saisie à la plancha, sauces maison et frites fraîches. Petite salle au décor d'atelier, musique forte, jeunesse annabie au complet le vendredi soir.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; commandez au comptoir",
+   "photo": {
+    "auteur": "Kurtkaiser",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACheeseburger_and_fries_2.jpg",
+    "src": "img/restos/AAE/uncles-burger.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "choux-chocolat",
+   "nom": "Pâtisserie Choux Chocolat",
+   "emoji": "🍫",
+   "gamme": "petit",
+   "genre": "Pâtisserie française et gâteaux algériens",
+   "quartier": "Saint-Cloud",
+   "adresse": "Saint-Cloud, près du boulevard Fellah-Rachid",
+   "lat": 36.92073,
+   "lng": 7.76354,
+   "prix": "2 à 5 €",
+   "prix_min": 2,
+   "badges": [],
+   "texte": "Éclairs au chocolat, choux à la crème, tartes aux fruits d'un côté ; makrouds, baklawas et zrira de l'autre. La vitrine la mieux notée de la ville, où les familles viennent chercher le plateau du vendredi. À emporter, ou à prendre avec un café debout au comptoir.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; les plus belles pièces partent avant midi",
+   "photo": {
+    "auteur": "Thomon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADeux_%C3%A9clairs_au_chocolat.jpg",
+    "src": "img/restos/AAE/choux-chocolat.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cafe-molo",
+   "nom": "Café Molo",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café de spécialité et brunch",
+   "quartier": "Centre-ville",
+   "adresse": "Centre-ville, près du boulevard du 1er-Novembre",
+   "lat": 36.90871,
+   "lng": 7.75427,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Le café qui a importé à Annaba les codes des torréfacteurs : grains sélectionnés, latte art, pancakes et œufs brouillés servis jusqu'en milieu d'après-midi. Murs clairs, plantes, grandes tables : c'est devenu le point de rendez-vous des trentenaires de la ville et des voyageurs de passage.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; très demandé le vendredi matin",
+   "photo": {
+    "auteur": "Smúz Café",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASm%C3%BAz_Caf%C3%A9_brunch_table_Budapest_-_bowls%2C_eggs_benedict%2C_specialty_coffee.jpg",
+    "src": "img/restos/AAE/cafe-molo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tabarka",
+   "nom": "Restaurant Tabarka",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Cuisine tuniso-annabie",
+   "quartier": "Centre-ville",
+   "adresse": "À côté du cinéma Olympia, Bd Bouzerad Hocine",
+   "lat": 36.90255,
+   "lng": 7.75456,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "L'institution du centre-ville, et de loin la table la plus commentée d'Annaba : couscous au poisson, osbane, bouzellouf, salade méchouia et grillades arrivent sans discontinuer dans une salle toujours pleine. Cuisine de la frontière, entre l'Est algérien et la Tunisie voisine, servie en portions qui calment les plus affamés.",
+   "reservation": "conseille",
+   "reservation_delai": "le soir et le week-end, appelez dans la journée",
+   "photo": {
+    "auteur": "Habib M'henni",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlat_couscous_au_poisson_%28dorade%29%2C_Tunisie.JPG",
+    "src": "img/restos/AAE/tabarka.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "divan-hane",
+   "nom": "Divan Hane",
+   "emoji": "🥙",
+   "gamme": "moyen",
+   "genre": "Table turque et mezze",
+   "quartier": "Saint-Cloud",
+   "adresse": "Rue de la Côte d'Ivoire, Saint-Cloud",
+   "lat": 36.91786,
+   "lng": 7.75708,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Mezze à partager, kısır au boulgour, pide qui sortent du four et grillades à la broche : la meilleure table turque d'Annaba, dans un décor de coussins et de lanternes. On y vient aussi pour le brunch du vendredi, copieux au point de remplacer le dîner.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques heures avant pour le brunch du vendredi",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AK%C4%B1s%C4%B1r_in_Ankara.jpg",
+    "src": "img/restos/AAE/divan-hane.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mille-sapori",
+   "nom": "Mille Sapori",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Trattoria italienne",
+   "quartier": "Centre-ville",
+   "adresse": "Centre-ville, quartier de la gare",
+   "lat": 36.90464,
+   "lng": 7.74405,
+   "prix": "8 à 16 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Pâtes fraîches, sauces mijotées, burrata et tiramisù : une petite trattoria tenue de près, qui affiche la meilleure note de la ville pour l'italien. Une quinzaine de couverts seulement, service attentif, et la carte change selon le marché.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, la salle est minuscule",
+   "photo": {
+    "auteur": "Erik Möller",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti-prepared.jpg",
+    "src": "img/restos/AAE/mille-sapori.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "boustane",
+   "nom": "Machaoui El Boustane",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Grillades de poisson au bord de l'eau",
+   "quartier": "Plage Refes-Zahouane",
+   "adresse": "Plage Refes-Zahouane, route du Cap de Garde",
+   "lat": 36.94022,
+   "lng": 7.76415,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On choisit son poisson sur la glace, on le fait griller au feu de bois et on le mange en terrasse, face à la mer, avec salade méchouia, frites et citron. Sardines, dorades, rougets selon la pêche du jour : la grande sortie familiale des Annabis le week-end.",
+   "reservation": "conseille",
+   "reservation_delai": "le week-end et l'été, réservez la veille",
+   "photo": {
+    "auteur": "Renhour48",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A4_sardines_grill%C3%A9es.jpg",
+    "src": "img/restos/AAE/boustane.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "jasmin",
+   "nom": "Le Jasmin",
+   "emoji": "🌅",
+   "gamme": "moyen",
+   "genre": "Brunch et déjeuner face à la plage",
+   "quartier": "Saint-Cloud",
+   "adresse": "Plage Saint-Cloud, Bd Fellah-Rachid",
+   "lat": 36.92109,
+   "lng": 7.76329,
+   "prix": "8 à 16 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Les pieds presque dans l'eau de la plage Saint-Cloud, une grande terrasse où l'on prend le brunch tard le matin — pancakes, msemen, œufs, jus pressés — puis le poisson du jour à midi. La vue sur la baie fait la moitié du repas ; l'autre moitié est très correcte.",
+   "reservation": "conseille",
+   "reservation_delai": "le vendredi, réservez la veille pour une table côté mer",
+   "photo": {
+    "auteur": "Khelalfa Noureddine",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVue_de_la_plage_de_saint_clou_a_annaba.jpg",
+    "src": "img/restos/AAE/jasmin.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sultan",
+   "nom": "Sultan Corniche",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine algérienne traditionnelle",
+   "quartier": "Corniche",
+   "adresse": "3 Rue du Cameroun, corniche",
+   "lat": 36.91915,
+   "lng": 7.76403,
+   "prix": "9 à 16 €",
+   "prix_min": 9,
+   "badges": [],
+   "texte": "Chorba, tajine aux olives, rechta, chakhchoukha et marka hloua : la cuisine que les Annabis font chez eux, servie ici dans une salle calme au-dessus de la corniche. Ouvert en soirée surtout, avec des plats du jour qui changent au fil de la semaine.",
+   "reservation": "conseille",
+   "reservation_delai": "le soir, un appel suffit",
+   "photo": {
+    "auteur": "Wicanto",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATagine_aux_olives_alg%C3%A9rien.jpg",
+    "src": "img/restos/AAE/sultan.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "baroque",
+   "nom": "Restaurant Le Baroque",
+   "emoji": "✨",
+   "gamme": "haut",
+   "genre": "Table méditerranéenne chic",
+   "quartier": "Fontaine Chapuis",
+   "adresse": "Fontaine Chapuis, corniche",
+   "lat": 36.92951,
+   "lng": 7.75935,
+   "prix": "18 à 30 €",
+   "prix_min": 18,
+   "badges": [],
+   "texte": "La plus belle note de la ville pour une table habillée : cuisine italienne et tunisienne travaillée, assiettes dressées, salle feutrée et lounge pour prolonger la soirée, au-dessus de la corniche de Chapuis. L'adresse des grandes occasions annabies.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux ou trois jours avant pour le week-end",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThana_Fine_Dining_plate.jpg",
+    "src": "img/restos/AAE/baroque.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "renaissance",
+   "nom": "Restaurant La Renaissance",
+   "emoji": "🎻",
+   "gamme": "haut",
+   "genre": "Brasserie de bord de mer, musique en direct",
+   "quartier": "Fontaine Chapuis",
+   "adresse": "Route du Cap de Garde, Fontaine Chapuis",
+   "lat": 36.92935,
+   "lng": 7.75948,
+   "prix": "18 à 30 €",
+   "prix_min": 18,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Nappes blanches, cuivres, serveurs en veste et un musicien qui joue toute la soirée : une brasserie à l'ancienne comme Annaba en comptait beaucoup, posée face à la mer. Poissons, viandes, pâtes et desserts classiques, servis avec un cérémonial qui ne se fait plus beaucoup.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille, surtout le jeudi et le vendredi soir",
+   "photo": {
+    "auteur": "Romainbehar",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALyon_2e_-_Brasserie_Georges_-_Salle_depuis_l%27entr%C3%A9e.jpg",
+    "src": "img/restos/AAE/renaissance.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lemima",
+   "nom": "Restaurant Lemima",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Cuisine algérienne raffinée",
+   "quartier": "Route du Cap de Garde",
+   "adresse": "Route du Cap de Garde, plage Belvédère",
+   "lat": 36.94394,
+   "lng": 7.76425,
+   "prix": "15 à 28 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "La meilleure note d'Annaba, toutes catégories confondues. Une maison qui reprend les grands plats algériens — chakhchoukha, madgouga, méchoui, poissons au four — avec des produits choisis et un service qui prend le temps. Salle claire, grandes tablées familiales, et l'impression d'être invité chez quelqu'un.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant le week-end, la salle est vite complète",
+   "photo": {
+    "auteur": "Ridaiss",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL-madgoug.jpg",
+    "src": "img/restos/AAE/lemima.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "marina",
+   "nom": "Restaurant La Marina",
+   "emoji": "🦐",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Port",
+   "adresse": "Avenue du port, Annaba",
+   "lat": 36.90473,
+   "lng": 7.77316,
+   "prix": "18 à 32 €",
+   "prix_min": 18,
+   "badges": [],
+   "texte": "Au-dessus du port, la table que les Annabis réservent au poisson : crevettes royales, calamars, rougets, soupe de poisson et plateau de fruits de mer, choisis sur l'étal à l'entrée. Service rapide, addition raisonnable pour la qualité, et les bateaux juste en dessous.",
+   "reservation": "conseille",
+   "reservation_delai": "le week-end, appelez le matin même",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlateau_de_fruits_de_mer_001.jpg",
+    "src": "img/restos/AAE/marina.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "atmosphere",
+   "nom": "Atmosphère, Gastronomie & Plus",
+   "emoji": "🧑‍🍳",
+   "gamme": "haut",
+   "genre": "Table gastronomique sur les hauteurs",
+   "quartier": "Route de Seraïdi",
+   "adresse": "Route de Seraïdi, hauteurs d'Annaba",
+   "lat": 36.91429,
+   "lng": 7.68016,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Sur la route qui monte vers Seraïdi, une petite table qui travaille en menu court : produits de la région, cuissons précises, assiettes dessinées, et une salle qui ne dépasse pas une dizaine de couverts. Ce qui se rapproche le plus d'un restaurant gastronomique dans l'Est algérien.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant ; service uniquement le soir",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThana_team_preparing_plates.jpg",
+    "src": "img/restos/AAE/atmosphere.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "al-pesto",
+   "nom": "Al Pesto (Sheraton, 19e étage)",
+   "emoji": "🌃",
+   "gamme": "haut",
+   "genre": "Italien avec vue sur la baie",
+   "quartier": "Boulevard Victor-Hugo",
+   "adresse": "Sheraton Annaba, Bd Victor-Hugo",
+   "lat": 36.90776,
+   "lng": 7.76867,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Au dernier étage de la tour du Sheraton, une salle vitrée et une terrasse suspendues au-dessus du port et de la baie. Cuisine italienne soignée devant les fourneaux ouverts, cave correcte, et la ville qui s'allume pendant le dîner : l'adresse à garder pour le dernier soir.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille ; service le soir seulement et fermé certains jours, confirmez à l'hôtel",
+   "photo": {
+    "auteur": "Dan Sloan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAnnaba%2C_algeria04.jpg",
+    "src": "img/restos/AAE/al-pesto.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

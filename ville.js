@@ -383,7 +383,7 @@ function badgeTags(list) {
 
 function renderRestos() {
   const all = guide.restaurants || [];
-  $('r-legend').innerHTML = Object.entries(BADGES).filter(([k]) => all.some((r) => r.badges.includes(k)))
+  $('r-legend').innerHTML = Object.entries(BADGES).filter(([k]) => all.some((r) => (r.badges || []).includes(k)))
     .map(([k, b]) => `<span><span class="badge badge-${k}">${b.icon} ${b.nom}</span> ${esc(b.why)}</span>`).join('');
   $('r-gammes').innerHTML = RESTO_GAMMES.map((g) => {
     const list = all.filter((r) => r.gamme === g.id).sort((a, b) => a.prix_min - b.prix_min);

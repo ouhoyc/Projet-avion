@@ -84,3 +84,11 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Wanderlog : peu de listes (départ `geoCategory/205463`), mais la page `wanderlog.com/placePageGeos/79369/algiers`
   donne 662 fiches de lieux (`/place/details/ID/nom`) avec note, avis et position : les lire une par une (1 s entre deux).
   Positions des sites : Nominatim. Attention aux photos de stade : banderoles d'un club rival (USMA au 5-Juillet).
+- Annaba (oct. 2026) : Wanderlog est vide pour Annaba (géo 80074, 2 lieux seulement) et Restaurant Guru / TripAdvisor bloquent.
+  Ce qui marche : **Google Maps en « affichage limité »** avec Playwright (`/maps/search/<mot>/@lat,lng,16z?hl=fr`) — la colonne
+  de résultats donne nom, note, nombre d'avis, catégorie et position (`!3d…!4d…` dans le lien) ; quadrillage de ~80 points sur
+  la ville, 3 mots-clés en parallèle, ~550 lieux en 1 h. Une recherche qui ne renvoie qu'un seul lieu ouvre une fiche qui reste
+  vide : toujours interroger un mot générique (restaurant, pizzeria, café…), jamais un nom précis.
+  Photos Commons : recherche HTML (`ns6=1`) + `commons.wikimedia.org/w/thumb.php?f=NOM&w=330` / `w=960`, rapide et sans « 429 » ;
+  peu de photos de restaurants algériens, prendre des photos de plats (`illustration: true`). Presse algérienne pour les prix
+  (les `.dz` ne répondent pas) ; `combien-coute.net` donne un ordre de grandeur utile (dîner 3 plats ≈ 2 150 DA à Annaba).
