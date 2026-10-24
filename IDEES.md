@@ -261,8 +261,6 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 - Crédit Ignav : 1 000 recherches gratuites, puis ~2 $ / 1 000.
 - Tunis (`guides/TUN.json`) : le 1er janvier 2027, les entrées des musées et sites tunisiens augmentent (Bardo 45 dinars,
   Carthage, El Jem et Kairouan 30, billet combiné Bardo + Carthage 70) : mettre à jour les prix de la fiche.
-- Matchs hors d'Europe : `prix_match` n'est rempli que pour Alger, Annaba et Oran ; Tunis (≈ 8 €) et Tirana (≈ 5 €) affichent encore
-  25 € par match. Algérie : visa obligatoire pour les Français, rien ne le dit encore sur le site.
 
 ## Fait
 
