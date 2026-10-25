@@ -208,7 +208,7 @@ const normText = (t) => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 function fillPlaces() {
   const countries = new Map();
   const cities = new Map();
-  for (const d of data.destinations) {
+  for (const d of [...data.destinations, ...(data.unpriced || [])]) {
     if (!d.country) continue;
     if (!countries.has(d.country)) countries.set(d.country, { type: 'country', label: d.country, country: d.country, cc: d.country_code });
     if (!cities.has(d.city_code)) cities.set(d.city_code, { type: 'city', label: d.city, country: d.country, cc: d.country_code, code: d.city_code });
@@ -736,6 +736,14 @@ function renderResults() {
   searchState.shown = 0;
   sEls.count.textContent = '';
 
+  const unpriced = unpricedFor(q);
+  if (!view.length && unpriced.length) {
+    sEls.results.innerHTML = `
+      ${recapHtml(q)}
+      <p class="results-intro">Pas encore de prix repéré pour ${q.city ? `<strong>${escapeHtml(unpriced[0].city)}</strong>` : q.country ? `<strong>${escapeHtml(q.country)}</strong>` : 'ces dates'}, mais ${unpriced.length > 1 ? 'ces vols directs existent' : 'le vol direct existe'}.</p>
+      ${unpricedHtml(unpriced, q)}`;
+    return;
+  }
   if (!view.length) {
     sEls.results.innerHTML = `
       <div class="empty">
@@ -757,9 +765,47 @@ function renderResults() {
     <ul class="cards result-list" id="result-list"></ul>
     <button type="button" class="btn btn-secondary-wide" data-more hidden></button>
     <p class="disclaimer"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
-      <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour compris' : ''}${groupLabel() ? `, ${groupLabel().trim()}` : ''}. Touchez « Préparer mon séjour » pour vérifier le prix du vol en direct.</span></p>`;
+      <span>Derniers prix repérés par les voyageurs${roundTrip ? ', aller + retour compris' : ''}${groupLabel() ? `, ${groupLabel().trim()}` : ''}. Touchez « Préparer mon séjour » pour vérifier le prix du vol en direct.</span></p>
+    ${unpriced.length ? `
+      <details class="unpriced-more">
+        <summary>${unpriced.length} autre${unpriced.length > 1 ? 's' : ''} vol${unpriced.length > 1 ? 's' : ''} direct${unpriced.length > 1 ? 's' : ''} depuis ${escapeHtml(data.origin.city)}, prix pas encore repéré${unpriced.length > 1 ? 's' : ''}</summary>
+        ${unpricedHtml(unpriced, q)}
+      </details>` : ''}`;
   renderMore();
 }
+
+// Vols directs connus (routes.json) sans prix repéré, qui correspondent au pays / à la ville choisis.
+// Sans prix, on ne peut pas tenir compte du budget : on les montre à part, avec un lien de recherche.
+function unpricedFor(q) {
+  return (data.unpriced || [])
+    .filter((d) => (!q.city || d.city_code === q.city) && (!q.country || d.country === q.country))
+    .sort((a, b) => a.seasonal - b.seasonal || a.city.localeCompare(b.city, 'fr'));
+}
+
+function unpricedHtml(list, q) {
+  const ddmm = (day) => day.slice(8, 10) + day.slice(5, 7);
+  const soon = isoDay(addDays(new Date(), 14));
+  let out = q.month ? `${q.month}-15` : q.datesGiven ? q.start : soon;
+  if (out < soon && !q.datesGiven) out = soon;
+  const ret = q.type === 'rt' ? (q.exact ? q.end : isoDay(addDays(parseDay(out), q.minN))) : '';
+  const link = (d) => `https://www.aviasales.fr/search/${data.origin.code}${ddmm(out)}${d.city_code}${ret ? ddmm(ret) : ''}1?marker=787111`;
+  return `
+    <ul class="unpriced-list">
+      ${list.map((d) => `
+        <li class="unpriced">
+          <div class="unpriced-main">
+            <b>${flag(d.country_code)} ${escapeHtml(d.city)}</b>
+            <small>${escapeHtml(d.country)} · ${escapeHtml(d.airlines.join(', '))}${d.seasonal ? ' · ligne saisonnière' : ''}</small>
+          </div>
+          <div class="unpriced-actions">
+            ${GUIDES.includes(d.city_code) ? `<a class="unpriced-guide" href="ville.html?c=${encodeURIComponent(d.city_code)}">Préparer mon séjour</a>` : ''}
+            <a class="unpriced-link" href="${escapeHtml(link(d))}" target="_blank" rel="sponsored noopener">Voir les prix</a>
+          </div>
+        </li>`).join('')}
+    </ul>
+    <p class="hint">Vols directs connus${seasonalNote(list)}, mais aucun prix repéré récemment par les voyageurs. « Voir les prix » ouvre la recherche en direct${ret ? ` (aller le ${formatDayShort(out)}, retour le ${formatDayShort(ret)} : à changer sur le site)` : ` (départ le ${formatDayShort(out)} : à changer sur le site)`}.</p>`;
+}
+const seasonalNote = (list) => (list.some((d) => d.seasonal) ? ' (les lignes saisonnières ne volent qu\'une partie de l\'année)' : '');
 
 // « Vos réglages » au début de la liste : les choix utilisés pour la recherche, là où l'on
 // regarde en descendant (une testeuse n'avait pas vu les pastilles du haut). Chaque réglage

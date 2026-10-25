@@ -1157,3 +1157,15 @@ html:has(dialog[open]) { overflow: hidden; }
 .w-foot #w-next:disabled { opacity: .55; cursor: default; }
 .w-foot .btn-text { text-decoration: underline; font-weight: 700; color: var(--ink, #14213d); }
 .w-foot .btn-text[hidden] { display: none; }
+
+/* Vols directs connus sans prix repéré (routes.json) */
+.unpriced-more { margin-top: var(--s-4); }
+.unpriced-more > summary { cursor: pointer; font-weight: 700; padding: 12px 14px; background: var(--surface); border: 2px solid var(--ink); border-radius: var(--r-md); }
+.unpriced-list { list-style: none; margin: var(--s-3) 0 0; padding: 0; display: grid; gap: 8px; }
+.unpriced { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); }
+.unpriced-main { display: flex; flex-direction: column; min-width: 0; }
+.unpriced-main small { color: var(--text-muted); }
+.unpriced-main .flag, .unpriced-main img { vertical-align: -2px; }
+.unpriced-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+.unpriced-link { font-weight: 700; color: var(--ink); background: var(--primary); color: var(--on-primary); padding: 6px 12px; border-radius: 999px; text-decoration: none; white-space: nowrap; }
+.unpriced-guide { font-size: .85em; color: var(--ink); white-space: nowrap; }

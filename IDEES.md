@@ -315,6 +315,11 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   **Réseaux sociaux (Apify) sautés** (petite destination) : badges tendance d'après les guides (Wander-Lush, Wanderlog).
   Écartés : Sisters et El Depo (note 4,2, service en baisse), Sormoni (fermé l'hiver, prix flous). Prix estimé : match du
   Torpedo (billetterie géorgienne illisible d'ici). Sanatorium Medea fermé depuis un accident en juillet 2026.
+- ✅ (25/10/2026) **Liste complète des vols directs** (`routes.json`, `scripts/fetch-routes.mjs`) : lue chaque matin sur
+  Wikipédia (en anglais, page de l'aéroport, tableau des compagnies), codes IATA via Wikidata, gratuit. Les villes sans
+  prix repéré (Koutaïssi, lignes d'été…) apparaissent quand même : dans « Une idée ? » et en bas de la liste (« N autres
+  vols directs, prix pas encore repérés »), avec « Voir les prix » (recherche Aviasales aux dates choisies). 143 lignes
+  connues le 25/10/2026, dont ~60 villes sans prix. Prochaine étape possible : prix complets avec Ignav (≈ 50 $/mois).
 - ✅ (24/10/2026) **Page guide de Bruxelles** (`guides/BRU.json`), préparée en autonomie : 27 activités (tendance :
   Grand-Place, Atomium, fresques BD ; musées Old Masters, Magritte, Horta, BD, MIM, Sciences naturelles ; Cantillon,
   Belgian Beer World, Toone ; match d'Anderlecht ; excursions Bruges, Gand, Waterloo), 18 restaurants (note pondérée,

@@ -32,11 +32,18 @@ jobs:
           # Pour changer d'aéroport : Settings > Secrets and variables > Actions > Variables > ORIGIN
           ORIGIN: ${{ vars.ORIGIN || 'LYS' }}
 
+      - name: Liste complète des vols directs (Wikipédia, gratuit)
+        # Une erreur ici ne bloque pas les prix : on garde l'ancien routes.json.
+        continue-on-error: true
+        run: node scripts/fetch-routes.mjs
+        env:
+          ORIGIN: ${{ vars.ORIGIN || 'LYS' }}
+
       - name: Committer les données si elles ont changé
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.json daily.json
+          git add data.json daily.json routes.json
           if git diff --cached --quiet; then
             echo "Aucun changement."
           else

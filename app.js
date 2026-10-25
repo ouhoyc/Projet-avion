@@ -43,6 +43,7 @@ async function init() {
     const res = await fetch('data.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     data = await res.json();
+    data.unpriced = await loadUnpriced(data.destinations);
   } catch {
     els.updated.querySelector('span').textContent = 'Données indisponibles pour le moment. Reviens un peu plus tard.';
     return;
@@ -50,6 +51,30 @@ async function init() {
 
   setupHeader();
   document.dispatchEvent(new Event('data-ready')); // search.js peut démarrer
+}
+
+// Vols directs connus (routes.json, d'après Wikipédia) sans aucun prix repéré en ce moment :
+// une entrée par ville, pour qu'aucune destination ne disparaisse faute de recherches récentes.
+async function loadUnpriced(priced) {
+  try {
+    const res = await fetch('routes.json', { cache: 'no-cache' });
+    if (!res.ok) return [];
+    const known = new Set(priced.map((d) => d.city_code));
+    const byCity = new Map();
+    for (const r of (await res.json()).routes) {
+      if (known.has(r.city_code)) continue;
+      const c = byCity.get(r.city_code);
+      if (!c) byCity.set(r.city_code, { ...r, codes: [r.code], airlines: [...r.airlines] });
+      else {
+        c.codes.push(r.code);
+        r.airlines.forEach((a) => { if (!c.airlines.includes(a)) c.airlines.push(a); });
+        c.seasonal &&= r.seasonal;
+      }
+    }
+    return [...byCity.values()];
+  } catch {
+    return [];
+  }
 }
 
 // ---------------------------------------------------------------------------

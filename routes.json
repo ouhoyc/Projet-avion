@@ -1,0 +1,2112 @@
+{
+ "origin": "LYS",
+ "source": "Wikipédia (en), page Lyon–Saint-Exupéry Airport",
+ "updated_at": "2026-10-25T12:20:09.107Z",
+ "count": 143,
+ "routes": [
+  {
+   "code": "ADD",
+   "city_code": "ADD",
+   "city": "Addis Abeba",
+   "airport": "Bole",
+   "country_code": "ET",
+   "country": "Éthiopie",
+   "lat": 8.983759,
+   "lon": 38.7959,
+   "airlines": [
+    "Ethiopian Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AGA",
+   "city_code": "AGA",
+   "city": "Agadir",
+   "airport": "Agadir Almassira",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 30.378326,
+   "lon": -9.555895,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AJA",
+   "city_code": "AJA",
+   "city": "Ajaccio",
+   "airport": "Campo Dell Oro",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 41.91987,
+   "lon": 8.794013,
+   "airlines": [
+    "Air Corsica",
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "ALG",
+   "city_code": "ALG",
+   "city": "Alger",
+   "airport": "Houari Boumediene",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 36.70058,
+   "lon": 3.21167,
+   "airlines": [
+    "Air Algérie",
+    "ASL Airlines France",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AHO",
+   "city_code": "AHO",
+   "city": "Alghero",
+   "airport": "Fertilia",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 40.630405,
+   "lon": 8.295891,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "ALC",
+   "city_code": "ALC",
+   "city": "Alicante",
+   "airport": "Alicante",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 38.287098,
+   "lon": -0.557381,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AMM",
+   "city_code": "AMM",
+   "city": "Amman",
+   "airport": "Queen Alia Intl",
+   "country_code": "JO",
+   "country": "Jordanie",
+   "lat": 31.722534,
+   "lon": 35.98932,
+   "airlines": [
+    "Royal Jordanian"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AMS",
+   "city_code": "AMS",
+   "city": "Amsterdam",
+   "airport": "Amsterdam-Schiphol",
+   "country_code": "NL",
+   "country": "Pays-Bas",
+   "lat": 52.30907,
+   "lon": 4.763385,
+   "airlines": [
+    "Air France",
+    "KLM"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AAE",
+   "city_code": "AAE",
+   "city": "Annaba",
+   "airport": "Les Salines",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 36.821392,
+   "lon": 7.811857,
+   "airlines": [
+    "Air Algérie"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "AYT",
+   "city_code": "AYT",
+   "city": "Antalya",
+   "airport": "Antalya",
+   "country_code": "TR",
+   "country": "Turquie",
+   "lat": 36.89928,
+   "lon": 30.80135,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "ATH",
+   "city_code": "ATH",
+   "city": "Athènes",
+   "airport": "Eleftherios V.",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 37.93635,
+   "lon": 23.946486,
+   "airlines": [
+    "Aegean Airlines",
+    "easyJet",
+    "Sky Express",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BCN",
+   "city_code": "BCN",
+   "city": "Barcelone",
+   "airport": "Barcelona",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 41.30303,
+   "lon": 2.07593,
+   "airlines": [
+    "easyJet",
+    "Vueling"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BRI",
+   "city_code": "BRI",
+   "city": "Bari",
+   "airport": "Palese",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 41.13388,
+   "lon": 16.76391,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "BIA",
+   "city_code": "BIA",
+   "city": "Bastia",
+   "airport": "Poretta",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 42.547615,
+   "lon": 9.480124,
+   "airlines": [
+    "Air Corsica",
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BLJ",
+   "city_code": "BLJ",
+   "city": "Batna",
+   "airport": "Batna",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 35.566666,
+   "lon": 6.183333,
+   "airlines": [
+    "Air Algérie"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BJA",
+   "city_code": "BJA",
+   "city": "Béjaïa",
+   "airport": "Bejaia",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 36.75,
+   "lon": 5.083333,
+   "airlines": [
+    "Air Algérie",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BER",
+   "city_code": "BER",
+   "city": "Berlin",
+   "airport": "Brandenburg et autres aéroports",
+   "country_code": "DE",
+   "country": "Allemagne",
+   "lat": 52.36667,
+   "lon": 13.503333,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BEY",
+   "city_code": "BEY",
+   "city": "Beyrouth",
+   "airport": "Beirut",
+   "country_code": "LB",
+   "country": "Liban",
+   "lat": 33.826073,
+   "lon": 35.49308,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BIQ",
+   "city_code": "BIQ",
+   "city": "Biarritz",
+   "airport": "Biarritz Parme",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 43.472416,
+   "lon": -1.531242,
+   "airlines": [
+    "Air France",
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BLL",
+   "city_code": "BLL",
+   "city": "Billund",
+   "airport": "Billund",
+   "country_code": "DK",
+   "country": "Danemark",
+   "lat": 55.747383,
+   "lon": 9.147874,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "BSK",
+   "city_code": "BSK",
+   "city": "Biskra",
+   "airport": "Biskra",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 34.79333,
+   "lon": 5.738056,
+   "airlines": [
+    "Air Algérie"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BLQ",
+   "city_code": "BLQ",
+   "city": "Bologne",
+   "airport": "Guglielmo Marconi",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 44.529266,
+   "lon": 11.293289,
+   "airlines": [
+    "Twin Jet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BOD",
+   "city_code": "BOD",
+   "city": "Bordeaux",
+   "airport": "aéroport de Bordeaux-Mérignac",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 44.83102,
+   "lon": -0.70217,
+   "airlines": [
+    "Air France",
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BES",
+   "city_code": "BES",
+   "city": "Brest",
+   "airport": "Guipavas",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 48.445374,
+   "lon": -4.415827,
+   "airlines": [
+    "Air France"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BDS",
+   "city_code": "BDS",
+   "city": "Brindisi",
+   "airport": "Papola Casale",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 40.657993,
+   "lon": 17.939053,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "BRS",
+   "city_code": "BRS",
+   "city": "Bristol",
+   "airport": "Bristol",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 51.386757,
+   "lon": -2.710659,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "BRU",
+   "city_code": "BRU",
+   "city": "Bruxelles",
+   "airport": "National",
+   "country_code": "BE",
+   "country": "Belgique",
+   "lat": 50.89717,
+   "lon": 4.483602,
+   "airlines": [
+    "Brussels Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "OTP",
+   "city_code": "BUH",
+   "city": "Bucarest",
+   "airport": "Otopeni Intl",
+   "country_code": "RO",
+   "country": "Roumanie",
+   "lat": 44.571156,
+   "lon": 26.077063,
+   "airlines": [
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "BUD",
+   "city_code": "BUD",
+   "city": "Budapest",
+   "airport": "Ferihegy",
+   "country_code": "HU",
+   "country": "Hongrie",
+   "lat": 47.433037,
+   "lon": 19.261621,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CFR",
+   "city_code": "CFR",
+   "city": "Caen",
+   "airport": "Carpiquet",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 49.183437,
+   "lon": -0.459276,
+   "airlines": [
+    "Air France"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CAG",
+   "city_code": "CAG",
+   "city": "Cagliari",
+   "airport": "Elmas",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 39.254333,
+   "lon": 9.060673,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "CLY",
+   "city_code": "CLY",
+   "city": "Calvi",
+   "airport": "Ste Catherine",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 42.52778,
+   "lon": 8.791667,
+   "airlines": [
+    "Air Corsica",
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "CMN",
+   "city_code": "CMN",
+   "city": "Casablanca",
+   "airport": "Mohamed V",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 33.36667,
+   "lon": -7.586667,
+   "airlines": [
+    "Air Arabia",
+    "Royal Air Maroc",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CTA",
+   "city_code": "CTA",
+   "city": "Catane",
+   "airport": "Fontanarossa",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 37.47066,
+   "lon": 15.065877,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "SSH",
+   "city_code": "SSH",
+   "city": "Charm el-Cheikh",
+   "airport": "Aéroport international de Charm el-Cheikh",
+   "country_code": "EG",
+   "country": "Égypte",
+   "lat": 27.979357,
+   "lon": 34.385254,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "KIV",
+   "city_code": "RMO",
+   "city": "Chişinău",
+   "airport": "Chisinau",
+   "country_code": "MD",
+   "country": "Moldavie",
+   "lat": 46.935444,
+   "lon": 28.934967,
+   "airlines": [
+    "FlyOne"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CLJ",
+   "city_code": "CLJ",
+   "city": "Cluj-Napoca",
+   "airport": "Napoca",
+   "country_code": "RO",
+   "country": "Roumanie",
+   "lat": 46.782063,
+   "lon": 23.687014,
+   "airlines": [
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CZL",
+   "city_code": "CZL",
+   "city": "Constantine",
+   "airport": "Ain El Bey",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 36.286476,
+   "lon": 6.618425,
+   "airlines": [
+    "Air Algérie",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CPH",
+   "city_code": "CPH",
+   "city": "Copenhague",
+   "airport": "Kastrup Copenhagen",
+   "country_code": "DK",
+   "country": "Danemark",
+   "lat": 55.62905,
+   "lon": 12.647601,
+   "airlines": [
+    "easyJet",
+    "Scandinavian Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CFU",
+   "city_code": "CFU",
+   "city": "Corfou",
+   "airport": "I. Kapodistrias",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 39.60784,
+   "lon": 19.914644,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "ORK",
+   "city_code": "ORK",
+   "city": "Cork",
+   "airport": "Cork",
+   "country_code": "IE",
+   "country": "Irlande",
+   "lat": 51.846645,
+   "lon": -8.48914,
+   "airlines": [
+    "Aer Lingus"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "KRK",
+   "city_code": "KRK",
+   "city": "Cracovie",
+   "airport": "J. Paul II Balice",
+   "country_code": "PL",
+   "country": "Pologne",
+   "lat": 50.075493,
+   "lon": 19.793743,
+   "airlines": [
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "DSS",
+   "city_code": "DKR",
+   "city": "Dakar",
+   "airport": "aéroport international Blaise-Diagne",
+   "country_code": "SN",
+   "country": "Sénégal",
+   "lat": 14.671111,
+   "lon": -17.066944,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "JED",
+   "city_code": "JED",
+   "city": "Djeddah",
+   "airport": "King Abdulaziz Intl",
+   "country_code": "SA",
+   "country": "Arabie saoudite",
+   "lat": 21.670233,
+   "lon": 39.150578,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "DJE",
+   "city_code": "DJE",
+   "city": "Djerba",
+   "airport": "Melita",
+   "country_code": "TN",
+   "country": "Tunisie",
+   "lat": 33.87118,
+   "lon": 10.775145,
+   "airlines": [
+    "Nouvelair",
+    "Transavia",
+    "Tunisair"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "DXB",
+   "city_code": "DXB",
+   "city": "Dubaï",
+   "airport": "Dubai International",
+   "country_code": "AE",
+   "country": "Émirats arabes unis",
+   "lat": 25.248665,
+   "lon": 55.352917,
+   "airlines": [
+    "Emirates"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "DWC",
+   "city_code": "DXB",
+   "city": "Dubaï",
+   "airport": "aéroport international Al Maktoum",
+   "country_code": "AE",
+   "country": "Émirats arabes unis",
+   "lat": 24.918056,
+   "lon": 55.175278,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "DUB",
+   "city_code": "DUB",
+   "city": "Dublin",
+   "airport": "Dublin",
+   "country_code": "IE",
+   "country": "Irlande",
+   "lat": 53.42728,
+   "lon": -6.24357,
+   "airlines": [
+    "Aer Lingus"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "DBV",
+   "city_code": "DBV",
+   "city": "Dubrovnik",
+   "airport": "Dubrovnik",
+   "country_code": "HR",
+   "country": "Croatie",
+   "lat": 42.56072,
+   "lon": 18.260616,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "DUS",
+   "city_code": "DUS",
+   "city": "Düsseldorf",
+   "airport": "Düsseldorf",
+   "country_code": "DE",
+   "country": "Allemagne",
+   "lat": 51.278328,
+   "lon": 6.76558,
+   "airlines": [
+    "Eurowings"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "EDI",
+   "city_code": "EDI",
+   "city": "Édimbourg",
+   "airport": "Turnhouse",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 55.948143,
+   "lon": -3.364177,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "EVN",
+   "city_code": "EVN",
+   "city": "Erevan",
+   "airport": "Yerevan",
+   "country_code": "AM",
+   "country": "Arménie",
+   "lat": 40.15272,
+   "lon": 44.39805,
+   "airlines": [
+    "FlyOne",
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "ESU",
+   "city_code": "ESU",
+   "city": "Essaouira",
+   "airport": "Essaouira",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 31.3975,
+   "lon": -9.681667,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "FAO",
+   "city_code": "FAO",
+   "city": "Faro",
+   "airport": "Faro",
+   "country_code": "PT",
+   "country": "Portugal",
+   "lat": 37.020645,
+   "lon": -7.968545,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "FEZ",
+   "city_code": "FEZ",
+   "city": "Fès",
+   "airport": "Sais",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 33.93079,
+   "lon": -4.982138,
+   "airlines": [
+    "Air Arabia",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "FSC",
+   "city_code": "FSC",
+   "city": "Figari",
+   "airport": "Figari-Sud Corse",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 41.498634,
+   "lon": 9.098223,
+   "airlines": [
+    "Air Corsica",
+    "Air France",
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "FLR",
+   "city_code": "FLR",
+   "city": "Florence",
+   "airport": "Peretola",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 43.802128,
+   "lon": 11.201989,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "FRA",
+   "city_code": "FRA",
+   "city": "Francfort",
+   "airport": "Frankfurt",
+   "country_code": "DE",
+   "country": "Allemagne",
+   "lat": 50.050735,
+   "lon": 8.570773,
+   "airlines": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "FUE",
+   "city_code": "FUE",
+   "city": "Fuerteventura",
+   "airport": "Puerto del Rosario",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 28.450605,
+   "lon": -13.869893,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "FNC",
+   "city_code": "FNC",
+   "city": "Funchal (Madère)",
+   "airport": "Funchal Airport",
+   "country_code": "PT",
+   "country": "Portugal",
+   "lat": 32.693123,
+   "lon": -16.775635,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "HAM",
+   "city_code": "HAM",
+   "city": "Hambourg",
+   "airport": "Fuhlsbüttel",
+   "country_code": "DE",
+   "country": "Allemagne",
+   "lat": 53.63128,
+   "lon": 10.006414,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "HER",
+   "city_code": "HER",
+   "city": "Héraklion",
+   "airport": "N. Kazantzakis Apt.",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 35.33663,
+   "lon": 25.174192,
+   "airlines": [
+    "Aegean Airlines",
+    "easyJet",
+    "Sky Express",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "HRG",
+   "city_code": "HRG",
+   "city": "Hurghada",
+   "airport": "Hurghada",
+   "country_code": "EG",
+   "country": "Égypte",
+   "lat": 27.189156,
+   "lon": 33.8055,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "IBZ",
+   "city_code": "IBZ",
+   "city": "Ibiza",
+   "airport": "Ibiza",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 38.876595,
+   "lon": 1.367803,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "SAW",
+   "city_code": "IST",
+   "city": "Istanbul",
+   "airport": "Sabiha Gokcen",
+   "country_code": "TR",
+   "country": "Turquie",
+   "lat": 40.904675,
+   "lon": 29.309189,
+   "airlines": [
+    "AJet",
+    "Pegasus Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "IST",
+   "city_code": "IST",
+   "city": "Istanbul",
+   "airport": "aéroport d'Istanbul",
+   "country_code": "TR",
+   "country": "Turquie",
+   "lat": 40.9769,
+   "lon": 28.82055,
+   "airlines": [
+    "Transavia",
+    "Turkish Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "ADB",
+   "city_code": "IZM",
+   "city": "Izmir",
+   "airport": "Adnan Menderes Arpt",
+   "country_code": "TR",
+   "country": "Turquie",
+   "lat": 38.294403,
+   "lon": 27.147594,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "ASR",
+   "city_code": "ASR",
+   "city": "Kayseri",
+   "airport": "Kayseri",
+   "country_code": "TR",
+   "country": "Turquie",
+   "lat": 38.7742,
+   "lon": 35.490707,
+   "airlines": [
+    "Pegasus Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "KGS",
+   "city_code": "KGS",
+   "city": "Kos",
+   "airport": "Kos",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 36.793056,
+   "lon": 27.095278,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "KUT",
+   "city_code": "KUT",
+   "city": "Koutaïssi",
+   "airport": "Kutaisi",
+   "country_code": "GE",
+   "country": "Géorgie",
+   "lat": 42.25,
+   "lon": 42.7,
+   "airlines": [
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CHQ",
+   "city_code": "CHQ",
+   "city": "La Canée",
+   "airport": "Souda",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 35.5402,
+   "lon": 24.140373,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "LRH",
+   "city_code": "LRH",
+   "city": "La Rochelle",
+   "airport": "Laleu",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 46.180557,
+   "lon": -1.185833,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "ACE",
+   "city_code": "ACE",
+   "city": "Lanzarote",
+   "airport": "Lanzarote",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 28.950668,
+   "lon": -13.609059,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LPA",
+   "city_code": "LPA",
+   "city": "Las Palmas de Gran Canaria",
+   "airport": "aéroport de Gran Canaria",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 27.938944,
+   "lon": -15.389351,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "CAI",
+   "city_code": "CAI",
+   "city": "Le Caire",
+   "airport": "Aéroport international du Caire",
+   "country_code": "EG",
+   "country": "Égypte",
+   "lat": 30.120106,
+   "lon": 31.40647,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LIL",
+   "city_code": "LIL",
+   "city": "Lille",
+   "airport": "Lesquin",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 50.57205,
+   "lon": 3.106067,
+   "airlines": [
+    "Air France"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LIG",
+   "city_code": "LIG",
+   "city": "Limoges",
+   "airport": "Bellegarde",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 45.86218,
+   "lon": 1.176245,
+   "airlines": [
+    "Chalair Aviation"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LIS",
+   "city_code": "LIS",
+   "city": "Lisbonne",
+   "airport": "Lisboa",
+   "country_code": "PT",
+   "country": "Portugal",
+   "lat": 38.770042,
+   "lon": -9.128165,
+   "airlines": [
+    "easyJet",
+    "TAP Air Portugal"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LHR",
+   "city_code": "LON",
+   "city": "Londres",
+   "airport": "Heathrow",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 51.469604,
+   "lon": -0.453566,
+   "airlines": [
+    "British Airways"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LGW",
+   "city_code": "LON",
+   "city": "Londres",
+   "airport": "Gatwick",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 51.156807,
+   "lon": -0.161863,
+   "airlines": [
+    "British Airways",
+    "easyJet",
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "LTN",
+   "city_code": "LON",
+   "city": "Londres",
+   "airport": "Luton Airport",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 51.87977,
+   "lon": -0.376232,
+   "airlines": [
+    "easyJet",
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "SEN",
+   "city_code": "LON",
+   "city": "Londres",
+   "airport": "Southend",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 51.572777,
+   "lon": 0.701389,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "LXR",
+   "city_code": "LXR",
+   "city": "Louxor",
+   "airport": "Luxor",
+   "country_code": "EG",
+   "country": "Égypte",
+   "lat": 25.67492,
+   "lon": 32.699684,
+   "airlines": [
+    "Air Cairo",
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "MAD",
+   "city_code": "MAD",
+   "city": "Madrid",
+   "airport": "Barajas",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 40.46515,
+   "lon": -3.570209,
+   "airlines": [
+    "easyJet",
+    "Iberia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MAH",
+   "city_code": "MAH",
+   "city": "Mahon",
+   "airport": "Menorca/Mahon",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 39.864746,
+   "lon": 4.226256,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "AGP",
+   "city_code": "AGP",
+   "city": "Málaga",
+   "airport": "Malaga",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 36.675182,
+   "lon": -4.489616,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MLA",
+   "city_code": "MLA",
+   "city": "Malte",
+   "airport": "Luqa",
+   "country_code": "MT",
+   "country": "Malte",
+   "lat": 35.8575,
+   "lon": 14.4775,
+   "airlines": [
+    "KM Malta Airlines"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "MAN",
+   "city_code": "MAN",
+   "city": "Manchester",
+   "airport": "Manchester",
+   "country_code": "GB",
+   "country": "Royaume-Uni",
+   "lat": 53.362907,
+   "lon": -2.273354,
+   "airlines": [
+    "easyJet",
+    "Jet2.com"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "RAK",
+   "city_code": "RAK",
+   "city": "Marrakech",
+   "airport": "Menara",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 31.601875,
+   "lon": -8.026902,
+   "airlines": [
+    "easyJet",
+    "Royal Air Maroc",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MRS",
+   "city_code": "MRS",
+   "city": "Marseille",
+   "airport": "Marseille",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 43.44178,
+   "lon": 5.222137,
+   "airlines": [
+    "Air France"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MED",
+   "city_code": "MED",
+   "city": "Médine",
+   "airport": "Mohammad Abdulaziz",
+   "country_code": "SA",
+   "country": "Arabie saoudite",
+   "lat": 24.544369,
+   "lon": 39.698967,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MXP",
+   "city_code": "MIL",
+   "city": "Milan",
+   "airport": "Malpensa",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 45.627405,
+   "lon": 8.71237,
+   "airlines": [
+    "Twin Jet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MIR",
+   "city_code": "MIR",
+   "city": "Monastir",
+   "airport": "Habib Bourguiba",
+   "country_code": "TN",
+   "country": "Tunisie",
+   "lat": 35.76108,
+   "lon": 10.753155,
+   "airlines": [
+    "Nouvelair",
+    "Transavia",
+    "Tunisair"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "YUL",
+   "city_code": "YMQ",
+   "city": "Montréal",
+   "airport": "Elliott Trudeau",
+   "country_code": "CA",
+   "country": "Canada",
+   "lat": 45.457714,
+   "lon": -73.74991,
+   "airlines": [
+    "Air Canada",
+    "Air Transat"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "MUC",
+   "city_code": "MUC",
+   "city": "Munich",
+   "airport": "Franz Josef Strauss",
+   "country_code": "DE",
+   "country": "Allemagne",
+   "lat": 48.353004,
+   "lon": 11.790143,
+   "airlines": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "JMK",
+   "city_code": "JMK",
+   "city": "Mykonos",
+   "airport": "Mikonos",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 37.43611,
+   "lon": 25.344444,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "NTE",
+   "city_code": "NTE",
+   "city": "Nantes",
+   "airport": "Nantes Atlantique",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 47.157623,
+   "lon": -1.601402,
+   "airlines": [
+    "Air France",
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "NAP",
+   "city_code": "NAP",
+   "city": "Naples",
+   "airport": "Naples",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 40.886112,
+   "lon": 14.291667,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "NCE",
+   "city_code": "NCE",
+   "city": "Nice",
+   "airport": "Côte d'Azur",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 43.66049,
+   "lon": 7.205232,
+   "airlines": [
+    "Air France",
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "OLB",
+   "city_code": "OLB",
+   "city": "Olbia",
+   "airport": "Costa Smeralda",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 40.903145,
+   "lon": 9.514823,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "ORN",
+   "city_code": "ORN",
+   "city": "Oran",
+   "airport": "Es Senia",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 35.620018,
+   "lon": -0.606108,
+   "airlines": [
+    "Air Algérie",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "OSL",
+   "city_code": "OSL",
+   "city": "Oslo",
+   "airport": "Oslo Airport",
+   "country_code": "NO",
+   "country": "Norvège",
+   "lat": 60.19419,
+   "lon": 11.100411,
+   "airlines": [
+    "Norwegian Air Shuttle"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "OUD",
+   "city_code": "OUD",
+   "city": "Oujda",
+   "airport": "Les Angades",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 34.783333,
+   "lon": -1.933333,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "PMO",
+   "city_code": "PMO",
+   "city": "Palerme",
+   "airport": "Palermo Airport",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 38.120358,
+   "lon": 13.360334,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "PMI",
+   "city_code": "PMI",
+   "city": "Palma de Majorque",
+   "airport": "Palma Mallorca",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 39.547653,
+   "lon": 2.730388,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "PFO",
+   "city_code": "PFO",
+   "city": "Paphos",
+   "airport": "Paphos",
+   "country_code": "CY",
+   "country": "Chypre",
+   "lat": 34.71155,
+   "lon": 32.489105,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "CDG",
+   "city_code": "PAR",
+   "city": "Paris",
+   "airport": "Ch. De Gaulle",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 49.003197,
+   "lon": 2.567023,
+   "airlines": [
+    "Air France",
+    "ASL Airlines France"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "ORY",
+   "city_code": "PAR",
+   "city": "Paris",
+   "airport": "Orly",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 48.728283,
+   "lon": 2.3597,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "PUF",
+   "city_code": "PUF",
+   "city": "Pau",
+   "airport": "Uzein",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 43.382347,
+   "lon": -0.413573,
+   "airlines": [
+    "Air France",
+    "Twin Jet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TGD",
+   "city_code": "TGD",
+   "city": "Podgorica",
+   "airport": "Golubovci",
+   "country_code": "ME",
+   "country": "Monténégro",
+   "lat": 42.368023,
+   "lon": 19.246023,
+   "airlines": [
+    "Air Montenegro"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "PIS",
+   "city_code": "PIS",
+   "city": "Poitiers",
+   "airport": "Biard",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 46.58611,
+   "lon": 0.306389,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "OPO",
+   "city_code": "OPO",
+   "city": "Porto",
+   "airport": "Porto",
+   "country_code": "PT",
+   "country": "Portugal",
+   "lat": 41.237774,
+   "lon": -8.670272,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "PRG",
+   "city_code": "PRG",
+   "city": "Prague",
+   "airport": "Ruzyne",
+   "country_code": "CZ",
+   "country": "République tchèque",
+   "lat": 50.10619,
+   "lon": 14.266638,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "RAI",
+   "city_code": "RAI",
+   "city": "Praia",
+   "airport": "Francisco Mendes",
+   "country_code": "CV",
+   "country": "Cap-Vert",
+   "lat": 14.945321,
+   "lon": -23.486567,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "PRN",
+   "city_code": "PRN",
+   "city": "Pristina",
+   "airport": "Pristina",
+   "country_code": "XK",
+   "country": "Kosovo",
+   "lat": 42.573612,
+   "lon": 21.035557,
+   "airlines": [
+    "ASL Airlines France",
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "RBA",
+   "city_code": "RBA",
+   "city": "Rabat",
+   "airport": "Sale",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 34.036137,
+   "lon": -6.748619,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "RNS",
+   "city_code": "RNS",
+   "city": "Rennes",
+   "airport": "St Jacques",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 48.068066,
+   "lon": -1.726249,
+   "airlines": [
+    "Air France"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "KEF",
+   "city_code": "REK",
+   "city": "Reykjavik",
+   "airport": "Keflavik Intl",
+   "country_code": "IS",
+   "country": "Islande",
+   "lat": 63.997765,
+   "lon": -22.624283,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "RHO",
+   "city_code": "RHO",
+   "city": "Rhodes",
+   "airport": "Diagoras Airport",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 36.401867,
+   "lon": 28.090677,
+   "airlines": [
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "FCO",
+   "city_code": "ROM",
+   "city": "Rome",
+   "airport": "Fiumicino",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 41.794594,
+   "lon": 12.250346,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "RVN",
+   "city_code": "RVN",
+   "city": "Rovaniemi",
+   "airport": "Rovaniemi",
+   "country_code": "FI",
+   "country": "Finlande",
+   "lat": 66.559044,
+   "lon": 25.829609,
+   "airlines": [
+    "easyJet"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "RUN",
+   "city_code": "RUN",
+   "city": "Saint-Denis (La Réunion)",
+   "airport": "Gillot",
+   "country_code": "RE",
+   "country": "La Réunion",
+   "lat": -20.892,
+   "lon": 55.511875,
+   "airlines": [
+    "Corsair International"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "SID",
+   "city_code": "SID",
+   "city": "Sal (Cap-Vert)",
+   "airport": "Amilcar Cabral Intl",
+   "country_code": "CV",
+   "country": "Cap-Vert",
+   "lat": 16.734695,
+   "lon": -22.943613,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "QSR",
+   "city_code": "QSR",
+   "city": "Salerne",
+   "airport": "Salerno Pontecagnano",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 40.620148,
+   "lon": 14.92084,
+   "airlines": [
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "JTR",
+   "city_code": "JTR",
+   "city": "Santorin",
+   "airport": "Santorini/Thira",
+   "country_code": "GR",
+   "country": "Grèce",
+   "lat": 36.4,
+   "lon": 25.483334,
+   "airlines": [
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "QSF",
+   "city_code": "QSF",
+   "city": "Sétif",
+   "airport": "Setif",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 36.18139,
+   "lon": 5.331111,
+   "airlines": [
+    "Air Algérie",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "SVQ",
+   "city_code": "SVQ",
+   "city": "Séville",
+   "airport": "Sevilla",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 37.423477,
+   "lon": -5.900136,
+   "airlines": [
+    "easyJet",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "SKP",
+   "city_code": "SKP",
+   "city": "Skopje",
+   "airport": "Skopje",
+   "country_code": "MK",
+   "country": "Macédoine du Nord",
+   "lat": 41.95649,
+   "lon": 21.62872,
+   "airlines": [
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "SOF",
+   "city_code": "SOF",
+   "city": "Sofia",
+   "airport": "Sofia",
+   "country_code": "BG",
+   "country": "Bulgarie",
+   "lat": 42.688343,
+   "lon": 23.41443,
+   "airlines": [
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "SPU",
+   "city_code": "SPU",
+   "city": "Split",
+   "airport": "Split",
+   "country_code": "HR",
+   "country": "Croatie",
+   "lat": 43.536526,
+   "lon": 16.29946,
+   "airlines": [
+    "Croatia Airlines",
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "ARN",
+   "city_code": "STO",
+   "city": "Stockholm",
+   "airport": "Arlanda",
+   "country_code": "SE",
+   "country": "Suède",
+   "lat": 59.64982,
+   "lon": 17.930365,
+   "airlines": [
+    "Norwegian Air Shuttle",
+    "Transavia"
+   ],
+   "seasonal": true
+  },
+  {
+   "code": "SXB",
+   "city_code": "SXB",
+   "city": "Strasbourg",
+   "airport": "Entzheim",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 48.544876,
+   "lon": 7.627674,
+   "airlines": [
+    "Twin Jet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TNG",
+   "city_code": "TNG",
+   "city": "Tanger",
+   "airport": "Boukhalef",
+   "country_code": "MA",
+   "country": "Maroc",
+   "lat": 35.726288,
+   "lon": -5.912898,
+   "airlines": [
+    "Air Arabia",
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TLV",
+   "city_code": "TLV",
+   "city": "Tel Aviv",
+   "airport": "Ben Gurion Intl",
+   "country_code": "IL",
+   "country": "Israël",
+   "lat": 32.000454,
+   "lon": 34.870743,
+   "airlines": [
+    "Sundor",
+    "Transavia"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TFS",
+   "city_code": "TCI",
+   "city": "Tenerife",
+   "airport": "Sur Reina Sofia",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 28.044443,
+   "lon": -16.5725,
+   "airlines": [
+    "easyJet",
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TIA",
+   "city_code": "TIA",
+   "city": "Tirana",
+   "airport": "Rinas",
+   "country_code": "AL",
+   "country": "Albanie",
+   "lat": 41.419132,
+   "lon": 19.71328,
+   "airlines": [
+    "Transavia",
+    "Wizz Air"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TLM",
+   "city_code": "TLM",
+   "city": "Tlemcen",
+   "airport": "Zenata",
+   "country_code": "DZ",
+   "country": "Algérie",
+   "lat": 35.016666,
+   "lon": -1.45,
+   "airlines": [
+    "Air Algérie"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TLS",
+   "city_code": "TLS",
+   "city": "Toulouse",
+   "airport": "Blagnac",
+   "country_code": "FR",
+   "country": "France",
+   "lat": 43.63007,
+   "lon": 1.374321,
+   "airlines": [
+    "Air France",
+    "easyJet"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "TUN",
+   "city_code": "TUN",
+   "city": "Tunis",
+   "airport": "Carthage",
+   "country_code": "TN",
+   "country": "Tunisie",
+   "lat": 36.847622,
+   "lon": 10.21709,
+   "airlines": [
+    "Nouvelair",
+    "Transavia",
+    "Tunisair"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "VLC",
+   "city_code": "VLC",
+   "city": "Valence",
+   "airport": "Valencia",
+   "country_code": "ES",
+   "country": "Espagne",
+   "lat": 39.49179,
+   "lon": -0.473475,
+   "airlines": [
+    "Transavia",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "WAW",
+   "city_code": "WAW",
+   "city": "Varsovie",
+   "airport": "Frederic Chopin & other airports",
+   "country_code": "PL",
+   "country": "Pologne",
+   "lat": 52.170906,
+   "lon": 20.97329,
+   "airlines": [
+    "LOT Polish Airlines"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "VCE",
+   "city_code": "VCE",
+   "city": "Venise",
+   "airport": "Marco Polo",
+   "country_code": "IT",
+   "country": "Italie",
+   "lat": 45.502285,
+   "lon": 12.337947,
+   "airlines": [
+    "easyJet",
+    "Volotea"
+   ],
+   "seasonal": false
+  },
+  {
+   "code": "VIE",
+   "city_code": "VIE",
+   "city": "Vienne",
+   "airport": "Vienna International",
+   "country_code": "AT",
+   "country": "Autriche",
+   "lat": 48.11972,
+   "lon": 16.563583,
+   "airlines": [
+    "Austrian Airlines"
+   ],
+   "seasonal": false
+  }
+ ]
+}

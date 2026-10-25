@@ -51,6 +51,8 @@ const CITY_NAMES = {
   FEZ: 'Fès',
   FNC: 'Funchal (Madère)',
   PMI: 'Palma de Majorque',
+  BDS: 'Brindisi', SID: 'Sal (Cap-Vert)', JTR: 'Santorin', RUN: 'Saint-Denis (La Réunion)', EDI: 'Édimbourg',
+  CLJ: 'Cluj-Napoca', PRN: 'Pristina', KIV: 'Chișinău',
 };
 
 // ---------------------------------------------------------------------------
