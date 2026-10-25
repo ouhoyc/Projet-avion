@@ -295,6 +295,12 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
   obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
   (8 €) et Tirana (4 €), comme le prix de l'activité du club local.
+- ✅ (25/10/2026) **Dates fixes ou flexibles** : les clients croyaient donner leurs dates exactes alors que le site les
+  prenait pour une période (Barcelone du 13 au 15 pour « 13 → 16 »). Choix du propriétaire (options A + B) : le
+  calendrier demande « J'ai mes dates » ou « Je suis flexible » ; avec des dates fixes, on montre les vols à ces dates
+  et on suggère moins cher à 1-2 jours près, sans l'imposer.
+- 💡 (25/10/2026) **Parcours guidé à l'arrivée** demandé par le propriétaire : 1. dates ou période, 2. durée (si dates
+  flexibles), 3. voyageurs, 4. budget (facultatif), 5. une idée de lieu (facultatif). Maquette à montrer avant de coder.
 - ✅ (25/10/2026) Encadré « À savoir avant de partir » en **fond rouge, texte blanc** (demande du propriétaire : l'orange
   pâle ne se remarquait pas). Koutaïssi : « assurance voyage » précisé (la carte Vitale ne marche pas en Géorgie).
 - ✅ (25/10/2026) **Page guide de Koutaïssi** (`guides/KUT.json`, champ `ville` : pas de vol en ce moment), préparée en

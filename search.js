@@ -10,6 +10,8 @@
 // Utilise les fonctions communes d'app.js (formatDay, fmtPrice, flag, showOnMap…).
 
 const NIGHTS_SPREAD = 2;     // suggestions : jusqu'à 2 nuits de moins / de plus que la durée choisie
+const NEAR_DAYS = 2;         // dates fixes : on suggère moins cher en partant / rentrant jusqu'à 2 jours avant ou après
+const MIN_SAVING = 5;        // dates fixes : suggestion seulement si elle fait gagner au moins 5 € par personne
 const MAX_DATE_OPTIONS = 8;  // dates proposées pour une destination précise
 const PAGE_SIZE = 10;        // villes affichées avant « Voir plus »
 const MONTHS_AHEAD = 12;     // barre des mois : mois en cours + 11 suivants
@@ -107,6 +109,7 @@ function setupSearchForm() {
       }
       return;
     }
+    if (e.target.closest('[data-open-cal]')) { closeFilters(); $('s-when').click(); return; }
     if (e.target.closest('[data-filter-close]') || e.target.matches('.filter-sheet')) closeFilters();
   });
   sEls.budget.addEventListener('change', () => {
@@ -319,13 +322,12 @@ const STAY_NIGHTS = { '1-1': '1 nuit', '2-4': '2 à 4 nuits', '5-8': '5 à 8 nui
 
 // Aide sous les dates et la durée : on cherche le vol le moins cher DANS la période, pour la
 // durée choisie. Avant le choix : encadré sous la durée ; après : phrase récap avant le bouton.
-// Case « dates exactes » cochée : aller le 1er jour, retour le dernier, la durée disparaît.
+// « J'ai mes dates » (calendrier) : aller et retour fixes, la durée disparaît.
 function updateFormHelp() {
   const roundTrip = tripType() === 'rt';
   const from = sEls.from.value;
   const to = sEls.to.value;
   const range = Boolean(from && to && from !== to);
-  $('s-exact-field').hidden = !(roundTrip && range);
   const exact = exactDates();
   sEls.stay.hidden = !roundTrip || exact;
 
@@ -333,7 +335,8 @@ function updateFormHelp() {
   recap.hidden = !exact;
   if (exact) {
     const nights = nightsBetween(from, to);
-    recap.innerHTML = `<svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Aller ${escapeHtml(formatDayShortWeek(from))} · Retour ${escapeHtml(formatDayShortWeek(to))}<small>${nights} nuit${nights > 1 ? 's' : ''} sur place</small>`;
+    recap.innerHTML = `<p><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Aller ${escapeHtml(formatDayShortWeek(from))} · Retour ${escapeHtml(formatDayShortWeek(to))}<small>${nights} nuit${nights > 1 ? 's' : ''} sur place : la durée vient de vos dates.</small></p>
+      <button type="button" class="btn btn-text" data-open-cal>Changer mes dates</button>`;
   }
 
   // Même mois : « 2 » et « 7 nov. » ; sinon « 30 nov. » et « 4 déc. »
@@ -352,7 +355,8 @@ function updateFormHelp() {
 // Texte des pastilles : ce qui est choisi, ou le nom du filtre. Une pastille réglée passe en foncé.
 function updatePills() {
   const ow = tripType() === 'ow';
-  $('p-stay').textContent = ow ? 'Aller simple' : exactDates() ? 'Dates exactes' : STAY_NIGHTS[stayValue()] || 'Durée\u00a0?';
+  const n = exactDates() ? nightsBetween(sEls.from.value, sEls.to.value) : 0;
+  $('p-stay').textContent = ow ? 'Aller simple' : n ? `${n} nuit${n > 1 ? 's' : ''}` : STAY_NIGHTS[stayValue()] || 'Durée\u00a0?';
   const budget = Number(sEls.budget.value);
   $('p-budget').textContent = budget ? `${fmtPrice.format(budget)} max` : 'Budget';
   // Pastille : le nom seul (« Barcelone », « Italie »), le pays est dans le panneau.
@@ -367,7 +371,7 @@ function updatePills() {
 // « Tout remettre à zéro » : dates, durée, voyageurs (1 adulte), budget, lieu, mois et tri.
 function resetFilters() {
   sEls.from.value = sEls.to.value = '';
-  sEls.exact.checked = false;
+  sEls.exact.checked = true;
   for (const r of sEls.form.querySelectorAll('input[name="stay"]')) r.checked = false;
   sEls.budget.value = '';
   sEls.country.value = sEls.city.value = '';
@@ -386,9 +390,11 @@ function closeFilters() {
   for (const d of sEls.form.querySelectorAll('.filter-sheet[open]')) d.close();
 }
 
-// Case cochée et visible (aller-retour avec une vraie période).
+// « J'ai mes dates » : aller-retour avec un jour d'aller et un jour de retour différents.
 function exactDates() {
-  return sEls.exact.checked && !$('s-exact-field').hidden;
+  const from = sEls.from.value;
+  const to = sEls.to.value;
+  return sEls.exact.checked && tripType() === 'rt' && Boolean(from && to && from < to);
 }
 
 function readyToSearch() {
@@ -574,6 +580,7 @@ function renderMonths() {
 
 // Toutes les options d'une ville (tous aéroports confondus), triées par prix.
 function searchCity(airports, daily, q) {
+  if (q.exact) return searchCityExact(airports, daily, q);
   const wanted = [];   // durée choisie (ou aller simple)
   const others = [];   // durées voisines, pour les suggestions
   for (const dest of airports) {
@@ -605,6 +612,54 @@ function searchCity(airports, daily, q) {
 
   const dest = airports.find((a) => a.code === reference.code) || airports[0];
   return { dest, airports, options: [...main, ...alternatives], mainCount: main.length, selected: 0, exactNights: true };
+}
+
+// Dates fixes : le vol à vos dates, et une suggestion s'il y a moins cher en partant ou en
+// rentrant jusqu'à 2 jours avant ou après. Sans prix à vos dates : le plus proche moins cher
+// (la ville passe alors après celles qui ont un vol à vos dates).
+function searchCityExact(airports, daily, q) {
+  const today = isoDay(new Date());
+  const exact = [];
+  const near = [];
+  for (const dest of airports) {
+    const prices = daily.dests[dest.code];
+    for (let a = -NEAR_DAYS; a <= NEAR_DAYS; a++) {
+      const day = isoDay(addDays(parseDay(q.start), a));
+      const outInfo = prices.o[day];
+      if (!outInfo || day < today) continue;
+      for (let b = -NEAR_DAYS; b <= NEAR_DAYS; b++) {
+        const back = isoDay(addDays(parseDay(q.end), b));
+        const retInfo = prices.r[back];
+        if (!retInfo || back <= day) continue;
+        const c = { total: outInfo[0] + retInfo[0], nights: nightsBetween(day, back), out: leg(day, outInfo), ret: leg(back, retInfo), code: dest.code, gap: Math.abs(a) + Math.abs(b) };
+        if (c.total * seats() > q.budget) continue;
+        if (a === 0 && b === 0) exact.push(c);
+        else if (Math.abs(c.nights - q.minN) <= 1) near.push(c); // 1 nuit d'écart au plus : 3 nuits voulues → 2 à 4
+      }
+    }
+  }
+  exact.sort((x, y) => x.total - y.total);
+  near.sort((x, y) => x.total - y.total);
+  let options;
+  if (exact.length) {
+    options = [exact[0]];
+    if (near.length && near[0].total <= exact[0].total - MIN_SAVING) options.push(near[0]);
+  } else if (near.length) {
+    // Pas de prix à vos dates : les dates les plus proches d'abord, puis le moins cher.
+    near.sort((x, y) => x.gap - y.gap || x.total - y.total);
+    options = [near[0]];
+  }
+  else return null;
+  const dest = airports.find((x) => x.code === options[0].code) || airports[0];
+  return { dest, airports, options, mainCount: 1, selected: 0, exactNights: true, noExact: !exact.length, exactMode: true };
+}
+
+// Écart entre une option et les dates demandées : « départ 1 jour plus tôt, retour 2 jours plus tard ».
+function dateGap(o, q) {
+  const words = (n) => `${Math.abs(n)} jour${Math.abs(n) > 1 ? 's' : ''} plus ${n < 0 ? 'tôt' : 'tard'}`;
+  const a = nightsBetween(q.start, o.out.day);
+  const b = nightsBetween(q.end, o.ret.day);
+  return [a ? `départ ${words(a)}` : '', b ? `retour ${words(b)}` : ''].filter(Boolean).join(', ');
 }
 
 // Aller simple : chaque jour de départ dans la période.
@@ -651,10 +706,12 @@ function applyView(fitMap) {
     date: (a, b) => bestOf(results[a]).out.day.localeCompare(bestOf(results[b]).out.day),
     city: (a, b) => results[a].dest.city.localeCompare(results[b].dest.city, 'fr'),
   };
+  const sorter = sorters[sEls.sort.value] || sorters.price;
+  // Dates fixes : les villes qui ont un vol à vos dates d'abord, puis celles à 1-2 jours près.
   searchState.view = results
     .map((_, i) => i)
     .filter((i) => !country || results[i].dest.country === country)
-    .sort(sorters[sEls.sort.value] || sorters.price);
+    .sort((a, b) => (results[a].noExact ? 1 : 0) - (results[b].noExact ? 1 : 0) || sorter(a, b));
   renderResults();
   updateMap(fitMap || searchState.firstMap);
   searchState.firstMap = false;
@@ -683,7 +740,7 @@ function renderResults() {
         <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
         <p>Aucun vol direct${roundTrip ? ' aller-retour' : ''} repéré (${escapeHtml(describeQuery(q))}).</p>
         <p class="hint">${q.exact
-          ? 'Aucun prix repéré pour ces deux jours précis. Décochez « Partir et revenir à ces dates exactes » pour chercher le meilleur départ et retour dans toute la période.'
+          ? 'Aucun prix repéré à vos dates, ni à 1 ou 2 jours près. Touchez vos dates et choisissez « Je suis flexible » pour chercher le moins cher sur une période plus large.'
           : q.month
           ? 'Aucun prix repéré ce mois-ci. Ces prix viennent des recherches récentes des voyageurs : au-delà de 2-3 mois, il y en a peu. Essayez un autre mois.'
           : 'Élargissez la période, le budget ou changez la durée : ces prix viennent des recherches récentes des voyageurs, certains jours n\'en ont pas.'}</p>
@@ -804,8 +861,9 @@ function cityCardHtml(city, index) {
         <p class="card-sub">${escapeHtml(dest.country)}${multiAirport ? ` · ${city.airports.length} aéroports` : ''} · <span class="card-route">${escapeHtml(data.origin.code)} <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg> ${escapeHtml(best.code)}</span></p>
         ${factsHtml(dest, best.out.day, best.out.duration, false)}
         <ul class="tc-inc" aria-label="Compris dans le séjour"><li><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg> Vol</li><li><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg> Activités</li><li><svg class="icon" aria-hidden="true"><use href="#i-utensils"/></svg> Restos</li><li><svg class="icon" aria-hidden="true"><use href="#i-bed"/></svg> Hôtel</li></ul>
+        ${city.exactMode ? exactTagHtml(city, q) : ''}
         ${mainOptions.map((o) => tripOptionHtml(o, city, roundTrip)).join('')}
-        ${chips.length ? `
+        ${city.exactMode ? exactSuggestHtml(city, index, q) : chips.length ? `
           <div class="chips-alt">
             <span class="alt-title">${city.exactNights && chips.every(({ o }) => o.total < best.total) ? 'Moins cher :' : 'Autres durées :'}</span>
             ${chips.map(({ o, i }) => `
@@ -815,6 +873,25 @@ function cityCardHtml(city, index) {
           </div>` : ''}
       </div>
     </li>`;
+}
+
+// Dates fixes : « Vos dates » (vert) ou « Pas tout à fait vos dates : retour 1 jour plus tôt » (jaune).
+function exactTagHtml(city, q) {
+  const o = bestOf(city);
+  if (!city.noExact && city.selected === 0) return '<p class="tc-tag is-ok"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Vos dates</p>';
+  const gap = dateGap(o, q);
+  return `<p class="tc-tag is-near">${city.noExact ? 'Pas de prix repéré à vos dates. Le plus proche : ' : 'Pas tout à fait vos dates : '}${escapeHtml(gap)}</p>`;
+}
+
+// Dates fixes : suggestion moins chère à 1-2 jours près (facultative), ou retour à vos dates.
+function exactSuggestHtml(city, index, q) {
+  if (city.options.length < 2) return '';
+  const [mine, cheaper] = city.options;
+  if (city.selected === 0) {
+    const saving = (mine.total - cheaper.total) * seats();
+    return `<button type="button" class="tc-suggest" data-pick="${index}:1"><svg class="icon" aria-hidden="true"><use href="#i-wallet"/></svg><span><strong>${fmtPrice.format(saving)} de moins</strong> si vous acceptez un ${escapeHtml(dateGap(cheaper, q))} (${escapeHtml(formatDayShortWeek(cheaper.out.day))} → ${escapeHtml(formatDayShortWeek(cheaper.ret.day))}). <u>Voir</u></span></button>`;
+  }
+  return `<button type="button" class="tc-suggest is-back" data-pick="${index}:0"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span>Revenir à vos dates (${escapeHtml(formatDayShortWeek(mine.out.day))} → ${escapeHtml(formatDayShortWeek(mine.ret.day))}, ${fmtGroup(mine.total)})</span></button>`;
 }
 
 // Une option de vol : dates, prix (pour tout le groupe) et « Préparer mon séjour ».
@@ -1082,7 +1159,7 @@ function setupCredits() {
 // Calendrier « Quand ? » (remplace le champ date du navigateur)
 // ---------------------------------------------------------------------------
 const fmtMonthTitle = new Intl.DateTimeFormat('fr-FR', { month: 'long', year: 'numeric' });
-const cal = { start: '', end: '' };
+const cal = { start: '', end: '', mode: 'exact' }; // mode : 'exact' (j'ai mes dates) ou 'flex' (je suis flexible)
 
 function setupCalendar() {
   const dialog = $('cal-sheet');
@@ -1109,20 +1186,32 @@ function setupCalendar() {
 
   $('s-when').addEventListener('click', () => {
     cal.start = sEls.from.value;
-    cal.end = sEls.to.value;
+    cal.end = sEls.to.value === sEls.from.value ? '' : sEls.to.value;
+    cal.mode = sEls.exact.checked ? 'exact' : 'flex';
     paintCalendar();
     dialog.showModal();
     const target = months.querySelector(`[data-day="${cal.start || isoDay(today)}"]`);
     const month = target?.closest('.cal-month');
-    months.scrollTop = month ? month.offsetTop - months.offsetTop : 0; // pas scrollIntoView : il faisait défiler la page sur iPhone
+    months.scrollTop = 0; // pas scrollIntoView : il faisait défiler la page sur iPhone
+    if (month) months.scrollTop = month.getBoundingClientRect().top - months.getBoundingClientRect().top;
   });
 
   months.addEventListener('click', (e) => {
     const day = e.target.closest('.cal-day')?.dataset.day;
     if (!day) return;
     // 1er appui : début ; 2e appui : fin (ou nouveau début si la date est avant).
+    // Dates fixes : le retour ne peut pas être le jour de l'aller.
     if (!cal.start || cal.end || day < cal.start) { cal.start = day; cal.end = ''; }
+    else if (day === cal.start && cal.mode === 'exact') return;
     else cal.end = day;
+    paintCalendar();
+  });
+
+  dialog.querySelector('.cal-mode').addEventListener('click', (e) => {
+    const mode = e.target.closest('[data-cal-mode]')?.dataset.calMode;
+    if (!mode) return;
+    cal.mode = mode;
+    if (mode === 'exact' && cal.end === cal.start) cal.end = '';
     paintCalendar();
   });
 
@@ -1133,6 +1222,8 @@ function setupCalendar() {
   });
 
   function applyCalendar() {
+    if (cal.mode === 'exact' && cal.start && !cal.end) return; // il manque le jour du retour
+    sEls.exact.checked = cal.mode === 'exact';
     sEls.from.value = cal.start;
     sEls.to.value = cal.end || cal.start;
     updateWhenLabel();
@@ -1153,11 +1244,22 @@ function paintCalendar() {
     btn.setAttribute('aria-pressed', d === cal.start || d === cal.end);
   }
   const ok = $('cal-ok');
-  $('cal-help').textContent = !cal.start
-    ? 'Touchez le premier et le dernier jour où vous êtes libre : on cherche les meilleurs départs et retours dans cette période.'
-    : !cal.end ? `À partir du ${formatDayShort(cal.start)} : touchez maintenant le dernier jour où vous êtes libre.`
-    : `Du ${formatDayShort(cal.start)} au ${formatDayShort(cal.end)} : on cherche les meilleurs départs et retours dans cette période.`;
-  ok.textContent = cal.start ? 'Valider' : "N'importe quand";
+  const exact = cal.mode === 'exact';
+  for (const b of document.querySelectorAll('[data-cal-mode]')) b.setAttribute('aria-pressed', b.dataset.calMode === cal.mode);
+  if (exact) {
+    const n = cal.end ? nightsBetween(cal.start, cal.end) : 0;
+    $('cal-help').textContent = !cal.start
+      ? "Touchez votre jour d'aller, puis votre jour de retour."
+      : !cal.end ? `Aller le ${formatDayShort(cal.start)} : touchez maintenant votre jour de retour.`
+      : `Aller ${formatDayShortWeek(cal.start)}, retour ${formatDayShortWeek(cal.end)} (${n} nuit${n > 1 ? 's' : ''}). S'il y a moins cher à 1 ou 2 jours près, on vous le dira.`;
+  } else {
+    $('cal-help').textContent = !cal.start
+      ? 'Touchez le premier et le dernier jour où vous êtes libre : on cherche les meilleurs départs et retours dans cette période.'
+      : !cal.end ? `À partir du ${formatDayShort(cal.start)} : touchez maintenant le dernier jour où vous êtes libre.`
+      : `Du ${formatDayShort(cal.start)} au ${formatDayShort(cal.end)} : on cherche les meilleurs départs et retours dans cette période.`;
+  }
+  ok.disabled = exact && Boolean(cal.start) && !cal.end;
+  ok.textContent = !cal.start ? "N'importe quand" : ok.disabled ? 'Choisissez le retour' : 'Valider';
 }
 
 function updateWhenLabel() {

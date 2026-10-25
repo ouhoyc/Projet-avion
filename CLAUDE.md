@@ -40,6 +40,12 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
     chaque prix (`.tc-pax`) : une testeuse avait choisi la durée puis fait défiler sans voir les
     pastilles du haut. Chaque réglage se touche et ouvre son panneau (`data-recap`).
   - Pastille Voyageurs : « 1 adulte » / « 1 enfant » sur deux lignes sur téléphone (`showPax()`).
+  - **Dates (25/10/2026)** : le calendrier demande d'abord « J'ai mes dates » (par défaut : aller et retour précis, pas
+    de durée à choisir, case cachée `#s-exact`) ou « Je suis flexible » (période + durée, comme avant). Avec des dates
+    fixes, chaque fiche porte « Vos dates » (vert) ; s'il y a moins cher en partant/rentrant jusqu'à 2 jours avant ou
+    après (1 nuit d'écart au plus, 5 € de gain minimum), une suggestion « X € de moins… Voir » (facultative, « Revenir à
+    vos dates ») ; sans prix aux dates, les dates les plus proches avec une étiquette jaune, après les autres villes
+    (`searchCityExact`, `exactTagHtml`, `exactSuggestHtml` dans `search.js`).
   - Filtres en **pastilles** collées en haut (`.search` > `.filters-row`) : Quand (calendrier), Durée
     (panneau `#f-stay` : aller-retour/aller simple, case « dates exactes », nuits), Voyageurs, Budget
     (`#f-budget`), « Une idée ? » (`#f-where`, saisie libre ville ou pays, `setupWhere()`). Texte des
