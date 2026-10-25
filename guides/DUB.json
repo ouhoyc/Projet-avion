@@ -1,0 +1,1837 @@
+{
+ "city_code": "DUB",
+ "statut": "vérifié en autonomie, prix relevés le 25/10/2026",
+ "verifie_le": "2026-10-25",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "trinity-kells",
+   "nom": "Trinity College et le Livre de Kells",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Trinity College",
+   "lat": 53.3439,
+   "lng": -6.2565,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Book of Kells Experience (Old Library + exposition)",
+     "à partir de 25 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Billet Old Library seule (sans l'exposition)",
+     "à partir de 19 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      12
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant, en ligne (entrée à heure fixe ; complet des jours à l'avance l'été)",
+   "duree": "1 h 30",
+   "moment": "Au premier créneau du matin ou en fin de journée, quand les groupes sont partis",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un manuscrit de l'an 800 aux enluminures d'une finesse folle, puis la Long Room : 65 mètres de bibliothèque en bois sombre sous une voûte en berceau, bordée de bustes de marbre. La salle de lecture la plus photographiée d'Irlande, au cœur d'un campus du XVIe siècle.",
+   "site_officiel": "https://www.visittrinity.ie/book-of-kells-experience/",
+   "note": "La Long Room est en cours de restauration : une partie des livres a été retirée des rayonnages, mais la salle reste spectaculaire. Le campus lui-même est libre d'accès.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALong_Room_Interior%2C_Trinity_College_Dublin%2C_Ireland_-_Diliff.jpg",
+    "src": "img/activites/DUB/trinity-kells.jpg"
+   }
+  },
+  {
+   "id": "guinness",
+   "nom": "Guinness Storehouse",
+   "emoji": "🍺",
+   "type": "culture",
+   "quartier": "The Liberties",
+   "lat": 53.341933,
+   "lng": -6.28673,
+   "prix": 28,
+   "prix_detail": [
+    [
+     "Adulte (pinte comprise au Gravity Bar)",
+     "26 à 36 € selon le jour"
+    ],
+    [
+     "5 à 17 ans",
+     "10 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 28,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      10
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (moins cher en semaine et tôt le matin)",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, pour finir au Gravity Bar au coucher du soleil",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "partenaire": "tiqets",
+   "texte": "Sept étages en forme de pinte géante dans la brasserie de Saint James's Gate, où la Guinness est brassée depuis 1759. On apprend à servir la pinte parfaite, puis on la boit au Gravity Bar, la terrasse vitrée à 360° qui domine tout Dublin.",
+   "site_officiel": "https://www.guinness-storehouse.com/",
+   "note": "Les prix changent selon le jour et l'heure : les créneaux du matin en semaine sont les moins chers. Les mineurs reçoivent une boisson sans alcool.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dieglop",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADublin_-_Guinness_Storehouse_-_20160507155342.jpg",
+    "src": "img/activites/DUB/guinness.jpg"
+   }
+  },
+  {
+   "id": "temple-bar",
+   "nom": "Temple Bar et les quais de la Liffey",
+   "emoji": "🍀",
+   "type": "balade",
+   "quartier": "Temple Bar",
+   "lat": 53.345479,
+   "lng": -6.264073,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, puis à la nuit tombée quand les façades s'allument",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Ruelles pavées, façades rouges et vertes couvertes de fleurs, musiciens à chaque coin de rue : le quartier le plus festif de Dublin. Traversez la Liffey par le Ha'penny Bridge, le pont de fonte blanc de 1816, pour la photo carte postale.",
+   "site_officiel": "https://www.visitdublin.com/temple-bar",
+   "note": "Les pubs de Temple Bar sont parmi les plus chers de la ville (pinte à 8-9 €) : pour la musique traditionnelle, préférez le Cobblestone ou les pubs de Baggot Street.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jo and Steve Turner",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Temple_Bar%2C_48_Temple_Bar%2C_Dublin_-_geograph.org.uk_-_6402302.jpg",
+    "src": "img/activites/DUB/temple-bar.jpg"
+   }
+  },
+  {
+   "id": "kilmainham",
+   "nom": "Prison de Kilmainham",
+   "emoji": "⛓️",
+   "type": "culture",
+   "quartier": "Kilmainham",
+   "lat": 53.341691,
+   "lng": -6.309565,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Adulte (visite guidée)",
+     "8 €"
+    ],
+    [
+     "12 à 17 ans",
+     "4 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit (billet obligatoire)"
+    ],
+    [
+     "Famille (2 adultes + 2-3 ados)",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      11,
+      0
+     ],
+     [
+      17,
+      4
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "le plus tôt possible, souvent plusieurs semaines avant : complet presque tous les jours, aucun billet vendu sur place",
+   "duree": "1 h 30",
+   "moment": "Le matin ; la visite se fait en partie dehors, habillez-vous selon la météo",
+   "enfants": true,
+   "texte": "La prison où furent fusillés les meneurs de l'insurrection de 1916 : toute l'histoire de l'indépendance irlandaise racontée dans les cellules et la cour des exécutions. Le hall victorien de l'aile est, sous sa verrière, a servi de décor à de nombreux films.",
+   "site_officiel": "https://heritageireland.ie/places-to-visit/kilmainham-gaol/",
+   "note": "Achetez uniquement sur le site officiel (kilmainhamgaolmuseum.ie) : les billets revendus par d'autres sites sont refusés à l'entrée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Velvet",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADublin_kilmainham_gaol_cells_hall.JPG",
+    "src": "img/activites/DUB/kilmainham.jpg"
+   }
+  },
+  {
+   "id": "epic",
+   "nom": "EPIC, musée de l'émigration irlandaise",
+   "emoji": "🧳",
+   "type": "culture",
+   "quartier": "Docklands",
+   "lat": 53.348265,
+   "lng": -6.247979,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     "22 €"
+    ],
+    [
+     "Enfant",
+     "11 €"
+    ],
+    [
+     "Combiné avec le trois-mâts Jeanie Johnston",
+     "à partir de 34 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      17,
+      11
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille ou le jour même (tarif en ligne moins cher)",
+   "duree": "1 h 30",
+   "moment": "Par temps de pluie, à tout moment",
+   "enfants": true,
+   "partenaire": "tiqets",
+   "texte": "Dix millions d'Irlandais ont quitté leur île : ce musée interactif raconte leur aventure, de la grande famine aux présidents américains, en passant par la musique, le sport et la littérature. Élu plusieurs fois meilleure attraction touristique d'Europe.",
+   "site_officiel": "https://epicchq.com/",
+   "note": "Dans les voûtes de l'ancien entrepôt CHQ, sur les quais : le trois-mâts Jeanie Johnston, réplique d'un navire de la famine, est amarré juste devant.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Eleanor Milano",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEPIC_Irish_Emigration_Museum_Dublin.jpg",
+    "src": "img/activites/DUB/epic.jpg"
+   }
+  },
+  {
+   "id": "st-patricks",
+   "nom": "Cathédrale Saint-Patrick",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "The Liberties",
+   "lat": 53.339564,
+   "lng": -6.271476,
+   "prix": 11.5,
+   "prix_detail": [
+    [
+     "Adulte (audioguide en français compris)",
+     "11,50 €"
+    ],
+    [
+     "6 à 12 ans",
+     "5,50 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Combiné avec la bibliothèque Marsh",
+     "17 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11.5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      12,
+      5.5
+     ],
+     [
+      17,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place ou en ligne le jour même",
+   "duree": "1 h",
+   "moment": "En semaine ; ouverture réduite le dimanche pendant les offices",
+   "enfants": true,
+   "partenaire": "tiqets",
+   "texte": "La plus grande église d'Irlande, bâtie en 1191 à l'endroit où saint Patrick aurait baptisé les premiers chrétiens. Bannières de chevaliers, sol de céramique coloré et tombe de Jonathan Swift, l'auteur des Voyages de Gulliver, qui en fut le doyen.",
+   "site_officiel": "https://www.stpatrickscathedral.ie/",
+   "note": "Le jardin devant la cathédrale est libre d'accès et se prête au pique-nique. La bibliothèque Marsh, juste derrière, est la plus ancienne bibliothèque publique d'Irlande.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rene Cortin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASt-Patrick_Cathedral%2C_Dublin%2C_Ireland.jpg",
+    "src": "img/activites/DUB/st-patricks.jpg"
+   }
+  },
+  {
+   "id": "christ-church",
+   "nom": "Cathédrale Christ Church",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 53.343408,
+   "lng": -6.271203,
+   "prix": 11.5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "11,50 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "3,50 €"
+    ],
+    [
+     "Étudiants et seniors",
+     "9,50 €"
+    ],
+    [
+     "Famille (2 adultes + 2 enfants)",
+     "26 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11.5,
+    "enfants": [
+     [
+      11,
+      3.5
+     ],
+     [
+      17,
+      9.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée",
+   "duree": "1 h",
+   "moment": "L'après-midi, en combinant avec Saint-Patrick à 5 minutes à pied",
+   "enfants": true,
+   "texte": "La cathédrale médiévale des Vikings convertis, fondée vers 1030. Sous la nef, l'immense crypte du XIIe siècle abrite des trésors inattendus, dont un chat et un rat momifiés, restés coincés dans un tuyau d'orgue il y a 150 ans.",
+   "site_officiel": "https://christchurchcathedral.ie/",
+   "note": "Le pont couvert qui relie la cathédrale à Dublinia, le musée des Vikings, est l'une des photos classiques de la vieille ville.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ingo Mehling",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChrist_Church_Cathedral_%28Dublin%29.jpg",
+    "src": "img/activites/DUB/christ-church.jpg"
+   }
+  },
+  {
+   "id": "national-museum",
+   "nom": "Musée national d'archéologie",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Kildare Street",
+   "lat": 53.340235,
+   "lng": -6.254964,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le matin du mardi au samedi (dimanche et lundi : l'après-midi seulement)",
+   "enfants": true,
+   "texte": "L'or des Celtes, la broche de Tara et surtout les hommes des tourbières : des corps de l'âge du fer conservés 2 000 ans dans les marais, cheveux et ongles compris. Une rotonde victorienne magnifique, et l'entrée est gratuite.",
+   "site_officiel": "https://www.museum.ie/en-IE/Museums/Archaeology",
+   "note": "Le musée d'histoire naturelle (« Dead Zoo »), tout proche, est fermé pour rénovation.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AInterior_of_the_National_Museum_of_Ireland-Archaeology%2C_Dublin%2C_Ireland.jpg",
+    "src": "img/activites/DUB/national-museum.jpg"
+   }
+  },
+  {
+   "id": "national-gallery",
+   "nom": "National Gallery of Ireland",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Merrion Square",
+   "lat": 53.341121,
+   "lng": -6.252667,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Collection permanente",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "souvent payantes"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En matinée, ou le jeudi soir (ouverture prolongée)",
+   "enfants": true,
+   "texte": "Le Caravage (L'Arrestation du Christ, retrouvée par hasard chez des jésuites de Dublin en 1990), Vermeer, Monet et toute une salle consacrée à Jack B. Yeats, le peintre de l'Irlande. Gratuit, lumineux, jamais bondé.",
+   "site_officiel": "https://www.nationalgallery.ie/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Thoslee",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANational_Gallery_of_Ireland%2C_Dublin.jpeg",
+    "src": "img/activites/DUB/national-gallery.jpg"
+   }
+  },
+  {
+   "id": "little-museum",
+   "nom": "Little Museum of Dublin",
+   "emoji": "🎙️",
+   "type": "culture",
+   "quartier": "St Stephen's Green",
+   "lat": 53.339539,
+   "lng": -6.258395,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Adulte (visite guidée)",
+     "18 €"
+    ],
+    [
+     "Étudiants et seniors",
+     "16 €"
+    ],
+    [
+     "Famille (2 adultes + 3 enfants)",
+     "45 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      17,
+      16
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant : les visites de 29 minutes affichent souvent complet",
+   "duree": "45 min",
+   "moment": "Toute la journée (9 h 30 – 17 h)",
+   "enfants": true,
+   "partenaire": "tiqets",
+   "texte": "Un siècle de vie dublinoise dans une maison géorgienne de St Stephen's Green, raconté par des guides qui tiennent plus du comédien que du conférencier : de la visite de la reine Victoria au triomphe de U2. Drôle, chaleureux et parfait pour comprendre la ville le premier jour.",
+   "site_officiel": "https://littlemuseum.ie/",
+   "note": "Entrée uniquement en visite guidée (en anglais).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "The Little Museum of Dublin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AInside_the_Little_Museum_-_ground_floor_view_1.jpg",
+    "src": "img/activites/DUB/little-museum.jpg"
+   }
+  },
+  {
+   "id": "henrietta-street",
+   "nom": "14 Henrietta Street",
+   "emoji": "🏚️",
+   "type": "culture",
+   "quartier": "North Inner City",
+   "lat": 53.352349,
+   "lng": -6.270154,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte (visite guidée)",
+     "12 €"
+    ],
+    [
+     "5 à 17 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + 3 enfants)",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (petits groupes, visites à heure fixe)",
+   "duree": "1 h 15",
+   "moment": "Du mercredi au dimanche, départ toutes les heures de 10 h à 16 h",
+   "enfants": true,
+   "texte": "La même maison, deux vies : palais d'un aristocrate en 1750, puis taudis où s'entassaient cent personnes jusqu'en 1979. La visite, primée, fait revivre les familles qui y ont grandi, dans une rue pavée intacte qui a servi de décor à bien des films.",
+   "site_officiel": "https://14henriettastreet.ie/",
+   "note": "Fermé le lundi et le mardi.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "William Murphy",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHenrietta_Street%2C_Dublin_D1.jpg",
+    "src": "img/activites/DUB/henrietta-street.jpg"
+   }
+  },
+  {
+   "id": "moli",
+   "nom": "MoLI, musée de la littérature",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "St Stephen's Green",
+   "lat": 53.33679,
+   "lng": -6.260422,
+   "prix": 16.5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "16,50 €"
+    ],
+    [
+     "Visite guidée",
+     "18 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16.5,
+    "enfants": [
+     [
+      17,
+      12
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place ou en ligne le jour même",
+   "duree": "1 h 30",
+   "moment": "L'après-midi, avec une pause au café du jardin",
+   "enfants": false,
+   "partenaire": "tiqets",
+   "texte": "Joyce, Wilde, Beckett, Yeats : quatre prix Nobel et une ville entière racontée par ses écrivains, dans un somptueux hôtel particulier géorgien. On y voit l'exemplaire n° 1 d'Ulysse, et le jardin caché derrière la maison est l'un des plus beaux secrets de Dublin.",
+   "site_officiel": "https://moli.ie/",
+   "note": "Le jardin de MoLI donne sur les Iveagh Gardens, un parc paisible que peu de visiteurs connaissent.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "XeresNelro",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A596_Literary_Museum%2C_Dublin.jpg",
+    "src": "img/activites/DUB/moli.jpg"
+   }
+  },
+  {
+   "id": "jameson",
+   "nom": "Distillerie Jameson de Bow Street",
+   "emoji": "🥃",
+   "type": "culture",
+   "quartier": "Smithfield",
+   "lat": 53.3483,
+   "lng": -6.2771,
+   "prix": 26,
+   "prix_detail": [
+    [
+     "Visite guidée + dégustation de 3 whiskeys",
+     "à partir de 26 €"
+    ],
+    [
+     "12 à 17 ans",
+     "12 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ],
+    [
+     "Version sans alcool",
+     "15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 26,
+    "enfants": [
+     [
+      11,
+      0
+     ],
+     [
+      17,
+      12
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant (prix variables selon le créneau)",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, puis un verre au bar de la distillerie",
+   "enfants": true,
+   "texte": "L'ancienne distillerie Jameson de 1780 : on y découvre comment le whiskey irlandais est distillé trois fois, avant une dégustation comparée avec un whisky écossais et un bourbon. Le bar, sous les poutres de l'ancienne usine, est l'un des plus beaux de Dublin.",
+   "site_officiel": "https://www.jamesonwhiskey.com/en-ie/visit-us/jameson-distillery-bow-st/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Peter Beaven",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStills_inside_the_Old_Jameson_Distillery%2C_Dublin_-_geograph.org.uk_-_340321.jpg",
+    "src": "img/activites/DUB/jameson.jpg"
+   }
+  },
+  {
+   "id": "teeling",
+   "nom": "Distillerie Teeling",
+   "emoji": "🥃",
+   "type": "culture",
+   "quartier": "The Liberties",
+   "lat": 53.337626,
+   "lng": -6.277099,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Visite + whiskey et cocktail",
+     "22 €"
+    ],
+    [
+     "Visite + 3 whiskeys",
+     "26 €"
+    ],
+    [
+     "10 à 17 ans",
+     "≈ 10 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      17,
+      10
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou quelques jours avant (départ toutes les 20 minutes)",
+   "duree": "50 min",
+   "moment": "L'après-midi, entre la Guinness et Saint-Patrick",
+   "enfants": true,
+   "partenaire": "tiqets",
+   "texte": "La première distillerie ouverte à Dublin depuis 125 ans, en 2015, au cœur du vieux quartier des brasseurs. Alambics de cuivre en pleine activité, visite vivante et dégustation au Bang Bang Bar : la version moderne et plus intime de la Jameson.",
+   "site_officiel": "https://teelingdistillery.com/",
+   "note": "Faites l'une ou l'autre distillerie, pas les deux : la Jameson pour l'histoire, la Teeling pour voir le whiskey fabriqué sous vos yeux.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FA Shooter",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATeeling_distillery_Dublin.jpg",
+    "src": "img/activites/DUB/teeling.jpg"
+   }
+  },
+  {
+   "id": "stephens-green",
+   "nom": "St Stephen's Green et Grafton Street",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "St Stephen's Green",
+   "lat": 53.338052,
+   "lng": -6.259023,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "À la mi-journée ; les musiciens de Grafton Street jouent surtout l'après-midi",
+   "enfants": true,
+   "texte": "Un jardin victorien de 9 hectares avec son lac, ses cygnes et ses pelouses où tout Dublin déjeune au soleil. Il ouvre sur Grafton Street, la rue piétonne des musiciens de rue (Ed Sheeran et Glen Hansard y ont chanté), qui descend jusqu'à Trinity College.",
+   "site_officiel": "https://ststephensgreenpark.ie/",
+   "note": "Faites un détour par le Powerscourt Centre, galerie marchande dans un hôtel particulier de 1774, et par la statue de Molly Malone au bas de la rue.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ESC0601",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVue_du_lac_du_parc_St_Stephen%27s_Green.jpg",
+    "src": "img/activites/DUB/stephens-green.jpg"
+   }
+  },
+  {
+   "id": "merrion-square",
+   "nom": "Merrion Square et les portes géorgiennes",
+   "emoji": "🚪",
+   "type": "balade",
+   "quartier": "Merrion Square",
+   "lat": 53.339676,
+   "lng": -6.249174,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de matinée, avant la National Gallery voisine",
+   "enfants": true,
+   "texte": "Les fameuses portes de Dublin : rouges, jaunes, vertes ou bleues, toutes surmontées d'une imposte en éventail, alignées sur des façades de brique du XVIIIe siècle. Au coin du square, Oscar Wilde, en marbre de jade, vous attend allongé sur son rocher, face à la maison de son enfance.",
+   "site_officiel": "https://www.dublincity.ie/residential/parks/dublin-city-parks/visit-park/merrion-square-park",
+   "note": "Le dimanche, des peintres exposent leurs toiles le long des grilles du parc.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Frank Kovalchek",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGeorgian_doors_in_Dublin_%288339103894%29.jpg",
+    "src": "img/activites/DUB/merrion-square.jpg"
+   }
+  },
+  {
+   "id": "phoenix-park",
+   "nom": "Phoenix Park et ses daims",
+   "emoji": "🦌",
+   "type": "nature",
+   "quartier": "Phoenix Park",
+   "lat": 53.366048,
+   "lng": -6.330933,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au parc",
+     "gratuit"
+    ],
+    [
+     "Location de vélo",
+     "≈ 10 € l'heure"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Tôt le matin, quand les daims sortent des bois (près de Papal Cross)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Deux fois plus grand que Central Park, l'un des plus vastes parcs urbains d'Europe. Ses 600 daims sauvages se promènent en liberté sur les pelouses, souvent à quelques mètres des visiteurs. On le parcourt à vélo, entre la résidence du président et le zoo.",
+   "site_officiel": "https://phoenixpark.ie/",
+   "note": "Ne nourrissez pas les daims (c'est interdit) et gardez vos distances à l'automne, pendant le brame.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Barry",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADeer_in_Phoenix_Park%2C_Dublin.jpg",
+    "src": "img/activites/DUB/phoenix-park.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo de Dublin",
+   "emoji": "🦒",
+   "type": "nature",
+   "quartier": "Phoenix Park",
+   "lat": 53.358888,
+   "lng": -6.30853,
+   "prix": 22.5,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     "22,50 €"
+    ],
+    [
+     "3 à 15 ans",
+     "17 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + 2 enfants)",
+     "62,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22.5,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      15,
+      17
+     ],
+     [
+      17,
+      17.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille : 15 % moins cher qu'au guichet",
+   "duree": "3 h",
+   "moment": "Le matin, quand les animaux sont les plus actifs",
+   "enfants": true,
+   "texte": "L'un des plus anciens zoos du monde (1831), au cœur de Phoenix Park : savane africaine avec girafes et rhinocéros, éléphants d'Asie, gorilles et forêt tropicale restaurée. Le grand classique des familles dublinoises.",
+   "site_officiel": "https://www.dublinzoo.ie/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anthony Parkes",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAfrican_Plains_area_of_Dublin_Zoo_-_geograph.org.uk_-_5948321.jpg",
+    "src": "img/activites/DUB/zoo.jpg"
+   }
+  },
+  {
+   "id": "glasnevin",
+   "nom": "Cimetière de Glasnevin",
+   "emoji": "🪦",
+   "type": "culture",
+   "quartier": "Glasnevin",
+   "lat": 53.3712,
+   "lng": -6.2779,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Visite guidée + musée + montée de la tour",
+     "17 €"
+    ],
+    [
+     "Tour O'Connell seule",
+     "11 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      17,
+      9
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne",
+   "duree": "2 h",
+   "moment": "Le matin ; à combiner avec le jardin botanique voisin (gratuit)",
+   "enfants": false,
+   "texte": "Le Père-Lachaise irlandais : croix celtiques, tombes de Michael Collins et de Daniel O'Connell, et des guides passionnants qui font revivre l'histoire du pays tombe après tombe. On grimpe ensuite les 198 marches de la tour ronde, rouverte en 2018, pour la vue.",
+   "site_officiel": "https://www.dctrust.ie/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gareth James",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGlasnevin_Cemetery%2C_Dublin_-_geograph.org.uk_-_5947114.jpg",
+    "src": "img/activites/DUB/glasnevin.jpg"
+   }
+  },
+  {
+   "id": "howth",
+   "nom": "Sentier des falaises de Howth",
+   "emoji": "🌊",
+   "type": "nature",
+   "quartier": "Howth",
+   "lat": 53.3755,
+   "lng": -6.0687,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Sentier",
+     "gratuit"
+    ],
+    [
+     "Train DART aller-retour depuis le centre",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      17,
+      2.5
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "Par temps sec ; finissez par un fish and chips sur le port",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "À 30 minutes de train du centre : un sentier en balcon au-dessus de la mer, entre bruyères, ajoncs jaunes et le phare blanc de Baily. Phoques dans le port, chalutiers et restaurants de poisson au retour : la sortie préférée des Dublinois le week-end.",
+   "site_officiel": "https://www.visitdublin.com/howth",
+   "note": "Le DART (ligne vers Howth) part des gares de Connolly, Tara Street et Pearse. Comptez 2 à 3 h de marche pour la boucle complète ; chaussures fermées conseillées.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "sarah gallagher",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACliff_top_walk_in_Howth_-_geograph.org.uk_-_918474.jpg",
+    "src": "img/activites/DUB/howth.jpg"
+   }
+  },
+  {
+   "id": "poolbeg",
+   "nom": "Phare de Poolbeg et le Great South Wall",
+   "emoji": "🗼",
+   "type": "balade",
+   "quartier": "Ringsend",
+   "lat": 53.342106,
+   "lng": -6.151368,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30 aller-retour",
+   "moment": "Au coucher du soleil, par temps calme (évitez les jours de grand vent)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une digue de pierre de 4 km qui s'avance au milieu de la baie de Dublin jusqu'à un phare rouge vif. On marche entre ciel et mer, avec les montagnes de Wicklow d'un côté et la ville de l'autre : l'une des balades les plus photographiées du moment.",
+   "site_officiel": "https://www.visitdublin.com/great-south-wall",
+   "note": "Comptez 30 minutes de bus ou de vélo jusqu'à Ringsend depuis le centre, puis 20 minutes à pied jusqu'au début de la digue. Pas d'abri ni de toilettes sur la digue.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ian Mantel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APoolbeg_lighthouse%2C_marking_the_sea_end_of_Great_Bull_Wall_at_the_entrance_of_Dublin_Port.jpg",
+    "src": "img/activites/DUB/poolbeg.jpg"
+   }
+  },
+  {
+   "id": "killiney",
+   "nom": "Colline de Killiney et Dalkey",
+   "emoji": "⛰️",
+   "type": "vue",
+   "quartier": "Dalkey",
+   "lat": 53.265464,
+   "lng": -6.11102,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Train DART aller-retour depuis le centre",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      17,
+      2.5
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi, par beau temps, pour la lumière sur la baie",
+   "enfants": true,
+   "texte": "La « baie de Naples » irlandaise : depuis l'obélisque de Killiney Hill, toute la baie s'étend jusqu'aux montagnes de Wicklow. On redescend vers le village de Dalkey, ses ruelles et ses villas de stars (Bono et Enya y vivent), puis vers les bains de mer de Vico.",
+   "site_officiel": "https://www.visitdublin.com/killiney-hill",
+   "note": "Descendez à la gare de Dalkey (DART, 30 min du centre), montez à pied jusqu'à l'obélisque (30 min), puis revenez par Vico Road.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Barrowbob",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKilliney_Hill_-_view_towards_Bray.jpg",
+    "src": "img/activites/DUB/killiney.jpg"
+   }
+  },
+  {
+   "id": "malahide",
+   "nom": "Château de Malahide",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Malahide",
+   "lat": 53.444937,
+   "lng": -6.164611,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Visite guidée du château + jardins",
+     "16 €"
+    ],
+    [
+     "Enfant",
+     "8,50 €"
+    ],
+    [
+     "Famille (2 adultes + 2 enfants)",
+     "46 €"
+    ],
+    [
+     "Train DART aller-retour",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      8.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (visites guidées à heure fixe)",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, puis déjeuner dans le village de Malahide",
+   "enfants": true,
+   "texte": "Un vrai château de conte de fées à 25 minutes de train : tours crénelées couvertes de lierre, la famille Talbot y a vécu près de 800 ans. Grand parc, jardins botaniques avec une serre à papillons, et un joli village de bord de mer à deux pas.",
+   "site_officiel": "https://www.malahidecastleandgardens.ie/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "William Murphy",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMalahide_Castle%2C_March_2011_%283%29.jpg",
+    "src": "img/activites/DUB/malahide.jpg"
+   }
+  },
+  {
+   "id": "glendalough",
+   "nom": "Excursion à Glendalough et dans les monts Wicklow",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Comté de Wicklow",
+   "lat": 53.010507,
+   "lng": -6.32434,
+   "prix": 43,
+   "prix_detail": [
+    [
+     "Excursion en car d'une journée (avec Kilkenny)",
+     "43 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "non admis"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 43,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "duree": "Une journée (environ 10 h)",
+   "moment": "Départ vers 8 h du centre ; emportez un vêtement de pluie",
+   "enfants": true,
+   "texte": "La vallée des deux lacs : une cité monastique du VIe siècle avec sa tour ronde de 30 m, au fond d'une vallée glaciaire. En chemin, les landes et les cols des monts Wicklow où ont été tournés Braveheart et Vikings, puis la ville médiévale de Kilkenny.",
+   "site_officiel": "https://wildrovertours.com/activity/kilkenny-wicklow-mountains-glendalough/",
+   "note": "Excursion organisée par Wild Rover Tours (guide en anglais, entrées et démonstration de chiens de berger comprises, repas non compris).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Schcambo",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGlendalough_monastery.jpg",
+    "src": "img/activites/DUB/glendalough.jpg"
+   }
+  },
+  {
+   "id": "cliffs-moher",
+   "nom": "Excursion aux falaises de Moher et à Galway",
+   "emoji": "🌅",
+   "type": "nature",
+   "quartier": "Comté de Clare",
+   "lat": 52.9715,
+   "lng": -9.4309,
+   "prix": 75,
+   "prix_detail": [
+    [
+     "Excursion en car d'une journée (entrée des falaises comprise)",
+     "75 €"
+    ],
+    [
+     "Étudiant",
+     "70 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "non admis"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 75,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; places limitées l'été",
+   "duree": "Une journée (12 à 13 h)",
+   "moment": "Départ vers 7 h du centre ; le paysage dépend de la météo",
+   "enfants": true,
+   "texte": "Les falaises les plus célèbres d'Irlande : 200 mètres à pic au-dessus de l'Atlantique, sur 14 km, avec les îles d'Aran à l'horizon. L'excursion traverse le pays d'est en ouest et s'arrête deux heures à Galway, ville étudiante colorée et pleine de musique.",
+   "site_officiel": "https://wildrovertours.com/activity/cliffs-of-moher-atlantic-edge-ocean-walk-galway-city/",
+   "note": "Longue journée de car (environ 6 h de route au total) : réservez-la si vous restez au moins 4 jours.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Holger Uwe Schmitt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACliffs_of_Moher%2C_Ireland_07.jpg",
+    "src": "img/activites/DUB/cliffs-moher.jpg"
+   }
+  },
+  {
+   "id": "croke-park",
+   "nom": "Croke Park et les sports gaéliques",
+   "emoji": "🏟️",
+   "type": "sport",
+   "quartier": "Drumcondra",
+   "lat": 53.360358,
+   "lng": -6.250981,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Visite du stade + musée GAA",
+     "18 €"
+    ],
+    [
+     "3 à 12 ans",
+     "12 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + 2 enfants)",
+     "48 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      12
+     ],
+     [
+      17,
+      14.5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne",
+   "duree": "1 h 30",
+   "moment": "Toute l'année ; les grands matchs de football gaélique et de hurling ont lieu de mai à septembre",
+   "enfants": true,
+   "texte": "Le temple des sports gaéliques, 82 000 places : on découvre le hurling, sport de crosse ultra-rapide joué depuis 3 000 ans, et le football gaélique, que les Irlandais placent au-dessus de tout. Vestiaires, tunnel des joueurs et tribune officielle, puis on s'essaie au lancer au musée.",
+   "site_officiel": "https://crokepark.ie/stadium-tour",
+   "note": "Fermé du 24 au 27 décembre et du 30 décembre au 1er janvier.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tolivero",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACroke_park_all_ireland.jpg",
+    "src": "img/activites/DUB/croke-park.jpg"
+   }
+  },
+  {
+   "id": "leinster",
+   "nom": "Match du Leinster Rugby",
+   "emoji": "🏉",
+   "type": "sport",
+   "quartier": "Ballsbridge",
+   "lat": 53.3256,
+   "lng": -6.2297,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Billet (selon le match et la place)",
+     "≈ 30 à 70 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente sur Ticketmaster ; les derbys contre le Munster affichent complet",
+   "duree": "3 h",
+   "moment": "Le vendredi soir ou le samedi, de septembre à mai",
+   "enfants": true,
+   "club": "Leinster Rugby",
+   "texte": "Le rugby est roi à Dublin, et le Leinster, quatre fois champion d'Europe, compte parmi les clubs les plus titrés du continent. Ambiance bon enfant, drapeaux bleus et pintes en tribune, dans le stade de la RDS rénové en 2026 ou à l'Aviva Stadium pour les grandes affiches.",
+   "site_officiel": "https://www.leinsterrugby.ie/tickets/",
+   "note": "Achetez sur le site du club ou sur Ticketmaster (revente officielle) uniquement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "IJA",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALeinster_Croke_Park.jpg",
+    "src": "img/activites/DUB/leinster.jpg"
+   }
+  },
+  {
+   "id": "trad-pubs",
+   "nom": "Soirée musique traditionnelle au pub",
+   "emoji": "🎻",
+   "type": "sortir",
+   "quartier": "Smithfield",
+   "lat": 53.3489,
+   "lng": -6.278,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Pinte de Guinness",
+     "≈ 6 à 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Le soir, à partir de 19 h ; les sessions démarrent vers 21 h",
+   "enfants": false,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Violons, flûtes, bodhrán : des musiciens s'installent autour d'une table et jouent pour le plaisir, sans scène ni micro. Au Cobblestone, à Smithfield, la session a lieu tous les soirs ; O'Donoghue's, où ont débuté les Dubliners, ou le Brazen Head, le plus vieux pub du pays, sont aussi des valeurs sûres.",
+   "site_officiel": "https://www.cobblestonepub.ie/",
+   "note": "Les mineurs ne sont pas admis dans les pubs après 21 h (22 h l'été) en Irlande. Une pinte se commande au comptoir ; le pourboire n'est pas attendu.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "William Murphy",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Cobblestone_Pub_-_North_King_Street_-_panoramio_%282%29.jpg",
+    "src": "img/activites/DUB/trad-pubs.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "temple-bar",
+   "nom": "Temple Bar et Trinity",
+   "lat": 53.3448,
+   "lng": -6.262,
+   "texte": "Le cœur de Dublin, au bord de la Liffey : Trinity College, Temple Bar, Grafton Street et les grands musées à pied. Idéal pour un premier séjour, mais bruyant le soir et le plus cher."
+  },
+  {
+   "id": "stephens-green",
+   "nom": "St Stephen's Green et Dublin géorgien",
+   "lat": 53.3385,
+   "lng": -6.256,
+   "texte": "Le quartier élégant des places géorgiennes et des portes colorées, autour du grand parc : calme le soir, à dix minutes à pied de tout, avec les plus beaux hôtels historiques."
+  },
+  {
+   "id": "liberties",
+   "nom": "The Liberties",
+   "lat": 53.3405,
+   "lng": -6.277,
+   "texte": "Le vieux quartier des brasseurs et des distillateurs : Guinness, Teeling, les deux cathédrales et des cafés branchés. Plus abordable et plein de caractère, à 15 minutes à pied du centre."
+  },
+  {
+   "id": "smithfield",
+   "nom": "Smithfield et Stoneybatter",
+   "lat": 53.349,
+   "lng": -6.28,
+   "texte": "Sur la rive nord, l'ancien marché aux chevaux devenu le quartier préféré des jeunes Dublinois : pubs à musique traditionnelle, distillerie Jameson et tramway Luas jusqu'au centre."
+  },
+  {
+   "id": "docklands",
+   "nom": "Docklands et Grand Canal",
+   "lat": 53.3425,
+   "lng": -6.2395,
+   "texte": "Les anciens docks devenus quartier d'affaires : hôtels modernes, bords de l'eau, EPIC et le théâtre de Bord Gáis. Calme le soir, à 15-20 minutes à pied de Trinity College."
+  }
+ ],
+ "hotel_petit_prix_max": 150,
+ "restaurants": [
+  {
+   "id": "bewleys",
+   "nom": "Bewley's Grafton Street",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café historique",
+   "quartier": "Grafton Street",
+   "adresse": "78-79 Grafton Street, Dublin 2",
+   "lat": 53.34172,
+   "lng": -6.26029,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le salon de thé de tous les Dublinois depuis 1927 : façade égyptienne, banquettes de velours et vitraux flamboyants de Harry Clarke. On y prend un petit-déjeuner irlandais, un sandwich ou un scone, sous les mêmes vitraux que James Joyce en son temps.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; un peu d'attente le samedi midi",
+   "photo": {
+    "auteur": "Rodhullandemu",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStained_glass%2C_Bewley%27s_Cafe%2C_Dublin.jpg",
+    "src": "img/restos/DUB/bewleys.jpg"
+   }
+  },
+  {
+   "id": "bunsen",
+   "nom": "Bunsen",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "Wexford Street",
+   "adresse": "36 Wexford Street, Dublin 2",
+   "lat": 53.33722,
+   "lng": -6.2659,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le burger préféré de Dublin tient sur une carte de visite : hamburger, cheeseburger, simple ou double, et trois sortes de frites. Rien d'autre, mais un steak de bœuf irlandais haché du jour et un pain moelleux qui ont fait la réputation de la maison, née ici en 2012.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file rapide, comptez 10 à 20 minutes le soir",
+   "photo": {
+    "auteur": "Kurt Kaiser",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACheeseburger_and_Fries.jpg",
+    "src": "img/restos/DUB/bunsen.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fish-shop",
+   "nom": "Fish Shop",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Fish and chips",
+   "quartier": "Smithfield",
+   "adresse": "76 Benburb Street, Dublin 7",
+   "lat": 53.347261,
+   "lng": -6.281963,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "texte": "Le meilleur fish and chips de Dublin pour beaucoup de Dublinois : poisson du jour pêché sur la côte irlandaise, pâte à la bière craquante, frites maison et un verre de vin blanc nature pour l'accompagner. Petite salle carrelée, ambiance de bar de quartier.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation pour le fish and chips ; arrivez avant 19 h le week-end",
+   "badges": [],
+   "photo": {
+    "auteur": "Grendelkhan",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFish_and_chips_plate_with_peas.jpg",
+    "src": "img/restos/DUB/fish-shop.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bread41",
+   "nom": "Bread 41",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie",
+   "quartier": "Pearse Street",
+   "adresse": "41 Pearse Street, Dublin 2",
+   "lat": 53.344751,
+   "lng": -6.251779,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La boulangerie qui fait la queue sur le trottoir : pain au levain, roulés à la cardamome, croissants et viennoiseries du moment, tous fermentés lentement sur place. On y prend un petit-déjeuner ou un sandwich du midi, à deux pas de Trinity College.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; venez tôt, les viennoiseries partent vite le week-end",
+   "photo": {
+    "auteur": "Dana Hutchinson",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASourdough_Loaf_%28217346645%29.jpeg",
+    "src": "img/restos/DUB/bread41.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chimac",
+   "nom": "Chimac",
+   "emoji": "🍗",
+   "gamme": "petit",
+   "genre": "Poulet frit coréen",
+   "quartier": "Aungier Street",
+   "adresse": "76 Aungier Street, Dublin 2",
+   "lat": 53.341088,
+   "lng": -6.265719,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le poulet frit à la coréenne qui a conquis Dublin : ailes et burgers croustillants, nappés de sauce soja-ail ou de gochujang pimenté, frites de patate douce et kimchi maison. Salle animée, parfaite avant une soirée dans les bars de Camden Street.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le vendredi et le samedi soir",
+   "photo": {
+    "auteur": "Francesc Fort",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKorean_Fried_Chicken_-_Chikin.jpg",
+    "src": "img/restos/DUB/chimac.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fumbally",
+   "nom": "The Fumbally",
+   "emoji": "🍳",
+   "gamme": "petit",
+   "genre": "Brunch",
+   "quartier": "The Liberties",
+   "adresse": "Fumbally Lane, Dublin 8",
+   "lat": 53.336991,
+   "lng": -6.27299,
+   "prix": "12 à 22 €",
+   "prix_min": 12,
+   "texte": "Le café qui a lancé le renouveau des Liberties : grande salle lumineuse, longues tables partagées, œufs du jour, salades de saison et pain au levain maison. Une adresse de quartier très appréciée des Dublinois, entre la cathédrale Saint-Patrick et la distillerie Teeling.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; un peu d'attente le samedi matin",
+   "badges": [],
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANOT_avocado_on_toast_with_fried_egg_-_Black_Mocha_2025-08-12.jpg",
+    "src": "img/restos/DUB/fumbally.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "winding-stair",
+   "nom": "The Winding Stair",
+   "emoji": "📖",
+   "gamme": "moyen",
+   "genre": "Cuisine irlandaise",
+   "quartier": "Ormond Quay",
+   "adresse": "40 Ormond Quay Lower, Dublin 1",
+   "lat": 53.346667,
+   "lng": -6.263611,
+   "prix": "40 à 65 €",
+   "prix_min": 40,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Au-dessus d'une vieille librairie, une salle aux grandes fenêtres qui donnent sur la Liffey et le Ha'penny Bridge. Assiette de poissons fumés irlandais, ragoût d'agneau, fromages fermiers : la cuisine du pays, simple et généreuse, dans le plus joli cadre de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, et demandez une table près de la fenêtre",
+   "photo": {
+    "auteur": "Eric Jones",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Winding_Stair_Bookshop_and_Restaurant_on_Ormond_Quay_-_geograph.org.uk_-_2255053.jpg",
+    "src": "img/restos/DUB/winding-stair.jpg"
+   }
+  },
+  {
+   "id": "brazen-head",
+   "nom": "The Brazen Head",
+   "emoji": "🍀",
+   "gamme": "moyen",
+   "genre": "Pub historique",
+   "quartier": "Usher's Quay",
+   "adresse": "20 Bridge Street Lower, Dublin 8",
+   "lat": 53.344933,
+   "lng": -6.276332,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le plus vieux pub d'Irlande, qui revendique l'an 1198 : cour pavée, salles basses enfumées par les siècles et musique traditionnelle tous les soirs. On y mange l'Irish stew (ragoût d'agneau) avec du pain au bicarbonate, avant une pinte au son des violons.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour dîner le week-end ; sans réservation au bar",
+   "photo": {
+    "auteur": "Harold Strong",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_Brazen_Head_%28cropped%29.jpg",
+    "src": "img/restos/DUB/brazen-head.jpg"
+   }
+  },
+  {
+   "id": "pichet",
+   "nom": "Pichet",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Bistrot franco-irlandais",
+   "quartier": "Trinity Street",
+   "adresse": "14-15 Trinity Street, Dublin 2",
+   "lat": 53.343802,
+   "lng": -6.262352,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une grande brasserie élégante et lumineuse, à deux minutes de Grafton Street. Produits irlandais cuisinés à la française : bavette, confit de canard, poisson du jour et l'œuf croustillant, la spécialité de la maison. Saluée par le guide Michelin depuis plus de quinze ans.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; menu du midi et du début de soirée moins cher",
+   "photo": {
+    "auteur": "Sarah Stierch",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteak_frites_at_The_Bar_at_MacArthur_Place_in_Sonoma_-_Sarah_Stierch.jpg",
+    "src": "img/restos/DUB/pichet.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bigfan",
+   "nom": "BIGFAN",
+   "emoji": "🥟",
+   "gamme": "moyen",
+   "genre": "Bao et dim sum",
+   "quartier": "Aungier Street",
+   "adresse": "16 Aungier Street, Dublin 2",
+   "lat": 53.340353,
+   "lng": -6.265476,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "Petits pains vapeur au canard, raviolis xiao long bao au bouillon, porc croustillant : de petites assiettes chinoises et taïwanaises à partager, cochées sur une carte-menu. Salle sombre et festive, cocktails à la prune : la nouvelle adresse que tout Dublin se dispute.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant pour le week-end",
+   "photo": {
+    "auteur": "Capturedbyalish",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABao_Buns.jpg",
+    "src": "img/restos/DUB/bigfan.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "klaw",
+   "nom": "Klaw",
+   "emoji": "🦪",
+   "gamme": "moyen",
+   "genre": "Huîtres et fruits de mer",
+   "quartier": "Temple Bar",
+   "adresse": "5A Crown Alley, Temple Bar, Dublin 2",
+   "lat": 53.345362,
+   "lng": -6.262704,
+   "prix": "25 à 50 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une minuscule cabane à fruits de mer au cœur de Temple Bar : huîtres de la côte irlandaise, sandwichs au homard, crabe et pinces au beurre d'ail. Une quinzaine de places au comptoir, et la meilleure façon de goûter la mer d'Irlande sans se ruiner.",
+   "reservation": "sur_place",
+   "reservation_delai": "peu de places : venez en début de soirée ou à l'heure du déjeuner",
+   "photo": {
+    "auteur": "Luaslou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIrish_Oysters_in_Galway.jpg",
+    "src": "img/restos/DUB/klaw.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mister-s",
+   "nom": "Mister S",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Grill au feu de bois",
+   "quartier": "Camden Street",
+   "adresse": "32 Camden Street Lower, Dublin 2",
+   "lat": 53.334629,
+   "lng": -6.26506,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "texte": "Tout passe par le feu : grill au charbon, fumoir et four à bois. Côte de porc fumée, poisson entier grillé, légumes brûlés au miso, à partager autour de grandes tables. Une adresse sélectionnée par le guide Michelin, animée et sans chichis.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le week-end",
+   "badges": [],
+   "photo": {
+    "auteur": "Pilarclu",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFish_grilled_at_open_fire.jpg",
+    "src": "img/restos/DUB/mister-s.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chapter-one",
+   "nom": "Chapter One",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie irlandaise",
+   "quartier": "Parnell Square",
+   "adresse": "18-19 Parnell Square North, Dublin 1",
+   "lat": 53.354416,
+   "lng": -6.263946,
+   "prix": "85 à 200 €",
+   "prix_min": 85,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "La meilleure table d'Irlande pour beaucoup de critiques, dans les caves voûtées d'une maison géorgienne. Le chef Mickael Viljanen sublime le bœuf, les coquillages et le gibier irlandais avec une précision folle. Le menu du déjeuner est la meilleure porte d'entrée.",
+   "reservation": "indispensable",
+   "reservation_delai": "4 à 6 semaines avant ; déjeuner du jeudi au samedi",
+   "photo": {
+    "auteur": "William Murphy",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChapter_One_sign.jpg",
+    "src": "img/restos/DUB/chapter-one.jpg"
+   }
+  },
+  {
+   "id": "guilbaud",
+   "nom": "Restaurant Patrick Guilbaud",
+   "emoji": "🥂",
+   "gamme": "haut",
+   "genre": "Grande cuisine française",
+   "quartier": "Merrion Street",
+   "adresse": "21 Merrion Street Upper, Dublin 2",
+   "lat": 53.3384,
+   "lng": -6.253027,
+   "prix": "95 à 250 €",
+   "prix_min": 95,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Ouvert en 1981 par un Français, deux étoiles depuis 1996 : l'institution de la gastronomie dublinoise, dans l'hôtel Merrion, face au siège du gouvernement. Homard bleu, agneau du Connemara et service à l'ancienne, sous une collection d'art irlandais.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; menu du déjeuner du mardi au samedi",
+   "photo": {
+    "auteur": "DubhEire",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARestaurantPatrickGuilbaud.jpg",
+    "src": "img/restos/DUB/guilbaud.jpg"
+   }
+  },
+  {
+   "id": "variety-jones",
+   "nom": "Variety Jones",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Menu unique au feu de bois",
+   "quartier": "The Liberties",
+   "adresse": "79 Thomas Street, Dublin 8",
+   "lat": 53.342943,
+   "lng": -6.276171,
+   "prix": "110 à 160 €",
+   "prix_min": 110,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Douze tables, une cuisine ouverte et un feu de bois : les frères Higgs servent un menu unique de six plats à partager, imaginé chaque jour selon le marché. Une étoile Michelin dans une ambiance de bistrot, sans nappe ni cérémonie.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant, dès l'ouverture des réservations ; du mercredi au samedi",
+   "photo": {
+    "auteur": "Sheila1988",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVariety_Jones_restaurant%2C_Dublin.jpg",
+    "src": "img/restos/DUB/variety-jones.jpg"
+   }
+  },
+  {
+   "id": "glovers-alley",
+   "nom": "Glovers Alley",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine contemporaine",
+   "quartier": "St Stephen's Green",
+   "adresse": "128 St Stephen's Green, Dublin 2",
+   "lat": 53.339388,
+   "lng": -6.261236,
+   "prix": "75 à 155 €",
+   "prix_min": 75,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une salle tout en rose poudré et velours, avec vue sur les arbres de St Stephen's Green. Le chef Andy McFadden, passé par les grandes maisons de Londres, signe une cuisine raffinée et gourmande. Le déjeuner en trois plats est l'occasion idéale.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; déjeuner certains jours de la semaine",
+   "photo": {
+    "auteur": "Holger Uwe Schmitt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%22Eine_gr%C3%BCne_Oase_inmitten_der_Stadt_Dublin%22._03.jpg",
+    "src": "img/restos/DUB/glovers-alley.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "hawksmoor",
+   "nom": "Hawksmoor Dublin",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Steakhouse",
+   "quartier": "College Green",
+   "adresse": "34 College Green, Dublin 2",
+   "lat": 53.344165,
+   "lng": -6.260099,
+   "prix": "50 à 90 €",
+   "prix_min": 50,
+   "texte": "Le grand steakhouse londonien s'est installé dans l'ancienne salle des guichets d'une banque du XIXe siècle : plafonds à caissons, marbre et lustres. Bœuf irlandais maturé grillé au charbon, frites cuites trois fois et cocktails parmi les meilleurs de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; menu du midi et du début de soirée bien moins cher",
+   "badges": [],
+   "photo": {
+    "auteur": "Conoronmaps",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANational_Bank_building%2C_College_Green.jpg",
+    "src": "img/restos/DUB/hawksmoor.jpg"
+   }
+  },
+  {
+   "id": "shelbourne",
+   "nom": "Afternoon tea au Shelbourne",
+   "emoji": "🫖",
+   "gamme": "haut",
+   "genre": "Afternoon tea",
+   "quartier": "St Stephen's Green",
+   "adresse": "27 St Stephen's Green, Dublin 2",
+   "lat": 53.339029,
+   "lng": -6.256097,
+   "prix": "68 à 88 €",
+   "prix_min": 68,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le palace de Dublin depuis 1824, où fut rédigée la Constitution irlandaise en 1922. Dans le salon du Lord Mayor, sous les lustres et face au parc : sandwichs fins, scones tièdes à la crème et pâtisseries sur plateau d'argent, avec ou sans coupe de champagne.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant (3 services par jour : 12 h, 14 h 30 et 17 h)",
+   "photo": {
+    "auteur": "Type17",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AShelbourne%2C-Dublin.jpg",
+    "src": "img/restos/DUB/shelbourne.jpg"
+   }
+  }
+ ]
+}

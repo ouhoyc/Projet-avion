@@ -107,4 +107,7 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   compléter par Google Maps en affichage limité (quadrillage 7×11 points). Prix : site officiel `kutaisi.travel` (musées,
   horaires), menus en lari sur Glovo (`glovoapp.com/en/ge/kutaisi/stores/<nom>`, champ `\"price\"`), aires protégées via
   maspindzeli.ge / thegeorgianguide.com (apa.gov.ge illisible). Gault & Millau Géorgie : `ge.gaultmillau.com` (Playwright).
-
+- Dublin (oct. 2026) : recherche de fichiers Commons en HTML (`ns6=1`) + `thumb.php?w=330/960`, sans « 429 » (~1 min par planche).
+  Wanderlog : départ `geoCategory/74230` (géo 9633), 250 listes, ~2 200 lieux. Prix : sites officiels lisibles avec Playwright
+  (heritageireland.ie, stpatrickscathedral.ie, christchurchcathedral.ie, crokepark.ie, teelingdistillery.com, wildrovertours.com) ;
+  la billetterie du Livre de Kells renvoie 403. Tiqets Dublin : `activites-attractions-dublin-c68616` (prix : `"priceEur"` par `curl`).

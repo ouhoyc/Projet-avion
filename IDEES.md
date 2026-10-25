@@ -319,6 +319,20 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   **Réseaux sociaux (Apify) sautés** (petite destination) : badges tendance d'après les guides (Wander-Lush, Wanderlog).
   Écartés : Sisters et El Depo (note 4,2, service en baisse), Sormoni (fermé l'hiver, prix flous). Prix estimé : match du
   Torpedo (billetterie géorgienne illisible d'ici). Sanatorium Medea fermé depuis un accident en juillet 2026.
+- ✅ (25/10/2026) **Page guide de Dublin** (`guides/DUB.json`), préparée en autonomie : 28 activités (Trinity et Livre de Kells,
+  Guinness, Temple Bar, Kilmainham, EPIC, cathédrales Saint-Patrick et Christ Church, musée d'archéologie, National Gallery,
+  Little Museum, 14 Henrietta Street, MoLI, distilleries Jameson et Teeling, St Stephen's Green, Merrion Square, Phoenix Park, zoo,
+  Glasnevin, Howth, phare de Poolbeg, Killiney et Dalkey, Malahide ; excursions Glendalough et falaises de Moher (Wild Rover Tours,
+  43 et 75 €) ; Croke Park, match du Leinster (club « Leinster Rugby »), soirée musique traditionnelle), 18 restaurants (note
+  pondérée, C = 4,41, ~1 000 restaurants lus via 250 listes Wanderlog ; Michelin 2026 : Chapter One et Patrick Guilbaud 2 étoiles,
+  Variety Jones et Glovers Alley 1 étoile, Pichet et BIGFAN Bib Gourmand), 5 quartiers, 6 liens Tiqets (Guinness, EPIC,
+  Saint-Patrick, Little Museum, MoLI, Teeling : même prix qu'en officiel ; Jameson et Christ Church plus chers sur Tiqets, sans lien).
+  Pas d'encadré formalités (Union européenne : carte d'identité suffit). **Réseaux sociaux (Apify) pas lancés** : crédit du mois
+  toujours épuisé (lancement du 25/10 refusé, 0 $ dépensé) ; badges tendance d'après les guides et la presse.
+  Écartés car fermés : **château de Dublin et Chester Beatty** (fermés jusqu'au 31/12/2026 pour la présidence irlandaise de l'UE :
+  **à ajouter en janvier 2027**), musée d'histoire naturelle (rénovation). Écartés : Leo Burdock (note 4,1), Gallaghers Boxty
+  House (doublon de genre avec The Winding Stair). Prix estimés : billets du Leinster, tarifs enfants du Livre de Kells, du Little
+  Museum, de MoLI et de Glasnevin (non publiés).
 - ✅ (25/10/2026) **Liste complète des vols directs** (`routes.json`, `scripts/fetch-routes.mjs`) : lue chaque matin sur
   Wikipédia (en anglais, page de l'aéroport, tableau des compagnies), codes IATA via Wikidata, gratuit. Les villes sans
   prix repéré (Koutaïssi, lignes d'été…) apparaissent quand même : dans « Une idée ? » et en bas de la liste (« N autres
@@ -336,7 +350,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles.
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

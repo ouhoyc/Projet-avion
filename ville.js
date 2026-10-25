@@ -83,6 +83,14 @@ const PARTNER_LINKS = {
     'mini-europe': tiqets('activites-attractions-bruxelles-c60843/billets-pour-mini-europe-bruxelles-billet-d-entree-p975270'),
     'beer-world': tiqets('activites-attractions-bruxelles-c60843/billets-pour-belgian-beer-world-experience-entree-degustation-de-biere-p1081229'),
   },
+  DUB: {
+    'guinness': tiqets('activites-attractions-dublin-c68616/billets-pour-guinness-storehouse-billet-d-entree-boisson-gratuite-p1053342'),
+    'epic': tiqets('activites-attractions-dublin-c68616/billets-pour-epic-le-musee-de-l-emigration-irlandaise-billet-d-entree-p974558'),
+    'st-patricks': tiqets('activites-attractions-dublin-c68616/billets-pour-cathedrale-saint-patrick-billet-d-entree-p998894'),
+    'little-museum': tiqets('activites-attractions-dublin-c68616/billets-pour-petit-musee-de-dublin-notre-celebre-visite-guidee-p1008764'),
+    'moli': tiqets('activites-attractions-dublin-c68616/billets-pour-moli-musee-de-la-litterature-d-irlande-billet-d-entree-p1022357'),
+    'teeling': tiqets('activites-attractions-dublin-c68616/billets-pour-teeling-whyskey-distillery-visite-guidee-degustation-p974479'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 
