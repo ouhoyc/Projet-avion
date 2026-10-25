@@ -218,6 +218,21 @@ function fillPlaces() {
     .sort((a, b) => a.label.localeCompare(b.label, 'fr'));
 }
 
+// Lieux qui correspondent à la saisie. Ordre : pays puis villes dont le nom commence par la
+// saisie, villes de ces pays, puis les noms qui contiennent la saisie ailleurs. Vide : tous les pays.
+function matchPlaces(text) {
+  const q = normText(text);
+  if (!q) return places.filter((p) => p.type === 'country');
+  const rank = (p) => {
+    const starts = p.key.startsWith(q) || p.key.includes(` ${q}`);
+    if (starts) return p.type === 'country' ? 0 : 1;
+    if (p.type === 'city' && normText(p.country).startsWith(q)) return 2;
+    return p.key.includes(q) ? 3 : -1;
+  };
+  return places.map((p) => [rank(p), p]).filter(([r]) => r >= 0)
+    .sort((a, b) => a[0] - b[0]).map(([, p]) => p);
+}
+
 function whereLabel() {
   if (sEls.city.value) {
     const p = places.find((x) => x.type === 'city' && x.code === sEls.city.value);
@@ -242,20 +257,7 @@ function setupWhere() {
   };
   const render = () => {
     const q = normText(input.value);
-    if (!q) {
-      shown = places.filter((p) => p.type === 'country'); // champ vide : tous les pays
-    } else {
-      // Ordre : pays puis villes dont le nom commence par la saisie, villes de ces pays,
-      // puis les noms qui contiennent la saisie ailleurs.
-      const rank = (p) => {
-        const starts = p.key.startsWith(q) || p.key.includes(` ${q}`);
-        if (starts) return p.type === 'country' ? 0 : 1;
-        if (p.type === 'city' && normText(p.country).startsWith(q)) return 2;
-        return p.key.includes(q) ? 3 : -1;
-      };
-      shown = places.map((p) => [rank(p), p]).filter(([r]) => r >= 0)
-        .sort((a, b) => a[0] - b[0]).map(([, p]) => p);
-    }
+    shown = matchPlaces(input.value);
     active = q && shown.length ? 0 : -1;
     list.innerHTML = shown.length
       ? shown.map((p, i) => `<li role="option" id="where-opt-${i}" data-i="${i}">${flag(p.cc)}<span>${escapeHtml(p.label)}</span><small>${
@@ -1183,6 +1185,8 @@ function setupCalendar() {
     html += '</div></section>';
   }
   months.innerHTML = html;
+  const wizardMonths = $('w-cal-months'); // même calendrier dans le parcours d'accueil
+  if (wizardMonths) wizardMonths.innerHTML = html;
 
   $('s-when').addEventListener('click', () => {
     cal.start = sEls.from.value;
@@ -1190,13 +1194,10 @@ function setupCalendar() {
     cal.mode = sEls.exact.checked ? 'exact' : 'flex';
     paintCalendar();
     dialog.showModal();
-    const target = months.querySelector(`[data-day="${cal.start || isoDay(today)}"]`);
-    const month = target?.closest('.cal-month');
-    months.scrollTop = 0; // pas scrollIntoView : il faisait défiler la page sur iPhone
-    if (month) months.scrollTop = month.getBoundingClientRect().top - months.getBoundingClientRect().top;
+    scrollCalendar(months);
   });
 
-  months.addEventListener('click', (e) => {
+  const pickDay = (e) => {
     const day = e.target.closest('.cal-day')?.dataset.day;
     if (!day) return;
     // 1er appui : début ; 2e appui : fin (ou nouveau début si la date est avant).
@@ -1205,15 +1206,17 @@ function setupCalendar() {
     else if (day === cal.start && cal.mode === 'exact') return;
     else cal.end = day;
     paintCalendar();
-  });
-
-  dialog.querySelector('.cal-mode').addEventListener('click', (e) => {
+  };
+  const pickMode = (e) => {
     const mode = e.target.closest('[data-cal-mode]')?.dataset.calMode;
     if (!mode) return;
     cal.mode = mode;
     if (mode === 'exact' && cal.end === cal.start) cal.end = '';
     paintCalendar();
-  });
+  };
+  months.addEventListener('click', pickDay);
+  wizardMonths?.addEventListener('click', pickDay);
+  for (const m of document.querySelectorAll('.cal-mode')) m.addEventListener('click', pickMode);
 
   $('cal-clear').addEventListener('click', () => { cal.start = cal.end = ''; applyCalendar(); });
   $('cal-ok').addEventListener('click', applyCalendar);
@@ -1222,19 +1225,33 @@ function setupCalendar() {
   });
 
   function applyCalendar() {
-    if (cal.mode === 'exact' && cal.start && !cal.end) return; // il manque le jour du retour
-    sEls.exact.checked = cal.mode === 'exact';
-    sEls.from.value = cal.start;
-    sEls.to.value = cal.end || cal.start;
-    updateWhenLabel();
-    updateFormHelp();
+    if (!commitCalendar()) return;
     dialog.close();
     if (readyToSearch()) runSearch();
   }
 }
 
+// Reporte les jours touchés dans la recherche ; false s'il manque le jour du retour (dates fixes).
+function commitCalendar() {
+  if (cal.mode === 'exact' && cal.start && !cal.end) return false;
+  sEls.exact.checked = cal.mode === 'exact';
+  sEls.from.value = cal.start;
+  sEls.to.value = cal.end || cal.start;
+  updateWhenLabel();
+  updateFormHelp();
+  return true;
+}
+
+// Fait défiler un calendrier jusqu'au mois du 1er jour choisi (ou du mois en cours).
+function scrollCalendar(months) {
+  const target = months.querySelector(`[data-day="${cal.start || isoDay(new Date())}"]`) || months.querySelector('.cal-day:not([disabled])');
+  const month = target?.closest('.cal-month');
+  months.scrollTop = 0; // pas scrollIntoView : il faisait défiler la page sur iPhone
+  if (month) months.scrollTop = month.getBoundingClientRect().top - months.getBoundingClientRect().top;
+}
+
 function paintCalendar() {
-  for (const btn of $('cal-months').querySelectorAll('.cal-day')) {
+  for (const btn of document.querySelectorAll('.cal-day')) {
     const d = btn.dataset.day;
     const end = cal.end || cal.start;
     btn.classList.toggle('is-start', d === cal.start);
@@ -1246,20 +1263,24 @@ function paintCalendar() {
   const ok = $('cal-ok');
   const exact = cal.mode === 'exact';
   for (const b of document.querySelectorAll('[data-cal-mode]')) b.setAttribute('aria-pressed', b.dataset.calMode === cal.mode);
+  let help;
   if (exact) {
     const n = cal.end ? nightsBetween(cal.start, cal.end) : 0;
-    $('cal-help').textContent = !cal.start
+    help = !cal.start
       ? "Touchez votre jour d'aller, puis votre jour de retour."
       : !cal.end ? `Aller le ${formatDayShort(cal.start)} : touchez maintenant votre jour de retour.`
       : `Aller ${formatDayShortWeek(cal.start)}, retour ${formatDayShortWeek(cal.end)} (${n} nuit${n > 1 ? 's' : ''}). S'il y a moins cher à 1 ou 2 jours près, on vous le dira.`;
   } else {
-    $('cal-help').textContent = !cal.start
+    help = !cal.start
       ? 'Touchez le premier et le dernier jour où vous êtes libre : on cherche les meilleurs départs et retours dans cette période.'
       : !cal.end ? `À partir du ${formatDayShort(cal.start)} : touchez maintenant le dernier jour où vous êtes libre.`
       : `Du ${formatDayShort(cal.start)} au ${formatDayShort(cal.end)} : on cherche les meilleurs départs et retours dans cette période.`;
   }
+  $('cal-help').textContent = help;
+  if ($('w-cal-help')) $('w-cal-help').textContent = help;
   ok.disabled = exact && Boolean(cal.start) && !cal.end;
   ok.textContent = !cal.start ? "N'importe quand" : ok.disabled ? 'Choisissez le retour' : 'Valider';
+  if (typeof wizardUpdate === 'function') wizardUpdate();
 }
 
 function updateWhenLabel() {

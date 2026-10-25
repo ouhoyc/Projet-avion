@@ -40,6 +40,12 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
     chaque prix (`.tc-pax`) : une testeuse avait choisi la durée puis fait défiler sans voir les
     pastilles du haut. Chaque réglage se touche et ouvre son panneau (`data-recap`).
   - Pastille Voyageurs : « 1 adulte » / « 1 enfant » sur deux lignes sur téléphone (`showPax()`).
+  - **Parcours d'accueil (25/10/2026, demande du propriétaire)** : à chaque nouvelle visite (nouvel onglet,
+    `sessionStorage` `parcours-vu`), un écran par question : 1. dates (« J'ai mes dates » / « Je suis flexible »),
+    2. durée (sautée avec des dates fixes), 3. voyageurs, 4. budget (champ libre, facultatif), 5. une idée de lieu
+    (facultatif, « Surprenez-moi »). `wizard.js` + `#wizard` dans `index.html` ; remplit les mêmes champs que les
+    pastilles (calendrier partagé : `commitCalendar`, `paintCalendar` ; voyageurs : `paxInline` dans `voyageurs.js` ;
+    lieux : `matchPlaces`). La croix ferme et montre le site. Exception voulue à « pas de panneau qui s'ouvre tout seul ».
   - **Dates (25/10/2026)** : le calendrier demande d'abord « J'ai mes dates » (par défaut : aller et retour précis, pas
     de durée à choisir, case cachée `#s-exact`) ou « Je suis flexible » (période + durée, comme avant). Avec des dates
     fixes, chaque fiche porte « Vos dates » (vert) ; s'il y a moins cher en partant/rentrant jusqu'à 2 jours avant ou

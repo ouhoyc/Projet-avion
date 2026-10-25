@@ -32,16 +32,11 @@ function paxLabel(p) {
   return n ? `${a}, ${n} enfant${n > 1 ? 's' : ''}` : a;
 }
 
-// Ouvre la fenêtre de choix dans un <dialog> vide ; onDone(p) est appelé à la validation.
-function paxOpen(dialog, onDone) {
-  const p = structuredClone(paxGet());
+// Lignes Adultes / Enfants (+ âge de chaque enfant), communes à la fenêtre et au parcours d'accueil.
+function paxRowsHtml(p) {
   const ageOptions = (sel) => Array.from({ length: 18 }, (_, i) =>
     `<option value="${i}"${i === sel ? ' selected' : ''}>${i === 0 ? 'moins de 1 an' : `${i} an${i > 1 ? 's' : ''}`}</option>`).join('');
-  const render = () => {
-    dialog.innerHTML = `
-      <div class="pax-body">
-        <h2 class="pax-title">Qui part ?</h2>
-        <p class="pax-help">Les prix des activités sont calculés pour tout le groupe (tarifs enfants compris).</p>
+  return `
         <div class="pax-row">
           <span><b>Adultes</b><small>18 ans et plus</small></span>
           <span class="pax-step">
@@ -61,21 +56,35 @@ function paxOpen(dialog, onDone) {
         ${p.children.map((age, i) => `
           <label class="pax-age">Âge de l'enfant ${i + 1}
             <select data-age="${i}">${ageOptions(age)}</select>
-          </label>`).join('')}
+          </label>`).join('')}`;
+}
+
+// Bouton + / − : renvoie true si le groupe a changé.
+function paxStep(p, step) {
+  if (!step) return false;
+  const [who, d] = step.split(':');
+  if (who === 'a') p.adults = Math.max(1, p.adults + Number(d));
+  else if (d === '1') p.children.push(8);
+  else p.children.pop();
+  return true;
+}
+
+// Ouvre la fenêtre de choix dans un <dialog> vide ; onDone(p) est appelé à la validation.
+function paxOpen(dialog, onDone) {
+  const p = structuredClone(paxGet());
+  const render = () => {
+    dialog.innerHTML = `
+      <div class="pax-body">
+        <h2 class="pax-title">Qui part ?</h2>
+        <p class="pax-help">Les prix des activités sont calculés pour tout le groupe (tarifs enfants compris).</p>
+        ${paxRowsHtml(p)}
         <button type="button" class="pax-ok" data-ok>Valider</button>
       </div>`;
   };
   render();
   dialog.onclick = (e) => {
     if (e.target === dialog) return dialog.close();
-    const step = e.target.closest('[data-step]')?.dataset.step;
-    if (step) {
-      const [who, d] = step.split(':');
-      if (who === 'a') p.adults = Math.max(1, p.adults + Number(d));
-      else if (d === '1') p.children.push(8);
-      else p.children.pop();
-      render();
-    }
+    if (paxStep(p, e.target.closest('[data-step]')?.dataset.step)) render();
     if (e.target.closest('[data-ok]')) {
       paxSave(p);
       dialog.close();
@@ -87,4 +96,18 @@ function paxOpen(dialog, onDone) {
     if (i != null) p.children[i] = Number(e.target.value);
   };
   dialog.showModal();
+}
+
+// Même choix, affiché dans la page (parcours d'accueil) : gardé à chaque changement.
+function paxInline(container, onChange) {
+  const p = structuredClone(paxGet());
+  const render = () => { container.innerHTML = paxRowsHtml(p); };
+  render();
+  container.onclick = (e) => {
+    if (paxStep(p, e.target.closest('[data-step]')?.dataset.step)) { render(); paxSave(p); onChange?.(p); }
+  };
+  container.onchange = (e) => {
+    const i = e.target.dataset.age;
+    if (i != null) { p.children[i] = Number(e.target.value); paxSave(p); onChange?.(p); }
+  };
 }

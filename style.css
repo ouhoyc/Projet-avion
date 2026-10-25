@@ -1112,3 +1112,48 @@ html:has(dialog[open]) { overflow: hidden; }
 .tc-suggest.is-back { background: rgba(255, 255, 255, .08); border-color: rgba(255, 255, 255, .3); }
 .tc-suggest.is-back .icon { color: #fff; }
 
+
+/* Parcours d'accueil (wizard.js) : plein écran sur téléphone, fenêtre centrée sur ordinateur */
+.wizard {
+  width: 100%; max-width: 100%; height: 100vh; height: 100dvh; max-height: none; margin: 0; padding: 16px 18px calc(16px + env(safe-area-inset-bottom));
+  border: 0; background: var(--bg, #fbf6ee); color: var(--ink, #14213d);
+  display: none; flex-direction: column; gap: 14px; overflow: hidden;
+}
+.wizard[open] { display: flex; }
+.wizard::backdrop { background: rgba(10, 15, 28, .55); }
+@media (min-width: 700px) {
+  .wizard { max-width: 520px; height: min(760px, 92dvh); margin: auto; border: 2px solid var(--ink, #14213d); border-radius: 24px; box-shadow: 6px 6px 0 var(--ink, #14213d); }
+}
+.w-top { display: flex; align-items: center; gap: 12px; }
+.w-round { flex: none; display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 2px solid var(--ink, #14213d); border-radius: 50%; background: #fff; color: var(--ink, #14213d); cursor: pointer; }
+.w-round[hidden] { visibility: hidden; display: grid; }
+.w-round[data-w-back] .icon { transform: rotate(90deg); }
+.w-bar { flex: 1; height: 8px; border-radius: 99px; background: #efe6d6; overflow: hidden; }
+.w-bar i { display: block; height: 100%; border-radius: 99px; background: var(--coral, #ff6b4a); transition: width .3s; }
+.w-count { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--text-muted); }
+.w-step { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 12px; overflow-y: auto; }
+.w-step[hidden] { display: none; }
+.w-title { margin: 0; font-size: 30px; line-height: 1.05; font-weight: 800; letter-spacing: -.02em; }
+.w-help { margin: 0; font-size: 15px; color: var(--text-muted); line-height: 1.4; }
+.w-step .cal-months { flex: 1; min-height: 160px; }
+.w-opts { display: grid; gap: 10px; }
+.w-opts button {
+  display: grid; gap: 2px; padding: 14px 16px; text-align: left; font: inherit; font-size: 18px; font-weight: 800;
+  color: var(--ink, #14213d); background: #fff; border: 2px solid var(--ink, #14213d); border-radius: 16px; box-shadow: 3px 3px 0 var(--ink, #14213d); cursor: pointer;
+}
+.w-opts button small { font-size: 14px; font-weight: 500; color: var(--text-muted); }
+.w-opts button[aria-pressed="true"] { background: var(--ink, #14213d); color: #fff; box-shadow: none; transform: translate(3px, 3px); }
+.w-opts button[aria-pressed="true"] small { color: rgba(255, 255, 255, .75); }
+.w-pax { background: #fff; border: 2px solid var(--ink, #14213d); border-radius: 16px; padding: 4px 16px; }
+.w-pax .pax-row:last-child, .w-pax .pax-age:last-child { border-bottom: 0; }
+.w-where { width: 100%; padding: 14px 16px; font: inherit; font-size: 17px; color: var(--ink, #14213d); background: #fff; border: 2px solid var(--ink, #14213d); border-radius: 16px; }
+.w-where-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.w-where-list button { display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 12px; font: inherit; font-size: 16px; font-weight: 600; text-align: left; color: var(--ink, #14213d); background: #fff; border: 1.5px solid var(--border, #e5dccb); border-radius: 12px; cursor: pointer; }
+.w-where-list button small { margin-left: auto; font-weight: 500; color: var(--text-muted); }
+.w-where-list .flag-img { width: 22px; height: auto; border-radius: 2px; }
+.w-where-chosen { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border-radius: 12px; background: var(--ink, #14213d); color: #fff; font-weight: 700; }
+.w-where-chosen button { width: auto; padding: 0; border: 0; background: none; color: #fff; text-decoration: underline; font-size: 14px; }
+.w-foot { display: grid; gap: 6px; }
+.w-foot #w-next:disabled { opacity: .55; cursor: default; }
+.w-foot .btn-text { text-decoration: underline; font-weight: 700; color: var(--ink, #14213d); }
+.w-foot .btn-text[hidden] { display: none; }

@@ -299,8 +299,9 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   prenait pour une période (Barcelone du 13 au 15 pour « 13 → 16 »). Choix du propriétaire (options A + B) : le
   calendrier demande « J'ai mes dates » ou « Je suis flexible » ; avec des dates fixes, on montre les vols à ces dates
   et on suggère moins cher à 1-2 jours près, sans l'imposer.
-- 💡 (25/10/2026) **Parcours guidé à l'arrivée** demandé par le propriétaire : 1. dates ou période, 2. durée (si dates
-  flexibles), 3. voyageurs, 4. budget (facultatif), 5. une idée de lieu (facultatif). Maquette à montrer avant de coder.
+- ✅ (25/10/2026) **Parcours guidé à l'arrivée** (choix du propriétaire) : à chaque nouvelle visite, 1. dates ou
+  période, 2. durée (si dates flexibles), 3. voyageurs, 4. budget (champ libre, facultatif), 5. une idée de lieu
+  (facultatif), puis les résultats ; style actuel (à reprendre avec la direction artistique de Vaya).
 - ✅ (25/10/2026) Encadré « À savoir avant de partir » en **fond rouge, texte blanc** (demande du propriétaire : l'orange
   pâle ne se remarquait pas). Koutaïssi : « assurance voyage » précisé (la carte Vitale ne marche pas en Géorgie).
 - ✅ (25/10/2026) **Page guide de Koutaïssi** (`guides/KUT.json`, champ `ville` : pas de vol en ce moment), préparée en

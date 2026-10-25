@@ -248,9 +248,61 @@
 
 
   <!-- Carte vectorielle (noms en français, couleurs du site) -->
+  <!-- Parcours d'accueil (à chaque nouvelle visite) : une question par écran, puis les résultats.
+       wizard.js ; les réponses remplissent les mêmes champs que les pastilles. -->
+  <dialog class="wizard" id="wizard" aria-labelledby="w-title">
+    <div class="w-top">
+      <button type="button" class="w-round" data-w-back aria-label="Question précédente"><svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+      <div class="w-bar" aria-hidden="true"><i id="w-bar"></i></div>
+      <button type="button" class="w-round" data-w-close aria-label="Fermer et voir le site"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <p class="w-count" id="w-count"></p>
+    <section class="w-step" data-wstep="1">
+      <h2 class="w-title" id="w-title">Quand partez-vous ?</h2>
+      <div class="cal-mode" role="group" aria-label="Vos dates">
+        <button type="button" data-cal-mode="exact" aria-pressed="true">J'ai mes dates<small>Aller et retour précis</small></button>
+        <button type="button" data-cal-mode="flex" aria-pressed="false">Je suis flexible<small>Le moins cher sur une période</small></button>
+      </div>
+      <p class="cal-help" id="w-cal-help"></p>
+      <div class="cal-weekdays" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+      <div class="cal-months" id="w-cal-months"></div>
+    </section>
+    <section class="w-step" data-wstep="2" hidden>
+      <h2 class="w-title">Combien de temps sur place ?</h2>
+      <p class="w-help" id="w-stay-help"></p>
+      <div class="w-opts">
+        <button type="button" data-w-stay="1-1">Une nuit<small>1 nuit</small></button>
+        <button type="button" data-w-stay="2-4">Court séjour<small>2 à 4 nuits</small></button>
+        <button type="button" data-w-stay="5-8">Une semaine<small>5 à 8 nuits</small></button>
+        <button type="button" data-w-stay="9-21">Plus long<small>9 nuits ou plus</small></button>
+      </div>
+    </section>
+    <section class="w-step" data-wstep="3" hidden>
+      <h2 class="w-title">Qui part ?</h2>
+      <p class="w-help">Les prix sont calculés pour tout le groupe.</p>
+      <div class="w-pax" id="w-pax"></div>
+    </section>
+    <section class="w-step" data-wstep="4" hidden>
+      <h2 class="w-title">Un budget en tête ?</h2>
+      <p class="w-help" id="w-budget-help"></p>
+      <div class="euro-input"><input type="number" id="w-budget" min="10" step="10" inputmode="numeric" placeholder="Pas de limite" aria-label="Budget maximum en euros"><span aria-hidden="true">€</span></div>
+    </section>
+    <section class="w-step" data-wstep="5" hidden>
+      <h2 class="w-title">Une idée de destination ?</h2>
+      <p class="w-help">Une ville, un pays… ou laissez-nous vous surprendre.</p>
+      <input type="text" class="w-where" id="w-where" placeholder="Ex. Italie, Barcelone…" autocomplete="off" aria-label="Ville ou pays">
+      <ul class="w-where-list" id="w-where-list"></ul>
+    </section>
+    <div class="w-foot">
+      <button type="button" class="btn btn-primary btn-block" id="w-next">Suivant</button>
+      <button type="button" class="btn btn-text" id="w-skip"></button>
+    </div>
+  </dialog>
+
   <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="voyageurs.js"></script>
   <script src="app.js"></script>
   <script src="search.js"></script>
+  <script src="wizard.js"></script>
 </body>
 </html>
