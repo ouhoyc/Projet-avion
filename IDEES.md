@@ -295,6 +295,10 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
   obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
   (8 €) et Tirana (4 €), comme le prix de l'activité du club local.
+- ✅ (25/10/2026) **Forfait Vercel « Deployment storage » à 100 %** (10 Go gratuits ; une copie du site ≈ 180 Mo, plus de
+  200 mises en ligne en octobre, et une copie gardée par branche GitHub). Fait : copies d'essai des branches désactivées
+  (seule `main` est mise en ligne), photos recompressées (182 → 152 Mo, qualité 72). À faire par le propriétaire :
+  supprimer sur GitHub les 9 vieilles branches (toutes inutiles : déjà dans `main` ou brouillons de villes terminées).
 - ✅ (25/10/2026) **Dates fixes ou flexibles** : les clients croyaient donner leurs dates exactes alors que le site les
   prenait pour une période (Barcelone du 13 au 15 pour « 13 → 16 »). Choix du propriétaire (options A + B) : le
   calendrier demande « J'ai mes dates » ou « Je suis flexible » ; avec des dates fixes, on montre les vols à ces dates
