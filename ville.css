@@ -286,8 +286,8 @@ body:not([data-step="1"]) .v-hero h1 { font-size: 30px; }
 .c-opt { font-size: 12px; font-weight: 700; background: var(--soft); border-radius: 999px; padding: 2px 9px; vertical-align: middle; letter-spacing: 0; }
 .c-sub { margin: -4px 0 12px; font-size: 14px; color: var(--muted); }
 .c-note { font-size: 14px; color: var(--muted); margin: 12px 0 0; }
-.v-info { margin: 14px 0 0; padding: 12px 14px; border: 2px solid var(--ink, #14213d); border-radius: 14px; background: #fff4e6; font-size: 15px; line-height: 1.45; }
-.v-info b { display: block; margin-bottom: 2px; }
+.v-info { margin: 14px 0 0; padding: 12px 14px; border: 2px solid var(--ink, #14213d); border-radius: 14px; background: #d62839; color: #fff; font-size: 15px; line-height: 1.45; }
+.v-info b { display: block; margin-bottom: 2px; font-size: 16px; text-transform: uppercase; letter-spacing: .02em; }
 .muted { color: var(--muted); }
 body { padding-bottom: 130px; }
 

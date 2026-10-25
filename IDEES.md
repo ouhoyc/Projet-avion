@@ -275,6 +275,8 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
   obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
   (8 €) et Tirana (4 €), comme le prix de l'activité du club local.
+- ✅ (25/10/2026) Encadré « À savoir avant de partir » en **fond rouge, texte blanc** (demande du propriétaire : l'orange
+  pâle ne se remarquait pas). Koutaïssi : « assurance voyage » précisé (la carte Vitale ne marche pas en Géorgie).
 - ✅ (25/10/2026) **Page guide de Koutaïssi** (`guides/KUT.json`, champ `ville` : pas de vol en ce moment), préparée en
   autonomie : 20 activités (Bagrati, Gelati, Motsameta, pont Blanc, fontaine de Colchide, téléphérique, musée, jardin
   botanique, quartier juif, dîner chez Baia ; grotte de Prométhée, Sataplia, canyons de Martvili et d'Okatse, Kinchkha,
