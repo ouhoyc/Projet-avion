@@ -102,3 +102,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   `geoCategory/59964` (géo 9649), 107 listes, ~1 700 lieux. Sites bloqués d'ici : fine-arts-museum.be (Beaux-Arts,
   Magritte), minieurope.com (403) ; Michelin renvoie 202 (passer par la presse : DH, La Libre). Tiqets Bruxelles :
   `activites-attractions-bruxelles-c60843`. Musée Horta : prix seulement dans la billetterie (JavaScript).
+- Koutaïssi (oct. 2026) : recherche de fichiers Commons en HTML (`ns6=1`) + `thumb.php?w=330/960` ; des recherches renvoient
+  0 résultat par vagues (« 429 » masqué) : relancer plus tard. Wanderlog : départ `geoCategory/199455`, seulement 12 listes ;
+  compléter par Google Maps en affichage limité (quadrillage 7×11 points). Prix : site officiel `kutaisi.travel` (musées,
+  horaires), menus en lari sur Glovo (`glovoapp.com/en/ge/kutaisi/stores/<nom>`, champ `\"price\"`), aires protégées via
+  maspindzeli.ge / thegeorgianguide.com (apa.gov.ge illisible). Gault & Millau Géorgie : `ge.gaultmillau.com` (Playwright).
+

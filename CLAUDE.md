@@ -216,7 +216,8 @@ de la ville, `update` de `{"fait": true, "date": "JJ/MM/AAAA"}` ; lire le docume
    écrire en 2-3 phrases ce qu'il faut à un Français : passeport ou carte d'identité, validité, visa ou autorisation en
    ligne (prix, délai, enfants). Rien pour les pays de l'Union européenne. Déjà prévus : Royaume-Uni (ETA 20 £), Israël
    (ETA-IL), Canada (AVE), Égypte (visa 30 $), Jordanie (visa ou Jordan Pass), Arabie saoudite (e-visa), Algérie (visa),
-   Tunisie, Maroc, Sénégal, Dubaï, Arménie (passeport) ; Turquie (carte d'identité valable 150 jours).
+   Tunisie, Maroc, Sénégal, Dubaï, Arménie (passeport) ; Turquie (carte d'identité valable 150 jours) ; Géorgie (carte
+   d'identité, assurance maladie obligatoire).
 4. **Hôtels** : `quartiers` dans le guide (5 environ, avec position et texte) ; la recherche se
    fait dans toute la ville (LiteAPI). Point conseillé (`idealQuartier`, `ville.js`) : le milieu
    des activités cochées s'il est à moins de 800 m d'un quartier du guide (« Près de … », hôtels

@@ -275,6 +275,17 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   affiché à l'étape Vol dans un encadré « À savoir avant de partir » ; rempli pour Alger, Annaba et Oran (visa
   obligatoire pour les Français, ≈ 110 €, dépôt au consulat, compter jusqu'à 3 semaines). `prix_match` ajouté à Tunis
   (8 €) et Tirana (4 €), comme le prix de l'activité du club local.
+- ✅ (25/10/2026) **Page guide de Koutaïssi** (`guides/KUT.json`, champ `ville` : pas de vol en ce moment), préparée en
+  autonomie : 20 activités (Bagrati, Gelati, Motsameta, pont Blanc, fontaine de Colchide, téléphérique, musée, jardin
+  botanique, quartier juif, dîner chez Baia ; grotte de Prométhée, Sataplia, canyons de Martvili et d'Okatse, Kinchkha,
+  excursion organisée « canyons et grotte » ; sanatoriums et bain de la source n° 6 de Tskaltoubo ; Chiatoura et pilier de
+  Katskhi ; match du Torpedo), 18 restaurants (note pondérée, C = 4,51, ~240 lieux lus sur Google Maps + 135 via 12 listes
+  Wanderlog ; Gault & Millau Géorgie : Palaty 2 toques, Paolo sélection 2026 ; pas de Michelin en Géorgie), 5 quartiers,
+  formalités (carte d'identité ou passeport, **assurance maladie obligatoire** depuis 2026, 30 000 lari). Prix des aires
+  protégées relevés pour avril 2026 (Prométhée et Martvili 40 lari, Sataplia et Okatse 30, Kinchkha 20 ; 1 € ≈ 2,91 lari).
+  **Réseaux sociaux (Apify) sautés** (petite destination) : badges tendance d'après les guides (Wander-Lush, Wanderlog).
+  Écartés : Sisters et El Depo (note 4,2, service en baisse), Sormoni (fermé l'hiver, prix flous). Prix estimé : match du
+  Torpedo (billetterie géorgienne illisible d'ici). Sanatorium Medea fermé depuis un accident en juillet 2026.
 - ✅ (24/10/2026) **Page guide de Bruxelles** (`guides/BRU.json`), préparée en autonomie : 27 activités (tendance :
   Grand-Place, Atomium, fresques BD ; musées Old Masters, Magritte, Horta, BD, MIM, Sciences naturelles ; Cantillon,
   Belgian Beer World, Toone ; match d'Anderlecht ; excursions Bruges, Gand, Waterloo), 18 restaurants (note pondérée,

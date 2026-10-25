@@ -1,0 +1,1410 @@
+{
+  "city_code": "KUT",
+  "ville": "Koutaïssi",
+  "statut": "vérifié en autonomie, prix relevés le 25/10/2026 (1 € ≈ 2,91 lari)",
+  "verifie_le": "2026-10-25",
+  "avant_de_partir": "Pas de visa pour les Français jusqu'à un an : la carte d'identité ou le passeport suffit, valable pendant tout le séjour (préférez le passeport si votre carte est « prolongée » de 5 ans). Depuis 2026, une assurance maladie et accident est obligatoire : attestation en anglais, couverture d'au moins 30 000 lari (≈ 10 000 €), qui peut être contrôlée à la frontière avec votre billet retour et votre réservation d'hôtel.",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "bagrati",
+      "nom": "Cathédrale de Bagrati",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Colline d'Oukimérioni (rive droite)",
+      "lat": 42.277233,
+      "lng": 42.704297,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min à 1 h",
+      "moment": "En fin de journée, quand la pierre devient dorée et que la ville s'allume en contrebas",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le symbole de Koutaïssi : une cathédrale de l'an 1003 posée sur la colline qui domine la Rioni, avec son dôme vert pâle visible de toute la ville. Elle a été le siège des rois de Géorgie unifiée ; aujourd'hui, on monte à pied depuis le centre par les ruelles de la rive droite et la vue sur les toits et les montagnes du Caucase vaut à elle seule la balade.",
+      "site_officiel": "https://kutaisi.travel/en/category/where-to-go/what-to-see/historic-monument/",
+      "note": "Ouverte tous les jours de 9 h à 21 h. Église en activité : épaules et genoux couverts, foulard pour les femmes (prêté à l'entrée). Comptez 15 minutes de montée depuis la fontaine de Colchide.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Marcin Konsek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2014_Kutaisi%2C_Katedra_Bagrati_%2825%29.jpg",
+        "src": "img/activites/KUT/bagrati.jpg"
+      }
+    },
+    {
+      "id": "gelati",
+      "nom": "Monastère de Gelati (UNESCO)",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Gelati (11 km au nord-est)",
+      "lat": 42.29466,
+      "lng": 42.768109,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Taxi aller-retour depuis le centre (avec attente)",
+          "≈ 30 à 40 lari (≈ 10 à 14 €) la voiture"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30 (2 h 30 avec le trajet)",
+      "moment": "Le matin, avant les groupes ; à combiner avec Motsameta, à 6 km",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Fondé en 1106 par le roi David le Bâtisseur, qui y est enterré, Gelati fut à la fois un monastère et une académie où l'on enseignait la philosophie et l'astronomie. Sous les coupoles, des mosaïques d'or du XIIe siècle et des fresques qui couvrent chaque mur : l'un des plus beaux ensembles médiévaux du Caucase, classé à l'UNESCO, dans un écrin de collines boisées.",
+      "site_officiel": "https://kutaisi.travel/en/5438/gelati-monastery-en/",
+      "note": "Ouvert tous les jours de 9 h à 18 h. Tenue couverte (jupes et foulards prêtés à l'entrée). Le minibus n° 1 part de la gare routière pour 1 lari environ, mais le taxi (Bolt) est plus simple.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ihor Burliai",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gelati_Monastery_1.jpg",
+        "src": "img/activites/KUT/gelati.jpg"
+      }
+    },
+    {
+      "id": "motsameta",
+      "nom": "Monastère de Motsameta",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Gorges de la Tskhaltsitela (6 km)",
+      "lat": 42.2822551,
+      "lng": 42.7589456,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Sur la route de Gelati, en fin d'après-midi",
+      "enfants": true,
+      "texte": "Un petit monastère accroché à une falaise, au-dessus d'un méandre de la rivière, que l'on rejoint par un pont de pierre et un escalier dans la verdure. Il garde les reliques de deux frères princes martyrs du VIIIe siècle ; la tradition veut qu'on passe trois fois sous leur reliquaire en faisant un vœu. Le lieu le plus paisible des environs.",
+      "site_officiel": "https://kutaisi.travel/en/category/where-to-go/what-to-see/historic-monument/",
+      "note": "Ouvert de 9 h à 18 h. Même tenue qu'à Gelati. Un taxi Gelati + Motsameta depuis le centre coûte environ 40 à 50 lari (≈ 14 à 17 €) avec l'attente.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Marcin Konsek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2014_Imeretia%2C_Mocameta%2C_Klasztor_Mocameta_%2804%29.jpg",
+        "src": "img/activites/KUT/motsameta.jpg"
+      }
+    },
+    {
+      "id": "vieille-ville",
+      "nom": "Le pont Blanc et les bords de la Rioni",
+      "emoji": "🌉",
+      "type": "balade",
+      "quartier": "Vieille ville",
+      "lat": 42.268724,
+      "lng": 42.700369,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "En fin d'après-midi, puis dîner dans une des cours de la rue Tsisperi Kantselebi",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le cœur photogénique de Koutaïssi : le pont Blanc de 1872 et sa statue de garçon assis sur la rambarde, la rivière qui roule sur les galets, les maisons à balcons de bois et les ruelles de la rive gauche où s'alignent cafés et restaurants. Prolongez par le pont Rouge, le quartier juif et ses synagogues, puis remontez vers Bagrati.",
+      "site_officiel": "https://kutaisi.travel/en/category/where-to-go/what-to-see/",
+      "note": "Le pont et le boulevard sont éclairés le soir. Les pavés sont glissants par temps de pluie.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kober",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Downtown_Kutaisi_%26_White_Bridge_as_seen_from_Mt_Gora_%28August_2011%29-cropped.jpg",
+        "src": "img/activites/KUT/vieille-ville.jpg"
+      }
+    },
+    {
+      "id": "fontaine",
+      "nom": "Place centrale et fontaine de Colchide",
+      "emoji": "⛲",
+      "type": "balade",
+      "quartier": "Centre",
+      "lat": 42.271482,
+      "lng": 42.705486,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès à la place",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Le soir, quand la fontaine est illuminée",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une grande fontaine couverte de trente statues dorées, copies agrandies de bijoux antiques trouvés dans la région : un clin d'œil à la Toison d'or, que Jason et les Argonautes venaient chercher ici, au royaume de Colchide. Autour : le théâtre, l'opéra, le parc central et le marché vert à cinq minutes.",
+      "site_officiel": "https://kutaisi.travel/en/5475/colchis-fountain-en-2/",
+      "note": "Le bureau d'information touristique de la ville est sur la place (plans gratuits, horaires des minibus).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Franzfoto",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kutaisi_-_Springbrunnen_vor_der_Oper.JPG",
+        "src": "img/activites/KUT/fontaine.jpg"
+      }
+    },
+    {
+      "id": "telepherique",
+      "nom": "Téléphérique et grande roue du parc Gabashvili",
+      "emoji": "🚡",
+      "type": "vue",
+      "quartier": "Vieille ville",
+      "lat": 42.26962,
+      "lng": 42.700806,
+      "prix": 1,
+      "prix_detail": [
+        [
+          "Téléphérique (un trajet)",
+          "3 lari (≈ 1 €)"
+        ],
+        [
+          "Grande roue et manèges du parc",
+          "2 à 5 lari (≈ 1 à 2 €) chacun"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets au guichet, en espèces",
+      "duree": "1 h",
+      "moment": "En fin de journée, pour le coucher du soleil sur la ville",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une petite cabine de 1961 qui survole la Rioni depuis la vieille ville jusqu'au parc d'attractions Besik Gabashvili, sur la colline. Là-haut : une grande roue un peu rétro, des manèges et le plus beau panorama de Koutaïssi, avec Bagrati en face et le Caucase par temps clair. Un moment simple et charmant, pour quelques lari.",
+      "site_officiel": "https://kutaisi.travel/en/category/where-to-go/what-to-see/",
+      "note": "Départ près du pont Blanc. Horaires variables selon la saison (en général de midi à 20 h) ; tous les manèges ne tournent pas toujours. Prévoyez des espèces.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Alexkom000",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2025-06-21_Rustaveli_Bridge%2C_Kutaisi.jpg",
+        "src": "img/activites/KUT/telepherique.jpg"
+      }
+    },
+    {
+      "id": "musee",
+      "nom": "Musée d'histoire de Koutaïssi",
+      "emoji": "🏺",
+      "type": "culture",
+      "quartier": "Centre",
+      "lat": 42.26871,
+      "lng": 42.704044,
+      "prix": 2,
+      "prix_detail": [
+        [
+          "Adulte",
+          "5 lari (≈ 2 €)"
+        ],
+        [
+          "Étudiant",
+          "3 lari (≈ 1 €)"
+        ],
+        [
+          "Enfant scolarisé",
+          "2 lari (≈ 0,70 €)"
+        ],
+        [
+          "Visite guidée en anglais",
+          "15 lari (≈ 5 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            17,
+            1
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets à l'entrée, en espèces",
+      "duree": "1 h",
+      "moment": "Un après-midi chaud ou pluvieux",
+      "enfants": true,
+      "texte": "Les trésors de l'ancienne Colchide : bijoux d'or, bronzes de l'âge du fer et surtout une salle d'orfèvrerie religieuse, avec des icônes émaillées et des croix d'argent venues des églises d'Iméréthie. Un musée à l'ancienne, mais qui donne tout son sens à la fontaine de Colchide et à Gelati.",
+      "site_officiel": "https://kutaisi.travel/en/5642/kutaisi-state-historical-museum-ka/",
+      "note": "Ouvert tous les jours de 10 h à 18 h. Certaines salles restent fermées.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Herbert Frank from Wien (Vienna), AT",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:%E1%83%A5%E1%83%A3%E1%83%97%E1%83%90%E1%83%98%E1%83%A1%E1%83%98_Kutaisi_State_Historical_Museum_%2848731408277%29.jpg",
+        "src": "img/activites/KUT/musee.jpg"
+      }
+    },
+    {
+      "id": "botanique",
+      "nom": "Jardin botanique",
+      "emoji": "🌳",
+      "type": "balade",
+      "quartier": "Rive droite (nord)",
+      "lat": 42.27915,
+      "lng": 42.711247,
+      "prix": 1,
+      "prix_detail": [
+        [
+          "Entrée",
+          "1 à 5 lari (≈ 0,50 à 2 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 1,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet à l'entrée",
+      "duree": "1 h",
+      "moment": "Le matin, en combinant avec Bagrati, à 15 minutes à pied",
+      "enfants": true,
+      "texte": "Un jardin de 1840 un peu sauvage, au bord de la Rioni : allées ombragées, plantes subtropicales de toute la Colchide et une curiosité unique, une petite chapelle aménagée dans le tronc d'un chêne centenaire. Une parenthèse fraîche et calme en été, loin de la circulation.",
+      "site_officiel": "https://kutaisi.travel/en/category/where-to-go/what-to-see/",
+      "note": "Ouvert de 9 h 30 à 18 h. Le prix affiché à l'entrée a varié ces dernières années (1 à 5 lari) : prévoyez quelques pièces.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mikelada",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:%E1%83%A5%E1%83%A3%E1%83%97%E1%83%90%E1%83%98%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%91%E1%83%9D%E1%83%A2%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%91%E1%83%90%E1%83%A6%E1%83%98_01.jpg",
+        "src": "img/activites/KUT/botanique.jpg"
+      }
+    },
+    {
+      "id": "synagogue",
+      "nom": "Le quartier juif et ses synagogues",
+      "emoji": "🕍",
+      "type": "culture",
+      "quartier": "Rive droite (rue Gaponov)",
+      "lat": 42.27412,
+      "lng": 42.709132,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Visite",
+          "gratuit (don apprécié)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "En semaine, à l'heure de l'office du soir (20 h) ou le samedi matin",
+      "enfants": true,
+      "texte": "Koutaïssi a abrité l'une des plus anciennes communautés juives du monde, installée en Géorgie depuis plus de 2 000 ans. Rue Gaponov, la grande synagogue de 1886, façade de pierre claire et intérieur entièrement peint, témoigne de cette histoire. Une rue tranquille de maisons basses, à deux pas de la fontaine de Colchide.",
+      "site_officiel": "https://kutaisi.travel/en/5472/synagogue-en/",
+      "note": "Lieu de culte : ouvert surtout aux heures des offices (en semaine 8 h-10 h et 20 h-22 h, samedi 9 h-12 h). Tenue correcte ; kippa prêtée aux hommes.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Marcin Konsek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2014_Kutaisi%2C_Wielka_Synagoga_%2801%29.jpg",
+        "src": "img/activites/KUT/synagogue.jpg"
+      }
+    },
+    {
+      "id": "vin",
+      "nom": "Dîner et dégustation chez Baia, vigneronne d'Iméréthie",
+      "emoji": "🍷",
+      "type": "sortir",
+      "quartier": "Meore Obcha (35 km au sud)",
+      "lat": 42.1094786,
+      "lng": 42.8929394,
+      "prix": 24,
+      "prix_detail": [
+        [
+          "Excursion « Wine & Dine » depuis Koutaïssi (transport, visite de la cave, dégustation et repas)",
+          "à partir de 70 lari (≈ 24 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 24,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, auprès de l'agence Budget Georgia (bureau 2, rue Gelati) ou de la cave par WhatsApp",
+      "duree": "4 h",
+      "moment": "En fin d'après-midi ; possible le jour du départ, avant un vol du soir",
+      "enfants": false,
+      "texte": "La Géorgie fait du vin depuis 8 000 ans, en jarres de terre enterrées, les qvevri. Chez Baia Abuladze, jeune vigneronne repérée par Forbes, on visite la cave familiale, on goûte des vins ambrés d'Iméréthie en bio et la chacha maison, puis on passe à table pour un repas de village préparé par sa famille. Le meilleur de l'hospitalité géorgienne.",
+      "site_officiel": "https://baiaswine.com/",
+      "note": "Le prix affiché est celui de l'excursion en groupe ; une visite privée en voiture coûte plus cher.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mesashunawines",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Qvevri_Mesashunawines.jpg",
+        "src": "img/activites/KUT/vin.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "prometheus",
+      "nom": "Grotte de Prométhée",
+      "emoji": "🦇",
+      "type": "nature",
+      "quartier": "Koumistavi (20 km au nord-ouest)",
+      "lat": 42.3756316,
+      "lng": 42.5979274,
+      "prix": 14,
+      "prix_detail": [
+        [
+          "Adulte (étranger), visite guidée",
+          "40 lari (≈ 14 €)"
+        ],
+        [
+          "6 à 18 ans",
+          "5,50 lari (≈ 2 €)"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ],
+        [
+          "Option : barque sur la rivière souterraine (15 min)",
+          "30 lari (≈ 10 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets à l'entrée seulement ; la barque se prend avec le billet d'entrée",
+      "duree": "1 h 30 (visite d'1 h)",
+      "moment": "Tôt le matin (ouverture à 10 h) ou en milieu d'après-midi ; arrivez avant 16 h",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un kilomètre et demi de salles géantes éclairées en couleurs, avec stalactites, rideaux de pierre, rivière et lacs souterrains : la plus belle grotte de Géorgie. La visite guidée suit des passerelles faciles et peut finir en barque sur la rivière souterraine, jusqu'à la sortie. Il y fait 14 °C toute l'année : parfait quand il fait chaud dehors.",
+      "site_officiel": "https://apa.gov.ge/en/",
+      "note": "Ouverte tous les jours de 10 h à 17 h. Prenez une petite laine. La barque ne circule pas quand l'eau est haute (sans remboursement). Minibus depuis Koutaïssi ou taxi (≈ 30 lari).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Roberto Strauss from Frankfurt am Main, Deutschland",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Prometheus_cave%2C_Sakartvelo_%2802%29.jpg",
+        "src": "img/activites/KUT/prometheus.jpg"
+      }
+    },
+    {
+      "id": "sataplia",
+      "nom": "Réserve de Sataplia : traces de dinosaures et grotte",
+      "emoji": "🦖",
+      "type": "nature",
+      "quartier": "Colline de Sataplia (9 km au nord)",
+      "lat": 42.315624,
+      "lng": 42.673319,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte (étranger), visite guidée",
+          "30 lari (≈ 10 €)"
+        ],
+        [
+          "6 à 18 ans",
+          "5,50 lari (≈ 2 €)"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets à l'entrée",
+      "duree": "1 h 30",
+      "moment": "Le matin ; idéal avec des enfants",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des empreintes de dinosaures vieilles de 120 millions d'années, conservées sous un pavillon, une grotte illuminée, une forêt de Colchide et, pour finir, une plateforme de verre suspendue au-dessus du vide avec Koutaïssi à vos pieds. Une sortie à la demi-journée qui plaît autant aux grands qu'aux petits.",
+      "site_officiel": "https://apa.gov.ge/en/",
+      "note": "Ouvert tous les jours de 10 h à 17 h. La plateforme de verre ferme par pluie ou neige. Taxi depuis le centre : ≈ 15 à 20 lari.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Paata vardanashvili",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sataplia_Managed_Reserve_34.jpg",
+        "src": "img/activites/KUT/sataplia.jpg"
+      }
+    },
+    {
+      "id": "martvili",
+      "nom": "Canyon de Martvili",
+      "emoji": "🛶",
+      "type": "nature",
+      "quartier": "Martvili (55 km au nord-ouest)",
+      "lat": 42.4584264,
+      "lng": 42.3728797,
+      "prix": 14,
+      "prix_detail": [
+        [
+          "Adulte (étranger)",
+          "40 lari (≈ 14 €)"
+        ],
+        [
+          "6 à 18 ans",
+          "5,50 lari (≈ 2 €)"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ],
+        [
+          "Option : bateau dans le canyon",
+          "20 à 30 lari (≈ 7 à 10 €)"
+        ],
+        [
+          "Billet combiné Prométhée + Martvili + Kinchkha",
+          "≈ 90 lari (≈ 31 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets à l'entrée ; en été, arrivez tôt pour le bateau",
+      "duree": "2 h sur place (1 h 15 de route)",
+      "moment": "De mai à octobre, le matin, quand l'eau est turquoise",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une gorge de calcaire couverte de mousse où coule une eau d'un bleu-vert irréel. On longe le canyon par des passerelles et des cascades, puis on embarque sur un canot pneumatique pour remonter le défilé entre les parois. Les princes Dadiani venaient s'y baigner ; c'est aujourd'hui l'image la plus partagée de l'ouest de la Géorgie.",
+      "site_officiel": "https://apa.gov.ge/en/",
+      "note": "Ouvert tous les jours de 10 h à 17 h 30. Le bateau ne sort pas quand l'eau est haute. Sans voiture, prenez l'excursion organisée (voir « Canyons et grotte en une journée »).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jami430",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Martvili_Canyon_Natural_Monument_June_2017.jpg",
+        "src": "img/activites/KUT/martvili.jpg"
+      }
+    },
+    {
+      "id": "okatse",
+      "nom": "Canyon d'Okatse et sa passerelle suspendue",
+      "emoji": "🌲",
+      "type": "nature",
+      "quartier": "Gordi (45 km au nord)",
+      "lat": 42.4518669,
+      "lng": 42.5498432,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte (étranger)",
+          "30 lari (≈ 10 €)"
+        ],
+        [
+          "6 à 18 ans",
+          "5,50 lari (≈ 2 €)"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ],
+        [
+          "Option : 4×4 jusqu'au départ de la passerelle (évite 2 km de marche)",
+          "12 lari (≈ 4 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets au centre d'accueil",
+      "duree": "2 h 30",
+      "moment": "Par temps sec, de mai à octobre",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une passerelle métallique accrochée à la falaise, à 100 mètres au-dessus de la rivière, qui se termine par une plateforme en porte-à-faux au-dessus du vide. Sensations garanties, et la forêt de buis tout autour est superbe. Pour les grands marcheurs : 2 km de sentier dans la forêt, ou un 4×4 pour les autres.",
+      "site_officiel": "https://apa.gov.ge/en/",
+      "note": "Ouvert de 10 h à 17 h 30. Fermé par pluie, neige ou brouillard épais : regardez la météo le matin même. Déconseillé si vous avez le vertige.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Karelj",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Okatse_canyon_Gruzia_2019_2.jpg",
+        "src": "img/activites/KUT/okatse.jpg"
+      }
+    },
+    {
+      "id": "kinchkha",
+      "nom": "Cascade de Kinchkha",
+      "emoji": "💧",
+      "type": "nature",
+      "quartier": "Kinchkhaperdi (50 km au nord)",
+      "lat": 42.4956953,
+      "lng": 42.5501912,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Adulte (étranger)",
+          "20 lari (≈ 7 €)"
+        ],
+        [
+          "6 à 18 ans",
+          "5,50 lari (≈ 2 €)"
+        ],
+        [
+          "Billet combiné Okatse + Kinchkha",
+          "≈ 40 lari (≈ 14 €)"
+        ],
+        [
+          "Option : tyrolienne",
+          "40 lari (≈ 14 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets à l'entrée",
+      "duree": "1 h",
+      "moment": "Au printemps, quand la cascade est la plus puissante ; à combiner avec Okatse, à 8 km",
+      "enfants": true,
+      "texte": "Une cascade de 70 mètres en trois paliers, au fond d'une vallée verdoyante, que l'on rejoint par un court sentier aménagé avec belvédères. Moins connue que les canyons voisins, donc plus calme ; les plus téméraires la survolent en tyrolienne.",
+      "site_officiel": "https://apa.gov.ge/en/",
+      "note": "Ouvert de 10 h à 18 h. Le débit baisse beaucoup à la fin de l'été.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Paata vardanashvili",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kinchkha_32.jpg",
+        "src": "img/activites/KUT/kinchkha.jpg"
+      }
+    },
+    {
+      "id": "canyons-tour",
+      "nom": "Canyons et grotte en une journée (excursion organisée)",
+      "emoji": "🚐",
+      "type": "nature",
+      "quartier": "Départ du centre de Koutaïssi",
+      "lat": 42.272,
+      "lng": 42.7035,
+      "prix": 27,
+      "prix_detail": [
+        [
+          "Excursion en minibus avec chauffeur (Martvili, Okatse, Prométhée ; Sataplia remplace Okatse de novembre à mars)",
+          "≈ 80 lari (≈ 27 €)"
+        ],
+        [
+          "Entrées des sites, non comprises",
+          "≈ 110 lari (≈ 38 €) sans les options"
+        ],
+        [
+          "Déjeuner, non compris",
+          "20 à 30 lari (≈ 7 à 10 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 27,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille au plus tard, auprès d'une agence du centre (ex. Budget Georgia, 2 rue Gelati)",
+      "duree": "Journée (9 h à 19 h)",
+      "moment": "Tous les jours ; le plus beau de mai à octobre",
+      "enfants": true,
+      "texte": "Sans voiture, c'est la façon la plus simple de voir en un jour les trois merveilles naturelles autour de Koutaïssi : le canyon turquoise de Martvili, la passerelle d'Okatse et la grotte de Prométhée, avec un déjeuner géorgien en route. Le chauffeur gère la route de campagne, vous profitez.",
+      "site_officiel": "https://www.budget-georgia.com/canyons-and-cave-tour.html",
+      "note": "Les entrées se paient sur place, en plus. Si vous prenez cette excursion, inutile de cocher aussi les sites un par un.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Karelj",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Martvili_canyon_Gruzia_2019_4.jpg",
+        "src": "img/activites/KUT/canyons-tour.jpg"
+      }
+    },
+    {
+      "id": "tskaltubo",
+      "nom": "Les sanatoriums soviétiques abandonnés de Tskaltoubo",
+      "emoji": "🏚️",
+      "type": "culture",
+      "quartier": "Tskaltoubo (10 km au nord-ouest)",
+      "lat": 42.3254721,
+      "lng": 42.5936608,
+      "prix": 2,
+      "prix_detail": [
+        [
+          "Balade dans la ville et le parc",
+          "gratuit"
+        ],
+        [
+          "Sanatorium Metalurgi (gardien)",
+          "5 lari (≈ 2 €)"
+        ],
+        [
+          "Minibus n° 30 depuis le pont Rouge",
+          "2 lari (≈ 0,70 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Demi-journée",
+      "moment": "Le matin, puis bain thermal l'après-midi ; à combiner avec la grotte de Prométhée, à 6 km",
+      "enfants": false,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une station thermale où Staline venait prendre les eaux, devenue une ville fantôme d'une beauté étrange : palais à colonnades envahis par la végétation, escaliers monumentaux, mosaïques soviétiques et salles de bal à ciel ouvert, autour d'un grand parc. Un décor de cinéma que les photographes du monde entier viennent chercher.",
+      "site_officiel": "https://kutaisi.travel/en/5513/tskaltubo-spa-resort-en-2/",
+      "note": "Bâtiments en ruine : chaussures fermées, ne montez pas dans les étages abîmés et demandez la permission (certains abritent encore des familles). Le sanatorium Medea est fermé depuis un accident en juillet 2026 ; Iveria et Tbilissi sont gardés.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Yarkolp",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Georgia%2C_Imereti_-_Meshakhte_Sanatorium_Building_%28Tskaltubo%29_WMID7140710.jpg",
+        "src": "img/activites/KUT/tskaltubo.jpg"
+      }
+    },
+    {
+      "id": "bains",
+      "nom": "Bain d'eau minérale à Tskaltoubo (source n° 6)",
+      "emoji": "♨️",
+      "type": "bains",
+      "quartier": "Tskaltoubo, parc central",
+      "lat": 42.3220806,
+      "lng": 42.5990878,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Bain dans le bassin commun (visiteur, sans cure)",
+          "20 lari (≈ 7 €)"
+        ],
+        [
+          "Hydromassage dans l'eau minérale",
+          "55 lari (≈ 19 €)"
+        ],
+        [
+          "Enfants de moins de 14 ans",
+          "20 % de réduction"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            13,
+            6
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille par téléphone le week-end ; sur place en semaine",
+      "duree": "1 h",
+      "moment": "Après la visite des sanatoriums",
+      "enfants": true,
+      "texte": "L'eau de Tskaltoubo sort de terre à 33-35 °C, légèrement radioactive (radon) : un trésor que les Soviétiques venaient soigner par trains entiers. Dans le grand bâtiment des années 1950 de la source n° 6, on se glisse dans un bassin d'eau tiède sous de hauts plafonds. On demande parfois à voir la cabine privée de Staline.",
+      "site_officiel": "https://tskaltuboresort.ge/",
+      "note": "Le bain dure 15 à 20 minutes (conseil médical : pas plus). Déconseillé aux femmes enceintes et en cas de problème cardiaque. Maillot et serviette à apporter.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Georgia 2017",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Zqaltubo_2017_Spring_no6_N42_32203E42_59901.jpg",
+        "src": "img/activites/KUT/bains.jpg"
+      }
+    },
+    {
+      "id": "chiatura",
+      "nom": "Chiatoura et le pilier de Katskhi",
+      "emoji": "🚠",
+      "type": "nature",
+      "quartier": "Chiatoura (75 km à l'est)",
+      "lat": 42.2903,
+      "lng": 43.2845,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Téléphériques de Chiatoura (un trajet)",
+          "0,50 lari (≈ 0,20 €)"
+        ],
+        [
+          "Pilier de Katskhi (vu d'en bas)",
+          "gratuit"
+        ],
+        [
+          "Minibus Koutaïssi–Chiatoura",
+          "≈ 8 à 10 lari (≈ 3 €)"
+        ],
+        [
+          "Excursion organisée depuis Koutaïssi",
+          "à partir de ≈ 80 lari (≈ 27 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Journée",
+      "moment": "Par temps clair, d'avril à octobre",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une ville minière au fond d'une gorge, reliée par des dizaines de téléphériques soviétiques, les « cercueils volants », dont certains circulent encore à côté des nouvelles cabines. Sur la route, le pilier de Katskhi : une colonne de pierre de 40 mètres coiffée d'une minuscule église où vivait un moine ermite. L'excursion la plus insolite de Géorgie.",
+      "site_officiel": "https://kutaisi.travel/en/category/where-to-go/what-to-see/",
+      "note": "Le sommet du pilier n'est pas ouvert aux visiteurs. La ligne historique de 1966 (Sashevardno) roule de 10 h à 18 h ; les nouvelles cabines de 8 h à 22 h. Comptez 1 h 30 de route depuis Koutaïssi.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Alexkom000",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2025-06-17_Katskhi_pillar_6.jpg",
+        "src": "img/activites/KUT/chiatura.jpg"
+      }
+    },
+    {
+      "id": "match-torpedo",
+      "nom": "Un match du Torpedo Koutaïssi",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Stade Ramaz-Shengelia",
+      "lat": 42.2550947,
+      "lng": 42.6823848,
+      "prix": 3,
+      "prix_detail": [
+        [
+          "Place en tribune",
+          "≈ 5 à 10 lari (≈ 2 à 3 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 3,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets aux guichets du stade le jour du match, ou en ligne quelques jours avant",
+      "duree": "2 h",
+      "moment": "Le week-end, de mars à décembre (saison calée sur l'année civile)",
+      "enfants": true,
+      "club": "FC Torpedo Kutaisi",
+      "texte": "Le club noir et blanc de la ville, quatre fois champion de Géorgie, joue dans un stade de 10 000 places entièrement rénové en 2023. Ambiance populaire, prix minuscules et un vrai morceau de vie locale : les Koutaïssiens sont fiers de leur Torpedo, rival historique des clubs de Tbilissi.",
+      "site_officiel": "https://torpedo.ge/",
+      "lien_billets": "https://www.google.com/search?q=billets+Torpedo+Kutaisi+match",
+      "note": "Prix indicatif : la billetterie en ligne géorgienne n'est pas lisible depuis l'étranger ; confirmez au guichet.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kaiser matias",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ramaz_Shengelia_Stadium_20140309.jpg",
+        "src": "img/activites/KUT/match-torpedo.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "centre",
+      "nom": "Centre (fontaine de Colchide)",
+      "lat": 42.2712,
+      "lng": 42.705,
+      "texte": "Autour de la place centrale et du parc : tout se fait à pied, le marché vert, le théâtre, les restaurants de la rue Paliashvili et les minibus pour Gelati ou Tskaltoubo. Le plus pratique pour un premier séjour."
+    },
+    {
+      "id": "vieille-ville",
+      "nom": "Vieille ville (pont Blanc, rue Tabidze)",
+      "lat": 42.2693,
+      "lng": 42.7005,
+      "texte": "Le quartier le plus charmant : maisons anciennes, maisons d'hôtes dans des cours fleuries, les meilleurs restaurants et le téléphérique au pied de l'hôtel. Animé le soir, et le centre à cinq minutes."
+    },
+    {
+      "id": "bagrati",
+      "nom": "Rive droite (colline de Bagrati)",
+      "lat": 42.2755,
+      "lng": 42.7035,
+      "texte": "Sur la colline, au pied de la cathédrale : des maisons d'hôtes familiales au calme avec vue sur la ville, petits-déjeuners géorgiens copieux et prix doux. Le centre est à 10-15 minutes à pied par les ponts."
+    },
+    {
+      "id": "tsereteli",
+      "nom": "Bords de la Rioni (avenue Tseretéli)",
+      "lat": 42.2655,
+      "lng": 42.7045,
+      "texte": "Au sud du centre, le long de la rivière : hôtels récents et plus spacieux, terrasses au-dessus de l'eau, plus calme le soir. Le pont Blanc est à 10 minutes à pied."
+    },
+    {
+      "id": "tskaltoubo",
+      "nom": "Tskaltoubo (station thermale)",
+      "lat": 42.3215,
+      "lng": 42.601,
+      "texte": "À 15 minutes en taxi : hôtels thermaux avec piscine et spa autour du grand parc, la grotte de Prométhée et Sataplia tout près. Idéal pour un séjour au vert et reposant, moins pour sortir le soir."
+    }
+  ],
+  "hotel_petit_prix_max": 40,
+  "prix_match": 3,
+  "restaurants": [
+    {
+      "id": "bikentia",
+      "nom": "Bikentia's Kebabery",
+      "emoji": "🍢",
+      "gamme": "petit",
+      "genre": "Kebab imérète au comptoir",
+      "quartier": "Vieille ville",
+      "adresse": "9 rue Tsisperi Kantselebi",
+      "lat": 42.2696103,
+      "lng": 42.7019541,
+      "prix": "4 à 5 €",
+      "prix_min": 4,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Un comptoir de l'époque soviétique où l'on mange debout, coude à coude avec les Koutaïssiens : il n'y a qu'un plat, de longues brochettes de bœuf haché nappées d'une sauce tomate épicée froide, avec oignon cru, persil et pain chaud, et une bière pression. Douze lari le tout, et l'un des souvenirs les plus vrais d'un séjour.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; espèces uniquement ; ferme vers 21 h",
+      "photo": {
+        "auteur": "Armineaghayan",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Georgian_kebab.jpg",
+        "src": "img/restos/KUT/bikentia.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "nikhrik",
+      "nom": "Cantine Nikhrik",
+      "emoji": "🥘",
+      "gamme": "petit",
+      "genre": "Cantine ouvrière soviétique",
+      "quartier": "Ouest (ancien Parlement)",
+      "adresse": "Rue du 9-Avril, face à l'ancien Parlement",
+      "lat": 42.2611261,
+      "lng": 42.6622443,
+      "prix": "4 à 6 €",
+      "prix_min": 4,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une cantine de quartier restée dans son jus, au pied d'un immeuble soviétique : les habitués y prennent le menu du midi, comme le « bivshteksi », un steak haché à la sauce tomate et aux oignons avec purée et œuf au plat, ou un ragoût de bœuf épicé. Le décor n'a pas bougé depuis des décennies ; les prix non plus, ou presque.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; le midi, jusqu'à 20 h ; espèces ; menu en géorgien seulement (montrez une photo du plat)",
+      "photo": {
+        "auteur": "Vyacheslav Argenberg",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tbilisi%2C_Khachapuri_and_khinkali%2C_Georgian_traditional_food%2C_Georgia.jpg",
+        "src": "img/restos/KUT/nikhrik.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "baraqa",
+      "nom": "Baraqa",
+      "emoji": "🫓",
+      "gamme": "petit",
+      "genre": "Khatchapouri et boulangerie",
+      "quartier": "Centre",
+      "adresse": "7 rue Tamar Mepe",
+      "lat": 42.2706758,
+      "lng": 42.7059127,
+      "prix": "6 à 10 €",
+      "prix_min": 6,
+      "badges": [],
+      "texte": "L'adresse que l'on recommande pour goûter le khatchapouri imérète, la vraie spécialité de Koutaïssi : une galette fine fourrée de fromage frais fondant, à partager encore brûlante. Boulangerie à l'entrée, grande salle à deux pas de la fontaine de Colchide, khinkali et limonades maison : un déjeuner local, copieux et bon marché.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas besoin de réserver ; service parfois lent aux heures de pointe",
+      "photo": {
+        "auteur": "Jon Gudorf Photography",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Georgian_Khachapuri_cheese_bread.jpg",
+        "src": "img/restos/KUT/baraqa.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "mini-art",
+      "nom": "Mini Art",
+      "emoji": "🎨",
+      "gamme": "petit",
+      "genre": "Café-galerie et petit-déjeuner géorgien",
+      "quartier": "Vieille ville",
+      "adresse": "16 rue Galaktion Tabidze",
+      "lat": 42.2692102,
+      "lng": 42.6980594,
+      "prix": "4 à 8 €",
+      "prix_min": 4,
+      "badges": [],
+      "texte": "Un petit café rempli de tableaux et d'objets d'artistes locaux, où les assiettes sont dressées comme de petites œuvres : petit-déjeuner géorgien, khatchapouri mégrélien, cheesecake basque, limonades maison et vins au verre. Parfait pour commencer la journée près du pont Blanc, ou pour une pause en terrasse.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; ouvert du matin à minuit",
+      "photo": {
+        "auteur": "Vyacheslav Argenberg",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Old_Tbilisi%2C_Georgian_khachapuri%2C_Georgia.jpg",
+        "src": "img/restos/KUT/mini-art.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "foe-foe",
+      "nom": "Salon de thé Foe-Foe",
+      "emoji": "🍵",
+      "gamme": "petit",
+      "genre": "Salon de thé et crêpes",
+      "quartier": "Centre",
+      "adresse": "8 rue Tamar Mepe (1er étage)",
+      "lat": 42.2700858,
+      "lng": 42.7057279,
+      "prix": "3 à 7 €",
+      "prix_min": 3,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une institution de Koutaïssi, cachée en haut d'un petit escalier : des dizaines de thés, dont des thés noirs de Géorgie, des cocktails au thé, des gaufres et des crêpes au fromage blanc et aux raisins secs, dans un décor orné de grandes gravures de Petre Otskheli, l'enfant du pays. Avec un balcon sur la ville.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; ouvert tous les jours à partir de 9 h 30",
+      "photo": {
+        "auteur": "Susánica Tam from Los Angeles, CA, United States",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cheese_blintzes_with_blackberries.jpg",
+        "src": "img/restos/KUT/foe-foe.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "mio",
+      "nom": "Gelato Mio",
+      "emoji": "🍦",
+      "gamme": "petit",
+      "genre": "Glaces et gaufres",
+      "quartier": "Centre (place centrale)",
+      "adresse": "7 rue Tamar Mepe",
+      "lat": 42.270522,
+      "lng": 42.705923,
+      "prix": "2 à 5 €",
+      "prix_min": 2,
+      "badges": [],
+      "texte": "Le glacier préféré de la ville, à deux pas de la fontaine : glaces artisanales aux parfums de fruits du pays, gaufres croustillantes et coupes généreuses, à déguster en terrasse le soir quand la place s'anime. En hiver, le four à pizza prend le relais.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Thegreatmutata",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ice_cream_cone_with_spoon.jpg",
+        "src": "img/restos/KUT/mio.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "maisis-ezo",
+      "nom": "Maisis Ezo",
+      "emoji": "🌿",
+      "gamme": "moyen",
+      "genre": "Cuisine géorgienne dans le jardin d'une maison ancienne",
+      "quartier": "Centre",
+      "adresse": "11 rue Iakob Gogebashvili",
+      "lat": 42.269524,
+      "lng": 42.7078515,
+      "prix": "12 à 18 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une maison de famille historique transformée en restaurant, avec une grande cour-jardin où l'on dîne sous les arbres. La spécialité : le khatchapouri adjarien en barque, œuf et beurre au milieu, mais aussi le kubdari de Svanétie, le poulet satsivi aux noix et les champignons en pot de terre. Musique live le week-end.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir et le week-end, par téléphone ou message",
+      "photo": {
+        "auteur": "sunriseOdyssey",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri_%284%29.jpg",
+        "src": "img/restos/KUT/maisis-ezo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "gala",
+      "nom": "Gala",
+      "emoji": "🍲",
+      "gamme": "moyen",
+      "genre": "Spécialités imérètes et kalia, vue sur le parc",
+      "quartier": "Centre",
+      "adresse": "29 rue Zakaria Paliashvili",
+      "lat": 42.2717878,
+      "lng": 42.7030913,
+      "prix": "10 à 16 €",
+      "prix_min": 10,
+      "badges": [],
+      "texte": "Un restaurant au nom du poète Galaktion Tabidze, au premier étage avec vue sur le parc central, décoré de poteries de la région. On y vient pour le kalia, un ragoût de bœuf des Juifs de Géorgie, les travers à l'adjika, le poulet chkmerouli à l'ail et à la crème, et des khinkali parmi les meilleurs de la ville.",
+      "reservation": "conseille",
+      "reservation_delai": "le jour même pour le soir",
+      "photo": {
+        "auteur": "Sandra C from Canada",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Khinkali%2C_Restaurant_Aragvi.jpg",
+        "src": "img/restos/KUT/gala.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "magnolia",
+      "nom": "Magnolia",
+      "emoji": "🔥",
+      "gamme": "moyen",
+      "genre": "Grillades au bord de la Rioni, musique folk",
+      "quartier": "Vieille ville (pont Rouge)",
+      "adresse": "1 rue Galaktion Tabidze, au bout du pont Rouge",
+      "lat": 42.2715367,
+      "lng": 42.6986805,
+      "prix": "10 à 15 €",
+      "prix_min": 10,
+      "badges": [],
+      "texte": "Une grande salle et une véranda chauffée suspendues au-dessus de la Rioni, au pied du pont Rouge. Au menu : mtsvadi, les brochettes grillées au feu de bois, poulet en poêlon de terre et khinkali mégréliens à la viande de buffle, avec des chanteurs et musiciens traditionnels le soir. Touristique mais généreux, et la vue est superbe.",
+      "reservation": "conseille",
+      "reservation_delai": "pour une table au bord de l'eau le soir ; réduction « happy hour » en journée",
+      "photo": {
+        "auteur": "Alandislands",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Grilled_shashlik.jpg",
+        "src": "img/restos/KUT/magnolia.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "fleur",
+      "nom": "Fleur",
+      "emoji": "🌸",
+      "gamme": "moyen",
+      "genre": "Bistrot de quartier cosy",
+      "quartier": "Centre",
+      "adresse": "Rue Tamar Mepe",
+      "lat": 42.267933,
+      "lng": 42.7068863,
+      "prix": "8 à 14 €",
+      "prix_min": 8,
+      "badges": [],
+      "texte": "Une petite salle de cinq tables et une terrasse, tenues par une équipe souriante qui parle très bien anglais : petits-déjeuners copieux, soupe de lentilles, ojakhuri (porc sauté aux pommes de terre), aubergines à l'ajapsandali et escalope de poulet. Sans chichis, et l'une des adresses les mieux notées de la ville.",
+      "reservation": "conseille",
+      "reservation_delai": "le soir, la salle est petite ; ouvert de 9 h à 23 h",
+      "photo": {
+        "auteur": "AlexandreTheGreatt",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Odjakhuri_-_Georgian_%28Kartvelian%29_dish_with_meat._Served_in_Galaktioni_restaurant_Istanbul.jpg",
+        "src": "img/restos/KUT/fleur.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "at-home",
+      "nom": "At Home (Sakhlshi)",
+      "emoji": "🍷",
+      "gamme": "moyen",
+      "genre": "Bar à vins naturels et trio folk",
+      "quartier": "Vieille ville (pont Blanc)",
+      "adresse": "7 rue Nikitin",
+      "lat": 42.2693413,
+      "lng": 42.6987052,
+      "prix": "10 à 16 €",
+      "prix_min": 10,
+      "badges": [],
+      "texte": "Moitié bar à vins, moitié restaurant, près du pont Blanc : une cave voûtée, un jardin avec un qvevri enterré et une salle à l'étage au-dessus des mandariniers. On partage une planche de grillades, des bâtonnets d'elarji au fromage, un pkhlovani aux fanes de betterave, et de petits vins de vignerons, au son d'un trio de chants géorgiens.",
+      "reservation": "conseille",
+      "reservation_delai": "le soir, surtout quand le trio joue",
+      "photo": {
+        "auteur": "Julia Kado",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Eggplant%2C_famous_local_dish%2C_Georgia.jpg",
+        "src": "img/restos/KUT/at-home.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kvamli",
+      "nom": "Kvamli",
+      "emoji": "🏡",
+      "gamme": "moyen",
+      "genre": "Khinkali et grillades dans un grand jardin",
+      "quartier": "Route de Tskaltoubo (Banoja)",
+      "adresse": "Banoja, route de Tskaltoubo (10 min en taxi)",
+      "lat": 42.2743294,
+      "lng": 42.6411274,
+      "prix": "8 à 14 €",
+      "prix_min": 8,
+      "badges": [],
+      "texte": "Un restaurant champêtre en lisière de ville : on dîne dans un grand jardin, à l'abri de petits pavillons de bois privés, autour de khinkali juteux, de kutchmatchi imérète, de mtsvadi et de vin maison. Le rendez-vous des familles du coin, idéal sur la route de Tskaltoubo ou de la grotte de Prométhée.",
+      "reservation": "conseille",
+      "reservation_delai": "le week-end, pour avoir un pavillon",
+      "photo": {
+        "auteur": "Gigi Griffis from Full-Time Traveler",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Georgian_cuisine_%2832242676327%29.jpg",
+        "src": "img/restos/KUT/kvamli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "palaty",
+      "nom": "Palaty",
+      "emoji": "🎻",
+      "gamme": "haut",
+      "genre": "Table historique de la vieille ville, musique live",
+      "quartier": "Vieille ville",
+      "adresse": "2 rue Pouchkine, près du pont Blanc",
+      "lat": 42.2689123,
+      "lng": 42.7021112,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "recompense",
+        "institution"
+      ],
+      "recompense": "Gault & Millau : 2 toques (13,5/20)",
+      "texte": "La table la plus célèbre de Koutaïssi : une maison ancienne aux murs de pierre et au mobilier chiné, avec un feu de cheminée l'hiver et piano, violoncelle ou violon presque tous les soirs. Cuisine géorgienne soignée : pelmeni, kutchmatchi, lobiani imérète et pelamushi au jus de raisin en dessert. Saluée par Gault & Millau.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 jours avant pour le soir, par téléphone ou message",
+      "photo": {
+        "auteur": "Vít Hnilica",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:At_Bar-Restaurant_Palaty_in_Kutaisi%2C_Georgia.jpg",
+        "src": "img/restos/KUT/palaty.jpg"
+      }
+    },
+    {
+      "id": "toma",
+      "nom": "Toma's Wine Cellar",
+      "emoji": "🍇",
+      "gamme": "haut",
+      "genre": "Dîner de famille et cave à vin",
+      "quartier": "Sud (rue Kldiashvili)",
+      "adresse": "34 rue Sergo Kldiashvili (10 min en taxi)",
+      "lat": 42.2512949,
+      "lng": 42.6858774,
+      "prix": "17 à 22 €",
+      "prix_min": 17,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Pas de carte : Toma et sa famille vous reçoivent chez eux pour un vrai repas géorgien en plusieurs services, raconté plat après plat. Aubergines aux noix, fromages maison, khatchapouri, poulet à la sauce aux noix, vin de leur cave à volonté, chacha et visite de la cave : environ 50 lari par personne tout compris.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, par téléphone ou message Facebook ; ouvert à partir de 15 h, fermé le mardi",
+      "photo": {
+        "auteur": "Niko Pirosmani",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Pirosmani._Family_party.jpg",
+        "src": "img/restos/KUT/toma.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "doli",
+      "nom": "Doli",
+      "emoji": "🏺",
+      "gamme": "haut",
+      "genre": "Cuisine de l'Ouest géorgien au four en terre",
+      "quartier": "Vieille ville",
+      "adresse": "21 rue Galaktion Tabidze (hôtel Communal)",
+      "lat": 42.2685321,
+      "lng": 42.6981179,
+      "prix": "12 à 22 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Deux salles intimes autour d'un ancien poêle en céramique, dans un hôtel de charme : Doli remet au goût du jour les recettes d'Iméréthie et de Mingrélie, cuites au four de terre. Pain maison, kvari (raviolis au fromage), kharcho de bœuf aux noix et le « gobi », un grand plat de spécialités à partager. Belle carte de petits vignerons.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner",
+      "photo": {
+        "auteur": "A.Savin",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kharcho_meat_soup.jpg",
+        "src": "img/restos/KUT/doli.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "story",
+      "nom": "Story",
+      "emoji": "🌅",
+      "gamme": "haut",
+      "genre": "Terrasse sur la Rioni et cuisine créative",
+      "quartier": "Bords de la Rioni (avenue Tseretéli)",
+      "adresse": "52 rue Akaki Tseretéli",
+      "lat": 42.2649777,
+      "lng": 42.7049729,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [],
+      "texte": "Une salle élégante aux tons sombres et une terrasse au-dessus de la rivière, pour un dîner au calme face à la rive boisée. La cuisine revisite les classiques : poulet chkmerouli, porc à la sauce aux cerises, tolma, chvishtari au fromage, et une étonnante soupe à la crème de bière.",
+      "reservation": "conseille",
+      "reservation_delai": "pour une table en terrasse le soir, en été",
+      "photo": {
+        "auteur": "Andrzej Wójtowicz",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Rioni_River%2C_Kutaisi.jpg",
+        "src": "img/restos/KUT/story.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "lilestan",
+      "nom": "Lilestan",
+      "emoji": "✨",
+      "gamme": "haut",
+      "genre": "Planches régionales dans une cour illuminée",
+      "quartier": "Centre",
+      "adresse": "11 rue Tamar Mepe",
+      "lat": 42.2697189,
+      "lng": 42.7062191,
+      "prix": "15 à 30 €",
+      "prix_min": 15,
+      "badges": [],
+      "texte": "Une cour pavée sous les guirlandes lumineuses et une salle feutrée, avec de la musique classique : l'adresse romantique de Koutaïssi. Ses planches de dégustation d'Iméréthie, de Svanétie ou de Mingrélie, pour deux, font le tour du pays en un repas ; finissez par la poire grillée ou le fondant au chocolat.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir",
+      "photo": {
+        "auteur": "salvagekat",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pkhali%2C_Badrijani_and_Ajika.jpg",
+        "src": "img/restos/KUT/lilestan.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "paolo",
+      "nom": "Paolo",
+      "emoji": "🍽️",
+      "gamme": "haut",
+      "genre": "Cuisine géorgienne et européenne, recettes du XIXe siècle",
+      "quartier": "Bords de la Rioni (avenue Tseretéli)",
+      "adresse": "70 rue Akaki Tseretéli",
+      "lat": 42.2638977,
+      "lng": 42.7054906,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection Gault & Millau Géorgie 2026",
+      "texte": "Un décor théâtral et une cuisine qui marie Géorgie et Europe : poulet chkmerouli, y compris une version au chorizo, et des plats tirés du livre de cuisine de la princesse Barbare Jorjadze, l'une des premières féministes géorgiennes, publié en 1874. Groupes de musique le week-end ; ouvert jusqu'à 1 h.",
+      "reservation": "conseille",
+      "reservation_delai": "le week-end pour le soir",
+      "photo": {
+        "auteur": "Gigi Griffis from Full-Time Traveler",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Georgian_cuisine_%2833309210248%29.jpg",
+        "src": "img/restos/KUT/paolo.jpg",
+        "illustration": true
+      }
+    }
+  ]
+}
