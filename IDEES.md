@@ -54,7 +54,27 @@ modèle moins cher, ~20-30 min et ~1,5-3 millions de tokens ; bloquer `api/prix`
 Rapport : liste des blocages classés par gravité. À lancer dans une conversation à part.
 
 
+### 17. 💡 Assurance voyage en lien partenaire (noté le 25/10/2026, à faire plus tard)
+Obligatoire en Géorgie depuis 2026 (carte Vitale et carte européenne d'assurance maladie non valables hors UE) ;
+utile partout. Où l'afficher : dans l'encadré rouge « À savoir avant de partir » des pays où elle est obligatoire, et
+une ligne « Assurance voyage » à l'étape 5 « Réserver » pour toutes les villes.
+- **Chapka** (courtier français, groupe Aon) — conseillé : 10 % du prix, suivi 90 jours, relevé et virement mensuels ;
+  demande à communication@chapka.com (guide de l'affiliation : chapka.fr/img/textes/1431.pdf).
+- **EKTA** (dans Travelpayouts) : 20 %, 30 jours ; vente aux Français et site en français non vérifiés.
+- **Heymondo** (site en français) : taux non publié, 30 jours.
+- Règles : un statut est nécessaire (auto-entrepreneur, association, société) ; l'affilié n'a **pas le droit de vanter
+  ni de vendre** l'assurance (profession réglementée, ORIAS), seulement dire qu'il faut être assuré et que des solutions
+  existent ; mention « lien partenaire » / « publicité » à côté du lien.
+- À faire par le propriétaire : s'inscrire (Chapka ou EKTA) et récupérer son lien ; ensuite affichage + captures.
+
 ### 11. ⏸ Nom et logo (mis de côté le 16/10/2026)
+- **Piste du propriétaire (25/10/2026) : « Vaya »**, avec une nouvelle direction artistique (à venir). Domaines vérifiés
+  le 25/10/2026 (registre Vercel) : **pris** vaya.com (Mada Communications, télécoms), vaya.fr, vaya.eu, vaya.travel,
+  vaya.app, vaya.io, vaya.co, vaya.me, vaya.ai, getvaya.com, govaya.com, vayatravel.com, vayavoyage.com, vayavoyages.com,
+  myvaya.com, heyvaya.com. **Libres** : vaya.voyage (≈ 10 $ la 1re année puis ≈ 52 $/an), vaya.vacations, vaya.holiday,
+  vaya.guide, vaya.club, vaya.fun, vaya.flights, vaya-voyage.com et vaya-travel.com (≈ 11 $/an), vayavoyage.fr,
+  vayavoyages.fr, vaya-voyages.fr, govaya.fr, vayaapp.fr, vayalyon.fr/.com. Rien acheté. Le critère « le .com doit être
+  libre » n'est pas rempli pour vaya.com. À faire avant de choisir : marques (INPI, EUIPO), App Store et Google Play.
 On reprendra quand la vision « voyage clé en main » et l'application seront plus claires
 (le nom doit coller à tout le voyage, pas seulement aux vols).
 - Souhait : un mot inventé, court, facile à dire dans toutes les langues, qui « sonne classe »
