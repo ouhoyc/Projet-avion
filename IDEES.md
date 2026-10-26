@@ -319,6 +319,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   **Réseaux sociaux (Apify) sautés** (petite destination) : badges tendance d'après les guides (Wander-Lush, Wanderlog).
   Écartés : Sisters et El Depo (note 4,2, service en baisse), Sormoni (fermé l'hiver, prix flous). Prix estimé : match du
   Torpedo (billetterie géorgienne illisible d'ici). Sanatorium Medea fermé depuis un accident en juillet 2026.
+- ✅ (26/10/2026) **Page guide de Vilnius** (`guides/VNO.json`), préparée en autonomie : 23 activités (vieille ville et rue Pilies,
+  cathédrale avec clocher et cryptes, palais des Grands-Ducs, tour de Gediminas, Užupis, Sainte-Anne, porte de l'Aurore, université,
+  Saints-Pierre-et-Paul, colline des Trois-Croix, musée des Occupations (ex-KGB), MO Museum, tour de télévision, rue des Écrivains,
+  jardin des Bernardins, cimetière de Rasos, musée litvak et synagogue chorale, prison de Lukiškės 2.0, vol en montgolfière (140 €),
+  falaise de Pūčkoriai, Europos Parkas, château de Trakai ; basket : match du Rytas, club « Rytas Vilnius »), 18 restaurants (note
+  pondérée, C = 4,41, ~430 restaurants lus via 84 listes Wanderlog ; Michelin 2026 : Džiaugsmas, Nineteen18 et Deep Roots 1 étoile,
+  Gaspar's, El Gato Negro, Augustin et Le Travi Bib Gourmand), 5 quartiers, 2 liens Tiqets (clocher de la cathédrale : même prix ;
+  Europos Parkas : 12 € au lieu de 14 €). Pas d'encadré formalités (Union européenne). **Réseaux sociaux (Apify) pas lancés** (crédit
+  du mois épuisé) : badges tendance d'après les guides et blogs. Écartés : Demo (étoilé, mais absent du site Michelin et de Google Maps
+  sous ce nom), musée du Jouet (horaires trop réduits), opéra et bières (pas de photo libre convenable), Kernavė (prix introuvable).
+  Prix estimés : visite de Lukiškės (22 €, tarif 2025), billets du Rytas, tarifs enfants de Trakai et du musée juif. À savoir : clocher
+  Saint-Jean fermé l'hiver et travaux dans la grande cour de l'université jusqu'à fin 2027 ; la salle du Rytas s'appelle désormais
+  « Arena Vilnius » (Ozo g. 14).
 - ✅ (25/10/2026) **Page guide de Dublin** (`guides/DUB.json`), préparée en autonomie : 28 activités (Trinity et Livre de Kells,
   Guinness, Temple Bar, Kilmainham, EPIC, cathédrales Saint-Patrick et Christ Church, musée d'archéologie, National Gallery,
   Little Museum, 14 Henrietta Street, MoLI, distilleries Jameson et Teeling, St Stephen's Green, Merrion Square, Phoenix Park, zoo,
@@ -350,7 +363,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin.
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

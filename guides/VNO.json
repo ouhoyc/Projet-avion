@@ -1,0 +1,1553 @@
+{
+ "city_code": "VNO",
+ "ville": "Vilnius",
+ "statut": "vérifié en autonomie, prix relevés le 26/10/2026",
+ "verifie_le": "2026-10-26",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville et rue Pilies",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Senamiestis",
+   "lat": 54.6829,
+   "lng": 25.2892,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les rues et les cours",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "2 à 3 h",
+   "moment": "Le matin pour les cours intérieures au calme, puis la rue Pilies au coucher du soleil, quand les façades s'allument",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'une des plus grandes vieilles villes d'Europe du Nord, classée à l'UNESCO : près de 1 500 maisons aux couleurs pastel, des dizaines de clochers baroques et des cours intérieures cachées derrière chaque porche. On remonte la rue Pilies, la plus ancienne, jusqu'à la place de l'Hôtel-de-Ville, sans voiture et sans la foule de Prague.",
+   "site_officiel": "https://www.govilnius.lt/visit-vilnius",
+   "note": "En décembre, le grand sapin de Noël de la place de la Cathédrale est l'un des plus photographiés d'Europe.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pilies_Street_at_dusk%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+    "src": "img/activites/VNO/vieille-ville.jpg"
+   }
+  },
+  {
+   "id": "cathedrale",
+   "nom": "Cathédrale, clocher et cryptes",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Place de la Cathédrale",
+   "lat": 54.6859,
+   "lng": 25.2878,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Cathédrale",
+     "gratuit"
+    ],
+    [
+     "Clocher (vue sur la place)",
+     "6 €"
+    ],
+    [
+     "Cryptes (visite guidée)",
+     "12 €"
+    ],
+    [
+     "Élèves et étudiants",
+     "4 € (clocher), 6 € (cryptes)"
+    ],
+    [
+     "Enfants d'âge préscolaire",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      4
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne pour les cryptes (visites guidées à heure fixe) ; le clocher se prend sur place",
+   "duree": "1 h 30",
+   "moment": "Du lundi au samedi (clocher et cryptes fermés le dimanche) ; la place est magique de nuit",
+   "enfants": true,
+   "texte": "La cathédrale blanche aux allures de temple grec est le cœur de la Lituanie. À côté, le clocher indépendant de 57 m offre la plus jolie vue sur la place, et sous la nef, les cryptes gardent les tombeaux des grands-ducs et l'une des plus anciennes fresques du pays.",
+   "site_officiel": "https://www.bpmuziejus.lt/bell-tower/",
+   "note": "Sur la place, cherchez le carreau « Stebuklas » (miracle) : la tradition veut qu'on y fasse un vœu en tournant trois fois sur soi-même.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pudelek (Marcin Szala)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vilnius_%28Wilno%29_-_cathedral.jpg",
+    "src": "img/activites/VNO/cathedrale.jpg"
+   }
+  },
+  {
+   "id": "palais",
+   "nom": "Palais des Grands-Ducs de Lituanie",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Place de la Cathédrale",
+   "lat": 54.6862,
+   "lng": 25.289,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Les 4 parcours",
+     "17 €"
+    ],
+    [
+     "Un seul parcours",
+     "4 à 10 €"
+    ],
+    [
+     "Élèves, étudiants, seniors",
+     "50 % de réduction"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Dernier dimanche du mois",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      8.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à la caisse du musée",
+   "duree": "2 h",
+   "moment": "Fermé le lundi ; nocturne le jeudi jusqu'à 20 h",
+   "enfants": true,
+   "texte": "Rebâti à l'identique sur ses fondations du XVe siècle, le palais des souverains lituaniens raconte l'époque où le grand-duché s'étendait de la Baltique à la mer Noire. Salles d'apparat aux plafonds à caissons dorés, salle du trône, armures et, au sous-sol, les vestiges du château gothique.",
+   "site_officiel": "https://www.valdovurumai.lt/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pofka",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lower_Representative_Hall_of_the_Palace_of_the_Grand_Dukes_of_Lithuania_in_Vilnius.jpg",
+    "src": "img/activites/VNO/palais.jpg"
+   }
+  },
+  {
+   "id": "gediminas",
+   "nom": "Tour de Gediminas",
+   "emoji": "🏰",
+   "type": "vue",
+   "quartier": "Colline du Château",
+   "lat": 54.6868,
+   "lng": 25.2906,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Tour (petit musée et terrasse)",
+     "8 €"
+    ],
+    [
+     "Funiculaire aller-retour",
+     "3 €"
+    ],
+    [
+     "Élèves, étudiants",
+     "4 €"
+    ],
+    [
+     "Famille (2 adultes + 1 à 4 enfants)",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      4
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "1 h",
+   "moment": "En fin de journée, pour voir le soleil se coucher sur les toits rouges",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La tour de brique rouge, dernier vestige du château haut et symbole de la ville, veille sur Vilnius depuis le Moyen Âge. On monte à pied par un chemin pavé ou en une minute de funiculaire, et du sommet la vieille ville s'étale d'un côté, les tours de verre de la rive nord de l'autre.",
+   "site_officiel": "https://lnm.lt/en/museums/gediminas-castle-tower/",
+   "note": "Funiculaire tous les jours de 10 h à 20 h, depuis la cour du Vieil Arsenal.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Hayden Soloviev",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gediminas_Castle_November_2025.jpg",
+    "src": "img/activites/VNO/gediminas.jpg"
+   }
+  },
+  {
+   "id": "uzupis",
+   "nom": "République d'Užupis",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Užupis",
+   "lat": 54.6806,
+   "lng": 25.295,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h 30",
+   "moment": "L'après-midi, en finissant en terrasse au bord de la Vilnia ; le 1er avril pour sa « fête nationale »",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le quartier des artistes s'est proclamé république indépendante en 1997, avec son président, son armée de douze hommes et sa Constitution affichée au mur en plus de 30 langues, dont le français : « Chacun a le droit d'être heureux », « Un chat n'est pas obligé d'aimer son maître ». Ateliers, ponts couverts de cadenas et l'ange de bronze sur la place.",
+   "site_officiel": "https://www.govilnius.lt/visit-vilnius/places/uzupis",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stela",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Prie_Men%C5%B3_inkubatoriaus.jpg",
+    "src": "img/activites/VNO/uzupis.jpg"
+   }
+  },
+  {
+   "id": "sainte-anne",
+   "nom": "Église Sainte-Anne",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Senamiestis",
+   "lat": 54.6832,
+   "lng": 25.2933,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "30 min",
+   "moment": "En fin de journée, quand la brique rougeoie",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une dentelle de 33 sortes de briques, chef-d'œuvre du gothique flamboyant. La légende veut que Napoléon, de passage en 1812, ait rêvé de l'emporter à Paris « dans le creux de sa main ». Juste derrière, l'église des Bernardins et le jardin du même nom.",
+   "site_officiel": "https://lovevilnius.com/see-do/st-anne-church",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Anne%27s_Church_Exterior_1%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+    "src": "img/activites/VNO/sainte-anne.jpg"
+   }
+  },
+  {
+   "id": "porte-aurore",
+   "nom": "Porte de l'Aurore",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Senamiestis",
+   "lat": 54.6744,
+   "lng": 25.2895,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Chapelle",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "30 min",
+   "moment": "Le matin, avant les groupes ; tenue correcte, c'est un lieu de prière",
+   "enfants": true,
+   "texte": "Seule porte des anciens remparts encore debout, elle abrite au-dessus de la voûte une chapelle et l'icône de la Vierge de Miséricorde, couverte d'argent doré, vénérée par les Lituaniens comme par les Polonais. On monte l'escalier de la chapelle en silence, au milieu des pèlerins.",
+   "site_officiel": "https://ausrosvartai.lt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marcin Białek",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vilnius_Dawn_Gate_closeup.jpg",
+    "src": "img/activites/VNO/porte-aurore.jpg"
+   }
+  },
+  {
+   "id": "universite",
+   "nom": "Université de Vilnius et ses cours",
+   "emoji": "🎓",
+   "type": "culture",
+   "quartier": "Senamiestis",
+   "lat": 54.6826,
+   "lng": 25.2876,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cours intérieures et église Saint-Jean",
+     "gratuit pour les visiteurs individuels"
+    ],
+    [
+     "Clocher Saint-Jean (avril à octobre)",
+     "environ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h",
+   "moment": "Du lundi au samedi, de 9 h à 18 h",
+   "enfants": true,
+   "texte": "L'une des plus vieilles universités d'Europe centrale (1579) : treize cours à arcades, une église baroque crème et or et des salles couvertes de fresques. De mai à octobre, le clocher Saint-Jean offre l'une des plus belles vues sur les toits.",
+   "site_officiel": "https://www.muziejus.vu.lt/en/visit/visiting-infomation",
+   "note": "Travaux sur le toit de l'église Saint-Jean jusqu'à fin 2027 : on entre par la rue Universiteto. Le clocher ferme l'hiver.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vilnius_University_Great_Courtyard_2%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+    "src": "img/activites/VNO/universite.jpg"
+   }
+  },
+  {
+   "id": "pierre-paul",
+   "nom": "Église Saints-Pierre-et-Paul",
+   "emoji": "🤍",
+   "type": "culture",
+   "quartier": "Antakalnis",
+   "lat": 54.6941,
+   "lng": 25.3061,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "45 min",
+   "moment": "Le matin, quand la lumière entre par les fenêtres",
+   "enfants": true,
+   "texte": "Sous une façade sobre se cache l'un des intérieurs les plus fous d'Europe : plus de 2 000 personnages de stuc blanc, saints, anges, soldats et créatures, couvrent chaque centimètre des voûtes. Un baroque d'un blanc éclatant, à 20 minutes à pied de la vieille ville.",
+   "site_officiel": "https://www.govilnius.lt/visit-vilnius/places/church-of-st-peter-and-st-paul",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Peter_and_St._Paul%27s_Church_1%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+    "src": "img/activites/VNO/pierre-paul.jpg"
+   }
+  },
+  {
+   "id": "trois-croix",
+   "nom": "Colline des Trois-Croix",
+   "emoji": "⛰️",
+   "type": "vue",
+   "quartier": "Parc Kalnai",
+   "lat": 54.6867,
+   "lng": 25.2976,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, la plus belle vue gratuite de la ville",
+   "enfants": true,
+   "texte": "Trois croix blanches au sommet d'une colline boisée, détruites par les Soviétiques et rebâties en 1989. On y grimpe en 15 minutes par le parc Kalnai pour un panorama sur la tour de Gediminas, la vieille ville et ses clochers.",
+   "site_officiel": "https://lovevilnius.com/see-do/best-views",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Suicasmo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Three_Crosses_monument%2C_Vilnius_20180810-1.jpg",
+    "src": "img/activites/VNO/trois-croix.jpg"
+   }
+  },
+  {
+   "id": "kgb",
+   "nom": "Musée des Occupations (ancien KGB)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Gedimino prospektas",
+   "lat": 54.6879,
+   "lng": 25.2705,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Adulte",
+     "6 €"
+    ],
+    [
+     "Élèves, étudiants",
+     "3 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Audioguide",
+     "6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "1 h 30",
+   "moment": "Du mercredi au dimanche (fermé lundi et mardi)",
+   "enfants": false,
+   "texte": "Dans l'ancien siège du KGB, on descend dans les cellules restées telles quelles en 1991 : cachots d'isolement, salle des exécutions, couloirs de la prison. Un musée bouleversant pour comprendre 50 ans d'occupation et la résistance des « frères de la forêt ».",
+   "site_officiel": "https://olkm.lt/en/",
+   "note": "Plutôt pour les plus de 12 ans.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pofka",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Occupations_and_Freedom_Fights_in_Vilnius%2C_Lithuania%2C_2021.jpg",
+    "src": "img/activites/VNO/kgb.jpg"
+   }
+  },
+  {
+   "id": "mo-museum",
+   "nom": "MO Museum",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Senamiestis",
+   "lat": 54.6794,
+   "lng": 25.2775,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Adulte",
+     "11 €"
+    ],
+    [
+     "Enfants de 4 à 7 ans, élèves, étudiants",
+     "6 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + 4 enfants)",
+     "22 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en ligne ou sur place",
+   "duree": "1 h 30",
+   "moment": "Tous les jours de 10 h à 20 h, sauf le mardi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le musée d'art moderne lituanien, dans un bâtiment blanc tout en angles signé Daniel Libeskind. Expositions qui changent souvent, très bien faites, puis on grimpe le grand escalier jusqu'à la terrasse sur le toit, face aux toits de la vieille ville.",
+   "site_officiel": "https://mo.lt/en/for-your-visit/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Augustas Didžgalvis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MO_by_Augustas_Didzgalvis.jpg",
+    "src": "img/activites/VNO/mo-museum.jpg"
+   }
+  },
+  {
+   "id": "tour-tv",
+   "nom": "Tour de télévision",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Karoliniškės",
+   "lat": 54.6871,
+   "lng": 25.2146,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Plateforme du 67e étage (bistro-bar)",
+     "18 €"
+    ],
+    [
+     "De 4 à 18 ans",
+     "9 €"
+    ],
+    [
+     "Famille (2 adultes + 3 enfants)",
+     "45 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place ou en ligne (pas de coupe-file)",
+   "duree": "1 h 30",
+   "moment": "Par temps clair, en fin d'après-midi ; caisse ouverte tous les jours de 11 h à 21 h",
+   "enfants": true,
+   "texte": "À 165 m de haut, dans la plus haute construction du pays : un bar panoramique au 67e étage et, d'avril à octobre, une terrasse en plein air. Au pied de la tour, les croix de bois rappellent les victimes du 13 janvier 1991, tuées en défendant l'indépendance face aux chars soviétiques.",
+   "site_officiel": "https://tvbokstas.lt/en/tickets/",
+   "note": "Terrasse extérieure d'avril à octobre seulement, selon la météo. À 15 minutes du centre en bus ou en taxi.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nenea hartia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Views_from_Vilnius_TV_Tower_%2806.09.2022%29.03.jpg",
+    "src": "img/activites/VNO/tour-tv.jpg"
+   }
+  },
+  {
+   "id": "trakai",
+   "nom": "Château de Trakai",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Trakai (28 km)",
+   "lat": 54.6527,
+   "lng": 24.9339,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Château de l'île (avril à septembre)",
+     "14 €"
+    ],
+    [
+     "Château de l'île (octobre à mars)",
+     "12 €"
+    ],
+    [
+     "Étudiants, seniors",
+     "7 € (6 € en hiver)"
+    ],
+    [
+     "Famille (2 adultes + 3 enfants)",
+     "30 € (25 € en hiver)"
+    ],
+    [
+     "Train ou bus depuis Vilnius",
+     "quelques euros, 30 à 40 min"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      7
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place ou en ligne",
+   "duree": "Une demi-journée avec le trajet",
+   "moment": "Le matin en semaine ; l'été, on loue une barque ou un pédalo sur le lac",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le château de conte de fées de la Lituanie : une forteresse de brique rouge posée sur une île du lac Galvė, reliée à la rive par une passerelle de bois. Après la visite, on goûte les kibinai, chaussons farcis des Karaïmes, petite communauté venue de Crimée il y a 600 ans.",
+   "site_officiel": "https://trakaimuziejus.lt/en/lankytojams/kainos/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Julo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Trakai-Troki.jpg",
+    "src": "img/activites/VNO/trakai.jpg"
+   }
+  },
+  {
+   "id": "montgolfiere",
+   "nom": "Vol en montgolfière au-dessus de la ville",
+   "emoji": "🎈",
+   "type": "vue",
+   "quartier": "Départ du parc Vingis",
+   "lat": 54.683,
+   "lng": 25.2396,
+   "prix": 140,
+   "prix_detail": [
+    [
+     "Vol partagé (environ 1 h en l'air, 3 à 4 h en tout)",
+     "140 €"
+    ],
+    [
+     "Vol privé",
+     "à partir de 700 € environ"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 140,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; prévoyez une date de secours (vols annulés en cas de vent ou de pluie)",
+   "duree": "3 à 4 h",
+   "moment": "Du printemps à l'automne, au lever du soleil ou deux heures avant le coucher",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Vilnius est l'une des rares capitales au monde où les montgolfières ont le droit de survoler la vieille ville. Les soirs d'été, une dizaine de ballons glissent au-dessus des clochers ; depuis la nacelle, on voit la ville comme une maquette, puis on trinque au champagne à l'atterrissage.",
+   "site_officiel": "https://ballooning.lt/en/product-category/hot-air-balloon-flight/",
+   "note": "Âge minimum selon l'opérateur (souvent 6 ans) ; si le survol de Vilnius n'est pas possible ce jour-là, le vol part au-dessus des lacs de Trakai.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "calflier001",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:HOT_AIR_BALLOONS_OVER_VILLINUS_OLD_TOWN_LITHUANIA_SEP_2013_%289851455575%29.jpg",
+    "src": "img/activites/VNO/montgolfiere.jpg"
+   }
+  },
+  {
+   "id": "lukiskes",
+   "nom": "Prison de Lukiškės 2.0",
+   "emoji": "🔒",
+   "type": "sortir",
+   "quartier": "Lukiškės",
+   "lat": 54.6921,
+   "lng": 25.2673,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Visite guidée en anglais (1 h 30 à 2 h)",
+     "environ 22 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Bars et concerts dans la cour",
+     "entrée souvent libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      6,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne, surtout pour les visites de nuit (réservées aux adultes)",
+   "duree": "2 h",
+   "moment": "Visite l'après-midi, puis un verre le soir dans la cour, l'été",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une prison du tsar fermée en 2019 et devenue le lieu le plus surprenant de la ville : d'anciens détenus et gardiens racontent la vie derrière les barreaux, des cellules aux salles d'interrogatoire. Le soir, la cour se remplit de bars, de concerts et de festivals.",
+   "site_officiel": "https://www.lukiskiukalejimas.lt/pasivaiksciojimai/",
+   "note": "Photos interdites pendant la visite guidée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Renata3",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Luki%C5%A1k%C4%97s_Prison_2024-07-01_%282%29.jpg",
+    "src": "img/activites/VNO/lukiskes.jpg"
+   }
+  },
+  {
+   "id": "musee-juif",
+   "nom": "La Jérusalem du Nord : musée litvak et synagogue",
+   "emoji": "🕍",
+   "type": "culture",
+   "quartier": "Senamiestis",
+   "lat": 54.6837,
+   "lng": 25.2774,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Musée de la culture juive lituanienne",
+     "8 €"
+    ],
+    [
+     "Élèves, étudiants, seniors",
+     "4 €"
+    ],
+    [
+     "Famille (2 adultes + 4 enfants)",
+     "12 €"
+    ],
+    [
+     "Synagogue chorale et rues du ghetto",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      4
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche (fermé le lundi et les jours fériés)",
+   "enfants": true,
+   "texte": "Avant la guerre, Vilnius comptait une centaine de synagogues et un habitant sur trois était juif. Le nouveau musée de la culture litvak fait revivre ce monde, puis on marche dans les ruelles de l'ancien ghetto jusqu'à la synagogue chorale, la seule rescapée.",
+   "site_officiel": "https://www.jmuseum.lt/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "MichalPL",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Choral_Synagogue%2C_Vilnius%2C_Dec_2018.jpg",
+    "src": "img/activites/VNO/musee-juif.jpg"
+   }
+  },
+  {
+   "id": "bernardins",
+   "nom": "Jardin des Bernardins",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Senamiestis",
+   "lat": 54.6844,
+   "lng": 25.2954,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "45 min",
+   "moment": "Pour une pause entre deux visites ; superbe en automne",
+   "enfants": true,
+   "texte": "Le grand jardin au pied de la colline du Château : allées ombragées, roseraie, fontaine qui danse en musique et ruisseau de la Vilnia. Les Vilnois y pique-niquent l'été, et les enfants ont leur aire de jeux.",
+   "site_officiel": "https://www.govilnius.lt/visit-vilnius/places/bernardine-garden",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pofka",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bernardinai_garden.jpg",
+    "src": "img/activites/VNO/bernardins.jpg"
+   }
+  },
+  {
+   "id": "puckoriai",
+   "nom": "Falaise de Pūčkoriai et parc de Pavilniai",
+   "emoji": "🌲",
+   "type": "nature",
+   "quartier": "Belmontas",
+   "lat": 54.6856,
+   "lng": 25.3578,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Sentier",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "2 à 3 h",
+   "moment": "Par beau temps, avec de bonnes chaussures",
+   "enfants": true,
+   "texte": "À 20 minutes de bus du centre, la forêt commence : un sentier longe la rivière Vilnia jusqu'à une falaise de sable de 65 m de haut, avec un point de vue sur la vallée. Une vraie balade nature, à finir dans les restaurants au bord de l'eau de Belmontas.",
+   "site_officiel": "https://www.govilnius.lt/visit-vilnius/places/puckoriai-exposure",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Šarūnas Šimkus",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:P%C5%AB%C4%8Dkoriai_1.JPG",
+    "src": "img/activites/VNO/puckoriai.jpg"
+   }
+  },
+  {
+   "id": "rytas",
+   "nom": "Match de basket du Rytas Vilnius",
+   "emoji": "🏀",
+   "type": "sport",
+   "quartier": "Arena Vilnius (Šnipiškės)",
+   "lat": 54.7163,
+   "lng": 25.2801,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Championnat lituanien",
+     "13 à 25 €"
+    ],
+    [
+     "Coupe d'Europe",
+     "20 à 60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne ; les matchs contre le Žalgiris Kaunas affichent complet",
+   "duree": "2 h 30",
+   "moment": "Les soirs de match, d'octobre à mai",
+   "enfants": true,
+   "texte": "En Lituanie, le basket est une religion. Le Rytas, club de la capitale, joue dans une salle de plus de 10 000 places où l'on chante du début à la fin ; un match contre l'ennemi juré, le Žalgiris Kaunas, est l'un des plus chauds d'Europe.",
+   "site_officiel": "https://www.rytas.lt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pofka",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lietuvos_Rytas_vs._Zalgiris.JPG",
+    "src": "img/activites/VNO/rytas.jpg"
+   },
+   "club": "Rytas Vilnius"
+  },
+  {
+   "id": "literatu",
+   "nom": "Rue des Écrivains (Literatų)",
+   "emoji": "✒️",
+   "type": "balade",
+   "quartier": "Senamiestis",
+   "lat": 54.6823,
+   "lng": 25.2905,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "20 min",
+   "moment": "En passant, entre l'église Sainte-Anne et l'université",
+   "enfants": true,
+   "texte": "Un mur couvert de plus de 200 petites œuvres d'art, plaques de bronze, céramiques, gravures, chacune dédiée à un écrivain lié à la ville, de Mickiewicz à Romain Gary, né à Vilnius. Une ruelle-musée à ciel ouvert, à lire de près.",
+   "site_officiel": "https://lovevilnius.com/see-do/literatu-street",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jerzy Strzelecki",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Literat%C5%B3_Gatve_02%28js%29_Vilnius.jpg",
+    "src": "img/activites/VNO/literatu.jpg"
+   }
+  },
+  {
+   "id": "europos",
+   "nom": "Europos Parkas, musée en pleine forêt",
+   "emoji": "🗿",
+   "type": "nature",
+   "quartier": "Joneikiškės (19 km)",
+   "lat": 54.825,
+   "lng": 25.3538,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     "12 €"
+    ],
+    [
+     "Adulte (sur place)",
+     "14 €"
+    ],
+    [
+     "Enfants",
+     "8 €"
+    ],
+    [
+     "Enfants d'âge préscolaire",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en ligne (moins cher) ou sur place",
+   "duree": "Une demi-journée avec le trajet",
+   "moment": "Tous les jours de 10 h au coucher du soleil ; le plus beau au printemps et à l'automne",
+   "enfants": true,
+   "texte": "Une centaine de sculptures géantes d'artistes du monde entier, dispersées dans une forêt de pins près du centre géographique de l'Europe (selon les géographes français). On s'y promène 2 heures, d'œuvre en œuvre, entre étangs et clairières.",
+   "site_officiel": "https://www.europosparkas.lt/English/visiting_m.html",
+   "note": "À 20 minutes en voiture ; en bus, depuis l'arrêt Žalgirio (ligne vers Skirgiškės).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jaimrsilva",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vilnius_Europos_Parkas.jpg",
+    "src": "img/activites/VNO/europos.jpg"
+   }
+  },
+  {
+   "id": "rasos",
+   "nom": "Cimetière de Rasos",
+   "emoji": "🕯️",
+   "type": "balade",
+   "quartier": "Rasos",
+   "lat": 54.6681,
+   "lng": 25.3069,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "aucune réservation",
+   "duree": "1 h",
+   "moment": "À l'automne, et surtout le soir de la Toussaint, quand des milliers de bougies s'allument",
+   "enfants": false,
+   "texte": "Un cimetière romantique accroché à une colline boisée, avec ses tombes penchées sous les arbres. Le peintre Čiurlionis y repose, et le cœur du maréchal polonais Piłsudski est enterré à l'entrée, aux côtés de sa mère.",
+   "site_officiel": "https://www.govilnius.lt/visit-vilnius/places/rasos-cemetery",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lestat (Jan Mehlich)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vilnius_-_Rasos_Cemetery_04.JPG",
+    "src": "img/activites/VNO/rasos.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "senamiestis",
+   "nom": "Senamiestis",
+   "lat": 54.6812,
+   "lng": 25.2875,
+   "texte": "La vieille ville, cœur de Vilnius, piétonne et classée à l'UNESCO : cathédrale, université, églises et restaurants à pied. Idéal pour un premier séjour ; animé le soir autour de Vokiečių et Pilies."
+  },
+  {
+   "id": "uzupis",
+   "nom": "Užupis",
+   "lat": 54.6806,
+   "lng": 25.296,
+   "texte": "Le quartier des artistes, de l'autre côté de la Vilnia : calme, bohème, rempli de petites adresses et à 5 minutes à pied de la vieille ville."
+  },
+  {
+   "id": "gedimino",
+   "nom": "Gedimino prospektas",
+   "lat": 54.6879,
+   "lng": 25.276,
+   "texte": "L'avenue Gediminas, grande artère du centre moderne, entre la cathédrale et le Parlement : hôtels d'affaires, boutiques, opéra et musée du KGB. Pratique et bien desservi."
+  },
+  {
+   "id": "naujamiestis",
+   "nom": "Naujamiestis",
+   "lat": 54.675,
+   "lng": 25.272,
+   "texte": "La « ville nouvelle » du XIXe siècle, entre la vieille ville et la gare : prix plus doux, cafés, street art et halle de Halės, avec la gare pour partir à Trakai."
+  },
+  {
+   "id": "zverynas",
+   "nom": "Žvėrynas",
+   "lat": 54.6905,
+   "lng": 25.256,
+   "texte": "Un quartier résidentiel tranquille de maisons en bois, au bord de la rivière Neris et du parc Vingis, à 20 minutes à pied du centre. Pour les séjours au calme."
+  }
+ ],
+ "hotel_petit_prix_max": 80,
+ "restaurants": [
+  {
+   "id": "pirmas-blynas",
+   "nom": "Pirmas Blynas",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Crêpes sucrées et salées",
+   "quartier": "Senamiestis",
+   "adresse": "Savičiaus g. 15, Vilnius",
+   "lat": 54.67897,
+   "lng": 25.29025,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Une petite crêperie éclairée aux bougies, près de la place de l'Hôtel-de-Ville, tenue par une entreprise sociale qui emploie des personnes en situation de handicap. Crêpes salées ou sucrées, généreuses et inventives, avec des options végétaliennes.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; un peu d'attente le week-end",
+   "photo": {
+    "auteur": "Whoisjohngalt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fruit_Filled_cr%C3%AApe.jpg",
+    "src": "img/restos/VNO/pirmas-blynas.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "zemaiciu-asotis",
+   "nom": "Žemaičių ąsotis",
+   "emoji": "🥔",
+   "gamme": "petit",
+   "genre": "Cuisine lituanienne",
+   "quartier": "Naujamiestis",
+   "adresse": "Naugarduko g. 32-1, Vilnius",
+   "lat": 54.67487,
+   "lng": 25.27032,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "L'une des meilleures adresses (et des moins chères) pour goûter les cepelinai, gros « zeppelins » de pomme de terre farcis de viande, nappés de crème et de lardons, et, l'été, la soupe rose glacée à la betterave. Briques, théières suspendues au plafond et portions de bûcheron, à petit prix.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; le soir, on attend parfois quelques minutes",
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cepelinai_2%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+    "src": "img/restos/VNO/zemaiciu-asotis.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pinavija",
+   "nom": "Pinavija",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie et kibinai",
+   "quartier": "Senamiestis",
+   "adresse": "Vilniaus g. 21, Vilnius",
+   "lat": 54.68573,
+   "lng": 25.27934,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Boulangerie familiale connue pour ses kibinai, chaussons dorés des Karaïmes farcis d'agneau, de bœuf ou de fromage, et ses gâteaux maison. Parfait pour un petit-déjeuner ou un brunch avant d'attaquer la vieille ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Zorro2212",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kibinai.jpg",
+    "src": "img/restos/VNO/pinavija.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "beigelistai",
+   "nom": "Beigelistai",
+   "emoji": "🥯",
+   "gamme": "petit",
+   "genre": "Bagels",
+   "quartier": "Senamiestis",
+   "adresse": "Literatų g. 7, Vilnius",
+   "lat": 54.68209,
+   "lng": 25.29046,
+   "prix": "6 à 15 €",
+   "prix_min": 6,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le bagel est né dans la Pologne-Lituanie juive : ici, on le mange croustillant dehors et moelleux dedans, au za'atar ou garni à la new-yorkaise, dans la rue des Écrivains. Une pause gourmande parmi les plus citées de la ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Shisma",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bagel_with_sesame_3.jpg",
+    "src": "img/restos/VNO/beigelistai.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "paupio-turgus",
+   "nom": "Paupio turgus",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Halle gourmande",
+   "quartier": "Paupys",
+   "adresse": "Aukštaičių g. 7, Vilnius",
+   "lat": 54.67853,
+   "lng": 25.30252,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La halle gourmande de Paupys, ancien quartier industriel au bord de la Vilnia devenu le plus branché de la ville : des comptoirs de cuisines du monde entier sous un même toit, un bar à cocktails, une grande terrasse et même un cinéma. Le rendez-vous des jeunes Vilnois le soir.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "BigHead",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Paupys_by_Augustas_Didzgalvis.jpg",
+    "src": "img/restos/VNO/paupio-turgus.jpg"
+   }
+  },
+  {
+   "id": "le-travi",
+   "nom": "Le Travi",
+   "emoji": "🍝",
+   "gamme": "petit",
+   "genre": "Osteria italienne",
+   "quartier": "Užupis",
+   "adresse": "Užupio g. 19, Vilnius",
+   "lat": 54.68079,
+   "lng": 25.29795,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "Une minuscule osteria rustique tenue par un Génois au cœur d'Užupis : huit plats écrits à la craie chaque semaine, pâtes fraîches du jour (pappardelle au ragoût de canard…) et vins nature. On s'assoit au comptoir pour voir la cuisine.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, la salle est petite",
+   "photo": {
+    "auteur": "Jason Lam",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pappardelle_al_rag%C3%B9_e_piselli.jpg",
+    "src": "img/restos/VNO/le-travi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lokys",
+   "nom": "Lokys",
+   "emoji": "🐻",
+   "gamme": "moyen",
+   "genre": "Gibier et recettes anciennes",
+   "quartier": "Senamiestis",
+   "adresse": "Stiklių g. 8, Vilnius",
+   "lat": 54.67993,
+   "lng": 25.28639,
+   "prix": "30 à 55 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1972 dans une maison de marchand du XVe siècle, « L'Ours » sert le gibier des forêts lituaniennes, chevreuil, sanglier et même castor, sous des caves gothiques et une fresque du XVIIIe. Une carte écrite avec des historiens, tenue par la même famille depuis deux générations.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir ; terrasse dans la cour l'été",
+   "photo": {
+    "auteur": "Bernt Rostad from Oslo, Norway",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Restoranas_LOKYS_%289834981056%29.jpg",
+    "src": "img/restos/VNO/lokys.jpg"
+   }
+  },
+  {
+   "id": "gaspars",
+   "nom": "Gaspar's",
+   "emoji": "🍛",
+   "gamme": "moyen",
+   "genre": "Cuisine de Goa",
+   "quartier": "Senamiestis",
+   "adresse": "Pylimo g. 23-3, Vilnius",
+   "lat": 54.67857,
+   "lng": 25.27798,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "Le chef Gaspar, né à Goa d'une famille portugaise, mêle les deux cuisines dans une salle claire de l'ancien quartier juif (l'enseigne en yiddish est toujours là). Ne manquez pas « le curry de ma mère » et le naan à la farine moulue en Lituanie.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant le week-end",
+   "photo": {
+    "auteur": "goanfishcurryrice2",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goan_Mackerel_Fish_Curry_Plate.jpg",
+    "src": "img/restos/VNO/gaspars.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-gato-negro",
+   "nom": "El Gato Negro",
+   "emoji": "🌮",
+   "gamme": "moyen",
+   "genre": "Mexicain",
+   "quartier": "Senamiestis",
+   "adresse": "Pylimo g. 23, Vilnius",
+   "lat": 54.67835,
+   "lng": 25.27739,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "Le mexicain le plus festif de la ville, dans une salle colorée avec terrasse : margaritas classiques, tacos de maïs, quesabirria à l'agneau fondant et churros dorés pour finir. Généreux et bon marché pour la qualité, idéal entre amis.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant le week-end",
+   "photo": {
+    "auteur": "T.Tseng",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tacos_al_pastor%2C_taco_de_panza.jpg",
+    "src": "img/restos/VNO/el-gato-negro.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "augustin",
+   "nom": "Augustin",
+   "emoji": "🫒",
+   "gamme": "moyen",
+   "genre": "Petites assiettes méditerranéennes",
+   "quartier": "Place de l'Hôtel-de-Ville",
+   "adresse": "Didžioji g. 18, Vilnius",
+   "lat": 54.67937,
+   "lng": 25.28829,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin 2026",
+   "texte": "Lustres, parquet et vieux buffets remplis de vins : une adresse élégante sur la grande rue de la vieille ville. On partage des assiettes colorées aux saveurs de Méditerranée et du Levant, surtout végétales (trois par personne et un dessert), et l'été on dîne dans la cour.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même en semaine",
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Did%C5%BEioji_Street_at_dusk%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+    "src": "img/restos/VNO/augustin.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "georgian-house",
+   "nom": "Georgian House",
+   "emoji": "🫓",
+   "gamme": "moyen",
+   "genre": "Géorgien",
+   "quartier": "Senamiestis",
+   "adresse": "Mėsinių g. 4-3, Vilnius",
+   "lat": 54.67776,
+   "lng": 25.2847,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "La Géorgie est la cuisine chouchou des pays baltes : khatchapouri en barque avec son jaune d'œuf à mélanger au fromage fondant, khinkali juteux et vins géorgiens, cuisinés par une équipe venue de là-bas. Portions énormes et jolie terrasse.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le vendredi et le samedi soir",
+   "photo": {
+    "auteur": "Maksym Kozlenko",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2019-07-17_Khachapuri_%28Adjaruli%29_served_at_Georgian_Restaurant_in_Kyiv.jpg",
+    "src": "img/restos/VNO/georgian-house.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bistro-18",
+   "nom": "Bistro 18",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Bistrot de saison",
+   "quartier": "Senamiestis",
+   "adresse": "Stiklių g. 18, Vilnius",
+   "lat": 54.68089,
+   "lng": 25.28519,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Le bistrot préféré des expatriés, tenu par un couple irlando-lituanien dans plusieurs petites salles d'une ruelle pavée : soupe à l'oignon, crevettes au beurre de gingembre, belle carte des vins. Chic sans être guindé, parfait pour un dîner en amoureux.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Phillip Capper",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vilnius_Old_Town%2C_Lithuania%2C_14_Sept._2008.jpg",
+    "src": "img/restos/VNO/bistro-18.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dziaugsmas",
+   "nom": "Džiaugsmas",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine balte créative",
+   "quartier": "Senamiestis",
+   "adresse": "Vilniaus g. 28, Vilnius",
+   "lat": 54.68292,
+   "lng": 25.2805,
+   "prix": "60 à 110 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "« La Joie » : une maison ancienne au décor sombre et décontracté, où l'on peut choisir à la carte ou se laisser porter par le menu. Beignet d'anguille fumée, cabillaud au bouillon de poisson, chevreuil aux cèpes : une étoile sans chichis, à prix encore doux.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thana_Fine_Dining_plate.jpg",
+    "src": "img/restos/VNO/dziaugsmas.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nineteen18",
+   "nom": "Nineteen18",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Menu dégustation au comptoir",
+   "quartier": "Senamiestis",
+   "adresse": "Dominikonų g. 11, Vilnius",
+   "lat": 54.68123,
+   "lng": 25.2856,
+   "prix": "115 à 235 €",
+   "prix_min": 115,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Dix plats qui racontent la Lituanie avec les techniques d'aujourd'hui : tartare de bœuf et brioche au miel, « neige » de griotte, et même la tisane finale cueillie dans le jardin de la mère de la cheffe Vita Bartininkaitė. Demandez le comptoir, face à la cuisine ouverte.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant (du mardi au samedi soir)",
+   "photo": {
+    "auteur": "Radosław Botev",
+    "licence": "CC BY 3.0 pl",
+    "page": "https://commons.wikimedia.org/wiki/File:Dominikon%C5%B3_Street_in_Vilnius_%281a%29.jpg",
+    "src": "img/restos/VNO/nineteen18.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "deep-roots",
+   "nom": "Deep Roots",
+   "emoji": "🌾",
+   "gamme": "haut",
+   "genre": "Cuisine de la ferme",
+   "quartier": "Senamiestis",
+   "adresse": "Trakų g. 14, Vilnius",
+   "lat": 54.6804,
+   "lng": 25.28096,
+   "prix": "85 à 124 €",
+   "prix_min": 85,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin (nouveau en 2026)",
+   "texte": "Nouvelle étoile 2026, dans une maison du XVIIe siècle : on est accueilli avec un verre d'eau-de-vie lituanienne, puis le chef raconte chaque plat, cuisiné de la tête à la queue avec les produits de sa ferme et les recettes de son arrière-grand-mère. Menus de 7 ou 10 plats.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant (du mercredi au samedi soir)",
+   "photo": {
+    "auteur": "BigHead",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Traku_gatve_by_Augustas_Didzgalvis.jpg",
+    "src": "img/restos/VNO/deep-roots.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "amandus",
+   "nom": "Amandus",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Dîner surprise lituano-nordique",
+   "quartier": "Užupis",
+   "adresse": "Užupio g. 22, Vilnius",
+   "lat": 54.68084,
+   "lng": 25.2971,
+   "prix": "100 à 160 €",
+   "prix_min": 100,
+   "badges": [],
+   "texte": "Le chef Deivydas Praspaliauskas sert tous ses convives en même temps, à 19 h, un menu surprise de saveurs lituaniennes et nordiques : la grande table des occasions spéciales pour les Vilnois, au cœur d'Užupis. Pain de seigle et betterave au beurre de paprika en signature.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant (du mercredi au samedi, service unique à 19 h)",
+   "photo": {
+    "auteur": "Martins Smits",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C5%BEupis%2C_Vilnius%2C_Lithuania_-_panoramio_%286%29.jpg",
+    "src": "img/restos/VNO/amandus.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ertlio-namas",
+   "nom": "Ertlio Namas",
+   "emoji": "📜",
+   "gamme": "haut",
+   "genre": "Recettes historiques lituaniennes",
+   "quartier": "Senamiestis",
+   "adresse": "Šv. Jono g. 7, Vilnius",
+   "lat": 54.68193,
+   "lng": 25.28761,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Un voyage dans le temps à table : chaque plat du menu ressuscite une recette de la Lituanie d'autrefois, parfois médiévale, et le serveur raconte son histoire. Accord avec trois vins et un hydromel, la boisson nationale d'autrefois.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant",
+   "photo": {
+    "auteur": "Alma Pater",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Svento_Jono_street_in_Vilnius.JPG",
+    "src": "img/restos/VNO/ertlio-namas.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "proteviai",
+   "nom": "Protėviai",
+   "emoji": "🔥",
+   "gamme": "haut",
+   "genre": "Steaks au feu de bois",
+   "quartier": "Place de la Cathédrale",
+   "adresse": "Odminių g. 3, Vilnius",
+   "lat": 54.68555,
+   "lng": 25.28475,
+   "prix": "50 à 120 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "« Les Ancêtres » : sculptures de bois géantes, comptoir taillé dans un tronc et vue sur la place de la Cathédrale. Bœuf lituanien, wagyu ou faux-filet maturé 60 jours, vendus au poids et cuits sur la braise. Pour les amateurs de viande.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Simone Zuffanelli",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grigliata.jpg",
+    "src": "img/restos/VNO/proteviai.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

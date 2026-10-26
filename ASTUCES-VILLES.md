@@ -111,3 +111,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Wanderlog : départ `geoCategory/74230` (géo 9633), 250 listes, ~2 200 lieux. Prix : sites officiels lisibles avec Playwright
   (heritageireland.ie, stpatrickscathedral.ie, christchurchcathedral.ie, crokepark.ie, teelingdistillery.com, wildrovertours.com) ;
   la billetterie du Livre de Kells renvoie 403. Tiqets Dublin : `activites-attractions-dublin-c68616` (prix : `"priceEur"` par `curl`).
+- Vilnius (oct. 2026) : recherche de fichiers Commons en HTML (`ns6=1`) + `thumb.php?w=330/960`, sans « 429 ». Wanderlog : départ
+  `geoCategory/40370` (géo 9695), 84 listes seulement, ~900 lieux. Michelin : la page de la ville renvoie 202 à `curl`, mais Playwright
+  lit les fiches (`/en/vilnius-region/vilnius_1985479/restaurant/<nom>`, ~3 fiches puis il faut ralentir). Très bon guide récent et précis :
+  `lovevilnius.com/see-do/…` (Playwright). Prix officiels lisibles avec Playwright (valdovurumai.lt, lnm.lt, olkm.lt, mo.lt, tvbokstas.lt,
+  trakaimuziejus.lt, bpmuziejus.lt). Tiqets Vilnius : `activites-attractions-vilnius-c73352`.

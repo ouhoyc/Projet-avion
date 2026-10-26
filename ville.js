@@ -91,6 +91,10 @@ const PARTNER_LINKS = {
     'moli': tiqets('activites-attractions-dublin-c68616/billets-pour-moli-musee-de-la-litterature-d-irlande-billet-d-entree-p1022357'),
     'teeling': tiqets('activites-attractions-dublin-c68616/billets-pour-teeling-whyskey-distillery-visite-guidee-degustation-p974479'),
   },
+  VNO: {
+    'cathedrale': tiqets('activites-attractions-vilnius-c73352/billets-pour-clocher-de-la-cathedrale-de-vilnius-p975938'),
+    'europos': tiqets('activites-attractions-vilnius-c73352/billets-pour-europos-parkas-musee-en-plein-air-du-centre-de-l-europe-p976192'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 
