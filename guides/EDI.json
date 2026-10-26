@@ -1,0 +1,1818 @@
+{
+ "city_code": "EDI",
+ "ville": "Édimbourg",
+ "statut": "vérifié en autonomie, prix relevés le 26/10/2026 (1 £ ≈ 1,15 €)",
+ "verifie_le": "2026-10-26",
+ "avant_de_partir": "Passeport obligatoire : la carte d'identité ne suffit plus pour entrer au Royaume-Uni. Il faut aussi une autorisation électronique de voyage (ETA), à demander avant le départ sur le site du gouvernement britannique (gov.uk) ou son application : 20 £ (≈ 23 €) par personne, enfants et bébés compris, valable 2 ans pour plusieurs séjours. Sans elle, la compagnie refuse l'embarquement. Méfiez-vous des sites qui la revendent plus cher.",
+ "prix_match": 35,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "chateau",
+   "nom": "Château d'Édimbourg",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.948595,
+   "lng": -3.199913,
+   "prix": 27,
+   "prix_detail": [
+    [
+     "Adulte (réservé en ligne)",
+     "23,50 £ ≈ 27 €"
+    ],
+    [
+     "Enfant 7-15 ans",
+     "11,50 £ ≈ 13 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Sur place, sans réservation",
+     "26 £ ≈ 30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 27,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      15,
+      13
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant, en ligne (entrée à heure fixe, souvent complet l'été et le week-end)",
+   "duree": "2 h 30",
+   "moment": "À l'ouverture (9 h 30), avant les groupes ; le canon tonne à 13 h pile",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Perché sur un volcan éteint, il domine la ville depuis neuf siècles. On y voit les Joyaux de la couronne d'Écosse et la Pierre du destin, la minuscule chapelle Sainte-Marguerite (la plus vieille construction de la ville) et, des remparts, tout Édimbourg jusqu'à la mer. Chaque jour à 13 h, le « One O'Clock Gun » fait sursauter la ville.",
+   "site_officiel": "https://www.edinburghcastle.scot/visit/tickets",
+   "note": "Le billet en ligne est moins cher et garantit l'entrée. Visites guidées gratuites de 30 min comprises (en anglais).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Graham Hogg",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Princes_Street_Gardens_and_Edinburgh_Castle_-_geograph.org.uk_-_8141306.jpg",
+    "src": "img/activites/EDI/chateau.jpg"
+   }
+  },
+  {
+   "id": "royal-mile",
+   "nom": "Le Royal Mile et ses closes",
+   "emoji": "🏴",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 55.950109,
+   "lng": -3.188021,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Tôt le matin pour les ruelles vides, ou le soir quand les pubs s'allument",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La grande rue pavée de la vieille ville descend du château au palais de Holyrood. Le secret, ce sont les « closes » : des dizaines de passages étroits qui s'ouvrent de chaque côté sur des cours cachées, des escaliers et des vues plongeantes sur la ville neuve. Cornemuseurs, kilts et vieilles enseignes à chaque pas.",
+   "site_officiel": "https://edinburgh.org/explore/old-town/",
+   "note": "Poussez dans Advocate's Close (vue sur le Scott Monument), Lady Stair's Close et White Horse Close, la plus jolie.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anthony O'Neil",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:High_Street_%28Royal_Mile%29_-_geograph.org.uk_-_8085874.jpg",
+    "src": "img/activites/EDI/royal-mile.jpg"
+   }
+  },
+  {
+   "id": "holyrood",
+   "nom": "Palais de Holyroodhouse",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Holyrood",
+   "lat": 55.952714,
+   "lng": -3.172272,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Adulte (réservé à l'avance)",
+     "22 £ ≈ 25 €"
+    ],
+    [
+     "Jeune 18-24 ans",
+     "14 £ ≈ 16 €"
+    ],
+    [
+     "Enfant 5-17 ans",
+     "≈ 11 £ ≈ 13 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      13
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même en ligne (4 £ de moins que sur place)",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Le matin ; fermé quand le roi est présent (souvent fin juin-début juillet)",
+   "enfants": true,
+   "texte": "La résidence officielle du roi en Écosse, au pied du Royal Mile. On visite les grands appartements d'apparat, la chambre de Marie Stuart (où son secrétaire fut poignardé sous ses yeux) et les ruines romantiques de l'abbaye du XIIe siècle, ouvertes sur le ciel. Audioguide en français compris.",
+   "site_officiel": "https://www.rct.uk/visit/palace-of-holyroodhouse",
+   "note": "Fermé certains jours de visite royale : vérifiez le calendrier sur le site avant de réserver.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daniel Kraft",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Holyrood_Palace_and_Abbey_20211021.jpg",
+    "src": "img/activites/EDI/holyrood.jpg"
+   }
+  },
+  {
+   "id": "arthurs-seat",
+   "nom": "Arthur's Seat",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Holyrood Park",
+   "lat": 55.944083,
+   "lng": -3.161832,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Randonnée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h aller-retour",
+   "moment": "Au lever ou au coucher du soleil, par temps sec ; évitez les jours de grand vent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un ancien volcan de 251 m en pleine ville : 45 minutes de montée par les sentiers d'herbe et de rochers, puis la ville entière à vos pieds, du château jusqu'à la mer du Nord. Une vraie bouffée de Highlands à dix minutes du Royal Mile.",
+   "site_officiel": "https://www.historicenvironment.scot/visit-a-place/places/holyrood-park/",
+   "note": "Bonnes chaussures conseillées : le sommet est glissant par temps de pluie. Le chemin des Salisbury Crags (falaises) est le plus facile pour une vue sur la vieille ville.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ermell",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_Arthur%27s_Seat-20110904-RM-124927.jpg",
+    "src": "img/activites/EDI/arthurs-seat.jpg"
+   }
+  },
+  {
+   "id": "calton-hill",
+   "nom": "Calton Hill",
+   "emoji": "🌇",
+   "type": "vue",
+   "quartier": "Calton Hill",
+   "lat": 55.955046,
+   "lng": -3.182741,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès à la colline",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Au coucher du soleil, la vue la plus célèbre de la ville",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dix minutes de marche depuis Princes Street pour LA carte postale d'Édimbourg : le château, la flèche du Balmoral et le Scott Monument alignés derrière le petit temple grec de Dugald Stewart. Au sommet, le « Parthénon inachevé » et le monument Nelson, en forme de longue-vue.",
+   "site_officiel": "https://edinburgh.org/things-to-do/attractions/calton-hill/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ad Meskens",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_from_Calton_Hill_with_Dugald_Stewart_Monument_3.JPG",
+    "src": "img/activites/EDI/calton-hill.jpg"
+   }
+  },
+  {
+   "id": "victoria-street",
+   "nom": "Victoria Street et Grassmarket",
+   "emoji": "🧙",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 55.948734,
+   "lng": -3.193198,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin avant 10 h pour la photo sans la foule",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La rue en arc de cercle aux façades rouges, bleues et jaunes qui aurait inspiré le Chemin de Traverse d'Harry Potter. Boutiques de sorciers, de tweed et de whisky, puis on descend sur le Grassmarket, l'ancienne place du marché aux pubs centenaires, au pied du château.",
+   "site_officiel": "https://edinburgh.org/explore/old-town/",
+   "note": "La meilleure photo se prend d'en haut, depuis la terrasse de Victoria Terrace.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Drnoble",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_34-38_Victoria_Street%2C_Edinburgh_-_20240928114118.jpg",
+    "src": "img/activites/EDI/victoria-street.jpg"
+   }
+  },
+  {
+   "id": "dean-village",
+   "nom": "Dean Village et la Water of Leith",
+   "emoji": "🏡",
+   "type": "balade",
+   "quartier": "Dean Village",
+   "lat": 55.952279,
+   "lng": -3.218199,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de matinée ; le sentier continue jusqu'à Stockbridge",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un ancien village de meuniers caché au fond d'un ravin, à dix minutes du centre : maisons à colombages, vieux moulins et pont de pierre sur la rivière. Suivez le sentier de la Water of Leith sous les arbres jusqu'à la colonnade de St Bernard's Well et au quartier de Stockbridge.",
+   "site_officiel": "https://edinburgh.org/explore/west-end/",
+   "note": "C'est un quartier habité : restez discrets devant les maisons.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mainlymazza",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Modern_buildings_in_Dean_Village%2C_Edinburgh_09.jpg",
+    "src": "img/activites/EDI/dean-village.jpg"
+   }
+  },
+  {
+   "id": "stockbridge",
+   "nom": "Stockbridge et Circus Lane",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "Stockbridge",
+   "lat": 55.958084,
+   "lng": -3.20536,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le dimanche, pour le marché de Stockbridge (10 h-17 h)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le quartier village de la ville, entre cafés, friperies chics et boulangeries. Circus Lane, ruelle pavée bordée d'anciennes écuries fleuries avec un clocher en point de fuite, est l'une des rues les plus photographiées d'Écosse. Le dimanche, marché de producteurs au bord de la rivière.",
+   "site_officiel": "https://edinburgh.org/explore/stockbridge/",
+   "note": "Circus Lane est une rue résidentielle : photos oui, en silence.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ralf Steinberger",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Circus_Lane%2C_Edinburgh_%2850461017443%29.jpg",
+    "src": "img/activites/EDI/stockbridge.jpg"
+   }
+  },
+  {
+   "id": "musee-national",
+   "nom": "Musée national d'Écosse",
+   "emoji": "🦕",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.947,
+   "lng": -3.190567,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "payantes"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Un jour de pluie ; montez au 7e étage pour la terrasse",
+   "enfants": true,
+   "texte": "Une grande galerie victorienne en fonte et verre inondée de lumière, et toute l'histoire du monde sous un même toit : la brebis Dolly, les pièces d'échecs de Lewis, des machines à vapeur, un squelette de T. rex, et l'Écosse des Pictes à aujourd'hui. Gratuit, avec une terrasse sur le toit face au château.",
+   "site_officiel": "https://www.nms.ac.uk/national-museum-of-scotland",
+   "note": "Ouvert tous les jours de 10 h à 17 h.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Elshad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Scotland_Grand_Gallery.jpg",
+    "src": "img/activites/EDI/musee-national.jpg"
+   }
+  },
+  {
+   "id": "national-gallery",
+   "nom": "Scottish National Gallery",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Princes Street",
+   "lat": 55.950925,
+   "lng": -3.195943,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Collection permanente",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "payantes"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, puis promenade dans les jardins de Princes Street",
+   "enfants": true,
+   "texte": "Un temple néoclassique au milieu des jardins, sous le château. Des murs rouges couverts de Raphaël, Titien, Rembrandt, Vermeer, Monet et Van Gogh, et le plus célèbre tableau écossais : le pasteur patinant sur le loch de Duddingston. Gratuit et à taille humaine.",
+   "site_officiel": "https://www.nationalgalleries.org/visit/scottish-national-gallery",
+   "note": "Ouvert tous les jours de 10 h à 17 h.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Iain Lees",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_National_Gallery_from_The_Mound_on_a_summer%27s_evening_-_geograph.org.uk_-_8089638.jpg",
+    "src": "img/activites/EDI/national-gallery.jpg"
+   }
+  },
+  {
+   "id": "camera-obscura",
+   "nom": "Camera Obscura et World of Illusions",
+   "emoji": "🔮",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.948954,
+   "lng": -3.195671,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Adulte",
+     "24,95 £ ≈ 29 €"
+    ],
+    [
+     "Enfant 5-15 ans",
+     "17,95 £ ≈ 21 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      15,
+      21
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (créneau garanti)",
+   "duree": "2 h",
+   "moment": "Par beau temps pour la chambre noire (tout en haut)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus vieille attraction de la ville (1853), au pied du château : cinq étages d'illusions d'optique, un tunnel tourbillonnant, un labyrinthe de miroirs, et tout en haut la chambre noire victorienne qui projette la ville en direct sur une table. Les enfants adorent, les adultes aussi.",
+   "site_officiel": "https://www.camera-obscura.co.uk/tickets/",
+   "note": "Billet valable toute la journée : on peut sortir et revenir.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mike Pennington",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hall_of_mirrors%2C_Camera_Obscura%2C_Edinburgh_-_geograph.org.uk_-_2444773.jpg",
+    "src": "img/activites/EDI/camera-obscura.jpg"
+   }
+  },
+  {
+   "id": "st-giles",
+   "nom": "Cathédrale Saint-Gilles",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.949484,
+   "lng": -3.190892,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Visiteur",
+     "12 £ ≈ 14 €"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "En semaine ; le jeudi à 18 h, office chanté gratuit (evensong)",
+   "enfants": true,
+   "texte": "La grande église du Royal Mile, coiffée de sa célèbre couronne de pierre. À l'intérieur, des vitraux flamboyants et surtout la chapelle du Chardon, minuscule joyau sculpté où des anges jouent de la cornemuse. John Knox y lança la Réforme écossaise.",
+   "site_officiel": "https://www.stgilescathedral.org.uk/",
+   "note": "Entrée payante pour les touristes depuis septembre 2026 (gratuite pour les offices). Fermée le dimanche matin.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Michael D Beckwith",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Giles_Cathedral_Nave.jpg",
+    "src": "img/activites/EDI/st-giles.jpg"
+   }
+  },
+  {
+   "id": "mary-king",
+   "nom": "The Real Mary King's Close",
+   "emoji": "🕯️",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.949921,
+   "lng": -3.190506,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Adulte (billet Essential)",
+     "25 £ ≈ 29 €"
+    ],
+    [
+     "Enfant 5-15 ans",
+     "18,25 £ ≈ 21 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "non admis"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      15,
+      21
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 jours avant (petits groupes, complet rapidement l'été)",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi ; visite guidée en anglais (texte en français sur demande)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Sous l'hôtel de ville, une rue entière du XVIIe siècle ensevelie et intacte. Un guide en costume d'époque vous emmène de maison en maison, dans les pas des habitants qui ont vécu la peste de 1645. Saisissant, et pas du tout « maison hantée ».",
+   "site_officiel": "https://realmarykingsclose.com/tickets-prices",
+   "note": "Le billet « Signature » (28,50 £) permet de changer de créneau ; photos interdites sous terre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mario RM",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_King%27s_Close_%28Mario_RM%29_-_Flickr.jpg",
+    "src": "img/activites/EDI/mary-king.jpg"
+   }
+  },
+  {
+   "id": "vaults",
+   "nom": "Les souterrains hantés (Blair Street Vaults)",
+   "emoji": "👻",
+   "type": "sortir",
+   "quartier": "Vieille ville",
+   "lat": 55.94919,
+   "lng": -3.187413,
+   "prix": 32,
+   "prix_detail": [
+    [
+     "Adulte",
+     "28 £ ≈ 32 €"
+    ],
+    [
+     "Enfant 5-15 ans",
+     "22 £ ≈ 25 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "non admis"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 32,
+    "enfants": [
+     [
+      15,
+      25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille (les départs du soir affichent complet autour d'Halloween)",
+   "duree": "1 h 15",
+   "moment": "À la tombée de la nuit ; plusieurs départs par jour depuis la Mercat Cross",
+   "enfants": true,
+   "texte": "Sous le pont South Bridge, des voûtes de pierre où vivaient au XVIIIe siècle artisans, tavernes et contrebandiers, puis les plus pauvres de la ville. Une visite à la lanterne avec Mercat Tours, entre histoire vraie et récits de fantômes, dans les lieux réputés les plus hantés d'Écosse.",
+   "site_officiel": "https://www.mercattours.com/daily-tour-timetable",
+   "note": "Visite en anglais. Rendez-vous à la Mercat Cross, derrière la cathédrale Saint-Gilles.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kjetil Bjørnsrud",
+    "licence": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_valuts_2.jpg",
+    "src": "img/activites/EDI/vaults.jpg"
+   }
+  },
+  {
+   "id": "whisky",
+   "nom": "The Scotch Whisky Experience",
+   "emoji": "🥃",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.948745,
+   "lng": -3.195898,
+   "prix": 26,
+   "prix_detail": [
+    [
+     "Silver Tour (1 dégustation)",
+     "23 £ ≈ 26 €"
+    ],
+    [
+     "Enfant 6-17 ans (jus de fruits)",
+     "≈ 10 £ ≈ 12 €"
+    ],
+    [
+     "Gold Tour (5 whiskies)",
+     "38,50 £ ≈ 44 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 26,
+    "enfants": [
+     [
+      17,
+      12
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne",
+   "duree": "50 min",
+   "moment": "L'après-midi ; départs toutes les 20 minutes",
+   "enfants": true,
+   "texte": "Au pied du château, on monte dans un tonneau pour découvrir comment naît le whisky, puis on apprend à le déguster par région. Le clou : la plus grande collection de whiskies écossais au monde, 3 384 bouteilles alignées du sol au plafond. Commentaires en français.",
+   "site_officiel": "https://www.scotchwhiskyexperience.co.uk/tours",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Derek Harper",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scotch_Whisky_Heritage_Centre%2C_Edinburgh_-_geograph.org.uk_-_932290.jpg",
+    "src": "img/activites/EDI/whisky.jpg"
+   }
+  },
+  {
+   "id": "johnnie-walker",
+   "nom": "Johnnie Walker Princes Street et son toit-terrasse",
+   "emoji": "🥂",
+   "type": "culture",
+   "quartier": "Princes Street",
+   "lat": 55.950303,
+   "lng": -3.207601,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Visite « Journey of Flavour » (3 verres)",
+     "≈ 30 £ ≈ 35 €"
+    ],
+    [
+     "8-17 ans (sans alcool)",
+     "15 £ ≈ 17 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      17,
+      17
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant (week-end complet)",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, pour finir au bar du toit au coucher du soleil",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Huit étages dans un ancien grand magasin de Princes Street : une visite-spectacle sur l'histoire du whisky écossais, avec des cocktails choisis selon vos goûts. On termine au 1820 Rooftop Bar, la terrasse la plus spectaculaire de la ville, face au château.",
+   "site_officiel": "https://www.johnniewalker.com/en-gb/visit-us-princes-street/",
+   "note": "Le bar du toit est accessible sans faire la visite, mais réservez-le aussi le week-end.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kim traynor",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frasers%2C_West_End_-_geograph.org.uk_-_1325558.jpg",
+    "src": "img/activites/EDI/johnnie-walker.jpg"
+   }
+  },
+  {
+   "id": "gladstone",
+   "nom": "Gladstone's Land",
+   "emoji": "🏚️",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 55.949448,
+   "lng": -3.193669,
+   "prix": 13,
+   "prix_detail": [
+    [
+     "Adulte",
+     "11 £ ≈ 13 €"
+    ],
+    [
+     "Enfant",
+     "7 £ ≈ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13,
+    "enfants": [
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le matin (visite libre de 10 h à 14 h 30)",
+   "enfants": true,
+   "texte": "Une maison de marchand de six étages de 1617, sur le Royal Mile, telle qu'elle était quand on vivait entassés dans la vieille ville : plafonds peints d'origine (cherchez le singe), boutique d'époque au rez-de-chaussée et salon de glaces pour finir.",
+   "site_officiel": "https://www.nts.org.uk/visit/places/gladstones-land",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kim traynor",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gladstone%27s_Land%2C_Lawnmarket_-_geograph.org.uk_-_2380714.jpg",
+    "src": "img/activites/EDI/gladstone.jpg"
+   }
+  },
+  {
+   "id": "greyfriars",
+   "nom": "Greyfriars Kirkyard et Greyfriars Bobby",
+   "emoji": "🐕",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 55.946674,
+   "lng": -3.192125,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, à la lumière dorée",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un vieux cimetière romantique, tombes sculptées de crânes et d'angelots, où J. K. Rowling aurait trouvé des noms pour Harry Potter (cherchez la tombe de Thomas Riddell). À l'entrée, la statue de Bobby, le petit chien qui veilla quatorze ans sur la tombe de son maître.",
+   "site_officiel": "https://greyfriarskirk.com/visit/kirkyard/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Scglossop1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greyfriars_Kirkyard%2C_Edinburgh_2.jpg",
+    "src": "img/activites/EDI/greyfriars.jpg"
+   }
+  },
+  {
+   "id": "britannia",
+   "nom": "Yacht royal Britannia",
+   "emoji": "🛳️",
+   "type": "culture",
+   "quartier": "Leith",
+   "lat": 55.982155,
+   "lng": -3.177252,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Adulte (en ligne, novembre-mars)",
+     "22 £ ≈ 25 €"
+    ],
+    [
+     "Adulte (en ligne, avril-octobre)",
+     "23 £ ≈ 26 €"
+    ],
+    [
+     "Enfant 7-15 ans",
+     "11,50 £ ≈ 13 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      15,
+      13
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (2 £ de moins qu'à l'entrée)",
+   "duree": "2 h",
+   "moment": "Le matin, puis déjeuner sur le port de Leith",
+   "enfants": true,
+   "texte": "Le yacht de la reine Élisabeth II pendant 44 ans, amarré à Leith. On visite cinq ponts tels qu'elle les a laissés : la passerelle, les salons d'apparat, la chambre de la reine, la salle des machines étincelante. Audioguide en français et salon de thé avec vue sur le port.",
+   "site_officiel": "https://www.royalyachtbritannia.co.uk/visit/tickets-and-tours/",
+   "note": "Dans le centre commercial Ocean Terminal : tram ou bus 11, 22, 35 depuis le centre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "JThomas",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_Yacht_Britannia%2C_Port_of_Leith_-_geograph.org.uk_-_3542261.jpg",
+    "src": "img/activites/EDI/britannia.jpg"
+   }
+  },
+  {
+   "id": "botanic",
+   "nom": "Jardin botanique royal et ses serres victoriennes",
+   "emoji": "🌴",
+   "type": "nature",
+   "quartier": "Inverleith",
+   "lat": 55.965013,
+   "lng": -3.209102,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Jardin",
+     "gratuit"
+    ],
+    [
+     "Serres (Palm Houses), adulte",
+     "4,95 £ ≈ 6 €"
+    ],
+    [
+     "Serres, moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour les serres (entrée à heure fixe)",
+   "duree": "2 h",
+   "moment": "Le matin ; belle vue sur le château depuis la colline du jardin",
+   "enfants": true,
+   "texte": "Trente hectares de jardins, de rocailles et de rhododendrons à vingt minutes à pied de Stockbridge, avec l'une des plus belles vues sur la silhouette de la ville. Les grandes serres victoriennes de 1858, palmiers géants et fougères arborescentes, ont rouvert en octobre 2026 après cinq ans de restauration.",
+   "site_officiel": "https://www.rbge.org.uk/visit/royal-botanic-garden-edinburgh/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard West",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_Botanic_Garden_Edinburgh_%2C_Glasshouses_and_Azaleas_-_geograph.org.uk_-_2423590.jpg",
+    "src": "img/activites/EDI/botanic.jpg"
+   }
+  },
+  {
+   "id": "scott-monument",
+   "nom": "Scott Monument et jardins de Princes Street",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "Princes Street",
+   "lat": 55.952381,
+   "lng": -3.193274,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Montée au sommet (287 marches)",
+     "≈ 8 £ ≈ 9 €"
+    ],
+    [
+     "Enfant",
+     "≈ 6 £ ≈ 7 €"
+    ],
+    [
+     "Jardins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      15,
+      7
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Par temps clair ; dernières montées vers 15 h 30 en hiver",
+   "enfants": true,
+   "texte": "La plus grande flèche jamais dédiée à un écrivain, 61 m de dentelle gothique noircie au-dessus des jardins de Princes Street. 287 marches dans un escalier de plus en plus étroit, pour une vue à 360° sur le château et la vieille ville. En bas, les jardins sous le château sont le salon des habitants.",
+   "site_officiel": "https://www.edinburghmuseums.org.uk/venue/scott-monument",
+   "note": "Billets au guichet, au pied du monument (pas de réservation). Déconseillé si vous êtes sujet au vertige.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ermell",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_Scott_Monument-20110903-RM-160826.jpg",
+    "src": "img/activites/EDI/scott-monument.jpg"
+   }
+  },
+  {
+   "id": "leith",
+   "nom": "Le port de Leith (The Shore)",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Leith",
+   "lat": 55.976284,
+   "lng": -3.169646,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Tram depuis le centre",
+     "≈ 2,5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, puis dîner sur les quais",
+   "enfants": true,
+   "texte": "L'ancien port d'Édimbourg, devenu le quartier gourmand de la ville : quais de pierre, péniches, entrepôts reconvertis en bars et la plus forte densité de tables étoilées d'Écosse. Une autre ambiance, plus marine et plus locale, à 15 minutes de tram du centre.",
+   "site_officiel": "https://edinburgh.org/explore/leith/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alan Murray-Rust",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Shore%2C_Leith_-_geograph.org.uk_-_3520600.jpg",
+    "src": "img/activites/EDI/leith.jpg"
+   }
+  },
+  {
+   "id": "portobello",
+   "nom": "Plage de Portobello",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Portobello",
+   "lat": 55.955081,
+   "lng": -3.110691,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Bus aller-retour (lignes 26 ou 15)",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Un après-midi ensoleillé ; glace ou fish and chips sur la promenade",
+   "enfants": true,
+   "texte": "Trois kilomètres de sable doré au bord de la mer du Nord, à 20 minutes de bus du centre. Une promenade victorienne, des maisons colorées, des baigneurs courageux toute l'année et des cafés avec vue : la bouffée d'air marin des Édimbourgeois.",
+   "site_officiel": "https://edinburgh.org/explore/portobello/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Graeme Yuill",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Portobello_Beach_-_geograph.org.uk_-_5899929.jpg",
+    "src": "img/activites/EDI/portobello.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo d'Édimbourg",
+   "emoji": "🐧",
+   "type": "nature",
+   "quartier": "Corstorphine",
+   "lat": 55.945895,
+   "lng": -3.269038,
+   "prix": 32,
+   "prix_detail": [
+    [
+     "Adulte (en ligne)",
+     "27,50 £ ≈ 32 €"
+    ],
+    [
+     "Enfant 3-15 ans (en ligne)",
+     "17,50 £ ≈ 20 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 32,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      15,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (2,50 £ de moins qu'à l'entrée)",
+   "duree": "4 h",
+   "moment": "Le matin ; parade des manchots (selon la météo)",
+   "enfants": true,
+   "texte": "Un grand zoo sur une colline à l'ouest de la ville, célèbre pour sa colonie de manchots et pour Sir Nils Olav, manchot royal anobli par la garde norvégienne. Koalas, chimpanzés dans leur grande « Budongo Trail », lions et suricates.",
+   "site_officiel": "https://www.edinburghzoo.org.uk/visit/tickets",
+   "note": "Bus 12, 26 ou 31 depuis Princes Street (20 min).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mark Owens",
+    "licence": "OGL v1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nils_Olav_inspects_the_Kings_Guard_of_Norway_after_being_bestowed_with_a_knighthood_at_Edinburgh_Zoo_in_Scotland.jpg",
+    "src": "img/activites/EDI/zoo.jpg"
+   }
+  },
+  {
+   "id": "rosslyn",
+   "nom": "Chapelle de Rosslyn",
+   "emoji": "🗝️",
+   "type": "culture",
+   "quartier": "Roslin",
+   "lat": 55.855458,
+   "lng": -3.160133,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 12 £ ≈ 14 €"
+    ],
+    [
+     "Moins de 18 ans (avec leur famille)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "duree": "Une demi-journée (avec le bus)",
+   "moment": "Le matin ; bus 37 depuis le centre (1 h)",
+   "enfants": true,
+   "texte": "Une chapelle du XVe siècle couverte du sol au plafond de sculptures énigmatiques, hommes verts, anges musiciens et plantes du Nouveau Monde, que Dan Brown a rendue célèbre dans le Da Vinci Code. Le fameux « pilier de l'apprenti » est d'une finesse incroyable.",
+   "site_officiel": "https://www.rosslynchapel.com/visit/",
+   "note": "Photos interdites à l'intérieur. Fermée certains jours de mariage : vérifiez sur le site.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Anthonyrandell",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosslyn_Chapel_Exterior.jpg",
+    "src": "img/activites/EDI/rosslyn.jpg"
+   }
+  },
+  {
+   "id": "highlands",
+   "nom": "Excursion au Loch Ness et à Glencoe",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Highlands",
+   "lat": 57.1448,
+   "lng": -4.6809,
+   "prix": 81,
+   "prix_detail": [
+    [
+     "Excursion en car d'une journée (sur Tiqets)",
+     "≈ 81 €"
+    ],
+    [
+     "Croisière sur le Loch Ness (facultative)",
+     "en supplément"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 81,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "duree": "Une journée (13 h)",
+   "moment": "Départ 7 h 30 du centre ; retour vers 20 h",
+   "enfants": true,
+   "texte": "La grande journée dans les Highlands : la lande sauvage de Rannoch Moor, la vallée de Glencoe et ses montagnes, le Ben Nevis, puis Fort Augustus au bord du Loch Ness, avec ou sans croisière pour guetter Nessie. Retour par les Cairngorms et les ponts du Forth.",
+   "site_officiel": "https://www.highlandexplorertours.com/1-day-tours/loch-ness-explorer",
+   "note": "Excursion organisée par Highland Explorer Tours (guide en anglais, audioguide en français). Repas et croisière non compris.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dave Hitchborne",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Three_Sisters%2C_Glen_Coe_-_geograph.org.uk_-_507539.jpg",
+    "src": "img/activites/EDI/highlands.jpg"
+   }
+  },
+  {
+   "id": "forth-bridge",
+   "nom": "Le pont du Forth et South Queensferry",
+   "emoji": "🌉",
+   "type": "vue",
+   "quartier": "South Queensferry",
+   "lat": 55.989687,
+   "lng": -3.388367,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Train aller-retour jusqu'à Dalmeny",
+     "≈ 6 £ ≈ 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi ; 15 minutes de train depuis Waverley",
+   "enfants": true,
+   "texte": "Le pont ferroviaire rouge de 1890, classé à l'Unesco, enjambe le fjord du Forth sur deux kilomètres et demi : un monstre d'acier que l'on admire depuis le petit port de South Queensferry, avec ses deux voisins modernes. Promenade sur le quai et pub au bord de l'eau.",
+   "site_officiel": "https://www.theforthbridges.org/",
+   "note": "Descendez à Dalmeny, puis 10 minutes de marche jusqu'au port.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "David Dixon",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Forth_Bridge%2C_South_Queensferry_-_geograph.org.uk_-_6407171.jpg",
+    "src": "img/activites/EDI/forth-bridge.jpg"
+   }
+  },
+  {
+   "id": "hearts",
+   "nom": "Match des Hearts à Tynecastle",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Gorgie",
+   "lat": 55.9389,
+   "lng": -3.2321,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Billet (selon le match et la place)",
+     "≈ 30 à 45 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente sur le site du club (sauf contre le Celtic, les Rangers ou Hibernian, souvent complets)",
+   "duree": "3 h",
+   "moment": "Le samedi à 15 h, d'août à mai",
+   "enfants": true,
+   "club": "Heart of Midlothian",
+   "texte": "Le club bordeaux de l'ouest de la ville joue dans le chaudron de Tynecastle, l'un des stades les plus bruyants d'Écosse : tribunes collées à la pelouse, chants et écharpes. Ambiance garantie, surtout les jours de derby contre Hibernian.",
+   "site_officiel": "https://www.heartsfc.co.uk/",
+   "note": "Achetez uniquement sur le site officiel du club.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Paul Henery",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tynecastle_Park%2C_January_2018.jpg",
+    "src": "img/activites/EDI/hearts.jpg"
+   }
+  },
+  {
+   "id": "hibs",
+   "nom": "Match d'Hibernian à Easter Road",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Leith",
+   "lat": 55.961665,
+   "lng": -3.165658,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Billet (selon le match et la place)",
+     "≈ 30 à 45 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente sur le site du club",
+   "duree": "3 h",
+   "moment": "Le samedi à 15 h, d'août à mai",
+   "enfants": true,
+   "club": "Hibernian",
+   "texte": "Le club vert et blanc de Leith, fondé par des immigrés irlandais en 1875, joue à Easter Road avec Arthur's Seat en toile de fond. 20 000 places, l'hymne « Sunshine on Leith » entonné par tout le stade : un moment d'émotion, même sans aimer le foot.",
+   "site_officiel": "https://www.hibernianfc.co.uk/",
+   "note": "Achetez uniquement sur le site officiel du club.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daniel",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Easter_Road_-_Hibernian_v_Kilmarnock_2012.jpg",
+    "src": "img/activites/EDI/hibs.jpg"
+   }
+  },
+  {
+   "id": "trad-pub",
+   "nom": "Soirée musique traditionnelle chez Sandy Bell's",
+   "emoji": "🎻",
+   "type": "sortir",
+   "quartier": "Vieille ville",
+   "lat": 55.946084,
+   "lng": -3.19128,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit (consommations en sus)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Tous les soirs vers 21 h 30, et l'après-midi le week-end",
+   "enfants": false,
+   "texte": "Un petit pub de quartier où les musiciens viennent jouer chaque soir, violons, flûtes et accordéons autour d'une table, depuis plus de cinquante ans. Pas de scène ni de micro : une vraie session de musique écossaise, une pinte à la main.",
+   "site_officiel": "https://www.sandybells.co.uk/",
+   "note": "Petit et vite plein : arrivez tôt. Réservé aux plus de 18 ans le soir.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Webb",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sandy_Bells_%28geograph_5580267%29.jpg",
+    "src": "img/activites/EDI/trad-pub.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "old-town",
+   "nom": "Vieille ville (Old Town)",
+   "lat": 55.9495,
+   "lng": -3.191,
+   "texte": "Le Royal Mile, le château, Victoria Street et les musées à pied : idéal pour un premier séjour. Ruelles médiévales et pubs, mais animé tard le soir et cher en août, pendant le festival."
+  },
+  {
+   "id": "new-town",
+   "nom": "Nouvelle ville (New Town)",
+   "lat": 55.954,
+   "lng": -3.199,
+   "texte": "Les belles rues géorgiennes autour de Princes Street et George Street, classées à l'Unesco : boutiques, bars à cocktails et grands hôtels, à 5 minutes de la vieille ville et de la gare Waverley."
+  },
+  {
+   "id": "west-end",
+   "nom": "West End et Haymarket",
+   "lat": 55.9465,
+   "lng": -3.214,
+   "texte": "Autour de la gare de Haymarket, où arrive le tram de l'aéroport : plus calme et souvent moins cher que le centre, à 15 minutes à pied du château. Pratique pour Dean Village et Murrayfield."
+  },
+  {
+   "id": "stockbridge",
+   "nom": "Stockbridge",
+   "lat": 55.9585,
+   "lng": -3.209,
+   "texte": "Le quartier village de la ville, au bord de la Water of Leith : cafés, boulangeries, marché du dimanche et petites adresses. Calme le soir, à 15 minutes à pied de Princes Street."
+  },
+  {
+   "id": "leith",
+   "nom": "Leith",
+   "lat": 55.9765,
+   "lng": -3.172,
+   "texte": "L'ancien port, au nord : les quais de The Shore, les meilleures tables de la ville et le yacht Britannia. Plus local et moins cher, relié au centre par le tram en 15 minutes."
+  }
+ ],
+ "hotel_petit_prix_max": 140,
+ "restaurants": [
+  {
+   "id": "oink",
+   "nom": "Oink",
+   "emoji": "🐖",
+   "gamme": "petit",
+   "genre": "Sandwich au cochon rôti",
+   "quartier": "Vieille ville",
+   "adresse": "34 Victoria Street, Edinburgh EH1 2JW",
+   "lat": 55.948607,
+   "lng": -3.19424,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Un cochon entier rôti trône en vitrine, et on vous en sert des tranches fondantes dans un petit pain, avec farce à la sauge, compote de pommes ou sauce au haggis. Le casse-croûte le plus célèbre de Victoria Street, à manger en marchant.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; file d'attente rapide, fermeture quand le cochon est fini",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porchetta_sandwich_meal_deal_-_Social_Board_2025-04-01.jpg",
+    "src": "img/restos/EDI/oink.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "makars",
+   "nom": "Makars Mash Bar",
+   "emoji": "🥔",
+   "gamme": "petit",
+   "genre": "Cuisine écossaise réconfortante",
+   "quartier": "Vieille ville",
+   "adresse": "9-12 Bank Street, Edinburgh EH1 2LN",
+   "lat": 55.949944,
+   "lng": -3.193082,
+   "prix": "18 à 30 €",
+   "prix_min": 18,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La purée élevée au rang d'art : neuf recettes de purée maison à marier avec haggis, saucisses, tourte au bœuf ou plats végétariens. L'endroit idéal pour goûter le haggis sans crainte, dans une salle chaleureuse en haut du Mound.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir ; sans réservation le midi",
+   "photo": {
+    "auteur": "Biology Big Brother",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haggis_neeps_and_tatties.jpg",
+    "src": "img/restos/EDI/makars.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chips",
+   "nom": "City Restaurant",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Fish and chips",
+   "quartier": "Southside",
+   "adresse": "35 Nicolson Street, Edinburgh EH8 9BE",
+   "lat": 55.946511,
+   "lng": -3.185761,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le fish and chips préféré des Édimbourgeois : haddock en pâte croustillante, frites épaisses et la sauce brune « salt and sauce » propre à la ville. Salle familiale colorée, service rapide, à deux pas du musée national et de l'université.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "BenTanXiaoMing",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_and_Chips_with_peas%2C_Edinburgh%2C_September_2026.jpg",
+    "src": "img/restos/EDI/chips.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lannan",
+   "nom": "Lannan Bakery",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie",
+   "quartier": "Stockbridge",
+   "adresse": "29-35 Hamilton Place, Edinburgh EH3 5BA",
+   "lat": 55.959795,
+   "lng": -3.206736,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La boulangerie de la jeune pâtissière Darcie Maher, star des réseaux sociaux : croissants feuilletés à la perfection, roulés à la cardamome et viennoiseries créatives qui changent chaque jour. Arrivez tôt, les vitrines se vident avant midi.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; file d'attente le week-end, venez à l'ouverture",
+   "photo": {
+    "auteur": "Dwxn",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20231022_101836_Croissant_supr%C3%AAme.jpg",
+    "src": "img/restos/EDI/lannan.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "clarinda",
+   "nom": "Clarinda's Tearoom",
+   "emoji": "🫖",
+   "gamme": "petit",
+   "genre": "Salon de thé",
+   "quartier": "Canongate",
+   "adresse": "69 Canongate, Edinburgh EH8 8BS",
+   "lat": 55.95214,
+   "lng": -3.17732,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un minuscule salon de thé d'autrefois en bas du Royal Mile, ouvert en 1976 : nappes en dentelle, porcelaine à fleurs et vitrine de gâteaux maison. On y prend le « cream tea », scones tièdes, confiture et crème, ou une soupe du jour avant la visite de Holyrood.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; petit, un peu d'attente l'après-midi",
+   "photo": {
+    "auteur": "Jeremy Keith",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cream_tea_Brighton.jpg",
+    "src": "img/restos/EDI/clarinda.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bross",
+   "nom": "Bross Bagels",
+   "emoji": "🥯",
+   "gamme": "petit",
+   "genre": "Bagels",
+   "quartier": "Leith",
+   "adresse": "Leith Arches, 6 Manderston Street, Edinburgh EH6 8LY",
+   "lat": 55.96886,
+   "lng": -3.172617,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des bagels façon Montréal, cuits au feu de bois et garnis à ras bord : saumon fumé et cream cheese, pastrami, œuf et bacon. Une petite chaîne locale culte, née à Portobello ; la boutique de Leith Arches est la plus grande.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "LinguisticsGirl.Librarian",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lox_Bagel_Sandwich_with_Cream_Cheese_Schmear_Onion_Tomato.jpg",
+    "src": "img/restos/EDI/bross.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dishoom",
+   "nom": "Dishoom",
+   "emoji": "🍛",
+   "gamme": "moyen",
+   "genre": "Café indien de Bombay",
+   "quartier": "Nouvelle ville",
+   "adresse": "3a St Andrew Square, Edinburgh EH2 2BD",
+   "lat": 55.953572,
+   "lng": -3.192522,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un café de Bombay des années 1960 recréé dans un grand magasin de St Andrew Square : ventilateurs, banquettes en cuir, carreaux noir et blanc. On y vient pour le daal noir mijoté 24 heures, le poulet ruby et le chai, et le matin pour le naan au bacon.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le dîner ; file d'attente sans réservation le soir",
+   "photo": {
+    "auteur": "Miansari66",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dal_Makhani..JPG",
+    "src": "img/restos/EDI/dishoom.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "scran",
+   "nom": "The Scran & Scallie",
+   "emoji": "🍺",
+   "gamme": "moyen",
+   "genre": "Pub gastronomique",
+   "quartier": "Stockbridge",
+   "adresse": "1 Comely Bank Road, Edinburgh EH4 1DR",
+   "lat": 55.959141,
+   "lng": -3.214618,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Le pub du chef étoilé Tom Kitchin, à Stockbridge : tourte au bœuf, fish and chips, haggis et poisson du jour cuisinés comme dans un restaurant, au milieu des tartans et du bois. Le meilleur moyen de goûter la cuisine écossaise sans se ruiner.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, surtout pour le rôti du dimanche",
+   "photo": {
+    "auteur": "Alpha",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steak_and_onion_pie.jpg",
+    "src": "img/restos/EDI/scran.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "noto",
+   "nom": "Noto",
+   "emoji": "🥢",
+   "gamme": "moyen",
+   "genre": "Petites assiettes fusion",
+   "quartier": "Nouvelle ville",
+   "adresse": "47a Thistle Street, Edinburgh EH2 1DY",
+   "lat": 55.954028,
+   "lng": -3.19946,
+   "prix": "45 à 70 €",
+   "prix_min": 45,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "La table « décontractée » de Stuart Ralston (chef étoilé de Lyla), inspirée par ses années à New York : petites assiettes à partager entre Écosse et Asie, crabe et beurre fondu, truite au matcha, tartare de bœuf et gaufre à l'algue. Salle intime et tabourets au bar.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 semaines avant pour le week-end",
+   "photo": {
+    "auteur": "Kenneth Allen",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thistle_Street%2C_Edinburgh_-_geograph.org.uk_-_3570869.jpg",
+    "src": "img/restos/EDI/noto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cafe-royal",
+   "nom": "Café Royal",
+   "emoji": "🦪",
+   "gamme": "moyen",
+   "genre": "Bar à huîtres victorien",
+   "quartier": "Nouvelle ville",
+   "adresse": "19 West Register Street, Edinburgh EH2 2AA",
+   "lat": 55.953839,
+   "lng": -3.190421,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le bar à huîtres le plus ancien de la ville (1863) : panneaux de céramique peinte, vitraux, plafond moulé et grand comptoir de marbre. Huîtres de l'île de Cumbrae, moules, fish and chips et homard dans un décor qui n'a pas bougé depuis l'époque victorienne.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le restaurant ; le bar est sans réservation",
+   "photo": {
+    "auteur": "Reading Tom",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_IMG_4025_%2814916247191%29.jpg",
+    "src": "img/restos/EDI/cafe-royal.jpg"
+   }
+  },
+  {
+   "id": "dome",
+   "nom": "The Dome",
+   "emoji": "🏛️",
+   "gamme": "moyen",
+   "genre": "Brasserie dans une ancienne banque",
+   "quartier": "Nouvelle ville",
+   "adresse": "14 George Street, Edinburgh EH2 2PF",
+   "lat": 55.95366,
+   "lng": -3.195608,
+   "prix": "35 à 65 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Une ancienne banque de 1847 aux colonnes corinthiennes, avec sous sa coupole de verre une salle à manger spectaculaire, décorée de façon extravagante à Noël. Grillades, fruits de mer et afternoon tea dans le décor le plus photographié de George Street.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; plusieurs semaines en décembre",
+   "photo": {
+    "auteur": "Claire Pegrum",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_at_The_Dome%2C_George_Street%2C_Edinburgh_-_geograph.org.uk_-_6344847.jpg",
+    "src": "img/restos/EDI/dome.jpg"
+   }
+  },
+  {
+   "id": "wedgwood",
+   "nom": "Wedgwood the Restaurant",
+   "emoji": "🦌",
+   "gamme": "moyen",
+   "genre": "Cuisine écossaise de saison",
+   "quartier": "Canongate",
+   "adresse": "267 Canongate, Edinburgh EH8 8BQ",
+   "lat": 55.950837,
+   "lng": -3.183331,
+   "prix": "35 à 70 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Une petite table chaleureuse sur le Royal Mile qui cuisine les produits sauvages d'Écosse : gibier, coquilles Saint-Jacques, herbes cueillies par le chef. Le menu change chaque semaine, et le déjeuner est une très belle affaire si près des grandes visites.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le dîner",
+   "photo": {
+    "auteur": "Misaochan",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scallops_as_entree_dish_.jpg",
+    "src": "img/restos/EDI/wedgwood.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kitchin",
+   "nom": "The Kitchin",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie écossaise de saison",
+   "quartier": "Leith",
+   "adresse": "78 Commercial Quay, Leith, Edinburgh EH6 6LX",
+   "lat": 55.976936,
+   "lng": -3.172655,
+   "prix": "80 à 250 €",
+   "prix_min": 80,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La table phare de Tom Kitchin, dans un entrepôt de whisky au bord des quais de Leith. Sa devise « de la nature à l'assiette » : homard des Orcades, gibier des Highlands et légumes du jour, cuisinés avec une rigueur toute française. Le déjeuner est la meilleure porte d'entrée.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant ; plus encore pour le samedi soir",
+   "photo": {
+    "auteur": "N Chadwick",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Kitchin%2C_Leith_-_geograph.org.uk_-_2369708.jpg",
+    "src": "img/restos/EDI/kitchin.jpg"
+   }
+  },
+  {
+   "id": "timberyard",
+   "nom": "Timberyard",
+   "emoji": "🌲",
+   "gamme": "haut",
+   "genre": "Menu dégustation nature",
+   "quartier": "West End",
+   "adresse": "10 Lady Lawson Street, Edinburgh EH3 9DS",
+   "lat": 55.946412,
+   "lng": -3.201722,
+   "prix": "95 à 160 €",
+   "prix_min": 95,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin et étoile verte",
+   "texte": "Un ancien dépôt de bois aux briques et poutres apparentes, poêle à bois et cour-jardin, sous le château. La famille Radford y sert un menu dégustation de produits sauvages et fermentés, gibier, herbes et fleurs cueillies, avec des vins nature. Étoile verte pour son engagement écologique.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; fermé en début de semaine",
+   "photo": {
+    "auteur": "Erik Berlin",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deer_dish_at_Volt.jpg",
+    "src": "img/restos/EDI/timberyard.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lyla",
+   "nom": "Lyla",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Menu dégustation de la mer",
+   "quartier": "Calton Hill",
+   "adresse": "3 Royal Terrace, Edinburgh EH7 5AB",
+   "lat": 55.956812,
+   "lng": -3.180814,
+   "prix": "215 à 300 €",
+   "prix_min": 215,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Dans une maison géorgienne au pied de Calton Hill, Stuart Ralston sert un menu d'une dizaine de plats consacré aux poissons et coquillages des îles écossaises, avec une pointe d'influence japonaise. Étoilé dès sa première année : l'une des tables les plus en vue du Royaume-Uni.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 mois avant",
+   "photo": {
+    "auteur": "Jim Barton",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_Terrace%2C_Edinburgh_-_geograph.org.uk_-_3087868.jpg",
+    "src": "img/restos/EDI/lyla.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "witchery",
+   "nom": "The Witchery by the Castle",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Dîner gothique",
+   "quartier": "Vieille ville",
+   "adresse": "352 Castlehill, Edinburgh EH1 2NF",
+   "lat": 55.948789,
+   "lng": -3.195628,
+   "prix": "70 à 130 €",
+   "prix_min": 70,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Au bout du Royal Mile, juste sous le château : boiseries sculptées, cuir rouge, tapisseries et chandelles dans une maison du XVIe siècle. Huîtres, bœuf écossais et soufflé, servis dans un décor de château hanté qui fait chavirer les amoureux depuis 1979.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant pour le soir",
+   "photo": {
+    "auteur": "Enric",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_-_Boswell%27s_Court_-_20140421144107.jpg",
+    "src": "img/restos/EDI/witchery.jpg"
+   }
+  },
+  {
+   "id": "colonnades",
+   "nom": "Colonnades at the Signet Library",
+   "emoji": "🫖",
+   "gamme": "haut",
+   "genre": "Afternoon tea",
+   "quartier": "Vieille ville",
+   "adresse": "Parliament Square, Edinburgh EH1 1RF",
+   "lat": 55.949174,
+   "lng": -3.191257,
+   "prix": "86 à 110 €",
+   "prix_min": 86,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un afternoon tea dans l'une des plus belles bibliothèques d'Europe, sous les colonnes corinthiennes et le plafond peint de la Signet Library, juste derrière la cathédrale. Étages de pâtisseries, scones et petits sandwichs, servis sur porcelaine fine.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; plusieurs mois en décembre",
+   "photo": {
+    "auteur": "AlasdairW",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_Signet_Library_-_20230813154152.jpg",
+    "src": "img/restos/EDI/colonnades.jpg"
+   }
+  },
+  {
+   "id": "hawksmoor",
+   "nom": "Hawksmoor",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Steakhouse",
+   "quartier": "Nouvelle ville",
+   "adresse": "23 West Register Street, Edinburgh EH2 2AA",
+   "lat": 55.953905,
+   "lng": -3.191191,
+   "prix": "35 à 100 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "L'ancienne salle des guichets de la National Bank of Scotland, monument classé, pour le meilleur bœuf du pays : pièces maturées de races britanniques cuites au charbon de bois, frites cuites dans la graisse de bœuf et sauce béarnaise. Menus du midi et de début de soirée très abordables.",
+   "reservation": "conseille",
+   "reservation_delai": "1 semaine avant pour le week-end",
+   "photo": {
+    "auteur": "M J Richardson",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Edinburgh_Grand_and_Hawksmoor_-_geograph.org.uk_-_6009622.jpg",
+    "src": "img/restos/EDI/hawksmoor.jpg"
+   }
+  }
+ ]
+}

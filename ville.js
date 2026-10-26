@@ -95,6 +95,10 @@ const PARTNER_LINKS = {
     'cathedrale': tiqets('activites-attractions-vilnius-c73352/billets-pour-clocher-de-la-cathedrale-de-vilnius-p975938'),
     'europos': tiqets('activites-attractions-vilnius-c73352/billets-pour-europos-parkas-musee-en-plein-air-du-centre-de-l-europe-p976192'),
   },
+  EDI: {
+    'vaults': tiqets('activites-attractions-edimbourg-c21/billets-pour-les-souterrains-hantes-visite-des-voutes-souterraines-de-blair-street-p974759'),
+    'highlands': tiqets('activites-attractions-edimbourg-c21/billets-pour-explorateur-du-loch-ness-p974880'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 

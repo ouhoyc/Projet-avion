@@ -116,3 +116,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   lit les fiches (`/en/vilnius-region/vilnius_1985479/restaurant/<nom>`, ~3 fiches puis il faut ralentir). Très bon guide récent et précis :
   `lovevilnius.com/see-do/…` (Playwright). Prix officiels lisibles avec Playwright (valdovurumai.lt, lnm.lt, olkm.lt, mo.lt, tvbokstas.lt,
   trakaimuziejus.lt, bpmuziejus.lt). Tiqets Vilnius : `activites-attractions-vilnius-c73352`.
+- Édimbourg (oct. 2026) : recherche de fichiers Commons en HTML (`ns6=1`) + `thumb.php?w=330/1280`, puis l'API `extmetadata` pour
+  l'auteur et la licence (« 429 » par moments : réessayer après 20 s). Catégorie utile : `Category:Edinburgh_Vaults`. Wanderlog : départ
+  `geoCategory/74233` (géo 9636), 127 listes, ~1 700 lieux. Michelin : `guide.michelin.com/gb/en/city-of-edinburgh/edinburgh/restaurants`
+  lisible avec Playwright (`data-dtm-distinction`). Sites bloqués : rct.uk (Holyrood, Cloudflare), dynamicearth.co.uk ; lisibles avec
+  Playwright : edinburghcastle.scot/visit/tickets, realmarykingsclose.com/tickets-prices, royalyachtbritannia.co.uk, nts.org.uk,
+  mercattours.com/daily-tour-timetable. Tiqets Édimbourg : `activites-attractions-edimbourg-c21` (prix : `"priceEur"` du `"product"`).

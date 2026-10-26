@@ -319,6 +319,20 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   **Réseaux sociaux (Apify) sautés** (petite destination) : badges tendance d'après les guides (Wander-Lush, Wanderlog).
   Écartés : Sisters et El Depo (note 4,2, service en baisse), Sormoni (fermé l'hiver, prix flous). Prix estimé : match du
   Torpedo (billetterie géorgienne illisible d'ici). Sanatorium Medea fermé depuis un accident en juillet 2026.
+- ✅ (26/10/2026) **Page guide d'Édimbourg** (`guides/EDI.json`, champ `ville` : pas de prix repéré en ce moment), préparée en
+  autonomie : 30 activités (château, Royal Mile, Holyrood, Arthur's Seat, Calton Hill, Victoria Street, Dean Village, Stockbridge et
+  Circus Lane, musée national, Scottish National Gallery, Camera Obscura, Saint-Gilles (payante pour les touristes depuis
+  septembre 2026 : 12 £), Mary King's Close, souterrains de Blair Street (Mercat Tours), Scotch Whisky Experience, Johnnie Walker
+  Princes Street, Gladstone's Land, Greyfriars, yacht Britannia, jardin botanique (serres rouvertes le 2/10/2026), Scott Monument,
+  Leith, Portobello, zoo, Rosslyn, excursion Loch Ness et Glencoe, pont du Forth ; matchs des Hearts et d'Hibernian (clubs « Heart of
+  Midlothian » et « Hibernian »), soirée chez Sandy Bell's), 18 restaurants (note pondérée, C = 4,46, ~940 restaurants lus via 127
+  listes Wanderlog ; Michelin 2026 : The Kitchin, Timberyard (+ étoile verte) et Lyla 1 étoile, Scran & Scallie et Noto Bib Gourmand),
+  5 quartiers, formalités Royaume-Uni (passeport + ETA), 2 liens Tiqets (souterrains : même prix ; Loch Ness : 81 € contre ≈ 90 € en
+  direct). **Réseaux sociaux (Apify) pas lancés** (crédit du mois épuisé, lancement du 26/10 refusé, 0 $) : badges tendance d'après
+  les guides et la presse. Écartés : Dynamic Earth (prix contradictoires), Holyrood Distillery (3e visite whisky), The Elephant House
+  (note 3,9), Ondine (4,3, doublon fruits de mer). Prix estimés : billets des Hearts et d'Hibernian (≈ 35 €), Johnnie Walker (≈ 30 £),
+  Scott Monument (8 £), Rosslyn (12 £), tarifs enfants de Holyrood et du Whisky Experience. Peu de photos libres des restaurants :
+  12 photos d'illustration (plats).
 - ✅ (26/10/2026) **Page guide de Vilnius** (`guides/VNO.json`), préparée en autonomie : 23 activités (vieille ville et rue Pilies,
   cathédrale avec clocher et cryptes, palais des Grands-Ducs, tour de Gediminas, Užupis, Sainte-Anne, porte de l'Aurore, université,
   Saints-Pierre-et-Paul, colline des Trois-Croix, musée des Occupations (ex-KGB), MO Museum, tour de télévision, rue des Écrivains,
@@ -363,7 +377,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius.
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade
