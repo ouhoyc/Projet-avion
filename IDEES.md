@@ -284,6 +284,16 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (27/10/2026) **Page guide de Bastia** (`guides/BIA.json`), préparée en autonomie : 24 activités (tendance d'après le web,
+  2 sources au moins : Vieux-Port, Erbalunga, tour du Cap Corse, Nonza, plage du Lotu ; musée 5 €, petit train 9 €, Légendines 25 €
+  le mardi, train Bastia–Corte 10,10 € l'aller, navette Speed Mare vers le Lotu dès 30 €, match du SC Bastia en Ligue 3 dès 15 €
+  (`club` = « SC Bastia »)), 18 restaurants (note pondérée, C ≈ 4,47, ~380 lieux : Wanderlog 12 listes + quadrillage Google Maps ;
+  Michelin 2026 : ADN, Radiche, Le Pirate à Erbalunga, La Table de la Roya à Saint-Florent, Boccafine à Nonza (coup de cœur) ;
+  institution : glacier Raugi depuis 1937), 5 quartiers, pas de lien Tiqets. **Apify non lancé** (ville moyenne, peu couverte :
+  pas de badge tendance pour les restaurants ; à lancer plus tard si le propriétaire le souhaite). Nouveau champ `transport` du
+  guide (« le bus » à Bastia et Ajaccio) : la page Hôtel disait « le métro vous y emmène vite » dans des villes sans métro.
+  Écartés : Chez Huguette (institution mais note 4,1), navettes Popeye et Spassighj'Agriate (plus de navette / site fermé en 2026),
+  écomusée du Fortin (annoncé fermé). Lignes saisonnières : Le Pirate, La Corniche et La Roya ferment l'hiver.
 - ✅ (24/10/2026) **Formalités « À savoir avant de partir »** étendues (validé par le propriétaire) : Londres (passeport +
   ETA 20 £), Tunis (passeport), Marrakech (passeport, tampon à vérifier), Dubaï (passeport 6 mois), Istanbul (carte
   d'identité ou passeport valable 150 jours), d'après France Diplomatie (pages du 15/09 et 05/10/2026). Étape ajoutée à la

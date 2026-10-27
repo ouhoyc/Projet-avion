@@ -1,0 +1,1463 @@
+{
+ "city_code": "BIA",
+ "ville": "Bastia",
+ "transport": "le bus",
+ "statut": "vérifié en autonomie, prix relevés le 27/10/2026",
+ "verifie_le": "2026-10-27",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "vieux-port",
+   "nom": "Vieux-Port et Terra Vecchia",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Vieux-Port",
+   "lat": 42.6966,
+   "lng": 9.4512,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin de journée, quand les façades s'allument ; marché de producteurs place de l'Hôtel-de-Ville le samedi et le dimanche matin",
+   "enfants": true,
+   "texte": "La carte postale de Bastia : de hautes façades ocre et rose serrées autour d'un port de pêche, les deux clochers de Saint-Jean au-dessus des barques et des terrasses tout le long des quais. Perdez-vous ensuite dans les ruelles en escaliers de Terra Vecchia, le vieux quartier des marins, jusqu'à la place du Marché ombragée de platanes.",
+   "site_officiel": "https://www.bastia-tourisme.com/quartiers-bastiais/",
+   "note": "Le week-end, la place du Marché (« U Mercà ») accueille les producteurs : fromages, charcuterie, canistrelli.",
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Greudin",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABastia-port_et_l%27%C3%A9glise_St-Jean-Baptiste.jpg",
+    "src": "img/activites/BIA/vieux-port.jpg"
+   }
+  },
+  {
+   "id": "citadelle",
+   "nom": "Citadelle (Terra Nova) et jardin Romieu",
+   "emoji": "🏰",
+   "type": "balade",
+   "quartier": "Citadelle",
+   "lat": 42.6941,
+   "lng": 9.4512,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h 30",
+   "moment": "Le matin, ou en fin de journée depuis le Mantinum, le théâtre de verdure qui domine le port",
+   "enfants": true,
+   "texte": "Montez par l'escalier monumental du jardin Romieu, un petit parc en pente ombragé de grands arbres, jusqu'à la citadelle génoise. Là-haut, pas de voitures : des ruelles pavées aux couleurs chaudes, des placettes, des petits restaurants et des vues plongeantes sur le Vieux-Port et la mer.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "Le palais des Gouverneurs, la cathédrale Sainte-Marie et l'oratoire Sainte-Croix sont à quelques pas : tout se visite dans la même balade.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Cosudibastia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABastia%2C_giardinu_Romieu_%C3%A8_Vechju_Portu.jpg",
+    "src": "img/activites/BIA/citadelle.jpg"
+   }
+  },
+  {
+   "id": "musee",
+   "nom": "Musée de Bastia (palais des Gouverneurs)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Citadelle",
+   "lat": 42.6937,
+   "lng": 9.4512,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "5 €"
+    ],
+    [
+     "10-18 ans, étudiants, plus de 60 ans",
+     "2,50 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      17,
+      2.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet sur place",
+   "duree": "1 h 30",
+   "moment": "Mai à septembre : 10 h-18 h 30 (fermé le lundi en mai, juin et septembre) ; octobre à avril : 9 h-12 h et 14 h-17 h, fermé dimanche et lundi",
+   "enfants": true,
+   "texte": "Le palais orangé des gouverneurs génois, avec sa grosse tour ronde, raconte dix siècles d'histoire de Bastia, avec ses collections permanentes et de belles expositions temporaires. Ne repartez pas sans faire le tour des jardins et du chemin de ronde, le plus beau balcon sur la ville.",
+   "site_officiel": "https://www.bastia.corsica/musee/",
+   "note": "Fermé les 1er et 11 novembre, 1er et 8 mai et pendant les vacances scolaires de Noël.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalais_Gouverneur_-_Bastia_%28FR2B%29_-_2021-09-12_-_1.jpg",
+    "src": "img/activites/BIA/musee.jpg"
+   }
+  },
+  {
+   "id": "saint-jean",
+   "nom": "Église Saint-Jean-Baptiste et place du Marché",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Vieux-Port",
+   "lat": 42.697,
+   "lng": 9.4503,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "30 min",
+   "moment": "En journée, en dehors des offices",
+   "enfants": true,
+   "texte": "Ses deux clochers jumeaux sont l'emblème du Vieux-Port : c'est la plus grande église de Corse. À l'intérieur, une débauche baroque d'ors, de stucs, de marbres rares et de trompe-l'œil. Elle ouvre sur la place du Marché, le cœur populaire de la vieille ville.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "Lieu de culte : tenue correcte et silence pendant les messes.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzen92",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%C3%89glise_Saint-Jean_%28Bastia%29_%282%29.jpg",
+    "src": "img/activites/BIA/saint-jean.jpg"
+   }
+  },
+  {
+   "id": "oratoires",
+   "nom": "Oratoires de la rue Napoléon (Immaculée Conception et Saint-Roch)",
+   "emoji": "🕯️",
+   "type": "culture",
+   "quartier": "Centre (rue Napoléon)",
+   "lat": 42.6987,
+   "lng": 9.4504,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "30 min",
+   "moment": "En journée, en dehors des offices",
+   "enfants": true,
+   "texte": "Derrière une façade sobre et un parvis en mosaïque de galets, l'oratoire de l'Immaculée Conception cache une salle spectaculaire : murs tendus de damas rouge, lustres de cristal, boiseries sculptées. Quelques mètres plus loin, l'oratoire Saint-Roch et ses boiseries complètent la visite de cette rue piétonne et commerçante.",
+   "site_officiel": "https://www.bastia-tourisme.com/quartiers-bastiais/",
+   "note": "Ce sont les chapelles des confréries de Bastia : elles ouvrent selon leurs offices, entrez quand la porte est ouverte.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABastia_oratoire_de_la_confr%C3%A9rie_de_l%27Immacul%C3%A9e_Conception_ma%C3%AEtre-autel.jpg",
+    "src": "img/activites/BIA/oratoires.jpg"
+   }
+  },
+  {
+   "id": "sainte-marie",
+   "nom": "Cathédrale Sainte-Marie",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Citadelle",
+   "lat": 42.6924,
+   "lng": 9.4517,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "20 min",
+   "moment": "En journée, en dehors des offices ; procession de la Vierge d'argent le 15 août",
+   "enfants": true,
+   "texte": "L'ancienne cathédrale de la citadelle, tout en marbres, stucs et trompe-l'œil baroques. Son trésor : une Assomption de la Vierge en argent massif de près d'une demi-tonne, portée dans les ruelles chaque 15 août.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "Juste derrière, l'oratoire Sainte-Croix et son Christ noir.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale_Sainte_Marie_-_Bastia_%28FR2B%29_-_2021-09-12_-_1.jpg",
+    "src": "img/activites/BIA/sainte-marie.jpg"
+   }
+  },
+  {
+   "id": "sainte-croix",
+   "nom": "Oratoire Sainte-Croix et le Christ noir",
+   "emoji": "✝️",
+   "type": "culture",
+   "quartier": "Citadelle",
+   "lat": 42.6925,
+   "lng": 9.452,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "20 min",
+   "moment": "En journée, en dehors des offices",
+   "enfants": true,
+   "texte": "Un écrin rococo d'or et de blanc où l'on vénère le « Christ des Miracles », un crucifix noir que des pêcheurs auraient repêché en mer en 1428. Les Bastiais lui vouent un culte fervent : une des plus belles surprises de la citadelle.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "Lieu de culte : tenue correcte et silence pendant les offices.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sailko",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABastia%2C_oratorio_della_santa_croce%2C_interno%2C_cristo_nero_rinvenuto_tradizionalmente_nel_1428%2C_01.jpg",
+    "src": "img/activites/BIA/sainte-croix.jpg"
+   }
+  },
+  {
+   "id": "saint-nicolas",
+   "nom": "Place Saint-Nicolas et rue Napoléon",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Centre",
+   "lat": 42.7007,
+   "lng": 9.4509,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h",
+   "moment": "Le soir, pour l'apéritif en terrasse sous les platanes",
+   "enfants": true,
+   "texte": "L'immense place face à la mer, bordée de platanes, de cafés et de façades XIXe, où tout Bastia se retrouve : kiosque à musique, manèges pour les enfants et statue de Napoléon en empereur romain. Filez ensuite par la rue Napoléon, piétonne, pour les boutiques de créateurs et de produits corses.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "L'office de tourisme est sur la place : départ du petit train et des visites guidées.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pinpin",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACorse-04539-bastia-place_saint-nicolas.jpg",
+    "src": "img/activites/BIA/saint-nicolas.jpg"
+   }
+  },
+  {
+   "id": "aldilonda",
+   "nom": "Aldilonda, la promenade au-dessus de la mer",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Sous la citadelle",
+   "lat": 42.6913,
+   "lng": 9.4513,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "45 min",
+   "moment": "Au lever du soleil, qui se lève juste en face, sur la mer Tyrrhénienne",
+   "enfants": true,
+   "texte": "Une passerelle accrochée aux remparts de la citadelle, presque posée sur les vagues, qui relie le Vieux-Port au sud de la ville. Au lever du jour, la lumière embrase les remparts et la mer : le moment le plus magique de Bastia, et il est gratuit.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "Prolongez par le Spassimare jusqu'à la petite plage de galets de Ficaghjola.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Cosudibastia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAnse_de_Portu_Vechju_et_plage_de_Ficaghjola%2C_Bastia.jpg",
+    "src": "img/activites/BIA/aldilonda.jpg"
+   }
+  },
+  {
+   "id": "scala-santa",
+   "nom": "Scala Santa de Monserato",
+   "emoji": "🛐",
+   "type": "culture",
+   "quartier": "Monserato (2 km)",
+   "lat": 42.6907,
+   "lng": 9.4381,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h (marche comprise)",
+   "moment": "En journée, de préférence le matin ; c'est un lieu de culte, évitez les heures de messe",
+   "enfants": true,
+   "texte": "Sur les hauteurs, une petite chapelle du XVIe siècle cache un trésor rarissime : une « Scala Santa », un escalier saint de velours rouge offert aux Bastiais par le pape Pie VII en 1816. Les fidèles le gravissent à genoux, comme à Rome. Insolite et émouvant.",
+   "site_officiel": "https://www.bastia-tourisme.com/top-10-des-incontournables/",
+   "note": "À 20 minutes à pied du centre par la route de Saint-Florent, puis un chemin à gauche.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Cosudibastia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACappella_di_A_Madonna_di_Munserr%C3%A0%2C_o_Monserratu%2C_in_Bastia%2C_a_scala_santa.jpg",
+    "src": "img/activites/BIA/scala-santa.jpg"
+   }
+  },
+  {
+   "id": "cardu",
+   "nom": "Village de Cardu et parc Forte a Croce",
+   "emoji": "🌄",
+   "type": "vue",
+   "quartier": "Hauts de Bastia",
+   "lat": 42.7033,
+   "lng": 9.4285,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, quand la lumière descend sur la ville",
+   "enfants": true,
+   "texte": "Le village perché d'où Bastia est née, avec ses ruelles médiévales et sa place à la fontaine. Juste à côté, le parc du Forte a Croce déroule 4 hectares de chemins ombragés et de belvédères sur la ville et la mer ; les marcheurs poussent jusqu'aux anciennes glacières, « E Nivere ».",
+   "site_officiel": "https://www.bastia-tourisme.com/quartiers-bastiais/",
+   "note": "En voiture ou en bus urbain : la montée à pied est raide.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alexkom000",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2024-09-26_Village_de_Cardo%2C_Bastia_5.jpg",
+    "src": "img/activites/BIA/cardu.jpg"
+   }
+  },
+  {
+   "id": "petit-train",
+   "nom": "Petit train de Bastia",
+   "emoji": "🚂",
+   "type": "balade",
+   "quartier": "Départ place Saint-Nicolas",
+   "lat": 42.7011,
+   "lng": 9.4513,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte (plus de 12 ans)",
+     "9 €"
+    ],
+    [
+     "Enfant (3 à 12 ans)",
+     "4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      4
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'office de tourisme ou à bord",
+   "duree": "45 min à 1 h",
+   "moment": "D'avril à octobre ; départs le matin et l'après-midi",
+   "enfants": true,
+   "texte": "Le moyen le plus reposant de voir Bastia avec des enfants : de la place Saint-Nicolas au Vieux-Port et jusqu'à la citadelle, avec un guide qui raconte l'histoire de la ville (en français, anglais, italien, allemand ou corse).",
+   "site_officiel": "https://www.lepetittrainbastia.corsica/",
+   "note": "Une petite partie de la visite de la citadelle se fait à pied.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APetit_Train_Rue_Marine_-_Bastia_%28FR2B%29_-_2021-09-12_-_1.jpg",
+    "src": "img/activites/BIA/petit-train.jpg"
+   }
+  },
+  {
+   "id": "legendines",
+   "nom": "Les Légendines : visite contée, chants corses et dégustation",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Départ place Saint-Nicolas",
+   "lat": 42.7019,
+   "lng": 9.4516,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Visite (2 h 30), concert et dégustation",
+     "25 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservation à l'office de tourisme (places limitées)",
+   "duree": "2 h 30",
+   "moment": "Le mardi à 17 h, d'avril à novembre",
+   "enfants": true,
+   "texte": "Un guide conférencier vous emmène des ruelles de Terra Vecchia à la citadelle en racontant les légendes de Bastia : châtiments génois, servante devenue sainte, mystère du Christ noir. La visite se termine par un petit concert de chants polyphoniques et une dégustation de produits corses dans une épicerie fine.",
+   "site_officiel": "https://www.bastia-tourisme.com/les-legendines/",
+   "note": "Organisée par l'office de tourisme de Bastia, place Saint-Nicolas.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Cosudibastia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARue_Notre-Dame%2C_Strada_Dritta_Santa_Maria%2C_Bastia.jpg",
+    "src": "img/activites/BIA/legendines.jpg"
+   }
+  },
+  {
+   "id": "match",
+   "nom": "Match du Sporting (SC Bastia)",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade Armand-Cesari, Furiani",
+   "lat": 42.6515,
+   "lng": 9.4427,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Tribune Est (adulte)",
+     "15 €"
+    ],
+    [
+     "Tribunes Nord et Sud (adulte)",
+     "20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "8 à 10 €"
+    ],
+    [
+     "Enfant de 1 à 8 ans",
+     "3 à 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      8,
+      3
+     ],
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billetterie en ligne du club, ouverte quelques jours avant chaque match",
+   "duree": "3 h",
+   "moment": "Un match à domicile environ toutes les deux semaines, d'août à mai, souvent le samedi soir",
+   "enfants": true,
+   "club": "SC Bastia",
+   "texte": "Le Sporting, finaliste de la Coupe UEFA en 1978, c'est une religion à Bastia. Même en Ligue 3, le stade de Furiani vibre aux chants corses de ses supporters en bleu et blanc : une plongée dans l'âme de la ville.",
+   "site_officiel": "https://sc-bastia.corsica/pages/billetterie",
+   "note": "Le club joue en Ligue 3 en 2026-2027 ; tarifs relevés pour le match du 31 octobre 2026.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Crocodile13",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStade_Armand_Cesari_Tribune_Victor-Lorenzi.jpg",
+    "src": "img/activites/BIA/match.jpg"
+   }
+  },
+  {
+   "id": "miomo",
+   "nom": "Plages du nord : Miomo et sa tour génoise",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Santa-Maria-di-Lota (6 km)",
+   "lat": 42.7415,
+   "lng": 9.4617,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre ; bus ligne C Bastia–Erbalunga",
+   "enfants": true,
+   "texte": "La plage de galets préférée des Bastiais, gardée par une tour génoise, avec ses restaurants les pieds dans l'eau. Juste à côté, Grisgione loue paddles et pédalos l'été. Pour une longue plage de sable, filez au contraire au sud, à l'Arinella (8 minutes du Vieux-Port).",
+   "site_officiel": "https://www.bastia-tourisme.com/les-plages/",
+   "note": "Parking payant en face de la plage ; plus simple en bus (ligne C).",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASan_Martino_di_Lota_-_Tour_de_Miomo.jpg",
+    "src": "img/activites/BIA/miomo.jpg"
+   }
+  },
+  {
+   "id": "erbalunga",
+   "nom": "Erbalunga, le village de pêcheurs",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Brando (10 km)",
+   "lat": 42.774,
+   "lng": 9.4773,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, puis dîner sur le port ; bus ligne C depuis Bastia",
+   "enfants": true,
+   "texte": "À 15 minutes de Bastia, un village de pêcheurs aux maisons posées sur les rochers, autour d'une petite marine et d'une tour génoise en ruine. Les peintres l'adorent, les photographes aussi : la première étape idéale sur la route du Cap Corse.",
+   "site_officiel": "https://www.bastia-tourisme.com/le-cap-corse/",
+   "note": "Stationnement difficile l'été dans le village : garez-vous à l'entrée.",
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrando-Erbalunga.jpg",
+    "src": "img/activites/BIA/erbalunga.jpg"
+   }
+  },
+  {
+   "id": "cap-corse",
+   "nom": "Tour du Cap Corse en voiture",
+   "emoji": "🚗",
+   "type": "nature",
+   "quartier": "Cap Corse (boucle d'environ 120 km)",
+   "lat": 42.9606,
+   "lng": 9.3682,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Route",
+     "libre (location de voiture en plus)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "Journée",
+   "moment": "Partez tôt ; sens conseillé : Erbalunga, Macinaggio, Centuri, Canari, Nonza, puis Saint-Florent ou retour par le col de Teghime",
+   "enfants": true,
+   "texte": "« L'île dans l'île » : une route en corniche entre maquis et mer, des tours génoises sur chaque cap, des villages perchés et des marines de pêcheurs. Arrêtez-vous à Centuri, son petit port coloré et ses langoustes, puis au moulin Mattei, avant de redescendre par la côte ouest, sauvage et vertigineuse.",
+   "site_officiel": "https://www.bastia-tourisme.com/le-cap-corse/",
+   "note": "Route étroite et sinueuse : comptez au moins 4 h de conduite sans les arrêts, et faites le plein avant de partir.",
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACenturi-port-pano.jpg",
+    "src": "img/activites/BIA/cap-corse.jpg"
+   }
+  },
+  {
+   "id": "nonza",
+   "nom": "Nonza et sa plage de galets noirs",
+   "emoji": "🖤",
+   "type": "plage",
+   "quartier": "Nonza (35 km)",
+   "lat": 42.7844,
+   "lng": 9.3446,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "2 h",
+   "moment": "L'après-midi, puis le coucher du soleil depuis la tour",
+   "enfants": true,
+   "texte": "Un village accroché à un piton rocheux au-dessus de la mer, couronné d'une tour, et à ses pieds une immense plage de galets noirs, unique en Corse. Le panorama depuis la tour, au coucher du soleil, fait partie des plus beaux de l'île.",
+   "site_officiel": "https://www.bastia-tourisme.com/le-cap-corse/",
+   "note": "La descente vers la plage se fait par un long escalier : chaussures fermées conseillées, et le retour monte.",
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_Nonza_-_Nonza_%28FR2B%29_-_2021-09-10_-_10.jpg",
+    "src": "img/activites/BIA/nonza.jpg"
+   }
+  },
+  {
+   "id": "douaniers",
+   "nom": "Sentier des douaniers (Macinaggio – Barcaggio)",
+   "emoji": "🥾",
+   "type": "nature",
+   "quartier": "Macinaggio (40 km)",
+   "lat": 42.9594,
+   "lng": 9.4548,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "Journée (5 à 6 h jusqu'à Barcaggio)",
+   "moment": "Au printemps, en juin ou en septembre ; partez tôt, il n'y a presque pas d'ombre",
+   "enfants": true,
+   "texte": "La pointe sauvage du Cap Corse à pied : un sentier côtier entre maquis et criques désertes, face aux îles Finocchiarola, jusqu'au hameau de Barcaggio et sa grande plage. Vous pouvez aussi ne faire qu'une partie de l'aller-retour, jusqu'à la tour de Santa Maria (environ 2 h).",
+   "site_officiel": "https://www.bastia-tourisme.com/le-cap-corse/",
+   "note": "Emportez beaucoup d'eau et prévoyez le retour (taxi depuis Barcaggio) avant de partir.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Toi & Moi from au bord de la mer Méditerranée, France",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATollare_%286193735742%29.jpg",
+    "src": "img/activites/BIA/douaniers.jpg"
+   }
+  },
+  {
+   "id": "agriates",
+   "nom": "Plage du Lotu (désert des Agriates) en bateau",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Départ du port de Saint-Florent (23 km)",
+   "lat": 42.6799,
+   "lng": 9.2993,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Navette aller-retour (adulte)",
+     "dès 30 €"
+    ],
+    [
+     "Enfant (3 à 12 ans)",
+     "tarif réduit"
+    ],
+    [
+     "Bébé de moins d'un an",
+     "non accepté à bord"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez en ligne quelques jours avant en été",
+   "duree": "Journée (environ 5 h 30 sur la plage)",
+   "moment": "D'avril à octobre ; départs toutes les heures le matin, retour 5 h 30 plus tard",
+   "enfants": true,
+   "texte": "Du sable blanc, une eau turquoise de lagon et aucune route : le Lotu ne s'atteint qu'en bateau, en 20 à 30 minutes depuis Saint-Florent. Les plus courageux continuent à pied par le sentier côtier jusqu'à Saleccia (environ 1 h 15), l'une des plus belles plages de Méditerranée.",
+   "site_officiel": "https://speedmare.com/",
+   "note": "Rien ou presque sur place : emportez de l'eau, un parasol (aucune ombre au Lotu) et des espèces.",
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alacoolwiki",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_de_Lotu.jpg",
+    "src": "img/activites/BIA/agriates.jpg"
+   }
+  },
+  {
+   "id": "patrimonio",
+   "nom": "Vignobles de Patrimonio et Saint-Florent",
+   "emoji": "🍇",
+   "type": "sortir",
+   "quartier": "Patrimonio (17 km)",
+   "lat": 42.7007,
+   "lng": 9.3645,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Dégustation chez les vignerons",
+     "généralement offerte"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation dans la plupart des caves",
+   "duree": "Demi-journée",
+   "moment": "L'après-midi, puis l'apéritif sur le port de Saint-Florent",
+   "enfants": false,
+   "texte": "Passé le col de Teghime, les vignes en terrasses de Patrimonio descendent vers le golfe de Saint-Florent : une trentaine de caves où goûter le Niellucciu et le muscat du Cap Corse. On finit sur le port de Saint-Florent, petit Saint-Tropez corse au pied de sa citadelle.",
+   "site_officiel": "https://www.bastia-tourisme.com/bastia-et-la-route-des-vins/",
+   "note": "Désignez un conducteur : la route du col est sinueuse.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APatrimonio-panorama_plaine.jpg",
+    "src": "img/activites/BIA/patrimonio.jpg"
+   }
+  },
+  {
+   "id": "biguglia",
+   "nom": "Réserve naturelle de l'étang de Biguglia",
+   "emoji": "🦆",
+   "type": "nature",
+   "quartier": "Furiani (8 km)",
+   "lat": 42.6414,
+   "lng": 9.4513,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre",
+   "duree": "1 h 30",
+   "moment": "Tôt le matin ou en fin de journée, pour les oiseaux",
+   "enfants": true,
+   "texte": "La plus grande zone humide de Corse, entre montagne et mer, au sud de Bastia : hérons, canards et oiseaux migrateurs venus d'Orient, à observer depuis les sentiers de la presqu'île de San Damianu. Prolongez par le lido de la Marana et ses longues plages de sable.",
+   "site_officiel": "https://www.bastia-tourisme.com/tresors-naturels-la-biodiversite-de-bastia/",
+   "note": "L'écomusée du Fortin est annoncé fermé au public pour une durée indéterminée ; les sentiers restent libres.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABiguglia-Etang-3.jpg",
+    "src": "img/activites/BIA/biguglia.jpg"
+   }
+  },
+  {
+   "id": "canonica",
+   "nom": "La Canonica, cathédrale romane de Mariana",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Lucciana (20 km, près de l'aéroport)",
+   "lat": 42.5393,
+   "lng": 9.4954,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "libre"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "accès libre (église visible de l'extérieur)",
+   "duree": "45 min",
+   "moment": "En arrivant ou avant de repartir : à 5 minutes de l'aéroport",
+   "enfants": true,
+   "texte": "Une cathédrale romane du XIIe siècle en pierre pâle, d'une pureté saisissante, posée au milieu des champs sur les vestiges de Mariana, la ville romaine fondée par Marius. Un détour idéal le jour de l'arrivée.",
+   "site_officiel": "https://www.bastia-tourisme.com/5-excursions-autour-de-bastia/",
+   "note": "À combiner avec l'étang de Biguglia, sur la même route.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALucciana_la_Canonica_cath%C3%A9drale_Santa-Maria-Assunta.jpg",
+    "src": "img/activites/BIA/canonica.jpg"
+   }
+  },
+  {
+   "id": "train-corte",
+   "nom": "Train de Bastia à Corte",
+   "emoji": "🚆",
+   "type": "nature",
+   "quartier": "Départ de la gare de Bastia",
+   "lat": 42.7022,
+   "lng": 9.4475,
+   "prix": 20.2,
+   "prix_detail": [
+    [
+     "Aller simple (adulte)",
+     "10,10 €"
+    ],
+    [
+     "Aller-retour (adulte)",
+     "20,20 €"
+    ],
+    [
+     "Enfant de 4 à 12 ans",
+     "moitié prix"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Pass Liberta (7 jours illimités)",
+     "50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20.2,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      10.1
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet en gare ou en ligne, le jour même",
+   "duree": "Journée (environ 2 h de train par trajet)",
+   "moment": "Toute l'année ; prenez un train du matin",
+   "enfants": true,
+   "texte": "Le petit train corse grimpe de la mer à la montagne, par les vallées et les ponts, jusqu'à Corte, l'ancienne capitale de Pascal Paoli. Là-haut, une citadelle perchée sur son rocher, des ruelles animées par les étudiants et, pour les marcheurs, les gorges de la Restonica.",
+   "site_officiel": "https://cf-corse.corsica/tarifs/",
+   "note": "Horaires sur le site des Chemins de fer de la Corse ; le billet aller-retour est valable 7 jours.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Florio",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACitadelle_de_Corte_%284%29.jpg",
+    "src": "img/activites/BIA/train-corte.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "vieux-port",
+   "nom": "Vieux-Port et Terra Vecchia",
+   "lat": 42.6975,
+   "lng": 9.4505,
+   "texte": "Le cœur de Bastia, entre le Vieux-Port, la place du Marché et les ruelles de la vieille ville : restaurants, églises et citadelle à pied. Le plus charmant pour un premier séjour, mais peu d'hôtels et des rues en pente."
+  },
+  {
+   "id": "centre",
+   "nom": "Centre (place Saint-Nicolas)",
+   "lat": 42.7015,
+   "lng": 9.4495,
+   "texte": "Autour de la grande place, du boulevard Paoli et de la rue Napoléon : commerces, gare, ferries et bus vers l'aéroport. Le plus pratique sans voiture, avec un bon choix d'hôtels à 5 minutes du Vieux-Port."
+  },
+  {
+   "id": "citadelle",
+   "nom": "Citadelle (Terra Nova)",
+   "lat": 42.693,
+   "lng": 9.4512,
+   "texte": "Les ruelles calmes et sans voitures au-dessus du port, avec vue sur la mer. Très peu d'hôtels, mais une adresse de charme y fait la différence ; le centre est à 10 minutes à pied."
+  },
+  {
+   "id": "nord",
+   "nom": "Toga, Pietranera et Miomo",
+   "lat": 42.7221,
+   "lng": 9.455,
+   "texte": "Le long de la route du Cap Corse, au nord : le port de plaisance de Toga puis des hôtels face à la mer, près des plages de galets. Pour un séjour plage et Cap Corse, à 5 à 15 minutes du centre (bus ligne C)."
+  },
+  {
+   "id": "sud",
+   "nom": "Arinella et lido de la Marana",
+   "lat": 42.67,
+   "lng": 9.448,
+   "texte": "Au sud, le long des grandes plages de sable, en direction de l'aéroport (15 minutes). Pratique avec une voiture et en famille, mais loin du charme de la vieille ville."
+  }
+ ],
+ "hotel_petit_prix_max": 110,
+ "restaurants": [
+  {
+   "id": "raugi",
+   "nom": "Glacier Raugi",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glacier historique",
+   "quartier": "Centre",
+   "adresse": "2 bis rue du Chanoine-Colombani, 20200 Bastia",
+   "lat": 42.7031,
+   "lng": 9.4506,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La glace de Bastia depuis 1937, toujours fabriquée selon la recette du grand-père. Parfums corses (figue, marron, noisette) à déguster sur la terrasse ombragée, au milieu des familles bastiaises. On y sert aussi des pizzas.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; file d'attente les soirs d'été",
+   "photo": {
+    "auteur": "AlphaLemur",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIce_cream_in_cones.jpg",
+    "src": "img/restos/BIA/raugi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "u-paisanu",
+   "nom": "U Paisanu",
+   "emoji": "🧀",
+   "gamme": "petit",
+   "genre": "Épicerie corse et table d'hôte",
+   "quartier": "Vieux-Port",
+   "adresse": "9 rue Monseigneur-Rigo, 20200 Bastia",
+   "lat": 42.6966,
+   "lng": 9.4519,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une épicerie fine avec une petite salle à l'étage : charcuterie corse, anchois, figatellu, fromages de brebis et plats du terroir qu'on ne trouve presque plus ailleurs, comme le pastizzu. Simple, généreux et authentique.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille pour le dîner (petite salle)",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APietra_bi%C3%A8re.jpg",
+    "src": "img/restos/BIA/u-paisanu.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cafe-des-gourmets",
+   "nom": "Café des Gourmets",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Brunch et cuisine légère",
+   "quartier": "Centre",
+   "adresse": "23 boulevard Paoli, 20200 Bastia",
+   "lat": 42.6987,
+   "lng": 9.4494,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "L'adresse des petits-déjeuners et brunchs de Bastia, sous une verrière lumineuse à deux pas de la place Saint-Nicolas : œufs, pancakes, bowls, tartines et plats végétariens. Parfait avant une journée de visite.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; ouvert en journée seulement",
+   "photo": {
+    "auteur": "Tkorchmaros",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACafe_Brunch_Budapest_omelette.jpg",
+    "src": "img/restos/BIA/cafe-des-gourmets.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-conti",
+   "nom": "Le Conti",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizzeria et brasserie",
+   "quartier": "Place Saint-Nicolas",
+   "adresse": "9 boulevard du Général-de-Gaulle, 20200 Bastia",
+   "lat": 42.7006,
+   "lng": 9.4506,
+   "prix": "18 à 32 €",
+   "prix_min": 18,
+   "badges": [],
+   "texte": "La terrasse la plus courue de la place Saint-Nicolas, face à la mer : des pizzas que certains clients rangent parmi les meilleures de leur vie, des travers de porc et un tiramisu maison. Service rapide et souriant, même quand c'est plein.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez le soir en été, sinon attendez un peu",
+   "photo": {
+    "auteur": "Punch Pizza",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APunch_Neapolitan_Pizza_Margherita.jpg",
+    "src": "img/restos/BIA/le-conti.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "merenda-ghjulia",
+   "nom": "Merenda Ghjulia",
+   "emoji": "🐗",
+   "gamme": "petit",
+   "genre": "Cuisine corse familiale",
+   "quartier": "Vieux-Port",
+   "adresse": "3 rue Neuve-Saint-Roch, 20200 Bastia",
+   "lat": 42.6979,
+   "lng": 9.4509,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une petite table familiale pour goûter la vraie cuisine corse sans se ruiner : sauté de veau, pita corse et beignets au fromage frais, en portions généreuses. La carte fait aussi quelques clins d'œil à la Grèce.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez le soir (petite salle)",
+   "photo": {
+    "auteur": "dronepicr",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACivet_de_Sanglier_Wild_boar_casserole_in_Calvi%2C_Corsica_%2852723820611%29.jpg",
+    "src": "img/restos/BIA/merenda-ghjulia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nulle-part-ailleurs",
+   "nom": "Le Nulle Part Ailleurs",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers et pâtes fraîches",
+   "quartier": "Vieux-Port",
+   "adresse": "4 cours Henri-Pierangeli, 20200 Bastia",
+   "lat": 42.6983,
+   "lng": 9.4505,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Des burgers maison et des pâtes fraîches faites sur place, à deux pas de la place du Marché. Le bon plan des Bastiais pour un repas rapide, copieux et de qualité.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Benoît Prieur",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHamburger_et_frites_au_Ninkasi_OL_Vall%C3%A9e_%28d%C3%A9cembre_2023%29.JPG",
+    "src": "img/restos/BIA/nulle-part-ailleurs.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nova",
+   "nom": "Nova",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Bistronomie dans une cour",
+   "quartier": "Vieux-Port",
+   "adresse": "2-4 rue Font-Neuve, 20200 Bastia",
+   "lat": 42.6972,
+   "lng": 9.4493,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Une jolie cour l'été, une salle voûtée en pierre l'hiver : le chef Alexandre Noireaux, formé dans de belles maisons suisses, y signe une cuisine du marché précise (risottos, thon, plats à partager), avec des vins corses et les glaces de l'artisan Pierre Geronimi.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez 2 à 3 jours avant en été ; fermé le dimanche",
+   "photo": {
+    "auteur": "voyages provence",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChristophe_Roldan%2C_Pav%C3%A9_de_thon_mi-cuit%2C_foie_gras_de_canard%2C_La_Marmite_du_P%C3%AAcheur%2C_Les_M%C3%A9es.jpg",
+    "src": "img/restos/BIA/nova.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "a-la-bottarga",
+   "nom": "À la Bottarga",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poutargue et fruits de mer",
+   "quartier": "Place du Marché",
+   "adresse": "1 place de l'Hôtel-de-Ville, 20200 Bastia",
+   "lat": 42.6968,
+   "lng": 9.4507,
+   "prix": "25 à 55 €",
+   "prix_min": 22,
+   "badges": [],
+   "texte": "La table de la Maison de la Bottarga, qui produit sa propre poutargue (œufs de mulet séchés, une spécialité corse) : linguines aux palourdes et poutargue, plateaux de fruits de mer, poissons de la criée, en terrasse sur la place du Marché. Formule du midi à 22 €.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille ; fermé le lundi",
+   "photo": {
+    "auteur": "Harry Gouvas",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARoe_Caviar%2C_Preveza_Greece.JPG",
+    "src": "img/restos/BIA/a-la-bottarga.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lavezzi",
+   "nom": "Lavezzi",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Italien avec balcon sur le port",
+   "quartier": "Vieux-Port",
+   "adresse": "8 rue Saint-Jean, 20200 Bastia",
+   "lat": 42.6967,
+   "lng": 9.4506,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Pâtes, pizzas et poissons à l'italienne, mais surtout un balcon suspendu au-dessus du Vieux-Port, face aux barques et à la citadelle illuminée le soir. Demandez une table dehors : c'est toute la magie de l'adresse.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez et demandez le balcon, 2 à 3 jours avant en été",
+   "photo": {
+    "auteur": "Toniher",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALinguine-alle-vongole.jpg",
+    "src": "img/restos/BIA/lavezzi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "corto",
+   "nom": "Corto",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Vieux-Port",
+   "adresse": "1 rue de la Marine, 20200 Bastia",
+   "lat": 42.6965,
+   "lng": 9.4498,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Une véranda ouverte sur le Vieux-Port pour les produits de la mer : huîtres, couteaux, poulpe à la galicienne, ceviche, langouste et risottos, avec une belle cave. Ouvert toute la journée le dimanche.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille en été",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAssiette_de_fruits_de_mer_March%C3%A9_des_Capucins_Bordeaux_%282%29.jpg",
+    "src": "img/restos/BIA/corto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-petit-vincent",
+   "nom": "Le Petit Vincent",
+   "emoji": "🌇",
+   "gamme": "moyen",
+   "genre": "Cuisine moderne, terrasse vue mer",
+   "quartier": "Citadelle",
+   "adresse": "1 bis rue du Dragon, 20200 Bastia",
+   "lat": 42.6932,
+   "lng": 9.4525,
+   "prix": "30 à 50 €",
+   "prix_min": 28,
+   "badges": [],
+   "texte": "Une terrasse perchée dans la citadelle, face à la mer et aux remparts dorés par le soleil couchant : cuisine moderne et saine, belles pièces du boucher, desserts maison. Venez tôt pour l'apéritif avant le dîner.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez 2 à 3 jours avant en été",
+   "photo": {
+    "auteur": "jeffwarder",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABastia_-_the_Citadel_from_the_sea_-_panoramio.jpg",
+    "src": "img/restos/BIA/le-petit-vincent.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-mademoiselle",
+   "nom": "Le Mademoiselle",
+   "emoji": "🍮",
+   "gamme": "moyen",
+   "genre": "Bistrot chic sous les voûtes",
+   "quartier": "Vieux-Port",
+   "adresse": "4 rue Font-Neuve, 20200 Bastia",
+   "lat": 42.6972,
+   "lng": 9.4492,
+   "prix": "25 à 45 €",
+   "prix_min": 22,
+   "badges": [],
+   "texte": "Un bistrot élégant sous un plafond voûté en pierre, avec une petite terrasse au calme : suggestions du jour, beignets au fromage frais du Niolu et une belle carte de vins corses servis au verre.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille",
+   "photo": {
+    "auteur": "Popo le Chien",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFiadone_corse.jpg",
+    "src": "img/restos/BIA/le-mademoiselle.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "adn",
+   "nom": "ADN",
+   "emoji": "🐟",
+   "gamme": "haut",
+   "genre": "Cuisine moderne",
+   "quartier": "Centre",
+   "adresse": "1 rue de l'Ancienne-Poste, 20200 Bastia",
+   "lat": 42.701,
+   "lng": 9.4501,
+   "prix": "dès 42 €",
+   "prix_min": 42,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Dans une élégante salle voûtée, le jeune chef Quentin Sanchez (passé par la table de l'hôtel de la Corniche) célèbre le produit : légumes bio, veau fermier, pêche locale, huile d'olive corse. Une cuisine nette et savoureuse, menu déjeuner à 42 € et menu dégustation le soir.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez une semaine avant",
+   "photo": {
+    "auteur": "Mack Male from Edmonton, AB, Canada",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATuna_Tataki_%283467802584%29.jpg",
+    "src": "img/restos/BIA/adn.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "radiche",
+   "nom": "Radiche",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine corse créative",
+   "quartier": "Place du Marché",
+   "adresse": "4 place de l'Hôtel-de-Ville, 20200 Bastia",
+   "lat": 42.6971,
+   "lng": 9.4513,
+   "prix": "35 à 95 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "« Racines » en corse : le chef bastiais Jean-Dominique revient au pays avec une cuisine courte, de saison, centrée sur les producteurs de l'île (thon rouge de Centuri, mazzardu, saucisse de veau corse). Menu découverte à 35 € le midi, menu « Racines » en 4 ou 6 temps (80 à 95 €) sur la place du Marché.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez une semaine avant, surtout pour le menu Racines",
+   "photo": {
+    "auteur": "ADT 04",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATot%C3%A8nes_ou_petits_calmars_farcis_aux_%C3%A9pinards_et_aux_pignons.jpg",
+    "src": "img/restos/BIA/radiche.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-pirate",
+   "nom": "Le Pirate",
+   "emoji": "🏴‍☠️",
+   "gamme": "haut",
+   "genre": "Gastronomie de la mer, sur le port",
+   "quartier": "Erbalunga (10 km)",
+   "adresse": "Port d'Erbalunga, 20222 Brando",
+   "lat": 42.7742,
+   "lng": 9.4764,
+   "prix": "65 à 210 €",
+   "prix_min": 65,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "La grande table du Cap Corse, sur la minuscule marine d'Erbalunga : nappes blanches, terrasse au bord de l'eau et menus dégustation autour de la pêche du jour, des crustacés et des produits corses. Pour une soirée d'exception.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez plusieurs jours avant (par téléphone) ; ouvert à la belle saison",
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABrando_Erbalunga_la_marine.jpg",
+    "src": "img/restos/BIA/le-pirate.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "la-corniche",
+   "nom": "La Table de la Corniche",
+   "emoji": "🌳",
+   "gamme": "haut",
+   "genre": "Cuisine corse familiale, vue panoramique",
+   "quartier": "San-Martino-di-Lota (7 km)",
+   "adresse": "Hôtel de la Corniche, 20200 San-Martino-di-Lota",
+   "lat": 42.7348,
+   "lng": 9.4345,
+   "prix": "45 à 80 €",
+   "prix_min": 45,
+   "badges": [],
+   "texte": "Une terrasse ombragée de platanes, suspendue au-dessus de la mer face aux îles toscanes, dans un village balcon à 15 minutes de Bastia. La famille Anziani y cuisine les recettes corses (raviolis au brocciu, fiadone) avec les herbes du jardin, sur une carte qui change chaque mois.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez 2 à 3 jours avant ; fermé le lundi et le mardi midi, ouvert d'avril à octobre",
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASan-Martino-di-Lota_%C3%A9glise_San_Martino_et_ancienne_chapelle_confr%C3%A9rie.jpg",
+    "src": "img/restos/BIA/la-corniche.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "la-roya",
+   "nom": "La Table de la Roya",
+   "emoji": "🏖️",
+   "gamme": "haut",
+   "genre": "Gastronomie les pieds dans le sable",
+   "quartier": "Saint-Florent (23 km)",
+   "adresse": "468 route de la Roya, 20217 Saint-Florent",
+   "lat": 42.6744,
+   "lng": 9.2958,
+   "prix": "≈ 90 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Sur la plage de la Roya, face au golfe de Saint-Florent, l'une des tables les plus réputées de Haute-Corse depuis près de 50 ans : cuisine moderne de la mer et du terroir, vins de l'île et vue imprenable au coucher du soleil. Idéal pour finir une journée aux Agriates.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez plusieurs jours avant ; fermé en hiver (de mi-novembre à fin mars)",
+   "photo": {
+    "auteur": "Pierre Bona",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASaint-Florent_%C3%AElot_de_la_Roya.jpg",
+    "src": "img/restos/BIA/la-roya.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "boccafine",
+   "nom": "Boccafine",
+   "emoji": "🥗",
+   "gamme": "haut",
+   "genre": "Cuisine locavore de village",
+   "quartier": "Nonza (35 km)",
+   "adresse": "Place de la Fontaine et des Platanes, 20217 Nonza",
+   "lat": 42.7849,
+   "lng": 9.3445,
+   "prix": "50 à 70 €",
+   "prix_min": 33,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin (coup de cœur)",
+   "texte": "Sur la petite place à la fontaine de Nonza, un « coup de cœur » du guide Michelin : une carte courte qui change chaque mois, faite des produits du Cap Corse, avec des touches méditerranéennes et asiatiques. L'étape gourmande parfaite du tour du Cap.",
+   "reservation": "indispensable",
+   "reservation_delai": "réservez par téléphone ; déjeuner seulement le mercredi, le vendredi et le dimanche",
+   "photo": {
+    "auteur": "Gzen92",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVillage_-_Tour_%28Nonza%29_%284%29.jpg",
+    "src": "img/restos/BIA/boccafine.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

@@ -128,3 +128,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   par point). Sites bloqués d'ici : cic.cdep.ro (Parlement, 503), mnar.ro (Cloudflare), filarmonicaenescu.ro (lisible avec Playwright,
   prix sur oveit.com). Cartes des restaurants du groupe City Grill (Caru' cu Bere, Manuc, Pescăruș, Hanu' Berarilor) en PDF image :
   `pdftoppm` puis lire l'image. Taux du leu : `ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml` (bnr.ro bloque).
+- Bastia (oct. 2026) : Wanderlog géo 11237, seulement 12 listes (~175 lieux, départ `geoCategory/199670`) ; compléter par Google Maps en
+  affichage limité (quadrillage 67 points, mots « restaurant », « pizzeria », « glacier », « bar à vin »). Michelin Corse lisible avec
+  Playwright (`/fr/fr/corse/<commune>/restaurants`). Prix : bastia.corsica/musee, lepetittrainbastia.corsica, train-corse.com/fr/tarifs
+  (calculateur, Playwright), billetterie SC Bastia (articles « biglietteria »), speedmare.com (navettes Lotu/Saleccia). Commons : recherche
+  HTML (`ns6=1`) + `thumb.php`, « 429 » masqués par vagues (0 résultat) : attendre 8 s entre deux recherches ; `Category:Views_of_Bastia`.

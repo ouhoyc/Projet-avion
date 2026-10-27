@@ -1,6 +1,7 @@
 {
  "city_code": "AJA",
  "ville": "Ajaccio",
+ "transport": "le bus",
  "statut": "vérifié en autonomie, prix relevés le 23/10/2026",
  "verifie_le": "2026-10-23",
  "reservation_legende": {
