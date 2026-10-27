@@ -125,6 +125,22 @@ function km(a, b) {
   return 12742 * Math.asin(Math.sqrt(h));
 }
 
+// Position d'une salle d'après son nom (OpenStreetMap) : seulement un lieu de sport ou un bâtiment du bon pays,
+// pas une rue ni une ville. `osm` évite de redemander à chaque lancement.
+async function chercherStade(st) {
+  st.osm = true;
+  const pays = Object.entries(CATEGORIES_PAYS).find(([, l]) => l.includes(st.pays))?.[0] || st.pays;
+  for (const q of [`${st.stade}, ${st.ville}`, st.stade]) {
+    await sleep(1100); // règle de Nominatim : 1 demande par seconde au plus
+    try {
+      const r = await fetch(`https://nominatim.openstreetmap.org/search?format=json&limit=3&countrycodes=${(pays || '').toLowerCase()}&q=${encodeURIComponent(q)}`,
+        { headers: { 'User-Agent': 'ProjetAvion/1.0 (site de voyage, calendrier des matchs)' } });
+      const p = (await r.json()).find((x) => ['leisure', 'building', 'amenity'].includes(x.class));
+      if (p) { st.lat = +(+p.lat).toFixed(5); st.lng = +(+p.lon).toFixed(5); return; }
+    } catch {}
+  }
+}
+
 // Destinations : villes de data.json, avec leur centre (OpenStreetMap, gardé d'une fois sur l'autre).
 const data = JSON.parse(readFileSync('data.json', 'utf8'));
 const ancien = existsSync('matchs-cache.json') ? JSON.parse(readFileSync('matchs-cache.json', 'utf8')) : {};
@@ -216,6 +232,9 @@ for (const [id, t] of tournois) {
           } : null;
         }
         const st = stades[e.homeTeam.id];
+        // Salle sans position chez SofaScore (souvent au basket) : on la cherche une fois dans OpenStreetMap,
+        // sinon le match s'afficherait au centre-ville.
+        if (st && st.lat == null && st.stade && !st.osm) await chercherStade(st);
         if (st?.lat != null) c = { latitude: st.lat, longitude: st.lng };
         ville ||= st?.ville;
         nomStade ||= st?.stade;

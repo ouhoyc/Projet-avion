@@ -284,6 +284,12 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (27/10/2026) **Matchs placés au centre-ville** (repéré sur Munich : le basket du Bayern au centre au lieu du BMW Park) :
+  quand SofaScore ne donne pas la position d'une salle (surtout au basket), `scripts/fetch-matchs.mjs` la cherche désormais une
+  fois dans OpenStreetMap (`chercherStade`, gardée dans `matchs-cache.json`). Corrigé tout de suite pour 54 salles et ~750 matchs
+  (Athènes, Istanbul, Berlin, Madrid, Barcelone, Paris…). Restent au centre, faute de position trouvée : salle Simon János
+  (Budapest), Chérif-Bellamine (Tunis), Shlomo Arena et Gaon (Tel-Aviv), Eden (Prague), Mega Factory (Belgrade), Rhénus
+  (Strasbourg) ; le script réessaiera chaque lundi.
 - ✅ (27/10/2026) **Page guide de Munich** (`guides/MUC.json`), préparée en autonomie : 27 activités (Marienplatz et carillon, tour
   du Alter Peter (5 €), Frauenkirche et sa tour sud (7,50 €), Residenz (15 € musée + trésor), Odeonsplatz et Hofgarten, Asamkirche,
   Englischer Garten et surfeurs de l'Eisbach, Nymphenburg (16 € l'hiver, 20 € l'été), BMW Welt et musée (17 €), visite de l'Allianz
@@ -299,8 +305,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   Écartés car fermés : tour olympique (travaux jusqu'au début de 2027), Neue Pinakothek (2029). Écartés :
   Café Luitpold (note 3,8), Andechser am Dom (4,2), Schumann's (3,7), Giorgia Trattoria (14 000 avis : avis en masse probables).
   Prix estimés : billets du Bayern (foot et basket), Opéra (10 à 165 € selon la catégorie), menus de Tantris et THE CLOUD (pas
-  publiés sur leur site), Käfer-Schänke. 9 photos d'illustration (plats). À savoir : `matchs/MUC.json` place le BMW Park (basket)
-  au centre-ville (le stade n'a pas de position chez SofaScore).
+  publiés sur leur site), Käfer-Schänke. 9 photos d'illustration (plats).
 - ✅ (27/10/2026) **Page guide de Bastia** (`guides/BIA.json`), préparée en autonomie : 24 activités (tendance d'après le web,
   2 sources au moins : Vieux-Port, Erbalunga, tour du Cap Corse, Nonza, plage du Lotu ; musée 5 €, petit train 9 €, Légendines 25 €
   le mardi, train Bastia–Corte 10,10 € l'aller, navette Speed Mare vers le Lotu dès 30 €, match du SC Bastia en Ligue 3 dès 15 €
