@@ -1,0 +1,1456 @@
+{
+  "city_code": "BUH",
+  "statut": "vérifié en autonomie, prix relevés le 27/10/2026",
+  "verifie_le": "2026-10-27",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "prix_match": 8,
+  "activites": [
+    {
+      "id": "palais-parlement",
+      "nom": "Palais du Parlement",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Izvor",
+      "lat": 44.4275,
+      "lng": 26.0874,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Visite guidée standard (environ 1 h)",
+          "85 lei (≈ 16 €)"
+        ],
+        [
+          "Enfants de 7 à 18 ans",
+          "40 lei (≈ 7,50 €)"
+        ],
+        [
+          "Moins de 7 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            7.5
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant (visite guidée seulement, nombre de places limité)",
+      "duree": "1 h 30",
+      "moment": "Le matin, puis descente à pied par le boulevard de l'Unirii et ses fontaines",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le deuxième plus grand bâtiment administratif du monde après le Pentagone : 1 100 pièces, des lustres de plusieurs tonnes, des kilomètres de marbre et de tapis, voulus par Ceaușescu dans les années 1980. La visite guidée traverse les salles d'apparat jusqu'au balcon d'où le dictateur ne put jamais parler à la foule.",
+      "site_officiel": "https://cic.cdep.ro/",
+      "note": "Visite uniquement guidée : présentez le passeport ou la carte d'identité donnés à la réservation, il y a un contrôle de sécurité à l'entrée.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Avenida_de_la_Uni%C3%B3n,_Bucarest,_Ruman%C3%ADa,_2016-05-29,_DD_58.jpg",
+        "src": "img/activites/BUH/palais-parlement.jpg"
+      }
+    },
+    {
+      "id": "centre-historique",
+      "nom": "Centre historique et rue Lipscani",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Centrul Vechi",
+      "lat": 44.4318,
+      "lng": 26.1006,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans les rues",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "2 à 3 h",
+      "moment": "En fin d'après-midi, quand les terrasses se remplissent",
+      "enfants": true,
+      "texte": "Le cœur ancien de Bucarest, piéton et pavé : façades Belle Époque des anciennes banques, églises cachées entre deux immeubles, caravansérail de Manuc et passages couverts. Le jour on flâne de librairie en café, le soir les rues Lipscani, Covaci et Smârdan deviennent une immense terrasse.",
+      "site_officiel": "https://www.romania.travel/fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ștefan Jurcă from Munich, Germany",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucharest_-_Lipscani_Street_-_Leipziger_Stra%C3%9Fe_(28488410741).jpg",
+        "src": "img/activites/BUH/centre-historique.jpg"
+      }
+    },
+    {
+      "id": "carturesti",
+      "nom": "Librairie Cărturești Carusel",
+      "emoji": "📚",
+      "type": "culture",
+      "quartier": "Centrul Vechi",
+      "lat": 44.43199,
+      "lng": 26.1016,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "45 min",
+      "moment": "En semaine à l'ouverture (10 h), avant la foule des photographes",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La librairie « carrousel de la lumière », dans un hôtel particulier de 1903 entièrement blanc : balcons ondulants, colonnes et verrière sur six niveaux. C'est l'une des plus belles librairies d'Europe, avec un salon de thé tout en haut pour admirer la vue sur les étages.",
+      "site_officiel": "https://carturesti.ro/",
+      "note": "Photos sans flash autorisées ; le dernier étage accueille un café.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mihai Petre",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Libraria_Carturesti_Carusel_-_Interior_ziua.jpg",
+        "src": "img/activites/BUH/carturesti.jpg"
+      }
+    },
+    {
+      "id": "stavropoleos",
+      "nom": "Monastère Stavropoleos",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Centrul Vechi",
+      "lat": 44.4318,
+      "lng": 26.0989,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Église et cour",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "30 min",
+      "moment": "En fin d'après-midi, quand les religieuses chantent les vêpres",
+      "enfants": true,
+      "texte": "Un bijou de 1724 au milieu du centre historique : façade sculptée de pierre et de bois, fresques sous les arcades et une petite cour fleurie bordée de pierres tombales anciennes. Un îlot de calme à deux pas des bars, où l'on entend souvent des chants byzantins.",
+      "site_officiel": "https://www.stavropoleos.ro/",
+      "note": "Tenue correcte demandée (épaules couvertes).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Neoclassicism Enthusiast",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:4,_Strada_Stavropoleos,_Bucharest_(Romania).jpg",
+        "src": "img/activites/BUH/stavropoleos.jpg"
+      }
+    },
+    {
+      "id": "macca",
+      "nom": "Passage Macca-Vilacrosse",
+      "emoji": "🏮",
+      "type": "balade",
+      "quartier": "Centrul Vechi",
+      "lat": 44.43311,
+      "lng": 26.0987,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "30 min",
+      "moment": "Le soir, quand la verrière jaune s'illumine",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une galerie couverte de 1891 en forme de fer à cheval, sous une verrière jaune qui dore toute la lumière. On s'y installe pour un café ou un narguilé, entre façades néoclassiques et lanternes : l'endroit le plus photographié du vieux Bucarest.",
+      "site_officiel": "https://www.romania.travel/fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Britchi Mirela",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania._PASAJUL_MACCA_VILACROSSE_(B-II-a-A-19837).jpg",
+        "src": "img/activites/BUH/macca.jpg"
+      }
+    },
+    {
+      "id": "athenee",
+      "nom": "Concert à l'Athénée roumain",
+      "emoji": "🎻",
+      "type": "sortir",
+      "quartier": "Piața Revoluției",
+      "lat": 44.4413,
+      "lng": 26.0973,
+      "prix": 29,
+      "prix_detail": [
+        [
+          "Concert symphonique de la Philharmonie George Enescu",
+          "dès 155 lei (≈ 29 €)"
+        ],
+        [
+          "Récital ou musique de chambre",
+          "dès 55 à 70 lei (≈ 10 à 13 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 29,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "1 à 3 semaines avant pour les grands concerts du jeudi et du vendredi",
+      "duree": "2 h",
+      "moment": "Le jeudi ou le vendredi à 19 h, de septembre à juin",
+      "enfants": false,
+      "texte": "Le symbole de Bucarest : une rotonde néoclassique de 1888 coiffée d'une coupole, et à l'intérieur une salle ronde rouge et or dont la fresque de 75 mètres raconte l'histoire du pays. Y écouter la Philharmonie George Enescu, c'est entendre le plus bel écrin musical de Roumanie.",
+      "site_officiel": "https://filarmonicaenescu.ro/",
+      "note": "Billets sur le site de la Philharmonie (programme et prix par concert). Tenue de ville conseillée.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Pudelek (Marcin Szala)",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ateneul_Rom%C3%A2n_1.jpg",
+        "src": "img/activites/BUH/athenee.jpg"
+      }
+    },
+    {
+      "id": "calea-victoriei",
+      "nom": "Calea Victoriei et place de la Révolution",
+      "emoji": "🚶",
+      "type": "balade",
+      "quartier": "Calea Victoriei",
+      "lat": 44.4393,
+      "lng": 26.0965,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "2 h",
+      "moment": "Le week-end en été : l'avenue devient piétonne (« Străzi deschise »)",
+      "enfants": true,
+      "texte": "L'avenue la plus élégante de la ville, du palais CEC à la place Victoriei : palais, hôtels Belle Époque, l'Athénée, l'ancien palais royal et la place de la Révolution, où tomba Ceaușescu en décembre 1989. Le balcon du comité central et le mémorial y racontent encore ces journées.",
+      "site_officiel": "https://www.romania.travel/fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Neoclassicism Enthusiast",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:56_Calea_Victoriei,_Bucharest_(03).jpg",
+        "src": "img/activites/BUH/calea-victoriei.jpg"
+      }
+    },
+    {
+      "id": "mnar",
+      "nom": "Musée national d'art (palais royal)",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Piața Revoluției",
+      "lat": 44.4396,
+      "lng": 26.0959,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Entrée",
+          "≈ 32 lei (≈ 6 €)"
+        ],
+        [
+          "Élèves et étudiants",
+          "≈ 8 lei (≈ 1,50 €)"
+        ],
+        [
+          "Moins de 7 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            1.5
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets sur place",
+      "duree": "2 h",
+      "moment": "Du mercredi au dimanche (fermé lundi et mardi)",
+      "enfants": true,
+      "texte": "L'ancien palais royal abrite la plus belle collection d'art du pays : icônes et trésors des monastères, sculptures de Brâncuși, peintres roumains et une galerie européenne avec El Greco, Rembrandt et Rubens. On visite aussi la salle du trône et l'escalier d'honneur.",
+      "site_officiel": "https://www.mnar.ro/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Nicubunu",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Piata_Revolu%C8%9Biei.jpg",
+        "src": "img/activites/BUH/mnar.jpg"
+      }
+    },
+    {
+      "id": "village",
+      "nom": "Musée du Village",
+      "emoji": "🏡",
+      "type": "culture",
+      "quartier": "Herăstrău",
+      "lat": 44.4724,
+      "lng": 26.0765,
+      "prix": 7.5,
+      "prix_detail": [
+        [
+          "Entrée",
+          "40 lei (≈ 7,50 €)"
+        ],
+        [
+          "Lundi et mardi (maisons fermées)",
+          "20 lei"
+        ],
+        [
+          "Élèves et étudiants",
+          "10 lei (≈ 2 €)"
+        ],
+        [
+          "Moins de 7 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7.5,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation (sauf visite guidée)",
+      "duree": "2 à 3 h",
+      "moment": "Le matin, puis pique-nique ou balade au parc Herăstrău voisin",
+      "enfants": true,
+      "texte": "Toute la Roumanie rurale au bord du lac Herăstrău : plus de 300 maisons, églises en bois, moulins et fermes démontés dans tout le pays et remontés ici, sous les arbres. Un voyage d'une matinée du Maramureș au delta du Danube.",
+      "site_officiel": "https://muzeul-satului.ro/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Andrei Stroe",
+        "licence": "CC BY-SA 3.0 ro",
+        "page": "https://commons.wikimedia.org/wiki/File:RO_B_Village_museum_Dumbraveni_homestead_2.jpg",
+        "src": "img/activites/BUH/village.jpg"
+      }
+    },
+    {
+      "id": "herastrau",
+      "nom": "Parc Herăstrău et Arc de Triomphe",
+      "emoji": "🌳",
+      "type": "nature",
+      "quartier": "Herăstrău",
+      "lat": 44.473,
+      "lng": 26.083,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Parc",
+          "gratuit"
+        ],
+        [
+          "Barque ou pédalo (avril à octobre)",
+          "en supplément"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "2 h",
+      "moment": "Au coucher du soleil sur le lac, ou en automne pour les couleurs",
+      "enfants": true,
+      "texte": "Le grand parc de Bucarest (parc du Roi-Michel-Ier) entoure un lac de 74 hectares : promenade au bord de l'eau, île des Roses, terrasses et barques en été. On y arrive par l'Arc de Triomphe, cousin de celui de Paris, au bout de la chaussée Kiseleff.",
+      "site_officiel": "https://www.romania.travel/fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Rula Sibai",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucharest_Herastrau_Park_autumn.jpg",
+        "src": "img/activites/BUH/herastrau.jpg"
+      }
+    },
+    {
+      "id": "cismigiu",
+      "nom": "Jardin Cișmigiu",
+      "emoji": "🦆",
+      "type": "nature",
+      "quartier": "Cișmigiu",
+      "lat": 44.4373,
+      "lng": 26.0911,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "1 h",
+      "moment": "À toute heure ; patinoire sur le lac en hiver",
+      "enfants": true,
+      "texte": "Le plus ancien jardin public de la ville (1847), en plein centre : un lac avec barques, des ponts romantiques, des saules pleureurs et la « rotonde des écrivains ». Les Bucarestois y viennent jouer aux échecs et nourrir les canards.",
+      "site_officiel": "https://www.romania.travel/fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mastermindsro",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cismigiu-Garden-Bucharest-3.jpg",
+        "src": "img/activites/BUH/cismigiu.jpg"
+      }
+    },
+    {
+      "id": "ceausescu",
+      "nom": "Maison Ceaușescu (palais du Printemps)",
+      "emoji": "🗝️",
+      "type": "culture",
+      "quartier": "Primăverii",
+      "lat": 44.4689,
+      "lng": 26.0923,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Visite guidée (anglais ou roumain)",
+          "85 lei (≈ 16 €)"
+        ],
+        [
+          "Élèves, étudiants, seniors",
+          "70 lei (≈ 13 €)"
+        ],
+        [
+          "Avec projection d'un documentaire",
+          "115 lei"
+        ],
+        [
+          "Enfants d'âge préscolaire",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            13
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "billet en ligne avec un horaire, quelques jours avant",
+      "duree": "1 h",
+      "moment": "Du mardi au dimanche, de 10 h à 17 h",
+      "enfants": true,
+      "texte": "La villa où vécurent Nicolae et Elena Ceaușescu jusqu'en 1989, restée intacte : salle de bain plaquée d'or, cinéma privé, mosaïques de paons et piscine intérieure. Une plongée fascinante dans le luxe d'un dictateur qui imposait les privations à tout un pays.",
+      "site_officiel": "https://casaceausescu.ro/",
+      "note": "Fermé le lundi et les jours fériés ; poussettes interdites pendant la visite.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tim Adams",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Indoor_swimming_pool_in_Palatul_Prim%C7%8Everii_aka_Spring_Palace_in_Bucharest_Romania.jpg",
+        "src": "img/activites/BUH/ceausescu.jpg"
+      }
+    },
+    {
+      "id": "therme",
+      "nom": "Therme București",
+      "emoji": "🌴",
+      "type": "bains",
+      "quartier": "Balotești",
+      "lat": 44.6054,
+      "lng": 26.0854,
+      "prix": 27,
+      "prix_detail": [
+        [
+          "Journée (lundi au jeudi / vendredi au dimanche)",
+          "141 / 151 lei (≈ 26 à 28 €)"
+        ],
+        [
+          "3 heures",
+          "71 / 81 lei (≈ 13 à 15 €)"
+        ],
+        [
+          "Enfants de 3 à 14 ans (journée)",
+          "125 / 135 lei (≈ 24 €)"
+        ],
+        [
+          "Moins de 3 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 27,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            14,
+            24
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne la veille, surtout le week-end",
+      "duree": "Une demi-journée ou la journée",
+      "moment": "En semaine pour éviter la foule ; idéal en hiver",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le plus grand centre thermal d'Europe, sous une immense verrière : plus de 800 palmiers, piscines d'eau chaude à 33 °C, bassin extérieur, saunas à thème et toboggans. Une journée de vacances tropicales à 20 minutes de l'aéroport, été comme hiver.",
+      "site_officiel": "https://www.therme.ro/",
+      "note": "Les enfants de moins de 14 ans n'ont accès qu'à la zone Galaxy (toboggans). Navette depuis la gare du Nord et le centre.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "dronepicr",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Palms_in_Romanian_water_park_Therme_Bucure%C8%99ti_(47981469533).jpg",
+        "src": "img/activites/BUH/therme.jpg"
+      }
+    },
+    {
+      "id": "paysan",
+      "nom": "Musée du Paysan roumain",
+      "emoji": "🧵",
+      "type": "culture",
+      "quartier": "Piața Victoriei",
+      "lat": 44.4544,
+      "lng": 26.0836,
+      "prix": 4,
+      "prix_detail": [
+        [
+          "Entrée (toutes les expositions)",
+          "20 lei (≈ 4 €)"
+        ],
+        [
+          "Élèves et étudiants",
+          "5 lei (≈ 1 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            1
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets sur place (entrées toutes les 90 minutes)",
+      "duree": "1 h 30",
+      "moment": "Du mercredi au dimanche, de 10 h à 18 h",
+      "enfants": true,
+      "texte": "Rouvert en entier en juin 2026 après dix ans de travaux, ce musée primé en Europe raconte la vie des campagnes avec poésie : icônes sur verre, costumes brodés, céramiques et une église en bois. Son café et sa boutique d'artisanat sont parmi les meilleurs de la ville.",
+      "site_officiel": "https://www.mntr.ro/",
+      "note": "Entrées dans l'exposition permanente à 10 h, 11 h 30, 13 h, 14 h 30 et 16 h.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Neoclassicism Enthusiast",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Museum_of_the_Romanian_Peasant_in_Bucharest.jpg",
+        "src": "img/activites/BUH/paysan.jpg"
+      }
+    },
+    {
+      "id": "antipa",
+      "nom": "Muséum Grigore Antipa",
+      "emoji": "🦕",
+      "type": "culture",
+      "quartier": "Piața Victoriei",
+      "lat": 44.4531,
+      "lng": 26.0846,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Entrée",
+          "32 lei (≈ 6 €)"
+        ],
+        [
+          "Élèves et étudiants",
+          "8 lei (≈ 1,50 €)"
+        ],
+        [
+          "Enfants d'âge préscolaire",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            1.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billets sur place ou en ligne",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Du mardi au dimanche ; tôt le week-end avec des enfants",
+      "enfants": true,
+      "texte": "Le muséum d'histoire naturelle préféré des familles : squelette de dinothérium géant, baleine suspendue, papillons du monde entier et grands dioramas d'animaux dans leur décor. Moderne, interactif et parfait par temps de pluie.",
+      "site_officiel": "https://antipa.ro/",
+      "note": "Fermé le lundi. Gratuit pour les moins de 18 ans pendant les vacances scolaires roumaines.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Britchi Mirela",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Grigore_Antipa_National_Museum_of_Natural_History,_Romania,_Bucharest._Skeleton_of_a_very_big_animal.jpg",
+        "src": "img/activites/BUH/antipa.jpg"
+      }
+    },
+    {
+      "id": "mitropolie",
+      "nom": "Colline de la Métropole (cathédrale patriarcale)",
+      "emoji": "🔔",
+      "type": "culture",
+      "quartier": "Dealul Mitropoliei",
+      "lat": 44.4244,
+      "lng": 26.0976,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "45 min",
+      "moment": "Le dimanche matin pour la liturgie, ou au coucher du soleil",
+      "enfants": true,
+      "texte": "Sur l'une des rares collines de Bucarest, la cathédrale patriarcale de 1658, son clocher et le palais de l'ancien Parlement forment un ensemble paisible et doré. Les fresques et les fidèles qui viennent baiser les reliques de saint Démètre donnent un vrai aperçu de la Roumanie orthodoxe.",
+      "site_officiel": "https://patriarhia.ro/",
+      "note": "Épaules et genoux couverts.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Chainwit.",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Catedrala_Patriarhal%C4%83,_Bucure%C8%99ti_(2023)_-_IMG_02.jpg",
+        "src": "img/activites/BUH/mitropolie.jpg"
+      }
+    },
+    {
+      "id": "cotroceni",
+      "nom": "Palais Cotroceni",
+      "emoji": "👑",
+      "type": "culture",
+      "quartier": "Cotroceni",
+      "lat": 44.434,
+      "lng": 26.062,
+      "prix": 13,
+      "prix_detail": [
+        [
+          "Week-end (visite libre)",
+          "70 lei (≈ 13 €)"
+        ],
+        [
+          "Du mardi au jeudi (visite guidée)",
+          "50 lei (≈ 9 €)"
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 13,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne (iaBilet ou BookTes) quelques jours avant",
+      "duree": "1 h 30",
+      "moment": "Le week-end, de 10 h à 18 h (dernière entrée 16 h 30)",
+      "enfants": true,
+      "texte": "La résidence des rois de Roumanie, aujourd'hui palais présidentiel : salons de la reine Marie mêlant Art nouveau et style roumain, église médiévale reconstruite et jardins. Moins connu que le Parlement, mais bien plus intime.",
+      "site_officiel": "https://www.muzeulcotroceni.ro/",
+      "note": "Une partie du palais reste celle de la présidence : itinéraire selon les jours.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Bekuletz",
+        "licence": "CC BY-SA 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Cotroceni_Palace_Garden_-_Bucharest_07.jpg",
+        "src": "img/activites/BUH/cotroceni.jpg"
+      }
+    },
+    {
+      "id": "chateaux",
+      "nom": "Excursion aux châteaux de Peleș et de Bran",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Carpates (Sinaia et Bran)",
+      "lat": 45.3601,
+      "lng": 25.5427,
+      "prix": 110,
+      "prix_detail": [
+        [
+          "Excursion d'une journée en petit groupe (avec transport)",
+          "≈ 80 €"
+        ],
+        [
+          "Château de Peleș (rez-de-chaussée et 1er étage)",
+          "100 lei (≈ 19 €)"
+        ],
+        [
+          "Château de Bran",
+          "dès 40 lei (≈ 8 à 15 € selon l'âge)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 110,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "duree": "Une journée (12 à 14 h)",
+      "moment": "Du mercredi au dimanche (Peleș est fermé le lundi et le mardi)",
+      "enfants": true,
+      "texte": "La grande journée dans les Carpates : le château de Peleș à Sinaia, palais néo-Renaissance des rois de Roumanie posé dans la forêt, puis Bran, la forteresse que la légende attribue à Dracula, et souvent un arrêt dans la vieille ville saxonne de Brașov.",
+      "site_officiel": "https://peles.ro/",
+      "note": "Peleș est fermé pour entretien du 2 novembre au 1er décembre 2026. Entrées des châteaux rarement comprises dans le prix des excursions.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Adam Jones Adam63",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Peles_Castle_-_Sinaia_-_Romania_01.jpg",
+        "src": "img/activites/BUH/chateaux.jpg"
+      }
+    },
+    {
+      "id": "fcsb",
+      "nom": "Match du FCSB",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Arena Națională",
+      "lat": 44.4372,
+      "lng": 26.1525,
+      "prix": 8,
+      "prix_detail": [
+        [
+          "Billet en virage (peluza)",
+          "≈ 30 lei (≈ 6 €)"
+        ],
+        [
+          "Tribune latérale",
+          "≈ 50 lei (≈ 10 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 8,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant sur la billetterie du club",
+      "duree": "2 h 30",
+      "moment": "Le week-end, d'août à mai",
+      "enfants": true,
+      "club": "FCSB",
+      "texte": "Le club le plus titré de Roumanie, héritier du Steaua vainqueur de la Coupe des clubs champions en 1986. Il joue à l'Arena Națională (55 000 places) ou au stade de Ghencea selon les matchs : ambiance chaude et billets à petit prix.",
+      "site_officiel": "https://www.fcsb.ro/",
+      "note": "Achetez sur la billetterie officielle du club ; le stade est indiqué sur chaque billet.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Marius Mandache",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucharest_National_Arena.jpg",
+        "src": "img/activites/BUH/fcsb.jpg"
+      }
+    },
+    {
+      "id": "rapid",
+      "nom": "Match du Rapid au stade Giulești",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Giulești",
+      "lat": 44.4558,
+      "lng": 26.057,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Billet en virage (peluza)",
+          "≈ 25 à 30 lei (≈ 5 à 6 €)"
+        ],
+        [
+          "Tribune",
+          "≈ 35 à 100 lei"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "dès la mise en vente, souvent complet contre le FCSB ou le Dinamo",
+      "duree": "2 h 30",
+      "moment": "Le week-end, d'août à mai",
+      "enfants": true,
+      "club": "Rapid București",
+      "texte": "Le club populaire des cheminots, dans un stade neuf de 14 000 places en grenat et blanc. Ses supporters sont réputés pour avoir la meilleure ambiance du pays : chants pendant 90 minutes, tifos et fumigènes les soirs de derby.",
+      "site_officiel": "https://www.fcrapid.ro/",
+      "note": "Achetez uniquement sur la billetterie officielle du club.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "@8Dodo8",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Rapid_Stadium_opening,_March_2022_(1).jpg",
+        "src": "img/activites/BUH/rapid.jpg"
+      }
+    },
+    {
+      "id": "vacaresti",
+      "nom": "Parc naturel Văcărești",
+      "emoji": "🦢",
+      "type": "nature",
+      "quartier": "Văcărești",
+      "lat": 44.3994,
+      "lng": 26.1332,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "1 h 30",
+      "moment": "Tôt le matin ou au coucher du soleil, pour les oiseaux",
+      "enfants": true,
+      "texte": "Le « delta » de Bucarest : un ancien chantier de barrage abandonné en 1989 où la nature a repris ses droits, avec roselières, étangs et plus de 100 espèces d'oiseaux au pied des immeubles. Un paysage unique au monde, en plein milieu d'une capitale.",
+      "site_officiel": "https://parcvacaresti.ro/",
+      "note": "Prévoyez de bonnes chaussures ; peu d'ombre en été.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mihai Petre",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lacul_Vacaresti.jpg",
+        "src": "img/activites/BUH/vacaresti.jpg"
+      }
+    },
+    {
+      "id": "nuit",
+      "nom": "Soirée dans le centre historique",
+      "emoji": "🍸",
+      "type": "sortir",
+      "quartier": "Centrul Vechi",
+      "lat": 44.431,
+      "lng": 26.1012,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ],
+        [
+          "Bière ou cocktail",
+          "≈ 3 à 10 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "reservation_delai": "aucune réservation",
+      "duree": "Toute la soirée",
+      "moment": "Du jeudi au samedi, à partir de 22 h",
+      "enfants": false,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Bucarest a la réputation de faire la fête mieux que n'importe quelle capitale d'Europe de l'Est : bars à cocktails, caves à vin, terrasses sur les toits et clubs jusqu'à l'aube, à des prix bien plus doux qu'à Paris. Tout se joue à pied, entre Lipscani, Gabroveni et Smârdan.",
+      "site_officiel": "https://www.romania.travel/fr/",
+      "note": "Méfiez-vous des rabatteurs qui proposent des « clubs de strip-tease » : additions gonflées signalées.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "J Stimp from Bucharest, Romania",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Centrul_Vechi_at_Night_2_(14989621343).jpg",
+        "src": "img/activites/BUH/nuit.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "centrul-vechi",
+      "nom": "Centre historique (Centrul Vechi)",
+      "lat": 44.4318,
+      "lng": 26.1008,
+      "texte": "Le quartier ancien, piéton : églises, passages, restaurants et bars à pied. Idéal pour un court séjour et les sorties ; bruyant le week-end jusqu'à tard."
+    },
+    {
+      "id": "universitate",
+      "nom": "Universitate et Cișmigiu",
+      "lat": 44.4355,
+      "lng": 26.096,
+      "texte": "Entre la place de l'Université, le jardin Cișmigiu et Calea Victoriei : central, bien desservi par le métro, à 5 minutes à pied du centre historique mais plus calme la nuit."
+    },
+    {
+      "id": "romana",
+      "nom": "Piața Romană et Amzei",
+      "lat": 44.4445,
+      "lng": 26.0965,
+      "texte": "Le quartier de l'Athénée et du marché Amzei, sur la ligne de métro principale : beaux immeubles, cafés et restaurants, et tout le centre à pied. Bon compromis prix et emplacement."
+    },
+    {
+      "id": "dorobanti",
+      "nom": "Dorobanți et Floreasca",
+      "lat": 44.459,
+      "lng": 26.099,
+      "texte": "Le quartier chic et résidentiel du nord : villas, bonnes tables, cafés de spécialité et le lac Floreasca. Calme, sûr, à 10 minutes en taxi du centre historique."
+    },
+    {
+      "id": "herastrau",
+      "nom": "Aviatorilor et Herăstrău",
+      "lat": 44.464,
+      "lng": 26.085,
+      "texte": "Le long de la chaussée Kiseleff, entre l'Arc de Triomphe, les musées et le parc Herăstrău : verdoyant et élégant, pratique avec des enfants, et direct en bus pour l'aéroport."
+    }
+  ],
+  "hotel_petit_prix_max": 60,
+  "restaurants": [
+    {
+      "id": "ciorbarie",
+      "nom": "Ciorbărie",
+      "emoji": "🍲",
+      "gamme": "petit",
+      "genre": "Soupes roumaines (ciorbe)",
+      "quartier": "Dorobanți",
+      "adresse": "Calea Dorobanți 68, București",
+      "lat": 44.45181,
+      "lng": 26.09905,
+      "prix": "8 à 15 €",
+      "prix_min": 8,
+      "texte": "Un comptoir moderne consacré à la ciorbă, la soupe aigre qui ouvre tout repas roumain : soupe de tripes à la crème, soupe de boulettes, bortch de poisson, servies avec piment frais et crème. Le meilleur moyen de goûter la cuisine du pays pour quelques lei.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "badges": [],
+      "photo": {
+        "auteur": "Sacha47",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ciorba_de_burta_2.jpg",
+        "src": "img/restos/BUH/ciorbarie.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "shaorma-orient",
+      "nom": "Shaorma Orient",
+      "emoji": "🌯",
+      "gamme": "petit",
+      "genre": "Chawarma à la roumaine",
+      "quartier": "Ion Mihalache",
+      "adresse": "Bulevardul Ion Mihalache 60, București",
+      "lat": 44.45838,
+      "lng": 26.07778,
+      "prix": "5 à 10 €",
+      "prix_min": 5,
+      "texte": "La shaorma est le vrai plat national de la nuit bucarestoise : galette garnie de poulet grillé, frites, chou et sauce à l'ail. Ouverte 24 heures sur 24, cette adresse fait partie des mieux notées de la ville par les habitants.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation, ouvert jour et nuit",
+      "badges": [],
+      "photo": {
+        "auteur": "TrainSimFan",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mayo_Shawarma.JPG",
+        "src": "img/restos/BUH/shaorma-orient.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "terasa-obor",
+      "nom": "Terasa Obor (mici du marché)",
+      "emoji": "🌭",
+      "gamme": "petit",
+      "genre": "Mici grillés au marché",
+      "quartier": "Obor",
+      "adresse": "Strada Oborul Nou, București (marché Obor)",
+      "lat": 44.45004,
+      "lng": 26.12957,
+      "prix": "5 à 12 €",
+      "prix_min": 5,
+      "badges": [
+        "tendance",
+        "institution"
+      ],
+      "texte": "Les mici (ou mititei), petits rouleaux de viande hachée à l'ail grillés au charbon, se mangent ici depuis des générations avec moutarde, pain et bière fraîche, au milieu de l'immense marché Obor. Une adresse populaire et bruyante, que les vidéos sur Bucarest citent toujours.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation ; foule le samedi midi",
+      "photo": {
+        "auteur": "Stoschmidt",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mititei_aufm_Grill.jpg",
+        "src": "img/restos/BUH/terasa-obor.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "elena-lupescu",
+      "nom": "Hanu' Berarilor – Casa Elena Lupescu",
+      "emoji": "🍺",
+      "gamme": "petit",
+      "genre": "Brasserie artisanale dans une villa",
+      "quartier": "Pache Protopopescu",
+      "adresse": "Bulevardul Pache Protopopescu 51, București",
+      "lat": 44.43988,
+      "lng": 26.12379,
+      "prix": "15 à 30 €",
+      "prix_min": 15,
+      "texte": "La villa néo-roumaine où vécut Elena Lupescu, la maîtresse du roi Carol II, transformée en brasserie : bières brassées sur place, jarret de porc, sarmale et grillades servis dans les salons ou dans le jardin. Copieux et très bon marché.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le vendredi et le samedi soir",
+      "badges": [],
+      "photo": {
+        "auteur": "Britchi Mirela",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania._HANUL_BERARILOR_(Casa_Lupescu_Elena)._Bd._Pache_Protopopescu_(B-II-m-B-19483).jpg",
+        "src": "img/restos/BUH/elena-lupescu.jpg"
+      }
+    },
+    {
+      "id": "french-revolution",
+      "nom": "French Revolution",
+      "emoji": "🥐",
+      "gamme": "petit",
+      "genre": "Éclairs et pâtisserie",
+      "quartier": "Piața Revoluției",
+      "adresse": "Strada Constantin Esarcu 1, București",
+      "lat": 44.44162,
+      "lng": 26.09713,
+      "prix": "4 à 10 €",
+      "prix_min": 4,
+      "texte": "Une pâtisserie à deux pas de l'Athénée, spécialiste de l'éclair : pistache, caramel au beurre salé, framboise, chocolat, alignés comme des bijoux en vitrine. Idéal pour une pause sucrée avant le concert.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "badges": [],
+      "photo": {
+        "auteur": "Thomon",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:%C3%89clairs_au_caramel_et_au_beurre_sal%C3%A9.jpg",
+        "src": "img/restos/BUH/french-revolution.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "level-up",
+      "nom": "Level Up",
+      "emoji": "🥗",
+      "gamme": "petit",
+      "genre": "Cuisine végétale",
+      "quartier": "Centrul Vechi",
+      "adresse": "Strada Sfânta Vineri 10, București",
+      "lat": 44.43044,
+      "lng": 26.10521,
+      "prix": "10 à 20 €",
+      "prix_min": 10,
+      "texte": "Un bistrot végétalien gourmand près du centre historique : burgers, bols, cheesecakes et papanași, le beignet roumain au fromage blanc et à la confiture, en version végétale. Une adresse très appréciée, même des non-végétariens.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "badges": [],
+      "photo": {
+        "auteur": "Josep Renalias Lohen11",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Papana%C8%99i.jpg",
+        "src": "img/restos/BUH/level-up.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "caru-cu-bere",
+      "nom": "Caru' cu Bere",
+      "emoji": "🍺",
+      "gamme": "moyen",
+      "genre": "Brasserie Belle Époque (1879)",
+      "quartier": "Centrul Vechi",
+      "adresse": "Strada Stavropoleos 5, București",
+      "lat": 44.43202,
+      "lng": 26.09812,
+      "prix": "25 à 45 €",
+      "prix_min": 25,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "La brasserie la plus célèbre de Roumanie, ouverte en 1879 : boiseries sculptées, vitraux, plafonds peints et serveurs en tablier. On y commande la soupe aux haricots servie dans un pain, le jarret de porc et les mici, avec la bière de la maison, parfois au son d'un orchestre.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant le soir et le week-end",
+      "photo": {
+        "auteur": "Jaimrsilva",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Caru%27_cu_bere_Restaurant.jpg",
+        "src": "img/restos/BUH/caru-cu-bere.jpg"
+      }
+    },
+    {
+      "id": "manuc",
+      "nom": "Hanu' lui Manuc",
+      "emoji": "🏮",
+      "gamme": "moyen",
+      "genre": "Grillades dans une cour d'auberge (1808)",
+      "quartier": "Centrul Vechi",
+      "adresse": "Strada Franceză 62-64, București",
+      "lat": 44.42972,
+      "lng": 26.10231,
+      "prix": "25 à 45 €",
+      "prix_min": 25,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le plus vieux caravansérail de Bucarest, bâti en 1808 par un marchand arménien : galeries de bois sur deux étages autour d'une grande cour. On y mange grillades au feu de bois, aubergines grillées et papanași sous les arcades, comme les voyageurs d'autrefois.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour une table dans la cour",
+      "photo": {
+        "auteur": "Britchi Mirela",
+        "licence": "CC BY-SA 3.0 ro",
+        "page": "https://commons.wikimedia.org/wiki/File:Hanul_lui_Manuc_(intemeietor_Manuc_Bei).JPG",
+        "src": "img/restos/BUH/manuc.jpg"
+      }
+    },
+    {
+      "id": "energiea",
+      "nom": "Energiea",
+      "emoji": "⚡",
+      "gamme": "moyen",
+      "genre": "Pub-bistrot dans une imprimerie de 1915",
+      "quartier": "Cișmigiu",
+      "adresse": "Strada Ion Brezoianu 4, București",
+      "lat": 44.43327,
+      "lng": 26.09488,
+      "prix": "20 à 40 €",
+      "prix_min": 20,
+      "texte": "L'ancienne imprimerie « Energiea » de 1915, brûlée en 1944 puis devenue cantine du ministère de l'Intérieur, transformée en pub-bistrot au décor brut : briques noircies, vieille machine à relier, cuisine internationale simple et soignée, bières et vins roumains, à deux pas du jardin Cișmigiu.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le week-end",
+      "badges": [],
+      "photo": {
+        "auteur": "JIP",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hamburger_with_French_fries_and_beer_at_Treffi_Pub_in_July_2025.jpg",
+        "src": "img/restos/BUH/energiea.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "linea",
+      "nom": "Linea / Closer to the Moon",
+      "emoji": "🌙",
+      "gamme": "moyen",
+      "genre": "Terrasse sur les toits",
+      "quartier": "Centrul Vechi",
+      "adresse": "Strada Lipscani 17 (5e étage), București",
+      "lat": 44.43298,
+      "lng": 26.09696,
+      "prix": "30 à 60 €",
+      "prix_min": 30,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le toit-terrasse le plus couru de Bucarest, au-dessus du centre historique : vue sur les coupoles du palais CEC et de la Poste, cocktails, plats méditerranéens et ambiance musicale au coucher du soleil. L'adresse que tout le monde photographie.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant pour une table au bord de la terrasse",
+      "photo": {
+        "auteur": "Joe Mabel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucharest_-_three_domes_at_night_from_the_terrace_of_Linea_-_Closer_to_the_Moon.jpg",
+        "src": "img/restos/BUH/linea.jpg"
+      }
+    },
+    {
+      "id": "pescarus",
+      "nom": "Pescăruș",
+      "emoji": "🐟",
+      "gamme": "moyen",
+      "genre": "Cuisine méditerranéenne au bord du lac",
+      "quartier": "Herăstrău",
+      "adresse": "Aleea Pescăruș 1, București (parc Herăstrău)",
+      "lat": 44.4726,
+      "lng": 26.08553,
+      "prix": "30 à 55 €",
+      "prix_min": 30,
+      "texte": "Un grand pavillon posé au bord du lac Herăstrău, avec terrasse sous les arbres : poissons grillés, pâtes et salades méditerranéennes face à l'eau. Parfait pour déjeuner après le musée du Village.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour la terrasse en été",
+      "badges": [],
+      "photo": {
+        "auteur": "Dennis G. Jarvis",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Romania-1455_-_Restaurant_Pescarus_(7596215316).jpg",
+        "src": "img/restos/BUH/pescarus.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "le-bab",
+      "nom": "Le Bab Downtown",
+      "emoji": "🧆",
+      "gamme": "moyen",
+      "genre": "Cuisine libanaise et brunch",
+      "quartier": "Calea Victoriei",
+      "adresse": "Calea Victoriei 12A, București",
+      "lat": 44.43203,
+      "lng": 26.09757,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "texte": "Bucarest aime la cuisine libanaise, et Le Bab en est l'adresse préférée : houmous, mezzés, chawarma à l'assiette et grands brunchs, dans une salle lumineuse au début de Calea Victoriei.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le brunch du week-end",
+      "badges": [],
+      "photo": {
+        "auteur": "Orenrosenfeld",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hummus_plate.jpg",
+        "src": "img/restos/BUH/le-bab.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kaiamo",
+      "nom": "Kaiamo",
+      "emoji": "🍽️",
+      "gamme": "haut",
+      "genre": "Menu dégustation d'auteur",
+      "quartier": "Dorobanți",
+      "adresse": "Strada Ermil Pangratti 30A, București",
+      "lat": 44.46411,
+      "lng": 26.08897,
+      "prix": "130 à 200 €",
+      "prix_min": 130,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection 50 Best Discovery",
+      "texte": "La table la plus ambitieuse du pays : le chef Radu Ionescu, formé à Londres, compose de longs menus de 9 à 20 plats autour des produits et des traditions roumaines, en petit comité. Une expérience rare, saluée par les experts des World's 50 Best.",
+      "reservation": "indispensable",
+      "reservation_delai": "plusieurs semaines avant (dîner du mardi au samedi)",
+      "photo": {
+        "auteur": "Syced",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amuse-bouche,_L%27Anthocyane,_Lannion.jpg",
+        "src": "img/restos/BUH/kaiamo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "the-artist",
+      "nom": "The Artist",
+      "emoji": "🎨",
+      "gamme": "haut",
+      "genre": "Cuisine créative",
+      "quartier": "Piața Victoriei",
+      "adresse": "Calea Victoriei 147, București",
+      "lat": 44.45124,
+      "lng": 26.08769,
+      "prix": "75 à 130 €",
+      "prix_min": 75,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection 50 Best Discovery",
+      "texte": "Sur Calea Victoriei, près de la place Victoriei, le chef Paul Oppenkamp signe une cuisine joueuse aux racines roumaines, servie comme une exposition : le menu change chaque saison, sauf le célèbre sorbet au concombre. Une table retenue par les experts des World's 50 Best.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 à 2 semaines avant",
+      "photo": {
+        "auteur": "Hotel de la Paix Genève",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Haute_Cuisine.jpg",
+        "src": "img/restos/BUH/the-artist.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "bistrot-francais",
+      "nom": "Le Bistrot Français",
+      "emoji": "🥂",
+      "gamme": "haut",
+      "genre": "Gastronomie franco-roumaine",
+      "quartier": "Piața Revoluției",
+      "adresse": "Strada Nicolae Golescu 18, București",
+      "lat": 44.44206,
+      "lng": 26.09757,
+      "prix": "65 à 125 €",
+      "prix_min": 65,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Membre Relais & Châteaux",
+      "texte": "Une villa d'époque derrière l'Athénée, membre des Relais & Châteaux, dont la carte est supervisée par le chef français doublement étoilé Tom Meyer : agneau de Lozère, homard breton, soufflés, et l'une des caves les plus primées du pays.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, une semaine pour le week-end",
+      "photo": {
+        "auteur": "Britchi Mirela",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania._Restaurant_pe_Str._Nicolae_Golescu.jpg",
+        "src": "img/restos/BUH/bistrot-francais.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "nor-sky",
+      "nom": "Nor Sky",
+      "emoji": "🌇",
+      "gamme": "haut",
+      "genre": "Restaurant panoramique (36e étage)",
+      "quartier": "Floreasca",
+      "adresse": "Sky Tower, Calea Floreasca 246C (36e étage), București",
+      "lat": 44.47818,
+      "lng": 26.10471,
+      "prix": "50 à 80 €",
+      "prix_min": 50,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Au 36e étage de la Sky Tower, le plus haut gratte-ciel de Roumanie, à 136 mètres au-dessus de la ville : on dîne face aux lumières de Bucarest et au lac Floreasca. Cuisine moderne soignée, cocktails, et un coucher de soleil inoubliable.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, en demandant une table côté fenêtre",
+      "photo": {
+        "auteur": "PosifCool",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sky_Tower_v%C4%83zut%C4%83_de_pe_Lacul_Her%C4%83str%C4%83u.jpg",
+        "src": "img/restos/BUH/nor-sky.jpg"
+      }
+    },
+    {
+      "id": "osho",
+      "nom": "Osho",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Steakhouse (viandes maturées)",
+      "quartier": "Primăverii",
+      "adresse": "Bulevardul Primăverii 19-21, București",
+      "lat": 44.46822,
+      "lng": 26.08976,
+      "prix": "50 à 90 €",
+      "prix_min": 50,
+      "texte": "La référence de la viande à Bucarest : cuisine ouverte, chambre de maturation et grandes pièces de bœuf de races nobles (T-bone, entrecôte, filet) maturées sur place. Pas de chichis, seulement de très bons steaks dans le quartier chic de Primăverii.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, quelques jours avant le week-end",
+      "badges": [],
+      "photo": {
+        "auteur": "Jon Sullivan",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Ribeyes.jpeg",
+        "src": "img/restos/BUH/osho.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "casa-doina",
+      "nom": "Casa Doina",
+      "emoji": "🏛️",
+      "gamme": "haut",
+      "genre": "Cuisine roumaine dans une villa de 1892",
+      "quartier": "Kiseleff",
+      "adresse": "Șoseaua Pavel D. Kiseleff 4, București",
+      "lat": 44.45887,
+      "lng": 26.08319,
+      "prix": "35 à 60 €",
+      "prix_min": 35,
+      "badges": [
+        "institution"
+      ],
+      "texte": "L'ancien « buffet de la chaussée », pavillon dessiné par l'architecte Ion Mincu et ouvert depuis plus de 130 ans, avec un jardin d'hortensias : soupes de canard ou de poisson, sarmale, plats de gibier et desserts de grand-mère, servis dans les règles. La grande table roumaine classique.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, quelques jours avant pour le jardin en été",
+      "photo": {
+        "auteur": "Britchi Mirela",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bucuresti,_Romania._CASA_DOINA_sau_RESTAURANTUL_DOINA_(Bufetul_de_la_Sosea)%3B_(B-II-m-A-18986)_(detaliu_2).jpg",
+        "src": "img/restos/BUH/casa-doina.jpg"
+      }
+    }
+  ]
+}

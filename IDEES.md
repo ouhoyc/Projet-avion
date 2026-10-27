@@ -319,6 +319,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   **Réseaux sociaux (Apify) sautés** (petite destination) : badges tendance d'après les guides (Wander-Lush, Wanderlog).
   Écartés : Sisters et El Depo (note 4,2, service en baisse), Sormoni (fermé l'hiver, prix flous). Prix estimé : match du
   Torpedo (billetterie géorgienne illisible d'ici). Sanatorium Medea fermé depuis un accident en juillet 2026.
+- ✅ (27/10/2026) **Page guide de Bucarest** (`guides/BUH.json`), préparée en autonomie : 22 activités (Palais du Parlement, centre
+  historique et Lipscani, librairie Cărturești Carusel, Stavropoleos, passage Macca-Vilacrosse, concert à l'Athénée, Calea Victoriei,
+  musée national d'art, musée du Village, parc Herăstrău, Cișmigiu, maison Ceaușescu, Therme, musée du Paysan (rouvert en entier en
+  juin 2026), muséum Antipa, colline de la Métropole, palais Cotroceni, excursion Peleș et Bran, Văcărești, soirée dans le centre ;
+  matchs du FCSB et du Rapid, `prix_match` 8 €), 18 restaurants (note pondérée, C = 4,46, ~560 restaurants lus via 97 listes Wanderlog
+  + ~700 lieux Google Maps en affichage limité ; pas de guide Michelin en Roumanie : récompenses = sélection 50 Best Discovery pour
+  Kaiamo et The Artist, Relais & Châteaux pour Le Bistrot Français), 5 quartiers, pas de formalités (Union européenne), pas de lien
+  Tiqets (rien trouvé pour Bucarest). **Réseaux sociaux (Apify) pas lancés** (crédit du mois épuisé depuis le 26/10) : badges tendance
+  d'après les guides et la presse. Prix (1 € ≈ 5,35 lei, BCE du 26/10) relevés sur les sites officiels (village 40 lei, Paysan 20 lei,
+  Antipa 32 lei, maison Ceaușescu 85 lei, Therme 141/151 lei, Peleș 100 lei, concerts de l'Athénée dès 55-155 lei, cartes de Caru' cu
+  Bere, Hanu' lui Manuc, Le Bistrot Français, Kané). Prix estimés : musée d'art (32 lei, tarif de la Nuit des musées), Cotroceni (sources
+  contradictoires : 50-70 lei), billets FCSB/Rapid, excursion Peleș-Bran (≈ 80 € + entrées), Osho, Nor Sky. À savoir : Peleș fermé du
+  2/11 au 1/12/2026 ; cathédrale du Salut de la Nation écartée (intérieur fermé pour travaux jusqu'en 2027) ; le FCSB joue aussi à
+  Ghencea. Écartés : Shaormeria Băneasa (notes 3,3-3,9), Lacrimi și Sfinți (4,2), AveForchetta (avis en masse), Zexe (3e adresse
+  roumaine), Kané (même genre que Kaiamo), Isoletta (prix introuvables). 12 photos d'illustration (plats).
 - ✅ (26/10/2026) **Page guide d'Édimbourg** (`guides/EDI.json`, champ `ville` : pas de prix repéré en ce moment), préparée en
   autonomie : 30 activités (château, Royal Mile, Holyrood, Arthur's Seat, Calton Hill, Victoria Street, Dean Village, Stockbridge et
   Circus Lane, musée national, Scottish National Gallery, Camera Obscura, Saint-Gilles (payante pour les touristes depuis
@@ -377,7 +392,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg.
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

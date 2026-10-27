@@ -122,3 +122,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   lisible avec Playwright (`data-dtm-distinction`). Sites bloqués : rct.uk (Holyrood, Cloudflare), dynamicearth.co.uk ; lisibles avec
   Playwright : edinburghcastle.scot/visit/tickets, realmarykingsclose.com/tickets-prices, royalyachtbritannia.co.uk, nts.org.uk,
   mercattours.com/daily-tour-timetable. Tiqets Édimbourg : `activites-attractions-edimbourg-c21` (prix : `"priceEur"` du `"product"`).
+- Bucarest (oct. 2026) : recherche de fichiers Commons en HTML (`ns6=1`) + `thumb.php?w=330/1280` ; l'API `extmetadata` répondait « 429 »
+  par vagues : lire l'auteur (`fileinfotpl_aut`) et la licence (`licensetpl_short`) sur la page `File:`. Wanderlog : départ
+  `geoCategory/90305`, 97 listes, ~1 200 lieux ; compléter par Google Maps en affichage limité (quadrillage 8×7 points, 20 résultats
+  par point). Sites bloqués d'ici : cic.cdep.ro (Parlement, 503), mnar.ro (Cloudflare), filarmonicaenescu.ro (lisible avec Playwright,
+  prix sur oveit.com). Cartes des restaurants du groupe City Grill (Caru' cu Bere, Manuc, Pescăruș, Hanu' Berarilor) en PDF image :
+  `pdftoppm` puis lire l'image. Taux du leu : `ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml` (bnr.ro bloque).
