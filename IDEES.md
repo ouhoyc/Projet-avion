@@ -284,6 +284,23 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (27/10/2026) **Page guide de Munich** (`guides/MUC.json`), préparée en autonomie : 27 activités (Marienplatz et carillon, tour
+  du Alter Peter (5 €), Frauenkirche et sa tour sud (7,50 €), Residenz (15 € musée + trésor), Odeonsplatz et Hofgarten, Asamkirche,
+  Englischer Garten et surfeurs de l'Eisbach, Nymphenburg (16 € l'hiver, 20 € l'été), BMW Welt et musée (17 €), visite de l'Allianz
+  Arena (25 €), parc olympique, Deutsches Museum (16 €), Alte Pinakothek (9 €), Pinakothek der Moderne (10 €, 1 € le dimanche),
+  centre de documentation sur le nazisme, Dachau, excursions Neuschwanstein (Bayern-Ticket 34 € + 21 €), Zugspitze (78 € + train)
+  et Salzbourg, zoo de Hellabrunn (23 € depuis le 1/10/2026), Therme Erding (52 €), plages de l'Isar, Oktoberfest (18/09-03/10/2027),
+  marché de Noël (20/11-24/12/2026), Opéra d'État ; matchs du Bayern (club « FC Bayern München », `prix_match` 45 €) et du Bayern
+  basket (club « Bayern München »)), 18 restaurants (note pondérée, C = 4,42, ~1 130 restaurants lus via 126 listes Wanderlog ;
+  Michelin 2026 : JAN 3 étoiles, Tantris, Alois et THE CLOUD by Käfer 2 étoiles, Gasthaus Waltz Bib Gourmand ; institutions :
+  Hofbräuhaus, Café Frischhut, Großmarkthalle, Augustiner-Keller, Käfer-Schänke), 5 quartiers, pas de formalités (Union
+  européenne), pas de lien Tiqets (Neuschwanstein 44 € au lieu de 23,50 €, Residenz et Allianz Arena aussi plus chers).
+  **Réseaux sociaux (Apify) pas lancés** (crédit du mois épuisé) : badges tendance d'après les guides et la presse.
+  Écartés car fermés : tour olympique (travaux jusqu'au début de 2027), Neue Pinakothek (2029). Écartés :
+  Café Luitpold (note 3,8), Andechser am Dom (4,2), Schumann's (3,7), Giorgia Trattoria (14 000 avis : avis en masse probables).
+  Prix estimés : billets du Bayern (foot et basket), Opéra (10 à 165 € selon la catégorie), menus de Tantris et THE CLOUD (pas
+  publiés sur leur site), Käfer-Schänke. 9 photos d'illustration (plats). À savoir : `matchs/MUC.json` place le BMW Park (basket)
+  au centre-ville (le stade n'a pas de position chez SofaScore).
 - ✅ (27/10/2026) **Page guide de Bastia** (`guides/BIA.json`), préparée en autonomie : 24 activités (tendance d'après le web,
   2 sources au moins : Vieux-Port, Erbalunga, tour du Cap Corse, Nonza, plage du Lotu ; musée 5 €, petit train 9 €, Légendines 25 €
   le mardi, train Bastia–Corte 10,10 € l'aller, navette Speed Mare vers le Lotu dès 30 €, match du SC Bastia en Ligue 3 dès 15 €
@@ -402,7 +419,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest.
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich.
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

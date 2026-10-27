@@ -133,3 +133,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Playwright (`/fr/fr/corse/<commune>/restaurants`). Prix : bastia.corsica/musee, lepetittrainbastia.corsica, train-corse.com/fr/tarifs
   (calculateur, Playwright), billetterie SC Bastia (articles « biglietteria »), speedmare.com (navettes Lotu/Saleccia). Commons : recherche
   HTML (`ns6=1`) + `thumb.php`, « 429 » masqués par vagues (0 résultat) : attendre 8 s entre deux recherches ; `Category:Views_of_Bastia`.
+- Munich (oct. 2026) : Wanderlog géo 9645 (départ `geoCategory/76025`), 126 listes, ~1 840 lieux : ne suivre que les liens dont l'adresse
+  finit par « …-in-munich » (sinon le robot part dans toutes les villes voisines). Michelin : la page « alle Sternerestaurants 2026 » et
+  `guide.michelin.com/de/de/bayern/mnchen/restaurants/bib-gourmand` lisibles avec Playwright. Prix officiels lisibles avec Playwright
+  (residenz-muenchen.de, schloss-nymphenburg.de, neuschwanstein.de `…/eintritt.htm`, alterpeter.de, bmw-welt.com, zugspitze.de) ;
+  cartes des restaurants via `speisekarte.de/münchen/restaurant/<nom>/speisekarte` (par `curl`). Commons : `thumb.php`, « 429 » masqués
+  (0 résultat) sur les recherches avec « München » : réessayer en anglais (« Munich ») quelques minutes plus tard.

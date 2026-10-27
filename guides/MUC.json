@@ -1,0 +1,1793 @@
+{
+ "city_code": "MUC",
+ "statut": "préparé en autonomie, prix relevés le 27/10/2026",
+ "verifie_le": "2026-10-27",
+ "prix_match": 45,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 130,
+ "activites": [
+  {
+   "id": "marienplatz",
+   "nom": "Marienplatz et le carillon de l'hôtel de ville",
+   "emoji": "🕰️",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 48.137144,
+   "lng": 11.575399,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Place et carillon",
+     "gratuit"
+    ],
+    [
+     "Montée à la tour de l'hôtel de ville (ascenseur, créneau de 20 min)",
+     "dès 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "À 11 h ou à midi pour le carillon (aussi à 17 h de mars à octobre)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le cœur de Munich depuis huit siècles. La façade néogothique du Nouvel Hôtel de ville, toute en dentelle de pierre, s'anime chaque jour : 43 cloches et 32 personnages grandeur nature rejouent un tournoi de chevaliers et la danse des tonneliers. Au milieu de la place, la Vierge dorée veille sur sa colonne depuis 1638.",
+   "site_officiel": "https://www.muenchen.travel/pois/stadtbezirke/marienplatz",
+   "note": "La cour d'honneur de l'hôtel de ville est en accès libre. La tour (85 m, ascenseur) se réserve sur muenchen.travel ou à l'office de tourisme, sous les arcades.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Srihari Thalla",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ukrainian_flag_on_Neues_Rathaus%2C_Marienplatz%2C_Munich.jpg",
+    "src": "img/activites/MUC/marienplatz.jpg"
+   }
+  },
+  {
+   "id": "alter-peter",
+   "nom": "Tour de l'église Saint-Pierre (Alter Peter)",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Vieille ville",
+   "lat": 48.136462,
+   "lng": 11.576031,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "5 €"
+    ],
+    [
+     "Élève 6-18 ans",
+     "2 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      2
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation possible : on paie à la caisse au pied de la tour",
+   "duree": "45 min",
+   "moment": "Par temps clair ou de foehn, quand les Alpes apparaissent ; en fin d'après-midi pour la lumière",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "306 marches dans le clocher de la plus vieille église de Munich, et la récompense : la plus belle vue sur l'hôtel de ville, les deux bulbes de la Frauenkirche et l'océan de toits rouges de la vieille ville. Les jours de foehn, les Alpes semblent toutes proches, à 100 km de là.",
+   "site_officiel": "https://alterpeter.de/turmbesteigung-alter-peter/",
+   "note": "Escalier étroit, sans ascenseur, et balcon exigu : déconseillé si vous avez le vertige. Ouvert tous les jours dès 9 h.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg",
+    "src": "img/activites/MUC/alter-peter.jpg"
+   }
+  },
+  {
+   "id": "frauenkirche",
+   "nom": "Frauenkirche et sa tour sud",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 48.138582,
+   "lng": 11.573592,
+   "prix": 7.5,
+   "prix_detail": [
+    [
+     "Église",
+     "gratuit"
+    ],
+    [
+     "Tour sud (ascenseur), adulte",
+     "7,50 €"
+    ],
+    [
+     "Tour, 7-16 ans",
+     "5,50 €"
+    ],
+    [
+     "Tour, moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Tour, famille (2 adultes + 2 enfants)",
+     "21 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7.5,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      16,
+      5.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets de la tour au Domshop, dans l'église, ou en ligne sur muenchen.travel",
+   "duree": "1 h",
+   "moment": "En matinée ; tour ouverte de 10 h (11 h 30 le dimanche) à 17 h",
+   "enfants": true,
+   "texte": "Ses deux tours coiffées de bulbes verts sont l'emblème de Munich. À l'entrée, cherchez sur le dallage l'empreinte du « pied du diable » : la légende dit qu'il tapa du pied de rage en croyant l'église sans fenêtres. Un ascenseur monte au sommet de la tour sud, d'où l'on voit toute la ville et, par beau temps, les Alpes.",
+   "site_officiel": "https://www.muenchner-dom.de/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Martin Falbisoner",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_March_2013.JPG",
+    "src": "img/activites/MUC/frauenkirche.jpg"
+   }
+  },
+  {
+   "id": "residenz",
+   "nom": "La Residenz, palais des rois de Bavière",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 48.141524,
+   "lng": 11.577799,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Musée de la Résidence",
+     "10 €"
+    ],
+    [
+     "Trésor",
+     "10 €"
+    ],
+    [
+     "Billet combiné musée + trésor",
+     "15 €"
+    ],
+    [
+     "Avec le théâtre Cuvilliés",
+     "20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30 à 3 h",
+   "moment": "Le matin, pour profiter des 130 salles sans se presser",
+   "enfants": true,
+   "texte": "Le plus grand palais de ville d'Allemagne, où les Wittelsbach ont régné quatre siècles. On traverse l'Antiquarium, immense galerie Renaissance voûtée et peinte, des salons rococo couverts d'or, puis le Trésor : couronnes, épées serties de pierres et une statuette de saint Georges constellée de rubis. Le petit théâtre Cuvilliés, tout en or et velours rouge, est un bijou.",
+   "site_officiel": "https://www.residenz-muenchen.de/",
+   "note": "Le jardin de la Cour (Hofgarten), juste derrière, est gratuit.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wilfredor",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Antiquarium%2C_M%C3%BCnchner_Residenz.jpg",
+    "src": "img/activites/MUC/residenz.jpg"
+   }
+  },
+  {
+   "id": "odeonsplatz",
+   "nom": "Odeonsplatz et le jardin de la Cour (Hofgarten)",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 48.142266,
+   "lng": 11.578962,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, quand le soleil dore la façade de la Theatinerkirche",
+   "enfants": true,
+   "texte": "La place la plus italienne de Munich : la Feldherrnhalle copiée sur la loggia de Florence, les tours baroques jaune d'or de la Theatinerkirche, puis le Hofgarten, jardin à la française où des musiciens jouent sous le petit temple de Diane. Remontez ensuite la Ludwigstraße, grande avenue royale, vers l'université.",
+   "site_officiel": "https://www.muenchen.travel/pois/stadtbezirke/odeonsplatz",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Achim Lammerts",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2013-05-09_D300-299_Achim-Lammerts_M%C3%BCnchen-Hofgarten.jpg",
+    "src": "img/activites/MUC/odeonsplatz.jpg"
+   }
+  },
+  {
+   "id": "asamkirche",
+   "nom": "Asamkirche, joyau baroque",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 48.13521,
+   "lng": 11.569523,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "En milieu de journée, quand la lumière tombe d'en haut sur l'autel",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une minuscule église glissée entre deux maisons de la Sendlinger Straße, que les frères Asam ont bâtie à leurs frais pour en faire leur chapelle privée. Derrière la façade étroite, un délire baroque : or, stucs, marbres et fresques du sol au plafond, sur à peine 9 m de large. L'une des églises les plus photographiées d'Allemagne.",
+   "site_officiel": "https://www.muenchen.travel/pois/kirchen-sakralbauten/asamkirche",
+   "note": "C'est une église en activité : visite discrète, pas pendant les offices.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Asamkirche%2C_M%C3%BAnich%2C_Alemania%2C_2024-04-02%2C_DD_04.jpg",
+    "src": "img/activites/MUC/asamkirche.jpg"
+   }
+  },
+  {
+   "id": "englischer-garten",
+   "nom": "Englischer Garten et les surfeurs de l'Eisbach",
+   "emoji": "🏄",
+   "type": "nature",
+   "quartier": "Lehel et Schwabing",
+   "lat": 48.143485,
+   "lng": 11.587759,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et vague de l'Eisbach",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Toute l'année : les surfeurs sont là même en hiver ; au printemps et en été pour les pelouses",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Plus grand que Central Park, c'est le poumon de Munich. À l'entrée sud, sous un pont, des surfeurs glissent sur une vague permanente en pleine ville : un spectacle unique. Plus loin, le petit temple du Monopteros offre la plus belle vue sur les clochers de la vieille ville, et la Tour chinoise abrite l'un des plus grands jardins à bière de Munich.",
+   "site_officiel": "https://www.schloesser.bayern.de/deutsch/garten/objekte/mu_engl.htm",
+   "note": "Ne vous baignez pas dans l'Eisbach : le courant est très dangereux. Comptez 45 min à pied de l'Eisbach à la Tour chinoise.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Usien",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eisbach_die_Welle_Surfer.JPG",
+    "src": "img/activites/MUC/englischer-garten.jpg"
+   }
+  },
+  {
+   "id": "nymphenburg",
+   "nom": "Château de Nymphenburg et son parc",
+   "emoji": "🦢",
+   "type": "culture",
+   "quartier": "Nymphenburg",
+   "lat": 48.158325,
+   "lng": 11.503292,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Billet complet, hiver (mi-oct. à mars)",
+     "16 €"
+    ],
+    [
+     "Billet complet, été (avril à mi-oct.)",
+     "20 €"
+    ],
+    [
+     "Château seul",
+     "10 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Parc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30 à 3 h",
+   "moment": "Le matin ; le parc se parcourt toute la journée (pavillons fermés l'hiver)",
+   "enfants": true,
+   "texte": "La résidence d'été des princes de Bavière : une façade blanche de 700 m qui se reflète dans un long canal où glissent les cygnes. On y voit la galerie des Beautés de Louis Ier, la chambre où naquit Louis II, et au musée du Marstall les carrosses et traîneaux dorés du « roi fou ». Le parc, immense et gratuit, cache de petits pavillons rococo, dont l'Amalienburg et sa salle des glaces.",
+   "site_officiel": "https://www.schloss-nymphenburg.de/",
+   "note": "Audioguide en français : 3,50 €. Tram 17 depuis la gare centrale.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "AuHaidhausen",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nymphenburg_Palace%2C_M%C3%BAnich_02.jpg",
+    "src": "img/activites/MUC/nymphenburg.jpg"
+   }
+  },
+  {
+   "id": "bmw",
+   "nom": "BMW Welt et musée BMW",
+   "emoji": "🚗",
+   "type": "culture",
+   "quartier": "Olympiapark",
+   "lat": 48.176903,
+   "lng": 11.559069,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "BMW Welt (salle d'exposition)",
+     "gratuit"
+    ],
+    [
+     "Musée BMW, adulte",
+     "17 €"
+    ],
+    [
+     "Musée, tarif réduit",
+     "9 €"
+    ],
+    [
+     "Musée, famille (2 adultes + 3 enfants)",
+     "38 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      17,
+      9
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 à 3 h",
+   "moment": "En semaine ; le musée est fermé le lundi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dans la BMW Welt, immense nuage d'acier et de verre, les dernières BMW, Mini et motos s'exposent en accès libre : on peut s'asseoir au volant. En face, le musée, un bol argenté au pied du siège en forme de quatre cylindres, raconte un siècle de voitures et de motos de légende, de la petite Isetta aux voitures de course.",
+   "site_officiel": "https://www.bmw-welt.com/de/",
+   "note": "Paiement par carte uniquement. Le parc olympique est juste en face, de l'autre côté du pont.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Bartz",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:BMW_Welt_Night.jpg",
+    "src": "img/activites/MUC/bmw.jpg"
+   }
+  },
+  {
+   "id": "allianz-arena",
+   "nom": "Visite de l'Allianz Arena et musée du FC Bayern",
+   "emoji": "🏟️",
+   "type": "sport",
+   "quartier": "Fröttmaning",
+   "lat": 48.21879,
+   "lng": 11.623623,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Musée + visite du stade, adulte (dès 14 ans)",
+     "25 €"
+    ],
+    [
+     "Enfant 6-13 ans",
+     "11 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + enfants jusqu'à 16 ans)",
+     "59 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      13,
+      11
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, en ligne : les visites du jour sont souvent complètes",
+   "duree": "2 h",
+   "moment": "Un jour sans match (les visites sont réduites ou annulées les jours de match)",
+   "enfants": true,
+   "texte": "Le stade gonflable qui s'illumine en rouge les soirs de match. La visite guidée passe par les tribunes, les vestiaires et le tunnel des joueurs jusqu'au bord de la pelouse ; le musée du club aligne les Coupes d'Europe, les maillots et les légendes du Bayern, de Beckenbauer à Müller.",
+   "site_officiel": "https://fcbayern.com/erlebniswelt/de",
+   "note": "Métro U6, station Fröttmaning, puis 10 min à pied. Visites en anglais à certaines heures.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Bartz",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Allianz_arena_golden_hour_Richard_Bartz.jpg",
+    "src": "img/activites/MUC/allianz-arena.jpg"
+   }
+  },
+  {
+   "id": "olympiapark",
+   "nom": "Parc olympique et colline olympique",
+   "emoji": "⛰️",
+   "type": "vue",
+   "quartier": "Olympiapark",
+   "lat": 48.169852,
+   "lng": 11.551629,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et colline",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Au coucher du soleil, depuis le sommet de l'Olympiaberg",
+   "enfants": true,
+   "texte": "Le parc des Jeux de 1972, avec ses toits de verre tendus comme une toile d'araignée, est devenu le grand jardin du nord de Munich. Montez sur l'Olympiaberg, colline faite des gravats de la guerre : vue sur le stade, le lac et, par beau temps, les Alpes. En été, concerts et cinéma en plein air au bord du lac.",
+   "site_officiel": "https://www.olympiapark.de/de/",
+   "note": "La tour olympique est fermée pour travaux jusqu'au début de 2027, et le stade olympique est en rénovation. Le mémorial de l'attentat de 1972 est au bord du parc.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wladyslaw Sojka",
+    "licence": "FAL",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen_-_Olympische_Bauten.jpg",
+    "src": "img/activites/MUC/olympiapark.jpg"
+   }
+  },
+  {
+   "id": "deutsches-museum",
+   "nom": "Deutsches Museum, musée des sciences",
+   "emoji": "🔬",
+   "type": "culture",
+   "quartier": "Île des Musées",
+   "lat": 48.130041,
+   "lng": 11.582909,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Adulte",
+     "16 €"
+    ],
+    [
+     "Tarif réduit (enfants dès 6 ans, étudiants)",
+     "9 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Famille",
+     "33 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h à la journée",
+   "moment": "Dès l'ouverture (9 h) ; un bon plan pour un jour de pluie",
+   "enfants": true,
+   "texte": "L'un des plus grands musées des sciences et techniques au monde, sur une île de l'Isar : avions et hélicoptères, un vrai sous-marin, une mine reconstituée, la première voiture de Benz, et partout des expériences à déclencher soi-même. Une grande partie du musée a été entièrement modernisée ; un paradis pour les enfants, et pour les grands.",
+   "site_officiel": "https://www.deutsches-museum.de/museumsinsel",
+   "note": "Le musée est en rénovation par étapes : certaines salles restent fermées jusqu'à la fin des travaux. Billets en ligne ou sur place.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stefan Karl",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deutsches_Museum_M%C3%BCnchen%2C_Moderne_Luftfahrt_%283%29.jpg",
+    "src": "img/activites/MUC/deutsches-museum.jpg"
+   }
+  },
+  {
+   "id": "alte-pinakothek",
+   "nom": "Alte Pinakothek, les maîtres anciens",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Maxvorstadt",
+   "lat": 48.148284,
+   "lng": 11.56998,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "9 €"
+    ],
+    [
+     "Le dimanche",
+     "1 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le dimanche (1 €) ; ouvert jusqu'à 20 h le mardi et le mercredi, fermé le lundi",
+   "enfants": true,
+   "texte": "L'une des plus grandes galeries de peinture du monde : l'autoportrait de Dürer, une salle entière de Rubens aux toiles gigantesques, Raphaël, Léonard de Vinci, Rembrandt, Vélasquez. Le bâtiment, criblé de bombes en 1945, garde ses cicatrices de brique bien visibles sur la façade.",
+   "site_officiel": "https://www.pinakothek.de/de/besuch",
+   "note": "La Neue Pinakothek voisine est fermée jusqu'en 2029 ; une sélection de ses chefs-d'œuvre est exposée au rez-de-chaussée de l'Alte Pinakothek.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "-wuppertaler",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GER_M%C3%BCnchen%2C_Alte_Pinakothek_0002.jpg",
+    "src": "img/activites/MUC/alte-pinakothek.jpg"
+   }
+  },
+  {
+   "id": "pinakothek-moderne",
+   "nom": "Pinakothek der Moderne",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Maxvorstadt",
+   "lat": 48.14716,
+   "lng": 11.572227,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "Le dimanche",
+     "1 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le dimanche (1 €) ; fermé le lundi",
+   "enfants": true,
+   "texte": "Quatre musées sous une grande rotonde de verre : Picasso, Klee, Kandinsky, Beckmann et Warhol pour l'art ; un étonnant musée du design avec voitures, ordinateurs et chaises célèbres suspendus aux murs ; de l'architecture et du dessin. Juste à côté, la façade multicolore du musée Brandhorst vaut le coup d'œil.",
+   "site_officiel": "https://www.pinakothek.de/de/pinakothek-der-moderne",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "AuHaidhausen",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Neue_Pinakothek_01.jpg",
+    "src": "img/activites/MUC/pinakothek-moderne.jpg"
+   }
+  },
+  {
+   "id": "nsdoku",
+   "nom": "Centre de documentation sur le nazisme",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Maxvorstadt",
+   "lat": 48.14537,
+   "lng": 11.567716,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Du mardi au dimanche, de 10 h à 19 h",
+   "enfants": false,
+   "texte": "Munich fut la « capitale du mouvement » : c'est ici qu'Hitler a lancé son parti. Ce cube blanc, construit à l'emplacement même de la « Maison brune », ancien siège du parti, raconte sur quatre étages comment la ville a porté le nazisme au pouvoir, et ce qui s'est passé ensuite. Sobre, saisissant et gratuit, avec des textes en anglais.",
+   "site_officiel": "https://www.nsdoku.de/besuch",
+   "note": "Visites guidées gratuites le dimanche à 11 h et 14 h (en allemand).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Guido Radig",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NS-Dokumentationszentrum_M%C3%BCnchen_DSC8532_bearbeitet-1.JPG",
+    "src": "img/activites/MUC/nsdoku.jpg"
+   }
+  },
+  {
+   "id": "dachau",
+   "nom": "Mémorial du camp de concentration de Dachau",
+   "emoji": "🕯️",
+   "type": "culture",
+   "quartier": "Dachau",
+   "lat": 48.270434,
+   "lng": 11.468295,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Trajet : S-Bahn S2 jusqu'à Dachau puis bus 726",
+     "billet de transport à prévoir"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "3 h, plus 1 h 30 de trajet aller-retour",
+   "moment": "Le matin ; ouvert tous les jours de 9 h à 17 h (sauf le 24 décembre)",
+   "enfants": false,
+   "texte": "Le premier camp de concentration nazi, ouvert dès mars 1933, qui servit de modèle à tous les autres. On marche sur l'immense place d'appel, entre les baraques reconstruites, jusqu'au crématoire. Une visite bouleversante mais nécessaire, à 40 min de Munich.",
+   "site_officiel": "https://www.kz-gedenkstaette-dachau.de/",
+   "note": "Visites guidées à heure fixe chaque jour en anglais (11 h et 13 h). Le mémorial déconseille la visite aux enfants de moins de 12 ans.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:KZ_Gedenkst%C3%A4tte_Dachau_%2854047364803%29.jpg",
+    "src": "img/activites/MUC/dachau.jpg"
+   }
+  },
+  {
+   "id": "neuschwanstein",
+   "nom": "Excursion au château de Neuschwanstein",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Füssen (Allgäu)",
+   "lat": 47.557552,
+   "lng": 10.749696,
+   "prix": 58,
+   "prix_detail": [
+    [
+     "Train aller-retour avec le Bayern-Ticket (1 personne, bus compris)",
+     "34 €"
+    ],
+    [
+     "Visite guidée du château, réservée en ligne",
+     "21 € + 2,50 € de frais"
+    ],
+    [
+     "Moins de 18 ans : visite",
+     "gratuite (2,50 € de frais)"
+    ],
+    [
+     "Moins de 15 ans : train",
+     "gratuit avec un parent"
+    ],
+    [
+     "Bayern-Ticket à deux",
+     "44 € en tout"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 57.5,
+    "enfants": [
+     [
+      14,
+      2.5
+     ],
+     [
+      17,
+      12.5
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès que possible sur hohenschwangau.de (seul site officiel) : en été, les visites partent des semaines à l'avance",
+   "duree": "Journée entière (2 h de train dans chaque sens)",
+   "moment": "Le week-end on peut partir dès l'aube ; en semaine le Bayern-Ticket ne vaut qu'à partir de 9 h",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le château de conte de fées qui a inspiré Disney, perché sur un éperon rocheux au pied des Alpes. Louis II, le « roi fou », l'a fait bâtir pour vivre dans les légendes de Wagner… et n'y a dormi que quelques nuits. La visite guidée passe par la salle du trône et une grotte artificielle ; ne manquez pas le pont Marie (Marienbrücke) pour LA photo.",
+   "site_officiel": "https://www.neuschwanstein.de/",
+   "note": "Train jusqu'à Füssen, bus 73 ou 78 jusqu'à Hohenschwangau, puis 30 à 40 min de montée à pied (ou calèche, ou navette). Méfiez-vous des sites qui revendent les billets plus cher.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ximonic (Simo Räsänen)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_from_Marienbr%C3%BCcke%2C_2011_May.jpg",
+    "src": "img/activites/MUC/neuschwanstein.jpg"
+   }
+  },
+  {
+   "id": "zugspitze",
+   "nom": "Excursion à la Zugspitze, toit de l'Allemagne",
+   "emoji": "🏔️",
+   "type": "nature",
+   "quartier": "Garmisch-Partenkirchen",
+   "lat": 47.421215,
+   "lng": 10.986297,
+   "prix": 112,
+   "prix_detail": [
+    [
+     "Train Munich–Garmisch aller-retour (Bayern-Ticket, 1 personne)",
+     "34 €"
+    ],
+    [
+     "Train à crémaillère + téléphériques, adulte",
+     "78 €"
+    ],
+    [
+     "Jeune 16-18 ans",
+     "62,50 €"
+    ],
+    [
+     "Enfant 6-15 ans",
+     "39 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 112,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      14,
+      39
+     ],
+     [
+      15,
+      49
+     ],
+     [
+      18,
+      72.5
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée entière (1 h 20 de train dans chaque sens)",
+   "moment": "Par beau temps seulement : regardez les webcams du sommet le matin même",
+   "enfants": true,
+   "texte": "2 962 m, le plus haut sommet d'Allemagne. On monte en train à crémaillère à travers la montagne puis en téléphérique au-dessus du glacier, et l'on redescend par le téléphérique vertigineux du lac d'Eibsee, avec l'eau émeraude sous ses pieds. Au sommet, la vue porte sur quatre pays et des centaines de cimes.",
+   "site_officiel": "https://zugspitze.de/",
+   "note": "Il fait souvent 15 °C de moins qu'à Munich, et il y a de la neige au sommet presque toute l'année : prenez une veste chaude.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Treeem",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gipfel_Zugspitze_Sommer.jpg",
+    "src": "img/activites/MUC/zugspitze.jpg"
+   }
+  },
+  {
+   "id": "salzbourg",
+   "nom": "Excursion à Salzbourg",
+   "emoji": "🎻",
+   "type": "nature",
+   "quartier": "Salzbourg (Autriche)",
+   "lat": 47.798523,
+   "lng": 13.046155,
+   "prix": 34,
+   "prix_detail": [
+    [
+     "Train aller-retour avec le Bayern-Ticket (1 personne)",
+     "34 €"
+    ],
+    [
+     "À deux",
+     "44 € en tout"
+    ],
+    [
+     "Moins de 15 ans",
+     "gratuit avec un parent"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 34,
+    "enfants": [
+     [
+      14,
+      0
+     ],
+     [
+      17,
+      10
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée entière (1 h 45 de train dans chaque sens)",
+   "moment": "Toute l'année ; marchés de Noël superbes en décembre",
+   "enfants": true,
+   "texte": "La ville de Mozart, à moins de 2 h de train : ruelles de la Getreidegasse et leurs enseignes en fer forgé, maison natale du compositeur, dômes et clochers baroques au pied de la forteresse de Hohensalzburg, d'où la vue embrasse les Alpes. Le Bayern-Ticket, valable jusqu'à Salzbourg, permet l'aller-retour dans la journée en train régional.",
+   "site_officiel": "https://www.salzburg.info/fr",
+   "note": "L'Autriche est dans l'espace Schengen : pas de contrôle, mais gardez votre carte d'identité sur vous. Entrées des monuments en plus.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Uoaei1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salzburg_Altstadt_Panorama_20240728_Gold_P.jpg",
+    "src": "img/activites/MUC/salzbourg.jpg"
+   }
+  },
+  {
+   "id": "hellabrunn",
+   "nom": "Zoo de Hellabrunn",
+   "emoji": "🐘",
+   "type": "nature",
+   "quartier": "Thalkirchen",
+   "lat": 48.096281,
+   "lng": 11.554197,
+   "prix": 23,
+   "prix_detail": [
+    [
+     "Adulte",
+     "23 €"
+    ],
+    [
+     "Enfant 4-14 ans",
+     "9 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 23,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      14,
+      9
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en ligne pour éviter la file d'attente aux caisses",
+   "duree": "3 h",
+   "moment": "Le matin, quand les animaux sont les plus actifs",
+   "enfants": true,
+   "texte": "Le premier « géo-zoo » du monde : les animaux y vivent regroupés par continent, dans de grands enclos naturels au bord de l'Isar. Éléphants, ours polaires, gorilles, manchots, et un village des enfants où l'on caresse chèvres et moutons.",
+   "site_officiel": "https://www.hellabrunn.de/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "High Contrast",
+    "licence": "CC BY 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Elefantenhaus_Tierpark_Hellabrunn_2008.jpg",
+    "src": "img/activites/MUC/hellabrunn.jpg"
+   }
+  },
+  {
+   "id": "erding",
+   "nom": "Therme Erding, thermes et toboggans",
+   "emoji": "🌴",
+   "type": "bains",
+   "quartier": "Erding",
+   "lat": 48.289706,
+   "lng": 11.887215,
+   "prix": 52,
+   "prix_detail": [
+    [
+     "Journée, du lundi au vendredi",
+     "52 €"
+    ],
+    [
+     "Journée le week-end, les jours fériés et pendant les vacances",
+     "≈ 59 €"
+    ],
+    [
+     "4 heures (en semaine)",
+     "37 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Saunas (dès 16 ans, sans maillot)",
+     "+ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 52,
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille pour le week-end et les vacances : l'entrée ferme quand c'est plein",
+   "duree": "Une demi-journée à la journée",
+   "moment": "En semaine, et l'hiver quand il fait froid dehors",
+   "enfants": true,
+   "texte": "L'un des plus grands complexes thermaux du monde, à 45 min de Munich : lagon d'eau chaude sous une coupole de verre qui s'ouvre l'été, palmiers, bars dans l'eau, piscine à vagues et « Galaxy », plus de 25 toboggans dont certains vertigineux. Une journée de vacances tropicales en plein hiver bavarois.",
+   "site_officiel": "https://www.therme-erding.de/",
+   "note": "S-Bahn S2 jusqu'à Altenerding puis 15 min à pied, ou bus. Pas de tarif enfant : les enfants dès 4 ans paient le plein tarif.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Therme Erding",
+    "licence": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Therme_Erding_Innen.jpg",
+    "src": "img/activites/MUC/erding.jpg"
+   }
+  },
+  {
+   "id": "isar",
+   "nom": "Les plages de galets de l'Isar",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Flaucher",
+   "lat": 48.109373,
+   "lng": 11.558974,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "En été, en fin d'après-midi, quand les Munichois allument les barbecues",
+   "enfants": true,
+   "texte": "L'été, l'Isar devient la plage de Munich : bancs de galets blancs, eau claire descendue des Alpes, passerelles de bois et pique-niques improvisés. Au Flaucher, à 15 min à vélo du centre, on bronze, on se rafraîchit les pieds et l'on se croirait au bord d'un torrent de montagne.",
+   "site_officiel": "https://www.muenchen.travel/",
+   "note": "L'eau est froide et le courant peut être fort : baignade seulement dans les bras calmes, jamais près des seuils.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Schlaier",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Flaucher_21.jpg",
+    "src": "img/activites/MUC/isar.jpg"
+   }
+  },
+  {
+   "id": "oktoberfest",
+   "nom": "Oktoberfest (septembre-octobre)",
+   "emoji": "🎡",
+   "type": "sortir",
+   "quartier": "Theresienwiese",
+   "lat": 48.135672,
+   "lng": 11.552232,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée sur le terrain et sous les tentes",
+     "gratuit"
+    ],
+    [
+     "Chope d'un litre de bière",
+     "≈ 15 €"
+    ],
+    [
+     "Manèges",
+     "quelques euros le tour"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "une table sous une tente se réserve des mois à l'avance ; sans réservation, venez tôt en semaine",
+   "duree": "Une demi-journée",
+   "moment": "Du 18 septembre au 3 octobre 2027 ; en semaine et à l'heure du déjeuner, c'est bien plus calme",
+   "enfants": true,
+   "texte": "La plus grande fête populaire du monde : 17 grandes tentes de brasseurs, fanfares, chopes d'un litre, poulets rôtis, manèges vertigineux et des milliers de Munichois en culotte de peau et en dirndl. En semaine, avant midi, on trouve assez facilement une place sous une tente sans avoir réservé.",
+   "site_officiel": "https://www.oktoberfest.de/",
+   "note": "Pendant la fête, les hôtels triplent leurs prix : réservez très tôt. Le mardi, prix réduits pour les familles jusqu'à 19 h.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Theresienwiese_Hacker-Festzelt_Oktoberfest_2025.jpg",
+    "src": "img/activites/MUC/oktoberfest.jpg"
+   }
+  },
+  {
+   "id": "christkindlmarkt",
+   "nom": "Marché de Noël de Marienplatz",
+   "emoji": "🎄",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 48.1366,
+   "lng": 11.5756,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Vin chaud",
+     "≈ 5 à 6 € + consigne de la tasse"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Du 20 novembre au 24 décembre 2026, à la tombée de la nuit",
+   "enfants": true,
+   "texte": "Le plus ancien marché de Noël de Munich : plus de 130 chalets au pied de l'hôtel de ville illuminé, un sapin géant de 25 m, des chants de Noël depuis le balcon et l'odeur des amandes grillées. Poussez jusqu'au marché des crèches de la Rindermarkt et au village féerique de la cour de la Residenz.",
+   "site_officiel": "https://www.muenchen.de/christkindlmarkt",
+   "note": "Fermé le dimanche 22 novembre 2026 (jour des morts).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "X",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchner_Christkindlmarkt_2.JPG",
+    "src": "img/activites/MUC/christkindlmarkt.jpg"
+   }
+  },
+  {
+   "id": "staatsoper",
+   "nom": "Une soirée à l'Opéra d'État de Bavière",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Vieille ville",
+   "lat": 48.139616,
+   "lng": 11.579513,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Places à visibilité réduite",
+     "dès 10 à 15 €"
+    ],
+    [
+     "Places moyennes",
+     "30 à 75 €"
+    ],
+    [
+     "Meilleures places",
+     "90 à 165 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines à l'avance en ligne ; quelques places reviennent le jour même au guichet",
+   "duree": "3 h",
+   "moment": "Le soir, de septembre à juillet (festival d'opéra en juillet)",
+   "enfants": false,
+   "texte": "L'une des plus grandes maisons d'opéra du monde, dans un théâtre néoclassique aux cinq balcons rouge et or : Wagner y a créé « Tristan et Isolde ». Même sans être mélomane, une soirée sous l'immense lustre, en robe ou en jean, laisse un souvenir. Les ballets de la compagnie sont aussi très réputés.",
+   "site_officiel": "https://www.staatsoper.de/",
+   "note": "Moins de 30 ans : places à prix réduit pour certaines représentations.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "xiquinhosilva",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nationaltheater_Munich.jpg",
+    "src": "img/activites/MUC/staatsoper.jpg"
+   }
+  },
+  {
+   "id": "fc-bayern",
+   "nom": "Match du Bayern Munich à l'Allianz Arena",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Fröttmaning",
+   "lat": 48.21879,
+   "lng": 11.623623,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Place debout",
+     "dès ≈ 15 €"
+    ],
+    [
+     "Places assises (Bundesliga)",
+     "≈ 40 à 80 €"
+    ],
+    [
+     "Ligue des champions",
+     "≈ 20 à 150 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente : le stade est presque toujours plein et les membres du club sont prioritaires",
+   "duree": "3 h",
+   "moment": "Les jours de match, en arrivant une heure avant pour l'ambiance",
+   "enfants": true,
+   "club": "FC Bayern München",
+   "texte": "Le club le plus titré d'Allemagne, dans un stade de 75 000 places qui s'illumine en rouge. Debout dans la « Südkurve », l'ambiance est intense. Les billets sont rares pour les non-membres : visez la bourse de revente officielle du club, ou un match de coupe, plus facile d'accès.",
+   "site_officiel": "https://fcbayern.com/de/tickets",
+   "note": "Achetez seulement sur le site du club : les billets sont nominatifs et les revendeurs pratiquent des prix abusifs.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "OdinFK",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_at_night%2C_lit_in_red.JPG",
+    "src": "img/activites/MUC/fc-bayern.jpg"
+   }
+  },
+  {
+   "id": "basket",
+   "nom": "Match de basket du Bayern Munich",
+   "emoji": "🏀",
+   "type": "sport",
+   "quartier": "Olympiapark",
+   "lat": 48.169873,
+   "lng": 11.540987,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "EuroLeague au SAP Garden",
+     "dès ≈ 25 €"
+    ],
+    [
+     "Championnat d'Allemagne au BMW Park",
+     "dès ≈ 15 à 25 €"
+    ],
+    [
+     "Moins de 14 ans",
+     "demi-tarif"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      13,
+      12.5
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne ; les affiches d'EuroLeague (Real Madrid, Barcelone…) se remplissent vite",
+   "duree": "2 h 30",
+   "moment": "Le soir en semaine pour l'EuroLeague, le week-end pour le championnat",
+   "enfants": true,
+   "club": "Bayern München",
+   "texte": "Moins connu que le foot, mais bien plus facile d'accès : le Bayern est l'un des meilleurs clubs de basket d'Europe. Les grands matchs d'EuroLeague se jouent au SAP Garden, salle ultramoderne du parc olympique ; ceux du championnat allemand au BMW Park, plus intime.",
+   "site_officiel": "https://fcbayern.com/basketball/de/tickets",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "GFreihalter",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%BCnchen-Am_Riesenfeld_Olympiapark_SAP_Garden_171.jpg",
+    "src": "img/activites/MUC/basket.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "hofbraeuhaus",
+   "nom": "Hofbräuhaus",
+   "emoji": "🍺",
+   "gamme": "petit",
+   "genre": "La brasserie à bière la plus célèbre du monde",
+   "quartier": "Vieille ville",
+   "adresse": "Platzl 9, 80331 München",
+   "lat": 48.137637,
+   "lng": 11.579749,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Fondée en 1589 par le duc de Bavière, c'est LA brasserie de Munich : voûtes peintes, longues tables de bois, fanfare en culotte de peau tous les jours et chopes d'un litre qui s'entrechoquent. Côté assiette, jarret de porc, saucisses, bretzel géant et rôti de porc aux quenelles. Touristique, oui, mais une expérience à vivre une fois.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin pour la grande salle : asseyez-vous à une place libre (sauf aux tables marquées « Stammtisch », réservées aux habitués)",
+   "photo": {
+    "auteur": "Nicoasc",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Schwemme_im_Hofbr%C3%A4uhaus-_Decke_H._Kaspar.jpg",
+    "src": "img/restos/MUC/hofbraeuhaus.jpg"
+   }
+  },
+  {
+   "id": "frischhut",
+   "nom": "Café Frischhut (Schmalznudel)",
+   "emoji": "🍩",
+   "gamme": "petit",
+   "genre": "Beignets bavarois tout chauds",
+   "quartier": "Viktualienmarkt",
+   "adresse": "Prälat-Zistl-Straße 8, 80331 München",
+   "lat": 48.134899,
+   "lng": 11.574586,
+   "prix": "4 à 12 €",
+   "prix_min": 4,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis des décennies, ce petit café en face du Viktualienmarkt ne fait presque qu'une chose : des « Schmalznudeln », beignets frits sous vos yeux, croustillants dehors et moelleux dedans, saupoudrés de sucre. Les Munichois y viennent au petit matin, ou après une nuit blanche, avec un café.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : quelques minutes de file le samedi matin",
+   "photo": {
+    "auteur": "Geolina163",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Traditionelles_Schmalzgeb%C3%A4ck_M%C3%BCnchen.jpg",
+    "src": "img/restos/MUC/frischhut.jpg"
+   }
+  },
+  {
+   "id": "grossmarkthalle",
+   "nom": "Gaststätte Großmarkthalle",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Petit-déjeuner bavarois aux saucisses blanches",
+   "quartier": "Sendling",
+   "adresse": "Kochelseestraße 13, 81371 München",
+   "lat": 48.118608,
+   "lng": 11.553443,
+   "prix": "8 à 18 €",
+   "prix_min": 8,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Au marché de gros, cette auberge sans chichis sert ce que beaucoup de Munichois tiennent pour les meilleures « Weißwürste » de la ville, faites chaque jour par la boucherie de la maison. Le rituel : deux saucisses blanches, un bretzel, de la moutarde douce et une bière de blé, avant midi. Ouvert dès 7 h en semaine.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin ; venez avant 11 h, les saucisses blanches se mangent le matin (fermé le dimanche)",
+   "photo": {
+    "auteur": "Jan Czeczotka",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bayerische_Wei%C3%9Fwurst_mit_Breze_und_s%C3%BC%C3%9Fem_Senf.jpg",
+    "src": "img/restos/MUC/grossmarkthalle.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "sesam",
+   "nom": "Sesam Falafel",
+   "emoji": "🧆",
+   "gamme": "petit",
+   "genre": "Falafels et houmous",
+   "quartier": "Vieille ville",
+   "adresse": "Tal 32, 80331 München",
+   "lat": 48.135658,
+   "lng": 11.580182,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Un comptoir à deux pas de Marienplatz, parmi les adresses les mieux notées de Munich : falafels croustillants et verts à l'intérieur, houmous crémeux, pain chaud et salades fraîches, à emporter ou sur le pouce. L'adresse idéale entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Alper Çuğun",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Crispy_Falafel.jpg",
+    "src": "img/restos/MUC/sesam.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "ballabeni",
+   "nom": "Ballabeni Icecream",
+   "emoji": "🍦",
+   "gamme": "petit",
+   "genre": "Glaces artisanales",
+   "quartier": "Maxvorstadt",
+   "adresse": "Theresienstraße 46, 80333 München",
+   "lat": 48.148481,
+   "lng": 11.574601,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Le glacier préféré des Munichois, près des Pinacothèques : des glaces faites chaque jour, aux parfums qui changent sans cesse (prune-cannelle, chocolat noir intense, fromage blanc-citron…). Une file sur le trottoir les jours d'été, qui avance vite.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Robot8A",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ballabeni_ice_cream_cup%2C_Munich_Aug_2023.jpg",
+    "src": "img/restos/MUC/ballabeni.jpg"
+   }
+  },
+  {
+   "id": "steinheil16",
+   "nom": "Steinheil 16",
+   "emoji": "🥩",
+   "gamme": "petit",
+   "genre": "Escalopes viennoises géantes",
+   "quartier": "Maxvorstadt",
+   "adresse": "Steinheilstraße 16, 80333 München",
+   "lat": 48.149899,
+   "lng": 11.564211,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une taverne d'étudiants célèbre pour son escalope viennoise qui déborde de l'assiette, servie avec des pommes de terre sautées et une salade. Ambiance animée, portions énormes, prix doux pour Munich : on y vient affamé.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même, le soir c'est souvent plein",
+   "photo": {
+    "auteur": "Leipnizkeks",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wiener_Schnitzel.jpg",
+    "src": "img/restos/MUC/steinheil16.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "augustiner-keller",
+   "nom": "Augustiner-Keller",
+   "emoji": "🌳",
+   "gamme": "moyen",
+   "genre": "Jardin à bière sous les marronniers",
+   "quartier": "Maxvorstadt",
+   "adresse": "Arnulfstraße 52, 80335 München",
+   "lat": 48.143352,
+   "lng": 11.551979,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'un des plus beaux jardins à bière de Munich : 5 000 places sous de vieux marronniers, près de la gare. La bière Augustiner, la préférée des Munichois, y est encore tirée de tonneaux en bois. Poulet rôti, jarret, saucisses et bretzels ; dans la partie libre-service, on peut même apporter son pique-nique, comme le veut la tradition.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin au jardin ; réservez seulement pour la salle intérieure ou les grands groupes",
+   "photo": {
+    "auteur": "Bbb",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MUC_Augustinerbiergarten.jpg",
+    "src": "img/restos/MUC/augustiner-keller.jpg"
+   }
+  },
+  {
+   "id": "waltz",
+   "nom": "Gasthaus Waltz",
+   "emoji": "🏔️",
+   "gamme": "moyen",
+   "genre": "Cuisine des Alpes revisitée",
+   "quartier": "Glockenbach",
+   "adresse": "Ickstattstraße 13, 80469 München",
+   "lat": 48.128215,
+   "lng": 11.573048,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une petite auberge moderne du quartier de Glockenbach, distinguée par le Michelin pour son excellent rapport qualité-prix. La cuisine des Alpes y est légère et inventive : truite des montagnes, émincé de chevreuil, pâtes au chou, desserts du Tyrol ; la carte des vins est l'une des plus riches de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant : petite salle, ouverte seulement certains soirs (et le week-end à midi)",
+   "photo": {
+    "auteur": "Burkhard Mücke",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaspresskn%C3%B6del_mixed.jpg",
+    "src": "img/restos/MUC/waltz.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "alte-utting",
+   "nom": "Alte Utting",
+   "emoji": "🚢",
+   "gamme": "moyen",
+   "genre": "Bar-restaurant sur un bateau perché sur un pont",
+   "quartier": "Sendling",
+   "adresse": "Lagerhausstraße 15, 81371 München",
+   "lat": 48.119925,
+   "lng": 11.556324,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un vrai bateau à vapeur du lac Ammersee, hissé sur un ancien pont de chemin de fer au-dessus des rues de Sendling : l'image la plus insolite de Munich. On y mange des plats simples et de saison, on boit un verre sur le pont supérieur au coucher du soleil, et le jardin au pied du bateau s'anime tout l'été.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation pour une table : venez tôt les soirs d'été",
+   "photo": {
+    "auteur": "aveaoz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alte_Utting%2C_exterior.jpg",
+    "src": "img/restos/MUC/alte-utting.jpg"
+   }
+  },
+  {
+   "id": "chopan",
+   "nom": "Chopan",
+   "emoji": "🍚",
+   "gamme": "moyen",
+   "genre": "Cuisine afghane",
+   "quartier": "Haidhausen",
+   "adresse": "Rosenheimer Straße 8, 81669 München",
+   "lat": 48.131434,
+   "lng": 11.588787,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "L'une des tables les mieux notées de Munich, de l'autre côté de l'Isar : riz pilaf aux carottes et aux raisins, raviolis « mantu » au yaourt, brochettes d'agneau grillées, dans un décor chaleureux de tapis et de lanternes. Généreux, parfumé et étonnant.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le week-end",
+   "photo": {
+    "auteur": "Jost Wagner",
+    "licence": "CC BY-SA 1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Afghan_Palo.jpg",
+    "src": "img/restos/MUC/chopan.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "bar-centrale",
+   "nom": "Bar Centrale",
+   "emoji": "☕",
+   "gamme": "moyen",
+   "genre": "Bar italien et trattoria",
+   "quartier": "Vieille ville",
+   "adresse": "Ledererstraße 23, 80331 München",
+   "lat": 48.136866,
+   "lng": 11.579879,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Un petit coin d'Italie à deux rues de Marienplatz : espresso au comptoir le matin, pâtes fraîches et petits plats le midi et le soir, puis spritz jusque tard. Les Munichois l'adorent pour son ambiance de bar romain, ses serveurs italiens et sa terrasse dans une ruelle calme.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour le soir (aussi ouvert dès 7 h 30 pour le petit-déjeuner)",
+   "photo": {
+    "auteur": "Wilfredor",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Espresso_machine_and_counter_of_a_coffee_bar_in_Rome.jpg",
+    "src": "img/restos/MUC/bar-centrale.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "max-pett",
+   "nom": "Max Pett",
+   "emoji": "🥗",
+   "gamme": "moyen",
+   "genre": "Cuisine végétalienne",
+   "quartier": "Ludwigsvorstadt",
+   "adresse": "Pettenkoferstraße 8, 80336 München",
+   "lat": 48.134364,
+   "lng": 11.563783,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Le restaurant végétalien le plus connu de Munich, près de Sendlinger Tor : on y revisite les classiques bavarois sans viande (escalope, rôti, quenelles) aussi bien que des plats du monde, dans une salle élégante. Même les amateurs de jarret repartent convaincus.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Veganes_Sellerieschnitzel_Waldhaus_Einsiedel.jpg",
+    "src": "img/restos/MUC/max-pett.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "tantris",
+   "nom": "Tantris",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Grande cuisine française dans un décor des années 70",
+   "quartier": "Schwabing",
+   "adresse": "Johann-Fichte-Straße 7, 80805 München",
+   "lat": 48.169796,
+   "lng": 11.588339,
+   "prix": "≈ 230 à 300 €",
+   "prix_min": 230,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Le temple de la gastronomie allemande depuis 1971 : un décor pop rouge, orange et noir classé monument historique, des sièges ronds et des plafonds en lames, comme dans un film de James Bond. La cuisine, française et créative, se goûte en menus de 5 à 8 plats, avec l'une des plus belles caves du pays.",
+   "reservation": "indispensable",
+   "reservation_delai": "jusqu'à 2 mois à l'avance (ouvert du mercredi au samedi)",
+   "photo": {
+    "auteur": "Oliver Raupach",
+    "licence": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Tantris_abends_mod.jpg",
+    "src": "img/restos/MUC/tantris.jpg"
+   }
+  },
+  {
+   "id": "jan",
+   "nom": "JAN",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Grande cuisine allemande d'aujourd'hui",
+   "quartier": "Maxvorstadt",
+   "adresse": "Luisenstraße 27, 80333 München",
+   "lat": 48.144793,
+   "lng": 11.56296,
+   "prix": "≈ 380 €",
+   "prix_min": 380,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "Jan Hartwig, l'un des chefs les plus doués d'Allemagne, réinvente les saveurs de son pays dans un menu de sept plats servi autour d'une cuisine ouverte, près du Lenbachhaus. Trois étoiles Michelin dès les premières années : la table la plus convoitée de Munich.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines, voire plusieurs mois à l'avance",
+   "photo": {
+    "auteur": "Bex Walton",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seven-course_tasting_menu_at_Monstera_Bistro%2C_Ljubljana_%2848702042632%29.jpg",
+    "src": "img/restos/MUC/jan.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "alois",
+   "nom": "Alois – Dallmayr Fine Dining",
+   "emoji": "🥂",
+   "gamme": "haut",
+   "genre": "Gastronomie dans la plus célèbre épicerie fine",
+   "quartier": "Vieille ville",
+   "adresse": "Dienerstraße 14-15, 80331 München",
+   "lat": 48.138286,
+   "lng": 11.577184,
+   "prix": "≈ 185 à 300 €",
+   "prix_min": 185,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Au premier étage de Dallmayr, la plus célèbre épicerie fine de Munich (fondée en 1700), une salle intime à deux pas de Marienplatz. Rosina Ostler y mêle cuisine française, nordique et racines bavaroises dans un grand menu ; le midi, un menu plus court coûte moins cher.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines à l'avance",
+   "photo": {
+    "auteur": "Lino Wirag",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dallmayr-Stammhaus.jpg",
+    "src": "img/restos/MUC/alois.jpg"
+   }
+  },
+  {
+   "id": "the-cloud",
+   "nom": "THE CLOUD by Käfer",
+   "emoji": "☁️",
+   "gamme": "haut",
+   "genre": "Cuisine du monde au cœur de la BMW Welt",
+   "quartier": "Olympiapark",
+   "adresse": "Am Olympiapark 1, 80809 München",
+   "lat": 48.17686,
+   "lng": 11.556583,
+   "prix": "≈ 270 à 290 €",
+   "prix_min": 270,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Ouvert en 2025 sous le grand toit de la BMW Welt, ce restaurant a décroché deux étoiles dès sa première année. Le chef Jens Madsen y propose une « cuisine nomade » : chaque saison, un menu de huit plats fait voyager vers une région du monde (Afrique, forêts tropicales…) avec des produits de Bavière.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines à l'avance (fermé fin décembre et début janvier)",
+   "photo": {
+    "auteur": "Ralf Steinberger",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Munich%27s_Olympic_Tower_and_the_BMW_World_building_%2850384979256%29.jpg",
+    "src": "img/restos/MUC/the-cloud.jpg"
+   }
+  },
+  {
+   "id": "kaefer-schaenke",
+   "nom": "Käfer-Schänke",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Salons bavarois du traiteur Käfer",
+   "quartier": "Bogenhausen",
+   "adresse": "Prinzregentenstraße 73, 81675 München",
+   "lat": 48.140592,
+   "lng": 11.602046,
+   "prix": "≈ 60 à 135 €",
+   "prix_min": 60,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Au-dessus de l'épicerie fine Käfer, l'adresse chic des Munichois depuis des décennies : une enfilade de petits salons boisés, chacun avec son décor, où l'on sert homard, veau, poissons et grands classiques bavarois raffinés. La maison Käfer est aussi le traiteur des grandes fêtes munichoises.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (fermé le dimanche)",
+   "photo": {
+    "auteur": "Feinkost Käfer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%A4fer_Stammhaus.jpg",
+    "src": "img/restos/MUC/kaefer-schaenke.jpg"
+   }
+  },
+  {
+   "id": "pageou",
+   "nom": "Pageou",
+   "emoji": "🫒",
+   "gamme": "haut",
+   "genre": "Méditerranée et Orient",
+   "quartier": "Vieille ville",
+   "adresse": "Kardinal-Faulhaber-Straße 10, 80333 München",
+   "lat": 48.140706,
+   "lng": 11.574572,
+   "prix": "≈ 60 à 140 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Le chef Ali Güngörmüş, l'un des visages de la cuisine en Allemagne, cuisine le Proche-Orient avec une finesse française : houmous, mezzés raffinés, agneau aux épices, et un célèbre gâteau au chocolat. Le tout dans des salons élégants au cœur de la vieille ville, à deux pas de la Frauenkirche.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Paul Goyette",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hummus_from_The_Nile.jpg",
+    "src": "img/restos/MUC/pageou.jpg"
+   },
+   "illustration": true
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "altstadt",
+   "nom": "Vieille ville (Altstadt)",
+   "lat": 48.1372,
+   "lng": 11.5755,
+   "texte": "Autour de Marienplatz, tout se fait à pied : hôtel de ville, Frauenkirche, Residenz, Viktualienmarkt et brasseries. Le meilleur choix pour un premier séjour, mais le plus cher."
+  },
+  {
+   "id": "maxvorstadt",
+   "nom": "Maxvorstadt (musées et université)",
+   "lat": 48.149,
+   "lng": 11.57,
+   "texte": "Le quartier des Pinacothèques, de l'université et des cafés étudiants, à 10 min à pied de la vieille ville. Vivant, cultivé, et un peu moins cher que le centre."
+  },
+  {
+   "id": "schwabing",
+   "nom": "Schwabing",
+   "lat": 48.16,
+   "lng": 11.584,
+   "texte": "Le quartier des artistes, chic et bohème, collé à l'Englischer Garten : belles façades, terrasses et boutiques sur la Leopoldstraße. Le métro U3/U6 rejoint Marienplatz en 8 min."
+  },
+  {
+   "id": "glockenbach",
+   "nom": "Glockenbach et Gärtnerplatz",
+   "lat": 48.13,
+   "lng": 11.574,
+   "texte": "Le quartier branché de Munich, au bord de l'Isar : bars, restaurants, petites boutiques et la jolie place ronde du Gärtnerplatz. Animé le soir, à 10 min à pied de Marienplatz."
+  },
+  {
+   "id": "hauptbahnhof",
+   "nom": "Autour de la gare centrale (Ludwigsvorstadt)",
+   "lat": 48.1395,
+   "lng": 11.5585,
+   "texte": "Le plus pratique et souvent le moins cher : trains pour l'aéroport, Neuschwanstein et Salzbourg, Oktoberfest à 10 min à pied, vieille ville à 15 min. Plus impersonnel, surtout côté sud de la gare."
+  }
+ ]
+}
