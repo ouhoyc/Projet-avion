@@ -13,5 +13,11 @@
       "includeFiles": "guides/*.json",
       "maxDuration": 20
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/img/:path*",
+      "destination": "https://projet-avion-photos.vercel.app/:path*"
+    }
+  ]
 }

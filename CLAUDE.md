@@ -28,6 +28,12 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   **Outfit** partout. `themes.css` contient encore d'anciens styles d'essai, inutilisés.
 
 ## Fichiers
+- **Photos (`img/`) : hébergées à part** (27/10/2026). Le dossier reste dans le dépôt et on continue
+  d'y ajouter les photos comme avant, mais `.vercelignore` l'exclut du site principal : sinon chaque
+  mise en ligne recopiait ~180 Mo et le « Deployment Storage » de Vercel (limite 10 Go en Hobby)
+  débordait. Les photos sont servies par le projet Vercel `projet-avion-photos` (dossier racine `img`,
+  ne se remet en ligne que si `img/` change) ; `vercel.json` redirige `/img/...` vers lui. Ne pas
+  retirer `img/` de `.vercelignore` ni changer les chemins `img/...` dans les JSON.
 - `index.html` : la page.
   - **Accueil « agence de voyage »** (22/10/2026) : titre court « Où partir depuis Lyon ? ».
     **Durée vierge à l'arrivée** (choix du propriétaire, rien n'est mémorisé) : la page reste **vide**

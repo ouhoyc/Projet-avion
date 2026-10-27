@@ -1,0 +1,3 @@
+# Les photos (img/) sont servies par le projet Vercel « projet-avion-photos »
+# pour ne pas recopier ~180 Mo à chaque mise en ligne (voir vercel.json, rewrites).
+img/
