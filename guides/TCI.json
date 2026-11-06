@@ -1,0 +1,1895 @@
+{
+ "city_code": "TCI",
+ "statut": "préparé en autonomie, prix relevés le 06/11/2026",
+ "verifie_le": "2026-11-06",
+ "ile": true,
+ "ville": "Tenerife",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "teleferico",
+   "nom": "Téléphérique du Teide",
+   "emoji": "🚡",
+   "type": "nature",
+   "quartier": "Parc national du Teide",
+   "lat": 28.26225,
+   "lng": -16.63236,
+   "prix": 43,
+   "prix_detail": [
+    [
+     "Aller-retour, adulte (non-résident)",
+     "43 €"
+    ],
+    [
+     "Enfant de 3 à 13 ans",
+     "21,50 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Aller simple (montée ou descente)",
+     "24 € (enfant 12 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 43,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      13,
+      21.5
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant en ligne : les créneaux du matin partent vite, et on évite 1 à 2 h de queue",
+   "duree": "2 à 3 h",
+   "moment": "Tous les jours de 9 h à 17 h (dernière montée vers 16 h) ; partez tôt, avant que les nuages ne montent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Huit minutes de cabine pour passer de 2 356 à 3 555 mètres, au-dessus d'une mer de nuages : en haut, le plus haut sommet d'Espagne fume encore par endroits et l'on voit La Gomera, La Palma et parfois Gran Canaria flotter sur l'Atlantique. Deux sentiers faciles mènent aux belvédères du Pico Viejo et de La Fortaleza.",
+   "site_officiel": "https://www.volcanoteide.com/fr",
+   "note": "Il fait 15 à 20 °C de moins qu'à la plage : prenez une veste. Le téléphérique ferme quand le vent souffle trop fort (vérifiez le matin même). Le sentier du sommet (dernière portion de 163 m) demande un permis gratuit du parc national, à réserver des semaines à l'avance. Déconseillé aux femmes enceintes et aux personnes ayant des soucis cardiaques ou respiratoires (altitude).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Axel Cotón Gutiérrez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Subida_al_Teide_en_Telef%C3%A9rico.jpg",
+    "src": "img/activites/TCI/teleferico.jpg"
+   }
+  },
+  {
+   "id": "roques",
+   "nom": "Roques de García et la caldeira de Las Cañadas",
+   "emoji": "🌋",
+   "type": "balade",
+   "quartier": "Parc national du Teide",
+   "lat": 28.23111,
+   "lng": -16.63747,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au parc et au sentier",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Le matin ou en fin de journée, quand la lumière rase allume les coulées de lave",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des tours de lave sculptées par le vent devant la silhouette parfaite du Teide : c'est la carte postale de l'île, avec le Roque Cinchado en vedette. Le sentier circulaire de 3,5 km fait le tour des rochers et traverse un paysage lunaire de coulées noires et rouges, face à la plaine d'Ucanca.",
+   "site_officiel": "https://www.webtenerifefr.com/faire/nature/randonnee/sentiers/roques-garcia/",
+   "note": "Parking du belvédère des Roques souvent plein entre 11 h et 15 h. Le chemin est caillouteux : de bonnes chaussures suffisent. Comptez 1 h de route depuis la côte sud.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teide_y_roques_de_Garc%C3%ADa,_parque_nacional_del_Teide,_Tenerife,_Espa%C3%B1a,_2022-01-07,_DD_18.jpg",
+    "src": "img/activites/TCI/roques.jpg"
+   }
+  },
+  {
+   "id": "etoiles",
+   "nom": "Coucher de soleil et étoiles au Teide",
+   "emoji": "✨",
+   "type": "nature",
+   "quartier": "Parc national du Teide",
+   "lat": 28.2265,
+   "lng": -16.6295,
+   "prix": 79,
+   "prix_detail": [
+    [
+     "Sortie en petit groupe avec transport et télescopes, adulte",
+     "≈ 79 €"
+    ],
+    [
+     "Enfant de moins de 12 ans",
+     "≈ 49 €"
+    ],
+    [
+     "Visite de jour de l'observatoire du Teide",
+     "≈ 21 € (dès 8 ans)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 79,
+    "enfants": [
+     [
+      11,
+      49
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant : les sorties partent seulement si le ciel est dégagé et les places sont limitées",
+   "duree": "4 à 5 h",
+   "moment": "Départ en fin d'après-midi ; évitez les nuits de pleine lune pour voir la Voie lactée",
+   "enfants": true,
+   "texte": "Le ciel de Tenerife est l'un des plus purs au monde, protégé par une loi contre la pollution lumineuse. On regarde le soleil se coucher au-dessus de la mer de nuages, puis un guide astronome braque des télescopes sur Saturne, les nébuleuses et la Voie lactée, à 2 000 mètres d'altitude.",
+   "site_officiel": "https://www.webtenerifefr.com/faire/nature/observation-etoiles/",
+   "note": "Prix moyens des agences de la côte sud (transport compris) : ils varient selon l'opérateur. Il fait vite moins de 5 °C la nuit là-haut, même en été : les agences prêtent souvent des vestes.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "AstroAnthony",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_stars_and_man.jpg",
+    "src": "img/activites/TCI/etoiles.jpg"
+   }
+  },
+  {
+   "id": "masca",
+   "nom": "Village et ravin de Masca",
+   "emoji": "🥾",
+   "type": "balade",
+   "quartier": "Masca (nord-ouest)",
+   "lat": 28.30526,
+   "lng": -16.8405,
+   "prix": 41,
+   "prix_detail": [
+    [
+     "Accès au sentier du ravin + navette depuis Santiago del Teide, adulte",
+     "dès 40,66 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "tarif réduit"
+    ],
+    [
+     "Moins de 8 ans",
+     "interdit dans le ravin"
+    ],
+    [
+     "Bateau de retour Masca → Los Gigantes",
+     "en plus, ≈ 20 à 30 €"
+    ],
+    [
+     "Village et belvédères par la route",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 41,
+    "enfants": [
+     [
+      7,
+      0
+     ],
+     [
+      17,
+      19
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant sur le site officiel : créneaux de descente limités, de 8 h 30 à 13 h",
+   "duree": "La journée (ravin) ou 1 h (village)",
+   "moment": "Le matin, pour descendre au frais et attraper le bateau du retour",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un hameau de maisons de pierre accroché à un éperon, au fond d'un cirque de montagnes vertigineuses. La route en lacets qui y mène est un spectacle à elle seule ; les plus sportifs descendent le ravin jusqu'à une petite plage noire, d'où un bateau longe les falaises de Los Gigantes pour rentrer.",
+   "site_officiel": "https://www.caminobarrancodemasca.com/en/",
+   "note": "Le ravin se fait seulement avec la navette obligatoire depuis Santiago del Teide (pas de voiture) ; casque et assurance compris. Descente raide de 3 à 4 h : bonnes chaussures indispensables. Le sentier ferme par mauvais temps et le bateau ne part pas quand la mer est forte. La route TF-436 est très étroite : roulez doucement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marc Ryckaert",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tenerife_Masca_R07.jpg",
+    "src": "img/activites/TCI/masca.jpg"
+   }
+  },
+  {
+   "id": "gigantes",
+   "nom": "Falaises de Los Gigantes",
+   "emoji": "🏞️",
+   "type": "vue",
+   "quartier": "Los Gigantes (ouest)",
+   "lat": 28.24054,
+   "lng": -16.8369,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédères et port",
+     "gratuit"
+    ],
+    [
+     "Piscines naturelles de la Piscina Municipal, à côté",
+     "≈ 3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "1 à 2 h",
+   "moment": "En fin de journée : le soleil couchant embrase les falaises",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des murailles de lave hautes de 500 à 600 mètres qui tombent à pic dans l'Atlantique : les Guanches les appelaient « le mur de l'enfer ». Le belvédère d'Archipenque, sur la route, offre la vue la plus spectaculaire ; en bas, le petit port et sa plage noire sont le point de départ des sorties en mer.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/belvederes/mirador-archipenque/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tuxyso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Acantilados_de_Los_Gigantes_2024-02.jpg",
+    "src": "img/activites/TCI/gigantes.jpg"
+   }
+  },
+  {
+   "id": "cetaces",
+   "nom": "Baleines et dauphins en mer",
+   "emoji": "🐋",
+   "type": "nature",
+   "quartier": "Los Cristianos / Puerto Colón (sud-ouest)",
+   "lat": 28.04848,
+   "lng": -16.7191,
+   "prix": 28,
+   "prix_detail": [
+    [
+     "Sortie de 2 h en goélette, adulte",
+     "≈ 25 à 30 €"
+    ],
+    [
+     "Enfant",
+     "≈ 15 à 20 €"
+    ],
+    [
+     "Sortie de 3 h avec baignade et repas",
+     "≈ 45 à 60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 28,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      18
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou l'avant-veille, en ligne ou au port",
+   "duree": "2 à 3 h",
+   "moment": "Toute l'année ; le matin, la mer est plus calme",
+   "enfants": true,
+   "texte": "Entre Tenerife et La Gomera vivent toute l'année des centaines de globicéphales (« baleines pilotes ») et de dauphins : on les voit à presque chaque sortie, souvent à quelques mètres du bateau. Une des meilleures zones d'Europe pour les observer, à 20 minutes du port.",
+   "site_officiel": "https://www.webtenerifefr.com/faire/nature/observation-cetaces/",
+   "note": "Choisissez un bateau qui porte le drapeau bleu « Barco Azul » : seul ce label autorise à approcher les animaux en respectant les règles. Départs de Los Cristianos, Puerto Colón et Los Gigantes ; prix selon l'opérateur.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gustavo A. Pérez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Caladeron_Tropical_-_Globicephala_macrorhynchus.jpg",
+    "src": "img/activites/TCI/cetaces.jpg"
+   }
+  },
+  {
+   "id": "loro",
+   "nom": "Loro Parque",
+   "emoji": "🦜",
+   "type": "sortir",
+   "quartier": "Puerto de la Cruz",
+   "lat": 28.40863,
+   "lng": -16.56432,
+   "prix": 44,
+   "prix_detail": [
+    [
+     "Adulte (dès 12 ans)",
+     "44 €"
+    ],
+    [
+     "Enfant de 3 à 11 ans",
+     "32 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Billet jumelé Loro Parque + Siam Park, adulte",
+     "78 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 44,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      32
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (pas de file d'attente)",
+   "duree": "La journée",
+   "moment": "Tous les jours de 9 h 30 à 17 h 30 ; arrivez à l'ouverture pour caser tous les spectacles",
+   "enfants": true,
+   "texte": "Né comme un jardin de perroquets en 1972, c'est aujourd'hui l'un des zoos les plus visités d'Europe : la plus grande collection de perroquets au monde, des gorilles, des tigres, un manchotier avec une vraie neige, un aquarium-tunnel aux requins et des spectacles d'otaries et de dauphins.",
+   "site_officiel": "https://www.loroparque.com/",
+   "note": "Un petit train gratuit relie la plage Martiánez de Puerto de la Cruz au parc. Les spectacles d'orques et de dauphins font débat chez les défenseurs des animaux : à vous de voir.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aratinga_solstitialis_-_Loro_Parque_01.jpg",
+    "src": "img/activites/TCI/loro.jpg"
+   }
+  },
+  {
+   "id": "siam",
+   "nom": "Siam Park",
+   "emoji": "🌊",
+   "type": "sortir",
+   "quartier": "Costa Adeje",
+   "lat": 28.07221,
+   "lng": -16.72567,
+   "prix": 44,
+   "prix_detail": [
+    [
+     "Adulte (dès 12 ans)",
+     "44 €"
+    ],
+    [
+     "Enfant de 3 à 11 ans",
+     "32 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Billet jumelé Siam Park + Loro Parque, adulte",
+     "78 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 44,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      32
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne ; en été et pendant les vacances, quelques jours avant",
+   "duree": "La journée",
+   "moment": "Tous les jours, de 10 h à 17 h (novembre-avril) ou 18 h (mai-octobre)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Élu plusieurs années de suite meilleur parc aquatique du monde : un royaume thaïlandais avec la plus grande vague artificielle d'Europe (3 mètres), une rivière tranquille de 1 km, une plage de sable blanc et la « Tower of Power », chute presque verticale de 28 mètres qui traverse un aquarium à requins.",
+   "site_officiel": "https://www.siampark.net/",
+   "note": "Transats compris dans le billet, mais pas de nourriture ni de boissons apportées de l'extérieur. Les moins de 16 ans doivent venir avec un adulte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "stephen jones",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Siam_Park_(46).jpg",
+    "src": "img/activites/TCI/siam.jpg"
+   }
+  },
+  {
+   "id": "anaga",
+   "nom": "Forêt de lauriers d'Anaga",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "Anaga (nord-est)",
+   "lat": 28.53101,
+   "lng": -16.27989,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Sentiers et belvédères",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 à 4 h",
+   "moment": "Le matin ; la forêt est souvent dans la brume l'après-midi, ce qui lui donne un air de conte",
+   "enfants": true,
+   "texte": "Une forêt primaire de lauriers, de mousses et de fougères géantes, vestige des forêts qui couvraient l'Europe il y a des millions d'années. Depuis le centre d'accueil de Cruz del Carmen, le « Sentier des Sens » est une boucle facile sur des passerelles ; le belvédère du Pico del Inglés domine toute la côte nord.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/belvederes/mirador-cruz-carmen/",
+   "note": "À 30 minutes de La Laguna par une route sinueuse. Le centre d'accueil de Cruz del Carmen donne les cartes des sentiers. Il fait frais et humide : prenez un pull.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roque_de_Taborno_-_Tenerife_04.jpg",
+    "src": "img/activites/TCI/anaga.jpg"
+   }
+  },
+  {
+   "id": "benijo",
+   "nom": "Plage de Benijo et Roque de las Ánimas",
+   "emoji": "🌅",
+   "type": "plage",
+   "quartier": "Anaga (nord-est)",
+   "lat": 28.57621,
+   "lng": -16.1851,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 à 3 h",
+   "moment": "Au coucher du soleil, depuis le belvédère au-dessus de la plage",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une plage de sable noir sauvage au bout de la route, face à des rochers pointus qui sortent des vagues : c'est le coucher de soleil le plus photographié de l'île. Pas d'hôtel, pas de transat, seulement deux restaurants de poisson perchés au-dessus de l'eau.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/plages/playa-benijo/",
+   "note": "Courants forts et grosses vagues : baignade seulement par mer très calme, sans surveillance. Parking réduit en bord de route.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FrDr",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Benijo_(Parque_Rural_de_Anaga_-_Reserva_de_la_Biosfera_Macizo_de_Anaga)_13.jpg",
+    "src": "img/activites/TCI/benijo.jpg"
+   }
+  },
+  {
+   "id": "teresitas",
+   "nom": "Plage de Las Teresitas",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "San Andrés (Santa Cruz)",
+   "lat": 28.50793,
+   "lng": -16.18737,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "La demi-journée",
+   "moment": "Le matin en semaine (les habitants viennent en nombre le week-end)",
+   "enfants": true,
+   "texte": "Un kilomètre et demi de sable doré venu du Sahara, bordé de palmiers et protégé par une digue qui garde l'eau calme comme dans une piscine. La plage des habitants de Santa Cruz, à 10 minutes de la capitale, au pied des montagnes d'Anaga ; on finit par un poisson grillé dans le village de pêcheurs de San Andrés.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/plages/las-teresitas/",
+   "note": "Bus 910 depuis Santa Cruz. Le belvédère de Las Teresitas, sur la route d'Igueste, donne la vue d'en haut.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mike Peel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:At_Tenerife_2022_079.jpg",
+    "src": "img/activites/TCI/teresitas.jpg"
+   }
+  },
+  {
+   "id": "laguna",
+   "nom": "Vieille ville de La Laguna",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "San Cristóbal de La Laguna",
+   "lat": 28.48887,
+   "lng": -16.3162,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade dans la vieille ville",
+     "gratuit"
+    ],
+    [
+     "Cathédrale avec audioguide",
+     "≈ 7 € (10 € avec la tour)"
+    ],
+    [
+     "Église de la Concepción",
+     "gratuit (tour en supplément)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 à 3 h",
+   "moment": "En journée ; le soir, les bars de la rue Herradores s'animent avec les étudiants",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La première ville coloniale non fortifiée, classée par l'Unesco : son plan en damier a servi de modèle à La Havane et à Lima. On flâne entre des façades pastel, des balcons de bois sculpté et des patios fleuris, dans une ville étudiante pleine de cafés, avant de monter au clocher de la Concepción.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/lieux-historiques/centres-historiques/la-laguna/",
+   "note": "Tramway depuis Santa Cruz (ligne 1, 35 min). La cathédrale n'ouvre pas aux visites le dimanche.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Daniel García Asensio",
+    "licence": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Torre_de_la_Iglesia_de_la_Concepci%C3%B3n.JPG",
+    "src": "img/activites/TCI/laguna.jpg"
+   }
+  },
+  {
+   "id": "orotava",
+   "nom": "La Orotava et la Casa de los Balcones",
+   "emoji": "🪟",
+   "type": "culture",
+   "quartier": "La Orotava",
+   "lat": 28.38834,
+   "lng": -16.52578,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Ruelles et jardins de la vieille ville",
+     "gratuit"
+    ],
+    [
+     "Maison-musée de la Casa de los Balcones",
+     "≈ 5 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "En journée, tous les jours",
+   "enfants": true,
+   "texte": "Une ville de grandes familles nobles, au cœur de la vallée verte qui monte vers le Teide. Ses rues pentues sont bordées de demeures du XVIIe siècle aux balcons de bois de pin sculpté ; la plus belle, la Casa de los Balcones, cache un patio fleuri et une boutique de broderies canariennes.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/autres-lieux-visiter/casa-balcones/",
+   "note": "Ne manquez pas les jardins Victoria, en terrasses au-dessus de la ville. Fin mai ou début juin (Corpus Christi), les rues se couvrent de tapis de fleurs et de sable volcanique.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Axel Cotón Gutiérrez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casa_de_los_Balcones_(La_Orotava)_(Tenerife)_02.jpg",
+    "src": "img/activites/TCI/orotava.jpg"
+   }
+  },
+  {
+   "id": "puerto",
+   "nom": "Puerto de la Cruz et le Lago Martiánez",
+   "emoji": "🏊",
+   "type": "plage",
+   "quartier": "Puerto de la Cruz",
+   "lat": 28.41927,
+   "lng": -16.54359,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Piscines d'eau de mer du Lago Martiánez, adulte",
+     "7 €"
+    ],
+    [
+     "Enfant jusqu'à 10 ans",
+     "4 €"
+    ],
+    [
+     "Vieux port et place du Charco",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [
+     [
+      10,
+      4
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "La demi-journée",
+   "moment": "Tous les jours de 10 h à 18 h (19 h en été)",
+   "enfants": true,
+   "texte": "La première station touristique de l'île, restée une vraie ville canarienne autour de sa place du Charco et de son petit port de pêche. Face à l'océan agité, l'artiste César Manrique a dessiné un lagon d'eau de mer de 33 000 m², avec des îlots de lave, des palmiers et des sculptures : on s'y baigne en sécurité.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/piscines-naturels/complejo-costa-martianez/",
+   "note": "Transat compris dans le billet du Lago Martiánez. Le jardin botanique (fondé en 1788) est à 10 minutes en voiture.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Quartl",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lago_Marti%C3%A1nez_qtl1.jpg",
+    "src": "img/activites/TCI/puerto.jpg"
+   }
+  },
+  {
+   "id": "garachico",
+   "nom": "Garachico et les piscines d'El Caletón",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Garachico (nord-ouest)",
+   "lat": 28.37404,
+   "lng": -16.76582,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Piscines naturelles et village",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "L'été et par mer calme pour la baignade ; toute l'année pour le village",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "En 1706, une coulée de lave a englouti le grand port de l'île… et dessiné, en refroidissant, des bassins naturels où l'on se baigne aujourd'hui dans l'eau turquoise. Derrière, le village garde ses maisons colorées, son couvent et son petit fort face au rocher de Garachico.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/piscines-naturels/el-caleton/",
+   "note": "Les piscines ferment (drapeau rouge) quand la houle est forte, surtout l'hiver.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mike Peel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:At_Garachico,_Tenerife_2019_018.jpg",
+    "src": "img/activites/TCI/garachico.jpg"
+   }
+  },
+  {
+   "id": "drago",
+   "nom": "Dragonnier millénaire d'Icod",
+   "emoji": "🌳",
+   "type": "culture",
+   "quartier": "Icod de los Vinos (nord-ouest)",
+   "lat": 28.36664,
+   "lng": -16.72219,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Parc du Dragonnier, adulte",
+     "5 €"
+    ],
+    [
+     "Enfant de moins de 8 ans",
+     "2,50 €"
+    ],
+    [
+     "Senior (65 ans et +) et étudiant",
+     "3 €"
+    ],
+    [
+     "Vue depuis la place de l'église",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      7,
+      2.5
+     ],
+     [
+      12,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "Tous les jours de 10 h à 18 h (octobre-mars), 9 h à 20 h (avril-septembre)",
+   "enfants": true,
+   "texte": "Le plus vieux et le plus grand dragonnier des Canaries : un arbre étrange au tronc énorme et à la sève rouge, que les Guanches vénéraient et qui aurait près de 1 000 ans. Le jardin qui l'entoure présente les plantes endémiques de l'île ; la place de l'église voisine offre la vue gratuite.",
+   "site_officiel": "https://icoddelosvinos.es/parque-del-drago/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lmbuga (Luis Miguel Bugallo Sánchez)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Drago_(Dracaena_drago)_Milenario_de_Icod_de_los_Vinos._Tenerife._Illas_Canarias_eue-09.jpg",
+    "src": "img/activites/TCI/drago.jpg"
+   }
+  },
+  {
+   "id": "cueva",
+   "nom": "Cueva del Viento, tunnel de lave",
+   "emoji": "🔦",
+   "type": "nature",
+   "quartier": "Icod de los Vinos (nord-ouest)",
+   "lat": 28.34404,
+   "lng": -16.70138,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Visite guidée, adulte",
+     "25 €"
+    ],
+    [
+     "Enfant de 5 à 12 ans",
+     "8,50 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "interdit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      12,
+      8.5
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant en ligne : petits groupes, billets seulement sur internet",
+   "duree": "2 h",
+   "moment": "Visites guidées tous les jours, à heures fixes (voir la billetterie)",
+   "enfants": true,
+   "texte": "Le plus long tunnel volcanique d'Europe (18 km de galeries) creusé par une rivière de lave il y a 27 000 ans. Casque et lampe frontale sur la tête, un guide vous emmène sous terre parmi les stalactites de lave et les « lacs » figés, avec une courte marche en forêt pour y aller.",
+   "site_officiel": "https://www.cuevadelviento.net/",
+   "note": "Chaussures fermées obligatoires. Paiement par carte seulement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Evdpnl",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cueva_del_Viento_Icod_de_los_Vinos.jpg",
+    "src": "img/activites/TCI/cueva.jpg"
+   }
+  },
+  {
+   "id": "infierno",
+   "nom": "Barranco del Infierno",
+   "emoji": "🥾",
+   "type": "balade",
+   "quartier": "Adeje (sud-ouest)",
+   "lat": 28.15527,
+   "lng": -16.69664,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Accès au sentier, adulte",
+     "16 €"
+    ],
+    [
+     "Enfant de 5 à 12 ans",
+     "≈ 8 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "interdit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      12,
+      8
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant en ligne (nombre de marcheurs limité chaque jour)",
+   "duree": "3 h",
+   "moment": "Le matin : entrées de 8 h 30 à 11 h 30 l'hiver, de 8 h à 10 h 30 l'été",
+   "enfants": true,
+   "texte": "À 10 minutes des plages, un ravin profond où un sentier de 6,5 km aller-retour monte le long des parois couvertes de cactus et d'euphorbes jusqu'à une cascade de 80 mètres, au fond d'un cirque vertical. La randonnée familiale la plus célèbre du sud, casque fourni.",
+   "site_officiel": "https://www.barrancodelinfierno.es/",
+   "note": "Le sentier ferme après de fortes pluies : vérifiez la veille. Les moins de 16 ans doivent être accompagnés d'un adulte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ronny Siegel",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barranco_del_Infierno_-_Tenerife_-_05.jpg",
+    "src": "img/activites/TCI/infierno.jpg"
+   }
+  },
+  {
+   "id": "piramides",
+   "nom": "Pyramides de Güímar",
+   "emoji": "🔺",
+   "type": "culture",
+   "quartier": "Güímar (est)",
+   "lat": 28.322,
+   "lng": -16.41282,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Entrée complète (parc, musée, jardins)",
+     "18 €"
+    ],
+    [
+     "Entrée de base",
+     "12,50 €"
+    ],
+    [
+     "Avec audioguide",
+     "26 €"
+    ],
+    [
+     "Enfants",
+     "tarif réduit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      12,
+      9
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "Tous les jours de 10 h à 18 h",
+   "enfants": true,
+   "texte": "Six pyramides à degrés en pierre de lave, alignées sur les solstices : l'explorateur Thor Heyerdahl y voyait la preuve de liens entre l'Égypte et l'Amérique. Le parc raconte cette énigme dans un musée, entouré d'un grand jardin de plantes endémiques et de cactus.",
+   "site_officiel": "https://www.piramidesdeguimar.es/fr/",
+   "note": "À 25 minutes de Santa Cruz par l'autoroute du sud : se combine bien avec la basilique de Candelaria.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Axel Cotón Gutiérrez",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pir%C3%A1mides_de_G%C3%BC%C3%ADmar_05.jpg",
+    "src": "img/activites/TCI/piramides.jpg"
+   }
+  },
+  {
+   "id": "candelaria",
+   "nom": "Basilique de Candelaria et statues des rois guanches",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Candelaria (est)",
+   "lat": 28.35126,
+   "lng": -16.36991,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Basilique et place",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "En journée, tous les jours",
+   "enfants": true,
+   "texte": "Le grand sanctuaire des Canaries, qui abrite la Vierge noire patronne de l'archipel. Sur la place face à l'océan, neuf statues de bronze géantes représentent les rois guanches qui régnaient sur l'île avant la conquête espagnole : le lieu le plus symbolique de l'histoire canarienne.",
+   "site_officiel": "https://www.webtenerifefr.com/propos-tenerife/lile/communes/candelaria/lieux-interessants/",
+   "note": "Tenue correcte dans la basilique (épaules couvertes). Le 15 août, des milliers de pèlerins y marchent depuis toute l'île.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_la_Candelaria,_Candelaria,_Tenerife,_Espa%C3%B1a,_2012-12-12,_DD_09.jpg",
+    "src": "img/activites/TCI/candelaria.jpg"
+   }
+  },
+  {
+   "id": "santa-cruz",
+   "nom": "Santa Cruz : l'Auditorio et le marché",
+   "emoji": "🎼",
+   "type": "balade",
+   "quartier": "Santa Cruz de Tenerife",
+   "lat": 28.45607,
+   "lng": -16.25124,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Auditorio (extérieur), marché et ville",
+     "gratuit"
+    ],
+    [
+     "Visite guidée de l'Auditorio",
+     "≈ 5 à 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "La demi-journée",
+   "moment": "Le matin pour le marché (fermé le dimanche après-midi), en fin de journée pour l'Auditorio au soleil couchant",
+   "enfants": true,
+   "texte": "La capitale de l'île, vivante et peu touristique. Sa signature : l'Auditorio de Santiago Calatrava, une vague de béton blanc posée au bord de l'océan. On remonte par les rues piétonnes et les ramblas ombragées jusqu'au marché Nuestra Señora de África, plein de fruits tropicaux, de fromages et de mojos.",
+   "site_officiel": "https://www.webtenerifefr.com/propos-tenerife/lile/communes/santa-cruz-tenerife/lieux-interessants/auditorio-tenerife/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Auditorio_de_Tenerife,_Santa_Cruz_de_Tenerife,_Espa%C3%B1a,_2012-12-15,_DD_02.jpg",
+    "src": "img/activites/TCI/santa-cruz.jpg"
+   }
+  },
+  {
+   "id": "muna",
+   "nom": "Musée de la Nature et de l'Archéologie (momies guanches)",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Santa Cruz de Tenerife",
+   "lat": 28.46414,
+   "lng": -16.25034,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "5 €"
+    ],
+    [
+     "Étudiant, senior (65 ans et +)",
+     "3,50 €"
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ],
+    [
+     "Vendredi et samedi dès 16 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      7,
+      0
+     ],
+     [
+      17,
+      3.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "",
+   "duree": "1 h 30",
+   "moment": "Tous les jours, de 9 h à 19 h (dimanche de 10 h à 17 h)",
+   "enfants": true,
+   "texte": "Le grand musée des Canaries, dans l'ancien hôpital civil : on y découvre les Guanches, le peuple qui vivait sur l'île avant les Espagnols, à travers leurs momies étonnamment bien conservées, leurs outils et leurs poteries, puis la naissance volcanique de l'archipel et sa faune unique.",
+   "site_officiel": "https://www.museosdetenerife.org/muna-museo-de-naturaleza-y-arqueologia/",
+   "note": "Audioguide gratuit en français sur votre téléphone.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Museo_de_la_Naturaleza_y_el_Hombre,_Santa_Cruz_de_Tenerife,_Espa%C3%B1a,_2012-12-15,_DD_01.jpg",
+    "src": "img/activites/TCI/muna.jpg"
+   }
+  },
+  {
+   "id": "medano",
+   "nom": "El Médano et la Montaña Roja",
+   "emoji": "🪁",
+   "type": "plage",
+   "quartier": "El Médano (sud)",
+   "lat": 28.02702,
+   "lng": -16.54907,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plages et sentier de la Montaña Roja",
+     "gratuit"
+    ],
+    [
+     "Cours de kitesurf ou de planche à voile",
+     "≈ 60 à 90 € les 2 h"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "La demi-journée",
+   "moment": "L'après-midi, quand le vent se lève et que les voiles colorées envahissent la baie",
+   "enfants": true,
+   "texte": "Le village des surfeurs, à 10 minutes de l'aéroport : de longues plages de sable clair, un vent constant qui en fait l'un des spots de planche à voile et de kitesurf les plus réputés au monde, et un ancien volcan rouge, la Montaña Roja, à gravir en 30 minutes pour la vue sur la plage sauvage de La Tejita.",
+   "site_officiel": "https://www.webtenerifefr.com/visiter/autres-espaces-naturels/montana-roja-y-montana-pelada/",
+   "note": "Le vent souffle fort presque tous les jours : idéal pour les sports de glisse, moins pour bronzer. La Tejita est plus abritée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jones suonatore",
+    "licence": "CC BY-SA 3.0 es",
+    "page": "https://commons.wikimedia.org/wiki/File:Monta%C3%B1a_roja_desde_el_Medano.jpg",
+    "src": "img/activites/TCI/medano.jpg"
+   }
+  },
+  {
+   "id": "kayak",
+   "nom": "Kayak et snorkeling avec les tortues",
+   "emoji": "🐢",
+   "type": "sport",
+   "quartier": "Los Cristianos / La Caleta (sud-ouest)",
+   "lat": 28.10067,
+   "lng": -16.75546,
+   "prix": 38,
+   "prix_detail": [
+    [
+     "Sortie guidée de 2 à 3 h, matériel compris",
+     "≈ 25 à 45 €"
+    ],
+    [
+     "Enfant (selon l'opérateur, dès 6-8 ans)",
+     "≈ 23 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 38,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      12,
+      23
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne",
+   "duree": "2 à 3 h",
+   "moment": "Le matin, quand la mer est plus calme",
+   "enfants": true,
+   "texte": "On pagaie le long de la côte de lave jusqu'aux zones où des tortues marines viennent se nourrir, puis on enfile masque et tuba pour nager avec elles ; avec un peu de chance, des dauphins passent au large. Une activité facile, sans expérience nécessaire.",
+   "site_officiel": "https://www.webtenerifefr.com/faire/sports/aquatique/kayak/beachandswimmingpools/caleta-de-adeje/",
+   "note": "Prix selon l'opérateur ; combinaison et masque fournis. Ne touchez pas les tortues et ne leur donnez pas à manger.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vlad & Marina Butsky",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Snorkelers_with_sea_turtle_(Kahaluu_Bay).jpg",
+    "src": "img/activites/TCI/kayak.jpg"
+   }
+  },
+  {
+   "id": "parapente",
+   "nom": "Parapente au-dessus de Costa Adeje",
+   "emoji": "🪂",
+   "type": "sport",
+   "quartier": "Adeje (sud-ouest)",
+   "lat": 28.1215,
+   "lng": -16.7302,
+   "prix": 90,
+   "prix_detail": [
+    [
+     "Vol en biplace de 15 à 25 min, avec moniteur",
+     "≈ 90 €"
+    ],
+    [
+     "Vol long depuis Ifonche (800 m de plus)",
+     "≈ 140 à 150 €"
+    ],
+    [
+     "Photos et vidéo",
+     "en supplément, ≈ 30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 90,
+    "enfants": [
+     [
+      7,
+      0
+     ],
+     [
+      15,
+      90
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant : les vols dépendent du vent, gardez une date de secours",
+   "duree": "2 h (dont 20 min de vol)",
+   "moment": "Vols de fin de matinée et d'après-midi, selon le vent",
+   "enfants": true,
+   "texte": "Décollage d'une montagne au-dessus d'Adeje, en tandem avec un moniteur, et atterrissage sur la plage de La Enramada : pendant 20 minutes, la côte sud, l'océan et La Gomera défilent sous vos pieds. L'un des sites de vol les plus réguliers d'Europe, sans aucune expérience requise.",
+   "site_officiel": "https://www.webtenerifefr.com/faire/sports/aerien/parapente/taucho-adeje/",
+   "note": "Prix moyens des écoles de la côte (transport jusqu'au décollage compris). Moins de 120 kg ; enfants acceptés par certaines écoles selon leur poids.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "TeWeBs",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tenerife_Tandem_Paragliders.JPG",
+    "src": "img/activites/TCI/parapente.jpg"
+   }
+  },
+  {
+   "id": "gomera",
+   "nom": "Excursion à La Gomera",
+   "emoji": "⛴️",
+   "type": "nature",
+   "quartier": "Depuis Los Cristianos (sud)",
+   "lat": 28.04848,
+   "lng": -16.7191,
+   "prix": 85,
+   "prix_detail": [
+    [
+     "Ferry aller-retour Los Cristianos – San Sebastián (50 min)",
+     "≈ 70 à 85 €"
+    ],
+    [
+     "Excursion organisée (ferry, car, guide, repas)",
+     "≈ 80 à 100 €"
+    ],
+    [
+     "Enfant",
+     "≈ moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 85,
+    "enfants": [
+     [
+      1,
+      0
+     ],
+     [
+      11,
+      42.5
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (ferry et excursions se remplissent l'été)",
+   "duree": "La journée",
+   "moment": "Premier ferry vers 8 h, retour en fin d'après-midi",
+   "enfants": true,
+   "texte": "La petite île voisine, à 50 minutes de bateau, est restée sauvage : une forêt primaire de lauriers classée par l'Unesco (Garajonay), des vallées de palmiers en terrasses, et le « silbo », une langue sifflée unique au monde que les bergers utilisent encore d'un versant à l'autre.",
+   "site_officiel": "https://www.fredolsen.es/es",
+   "note": "Sur place, il faut une voiture de location (on peut embarquer la sienne) ou une excursion organisée : l'île est montagneuse et les bus sont rares.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Till Niermann",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Gomera_-_Roque_Agando.jpg",
+    "src": "img/activites/TCI/gomera.jpg"
+   }
+  },
+  {
+   "id": "carnaval",
+   "nom": "Carnaval de Santa Cruz",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Santa Cruz de Tenerife",
+   "lat": 28.46359,
+   "lng": -16.25135,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Défilés et fêtes de rue",
+     "gratuit"
+    ],
+    [
+     "Galas (élection de la Reine…) au Recinto Ferial",
+     "payant, billets en ligne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "La soirée ou la nuit",
+   "moment": "Du 19 au 28 février 2027 dans les rues (galas dès le 22 janvier)",
+   "enfants": true,
+   "texte": "L'un des plus grands carnavals du monde, jumelé avec celui de Rio : des costumes à plumes et paillettes de plusieurs mètres, des fanfares de « murgas », et des nuits entières de fête dans les rues du centre, où des centaines de milliers de personnes se déguisent. Une expérience à vivre au moins une fois.",
+   "site_officiel": "https://carnavaldetenerife.com/",
+   "note": "Les hôtels de Santa Cruz sont pris d'assaut : réservez tôt. Le grand défilé (Coso) se tient en général le mardi gras.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "CARLOS TEIXIDOR CADENAS",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Desfile_del_S%C3%A1bado_de_Carnaval,_en_Santa_Cruz_de_Tenerife.JPG",
+    "src": "img/activites/TCI/carnaval.jpg"
+   }
+  },
+  {
+   "id": "cd-tenerife",
+   "nom": "Match du CD Tenerife",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Santa Cruz de Tenerife",
+   "lat": 28.46324,
+   "lng": -16.26055,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Billet de 2e division espagnole",
+     "≈ 15 à 40 €"
+    ],
+    [
+     "Derby contre Las Palmas",
+     "plus cher, vite complet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant sur le site du club",
+   "duree": "2 h 30",
+   "moment": "Un week-end sur deux, de mi-août à juin",
+   "enfants": true,
+   "club": "CD Tenerife",
+   "texte": "Le club de toute l'île, en blanc et bleu, joue au stade Heliodoro Rodríguez López, en plein Santa Cruz. Ambiance familiale et chaleureuse, et une ferveur qui monte d'un cran pour le derby canarien contre Las Palmas, le match le plus attendu de l'année.",
+   "site_officiel": "https://www.clubdeportivotenerife.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Magical Blas",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadioheliodoro1.jpg",
+    "src": "img/activites/TCI/cd-tenerife.jpg"
+   }
+  },
+  {
+   "id": "basket",
+   "nom": "Match de basket du CB Canarias",
+   "emoji": "🏀",
+   "type": "sport",
+   "quartier": "La Laguna",
+   "lat": 28.45837,
+   "lng": -16.29696,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Championnat d'Espagne (Liga ACB)",
+     "≈ 15 à 35 €"
+    ],
+    [
+     "Coupe d'Europe (Basketball Champions League)",
+     "≈ 15 à 30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne : la salle de 5 000 places est souvent pleine",
+   "duree": "2 h 30",
+   "moment": "Le week-end pour le championnat, en semaine pour la coupe d'Europe",
+   "enfants": true,
+   "club": "La Laguna Tenerife",
+   "texte": "Le club de La Laguna est l'un des meilleurs d'Espagne et a été plusieurs fois champion d'Europe de la Basketball Champions League. Dans la petite salle Santiago Martín, l'ambiance est bruyante et passionnée : le meilleur plan sport de l'île.",
+   "site_officiel": "https://www.cbcanarias.net/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "EduardoBL",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pabell%C3%B3n_Insular_Santiago_Mart%C3%ADn.jpg",
+    "src": "img/activites/TCI/basket.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "costa-adeje",
+   "nom": "Costa Adeje",
+   "lat": 28.0905,
+   "lng": -16.7405,
+   "texte": "Le quartier chic du sud : de belles plages de sable doré (El Duque, Fañabé), une promenade au bord de l'eau, les meilleures tables étoilées de l'île et le Siam Park. Soleil presque garanti toute l'année ; idéal pour un séjour plage et confort."
+  },
+  {
+   "id": "los-cristianos",
+   "nom": "Los Cristianos et Las Américas",
+   "lat": 28.0505,
+   "lng": -16.7175,
+   "texte": "L'ancien port de pêche devenu grande station : plages abritées, restaurants pour tous les budgets, vie nocturne à Las Américas et départ des bateaux vers La Gomera et des sorties baleines. Le choix le plus pratique, à 20 minutes de l'aéroport Sud."
+  },
+  {
+   "id": "puerto-de-la-cruz",
+   "nom": "Puerto de la Cruz",
+   "lat": 28.4155,
+   "lng": -16.549,
+   "texte": "Une vraie ville canarienne au bord de l'océan, plus verte et un peu moins ensoleillée que le sud : vieux port, place du Charco, Lago Martiánez et Loro Parque, à 45 minutes du Teide. La meilleure base pour découvrir le nord, La Orotava et La Laguna."
+  },
+  {
+   "id": "santa-cruz",
+   "nom": "Santa Cruz de Tenerife",
+   "lat": 28.4672,
+   "lng": -16.251,
+   "texte": "La capitale, animée et peu touristique : rues piétonnes, musées, marché, l'Auditorio et le tramway vers La Laguna. Proche de la plage de Las Teresitas et de la forêt d'Anaga ; c'est là qu'il faut dormir pendant le carnaval."
+  },
+  {
+   "id": "los-gigantes",
+   "nom": "Los Gigantes et Puerto de Santiago",
+   "lat": 28.242,
+   "lng": -16.84,
+   "texte": "Deux villages blancs tranquilles au pied des falaises de Los Gigantes, sur la côte ouest la plus ensoleillée : petites plages de sable noir, piscines naturelles, couchers de soleil sur La Gomera et départs des bateaux vers Masca. À 40 minutes de l'aéroport Sud."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "el-cine",
+   "nom": "Bar Restaurante El Cine",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson frit du port",
+   "quartier": "Los Cristianos",
+   "adresse": "Paseo Juan Bariajo, 8, 38650 Los Cristianos",
+   "lat": 28.04905,
+   "lng": -16.717,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis 1987, la cantine des pêcheurs et des habitants dans une rue derrière le port de Los Cristianos : poisson du jour frit ou grillé, calamars, papas arrugadas au mojo et salade de tomates, à prix doux. Pas de chichis, du monde à toute heure, et l'une des meilleures adresses de poisson du sud.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez avant 13 h ou après 15 h pour éviter l'attente",
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_Esp%C3%ADndola,_La_Palma,_seafood_platter.jpg",
+    "src": "img/restos/TCI/el-cine.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ana-y-eva",
+   "nom": "Guachinche La Huerta de Ana y Eva",
+   "emoji": "🍷",
+   "gamme": "petit",
+   "genre": "Guachinche (vin du domaine et cuisine maison)",
+   "quartier": "La Matanza de Acentejo (nord)",
+   "adresse": "Calle Obispo Pérez Cáceres, 25, 38370 La Matanza de Acentejo",
+   "lat": 28.45377,
+   "lng": -16.44934,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Le guachinche est une institution de Tenerife : une famille de vignerons ouvre sa cour pour écouler le vin de l'année, avec une petite carte de plats maison. Ici, dans un grand patio au milieu des vignes, on partage viande grillée, chèvre en sauce, poisson « jurel » et papas au mojo, arrosés du vin de la maison, pour une poignée d'euros.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille par téléphone le week-end ; ouvert surtout le midi (souvent jusqu'à 17 h), espèces conseillées",
+   "photo": {
+    "auteur": "Moisesdarias",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Islas_Canarias-Tenerife-La_Victoria_de_Acentejo-Guachinche-_Casa_Pepe_2013-05-21_13-18.jpg",
+    "src": "img/restos/TCI/ana-y-eva.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tocuyo",
+   "nom": "Bodegón Tocuyo",
+   "emoji": "🧀",
+   "gamme": "petit",
+   "genre": "Bodegón : vins, fromages et charcuterie",
+   "quartier": "San Cristóbal de La Laguna",
+   "adresse": "Calle Juan de Vera, 16, 38201 San Cristóbal de La Laguna",
+   "lat": 28.4903,
+   "lng": -16.31628,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une vieille taverne de la ville universitaire, aux murs couverts de bouteilles et de jambons suspendus. On s'y attable depuis plus de 35 ans pour du fromage de chèvre canarien, de la charcuterie, de l'almogrote (pâte de fromage pimentée) et un verre de vin de l'île, entre deux balades dans la vieille ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation, le soir surtout",
+   "photo": {
+    "auteur": "CRDOP Queso Palmero",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Queso_Palmero_(cropped).jpg",
+    "src": "img/restos/TCI/tocuyo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "zapateria",
+   "nom": "Furancho La Zapatería",
+   "emoji": "🐙",
+   "gamme": "petit",
+   "genre": "Cuisine galicienne",
+   "quartier": "Icod de los Vinos (nord-ouest)",
+   "adresse": "Paseo Canarina, 38430 Icod de los Vinos",
+   "lat": 28.37634,
+   "lng": -16.69913,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin",
+   "texte": "Un « furancho », cette taverne galicienne où l'on boit le vin du propriétaire, au cœur d'Icod de los Vinos : poulpe à la galicienne, empanadas, pimientos de Padrón et viandes à la braise, servis généreusement. La halte idéale après le dragonnier millénaire.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, le week-end",
+   "photo": {
+    "auteur": "arroutado",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polbo_%C3%A1_feira_en_R%C3%A1bade.jpg",
+    "src": "img/restos/TCI/zapateria.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chimiche",
+   "nom": "El Secreto de Chimiche",
+   "emoji": "🐐",
+   "gamme": "petit",
+   "genre": "Cuisine canarienne de terroir",
+   "quartier": "Chimiche (sud, près de l'aéroport)",
+   "adresse": "Carretera TF-28, km 4, 38594 Chimiche (Granadilla de Abona)",
+   "lat": 28.12914,
+   "lng": -16.52784,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin",
+   "texte": "Sur l'ancienne route du sud, une maison de village où l'on retrouve la cuisine des grands-mères canariennes, juste un peu plus fine : chèvre mijotée, fromage grillé, potajes de légumes et desserts au gofio (farine de céréales grillées). À 15 minutes de l'aéroport, parfait pour le premier ou le dernier repas.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Abhay Kumar from San Francisco, CA, USA",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mojo_verde_y_papas_arrug%C3%A1s.jpg",
+    "src": "img/restos/TCI/chimiche.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "meson-norte",
+   "nom": "Mesón del Norte",
+   "emoji": "🔥",
+   "gamme": "petit",
+   "genre": "Grillades de montagne au feu de bois",
+   "quartier": "Las Portelas (route de Masca)",
+   "adresse": "Calle General Masca, 1, 38489 Las Portelas (Buenavista del Norte)",
+   "lat": 28.32721,
+   "lng": -16.8443,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Une auberge de montagne dans le massif de Teno, sur la route de Masca : viandes grillées au feu de bois, plats canariens mijotés et fromage de chèvre, servis copieusement à petits prix. Une adresse de randonneurs et de familles du nord, parmi les mieux notées de l'île, avant ou après la route de Masca.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "rene boulay",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canaries_Tenerife_Teno_Mirador_Altos_Baracan_Vue_Barranco_-_panoramio.jpg",
+    "src": "img/restos/TCI/meson-norte.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "etereo",
+   "nom": "Etéreo by Pedro Nel",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Viandes maturées à la braise",
+   "quartier": "Santa Cruz de Tenerife",
+   "adresse": "Calle San Antonio, 63, 38001 Santa Cruz de Tenerife",
+   "lat": 28.47346,
+   "lng": -16.25195,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélection du guide Michelin",
+   "texte": "La meilleure viande de la capitale selon beaucoup d'habitants : côtes de bœuf maturées (galicienne, simmental, black angus) saisies à la braise, à partager, avec des entrées créatives et quelques poissons. Une salle moderne et animée, à deux pas du centre.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant pour le week-end",
+   "photo": {
+    "auteur": "Xemenendura",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chulet%C3%B3n_de_buey_avile%C3%B1o.jpeg",
+    "src": "img/restos/TCI/etereo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "rebojo",
+   "nom": "El Rebojo",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Cuisine de la mer et vins de l'île",
+   "quartier": "Garachico (nord-ouest)",
+   "adresse": "Calle Francisco Martínez de Fuentes, 17, 38450 Garachico",
+   "lat": 28.3735,
+   "lng": -16.76469,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin",
+   "texte": "Dans une maison du vieux Garachico, des « bouchées de mer » à partager qui revisitent la cuisine canarienne (poisson du jour, lapas, thon mariné), une belle carte de vins de l'île et un cheesecake au fromage fumé local devenu célèbre. Deux menus dégustation racontent le littoral de l'Isla Baja.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant ; fermé le mercredi et le jeudi",
+   "photo": {
+    "auteur": "wuppertaler",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ESP_Tenerife,_Garachico,_Calle_Francisco_Montesdeoca_y_Garc%C3%ADa_0002.jpg",
+    "src": "img/restos/TCI/rebojo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ss57",
+   "nom": "San Sebastián 57",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Cuisine de marché",
+   "quartier": "Santa Cruz de Tenerife",
+   "adresse": "Avenida de San Sebastián, 57, 38005 Santa Cruz de Tenerife",
+   "lat": 28.46364,
+   "lng": -16.25314,
+   "prix": "35 à 50 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin",
+   "texte": "Une petite salle près du marché Nuestra Señora de África, où le chef travaille les produits du jour : poissons des Canaries, légumes de l'île, viandes mijotées et desserts maison. L'une des meilleures tables de la ville pour son prix, très prisée des Tinerfeños.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant, par téléphone (souvent complet)",
+   "photo": {
+    "auteur": "Tuxyso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Obststand-Mercado_de_Nuestra_Se%C3%B1ora_de_Africa_2015.jpg",
+    "src": "img/restos/TCI/ss57.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kiki",
+   "nom": "Kiki",
+   "emoji": "🍣",
+   "gamme": "moyen",
+   "genre": "Japonais",
+   "quartier": "Santa Cruz de Tenerife",
+   "adresse": "Calle Imeldo Serís, 19, 38003 Santa Cruz de Tenerife",
+   "lat": 28.4663,
+   "lng": -16.25091,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin",
+   "texte": "Un comptoir japonais intimiste au rez-de-chaussée d'un hôtel du centre : nigiris et sashimis taillés devant vous avec le poisson pêché autour de l'île, thon rouge, tempuras légères et quelques plats chauds. Un des japonais les plus réputés des Canaries, sans les prix d'un palace.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant (peu de places au comptoir)",
+   "photo": {
+    "auteur": "Tim Reckmann from Hamm, Deutschland",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nigiri_Sushi_(26478725732).jpg",
+    "src": "img/restos/TCI/kiki.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "monasterio",
+   "nom": "Mesón El Monasterio",
+   "emoji": "🏰",
+   "gamme": "moyen",
+   "genre": "Cuisine canarienne dans un ancien monastère",
+   "quartier": "Los Realejos (vallée de La Orotava)",
+   "adresse": "Carretera La Montañeta, 12, 38419 Los Realejos",
+   "lat": 28.39082,
+   "lng": -16.55925,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un ancien monastère sur les pentes d'un petit volcan, au-dessus de Puerto de la Cruz, transformé en immense domaine : plusieurs salles de pierre, des jardins fleuris et une vue sur la vallée et l'océan. On y vient en famille depuis des décennies pour les grillades, le poisson et les plats canariens.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dimanche midi",
+   "photo": {
+    "auteur": "Николай Максимович",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meson_el_Monasterio,_Monta%C3%B1eta,_Los_Realejos,_Tenerife,_Spain._%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%BD%D1%8C%D0%B5%D1%82%D0%B0,_%D0%9B%D0%BE%D1%81-%D0%A0%D0%B5%D0%B0%D0%BB%D0%B5%D1%85%D0%BE%D1%81,_%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F_-_panoramio.jpg",
+    "src": "img/restos/TCI/monasterio.jpg"
+   }
+  },
+  {
+   "id": "osteria-sea",
+   "nom": "L'Osteria Sea",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Italien face à l'océan",
+   "quartier": "Callao Salvaje (sud-ouest)",
+   "adresse": "Playa de Ajabo, Calle la Lava, 38678 Callao Salvaje (Adeje)",
+   "lat": 28.12735,
+   "lng": -16.78201,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Une terrasse posée au-dessus de la petite plage noire d'Ajabo, face à La Gomera : pâtes fraîches, poisson grillé et pizzas, avec le coucher de soleil sur l'océan en prime. L'endroit idéal pour un dîner les pieds presque dans l'eau, loin de l'agitation de Las Américas.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en bord de terrasse au coucher du soleil",
+   "photo": {
+    "auteur": "Marek Hrycak",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Callao_Salvaje_-_Tenerife_-_panoramio_(3).jpg",
+    "src": "img/restos/TCI/osteria-sea.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "juan-carlos",
+   "nom": "El Rincón de Juan Carlos",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Haute cuisine créative",
+   "quartier": "La Caleta (Costa Adeje)",
+   "adresse": "Royal Hideaway Corales Beach, Avenida Virgen de Guadalupe, 21, 38679 La Caleta",
+   "lat": 28.0995,
+   "lng": -16.7541,
+   "prix": "≈ 200 à 300 €",
+   "prix_min": 200,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles au guide Michelin",
+   "texte": "La table la plus célèbre de l'île, tenue par les frères Padrón depuis bientôt 25 ans : un long menu dégustation inventif où les produits canariens (poissons, fromages, gofio) prennent des formes inattendues, plus de 600 vins, et une salle tournée vers l'océan.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant ; menu unique (pas pour les végétariens)",
+   "photo": {
+    "auteur": "Marc Ryckaert (MJJR)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Caleta_R04.jpg",
+    "src": "img/restos/TCI/juan-carlos.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mb",
+   "nom": "M.B",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine basque d'auteur",
+   "quartier": "Abama (Guía de Isora)",
+   "adresse": "The Ritz-Carlton Tenerife, Abama, Carretera TF-47, km 9, 38687 Guía de Isora",
+   "lat": 28.17093,
+   "lng": -16.80142,
+   "prix": "≈ 230 à 300 €",
+   "prix_min": 230,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles au guide Michelin",
+   "texte": "La table de Martín Berasategui, chef basque aux 12 étoiles Michelin, dans le décor spectaculaire de l'Abama, une citadelle ocre entourée de bananiers qui domine l'océan. Menus dégustation d'une précision rare, mêlant ses grands classiques et les produits des Canaries, pour une soirée d'exception.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant ; dîner seulement",
+   "photo": {
+    "auteur": "Wouter Hagens",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A0368_Tenerife,_hotel_Abama_aerial_view.jpg",
+    "src": "img/restos/TCI/mb.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "san-ho",
+   "nom": "San-Hô",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine nikkei (Japon-Pérou)",
+   "quartier": "La Caleta (Costa Adeje)",
+   "adresse": "Royal Hideaway Corales Beach, Avenida Virgen de Guadalupe, 21, 38679 La Caleta",
+   "lat": 28.0996,
+   "lng": -16.7543,
+   "prix": "≈ 100 à 150 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin",
+   "texte": "La rencontre du Japon et du Pérou avec les poissons de l'Atlantique : ceviches, tiraditos, nigiris flambés et sauces au piment péruvien, dans une salle élégante tournée vers la mer. Une étoile Michelin et un Soleil Repsol pour l'une des tables les plus originales de l'île.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant",
+   "photo": {
+    "auteur": "Jorge G. Mori",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_(La_Punta,_Callao).jpg",
+    "src": "img/restos/TCI/san-ho.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "haydee",
+   "nom": "Haydée by Víctor Suárez",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine canarienne d'auteur",
+   "quartier": "Costa Adeje",
+   "adresse": "Gran Tacande, Calle Unterhaching, s/n, 38660 Costa Adeje",
+   "lat": 28.09179,
+   "lng": -16.74029,
+   "prix": "≈ 110 à 135 €",
+   "prix_min": 110,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin",
+   "texte": "Le chef Víctor Suárez réinvente la cuisine canarienne de son enfance (gofio, mojos, poissons du jour, fromages de chèvre qu'il fabrique lui-même) dans deux menus dégustation de 9 et 14 plats. Installé depuis 2025 dans une demeure de Costa Adeje, il a gardé son étoile.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; fermé du dimanche au mardi",
+   "photo": {
+    "auteur": "Malopez 21",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Gofio,_gofio_de_millo_del_pa%C3%ADs_y_gofio_de_millo_artesano.jpg",
+    "src": "img/restos/TCI/haydee.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "donaire",
+   "nom": "Donaire",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine de produit, poisson et légumes de l'île",
+   "quartier": "Costa Adeje",
+   "adresse": "GF Victoria, Calle Fernando López Arvelo, 1, 38660 Costa Adeje",
+   "lat": 28.09255,
+   "lng": -16.73907,
+   "prix": "≈ 90 à 130 €",
+   "prix_min": 90,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin",
+   "texte": "À l'hôtel GF Victoria, face à la plage du Duque, le chef Richard Gonçalves sublime les produits des producteurs et pêcheurs de Tenerife dans deux menus dégustation. Étoilé dès 2025, avec un Soleil Repsol.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant ; dîner seulement, du mardi au samedi",
+   "photo": {
+    "auteur": "wuppertaler",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ESP_Tenerife,_Adeje,_Costa_Adeje,_Playa_del_Duque_0008.jpg",
+    "src": "img/restos/TCI/donaire.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "codeso",
+   "nom": "Codeso",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Bistronomie canarienne",
+   "quartier": "Los Gigantes (ouest)",
+   "adresse": "Pasaje Jacaranda, 2, 38683 Los Gigantes",
+   "lat": 28.24384,
+   "lng": -16.84101,
+   "prix": "≈ 60 à 90 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin",
+   "texte": "Le nom vient d'un arbuste des Canaries : dans une salle discrète de Los Gigantes, l'équipe propose une cuisine canarienne moderne et soignée, à la carte ou en menu dégustation, avec des desserts très réussis. Le bon plan gastronomique de l'ouest, au pied des falaises.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; fermé du lundi au mercredi",
+   "photo": {
+    "auteur": "rene boulay",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Canaries_Tenerife_Los_Gigantes_Puerto_07092015_-_panoramio_(1).jpg",
+    "src": "img/restos/TCI/codeso.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

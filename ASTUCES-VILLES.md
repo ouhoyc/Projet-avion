@@ -144,3 +144,7 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Prix lisibles avec Playwright : maintower.de/eintrittspreise-oeffnungszeiten, staedelmuseum.de/de/besuch, dommuseum-frankfurt.de
   (tour), primus-linie.de ; Palmengarten : tarifs cachés dans un menu dépliant (lire le HTML de la page avec Playwright). Cartes des
   restaurants : speisekarte.de (prix dans `"price" content=`). Pages `File:` de Commons sans `fileinfotpl_aut` : lire la ligne « Author ».
+- Tenerife (nov. 2026) : île entière sur Wanderlog géo 9632 (départ `geoCategory/74437`) en suivant les listes des communes (Adeje, Arona,
+  Puerto de la Cruz, La Laguna…) et en gardant les codes postaux 380xx-386xx : 288 listes, ~2 040 restaurants. L'API Commons répondait 429 :
+  recherche HTML (`Special:Search`, `ns6=1`) + `thumb.php`. Site officiel du tourisme en français : `webtenerifefr.com` (sitemap.xml lisible) ;
+  prix du téléphérique sur `volcanoteide.com/en/teide_cable_car/prices_and_opening_times`, Loro Parque sur `etickets.pa-community.com`.

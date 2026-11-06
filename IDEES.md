@@ -284,6 +284,24 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (06/11/2026) **Page guide de Tenerife** (`guides/TCI.json`, `"ile": true`, champ `ville`), préparée en autonomie : 29 activités
+  (téléphérique du Teide 43 €/21,50 € de 3 à 13 ans, Roques de García, étoiles au Teide (≈ 79 €, prix d'agences), Masca (ravin dès 40,66 €
+  avec navette obligatoire depuis Santiago del Teide, bateau en plus), falaises de Los Gigantes, baleines et dauphins (≈ 28 €), Loro Parque
+  et Siam Park (44 €/32 € de 3 à 11 ans, jumelé 78 €), forêt d'Anaga, Benijo, Las Teresitas, La Laguna, La Orotava (Casa de los Balcones
+  ≈ 5 €), Puerto de la Cruz et Lago Martiánez (7 €), Garachico, dragonnier d'Icod (5 €), Cueva del Viento (25 €, 8,50 € de 5 à 12 ans),
+  Barranco del Infierno (16 €), pyramides de Güímar (18 €), Candelaria, Santa Cruz et l'Auditorio, MUNA (5 €, gratuit ven./sam. dès 16 h),
+  El Médano, kayak et tortues, parapente, excursion à La Gomera, carnaval (19-28/02/2027) ; matchs du CD Tenerife (2e division, club
+  « CD Tenerife ») et du CB Canarias (club « La Laguna Tenerife »)), 18 restaurants (note pondérée, C = 4,40, ~2 040 restaurants de toute
+  l'île lus via 288 listes Wanderlog (géo 9632) ; Michelin 2026 : El Rincón de Juan Carlos et M.B 2 étoiles, San-Hô, Haydée (installé à
+  Costa Adeje depuis 2025) et Donaire 1 étoile, El Rebojo, San Sebastián 57, Furancho La Zapatería et El Secreto de Chimiche Bib
+  Gourmand, Etéreo, Kiki et Codeso sélectionnés ; institutions : El Cine (1987), Bodegón Tocuyo, Mesón El Monasterio ; un guachinche),
+  5 lieux pour dormir (Costa Adeje, Los Cristianos/Las Américas, Puerto de la Cruz, Santa Cruz, Los Gigantes), pas de formalités (Union
+  européenne), pas de lien Tiqets (seulement des combinés plus chers). **Réseaux sociaux (Apify) pas lancés** (crédit épuisé) : badges
+  tendance d'après le web. Centre de Tenerife déplacé à Santa Cruz dans `matchs-cache.json` (il était au milieu de l'île, à plus de
+  25 km des stades) : `matchs/TCI.json` sera créé par la tâche du lundi. Écartés : El Taller Seve Díaz (étoilé, fermé pour travaux),
+  Palmelita/Café Melita (chaîne), Casa del Vino (changement d'exploitant incertain), La Hierbita et les Cofradías (notes 3,9-4,1).
+  Prix estimés : menus des tables étoilées (non publiés), étoiles au Teide, sorties en mer, kayak, parapente, ferry de La Gomera,
+  billets de foot et de basket, tarifs enfants du Barranco del Infierno et des pyramides.
 - ✅ (06/11/2026) **Page guide de Francfort** (`guides/FRA.json`), préparée en autonomie : 24 activités (Römerberg, nouvelle vieille ville
   DomRömer, tour de la cathédrale (3 €), plateforme de la Main Tower (9 €), Eiserner Steg et quais, Alt-Sachsenhausen, Städel (19 €,
   10 € le mardi), maison de Goethe (12 €), musée historique (8 €), musée juif + Judengasse (12 €), Senckenberg (12 €), musée du cinéma
@@ -438,7 +456,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich.
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade
