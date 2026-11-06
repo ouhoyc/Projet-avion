@@ -1,0 +1,3 @@
+# Projet Vercel « projet-avion-photos » (dossier racine img/) : ce fichier remplace le
+# .vercelignore du dépôt, qui exclut img/ du site principal. Ne rien exclure ici.
+.vercelignore
