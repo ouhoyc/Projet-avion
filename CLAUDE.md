@@ -34,6 +34,8 @@ Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du sit
   débordait. Les photos sont servies par le projet Vercel `projet-avion-photos` (dossier racine `img`,
   ne se remet en ligne que si `img/` change) ; `vercel.json` redirige `/img/...` vers lui. Ne pas
   retirer `img/` de `.vercelignore` ni changer les chemins `img/...` dans les JSON.
+  Ne pas supprimer `img/.vercelignore` : sans lui, le projet photos reprend le `.vercelignore` du dépôt et se met en
+  ligne **vide** (arrivé le 06/11/2026). Après chaque ajout de photos, vérifier qu'une photo neuve répond en ligne.
 - `index.html` : la page.
   - **Accueil « agence de voyage »** (22/10/2026) : titre court « Où partir depuis Lyon ? ».
     **Durée vierge à l'arrivée** (choix du propriétaire, rien n'est mémorisé) : la page reste **vide**
