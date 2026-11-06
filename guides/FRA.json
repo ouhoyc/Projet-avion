@@ -1,0 +1,1641 @@
+{
+ "city_code": "FRA",
+ "statut": "préparé en autonomie, prix relevés le 06/11/2026",
+ "verifie_le": "2026-11-06",
+ "prix_match": 40,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 120,
+ "activites": [
+  {
+   "id": "romerberg",
+   "nom": "Römerberg et l'hôtel de ville (Römer)",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 50.110288,
+   "lng": 8.682155,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Place et façades",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Tôt le matin pour la photo sans la foule, ou à la nuit tombée quand les façades s'illuminent",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le cœur historique de Francfort : une rangée de maisons à pignons en escalier, dont le Römer, hôtel de ville depuis 1405, où l'on donnait les banquets du couronnement des empereurs. Au centre, la fontaine de la Justice ; en face, les maisons à colombages de l'Ostzeile, reconstruites à l'identique dans les années 1980 après les bombardements de 1944.",
+   "site_officiel": "https://www.visitfrankfurt.travel/",
+   "note": "Tout se visite à pied : la cathédrale, la nouvelle vieille ville et l'Eiserner Steg sont à moins de 5 minutes.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Thomas Wolf (Der Wolf im Wald)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:R%C3%B6merberg_Frankfurt_abends.jpg",
+    "src": "img/activites/FRA/romerberg.jpg"
+   }
+  },
+  {
+   "id": "neue-altstadt",
+   "nom": "La nouvelle vieille ville (quartier DomRömer)",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 50.111068,
+   "lng": 8.684027,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Ruelles et places",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée, quand les boutiques et les cafés sont ouverts",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Rasée en 1944, la vieille ville est ressuscitée en 2018 : 35 maisons, dont 15 reconstruites à l'identique d'après les plans et les photos d'avant-guerre, le long de l'ancien chemin du couronnement qui menait de la cathédrale au Römer. Le Hühnermarkt, avec ses façades colorées et sa fontaine, est devenu l'un des coins les plus photographiés de la ville.",
+   "site_officiel": "https://www.domroemer.de/",
+   "note": "Ne manquez pas la maison « Zur Goldenen Waage », la plus belle des reconstructions ; son café est dans nos adresses (étape Restos).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main_-_H%C3%BChnermarkt_%28Nord-_ud_Westseite%29.jpg",
+    "src": "img/activites/FRA/neue-altstadt.jpg"
+   }
+  },
+  {
+   "id": "kaiserdom",
+   "nom": "Cathédrale Saint-Barthélemy et sa tour",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Vieille ville",
+   "lat": 50.110663,
+   "lng": 8.68542,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Cathédrale",
+     "gratuit"
+    ],
+    [
+     "Montée à la tour (328 marches, plateforme à 66 m)",
+     "3 € (réduit 2 €)"
+    ],
+    [
+     "Le week-end, avec l'exposition de la chambre du guetteur",
+     "5 € (réduit 3 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [
+     [
+      17,
+      2
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Tour en hiver (novembre-mars) : du mardi au vendredi 10 h-17 h, le week-end 11 h-17 h, fermée le lundi ; en été tous les jours jusqu'à 18 h",
+   "texte": "Sa flèche gothique de 95 m domine la vieille ville depuis le XVe siècle. C'est ici que l'on élisait les empereurs du Saint-Empire, puis qu'on les couronnait (dix couronnements de 1562 à 1792). Grimpez les 328 marches de la tour : la plateforme, à 66 m, offre la plus belle vue sur les toits de la vieille ville, avec les gratte-ciel juste en face.",
+   "site_officiel": "https://dommuseum-frankfurt.de/fuehrungen/domturm",
+   "note": "Le nombre de personnes dans la tour est limité : attente possible le week-end. Fermée par très mauvais temps. Dernière montée 30 min avant la fermeture.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Norbert Nagel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaiserdom_St._Bartholom%C3%A4us_-_Frankfurt_-_Germany_-_02.jpg",
+    "src": "img/activites/FRA/kaiserdom.jpg"
+   }
+  },
+  {
+   "id": "main-tower",
+   "nom": "Plateforme panoramique de la Main Tower",
+   "emoji": "🏙️",
+   "type": "vue",
+   "quartier": "Quartier des banques",
+   "lat": 50.11254,
+   "lng": 8.67214,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "9 €"
+    ],
+    [
+     "Tarif réduit (enfants, étudiants)",
+     "6 €"
+    ],
+    [
+     "Famille (2 adultes et jusqu'à 3 enfants de 6 à 12 ans)",
+     "20 €"
+    ],
+    [
+     "Quand le mauvais temps limite l'accès à la terrasse",
+     "4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Au coucher du soleil ; en hiver 10 h-19 h (21 h le vendredi et le samedi), en été jusqu'à 21 h (23 h le vendredi et le samedi)",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La seule tour de Francfort dont le toit est ouvert au public : un ascenseur vous hisse à 200 m, sur une terrasse en plein air au milieu des tours des banques. Vue à 360° sur « Mainhattan », le fleuve, la vieille ville et, par temps clair, les collines du Taunus.",
+   "site_officiel": "https://maintower.de/eintrittspreise-oeffnungszeiten/",
+   "note": "Contrôle de sécurité comme à l'aéroport, pas de gros bagages. Les billets en ligne ne font pas gagner de temps : achetez-les à la caisse. Dernière montée 45 min avant la fermeture.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maintower%2C_Frankfurt%2C_view_to_east.jpg",
+    "src": "img/activites/FRA/main-tower.jpg"
+   }
+  },
+  {
+   "id": "eiserner-steg",
+   "nom": "L'Eiserner Steg et les quais du Main",
+   "emoji": "🌉",
+   "type": "balade",
+   "quartier": "Bords du Main",
+   "lat": 50.108111,
+   "lng": 8.682129,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Passerelle et quais",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de journée, quand la skyline se reflète dans le fleuve",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La passerelle de fer de 1869, couverte de cadenas d'amoureux, relie la vieille ville à Sachsenhausen. C'est LE point de vue sur la skyline. Descendez ensuite sur les quais aménagés, où les Francfortois pique-niquent l'été, puis longez la rive sud, le « Museumsufer », bordée de musées installés dans de belles villas.",
+   "site_officiel": "https://www.visitfrankfurt.travel/",
+   "note": "Les bateaux de croisière partent du pied de la passerelle (voir « Croisière sur le Main »).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "DXR",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eiserner_Steg%2C_Frankfurt%2C_South_view_20211016_1.jpg",
+    "src": "img/activites/FRA/eiserner-steg.jpg"
+   }
+  },
+  {
+   "id": "sachsenhausen",
+   "nom": "Alt-Sachsenhausen, le quartier du cidre",
+   "emoji": "🍏",
+   "type": "balade",
+   "quartier": "Sachsenhausen",
+   "lat": 50.105745,
+   "lng": 8.691293,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi et le soir, quand les tavernes s'animent",
+   "texte": "Ruelles pavées, maisons à colombages et pichets suspendus aux enseignes : c'est le royaume de l'« Ebbelwoi », le cidre sec de Francfort, servi dans un pichet de grès gris et bleu (le « Bembel ») et des verres à facettes. Flânez dans la Klappergasse et la Große Rittergasse, puis poussez jusqu'à la Schweizer Straße, plus authentique, bordée des tavernes les plus réputées.",
+   "site_officiel": "https://www.visitfrankfurt.travel/",
+   "note": "Pour goûter le cidre et la « Grüne Soße » (sauce aux sept herbes), voyez nos adresses à l'étape Restos.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pedelecs",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Klappergasse_Ebbelwoi-Viertel_Frankfurt_Alt-Sachsenhausen.jpg",
+    "src": "img/activites/FRA/sachsenhausen.jpg"
+   }
+  },
+  {
+   "id": "staedel",
+   "nom": "Städel Museum",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Museumsufer (Sachsenhausen)",
+   "lat": 50.103092,
+   "lng": 8.674058,
+   "prix": 19,
+   "prix_detail": [
+    [
+     "Adulte (du mardi au dimanche)",
+     "19 €"
+    ],
+    [
+     "Tarif réduit (jeunes, étudiants)",
+     "17 €"
+    ],
+    [
+     "Le mardi, tarif unique",
+     "10 €"
+    ],
+    [
+     "Famille",
+     "30 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19,
+    "enfants": [
+     [
+      11,
+      0
+     ],
+     [
+      17,
+      17
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne conseillé le week-end et pendant les grandes expositions",
+   "duree": "2 h 30",
+   "moment": "Le mardi (10 € pour tous) ; ouvert de 10 h à 18 h, jusqu'à 21 h le jeudi, fermé le lundi",
+   "texte": "L'un des grands musées d'art d'Europe : sept siècles de peinture, de Botticelli et Vermeer à Monet, Picasso et Gerhard Richter, en passant par le célèbre « Goethe dans la campagne romaine » de Tischbein. Le palais du XIXe siècle se prolonge par des salles souterraines dont le toit, parsemé de hublots, forme une étonnante pelouse.",
+   "site_officiel": "https://www.staedelmuseum.de/de/besuch",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Städel Museum",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St%C3%A4del_Museum%2C_Frankfurt_am_Main%2C_Au%C3%9Fenansicht_%28cropped%29.jpg",
+    "src": "img/activites/FRA/staedel.jpg"
+   }
+  },
+  {
+   "id": "goethe-haus",
+   "nom": "Maison natale de Goethe et musée du Romantisme",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Centre-ville",
+   "lat": 50.111341,
+   "lng": 8.67761,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "12 €"
+    ],
+    [
+     "Avec l'exposition temporaire",
+     "15 €"
+    ],
+    [
+     "Étudiants",
+     "7 €"
+    ],
+    [
+     "Élèves",
+     "3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Ouvert tous les jours de 10 h à 18 h, jusqu'à 21 h le jeudi",
+   "texte": "Goethe est né ici en 1749 et y a écrit « Les Souffrances du jeune Werther ». La maison bourgeoise, reconstruite après la guerre, a retrouvé ses meubles d'origine, mis à l'abri en 1944 : la cuisine, le salon de musique, la grande horloge astronomique et la petite chambre où il écrivait. Le musée du Romantisme allemand, ouvert en 2021 juste à côté, prolonge la visite.",
+   "site_officiel": "https://frankfurter-goethe-haus.de/besuch/",
+   "note": "Billets vendus seulement à la caisse du musée (pas de vente en ligne).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Munin2005",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goethe-Haus_in_Frankfurt_am_Main.jpg",
+    "src": "img/activites/FRA/goethe-haus.jpg"
+   }
+  },
+  {
+   "id": "historisches-museum",
+   "nom": "Musée historique de Francfort",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 50.10963,
+   "lng": 8.68247,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Expositions permanentes",
+     "8 €"
+    ],
+    [
+     "Toutes les expositions",
+     "12 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche, 11 h-18 h (jusqu'à 21 h le jeudi) ; fermé le lundi",
+   "texte": "Au bord du Main, entre le Saalhof médiéval et une aile moderne, le musée raconte douze siècles de Francfort. À ne pas manquer : les grandes maquettes de la vieille ville d'avant 1944, saisissantes pour comprendre ce qui a été perdu puis reconstruit, et « Frankfurt Jetzt! », une immense maquette de la ville d'aujourd'hui.",
+   "site_officiel": "https://historisches-museum-frankfurt.de/de/besuch",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "historische museum frankfurt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Historische_Museum_Frankfurt_-_Eingang_Fahrtor.jpg",
+    "src": "img/activites/FRA/historisches-museum.jpg"
+   }
+  },
+  {
+   "id": "juedisches-museum",
+   "nom": "Musée juif et musée de la Judengasse",
+   "emoji": "🕍",
+   "type": "culture",
+   "quartier": "Bords du Main",
+   "lat": 50.107124,
+   "lng": 8.67431,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Billet des deux musées (expositions permanentes)",
+     "12 €"
+    ],
+    [
+     "Avec l'exposition temporaire",
+     "14 €"
+    ],
+    [
+     "Famille",
+     "20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche, 10 h-18 h ; fermé le lundi",
+   "texte": "Dans l'ancien palais Rothschild, prolongé par une aile neuve baignée de lumière (rouverte en 2020), le musée raconte deux siècles de vie juive à Francfort, de la famille Rothschild à celle d'Anne Frank, née ici en 1929. Le même billet ouvre le musée de la Judengasse, bâti sur les fondations de l'un des plus anciens ghettos juifs d'Europe (1462).",
+   "site_officiel": "https://www.juedischesmuseum.de/en/visit/jewish-museum-frankfurt",
+   "note": "Les deux musées sont à 15 min à pied l'un de l'autre. Entrée gratuite le dernier samedi du mois.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Thomas Kroemer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Das_neue_J%C3%BCdische_Museum_am_Bertha-Pappenheim-Platz_1.jpg",
+    "src": "img/activites/FRA/juedisches-museum.jpg"
+   }
+  },
+  {
+   "id": "senckenberg",
+   "nom": "Musée d'histoire naturelle Senckenberg",
+   "emoji": "🦕",
+   "type": "culture",
+   "quartier": "Westend",
+   "lat": 50.117558,
+   "lng": 8.652236,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "12 €"
+    ],
+    [
+     "De 6 à 17 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes et jusqu'à 3 enfants)",
+     "30 €"
+    ],
+    [
+     "Le mercredi après 17 h",
+     "6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Tous les jours de 9 h à 17 h (plus tard le mercredi) ; idéal par temps de pluie",
+   "texte": "Les dinosaures vous accueillent dès l'entrée : tyrannosaure, diplodocus, tricératops… et une rareté mondiale, une « momie » d'Edmontosaurus dont on voit encore la peau fossilisée. Fossiles de la fosse de Messel (patrimoine mondial de l'Unesco), animaux du monde entier : l'un des plus beaux musées d'histoire naturelle d'Europe, parfait avec des enfants.",
+   "site_officiel": "https://museumfrankfurt.senckenberg.de/de/besuch/",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jens Lallensack",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Senckenberg_mummy_skull.jpg",
+    "src": "img/activites/FRA/senckenberg.jpg"
+   }
+  },
+  {
+   "id": "dff",
+   "nom": "Musée du cinéma (DFF)",
+   "emoji": "🎬",
+   "type": "culture",
+   "quartier": "Museumsufer (Sachsenhausen)",
+   "lat": 50.105015,
+   "lng": 8.677723,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Exposition permanente",
+     "8 €"
+    ],
+    [
+     "Toutes les expositions",
+     "15 €"
+    ],
+    [
+     "Élèves, étudiants",
+     "4 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      4
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du mardi au dimanche ; fermé le lundi",
+   "texte": "Sur le Museumsufer, un musée vivant sur la magie du cinéma : jouets optiques et lanternes magiques à l'étage du « regard », montage, son et effets spéciaux à l'étage du « récit », costumes et accessoires de films célèbres. Au sous-sol, une vraie salle de cinéma projette des classiques, souvent en version originale.",
+   "site_officiel": "https://www.dff.film/besuch/besucherinformationen/tickets/",
+   "note": "Jusqu'au 16 novembre 2026, le 2e étage de l'exposition permanente est fermé pour travaux (le 1er étage est alors gratuit).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Burkhard Mücke",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deutsches_Filmmuseum_Frankfurt.jpg",
+    "src": "img/activites/FRA/dff.jpg"
+   }
+  },
+  {
+   "id": "palmengarten",
+   "nom": "Palmengarten, le jardin botanique",
+   "emoji": "🌴",
+   "type": "nature",
+   "quartier": "Westend",
+   "lat": 50.123215,
+   "lng": 8.65783,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte (jusqu'au 7 février 2027)",
+     "10 €"
+    ],
+    [
+     "Adulte (à partir du 8 février 2027)",
+     "9 €"
+    ],
+    [
+     "En semaine après 18 h 30",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Toute l'année : les serres tropicales sont parfaites en hiver (9 h-16 h de novembre à février, 9 h-19 h de mars à octobre)",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Ouvert en 1871, ce jardin de 22 hectares rassemble des plantes du monde entier : la grande serre aux palmiers de 1869, le Tropicarium et ses forêts tropicales, les déserts de cactus, les nymphéas, une roseraie… Une bulle de verdure et de chaleur à dix minutes à pied de l'Alte Oper.",
+   "site_officiel": "https://www.palmengarten.de/de/ihr-besuch/palmengarten.html",
+   "note": "En hiver, un parcours lumineux, les « Winterlichter », illumine le jardin le soir (billet à part, dates sur le site du jardin).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dontworry",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palmengarten-ffm-palmenhaus-001.jpg",
+    "src": "img/activites/FRA/palmengarten.jpg"
+   }
+  },
+  {
+   "id": "zoo",
+   "nom": "Zoo de Francfort",
+   "emoji": "🦁",
+   "type": "nature",
+   "quartier": "Ostend",
+   "lat": 50.116471,
+   "lng": 8.699298,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "12 €"
+    ],
+    [
+     "De 6 à 17 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Le matin, quand les animaux sont les plus actifs",
+   "texte": "Le deuxième plus ancien zoo d'Allemagne (1858), en pleine ville : grands singes dans la forêt couverte du Borgori, félins, okapis, et l'Exotarium, où se côtoient manchots, crocodiles et poissons tropicaux. Une demi-journée facile, à 5 minutes de métro de la vieille ville (station Zoo).",
+   "site_officiel": "https://www.zoo-frankfurt.de/de/zoobesuch-planen/eintrittskarten",
+   "note": "Billet en ligne : entrée séparée, plus rapide.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "NasserHalaweh",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Giraffidae_Okapia_johnstoni_3.2.jpg",
+    "src": "img/activites/FRA/zoo.jpg"
+   }
+  },
+  {
+   "id": "lohrberg",
+   "nom": "Le Lohrberg, vignes et skyline",
+   "emoji": "🍇",
+   "type": "vue",
+   "quartier": "Seckbach (nord-est)",
+   "lat": 50.150556,
+   "lng": 8.729167,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et point de vue",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h (avec le trajet)",
+   "moment": "Par temps clair, en fin de journée",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le dernier vignoble de Francfort, sur une colline au nord-est de la ville : depuis le parc, les rangs de vigne au premier plan et toute la skyline à l'horizon composent la photo préférée des Francfortois. Pelouses pour pique-niquer, aire de jeux et terrasse de la Lohrberg-Schänke pour un verre face à la vue.",
+   "site_officiel": "https://www.visitfrankfurt.travel/",
+   "note": "Comptez 30 à 40 min depuis le centre en transports en commun jusqu'à Seckbach, puis 15 min de montée à pied.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stefan Oemisch",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025LohrbergSkyline.jpg",
+    "src": "img/activites/FRA/lohrberg.jpg"
+   }
+  },
+  {
+   "id": "goetheturm",
+   "nom": "Le Goetheturm, tour en bois dans la forêt",
+   "emoji": "🌲",
+   "type": "vue",
+   "quartier": "Sachsenhausen (forêt)",
+   "lat": 50.088983,
+   "lng": 8.711382,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Montée à la tour",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le week-end avec des enfants, par beau temps",
+   "texte": "Une tour en bois de 43 m au milieu de la forêt de Sachsenhausen, reconstruite en 2020 après l'incendie de l'ancienne. Ses 196 marches mènent à une vue sur la skyline au-dessus de la cime des arbres ; à ses pieds, l'une des plus grandes aires de jeux de la ville et un café-restaurant.",
+   "site_officiel": "https://www.visitfrankfurt.travel/",
+   "note": "Accessible en bus depuis Sachsenhausen, ou par une belle promenade en forêt (environ 45 min à pied depuis Alt-Sachsenhausen).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dontworry",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goetheturm-frankfurt-2020-ffm-3584.jpg",
+    "src": "img/activites/FRA/goetheturm.jpg"
+   }
+  },
+  {
+   "id": "croisiere-main",
+   "nom": "Croisière sur le Main",
+   "emoji": "🛳️",
+   "type": "balade",
+   "quartier": "Bords du Main",
+   "lat": 50.10875,
+   "lng": 8.68155,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Tour de 50 min",
+     "16 € (17 € en 2027)"
+    ],
+    [
+     "Tour de 1 h 40",
+     "19,50 € (20 € en 2027)"
+    ],
+    [
+     "Enfant de 6 à 14 ans",
+     "10 € (11 € en 2027)"
+    ],
+    [
+     "Famille (2 adultes et 1 à 3 enfants), 50 min",
+     "39 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      14,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "50 min ou 1 h 40",
+   "moment": "Du 22 octobre au 20 décembre 2026 : du jeudi au dimanche, départ chaque heure de 11 h à 16 h ; tous les jours de fin mars à mi-octobre",
+   "texte": "Depuis l'embarcadère de l'Eiserner Steg, le bateau longe la skyline, passe sous les ponts de la vieille ville, devant les musées de la rive sud et la Banque centrale européenne, avec des commentaires sur ce que vous voyez. La façon la plus reposante de découvrir toute la ville en une heure.",
+   "site_officiel": "https://www.primus-linie.de/de/fahrten/rundfahrt-in-frankfurt-30",
+   "note": "Billets au guichet de l'embarcadère, ou en ligne jusqu'à 24 h avant le départ.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Michielverbeek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main%2C_skyline_met_der_Eiserne_Steg_op_de_voorgrond_foto3_2016-08-12_09.50.jpg",
+    "src": "img/activites/FRA/croisiere-main.jpg"
+   }
+  },
+  {
+   "id": "ebbelwei-express",
+   "nom": "L'Ebbelwei-Express, le tramway du cidre",
+   "emoji": "🚋",
+   "type": "balade",
+   "quartier": "Toute la ville",
+   "lat": 50.115517,
+   "lng": 8.699248,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Adulte (une bouteille de cidre, de jus de pomme ou d'eau et des bretzels compris)",
+     "8 €"
+    ],
+    [
+     "Jusqu'à 14 ans",
+     "3,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      14,
+      3.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Seulement le samedi, le dimanche et les jours fériés",
+   "texte": "Un vieux tramway peint de couleurs vives fait le tour de la ville pendant une heure, en musique, une bouteille de cidre (ou de jus de pomme) et un sachet de bretzels à la main. Kitsch et joyeux : une tradition de Francfort depuis 1977, qui passe par la gare, le Römer et Sachsenhausen.",
+   "site_officiel": "https://ebbelwei-express.com/en/information/timetable-and-fares",
+   "note": "Payez en espèces auprès du contrôleur (pas de carte). Montez à l'un des arrêts du circuit, par exemple Zoo ou Römer/Paulskirche.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Metrophil",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ebbelwei-Expre%C3%9F_am_R%C3%B6mer_I.jpg",
+    "src": "img/activites/FRA/ebbelwei-express.jpg"
+   }
+  },
+  {
+   "id": "alte-oper",
+   "nom": "Concert à l'Alte Oper",
+   "emoji": "🎻",
+   "type": "sortir",
+   "quartier": "Westend",
+   "lat": 50.116032,
+   "lng": 8.671916,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Concerts",
+     "dès ≈ 25 € selon le programme"
+    ],
+    [
+     "Grands orchestres internationaux",
+     "dès ≈ 90 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques semaines avant pour les grands orchestres et les solistes connus",
+   "duree": "2 h",
+   "moment": "Le soir (programme sur le site)",
+   "enfants": false,
+   "texte": "L'opéra de 1880, détruit en 1944, est resté en ruine pendant des décennies : on l'appelait « la plus belle ruine d'Allemagne ». Reconstruit grâce à une souscription des habitants, il a rouvert en 1981 en salle de concert. Façade à colonnes, escaliers majestueux… et, même sans billet, la place de l'Opéra et sa fontaine valent le détour le soir.",
+   "site_officiel": "https://www.alteoper.de/de/programm/",
+   "note": "Pour l'opéra et le ballet, c'est l'Oper Frankfurt, sur la Willy-Brandt-Platz, élue plusieurs fois meilleure maison d'opéra d'Allemagne.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Thomas Wolf, www.foto-tw.de",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alte_Oper_Frankfurt_abends_2011-07.jpg",
+    "src": "img/activites/FRA/alte-oper.jpg"
+   }
+  },
+  {
+   "id": "weihnachtsmarkt",
+   "nom": "Marché de Noël du Römerberg",
+   "emoji": "🎄",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 50.1106,
+   "lng": 8.6815,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Vin chaud",
+     "≈ 4 à 5 € + consigne de la tasse"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Du 23 novembre au 22 décembre 2026, de 10 h à 21 h (11 h-21 h le dimanche), à la tombée de la nuit",
+   "texte": "L'un des plus anciens marchés de Noël d'Allemagne : environ 200 chalets entre le Römerberg, la Paulsplatz et les quais, autour d'un sapin géant. Goûtez le cidre chaud, les « Bethmännchen » (petits gâteaux à la pâte d'amande, spécialité de la ville) et, le samedi 28 novembre à 16 h 30, écoutez la grande sonnerie de toutes les cloches de la ville.",
+   "site_officiel": "https://www.visitfrankfurt.travel/",
+   "note": "Très fréquenté le week-end : venez en semaine en fin d'après-midi.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main_-_Frankfurter_Weihnachtsmarkt_%282025%29_1.jpg",
+    "src": "img/activites/FRA/weihnachtsmarkt.jpg"
+   }
+  },
+  {
+   "id": "eintracht",
+   "nom": "Match de l'Eintracht Francfort",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stadtwald (sud)",
+   "lat": 50.068581,
+   "lng": 8.645472,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Places debout",
+     "≈ 15 à 25 €"
+    ],
+    [
+     "Places assises (Bundesliga)",
+     "≈ 30 à 95 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente sur le site du club : le stade de 58 000 places est presque toujours plein",
+   "duree": "3 h",
+   "moment": "Les jours de match, en arrivant une heure avant pour l'ambiance",
+   "club": "Eintracht Frankfurt",
+   "texte": "Vainqueur de la Ligue Europa en 2022, l'Eintracht a l'un des publics les plus bouillants d'Allemagne : la « Nordwestkurve » chante sans arrêt sous le toit du stade, dans une marée noir et blanc. Les billets sont rares pour les non-membres ; tentez la bourse de revente officielle du club.",
+   "site_officiel": "https://www.eintracht.de/tickets/",
+   "note": "Achetez seulement sur le site du club (billets nominatifs). Le stade est à 10 min de la gare centrale en S-Bahn (S7, S8, S9, arrêt « Stadion »).",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "DJNevage",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Commerzbank-Arena_%28Haupttrib%C3%BCne%29.JPG",
+    "src": "img/activites/FRA/eintracht.jpg"
+   }
+  },
+  {
+   "id": "skyliners",
+   "nom": "Match de basket des Skyliners",
+   "emoji": "🏀",
+   "type": "sport",
+   "quartier": "Höchst (ouest)",
+   "lat": 50.10123,
+   "lng": 8.52723,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Billets",
+     "dès 9,50 €"
+    ],
+    [
+     "Jusqu'à 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      12
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "duree": "2 h 30",
+   "moment": "Les soirs et week-ends de match",
+   "club": "Fraport Skyliners Frankfurt",
+   "texte": "Champions d'Allemagne en 2004 et vainqueurs de la FIBA Europe Cup en 2016, les Skyliners jouent dans leur salle de Höchst, à 20 minutes du centre en S-Bahn. Ambiance familiale, places à petit prix : une bonne soirée sportive, même sans être fan de basket.",
+   "site_officiel": "https://www.fraport-skyliners.de/tickets/",
+   "note": "Pas de sac plus grand qu'une feuille A4 dans la salle, ni nourriture ou boisson apportées.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sandro Halank, Wikimedia Commons",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-01-03_ALBA_Berlin_gegen_Fraport_Skyliners_Frankfurt_%28Basketball-Bundesliga_2022-23%29_by_Sandro_Halank%E2%80%93053.jpg",
+    "src": "img/activites/FRA/skyliners.jpg"
+   }
+  },
+  {
+   "id": "heidelberg",
+   "nom": "Excursion à Heidelberg",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Heidelberg (à 1 h de train)",
+   "lat": 49.410628,
+   "lng": 8.715297,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Train aller-retour (1 h à 1 h 15 de trajet)",
+     "≈ 30 à 45 €"
+    ],
+    [
+     "Billet du château (funiculaire, cour, grand tonneau, musée de la pharmacie)",
+     "11 € (réduit 5,50 €)"
+    ],
+    [
+     "Moins de 15 ans",
+     "train gratuit avec un parent (à inscrire sur le billet)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      14,
+      5.5
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée entière",
+   "moment": "Toute l'année ; en partant le matin",
+   "texte": "La ville romantique par excellence : un château de grès rouge à moitié en ruine accroché à la colline, le Vieux Pont sur le Neckar, la plus ancienne université d'Allemagne (1386) et une vieille ville baroque animée par les étudiants. Le funiculaire monte au château, où trône un tonneau de vin géant de plus de 200 000 litres.",
+   "site_officiel": "https://www.schloss-heidelberg.de/besuchsinformation/preise",
+   "note": "Prix du château valable jusqu'au 31 décembre 2026. Les billets de train sont moins chers réservés à l'avance sur bahn.com.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rudolf Stricker",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Heidelberg_Schloss_Alte_Br%C3%BCcke_20100626.jpg",
+    "src": "img/activites/FRA/heidelberg.jpg"
+   }
+  },
+  {
+   "id": "rhin",
+   "nom": "Croisière sur le Rhin romantique (Rüdesheim et la Lorelei)",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Rüdesheim (à 1 h 10 de train)",
+   "lat": 49.978683,
+   "lng": 7.923318,
+   "prix": 73,
+   "prix_detail": [
+    [
+     "Train régional aller-retour avec le Hessenticket (1 à 5 personnes ensemble)",
+     "43,50 €"
+    ],
+    [
+     "Bateau Rüdesheim – Lorelei (St. Goarshausen), aller-retour",
+     "29 € (26 € l'aller)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 72.5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      14,
+      15
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée entière (1 h 10 de train dans chaque sens, environ 2 h de bateau à la descente)",
+   "moment": "D'avril à mi-octobre seulement : les bateaux ne circulent pas l'hiver",
+   "texte": "La vallée du Haut-Rhin moyen, classée par l'Unesco : vignobles en terrasses, un château sur chaque colline et le rocher de la Lorelei, la sirène des légendes. Partez de Rüdesheim, village viticole et sa célèbre ruelle de la Drosselgasse, puis descendez le fleuve en bateau jusqu'au pied du rocher.",
+   "site_officiel": "https://www.bingen-ruedesheimer.de/fahrpreise/",
+   "note": "Le Hessenticket vaut pour une journée et jusqu'à 5 personnes : à deux, le train revient à 21,75 € chacun. En semaine, il n'est valable qu'à partir de 9 h.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "abbilder",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blick_auf_Bacharach_und_den_Rhein_-_Flickr_-_abbilder.jpg",
+    "src": "img/activites/FRA/rhin.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "kleinmarkthalle",
+   "nom": "Kleinmarkthalle",
+   "emoji": "🥨",
+   "gamme": "petit",
+   "genre": "La halle gourmande des Francfortois",
+   "quartier": "Centre-ville",
+   "adresse": "Hasengasse 5-7, 60311 Frankfurt am Main",
+   "lat": 50.112667,
+   "lng": 8.682885,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Plus de 60 étals sous une grande verrière : fromages, fruits, pâtisseries, poissons, épices… et des comptoirs où l'on mange debout. Faites la queue chez « Schreiber » pour la saucisse de Francfort la plus célèbre de la ville, puis montez sur la galerie, où l'on boit un verre de vin avec vue sur la halle.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; fermé le dimanche, allez-y le midi en semaine ou le samedi matin",
+   "photo": {
+    "auteur": "EvaK",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Kleinmarkthalle_Frankfurt_Einblick.jpg",
+    "src": "img/restos/FRA/kleinmarkthalle.jpg"
+   }
+  },
+  {
+   "id": "atschel",
+   "nom": "Apfelweinwirtschaft Atschel",
+   "emoji": "🍏",
+   "gamme": "petit",
+   "genre": "Taverne au cidre, cuisine de Francfort",
+   "quartier": "Sachsenhausen",
+   "adresse": "Wallstraße 7, 60594 Frankfurt am Main",
+   "lat": 50.104859,
+   "lng": 8.688892,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La taverne à cidre comme les Francfortois l'aiment : longues tables de bois que l'on partage avec ses voisins, pichets de grès (« Bembel ») et cuisine de grand-mère généreuse. Commandez la côte de porc fumée à la choucroute, le schnitzel à la « Grüne Soße » (sauce froide aux sept herbes) et le « Handkäs mit Musik », fromage mariné aux oignons.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour un dîner le week-end ; en semaine, on trouve souvent de la place",
+   "photo": {
+    "auteur": "Eva K. on Commons / Eva K. on German Wikipedia",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Apfelwein_Geripptes_Bembel.jpg",
+    "src": "img/restos/FRA/atschel.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "best-worscht",
+   "nom": "Best Worscht in Town",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Currywurst culte, piquante à souhait",
+   "quartier": "Nordend (Berger Straße)",
+   "adresse": "Berger Straße 80, 60316 Frankfurt am Main",
+   "lat": 50.121202,
+   "lng": 8.69798,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La currywurst que tout Francfort recommande : saucisse grillée, sauce tomate au curry déclinée en plusieurs degrés de piquant, jusqu'à l'extrême et frites croustillantes. Simple, rapide, et un vrai rite de passage. Une autre adresse est ouverte près de la Hauptwache (Schillerstraße 18).",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, on commande au comptoir",
+   "photo": {
+    "auteur": "Tinoelf",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Currywurst_%26_Pommes_frites.jpg",
+    "src": "img/restos/FRA/best-worscht.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "goldene-waage",
+   "nom": "Kaffeehaus Goldene Waage",
+   "emoji": "🍰",
+   "gamme": "petit",
+   "genre": "Café viennois dans une maison Renaissance",
+   "quartier": "Vieille ville",
+   "adresse": "Markt 5, 60311 Frankfurt am Main",
+   "lat": 50.1106,
+   "lng": 8.684531,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Installé dans la plus belle maison reconstruite de la nouvelle vieille ville, une demeure à colombages de 1619 aux boiseries peintes, ce café sert gâteaux maison, tartes et petits plats dans un décor de conte. Le lieu idéal pour une pause après la cathédrale, juste en face.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez hors des heures de pointe (l'après-midi en semaine)",
+   "photo": {
+    "auteur": "Super nabla",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haus_zur_Goldenen_Waage%2C_fasado.JPG",
+    "src": "img/restos/FRA/goldene-waage.jpg"
+   }
+  },
+  {
+   "id": "fette-bulle",
+   "nom": "Der Fette Bulle",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers et steaks de bœuf maturé",
+   "quartier": "Bahnhofsviertel",
+   "adresse": "Kaiserstraße 73, 60329 Frankfurt am Main",
+   "lat": 50.107701,
+   "lng": 8.666486,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Le « gros taureau » sert certains des meilleurs burgers de la ville : bœuf maturé haché sur place, pain brioché, frites maison et sauces faites ici, dans une salle de brasserie animée près de la gare. Une seconde adresse, dans l'Oeder Weg (Nordend), est tout aussi bonne.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour un dîner le week-end",
+   "photo": {
+    "auteur": "Kelapstick",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheeseburger_and_fries_at_Jimmy_Buffett%27s_Margaritaville.jpg",
+    "src": "img/restos/FRA/fette-bulle.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "ramen-jun",
+   "nom": "Ramen Jun",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Ramen japonais",
+   "quartier": "Westend",
+   "adresse": "Wilhelm-Hauff-Straße 10, 60325 Frankfurt am Main",
+   "lat": 50.113215,
+   "lng": 8.656186,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Le bar à ramen préféré des Francfortois : bouillon tonkotsu crémeux mijoté de longues heures, nouilles fermes, porc fondant et œuf mariné, plus des gyozas croustillants. Petit, souvent plein, mais le service est rapide. Une seconde adresse, « Ramen Jun Red », est près de la vieille ville (Fahrgasse 89).",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : attente probable aux heures de pointe",
+   "photo": {
+    "auteur": "Syced",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tonkotsu_ramen_in_Tokyo.jpg",
+    "src": "img/restos/FRA/ramen-jun.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "medici",
+   "nom": "Medici",
+   "emoji": "🐙",
+   "gamme": "moyen",
+   "genre": "Cuisine internationale aux accents méditerranéens",
+   "quartier": "Centre-ville",
+   "adresse": "Weißadlergasse 2, 60311 Frankfurt am Main",
+   "lat": 50.111823,
+   "lng": 8.678745,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Depuis 2004, les frères Simiakos y marient produits du marché et saveurs de la Méditerranée dans une salle élégante, à deux pas de la maison de Goethe. Le midi, la formule à 29,50 € (deux plats) ou 34,50 € (trois plats) est l'une des meilleures affaires du centre.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, surtout le soir",
+   "photo": {
+    "auteur": "Mihail Verbal",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%87%D0%B5%D0%BD_%D0%BC%D0%B0%D0%BB_%D0%BE%D0%BA%D1%82%D0%BE%D0%BF%D0%BE%D0%B4%2C_%D1%81%D0%BE_%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%87%D1%83%D0%BA_%D0%B8_%D0%BE%D0%B2%D0%BE%D1%88%D1%98%D0%B5.jpg",
+    "src": "img/restos/FRA/medici.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "bornheimer-ratskeller",
+   "nom": "Bornheimer Ratskeller",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Cuisine régionale de Hesse revisitée",
+   "quartier": "Bornheim",
+   "adresse": "Kettelerallee 72, 60385 Frankfurt am Main",
+   "lat": 50.129547,
+   "lng": 8.718954,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une vieille auberge de quartier remise à neuf, récompensée par un Bib Gourmand pour son excellent rapport qualité-prix : la cuisine de Hesse, de saison, y est soignée et généreuse, de la « Grüne Soße » aux viandes mijotées, avec un beau jardin l'été. Loin des circuits touristiques, à Bornheim.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le week-end",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne_So%C3%9Fe_Ei_kartoffeln.JPG",
+    "src": "img/restos/FRA/bornheimer-ratskeller.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "kuli-alma",
+   "nom": "Kuli Alma",
+   "emoji": "🧆",
+   "gamme": "moyen",
+   "genre": "Cuisine israélienne à partager",
+   "quartier": "Nordend",
+   "adresse": "Zum-Jungen-Straße 10, 60320 Frankfurt am Main",
+   "lat": 50.140207,
+   "lng": 8.683133,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Houmous soyeux, chou-fleur rôti, falafels, chawarma et pita tout juste sortie du four : on commande plein de petites assiettes au milieu de la table, dans une ambiance joyeuse et bruyante. L'une des adresses les mieux notées de la ville, dans le Nordend, un peu au nord du centre.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour un dîner",
+   "photo": {
+    "auteur": "Charles Haynes from Hobart, Australia",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixed_Plate_%283186676853%29.jpg",
+    "src": "img/restos/FRA/kuli-alma.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "oosten",
+   "nom": "Oosten",
+   "emoji": "🌅",
+   "gamme": "moyen",
+   "genre": "Brasserie et terrasse au bord du Main",
+   "quartier": "Ostend (EZB)",
+   "adresse": "Mayfarthstraße 4, 60314 Frankfurt am Main",
+   "lat": 50.107666,
+   "lng": 8.702715,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au pied de la Banque centrale européenne, un grand restaurant posé sur la berge : la terrasse face au fleuve et à la skyline est l'une des plus courues de la ville au coucher du soleil. Cuisine méditerranéenne simple (pâtes, poissons, salades) et cocktails.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en terrasse le soir, aux beaux jours",
+   "photo": {
+    "auteur": "Michielverbeek",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main%2C_de_Eiserner_Steg_Dm_met_skyline_IMG_1525_2024-05-26_12.30.jpg",
+    "src": "img/restos/FRA/oosten.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "siciliani",
+   "nom": "Trattoria i Siciliani",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Trattoria sicilienne",
+   "quartier": "Sachsenhausen",
+   "adresse": "Walter-Kolb-Straße 17, 60594 Frankfurt am Main",
+   "lat": 50.104686,
+   "lng": 8.68422,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une petite trattoria familiale à Sachsenhausen, plébiscitée par les habitants : pâtes alla Norma, arancini, poissons grillés et cannoli comme à Palerme, servis avec le sourire. Une valeur sûre pour changer de la cuisine allemande.",
+   "reservation": "conseille",
+   "reservation_delai": "un ou deux jours avant pour le dîner",
+   "photo": {
+    "auteur": "8w9d",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg",
+    "src": "img/restos/FRA/siciliani.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "yaldy",
+   "nom": "YALDY",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Bar à vins et petites assiettes de saison",
+   "quartier": "Bahnhofsviertel",
+   "adresse": "Moselstraße 15, 60329 Frankfurt am Main",
+   "lat": 50.106914,
+   "lng": 8.667846,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Le repaire des gourmets du quartier de la gare : une cuisine du marché inventive, servie en petites assiettes à partager, et une belle carte de vins nature. Récompensé d'un Bib Gourmand par le guide Michelin, ambiance décontractée.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "PattayaPatrol",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_7112_A_plate_of_grilled_chicken_Caesar_salad_on_a_table_set_for_dinner_with_glasses_of_red_wine_and_soft_candlelight_in_the_background.jpg",
+    "src": "img/restos/FRA/yaldy.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "main-tower-restaurant",
+   "nom": "MAIN TOWER Restaurant & Lounge",
+   "emoji": "🌃",
+   "gamme": "haut",
+   "genre": "Gastronomie au 53e étage",
+   "quartier": "Quartier des banques",
+   "adresse": "Neue Mainzer Straße 52-58, 60311 Frankfurt am Main",
+   "lat": 50.112264,
+   "lng": 8.672185,
+   "prix": "≈ 175 à 205 €",
+   "prix_min": 175,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Dîner au 53e étage, derrière d'immenses baies vitrées face à la skyline : le menu « signature » en cinq ou six plats, étoilé depuis 2022, est servi le soir. Pour la vue sans le menu, le bar-lounge accueille aussi les clients pour un cocktail (30 € minimum par personne).",
+   "reservation": "indispensable",
+   "reservation_delai": "une à trois semaines avant, plus pour une table près des vitres le week-end",
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maintower%2C_Frankfurt%2C_dish.jpg",
+    "src": "img/restos/FRA/main-tower-restaurant.jpg"
+   }
+  },
+  {
+   "id": "seven-swans",
+   "nom": "Seven Swans",
+   "emoji": "🦢",
+   "gamme": "haut",
+   "genre": "Haute cuisine végétale",
+   "quartier": "Vieille ville (bords du Main)",
+   "adresse": "Mainkai 4, 60311 Frankfurt am Main",
+   "lat": 50.109631,
+   "lng": 8.686818,
+   "prix": "≈ 230 €",
+   "prix_min": 230,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Dans la maison la plus étroite de Francfort, haute de sept étages et face au Main, le chef sert un menu surprise entièrement végétal, avec des légumes de sa propre ferme. Une étoile Michelin et une expérience unique, même pour les amateurs de viande.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines à l'avance : peu de couverts",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thana_Fine_Dining_plate.jpg",
+    "src": "img/restos/FRA/seven-swans.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "lafleur",
+   "nom": "Lafleur",
+   "emoji": "🌸",
+   "gamme": "haut",
+   "genre": "Grande table gastronomique",
+   "quartier": "Westend (Palmengarten)",
+   "adresse": "Palmengartenstraße 11, 60325 Frankfurt am Main",
+   "lat": 50.121477,
+   "lng": 8.656514,
+   "prix": "≈ 200 à 290 €",
+   "prix_min": 200,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "La meilleure table de la ville, dans le pavillon du Palmengarten, face aux parterres de fleurs : Andreas Krolik y signe deux menus, l'un autour des grands produits, l'autre entièrement végétal, aussi raffinés l'un que l'autre. Le midi, des menus « Casual » en trois ou quatre plats permettent de découvrir la maison à prix plus doux.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à quatre semaines avant pour le soir",
+   "photo": {
+    "auteur": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Palmengarten_Gesellschaftshaus.jpg",
+    "src": "img/restos/FRA/lafleur.jpg"
+   }
+  },
+  {
+   "id": "mon-amie-maxi",
+   "nom": "Mon Amie Maxi",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Brasserie parisienne, fruits de mer",
+   "quartier": "Westend",
+   "adresse": "Bockenheimer Landstraße 31, 60325 Frankfurt am Main",
+   "lat": 50.116367,
+   "lng": 8.667108,
+   "prix": "≈ 60 à 120 €",
+   "prix_min": 60,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une brasserie parisienne opulente dans une villa du Westend : banquettes de velours, comptoir à huîtres, plateaux de fruits de mer spectaculaires et grands classiques (sole meunière, tartare, chateaubriand). Le lieu où l'on vient voir et être vu, à cinq minutes de l'Alte Oper.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant pour le jeudi, le vendredi et le samedi",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Assiette_de_fruits_de_mer_March%C3%A9_des_Capucins_Bordeaux_%283%29.jpg",
+    "src": "img/restos/FRA/mon-amie-maxi.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "ernos-bistro",
+   "nom": "Erno's Bistro",
+   "emoji": "🥂",
+   "gamme": "haut",
+   "genre": "Bistrot français classique",
+   "quartier": "Westend",
+   "adresse": "Liebigstraße 15, 60323 Frankfurt am Main",
+   "lat": 50.119093,
+   "lng": 8.665915,
+   "prix": "≈ 160 à 200 €",
+   "prix_min": 160,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Depuis 1974, ce petit bistrot lambrissé du Westend est le rendez-vous des banquiers et des gourmets : cuisine française classique au sommet, poissons et gibier, et une très belle cave de vins français.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant",
+   "photo": {
+    "auteur": "Misaochan",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Escargot_.jpg",
+    "src": "img/restos/FRA/ernos-bistro.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "bidlabu",
+   "nom": "Bidlabu",
+   "emoji": "🥕",
+   "gamme": "haut",
+   "genre": "Bistrot étoilé, cuisine du marché",
+   "quartier": "Centre-ville (Fressgass)",
+   "adresse": "Kleine Bockenheimer Straße 14, 60313 Frankfurt am Main",
+   "lat": 50.114284,
+   "lng": 8.674322,
+   "prix": "≈ 55 à 120 €",
+   "prix_min": 55,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "L'étoile la plus abordable de Francfort : un bistrot vivant et un peu caché près de la « Fressgass », qui cuisine le marché du jour en menus de quatre à sept plats (de 87 à 120 €) ou à la carte. Sans chichis, chaleureux, et vraiment délicieux.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; fermé du 23 décembre 2026 au 3 janvier 2027",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thana_team_preparing_plates.jpg",
+    "src": "img/restos/FRA/bidlabu.jpg"
+   },
+   "illustration": true
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "altstadt",
+   "nom": "Vieille ville et Römer",
+   "lat": 50.1105,
+   "lng": 8.683,
+   "texte": "Entre le Römer, la cathédrale et le Main, tout se fait à pied : nouvelle vieille ville, musées, quais et marché de Noël. Le plus beau cadre pour un premier séjour, mais peu d'hôtels et des prix élevés."
+  },
+  {
+   "id": "innenstadt",
+   "nom": "Centre-ville (Zeil et Hauptwache)",
+   "lat": 50.114,
+   "lng": 8.68,
+   "texte": "Le quartier commerçant, autour de la grande rue piétonne de la Zeil : métro et S-Bahn à la porte, vieille ville à 5 min à pied, grand choix d'hôtels de toutes catégories. Pratique, mais plus impersonnel le soir."
+  },
+  {
+   "id": "sachsenhausen",
+   "nom": "Sachsenhausen et Museumsufer",
+   "lat": 50.1035,
+   "lng": 8.684,
+   "texte": "De l'autre côté de l'Eiserner Steg : les musées de la rive sud, les tavernes à cidre et les cafés de la Schweizer Straße. Charmant et vivant le soir, à 10 min à pied de la vieille ville."
+  },
+  {
+   "id": "westend",
+   "nom": "Westend et Opernplatz",
+   "lat": 50.1165,
+   "lng": 8.666,
+   "texte": "Le quartier chic des villas, entre l'Alte Oper, le Palmengarten et les tours des banques : calme, élégant, avec de belles tables. Le métro rejoint la vieille ville en quelques minutes."
+  },
+  {
+   "id": "bahnhof",
+   "nom": "Autour de la gare centrale (Bahnhofsviertel)",
+   "lat": 50.107,
+   "lng": 8.668,
+   "texte": "Le plus pratique pour l'aéroport (15 min en S-Bahn) et les excursions, souvent le moins cher, avec une scène de bars et de restaurants très branchée. Mais certaines rues, autour de la Taunusstraße, sont marquées par la drogue : préférez le côté de la Kaiserstraße ou du Main. Pendant les grands salons (la « Messe »), les prix des hôtels de toute la ville s'envolent."
+  }
+ ]
+}

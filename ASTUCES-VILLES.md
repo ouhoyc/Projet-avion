@@ -139,3 +139,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (residenz-muenchen.de, schloss-nymphenburg.de, neuschwanstein.de `…/eintritt.htm`, alterpeter.de, bmw-welt.com, zugspitze.de) ;
   cartes des restaurants via `speisekarte.de/münchen/restaurant/<nom>/speisekarte` (par `curl`). Commons : `thumb.php`, « 429 » masqués
   (0 résultat) sur les recherches avec « München » : réessayer en anglais (« Munich ») quelques minutes plus tard.
+- Francfort (nov. 2026) : Wanderlog géo 9655 (départ `geoCategory/29625`), ne suivre que les adresses finissant par « -in-frankfurt »
+  (96 listes, ~1 470 lieux). Michelin : `guide.michelin.com/de/de/hessen/frankfurt-am-main/restaurants` (+ `/page/2`) avec Playwright.
+  Prix lisibles avec Playwright : maintower.de/eintrittspreise-oeffnungszeiten, staedelmuseum.de/de/besuch, dommuseum-frankfurt.de
+  (tour), primus-linie.de ; Palmengarten : tarifs cachés dans un menu dépliant (lire le HTML de la page avec Playwright). Cartes des
+  restaurants : speisekarte.de (prix dans `"price" content=`). Pages `File:` de Commons sans `fileinfotpl_aut` : lire la ligne « Author ».

@@ -284,6 +284,20 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (06/11/2026) **Page guide de Francfort** (`guides/FRA.json`), préparée en autonomie : 24 activités (Römerberg, nouvelle vieille ville
+  DomRömer, tour de la cathédrale (3 €), plateforme de la Main Tower (9 €), Eiserner Steg et quais, Alt-Sachsenhausen, Städel (19 €,
+  10 € le mardi), maison de Goethe (12 €), musée historique (8 €), musée juif + Judengasse (12 €), Senckenberg (12 €), musée du cinéma
+  (8 €), Palmengarten (10 € jusqu'au 7/2/2027 puis 9 €), zoo (12 €), Lohrberg, Goetheturm, croisière Primus-Linie (16 €), Ebbelwei-Express
+  (8 €), concerts à l'Alte Oper, marché de Noël (23/11-22/12/2026), matchs de l'Eintracht (club « Eintracht Frankfurt », `prix_match` 40 €)
+  et des Skyliners (club « Fraport Skyliners Frankfurt »), excursions Heidelberg et Rhin romantique (Hessenticket 43,50 € + bateau 29 €,
+  avril-octobre seulement)), 18 restaurants (note pondérée, C = 4,37, ~1 470 lieux lus via 96 listes Wanderlog ; Michelin 2026 : Lafleur
+  2 étoiles, MAIN TOWER Restaurant, Seven Swans, Erno's Bistro et Bidlabu 1 étoile, Bornheimer Ratskeller et YALDY Bib Gourmand, Medici
+  sélection ; institutions : Kleinmarkthalle, Atschel), 5 quartiers (avertissement sur le Bahnhofsviertel et les salons), pas de
+  formalités, pas de lien Tiqets (les sites officiels sont moins chers). **Réseaux sociaux (Apify) pas lancés** (destination moyenne sur
+  les réseaux) : badges tendance d'après le web (2 sources au moins). Écartés car fermés : Schirn (travaux jusqu'en 2027-2028), MMK
+  (jusqu'au début de 2027), Liebieghaus (rouvre le 18/11/2026). Écartés : Adolf Wagner (note 4,1), Zenzakan et Margarete (4,2), Taunus
+  Therme (3,9), Tigerpalast (pas de photo libre, billets dès 89 €). Prix estimés : billets de l'Eintracht et des Skyliners, Alte Oper,
+  trains pour Heidelberg, bateau enfants, menus de Seven Swans, Lafleur et Erno's (presse). 14 photos d'illustration (plats, vue).
 - ✅ (27/10/2026) **Matchs placés au centre-ville** (repéré sur Munich : le basket du Bayern au centre au lieu du BMW Park) :
   quand SofaScore ne donne pas la position d'une salle (surtout au basket), `scripts/fetch-matchs.mjs` la cherche désormais une
   fois dans OpenStreetMap (`chercherStade`, gardée dans `matchs-cache.json`). Corrigé tout de suite pour 54 salles et ~750 matchs
