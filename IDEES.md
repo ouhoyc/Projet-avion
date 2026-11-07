@@ -284,6 +284,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (07/11/2026) **Page guide de Cracovie** (`guides/KRK.json`), préparée en autonomie : 26 activités (Grand-Place et Halle aux
+  draps, basilique Notre-Dame (20 zł ; tour d'avril à octobre seulement), salles d'apparat du Wawel (57 zł), cathédrale du Wawel (26 zł),
+  musée souterrain du Rynek (45 zł), musée Czartoryski et la Dame à l'hermine (65 zł, gratuit le mardi), Collegium Maius (visite guidée
+  26 zł, en français à 10 h 30 du mardi au vendredi), Barbacane et Planty (22 zł), Kazimierz, usine Schindler (60 zł, gratuit le lundi),
+  Podgórze (place des Héros du ghetto, Bernatka), MOCAK (30 zł), tertres de Kościuszko (34 zł) et de Krakus, lac de Zakrzówek, bords de
+  la Vistule et croisière, Nowa Huta, Tyniec, mine de sel de Wieliczka (143 zł en langue étrangère), Auschwitz-Birkenau (visite guidée en
+  français 150 zł, grille du 2/1/2026), Zakopane, Ojców, matchs du Wisła (club « Wisła Kraków », 55-80 zł) et du Cracovia (« KS Cracovia »),
+  marché de Noël, concert Chopin), 18 restaurants (note pondérée, C = 4,51, ~1 360 lieux lus via les listes Wanderlog ; Michelin 2026 :
+  Bottiglieria 1881 2 étoiles, Bib Gourmand MOLÁM, Folga et Bufet KRK, sélection Karakter, Copernicus, Fiorentina et Amarylis ;
+  institutions : Kiełbaski z Niebieskiej Nyski, Chimera, Pod Wawelem, Starka, Wierzynek), 5 quartiers, pas de formalités (Union
+  européenne), pas de lien Tiqets. Taux : 1 € = 4,39 zł (BCE, 07/11/2026), `prix_match` 15 €. **Réseaux sociaux (Apify) refusés**
+  (crédit du mois épuisé) : badges tendance d'après le web. Écartés : Endzior (zapiekanki, note 4,2, cité dans le texte de Kazimierz),
+  bar à lait Pod Temidą (4,1), Lody na Starowiślnej (fermeture d'hiver incertaine), Gospoda Koko et U Babci Maliny (4,1). Prix estimés :
+  croisière, Cracovia, Zakopane, Ojców, Tyniec, concerts Chopin, et la plupart des restaurants (menus et presse). 10 photos
+  d'illustration (plats, rues).
 - ✅ (06/11/2026) **Page guide de Tenerife** (`guides/TCI.json`, `"ile": true`, champ `ville`), préparée en autonomie : 29 activités
   (téléphérique du Teide 43 €/21,50 € de 3 à 13 ans, Roques de García, étoiles au Teide (≈ 79 €, prix d'agences), Masca (ravin dès 40,66 €
   avec navette obligatoire depuis Santiago del Teide, bateau en plus), falaises de Los Gigantes, baleines et dauphins (≈ 28 €), Loro Parque
@@ -456,7 +471,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

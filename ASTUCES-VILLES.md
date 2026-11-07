@@ -148,3 +148,10 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Puerto de la Cruz, La Laguna…) et en gardant les codes postaux 380xx-386xx : 288 listes, ~2 040 restaurants. L'API Commons répondait 429 :
   recherche HTML (`Special:Search`, `ns6=1`) + `thumb.php`. Site officiel du tourisme en français : `webtenerifefr.com` (sitemap.xml lisible) ;
   prix du téléphérique sur `volcanoteide.com/en/teide_cable_car/prices_and_opening_times`, Loro Parque sur `etickets.pa-community.com`.
+- Cracovie (nov. 2026) : Wanderlog géo 9640 (départ `geoCategory/76021`), suivre seulement les listes « …-in-krakow » liées à la
+  nourriture (~1 360 lieux). La page Michelin de la ville ne marche pas (redirige vers Riga) : lire les fiches une par une
+  (`guide.michelin.com/en/lesser-poland/krakow/restaurant/<nom>`) ; liste 2026 complète sur `krakow.pl` (article « Kulinarne perełki »).
+  Prix lisibles avec Playwright : wawel.krakow.pl (`/trasa/…`, `/wystawa-stala/…`), katedra-wawelska.pl (zaplanuj-wizyte), mnk.pl,
+  muzeumkrakowa.pl (`textContent`, onglets cachés), wieliczka-saltmine.com (cliquer « Tourist route »), maius.uj.edu.pl/zwiedzanie,
+  kopieckosciuszki.pl/cennik-2, mocak.pl/bilety ; Auschwitz : PDF `auschwitz.org/gfx/auschwitz/userfiles/_public/visit/62_en.pdf`.
+  Commons : recherche HTML (`ns6=1`) + `thumb.php`, « 429 » masqués (0 résultat) au bout de ~30 recherches : attendre quelques minutes.

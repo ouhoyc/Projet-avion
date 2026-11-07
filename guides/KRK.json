@@ -1,0 +1,1769 @@
+{
+  "city_code": "KRK",
+  "statut": "préparé en autonomie, prix relevés le 07/11/2026",
+  "verifie_le": "2026-11-07",
+  "prix_match": 15,
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "hotel_petit_prix_max": 60,
+  "activites": [
+    {
+      "id": "rynek",
+      "nom": "Grand-Place et Halle aux draps",
+      "emoji": "🏛️",
+      "type": "balade",
+      "quartier": "Vieille ville (Stare Miasto)",
+      "lat": 50.0617,
+      "lng": 19.9373,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade sur la place et sous les arcades",
+          "gratuit"
+        ],
+        [
+          "Galerie de peinture polonaise à l'étage de la Halle (Musée national)",
+          "35 zł ≈ 8 € (réduit 25 zł)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Tôt le matin, quand la place est vide, puis à la nuit tombée pour les façades illuminées",
+      "texte": "Une des plus grandes places médiévales d'Europe, intacte depuis 800 ans : la Halle aux draps Renaissance au milieu, l'église Notre-Dame et ses deux tours dépareillées, des palais aux façades pastel tout autour. Calèches, pigeons et terrasses : le cœur battant de Cracovie, classé à l'Unesco.",
+      "site_officiel": "https://www.krakow.pl/english/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Scotch Mist",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKrakow_2024_032_St_Mary_Basilica_et_Sukiennice_Mascarons.jpg",
+        "src": "img/activites/KRK/rynek.jpg"
+      }
+    },
+    {
+      "id": "mariacki",
+      "nom": "Basilique Notre-Dame et l'appel du trompettiste",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Vieille ville (Rynek)",
+      "lat": 50.0616,
+      "lng": 19.9394,
+      "prix": 4.5,
+      "prix_detail": [
+        [
+          "Entrée de la basilique (côté touristes)",
+          "20 zł ≈ 4,50 €"
+        ],
+        [
+          "Réduit (7-18 ans, étudiants, seniors)",
+          "10 zł ≈ 2,30 €"
+        ],
+        [
+          "Montée à la tour du trompettiste (avril à octobre seulement)",
+          "billet à part, sur place"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4.5,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            2.3
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "Du lundi au samedi à 11 h 50 pour l'ouverture du grand retable ; dimanche à partir de 14 h",
+      "texte": "Un ciel bleu nuit semé d'étoiles d'or et le plus grand retable gothique d'Europe, sculpté par Veit Stoss : l'intérieur coupe le souffle. Toutes les heures, un trompettiste joue le « hejnał » du haut de la tour et s'interrompt net, en souvenir d'un guetteur frappé par une flèche tatare.",
+      "site_officiel": "https://mariacki.com/zwiedzanie/",
+      "note": "La montée à la tour (239 marches) n'est ouverte que d'avril à octobre. Pendant les messes, la visite est suspendue.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A20110917_Krakow_Kosciol_Mariacki_0306.jpg",
+        "src": "img/activites/KRK/mariacki.jpg",
+        "pos": "center 40%"
+      }
+    },
+    {
+      "id": "wawel",
+      "nom": "Château royal du Wawel",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Colline du Wawel",
+      "lat": 50.054,
+      "lng": 19.9354,
+      "prix": 13,
+      "prix_detail": [
+        [
+          "Salles d'apparat (2e étage : plafonds à têtes sculptées, tapisseries flamandes)",
+          "57 zł ≈ 13 €"
+        ],
+        [
+          "Réduit (et un parent accompagnant un enfant)",
+          "43 zł ≈ 9,80 €"
+        ],
+        [
+          "Moins de 7 ans",
+          "gratuit"
+        ],
+        [
+          "Cour à arcades et colline",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 13,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            9.8
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "un à deux jours avant en saison (bilety.wawel.krakow.pl)",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Le matin, en semaine ; billets à heure fixe, vite partis le week-end",
+      "texte": "Le château des rois de Pologne domine la Vistule : cour Renaissance à arcades digne de Florence, salles d'apparat tendues de tapisseries flamandes et plafond aux 30 têtes sculptées. En redescendant vers le fleuve, le dragon de bronze du Wawel crache du feu toutes les quelques minutes.",
+      "site_officiel": "https://wawel.krakow.pl/trasa/zamek-pietro-2",
+      "note": "Le Trésor de la Couronne et l'Armurerie ont leurs propres billets. La grotte du Dragon n'ouvre que d'avril à octobre.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Pawelsuder",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADJI_0332_Wawel.jpg",
+        "src": "img/activites/KRK/wawel.jpg"
+      }
+    },
+    {
+      "id": "cathedrale-wawel",
+      "nom": "Cathédrale du Wawel, tombeaux royaux et cloche Sigismond",
+      "emoji": "🔔",
+      "type": "culture",
+      "quartier": "Colline du Wawel",
+      "lat": 50.0545,
+      "lng": 19.9353,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Cathédrale, tombeaux royaux, cloche Sigismond et musée",
+          "26 zł ≈ 6 €"
+        ],
+        [
+          "Réduit (enfants scolarisés, étudiants, seniors)",
+          "18 zł ≈ 4,10 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            4.1
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Du lundi au samedi 9 h - 16 h 30, dimanche après 12 h 30",
+      "texte": "Là où l'on couronnait et enterrait les rois : chapelle Sigismond à la coupole d'or, crypte des souverains et des héros nationaux, puis un escalier de bois raide jusqu'à la cloche Sigismond, qui ne sonne qu'aux grandes occasions. Touchez son battant de la main gauche : la légende promet l'amour.",
+      "site_officiel": "https://www.katedra-wawelska.pl/katedra-wawelska/zaplanuj-wizyte/",
+      "note": "Billets en vente en face de l'entrée (bâtiment du musée de la cathédrale) ; la cathédrale elle-même n'a pas de billetterie à la porte.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Falk2",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AI10_081_Kathedrale%2C_Wasa-_und_Sigismundkapelle.jpg",
+        "src": "img/activites/KRK/cathedrale-wawel.jpg"
+      }
+    },
+    {
+      "id": "souterrains",
+      "nom": "Musée souterrain de la Grand-Place",
+      "emoji": "🕯️",
+      "type": "culture",
+      "quartier": "Vieille ville (Rynek)",
+      "lat": 50.0616,
+      "lng": 19.9371,
+      "prix": 10.3,
+      "prix_detail": [
+        [
+          "Billet normal",
+          "45 zł ≈ 10,30 €"
+        ],
+        [
+          "Réduit",
+          "35 zł ≈ 8 €"
+        ],
+        [
+          "Billet famille",
+          "90 zł ≈ 20,50 €"
+        ],
+        [
+          "Gratuit le mardi",
+          "billets seulement sur place, en nombre limité"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10.3,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            8
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille en été",
+      "duree": "1 h 30",
+      "moment": "Billets à heure fixe ; le matin, ou en fin de journée",
+      "texte": "Quatre mètres sous les pavés de la Grand-Place, on marche sur des passerelles au-dessus des fouilles : étals du Moyen Âge, forge, cimetière, routes marchandes. Hologrammes et écrans racontent la ville médiévale : idéal avec des enfants, ou un jour de pluie.",
+      "site_officiel": "https://muzeumkrakowa.pl/en/branches/rynek-underground",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Steven Lek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARynek_Underground_museum_Krakow_2018_3.jpg",
+        "src": "img/activites/KRK/souterrains.jpg"
+      }
+    },
+    {
+      "id": "czartoryski",
+      "nom": "Musée Czartoryski et la Dame à l'hermine",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Vieille ville (près de la porte Saint-Florian)",
+      "lat": 50.0648,
+      "lng": 19.9398,
+      "prix": 14.8,
+      "prix_detail": [
+        [
+          "Billet normal",
+          "65 zł ≈ 14,80 €"
+        ],
+        [
+          "Réduit",
+          "50 zł ≈ 11,40 €"
+        ],
+        [
+          "Gratuit le mardi",
+          "entrée libre pour l'exposition permanente"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14.8,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            11.4
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant (bilety.mnk.pl), billets à heure fixe",
+      "duree": "1 h 30",
+      "moment": "En semaine ; le mardi, entrée gratuite (prévoir la file)",
+      "texte": "Le seul tableau de Léonard de Vinci en Pologne, et l'un des quatre portraits de femme qu'il a peints : la Dame à l'hermine trône seule dans une salle sombre, presque intime. Autour, la plus ancienne collection publique du pays : armures, trésors, antiquités.",
+      "site_officiel": "https://mnk.pl/oddzial/muzeum-ksiazat-czartoryskich",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Léonard de Vinci (reproduction)",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALady_With_an_Ermine_by_Leonardo_da_Vinci%2C_20240806.jpg",
+        "src": "img/activites/KRK/czartoryski.jpg"
+      }
+    },
+    {
+      "id": "collegium-maius",
+      "nom": "Collegium Maius, l'université de Copernic",
+      "emoji": "🎓",
+      "type": "culture",
+      "quartier": "Vieille ville (rue Jagiellońska)",
+      "lat": 50.0614,
+      "lng": 19.9339,
+      "prix": 5.9,
+      "prix_detail": [
+        [
+          "Visite guidée (en français du mardi au vendredi à 10 h 30)",
+          "26 zł ≈ 5,90 €"
+        ],
+        [
+          "Réduit",
+          "14 zł ≈ 3,20 €"
+        ],
+        [
+          "Visite libre (après-midi)",
+          "17 zł ≈ 3,90 € (réduit 10 zł)"
+        ],
+        [
+          "Cour gothique",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5.9,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            3.2
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour la visite en français (petits groupes)",
+      "duree": "1 h",
+      "moment": "À 11 h, 13 h ou 15 h, quand l'horloge de la cour fait défiler ses figurines",
+      "texte": "Le plus vieux bâtiment de l'université de Cracovie (fondée en 1364), où étudia Copernic : une cour gothique à arcades, des salles aux plafonds peints, des globes anciens et des instruments d'astronomie. L'horloge de la cour s'anime en musique plusieurs fois par jour.",
+      "site_officiel": "https://maius.uj.edu.pl/zwiedzanie",
+      "note": "Le mercredi après-midi, la visite libre est gratuite. Le jardin des professeurs est fermé jusqu'à nouvel ordre.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Chris Olszewski",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ACourtyard_of_the_Collegium_Maius_%28Krak%C3%B3w%29%2C_2019.jpg",
+        "src": "img/activites/KRK/collegium-maius.jpg"
+      }
+    },
+    {
+      "id": "barbacane",
+      "nom": "Barbacane, porte Saint-Florian et parc des Planty",
+      "emoji": "🧱",
+      "type": "balade",
+      "quartier": "Vieille ville (nord)",
+      "lat": 50.0655,
+      "lng": 19.9416,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Barbacane et chemin de ronde des remparts (avril à octobre)",
+          "22 zł ≈ 5 € (réduit 16 zł)"
+        ],
+        [
+          "Porte Saint-Florian et parc des Planty",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            3.6
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Entrez par la porte Saint-Florian, puis faites le tour de la vieille ville par les Planty en fin d'après-midi",
+      "texte": "Un rare bastion rond du XVe siècle, hérissé de tourelles, devant la porte Saint-Florian où commençait la Voie royale. Les anciens remparts ont laissé place aux Planty, une ceinture de verdure de 4 km qui fait le tour de la vieille ville : la promenade préférée des Cracoviens, magnifique en automne.",
+      "site_officiel": "https://muzeumkrakowa.pl/en/branches/barbican",
+      "note": "La Barbacane n'ouvre qu'à la belle saison ; le parc et la porte se voient toute l'année.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Gswito",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABarbakan_przed_wschodem_s%C5%82o%C5%84ca.jpg",
+        "src": "img/activites/KRK/barbacane.jpg"
+      }
+    },
+    {
+      "id": "kazimierz",
+      "nom": "Kazimierz, l'ancien quartier juif",
+      "emoji": "🕍",
+      "type": "balade",
+      "quartier": "Kazimierz",
+      "lat": 50.0525,
+      "lng": 19.9477,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans le quartier",
+          "gratuit"
+        ],
+        [
+          "Vieille synagogue (musée)",
+          "≈ 4 € (billet à part)"
+        ],
+        [
+          "Zapiekanka (demi-baguette gratinée) place Nowy",
+          "≈ 3 à 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h à une demi-journée",
+      "moment": "L'après-midi pour les synagogues, puis le soir : le quartier devient le plus animé de la ville",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Synagogues séculaires, cimetière Remuh, rue Szeroka et ruelles où Spielberg tourna « La Liste de Schindler » : Kazimierz raconte cinq siècles de vie juive. Aujourd'hui, c'est aussi le quartier bohème de Cracovie, avec ses cafés aux meubles dépareillés, ses bars cachés et la place Nowy, temple de la zapiekanka.",
+      "site_officiel": "https://www.krakow.pl/english/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jeremiah Z. Cockroach",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AOld_Synagogue%2C_24_Szeroka_Street%2C_Kazimierz%2C_Krak%C3%B3w%2C_Poland.jpg",
+        "src": "img/activites/KRK/kazimierz.jpg"
+      }
+    },
+    {
+      "id": "schindler",
+      "nom": "Usine d'Oskar Schindler",
+      "emoji": "🏭",
+      "type": "culture",
+      "quartier": "Zabłocie (Podgórze)",
+      "lat": 50.0474,
+      "lng": 19.9614,
+      "prix": 13.7,
+      "prix_detail": [
+        [
+          "Billet normal (comprend aussi la Pharmacie sous l'Aigle, 7 jours)",
+          "60 zł ≈ 13,70 €"
+        ],
+        [
+          "Réduit",
+          "45 zł ≈ 10,30 €"
+        ],
+        [
+          "Billet famille",
+          "120 zł ≈ 27 €"
+        ],
+        [
+          "Gratuit le lundi",
+          "billets seulement sur place, en nombre limité"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 13.7,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            10.3
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "une à deux semaines avant en saison, quelques jours en hiver",
+      "duree": "2 h",
+      "moment": "Le matin ; les créneaux partent vite, même hors saison",
+      "texte": "Dans l'usine d'émail où Oskar Schindler sauva plus de 1 000 Juifs, un musée saisissant raconte Cracovie sous l'occupation nazie, de 1939 à 1945 : rues reconstituées, ghetto, témoignages. Un des musées les plus marquants d'Europe, à voir avant ou après Auschwitz.",
+      "site_officiel": "https://muzeumkrakowa.pl/en/branches/oskar-schindlers-enamel-factory",
+      "note": "Conseillé à partir de 12 ans environ. Pièce d'identité demandée à l'entrée pour les billets achetés en ligne.",
+      "enfants": false,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jennifer Boyer",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASchindler%E2%80%99s_factory%2C_Krak%C3%B3w%2C_2011.jpg",
+        "src": "img/activites/KRK/schindler.jpg"
+      }
+    },
+    {
+      "id": "podgorze",
+      "nom": "Podgórze : place des Héros du ghetto et passerelle Bernatka",
+      "emoji": "🪑",
+      "type": "balade",
+      "quartier": "Podgórze",
+      "lat": 50.0467,
+      "lng": 19.9545,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Place, mémorial et passerelle",
+          "gratuit"
+        ],
+        [
+          "Pharmacie sous l'Aigle",
+          "comprise dans le billet de l'usine Schindler (sinon 22 zł ≈ 5 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En allant à l'usine Schindler, à pied depuis Kazimierz par la passerelle",
+      "texte": "Soixante-dix chaises de bronze vides sur la place où les Juifs du ghetto attendaient la déportation : un mémorial simple et bouleversant. Juste à côté, la Pharmacie sous l'Aigle, dont le pharmacien Tadeusz Pankiewicz aida les habitants du ghetto. On y arrive par la passerelle Bernatka, ornée d'acrobates suspendus au-dessus de la Vistule.",
+      "site_officiel": "https://muzeumkrakowa.pl/en/branches/eagle-pharmacy",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Healy, Sean",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APlac_Bohaterow_Getta_Krak%C3%B3w.jpg",
+        "src": "img/activites/KRK/podgorze.jpg",
+        "pos": "center 70%"
+      }
+    },
+    {
+      "id": "mocak",
+      "nom": "MOCAK, musée d'art contemporain",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Zabłocie (Podgórze)",
+      "lat": 50.0473,
+      "lng": 19.9608,
+      "prix": 6.8,
+      "prix_detail": [
+        [
+          "Billet normal",
+          "30 zł ≈ 6,80 €"
+        ],
+        [
+          "Réduit",
+          "20 zł ≈ 4,60 €"
+        ],
+        [
+          "Sur présentation du billet de l'usine Schindler",
+          "15 zł ≈ 3,40 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6.8,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            4.6
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Juste après l'usine Schindler, dans les mêmes bâtiments",
+      "texte": "Installé dans les anciens ateliers de l'usine Schindler, le musée d'art contemporain de Cracovie mêle béton brut et grandes verrières. Des expositions souvent fortes sur la mémoire, la société et l'humour polonais : un contrepoint audacieux à la vieille ville.",
+      "site_officiel": "https://mocak.pl/bilety",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mocak",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2727_MOCAK_2011.jpg",
+        "src": "img/activites/KRK/mocak.jpg"
+      }
+    },
+    {
+      "id": "kosciuszko",
+      "nom": "Tertre de Kościuszko",
+      "emoji": "⛰️",
+      "type": "vue",
+      "quartier": "Zwierzyniec (ouest)",
+      "lat": 50.0549,
+      "lng": 19.8932,
+      "prix": 7.7,
+      "prix_detail": [
+        [
+          "Billet normal (tertre et expositions)",
+          "34 zł ≈ 7,70 €"
+        ],
+        [
+          "Réduit",
+          "26 zł ≈ 5,90 €"
+        ],
+        [
+          "Billet famille (4 personnes)",
+          "68 zł ≈ 15,50 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7.7,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            5.9
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30 (avec le trajet)",
+      "moment": "Par temps clair : on voit parfois les Tatras",
+      "texte": "Une colline artificielle de 34 m, élevée à la main en 1820-1823 par les Cracoviens en hommage au héros Tadeusz Kościuszko, avec de la terre de ses champs de bataille. Un sentier en spirale mène au sommet : toute la ville à vos pieds, le Wawel, la Vistule et, par beau temps, les montagnes.",
+      "site_officiel": "https://kopieckosciuszki.pl/cennik-2/",
+      "note": "Ouvert de 9 h à 15 h 30 en ce moment. Bus 100 depuis la place Matejki, ou 40 min de marche depuis le centre.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Pawelsuder",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ADJI_0236_Kopiec_Ko%C5%9Bciuszki.jpg",
+        "src": "img/activites/KRK/kosciuszko.jpg"
+      }
+    },
+    {
+      "id": "krakus",
+      "nom": "Coucher de soleil au tertre de Krakus",
+      "emoji": "🌅",
+      "type": "vue",
+      "quartier": "Podgórze",
+      "lat": 50.038,
+      "lng": 19.9585,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre, jour et nuit",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil, avec un pique-nique",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le plus vieux tertre de Cracovie, peut-être le tombeau du roi légendaire Krakus : une butte herbeuse d'où l'on voit toute la ville, le Wawel et les tours de la vieille ville. Le soir, étudiants et photographes s'y retrouvent pour le coucher de soleil, l'un des plus beaux de la ville.",
+      "site_officiel": "https://www.krakow.pl/english/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jakub Hałun",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A20200808_Kopiec_Krakusa_w_Krakowie_0532_0763.jpg",
+        "src": "img/activites/KRK/krakus.jpg"
+      }
+    },
+    {
+      "id": "zakrzowek",
+      "nom": "Lac de Zakrzówek",
+      "emoji": "🏞️",
+      "type": "nature",
+      "quartier": "Dębniki (sud-ouest)",
+      "lat": 50.0371,
+      "lng": 19.9124,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade autour du lac et belvédères",
+          "gratuit"
+        ],
+        [
+          "Baignade surveillée (piscines dans le lac, l'été)",
+          "≈ 5 € l'entrée"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "De juin à septembre pour la baignade ; toute l'année pour la balade",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une ancienne carrière inondée aux eaux turquoise, cernée de falaises calcaires, à 20 minutes du centre : on se croirait en Croatie. Depuis 2023, des bassins flottants permettent de s'y baigner l'été ; le reste de l'année, les sentiers des falaises offrent des vues superbes.",
+      "site_officiel": "https://www.zakrzowek.krakow.pl/",
+      "note": "Baignade seulement dans les bassins aménagés : plonger depuis les falaises est interdit et dangereux.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dwxn",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AZakrz%C3%B3wek_20230604_142534_04.jpg",
+        "src": "img/activites/KRK/zakrzowek.jpg"
+      }
+    },
+    {
+      "id": "vistule",
+      "nom": "Bords de la Vistule et croisière au pied du Wawel",
+      "emoji": "🛥️",
+      "type": "balade",
+      "quartier": "Bulwary Wiślane (au pied du Wawel)",
+      "lat": 50.0525,
+      "lng": 19.9357,
+      "prix": 17,
+      "prix_detail": [
+        [
+          "Promenade sur les quais",
+          "gratuit"
+        ],
+        [
+          "Croisière d'une heure",
+          "≈ 70 à 75 zł ≈ 17 €"
+        ],
+        [
+          "Enfants (croisière)",
+          "≈ 10 € ; gratuit pour les tout-petits"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 17,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            10
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h à 2 h",
+      "moment": "En fin de journée, quand le château s'illumine ; croisières surtout d'avril à octobre",
+      "texte": "Les quais herbeux de la Vistule, juste sous les remparts du Wawel, sont le salon d'été des Cracoviens : péniches-bars, vélos, pique-niques. En bateau, on longe le château, Kazimierz et la passerelle Bernatka en une heure, avec la plus belle vue sur la colline royale.",
+      "site_officiel": "https://www.krakow.pl/english/",
+      "note": "Plusieurs compagnies partent du quai Czerwieński, au pied du Wawel : billets sur place. Peu de départs de novembre à mars.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "TimiKowalski",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AWawel_Royal_Castle_in_Krakow_-_Zamek_na_Wawelu_noc%C4%85.jpg",
+        "src": "img/activites/KRK/vistule.jpg"
+      }
+    },
+    {
+      "id": "nowa-huta",
+      "nom": "Nowa Huta, la ville idéale socialiste",
+      "emoji": "🏢",
+      "type": "balade",
+      "quartier": "Nowa Huta (est)",
+      "lat": 50.0718,
+      "lng": 20.0378,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans le quartier",
+          "gratuit"
+        ],
+        [
+          "Tram depuis le centre (35 min)",
+          "≈ 1,30 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "En semaine, en tram 4 ou 22 depuis le centre",
+      "texte": "Construite dans les années 1950 pour « répondre » à la bourgeoise Cracovie, Nowa Huta est une ville modèle du réalisme socialiste : avenues en étoile, immeubles monumentaux, place Centrale et l'église de l'Arche du Seigneur, bâtie par les ouvriers contre l'avis du régime. Un voyage dans le temps, loin des foules.",
+      "site_officiel": "https://www.krakow.pl/english/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Piotr Tomaszewski-Guillon / dronographyapplied.com",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ANowa_Huta_-_Plac_Centralny_z_lotu_ptaka.jpg",
+        "src": "img/activites/KRK/nowa-huta.jpg"
+      }
+    },
+    {
+      "id": "tyniec",
+      "nom": "Abbaye bénédictine de Tyniec",
+      "emoji": "⛪",
+      "type": "nature",
+      "quartier": "Tyniec (à 12 km au sud-ouest)",
+      "lat": 50.0207,
+      "lng": 19.8222,
+      "prix": 3,
+      "prix_detail": [
+        [
+          "Cour et église de l'abbaye",
+          "gratuit"
+        ],
+        [
+          "Petit musée de l'abbaye",
+          "≈ 3 €"
+        ],
+        [
+          "Bus 112 depuis le centre",
+          "≈ 1,30 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 3,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            2
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "Par beau temps, à vélo le long de la Vistule (≈ 12 km de piste) ou en bus",
+      "texte": "Perchée sur une falaise blanche au-dessus de la Vistule, l'abbaye bénédictine de Tyniec veille sur le fleuve depuis près de 1 000 ans. Une escapade paisible : vue sur les méandres, chants grégoriens aux offices, et la boutique des moines (liqueurs, miel, pains d'épices).",
+      "site_officiel": "https://www.tyniec.benedyktyni.pl/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Gunther Tschuch",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATyniec_Abbey_and_river_Vistula_02.jpg",
+        "src": "img/activites/KRK/tyniec.jpg"
+      }
+    },
+    {
+      "id": "wieliczka",
+      "nom": "Mine de sel de Wieliczka",
+      "emoji": "🧂",
+      "type": "culture",
+      "quartier": "Wieliczka (à 15 km au sud-est)",
+      "lat": 49.9836,
+      "lng": 20.0553,
+      "prix": 32.6,
+      "prix_detail": [
+        [
+          "Parcours touristique avec guide (en français à certaines heures)",
+          "143 zł ≈ 32,60 €"
+        ],
+        [
+          "Réduit (enfants dès 4 ans, étudiants, seniors)",
+          "121 zł ≈ 27,60 €"
+        ],
+        [
+          "Moins de 4 ans",
+          "gratuit"
+        ],
+        [
+          "Famille 2 adultes + 2 enfants",
+          "430 zł ≈ 98 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 32.6,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            18,
+            27.6
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, et plus tôt pour une visite en français",
+      "duree": "3 h de visite (+ 30 min de train dans chaque sens)",
+      "moment": "Toute l'année (il fait 14 °C sous terre) ; réserver l'heure de la visite en français",
+      "texte": "Une ville taillée dans le sel, à 135 m sous terre : 800 marches de bois, des lacs souterrains et la chapelle Sainte-Kinga, une immense église où lustres, autel et bas-reliefs (même une Cène) sont entièrement sculptés dans le sel par des mineurs. Classée parmi les tout premiers sites de l'Unesco, en 1978.",
+      "site_officiel": "https://www.wieliczka-saltmine.com/individual-tourist/useful-information/ticket-prices-and-visiting-hours",
+      "note": "Train régional depuis la gare centrale jusqu'à Wieliczka Rynek-Kopalnia (≈ 25 min). Prévoir une petite laine et de bonnes chaussures.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dennis G. Jarvis",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APoland-01583_-_St._Kinga%27s_Chapel_%2831547044100%29.jpg",
+        "src": "img/activites/KRK/wieliczka.jpg"
+      }
+    },
+    {
+      "id": "auschwitz",
+      "nom": "Mémorial d'Auschwitz-Birkenau",
+      "emoji": "🕯️",
+      "type": "culture",
+      "quartier": "Oświęcim (à 65 km à l'ouest)",
+      "lat": 50.0266,
+      "lng": 19.2036,
+      "prix": 43,
+      "prix_detail": [
+        [
+          "Visite guidée en français (Auschwitz I et Birkenau, 3 h 30, navette entre les deux camps)",
+          "150 zł ≈ 34 €"
+        ],
+        [
+          "Réduit (élèves et étudiants jusqu'à 26 ans)",
+          "140 zł ≈ 32 €"
+        ],
+        [
+          "Bus ou train aller-retour depuis Cracovie (1 h 30 de trajet)",
+          "≈ 9 €"
+        ],
+        [
+          "Visite libre sans guide (fin de journée seulement)",
+          "gratuite, mais à réserver aussi"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 43,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "plusieurs semaines avant (visit.auschwitz.org), les visites en français sont rares",
+      "duree": "Journée entière (3 h 30 de visite + 3 h de trajet)",
+      "moment": "En semaine ; visite en français à heure fixe (en novembre et décembre : 11 h 45)",
+      "texte": "Le plus grand camp de concentration et d'extermination nazi, où plus d'un million de personnes, en majorité des Juifs, furent assassinées. La visite avec un guide-éducateur, des blocs d'Auschwitz I jusqu'à la rampe et aux ruines des chambres à gaz de Birkenau, est éprouvante et inoubliable. Un devoir de mémoire.",
+      "site_officiel": "https://www.auschwitz.org/en/visiting/guided-tours-for-individual-visitors",
+      "note": "Le Mémorial déconseille la visite aux moins de 14 ans. Réservez uniquement sur visit.auschwitz.org : beaucoup de sites revendent les billets bien plus cher. Gros sacs interdits.",
+      "enfants": false,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Dennis G. Jarvis",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APoland-01415_-_Birkenau_Rails_of_Death...._%2830919826104%29.jpg",
+        "src": "img/activites/KRK/auschwitz.jpg"
+      }
+    },
+    {
+      "id": "zakopane",
+      "nom": "Excursion à Zakopane et dans les Tatras",
+      "emoji": "🏔️",
+      "type": "nature",
+      "quartier": "Zakopane (à 2 h de bus au sud)",
+      "lat": 49.2992,
+      "lng": 19.9496,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Bus aller-retour Cracovie - Zakopane (≈ 2 h)",
+          "≈ 14 €"
+        ],
+        [
+          "Funiculaire du mont Gubałówka, aller-retour",
+          "≈ 9 €"
+        ],
+        [
+          "Téléphérique du Kasprowy Wierch (1 987 m), en option",
+          "≈ 30 €, à réserver"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            15
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "Journée entière",
+      "moment": "Toute l'année : neige et ski l'hiver, randonnée l'été ; partir avant 8 h",
+      "texte": "La capitale des montagnes polonaises : chalets de bois sculpté, rue piétonne Krupówki, fromage fumé oscypek grillé sur les marchés, et les sommets des Tatras en toile de fond. Le funiculaire de Gubałówka offre le panorama sur toute la chaîne ; les plus courageux montent au Kasprowy Wierch.",
+      "site_officiel": "https://zakopane.pl/",
+      "note": "Bus fréquents depuis la gare routière (MDA), à côté de la gare centrale. Évitez le retour du dimanche soir : les routes sont saturées.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jonathanawhite (Wikipédia en anglais)",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File%3AZakopane_-_ul_Krupowki_%282%29.JPG",
+        "src": "img/activites/KRK/zakopane.jpg"
+      }
+    },
+    {
+      "id": "ojcow",
+      "nom": "Parc national d'Ojców et château de Pieskowa Skała",
+      "emoji": "🏰",
+      "type": "nature",
+      "quartier": "Ojców (à 25 km au nord)",
+      "lat": 50.2453,
+      "lng": 19.7787,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Bus aller-retour depuis Cracovie",
+          "≈ 6 €"
+        ],
+        [
+          "Château de Pieskowa Skała (expositions)",
+          "≈ 6 €"
+        ],
+        [
+          "Sentiers du parc",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            8
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée à une journée",
+      "moment": "D'avril à octobre de préférence (beaucoup de bus et de services sont réduits l'hiver)",
+      "texte": "Le plus petit parc national de Pologne cache une vallée de falaises calcaires, de grottes et de forêts, à 40 minutes de Cracovie. Au bout de la vallée, le château Renaissance de Pieskowa Skała se dresse sur son rocher, à côté de la « massue d'Hercule », un pilier de pierre de 25 m.",
+      "site_officiel": "https://www.pieskowaskala.eu/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "marek7400",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APieskowa_Ska%C5%82a_Castle_03_-_panoramio.jpg",
+        "src": "img/activites/KRK/ojcow.jpg"
+      }
+    },
+    {
+      "id": "wisla",
+      "nom": "Match de foot du Wisła Kraków",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Czarna Wieś (ouest du centre)",
+      "lat": 50.0636,
+      "lng": 19.9118,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Billets (zones 3 à 1)",
+          "55 à 80 zł ≈ 12,50 à 18 €"
+        ],
+        [
+          "Moins de 15 ans",
+          "dès 27 zł ≈ 6 €"
+        ],
+        [
+          "Moins de 6 ans (sur les genoux d'un adulte)",
+          "gratuit"
+        ],
+        [
+          "Le jour du match",
+          "+ 5 zł"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            14,
+            6.2
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant (bilety.wislakrakow.com)",
+      "duree": "2 h 30",
+      "moment": "Les soirs et week-ends de match ; achetez en ligne avant le jour J",
+      "club": "Wisła Kraków",
+      "texte": "Treize fois champion de Pologne, le Wisła, l'« Étoile blanche », est le club le plus populaire de Cracovie, revenu en première division en 2026. Son stade de 33 000 places vibre de chants et de tifos ; le derby contre le Cracovia, la « guerre sainte », est l'un des plus chauds d'Europe.",
+      "site_officiel": "https://shop.wislakrakow.com/en/pages/cennik-biletow",
+      "note": "Billets nominatifs : une pièce d'identité est demandée pour l'achat et à l'entrée. Le secteur familial est le plus calme.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Piotr Drabik",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AStadion_przed_meczem_z_APOELEM.jpg",
+        "src": "img/activites/KRK/wisla.jpg"
+      }
+    },
+    {
+      "id": "cracovia",
+      "nom": "Match de foot du Cracovia",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Błonia (ouest du centre)",
+      "lat": 50.0577,
+      "lng": 19.9235,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Billets",
+          "≈ 35 à 70 zł ≈ 8 à 16 €"
+        ],
+        [
+          "Enfants",
+          "tarif réduit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            14,
+            6
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "duree": "2 h 30",
+      "moment": "Les soirs et week-ends de match",
+      "club": "KS Cracovia",
+      "texte": "Le plus vieux club de Pologne encore en activité (fondé en 1906), cinq fois champion et vainqueur de la Coupe de Pologne en 2020 : l'éternel rival du Wisła, dont le stade n'est qu'à un kilomètre, de l'autre côté du parc Błonia. Un stade moderne et compact de 15 000 places, à 15 minutes à pied de la Grand-Place.",
+      "site_officiel": "https://bilety.cracovia.pl/",
+      "note": "Billets nominatifs : pièce d'identité demandée.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Piotr Drabik from Poland",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AStadion_Cracovii_%288145535857%29.jpg",
+        "src": "img/activites/KRK/cracovia.jpg"
+      }
+    },
+    {
+      "id": "noel",
+      "nom": "Marché de Noël de la Grand-Place",
+      "emoji": "🎄",
+      "type": "balade",
+      "quartier": "Vieille ville (Rynek)",
+      "lat": 50.0614,
+      "lng": 19.9375,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Vin chaud, oscypek grillé, pierogi",
+          "≈ 3 à 8 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h à 2 h",
+      "moment": "De fin novembre au 1er janvier (en 2025 : du 28 novembre au 1er janvier) ; le soir pour les lumières",
+      "texte": "Plus de cent chalets de bois autour de la Halle aux draps : vin chaud, fromage fumé grillé, pain d'épices de Toruń, décorations de verre soufflé. Et, au même moment, le concours des crèches de Cracovie, ces « szopki » scintillantes en forme d'églises, classées au patrimoine immatériel de l'Unesco.",
+      "site_officiel": "https://www.krakow.pl/english/",
+      "note": "Dates 2026 pas encore annoncées par la ville : le marché ouvre chaque année le dernier week-end de novembre.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Igor123121",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A33rd_Finale_of_the_Wielka_Orkiestra_%C5%9Awi%C4%85tecznej_Pomocy_%28Great_Orchestra_of_Christmas_Charity%29%2C_pavilions%2C_Main_Market_square%2C_Old_Town%2C_Krakow%2C_Poland.jpg",
+        "src": "img/activites/KRK/noel.jpg"
+      }
+    },
+    {
+      "id": "chopin",
+      "nom": "Concert Chopin aux chandelles",
+      "emoji": "🎹",
+      "type": "sortir",
+      "quartier": "Vieille ville",
+      "lat": 50.0636,
+      "lng": 19.9381,
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Concert d'une heure (souvent avec un verre de vin)",
+          "dès 79 à 89 zł ≈ 18 à 20 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            18,
+            15
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille ou le jour même",
+      "duree": "1 h",
+      "moment": "Tous les soirs, vers 19 h ou 20 h",
+      "texte": "Chaque soir, dans un palais ou une église de la vieille ville, un pianiste joue les nocturnes, valses et polonaises de Chopin, le plus polonais des compositeurs. Une heure de musique intime dans un cadre ancien : la soirée parfaite après une journée de visites.",
+      "site_officiel": "https://cracowconcerts.com/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Gryffindor",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKamienica_Zacherlowska_%283%29.JPG",
+        "src": "img/activites/KRK/chopin.jpg"
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "pierogarnia",
+      "nom": "Przystanek Pierogarnia",
+      "emoji": "🥟",
+      "gamme": "petit",
+      "genre": "Pierogi",
+      "quartier": "Vieille ville",
+      "adresse": "Szewska 25, 31-009 Kraków",
+      "lat": 50.063002,
+      "lng": 19.934032,
+      "prix": "7 à 12 €",
+      "prix_min": 7,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une minuscule salle à deux pas de la Grand-Place et des pierogi faits main, servis au poids : ruskie (pomme de terre et fromage blanc), viande, chou et champignons, ou sucrés aux fruits. La file déborde souvent sur le trottoir, mais elle avance vite.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; à emporter possible",
+      "photo": {
+        "auteur": "Stako",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARuskie.jpg",
+        "src": "img/restos/KRK/pierogarnia.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "nyska",
+      "nom": "Kiełbaski z Niebieskiej Nyski",
+      "emoji": "🌭",
+      "gamme": "petit",
+      "genre": "Saucisses grillées de nuit",
+      "quartier": "Grzegórzki (près de la halle Targowa)",
+      "adresse": "Grzegórzecka, face à la Hala Targowa, Kraków",
+      "lat": 50.058456,
+      "lng": 19.948541,
+      "prix": "4 à 7 €",
+      "prix_min": 4,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Depuis des décennies, une vieille camionnette Nysa bleue se gare chaque soir devant la halle Targowa et grille des saucisses au charbon, du lundi au samedi de 19 h à 3 h du matin. Saucisse, pain, moutarde, et la queue des noctambules sous les réverbères : un rituel cracovien.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; paiement en espèces conseillé",
+      "photo": {
+        "auteur": "Zala",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2025_Krak%C3%B3w_Kie%C5%82baski_z_Niebieskiej_Nyski_04.jpg",
+        "src": "img/restos/KRK/nyska.jpg",
+        "pos": "center 60%"
+      }
+    },
+    {
+      "id": "milkbar-tomasza",
+      "nom": "Milkbar Tomasza",
+      "emoji": "🍳",
+      "gamme": "petit",
+      "genre": "Bar à lait, petit-déjeuner",
+      "quartier": "Vieille ville",
+      "adresse": "Św. Tomasza 24, 31-027 Kraków",
+      "lat": 50.062425,
+      "lng": 19.941622,
+      "prix": "8 à 15 €",
+      "prix_min": 8,
+      "badges": [],
+      "texte": "Un « bar mleczny », ces cantines populaires de l'époque communiste, version moderne et lumineuse : petits-déjeuners copieux, crêpes, soupes et plats polonais du jour à prix doux, au cœur de la vieille ville. L'adresse préférée des voyageurs pour bien commencer la journée.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; attente possible le week-end matin",
+      "photo": {
+        "auteur": "Monica Kelly",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABar_Mleczny_%284604433763%29.jpg",
+        "src": "img/restos/KRK/milkbar-tomasza.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "chimera",
+      "nom": "Chimera",
+      "emoji": "🥗",
+      "gamme": "petit",
+      "genre": "Bar à salades dans une cave",
+      "quartier": "Vieille ville",
+      "adresse": "Świętej Anny 3, 31-008 Kraków",
+      "lat": 50.061659,
+      "lng": 19.934816,
+      "prix": "8 à 14 €",
+      "prix_min": 8,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une institution des étudiants cracoviens : on descend dans une cave voûtée et l'on compose son assiette parmi des dizaines de salades et plats végétariens, servis au comptoir. Simple, frais, pas cher, et une cour aux airs de jardin secret aux beaux jours.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Kgbo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AInterior_of_Chimera_Restaurant%2C_Krak%C3%B3w%2C_2019.jpg",
+        "src": "img/restos/KRK/chimera.jpg"
+      }
+    },
+    {
+      "id": "molam",
+      "nom": "MOLÁM",
+      "emoji": "🌶️",
+      "gamme": "petit",
+      "genre": "Cuisine thaïe de l'Isan",
+      "quartier": "Piasek (ouest de la vieille ville)",
+      "adresse": "Rajska 3/4, 31-124 Kraków",
+      "lat": 50.064873,
+      "lng": 19.927661,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin 2026",
+      "texte": "Une cantine thaïe animée et sans chichis, inspirée des marchés de nuit du nord-est de la Thaïlande : salade de papaye pilée, larb, poulet grillé et riz gluant, épicés pour de vrai. Le guide Michelin la distingue pour son excellent rapport qualité-prix.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille le week-end",
+      "photo": {
+        "auteur": "Tris_T7",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASomtum_Kaikem_Papaya_salad_of_Thai_Food.JPG",
+        "src": "img/restos/KRK/molam.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "pod-wawelem",
+      "nom": "Pod Wawelem Kompania Kuflowa",
+      "emoji": "🍺",
+      "gamme": "petit",
+      "genre": "Brasserie polonaise",
+      "quartier": "Stradom (au pied du Wawel)",
+      "adresse": "Świętej Gertrudy 26/29, 31-048 Kraków",
+      "lat": 50.054876,
+      "lng": 19.939403,
+      "prix": "12 à 25 €",
+      "prix_min": 12,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La brasserie géante au pied du Wawel : chopes d'un litre, jarret de porc rôti, pierogi et soupe żurek servie dans une miche de pain, au son de l'accordéon. Bruyant, généreux, très fréquenté (plus de 30 000 avis) : la Pologne à la bonne franquette.",
+      "reservation": "conseille",
+      "reservation_delai": "le jour même ou la veille le week-end",
+      "photo": {
+        "auteur": "Elekes Andor",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APod_Wawelem_%282%29.jpg",
+        "src": "img/restos/KRK/pod-wawelem.jpg"
+      }
+    },
+    {
+      "id": "czarna-kaczka",
+      "nom": "Czarna Kaczka",
+      "emoji": "🦆",
+      "gamme": "moyen",
+      "genre": "Canard et cuisine polonaise",
+      "quartier": "Vieille ville (près du Wawel)",
+      "adresse": "Poselska 22, 31-002 Kraków",
+      "lat": 50.058249,
+      "lng": 19.939176,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "« Le Canard noir » fait du canard sa spécialité : rôti aux pommes à la polonaise, en pierogi, en soupe. Salles chaleureuses aux murs couverts de vieilles photos, service attentionné, et l'une des meilleures notes de la vieille ville pour une cuisine polonaise traditionnelle.",
+      "reservation": "conseille",
+      "reservation_delai": "un à deux jours avant le week-end",
+      "photo": {
+        "auteur": "Аимаина хикари",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARestoracja_Czarna_Kaczka_w_Krakowie.jpg",
+        "src": "img/restos/KRK/czarna-kaczka.jpg"
+      }
+    },
+    {
+      "id": "starka",
+      "nom": "Starka",
+      "emoji": "🥃",
+      "gamme": "moyen",
+      "genre": "Cuisine polonaise et vodkas maison",
+      "quartier": "Kazimierz",
+      "adresse": "Józefa 14, 31-056 Kraków",
+      "lat": 50.050678,
+      "lng": 19.944342,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Un restaurant intime de Kazimierz qui fait ses propres vodkas aromatisées (miel, cerise, raifort) et les sert avec une cuisine polonaise de grand-mère bien tournée : hareng, foie de veau, joue de bœuf. La dégustation de vodkas maison est presque obligatoire.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, deux ou trois jours avant le week-end",
+      "photo": {
+        "auteur": "Zygmunt Put Zetpe0202",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ANowy_%28New%29_square%2C_Kazimierz%2C_Krakow%2C_Poland.jpg",
+        "src": "img/restos/KRK/starka.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "folga",
+      "nom": "Folga",
+      "emoji": "🍽️",
+      "gamme": "moyen",
+      "genre": "Bistrot moderne de saison",
+      "quartier": "Kazimierz (place Nowy)",
+      "adresse": "Estery 12, 31-056 Kraków",
+      "lat": 50.051821,
+      "lng": 19.945448,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin 2026",
+      "texte": "Sur la place Nowy, une cuisine polonaise contemporaine de saison, précise et généreuse, à partager, accompagnée d'une belle carte de vins (distinguée par Star Wine List). Une adresse sûre pour goûter la jeune gastronomie cracovienne sans se ruiner.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant le week-end",
+      "photo": {
+        "auteur": "Mach240390",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APlacNowy-UlicaEstery-PierzejaWschodnia-POL%2C_Krak%C3%B3w.jpg",
+        "src": "img/restos/KRK/folga.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "karakter",
+      "nom": "Karakter",
+      "emoji": "🥩",
+      "gamme": "moyen",
+      "genre": "Bistrot audacieux",
+      "quartier": "Kazimierz",
+      "adresse": "Brzozowa 17, 31-050 Kraków",
+      "lat": 50.053287,
+      "lng": 19.945896,
+      "prix": "30 à 50 €",
+      "prix_min": 30,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin 2026",
+      "texte": "Le bistrot le plus culotté de Kazimierz : salle brute et bruyante, carte qui ose les abats, le tartare de cheval ou la cervelle, et des plats de viande pleins de caractère, comme son nom l'indique. Les Cracoviens adorent ; les curieux aussi.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "photo": {
+        "auteur": "Kgbo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASteak_tartare%2C_PINO_Garden_Restaurant%2C_Krak%C3%B3w%2C_Poland_02.jpg",
+        "src": "img/restos/KRK/karakter.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "hamsa",
+      "nom": "Hamsa",
+      "emoji": "🧆",
+      "gamme": "moyen",
+      "genre": "Cuisine israélienne",
+      "quartier": "Kazimierz (rue Szeroka)",
+      "adresse": "Szeroka 2, 31-053 Kraków",
+      "lat": 50.053182,
+      "lng": 19.947628,
+      "prix": "20 à 35 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Au bout de la rue Szeroka, la plus belle de l'ancien quartier juif, Hamsa sert houmous crémeux, mezzés, falafels et shakshuka, à partager dans une ambiance chaleureuse. La pause idéale entre deux synagogues.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille le week-end",
+      "photo": {
+        "auteur": "Antekbojar",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKRAK%C3%93W%2C_AB._160.JPG",
+        "src": "img/restos/KRK/hamsa.jpg"
+      }
+    },
+    {
+      "id": "bufet-krk",
+      "nom": "Bufet KRK",
+      "emoji": "🔥",
+      "gamme": "moyen",
+      "genre": "Brasserie polonaise et grill",
+      "quartier": "Kazimierz",
+      "adresse": "Dajwór 8, 31-035 Kraków",
+      "lat": 50.0518,
+      "lng": 19.948,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin 2026",
+      "texte": "Le petit frère, décontracté, de la Bottiglieria 1881 (deux étoiles) : une brasserie moderne avec cuisine ouverte et comptoir, qui ressuscite les classiques polonais comme le boudin noir maison (kaszanka) et grille des viandes de grande qualité. Bondée, et on comprend pourquoi.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant ; fermé le lundi",
+      "photo": {
+        "auteur": "Sergey A. Demidov",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A20260915_Blood_sausage_in_Minsk.jpg",
+        "src": "img/restos/KRK/bufet-krk.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "bottiglieria",
+      "nom": "Bottiglieria 1881",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Grande table créative",
+      "quartier": "Kazimierz",
+      "adresse": "Bocheńska 5, 31-061 Kraków",
+      "lat": 50.048663,
+      "lng": 19.946134,
+      "prix": "125 à 180 €",
+      "prix_min": 125,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin 2026",
+      "texte": "La seule table de Pologne couronnée de deux étoiles Michelin, dans une cave voûtée de Kazimierz : le chef Paweł Kras revisite les produits polonais en deux menus dégustation (« Faire connaissance », environ 550 zł, ou « Expérience complète », environ 790 zł), avec une cave de vins remarquable. L'expérience gastronomique du voyage.",
+      "reservation": "indispensable",
+      "reservation_delai": "plusieurs semaines avant ; ouvert du mardi au samedi soir",
+      "photo": {
+        "auteur": "Askeja",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AThana_Fine_Dining_plate.jpg",
+        "src": "img/restos/KRK/bottiglieria.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "wierzynek",
+      "nom": "Wierzynek",
+      "emoji": "👑",
+      "gamme": "haut",
+      "genre": "Cuisine royale polonaise",
+      "quartier": "Vieille ville (Grand-Place)",
+      "adresse": "Rynek Główny 16, 31-008 Kraków",
+      "lat": 50.0607,
+      "lng": 19.9382,
+      "prix": "50 à 90 €",
+      "prix_min": 50,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Sa légende remonte à 1364, quand le marchand Wierzynek aurait reçu ici rois et empereurs à la demande de Casimir le Grand. Salons historiques donnant sur la Grand-Place, argenterie et cuisine polonaise d'apparat (gibier, canard, pierogi fins) : un dîner dans l'histoire.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant ; fermé le lundi",
+      "photo": {
+        "auteur": "Halina Frederiksen",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKrakow_-_Restaurant_Wierzynek_-_panoramio.jpg",
+        "src": "img/restos/KRK/wierzynek.jpg"
+      }
+    },
+    {
+      "id": "copernicus",
+      "nom": "Copernicus",
+      "emoji": "🍷",
+      "gamme": "haut",
+      "genre": "Gastronomie polonaise",
+      "quartier": "Rue Kanonicza (au pied du Wawel)",
+      "adresse": "Kanonicza 16, 31-002 Kraków",
+      "lat": 50.056194,
+      "lng": 19.937595,
+      "prix": "60 à 110 €",
+      "prix_min": 60,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin 2026",
+      "texte": "Dans un hôtel aménagé dans une maison gothique de la plus vieille rue de Cracovie, une salle intime sous plafond Renaissance et une cuisine polonaise raffinée, en menu dégustation ou à la carte. Le dîner chic à deux pas du château.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "photo": {
+        "auteur": "Kgbo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APortal_at_Copernicus_Hotel%2C_16_Kanonicza_Street_in_Krak%C3%B3w%2C_Poland%2C_2019.jpg",
+        "src": "img/restos/KRK/copernicus.jpg"
+      }
+    },
+    {
+      "id": "fiorentina",
+      "nom": "Fiorentina",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Grill et cuisine moderne",
+      "quartier": "Vieille ville (rue Grodzka)",
+      "adresse": "Grodzka 63, 31-044 Kraków",
+      "lat": 50.055947,
+      "lng": 19.938166,
+      "prix": "50 à 100 €",
+      "prix_min": 50,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin 2026",
+      "texte": "Sous de belles voûtes de brique, un chef expérimenté modernise les plats traditionnels avec les meilleurs produits locaux. Spécialités : la sole au feu de bois et, comme son nom l'indique, la côte de bœuf « fiorentina » maturée 30 jours, grillée et servie avec plusieurs sauces.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant ; dîner seulement",
+      "photo": {
+        "auteur": "Maatex",
+        "licence": "CC BY-SA 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File%3AA-428_kamienica_Krak%C3%B3w_ul._Grodzka_63_MM.JPG",
+        "src": "img/restos/KRK/fiorentina.jpg"
+      }
+    },
+    {
+      "id": "amarylis",
+      "nom": "Amarylis",
+      "emoji": "🌿",
+      "gamme": "haut",
+      "genre": "Menus dégustation",
+      "quartier": "Kazimierz (rue Dietla)",
+      "adresse": "Józefa Dietla 60, 31-039 Kraków",
+      "lat": 50.054386,
+      "lng": 19.943213,
+      "prix": "90 à 115 €",
+      "prix_min": 90,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin 2026",
+      "texte": "Dans le Queen Boutique Hotel, le chef Grzegorz Bucki marie produits polonais et influences du monde en menus dégustation (de 390 à 490 zł) d'une grande précision. Une des tables les plus créatives de la ville, dans un cadre intime.",
+      "reservation": "indispensable",
+      "reservation_delai": "une semaine avant",
+      "photo": {
+        "auteur": "Anagoria",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A2024-02-10_Tuna_on_Yogurt_at_Restaurant_Uri_Buri_in_Acre_anagoria.jpg",
+        "src": "img/restos/KRK/amarylis.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "szara-ges",
+      "nom": "Szara Gęś",
+      "emoji": "🪿",
+      "gamme": "haut",
+      "genre": "Cuisine polonaise revisitée",
+      "quartier": "Vieille ville (Grand-Place)",
+      "adresse": "Rynek Główny 17, 31-008 Kraków",
+      "lat": 50.060491,
+      "lng": 19.937158,
+      "prix": "45 à 80 €",
+      "prix_min": 45,
+      "badges": [],
+      "texte": "« L'Oie grise » occupe une maison gothique de la Grand-Place, sous des voûtes du XIIIe siècle : l'oie y est servie sous toutes ses formes (foie gras, cuisse confite), à côté de pierogi raffinés et d'un dessert-signature qui porte le nom de la maison. Une table élégante avec la plus belle adresse de la ville.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant le week-end",
+      "photo": {
+        "auteur": "Dr. Bernd Gross",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAltpolnische_G%C3%A4nsebrust_mit_Kl%C3%B6%C3%9Fen_%281%29.jpg",
+        "src": "img/restos/KRK/szara-ges.jpg",
+        "illustration": true
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "stare-miasto",
+      "nom": "Vieille ville",
+      "lat": 50.0617,
+      "lng": 19.9373,
+      "texte": "Au cœur de tout, à pied : Grand-Place, musées, restaurants. Animé tard le soir autour du Rynek ; prenez une chambre côté cour."
+    },
+    {
+      "id": "kazimierz",
+      "nom": "Kazimierz",
+      "lat": 50.0515,
+      "lng": 19.9455,
+      "texte": "L'ancien quartier juif, bohème et plein de charme : cafés, bars et les meilleures tables de la ville, à 15 minutes à pied de la Grand-Place."
+    },
+    {
+      "id": "stradom",
+      "nom": "Stradom (au pied du Wawel)",
+      "lat": 50.0545,
+      "lng": 19.941,
+      "texte": "Entre le château, la vieille ville et Kazimierz : idéal pour tout faire à pied, un peu plus calme que le Rynek."
+    },
+    {
+      "id": "podgorze",
+      "nom": "Podgórze",
+      "lat": 50.0455,
+      "lng": 19.9555,
+      "texte": "De l'autre côté de la Vistule, près de l'usine Schindler : quartier résidentiel tranquille, hôtels modernes moins chers, tram direct vers le centre."
+    },
+    {
+      "id": "piasek",
+      "nom": "Piasek (ouest des Planty)",
+      "lat": 50.0625,
+      "lng": 19.9265,
+      "texte": "Rues bourgeoises et calmes à 10 minutes de la Grand-Place, près du parc Błonia et des stades : bon rapport qualité-prix."
+    }
+  ]
+}
