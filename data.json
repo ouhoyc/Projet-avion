@@ -7,7 +7,7 @@
     "lon": 5.080334
   },
   "currency": "EUR",
-  "updated_at": "2026-11-06T12:08:52.886Z",
+  "updated_at": "2026-11-07T11:05:49.803Z",
   "months": [
     "2026-11",
     "2026-12",
@@ -22,7 +22,7 @@
     "2027-09",
     "2027-10"
   ],
-  "count": 70,
+  "count": 73,
   "destinations": [
     {
       "code": "FNC",
@@ -133,14 +133,14 @@
       "link": "https://www.aviasales.fr/search/LYS0101AGP1?t=U217988243001798832700000140LYSAGP_31d5abee9e620c3db865fcc88eda02b5_2552&search_date=05112026&expected_price_uuid=01a1ac04-908e-8031-24b2-66e43124f6d3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YmelQvhKnU03afuxhGhhBg&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 40,
+          "price": 41,
           "date": "2026-11-12T18:35:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
           "flight_number": "U24391",
           "duration": 140,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS1211AGP1?t=EC17945085001794516900000140LYSAGP_f9d54f108fba69f588b069dcc00a2f4f_3680&search_date=05112026&expected_price_uuid=01a1acc7-843d-8031-2bd1-473699d154b2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=j4Oi7BvmtfTYKl3VvYNQpA&expected_price_source=share&expected_price_currency=eur&expected_price=40&currency=eur&marker=787111"
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1211AGP1?t=U217945085001794516900000140LYSAGP_f9d54f108fba69f588b069dcc00a2f4f_3732&search_date=06112026&expected_price_uuid=01a1b2bb-0dd3-8030-eca7-6f604236f513&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jKG_9DjQa8tOLqAc4Nw8-g&expected_price_source=share&expected_price_currency=eur&expected_price=41&currency=eur&marker=787111"
         },
         "2027-01": {
           "price": 28,
@@ -169,8 +169,8 @@
       "airline": "Vueling",
       "flight_number": "VY8129",
       "duration": 85,
-      "found_at": "2026-11-06",
-      "link": "https://www.aviasales.fr/search/LYS1601BCN1?t=VY18001176001800122700000085LYSBCN_770426883963bc9d6cd52e46ba17dcc1_2560&search_date=06112026&expected_price_uuid=01a1ae2e-2596-8030-67e8-9bdce2d18f15&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sG4GjJbk1b3uiPoezulBzw&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111",
+      "found_at": "2026-11-07",
+      "link": "https://www.aviasales.fr/search/LYS1601BCN1?t=VY18001176001800122700000085LYSBCN_770426883963bc9d6cd52e46ba17dcc1_2557&search_date=07112026&expected_price_uuid=01a1b592-863f-8030-eba5-722175f35b6f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sG4GjJbk1b3uiPoezulBzw&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 31,
@@ -199,8 +199,8 @@
           "airline": "Vueling",
           "flight_number": "VY8129",
           "duration": 85,
-          "found_at": "2026-11-06",
-          "link": "https://www.aviasales.fr/search/LYS1601BCN1?t=VY18001176001800122700000085LYSBCN_770426883963bc9d6cd52e46ba17dcc1_2560&search_date=06112026&expected_price_uuid=01a1ae2e-2596-8030-67e8-9bdce2d18f15&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sG4GjJbk1b3uiPoezulBzw&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111"
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS1601BCN1?t=VY18001176001800122700000085LYSBCN_770426883963bc9d6cd52e46ba17dcc1_2557&search_date=07112026&expected_price_uuid=01a1b592-863f-8030-eba5-722175f35b6f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=sG4GjJbk1b3uiPoezulBzw&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111"
         },
         "2027-02": {
           "price": 55,
@@ -211,6 +211,16 @@
           "duration": 80,
           "found_at": "2026-11-02",
           "link": "https://www.aviasales.fr/search/LYS0102BCN1?t=VY18014730001801477800000080LYSBCN_d8e18b2e3bf8b4e76eaf3bc9d99840a0_5043&search_date=02112026&expected_price_uuid=01a19d6d-5680-8030-6bab-d777eac946f2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4vCiRVXDbkqLs8wXe8Lpfw&expected_price_source=share&expected_price_currency=eur&expected_price=55&currency=eur&marker=787111"
+        },
+        "2027-05": {
+          "price": 34,
+          "date": "2027-05-26T09:40:00+02:00",
+          "airline_code": "VY",
+          "airline": "Vueling",
+          "flight_number": "VY8127",
+          "duration": 85,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS2605BCN1?t=VY18113244001811329500000085LYSBCN_df76bcc30e987856adee6a39bd782986_3106&search_date=06112026&expected_price_uuid=01a1b2b6-5b4f-8040-a525-3e3b1f815a86&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=OBCpO62BHL8i5PuRar0IgA&expected_price_source=share&expected_price_currency=eur&expected_price=34&currency=eur&marker=787111"
         }
       }
     },
@@ -261,6 +271,76 @@
           "duration": 105,
           "found_at": "2026-11-05",
           "link": "https://www.aviasales.fr/search/LYS2203VLC1?t=V718057474001805753700000105LYSVLC_78b8145f9311bdc4538a88de03affa4a_2659&search_date=05112026&expected_price_uuid=01a1aa55-a5ad-8030-61e3-b3355e54e49e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=iSmF0pkvlYjiFUa0Kghz9g&expected_price_source=share&expected_price_currency=eur&expected_price=29&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "NCE",
+      "city_code": "NCE",
+      "city": "Nice",
+      "airport": "Côte d'Azur",
+      "country_code": "FR",
+      "country": "France",
+      "lat": 43.66049,
+      "lon": 7.205232,
+      "price": 29,
+      "date": "2027-01-01T15:25:00+01:00",
+      "airline_code": "U2",
+      "airline": "easyJet",
+      "flight_number": "U21626",
+      "duration": 55,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS0101NCE1?t=EC17988171001798820400000055LYSNCE_376f28364295f1cc3795eb9343bc9c07_2675&search_date=06112026&expected_price_uuid=01a1b11e-99b6-8031-2829-067fcbc5567f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vrUQCQJyK89fdmZDk-ts7g&expected_price_source=share&expected_price_currency=eur&expected_price=29&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 39,
+          "date": "2026-11-13T15:25:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U21626",
+          "duration": 55,
+          "found_at": "2026-11-03",
+          "link": "https://www.aviasales.fr/search/LYS1311NCE1?t=U217945835001794586800000055LYSNCE_1fe7deeff406fe470306d6ecccb2f4ec_3578&search_date=03112026&expected_price_uuid=01a1a2d3-bbe2-8031-2766-41acc18ea4f8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ONpV0BX3VT1vqXRu7UEuNQ&expected_price_source=share&expected_price_currency=eur&expected_price=39&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 218,
+          "date": "2026-12-13T20:25:00+01:00",
+          "airline_code": "A5",
+          "airline": "HOP!",
+          "flight_number": "A56158",
+          "duration": 60,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS1312NCE1?t=AF17971935001797197100000060LYSNCE_b47cc58503278aab1b0c8f9596e33fc4_20077&search_date=04112026&expected_price_uuid=01a1a654-94d4-8031-6912-11b90adb9759&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Cwq6w-DIw7Ki0uErms5YDA&expected_price_source=share&expected_price_currency=eur&expected_price=218&currency=eur&marker=787111"
+        },
+        "2027-01": {
+          "price": 29,
+          "date": "2027-01-01T15:25:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U21626",
+          "duration": 55,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0101NCE1?t=EC17988171001798820400000055LYSNCE_376f28364295f1cc3795eb9343bc9c07_2675&search_date=06112026&expected_price_uuid=01a1b11e-99b6-8031-2829-067fcbc5567f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vrUQCQJyK89fdmZDk-ts7g&expected_price_source=share&expected_price_currency=eur&expected_price=29&currency=eur&marker=787111"
+        },
+        "2027-02": {
+          "price": 45,
+          "date": "2027-02-08T17:20:00+01:00",
+          "airline_code": "EC",
+          "airline": "easyJet",
+          "flight_number": "EC1626",
+          "duration": 55,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS0802NCE1?t=U218021072001802110500000055LYSNCE_77a8233300d5fc9a652223b980d65f07_4109&search_date=04112026&expected_price_uuid=01a1a59e-42af-8030-6d3c-0f7452322980&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jIPsgIZ9PBZENOs76vid5g&expected_price_source=share&expected_price_currency=eur&expected_price=45&currency=eur&marker=787111"
+        },
+        "2027-03": {
+          "price": 57,
+          "date": "2027-03-07T17:15:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24303",
+          "duration": 55,
+          "found_at": "2026-11-05",
+          "link": "https://www.aviasales.fr/search/LYS0703NCE1?t=U218044397001804443000000055LYSNCE_388acc339a79d02035c9410f01ea5755_5279&search_date=05112026&expected_price_uuid=01a1aaba-acfa-8030-2c82-e8ed6ac66bec&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=y9sZCcNiJPQ94roKBu4Crg&expected_price_source=share&expected_price_currency=eur&expected_price=57&currency=eur&marker=787111"
         }
       }
     },
@@ -323,14 +403,14 @@
           "link": "https://www.aviasales.fr/search/LYS0102WAW1?t=W618014727001801481100000140LYSWAW_a1955a88b6db1e07dd86dcd14ead077f_2871&search_date=03112026&expected_price_uuid=01a19f74-3a9f-8030-efdc-d3a65c801b41&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=J1DSl0_ZHpCQM9Z26PxIHA&expected_price_source=share&expected_price_currency=eur&expected_price=32&currency=eur&marker=787111"
         },
         "2027-03": {
-          "price": 30,
-          "date": "2027-03-07T09:05:00+01:00",
+          "price": 72,
+          "date": "2027-03-14T09:05:00+01:00",
           "airline_code": "W6",
           "airline": "Wizz Air",
           "flight_number": "W61310",
           "duration": 140,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS0703WAW1?t=W618044103001804418700000140LYSWAW_1f6cb981d4b901d32b1928350bab59ca_2678&search_date=30102026&expected_price_uuid=01a18d50-ff1d-8031-659a-0fad3c20f866&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=J1DSl0_ZHpCQM9Z26PxIHA&expected_price_source=share&expected_price_currency=eur&expected_price=30&currency=eur&marker=787111"
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS1403WAW1?t=W618050151001805023500000140LYSWAW_6eeea192d01eae71acd5b58c28142411_6431&search_date=31102026&expected_price_uuid=01a1942f-f6d1-8030-2150-8153b390ce83&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=J1DSl0_ZHpCQM9Z26PxIHA&expected_price_source=share&expected_price_currency=eur&expected_price=72&currency=eur&marker=787111"
         }
       }
     },
@@ -365,6 +445,126 @@
       }
     },
     {
+      "code": "VCE",
+      "city_code": "VCE",
+      "city": "Venise",
+      "airport": "Marco Polo",
+      "country_code": "IT",
+      "country": "Italie",
+      "lat": 45.502285,
+      "lon": 12.337947,
+      "price": 34,
+      "date": "2026-12-03T11:35:00+01:00",
+      "airline_code": "U2",
+      "airline": "easyJet",
+      "flight_number": "U24415",
+      "duration": 75,
+      "found_at": "2026-11-07",
+      "link": "https://www.aviasales.fr/search/LYS0312VCE1?t=U217962977001796302200000075LYSVCE_e693f5d6e589c549c64bbeb5e52c4059_3092&search_date=07112026&expected_price_uuid=01a1b53e-657e-8030-6f83-97a54b65b2f8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5v6lFmlEG5qEWX6Ht92siw&expected_price_source=share&expected_price_currency=eur&expected_price=34&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 43,
+          "date": "2026-11-15T14:50:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24415",
+          "duration": 75,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1511VCE1?t=EC17947542001794758700000075LYSVCE_05d25e90ce02bbe0159c4d9bcb59c1c4_3908&search_date=06112026&expected_price_uuid=01a1b176-4c34-8030-2601-95469c1f41d2&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=spA3ErPyPMo8Rqj_bCOj6Q&expected_price_source=share&expected_price_currency=eur&expected_price=43&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 34,
+          "date": "2026-12-03T11:35:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24415",
+          "duration": 75,
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS0312VCE1?t=U217962977001796302200000075LYSVCE_e693f5d6e589c549c64bbeb5e52c4059_3092&search_date=07112026&expected_price_uuid=01a1b53e-657e-8030-6f83-97a54b65b2f8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5v6lFmlEG5qEWX6Ht92siw&expected_price_source=share&expected_price_currency=eur&expected_price=34&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "FCO",
+      "city_code": "ROM",
+      "city": "Rome",
+      "airport": "Fiumicino",
+      "country_code": "IT",
+      "country": "Italie",
+      "lat": 41.794594,
+      "lon": 12.250346,
+      "price": 35,
+      "date": "2027-02-23T18:50:00+01:00",
+      "airline_code": "EC",
+      "airline": "easyJet",
+      "flight_number": "EC4413",
+      "duration": 95,
+      "found_at": "2026-11-07",
+      "link": "https://www.aviasales.fr/search/LYS2302ROM1?t=U218034086001803414300000095LYSFCO_8a96c62cb1ac9adff636eecedc3b8709_3153&search_date=07112026&expected_price_uuid=01a1b3fd-8c60-8030-e869-60f5628006f4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=eZsmaY0nWX_tBSsHltnK4Q&expected_price_source=share&expected_price_currency=eur&expected_price=35&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 38,
+          "date": "2026-11-16T19:20:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24413",
+          "duration": 95,
+          "found_at": "2026-11-03",
+          "link": "https://www.aviasales.fr/search/LYS1611ROM1?t=U217948568001794862500000095LYSFCO_3ac2756c3cb60790f5056b03fecb34e6_3514&search_date=03112026&expected_price_uuid=01a1a357-3f9d-8031-66f7-b0d0b0fe4d4c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3KLwrhKU2wbCS_p6aBZbZg&expected_price_source=share&expected_price_currency=eur&expected_price=38&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 28,
+          "date": "2026-12-31T20:00:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24413",
+          "duration": 95,
+          "found_at": "2026-11-01",
+          "link": "https://www.aviasales.fr/search/LYS3112ROM1?t=U217987472001798752900000095LYSFCO_2ad7ee8824ee79770147d5caa2b8ce21_2508&search_date=01112026&expected_price_uuid=01a1997e-d6b2-8030-2287-ecc135827249&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CcZhK_oQHPsTXgrGGSXPTQ&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111"
+        },
+        "2027-01": {
+          "price": 33,
+          "date": "2027-01-07T20:00:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24413",
+          "duration": 95,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS0701ROM1?t=U217993520001799357700000095LYSFCO_8f8a1acf5215e69680a68e6849eafab1_2987&search_date=02112026&expected_price_uuid=01a19ce6-1cea-8031-60f0-c91a85fdf037&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CcZhK_oQHPsTXgrGGSXPTQ&expected_price_source=share&expected_price_currency=eur&expected_price=33&currency=eur&marker=787111"
+        },
+        "2027-02": {
+          "price": 35,
+          "date": "2027-02-23T18:50:00+01:00",
+          "airline_code": "EC",
+          "airline": "easyJet",
+          "flight_number": "EC4413",
+          "duration": 95,
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS2302ROM1?t=U218034086001803414300000095LYSFCO_8a96c62cb1ac9adff636eecedc3b8709_3153&search_date=07112026&expected_price_uuid=01a1b3fd-8c60-8030-e869-60f5628006f4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=eZsmaY0nWX_tBSsHltnK4Q&expected_price_source=share&expected_price_currency=eur&expected_price=35&currency=eur&marker=787111"
+        },
+        "2027-05": {
+          "price": 40,
+          "date": "2027-05-18T20:40:00+02:00",
+          "airline_code": "EC",
+          "airline": "easyJet",
+          "flight_number": "EC4421",
+          "duration": 95,
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS1805ROM1?t=U218106728001810678500000095LYSFCO_55f69063667dacc372600929e2b0e5ed_3666&search_date=07112026&expected_price_uuid=01a1b4ed-815e-8031-2889-1ae7898f6fa8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6kXdK2uWL_m8n3BtZNCTFg&expected_price_source=share&expected_price_currency=eur&expected_price=40&currency=eur&marker=787111"
+        },
+        "2027-07": {
+          "price": 75,
+          "date": "2027-07-06T17:00:00+02:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U27560",
+          "duration": 95,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS0607ROM1?t=EC18148932001814898900000095LYSFCO_7ab15248bf62f01e7ceb3a55a409c872_6905&search_date=04112026&expected_price_uuid=01a1a7c9-44c2-8031-2c2b-7a84e20ae3d4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=oF8lGYwUn_IIZx6Wc8UZ2g&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
       "code": "STN",
       "city_code": "LON",
       "city": "Londres",
@@ -395,42 +595,62 @@
       }
     },
     {
-      "code": "VCE",
-      "city_code": "VCE",
-      "city": "Venise",
-      "airport": "Marco Polo",
-      "country_code": "IT",
-      "country": "Italie",
-      "lat": 45.502285,
-      "lon": 12.337947,
-      "price": 35,
-      "date": "2026-12-03T11:35:00+01:00",
-      "airline_code": "EC",
+      "code": "TLS",
+      "city_code": "TLS",
+      "city": "Toulouse",
+      "airport": "Blagnac",
+      "country_code": "FR",
+      "country": "France",
+      "lat": 43.63007,
+      "lon": 1.374321,
+      "price": 36,
+      "date": "2026-11-10T20:15:00+01:00",
+      "airline_code": "U2",
       "airline": "easyJet",
-      "flight_number": "EC4415",
-      "duration": 75,
-      "found_at": "2026-11-06",
-      "link": "https://www.aviasales.fr/search/LYS0312VCE1?t=U217962977001796302200000075LYSVCE_e693f5d6e589c549c64bbeb5e52c4059_3151&search_date=06112026&expected_price_uuid=01a1afba-d3e3-8031-66c2-d93ba9d6d64c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5v6lFmlEG5qEWX6Ht92siw&expected_price_source=share&expected_price_currency=eur&expected_price=35&currency=eur&marker=787111",
+      "flight_number": "U24325",
+      "duration": 65,
+      "found_at": "2026-10-31",
+      "link": "https://www.aviasales.fr/search/LYS1011TLS1?t=U217943417001794345600000065LYSTLS_b4fae459bb3e94947ed36bc18dd2daec_3197&search_date=31102026&expected_price_uuid=01a19287-2570-8031-616f-9186a249962a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=POpn9f1WWDDm5OgsNunESg&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 41,
-          "date": "2026-11-13T13:15:00+01:00",
+          "price": 36,
+          "date": "2026-11-10T20:15:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "U24415",
-          "duration": 75,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS1311VCE1?t=U217945757001794580200000075LYSVCE_5bade7aefbaa3468359ce780bd00868c_3752&search_date=04112026&expected_price_uuid=01a1a608-e946-8030-62c3-b4d60e967cf0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR1%7CTBC0&itinerary_key=qaDiikyJNA7QRbAzG5Z6sA&expected_price_source=share&expected_price_currency=eur&expected_price=41&currency=eur&marker=787111"
+          "flight_number": "U24325",
+          "duration": 65,
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS1011TLS1?t=U217943417001794345600000065LYSTLS_b4fae459bb3e94947ed36bc18dd2daec_3197&search_date=31102026&expected_price_uuid=01a19287-2570-8031-616f-9186a249962a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=POpn9f1WWDDm5OgsNunESg&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 35,
-          "date": "2026-12-03T11:35:00+01:00",
-          "airline_code": "EC",
+          "price": 38,
+          "date": "2026-12-01T20:15:00+01:00",
+          "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "EC4415",
-          "duration": 75,
-          "found_at": "2026-11-06",
-          "link": "https://www.aviasales.fr/search/LYS0312VCE1?t=U217962977001796302200000075LYSVCE_e693f5d6e589c549c64bbeb5e52c4059_3151&search_date=06112026&expected_price_uuid=01a1afba-d3e3-8031-66c2-d93ba9d6d64c&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=5v6lFmlEG5qEWX6Ht92siw&expected_price_source=share&expected_price_currency=eur&expected_price=35&currency=eur&marker=787111"
+          "flight_number": "U24325",
+          "duration": 65,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS0112TLS1?t=U217961561001796160000000065LYSTLS_2694b447057a9fa1edd427294d6080c7_3488&search_date=02112026&expected_price_uuid=01a19e38-9c17-8031-27ff-25336ba732d4&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=POpn9f1WWDDm5OgsNunESg&expected_price_source=share&expected_price_currency=eur&expected_price=38&currency=eur&marker=787111"
+        },
+        "2027-03": {
+          "price": 37,
+          "date": "2027-03-01T07:10:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24323",
+          "duration": 65,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS0103TLS1?t=U218038850001803888900000065LYSTLS_e67f8cea0a6ee0d19cc4b406b1dfc873_3343&search_date=02112026&expected_price_uuid=01a19d1a-e39b-8030-a448-fd0552c2b5ca&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4ht8KGeCaY2lnHROJSDBaw&expected_price_source=share&expected_price_currency=eur&expected_price=37&currency=eur&marker=787111"
+        },
+        "2027-08": {
+          "price": 245,
+          "date": "2027-08-01T09:30:00+02:00",
+          "airline_code": "A5",
+          "airline": "HOP!",
+          "flight_number": "A56022",
+          "duration": 60,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS0108TLS1?t=AF18171126001817116200000060LYSTLS_790b2c23d1fb2f7acc00862ec42ff99e_22486&search_date=04112026&expected_price_uuid=01a1a80f-de10-8030-aee1-413c484db250&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=V-x1mjSI9GQ9jKf1uDAoUA&expected_price_source=share&expected_price_currency=eur&expected_price=245&currency=eur&marker=787111"
         }
       }
     },
@@ -454,13 +674,13 @@
       "months": {
         "2026-11": {
           "price": 44,
-          "date": "2026-11-23T09:50:00+01:00",
+          "date": "2026-11-30T09:50:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
           "flight_number": "U27614",
           "duration": 155,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS2311LIS1?t=U217954274001795433100000155LYSLIS_010ab31ae69656abb4912ff8a17aab48_4027&search_date=02112026&expected_price_uuid=01a19c0d-4628-8040-2542-3e3211b268ed&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wZYZJnJph2nlYvtrnmeIJQ&expected_price_source=share&expected_price_currency=eur&expected_price=44&currency=eur&marker=787111"
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS3011LIS1?t=U217960322001796037900000155LYSLIS_a46b15cca65902447c85b9c6c651d92c_4057&search_date=06112026&expected_price_uuid=01a1b206-f5a5-8031-2755-3b7afd9dc5c0&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wZYZJnJph2nlYvtrnmeIJQ&expected_price_source=share&expected_price_currency=eur&expected_price=44&currency=eur&marker=787111"
         },
         "2026-12": {
           "price": 150,
@@ -513,14 +733,44 @@
           "link": "https://www.aviasales.fr/search/LYS0104LIS1?t=U218065655001806571200000155LYSLIS_a1ae63a04c8d76a0ded9fd5da9357584_5610&search_date=06112026&expected_price_uuid=01a1aff1-a24e-8031-6153-e1d78f1375fc&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6MLnSDyKj4gue9i1jYwsew&expected_price_source=share&expected_price_currency=eur&expected_price=62&currency=eur&marker=787111"
         },
         "2027-08": {
-          "price": 135,
-          "date": "2027-08-01T09:55:00+02:00",
+          "price": 118,
+          "date": "2027-08-02T17:55:00+02:00",
           "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "U27600",
+          "flight_number": "U24425",
           "duration": 155,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS0108LIS1?t=U218171141001817119800000155LYSLIS_50ba34cfd19fc5aa5c25b92dcab29b0e_12337&search_date=05112026&expected_price_uuid=01a1ad82-8450-8040-6215-69316c7b019d&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=tMdLCTSyF2uiJSrZPbFLPg&expected_price_source=share&expected_price_currency=eur&expected_price=135&currency=eur&marker=787111"
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0208LIS1?t=U218172293001817235000000155LYSLIS_0c94d6e89d2f719a81c5491400fd26b4_10820&search_date=06112026&expected_price_uuid=01a1b1cc-0764-8040-2034-ac87c94467ed&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=yH80fGupc8MnIjgBStIIkA&expected_price_source=share&expected_price_currency=eur&expected_price=118&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "ACE",
+      "city_code": "ACE",
+      "city": "Lanzarote",
+      "airport": "Lanzarote",
+      "country_code": "ES",
+      "country": "Espagne",
+      "lat": 28.950668,
+      "lon": -13.609059,
+      "price": 36,
+      "date": "2026-11-21T15:25:00+01:00",
+      "airline_code": "V7",
+      "airline": "Volotea",
+      "flight_number": "V72030",
+      "duration": 235,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS2111ACE1?t=V717952747001795285200000235LYSACE_9fc7a9b8e36840c8bff06c1de0c67436_3263&search_date=06112026&expected_price_uuid=01a1b1e7-297e-8030-6c9b-5b33d484f5ca&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ImM0w7Kl8e86ZhtD3guYsw&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 36,
+          "date": "2026-11-21T15:25:00+01:00",
+          "airline_code": "V7",
+          "airline": "Volotea",
+          "flight_number": "V72030",
+          "duration": 235,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS2111ACE1?t=V717952747001795285200000235LYSACE_9fc7a9b8e36840c8bff06c1de0c67436_3263&search_date=06112026&expected_price_uuid=01a1b1e7-297e-8030-6c9b-5b33d484f5ca&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ImM0w7Kl8e86ZhtD3guYsw&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111"
         }
       }
     },
@@ -665,46 +915,6 @@
       }
     },
     {
-      "code": "LTN",
-      "city_code": "LON",
-      "city": "Londres",
-      "airport": "Luton Airport",
-      "country_code": "GB",
-      "country": "Royaume-Uni",
-      "lat": 51.87977,
-      "lon": -0.376232,
-      "price": 38,
-      "date": "2026-11-12T22:25:00+01:00",
-      "airline_code": "W9",
-      "airline": "Wizz Air UK",
-      "flight_number": "W95426",
-      "duration": 105,
-      "found_at": "2026-11-06",
-      "link": "https://www.aviasales.fr/search/LYS1211LON1?t=W917945223001794525000000105LYSLTN_fcaa1e07a3bb58d403c7bbb7b42adc51_3504&search_date=06112026&expected_price_uuid=01a1afb9-03f8-8030-6955-5f893b83cc74&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RQHDm-xJ3PZt8fFafM35Ew&expected_price_source=share&expected_price_currency=eur&expected_price=38&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 38,
-          "date": "2026-11-12T22:25:00+01:00",
-          "airline_code": "W9",
-          "airline": "Wizz Air UK",
-          "flight_number": "W95426",
-          "duration": 105,
-          "found_at": "2026-11-06",
-          "link": "https://www.aviasales.fr/search/LYS1211LON1?t=W917945223001794525000000105LYSLTN_fcaa1e07a3bb58d403c7bbb7b42adc51_3504&search_date=06112026&expected_price_uuid=01a1afb9-03f8-8030-6955-5f893b83cc74&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RQHDm-xJ3PZt8fFafM35Ew&expected_price_source=share&expected_price_currency=eur&expected_price=38&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 37,
-          "date": "2026-12-22T22:25:00+01:00",
-          "airline_code": "W9",
-          "airline": "Wizz Air UK",
-          "flight_number": "W95426",
-          "duration": 105,
-          "found_at": "2026-11-01",
-          "link": "https://www.aviasales.fr/search/LYS2212LON1?t=W917979783001797981000000105LYSLTN_db5dac9998a46a10d4d62cc21e5c842a_3312&search_date=01112026&expected_price_uuid=01a1980d-d0d2-8030-2e2e-4e0f16503a66&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RQHDm-xJ3PZt8fFafM35Ew&expected_price_source=share&expected_price_currency=eur&expected_price=37&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
       "code": "TIA",
       "city_code": "TIA",
       "city": "Tirana",
@@ -731,16 +941,6 @@
           "duration": 130,
           "found_at": "2026-11-03",
           "link": "https://www.aviasales.fr/search/LYS3001TIA1?t=W418012999001801307700000130LYSTIA_2e165da700e127a9cb24ab4d7298b791_3565&search_date=03112026&expected_price_uuid=01a1a33c-6eb9-8030-67de-e8327cd7bab2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3G7pES71IGrp-rqYeSroZA&expected_price_source=share&expected_price_currency=eur&expected_price=39&currency=eur&marker=787111"
-        },
-        "2027-02": {
-          "price": 45,
-          "date": "2027-02-06T09:05:00+01:00",
-          "airline_code": "W4",
-          "airline": "Wizz Air Malta",
-          "flight_number": "W45144",
-          "duration": 130,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS0602TIA1?t=W418019047001801912500000130LYSTIA_a9e46d2a7e9ef7a296eeaba12c9b68b8_4048&search_date=30102026&expected_price_uuid=01a18d45-efa6-8030-e6fa-b6ebbbfc62d1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3G7pES71IGrp-rqYeSroZA&expected_price_source=share&expected_price_currency=eur&expected_price=45&currency=eur&marker=787111"
         },
         "2027-04": {
           "price": 191,
@@ -815,6 +1015,46 @@
       }
     },
     {
+      "code": "LTN",
+      "city_code": "LON",
+      "city": "Londres",
+      "airport": "Luton Airport",
+      "country_code": "GB",
+      "country": "Royaume-Uni",
+      "lat": 51.87977,
+      "lon": -0.376232,
+      "price": 39,
+      "date": "2026-11-12T22:25:00+01:00",
+      "airline_code": "W9",
+      "airline": "Wizz Air UK",
+      "flight_number": "W95426",
+      "duration": 105,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1211LON1?t=W917945223001794525000000105LYSLTN_fcaa1e07a3bb58d403c7bbb7b42adc51_3504&search_date=06112026&expected_price_uuid=01a1afb9-03f8-8030-6955-5f893b83cc74&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RQHDm-xJ3PZt8fFafM35Ew&expected_price_source=share&expected_price_currency=eur&expected_price=39&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 39,
+          "date": "2026-11-12T22:25:00+01:00",
+          "airline_code": "W9",
+          "airline": "Wizz Air UK",
+          "flight_number": "W95426",
+          "duration": 105,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1211LON1?t=W917945223001794525000000105LYSLTN_fcaa1e07a3bb58d403c7bbb7b42adc51_3504&search_date=06112026&expected_price_uuid=01a1afb9-03f8-8030-6955-5f893b83cc74&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RQHDm-xJ3PZt8fFafM35Ew&expected_price_source=share&expected_price_currency=eur&expected_price=39&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 37,
+          "date": "2026-12-22T22:25:00+01:00",
+          "airline_code": "W9",
+          "airline": "Wizz Air UK",
+          "flight_number": "W95426",
+          "duration": 105,
+          "found_at": "2026-11-01",
+          "link": "https://www.aviasales.fr/search/LYS2212LON1?t=W917979783001797981000000105LYSLTN_db5dac9998a46a10d4d62cc21e5c842a_3312&search_date=01112026&expected_price_uuid=01a1980d-d0d2-8030-2e2e-4e0f16503a66&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RQHDm-xJ3PZt8fFafM35Ew&expected_price_source=share&expected_price_currency=eur&expected_price=37&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
       "code": "MAD",
       "city_code": "MAD",
       "city": "Madrid",
@@ -833,24 +1073,24 @@
       "link": "https://www.aviasales.fr/search/LYS2202MAD1?t=V718032787001803285900000120LYSMAD_625b83cf9c89cd296f04a200f7c4f244_3642&search_date=05112026&expected_price_uuid=01a1ab60-f050-8040-25f1-b1ba744bd91e&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7kiOPsvDYmzqEZmH3B1pZg&expected_price_source=share&expected_price_currency=eur&expected_price=40&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 54,
-          "date": "2026-11-14T06:10:00+01:00",
-          "airline_code": "VY",
-          "airline": "Vueling",
-          "flight_number": "VY5787",
+          "price": 66,
+          "date": "2026-11-12T15:00:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24389",
           "duration": 120,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS1411MAD1?t=IB17946366001794643800000120LYSMAD_8668ba0c13a8aad1504c71d73a2e54ca_4833&search_date=30102026&expected_price_uuid=01a18cb8-7949-8030-2b75-4e9164912389&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=vy44tOh9-wSKdTFLFz4gwg&expected_price_source=share&expected_price_currency=eur&expected_price=54&currency=eur&marker=787111"
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS1211MAD1?t=U217944956001794502800000120LYSMAD_b3b435eaa101c7105057a22868b956a9_6018&search_date=02112026&expected_price_uuid=01a19de6-16ef-8031-2c2a-035559ddb8ae&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=fzYR-R4bC5IRjWX8FgxMsA&expected_price_source=share&expected_price_currency=eur&expected_price=66&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 207,
+          "price": 208,
           "date": "2026-12-27T15:20:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
           "flight_number": "U24389",
           "duration": 120,
           "found_at": "2026-11-06",
-          "link": "https://www.aviasales.fr/search/LYS2712MAD1?t=U217983848001798392000000120LYSMAD_2aa53260a65d079896d150c55eb44584_18978&search_date=06112026&expected_price_uuid=01a1b07e-e995-8031-2eb2-05579078edac&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RZ1KV7eBweAMapKhbNuPHw&expected_price_source=share&expected_price_currency=eur&expected_price=207&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS2712MAD1?t=U217983848001798392000000120LYSMAD_2aa53260a65d079896d150c55eb44584_18978&search_date=06112026&expected_price_uuid=01a1b07e-e995-8031-2eb2-05579078edac&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=RZ1KV7eBweAMapKhbNuPHw&expected_price_source=share&expected_price_currency=eur&expected_price=208&currency=eur&marker=787111"
         },
         "2027-01": {
           "price": 28,
@@ -983,14 +1223,14 @@
       "country": "Espagne",
       "lat": 28.044443,
       "lon": -16.5725,
-      "price": 44,
-      "date": "2027-02-23T14:35:00+01:00",
-      "airline_code": "U2",
-      "airline": "easyJet",
-      "flight_number": "U24385",
-      "duration": 255,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS2302TCI1?t=U218033933001803405000000255LYSTFS_8ccd0901eabafdcc813201d1b989ae72_4073&search_date=04112026&expected_price_uuid=01a1a52c-22bc-8030-2462-dac39b1f548e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uUh2ngkZVhKIooL3ZwvBEg&expected_price_source=share&expected_price_currency=eur&expected_price=44&currency=eur&marker=787111",
+      "price": 43,
+      "date": "2027-02-07T06:00:00+01:00",
+      "airline_code": "V7",
+      "airline": "Volotea",
+      "flight_number": "V72520",
+      "duration": 260,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS0702TCI1?t=V718019800001801992000000260LYSTFS_b9c8e4f6e7f6497902e0855763603eb2_3931&search_date=06112026&expected_price_uuid=01a1b1e5-4bb1-8040-2cb9-d7a4990867a8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=duo18a3nMm_EpJv1Wu7FDw&expected_price_source=share&expected_price_currency=eur&expected_price=43&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 58,
@@ -1023,14 +1263,14 @@
           "link": "https://www.aviasales.fr/search/LYS0501TCI1?t=U217991597001799171400000255LYSTFS_63848ef5d730d0ed21ab410f7fbf2bbf_5567&search_date=04112026&expected_price_uuid=01a1a792-3f01-8030-a353-f2a313f40895&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uUh2ngkZVhKIooL3ZwvBEg&expected_price_source=share&expected_price_currency=eur&expected_price=61&currency=eur&marker=787111"
         },
         "2027-02": {
-          "price": 44,
-          "date": "2027-02-23T14:35:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24385",
-          "duration": 255,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS2302TCI1?t=U218033933001803405000000255LYSTFS_8ccd0901eabafdcc813201d1b989ae72_4073&search_date=04112026&expected_price_uuid=01a1a52c-22bc-8030-2462-dac39b1f548e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=uUh2ngkZVhKIooL3ZwvBEg&expected_price_source=share&expected_price_currency=eur&expected_price=44&currency=eur&marker=787111"
+          "price": 43,
+          "date": "2027-02-07T06:00:00+01:00",
+          "airline_code": "V7",
+          "airline": "Volotea",
+          "flight_number": "V72520",
+          "duration": 260,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0702TCI1?t=V718019800001801992000000260LYSTFS_b9c8e4f6e7f6497902e0855763603eb2_3931&search_date=06112026&expected_price_uuid=01a1b1e5-4bb1-8040-2cb9-d7a4990867a8&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=duo18a3nMm_EpJv1Wu7FDw&expected_price_source=share&expected_price_currency=eur&expected_price=43&currency=eur&marker=787111"
         },
         "2027-03": {
           "price": 95,
@@ -1045,62 +1285,52 @@
       }
     },
     {
-      "code": "NCE",
-      "city_code": "NCE",
-      "city": "Nice",
-      "airport": "Côte d'Azur",
-      "country_code": "FR",
-      "country": "France",
-      "lat": 43.66049,
-      "lon": 7.205232,
-      "price": 45,
-      "date": "2027-02-08T17:20:00+01:00",
-      "airline_code": "EC",
+      "code": "OPO",
+      "city_code": "OPO",
+      "city": "Porto",
+      "airport": "Porto",
+      "country_code": "PT",
+      "country": "Portugal",
+      "lat": 41.237774,
+      "lon": -8.670272,
+      "price": 48,
+      "date": "2026-11-30T13:35:00+01:00",
+      "airline_code": "U2",
       "airline": "easyJet",
-      "flight_number": "EC1626",
-      "duration": 55,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS0802NCE1?t=U218021072001802110500000055LYSNCE_77a8233300d5fc9a652223b980d65f07_4109&search_date=04112026&expected_price_uuid=01a1a59e-42af-8030-6d3c-0f7452322980&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jIPsgIZ9PBZENOs76vid5g&expected_price_source=share&expected_price_currency=eur&expected_price=45&currency=eur&marker=787111",
+      "flight_number": "U24431",
+      "duration": 135,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS3011OPO1?t=U217960457001796050200000135LYSOPO_b6512e0e3e9ca09e3229d2bc18567ae2_4392&search_date=06112026&expected_price_uuid=01a1b282-5280-8030-a7cb-49084ec65e2e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=nJNn81Kk63qs4JIPowiUAg&expected_price_source=share&expected_price_currency=eur&expected_price=48&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 39,
-          "date": "2026-11-13T15:25:00+01:00",
+          "price": 48,
+          "date": "2026-11-30T13:35:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "U21626",
-          "duration": 55,
-          "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS1311NCE1?t=U217945835001794586800000055LYSNCE_1fe7deeff406fe470306d6ecccb2f4ec_3578&search_date=03112026&expected_price_uuid=01a1a2d3-bbe2-8031-2766-41acc18ea4f8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ONpV0BX3VT1vqXRu7UEuNQ&expected_price_source=share&expected_price_currency=eur&expected_price=39&currency=eur&marker=787111"
+          "flight_number": "U24431",
+          "duration": 135,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS3011OPO1?t=U217960457001796050200000135LYSOPO_b6512e0e3e9ca09e3229d2bc18567ae2_4392&search_date=06112026&expected_price_uuid=01a1b282-5280-8030-a7cb-49084ec65e2e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=nJNn81Kk63qs4JIPowiUAg&expected_price_source=share&expected_price_currency=eur&expected_price=48&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 218,
-          "date": "2026-12-13T20:25:00+01:00",
-          "airline_code": "A5",
-          "airline": "HOP!",
-          "flight_number": "A56158",
-          "duration": 60,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS1312NCE1?t=AF17971935001797197100000060LYSNCE_b47cc58503278aab1b0c8f9596e33fc4_20077&search_date=04112026&expected_price_uuid=01a1a654-94d4-8031-6912-11b90adb9759&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Cwq6w-DIw7Ki0uErms5YDA&expected_price_source=share&expected_price_currency=eur&expected_price=218&currency=eur&marker=787111"
-        },
-        "2027-02": {
-          "price": 45,
-          "date": "2027-02-08T17:20:00+01:00",
-          "airline_code": "EC",
-          "airline": "easyJet",
-          "flight_number": "EC1626",
-          "duration": 55,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS0802NCE1?t=U218021072001802110500000055LYSNCE_77a8233300d5fc9a652223b980d65f07_4109&search_date=04112026&expected_price_uuid=01a1a59e-42af-8030-6d3c-0f7452322980&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jIPsgIZ9PBZENOs76vid5g&expected_price_source=share&expected_price_currency=eur&expected_price=45&currency=eur&marker=787111"
-        },
-        "2027-03": {
-          "price": 57,
-          "date": "2027-03-07T17:15:00+01:00",
+          "price": 134,
+          "date": "2026-12-28T16:20:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "U24303",
-          "duration": 55,
+          "flight_number": "U26804",
+          "duration": 135,
           "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS0703NCE1?t=U218044397001804443000000055LYSNCE_388acc339a79d02035c9410f01ea5755_5279&search_date=05112026&expected_price_uuid=01a1aaba-acfa-8030-2c82-e8ed6ac66bec&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=y9sZCcNiJPQ94roKBu4Crg&expected_price_source=share&expected_price_currency=eur&expected_price=57&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS2812OPO1?t=U217984748001798479300000135LYSOPO_326223fc7beec0a0a99e0cf0074ed8e1_12242&search_date=05112026&expected_price_uuid=01a1ae21-6a21-8030-afe4-907beabe7051&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=NL1vR-31SYTeaMj2KtAcnQ&expected_price_source=share&expected_price_currency=eur&expected_price=134&currency=eur&marker=787111"
+        },
+        "2027-02": {
+          "price": 36,
+          "date": "2027-02-28T08:00:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24431",
+          "duration": 135,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS2802OPO1?t=U218038016001803806100000135LYSOPO_d4ed29cb4ff9f6d45ddf61bdc1746964_3236&search_date=02112026&expected_price_uuid=01a19d63-f328-8030-e1e6-d336fb3863e3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3Szh6_HGitrplclr6VQEvw&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111"
         }
       }
     },
@@ -1165,36 +1395,6 @@
       }
     },
     {
-      "code": "RBA",
-      "city_code": "RBA",
-      "city": "Rabat",
-      "airport": "Sale",
-      "country_code": "MA",
-      "country": "Maroc",
-      "lat": 34.036137,
-      "lon": -6.748619,
-      "price": 50,
-      "date": "2026-11-15T07:35:00+01:00",
-      "airline_code": "U2",
-      "airline": "easyJet",
-      "flight_number": "U24483",
-      "duration": 165,
-      "found_at": "2026-11-01",
-      "link": "https://www.aviasales.fr/search/LYS1511RBA1?t=U217947281001794734400000165LYSRBA_98e11e8eb6b766bc1fb9be00111d99c1_4507&search_date=01112026&expected_price_uuid=01a196ec-5a91-8040-ae55-bb13ae8da64c&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wfuKKfTW1e9F1BQcjCGzuQ&expected_price_source=share&expected_price_currency=eur&expected_price=50&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 50,
-          "date": "2026-11-15T07:35:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24483",
-          "duration": 165,
-          "found_at": "2026-11-01",
-          "link": "https://www.aviasales.fr/search/LYS1511RBA1?t=U217947281001794734400000165LYSRBA_98e11e8eb6b766bc1fb9be00111d99c1_4507&search_date=01112026&expected_price_uuid=01a196ec-5a91-8040-ae55-bb13ae8da64c&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wfuKKfTW1e9F1BQcjCGzuQ&expected_price_source=share&expected_price_currency=eur&expected_price=50&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
       "code": "AGA",
       "city_code": "AGA",
       "city": "Agadir",
@@ -1253,14 +1453,14 @@
           "link": "https://www.aviasales.fr/search/LYS1211IST1?t=PC17944881001794506400000185LYSSAW_27ce212523fde3ae40cc1d55ed82f754_5689&search_date=04112026&expected_price_uuid=01a1a7d0-5abf-8030-a75a-bfc968bfec0a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ntQPTWyoYpYX7OACIsIENw&expected_price_source=share&expected_price_currency=eur&expected_price=62&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 65,
-          "date": "2026-12-10T14:45:00+01:00",
+          "price": 68,
+          "date": "2026-12-31T14:45:00+01:00",
           "airline_code": "VF",
           "airline": "Ajet",
           "flight_number": "VF82",
           "duration": 200,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS1012IST1?t=VF17969139001796933100000200LYSSAW_f1e41263875360ea86189b4c958a0a4d_5996&search_date=04112026&expected_price_uuid=01a1a8bb-b4aa-8031-693e-66537de70a78&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FMt5dcADEHj4pRqGA7YiYQ&expected_price_source=share&expected_price_currency=eur&expected_price=65&currency=eur&marker=787111"
+          "found_at": "2026-11-01",
+          "link": "https://www.aviasales.fr/search/LYS3112IST1?t=VF17987283001798747500000200LYSSAW_ca43e146b80a58999aadac91ace4d049_6061&search_date=01112026&expected_price_uuid=01a1960b-89bc-8030-a089-2fbf163f408a&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FMt5dcADEHj4pRqGA7YiYQ&expected_price_source=share&expected_price_currency=eur&expected_price=68&currency=eur&marker=787111"
         },
         "2027-01": {
           "price": 58,
@@ -1273,24 +1473,24 @@
           "link": "https://www.aviasales.fr/search/LYS1601IST1?t=VF18001107001800129900000200LYSSAW_dfa23f5cacf0fb82adfa8adf6f155427_5313&search_date=05112026&expected_price_uuid=01a1abcd-f756-8031-2c45-bb3c9ff38f40&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FMt5dcADEHj4pRqGA7YiYQ&expected_price_source=share&expected_price_currency=eur&expected_price=58&currency=eur&marker=787111"
         },
         "2027-02": {
-          "price": 65,
-          "date": "2027-02-24T12:55:00+01:00",
-          "airline_code": "PC",
-          "airline": "Pegasus Airlines",
-          "flight_number": "PC1142",
-          "duration": 185,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS2402IST1?t=PC18034737001803492000000185LYSSAW_98814dcc0be95ccc2824f1dc12adda69_5866&search_date=02112026&expected_price_uuid=01a19e90-4b40-8031-27af-a3261614a15f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=ntQPTWyoYpYX7OACIsIENw&expected_price_source=share&expected_price_currency=eur&expected_price=65&currency=eur&marker=787111"
-        },
-        "2027-03": {
-          "price": 78,
-          "date": "2027-03-20T14:45:00+01:00",
+          "price": 64,
+          "date": "2027-02-11T14:45:00+01:00",
           "airline_code": "VF",
           "airline": "Ajet",
           "flight_number": "VF82",
           "duration": 200,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS2003IST1?t=VF18055539001805573100000200LYSSAW_257c19d35372efb991bff2e4116196f5_7192&search_date=05112026&expected_price_uuid=01a1a9c8-98e1-8030-a085-400e2a005bd2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=FMt5dcADEHj4pRqGA7YiYQ&expected_price_source=share&expected_price_currency=eur&expected_price=78&currency=eur&marker=787111"
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1102IST1?t=VF18023571001802376300000200LYSSAW_6609f80ef9bae6a0d409eb901866f7e7_5853&search_date=06112026&expected_price_uuid=01a1b10b-c5d4-8031-679f-d3e897f39f44&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FMt5dcADEHj4pRqGA7YiYQ&expected_price_source=share&expected_price_currency=eur&expected_price=64&currency=eur&marker=787111"
+        },
+        "2027-03": {
+          "price": 73,
+          "date": "2027-03-07T14:45:00+01:00",
+          "airline_code": "VF",
+          "airline": "Ajet",
+          "flight_number": "VF082",
+          "duration": 200,
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS0703IST1?t=VF18044307001804449900000200LYSSAW_149728080a0c72eb926bcebd9532bf26_6665&search_date=07112026&expected_price_uuid=01a1b352-0816-8030-60b5-46fdff065d0b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=FMt5dcADEHj4pRqGA7YiYQ&expected_price_source=share&expected_price_currency=eur&expected_price=73&currency=eur&marker=787111"
         },
         "2027-04": {
           "price": 120,
@@ -1341,6 +1541,36 @@
           "duration": 185,
           "found_at": "2026-11-05",
           "link": "https://www.aviasales.fr/search/LYS2008IST1?t=PC18187728001818787500000185LYSSAW_1a87e49a77a21f26c21134864b218a26_8396&search_date=05112026&expected_price_uuid=01a1ab55-5c48-8030-a7d6-172054c035b2&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=7KtY2QGmpnXyLrR1ihL1yA&expected_price_source=share&expected_price_currency=eur&expected_price=92&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "PMI",
+      "city_code": "PMI",
+      "city": "Palma de Majorque",
+      "airport": "Palma Mallorca",
+      "country_code": "ES",
+      "country": "Espagne",
+      "lat": 39.547653,
+      "lon": 2.730388,
+      "price": 59,
+      "date": "2026-11-14T06:35:00+01:00",
+      "airline_code": "TO",
+      "airline": "Transavia France",
+      "flight_number": "TO4840",
+      "duration": 90,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1411PMI1?t=TO17946381001794643500000090LYSPMI_13b7c14d5878b59ecb7d273a9165063a_5392&search_date=06112026&expected_price_uuid=01a1b23c-6c11-8031-69d4-a4ac145f8fa4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=SF-PdxtoceXRYClu4uIWvw&expected_price_source=share&expected_price_currency=eur&expected_price=59&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 59,
+          "date": "2026-11-14T06:35:00+01:00",
+          "airline_code": "TO",
+          "airline": "Transavia France",
+          "flight_number": "TO4840",
+          "duration": 90,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1411PMI1?t=TO17946381001794643500000090LYSPMI_13b7c14d5878b59ecb7d273a9165063a_5392&search_date=06112026&expected_price_uuid=01a1b23c-6c11-8031-69d4-a4ac145f8fa4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=SF-PdxtoceXRYClu4uIWvw&expected_price_source=share&expected_price_currency=eur&expected_price=59&currency=eur&marker=787111"
         }
       }
     },
@@ -1401,6 +1631,56 @@
           "duration": 130,
           "found_at": "2026-11-04",
           "link": "https://www.aviasales.fr/search/LYS2306ORN1?t=TO18137691001813773300000130LYSORN_1d6349d86a09e36e784121d9ffd94806_15291&search_date=04112026&expected_price_uuid=01a1a69f-b50a-8031-26da-983308e6bea1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=YtHaR58NqvauZn9ZsMyF4g&expected_price_source=share&expected_price_currency=eur&expected_price=166&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "BUD",
+      "city_code": "BUD",
+      "city": "Budapest",
+      "airport": "Ferihegy",
+      "country_code": "HU",
+      "country": "Hongrie",
+      "lat": 47.433037,
+      "lon": 19.261621,
+      "price": 62,
+      "date": "2026-12-14T10:15:00+01:00",
+      "airline_code": "U2",
+      "airline": "easyJet",
+      "flight_number": "U24489",
+      "duration": 125,
+      "found_at": "2026-11-01",
+      "link": "https://www.aviasales.fr/search/LYS1412BUD1?t=U217972433001797250800000125LYSBUD_1a2440fbdb712b287a46b0a1c46b7bad_5518&search_date=01112026&expected_price_uuid=01a1981f-34d4-8031-268e-51f71bd8fe5e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=txn-gOVUh-KCKvxIJ2JfGA&expected_price_source=share&expected_price_currency=eur&expected_price=62&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 139,
+          "date": "2026-11-11T13:15:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24489",
+          "duration": 125,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS1111BUD1?t=U217944029001794410400000125LYSBUD_69c4a6df61f9a71d9f536bd6fce7d84b_12662&search_date=02112026&expected_price_uuid=01a19cc7-2a0b-8031-2c39-5fae5edcae55&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YVvsK38rBUBiJubYlZhyyQ&expected_price_source=share&expected_price_currency=eur&expected_price=139&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 62,
+          "date": "2026-12-14T10:15:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24489",
+          "duration": 125,
+          "found_at": "2026-11-01",
+          "link": "https://www.aviasales.fr/search/LYS1412BUD1?t=U217972433001797250800000125LYSBUD_1a2440fbdb712b287a46b0a1c46b7bad_5518&search_date=01112026&expected_price_uuid=01a1981f-34d4-8031-268e-51f71bd8fe5e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=txn-gOVUh-KCKvxIJ2JfGA&expected_price_source=share&expected_price_currency=eur&expected_price=62&currency=eur&marker=787111"
+        },
+        "2027-02": {
+          "price": 107,
+          "date": "2027-02-05T13:05:00+01:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24489",
+          "duration": 125,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS0502BUD1?t=U218018327001801840200000125LYSBUD_a2e24bbd9eefc22963ffd72a4e636cf3_9808&search_date=04112026&expected_price_uuid=01a1a6d0-b789-8030-274b-e6b36e2b8945&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=s2KkoJ3vihTQBZ6mztTJhQ&expected_price_source=share&expected_price_currency=eur&expected_price=107&currency=eur&marker=787111"
         }
       }
     },
@@ -1475,6 +1755,76 @@
       }
     },
     {
+      "code": "DUS",
+      "city_code": "DUS",
+      "city": "Düsseldorf",
+      "airport": "Düsseldorf",
+      "country_code": "DE",
+      "country": "Allemagne",
+      "lat": 51.278328,
+      "lon": 6.76558,
+      "price": 64,
+      "date": "2026-12-17T20:35:00+01:00",
+      "airline_code": "EW",
+      "airline": "Eurowings",
+      "flight_number": "EW9413",
+      "duration": 85,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1712DUS1?t=EW17975397001797544800000085LYSDUS_d4015d833c650fd91766e63e67a30981_5869&search_date=06112026&expected_price_uuid=01a1b180-8b52-8030-6e97-61e318cd9849&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=64&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 114,
+          "date": "2026-11-26T20:35:00+01:00",
+          "airline_code": "EW",
+          "airline": "Eurowings",
+          "flight_number": "EW9413",
+          "duration": 85,
+          "found_at": "2026-11-05",
+          "link": "https://www.aviasales.fr/search/LYS2611DUS1?t=EW17957253001795730400000085LYSDUS_b27044c04f72bf838518815fbb45a4ce_10378&search_date=05112026&expected_price_uuid=01a1ad35-b2ca-8030-2977-0a8128365e23&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=114&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 64,
+          "date": "2026-12-17T20:35:00+01:00",
+          "airline_code": "EW",
+          "airline": "Eurowings",
+          "flight_number": "EW9413",
+          "duration": 85,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1712DUS1?t=EW17975397001797544800000085LYSDUS_d4015d833c650fd91766e63e67a30981_5869&search_date=06112026&expected_price_uuid=01a1b180-8b52-8030-6e97-61e318cd9849&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=64&currency=eur&marker=787111"
+        },
+        "2027-01": {
+          "price": 71,
+          "date": "2027-01-14T20:35:00+01:00",
+          "airline_code": "EW",
+          "airline": "Eurowings",
+          "flight_number": "EW9413",
+          "duration": 85,
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS1401DUS1?t=EW17999589001799964000000085LYSDUS_c38de2e0d11ac0bfd16edd892d4fdab4_6404&search_date=31102026&expected_price_uuid=01a193cf-d909-8031-640b-dd14632cb001&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=71&currency=eur&marker=787111"
+        },
+        "2027-03": {
+          "price": 120,
+          "date": "2027-03-01T09:00:00+01:00",
+          "airline_code": "EW",
+          "airline": "Eurowings",
+          "flight_number": "EW9413",
+          "duration": 85,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0103DUS1?t=EW18038916001803896700000085LYSDUS_24c9eed20e5dc5d6e0a36c4390efb3f7_10968&search_date=06112026&expected_price_uuid=01a1b17d-89b0-8031-28f2-816302df4dc1&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=GdvF2s4L-3WHxB_g47bwuA&expected_price_source=share&expected_price_currency=eur&expected_price=120&currency=eur&marker=787111"
+        },
+        "2027-04": {
+          "price": 94,
+          "date": "2027-04-01T21:05:00+02:00",
+          "airline_code": "EW",
+          "airline": "Eurowings",
+          "flight_number": "EW9417",
+          "duration": 85,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0104DUS1?t=EW18066135001806618600000085LYSDUS_a693466a6f38dfc582c6692ce77be541_8576&search_date=06112026&expected_price_uuid=01a1b2ed-3523-8030-2d35-7769b49bb305&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6YWmOXF9OmLqNtFX3WFjsQ&expected_price_source=share&expected_price_currency=eur&expected_price=94&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
       "code": "AMS",
       "city_code": "AMS",
       "city": "Amsterdam",
@@ -1543,14 +1893,14 @@
           "link": "https://www.aviasales.fr/search/LYS2811ALG1?t=TO17958912001795898400000120LYSALG_c92a2c9424430c1ab4c2492af1e70950_6112&search_date=05112026&expected_price_uuid=01a1ada0-67e9-8030-2d26-26f0a9cdcb98&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=E8HqVxvBmiYHpLnuIerpQA&expected_price_source=share&expected_price_currency=eur&expected_price=67&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 100,
-          "date": "2026-12-15T17:15:00+01:00",
+          "price": 146,
+          "date": "2026-12-26T18:40:00+01:00",
           "airline_code": "TO",
           "airline": "Transavia France",
           "flight_number": "TO7308",
           "duration": 120,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS1512ALG1?t=TO17973549001797362100000120LYSALG_10c9d107b652d6b961386e32d420d89e_9000&search_date=30102026&expected_price_uuid=01a18ec4-5e6f-8040-65c2-271619cedea3&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=4NtwKlVmekrh4GsXG2Z5kw&expected_price_source=share&expected_price_currency=eur&expected_price=100&currency=eur&marker=787111"
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS2612ALG1?t=TO17983104001798317600000120LYSALG_c8863377b289a15840380e16a85b3dd3_13457&search_date=04112026&expected_price_uuid=01a1a70e-5cf9-8040-a8a1-03eee1f90f70&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=E8HqVxvBmiYHpLnuIerpQA&expected_price_source=share&expected_price_currency=eur&expected_price=146&currency=eur&marker=787111"
         },
         "2027-01": {
           "price": 65,
@@ -1585,52 +1935,42 @@
       }
     },
     {
-      "code": "HRG",
-      "city_code": "HRG",
-      "city": "Hurghada",
-      "airport": "Hurghada",
-      "country_code": "EG",
-      "country": "Égypte",
-      "lat": 27.189156,
-      "lon": 33.8055,
-      "price": 65,
-      "date": "2026-12-05T12:50:00+01:00",
+      "code": "CZL",
+      "city_code": "CZL",
+      "city": "Constantine",
+      "airport": "Ain El Bey",
+      "country_code": "DZ",
+      "country": "Algérie",
+      "lat": 36.286476,
+      "lon": 6.618425,
+      "price": 66,
+      "date": "2026-12-30T06:40:00+01:00",
       "airline_code": "TO",
       "airline": "Transavia France",
-      "flight_number": "TO8066",
-      "duration": 280,
-      "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS0512HRG1?t=TO17964750001796495400000280LYSHRG_65f050f47054683da30530cefaf654bc_5980&search_date=05112026&expected_price_uuid=01a1ab57-00f4-8030-ad2b-923e405c642f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=65&currency=eur&marker=787111",
+      "flight_number": "TO7316",
+      "duration": 120,
+      "found_at": "2026-10-31",
+      "link": "https://www.aviasales.fr/search/LYS3012CZL1?t=TO17986128001798620000000120LYSCZL_b1f8edac9b4462e8f725b30a06b40163_5973&search_date=31102026&expected_price_uuid=01a19311-b89b-8031-27d8-d196559e6659&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=sJeozCxizhNMA-Lh-dd7mA&expected_price_source=share&expected_price_currency=eur&expected_price=66&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 80,
-          "date": "2026-11-28T12:50:00+01:00",
+          "price": 74,
+          "date": "2026-11-19T06:45:00+01:00",
           "airline_code": "TO",
           "airline": "Transavia France",
-          "flight_number": "TO8066",
-          "duration": 280,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS2811HRG1?t=TO17958702001795890600000280LYSHRG_e30b7c45fa05bf0ad0e13acd4a71500f_7312&search_date=05112026&expected_price_uuid=01a1ab58-0264-8030-2b20-88aab43fb657&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=80&currency=eur&marker=787111"
+          "flight_number": "TO7316",
+          "duration": 120,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS1911CZL1?t=TO17950707001795077900000120LYSCZL_4f12f669b7d7f28ac2bdde9b2d132682_6815&search_date=04112026&expected_price_uuid=01a1a542-c224-8030-24cf-dd5ba333fcb8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=AMWAP3ygKAC7klGOQvXLkA&expected_price_source=share&expected_price_currency=eur&expected_price=74&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 65,
-          "date": "2026-12-05T12:50:00+01:00",
+          "price": 66,
+          "date": "2026-12-30T06:40:00+01:00",
           "airline_code": "TO",
           "airline": "Transavia France",
-          "flight_number": "TO8066",
-          "duration": 280,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS0512HRG1?t=TO17964750001796495400000280LYSHRG_65f050f47054683da30530cefaf654bc_5980&search_date=05112026&expected_price_uuid=01a1ab57-00f4-8030-ad2b-923e405c642f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=65&currency=eur&marker=787111"
-        },
-        "2027-03": {
-          "price": 188,
-          "date": "2027-03-27T12:50:00+01:00",
-          "airline_code": "TO",
-          "airline": "Transavia France",
-          "flight_number": "TO8066",
-          "duration": 280,
+          "flight_number": "TO7316",
+          "duration": 120,
           "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS2703HRG1?t=TO18061518001806172200000280LYSHRG_6a079d7c8967b7d8c7a55dd74bec03d5_16870&search_date=31102026&expected_price_uuid=01a191f5-298e-8031-2dc5-93fac9a45f76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=188&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS3012CZL1?t=TO17986128001798620000000120LYSCZL_b1f8edac9b4462e8f725b30a06b40163_5973&search_date=31102026&expected_price_uuid=01a19311-b89b-8031-27d8-d196559e6659&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=sJeozCxizhNMA-Lh-dd7mA&expected_price_source=share&expected_price_currency=eur&expected_price=66&currency=eur&marker=787111"
         }
       }
     },
@@ -1715,6 +2055,56 @@
       }
     },
     {
+      "code": "HRG",
+      "city_code": "HRG",
+      "city": "Hurghada",
+      "airport": "Hurghada",
+      "country_code": "EG",
+      "country": "Égypte",
+      "lat": 27.189156,
+      "lon": 33.8055,
+      "price": 69,
+      "date": "2026-12-05T12:50:00+01:00",
+      "airline_code": "TO",
+      "airline": "Transavia France",
+      "flight_number": "TO8066",
+      "duration": 280,
+      "found_at": "2026-11-07",
+      "link": "https://www.aviasales.fr/search/LYS0512HRG1?t=TO17964750001796495400000280LYSHRG_65f050f47054683da30530cefaf654bc_6301&search_date=07112026&expected_price_uuid=01a1b54f-6ccf-8030-a5ca-7ef4ad7e991e&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=69&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 80,
+          "date": "2026-11-28T12:50:00+01:00",
+          "airline_code": "TO",
+          "airline": "Transavia France",
+          "flight_number": "TO8066",
+          "duration": 280,
+          "found_at": "2026-11-05",
+          "link": "https://www.aviasales.fr/search/LYS2811HRG1?t=TO17958702001795890600000280LYSHRG_e30b7c45fa05bf0ad0e13acd4a71500f_7312&search_date=05112026&expected_price_uuid=01a1ab58-0264-8030-2b20-88aab43fb657&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=80&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 69,
+          "date": "2026-12-05T12:50:00+01:00",
+          "airline_code": "TO",
+          "airline": "Transavia France",
+          "flight_number": "TO8066",
+          "duration": 280,
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS0512HRG1?t=TO17964750001796495400000280LYSHRG_65f050f47054683da30530cefaf654bc_6301&search_date=07112026&expected_price_uuid=01a1b54f-6ccf-8030-a5ca-7ef4ad7e991e&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=69&currency=eur&marker=787111"
+        },
+        "2027-03": {
+          "price": 188,
+          "date": "2027-03-27T12:50:00+01:00",
+          "airline_code": "TO",
+          "airline": "Transavia France",
+          "flight_number": "TO8066",
+          "duration": 280,
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS2703HRG1?t=TO18061518001806172200000280LYSHRG_6a079d7c8967b7d8c7a55dd74bec03d5_16870&search_date=31102026&expected_price_uuid=01a191f5-298e-8031-2dc5-93fac9a45f76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=BzcLpyy8bHs_CBa5TJrSDg&expected_price_source=share&expected_price_currency=eur&expected_price=188&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
       "code": "SVQ",
       "city_code": "SVQ",
       "city": "Séville",
@@ -1763,14 +2153,14 @@
       "link": "https://www.aviasales.fr/search/LYS1712CPH1?t=SK17975175001797525000000125LYSCPH_d29b4e60ef9445feb09f7f73bd7a1eea_6625&search_date=05112026&expected_price_uuid=01a1abfa-a6fc-8030-a8a1-945cd05c0f73&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=zVnJt3lE3_ZeZnVSnSU8gQ&expected_price_source=share&expected_price_currency=eur&expected_price=72&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 87,
-          "date": "2026-11-27T14:25:00+01:00",
+          "price": 97,
+          "date": "2026-11-26T14:25:00+01:00",
           "airline_code": "SK",
           "airline": "SAS Scandinavian",
           "flight_number": "SK1794",
           "duration": 125,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS2711CPH1?t=SK17957895001795797000000125LYSCPH_08615b2e50b1478a3e93f4ab9efa61d5_7854&search_date=31102026&expected_price_uuid=01a1912b-e0a7-8030-adec-657ab7a31648&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=zVnJt3lE3_ZeZnVSnSU8gQ&expected_price_source=share&expected_price_currency=eur&expected_price=87&currency=eur&marker=787111"
+          "found_at": "2026-11-05",
+          "link": "https://www.aviasales.fr/search/LYS2611CPH1?t=SK17957031001795710600000125LYSCPH_365db896709db5b4cf07a2282c517fab_8876&search_date=05112026&expected_price_uuid=01a1abb6-638a-8030-abaa-cbaea7ed790b&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=zVnJt3lE3_ZeZnVSnSU8gQ&expected_price_source=share&expected_price_currency=eur&expected_price=97&currency=eur&marker=787111"
         },
         "2026-12": {
           "price": 72,
@@ -1785,136 +2175,6 @@
       }
     },
     {
-      "code": "CZL",
-      "city_code": "CZL",
-      "city": "Constantine",
-      "airport": "Ain El Bey",
-      "country_code": "DZ",
-      "country": "Algérie",
-      "lat": 36.286476,
-      "lon": 6.618425,
-      "price": 74,
-      "date": "2026-11-19T06:45:00+01:00",
-      "airline_code": "TO",
-      "airline": "Transavia France",
-      "flight_number": "TO7316",
-      "duration": 120,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS1911CZL1?t=TO17950707001795077900000120LYSCZL_4f12f669b7d7f28ac2bdde9b2d132682_6815&search_date=04112026&expected_price_uuid=01a1a542-c224-8030-24cf-dd5ba333fcb8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=AMWAP3ygKAC7klGOQvXLkA&expected_price_source=share&expected_price_currency=eur&expected_price=74&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 74,
-          "date": "2026-11-19T06:45:00+01:00",
-          "airline_code": "TO",
-          "airline": "Transavia France",
-          "flight_number": "TO7316",
-          "duration": 120,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS1911CZL1?t=TO17950707001795077900000120LYSCZL_4f12f669b7d7f28ac2bdde9b2d132682_6815&search_date=04112026&expected_price_uuid=01a1a542-c224-8030-24cf-dd5ba333fcb8&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=AMWAP3ygKAC7klGOQvXLkA&expected_price_source=share&expected_price_currency=eur&expected_price=74&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 66,
-          "date": "2026-12-30T06:40:00+01:00",
-          "airline_code": "TO",
-          "airline": "Transavia France",
-          "flight_number": "TO7316",
-          "duration": 120,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS3012CZL1?t=TO17986128001798620000000120LYSCZL_b1f8edac9b4462e8f725b30a06b40163_5973&search_date=31102026&expected_price_uuid=01a19311-b89b-8031-27d8-d196559e6659&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=sJeozCxizhNMA-Lh-dd7mA&expected_price_source=share&expected_price_currency=eur&expected_price=66&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "FCO",
-      "city_code": "ROM",
-      "city": "Rome",
-      "airport": "Fiumicino",
-      "country_code": "IT",
-      "country": "Italie",
-      "lat": 41.794594,
-      "lon": 12.250346,
-      "price": 75,
-      "date": "2027-07-06T17:00:00+02:00",
-      "airline_code": "U2",
-      "airline": "easyJet",
-      "flight_number": "U27560",
-      "duration": 95,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS0607ROM1?t=EC18148932001814898900000095LYSFCO_7ab15248bf62f01e7ceb3a55a409c872_6905&search_date=04112026&expected_price_uuid=01a1a7c9-44c2-8031-2c2b-7a84e20ae3d4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=oF8lGYwUn_IIZx6Wc8UZ2g&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 35,
-          "date": "2026-11-17T18:50:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24413",
-          "duration": 95,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS1711ROM1?t=U217949414001794947100000095LYSFCO_457f58855500d02628666a50856716ff_3132&search_date=31102026&expected_price_uuid=01a19106-232d-8031-6562-9af9c3cc1f7d&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=eZsmaY0nWX_tBSsHltnK4Q&expected_price_source=share&expected_price_currency=eur&expected_price=35&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 28,
-          "date": "2026-12-31T20:00:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24413",
-          "duration": 95,
-          "found_at": "2026-11-01",
-          "link": "https://www.aviasales.fr/search/LYS3112ROM1?t=U217987472001798752900000095LYSFCO_2ad7ee8824ee79770147d5caa2b8ce21_2508&search_date=01112026&expected_price_uuid=01a1997e-d6b2-8030-2287-ecc135827249&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CcZhK_oQHPsTXgrGGSXPTQ&expected_price_source=share&expected_price_currency=eur&expected_price=28&currency=eur&marker=787111"
-        },
-        "2027-01": {
-          "price": 33,
-          "date": "2027-01-07T20:00:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24413",
-          "duration": 95,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS0701ROM1?t=U217993520001799357700000095LYSFCO_8f8a1acf5215e69680a68e6849eafab1_2987&search_date=02112026&expected_price_uuid=01a19ce6-1cea-8031-60f0-c91a85fdf037&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=CcZhK_oQHPsTXgrGGSXPTQ&expected_price_source=share&expected_price_currency=eur&expected_price=33&currency=eur&marker=787111"
-        },
-        "2027-02": {
-          "price": 39,
-          "date": "2027-02-27T12:40:00+01:00",
-          "airline_code": "EC",
-          "airline": "easyJet",
-          "flight_number": "EC2998",
-          "duration": 95,
-          "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS2702ROM1?t=U218037320001803737700000095LYSFCO_2c395e08c1658c23d7b8c8db6e1ddf07_3559&search_date=03112026&expected_price_uuid=01a1a1c9-752c-8030-614c-7bbcee4e2c49&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=rTqycax8qANF9gi98JrOLQ&expected_price_source=share&expected_price_currency=eur&expected_price=39&currency=eur&marker=787111"
-        },
-        "2027-04": {
-          "price": 64,
-          "date": "2027-04-15T19:15:00+02:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24421",
-          "duration": 95,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS1504ROM1?t=U218078165001807822200000095LYSFCO_6742461cfa782fc5dd56bbee52823442_5747&search_date=30102026&expected_price_uuid=01a18ed0-7f36-8040-2074-7c45e4445b79&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=EPovRToqDniGHzQHeygj-A&expected_price_source=share&expected_price_currency=eur&expected_price=64&currency=eur&marker=787111"
-        },
-        "2027-05": {
-          "price": 40,
-          "date": "2027-05-18T20:40:00+02:00",
-          "airline_code": "EC",
-          "airline": "easyJet",
-          "flight_number": "EC4421",
-          "duration": 95,
-          "found_at": "2026-11-01",
-          "link": "https://www.aviasales.fr/search/LYS1805ROM1?t=U218106728001810678500000095LYSFCO_55f69063667dacc372600929e2b0e5ed_3610&search_date=01112026&expected_price_uuid=01a19511-b279-8030-200e-323326dd6e91&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6kXdK2uWL_m8n3BtZNCTFg&expected_price_source=share&expected_price_currency=eur&expected_price=40&currency=eur&marker=787111"
-        },
-        "2027-07": {
-          "price": 75,
-          "date": "2027-07-06T17:00:00+02:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U27560",
-          "duration": 95,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS0607ROM1?t=EC18148932001814898900000095LYSFCO_7ab15248bf62f01e7ceb3a55a409c872_6905&search_date=04112026&expected_price_uuid=01a1a7c9-44c2-8031-2c2b-7a84e20ae3d4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=oF8lGYwUn_IIZx6Wc8UZ2g&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
       "code": "CMN",
       "city_code": "CMN",
       "city": "Casablanca",
@@ -1923,34 +2183,34 @@
       "country": "Maroc",
       "lat": 33.36667,
       "lon": -7.586667,
-      "price": 75,
-      "date": "2027-02-06T09:35:00+01:00",
-      "airline_code": "3O",
-      "airline": "Air Arabia Maroc",
-      "flight_number": "3O342",
+      "price": 73,
+      "date": "2026-12-05T18:35:00+01:00",
+      "airline_code": "AT",
+      "airline": "Royal Air Maroc",
+      "flight_number": "AT721",
       "duration": 170,
       "found_at": "2026-11-06",
-      "link": "https://www.aviasales.fr/search/LYS0602CMN1?t=3O18019065001801913100000170LYSCMN_a90da2539efdaea3b0c317a5fb3aa106_6878&search_date=06112026&expected_price_uuid=01a1b066-42d1-8030-ed99-0dd8efe25d76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=KIyLz5gj6GkOyooCW-6UYQ&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111",
+      "link": "https://www.aviasales.fr/search/LYS0512CMN1?t=AT17964957001796502300000170LYSCMN_305b001540e1e2f091b9db4dc6c08e1a_6636&search_date=06112026&expected_price_uuid=01a1b339-9203-8040-ab9b-4774dde7167b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=MAUQQ_h-jdhFgOt3HQJ2SA&expected_price_source=share&expected_price_currency=eur&expected_price=73&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 97,
-          "date": "2026-11-14T09:35:00+01:00",
+          "date": "2026-11-21T09:35:00+01:00",
           "airline_code": "3O",
           "airline": "Air Arabia Maroc",
           "flight_number": "3O342",
           "duration": 170,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS1411CMN1?t=3O17946489001794655500000170LYSCMN_02acdfd9678e411c2edddc8c7be7a900_8874&search_date=04112026&expected_price_uuid=01a1a58a-136f-8030-640c-b6aabc5eb768&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=KIyLz5gj6GkOyooCW-6UYQ&expected_price_source=share&expected_price_currency=eur&expected_price=97&currency=eur&marker=787111"
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS2111CMN1?t=3O17952537001795260300000170LYSCMN_5b57610ce52c16b5b3d70c6be48d37eb_8882&search_date=06112026&expected_price_uuid=01a1b2c3-d7fa-8030-ae9d-d0f5eb06791e&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=KIyLz5gj6GkOyooCW-6UYQ&expected_price_source=share&expected_price_currency=eur&expected_price=97&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 77,
-          "date": "2026-12-05T09:35:00+01:00",
-          "airline_code": "3O",
-          "airline": "Air Arabia Maroc",
-          "flight_number": "3O342",
+          "price": 73,
+          "date": "2026-12-05T18:35:00+01:00",
+          "airline_code": "AT",
+          "airline": "Royal Air Maroc",
+          "flight_number": "AT721",
           "duration": 170,
-          "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS0512CMN1?t=3O17964633001796469900000170LYSCMN_47b40d1ced2806f35384e010f8d24e14_7010&search_date=03112026&expected_price_uuid=01a1a2da-1bcc-8031-2e84-9d5d5e1bb872&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=KIyLz5gj6GkOyooCW-6UYQ&expected_price_source=share&expected_price_currency=eur&expected_price=77&currency=eur&marker=787111"
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0512CMN1?t=AT17964957001796502300000170LYSCMN_305b001540e1e2f091b9db4dc6c08e1a_6636&search_date=06112026&expected_price_uuid=01a1b339-9203-8040-ab9b-4774dde7167b&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=MAUQQ_h-jdhFgOt3HQJ2SA&expected_price_source=share&expected_price_currency=eur&expected_price=73&currency=eur&marker=787111"
         },
         "2027-01": {
           "price": 71,
@@ -1971,46 +2231,6 @@
           "duration": 170,
           "found_at": "2026-11-06",
           "link": "https://www.aviasales.fr/search/LYS0602CMN1?t=3O18019065001801913100000170LYSCMN_a90da2539efdaea3b0c317a5fb3aa106_6878&search_date=06112026&expected_price_uuid=01a1b066-42d1-8030-ed99-0dd8efe25d76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=KIyLz5gj6GkOyooCW-6UYQ&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "TUN",
-      "city_code": "TUN",
-      "city": "Tunis",
-      "airport": "Carthage",
-      "country_code": "TN",
-      "country": "Tunisie",
-      "lat": 36.847622,
-      "lon": 10.21709,
-      "price": 75,
-      "date": "2026-11-17T18:00:00+01:00",
-      "airline_code": "TO",
-      "airline": "Transavia France",
-      "flight_number": "TO8776",
-      "duration": 120,
-      "found_at": "2026-10-30",
-      "link": "https://www.aviasales.fr/search/LYS1711TUN1?t=TO17949384001794945600000120LYSTUN_22a86222d03ccc89f6df7786f5c29f9b_6747&search_date=30102026&expected_price_uuid=01a18d5f-9af9-8040-6031-b13d2341c0b0&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6DRq7_iyUApWEocehThXWg&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 75,
-          "date": "2026-11-17T18:00:00+01:00",
-          "airline_code": "TO",
-          "airline": "Transavia France",
-          "flight_number": "TO8776",
-          "duration": 120,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS1711TUN1?t=TO17949384001794945600000120LYSTUN_22a86222d03ccc89f6df7786f5c29f9b_6747&search_date=30102026&expected_price_uuid=01a18d5f-9af9-8040-6031-b13d2341c0b0&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=6DRq7_iyUApWEocehThXWg&expected_price_source=share&expected_price_currency=eur&expected_price=75&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 84,
-          "date": "2026-12-10T06:15:00+01:00",
-          "airline_code": "TO",
-          "airline": "Transavia France",
-          "flight_number": "TO8776",
-          "duration": 120,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS1012TUN1?t=TO17968833001796890500000120LYSTUN_497a7079517a19d013c1225d578ab33e_7653&search_date=02112026&expected_price_uuid=01a19db6-6b54-8031-6354-a21a74b23ea5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kwMUf7klIuSCKVDuMYEnzg&expected_price_source=share&expected_price_currency=eur&expected_price=84&currency=eur&marker=787111"
         }
       }
     },
@@ -2051,6 +2271,46 @@
           "duration": 125,
           "found_at": "2026-11-04",
           "link": "https://www.aviasales.fr/search/LYS0607MIR1?t=TO18148752001814879100000125LYSMIR_952366ae364f58e5d0e97b662e5e49c8_17423&search_date=04112026&expected_price_uuid=01a1a670-6a11-8030-6806-4ab13c4bcfa1&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=bsiv5_GIU40XZ2dmoM3k5w&expected_price_source=share&expected_price_currency=eur&expected_price=189&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "TUN",
+      "city_code": "TUN",
+      "city": "Tunis",
+      "airport": "Carthage",
+      "country_code": "TN",
+      "country": "Tunisie",
+      "lat": 36.847622,
+      "lon": 10.21709,
+      "price": 79,
+      "date": "2026-11-14T10:05:00+01:00",
+      "airline_code": "TU",
+      "airline": "Tunisair",
+      "flight_number": "TU463",
+      "duration": 115,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1411TUN1?t=TU17946507001794657600000115LYSTUN_5b4eb7f2b70667379e0ddb0ac5cb4c8b_7222&search_date=06112026&expected_price_uuid=01a1b1f4-22cc-8040-a9c1-c884b92a229d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YPPEiR88LeQPO8zYAzoXWg&expected_price_source=share&expected_price_currency=eur&expected_price=79&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 79,
+          "date": "2026-11-14T10:05:00+01:00",
+          "airline_code": "TU",
+          "airline": "Tunisair",
+          "flight_number": "TU463",
+          "duration": 115,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1411TUN1?t=TU17946507001794657600000115LYSTUN_5b4eb7f2b70667379e0ddb0ac5cb4c8b_7222&search_date=06112026&expected_price_uuid=01a1b1f4-22cc-8040-a9c1-c884b92a229d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YPPEiR88LeQPO8zYAzoXWg&expected_price_source=share&expected_price_currency=eur&expected_price=79&currency=eur&marker=787111"
+        },
+        "2026-12": {
+          "price": 84,
+          "date": "2026-12-10T06:15:00+01:00",
+          "airline_code": "TO",
+          "airline": "Transavia France",
+          "flight_number": "TO8776",
+          "duration": 120,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS1012TUN1?t=TO17968833001796890500000120LYSTUN_497a7079517a19d013c1225d578ab33e_7653&search_date=02112026&expected_price_uuid=01a19db6-6b54-8031-6354-a21a74b23ea5&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kwMUf7klIuSCKVDuMYEnzg&expected_price_source=share&expected_price_currency=eur&expected_price=84&currency=eur&marker=787111"
         }
       }
     },
@@ -2134,13 +2394,13 @@
       "lat": 49.003197,
       "lon": 2.567023,
       "price": 102,
-      "date": "2027-04-05T14:35:00+02:00",
+      "date": "2027-01-06T14:40:00+01:00",
       "airline_code": "AF",
       "airline": "Air France",
-      "flight_number": "AF7367",
-      "duration": 70,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS0504PAR1?t=AF18069357001806939900000070LYSCDG_ca6dcd4d681f19c8d08b125bed2efb81_9362&search_date=04112026&expected_price_uuid=01a1a6b9-1b4e-8030-24f4-cd8aa70104a1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=216TN2M60szl9kDhe8vEAQ&expected_price_source=share&expected_price_currency=eur&expected_price=102&currency=eur&marker=787111",
+      "flight_number": "AF7365",
+      "duration": 75,
+      "found_at": "2026-10-31",
+      "link": "https://www.aviasales.fr/search/LYS0601PAR1?t=AF17992464001799250900000075LYSCDG_cfdf9e9a0e7bf1555a1ee0fe268a2f32_9131&search_date=31102026&expected_price_uuid=01a19356-cb8c-8031-2f38-5f7116450c2f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=aWsAY3QGifps_TSwRuZjXg&expected_price_source=share&expected_price_currency=eur&expected_price=102&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 138,
@@ -2163,14 +2423,14 @@
           "link": "https://www.aviasales.fr/search/LYS1812PAR1?t=AF17976048001797609300000075LYSCDG_173dd17f0b421f3215f01ca3d10184f8_9724&search_date=03112026&expected_price_uuid=01a1a213-3922-8031-2791-ccace3931c7d&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=aWsAY3QGifps_TSwRuZjXg&expected_price_source=share&expected_price_currency=eur&expected_price=106&currency=eur&marker=787111"
         },
         "2027-01": {
-          "price": 94,
-          "date": "2027-01-09T06:55:00+01:00",
+          "price": 102,
+          "date": "2027-01-06T14:40:00+01:00",
           "airline_code": "AF",
           "airline": "Air France",
-          "flight_number": "AF7371",
+          "flight_number": "AF7365",
           "duration": 75,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS0901PAR1?t=AF17994777001799482200000075LYSCDG_a7b26af9a65a17e9b0b7a6180dee6313_8474&search_date=30102026&expected_price_uuid=01a18dd1-e5e9-8030-25dd-61294bd45867&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=p52eJBpXro4sk6aQ-ROAjg&expected_price_source=share&expected_price_currency=eur&expected_price=94&currency=eur&marker=787111"
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS0601PAR1?t=AF17992464001799250900000075LYSCDG_cfdf9e9a0e7bf1555a1ee0fe268a2f32_9131&search_date=31102026&expected_price_uuid=01a19356-cb8c-8031-2f38-5f7116450c2f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=aWsAY3QGifps_TSwRuZjXg&expected_price_source=share&expected_price_currency=eur&expected_price=102&currency=eur&marker=787111"
         },
         "2027-02": {
           "price": 158,
@@ -2201,56 +2461,6 @@
           "duration": 70,
           "found_at": "2026-11-04",
           "link": "https://www.aviasales.fr/search/LYS0504PAR1?t=AF18069357001806939900000070LYSCDG_ca6dcd4d681f19c8d08b125bed2efb81_9362&search_date=04112026&expected_price_uuid=01a1a6b9-1b4e-8030-24f4-cd8aa70104a1&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=216TN2M60szl9kDhe8vEAQ&expected_price_source=share&expected_price_currency=eur&expected_price=102&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "BUD",
-      "city_code": "BUD",
-      "city": "Budapest",
-      "airport": "Ferihegy",
-      "country_code": "HU",
-      "country": "Hongrie",
-      "lat": 47.433037,
-      "lon": 19.261621,
-      "price": 107,
-      "date": "2027-02-05T13:05:00+01:00",
-      "airline_code": "U2",
-      "airline": "easyJet",
-      "flight_number": "U24489",
-      "duration": 125,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS0502BUD1?t=U218018327001801840200000125LYSBUD_a2e24bbd9eefc22963ffd72a4e636cf3_9808&search_date=04112026&expected_price_uuid=01a1a6d0-b789-8030-274b-e6b36e2b8945&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=s2KkoJ3vihTQBZ6mztTJhQ&expected_price_source=share&expected_price_currency=eur&expected_price=107&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 139,
-          "date": "2026-11-11T13:15:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24489",
-          "duration": 125,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS1111BUD1?t=U217944029001794410400000125LYSBUD_69c4a6df61f9a71d9f536bd6fce7d84b_12662&search_date=02112026&expected_price_uuid=01a19cc7-2a0b-8031-2c39-5fae5edcae55&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=YVvsK38rBUBiJubYlZhyyQ&expected_price_source=share&expected_price_currency=eur&expected_price=139&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 62,
-          "date": "2026-12-14T10:15:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24489",
-          "duration": 125,
-          "found_at": "2026-11-01",
-          "link": "https://www.aviasales.fr/search/LYS1412BUD1?t=U217972433001797250800000125LYSBUD_1a2440fbdb712b287a46b0a1c46b7bad_5518&search_date=01112026&expected_price_uuid=01a1981f-34d4-8031-268e-51f71bd8fe5e&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=txn-gOVUh-KCKvxIJ2JfGA&expected_price_source=share&expected_price_currency=eur&expected_price=62&currency=eur&marker=787111"
-        },
-        "2027-02": {
-          "price": 107,
-          "date": "2027-02-05T13:05:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24489",
-          "duration": 125,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS0502BUD1?t=U218018327001801840200000125LYSBUD_a2e24bbd9eefc22963ffd72a4e636cf3_9808&search_date=04112026&expected_price_uuid=01a1a6d0-b789-8030-274b-e6b36e2b8945&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=s2KkoJ3vihTQBZ6mztTJhQ&expected_price_source=share&expected_price_currency=eur&expected_price=107&currency=eur&marker=787111"
         }
       }
     },
@@ -2361,76 +2571,6 @@
           "duration": 250,
           "found_at": "2026-11-01",
           "link": "https://www.aviasales.fr/search/LYS1711BEY1?t=TO17948970001794915600000250LYSBEY_40d853d43f36c206301ad1913aa8fc25_10122&search_date=01112026&expected_price_uuid=01a196d3-caef-8030-a80b-fc509122210b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=PXLAdfMnwxiKXG0KCWK6KQ&expected_price_source=share&expected_price_currency=eur&expected_price=113&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "DUS",
-      "city_code": "DUS",
-      "city": "Düsseldorf",
-      "airport": "Düsseldorf",
-      "country_code": "DE",
-      "country": "Allemagne",
-      "lat": 51.278328,
-      "lon": 6.76558,
-      "price": 114,
-      "date": "2026-11-26T20:35:00+01:00",
-      "airline_code": "EW",
-      "airline": "Eurowings",
-      "flight_number": "EW9413",
-      "duration": 85,
-      "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS2611DUS1?t=EW17957253001795730400000085LYSDUS_b27044c04f72bf838518815fbb45a4ce_10378&search_date=05112026&expected_price_uuid=01a1ad35-b2ca-8030-2977-0a8128365e23&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=114&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 114,
-          "date": "2026-11-26T20:35:00+01:00",
-          "airline_code": "EW",
-          "airline": "Eurowings",
-          "flight_number": "EW9413",
-          "duration": 85,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS2611DUS1?t=EW17957253001795730400000085LYSDUS_b27044c04f72bf838518815fbb45a4ce_10378&search_date=05112026&expected_price_uuid=01a1ad35-b2ca-8030-2977-0a8128365e23&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=114&currency=eur&marker=787111"
-        },
-        "2027-01": {
-          "price": 71,
-          "date": "2027-01-14T20:35:00+01:00",
-          "airline_code": "EW",
-          "airline": "Eurowings",
-          "flight_number": "EW9413",
-          "duration": 85,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS1401DUS1?t=EW17999589001799964000000085LYSDUS_c38de2e0d11ac0bfd16edd892d4fdab4_6404&search_date=31102026&expected_price_uuid=01a193cf-d909-8031-640b-dd14632cb001&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=kYg_ZSqowzG4F0yGSA-sJw&expected_price_source=share&expected_price_currency=eur&expected_price=71&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "TNG",
-      "city_code": "TNG",
-      "city": "Tanger",
-      "airport": "Boukhalef",
-      "country_code": "MA",
-      "country": "Maroc",
-      "lat": 35.726288,
-      "lon": -5.912898,
-      "price": 114,
-      "date": "2027-07-07T18:15:00+02:00",
-      "airline_code": "U2",
-      "airline": "easyJet",
-      "flight_number": "U24473",
-      "duration": 210,
-      "found_at": "2026-10-31",
-      "link": "https://www.aviasales.fr/search/LYS0707TNG1?t=EC18149841001814989500000210LYSTNG_3686a23f58fa2e91b964fa0407e6c8e2_10253&search_date=31102026&expected_price_uuid=01a193c5-55dd-8040-6dd5-7c1b16163a7c&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=X-_4evbFFOHr1cgs3kxxtQ&expected_price_source=share&expected_price_currency=eur&expected_price=114&currency=eur&marker=787111",
-      "months": {
-        "2027-07": {
-          "price": 114,
-          "date": "2027-07-07T18:15:00+02:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24473",
-          "duration": 210,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS0707TNG1?t=EC18149841001814989500000210LYSTNG_3686a23f58fa2e91b964fa0407e6c8e2_10253&search_date=31102026&expected_price_uuid=01a193c5-55dd-8040-6dd5-7c1b16163a7c&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=X-_4evbFFOHr1cgs3kxxtQ&expected_price_source=share&expected_price_currency=eur&expected_price=114&currency=eur&marker=787111"
         }
       }
     },
@@ -2605,92 +2745,32 @@
       }
     },
     {
-      "code": "OPO",
-      "city_code": "OPO",
-      "city": "Porto",
-      "airport": "Porto",
-      "country_code": "PT",
-      "country": "Portugal",
-      "lat": 41.237774,
-      "lon": -8.670272,
-      "price": 134,
-      "date": "2026-12-28T16:20:00+01:00",
-      "airline_code": "U2",
-      "airline": "easyJet",
-      "flight_number": "U26804",
-      "duration": 135,
-      "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS2812OPO1?t=U217984748001798479300000135LYSOPO_326223fc7beec0a0a99e0cf0074ed8e1_12242&search_date=05112026&expected_price_uuid=01a1ae21-6a21-8030-afe4-907beabe7051&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=NL1vR-31SYTeaMj2KtAcnQ&expected_price_source=share&expected_price_currency=eur&expected_price=134&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 44,
-          "date": "2026-11-15T08:00:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24431",
-          "duration": 135,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS1511OPO1?t=U217947296001794734100000135LYSOPO_eeb2a5c4d392e513532e9239b8053d49_3971&search_date=02112026&expected_price_uuid=01a19c78-a5fc-8031-2034-78302de4a8c6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3Szh6_HGitrplclr6VQEvw&expected_price_source=share&expected_price_currency=eur&expected_price=44&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 134,
-          "date": "2026-12-28T16:20:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U26804",
-          "duration": 135,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS2812OPO1?t=U217984748001798479300000135LYSOPO_326223fc7beec0a0a99e0cf0074ed8e1_12242&search_date=05112026&expected_price_uuid=01a1ae21-6a21-8030-afe4-907beabe7051&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=NL1vR-31SYTeaMj2KtAcnQ&expected_price_source=share&expected_price_currency=eur&expected_price=134&currency=eur&marker=787111"
-        },
-        "2027-02": {
-          "price": 36,
-          "date": "2027-02-28T08:00:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24431",
-          "duration": 135,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS2802OPO1?t=U218038016001803806100000135LYSOPO_d4ed29cb4ff9f6d45ddf61bdc1746964_3236&search_date=02112026&expected_price_uuid=01a19d63-f328-8030-e1e6-d336fb3863e3&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=3Szh6_HGitrplclr6VQEvw&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111"
-        },
-        "2027-04": {
-          "price": 61,
-          "date": "2027-04-15T18:40:00+02:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24427",
-          "duration": 135,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS1504OPO1?t=U218078144001807818900000135LYSOPO_19b7934d9899036752c7ab468beddaee_5522&search_date=30102026&expected_price_uuid=01a18ecf-d3c8-8040-aa4d-cd9393bf7ed2&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=R3z1vFr9NFle_LV66CPLZw&expected_price_source=share&expected_price_currency=eur&expected_price=61&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "FLR",
-      "city_code": "FLR",
-      "city": "Florence",
-      "airport": "Peretola",
-      "country_code": "IT",
-      "country": "Italie",
-      "lat": 43.802128,
-      "lon": 11.201989,
-      "price": 136,
-      "date": "2026-11-06T17:00:00+01:00",
+      "code": "CFU",
+      "city_code": "CFU",
+      "city": "Corfou",
+      "airport": "I. Kapodistrias",
+      "country_code": "GR",
+      "country": "Grèce",
+      "lat": 39.60784,
+      "lon": 19.914644,
+      "price": 139,
+      "date": "2027-07-18T17:15:00+02:00",
       "airline_code": "V7",
       "airline": "Volotea",
-      "flight_number": "V72716",
-      "duration": 80,
-      "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS0611FLR1?t=V717939844001793989200000080LYSFLR_a00064af86f58ac46ead55ae9623c69a_12425&search_date=05112026&expected_price_uuid=01a1ace8-5baf-8030-e3f5-8d2b2d703422&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1Ogk0-vF0VYbUk0PpBmYYQ&expected_price_source=share&expected_price_currency=eur&expected_price=136&currency=eur&marker=787111",
+      "flight_number": "V72056",
+      "duration": 135,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1807CFU1?t=V718159309001815942600000135LYSCFU_b1715801d06c4b056c660b07fffcdcd1_12685&search_date=06112026&expected_price_uuid=01a1b29e-4e73-8030-6a75-fec956e46ced&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=VmEbtegurzT3gwJvUoX3FQ&expected_price_source=share&expected_price_currency=eur&expected_price=139&currency=eur&marker=787111",
       "months": {
-        "2026-11": {
-          "price": 136,
-          "date": "2026-11-06T17:00:00+01:00",
+        "2027-07": {
+          "price": 139,
+          "date": "2027-07-18T17:15:00+02:00",
           "airline_code": "V7",
           "airline": "Volotea",
-          "flight_number": "V72716",
-          "duration": 80,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS0611FLR1?t=V717939844001793989200000080LYSFLR_a00064af86f58ac46ead55ae9623c69a_12425&search_date=05112026&expected_price_uuid=01a1ace8-5baf-8030-e3f5-8d2b2d703422&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=1Ogk0-vF0VYbUk0PpBmYYQ&expected_price_source=share&expected_price_currency=eur&expected_price=136&currency=eur&marker=787111"
+          "flight_number": "V72056",
+          "duration": 135,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1807CFU1?t=V718159309001815942600000135LYSCFU_b1715801d06c4b056c660b07fffcdcd1_12685&search_date=06112026&expected_price_uuid=01a1b29e-4e73-8030-6a75-fec956e46ced&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=VmEbtegurzT3gwJvUoX3FQ&expected_price_source=share&expected_price_currency=eur&expected_price=139&currency=eur&marker=787111"
         }
       }
     },
@@ -2713,14 +2793,14 @@
       "link": "https://www.aviasales.fr/search/LYS1105BIQ1?t=AF18100668001810071300000075LYSBIQ_1020ff188314410dad7dee819c76b338_13016&search_date=05112026&expected_price_uuid=01a1acc4-b74d-8030-a4c3-1cf8f0c91b78&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8h1zG37rBVsMvvpT7KKNmQ&expected_price_source=share&expected_price_currency=eur&expected_price=142&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 259,
-          "date": "2026-11-10T20:20:00+01:00",
+          "price": 364,
+          "date": "2026-11-12T12:30:00+01:00",
           "airline_code": "AF",
           "airline": "Air France",
-          "flight_number": "AF6278",
-          "duration": 75,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS1011BIQ1?t=AF17943420001794346500000075LYSBIQ_8d2584d60ea3388deb728a7945e0a791_23279&search_date=31102026&expected_price_uuid=01a19048-13ce-8030-e0eb-6d57325508b9&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=8h1zG37rBVsMvvpT7KKNmQ&expected_price_source=share&expected_price_currency=eur&expected_price=259&currency=eur&marker=787111"
+          "flight_number": "AF6274",
+          "duration": 80,
+          "found_at": "2026-11-02",
+          "link": "https://www.aviasales.fr/search/LYS1211BIQ1?t=AF17944866001794491400000080LYSBIQ_d4706411c04ec79b3c2df274af3dc455_33126&search_date=02112026&expected_price_uuid=01a19d1a-57eb-8030-68ec-50f90d7770fd&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=y-Shk6TQtIqYLUNBainmWg&expected_price_source=share&expected_price_currency=eur&expected_price=364&currency=eur&marker=787111"
         },
         "2027-05": {
           "price": 142,
@@ -2765,6 +2845,56 @@
       }
     },
     {
+      "code": "DUB",
+      "city_code": "DUB",
+      "city": "Dublin",
+      "airport": "Dublin",
+      "country_code": "IE",
+      "country": "Irlande",
+      "lat": 53.42728,
+      "lon": -6.24357,
+      "price": 165,
+      "date": "2027-02-07T10:30:00+01:00",
+      "airline_code": "FR",
+      "airline": "Ryanair",
+      "flight_number": "FR1379",
+      "duration": 135,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS0702DUB1?t=FR18019962001802000700000135GNBDUB_de45101a330bed994aa486193f47cf1f_15099&search_date=06112026&expected_price_uuid=01a1b226-7fe1-8031-2ce6-06114101fbd5&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MxQnkYOgTZVhErmkb0rdLA&expected_price_source=share&expected_price_currency=eur&expected_price=165&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 275,
+          "date": "2026-11-20T14:50:00+01:00",
+          "airline_code": "EI",
+          "airline": "Aer Lingus",
+          "flight_number": "EI553",
+          "duration": 135,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS2011DUB1?t=EI17951862001795190700000135LYSDUB_a9e8fc6affa025a571321bc7b6073342_25145&search_date=06112026&expected_price_uuid=01a1b26d-14b2-8030-2cc2-794922e3c4d9&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=SMPrwcMUOtEHIWjQn4o6Kg&expected_price_source=share&expected_price_currency=eur&expected_price=275&currency=eur&marker=787111"
+        },
+        "2027-01": {
+          "price": 248,
+          "date": "2027-01-03T10:30:00+01:00",
+          "airline_code": "FR",
+          "airline": "Ryanair",
+          "flight_number": "FR1379",
+          "duration": 135,
+          "found_at": "2026-11-05",
+          "link": "https://www.aviasales.fr/search/LYS0301DUB1?t=FR17989722001798976700000135GNBDUB_5c4437f46139561482596db17c870518_22809&search_date=05112026&expected_price_uuid=01a1ab36-82ad-8030-2dd6-97763a8226da&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MxQnkYOgTZVhErmkb0rdLA&expected_price_source=share&expected_price_currency=eur&expected_price=248&currency=eur&marker=787111"
+        },
+        "2027-02": {
+          "price": 165,
+          "date": "2027-02-07T10:30:00+01:00",
+          "airline_code": "FR",
+          "airline": "Ryanair",
+          "flight_number": "FR1379",
+          "duration": 135,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS0702DUB1?t=FR18019962001802000700000135GNBDUB_de45101a330bed994aa486193f47cf1f_15099&search_date=06112026&expected_price_uuid=01a1b226-7fe1-8031-2ce6-06114101fbd5&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MxQnkYOgTZVhErmkb0rdLA&expected_price_source=share&expected_price_currency=eur&expected_price=165&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
       "code": "VIE",
       "city_code": "VIE",
       "city": "Vienne",
@@ -2773,14 +2903,14 @@
       "country": "Autriche",
       "lat": 48.11972,
       "lon": 16.563583,
-      "price": 173,
+      "price": 174,
       "date": "2027-01-06T12:50:00+01:00",
       "airline_code": "OS",
       "airline": "Austrian Airlines",
       "flight_number": "OS354",
       "duration": 100,
       "found_at": "2026-11-06",
-      "link": "https://www.aviasales.fr/search/LYS0601VIE1?t=OS17992398001799245800000100LYSVIE_2094b8a3ea8ef4af53c467cfcb066461_15844&search_date=06112026&expected_price_uuid=01a1b0aa-6ef3-8030-2e1b-cd0568ca3b20&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=173&currency=eur&marker=787111",
+      "link": "https://www.aviasales.fr/search/LYS0601VIE1?t=OS17992398001799245800000100LYSVIE_2094b8a3ea8ef4af53c467cfcb066461_15844&search_date=06112026&expected_price_uuid=01a1b0aa-6ef3-8030-2e1b-cd0568ca3b20&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=174&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 266,
@@ -2793,24 +2923,24 @@
           "link": "https://www.aviasales.fr/search/LYS1211VIE1?t=OS17944878001794493800000100LYSVIE_fcf47c2b96b1b2180e41a39eb331870a_24202&search_date=02112026&expected_price_uuid=01a19dd1-a148-8031-6ed6-0062b5b3a314&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=266&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 105,
-          "date": "2026-12-12T12:50:00+01:00",
+          "price": 132,
+          "date": "2026-12-05T12:50:00+01:00",
           "airline_code": "EN",
           "airline": "AirDolomiti",
           "flight_number": "EN354",
           "duration": 100,
           "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS1212VIE1?t=OS17970798001797085800000100LYSVIE_ff874607340f7103a8dcd39f62e87a39_9605&search_date=03112026&expected_price_uuid=01a1a0fd-dd85-8030-e5d9-86fb481fe67f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=105&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS0512VIE1?t=OS17964750001796481000000100LYSVIE_ac68ad5e2b1f764f66ce918c2ad2e030_12064&search_date=03112026&expected_price_uuid=01a1a1fd-63b2-8030-6ff5-3fabadef4563&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=132&currency=eur&marker=787111"
         },
         "2027-01": {
-          "price": 173,
+          "price": 174,
           "date": "2027-01-06T12:50:00+01:00",
           "airline_code": "OS",
           "airline": "Austrian Airlines",
           "flight_number": "OS354",
           "duration": 100,
           "found_at": "2026-11-06",
-          "link": "https://www.aviasales.fr/search/LYS0601VIE1?t=OS17992398001799245800000100LYSVIE_2094b8a3ea8ef4af53c467cfcb066461_15844&search_date=06112026&expected_price_uuid=01a1b0aa-6ef3-8030-2e1b-cd0568ca3b20&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=173&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS0601VIE1?t=OS17992398001799245800000100LYSVIE_2094b8a3ea8ef4af53c467cfcb066461_15844&search_date=06112026&expected_price_uuid=01a1b0aa-6ef3-8030-2e1b-cd0568ca3b20&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=jr1HQXDriQwZ7SaB2lf4Qg&expected_price_source=share&expected_price_currency=eur&expected_price=174&currency=eur&marker=787111"
         },
         "2027-02": {
           "price": 195,
@@ -2831,56 +2961,6 @@
           "duration": 100,
           "found_at": "2026-11-05",
           "link": "https://www.aviasales.fr/search/LYS1506VIE1?t=OS18130899001813095900000100LYSVIE_308827435ac5de847c8a85e15b80ed72_17959&search_date=05112026&expected_price_uuid=01a1ad4d-b7d1-8030-aacb-01bbd4224d2b&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=6SqHAk56p7DxFnXLha5kOg&expected_price_source=share&expected_price_currency=eur&expected_price=196&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
-      "code": "FRA",
-      "city_code": "FRA",
-      "city": "Francfort",
-      "airport": "Frankfurt",
-      "country_code": "DE",
-      "country": "Allemagne",
-      "lat": 50.050735,
-      "lon": 8.570773,
-      "price": 178,
-      "date": "2027-01-10T08:55:00+01:00",
-      "airline_code": "4Y",
-      "airline": "Discover Airlines",
-      "flight_number": "4Y4593",
-      "duration": 85,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS1001FRA1?t=4Y17995713001799576400000085LYSFRA_51a07a5ebd8c87eba70e673acfcd6656_16331&search_date=04112026&expected_price_uuid=01a1a74f-270f-8030-ef36-a775a5279168&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Id-ZxSr9i_XEtp81luyg-Q&expected_price_source=share&expected_price_currency=eur&expected_price=178&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 270,
-          "date": "2026-11-15T06:30:00+01:00",
-          "airline_code": "LH",
-          "airline": "Lufthansa",
-          "flight_number": "LH4591",
-          "duration": 85,
-          "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS1511FRA1?t=LH17947242001794729300000085LYSFRA_6199a7e81ff604f6b7fd7ec285876527_24801&search_date=05112026&expected_price_uuid=01a1aab9-ebb5-8030-eac7-a1c3f0299303&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=I8mEMj7nI4Mi_LzbxgIcGg&expected_price_source=share&expected_price_currency=eur&expected_price=270&currency=eur&marker=787111"
-        },
-        "2026-12": {
-          "price": 222,
-          "date": "2026-12-10T10:40:00+01:00",
-          "airline_code": "4Y",
-          "airline": "Discover Airlines",
-          "flight_number": "4Y4593",
-          "duration": 85,
-          "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS1012FRA1?t=4Y17968992001796904300000085LYSFRA_4fa2a657302f69d86ab725f0abbab796_20253&search_date=03112026&expected_price_uuid=01a1a0e2-01b4-8030-a818-0fa9cca98a76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UrHNb5mDKD9wpxG0xu074Q&expected_price_source=share&expected_price_currency=eur&expected_price=222&currency=eur&marker=787111"
-        },
-        "2027-01": {
-          "price": 178,
-          "date": "2027-01-10T08:55:00+01:00",
-          "airline_code": "4Y",
-          "airline": "Discover Airlines",
-          "flight_number": "4Y4593",
-          "duration": 85,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS1001FRA1?t=4Y17995713001799576400000085LYSFRA_51a07a5ebd8c87eba70e673acfcd6656_16331&search_date=04112026&expected_price_uuid=01a1a74f-270f-8030-ef36-a775a5279168&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Id-ZxSr9i_XEtp81luyg-Q&expected_price_source=share&expected_price_currency=eur&expected_price=178&currency=eur&marker=787111"
         }
       }
     },
@@ -2923,14 +3003,14 @@
       "country": "Allemagne",
       "lat": 48.353004,
       "lon": 11.790143,
-      "price": 195,
-      "date": "2026-12-21T09:20:00+01:00",
+      "price": 182,
+      "date": "2027-03-17T13:00:00+01:00",
       "airline_code": "4Y",
       "airline": "Discover Airlines",
-      "flight_number": "4Y4265",
+      "flight_number": "4Y4267",
       "duration": 80,
-      "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS2112MUC1?t=LH17978448001797849600000080LYSMUC_5a45230fe8bd52ef0abe75ca28d00f22_17822&search_date=05112026&expected_price_uuid=01a1ac51-9f0c-8030-a3b4-a56f4c23c225&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=MgaOoJhNXsVvW2aGJuiqmw&expected_price_source=share&expected_price_currency=eur&expected_price=195&currency=eur&marker=787111",
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1703MUC1?t=4Y18052884001805293200000080LYSMUC_1040448f68f458366867119979014e03_16581&search_date=06112026&expected_price_uuid=01a1b19f-d24e-8031-61c9-64351b1fc23f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vzg38zWAangzX7pJdlcd5A&expected_price_source=share&expected_price_currency=eur&expected_price=182&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 352,
@@ -2961,66 +3041,96 @@
           "duration": 80,
           "found_at": "2026-10-31",
           "link": "https://www.aviasales.fr/search/LYS2402MUC1?t=4Y18034740001803478800000080LYSMUC_85eedd8e5ec5ddeecb166c8c79a96ff1_16329&search_date=31102026&expected_price_uuid=01a192a6-6f43-8031-6876-71884ace98e6&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vzg38zWAangzX7pJdlcd5A&expected_price_source=share&expected_price_currency=eur&expected_price=182&currency=eur&marker=787111"
+        },
+        "2027-03": {
+          "price": 182,
+          "date": "2027-03-17T13:00:00+01:00",
+          "airline_code": "4Y",
+          "airline": "Discover Airlines",
+          "flight_number": "4Y4267",
+          "duration": 80,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1703MUC1?t=4Y18052884001805293200000080LYSMUC_1040448f68f458366867119979014e03_16581&search_date=06112026&expected_price_uuid=01a1b19f-d24e-8031-61c9-64351b1fc23f&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=vzg38zWAangzX7pJdlcd5A&expected_price_source=share&expected_price_currency=eur&expected_price=182&currency=eur&marker=787111"
         }
       }
     },
     {
-      "code": "TLS",
-      "city_code": "TLS",
-      "city": "Toulouse",
-      "airport": "Blagnac",
-      "country_code": "FR",
-      "country": "France",
-      "lat": 43.63007,
-      "lon": 1.374321,
-      "price": 245,
-      "date": "2027-08-01T09:30:00+02:00",
-      "airline_code": "A5",
-      "airline": "HOP!",
-      "flight_number": "A56022",
-      "duration": 60,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS0108TLS1?t=AF18171126001817116200000060LYSTLS_790b2c23d1fb2f7acc00862ec42ff99e_22486&search_date=04112026&expected_price_uuid=01a1a80f-de10-8030-aee1-413c484db250&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=V-x1mjSI9GQ9jKf1uDAoUA&expected_price_source=share&expected_price_currency=eur&expected_price=245&currency=eur&marker=787111",
+      "code": "TNG",
+      "city_code": "TNG",
+      "city": "Tanger",
+      "airport": "Boukhalef",
+      "country_code": "MA",
+      "country": "Maroc",
+      "lat": 35.726288,
+      "lon": -5.912898,
+      "price": 189,
+      "date": "2026-12-18T19:45:00+01:00",
+      "airline_code": "3O",
+      "airline": "Air Arabia Maroc",
+      "flight_number": "3O346",
+      "duration": 150,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1812TNG1?t=3O17976231001797628500000150LYSTNG_856ad282dda508d86cf0b0da1f42d95b_17245&search_date=06112026&expected_price_uuid=01a1b245-7baf-8031-67a8-d16611303153&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=dFf_i_gQqZf59APrqeJp2Q&expected_price_source=share&expected_price_currency=eur&expected_price=189&currency=eur&marker=787111",
+      "months": {
+        "2026-12": {
+          "price": 189,
+          "date": "2026-12-18T19:45:00+01:00",
+          "airline_code": "3O",
+          "airline": "Air Arabia Maroc",
+          "flight_number": "3O346",
+          "duration": 150,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1812TNG1?t=3O17976231001797628500000150LYSTNG_856ad282dda508d86cf0b0da1f42d95b_17245&search_date=06112026&expected_price_uuid=01a1b245-7baf-8031-67a8-d16611303153&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=dFf_i_gQqZf59APrqeJp2Q&expected_price_source=share&expected_price_currency=eur&expected_price=189&currency=eur&marker=787111"
+        },
+        "2027-07": {
+          "price": 114,
+          "date": "2027-07-07T18:15:00+02:00",
+          "airline_code": "U2",
+          "airline": "easyJet",
+          "flight_number": "U24473",
+          "duration": 210,
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS0707TNG1?t=EC18149841001814989500000210LYSTNG_3686a23f58fa2e91b964fa0407e6c8e2_10253&search_date=31102026&expected_price_uuid=01a193c5-55dd-8040-6dd5-7c1b16163a7c&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=X-_4evbFFOHr1cgs3kxxtQ&expected_price_source=share&expected_price_currency=eur&expected_price=114&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "RBA",
+      "city_code": "RBA",
+      "city": "Rabat",
+      "airport": "Sale",
+      "country_code": "MA",
+      "country": "Maroc",
+      "lat": 34.036137,
+      "lon": -6.748619,
+      "price": 234,
+      "date": "2026-12-17T16:45:00+01:00",
+      "airline_code": "U2",
+      "airline": "easyJet",
+      "flight_number": "U24483",
+      "duration": 165,
+      "found_at": "2026-11-06",
+      "link": "https://www.aviasales.fr/search/LYS1712RBA1?t=U217975259001797532200000165LYSRBA_df273538e74425f74282392f81e2724f_21329&search_date=06112026&expected_price_uuid=01a1b240-b374-8030-a058-7fa8725edce4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UltSqa__6Tu9U8TZRFpBJw&expected_price_source=share&expected_price_currency=eur&expected_price=234&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 36,
-          "date": "2026-11-10T20:15:00+01:00",
+          "price": 50,
+          "date": "2026-11-15T07:35:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "U24325",
-          "duration": 65,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS1011TLS1?t=U217943417001794345600000065LYSTLS_b4fae459bb3e94947ed36bc18dd2daec_3197&search_date=31102026&expected_price_uuid=01a19287-2570-8031-616f-9186a249962a&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=POpn9f1WWDDm5OgsNunESg&expected_price_source=share&expected_price_currency=eur&expected_price=36&currency=eur&marker=787111"
+          "flight_number": "U24483",
+          "duration": 165,
+          "found_at": "2026-11-01",
+          "link": "https://www.aviasales.fr/search/LYS1511RBA1?t=U217947281001794734400000165LYSRBA_98e11e8eb6b766bc1fb9be00111d99c1_4507&search_date=01112026&expected_price_uuid=01a196ec-5a91-8040-ae55-bb13ae8da64c&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=wfuKKfTW1e9F1BQcjCGzuQ&expected_price_source=share&expected_price_currency=eur&expected_price=50&currency=eur&marker=787111"
         },
         "2026-12": {
-          "price": 38,
-          "date": "2026-12-01T20:15:00+01:00",
+          "price": 234,
+          "date": "2026-12-17T16:45:00+01:00",
           "airline_code": "U2",
           "airline": "easyJet",
-          "flight_number": "U24325",
-          "duration": 65,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS0112TLS1?t=U217961561001796160000000065LYSTLS_2694b447057a9fa1edd427294d6080c7_3488&search_date=02112026&expected_price_uuid=01a19e38-9c17-8031-27ff-25336ba732d4&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=POpn9f1WWDDm5OgsNunESg&expected_price_source=share&expected_price_currency=eur&expected_price=38&currency=eur&marker=787111"
-        },
-        "2027-03": {
-          "price": 37,
-          "date": "2027-03-01T07:10:00+01:00",
-          "airline_code": "U2",
-          "airline": "easyJet",
-          "flight_number": "U24323",
-          "duration": 65,
-          "found_at": "2026-11-02",
-          "link": "https://www.aviasales.fr/search/LYS0103TLS1?t=U218038850001803888900000065LYSTLS_e67f8cea0a6ee0d19cc4b406b1dfc873_3343&search_date=02112026&expected_price_uuid=01a19d1a-e39b-8030-a448-fd0552c2b5ca&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=4ht8KGeCaY2lnHROJSDBaw&expected_price_source=share&expected_price_currency=eur&expected_price=37&currency=eur&marker=787111"
-        },
-        "2027-08": {
-          "price": 245,
-          "date": "2027-08-01T09:30:00+02:00",
-          "airline_code": "A5",
-          "airline": "HOP!",
-          "flight_number": "A56022",
-          "duration": 60,
-          "found_at": "2026-11-04",
-          "link": "https://www.aviasales.fr/search/LYS0108TLS1?t=AF18171126001817116200000060LYSTLS_790b2c23d1fb2f7acc00862ec42ff99e_22486&search_date=04112026&expected_price_uuid=01a1a80f-de10-8030-aee1-413c484db250&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=V-x1mjSI9GQ9jKf1uDAoUA&expected_price_source=share&expected_price_currency=eur&expected_price=245&currency=eur&marker=787111"
+          "flight_number": "U24483",
+          "duration": 165,
+          "found_at": "2026-11-06",
+          "link": "https://www.aviasales.fr/search/LYS1712RBA1?t=U217975259001797532200000165LYSRBA_df273538e74425f74282392f81e2724f_21329&search_date=06112026&expected_price_uuid=01a1b240-b374-8030-a058-7fa8725edce4&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UltSqa__6Tu9U8TZRFpBJw&expected_price_source=share&expected_price_currency=eur&expected_price=234&currency=eur&marker=787111"
         }
       }
     },
@@ -3105,42 +3215,52 @@
       }
     },
     {
-      "code": "DUB",
-      "city_code": "DUB",
-      "city": "Dublin",
-      "airport": "Dublin",
-      "country_code": "IE",
-      "country": "Irlande",
-      "lat": 53.42728,
-      "lon": -6.24357,
-      "price": 248,
-      "date": "2027-01-03T10:30:00+01:00",
-      "airline_code": "FR",
-      "airline": "Ryanair",
-      "flight_number": "FR1379",
-      "duration": 135,
+      "code": "FRA",
+      "city_code": "FRA",
+      "city": "Francfort",
+      "airport": "Frankfurt",
+      "country_code": "DE",
+      "country": "Allemagne",
+      "lat": 50.050735,
+      "lon": 8.570773,
+      "price": 270,
+      "date": "2026-11-15T06:30:00+01:00",
+      "airline_code": "LH",
+      "airline": "Lufthansa",
+      "flight_number": "LH4591",
+      "duration": 85,
       "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS0301DUB1?t=FR17989722001798976700000135GNBDUB_5c4437f46139561482596db17c870518_22809&search_date=05112026&expected_price_uuid=01a1ab36-82ad-8030-2dd6-97763a8226da&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MxQnkYOgTZVhErmkb0rdLA&expected_price_source=share&expected_price_currency=eur&expected_price=248&currency=eur&marker=787111",
+      "link": "https://www.aviasales.fr/search/LYS1511FRA1?t=LH17947242001794729300000085LYSFRA_6199a7e81ff604f6b7fd7ec285876527_24801&search_date=05112026&expected_price_uuid=01a1aab9-ebb5-8030-eac7-a1c3f0299303&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=I8mEMj7nI4Mi_LzbxgIcGg&expected_price_source=share&expected_price_currency=eur&expected_price=270&currency=eur&marker=787111",
       "months": {
-        "2027-01": {
-          "price": 248,
-          "date": "2027-01-03T10:30:00+01:00",
-          "airline_code": "FR",
-          "airline": "Ryanair",
-          "flight_number": "FR1379",
-          "duration": 135,
+        "2026-11": {
+          "price": 270,
+          "date": "2026-11-15T06:30:00+01:00",
+          "airline_code": "LH",
+          "airline": "Lufthansa",
+          "flight_number": "LH4591",
+          "duration": 85,
           "found_at": "2026-11-05",
-          "link": "https://www.aviasales.fr/search/LYS0301DUB1?t=FR17989722001798976700000135GNBDUB_5c4437f46139561482596db17c870518_22809&search_date=05112026&expected_price_uuid=01a1ab36-82ad-8030-2dd6-97763a8226da&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MxQnkYOgTZVhErmkb0rdLA&expected_price_source=share&expected_price_currency=eur&expected_price=248&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS1511FRA1?t=LH17947242001794729300000085LYSFRA_6199a7e81ff604f6b7fd7ec285876527_24801&search_date=05112026&expected_price_uuid=01a1aab9-ebb5-8030-eac7-a1c3f0299303&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH1%7CR0%7CTBC0&itinerary_key=I8mEMj7nI4Mi_LzbxgIcGg&expected_price_source=share&expected_price_currency=eur&expected_price=270&currency=eur&marker=787111"
         },
-        "2027-02": {
-          "price": 151,
-          "date": "2027-02-07T10:30:00+01:00",
-          "airline_code": "FR",
-          "airline": "Ryanair",
-          "flight_number": "FR1379",
-          "duration": 135,
+        "2026-12": {
+          "price": 222,
+          "date": "2026-12-10T10:40:00+01:00",
+          "airline_code": "4Y",
+          "airline": "Discover Airlines",
+          "flight_number": "4Y4593",
+          "duration": 85,
           "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS0702DUB1?t=FR18019962001802000700000135GNBDUB_de45101a330bed994aa486193f47cf1f_13764&search_date=03112026&expected_price_uuid=01a1a2e9-f3d4-8030-23c1-be1e1b2529fe&static_fare_key=TY%7CP0%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=MxQnkYOgTZVhErmkb0rdLA&expected_price_source=share&expected_price_currency=eur&expected_price=151&currency=eur&marker=787111"
+          "link": "https://www.aviasales.fr/search/LYS1012FRA1?t=4Y17968992001796904300000085LYSFRA_4fa2a657302f69d86ab725f0abbab796_20253&search_date=03112026&expected_price_uuid=01a1a0e2-01b4-8030-a818-0fa9cca98a76&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=UrHNb5mDKD9wpxG0xu074Q&expected_price_source=share&expected_price_currency=eur&expected_price=222&currency=eur&marker=787111"
+        },
+        "2027-01": {
+          "price": 178,
+          "date": "2027-01-10T08:55:00+01:00",
+          "airline_code": "4Y",
+          "airline": "Discover Airlines",
+          "flight_number": "4Y4593",
+          "duration": 85,
+          "found_at": "2026-11-04",
+          "link": "https://www.aviasales.fr/search/LYS1001FRA1?t=4Y17995713001799576400000085LYSFRA_51a07a5ebd8c87eba70e673acfcd6656_16331&search_date=04112026&expected_price_uuid=01a1a74f-270f-8030-ef36-a775a5279168&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=Id-ZxSr9i_XEtp81luyg-Q&expected_price_source=share&expected_price_currency=eur&expected_price=178&currency=eur&marker=787111"
         }
       }
     },
@@ -3153,14 +3273,14 @@
       "country": "Italie",
       "lat": 45.627405,
       "lon": 8.71237,
-      "price": 389,
-      "date": "2027-07-06T07:00:00+02:00",
+      "price": 377,
+      "date": "2026-11-19T18:25:00+01:00",
       "airline_code": "T7",
       "airline": "Twin Jet",
-      "flight_number": "T75411",
+      "flight_number": "T75417",
       "duration": 60,
-      "found_at": "2026-11-04",
-      "link": "https://www.aviasales.fr/search/LYS0607MIL1?t=T718148572001814860800000060LYSMXP_9bd80b80640bfba95cae81b42d883141_35643&search_date=04112026&expected_price_uuid=01a1a547-bfb0-8031-676f-abac727be9d3&static_fare_key=TY%7CP1%7CH0%7CL1_1_0%7CCH0%7CR0%7CTBC1&itinerary_key=8mUqF7fG6-iguBACNT9pDQ&expected_price_source=share&expected_price_currency=eur&expected_price=389&currency=eur&marker=787111",
+      "found_at": "2026-11-01",
+      "link": "https://www.aviasales.fr/search/LYS1911MIL1?t=T717951127001795116300000060LYSMXP_765367f7afa34c906d37784837104cd1_33746&search_date=01112026&expected_price_uuid=01a197a1-b158-8030-e11a-e0a0430f979c&static_fare_key=TY%7CP1%7CH0%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=WXg0J-5bpXDykYnSZnBXxA&expected_price_source=share&expected_price_currency=eur&expected_price=377&currency=eur&marker=787111",
       "months": {
         "2026-11": {
           "price": 377,
@@ -3195,6 +3315,36 @@
       }
     },
     {
+      "code": "BES",
+      "city_code": "BES",
+      "city": "Brest",
+      "airport": "Guipavas",
+      "country_code": "FR",
+      "country": "France",
+      "lat": 48.445374,
+      "lon": -4.415827,
+      "price": 420,
+      "date": "2026-11-12T08:20:00+01:00",
+      "airline_code": "A5",
+      "airline": "HOP!",
+      "flight_number": "A56162",
+      "duration": 95,
+      "found_at": "2026-11-07",
+      "link": "https://www.aviasales.fr/search/LYS1211BES1?t=AF17944716001794477300000095LYSBES_72d287fe629e88dc222fd0de04f339da_38367&search_date=07112026&expected_price_uuid=01a1b56f-cccc-8031-2fb5-78e887b5e068&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=NjcxUoYOgvAuVe6bkGet2g&expected_price_source=share&expected_price_currency=eur&expected_price=420&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 420,
+          "date": "2026-11-12T08:20:00+01:00",
+          "airline_code": "A5",
+          "airline": "HOP!",
+          "flight_number": "A56162",
+          "duration": 95,
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS1211BES1?t=AF17944716001794477300000095LYSBES_72d287fe629e88dc222fd0de04f339da_38367&search_date=07112026&expected_price_uuid=01a1b56f-cccc-8031-2fb5-78e887b5e068&static_fare_key=TY%7CP1%7CH0%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=NjcxUoYOgvAuVe6bkGet2g&expected_price_source=share&expected_price_currency=eur&expected_price=420&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
       "code": "RVN",
       "city_code": "RVN",
       "city": "Rovaniemi",
@@ -3225,46 +3375,6 @@
       }
     },
     {
-      "code": "SXB",
-      "city_code": "SXB",
-      "city": "Strasbourg",
-      "airport": "Entzheim",
-      "country_code": "FR",
-      "country": "France",
-      "lat": 48.544876,
-      "lon": 7.627674,
-      "price": 474,
-      "date": "2027-01-08T20:40:00+01:00",
-      "airline_code": "T7",
-      "airline": "Twin Jet",
-      "flight_number": "T72916",
-      "duration": 70,
-      "found_at": "2026-10-30",
-      "link": "https://www.aviasales.fr/search/LYS0801SXB1?t=T717994408001799445000000070LYSSXB_09c90e75b079d4d355288dd6b4c8488b_42710&search_date=30102026&expected_price_uuid=01a18e4b-68fb-8031-2272-fd203d50524b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=j-ZcBgUvPswiYTmJcFjIyA&expected_price_source=share&expected_price_currency=eur&expected_price=474&currency=eur&marker=787111",
-      "months": {
-        "2026-11": {
-          "price": 517,
-          "date": "2026-11-20T20:40:00+01:00",
-          "airline_code": "T7",
-          "airline": "Twin Jet",
-          "flight_number": "T72916",
-          "duration": 70,
-          "found_at": "2026-10-31",
-          "link": "https://www.aviasales.fr/search/LYS2011SXB1?t=T717952072001795211400000070LYSSXB_13335ad9e877ab8ed0c020d6750878d4_46481&search_date=31102026&expected_price_uuid=01a19382-4d08-8031-6947-d03f081eb30a&static_fare_key=TY%7CP1%7CH1%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=j-ZcBgUvPswiYTmJcFjIyA&expected_price_source=share&expected_price_currency=eur&expected_price=517&currency=eur&marker=787111"
-        },
-        "2027-01": {
-          "price": 474,
-          "date": "2027-01-08T20:40:00+01:00",
-          "airline_code": "T7",
-          "airline": "Twin Jet",
-          "flight_number": "T72916",
-          "duration": 70,
-          "found_at": "2026-10-30",
-          "link": "https://www.aviasales.fr/search/LYS0801SXB1?t=T717994408001799445000000070LYSSXB_09c90e75b079d4d355288dd6b4c8488b_42710&search_date=30102026&expected_price_uuid=01a18e4b-68fb-8031-2272-fd203d50524b&static_fare_key=TY%7CP1%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=j-ZcBgUvPswiYTmJcFjIyA&expected_price_source=share&expected_price_currency=eur&expected_price=474&currency=eur&marker=787111"
-        }
-      }
-    },
-    {
       "code": "DXB",
       "city_code": "DXB",
       "city": "Dubaï",
@@ -3273,24 +3383,24 @@
       "country": "Émirats arabes unis",
       "lat": 25.248665,
       "lon": 55.352917,
-      "price": 640,
-      "date": "2027-06-03T15:40:00+02:00",
+      "price": 484,
+      "date": "2026-11-08T14:40:00+01:00",
       "airline_code": "EK",
       "airline": "Emirates",
-      "flight_number": "EK82",
+      "flight_number": "EK082",
       "duration": 379,
-      "found_at": "2026-11-05",
-      "link": "https://www.aviasales.fr/search/LYS0306DXB1?t=EK18120372001812067140000379LYSDXB_72d76831e4e1723ee196add355069c0a_58589&search_date=05112026&expected_price_uuid=01a1ac1a-9b5c-8030-2c60-67a9c136120f&static_fare_key=TY%7CP0%7CH1%7CL1_1_30%7CCH0%7CR0%7CTBC1&itinerary_key=Ys0oHcT4oP6VkQ1xSDS4Tg&expected_price_source=share&expected_price_currency=eur&expected_price=640&currency=eur&marker=787111",
+      "found_at": "2026-11-07",
+      "link": "https://www.aviasales.fr/search/LYS0811DXB1?t=EK17941488001794182340000379LYSDXB_6010be673f14c9fa6f623c7d4f002909_44198&search_date=07112026&expected_price_uuid=01a1b599-3b4e-8030-acc2-6814eba902a6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=lu3rg7YhzylpSlEO2Pld9A&expected_price_source=share&expected_price_currency=eur&expected_price=484&currency=eur&marker=787111",
       "months": {
         "2026-11": {
-          "price": 476,
-          "date": "2026-11-07T14:40:00+01:00",
+          "price": 484,
+          "date": "2026-11-08T14:40:00+01:00",
           "airline_code": "EK",
           "airline": "Emirates",
           "flight_number": "EK082",
           "duration": 379,
-          "found_at": "2026-11-03",
-          "link": "https://www.aviasales.fr/search/LYS0711DXB1?t=EK17940624001794095940000379LYSDXB_b9e869f55898aaf8e350a6b3eef5e29a_43505&search_date=03112026&expected_price_uuid=01a1a330-e7bc-8030-63bf-74cdeae16186&static_fare_key=TY%7CP0%7CH1%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=lu3rg7YhzylpSlEO2Pld9A&expected_price_source=share&expected_price_currency=eur&expected_price=476&currency=eur&marker=787111"
+          "found_at": "2026-11-07",
+          "link": "https://www.aviasales.fr/search/LYS0811DXB1?t=EK17941488001794182340000379LYSDXB_6010be673f14c9fa6f623c7d4f002909_44198&search_date=07112026&expected_price_uuid=01a1b599-3b4e-8030-acc2-6814eba902a6&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH0%7CR0%7CTBC0&itinerary_key=lu3rg7YhzylpSlEO2Pld9A&expected_price_source=share&expected_price_currency=eur&expected_price=484&currency=eur&marker=787111"
         },
         "2026-12": {
           "price": 614,
@@ -3331,6 +3441,46 @@
           "duration": 379,
           "found_at": "2026-11-05",
           "link": "https://www.aviasales.fr/search/LYS0306DXB1?t=EK18120372001812067140000379LYSDXB_72d76831e4e1723ee196add355069c0a_58589&search_date=05112026&expected_price_uuid=01a1ac1a-9b5c-8030-2c60-67a9c136120f&static_fare_key=TY%7CP0%7CH1%7CL1_1_30%7CCH0%7CR0%7CTBC1&itinerary_key=Ys0oHcT4oP6VkQ1xSDS4Tg&expected_price_source=share&expected_price_currency=eur&expected_price=640&currency=eur&marker=787111"
+        }
+      }
+    },
+    {
+      "code": "SXB",
+      "city_code": "SXB",
+      "city": "Strasbourg",
+      "airport": "Entzheim",
+      "country_code": "FR",
+      "country": "France",
+      "lat": 48.544876,
+      "lon": 7.627674,
+      "price": 487,
+      "date": "2027-01-25T08:35:00+01:00",
+      "airline_code": "T7",
+      "airline": "Twin Jet",
+      "flight_number": "T72912",
+      "duration": 70,
+      "found_at": "2026-11-05",
+      "link": "https://www.aviasales.fr/search/LYS2501SXB1?t=T718008661001800870300000070LYSSXB_272278faed05fadd41594e4bd88fa3e4_44568&search_date=05112026&expected_price_uuid=01a1ac43-d48c-8030-ad3d-7dd8f56b9f1a&static_fare_key=TY%7CP1%7CH1%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=usF9c3AQtMbwxQvSvc0gZA&expected_price_source=share&expected_price_currency=eur&expected_price=487&currency=eur&marker=787111",
+      "months": {
+        "2026-11": {
+          "price": 517,
+          "date": "2026-11-20T20:40:00+01:00",
+          "airline_code": "T7",
+          "airline": "Twin Jet",
+          "flight_number": "T72916",
+          "duration": 70,
+          "found_at": "2026-10-31",
+          "link": "https://www.aviasales.fr/search/LYS2011SXB1?t=T717952072001795211400000070LYSSXB_13335ad9e877ab8ed0c020d6750878d4_46481&search_date=31102026&expected_price_uuid=01a19382-4d08-8031-6947-d03f081eb30a&static_fare_key=TY%7CP1%7CH1%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=j-ZcBgUvPswiYTmJcFjIyA&expected_price_source=share&expected_price_currency=eur&expected_price=517&currency=eur&marker=787111"
+        },
+        "2027-01": {
+          "price": 487,
+          "date": "2027-01-25T08:35:00+01:00",
+          "airline_code": "T7",
+          "airline": "Twin Jet",
+          "flight_number": "T72912",
+          "duration": 70,
+          "found_at": "2026-11-05",
+          "link": "https://www.aviasales.fr/search/LYS2501SXB1?t=T718008661001800870300000070LYSSXB_272278faed05fadd41594e4bd88fa3e4_44568&search_date=05112026&expected_price_uuid=01a1ac43-d48c-8030-ad3d-7dd8f56b9f1a&static_fare_key=TY%7CP1%7CH1%7CL1_1_20%7CCH0%7CR0%7CTBC1&itinerary_key=usF9c3AQtMbwxQvSvc0gZA&expected_price_source=share&expected_price_currency=eur&expected_price=487&currency=eur&marker=787111"
         }
       }
     }
