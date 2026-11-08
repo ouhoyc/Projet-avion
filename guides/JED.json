@@ -1,0 +1,1287 @@
+{
+  "city_code": "JED",
+  "statut": "préparé en autonomie, prix relevés le 08/11/2026 (1 € ≈ 4,19 riyals)",
+  "verifie_le": "2026-11-08",
+  "avant_de_partir": "Passeport obligatoire, valable au moins 6 mois après la fin du séjour (la carte d'identité ne suffit pas). Visa électronique touristique à demander en ligne sur visa.visitsaudi.com avant le départ : 395 riyals (environ 95 €) par personne, enfants compris, assurance maladie obligatoire incluse ; il est souvent accordé en quelques minutes et vaut un an. Les drones sont interdits.",
+  "transport": "un taxi (Uber ou Careem)",
+  "prix_match": 15,
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "hotel_petit_prix_max": 70,
+  "activites": [
+    {
+      "id": "al-balad",
+      "nom": "Al-Balad, la vieille ville classée Unesco",
+      "emoji": "🕌",
+      "type": "balade",
+      "quartier": "Al-Balad (Djeddah historique)",
+      "lat": 21.487,
+      "lng": 39.1869,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans les ruelles",
+          "gratuit"
+        ],
+        [
+          "Visite guidée avec un guide officiel",
+          "réservation sur visitsaudi.com"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "3 h",
+      "moment": "En fin d'après-midi, quand la chaleur tombe, puis à la nuit tombée quand les façades s'illuminent",
+      "texte": "Des maisons de corail de cinq étages, habillées de grands balcons de bois sculpté (les rawashin), des ruelles où l'on sent le café à la cardamome et l'encens : la ville des marchands et des pèlerins, fondée il y a plus de mille ans, est l'une des plus belles vieilles villes du monde arabe, restaurée depuis son classement à l'Unesco en 2014.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/al-balad-market",
+      "note": "Tenue couvrant épaules et genoux, pour les femmes comme pour les hommes. Les boutiques ferment une vingtaine de minutes à chaque prière, et le vendredi avant 16 h le quartier est très calme.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "xiquinhosilva",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AOld_Jeddah_-_55362178648.jpg",
+        "src": "img/activites/JED/al-balad.jpg"
+      }
+    },
+    {
+      "id": "nassif",
+      "nom": "Maison Nassif (Beit Nassif)",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Al-Balad",
+      "lat": 21.4841,
+      "lng": 39.1876,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "En fin d'après-midi ou le soir (horaires variables pendant les événements)",
+      "texte": "La plus célèbre demeure d'Al-Balad, bâtie au XIXe siècle par une famille de négociants : on y monte par un escalier assez large pour les chameaux, et le roi Abdelaziz y logea en 1925 en prenant Djeddah. Ses salons d'apparat accueillent des expositions sur la ville d'autrefois, et l'arbre devant la porte fut longtemps le seul du quartier.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/beit-nassif",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Cyb3r",
+        "licence": "domaine public",
+        "page": "https://commons.wikimedia.org/wiki/File%3ANassif_house_Jeddah.jpg",
+        "src": "img/activites/JED/nassif.jpg"
+      }
+    },
+    {
+      "id": "matbouli",
+      "nom": "Maison Al-Matbouli",
+      "emoji": "🪟",
+      "type": "culture",
+      "quartier": "Al-Balad",
+      "lat": 21.4849,
+      "lng": 39.1888,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "L'après-midi, avant ou après le souk Al-Alawi tout proche",
+      "texte": "Une maison de 400 ans transformée en musée par la famille qui la possède : murs de corail sculptés de rosaces, portes de bois ouvragées, chambre des mariés, vieux téléphones et cafetières de cuivre. On découvre comment vivait une famille de Djeddah avant le pétrole, pièce par pièce.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/beit-al-matbouli",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAl-Matbouli_House%2C_1613%2C_old_Jeddah%2C_Saudi_Arabia_%283%29_%2850703576062%29.jpg",
+        "src": "img/activites/JED/matbouli.jpg"
+      }
+    },
+    {
+      "id": "baeshen",
+      "nom": "Maison Baeshen (Beit Baeshen)",
+      "emoji": "🏮",
+      "type": "culture",
+      "quartier": "Al-Balad",
+      "lat": 21.487,
+      "lng": 39.1867,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "En flânant dans Al-Balad, plutôt le soir",
+      "enfants": true,
+      "texte": "Une maison de marchand restaurée, avec sa cour intérieure, ses lanternes et ses portes sculptées, devenue galerie d'art et café. Un arrêt idéal pour voir l'intérieur d'une maison à rawashin et boire un café arabe au calme, entre deux ruelles.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/beit-baeshen",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ashashyou",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABa-Ashen_house_Jeddah_blessed_days_gallery_IMG_20200304_175941.jpg",
+        "src": "img/activites/JED/baeshen.jpg"
+      }
+    },
+    {
+      "id": "red-sea-museum",
+      "nom": "Musée de la mer Rouge (Bab Al-Bunt)",
+      "emoji": "⚓",
+      "type": "culture",
+      "quartier": "Al-Balad",
+      "lat": 21.4835,
+      "lng": 39.1827,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Horaires",
+          "du mardi au dimanche, de 10 h à 22 h (fermé le lundi)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "En fin de matinée, au frais, avant la balade dans Al-Balad",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Ouvert en décembre 2025 dans l'ancienne porte de la mer, où débarquaient les pèlerins venus par bateau : plus de 1 000 objets, cartes anciennes, coquillages et boutres racontent l'histoire de la mer Rouge, des pêcheurs de perles aux grands ports de commerce. Le plus beau bâtiment rénové de la vieille ville, avec un café sur le toit.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/red-sea-museum",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kolaiel",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ARed_Sea_Museum_Jeddah_Saudi_Arabia_040.jpg",
+        "src": "img/activites/JED/red-sea-museum.jpg"
+      }
+    },
+    {
+      "id": "teamlab",
+      "nom": "teamLab Borderless Jeddah",
+      "emoji": "✨",
+      "type": "culture",
+      "quartier": "Al-Balad (lagune Al-Arbaeen)",
+      "lat": 21.4949,
+      "lng": 39.1836,
+      "prix": 36,
+      "prix_detail": [
+        [
+          "Adulte (18 ans et plus)",
+          "150 riyals ≈ 36 €"
+        ],
+        [
+          "13 à 17 ans ou étudiants",
+          "115 riyals ≈ 27 €"
+        ],
+        [
+          "4 à 12 ans",
+          "50 riyals ≈ 12 €"
+        ],
+        [
+          "Moins de 4 ans",
+          "gratuit"
+        ],
+        [
+          "Famille 2 adultes + 2 enfants",
+          "450 riyals ≈ 107 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 36,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            17,
+            27
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant sur teamlab.art (complet certains soirs de week-end)",
+      "duree": "2 h",
+      "moment": "En semaine ; ouvert de 13 h à 21 h (jusqu'à minuit le jeudi et le vendredi), fermé le lundi",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le premier musée teamLab du Moyen-Orient : plus de 50 œuvres de lumière qui bougent, réagissent à votre présence et débordent d'une salle à l'autre, cascades, forêts de lampes, fleurs qui éclosent sous vos pas. Le lieu le plus photographié de Djeddah depuis son ouverture, au bord de la lagune face à la vieille ville.",
+      "site_officiel": "https://www.teamlab.art/e/borderless-jeddah/",
+      "note": "Les salles sont sombres et le sol inégal par endroits : surveillez les petits. Prévoyez des chaussures plates.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Domenico Convertini from Zurich, Schweiz",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATeamLab_Borderless%2C_Odaiba%2C_Tokyo%2C_Japan_%2849070645226%29.jpg",
+        "src": "img/activites/JED/teamlab.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "souks",
+      "nom": "Souks Al-Alawi et Bab Makkah",
+      "emoji": "🧺",
+      "type": "balade",
+      "quartier": "Al-Balad",
+      "lat": 21.4848,
+      "lng": 39.19,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Le soir après la prière du maghreb, quand les souks sont les plus animés",
+      "texte": "La grande artère marchande de la vieille ville, empruntée depuis des siècles par les pèlerins en route vers La Mecque : épices, encens et oud, dattes, tissus, bijoux en or, jusqu'à la porte de Bab Makkah où le marché déborde sur la place. Un festival de couleurs et d'odeurs, où l'on marchande en souriant.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/souq-al-alawi",
+      "note": "Beaucoup de stands ferment l'après-midi (environ 12 h-16 h 30) et pendant les prières : venez le soir.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tahir mq",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ABab_Makkah%2C_Old_Jeddah_2.jpg",
+        "src": "img/activites/JED/souks.jpg"
+      }
+    },
+    {
+      "id": "marche-poissons",
+      "nom": "Marché aux poissons (Bangala)",
+      "emoji": "🐟",
+      "type": "balade",
+      "quartier": "Corniche sud, près d’Al-Balad",
+      "lat": 21.489,
+      "lng": 39.1725,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Faire cuire votre poisson dans les restaurants du marché",
+          "≈ 10 à 20 € le repas"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Tôt le matin, puis à la criée publique, vers 13 h",
+      "texte": "Un des plus grands marchés aux poissons de la région : mérous, perroquets, crevettes géantes et langoustes de la mer Rouge s'empilent sur la glace, sous les cris des vendeurs. Le spectacle vaut le détour, et les petits restaurants voisins grillent ou frient ce que vous venez d'acheter.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah",
+      "note": "Le sol est mouillé : chaussures fermées conseillées.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "AhmadElq",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASouq_Samak_Tarout_9.jpg",
+        "src": "img/activites/JED/marche-poissons.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "fontaine",
+      "nom": "Fontaine du roi Fahd",
+      "emoji": "⛲",
+      "type": "vue",
+      "quartier": "Corniche centrale (Al-Hamra)",
+      "lat": 21.5157,
+      "lng": 39.1451,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Depuis la corniche",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "À la nuit tombée, quand le jet est illuminé",
+      "texte": "Le plus haut jet d'eau du monde : propulsé à 260 mètres au-dessus de la mer, il se voit de toute la ville et brille la nuit sous les projecteurs. Asseyez-vous sur la promenade de la corniche centrale avec un jus frais, au milieu des familles qui pique-niquent sur les pelouses.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/visit-king-fahd-s-fountain",
+      "note": "Le jet s'arrête parfois par grand vent ou pour entretien ; il fonctionne surtout le soir.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "ほっきー",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKing_Fahd%E2%80%99s_Fountain_2025.jpg",
+        "src": "img/activites/JED/fontaine.jpg"
+      }
+    },
+    {
+      "id": "corniche",
+      "nom": "Corniche et front de mer (Waterfront)",
+      "emoji": "🌅",
+      "type": "balade",
+      "quartier": "Corniche nord (Ash-Shati)",
+      "lat": 21.5955,
+      "lng": 39.1055,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade, plages et aires de jeux",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Au coucher du soleil, sur la mer",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Des kilomètres de promenade face à la mer Rouge : palmiers, pontons, petites plages, pistes cyclables et cafés, où tout Djeddah se retrouve le soir quand la brise se lève. Le coucher du soleil y est spectaculaire, avec les palmiers en ombres chinoises sur l'île artificielle.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/jeddah-waterfront",
+      "note": "Plus au nord, le circuit de Formule 1 de la corniche s'ouvre parfois aux promeneurs, coureurs et cyclistes.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "SUAAD",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJeddah_waterfront_sunset.jpg",
+        "src": "img/activites/JED/corniche.jpg"
+      }
+    },
+    {
+      "id": "sculptures",
+      "nom": "Sculptures de la corniche (Art Promenade)",
+      "emoji": "🗿",
+      "type": "balade",
+      "quartier": "Corniche centrale (Al-Hamra)",
+      "lat": 21.5186,
+      "lng": 39.1528,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En fin d'après-midi, avant la fontaine du roi Fahd toute proche",
+      "texte": "Dans les années 1970-1980, Djeddah a dispersé sur sa corniche des centaines de sculptures, dont des œuvres de Henry Moore, Joan Miró ou Alexander Calder : un vrai musée à ciel ouvert. La nouvelle promenade de la corniche centrale en rassemble une partie, entre palmiers et bassins.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/jeddah-art-promenade",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tahir mq",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJeddah_Corniche_29.jpg",
+        "src": "img/activites/JED/sculptures.jpg"
+      }
+    },
+    {
+      "id": "rahma",
+      "nom": "Mosquée flottante Al-Rahma",
+      "emoji": "🕌",
+      "type": "vue",
+      "quartier": "Corniche nord (Ash-Shati)",
+      "lat": 21.6486,
+      "lng": 39.1009,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Esplanade et vue",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Au lever ou au coucher du soleil, en dehors des heures de prière",
+      "texte": "Posée sur pilotis au-dessus de la mer, cette mosquée blanche à coupole semble flotter à marée haute. C'est l'une des images les plus célèbres de Djeddah ; venez la voir au coucher du soleil, quand l'eau se teinte de rose.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/al-rahma-mosque",
+      "note": "Les visiteurs non musulmans peuvent l'admirer de l'extérieur ; évitez les heures de prière et portez une tenue couvrante (foulard pour les femmes si vous entrez).",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "xiquinhosilva",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJeddah_-_87654.jpg",
+        "src": "img/activites/JED/rahma.jpg"
+      }
+    },
+    {
+      "id": "yacht-club",
+      "nom": "Jeddah Yacht Club et sa marina",
+      "emoji": "⛵",
+      "type": "sortir",
+      "quartier": "Corniche nord (Ash-Shati)",
+      "lat": 21.6534,
+      "lng": 39.1019,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès à la marina et à la promenade",
+          "gratuit"
+        ],
+        [
+          "Restaurants et cafés",
+          "de ≈ 10 à 80 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le soir, pour dîner ou boire un verre sans alcool face aux yachts",
+      "texte": "La marina chic de Djeddah, au pied d'un bâtiment en forme de voile, au bord du circuit de Formule 1 : yachts, promenade en bois, restaurants à la mode et terrasses sur l'eau. L'endroit où sortir le soir, surtout le jeudi et le vendredi.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/jeddah-yacht-club",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kolaiel",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJeddah_Yacht_Club_3.jpg",
+        "src": "img/activites/JED/yacht-club.jpg"
+      }
+    },
+    {
+      "id": "recifs",
+      "nom": "Snorkeling et plongée en mer Rouge (île de Bayada)",
+      "emoji": "🐠",
+      "type": "nature",
+      "quartier": "Obhur (nord de la ville)",
+      "lat": 21.78,
+      "lng": 39.07,
+      "prix": 86,
+      "prix_detail": [
+        [
+          "Journée en bateau à l'île de Bayada (masque, palmes, guide, collation)",
+          "≈ 360 riyals ≈ 86 €"
+        ],
+        [
+          "Demi-journée de snorkeling",
+          "≈ 350 riyals ≈ 84 €"
+        ],
+        [
+          "Plongée avec bouteille (plongeurs brevetés)",
+          "≈ 464 riyals ≈ 111 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 86,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "au moins 24 h avant (pièce d'identité demandée par les garde-côtes)",
+      "duree": "5 à 7 h",
+      "moment": "Le matin (rendez-vous vers 9 h, 7 h le vendredi et le samedi) ; d'octobre à mai pour une mer calme",
+      "badges": [
+        "tendance"
+      ],
+      "texte": "À une heure de bateau d'Obhur, des récifs de corail parmi les mieux préservés de la mer Rouge, peuplés de poissons-perroquets, de raies et de tortues, puis une langue de sable blanc et une eau turquoise qu'on surnomme « les Maldives de Djeddah ». La sortie la plus partagée par les visiteurs.",
+      "site_officiel": "https://jeddah.platinumlist.net/event-tickets/bayada-daily-trips",
+      "note": "Prévoyez votre passeport pour l'embarquement. Le maillot de bain se porte sans problème sur le bateau et sur l'île.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Saudi Press Agency (SPA)",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%D8%B4%D8%B9%D8%A7%D8%A8_%D9%85%D8%B1%D8%AC%D8%A7%D9%86%D9%8A%D8%A9_%D8%A8%D9%83%D9%87%D9%88%D9%81_%22%D8%A3%D8%A8%D9%88_%D9%85%D8%AF%D8%A7%D9%81%D8%B9%22_%D8%B4%D9%85%D8%A7%D9%84_%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9_%D8%AC%D8%AF%D8%A9_%282025%29.jpg",
+        "src": "img/activites/JED/recifs.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "obhur",
+      "nom": "Plages et clubs de plage d'Obhur",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "Obhur (nord de la ville)",
+      "lat": 21.7156,
+      "lng": 39.0976,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plages publiques de la corniche",
+          "gratuit"
+        ],
+        [
+          "Journée dans un club de plage (transat, piscine)",
+          "dès ≈ 150 riyals ≈ 36 €"
+        ],
+        [
+          "Jet-ski, flyboard, « jet car »",
+          "à réserver sur place"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour les clubs de plage, le week-end",
+      "duree": "une demi-journée",
+      "moment": "D'octobre à avril, le matin ou en fin de journée",
+      "texte": "Au nord de la ville, la crique d'Obhur est le coin balnéaire de Djeddah : plages aménagées, clubs de plage avec piscines et transats, et une eau assez claire pour voir les coraux depuis les pontons. On y vient aussi pour les sports nautiques, du jet-ski au flyboard.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/stories/jeddah-beaches",
+      "note": "Sur les plages publiques, maillot couvrant et short pour les hommes ; le maillot de bain classique se porte dans les clubs de plage et les hôtels.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kolaiel",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASouth_Abhur_Waterfront_Jeddah_Saudi_Arabia_019.jpg",
+        "src": "img/activites/JED/obhur.jpg"
+      }
+    },
+    {
+      "id": "fakieh",
+      "nom": "Aquarium Fakieh",
+      "emoji": "🦈",
+      "type": "culture",
+      "quartier": "Corniche (Ash-Shati)",
+      "lat": 21.5722,
+      "lng": 39.1096,
+      "prix": 16.5,
+      "prix_detail": [
+        [
+          "Aquarium, 10 ans et plus",
+          "69 riyals ≈ 16,50 €"
+        ],
+        [
+          "2 à 9 ans",
+          "57 riyals ≈ 13,50 €"
+        ],
+        [
+          "Moins de 2 ans",
+          "gratuit"
+        ],
+        [
+          "Spectacle des dauphins",
+          "en plus, ≈ 75 à 85 riyals ≈ 18 à 20 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16.5,
+        "enfants": [
+          [
+            1,
+            0
+          ],
+          [
+            9,
+            13.5
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille sur fakiehaquarium.com (moins de file)",
+      "duree": "1 h 30",
+      "moment": "En semaine, aux heures chaudes de l'après-midi",
+      "texte": "Le grand aquarium de la corniche plonge dans la mer Rouge sans se mouiller : tunnel sous un bassin de requins et de raies, récifs de corail, méduses et poissons-clowns. Parfait avec des enfants, quand la chaleur tombe mal.",
+      "site_officiel": "https://fakiehaquarium.com/",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Radosław Botev",
+        "licence": "CC BY 3.0 pl",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFakieh_Aquarium_%284%29.jpg",
+        "src": "img/activites/JED/fakieh.jpg"
+      }
+    },
+    {
+      "id": "ittihad",
+      "nom": "Match de foot de l'Al-Ittihad",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Cité sportive du roi Abdallah (nord)",
+      "lat": 21.7635,
+      "lng": 39.1641,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Billets classiques",
+          "50 à 125 riyals ≈ 12 à 30 €"
+        ],
+        [
+          "Tribunes premium",
+          "300 à 700 riyals ≈ 72 à 167 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "dès l'ouverture de la vente, 10 à 14 jours avant (application WeBook)",
+      "duree": "3 h",
+      "moment": "Les soirs de match, d'août à mai",
+      "club": "Al-Ittihad",
+      "texte": "Le plus vieux club d'Arabie saoudite, champion 2025, joue dans « le Joyau », stade de 62 000 places aux sièges rouges et or. Chants, tambours et fumigènes jaunes et noirs : une ambiance survoltée, partagée avec l'autre club de la ville, l'Al-Ahli, qui y joue aussi.",
+      "site_officiel": "https://webook.com/",
+      "note": "Les places se vendent sur l'application officielle WeBook ; évitez les sites de revente aux prix gonflés.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "saudipics",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AJawhara_Stadium.jpg",
+        "src": "img/activites/JED/ittihad.jpg"
+      }
+    },
+    {
+      "id": "tayebat",
+      "nom": "Musée de la ville Al-Tayebat",
+      "emoji": "🏺",
+      "type": "culture",
+      "quartier": "Al-Faisaliyah (centre)",
+      "lat": 21.5809,
+      "lng": 39.1767,
+      "prix": 19,
+      "prix_detail": [
+        [
+          "Entrée",
+          "80 riyals ≈ 19 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 19,
+        "enfants": []
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "Le matin (souvent fermé le vendredi)",
+      "texte": "Un immense palais de style hedjazien, avec ses rawashin et ses cours, qui abrite des centaines d'objets : costumes, armes, manuscrits, maquettes de La Mecque et de Médine, salons reconstitués. Le plus complet pour comprendre l'histoire de l'Arabie, à défaut de pouvoir aller dans les villes saintes.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/attractions/tayebat-museum",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Saudi press Agency (SPA)",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATayebat_City_Museum%2C_Jeddah%2C_Saudi_Arabia_%282025%29.jpg",
+        "src": "img/activites/JED/tayebat.jpg"
+      }
+    },
+    {
+      "id": "taif",
+      "nom": "Excursion à Taïf, la ville des roses",
+      "emoji": "🌹",
+      "type": "nature",
+      "quartier": "Taïf (2 h 30 de route à l’est)",
+      "lat": 21.366,
+      "lng": 40.28,
+      "prix": 106,
+      "prix_detail": [
+        [
+          "Excursion d'une journée avec guide et déjeuner",
+          "dès ≈ 106 €"
+        ],
+        [
+          "En voiture de location",
+          "≈ 200 km par la route de contournement"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 106,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant (vérifiez que l'excursion ne passe pas par La Mecque)",
+      "duree": "une journée",
+      "moment": "De mars à mai pour la récolte des roses (avril surtout) ; toute l'année pour la fraîcheur",
+      "texte": "À 1 800 mètres d'altitude, Taïf est la station d'été des Saoudiens : on y monte par la route en lacets d'Al-Hada, entre falaises et babouins, pour respirer un air frais et visiter les champs de roses de Damas dont on tire une eau de rose et une huile parmi les plus chères du monde.",
+      "site_officiel": "https://www.visitsaudi.com/en/jeddah/stories/day-trip-from-jeddah",
+      "note": "La Mecque est interdite aux non-musulmans : la route normale la contourne par une déviation signalée.",
+      "enfants": true,
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Richard Mortel",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAl-Hada_sunset%2C_al-Taif%2C_Saudi_Arabia_%286%29.jpg",
+        "src": "img/activites/JED/taif.jpg"
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "albaik",
+      "nom": "Albaik",
+      "emoji": "🍗",
+      "gamme": "petit",
+      "genre": "Poulet frit",
+      "quartier": "Ar-Rawdah (centre)",
+      "adresse": "Nahdat At Talif, Ar-Rawdah, Djeddah",
+      "lat": 21.5536,
+      "lng": 39.1625,
+      "prix": "5 à 10 €",
+      "prix_min": 5,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Né à Djeddah en 1974, le poulet frit le plus aimé du royaume : croustillant, mariné à l'ail et aux épices, servi avec frites, petits pains et sauce à l'ail. Les Saoudiens en ramènent dans leurs valises ; on y fait la queue à toute heure, et ce n'est pas cher.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; la file avance vite",
+      "photo": {
+        "auteur": "Tahir mq",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAlBaik%2C_Corniche.jpg",
+        "src": "img/restos/JED/albaik.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "tamees-house",
+      "nom": "Tamees House",
+      "emoji": "🫓",
+      "gamme": "petit",
+      "genre": "Petit-déjeuner hedjazien",
+      "quartier": "Al-Khalidiyah (ouest)",
+      "adresse": "King Abdulaziz Service Rd, Al-Khalidiyah, Djeddah",
+      "lat": 21.5762,
+      "lng": 39.1273,
+      "prix": "8 à 15 €",
+      "prix_min": 8,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Guide Michelin 2026",
+      "texte": "Le tamees, pain plat sorti du four brûlant, se trempe dans des fèves (foul), du fromage ou du miel : le petit-déjeuner de Djeddah, servi ici toute la journée dans une salle claire. Le guide Michelin l'a retenu pour ses saveurs simples et ses petits prix.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; un peu d’attente le week-end matin",
+      "photo": {
+        "auteur": "Sajetpa at ml.wikipedia",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ATamees_%281%29.JPG",
+        "src": "img/restos/JED/tamees-house.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "tofareya",
+      "nom": "Tofareya",
+      "emoji": "🍲",
+      "gamme": "petit",
+      "genre": "Cuisine saoudienne traditionnelle",
+      "quartier": "Az-Zahra (centre-nord)",
+      "adresse": "Prince Sultan Rd, Az-Zahra, Djeddah",
+      "lat": 21.5964,
+      "lng": 39.1437,
+      "prix": "15 à 30 €",
+      "prix_min": 15,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026 : 13/20",
+      "texte": "Derrière une belle porte en bois, une salle colorée façon village et la cuisine des grands-mères saoudiennes : chaussons à la viande épicée, marqouq (ragoût de légumes et pain), riz kabli, et basboussa en dessert. Accueil avec dattes et café, comme à la maison.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas besoin, sauf en groupe le week-end",
+      "photo": {
+        "auteur": "Sayom",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AThe_Hijazi_Saleeg.jpg",
+        "src": "img/restos/JED/tofareya.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "century-burger",
+      "nom": "Century Burger",
+      "emoji": "🍔",
+      "gamme": "petit",
+      "genre": "Burgers",
+      "quartier": "Ar-Rawdah (centre)",
+      "adresse": "Prince Sultan Rd, Ar-Rawdah, Djeddah",
+      "lat": 21.555,
+      "lng": 39.1432,
+      "prix": "10 à 15 €",
+      "prix_min": 10,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Née sur la rue Prince-Sultan, l'adresse de burgers saoudienne qui a fait fondre Djeddah : bœuf Angus, sauce secrète et frites croustillantes, servis jusqu'à 4 h du matin. La rue des burgers où sortent les jeunes Djeddawis le soir.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Kamil",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASmashburger_with_fries.jpg",
+        "src": "img/restos/JED/century-burger.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "koshary-abu-tarek",
+      "nom": "Koshary Abu Tarek",
+      "emoji": "🥣",
+      "gamme": "petit",
+      "genre": "Koshary égyptien",
+      "quartier": "Ash-Sharafiyah (centre)",
+      "adresse": "Rue de Palestine, Ash-Sharafiyah, Djeddah",
+      "lat": 21.5313,
+      "lng": 39.19,
+      "prix": "4 à 8 €",
+      "prix_min": 4,
+      "texte": "La succursale de la célèbre maison du Caire, ouverte en 1950 : un seul plat, le koshary, riz, pâtes et lentilles nappés de sauce tomate à l'ail et d'oignons frits. Copieux, délicieux et presque donné, il rappelle que plus d'un million d'Égyptiens vivent en Arabie.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Dina Said",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AEgyptian_food_Koshary.jpg",
+        "src": "img/restos/JED/koshary-abu-tarek.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "forn-al-sheikh",
+      "nom": "Forn Al Sheikh",
+      "emoji": "🥖",
+      "gamme": "petit",
+      "genre": "Boulangerie traditionnelle",
+      "quartier": "Al-Balad",
+      "adresse": "Al Dhahab, Al-Balad, Djeddah",
+      "lat": 21.4875,
+      "lng": 39.1848,
+      "prix": "1 à 5 €",
+      "prix_min": 1,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le four à bois de la vieille ville, tenu par la même famille depuis trois générations, avec la recette de pâte d'origine : on vient chercher les pains chauds et les shaboura, petits pains ronds et sucrés, à grignoter en flânant dans Al-Balad.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; ouvert de 6 h à 23 h",
+      "photo": {
+        "auteur": "Ed McGaugh",
+        "licence": "GPL",
+        "page": "https://commons.wikimedia.org/wiki/File%3AKhubzBakery.jpg",
+        "src": "img/restos/JED/forn-al-sheikh.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "al-basali",
+      "nom": "Al Basali",
+      "emoji": "🦐",
+      "gamme": "moyen",
+      "genre": "Poissons et fruits de mer",
+      "quartier": "Al-Balad (souk Bab Makkah)",
+      "adresse": "Souk Bab Makkah, Al-Balad, Djeddah",
+      "lat": 21.4861,
+      "lng": 39.1903,
+      "prix": "35 à 60 €",
+      "prix_min": 35,
+      "badges": [
+        "institution",
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026",
+      "texte": "Au cœur des souks, l'adresse de poisson que tout Djeddah connaît : on choisit sa pièce sur l'étal, puis une armée de serveurs apporte salade, sauces et deux riz. Goûtez le tajine de crevettes et calamars et le poisson-perroquet (harid) grillé aux épices indiennes.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; arrivez avant 20 h le week-end",
+      "photo": {
+        "auteur": "Fatimahope",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AFried_Fish_and_Rice_Platter.JPG",
+        "src": "img/restos/JED/al-basali.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "amar",
+      "nom": "Amar",
+      "emoji": "🫒",
+      "gamme": "moyen",
+      "genre": "Libanais",
+      "quartier": "Al-Khalidiyah (ouest)",
+      "adresse": "Prince Mohammed bin Abdulaziz St (Tahlia), Al-Khalidiyah, Djeddah",
+      "lat": 21.5486,
+      "lng": 39.1384,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026",
+      "texte": "Une grande maison libanaise animée, toujours pleine : houmous beyrouthin, kebbé, makanek, msakhan palestinien et shish taouk tendre, servis avec beaucoup de gentillesse. Ne partez pas sans goûter le halawet el-jebn, roulé de semoule au fromage.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner du jeudi et du vendredi",
+      "photo": {
+        "auteur": "Tatakdh",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ANourriture_terreste_dans_un_restaurant_libanais%2C_quartie_des_Grottes_%C3%A0_Gen%C3%AAve_%28cropped%29.jpg",
+        "src": "img/restos/JED/amar.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "meez",
+      "nom": "Meez",
+      "emoji": "🍳",
+      "gamme": "moyen",
+      "genre": "Cuisine saoudienne et levantine",
+      "quartier": "As-Salamah (centre-nord)",
+      "adresse": "Sultan Street, As-Salamah, Djeddah",
+      "lat": 21.5902,
+      "lng": 39.1442,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Guide Michelin 2026 et Gault&Millau",
+      "texte": "Plafonds drapés, lampes tressées, objets d'artisanat : une salle chaleureuse pour partager les plats du Moyen-Orient revisités, fattouch croustillant, laham bel ajeen, msakhan au safran. Son immense carte de petit-déjeuner en fait l'adresse du brunch des familles.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le brunch du week-end",
+      "photo": {
+        "auteur": "El Mono Español",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALebanese_food_in_Barcelona%2C_Spain.jpg",
+        "src": "img/restos/JED/meez.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "lucky-llama",
+      "nom": "The Lucky Llama",
+      "emoji": "🦙",
+      "gamme": "moyen",
+      "genre": "Nikkei (Pérou-Japon)",
+      "quartier": "Al-Mohammadiyah (nord)",
+      "adresse": "Ibrahim Al-Anqari, Al-Mohammadiyah, Djeddah",
+      "lat": 21.6474,
+      "lng": 39.1161,
+      "prix": "45 à 65 €",
+      "prix_min": 45,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin 2026, Gault&Millau 13/20",
+      "texte": "La table de la cheffe saoudienne Nihal Felemban, qui marie Pérou et Japon : nigiri au wagyu, ceviches, saumon au miso, et des churros glace au miso pour finir. Le seul Bib Gourmand de Djeddah, dans une salle contemporaine très soignée.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant (ouvert le soir seulement, dès 18 h)",
+      "photo": {
+        "auteur": "Lou Stejskal",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AAt%C3%BAn_Picante_%28Nikkei%29-Spicy_tuna_%27uramaki%27%2C_cucumber%2C_avocado%2C_cilantro%2C_aj%C3%AD_limo%2C_puffed_quinoa.jpg",
+        "src": "img/restos/JED/lucky-llama.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "mimosa",
+      "nom": "Mimosa",
+      "emoji": "🐙",
+      "gamme": "moyen",
+      "genre": "Méditerranéen",
+      "quartier": "Al-Khalidiyah (ouest)",
+      "adresse": "The Cascade, Prince Mohammed bin Abdulaziz St, Djeddah",
+      "lat": 21.5485,
+      "lng": 39.1387,
+      "prix": "40 à 55 €",
+      "prix_min": 40,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026",
+      "texte": "Lumières tamisées et musique actuelle pour une cuisine méditerranéenne très graphique : tartare de thon au kimchi, saumon grillé, pierrade de bœuf et assiettes colorées faites pour la photo. L'adresse branchée de la galerie de restaurants de la rue Tahlia.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner du week-end",
+      "photo": {
+        "auteur": "Mihail Verbal",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3A%D0%9F%D0%B5%D1%87%D0%B5%D0%BD_%D0%BC%D0%B0%D0%BB_%D0%BE%D0%BA%D1%82%D0%BE%D0%BF%D0%BE%D0%B4%2C_%D1%81%D0%BE_%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%87%D1%83%D0%BA_%D0%B8_%D0%BE%D0%B2%D0%BE%D1%88%D1%98%D0%B5.jpg",
+        "src": "img/restos/JED/mimosa.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "noto",
+      "nom": "Noto",
+      "emoji": "🍝",
+      "gamme": "moyen",
+      "genre": "Italien",
+      "quartier": "Al-Khalidiyah (ouest)",
+      "adresse": "Prince Mohammed bin Abdulaziz St, Al-Khalidiyah, Djeddah",
+      "lat": 21.5485,
+      "lng": 39.1383,
+      "prix": "25 à 45 €",
+      "prix_min": 25,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026",
+      "texte": "Un décor d'Italie des années 1980, Vespa blanche, fresques et parasols rouges, et les grands classiques bien faits : burrata, tubetti à la truffe, spaghetti au pesto, daurade locale. Le déjeuner d'affaires est une bonne affaire.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille le week-end",
+      "photo": {
+        "auteur": "Bairuilong",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_aglio_e_olio_KB.jpg",
+        "src": "img/restos/JED/noto.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "lola",
+      "nom": "Lola Brasserie",
+      "emoji": "🥖",
+      "gamme": "haut",
+      "genre": "Brasserie française",
+      "quartier": "Al-Khalidiyah (ouest)",
+      "adresse": "7900 An Najm Ath Thaqib, Al-Khalidiyah, Djeddah",
+      "lat": 21.5639,
+      "lng": 39.1269,
+      "prix": "90 à 130 €",
+      "prix_min": 90,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026 : 15/20, la meilleure note de Djeddah",
+      "texte": "La table la mieux notée de la ville par Gault&Millau, menée par un chef français : soupe à l'oignon, sole meunière, steak au poivre, tarte à la tomate confite et mousse au chocolat, avec un service d'une rare élégance. Vins et bières sans alcool à découvrir.",
+      "reservation": "indispensable",
+      "reservation_delai": "une semaine avant pour le jeudi et le vendredi",
+      "photo": {
+        "auteur": "Jay Cross from Berkeley, California, US",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ASole_meuniere_%284689490702%29.jpg",
+        "src": "img/restos/JED/lola.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "shang-palace",
+      "nom": "Shang Palace",
+      "emoji": "🥟",
+      "gamme": "haut",
+      "genre": "Chinois",
+      "quartier": "Corniche nord (Shangri-La)",
+      "adresse": "Shangri-La, Corniche Road, Ash-Shati, Djeddah",
+      "lat": 21.6229,
+      "lng": 39.108,
+      "prix": "60 à 90 €",
+      "prix_min": 60,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026 : 14/20",
+      "texte": "Au 4e étage de la tour la plus illuminée de la corniche, le meilleur chinois de la ville : raviolis au vinaigre pimenté, mérou de la mer Rouge entier découpé à table, aubergine fondante, vermicelles au poivre du Sichuan. Grand hôtel, grand service, vue sur la mer.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant (fermé le dimanche)",
+      "photo": {
+        "auteur": "Mshuang2",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AThree_dim_sum_in_steamer_basket.jpg",
+        "src": "img/restos/JED/shang-palace.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kuuru",
+      "nom": "Kuuru",
+      "emoji": "🍣",
+      "gamme": "haut",
+      "genre": "Nikkei (Pérou-Japon)",
+      "quartier": "Al-Khalidiyah (ouest)",
+      "adresse": "Al Malik Road, Al-Khalidiyah, Djeddah",
+      "lat": 21.5649,
+      "lng": 39.1269,
+      "prix": "70 à 110 €",
+      "prix_min": 70,
+      "badges": [
+        "recompense",
+        "tendance"
+      ],
+      "recompense": "6e des « MENA's 50 Best Restaurants » 2026, Guide Michelin",
+      "texte": "Le restaurant d'Arabie saoudite le mieux classé du Moyen-Orient : un comptoir de bois autour de la cuisine, des chefs en tenue japonaise et des nigiri au foie gras et à la truffe, ribeye au chimichurri nikkei. La table la plus courue de Djeddah.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant, surtout le week-end",
+      "photo": {
+        "auteur": "Clara4110",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3APlato_nikkei.jpg",
+        "src": "img/restos/JED/kuuru.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "niyyali",
+      "nom": "Niyyali",
+      "emoji": "🌿",
+      "gamme": "haut",
+      "genre": "Libanais",
+      "quartier": "Corniche nord (Shangri-La)",
+      "adresse": "Shangri-La, Corniche Road, Ash-Shati, Djeddah",
+      "lat": 21.623,
+      "lng": 39.1082,
+      "prix": "55 à 80 €",
+      "prix_min": 55,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Guide Michelin 2026, Gault&Millau 12,5/20",
+      "texte": "Le grand libanais du Shangri-La, avec sa terrasse en surplomb entre piscines et mer Rouge : mezze chauds et froids, agneau confit 24 heures, brochettes de wagyu au houmous truffé. Le cadre rêvé pour un dîner face au coucher du soleil.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant pour une table en terrasse",
+      "photo": {
+        "auteur": "Vyacheslav Argenberg",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALebanon%2C_Baalbek%2C_Lebanese_Hummus.jpg",
+        "src": "img/restos/JED/niyyali.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rasoi",
+      "nom": "Rasoi by Vineet",
+      "emoji": "🍛",
+      "gamme": "haut",
+      "genre": "Indien",
+      "quartier": "Al-Andalus (centre)",
+      "adresse": "Mövenpick Hotel Tahlia, 8749 Hael, Al-Andalus, Djeddah",
+      "lat": 21.5479,
+      "lng": 39.1565,
+      "prix": "55 à 80 €",
+      "prix_min": 55,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Guide Michelin 2026, Gault&Millau 12,5/20",
+      "texte": "La table du chef Vineet Bhatia, premier chef indien étoilé au guide Michelin, à Londres en 2001 : tikki de pois chiches au tamarin, korma d'agneau à la noix de cajou et à la truffe, riz au safran, dans un décor raffiné de portes anciennes et de toiles peintes.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "photo": {
+        "auteur": "cyclonebill from Copenhagen, Denmark",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3ALamb_korma_%284321974929%29.jpg",
+        "src": "img/restos/JED/rasoi.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "alaaly",
+      "nom": "Alaaly Seafood",
+      "emoji": "🦞",
+      "gamme": "haut",
+      "genre": "Poissons et fruits de mer",
+      "quartier": "Ar-Rawdah (centre)",
+      "adresse": "2623 Abdul Maqsud Khojah, Ar-Rawdah, Djeddah",
+      "lat": 21.5724,
+      "lng": 39.1487,
+      "prix": "50 à 75 €",
+      "prix_min": 50,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Gault&Millau 2026 : 12,5/20",
+      "texte": "Une immense salle autour d'un étal de poissons de la mer Rouge, où les Djeddawis viennent en famille : soupe de crevettes, énormes moules, homard thermidor et poisson-perroquet grillé à la perfection, avec du pain chaud à volonté. Généreux et ultra-frais.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le week-end",
+      "photo": {
+        "auteur": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File%3AGrilled_Lobster_%288558909573%29.jpg",
+        "src": "img/restos/JED/alaaly.jpg",
+        "illustration": true
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "al-balad",
+      "nom": "Al-Balad (vieille ville)",
+      "lat": 21.4855,
+      "lng": 39.187,
+      "texte": "Pour dormir au cœur de l'histoire, dans quelques hôtels de charme installés dans des maisons anciennes. Très calme le matin, animé le soir ; loin de la mer et des plages."
+    },
+    {
+      "id": "corniche-nord",
+      "nom": "Corniche nord (Ash-Shati)",
+      "lat": 21.615,
+      "lng": 39.108,
+      "texte": "Les grands hôtels face à la mer, le front de mer, la mosquée flottante et la marina : le meilleur choix pour un premier séjour, avec des couchers de soleil depuis la chambre."
+    },
+    {
+      "id": "al-hamra",
+      "nom": "Corniche centrale (Al-Hamra)",
+      "lat": 21.525,
+      "lng": 39.155,
+      "texte": "Entre la vieille ville (15 minutes) et le nord, près de la fontaine du roi Fahd et des sculptures : un bon compromis, souvent moins cher que la corniche nord."
+    },
+    {
+      "id": "tahlia",
+      "nom": "Tahlia et Al-Andalus (centre)",
+      "lat": 21.549,
+      "lng": 39.145,
+      "texte": "Le quartier des restaurants, cafés et boutiques de luxe autour de la rue Tahlia : idéal pour sortir le soir, à 15-20 minutes de taxi d'Al-Balad comme de la corniche."
+    },
+    {
+      "id": "obhur",
+      "nom": "Obhur (plages du nord)",
+      "lat": 21.73,
+      "lng": 39.1,
+      "texte": "Les complexes balnéaires avec plage privée, pour un séjour farniente et les sorties en bateau ; à 30-40 minutes du centre et de la vieille ville."
+    }
+  ]
+}

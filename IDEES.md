@@ -284,6 +284,22 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (08/11/2026) **Page guide de Djeddah** (`guides/JED.json`, `transport` = « un taxi (Uber ou Careem) », pas de métro), préparée en
+  autonomie : 19 activités (Al-Balad Unesco, maisons Nassif, Al-Matbouli et Baeshen (gratuites d'après Visit Saudi), musée de la mer
+  Rouge à Bab Al-Bunt (ouvert en déc. 2025, gratuit, fermé le lundi), teamLab Borderless (150 riyals, 115 de 13 à 17 ans, 50 de 4 à 12 ans,
+  fermé le lundi), souks Al-Alawi et Bab Makkah, marché aux poissons, fontaine du roi Fahd, corniche et Waterfront, sculptures de la
+  corniche, mosquée flottante Al-Rahma, Yacht Club, île de Bayada en bateau (≈ 360 riyals, Platinumlist), plages et clubs d'Obhur (dès
+  150 riyals), aquarium Fakieh (69/57 riyals), match de l'Al-Ittihad (50-125 riyals, WeBook ; champ `club` mais pas de `matchs/JED.json` :
+  l'Arabie saoudite n'est pas dans le script des matchs), musée Al-Tayebat (80 riyals), excursion à Taïf (dès ≈ 106 €)), 18 restaurants
+  (note pondérée, C = 4,29, ~550 restaurants lus via 66 listes Wanderlog + Google Maps en affichage limité ; **Michelin 2026** (nouveau
+  guide saoudien) : Bib Gourmand The Lucky Llama, sélection Kuuru, Niyyali, Rasoi by Vineet, Meez, Tamees House ; **Gault&Millau 2026**
+  (sa.gaultmillau.com, prix des cartes lisibles) : Lola Brasserie 15/20, Shang Palace 14, Tofareya 13 ; MENA's 50 Best 2026 : Kuuru 6e),
+  5 quartiers. Formalités : visa électronique 395 riyals assurance comprise (visitsaudi.com, page « visa-regulations », pays = France),
+  passeport valable 6 mois après le séjour. Taux : 1 € = 4,19 riyals (BCE en dollars × 3,75). `prix_match` 15 €. **Sans Apify**
+  (destination peu couverte en Europe ; crédit du mois épuisé de toute façon) : badges tendance d'après le web. Écartés : Samia's Dish
+  (Bib Gourmand, fermé définitivement) et Yaza (fermé temporairement), Karamna (3,9), Alieia (3,7), centre d’art Hayy Jameel (pas de photo libre),
+  Maison des arts islamiques (prix incertain). 21 photos d'illustration (plats), dont teamLab (photo de Tokyo).
+
 - ✅ (07/11/2026) **Page guide de Cracovie** (`guides/KRK.json`), préparée en autonomie : 26 activités (Grand-Place et Halle aux
   draps, basilique Notre-Dame (20 zł ; tour d'avril à octobre seulement), salles d'apparat du Wawel (57 zł), cathédrale du Wawel (26 zł),
   musée souterrain du Rynek (45 zł), musée Czartoryski et la Dame à l'hermine (65 zł, gratuit le mardi), Collegium Maius (visite guidée

@@ -155,3 +155,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   muzeumkrakowa.pl (`textContent`, onglets cachés), wieliczka-saltmine.com (cliquer « Tourist route »), maius.uj.edu.pl/zwiedzanie,
   kopieckosciuszki.pl/cennik-2, mocak.pl/bilety ; Auschwitz : PDF `auschwitz.org/gfx/auschwitz/userfiles/_public/visit/62_en.pdf`.
   Commons : recherche HTML (`ns6=1`) + `thumb.php`, « 429 » masqués (0 résultat) au bout de ~30 recherches : attendre quelques minutes.
+- Djeddah (nov. 2026) : Wanderlog géo 85959 (départ `geoCategory/30897`), 66 listes « …-jeddah », ~550 restaurants ; attention, mon
+  analyseur a recopié des notes d'un lieu voisin (même nombre d'avis 16 234 pour plusieurs lieux) : revérifier sur Google Maps en
+  affichage limité (mot générique + nom, ex. « Tamees restaurants »). Sources de prix : `sa.gaultmillau.com/en/restaurants?city=jeddah&page=N`
+  (Playwright, cartes avec prix), Michelin `guide.michelin.com/sa/en/mecca-province/jeddah_2555048/restaurants`, fiches Visit Saudi
+  (`visitsaudi.com/sitemap.xml`, prix d'entrée en clair). L'API Commons répondait 429 : recherche HTML (`ns6=1`) + `thumb.php`.
+
