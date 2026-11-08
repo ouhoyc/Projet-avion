@@ -1,0 +1,1511 @@
+{
+ "city_code": "DBV",
+ "ville": "Dubrovnik",
+ "transport": "le bus",
+ "statut": "préparé en autonomie, prix relevés le 08/11/2026",
+ "verifie_le": "2026-11-08",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 130,
+ "activites": [
+  {
+   "id": "remparts",
+   "nom": "Le tour des remparts",
+   "emoji": "🏰",
+   "type": "vue",
+   "quartier": "Vieille ville (entrée porte Pile ou Ploče)",
+   "lat": 42.64171,
+   "lng": 18.10726,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Adulte (remparts + forteresse Lovrijenac)",
+     "40 €"
+    ],
+    [
+     "Enfant 7 à 18 ans",
+     "15 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Dubrovnik Pass 1 jour (remparts, musées et bus)",
+     "40 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      18,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille ou au guichet ; en été, partez à l'ouverture (8 h) pour éviter la foule et la chaleur",
+   "duree": "2 h",
+   "moment": "Tôt le matin ou en fin d'après-midi ; le tour se fait dans un seul sens, sans ombre : prenez de l'eau",
+   "texte": "Près de deux kilomètres de chemin de ronde suspendus au-dessus des toits orange et de la mer : c'est la promenade qui a fait la réputation de Dubrovnik. On longe les tours, on plonge dans les jardins cachés et les ruelles, puis la tour Minčeta offre la vue la plus large sur toute la vieille ville.",
+   "site_officiel": "https://citywallsdubrovnik.hr/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Même prix que le Dubrovnik Pass 1 jour (40 €), qui ajoute le palais du Recteur, une dizaine de musées et le bus pendant 24 h : prenez plutôt le Pass. Le billet donne aussi accès à la forteresse Lovrijenac.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_Dubrovnik_from_atop_the_city_walls_%2818%29_%2830173746835%29.jpg",
+    "src": "img/activites/DBV/remparts.jpg"
+   }
+  },
+  {
+   "id": "stradun",
+   "nom": "Stradun, la grand-rue de marbre",
+   "emoji": "✨",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 42.64136,
+   "lng": 18.10897,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Rue, places, églises et palais Sponza (cour)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le soir, quand les bateaux de croisière sont partis et que le marbre brille sous les lampadaires",
+   "texte": "Trois cents mètres de dalles polies comme un miroir, de la porte Pile à la tour de l'Horloge. Au passage : la grande fontaine d'Onofrio, l'église Saint-Blaise, patron de la ville, le palais Sponza et la colonne d'Orlando. Puis perdez-vous dans les ruelles en escalier qui grimpent de chaque côté.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "note": "Pour l'histoire de la république de Raguse, des guides locaux (Dubrovnik Walks) proposent une visite de 1 h 30 en anglais : 20 €, 10 € de 7 à 11 ans, gratuit avant 7 ans.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlong_Stradun%2C_Dubrovnik_%2812%29_%2829415833924%29.jpg",
+    "src": "img/activites/DBV/stradun.jpg"
+   }
+  },
+  {
+   "id": "lovrjenac",
+   "nom": "Forteresse Lovrijenac",
+   "emoji": "🛡️",
+   "type": "vue",
+   "quartier": "Pile (à l'ouest des remparts)",
+   "lat": 42.64065,
+   "lng": 18.10393,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée seule (à partir de 7 ans)",
+     "15 €"
+    ],
+    [
+     "Avec le billet des remparts ou le Dubrovnik Pass",
+     "compris"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      6,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Au coucher du soleil : la lumière dore les remparts en face",
+   "texte": "Perchée sur un rocher de 37 mètres face à la vieille ville, la « Gibraltar de Dubrovnik » porte au-dessus de sa porte la devise de la république : « La liberté ne se vend pas pour tout l'or du monde ». Du haut de ses terrasses, la vue sur les remparts est la plus belle de la ville, et l'on y a tourné bien des scènes de Game of Thrones.",
+   "site_officiel": "https://citywallsdubrovnik.hr/lovrjenac-fortress/?lang=en",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Gardez votre billet des remparts : il donne l'entrée de Lovrijenac (une fois). L'été, on y joue Hamlet pendant le festival.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pufacz",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFort_Lovrijenac%2CDubrovnik%2CCroatia.jpg",
+    "src": "img/activites/DBV/lovrjenac.jpg"
+   }
+  },
+  {
+   "id": "telepherique",
+   "nom": "Téléphérique du mont Srđ",
+   "emoji": "🚡",
+   "type": "vue",
+   "quartier": "Ploče (départ au-dessus de la vieille ville)",
+   "lat": 42.64306,
+   "lng": 18.11167,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Aller-retour adulte",
+     "30 €"
+    ],
+    [
+     "Aller simple adulte",
+     "17 €"
+    ],
+    [
+     "Enfant 4 à 12 ans (aller-retour)",
+     "8 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à la gare du bas (caisse ou automate) ; l'attente peut dépasser 30 min au coucher du soleil en été",
+   "duree": "1 h 30",
+   "moment": "Une heure avant le coucher du soleil, d'avril à novembre (fermé de décembre à mars)",
+   "texte": "En quatre minutes, la cabine vous hisse à 405 mètres au-dessus de la mer : à vos pieds, la vieille ville entière dans ses remparts, l'île de Lokrum et, par temps clair, les îles jusqu'à 60 km. Au sommet, le fort Impérial abrite un musée sur le siège de la ville en 1991-1992.",
+   "site_officiel": "https://www.dubrovnikcablecar.com/timetable-and-prices",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Fermé de décembre à mars et quand le vent souffle fort. Les marcheurs montent par un sentier en lacets (environ 1 h, sans ombre) et redescendent en cabine.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "AleGranholm",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACable_car_in_Dubrovnik.jpg",
+    "src": "img/activites/DBV/telepherique.jpg"
+   }
+  },
+  {
+   "id": "lokrum",
+   "nom": "Île de Lokrum",
+   "emoji": "🦚",
+   "type": "nature",
+   "quartier": "En face de la vieille ville (15 min de bateau)",
+   "lat": 42.62611,
+   "lng": 18.12139,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Adulte (bateau aller-retour + entrée de la réserve)",
+     "30 €"
+    ],
+    [
+     "Enfant 7 à 18 ans",
+     "5 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      18,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet du vieux port (Luža), départ toutes les heures en hiver, toutes les 30 min en été",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, avec le maillot de bain ; dernier bateau du retour à 16 h en hiver, plus tard en été",
+   "texte": "Une île-réserve sans voiture ni habitant, à un quart d'heure de bateau des remparts : des pins, des paons en liberté, un ancien monastère bénédictin, un jardin botanique et la « mer Morte », un petit lac salé où l'on se baigne à l'abri des vagues. La réplique du Trône de fer de Game of Thrones y attend votre photo.",
+   "site_officiel": "https://www.lokrum.hr/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Interdit d'y passer la nuit et de fumer. Les plages sont des rochers : prenez des chaussures d'eau.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Shakkimatti",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALokrum_Island_Croatia.jpg",
+    "src": "img/activites/DBV/lokrum.jpg"
+   }
+  },
+  {
+   "id": "palais-recteur",
+   "nom": "Palais du Recteur",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 42.64034,
+   "lng": 18.11064,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte",
+     "15 €"
+    ],
+    [
+     "Élèves et étudiants",
+     "8 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Billet 10 musées (7 jours)",
+     "20 €"
+    ],
+    [
+     "Billet famille (2 adultes + enfants jusqu'à 14 ans)",
+     "35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      18,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En milieu de journée, quand il fait trop chaud dehors",
+   "texte": "Le cœur du pouvoir de la république de Raguse : le recteur, élu pour un mois seulement, n'avait pas le droit d'en sortir pendant son mandat. Derrière la façade à arcades, une cour à l'escalier baroque où l'on donne des concerts l'été, la salle du conseil, la prison et les salons meublés comme au XVIIIe siècle.",
+   "site_officiel": "https://www.dumus.hr/en/entrance-tickets/",
+   "enfants": true,
+   "note": "Paiement par carte seulement. Compris dans le Dubrovnik Pass (40 € la journée, avec les remparts) : ne prenez pas les deux.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Neoneo13",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARector%27s_Palace%2C_Dubrovnik%2C_Croatia.jpg",
+    "src": "img/activites/DBV/palais-recteur.jpg"
+   }
+  },
+  {
+   "id": "franciscains",
+   "nom": "Monastère franciscain et sa vieille pharmacie",
+   "emoji": "🌿",
+   "type": "culture",
+   "quartier": "Vieille ville (près de la porte Pile)",
+   "lat": 42.64176,
+   "lng": 18.10778,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Musée, cloître et pharmacie (adulte)",
+     "≈ 10 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Église",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      6,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Le matin, avant de monter sur les remparts tout à côté",
+   "texte": "Un cloître roman du XIVe siècle, ses colonnes doubles toutes différentes et son jardin d'orangers : le coin le plus paisible de la vieille ville. On y voit une des plus vieilles pharmacies d'Europe encore ouvertes, fondée en 1317, qui vend toujours ses crèmes à la rose préparées d'après les recettes des moines.",
+   "site_officiel": "https://experiencedubrovnik.com/en/dubrovnik/muzeji-i-galerije/muzej-franjevackog-samostana",
+   "enfants": true,
+   "note": "Compris dans le Dubrovnik Pass. Les crèmes de la pharmacie s'achètent au comptoir sans billet.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFranciscan_Monastery%2C_Dubrovnik%2C_14th_century_cloister_%287%29_%2830056259016%29.jpg",
+    "src": "img/activites/DBV/franciscains.jpg"
+   }
+  },
+  {
+   "id": "red-history",
+   "nom": "Musée de l'histoire rouge",
+   "emoji": "☭",
+   "type": "culture",
+   "quartier": "Gruž",
+   "lat": 42.65904,
+   "lng": 18.08687,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "Élèves",
+     "4 €"
+    ],
+    [
+     "Étudiants et plus de 65 ans",
+     "8 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      18,
+      4
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Toute l'année ; en hiver de 11 h à 17 h, fermé le dimanche",
+   "texte": "Un musée ludique et plein d'humour sur la Yougoslavie de Tito, installé dans une ancienne usine du port de Gruž : on ouvre les tiroirs d'un appartement socialiste reconstitué, on s'assoit dans le bureau d'un cadre du parti et on découvre la vie quotidienne derrière l'image de la carte postale.",
+   "site_officiel": "https://redhistorymuseum.com/en/visitor-info/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zblace",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASVIJET_OKO_NAS_enciklopedija_eksponat.jpg",
+    "src": "img/activites/DBV/red-history.jpg"
+   }
+  },
+  {
+   "id": "game-of-thrones",
+   "nom": "Sur les traces de Game of Thrones",
+   "emoji": "🐉",
+   "type": "balade",
+   "quartier": "Vieille ville et Lovrijenac (départ porte Pile)",
+   "lat": 42.64171,
+   "lng": 18.1072,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Visite guidée de 2 h (adulte)",
+     "25 €"
+    ],
+    [
+     "Enfant 7 à 11 ans",
+     "10 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Entrée de Lovrijenac (sauf billet des remparts)",
+     "15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      11,
+      10
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne ; réservation obligatoire en avril et en octobre",
+   "duree": "2 h",
+   "moment": "D'avril à octobre ; plusieurs départs par jour en été",
+   "texte": "Dubrovnik a joué Port-Réal pendant cinq saisons. Un guide fan de la série vous montre l'escalier des Jésuites de la « marche de la honte » de Cersei, la baie de la Néra, le jardin des Lannister et Lovrijenac, devenu le Donjon Rouge, avec les photos du tournage pour comparer.",
+   "site_officiel": "https://dubrovnikwalks.com/our-tours/game-of-thrones/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "L'entrée de Lovrijenac n'est pas comprise : passez-y avec votre billet des remparts (valable 72 h) ou le Dubrovnik Pass.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "donald judge",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A29.12.16_Dubrovnik_Old_City_Walls_029_%2831843733531%29.jpg",
+    "src": "img/activites/DBV/game-of-thrones.jpg"
+   }
+  },
+  {
+   "id": "kayak",
+   "nom": "Kayak au pied des remparts",
+   "emoji": "🛶",
+   "type": "nature",
+   "quartier": "Départ de la crique de Pile",
+   "lat": 42.64135,
+   "lng": 18.1063,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Sortie guidée de 2 h (kayak, masque, eau)",
+     "35 €"
+    ],
+    [
+     "Départ de 7 h 45",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, jusqu'à une heure avant ; annulation gratuite jusqu'à 24 h avant",
+   "duree": "2 h",
+   "moment": "Tôt le matin ou au coucher du soleil, de mai à octobre, quand la mer est calme",
+   "texte": "Les remparts vus d'en bas, depuis l'eau turquoise : on pagaie le long des falaises jusqu'à Lokrum, puis on s'arrête dans la grotte de Betina, une petite plage qu'on ne rejoint que par la mer, pour nager avec masque et tuba avant de revenir le long de la vieille ville.",
+   "site_officiel": "https://dubrovnikwalks.com/our-tours/sea-kayaking/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "À partir de 8 ans (un enfant de 5 à 7 ans peut s'asseoir entre ses parents). Il faut savoir nager. Sortie annulée par mauvais temps, avec remboursement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Senior Airman Sarah Gregory",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKayaking_in_Dubrovnik.jpg",
+    "src": "img/activites/DBV/kayak.jpg"
+   }
+  },
+  {
+   "id": "banje",
+   "nom": "Plage de Banje",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Ploče (5 min à pied de la vieille ville)",
+   "lat": 42.64169,
+   "lng": 18.11727,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol au club de plage",
+     "payant, en été"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "De juin à septembre ; tôt le matin pour avoir de la place",
+   "texte": "La plage de galets la plus photographiée de Croatie : on nage dans une eau claire avec, juste en face, les remparts de la vieille ville et l'île de Lokrum. La partie publique est gratuite ; à côté, un club de plage loue transats et parasols.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Martin Falbisoner (1978–)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APanoramic_view_of_the_old_city_of_Dubrovnik_-_September_2017.jpg",
+    "src": "img/activites/DBV/banje.jpg"
+   }
+  },
+  {
+   "id": "sveti-jakov",
+   "nom": "Plage de Sveti Jakov",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Viktorija (2,5 km à l'est de la vieille ville)",
+   "lat": 42.6353,
+   "lng": 18.13086,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Bus 5 ou 8 jusqu'à Viktorija",
+     "2,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi, puis le coucher du soleil derrière les remparts",
+   "texte": "Une crique au pied d'une falaise, qu'on rejoint par un long escalier sous les pins : moins de monde qu'à Banje, une eau limpide et, au loin, la silhouette de la vieille ville. Le soir, le soleil se couche juste derrière les remparts.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Environ 160 marches pour descendre (et remonter). Petit bar de plage en été.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "dronepicr",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASveti_Jakov_Beach_in_Dubrovnik%2C_Croatia_%2848613044091%29.jpg",
+    "src": "img/activites/DBV/sveti-jakov.jpg"
+   }
+  },
+  {
+   "id": "buza",
+   "nom": "Bains de mer au pied des remparts (Buža)",
+   "emoji": "🍹",
+   "type": "sortir",
+   "quartier": "Vieille ville (côté mer, par une porte dans le mur)",
+   "lat": 42.63905,
+   "lng": 18.10871,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès aux rochers",
+     "gratuit"
+    ],
+    [
+     "Une boisson au bar",
+     "≈ 7 à 12 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Au coucher du soleil, d'avril à octobre (fermé l'hiver et par gros temps)",
+   "texte": "Un trou dans le rempart, une pancarte « Cold drinks » et vous voilà sur des rochers accrochés à la falaise, face au grand large. On y boit un verre les pieds au-dessus de l'eau, on plonge dans une mer d'un bleu profond, et l'on regarde le soleil tomber derrière l'île de Lokrum.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": false,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Il y a deux bars Buža : le grand (Buža Bar) et le plus petit, plus à l'ouest (« Mala Buža »). Pas de réservation : arrivez tôt pour le coucher du soleil.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alex Proimos from Sydney, Australia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWalls_of_Dubrovnik_Bar_%285967296829%29.jpg",
+    "src": "img/activites/DBV/buza.jpg"
+   }
+  },
+  {
+   "id": "vieux-port",
+   "nom": "Vieux port et jetée de Porporela",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Vieille ville (porte Ploče)",
+   "lat": 42.63982,
+   "lng": 18.11328,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Tôt le matin, pour le lever du soleil sur les remparts et les bateaux de pêche",
+   "texte": "Le petit port fortifié d'où partent les bateaux pour Lokrum et Cavtat, gardé par la tour Saint-Jean. Au bout, la jetée de Porporela s'avance dans la mer : les habitants y font leur jogging et s'y baignent, avec les remparts et le port dans le dos.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "dronepicr",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorporela_lighthouse_and_breakwater_in_Dubrovnik%2C_Croatia_%2848613207432%29.jpg",
+    "src": "img/activites/DBV/vieux-port.jpg"
+   }
+  },
+  {
+   "id": "lapad",
+   "nom": "Promenade de Lapad et coucher de soleil",
+   "emoji": "🌅",
+   "type": "balade",
+   "quartier": "Lapad",
+   "lat": 42.6549,
+   "lng": 18.07005,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade et plage",
+     "gratuit"
+    ],
+    [
+     "Bus 6 depuis la vieille ville",
+     "2,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de journée, pour le coucher du soleil sur la mer",
+   "texte": "Loin de la foule, la presqu'île de Lapad est le quartier où vivent et se baignent les Dubrovnikois : une rue piétonne bordée de cafés descend vers la baie et sa plage de galets, puis un sentier côtier longe les pins et les rochers jusqu'au cap, face au coucher du soleil.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bracodbk",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUvala_Lapad.JPG",
+    "src": "img/activites/DBV/lapad.jpg"
+   }
+  },
+  {
+   "id": "elaphites",
+   "nom": "Croisière aux îles Élaphites",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Départ du port de Gruž ou de la vieille ville",
+   "lat": 42.68222,
+   "lng": 17.94417,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Croisière d'une journée (3 îles, déjeuner et boissons)",
+     "≈ 40 à 60 €"
+    ],
+    [
+     "Enfants",
+     "souvent moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      25
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, auprès d'une agence ou sur le port",
+   "duree": "8 h",
+   "moment": "D'avril à octobre, par beau temps",
+   "texte": "Une journée en bateau de bois entre trois îles sans voiture : Koločep et ses criques, Lopud et sa grande plage de sable de Šunj, rare sur cette côte, puis Šipan et ses oliveraies. Déjeuner de poisson grillé à bord, baignades et retour au coucher du soleil.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "note": "Prix variable selon l'agence : vérifiez que le déjeuner et les boissons sont compris. On peut aussi y aller seul, moins cher, avec le ferry régulier Jadrolinija depuis Gruž.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jocelyn Erskine-Kellie from London, UK",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALopud_Island_%2844399696484%29.jpg",
+    "src": "img/activites/DBV/elaphites.jpg"
+   }
+  },
+  {
+   "id": "cavtat",
+   "nom": "Cavtat, le petit port voisin",
+   "emoji": "⛪",
+   "type": "nature",
+   "quartier": "Cavtat (20 km au sud-est)",
+   "lat": 42.5806,
+   "lng": 18.2186,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Bus 10 aller-retour",
+     "8 €"
+    ],
+    [
+     "Bateau depuis le vieux port (aller simple, d'avril à octobre)",
+     "dès 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi ; prenez le bateau à l'aller pour arriver par la mer",
+   "texte": "Une petite ville de pêcheurs sur une presqu'île boisée, avec sa promenade de palmiers, ses bateaux colorés et ses baignades depuis les rochers. On y vient en bateau le long de la côte, pour la maison du peintre Vlaho Bukovac, le mausolée de la famille Račić et un dîner sur le port, au calme.",
+   "site_officiel": "https://www.libertasdubrovnik.hr/en/price-list",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso (1974–)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACavtat%2C_Croacia%2C_2014-04-19%2C_DD_11.JPG",
+    "src": "img/activites/DBV/cavtat.jpg"
+   }
+  },
+  {
+   "id": "ston",
+   "nom": "Ston, sa grande muraille et ses huîtres",
+   "emoji": "🦪",
+   "type": "nature",
+   "quartier": "Ston (55 km au nord-ouest)",
+   "lat": 42.83891,
+   "lng": 17.69751,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Bus aller-retour",
+     "12,80 €"
+    ],
+    [
+     "Murailles de Ston (adulte)",
+     "5 €"
+    ],
+    [
+     "Murailles, enfant 7 à 18 ans",
+     "2 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      6,
+      13
+     ],
+     [
+      18,
+      15
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "Une journée",
+   "moment": "Un jour sans grosse chaleur ; huîtres de Ston surtout de février à mai",
+   "texte": "La « muraille de Chine de l'Europe » : 5,5 km de remparts qui escaladent la colline pour protéger les salines de la république de Raguse, encore exploitées. On en parcourt le chemin de ronde entre Ston et Mali Ston, puis on goûte les huîtres plates élevées dans la baie, réputées dans toute la Croatie.",
+   "site_officiel": "https://citywallsdubrovnik.hr/walls-of-ston/?lang=en",
+   "enfants": true,
+   "note": "Bus de la compagnie Libertas depuis la gare routière de Gruž (1 h 15). Une voiture de location permet d'ajouter la presqu'île de Pelješac et ses vignobles.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACroatia-02138_-_Walls_of_Ston_%2810091668384%29.jpg",
+    "src": "img/activites/DBV/ston.jpg"
+   }
+  },
+  {
+   "id": "trsteno",
+   "nom": "Arboretum de Trsteno",
+   "emoji": "🌳",
+   "type": "nature",
+   "quartier": "Trsteno (20 km au nord-ouest)",
+   "lat": 42.7117,
+   "lng": 17.9764,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Entrée (adulte)",
+     "8 €"
+    ],
+    [
+     "Bateau Lacroma Dubrovnik - Trsteno - Lokrum (avec l'entrée de Lokrum)",
+     "42 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin, au printemps ou en automne",
+   "texte": "Le plus vieux jardin Renaissance de Croatie, planté au XVe siècle par une famille noble de Raguse au-dessus de la mer : allées de palmiers, pergola, fontaine de Neptune et platanes géants. Dans Game of Thrones, c'est le jardin du Donjon Rouge où complotent les Tyrell.",
+   "site_officiel": "https://www.lokrum.hr/",
+   "enfants": true,
+   "note": "Accès en bus vers Split (arrêt Trsteno) ou avec le bateau Lacroma, qui combine Trsteno et l'île de Lokrum dans la journée.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Fridolin freudenfett",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATrsteno_Arboretum_fountain.jpg",
+    "src": "img/activites/DBV/trsteno.jpg"
+   }
+  },
+  {
+   "id": "kotor",
+   "nom": "Escapade aux bouches de Kotor (Monténégro)",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Kotor (Monténégro, 2 h de route)",
+   "lat": 42.4247,
+   "lng": 18.7712,
+   "prix": 80,
+   "prix_detail": [
+    [
+     "Excursion d'une journée en petit groupe (Kotor et Perast)",
+     "≈ 75 à 100 €"
+    ],
+    [
+     "Bateau vers Notre-Dame-du-Rocher à Perast",
+     "≈ 5 à 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 80,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été",
+   "duree": "Une journée (10 à 11 h)",
+   "moment": "Hors juillet-août si possible : l'attente à la frontière peut dépasser deux heures",
+   "texte": "Le fjord de la Méditerranée : des montagnes qui tombent à pic dans une baie profonde, le village baroque de Perast et son îlot-chapelle, puis la vieille ville de Kotor, ses chats et ses remparts qui grimpent jusqu'à la forteresse Saint-Jean, d'où la vue sur la baie est vertigineuse.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "note": "Le Monténégro est hors Union européenne : prenez votre carte d'identité en cours de validité (suffit pour moins de 30 jours) ou votre passeport.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pudelek (Marcin Szala)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKotor_and_Boka_kotorska_-_view_from_city_wall.jpg",
+    "src": "img/activites/DBV/kotor.jpg"
+   }
+  },
+  {
+   "id": "mostar",
+   "nom": "Excursion à Mostar (Bosnie-Herzégovine)",
+   "emoji": "🌉",
+   "type": "nature",
+   "quartier": "Mostar (Bosnie-Herzégovine, 2 h 30 de route)",
+   "lat": 43.3373,
+   "lng": 17.815,
+   "prix": 70,
+   "prix_detail": [
+    [
+     "Excursion d'une journée en groupe",
+     "≈ 50 à 100 €"
+    ],
+    [
+     "Chutes de Kravica (si l'excursion s'y arrête)",
+     "≈ 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 70,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été",
+   "duree": "Une journée (11 à 12 h)",
+   "moment": "Au printemps ou en automne, quand il fait moins chaud",
+   "texte": "Le Vieux Pont de Mostar, arche de pierre blanche au-dessus de la Neretva vert émeraude, détruit pendant la guerre puis rebâti pierre par pierre : les plongeurs sautent de ses 21 mètres pour les visiteurs. Autour, un vieux bazar ottoman, des mosquées et le café bosniaque, souvent avec un arrêt baignade aux chutes de Kravica.",
+   "site_officiel": "https://experiencedubrovnik.com/en/",
+   "enfants": true,
+   "note": "Hors Union européenne : la carte d'identité en cours de validité suffit (pas une carte dont la validité a été « prolongée de 5 ans ») ; sinon, le passeport.",
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Berthold Werner",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMostar_Stari_Most_BW_2024-10-01_12-58-38.jpg",
+    "src": "img/activites/DBV/mostar.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "barba",
+   "nom": "Barba",
+   "emoji": "🐙",
+   "gamme": "petit",
+   "genre": "Street food de la mer",
+   "quartier": "Vieille ville",
+   "adresse": "Boškovićeva ul. 5, 20000 Dubrovnik",
+   "lat": 42.641469,
+   "lng": 18.109924,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un minuscule comptoir de ruelle devenu célèbre pour son burger au poulpe, son cornet de calamars frits et ses sandwichs aux anchois marinés. Quelques tabourets, des plats de poissonnier servis comme du fast-food : le meilleur repas pas cher de la vieille ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : petite file d'attente aux heures des repas, à emporter possible",
+   "photo": {
+    "auteur": "Roberta F.",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHobotnica_na_salatu_0909.jpg",
+    "src": "img/restos/DBV/barba.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "taj-mahal",
+   "nom": "Taj Mahal",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Cuisine bosniaque",
+   "quartier": "Vieille ville",
+   "adresse": "Ul. Nikole Gučetića 2, 20000 Dubrovnik",
+   "lat": 42.640438,
+   "lng": 18.108831,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Rien d'indien ici : on vient goûter la Bosnie voisine, dans une petite salle de pierre. Ćevapi au kajmak (crème fraîche épaisse), burek feuilleté, soupe du bey et viandes de leur propre boucherie : copieux, savoureux et distingué par le Michelin pour son rapport qualité-prix.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne pour le dîner en été ; à midi, souvent sans réserver",
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubrovnik_Taj_Mahal_%2833974117830%29.jpg",
+    "src": "img/restos/DBV/taj-mahal.jpg"
+   }
+  },
+  {
+   "id": "peppinos",
+   "nom": "Peppino's Gelato",
+   "emoji": "🍦",
+   "gamme": "petit",
+   "genre": "Glacier artisanal",
+   "quartier": "Vieille ville",
+   "adresse": "Ul. od Puča 9, 20000 Dubrovnik",
+   "lat": 42.640669,
+   "lng": 18.108849,
+   "prix": "3 à 7 €",
+   "prix_min": 3,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La glace dont tout le monde parle à Dubrovnik : un glacier artisanal qui fabrique chaque jour ses parfums sur place, avec des fruits de saison et quelques sorbets végans. Parfait pour une pause fraîcheur entre les remparts et les ruelles.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; file d'attente le soir en été",
+   "photo": {
+    "auteur": "AlphaLemur",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIce_cream_in_cones.jpg",
+    "src": "img/restos/DBV/peppinos.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "el-pulpo",
+   "nom": "Fish Bar El Pulpo",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson grillé de quartier",
+   "quartier": "Lapad",
+   "adresse": "Ul. Mata Vodopića 6, 20000 Dubrovnik",
+   "lat": 42.655447,
+   "lng": 18.074335,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le petit bar à poisson que les habitants de Lapad gardent pour eux : friture de calamars, poisson du jour grillé, poulpe et moules à des prix qu'on ne trouve plus dans les remparts. Une terrasse simple, à deux pas de la promenade et de la plage.",
+   "reservation": "conseille",
+   "reservation_delai": "un jour avant en été, sinon sur place",
+   "photo": {
+    "auteur": "Luca.favorido",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrilled_fish_with_vegetables_and_lemon.jpg",
+    "src": "img/restos/DBV/el-pulpo.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "tabasco",
+   "nom": "Pizzeria Tabasco",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizzeria avec vue",
+   "quartier": "Ploče (au-dessus de la porte Ploče)",
+   "adresse": "Hvarska ul. 48A, 20000 Dubrovnik",
+   "lat": 42.64277,
+   "lng": 18.111518,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "À cinq minutes de la porte Ploče, une pizzeria de quartier aux pizzas larges et généreuses, servies sur une terrasse qui regarde les remparts. Le bon plan des familles et des petits budgets, loin des prix de la grand-rue.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver ; fermé le lundi de juin à octobre",
+   "photo": {
+    "auteur": "Hibasi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza_with_Rucola_and_Olives.jpg",
+    "src": "img/restos/DBV/tabasco.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "urban-veggie",
+   "nom": "Urban & Veggie",
+   "emoji": "🥗",
+   "gamme": "petit",
+   "genre": "Cuisine végane",
+   "quartier": "Gruž (port)",
+   "adresse": "Obala Stjepana Radića 13, 20000 Dubrovnik",
+   "lat": 42.655003,
+   "lng": 18.088013,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le repaire végétal de Dubrovnik, face au port de Gruž : burgers végétaux, bols colorés, risottos et desserts sans produits animaux, préparés avec des légumes locaux. Une adresse saine et bon marché, idéale avant de prendre le bateau pour les îles.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver",
+   "photo": {
+    "auteur": "Jennifer from Vancouver, Canada",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVegan_Burger_%285841255378%29.jpg",
+    "src": "img/restos/DBV/urban-veggie.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "arsenal",
+   "nom": "Gradska Kavana Arsenal",
+   "emoji": "☕",
+   "gamme": "moyen",
+   "genre": "Grand café et cuisine dalmate",
+   "quartier": "Vieille ville (place de la Loggia)",
+   "adresse": "Ul. Pred Dvorom 1, 20000 Dubrovnik",
+   "lat": 42.640745,
+   "lng": 18.110976,
+   "prix": "20 à 45 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le café de la ville, rendez-vous des Dubrovnikois depuis des générations, installé dans l'ancien arsenal des galères de la république. Grande salle voûtée d'un côté, terrasse sur le vieux port de l'autre : risotto noir, carpaccio de poulpe ou poisson du jour, à toute heure.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour la terrasse côté port au dîner",
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOld_Port%2C_Dubrovnik_%288%29_%2830115449356%29.jpg",
+    "src": "img/restos/DBV/arsenal.jpg"
+   }
+  },
+  {
+   "id": "konoba-dubrava",
+   "nom": "Konoba Dubrava",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Peka (plats cuits sous la cloche)",
+   "quartier": "Bosanka (sur le plateau du Srđ, 15 min en voiture)",
+   "adresse": "Bosanka, 20207 Dubrovnik",
+   "lat": 42.642953,
+   "lng": 18.12911,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une taverne de village sur les hauteurs, où l'on mange la vraie peka : agneau, veau ou poulpe cuits doucement sous une cloche de fer couverte de braises. Grande terrasse sous les arbres, pain maison cuit de la même façon et, au retour, la vue sur la ville illuminée.",
+   "reservation": "indispensable",
+   "reservation_delai": "la peka se commande à l'avance : réservez au moins 1 jour avant",
+   "photo": {
+    "auteur": "MatSkvorc",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADoma%C4%87a_peka.jpg",
+    "src": "img/restos/DBV/konoba-dubrava.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "azur",
+   "nom": "Azur",
+   "emoji": "🥢",
+   "gamme": "moyen",
+   "genre": "Cuisine fusion asiatique et méditerranéenne",
+   "quartier": "Vieille ville (au pied des remparts sud)",
+   "adresse": "Pobijana ul. 10, 20000 Dubrovnik",
+   "lat": 42.639166,
+   "lng": 18.110624,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite terrasse coincée contre les remparts, où les épices et les sauces d'Asie rencontrent le poisson et les légumes dalmates. Une cuisine qui change des grillades et des risottos des terrasses voisines, à prix raisonnable.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant en été (peu de tables)",
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_Dubrovnik_from_atop_the_city_walls_%2868%29_%2829872422950%29.jpg",
+    "src": "img/restos/DBV/azur.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "panorama",
+   "nom": "Restaurant Panorama",
+   "emoji": "🌄",
+   "gamme": "moyen",
+   "genre": "Cuisine méditerranéenne avec vue",
+   "quartier": "Mont Srđ (arrivée du téléphérique)",
+   "adresse": "Srđ ul. 3, 20000 Dubrovnik",
+   "lat": 42.649032,
+   "lng": 18.111913,
+   "prix": "20 à 50 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "À 405 mètres au-dessus de la mer, la terrasse qui domine toute la vieille ville et les îles : on y monte en téléphérique pour un verre ou un dîner au coucher du soleil. Pâtes, grillades et poisson, avec le plus beau panorama de Dubrovnik en toile de fond.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour une table au bord de la terrasse au coucher du soleil ; fermé de décembre à mi-mars",
+   "photo": {
+    "auteur": "Suicasmo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AViews_from_Sr%C4%91_20180820-2.jpg",
+    "src": "img/restos/DBV/panorama.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "kopun",
+   "nom": "Kopun",
+   "emoji": "🐓",
+   "gamme": "moyen",
+   "genre": "Cuisine ragusaine ancienne",
+   "quartier": "Vieille ville (place des Jésuites)",
+   "adresse": "Poljana Ruđera Boškovića 7, 20000 Dubrovnik",
+   "lat": 42.639479,
+   "lng": 18.109546,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une table qui fait revivre les recettes de l'ancienne république, à commencer par le chapon (« kopun »), plat de fête des nobles de Raguse, mijoté comme autrefois. Terrasse au pied du grand escalier des Jésuites, l'un des plus beaux décors de la vieille ville.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner en été (au moins 24 h avant par e-mail, sinon par téléphone)",
+   "photo": {
+    "auteur": "Lasta",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACrkva_Sv._Ignacije.JPG",
+    "src": "img/restos/DBV/kopun.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "marco-polo",
+   "nom": "Marco Polo",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Vieille ville",
+   "adresse": "Lučarica ul. 6, 20000 Dubrovnik",
+   "lat": 42.640748,
+   "lng": 18.109973,
+   "prix": "25 à 50 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Une courette fleurie cachée derrière l'église Saint-Blaise, à l'abri de la foule : la carte suit la pêche du jour, entre crudités de poisson, pâtes aux fruits de mer et poisson grillé. Une adresse sélectionnée par le Michelin, aux prix plus doux que les grandes tables.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant (36 places) ; ouvert d'avril à début novembre",
+   "photo": {
+    "auteur": "Ceeseven",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARisotto_Al_Nero_Di_Seppia_in_Hong_Kong.jpg",
+    "src": "img/restos/DBV/marco-polo.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "360",
+   "nom": "Restaurant 360",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine gastronomique créative",
+   "quartier": "Vieille ville (sur les remparts du vieux port)",
+   "adresse": "Ul. Svetog Dominika 2, 20000 Dubrovnik",
+   "lat": 42.641505,
+   "lng": 18.111507,
+   "prix": "185 à 240 € (menus dégustation)",
+   "prix_min": 185,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La seule étoile Michelin de la ville, avec ses tables posées sur le chemin de ronde, au-dessus du vieux port. Le chef Marijo Curić réinvente les produits de la côte, huîtres de Ston, agneau, poissons de l'Adriatique, en assiettes graphiques et précises, au fil d'un menu dégustation.",
+   "reservation": "indispensable",
+   "reservation_delai": "dès l'ouverture des réservations, un mois avant ; dîner seulement, fermé le lundi",
+   "photo": {
+    "auteur": "Emperor12345PL",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubrovnik_Old_Port.jpg",
+    "src": "img/restos/DBV/360.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "nautika",
+   "nom": "Nautika",
+   "emoji": "🌊",
+   "gamme": "haut",
+   "genre": "Cuisine classique, poissons nobles",
+   "quartier": "Pile (devant la porte Pile)",
+   "adresse": "Brsalje ul. 3, 20000 Dubrovnik",
+   "lat": 42.641467,
+   "lng": 18.105741,
+   "prix": "80 à 155 €",
+   "prix_min": 80,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Dans l'ancienne école de marine de 1881, deux terrasses suspendues au-dessus de la mer, entre la forteresse Lovrijenac et les remparts : un des dîners les plus romantiques d'Europe. Homard, poissons nobles et menu dégustation, servis dans les règles de l'art.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant en été pour une table en bord de terrasse",
+   "photo": {
+    "auteur": "donald judge",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A29.12.16_Dubrovnik_Old_City_Walls_039_%2831120716384%29.jpg",
+    "src": "img/restos/DBV/nautika.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "proto",
+   "nom": "Proto",
+   "emoji": "🐠",
+   "gamme": "haut",
+   "genre": "Restaurant de poisson historique",
+   "quartier": "Vieille ville",
+   "adresse": "Široka ul. 1, 20000 Dubrovnik",
+   "lat": 42.6413,
+   "lng": 18.108463,
+   "prix": "50 à 90 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Ouvert en 1886, Proto a vu passer Edward VIII et Wallis Simpson : c'est la grande maison du poisson à Dubrovnik. Huîtres gratinées de Mali Ston, salade de poulpe, poisson du jour grillé à l'huile d'olive et risotto noir, sur une terrasse couverte au-dessus d'une ruelle de la vieille ville.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant en été pour la terrasse",
+   "photo": {
+    "auteur": "Sasa Sobot",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AProto_Fish_Restaurant.jpg",
+    "src": "img/restos/DBV/proto.jpg"
+   }
+  },
+  {
+   "id": "stara-loza",
+   "nom": "Stara Loza",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Cuisine méditerranéenne sur les toits",
+   "quartier": "Vieille ville (palais Prijeko)",
+   "adresse": "Prijeko ul. 22, 20000 Dubrovnik",
+   "lat": 42.641795,
+   "lng": 18.108971,
+   "prix": "110 à 125 € (menu en 3 plats)",
+   "prix_min": 110,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Sur le toit d'un palais du XVe siècle, quatorze couverts seulement face aux clochers et aux tuiles orange de la vieille ville. Le menu « Rooftop » enchaîne mise en bouche et trois plats de cuisine méditerranéenne moderne : un dîner hors du temps, à réserver pour une grande occasion.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant en été (14 places, 2 services par soir, de 2 à 6 personnes)",
+   "photo": {
+    "auteur": "Tlusťa",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADubrovnik_from_city_walls.jpg",
+    "src": "img/restos/DBV/stara-loza.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "restaurant-dubrovnik",
+   "nom": "Restaurant Dubrovnik",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Menus dégustation sous un toit ouvrant",
+   "quartier": "Vieille ville",
+   "adresse": "Ul. Marojice Kaboge 5, 20000 Dubrovnik",
+   "lat": 42.640301,
+   "lng": 18.109381,
+   "prix": "105 à 145 € (menus dégustation)",
+   "prix_min": 105,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Caché au dernier étage d'une maison de ruelle, une terrasse dont le toit s'ouvre sur le ciel les soirs d'été. Le chef propose deux menus dégustation à l'aveugle, où les produits de l'Adriatique rencontrent des techniques modernes, avec un bel accord de vins croates.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant, une semaine en haute saison",
+   "photo": {
+    "auteur": "T.Tseng",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOysters_of_the_day_01.jpg",
+    "src": "img/restos/DBV/restaurant-dubrovnik.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "above-5",
+   "nom": "Above 5 Rooftop",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Cuisine créative sur un toit-terrasse",
+   "quartier": "Vieille ville (hôtel Stari Grad)",
+   "adresse": "Ul. od Sigurate 4, 20000 Dubrovnik",
+   "lat": 42.641765,
+   "lng": 18.108383,
+   "prix": "70 à 120 €",
+   "prix_min": 70,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Cinq étages au-dessus du Stradun, une poignée de tables sur la terrasse d'un petit hôtel, au niveau des toits et des remparts. On compose son menu en 3 ou 5 plats parmi une carte inventive de produits de la côte : une des vues les plus partagées de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant en été (environ 10 tables) ; ouvert de mars à octobre",
+   "photo": {
+    "auteur": "donald judge",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A29.12.16_Dubrovnik_Old_City_Walls_016_%2831960074965%29.jpg",
+    "src": "img/restos/DBV/above-5.jpg"
+   },
+   "illustration": true
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville (dans les remparts)",
+   "lat": 42.6411,
+   "lng": 18.1095,
+   "texte": "Dormir dans les remparts, c'est avoir le Stradun et les ruelles pour soi tôt le matin et tard le soir. Pas de voiture, beaucoup d'escaliers à monter avec les valises, et surtout des chambres et appartements dans de vieilles maisons, rarement de vrais hôtels ; les prix sont les plus hauts de la ville."
+  },
+  {
+   "id": "ploce",
+   "nom": "Ploče (côté est, plage de Banje)",
+   "lat": 42.6418,
+   "lng": 18.1175,
+   "texte": "Juste à l'est de la porte Ploče, au-dessus de la plage de Banje : la vue sur la vieille ville et Lokrum depuis les terrasses, et la vieille ville à 5 minutes à pied. C'est le quartier des beaux hôtels avec vue mer, souvent chers, et ça grimpe."
+  },
+  {
+   "id": "pile",
+   "nom": "Pile et Boninovo (côté ouest)",
+   "lat": 42.6425,
+   "lng": 18.1005,
+   "texte": "Autour de la porte Pile, où arrivent tous les bus de la ville et la navette de l'aéroport : le plus pratique pour se déplacer, avec la vieille ville à quelques pas. Plus haut, à Boninovo, chambres d'hôtes et petits hôtels sur la falaise, avec escaliers."
+  },
+  {
+   "id": "lapad",
+   "nom": "Lapad et Babin Kuk",
+   "lat": 42.6549,
+   "lng": 18.0728,
+   "texte": "La presqu'île verte où vivent les habitants : promenade piétonne, plages, grands hôtels avec piscine et prix plus doux. Idéal en famille et pour la plage ; la vieille ville est à 15-20 minutes en bus (lignes 4, 5, 6)."
+  },
+  {
+   "id": "gruz",
+   "nom": "Gruž (port)",
+   "lat": 42.6585,
+   "lng": 18.0855,
+   "texte": "Le port des ferries et des bateaux pour les îles, avec la gare routière et un marché le matin. Les hébergements les moins chers de la ville, pratiques pour les excursions ; moins charmant, et à 10 minutes de bus de la vieille ville."
+  }
+ ]
+}

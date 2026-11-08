@@ -166,3 +166,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Playwright (Im Schiffchen encore listé mais fermé). Prix du château de Benrath : API publique de la billetterie
   `vivenu.com/api/public/events/<id>` (champ `tickets`). Rheinturm : `rheinturm.de/en/tickets.php`. Commons : l'API répondait 429 en
   continu ; la recherche HTML (`ns6=1`) + `thumb.php` passait, lentement (~2 min par recherche).
+- Dubrovnik (nov. 2026) : Wanderlog géo 9704 (départ `geoCategory/76075`), listes « …-in-dubrovnik » : 57 listes, ~570 lieux ; les sources
+  citées par lieu (`sources[].siteName`) aident à juger le « tendance ». Michelin : `guide.michelin.com/hr/en/dubrovnik-neretva/dubrovnik/restaurants`
+  (Playwright). Prix officiels : `shop.citywallsdubrovnik.hr/en/webshop?location=…` (remparts, Lovrijenac, Ston), dumus.hr/en/entrance-tickets,
+  dubrovnikpass.com, dubrovnikcablecar.com/timetable-and-prices, PDF tarifs et horaires sur lokrum.hr, libertasdubrovnik.hr/en/price-list (bus),
+  dubrovnikwalks.com (visites, kayak). Commons : recherche HTML + `thumb.php` ; deux recherches en parallèle donnent des « 0 résultat » (429).
