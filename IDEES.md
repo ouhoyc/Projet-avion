@@ -300,6 +300,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (Bib Gourmand, fermé définitivement) et Yaza (fermé temporairement), Karamna (3,9), Alieia (3,7), centre d’art Hayy Jameel (pas de photo libre),
   Maison des arts islamiques (prix incertain). 21 photos d'illustration (plats), dont teamLab (photo de Tokyo).
 
+- ✅ (08/11/2026) **Page guide de Düsseldorf** (`guides/DUS.json`), préparée en autonomie : 22 activités (vieille ville et « plus long
+  comptoir du monde », promenade du Rhin, MedienHafen et tours de Gehry, Rheinturm (12,50 € ; 9 € de 6 à 13 ans, 10 € de 14 à 17 ans),
+  Königsallee, façade végétale du Kö-Bogen II, coucher de soleil à Oberkassel, K20 (10 €, combiné K20 + K21 21 €), K21 et « in orbit »
+  (9 €), Kunstpalast (17 €, gratuit avant 18 ans), château de Benrath (14 € en ligne, 15 € sur place, 6 € de 7 à 17 ans ; fermé mercredi
+  et jeudi), Aquazoo (11 €/6 €), jardin japonais, temple de l'EKŌ-Haus (5 €, espèces), Kaiserswerth, Hofgarten, Classic Remise (gratuit),
+  croisière KD (20 €/10 €), match de la Fortuna (en 3e division en 2026-2027 : pas dans les matchs automatiques, prix estimé 25 €),
+  marchés de Noël (19/11 - 30/12/2026), escapade à Cologne (cathédrale payante depuis le 1er juillet 2026 : 12 €, gratuit jusqu'à 13 ans ;
+  train estimé), musée de Néandertal (14 €)), 18 restaurants (note pondérée, C = 4,43, ~590 lieux lus via 51 listes Wanderlog ; Michelin
+  2026 : Nagaya, Setzkasten, LA VIE by Thomas Bühner et Agata's 1 étoile, Bib Gourmand Münstermann Kontor et EssBar, sélection Rubens,
+  Yabase et Brasserie Stadthaus ; institutions : Zum Uerige, Carlsplatz, Heinemann), 5 quartiers, pas de formalités (Union
+  européenne), pas de lien Tiqets. **Réseaux sociaux (Apify) non lancés** (crédit du mois épuisé) : badges tendance d'après le web.
+  Écartés : Im Schiffchen (1 étoile, fermé fin 2026 après 49 ans), Zum Schiffchen (note 3,6), Yoshi by Nagaya et Jae (doublons avec
+  Nagaya), Wildpark, Little Tokyo (pas de photo libre convenable), Insel Hombroich (prix enfants introuvable), DEG (hockey, 2e division).
+  Prix estimés : Fortuna, train pour Cologne, Nagaya, LA VIE, Setzkasten, QOMO, EssBar, MEERBAR, Xiao Long Kan, Yabase, et les
+  restaurants « petit » (menus et presse). 12 photos d'illustration (plats).
 - ✅ (07/11/2026) **Page guide de Cracovie** (`guides/KRK.json`), préparée en autonomie : 26 activités (Grand-Place et Halle aux
   draps, basilique Notre-Dame (20 zł ; tour d'avril à octobre seulement), salles d'apparat du Wawel (57 zł), cathédrale du Wawel (26 zł),
   musée souterrain du Rynek (45 zł), musée Czartoryski et la Dame à l'hermine (65 zł, gratuit le mardi), Collegium Maius (visite guidée
@@ -487,7 +502,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

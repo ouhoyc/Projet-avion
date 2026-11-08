@@ -1,0 +1,1524 @@
+{
+ "city_code": "DUS",
+ "statut": "préparé en autonomie, prix relevés le 08/11/2026",
+ "verifie_le": "2026-11-08",
+ "prix_match": 25,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 120,
+ "activites": [
+  {
+   "id": "altstadt",
+   "nom": "Vieille ville et « le plus long comptoir du monde »",
+   "emoji": "🍻",
+   "type": "balade",
+   "quartier": "Vieille ville (Altstadt)",
+   "lat": 51.2262,
+   "lng": 6.7742,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Rues, places et Burgplatz",
+     "gratuit"
+    ],
+    [
+     "Un verre d'Alt dans une brasserie",
+     "≈ 3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi et le soir, quand les brasseries se remplissent ; le samedi soir est le plus animé",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Environ 260 bars, brasseries et restaurants serrés sur un demi-kilomètre carré : voilà pourquoi on surnomme la vieille ville « la plus longue bar du monde ». Remontez la Bolkerstraße, où naquit le poète Heine, passez la place du Marché et la statue équestre de Jan Wellem, puis la Burgplatz et sa tour du château, d'où l'on voit le clocher tordu de Saint-Lambert.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "Dans les brasseries, le serveur (le « Köbes ») remplace votre verre vide sans demander : posez votre sous-verre dessus pour arrêter.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Marek Gehrmann",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf-Altstadt_Bolkerstra%C3%9Fe.jpg",
+    "src": "img/activites/DUS/altstadt.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "rheinufer",
+   "nom": "Promenade des bords du Rhin",
+   "emoji": "🌊",
+   "type": "balade",
+   "quartier": "Vieille ville et Carlstadt",
+   "lat": 51.2236,
+   "lng": 6.77,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, quand tout le monde s'assoit sur les marches face au fleuve",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le salon à ciel ouvert des Düsseldorfois : deux kilomètres de quai piéton entre la vieille ville et le Rheinturm, avec des cafés en terrasse, les grands escaliers où l'on s'assoit au soleil et la vue sur les ponts à haubans. Une route à quatre voies passe dessous, dans un tunnel : on ne la voit ni ne l'entend.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "Prolongez à pied jusqu'au MedienHafen (20 minutes) en passant au pied du Rheinturm.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Alexander Ostrovsky (Kiev)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANRW%2C_D%C3%BCsseldorf_-_Rheinuferpromenade_06.jpg",
+    "src": "img/activites/DUS/rheinufer.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "medienhafen",
+   "nom": "MedienHafen et les tours dansantes de Gehry",
+   "emoji": "🏢",
+   "type": "balade",
+   "quartier": "MedienHafen",
+   "lat": 51.216,
+   "lng": 6.758,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Quais et architecture",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de journée, quand la lumière dorée fait briller la façade en inox",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un ancien port devenu le quartier le plus photographié de la ville : les trois immeubles tordus de Frank Gehry (le Neuer Zollhof), l'un blanc, l'un en acier miroir, l'un en brique rouge, semblent danser au bord de l'eau. Autour, bureaux de verre, petits bonhommes colorés qui escaladent les façades et restaurants en terrasse sur les quais.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "La passerelle qui traverse le bassin offre le meilleur angle sur les trois tours.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Neuer_Zollhof_--_2015_--_8179.jpg",
+    "src": "img/activites/DUS/medienhafen.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "rheinturm",
+   "nom": "Rheinturm, la tour du Rhin",
+   "emoji": "🗼",
+   "type": "vue",
+   "quartier": "MedienHafen",
+   "lat": 51.217955,
+   "lng": 6.76165,
+   "prix": 12.5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "12,50 €"
+    ],
+    [
+     "Avant 12 h ou après 20 h",
+     "9 €"
+    ],
+    [
+     "Enfant de 6 à 13 ans",
+     "9 €"
+    ],
+    [
+     "De 14 à 17 ans",
+     "10 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + 3 enfants max.)",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12.5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      13,
+      9
+     ],
+     [
+      17,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Tous les jours de 10 h à minuit ; au coucher du soleil ou de nuit pour les lumières de la ville",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une plateforme vitrée à 168 m de haut, avec des fenêtres inclinées vers le vide, et toute la ville à vos pieds : la vieille ville, les tours de Gehry, les méandres du Rhin et, par temps clair, la cathédrale de Cologne. Le soir, regardez le fût de la tour : ses hublots lumineux forment la plus grande horloge décimale du monde.",
+   "site_officiel": "https://rheinturm.de/tickets.php",
+   "note": "Paiement par carte uniquement. Entrée gratuite le jour de votre anniversaire (pièce d'identité). Le restaurant QOMO, un étage plus haut, se visite sans billet si vous y réservez une table.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Rheinturm_--_2015_--_8172.jpg",
+    "src": "img/activites/DUS/rheinturm.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "koenigsallee",
+   "nom": "Königsallee, l'avenue chic",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Centre (Stadtmitte)",
+   "lat": 51.224,
+   "lng": 6.7795,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le samedi après-midi, pour voir le défilé des tenues ; en décembre pour les illuminations",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La « Kö », un kilomètre de boutiques de luxe d'un côté et de banques de l'autre, séparés par un canal bordé de platanes et enjambé de petits ponts de pierre. Au nord, la fontaine aux tritons ; au milieu, les galeries marchandes ; partout, des Düsseldorfois très bien habillés. On y vient pour flâner et regarder, même sans rien acheter.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "Le Kö-Bogen et sa façade végétale sont au bout de l'avenue, côté nord.",
+   "enfants": true,
+   "photo": {
+    "auteur": "CherryX",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Br%C3%BCcke_%C3%BCber_den_K%C3%B6-Graben.jpg",
+    "src": "img/activites/DUS/koenigsallee.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "koebogen",
+   "nom": "Kö-Bogen II, la façade végétale",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "Centre (Stadtmitte)",
+   "lat": 51.22713,
+   "lng": 6.783525,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Façades et place",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Au printemps et en été, quand les charmes sont bien verts ; à l'automne ils virent au roux",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le bâtiment le plus partagé de Düsseldorf : un grand magasin dont la façade et le toit en pente sont couverts de 30 000 charmes taillés en haie, soit 8 km de verdure. Juste en face, la façade blanche et ondulée du Schauspielhaus, le théâtre, et le Kö-Bogen de Daniel Libeskind et ses fenêtres en éclats.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "La meilleure vue d'ensemble est depuis la place Gustaf-Gründgens, entre la façade verte et le théâtre.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Tuxyso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHainbuchenfassade-K%C3%B6bogen-II-D%C3%BCsseldorf-2026.jpg",
+    "src": "img/activites/DUS/koebogen.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "oberkassel",
+   "nom": "Coucher de soleil depuis les prés d'Oberkassel",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Oberkassel (rive gauche)",
+   "lat": 51.2262,
+   "lng": 6.7638,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Prés au bord du Rhin",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, quand la vieille ville s'allume en face",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Traversez le pont d'Oberkassel à pied (10 minutes depuis la vieille ville) et descendez sur les grands prés de l'autre rive : c'est d'ici qu'on a la carte postale de Düsseldorf, avec la tour du château, le clocher de Saint-Lambert et le Rheinturm alignés au-dessus du fleuve. Les habitants y pique-niquent l'été, une bière à la main.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "Prenez un en-cas avant de traverser : il n'y a presque rien à acheter sur les prés.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Anil Öztas",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf_%28DE%29%2C_Rheinuferpromenade_--_2023_--_0027.jpg",
+    "src": "img/activites/DUS/oberkassel.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "k20",
+   "nom": "K20, l'art moderne (Picasso, Klee, Pollock)",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Vieille ville (Grabbeplatz)",
+   "lat": 51.228504,
+   "lng": 6.775932,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Collection du K20",
+     "10 €"
+    ],
+    [
+     "Billet combiné K20 + K21 (expositions et collections, valable 1 an)",
+     "21 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er mercredi du mois, après 18 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche de 11 h à 18 h (fermé le lundi)",
+   "texte": "Derrière une façade de granit noir courbe, l'une des plus belles collections d'art du XXe siècle d'Allemagne : une centaine d'œuvres de Paul Klee, qui enseigna à Düsseldorf, Picasso, Matisse, Kandinsky, Pollock, Warhol, et les salles de Joseph Beuys, figure de l'Académie des beaux-arts voisine.",
+   "site_officiel": "https://www.kunstsammlung.de/de/visit/",
+   "note": "Le billet combiné à 21 € vaut le coup si vous voyez aussi le K21 et son filet suspendu.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Raimond Spekking",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AK20_-_Geb%C3%A4ude_der_Kunstsammlung_Nordrhein-Westfalen%2C_D%C3%BCsseldorf-5635.jpg",
+    "src": "img/activites/DUS/k20.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "k21",
+   "nom": "K21 et « in orbit », le filet suspendu sous la coupole",
+   "emoji": "🕸️",
+   "type": "culture",
+   "quartier": "Unterbilk (Kaiserteich)",
+   "lat": 51.21664,
+   "lng": 6.773972,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Collection du K21 (avec « in orbit »)",
+     "9 €"
+    ],
+    [
+     "Avec l'exposition du moment",
+     "15 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du mardi au dimanche de 11 h à 18 h ; « in orbit » ferme par mauvais temps (vent, chaleur)",
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'art contemporain dans l'ancien Parlement régional, au bord d'un étang. Sa vedette : « in orbit » de Tomás Saraceno, un immense filet tendu à 25 m de haut sous la coupole de verre, sur lequel on marche à quatre pattes entre de grosses bulles transparentes, avec les visiteurs du dessous qui vous regardent flotter.",
+   "site_officiel": "https://www.kunstsammlung.de/de/visit/",
+   "note": "Pour « in orbit » : accès par créneaux, combinaison fournie, chaussures plates conseillées ; conditions d'âge et de poids affichées au musée.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Leoni1234",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AK21_Bild_aktuell.jpg",
+    "src": "img/activites/DUS/k21.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "kunstpalast",
+   "nom": "Kunstpalast",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Pempelfort (Ehrenhof)",
+   "lat": 51.234998,
+   "lng": 6.773104,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Collection et expositions",
+     "17 €"
+    ],
+    [
+     "Mercredi de 14 h à 18 h",
+     "9 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er jeudi du mois de 18 h à 21 h (collection)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche de 11 h à 18 h, jusqu'à 21 h le jeudi",
+   "texte": "Le grand musée d'art de la ville, dans un palais de brique au bord du Rhin : sept siècles de peinture, de Rubens aux peintres de l'école de Düsseldorf, une salle entière de verre d'art et des expositions qui attirent du monde (photo, mode, design). La cour avec sa fontaine et le parc de l'Ehrenhof donnent sur le fleuve.",
+   "site_officiel": "https://www.kunstpalast.de/de/besuch",
+   "note": "Les enfants peuvent emprunter gratuitement un kart ou un tricycle pour faire le tour de la cour.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf_-_Ehrenhof_%2B_Museum_Kunstpalast_05_ies.jpg",
+    "src": "img/activites/DUS/kunstpalast.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "benrath",
+   "nom": "Château de Benrath et son parc",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Benrath (sud)",
+   "lat": 51.161037,
+   "lng": 6.870232,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Billet du château, en ligne (tous les musées)",
+     "14 €"
+    ],
+    [
+     "Sur place",
+     "15 €"
+    ],
+    [
+     "De 7 à 17 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + enfants)",
+     "28 €"
+    ],
+    [
+     "Parc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "duree": "2 h 30",
+   "moment": "Du samedi au mardi 11 h - 17 h, vendredi 14 h - 17 h (fermé mercredi et jeudi)",
+   "texte": "Un château rose de plaisance, de style rococo, posé au bout d'un grand miroir d'eau, avec un parc à la française qui descend jusqu'au Rhin. À l'intérieur, salons d'apparat et appartements de l'électeur, plus un musée des jardins et un musée de la nature dans les ailes. Le parc, gratuit, est superbe à toute saison.",
+   "site_officiel": "https://tickets.schloss-benrath.de/",
+   "note": "Entrée par créneau horaire : réservez en ligne (1 € de moins que sur place). 25 minutes de S-Bahn depuis la gare centrale (S6 ou S68, arrêt « Benrath »), puis 10 minutes à pied.",
+   "enfants": true,
+   "photo": {
+    "auteur": "pepper (Wikipédia en allemand)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASchloss_Benrath.jpg",
+    "src": "img/activites/DUS/benrath.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "aquazoo",
+   "nom": "Aquazoo Löbbecke Museum",
+   "emoji": "🐠",
+   "type": "nature",
+   "quartier": "Nordpark (nord)",
+   "lat": 51.2565,
+   "lng": 6.7496,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Adulte",
+     "11 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Tous les jours de 10 h à 18 h (fermé le lundi de carnaval)",
+   "texte": "Un mélange réussi d'aquarium, de zoo tropical et de muséum : requins de récif, méduses, piranhas, crocodiles, une serre tropicale où l'on marche entre les papillons et les tortues, et des salles sur l'évolution. Idéal avec des enfants ou un jour de pluie, juste à côté du jardin japonais.",
+   "site_officiel": "https://aquazoo-duesseldorf.de/oeffnungszeiten-und-preise1",
+   "note": "Billets en ligne avec un créneau de 2 heures : ils évitent la file aux vacances. Une petite contribution à la protection des espèces (1 €) est ajoutée, vous pouvez la décocher.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Aquazoo Löbbecke Museum",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOhrenqualle_%C2%A9_Aquazoo_L%C3%B6bbecke_Museum._%285%29.jpg",
+    "src": "img/activites/DUS/aquazoo.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "japangarten",
+   "nom": "Jardin japonais du Nordpark",
+   "emoji": "🎋",
+   "type": "nature",
+   "quartier": "Nordpark (nord)",
+   "lat": 51.256369,
+   "lng": 6.744352,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et jardin",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En avril pour les cerisiers, en octobre pour les érables rouges",
+   "texte": "Düsseldorf compte la plus grande communauté japonaise d'Europe, et ce jardin offert par elle en 1975 en est le cadeau : étang aux carpes, petites cascades, pins taillés en nuage, lanternes de pierre et ponts courbés. Un coin de calme absolu au milieu d'un grand parc, à deux pas de l'Aquazoo.",
+   "site_officiel": "https://www.duesseldorf.de/",
+   "note": "Tram U78 ou U79 jusqu'à « Nordpark/Aquazoo ».",
+   "enfants": true,
+   "photo": {
+    "auteur": "Im Fokus",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Japanischer_Garten_im_Nordpark_%286%29.jpg",
+    "src": "img/activites/DUS/japangarten.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "eko",
+   "nom": "Temple bouddhique de l'EKŌ-Haus",
+   "emoji": "⛩️",
+   "type": "culture",
+   "quartier": "Niederkassel (rive gauche)",
+   "lat": 51.239612,
+   "lng": 6.745503,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Temple, maison traditionnelle et exposition",
+     "5 €"
+    ],
+    [
+     "Élèves et étudiants",
+     "3 €"
+    ],
+    [
+     "Enfants avant l'école",
+     "gratuit"
+    ],
+    [
+     "Jardin du temple",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      3
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "duree": "1 h",
+   "moment": "Temple : du mardi au samedi de 13 h à 17 h ; jardin : en semaine dès 10 h",
+   "texte": "L'un des très rares temples bouddhiques japonais d'Europe, bâti dans les règles de l'art : un toit aux bords relevés, un jardin de mousses et de pierres, une vraie maison de bois avec ses tatamis et une salle de cérémonie du thé. On s'y sent à Kyoto, à dix minutes de tram du centre.",
+   "site_officiel": "https://eko-haus.de/ueber-uns/besucherinfo/",
+   "note": "Paiement en espèces uniquement. Le centre conseille d'appeler avant de venir (+49 211 577 918 0).",
+   "enfants": true,
+   "photo": {
+    "auteur": "Frank Vincentz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf_-_Br%C3%BCggener_Weg_-_EKO-Haus_-_Japanischer_Garten_%2B_Glockenturm_%2B_Tempel_01_ies.jpg",
+    "src": "img/activites/DUS/eko.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "kaiserswerth",
+   "nom": "Kaiserswerth et les ruines du palais de Barberousse",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Kaiserswerth (nord)",
+   "lat": 51.29951,
+   "lng": 6.731848,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Ruines et village",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Un après-midi ensoleillé, en finissant par un café au bord du Rhin",
+   "texte": "Un ancien village au bord du Rhin, avec ses maisons baroques autour d'une place et sa basilique, et au bout, les murs massifs du palais impérial que Frédéric Barberousse fit agrandir au XIIe siècle. On grimpe dans les ruines, puis on suit la digue le long du fleuve : la campagne, à 25 minutes de tram du centre.",
+   "site_officiel": "https://www.visitduesseldorf.de/",
+   "note": "Tram U79 jusqu'à « Klemensplatz », puis 10 minutes à pied.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Tuxyso",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKaiserpfalz-Kaiserswerth-2020-02.jpg",
+    "src": "img/activites/DUS/kaiserswerth.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "hofgarten",
+   "nom": "Hofgarten, le grand parc du centre",
+   "emoji": "🌳",
+   "type": "nature",
+   "quartier": "Centre et Pempelfort",
+   "lat": 51.229574,
+   "lng": 6.78419,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Au printemps, ou pour une pause entre la Kö et le Kunstpalast",
+   "texte": "Le plus vieux parc public d'Allemagne (1769) descend du Kö-Bogen jusqu'au Rhin : grandes pelouses, étangs, statues de Heine et de Schumann, et au bout d'une longue allée, le petit château blanc de Jägerhof. Le trajet le plus agréable pour aller à pied du centre-ville au Kunstpalast.",
+   "site_officiel": "https://www.duesseldorf.de/",
+   "note": "Prenez l'allée qui longe le canal (la « Landskrone ») pour voir les cygnes.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Kürschner",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf_Hofgarten%2C_13._Mai_2021.jpg",
+    "src": "img/activites/DUS/hofgarten.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "classicremise",
+   "nom": "Classic Remise, les voitures de collection",
+   "emoji": "🚗",
+   "type": "culture",
+   "quartier": "Oberbilk (est)",
+   "lat": 51.195028,
+   "lng": 6.823599,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En semaine ou le week-end en journée, quand les ateliers tournent",
+   "texte": "Une ancienne rotonde à locomotives devenue le paradis des voitures anciennes : Ferrari, Porsche, Mercedes des années 1950 et belles américaines, rangées dans des boxes vitrés empilés sur plusieurs étages, avec des ateliers de restauration où l'on voit les mécaniciens au travail. L'entrée est gratuite.",
+   "site_officiel": "https://www.classic-remise.de/",
+   "note": "Une partie des voitures est à vendre : on peut regarder les prix, c'est un spectacle en soi.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Charles from Port Chester, New York",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AClassic_Remise%2C_D%C3%BCsseldorf%2C_Deutschland_%2852561276428%29.jpg",
+    "src": "img/activites/DUS/classicremise.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière panoramique sur le Rhin",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Vieille ville (quai du Burgplatz)",
+   "lat": 51.2265,
+   "lng": 6.77,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Adulte (1 h)",
+     "20 €"
+    ],
+    [
+     "Enfant, élève, étudiant",
+     "10 €"
+    ],
+    [
+     "Famille (2 adultes + 2 enfants)",
+     "49 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      13,
+      10
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "De fin mars à fin octobre, jusqu'à 6 départs par jour (10 h 30 à 18 h) ; aussi les week-ends de l'Avent",
+   "texte": "Une heure sur le fleuve à bord d'un bateau de la KD, la compagnie du Rhin depuis 200 ans : on passe devant la vieille ville, sous les ponts à haubans, au pied du Rheinturm et des tours de Gehry, avec des commentaires en allemand et en anglais. Le moyen le plus reposant de comprendre la ville.",
+   "site_officiel": "https://www.k-d.com/en/product/panorama-trip-duesseldorf/",
+   "note": "Le billet du Rheinturm acheté en ligne donne 20 % de réduction sur cette croisière.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Joschi71",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf_Rheinuferpromenade.jpg",
+    "src": "img/activites/DUS/croisiere.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "fortuna",
+   "nom": "Match de la Fortuna Düsseldorf",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stockum (nord)",
+   "lat": 51.261629,
+   "lng": 6.733152,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Places debout",
+     "≈ 15 €"
+    ],
+    [
+     "Places assises",
+     "≈ 25 à 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours à l'avance sur le site du club ; plusieurs matchs par saison sont gratuits (« Fortuna für alle »), avec tirage au sort",
+   "duree": "3 h",
+   "moment": "Les jours de match à domicile, un week-end sur deux d'août à mai",
+   "texte": "Un club au public fidèle : même en troisième division cette saison, après sa descente, la Fortuna attire des dizaines de milliers de supporters en rouge et blanc dans une arène couverte de 54 000 places. Elle est aussi connue pour offrir des matchs gratuits à tout le monde plusieurs fois par saison.",
+   "site_officiel": "https://www.f95.de/",
+   "note": "Billets seulement sur le site ou l'application du club. Tram U78 depuis la gare centrale jusqu'à l'arrêt « Stadion/Messe Nord » (le billet de match sert souvent de ticket de tram).",
+   "enfants": true,
+   "photo": {
+    "auteur": "KAMiKAZOW",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALTU_arena_-_Warsteiner.jpg",
+    "src": "img/activites/DUS/fortuna.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "weihnachtsmarkt",
+   "nom": "Marchés de Noël",
+   "emoji": "🎄",
+   "type": "balade",
+   "quartier": "Vieille ville et Königsallee",
+   "lat": 51.225851,
+   "lng": 6.772227,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Vin chaud",
+     "≈ 4 à 5 € (+ consigne de la tasse)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Du 19 novembre au 30 décembre 2026, en fin d'après-midi et le soir (24 décembre : 11 h - 15 h)",
+   "texte": "Sept petits marchés qui se suivent dans le centre, chacun avec son décor : chalets autour du grand sapin et de la statue de Jan Wellem sur la place du Marché, petits marchés aux anges et aux étoiles dans les rues voisines, illuminations sur la Kö, grande roue sur la Burgplatz. On passe de l'un à l'autre à pied, un vin chaud à la main.",
+   "site_officiel": "https://www.visitduesseldorf.de/erleben/veranstaltungen/weihnachtsmarkt",
+   "note": "Gardez la tasse en souvenir ou rendez-la au stand pour récupérer la consigne.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Kürschner",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWeihnachtsmarkt_D%C3%BCsseldorf%2C_November_2025_%2807%29.jpg",
+    "src": "img/activites/DUS/weihnachtsmarkt.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "cologne",
+   "nom": "Escapade à Cologne et sa cathédrale",
+   "emoji": "⛪",
+   "type": "nature",
+   "quartier": "Cologne (30 min en train)",
+   "lat": 50.941303,
+   "lng": 6.958138,
+   "prix": 37,
+   "prix_detail": [
+    [
+     "Train aller-retour Düsseldorf - Cologne (régional)",
+     "≈ 25 €"
+    ],
+    [
+     "Visite de la cathédrale (payante depuis juillet 2026)",
+     "12 €"
+    ],
+    [
+     "Montée dans la tour sud (533 marches)",
+     "8 €"
+    ],
+    [
+     "Enfants jusqu'à 13 ans (cathédrale et tour)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 37,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      13,
+      12
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "duree": "Une journée",
+   "moment": "Un jour de semaine, en partant le matin ; la cathédrale ferme aux visiteurs pendant les offices",
+   "texte": "La grande voisine n'est qu'à une demi-heure de train : en sortant de la gare, on a la cathédrale juste devant soi, 157 m de dentelle gothique et 600 ans de chantier. Montez dans la tour, puis traversez le pont Hohenzollern et ses milliers de cadenas d'amoureux pour la plus belle vue sur la ville.",
+   "site_officiel": "https://www.koelner-dom.de/besuchen",
+   "note": "Depuis le 1er juillet 2026, la visite de la cathédrale coûte 12 € (billets en ligne ou au guichet de la Roncalliplatz) ; l'entrée reste libre pour prier, par le transept nord.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Thomas Wolf (Der Wolf im Wald)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHohenzollernbr%C3%BCcke_K%C3%B6ln.jpg",
+    "src": "img/activites/DUS/cologne.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "neanderthal",
+   "nom": "Musée de Néandertal",
+   "emoji": "🦴",
+   "type": "culture",
+   "quartier": "Mettmann (20 min en S-Bahn)",
+   "lat": 51.226768,
+   "lng": 6.951072,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte (musée et tour « Höhlenblick »)",
+     "14 €"
+    ],
+    [
+     "Enfant de 6 à 16 ans",
+     "9,50 €"
+    ],
+    [
+     "Enfant de 4 et 5 ans",
+     "8 €"
+    ],
+    [
+     "Tarif famille (1 adulte + 1 enfant au moins)",
+     "15 % de moins"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      5,
+      8
+     ],
+     [
+      16,
+      9.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Du mardi au dimanche de 10 h à 18 h",
+   "texte": "C'est ici, dans la vallée de la Neander, qu'on a trouvé en 1856 les os de l'homme de Néandertal. Le musée raconte l'histoire de l'humanité avec des hommes préhistoriques plus vrais que nature (dont un en costume, qu'on croiserait dans le métro), puis un sentier mène au lieu exact de la découverte, dans la forêt.",
+   "site_officiel": "https://neanderthal.de/de/dein-besuch",
+   "note": "S-Bahn S28 jusqu'à « Neanderthal », puis 10 minutes à pied.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Heiko Tomaszewski",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMuseum1.JPG",
+    "src": "img/activites/DUS/neanderthal.jpg"
+   },
+   "a_verifier": false
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "uerige",
+   "nom": "Zum Uerige",
+   "emoji": "🍺",
+   "gamme": "petit",
+   "genre": "Brasserie historique de l'Alt",
+   "quartier": "Vieille ville",
+   "adresse": "Berger Straße 1, 40213 Düsseldorf",
+   "lat": 51.224981,
+   "lng": 6.772184,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La brasserie la plus célèbre de la ville, qui brasse sa bière brune maison, l'Alt, depuis 1862. Dans un labyrinthe de salles boisées ou debout dehors sur le trottoir, les serveurs en tablier bleu tirent la bière des tonneaux et l'apportent en petits verres, sans qu'on la commande. Côté assiette : boudin noir, jarret, tartines au fromage.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver : on trouve une place en attendant un peu ; fermé le 25 décembre et le lundi de carnaval",
+   "photo": {
+    "auteur": "Kürschner",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUerige_in_D%C3%BCsseldorf_am_Wochenende_%282%29.jpg",
+    "src": "img/restos/DUS/uerige.jpg"
+   }
+  },
+  {
+   "id": "takezo",
+   "nom": "Takezo",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Ramen japonais",
+   "quartier": "Little Tokyo (Immermannstraße)",
+   "adresse": "Immermannstraße 48, 40210 Düsseldorf",
+   "lat": 51.222707,
+   "lng": 6.790682,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au cœur de « Little Tokyo », la rue japonaise de Düsseldorf, l'un des bars à ramen les mieux notés de la ville : bouillons riches mijotés des heures, nouilles fermes, œuf mariné, et un tantanmen épicé qui a ses fans. Petite salle, service rapide, ambiance de Tokyo.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : petite file d'attente aux heures des repas, surtout le week-end ; venez avant 12 h ou vers 18 h",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATonkotsu_Ramen_-_Goemon_Ramen_Bar_2023-06-06.jpg",
+    "src": "img/restos/DUS/takezo.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "carlsplatz",
+   "nom": "Marché du Carlsplatz",
+   "emoji": "🧀",
+   "gamme": "petit",
+   "genre": "Marché couvert gourmand",
+   "quartier": "Carlstadt",
+   "adresse": "Carlsplatz, 40213 Düsseldorf",
+   "lat": 51.223426,
+   "lng": 6.77357,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le marché préféré des Düsseldorfois, en plein centre : une soixantaine de stands de fromages, fleurs, épices, poissons, et des comptoirs où l'on mange sur le pouce, soupe, huîtres, crêpes ou saucisses. Goûtez la moutarde de Düsseldorf, une spécialité de la ville vendue ici en pots de grès.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert du lundi au samedi en journée, fermé le dimanche",
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf_Carlsplatz_%2851731471779%29.jpg",
+    "src": "img/restos/DUS/carlsplatz.jpg"
+   }
+  },
+  {
+   "id": "space-burger",
+   "nom": "Space Burger",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "Vieille ville",
+   "adresse": "Neustraße 41, 40213 Düsseldorf",
+   "lat": 51.226156,
+   "lng": 6.77598,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La petite adresse de burgers de la vieille ville qui fait l'unanimité : pains moelleux, viande juteuse, frites croustillantes et quelques recettes originales, dans une petite salle animée. Parfait pour un repas rapide entre deux brasseries.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver ; un peu d'attente le samedi soir",
+   "photo": {
+    "auteur": "Kelapstick",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACheeseburger_and_fries_at_Jimmy_Buffett%27s_Margaritaville.jpg",
+    "src": "img/restos/DUS/space-burger.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "heinemann",
+   "nom": "Confiserie Heinemann",
+   "emoji": "🍰",
+   "gamme": "petit",
+   "genre": "Salon de thé et pâtisserie",
+   "quartier": "Centre (près de la Kö)",
+   "adresse": "Martin-Luther-Platz 32, 40212 Düsseldorf",
+   "lat": 51.224749,
+   "lng": 6.781037,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La pâtisserie familiale emblématique de Düsseldorf, réputée pour ses truffes au champagne. Dans le salon de thé à deux pas de la Kö, on s'offre une part de forêt-noire ou de gâteau à la crème avec un café, comme les dames chic du quartier depuis des générations.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; plus calme en semaine avant 15 h",
+   "photo": {
+    "auteur": "Mikelo",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABlack_Forest_gateau.jpg",
+    "src": "img/restos/DUS/heinemann.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "tengri-tagh",
+   "nom": "Tengri Tagh",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Cuisine ouïghoure (nouilles tirées à la main)",
+   "quartier": "Centre (Oststraße)",
+   "adresse": "Oststraße 120, 40210 Düsseldorf",
+   "lat": 51.221469,
+   "lng": 6.785788,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'adresse la mieux notée de toute la ville, et une vraie découverte : la cuisine des Ouïghours, peuple d'Asie centrale, avec des nouilles tirées à la main, sautées aux légumes et à l'agneau épicé, des brochettes au cumin et des raviolis vapeur. Copieux, parfumé, et pas cher.",
+   "reservation": "conseille",
+   "reservation_delai": "un ou deux jours avant pour le soir ; souvent complet le week-end",
+   "photo": {
+    "auteur": "Orderinchaos",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADolan_Uyghur_handmade_noodles_Adelaide.jpg",
+    "src": "img/restos/DUS/tengri-tagh.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "munstermann",
+   "nom": "Münstermann Kontor",
+   "emoji": "🥗",
+   "gamme": "moyen",
+   "genre": "Bistrot du marché",
+   "quartier": "Carlstadt",
+   "adresse": "Hohe Straße 11, 40213 Düsseldorf",
+   "lat": 51.22232,
+   "lng": 6.774026,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Une ancienne épicerie fine devenue le bistrot de midi le plus couru de la Carlstadt : soupe de poissons provençale, vitello tonnato, poisson grillé, salades généreuses et huîtres, dans une salle vivante et sans chichis. Michelin le récompense pour son excellent rapport qualité-prix.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; fermé le dimanche, le lundi et les jours fériés",
+   "photo": {
+    "auteur": "Sergey A.",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20250903_Bouillabaisse_in_Khimki.jpg",
+    "src": "img/restos/DUS/munstermann.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "essbar",
+   "nom": "EssBar fein & pfiffig",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Cuisine de saison inventive",
+   "quartier": "Pempelfort (près du Hofgarten)",
+   "adresse": "Kaiserstraße 27, 40479 Düsseldorf",
+   "lat": 51.23349,
+   "lng": 6.778674,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "Un petit restaurant de quartier à deux pas du Hofgarten, à la façade discrète, où l'on mange des plats de saison soignés et inventifs, avec de bons vins au verre, dans une ambiance détendue. Michelin le récompense pour son excellent rapport qualité-prix.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, surtout pour le vendredi et le samedi",
+   "photo": {
+    "auteur": "Syced",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAmuse-bouche%2C_L%27Anthocyane%2C_Lannion_%2885948%29.jpg",
+    "src": "img/restos/DUS/essbar.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "rubens",
+   "nom": "Rubens",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Cuisine autrichienne",
+   "quartier": "Pempelfort",
+   "adresse": "Kaiserstraße 5, 40479 Düsseldorf",
+   "lat": 51.234574,
+   "lng": 6.778032,
+   "prix": "35 à 70 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Le coin de Vienne de Düsseldorf : l'un des meilleurs Wiener Schnitzel de la ville, pané à la minute et doré, un Tafelspitz (pot-au-feu viennois) servi dans son bouillon, et des desserts autrichiens comme les nouilles au pavot. Le couple de patrons reçoit avec beaucoup de chaleur.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; une semaine pour le week-end",
+   "photo": {
+    "auteur": "Burkhard Mücke",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2022-12-29_Wiener_Schnitzel_im_Hotel_Kaiserin_Elisabeth.jpg",
+    "src": "img/restos/DUS/rubens.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "meerbar",
+   "nom": "MEERBAR",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Cuisine méditerranéenne, vue sur les tours de Gehry",
+   "quartier": "MedienHafen",
+   "adresse": "Neuer Zollhof 1, 40221 Düsseldorf",
+   "lat": 51.215972,
+   "lng": 6.757192,
+   "prix": "30 à 55 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le restaurant installé au pied même d'une des tours de Gehry, avec une grande terrasse sur le bassin du MedienHafen. Poissons grillés, pâtes, plats à partager et cocktails : la bonne adresse pour dîner dans le décor le plus photographié de la ville, surtout aux beaux jours.",
+   "reservation": "conseille",
+   "reservation_delai": "deux ou trois jours avant pour une table en terrasse l'été",
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Neuer_Zollhof_--_2025_--_2547-8.jpg",
+    "src": "img/restos/DUS/meerbar.jpg"
+   }
+  },
+  {
+   "id": "xiao-long-kan",
+   "nom": "Xiao Long Kan",
+   "emoji": "🌶️",
+   "gamme": "moyen",
+   "genre": "Fondue chinoise du Sichuan (hot pot)",
+   "quartier": "Centre (près de la gare)",
+   "adresse": "Friedrich-Ebert-Straße 31, 40210 Düsseldorf",
+   "lat": 51.221496,
+   "lng": 6.789313,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une grande chaîne chinoise de fondue du Sichuan, au décor de lanternes rouges : au centre de la table, une marmite à plusieurs compartiments (bouillon pimenté, champignons, tomate) où chacun fait cuire viandes, légumes, nouilles et boulettes. Un repas ludique et convivial, à partager à plusieurs.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même pour le soir ; plus facile en semaine",
+   "photo": {
+    "auteur": "Akira CA",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARed_House_hot_pot_Chongqing.jpg",
+    "src": "img/restos/DUS/xiao-long-kan.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "yabase",
+   "nom": "Yabase",
+   "emoji": "🍣",
+   "gamme": "moyen",
+   "genre": "Japonais traditionnel (sushis, cuisine familiale)",
+   "quartier": "Little Tokyo (Klosterstraße)",
+   "adresse": "Klosterstraße 70, 40211 Düsseldorf",
+   "lat": 51.2251,
+   "lng": 6.788,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Une petite salle minimaliste du quartier japonais, que fréquente la communauté japonaise elle-même : sushis et sashimis très frais, tempuras, plats mijotés, servis avec soin. Michelin la cite pour sa cuisine très authentique.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; la salle est petite",
+   "photo": {
+    "auteur": "Alpha from Melbourne, Australia",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASushi_Sashimi_Platter_-_J_Cafe_%28355247627%29.jpg",
+    "src": "img/restos/DUS/yabase.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "nagaya",
+   "nom": "Nagaya",
+   "emoji": "🍱",
+   "gamme": "haut",
+   "genre": "Gastronomique japonais",
+   "quartier": "Little Tokyo (Klosterstraße)",
+   "adresse": "Klosterstraße 42, 40211 Düsseldorf",
+   "lat": 51.22546,
+   "lng": 6.786106,
+   "prix": "≈ 150 à 250 €",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La table du chef Yoshizumi Nagaya, pionnier de la haute cuisine japonaise en Allemagne : un long menu dégustation qui marie la précision japonaise (poissons crus, bouillons dashi, wagyu) et des touches occidentales, servi au comptoir ou en salle épurée. Une expérience à part.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant",
+   "photo": {
+    "auteur": "Kykk wiki",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKaisekiryouri_at_Shimogamo_Saryo.jpg",
+    "src": "img/restos/DUS/nagaya.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "setzkasten",
+   "nom": "Setzkasten",
+   "emoji": "🛒",
+   "gamme": "haut",
+   "genre": "Gastronomique dans un supermarché",
+   "quartier": "Centre (Berliner Allee)",
+   "adresse": "Berliner Allee 52, 40212 Düsseldorf",
+   "lat": 51.219425,
+   "lng": 6.783101,
+   "prix": "≈ 100 à 150 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le restaurant étoilé le plus étonnant d'Allemagne : il se cache au fond du supermarché géant Zurheide de l'immeuble « Crown ». Le chef Egor Hopp compose ses menus avec les produits des rayons, et y glisse des saveurs de son Kazakhstan natal. On traverse les rayons pour aller dîner : inoubliable.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; fermé le jeudi et le dimanche",
+   "photo": {
+    "auteur": "Kürschner",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Crown-Hotel%2C_Edeka_Zurheide%2C_2018_%281%29.jpg",
+    "src": "img/restos/DUS/setzkasten.jpg"
+   }
+  },
+  {
+   "id": "la-vie",
+   "nom": "LA VIE by Thomas Bühner",
+   "emoji": "✨",
+   "gamme": "haut",
+   "genre": "Gastronomique créatif",
+   "quartier": "Flingern (est)",
+   "adresse": "Schlüterstraße 1, 40235 Düsseldorf",
+   "lat": 51.23772,
+   "lng": 6.822549,
+   "prix": "≈ 150 à 250 €",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le grand retour d'un chef légendaire : Thomas Bühner, longtemps trois étoiles à Osnabrück, a rouvert « La Vie » à Düsseldorf. Deux menus de quatre à huit plats, d'une grande finesse, dans un décor contemporain. Le restaurant dont tout le monde parle en ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant ; menu de midi le dimanche",
+   "photo": {
+    "auteur": "Wiki.cullin",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APan_seared_scallops_with_grilled_asparagus_fine_dining_appetizer.jpg",
+    "src": "img/restos/DUS/la-vie.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "agatas",
+   "nom": "Agata's",
+   "emoji": "🌸",
+   "gamme": "haut",
+   "genre": "Gastronomique créatif et de saison",
+   "quartier": "Unterbilk",
+   "adresse": "Kirchfeldstraße 59, 40217 Düsseldorf",
+   "lat": 51.212271,
+   "lng": 6.775872,
+   "prix": "≈ 170 à 200 €",
+   "prix_min": 169,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une table étoilée chaleureuse, menée par la maîtresse de maison Agata Reul : un menu de six ou huit plats, aussi en version végétarienne, inventif et très beau dans l'assiette, avec des influences du monde entier. Les mercredis et jeudis, un menu plus court de quatre plats.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant",
+   "photo": {
+    "auteur": "Syced",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAmuse-bouche%2C_L%27Anthocyane%2C_Lannion.jpg",
+    "src": "img/restos/DUS/agatas.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "stadthaus",
+   "nom": "Brasserie Stadthaus",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Grande brasserie française",
+   "quartier": "Vieille ville",
+   "adresse": "Mühlenstraße 31, 40213 Düsseldorf",
+   "lat": 51.22746,
+   "lng": 6.774115,
+   "prix": "≈ 50 à 100 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "Sélection Michelin",
+   "texte": "Une brasserie à la française sous un spectaculaire plafond à caissons, dans un bâtiment historique de la vieille ville, avec une cour pavée pour l'été. Au menu : soupe de homard, huîtres, entrecôte maturée sauce béarnaise, sole meunière et tarte aux pommes. L'adresse chic et classique de la vieille ville.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; une semaine pour la cour en été",
+   "photo": {
+    "auteur": "Jula2812",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGeb%C3%A4ude_M%C3%BChlenstra%C3%9Fe_31_in_D%C3%BCsseldorf.jpg",
+    "src": "img/restos/DUS/stadthaus.jpg"
+   }
+  },
+  {
+   "id": "qomo",
+   "nom": "QOMO, au sommet du Rheinturm",
+   "emoji": "🌃",
+   "gamme": "haut",
+   "genre": "Cuisine fusion japonaise, vue à 172 m",
+   "quartier": "MedienHafen (Rheinturm)",
+   "adresse": "Stromstraße 20, 40221 Düsseldorf",
+   "lat": 51.217955,
+   "lng": 6.76165,
+   "prix": "≈ 60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dîner en haut de la tour du Rhin, à plus de 170 m, avec la ville illuminée tout autour : une cuisine fusion entre Japon et Europe, sushis, plats à partager, et cocktails au bar. On vient d'abord pour la vue, inoubliable au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant pour une table près des vitres ; l'accès à la tour est gratuit pour les clients du restaurant",
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AD%C3%BCsseldorf%2C_Rheinturm_--_2015_--_8120.jpg",
+    "src": "img/restos/DUS/qomo.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "altstadt",
+   "nom": "Vieille ville et Carlstadt",
+   "lat": 51.2248,
+   "lng": 6.7735,
+   "texte": "Entre le Rhin, les brasseries et le marché du Carlsplatz, tout se fait à pied, et la Kö est à cinq minutes. Le plus pratique pour un premier séjour ; dans les rues des bars, comptez un peu de bruit le soir, surtout le week-end."
+  },
+  {
+   "id": "koe",
+   "nom": "Königsallee et centre",
+   "lat": 51.224,
+   "lng": 6.781,
+   "texte": "Autour de la Kö et du Kö-Bogen : hôtels de toutes catégories, boutiques, Hofgarten tout proche, et la vieille ville à dix minutes à pied. Central et plus calme la nuit que la vieille ville."
+  },
+  {
+   "id": "littletokyo",
+   "nom": "Little Tokyo et gare centrale",
+   "lat": 51.2225,
+   "lng": 6.788,
+   "texte": "Le quartier japonais, entre la gare et la Kö : beaucoup d'hôtels à prix doux, les meilleurs ramen d'Europe au coin de la rue et des trains directs pour l'aéroport, Cologne et Benrath. Moins charmant le soir près de la gare."
+  },
+  {
+   "id": "medienhafen",
+   "nom": "MedienHafen et Unterbilk",
+   "lat": 51.215,
+   "lng": 6.762,
+   "texte": "Architecture moderne, hôtels design, restaurants sur les quais et le Rheinturm à côté. La vieille ville est à vingt minutes à pied par la promenade du Rhin ; Unterbilk, juste derrière, a de jolies rues de cafés."
+  },
+  {
+   "id": "oberkassel",
+   "nom": "Oberkassel (rive gauche)",
+   "lat": 51.231,
+   "lng": 6.757,
+   "texte": "Un quartier résidentiel élégant de l'autre côté du Rhin, aux belles façades Art nouveau, avec des cafés et des restaurants de quartier. Calme, à dix minutes à pied de la vieille ville par le pont, ou trois arrêts de tram."
+  }
+ ]
+}

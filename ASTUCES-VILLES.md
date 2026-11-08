@@ -161,3 +161,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (Playwright, cartes avec prix), Michelin `guide.michelin.com/sa/en/mecca-province/jeddah_2555048/restaurants`, fiches Visit Saudi
   (`visitsaudi.com/sitemap.xml`, prix d'entrée en clair). L'API Commons répondait 429 : recherche HTML (`ns6=1`) + `thumb.php`.
 
+- Düsseldorf (nov. 2026) : Wanderlog géo 9738 (départ `geoCategory/74322`), listes « …-in-dusseldorf » : 51 listes, ~590 restaurants.
+  Michelin : pages `guide.michelin.com/de/de/nordrhein-westfalen/dusseldorf/restaurants/sternerestaurants` et `/bib-gourmand` avec
+  Playwright (Im Schiffchen encore listé mais fermé). Prix du château de Benrath : API publique de la billetterie
+  `vivenu.com/api/public/events/<id>` (champ `tickets`). Rheinturm : `rheinturm.de/en/tickets.php`. Commons : l'API répondait 429 en
+  continu ; la recherche HTML (`ns6=1`) + `thumb.php` passait, lentement (~2 min par recherche).
