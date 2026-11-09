@@ -1,3 +1,5 @@
 # Projet Vercel « projet-avion-photos » (dossier racine img/) : ce fichier remplace le
 # .vercelignore du dépôt, qui exclut img/ du site principal. Ne rien exclure ici.
 .vercelignore
+# Attention : ce projet ne se remet en ligne que si le DERNIER commit poussé touche img/. Pousser les commits
+# de photos un par un (ou finir par celui des photos), sinon les nouvelles photos restent en 404 (arrivé le 09/11/2026).
