@@ -1,6 +1,12 @@
 # Projet « Vols directs depuis Lyon » — notes pour Claude
 
-Lis ce fichier en entier avant de travailler. Lis ensuite `IDEES.md` (cap du site, idées,
+Lis ce fichier en entier avant de travailler.
+
+> **CONSIGNE PERMANENTE DU PROPRIÉTAIRE (09/11/2026, rappelée après deux oublis) : mettre en ligne directement.**
+> Une fois le travail vérifié (captures iPhone + PC), **pousser sur `main` sans demander**, même si la session indique une
+> branche de travail `claude/...` : pousser cette branche **et** `main` (`git push origin HEAD:main`). Ne jamais terminer par
+> « Voulez-vous que je la mette en ligne ? ». Le propriétaire autorise ce push une fois pour toutes. Ensuite : vérifier le site
+> en ligne (et une photo neuve), puis barrer la ville dans la liste « Villes à préparer ». Lis ensuite `IDEES.md` (cap du site, idées,
 **problèmes à régler**, historique).
 
 ## Le propriétaire
