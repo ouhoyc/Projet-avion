@@ -313,6 +313,23 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   Kamenice (3,9), Lokanda Peskarija (4,0), Lady Pi-Pi (4,3, doublon « vue »), monastère dominicain, trésor de la cathédrale et synagogue
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
+
+- ✅ (09/11/2026) **Page guide de Charm el-Cheikh** (`guides/SSH.json`), préparée en autonomie : 17 activités (Ras Mohammed en bateau
+  (≈ 30 € ; taxe du parc ≈ 7 €, tarif 2026 de Circle Divers), île de Tiran, Naama Bay, Soho Square, vieux marché et mosquée Al-Sahaba,
+  cathédrale copte, snorkeling à Ras Um Sid (plage El Fanar ≈ 10 $), baptême de plongée (≈ 55 €, 63 € chez Circle Divers), épave du
+  Thistlegorm (plongeurs confirmés, ≈ 145 €), quad et dîner bédouin (≈ 30 €), monastère Sainte-Catherine (de jour : France Diplomatie
+  déconseille le trajet de nuit, donc pas de montée nocturne du mont Sinaï), Dahab et Blue Hole, Canyon coloré, Le Caire en avion
+  (≈ 330 €), Nabq, parachute ascensionnel, semi-sous-marin). Prix des excursions : fourchettes relevées sur Booking (attractions),
+  Musement, Expedia et les opérateurs locaux. 18 restaurants (note pondérée, C = 4,37, ~600 lieux : 19 listes Wanderlog + quadrillage
+  Google Maps de 72 points ; pas de Michelin en Égypte, donc pas de badge récompense ; restaurants « à la carte » des hôtels tout compris
+  de Nabq écartés, réservés à leurs clients). 5 quartiers ; `ile: true` (côte de 25 km de Ras Um Sid à Nabq : recherche d'hôtels autour
+  du lieu choisi) avec `transport` = un taxi : le message « prévoyez … » de l'étape Hôtel reprend maintenant `transport` sur une île
+  (`ville.js`, « une voiture de location » par défaut, Lanzarote et Tenerife inchangés). Formalités : passeport ou carte d'identité
+  valable 6 mois, visa 30 $ à l'arrivée (visa « Sinaï » gratuit possible mais limité). **Apify non lancé** (crédit du mois épuisé) : badge
+  tendance seulement pour le Farsha Café. Écartés : El Masrien (4,0), Abo Ali (3,9), Buddha-Bar (4,1), Fares Seafood (4,2, doublon
+  poisson avec Mahony et Fish Mart), Seaweed Sushi (adresse incertaine), musée de Charm (pas de photo libre), croisière au coucher du
+  soleil (pas de photo). Prix estimés (pas de carte en ligne) : la plupart des restaurants sauf Pomodoro (carte lue : pâtes ≈ 845 livres).
+  17 photos d'illustration (plats et vues), dont le pain de German Bakery et la baie de Sharks Bay pour Basata.
 - ✅ (08/11/2026) **Page guide de Düsseldorf** (`guides/DUS.json`), préparée en autonomie : 22 activités (vieille ville et « plus long
   comptoir du monde », promenade du Rhin, MedienHafen et tours de Gehry, Rheinturm (12,50 € ; 9 € de 6 à 13 ans, 10 € de 14 à 17 ans),
   Königsallee, façade végétale du Kö-Bogen II, coucher de soleil à Oberkassel, K20 (10 €, combiné K20 + K21 21 €), K21 et « in orbit »
@@ -515,7 +532,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

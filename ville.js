@@ -751,7 +751,7 @@ function renderHotel() {
     : near
       ? (n === 1 ? 'Votre activité est à moins de 20 min à pied.' : `${near} de vos ${n} activités à moins de 20 min à pied.`)
       : guide.ile
-        ? `À environ ${Math.round(avg)} km en moyenne de vos activités : prévoyez une voiture de location.`
+        ? `À environ ${Math.round(avg)} km en moyenne de vos activités : prévoyez ${guide.transport || 'une voiture de location'}.`
         : `À environ ${avg.toFixed(1).replace('.', ',')} km de vos activités : ${guide.transport || 'le métro'} vous y emmène vite.`;
   $('h-zone').innerHTML = `
     <div class="h-card">

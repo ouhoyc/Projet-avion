@@ -171,3 +171,10 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (Playwright). Prix officiels : `shop.citywallsdubrovnik.hr/en/webshop?location=…` (remparts, Lovrijenac, Ston), dumus.hr/en/entrance-tickets,
   dubrovnikpass.com, dubrovnikcablecar.com/timetable-and-prices, PDF tarifs et horaires sur lokrum.hr, libertasdubrovnik.hr/en/price-list (bus),
   dubrovnikwalks.com (visites, kayak). Commons : recherche HTML + `thumb.php` ; deux recherches en parallèle donnent des « 0 résultat » (429).
+- Charm el-Cheikh (nov. 2026) : Wanderlog géo 79309 (départ `geoCategory/30711`), 19 listes « …-sharm-el-sheikh », seulement ~280 lieux ;
+  compléter par Google Maps en affichage limité (72 points le long de la côte, mots « restaurant », « seafood restaurant », « café »).
+  Les adresses très bien notées de Nabq sont souvent les « à la carte » des hôtels tout compris (Rixos…) : à écarter. GetYourGuide et
+  Viator bloquent ; prix des excursions via l'outil Booking (attractions), Musement (page `charm-el-cheikh/activites-c`, par `curl`)
+  et la grille officielle de Circle Divers (`circledivers.com/diving-in-sharm-el-sheikh/booking` : baptême, taxe du parc). Four Seasons
+  bloque (Akamai). Codes plus de Google (« V78W+H39 ») : préfixe `7GVP` pour Charm, utile quand Nominatim ne connaît pas le lieu.
+

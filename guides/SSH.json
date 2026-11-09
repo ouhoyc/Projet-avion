@@ -1,0 +1,1191 @@
+{
+ "city_code": "SSH",
+ "statut": "préparé en autonomie, prix relevés le 09/11/2026 (1 € ≈ 60 livres égyptiennes, 1 € ≈ 1,11 $)",
+ "verifie_le": "2026-11-09",
+ "ile": true,
+ "avant_de_partir": "Passeport ou carte d'identité valable au moins 6 mois après la date de retour ; avec la carte d'identité, prenez deux photos d'identité. Visa touristique à acheter à l'arrivée à l'aéroport : 30 $ en espèces (dollars ou euros). Si vous restez seulement à Charm el-Cheikh et dans le sud du Sinaï, un visa « Sinaï » gratuit est possible, mais il ne permet pas d'aller au Caire ni, par prudence, à Ras Mohammed : il ne peut pas être changé une fois sur place.",
+ "transport": "un taxi",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 60,
+ "activites": [
+  {
+   "id": "ras-mohammed",
+   "nom": "Parc national de Ras Mohammed en bateau",
+   "emoji": "🐠",
+   "type": "nature",
+   "quartier": "Ras Mohammed (25 km au sud)",
+   "lat": 27.735,
+   "lng": 34.255,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Journée en bateau partagé : 2 ou 3 arrêts de snorkeling, déjeuner à bord, transfert",
+     "≈ 25 à 45 €"
+    ],
+    [
+     "Par la route (bus ou 4x4) : plages, lac magique, faille",
+     "≈ 15 à 30 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 7 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      11,
+      18
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant ; prise en charge à l'hôtel vers 8 h",
+   "duree": "Journée (8 h - 16 h)",
+   "moment": "Le matin, quand la mer est la plus calme ; toute l'année (eau à 22 °C en hiver, 28 °C en été)",
+   "texte": "Le plus beau récif de la mer Rouge, à la pointe sud du Sinaï : des tombants de corail qui plongent à pic dans un bleu irréel, des bancs de poissons-papillons, de barracudas et de tortues, et le banc de sable blanc de White Island au milieu de la mer turquoise. Le genre de journée qu'on raconte en rentrant.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Le visa « Sinaï » gratuit donné à l'aéroport ne couvre pas cette sortie : prenez le visa touristique complet (30 $) à l'arrivée. Ne touchez pas le corail et préférez une crème solaire sans filtre chimique.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Sovernigo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ras_Mohammed_coral_reefs.jpg",
+    "src": "img/activites/SSH/ras-mohammed.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "tiran",
+   "nom": "Île de Tiran : les récifs du détroit en bateau",
+   "emoji": "🚤",
+   "type": "nature",
+   "quartier": "Détroit de Tiran (au large de Nabq)",
+   "lat": 27.9876,
+   "lng": 34.4533,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Journée en bateau partagé : 2 ou 3 arrêts de snorkeling, déjeuner à bord, transfert",
+     "≈ 25 à 45 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 7 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      11,
+      18
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant",
+   "duree": "Journée (8 h - 16 h)",
+   "moment": "Le matin ; mer parfois agitée en hiver quand le vent souffle du nord",
+   "texte": "Quatre récifs posés au milieu du détroit, face à l'île de Tiran : Gordon, Thomas, Woodhouse et Jackson, avec ses épaves de cargos échoués qui servent de repère. L'eau est d'une clarté folle, les coraux intacts, et l'on nage au-dessus de jardins sous-marins à quelques mètres de la surface.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Les bateaux partent du port de Charm (Travco ou Naama). On ne débarque pas sur l'île de Tiran elle-même.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Mr.Rosewater",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gordon_Reef-Lullia.jpg",
+    "src": "img/activites/SSH/tiran.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "naama-bay",
+   "nom": "Naama Bay, la promenade du soir",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Naama Bay",
+   "lat": 27.9113,
+   "lng": 34.33,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade et plage publique",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le soir, quand la chaleur tombe et que la promenade s'illumine",
+   "texte": "Le cœur battant de Charm : une baie en croissant bordée de palmiers, une promenade piétonne le long de la plage, des terrasses, des bars à chicha et des boutiques ouvertes tard. Le soir, toute la ville s'y retrouve pour flâner les pieds dans le sable.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Les rabatteurs sont insistants : un « non merci » souriant suffit. Mettez-vous d'accord sur le prix avant de vous asseoir.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Michael Botros",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Naama_Bay_promenade.jpg",
+    "src": "img/activites/SSH/naama-bay.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "soho",
+   "nom": "Soho Square et sa fontaine dansante",
+   "emoji": "⛲",
+   "type": "sortir",
+   "quartier": "Sharks Bay",
+   "lat": 27.9627,
+   "lng": 34.394,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès à la place et spectacle de la fontaine",
+     "gratuit"
+    ],
+    [
+     "Patinoire, bowling, bar de glace",
+     "payants sur place"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le soir, pour le spectacle de la fontaine et les lumières",
+   "texte": "Une place piétonne pensée comme un décor de cinéma : fontaine qui danse en musique, guirlandes lumineuses, restaurants en terrasse, patinoire en plein désert et bar de glace. C'est kitsch, joyeux et très familial : la sortie du soir préférée des enfants.",
+   "site_officiel": "https://www.soho-sharm.com/",
+   "enfants": true,
+   "photo": {
+    "auteur": "Michael Botros",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SoHo_Square_Sharm.jpg",
+    "src": "img/activites/SSH/soho.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "vieux-marche",
+   "nom": "Vieux marché et mosquée Al-Sahaba",
+   "emoji": "🕌",
+   "type": "balade",
+   "quartier": "Vieux Charm (Sharm el-Maya)",
+   "lat": 27.8664,
+   "lng": 34.295,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans le souk",
+     "gratuit"
+    ],
+    [
+     "Mosquée Al-Sahaba (vue de l'extérieur)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de journée, quand la mosquée s'illumine",
+   "texte": "Le Charm d'avant les grands hôtels : un souk aux épices, aux lanternes et aux nappes brodées, des cafés où l'on fume la chicha, et au bout de la rue la mosquée Al-Sahaba, ses dômes et ses minarets de style ottoman, qui brille comme un palais des Mille et Une Nuits à la nuit tombée.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Tenue couvrant épaules et genoux près de la mosquée. Dans le souk, le premier prix annoncé est souvent trois fois trop cher : on marchande en souriant.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Jkordik",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Al_Sahaba_Mosque_Sharm_El_Sheikh%2C_30.12.2022.jpg",
+    "src": "img/activites/SSH/vieux-marche.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "cathedrale",
+   "nom": "Cathédrale copte Al-Samayeen",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Hay El Nour (centre)",
+   "lat": 27.888,
+   "lng": 34.2955,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée, en dehors des offices",
+   "texte": "De l'extérieur, une grande église blanche ; à l'intérieur, un éblouissement : la voûte entière est couverte de fresques aux couleurs vives, des scènes de la Bible peintes par des artistes coptes, sous des lustres de cristal. L'une des plus belles surprises de Charm, à deux pas de la mosquée.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Tenue couvrant épaules et genoux. Les photos sont tolérées sans flash, en silence pendant les prières.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Johnny 201",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SKY_CHURCH_INSIDE.JPG",
+    "src": "img/activites/SSH/cathedrale.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "ras-um-sid",
+   "nom": "Ras Um Sid : le récif depuis la plage",
+   "emoji": "🤿",
+   "type": "plage",
+   "quartier": "Hadaba (Ras Um Sid)",
+   "lat": 27.8482,
+   "lng": 34.3142,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Plage El Fanar : transat, douche, accès direct au récif par un ponton",
+     "≈ 10 $ (9 €)"
+    ],
+    [
+     "Depuis la plage publique, à la nage",
+     "gratuit"
+    ],
+    [
+     "Masque et tuba",
+     "en location sur place, ou à apporter"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "Le matin, avant le vent de l'après-midi",
+   "texte": "Pas besoin de bateau : au pied du phare, une échelle descend directement sur le récif. Poissons-clowns, poissons-anges, bénitiers géants à un mètre sous la surface, puis le tombant qui plonge dans le bleu. Le meilleur snorkeling depuis la plage de tout Charm.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Le courant peut être fort au bout du cap : restez près du ponton, avec des palmes. Le Farsha Café est juste au-dessus.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Serhio Magpie",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gold_Beach_at_Ras_Um_Sid_Bay.jpg",
+    "src": "img/activites/SSH/ras-um-sid.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "bapteme",
+   "nom": "Baptême de plongée en mer Rouge",
+   "emoji": "🫧",
+   "type": "sport",
+   "quartier": "Naama Bay et Hadaba (centres de plongée)",
+   "lat": 27.9095,
+   "lng": 34.3248,
+   "prix": 55,
+   "prix_detail": [
+    [
+     "Baptême PADI : 1 plongée en demi-journée, moniteur et matériel",
+     "≈ 45 à 65 €"
+    ],
+    [
+     "2 plongées dans la journée en bateau",
+     "≈ 95 à 110 €"
+    ],
+    [
+     "Taxe du parc pour les sorties en bateau",
+     "≈ 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 ou 2 jours avant",
+   "duree": "Demi-journée",
+   "moment": "Le matin ; pas de vol en avion dans les 24 h qui suivent",
+   "texte": "Charm est l'un des plus beaux endroits du monde pour une première plongée : eau chaude et claire, pas de courant dans les baies, et des coraux multicolores dès cinq mètres de fond. Après quelques minutes d'explications, un moniteur vous tient la main et vous respirez sous l'eau au milieu des poissons.",
+   "site_officiel": "https://www.circledivers.com/diving-in-sharm-el-sheikh/booking",
+   "note": "À partir de 10 ans. Choisissez un centre agréé PADI ou SSI. Il existe deux caissons de décompression à Charm.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Jacek Lesniowski",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Divers_-_panoramio.jpg",
+    "src": "img/activites/SSH/bapteme.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "thistlegorm",
+   "nom": "L'épave du Thistlegorm (plongeurs confirmés)",
+   "emoji": "⚓",
+   "type": "sport",
+   "quartier": "Golfe de Suez (3 h de bateau)",
+   "lat": 27.8141,
+   "lng": 33.92,
+   "prix": 145,
+   "prix_detail": [
+    [
+     "Journée en bateau, 2 plongées sur l'épave, repas compris",
+     "≈ 120 à 160 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 145,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant (départ vers 4 h du matin)",
+   "duree": "Journée entière",
+   "moment": "Quand la mer est calme, surtout de mars à novembre",
+   "texte": "La plus célèbre épave du monde : un cargo britannique coulé en 1941 avec sa cargaison intacte. On y voit encore les motos, les camions, les wagons et les locomotives, couverts de corail. Un musée de la Seconde Guerre mondiale à 30 mètres sous la mer.",
+   "site_officiel": "https://www.circledivers.com/diving-in-sharm-el-sheikh/booking",
+   "note": "Réservé aux plongeurs certifiés (niveau 2 ou Advanced conseillé). Pas pour les débutants ni les enfants.",
+   "enfants": false,
+   "photo": {
+    "auteur": "Hagainativ",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SS_Thistlegorm_upper_deck.jpg",
+    "src": "img/activites/SSH/thistlegorm.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "quad",
+   "nom": "Quad, dromadaire et dîner bédouin dans le désert",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Désert du Sinaï (20 min)",
+   "lat": 27.955,
+   "lng": 34.29,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Quad 1 h, balade à dromadaire, dîner bédouin et spectacle, transfert compris",
+     "≈ 25 à 35 €"
+    ],
+    [
+     "Avec observation des étoiles au télescope",
+     "≈ 35 à 45 €"
+    ],
+    [
+     "Buggy de luxe, privé",
+     "≈ 100 € et plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Fin de journée (14 h - 21 h)",
+   "moment": "Au coucher du soleil, quand les montagnes deviennent roses, puis sous les étoiles",
+   "texte": "À vingt minutes des hôtels, le vrai désert : pistes de sable entre des montagnes de granit rouge, une halte dans un campement bédouin pour boire le thé à la sauge, une balade à dos de dromadaire au soleil couchant, puis un dîner autour du feu sous un ciel plein d'étoiles.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Les enfants montent en passager sur le quad d'un adulte. Prévoyez un foulard contre la poussière et une petite laine pour le soir en hiver.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Gerd Eichmann",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sinai-Kameltour-1232-Kameltour-Karawane-2009-gje.jpg",
+    "src": "img/activites/SSH/quad.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "sainte-catherine",
+   "nom": "Monastère Sainte-Catherine, au pied du mont Sinaï",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Sainte-Catherine (2 h 30 de route)",
+   "lat": 28.5559,
+   "lng": 33.9759,
+   "prix": 65,
+   "prix_detail": [
+    [
+     "Excursion à la journée en minibus, guide et déjeuner (souvent avec un arrêt à Dahab)",
+     "≈ 55 à 75 €"
+    ],
+    [
+     "Entrée du monastère",
+     "quelques euros, sur place"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 65,
+    "enfants": [
+     [
+      11,
+      40
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant",
+   "duree": "Journée entière",
+   "moment": "Ouvert de 9 h à midi, fermé le vendredi, le dimanche et aux fêtes orthodoxes",
+   "texte": "Au fond d'une vallée de montagnes rouges, le plus vieux monastère chrétien encore habité au monde, fondé il y a près de 1 500 ans au pied du mont où Moïse aurait reçu les Tables de la Loi. Ses murs de forteresse abritent des icônes uniques et le « buisson ardent ». Un lieu hors du temps, classé à l'Unesco.",
+   "site_officiel": "https://www.sinaimonastery.com/index.php/en/",
+   "note": "France Diplomatie conseille de ne pas faire de nuit le trajet entre la côte et le monastère : préférez une excursion de jour à la montée nocturne du mont Sinaï pour le lever du soleil. Le visa « Sinaï » gratuit donné à l'aéroport ne couvre pas cette sortie : prenez le visa touristique complet (30 $) à l'arrivée.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Dr. Ondřej Havelka (cestovatel)",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_full_view_of_Saint_Catherine%27s_Monastery.jpg",
+    "src": "img/activites/SSH/sainte-catherine.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "blue-hole",
+   "nom": "Dahab et le Blue Hole",
+   "emoji": "💙",
+   "type": "nature",
+   "quartier": "Dahab (1 h 15 de route)",
+   "lat": 28.5723,
+   "lng": 34.5374,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Journée en 4x4 ou en bus : Blue Hole, snorkeling, déjeuner, temps libre à Dahab",
+     "≈ 30 à 50 €"
+    ],
+    [
+     "Taxe de la zone protégée de Dahab",
+     "≈ 20 € par personne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      11,
+      22
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant",
+   "duree": "Journée entière",
+   "moment": "Le matin pour le snorkeling, l'eau est la plus claire",
+   "texte": "Un trou d'un bleu presque noir au milieu du récif, à quelques mètres du rivage : le Blue Hole, mythique chez les plongeurs, se découvre aussi en simple masque et tuba sur le bord, où le corail fourmille de poissons. Puis Dahab, l'ancien village bédouin devenu repaire de voyageurs, ses cafés sur l'eau et son air de bout du monde.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Ne plongez pas dans l'arche du Blue Hole : c'est réservé aux plongeurs très expérimentés. Le visa « Sinaï » gratuit donné à l'aéroport ne couvre pas cette sortie : prenez le visa touristique complet (30 $) à l'arrivée.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Petar Milošević",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Whole%2C_Dahab.jpg",
+    "src": "img/activites/SSH/blue-hole.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "canyon",
+   "nom": "Le Canyon coloré",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Près de Nuweiba (2 h 30 de route)",
+   "lat": 29.1489,
+   "lng": 34.5929,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Journée en 4x4 : marche dans le canyon, déjeuner, souvent avec Dahab",
+     "≈ 30 à 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": [
+     [
+      11,
+      25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 jours avant",
+   "duree": "Journée entière",
+   "moment": "Le matin, avant la chaleur ; d'octobre à avril",
+   "texte": "Une faille étroite où les parois de grès, sculptées par le vent, prennent toutes les couleurs : rouge, ocre, jaune, violet, blanc. On marche entre des murs qui se resserrent parfois à hauteur d'épaules, dans un silence total. Un paysage d'une autre planète, à photographier à chaque pas.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "Marche d'environ 1 h 30 avec quelques passages à escalader : bonnes chaussures indispensables. Le visa « Sinaï » gratuit donné à l'aéroport ne couvre pas cette sortie : prenez le visa touristique complet (30 $) à l'arrivée.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Ahmed Emad Hamdy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Coloured_canyon.jpg",
+    "src": "img/activites/SSH/canyon.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "le-caire",
+   "nom": "Le Caire et les pyramides en une journée",
+   "emoji": "🔺",
+   "type": "nature",
+   "quartier": "Le Caire (1 h de vol)",
+   "lat": 29.9792,
+   "lng": 31.1342,
+   "prix": 330,
+   "prix_detail": [
+    [
+     "En avion aller-retour : pyramides de Gizeh, Sphinx, Grand Musée égyptien, guide et déjeuner",
+     "≈ 300 à 380 €"
+    ],
+    [
+     "En bus (7 h de route dans chaque sens, départ en pleine nuit)",
+     "≈ 100 à 130 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 330,
+    "enfants": [
+     [
+      11,
+      280
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant (places d'avion)",
+   "duree": "Journée entière (5 h - 22 h)",
+   "moment": "Toute l'année ; plus agréable d'octobre à avril",
+   "texte": "Une journée inoubliable : se tenir au pied de la grande pyramide de Khéops, la seule des Sept Merveilles du monde encore debout, croiser le regard du Sphinx, puis découvrir le trésor de Toutânkhamon dans le tout nouveau Grand Musée égyptien. Long, mais on n'oublie jamais.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Préférez l'avion : la route de nuit à travers le Sinaï est longue et fatigante. Le visa « Sinaï » gratuit donné à l'aéroport ne couvre pas cette sortie : prenez le visa touristique complet (30 $) à l'arrivée.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Ricardo Liberato",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+    "src": "img/activites/SSH/le-caire.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "nabq",
+   "nom": "Parc naturel de Nabq : mangroves et villages bédouins",
+   "emoji": "🌿",
+   "type": "nature",
+   "quartier": "Nabq (35 km au nord)",
+   "lat": 28.12,
+   "lng": 34.43,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Demi-journée en 4x4 : mangroves, épave, village bédouin, déjeuner",
+     "≈ 30 à 40 €"
+    ],
+    [
+     "Taxe du parc",
+     "≈ 7 € par personne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Demi-journée",
+   "moment": "Le matin, quand les oiseaux sont les plus nombreux",
+   "texte": "La côte sauvage au nord de Charm : la forêt de mangroves la plus au nord du monde, les dunes, les hérons et les gazelles, une épave échouée sur le rivage et un village bédouin où l'on partage le thé et le pain cuit sous la cendre. La mer Rouge sans un seul hôtel à l'horizon.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "enfants": true,
+   "photo": {
+    "auteur": "Hatem Moushir",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nabq_Protected_Area_%2C_photo_by_Hatem_Moushir_22.jpg",
+    "src": "img/activites/SSH/nabq.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "parachute",
+   "nom": "Parachute ascensionnel au-dessus de la baie",
+   "emoji": "🪂",
+   "type": "sport",
+   "quartier": "Naama Bay",
+   "lat": 27.9125,
+   "lng": 34.3315,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Vol de 10 à 15 minutes, seul ou à deux",
+     "≈ 25 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur la plage, le jour même",
+   "duree": "1 h",
+   "moment": "Le matin, avant que le vent se lève",
+   "texte": "Tiré par un bateau, vous vous envolez doucement à 50 mètres au-dessus de la mer : en dessous, les récifs dessinent des taches turquoise et bleu marine, et la baie de Naama s'ouvre sur les montagnes du Sinaï. Un quart d'heure de pur plaisir, sans effort.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "note": "À partir de 6 ans environ, accompagné d'un adulte. Vérifiez que le bateau a des gilets et un parachute en bon état.",
+   "enfants": true,
+   "photo": {
+    "auteur": "Kora27",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wassersport_Parasailing_in_%C3%84gypten_IMG_9215WI.jpg",
+    "src": "img/activites/SSH/parachute.jpg"
+   },
+   "a_verifier": false
+  },
+  {
+   "id": "semi-sous-marin",
+   "nom": "Semi-sous-marin au-dessus du corail",
+   "emoji": "🛥️",
+   "type": "nature",
+   "quartier": "Port de Charm (Vieux Charm)",
+   "lat": 27.8605,
+   "lng": 34.2905,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Sortie de 1 h 30 à 2 h, transfert compris",
+     "≈ 30 à 40 €"
+    ],
+    [
+     "Enfant de 6 à 11 ans",
+     "≈ 25 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      11,
+      25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "2 h",
+   "moment": "En fin de matinée, quand la lumière éclaire les fonds",
+   "texte": "Pour voir le récif sans se mouiller : on descend dans la coque vitrée d'un bateau jaune et les coraux défilent derrière les hublots, avec les poissons-perroquets et les murènes. Parfait avec des enfants trop petits pour le masque et le tuba, ou pour les grands-parents.",
+   "site_officiel": "https://www.experienceegypt.eg/en/city/16/sharm-al-sheikh",
+   "enfants": true,
+   "photo": {
+    "auteur": "Kora27",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gelbes_Schiff_mit_Glasboden_im_Roten_Meer_in_%C3%84gypten_IMG_3012WI.jpg",
+    "src": "img/activites/SSH/semi-sous-marin.jpg"
+   },
+   "a_verifier": false
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "farsha",
+   "nom": "Farsha Café",
+   "emoji": "🪔",
+   "gamme": "petit",
+   "genre": "Café-lounge sur la falaise",
+   "quartier": "Hadaba (Ras Um Sid)",
+   "adresse": "Corniche de Ras Um Sid, Hadaba, Charm el-Cheikh",
+   "lat": 27.8497,
+   "lng": 34.3076,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Un repaire bédouin accroché à la falaise, fait de bois flotté, de tapis, de coussins et de centaines de lanternes, avec la mer à ses pieds. On y vient au coucher du soleil pour un thé à la menthe, un jus frais ou une chicha, et l'on reste quand les lumières s'allument. L'adresse la plus photographiée de Charm.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; arrivez avant le coucher du soleil pour avoir une place au bord",
+   "photo": {
+    "auteur": "Serhio Magpie",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Farsha_in_Sharm_el-Sheikh.jpg",
+    "src": "img/restos/SSH/farsha.jpg"
+   }
+  },
+  {
+   "id": "boharat",
+   "nom": "Boharat",
+   "emoji": "🍢",
+   "gamme": "petit",
+   "genre": "Cuisine égyptienne et grillades",
+   "quartier": "Naama Bay",
+   "adresse": "Rue du roi de Bahreïn, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9081,
+   "lng": 34.3242,
+   "prix": "8 à 18 €",
+   "prix_min": 8,
+   "texte": "La bonne table égyptienne de Naama : mezzés maison (tahina, baba ghanoug, feuilles de vigne), pain tout chaud, kofta et brochettes grillées qu'on finit de cuire à table. Copieux, généreux, servi avec le sourire, et le thé offert à la fin.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Leslie Seaton from Seattle, WA, USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Entree_%286139521904%29.jpg",
+    "src": "img/restos/SSH/boharat.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fish-mart",
+   "nom": "Fish Mart",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson au poids",
+   "quartier": "Vieux Charm (Sharm el-Maya)",
+   "adresse": "Rue de la mosquée Al-Sahaba, vieux marché, Charm el-Cheikh",
+   "lat": 27.8662,
+   "lng": 34.2942,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "texte": "On choisit son poisson sur la glace, on le fait peser, puis on décide : grillé, frit ou à la sauce égyptienne, servi avec riz aux épices, salades et pain. Soupe de fruits de mer, crevettes et calamars à prix doux, à deux pas de la mosquée.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dorade_royale_grill%C3%A9e.jpg",
+    "src": "img/restos/SSH/fish-mart.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "basata",
+   "nom": "Basata Café",
+   "emoji": "🏖️",
+   "gamme": "petit",
+   "genre": "Café de plage",
+   "quartier": "Sharks Bay",
+   "adresse": "Sharks Bay Oasis, Sharks Bay, Charm el-Cheikh",
+   "lat": 27.9527,
+   "lng": 34.3865,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "Un café en bois et en tissus colorés posé sur les rochers de Sharks Bay, les pieds presque dans l'eau. Grillades, burgers, smoothies et milkshakes, musique douce et vue sur la baie : l'endroit idéal pour une pause entre deux baignades.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Daniel Csörföly",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:SharmElSheikhEgypt-SharksBay_byDanielCsorfoly.JPG",
+    "src": "img/restos/SSH/basata.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "julia",
+   "nom": "Julia Café",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glacier et crêpes",
+   "quartier": "Naama Bay",
+   "adresse": "Rue Sultan-Qabous, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9106,
+   "lng": 34.323,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "texte": "Le meilleur gelato de Naama : glaces maison aux fruits frais, pistache, mangue, à déguster en terrasse avec une crêpe, une gaufre ou un café. La halte sucrée de la promenade du soir, ouverte très tard.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Shoichi Iwashita",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dia_de_fazer_tira-teima_das_sorveterias_verdadeiramente_artesanais_%2826041653800%29.jpg",
+    "src": "img/restos/SSH/julia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "german-bakery",
+   "nom": "German Bakery",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie et petit-déjeuner",
+   "quartier": "Vieux Charm (Sharm el-Maya)",
+   "adresse": "Peace Road, Kennedy Mall n° 6, vieux marché, Charm el-Cheikh",
+   "lat": 27.867,
+   "lng": 34.2995,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "texte": "Pain au levain, viennoiseries, gâteaux et vrai café : la boulangerie qui fait du bien aux voyageurs lassés des buffets d'hôtel. Parfaite pour un petit-déjeuner avant de flâner dans le vieux marché.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Agelaia",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sourdough_Bread_Loaf.jpg",
+    "src": "img/restos/SSH/german-bakery.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mahony",
+   "nom": "Mahony",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Naama Bay",
+   "adresse": "Naama Bay Mall n° 6, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9114,
+   "lng": 34.3212,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Une cour aux murs de pierre et aux lanternes, un air de vieille maison du Sinaï, et dans l'assiette la mer Rouge : soupes de fruits de mer, crevettes géantes, poisson du jour grillé. L'une des adresses les plus aimées de Naama, pour un dîner sans chichis.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table le soir",
+   "photo": {
+    "auteur": "LEONARDO DASILVA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brazilian_seafood_soup.jpg",
+    "src": "img/restos/SSH/mahony.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pomodoro",
+   "nom": "Pomodoro",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Italien",
+   "quartier": "Naama Bay",
+   "adresse": "Camel Dive Club, rue du roi de Bahreïn, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9095,
+   "lng": 34.3251,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 2003, la trattoria de Naama : pâtes fraîches roulées chaque matin, pizzas cuites au feu de bois avec de la farine napolitaine, poissons grillés. Une terrasse animée au cœur de la baie, et des Italiens en vacances qui reviennent chaque année.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en haute saison",
+   "photo": {
+    "auteur": "Fabryx98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza-napoletana.jpg",
+    "src": "img/restos/SSH/pomodoro.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "camel-bar",
+   "nom": "Camel Bar & Rooftop",
+   "emoji": "🍸",
+   "gamme": "moyen",
+   "genre": "Bar sur le toit",
+   "quartier": "Naama Bay",
+   "adresse": "Camel Dive Club, rue du roi de Bahreïn, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9096,
+   "lng": 34.3249,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le bar des plongeurs depuis 1986, perché sur le toit du Camel Dive Club : cocktails au coucher du soleil, burgers, nachos et pizzas, musique live certains soirs, et toute la baie de Naama à vos pieds quand elle s'illumine.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Cocktailmarler",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adonis_Cocktail.JPG",
+    "src": "img/restos/SSH/camel-bar.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "taksim",
+   "nom": "Taksim",
+   "emoji": "🥙",
+   "gamme": "moyen",
+   "genre": "Cuisine turque",
+   "quartier": "Vieux Charm (Sharm el-Maya)",
+   "adresse": "Route El-Salam, vieux marché, Charm el-Cheikh",
+   "lat": 27.8664,
+   "lng": 34.298,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "texte": "Pides sortis du four, kebabs grillés au charbon, mezzés et baklavas : une cuisine turque généreuse servie dans une salle chaleureuse, à deux pas du vieux marché. L'adresse qui fait l'unanimité chez les habitants comme chez les voyageurs.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ka%C5%9Farl%C4%B1_pide_in_Ankara.jpg",
+    "src": "img/restos/SSH/taksim.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "arab-bucks",
+   "nom": "Arab Bucks",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Grillades et steaks",
+   "quartier": "Nabq",
+   "adresse": "La Strada, Nabq Bay, Charm el-Cheikh",
+   "lat": 28.0456,
+   "lng": 34.4298,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Le repaire préféré des vacanciers de Nabq quand ils s'échappent de leur hôtel : steaks épais, grillades et frites maison, bière fraîche, matchs de foot à l'écran et une équipe qui met l'ambiance. Simple, copieux et très bon marché pour la qualité.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Jon Sullivan",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ribeyes.jpeg",
+    "src": "img/restos/SSH/arab-bucks.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fairuz",
+   "nom": "Fairuz",
+   "emoji": "🧆",
+   "gamme": "moyen",
+   "genre": "Libanais",
+   "quartier": "Naama Bay",
+   "adresse": "Naama Centre, rue du roi de Bahreïn, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9091,
+   "lng": 34.325,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Le libanais de Naama Bay : houmous, moutabal, taboulé, foies de volaille à la mélasse de grenade, saucisses épicées et pain tout juste sorti du four. Beaucoup de choix végétariens, des portions généreuses et une terrasse sur la rue animée.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Orenrosenfeld",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hummus_plate.jpg",
+    "src": "img/restos/SSH/fairuz.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sala-thai",
+   "nom": "Sala Thai",
+   "emoji": "🍛",
+   "gamme": "haut",
+   "genre": "Thaïlandais",
+   "quartier": "Naama Bay (Park Regency)",
+   "adresse": "Park Regency (ancien Hyatt Regency), Gardens Bay, Charm el-Cheikh",
+   "lat": 27.9158,
+   "lng": 34.3486,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "texte": "Une maison de bois sculpté sur pilotis, au-dessus de la mer, où une cuisinière thaïlandaise prépare le tom yum, les currys et le pad thaï comme à Bangkok. Grandes baies vitrées, lumière tamisée, vue sur les récifs : la table romantique de Charm.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille, auprès de l'hôtel ; dîner seulement",
+   "photo": {
+    "auteur": "Alpha from Melbourne, Australia",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panangbeefcurry.jpg",
+    "src": "img/restos/SSH/sala-thai.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "rangoli",
+   "nom": "Rangoli",
+   "emoji": "🍲",
+   "gamme": "haut",
+   "genre": "Indien",
+   "quartier": "Naama Bay (Mövenpick)",
+   "adresse": "Mövenpick Resort, Naama Bay, Charm el-Cheikh",
+   "lat": 27.9138,
+   "lng": 34.3403,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "Perché sur la colline du Mövenpick, la terrasse offre l'une des plus belles vues sur la baie de Naama au coucher du soleil. On y sert currys, tandooris et naans au fromage, au son de musique indienne. Venez pour la vue, restez pour le butter chicken.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille, auprès de l'hôtel ; dîner seulement",
+   "photo": {
+    "auteur": "Joshua",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Butter_Chicken_and_Naan.jpg",
+    "src": "img/restos/SSH/rangoli.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bullona",
+   "nom": "Bullona",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Méditerranéen chic",
+   "quartier": "Sharks Bay (Four Seasons)",
+   "adresse": "Four Seasons Resort, 1 Four Seasons Boulevard, Charm el-Cheikh",
+   "lat": 27.9582,
+   "lng": 34.3946,
+   "prix": "70 à 100 €",
+   "prix_min": 70,
+   "texte": "La table du Four Seasons, venue de Milan : bar à crudo, gambas rouges, poissons de la mer Rouge et pâtes fines, servis autour d'un grand comptoir rond ou en terrasse au bord du lagon. La soirée chic du séjour.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; dîner seulement, certains soirs de la semaine",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thana_Fine_Dining_plate.jpg",
+    "src": "img/restos/SSH/bullona.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "il-frantoio",
+   "nom": "Il Frantoio",
+   "emoji": "🍝",
+   "gamme": "haut",
+   "genre": "Italien gastronomique",
+   "quartier": "Sharks Bay (Four Seasons)",
+   "adresse": "Four Seasons Resort, 1 Four Seasons Boulevard, Charm el-Cheikh",
+   "lat": 27.9578,
+   "lng": 34.394,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "texte": "Raviolis faits main, mérou de la mer Rouge, veau au jus : une cuisine italienne raffinée servie dans une cour à fontaine, face à la mer. Le plaisir d'un grand hôtel, dans une ambiance calme et élégante.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille ; dîner seulement",
+   "photo": {
+    "auteur": "Toniher",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Linguine-alle-vongole.jpg",
+    "src": "img/restos/SSH/il-frantoio.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "felucca",
+   "nom": "Felucca",
+   "emoji": "🐙",
+   "gamme": "haut",
+   "genre": "Fruits de mer en bord de plage",
+   "quartier": "Sharks Bay",
+   "adresse": "Route Pyramisa, Sharks Bay, Charm el-Cheikh",
+   "lat": 27.9424,
+   "lng": 34.3831,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "Langouste, crevettes, poulpe et poisson du jour, servis dans une belle présentation à quelques pas de la plage, au bruit des vagues. L'adresse pour un vrai dîner de fruits de mer en tête-à-tête.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Assiette_de_fruits_de_mer_March%C3%A9_des_Capucins_Bordeaux_%282%29.jpg",
+    "src": "img/restos/SSH/felucca.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "motion",
+   "nom": "Motion",
+   "emoji": "🌮",
+   "gamme": "haut",
+   "genre": "Restaurant-lounge festif",
+   "quartier": "Nabq",
+   "adresse": "La Strada Mall, Nabq Bay, Charm el-Cheikh",
+   "lat": 28.045,
+   "lng": 34.4297,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "texte": "Restaurant, lounge et club à la fois : fajitas grésillantes, steaks, pâtes et cocktails dans un décor soigné, puis la musique monte et la soirée continue jusque tard. L'adresse branchée de Nabq pour un dîner qui se prolonge.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "Jon Sullivan",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_fajitas_limes.jpg",
+    "src": "img/restos/SSH/motion.jpg",
+    "illustration": true
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "naama-bay",
+   "nom": "Naama Bay",
+   "lat": 27.9113,
+   "lng": 34.329,
+   "texte": "Le cœur animé de Charm : la plage, la promenade, les restaurants et les bars à deux pas. Idéal pour sortir le soir à pied ; plus bruyant, et les plages des hôtels y sont moins sauvages."
+  },
+  {
+   "id": "hadaba",
+   "nom": "Hadaba (Ras Um Sid)",
+   "lat": 27.856,
+   "lng": 34.308,
+   "texte": "Le plateau sur la falaise, au sud : le meilleur snorkeling depuis la plage (récif de Ras Um Sid), le Farsha Café et des hôtels à petits prix. Les plages sont en contrebas, souvent par un escalier ou un ascenseur."
+  },
+  {
+   "id": "vieux-charm",
+   "nom": "Vieux Charm (Sharm el-Maya)",
+   "lat": 27.864,
+   "lng": 34.296,
+   "texte": "Autour du vieux marché et de la mosquée Al-Sahaba : la vie égyptienne, les bons restaurants de poisson, le port des bateaux pour Ras Mohammed. Peu d'hôtels avec plage, mais les prix les plus doux."
+  },
+  {
+   "id": "sharks-bay",
+   "nom": "Sharks Bay",
+   "lat": 27.962,
+   "lng": 34.393,
+   "texte": "Une baie au récif magnifique, à 10 minutes de l'aéroport, avec Soho Square et le Four Seasons : hôtels avec un beau corail devant la plage, ambiance plus calme et familiale."
+  },
+  {
+   "id": "nabq",
+   "nom": "Nabq",
+   "lat": 28.04,
+   "lng": 34.432,
+   "texte": "La zone la plus récente, au nord : grands hôtels tout compris avec parcs aquatiques, longue plage face à l'île de Tiran, quelques restaurants autour de La Strada. Loin de tout sans taxi, mais parfait pour se poser."
+  }
+ ]
+}
