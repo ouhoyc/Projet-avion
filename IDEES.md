@@ -300,6 +300,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (Bib Gourmand, fermé définitivement) et Yaza (fermé temporairement), Karamna (3,9), Alieia (3,7), centre d’art Hayy Jameel (pas de photo libre),
   Maison des arts islamiques (prix incertain). 21 photos d'illustration (plats), dont teamLab (photo de Tokyo).
 
+- ✅ (09/11/2026) **Page guide de Milan** (`guides/MIL.json`), préparée en autonomie : 27 activités (Duomo et terrasses (Duomo Pass 22 € à pied,
+  26 € en ascenseur ; moitié prix de 6 à 18 ans), Cène de Léonard (15 € ; 2 € de 18 à 25 ans ; gratuit avant 18 ans ; ventes par trimestre +
+  places ajoutées le mercredi à midi), Galerie Victor-Emmanuel II, château des Sforza (10 € depuis la hausse des musées municipaux du
+  10/05/2026), parc Sempione, Pinacothèque de Brera (15 €), ruelles de Brera, Navigli à l'apéritif, Porta Nuova et Bosco Verticale, musée de la
+  Scala (12 € ; 8 € de 6 à 18 ans), Fondation Prada (15 €), San Maurizio, San Satiro, Sant'Ambrogio, cimetière monumental, villa Necchi
+  (15 € ; 9 € de 6 à 18 ans), musée du Novecento (10 €), Ambrosienne (17 €), musée des sciences (10 €), match à San Siro (`club` = Inter, visite
+  du stade 30 €), lac de Côme et Bergame en train, HangarBicocca, tram de 1928 (2,20 €, paiement sans contact depuis 2026), QC Termemilano,
+  Quadrilatère de la mode, colonnes de San Lorenzo), 18 restaurants (note pondérée, ~1 200 lieux lus via 87 listes Wanderlog, géo 9624 ;
+  Michelin 2026 : Enrico Bartolini al Mudec 3 étoiles, Seta 2 étoiles, IYO et Il Luogo di Aimo e Nadia 1 étoile, Trippa Bib Gourmand),
+  5 quartiers, pas de formalités (Union européenne), `prix_match` 40 €. **Réseaux sociaux (Apify) non lancés** (crédit du mois épuisé) :
+  badges tendance d'après le web (sources citées par Wanderlog). Écartés : Cracco (note 3,7), Giacomo Arengario (4,1), Spontini (4,2),
+  Antica Trattoria della Pesa (4,2), Terrazza Aperol (3,7), Casa degli Atellani / vigne de Léonard (fermée aux visites depuis 2023).
+  Prix estimés (sites officiels bloqués ou muets) : Duomo (billetterie protégée, prix d'une source de juillet 2026), Prada, Ambrosienne
+  (enfants), musée des sciences, San Siro, QC Termemilano (≈ 70 à 90 €), trains Trenord, et les restaurants sans carte en ligne.
+  16 photos d'illustration (plats) ; Luini et Terrazza Gallia (hôtel Excelsior Gallia) en vraies photos.
 - ✅ (08/11/2026) **Page guide de Dubrovnik** (`guides/DBV.json`), préparée en autonomie : 21 activités (remparts (40 € ; 15 € de 7 à 18 ans ;
   le Dubrovnik Pass 1 jour coûte aussi 40 € et ajoute musées et bus), Stradun, forteresse Lovrijenac (15 €, comprise avec les remparts),
   téléphérique du Srđ (30 € ; 8 € de 4 à 12 ans ; fermé de décembre à mars), île de Lokrum (30 € ; 5 € de 7 à 18 ans), palais du Recteur
@@ -532,7 +547,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

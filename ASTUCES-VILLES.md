@@ -178,3 +178,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   et la grille officielle de Circle Divers (`circledivers.com/diving-in-sharm-el-sheikh/booking` : baptême, taxe du parc). Four Seasons
   bloque (Akamai). Codes plus de Google (« V78W+H39 ») : préfixe `7GVP` pour Charm, utile quand Nominatim ne connaît pas le lieu.
 
+- Milan (nov. 2026) : Wanderlog géo 9624 (départ `geoCategory/90288`), listes « …-in-milan » : 87 listes, ~1 200 lieux. Michelin :
+  `guide.michelin.com/it/it/lombardia/milano/ristoranti/1-stella-michelin/2-stelle-michelin/3-stelle-michelin` et `/bib-gourmand` (Playwright,
+  `.card__menu`). Bloqués : billetterie du Duomo (pare-feu + file d'attente), Fondation Prada (Cloudflare), milanocastello.it (403) ; lisibles :
+  cenacolovinciano.org/en/info, museoscala.org (`…/museo-e-teatro/orari-e-biglietti.html`), fondoambiente.it (villa Necchi). Nouveaux prix des
+  musées municipaux (10/05/2026) : article mentelocale.it. Commons : recherche HTML (`ns6=1`) + `thumb.php` ; l'API répondait 429 : auteur et
+  licence lus sur la page `File:` (remplacer `&#95;` par `_` avant de chercher `fileinfotpl_aut`).

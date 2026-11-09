@@ -1,0 +1,1703 @@
+{
+ "city_code": "MIL",
+ "statut": "préparé en autonomie, prix relevés le 09/11/2026",
+ "verifie_le": "2026-11-09",
+ "prix_match": 40,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 140,
+ "activites": [
+  {
+   "id": "duomo",
+   "nom": "Le Duomo et ses terrasses",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Piazza del Duomo",
+   "lat": 45.464167,
+   "lng": 9.191612,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Duomo Pass « escaliers » (cathédrale, terrasses, musée, zone archéologique)",
+     "22 €"
+    ],
+    [
+     "Duomo Pass « ascenseur »",
+     "26 €"
+    ],
+    [
+     "De 6 à 18 ans",
+     "moitié prix (11 € ou 13 €)"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      11
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet daté en ligne quelques jours avant, sur le site officiel uniquement ; files d'attente longues au guichet",
+   "duree": "2 h 30",
+   "moment": "Le matin à l'ouverture (9 h) ou en fin d'après-midi, quand la lumière dore le marbre des terrasses",
+   "texte": "Six siècles de chantier, 3 400 statues et une forêt de flèches de marbre rose : le Duomo est la troisième plus grande église du monde. Mais le vrai choc est au-dessus : on marche sur les toits, entre les gargouilles et les pinacles, jusqu'au pied de la Madonnina dorée, avec tout Milan et, par temps clair, les Alpes à l'horizon.",
+   "site_officiel": "https://www.duomomilano.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Épaules et genoux couverts pour entrer dans la cathédrale (contrôle à l'entrée, sacs fouillés). La descente des terrasses se fait toujours à pied. Le Pass reste valable 72 h : faites la cathédrale et les toits deux jours différents si vous voulez.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Terragio67",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_-_Duomo_di_Milano_-_Monumento_a_Vittorio_Emanuele_II_-_Museo_del_Novecento_-_2023-09-12_18-18-40_001.jpg",
+    "src": "img/activites/MIL/duomo.jpg"
+   }
+  },
+  {
+   "id": "cenacle",
+   "nom": "La Cène de Léonard de Vinci",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Santa Maria delle Grazie (Magenta)",
+   "lat": 45.466715,
+   "lng": 9.16962,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte (25 ans et plus)",
+     "15 €"
+    ],
+    [
+     "De 18 à 25 ans",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit (réservation obligatoire)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès la mise en vente, deux à trois mois avant ; sinon, guettez les places ajoutées le mercredi à midi",
+   "duree": "45 min (dont 15 min devant la fresque)",
+   "moment": "Créneau fixe ; arrivez 30 minutes avant, sinon la place est perdue",
+   "texte": "Le plus célèbre repas de l'histoire de l'art, peint par Léonard de Vinci sur le mur du réfectoire d'un couvent vers 1495. On entre par petits groupes, après plusieurs sas qui protègent la fresque, et l'on a quinze minutes face à elle : le geste des apôtres, la perspective qui converge vers le Christ, le paysage dans les fenêtres. Un moment rare, qui se mérite.",
+   "site_officiel": "https://cenacolovinciano.org/",
+   "enfants": true,
+   "badges": [],
+   "note": "Les billets partent en quelques heures : ils sont mis en vente par trimestre (en septembre pour novembre à janvier, en décembre pour février à avril…), et quelques places sont ajoutées chaque mercredi à midi pour la semaine suivante. Méfiez-vous des sites qui revendent le billet trois ou quatre fois plus cher.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Léonard de Vinci",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALeonardo%2C_ultima_cena_%28restored%29_01.jpg",
+    "src": "img/activites/MIL/cenacle.jpg"
+   }
+  },
+  {
+   "id": "galleria",
+   "nom": "Galerie Victor-Emmanuel II",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Piazza del Duomo",
+   "lat": 45.465642,
+   "lng": 9.190006,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès à la galerie",
+     "gratuit"
+    ],
+    [
+     "Un café au comptoir",
+     "≈ 2 à 4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "À toute heure ; le soir, quand la verrière s'illumine et que la foule se calme",
+   "texte": "Le « salon de Milan » : une croix de rues couvertes d'une immense verrière, sous une coupole de 47 mètres, entre le Duomo et la Scala. Sous les mosaïques et les dorures s'alignent cafés historiques et boutiques de luxe. Tradition oblige, faites un tour sur vous-même, le talon posé sur le taureau du sol en mosaïque : ça porte bonheur.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Terragio67",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_-_Galleria_Vittorio_Emanuele_II_-_2023-09-16_21-58-09_001.jpg",
+    "src": "img/activites/MIL/galleria.jpg"
+   }
+  },
+  {
+   "id": "castello",
+   "nom": "Château des Sforza et Pietà Rondanini",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Castello Sforzesco",
+   "lat": 45.470301,
+   "lng": 9.178091,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Cours et jardins du château",
+     "gratuit"
+    ],
+    [
+     "Musées du château (dont la Pietà Rondanini)",
+     "10 €"
+    ],
+    [
+     "Réduit (18-25 ans, plus de 65 ans)",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Musées fermés le lundi ; gratuits pour tous le premier dimanche du mois",
+   "texte": "La forteresse de brique des ducs de Milan, avec sa tour de l'horloge, ses douves et ses grandes cours. À l'intérieur, une dizaine de musées, dont deux trésors : la salle des Planches, dont Léonard de Vinci a peint le plafond en treille d'arbres, et la Pietà Rondanini, la dernière sculpture de Michel-Ange, restée inachevée à sa mort.",
+   "site_officiel": "https://www.milanocastello.it/",
+   "enfants": true,
+   "badges": [],
+   "note": "Nouveaux tarifs des musées municipaux depuis le 10 mai 2026 (10 € au lieu de 5 €). La carte Milano Museo Card (15 €, un an) ouvre tous les musées municipaux : rentable dès deux musées (château + musée du Novecento).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Terragio67",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_-_Torre_del_Filarete_-_2023-09-23_21-06-02_001.jpg",
+    "src": "img/activites/MIL/castello.jpg"
+   }
+  },
+  {
+   "id": "sempione",
+   "nom": "Parc Sempione et Arc de la Paix",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Parco Sempione",
+   "lat": 45.473,
+   "lng": 9.1745,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et arc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, en enchaînant avec le château ; l'apéritif se prend ensuite dans le quartier de l'Arco della Pace",
+   "texte": "Le grand parc à l'anglaise qui s'étend derrière le château, avec ses pelouses, son petit lac et ses allées jusqu'à l'Arc de la Paix, l'arc de triomphe néoclassique voulu par Napoléon. C'est le jardin des Milanais : pique-nique, jogging, et la plus belle perspective de la ville, du château à l'arc.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alex Battagin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParco_Sempione_con_vista_Arco_della_Pace.jpg",
+    "src": "img/activites/MIL/sempione.jpg"
+   }
+  },
+  {
+   "id": "pinacotheque-brera",
+   "nom": "Pinacothèque de Brera",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Brera",
+   "lat": 45.472242,
+   "lng": 9.188407,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte",
+     "15 €"
+    ],
+    [
+     "Billet « Grande Brera » (avec le Palazzo Citterio)",
+     "20 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Nocturnes (certains jeudis, après 18 h)",
+     "3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet daté en ligne la veille ou le jour même ; indispensable le premier dimanche du mois",
+   "duree": "2 h",
+   "moment": "Fermée le lundi ; le premier dimanche du mois, entrée gratuite (et foule)",
+   "texte": "Le grand musée de peinture italienne, dans un palais à arcades où une statue de Napoléon nu trône au milieu de la cour. On y croise le Christ mort de Mantegna, vu en raccourci saisissant, le Mariage de la Vierge de Raphaël, le Caravage et le Baiser de Hayez, le tableau le plus romantique d'Italie.",
+   "site_officiel": "https://pinacotecabrera.org/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stefano Stabile",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APinacoteca_di_Brera_-_Milano_-_il_cortile_interno.JPG",
+    "src": "img/activites/MIL/pinacotheque-brera.jpg"
+   }
+  },
+  {
+   "id": "brera",
+   "nom": "Les ruelles de Brera",
+   "emoji": "🏮",
+   "type": "balade",
+   "quartier": "Brera",
+   "lat": 45.471842,
+   "lng": 9.184822,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Jardin botanique de Brera",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée, quand les terrasses se remplissent ; le troisième dimanche du mois, marché d'antiquaires via Fiori Chiari",
+   "texte": "Le quartier bohème de Milan : pavés, façades ocre couvertes de glycine, galeries d'art, boutiques de créateurs et terrasses où l'on prend l'apéritif. Perdez-vous via Fiori Chiari et via Madonnina, puis poussez la porte du petit jardin botanique caché derrière la pinacothèque, une parenthèse verte en plein centre.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FlavMi",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_-_via_Fiori_Chiari.jpg",
+    "src": "img/activites/MIL/brera.jpg"
+   }
+  },
+  {
+   "id": "navigli",
+   "nom": "Les Navigli à l'heure de l'apéritif",
+   "emoji": "🍹",
+   "type": "sortir",
+   "quartier": "Navigli (Darsena, Naviglio Grande)",
+   "lat": 45.45221,
+   "lng": 9.176234,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Balade le long des canaux",
+     "gratuit"
+    ],
+    [
+     "Un verre à l'apéritif, avec buffet ou amuse-bouches",
+     "≈ 10 à 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "De 18 h à 21 h, l'heure de l'aperitivo ; le dernier dimanche du mois, grand marché d'antiquités le long du Naviglio Grande",
+   "texte": "Les derniers canaux de Milan, creusés en partie sous la direction de Léonard de Vinci, sont devenus le quartier du soir. Le long du Naviglio Grande, on passe de la Darsena aux ponts de fer, aux ateliers d'artistes du Vicolo dei Lavandai et aux bars où l'apéritif s'accompagne d'un buffet. Le spritz face à l'eau, c'est Milan.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Au bar, l'« aperitivo » se paie au prix du verre (10 à 15 €) et donne accès aux amuse-bouches ou au buffet : de quoi remplacer un dîner léger.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zairon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_Naviglio_Grande_am_Abend_4.jpg",
+    "src": "img/activites/MIL/navigli.jpg"
+   }
+  },
+  {
+   "id": "porta-nuova",
+   "nom": "Porta Nuova et la « forêt verticale »",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "Porta Nuova et Isola",
+   "lat": 45.4845,
+   "lng": 9.1905,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Quartier, place Gae Aulenti et parc",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, quand les tours s'allument ; la Biblioteca degli Alberi est agréable le matin",
+   "texte": "Le Milan du XXIe siècle : la place Gae Aulenti et ses fontaines au pied de la tour UniCredit, puis le Bosco Verticale, deux tours couvertes de 900 arbres devenues l'emblème de la ville verte. Continuez dans le parc de la Biblioteca degli Alberi et dans les rues du quartier Isola, ses fresques murales et ses petits bars.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "BBB2021",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVertical_Forest_Tirana_2025%282%29.jpg",
+    "src": "img/activites/MIL/porta-nuova.jpg"
+   }
+  },
+  {
+   "id": "scala",
+   "nom": "La Scala : musée et vue sur la salle",
+   "emoji": "🎭",
+   "type": "culture",
+   "quartier": "Piazza della Scala",
+   "lat": 45.467311,
+   "lng": 9.189258,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte (date fixe)",
+     "12 €"
+    ],
+    [
+     "Billet « open », date libre",
+     "15 €"
+    ],
+    [
+     "De 6 à 18 ans, étudiants, plus de 65 ans",
+     "8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le matin, plutôt avant 11 h : la salle se visite seulement quand il n'y a pas de répétition",
+   "texte": "Le temple de l'opéra, où ont triomphé Verdi, Puccini et la Callas. Le musée garde costumes, instruments et souvenirs des grandes voix, mais le moment fort est l'entrée dans une loge : la salle rouge et or, ses six étages de balcons et son lustre de cristal s'ouvrent devant vous.",
+   "site_officiel": "https://www.museoscala.org/",
+   "enfants": true,
+   "badges": [],
+   "note": "Pour voir un spectacle, les places des galeries (les plus hautes) commencent autour de 15 à 30 € ; elles partent vite sur le site du théâtre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Quirinale",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File%3AInauguration_of_the_2022-2023_opera_and_ballet_season_of_the_Teatro_alla_Scala_%2811%29.jpg",
+    "src": "img/activites/MIL/scala.jpg"
+   }
+  },
+  {
+   "id": "prada",
+   "nom": "Fondation Prada et le Bar Luce",
+   "emoji": "🟨",
+   "type": "culture",
+   "quartier": "Largo Isarco (sud)",
+   "lat": 45.4446,
+   "lng": 9.2046,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte",
+     "15 €"
+    ],
+    [
+     "Bar Luce, cours et librairie",
+     "sans billet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Fermée le mardi ; venez de 10 h à 19 h, et finissez par un café au Bar Luce",
+   "texte": "Une ancienne distillerie transformée par l'architecte Rem Koolhaas en cité de l'art contemporain, avec sa « maison hantée » recouverte de feuilles d'or et sa tour blanche. Les expositions changent, la mise en scène reste spectaculaire. Le Bar Luce, décoré par le cinéaste Wes Anderson comme un café milanais des années 1950, est l'une des adresses les plus photographiées de la ville.",
+   "site_officiel": "https://www.fondazioneprada.org/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Prix d'entrée qui peut varier selon les expositions. Le Bar Luce est ouvert à tous, sans billet.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lalupa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALU02710.jpg",
+    "src": "img/activites/MIL/prada.jpg"
+   }
+  },
+  {
+   "id": "san-maurizio",
+   "nom": "San Maurizio, la « chapelle Sixtine de Milan »",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Corso Magenta",
+   "lat": 45.465409,
+   "lng": 9.178957,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Fermée le lundi ; à combiner avec la Cène et Sant'Ambrogio, à deux pas",
+   "texte": "Une façade sobre, et derrière, l'éblouissement : chaque centimètre de murs et de voûtes est couvert de fresques de la Renaissance, par Bernardino Luini et ses élèves. L'église est coupée en deux par une cloison, une partie pour les fidèles, l'autre pour les religieuses cloîtrées : passez de l'autre côté pour l'orgue et le chœur.",
+   "site_officiel": "https://www.museoarcheologicomilano.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Casalmaggiore Provincia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChiesa_di_San_Maurizio_al_Monastero_Maggiore_-_Milano_06.jpg",
+    "src": "img/activites/MIL/san-maurizio.jpg"
+   }
+  },
+  {
+   "id": "san-satiro",
+   "nom": "Santa Maria presso San Satiro et son trompe-l’œil",
+   "emoji": "👁️",
+   "type": "culture",
+   "quartier": "Via Torino, près du Duomo",
+   "lat": 45.462704,
+   "lng": 9.187834,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "En journée, en remontant la via Torino depuis le Duomo",
+   "texte": "Faute de place pour un vrai chœur, l'architecte Bramante l'a peint : l'abside profonde que vous voyez au fond de l'église ne mesure en réalité que 97 centimètres. Avancez vers l'autel, puis regardez de côté, et la perspective s'écrase sous vos yeux. Une des plus belles illusions de la Renaissance, à deux minutes du Duomo.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Helvio ricina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAutel_de_l%27%C3%A9glise_Santa_Maria_presso_San_Satiro_par_le_Bramante_%281%29.jpg",
+    "src": "img/activites/MIL/san-satiro.jpg"
+   }
+  },
+  {
+   "id": "sant-ambrogio",
+   "nom": "Basilique Sant'Ambrogio",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Sant'Ambrogio",
+   "lat": 45.462375,
+   "lng": 9.175845,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Basilique",
+     "gratuit"
+    ],
+    [
+     "Chapelle San Vittore in Ciel d'Oro (mosaïques)",
+     "≈ 2 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Le matin ou en fin d'après-midi, en dehors des offices",
+   "texte": "La plus ancienne grande église de Milan, fondée au IVe siècle par saint Ambroise, patron de la ville. Son atrium à arcades de brique rouge est un modèle de l'art roman lombard ; à l'intérieur, l'autel d'or carolingien et les mosaïques dorées d'une petite chapelle du Ve siècle, où figure le plus vieux portrait connu du saint.",
+   "site_officiel": "https://www.basilicasantambrogio.it/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lorenzo Fratti",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAtrio_di_sant%27Ambrogio_a_Milano.jpg",
+    "src": "img/activites/MIL/sant-ambrogio.jpg"
+   }
+  },
+  {
+   "id": "monumentale",
+   "nom": "Cimetière monumental",
+   "emoji": "🕊️",
+   "type": "culture",
+   "quartier": "Monumentale",
+   "lat": 45.487723,
+   "lng": 9.177801,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Fermé le lundi ; la lumière est plus belle en fin d'après-midi",
+   "texte": "Un musée à ciel ouvert : chaque grande famille milanaise s'est offert un tombeau signé par un sculpteur ou un architecte de renom. Temples miniatures, statues de marbre émouvantes, une pyramide, une colonne Trajane en réduction… Le Famedio, le panthéon à rayures blanches et noires de l'entrée, abrite les grands noms de la ville, dont l'écrivain Manzoni.",
+   "site_officiel": "https://www.comune.milano.it/",
+   "enfants": true,
+   "badges": [],
+   "note": "Plan gratuit à l'accueil, à droite de l'entrée : il indique les tombes les plus remarquables.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Seauton",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlfredo_Sassi_%281869-1952%29%2C_Tomba_della_Famiglia_Vigan%C3%B2_%281914%29._Cimitero_monumentale%2C_Milano.jpg",
+    "src": "img/activites/MIL/monumentale.jpg"
+   }
+  },
+  {
+   "id": "villa-necchi",
+   "nom": "Villa Necchi Campiglio",
+   "emoji": "🏡",
+   "type": "culture",
+   "quartier": "Porta Venezia (Palestro)",
+   "lat": 45.468222,
+   "lng": 9.201828,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte (villa et jardin, audioguide)",
+     "15 €"
+    ],
+    [
+     "De 6 à 18 ans, étudiants",
+     "9 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes, 2 enfants ou plus)",
+     "39 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      9
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant, sans frais ; le billet « flexible » (18 €) est remboursable jusqu'à 24 h avant",
+   "duree": "1 h 30",
+   "moment": "Fermée le lundi et le mardi ; venez à l'ouverture (10 h) pour profiter du jardin au calme",
+   "texte": "Une villa des années 1930 de la grande bourgeoisie milanaise, restée intacte avec ses boiseries, ses salons Art déco et sa piscine chauffée au milieu du jardin, l'une des premières de la ville. Le film « Amore » de Luca Guadagnino y a été tourné, et les flamants roses du jardin d'à côté, visibles par-dessus la grille, ajoutent à la magie.",
+   "site_officiel": "https://fondoambiente.it/luoghi/villa-necchi-campiglio",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Le café dans le jardin, près de la piscine, est ouvert sans billet de visite : idéal pour une pause.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dario Crespi",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVilla_Necchi_Campiglio_-_marzo_2013.JPG",
+    "src": "img/activites/MIL/villa-necchi.jpg"
+   }
+  },
+  {
+   "id": "novecento",
+   "nom": "Musée du Novecento",
+   "emoji": "🖌️",
+   "type": "culture",
+   "quartier": "Piazza del Duomo",
+   "lat": 45.463393,
+   "lng": 9.19023,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "Réduit (18-25 ans, plus de 65 ans)",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Fermé le lundi ; gardez la salle panoramique pour la fin",
+   "texte": "L'art italien du XXe siècle, des futuristes à Lucio Fontana, dans le palais de l'Arengario, au bord de la place du Duomo. On monte par une rampe en spirale jusqu'à la grande baie vitrée du dernier étage : un néon de Fontana au plafond, et la façade du Duomo en face, à portée de main.",
+   "site_officiel": "https://www.museodelnovecento.org/",
+   "enfants": true,
+   "badges": [],
+   "note": "Nouveau prix depuis le 10 mai 2026 (10 € au lieu de 5 €). La carte Milano Museo Card (15 €, un an) inclut ce musée et le château.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zairon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_Piazza_del_Duomo_Museo_del_Novecento_3.jpg",
+    "src": "img/activites/MIL/novecento.jpg"
+   }
+  },
+  {
+   "id": "ambrosiana",
+   "nom": "Pinacothèque Ambrosienne",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Piazza Pio XI, près du Duomo",
+   "lat": 45.46364,
+   "lng": 9.186007,
+   "prix": 17,
+   "prix_detail": [
+    [
+     "Adulte",
+     "17 €"
+    ],
+    [
+     "Réduit (dès 6 ans, étudiants, plus de 65 ans)",
+     "à partir de 5 €"
+    ],
+    [
+     "Avec la crypte du Saint-Sépulcre",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      14,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Fermée le lundi ; prévoyez du temps pour la salle des dessins de Léonard",
+   "texte": "Une bibliothèque-musée fondée en 1607 par un cardinal collectionneur. On y voit la Corbeille de fruits du Caravage, le Portrait d'un musicien de Léonard de Vinci et le carton géant de l'École d'Athènes de Raphaël, et, par roulement, les feuillets du Codex Atlanticus, les carnets de dessins et d'inventions de Léonard.",
+   "site_officiel": "https://www.ambrosiana.it/",
+   "enfants": true,
+   "badges": [],
+   "note": "Réservation en ligne possible avec 1,50 € de frais : au guichet, l'attente est rarement longue.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Riccardo Ortelli",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APinacoteca_Ambrosiana_-_Sala_Nicol%C3%B2_da_Bologna.jpg",
+    "src": "img/activites/MIL/ambrosiana.jpg"
+   }
+  },
+  {
+   "id": "science",
+   "nom": "Musée des sciences et des techniques Léonard de Vinci",
+   "emoji": "🚂",
+   "type": "culture",
+   "quartier": "Sant'Ambrogio",
+   "lat": 45.4627,
+   "lng": 9.1704,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "De 3 à 26 ans, plus de 65 ans",
+     "7,50 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Visite du sous-marin Toti (en plus)",
+     "≈ 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      7.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Fermé le lundi ; en semaine le matin, avant les groupes scolaires",
+   "texte": "Le plus grand musée scientifique d'Italie, dans un ancien monastère : une galerie de maquettes tirées des dessins de Léonard de Vinci, puis des locomotives, un trois-mâts, des avions et même un vrai sous-marin, le Toti, que l'on peut visiter. Le musée idéal pour une journée de pluie ou avec des enfants.",
+   "site_officiel": "https://www.museoscienza.org/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Museo nazionale della scienza e della tecnologia Leonardo da Vinci",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANave_sottomarino_-_Museo_scienza_tecnologia_Milano_09676.jpg",
+    "src": "img/activites/MIL/science.jpg"
+   }
+  },
+  {
+   "id": "san-siro",
+   "nom": "Match à San Siro (Inter ou AC Milan)",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "San Siro",
+   "lat": 45.4782,
+   "lng": 9.123964,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Billet de Serie A",
+     "≈ 30 à 100 €"
+    ],
+    [
+     "Visite du stade et du musée (sans match)",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente, deux à trois semaines avant ; le derby et la Ligue des champions partent très vite",
+   "duree": "3 h",
+   "moment": "Les soirs de match, en général le week-end ; arrivez une heure avant pour les chants des virages",
+   "texte": "75 000 places, quatre étages de tribunes et les célèbres tours en spirale : San Siro est la « Scala du football », partagée par deux géants, l'Inter et l'AC Milan. Un derby ou une soirée de Ligue des champions y est inoubliable. Sans match, la visite guidée mène aux vestiaires, au bord du terrain et au musée des deux clubs.",
+   "site_officiel": "https://www.sansirostadium.com/",
+   "enfants": true,
+   "badges": [],
+   "note": "Les billets sont nominatifs (pièce d'identité demandée à l'achat et à l'entrée) : achetez-les sur les sites officiels de l'Inter ou de l'AC Milan, pas chez des revendeurs. Métro M5, station San Siro Stadio.",
+   "club": "Inter",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ardfern",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStadio_Giuseppe_Meazza_%28San_Siro%29%2C_Milan%2C_May_2018_%2801%29.jpg",
+    "src": "img/activites/MIL/san-siro.jpg"
+   }
+  },
+  {
+   "id": "come",
+   "nom": "Excursion au lac de Côme",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Varenna et Bellagio (1 h 05 de train)",
+   "lat": 46.009979,
+   "lng": 9.283159,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Train Milano Centrale – Varenna, aller-retour",
+     "≈ 15 €"
+    ],
+    [
+     "Bateaux entre Varenna, Bellagio et Menaggio (pass journée)",
+     "≈ 15 à 20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      15
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "la journée",
+   "moment": "D'avril à octobre de préférence ; partez vers 8 h 30 pour profiter des villages avant la foule",
+   "texte": "Une heure de train et l'on passe des avenues milanaises aux villas à l'italienne et aux montagnes qui plongent dans l'eau. À Varenna, ruelles en escaliers et maisons couleur pastel ; en face, Bellagio, « la perle du lac », se rejoint en un quart d'heure de bateau. Ajoutez les jardins de la villa Monastero ou de la villa Carlotta si vous avez le temps.",
+   "site_officiel": "https://www.trenord.it/",
+   "enfants": true,
+   "badges": [],
+   "note": "Prenez le train régional Trenord direct pour Tirano ou Lecco, jusqu'à Varenna-Esino (billet en ligne ou dans l'appli, environ 7,50 € l'aller). L'hiver, les bateaux sont moins fréquents.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "RiccardoT",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVarenna%2C_Lago_di_Como_-_panoramio.jpg",
+    "src": "img/activites/MIL/come.jpg"
+   }
+  },
+  {
+   "id": "bergame",
+   "nom": "Excursion à Bergame, la ville haute",
+   "emoji": "🏯",
+   "type": "nature",
+   "quartier": "Bergamo Città Alta (50 min de train)",
+   "lat": 45.704038,
+   "lng": 9.662898,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Train Milan – Bergame, aller-retour",
+     "≈ 13 €"
+    ],
+    [
+     "Funiculaire vers la ville haute",
+     "≈ 1,50 € le trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "la journée",
+   "moment": "Toute l'année ; un samedi ou un dimanche pour l'animation de la Piazza Vecchia",
+   "texte": "Une cité médiévale perchée sur sa colline, enfermée dans des remparts vénitiens classés à l'Unesco. On y monte en funiculaire pour flâner sur la Piazza Vecchia, entrer dans la chapelle Colleoni aux marbres colorés et goûter la polenta et les casoncelli, les raviolis du pays, avant de redescendre en train le soir.",
+   "site_officiel": "https://www.visitbergamo.net/",
+   "enfants": true,
+   "badges": [],
+   "note": "Trains régionaux Trenord depuis Milano Centrale ou Porta Garibaldi, toutes les 30 minutes environ, à partir de 6 € l'aller.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gianluigi Buttarelli",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABergamo%2C_Citt%C3%A0_Alta%2C_Piazza_Vecchia%2C_Palazzo_Della_Ragione.jpg",
+    "src": "img/activites/MIL/bergame.jpg"
+   }
+  },
+  {
+   "id": "hangar",
+   "nom": "Pirelli HangarBicocca",
+   "emoji": "🏭",
+   "type": "culture",
+   "quartier": "Bicocca (nord)",
+   "lat": 45.522149,
+   "lng": 9.220148,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Du jeudi au dimanche, de 10 h 30 à 20 h 30",
+   "texte": "Une immense usine de locomotives devenue l'un des plus grands lieux d'art contemporain d'Europe, gratuit. L'œuvre à ne pas manquer : les « Sept palais célestes » d'Anselm Kiefer, sept tours de béton de 14 à 18 mètres dressées dans la pénombre, impressionnantes. Les autres expositions changent plusieurs fois par an.",
+   "site_officiel": "https://pirellihangarbicocca.org/",
+   "enfants": true,
+   "badges": [],
+   "note": "Métro M5, station Ponale, puis 5 minutes à pied.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Silvana Gallio",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_-_HangarBicocca_-_I_Sette_Palazzi_Celesti_di_Anselm_Kiefer.jpg",
+    "src": "img/activites/MIL/hangar.jpg"
+   }
+  },
+  {
+   "id": "tram",
+   "nom": "Balade en tram historique de 1928",
+   "emoji": "🚋",
+   "type": "balade",
+   "quartier": "Centre-ville (ligne 1)",
+   "lat": 45.4675,
+   "lng": 9.1855,
+   "prix": 2.2,
+   "prix_detail": [
+    [
+     "Billet ATM (90 minutes, carte bancaire sans contact)",
+     "2,20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2.2,
+    "enfants": [
+     [
+      9,
+      0
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée ; asseyez-vous côté fenêtre sur les bancs en bois",
+   "texte": "Les tramways orange « Carrelli », mis en service en 1928, roulent toujours dans le centre. Bancs en bois, lampes rondes et cloche qui tinte : la ligne 1 traverse le centre en passant par la gare centrale, la Scala et le château. La visite la moins chère de Milan, au prix d'un ticket ordinaire.",
+   "site_officiel": "https://www.atm.it/",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "note": "Depuis 2026, on paie en passant sa carte bancaire sans contact sur le lecteur (ou avec l'appli ATM) : les tickets en papier n'existent plus. Gratuit pour les moins de 10 ans accompagnés d'un adulte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ian Fisher",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AATM_Carrelli_%281928-30%29_1960_Viale_Carlo_Espinasse.jpg",
+    "src": "img/activites/MIL/tram.jpg"
+   }
+  },
+  {
+   "id": "terme",
+   "nom": "QC Termemilano, des bains dans un tram",
+   "emoji": "♨️",
+   "type": "bains",
+   "quartier": "Porta Romana",
+   "lat": 45.451969,
+   "lng": 9.2022,
+   "prix": 78,
+   "prix_detail": [
+    [
+     "Entrée journée (peignoir et serviette compris)",
+     "≈ 70 à 90 € selon le jour"
+    ],
+    [
+     "Entrée du soir en semaine",
+     "moins chère"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 78,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne, surtout pour le week-end",
+   "duree": "3 h ou plus",
+   "moment": "En semaine pour éviter la foule ; le soir, les bassins illuminés sont magiques",
+   "texte": "Des bains dans les anciennes remises des tramways, près des murailles espagnoles : bassins chauds en plein air, hammam, saunas, et même un sauna installé dans un vieux tram des années 1920. Une parenthèse de détente très milanaise après une journée de visites.",
+   "site_officiel": "https://www.qcterme.com/",
+   "enfants": false,
+   "badges": [],
+   "note": "Réservé aux plus de 14 ans. Prix variables selon le jour et l'heure (plus cher le week-end) : réservez en ligne, c'est souvent complet le samedi.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "LIUCFederico3",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGarden_surrounding_QC_Termemilano%27s_main_pool.jpg",
+    "src": "img/activites/MIL/terme.jpg"
+   }
+  },
+  {
+   "id": "quadrilatere",
+   "nom": "Le Quadrilatère de la mode",
+   "emoji": "👜",
+   "type": "balade",
+   "quartier": "Via Monte Napoleone",
+   "lat": 45.468581,
+   "lng": 9.194828,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade et lèche-vitrines",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de matinée ou en fin d'après-midi ; le dimanche, la plupart des boutiques sont ouvertes",
+   "texte": "Quatre rues, via Monte Napoleone, via della Spiga, via Sant'Andrea et via Manzoni, et toutes les grandes maisons de mode italiennes. Même sans rien acheter, les palais anciens, les vitrines mises en scène et l'élégance des passants valent le détour. Pause obligée chez Cova, la pâtisserie historique de la via Monte Napoleone.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Geobia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A3665MilanoViaMontenapoleone.JPG",
+    "src": "img/activites/MIL/quadrilatere.jpg"
+   }
+  },
+  {
+   "id": "colonne",
+   "nom": "Colonnes de San Lorenzo",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Porta Ticinese",
+   "lat": 45.458227,
+   "lng": 9.181045,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Basilique San Lorenzo",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Le soir, quand les jeunes Milanais s'y retrouvent, un verre à la main",
+   "texte": "Seize colonnes de marbre romaines, alignées depuis le IIe siècle devant la basilique San Lorenzo, l'une des plus anciennes de la ville. Le jour, un coin d'Antiquité en pleine rue ; le soir, l'un des points de rendez-vous préférés des Milanais, sur la route des Navigli par le corso di Porta Ticinese.",
+   "site_officiel": "https://www.yesmilano.it/",
+   "enfants": true,
+   "badges": [],
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Blackcat",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_Colonne_di_san_Lorenzo_sx.jpg",
+    "src": "img/activites/MIL/colonne.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "luini",
+   "nom": "Panzerotti Luini",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Panzerotti, l'en-cas milanais",
+   "quartier": "Duomo",
+   "adresse": "Via Santa Radegonda 16, 20121 Milano",
+   "lat": 45.465797,
+   "lng": 9.191484,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis 1949, la file d'attente s'allonge chaque midi à deux pas du Duomo pour le panzerotto : un chausson de pâte à pain, frit ou cuit au four, fourré de tomate et de mozzarella fondante. Il se mange debout dans la rue, brûlant. Les Milanais y viennent aussi pour la version jambon, ricotta-épinards ou même Nutella.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : la file avance vite ; fermé le dimanche",
+   "photo": {
+    "auteur": "Rodrigo Pereira da S. (Flickr)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APanzerotti_Luini_Milano%2C_Italy_-_Shop_sign.jpg",
+    "src": "img/restos/MIL/luini.jpg"
+   }
+  },
+  {
+   "id": "pizza-am",
+   "nom": "Pizza AM",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizzeria napolitaine",
+   "quartier": "Porta Romana",
+   "adresse": "Corso di Porta Romana 83, 20122 Milano",
+   "lat": 45.455589,
+   "lng": 9.196794,
+   "prix": "8 à 20 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite pizzeria aux murs de carreaux rouges et blancs, devenue l'adresse fétiche des Milanais pour la pizza napolitaine : pâte légère et bien gonflée, tomate franche, mozzarella de bufflonne. Courte carte, prix doux, ambiance de quartier : c'est souvent complet dès l'ouverture.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture ou attendez votre tour",
+   "photo": {
+    "auteur": "bnilsen from Nashville, USA",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATony%27s_Napoletana_Margherita_Pizza_%285991972038%29.jpg",
+    "src": "img/restos/MIL/pizza-am.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "marchesi",
+   "nom": "Pasticceria Marchesi 1824",
+   "emoji": "🧁",
+   "gamme": "petit",
+   "genre": "Pâtisserie et salon de thé historique",
+   "quartier": "Galerie Victor-Emmanuel II",
+   "adresse": "Galleria Vittorio Emanuele II, 20121 Milano",
+   "lat": 45.465642,
+   "lng": 9.190006,
+   "prix": "4 à 15 €",
+   "prix_min": 4,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "La pâtisserie fondée en 1824, reprise par la maison Prada, a ouvert une salle à l'étage de la Galerie : velours vert, boiseries et fenêtres qui donnent sur la verrière. On y prend un cappuccino et une pâtisserie milanaise, ou une part de panettone, dans l'un des décors les plus élégants de la ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : un peu d'attente aux heures du goûter et le week-end",
+   "photo": {
+    "auteur": "Chris Brown",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACappuccino_PeB.jpg",
+    "src": "img/restos/MIL/marchesi.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "ravioleria",
+   "nom": "La Ravioleria Sarpi",
+   "emoji": "🥢",
+   "gamme": "petit",
+   "genre": "Raviolis chinois du quartier chinois",
+   "quartier": "Chinatown (via Paolo Sarpi)",
+   "adresse": "Via Paolo Sarpi 27, 20154 Milano",
+   "lat": 45.481309,
+   "lng": 9.175937,
+   "prix": "5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le comptoir le plus célèbre du quartier chinois de Milan : des raviolis faits à la main sous vos yeux, avec la viande du boucher voisin et les légumes de producteurs lombards. Bouillis ou grillés, au porc et chou ou au bœuf, ils se mangent sur le pouce dans la via Paolo Sarpi, rue piétonne pleine de vie.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : vente à emporter, file rapide",
+   "photo": {
+    "auteur": "Emcc83",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJiaozi_GS_CN.jpg",
+    "src": "img/restos/MIL/ravioleria.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "ciacco",
+   "nom": "Ciacco",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glacier artisanal",
+   "quartier": "Duomo (via Spadari)",
+   "adresse": "Via Spadari 13, 20123 Milano",
+   "lat": 45.463827,
+   "lng": 9.186654,
+   "prix": "3 à 7 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Un des glaciers les plus appréciés du centre, à cinq minutes du Duomo : des glaces artisanales aux parfums de saison, souvent créatifs, avec des fruits frais et des ingrédients choisis chez de petits producteurs. Le cornet idéal entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file courte, même en été le soir",
+   "photo": {
+    "auteur": "Sue Reynolds",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGelato%2C_Florence%2C_Italy_2016.jpg",
+    "src": "img/restos/MIL/ciacco.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "giannasi",
+   "nom": "Giannasi dal 1967",
+   "emoji": "🍗",
+   "gamme": "petit",
+   "genre": "Rôtisserie de poulet, à emporter",
+   "quartier": "Porta Romana",
+   "adresse": "Piazza Bruno Buozzi 2, 20135 Milano",
+   "lat": 45.449651,
+   "lng": 9.206031,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un kiosque posé sur une place de Porta Romana, où la famille Giannasi rôtit ses poulets depuis 1967. La recette, gardée secrète, donne une peau croustillante et dorée que tout Milan connaît. Un demi-poulet avec des pommes de terre, à emporter dans le parc voisin : le meilleur déjeuner bon marché de la ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : à emporter uniquement, venez avant 13 h",
+   "photo": {
+    "auteur": "Onny Nagathan",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARoasted_Chicken_with_Potato.jpg",
+    "src": "img/restos/MIL/giannasi.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "trippa",
+   "nom": "Trattoria Trippa",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Trattoria moderne, cuisine des abats",
+   "quartier": "Porta Romana",
+   "adresse": "Via Giorgio Vasari 1, 20135 Milano",
+   "lat": 45.452202,
+   "lng": 9.205517,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Bib Gourmand Michelin (bon rapport qualité-prix)",
+   "texte": "La trattoria qui a remis les plats populaires à la mode : tripes frites croustillantes, vitello tonnato, moelle rôtie, pâtes fraîches et desserts de grand-mère, dans une salle simple et chaleureuse. Le chef Diego Rossi y défend une cuisine du « tout se mange », généreuse et précise. Les Milanais réservent des semaines à l'avance.",
+   "reservation": "indispensable",
+   "reservation_delai": "trois à quatre semaines avant, en ligne ; dîner seulement, fermé le dimanche",
+   "photo": {
+    "auteur": "LukeWiller",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATrippa_alla_milanese.JPG",
+    "src": "img/restos/MIL/trippa.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "ratana",
+   "nom": "Ratanà",
+   "emoji": "🍚",
+   "gamme": "moyen",
+   "genre": "Risotto et cuisine milanaise",
+   "quartier": "Isola (Porta Nuova)",
+   "adresse": "Via Gaetano de Castillia 28, 20124 Milano",
+   "lat": 45.485784,
+   "lng": 9.192789,
+   "prix": "45 à 65 €",
+   "prix_min": 45,
+   "badges": [],
+   "texte": "Une maison de cheminots de 1900 au pied du Bosco Verticale, devenue la référence pour goûter le vrai risotto à la milanaise, au safran et à la moelle, ou le jarret de veau braisé. Le chef Cesare Battisti allège les classiques lombards avec des produits de petits producteurs. Terrasse dans le jardin aux beaux jours.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, une semaine pour le week-end",
+   "photo": {
+    "auteur": "pier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOssobuco_con_risotto_alla_milanese.jpg",
+    "src": "img/restos/MIL/ratana.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "gloria",
+   "nom": "Gloria Osteria",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Osteria italienne au décor spectaculaire",
+   "quartier": "Brera (Garibaldi)",
+   "adresse": "Via Tivoli 3, 20121 Milano",
+   "lat": 45.47185,
+   "lng": 9.183444,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Lustres, velours, miroirs et plafond fleuri : cette osteria du groupe Big Mamma a été pensée comme un décor de cinéma, et elle est partout sur les réseaux. Dans l'assiette, des pâtes fraîches, des pizzas et de grands desserts à partager, à prix raisonnables pour le quartier. Une soirée festive garantie.",
+   "reservation": "indispensable",
+   "reservation_delai": "en ligne, deux à trois semaines avant pour le week-end ; quelques tables gardées sans réservation à l'ouverture",
+   "photo": {
+    "auteur": "Silvimelo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_al_pomodoro%2C_icona_della_cucina_italiana_nel_mondo._.jpg",
+    "src": "img/restos/MIL/gloria.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "garghet",
+   "nom": "Al Garghet",
+   "emoji": "🌾",
+   "gamme": "moyen",
+   "genre": "Ferme lombarde aux portes de la ville",
+   "quartier": "Parc agricole Sud (sud de Milan)",
+   "adresse": "Via Selvanesco 36, 20141 Milano",
+   "lat": 45.419914,
+   "lng": 9.193149,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une vieille ferme au milieu des champs, à la limite sud de la ville, avec ses salles rustiques remplies d'objets anciens et sa véranda éclairée de guirlandes. On y sert la cuisine lombarde d'autrefois : risotto, côtelette milanaise, osso buco avec polenta, et charcuteries. Une soirée à la campagne, à 20 minutes du centre en taxi.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, une semaine pour le week-end",
+   "photo": {
+    "auteur": "Chiara1993",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APapaveri_e_senso_di_libert%C3%A0.jpg",
+    "src": "img/restos/MIL/garghet.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "arlati",
+   "nom": "Premiata Trattoria Arlati dal 1936",
+   "emoji": "🍖",
+   "gamme": "moyen",
+   "genre": "Trattoria historique, côtelette milanaise",
+   "quartier": "Bicocca (nord)",
+   "adresse": "Via Alberto Nota 47, 20126 Milano",
+   "lat": 45.517976,
+   "lng": 9.208651,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une trattoria familiale ouverte en 1936, qui a vu passer peintres et chanteurs de la ville : nappes blanches, murs couverts de tableaux, et la grande côtelette milanaise panée au beurre, servie « en oreille d'éléphant ». Une adresse de quartier authentique, loin des circuits touristiques, à quelques minutes du métro (ligne 1, Gorla).",
+   "reservation": "conseille",
+   "reservation_delai": "un ou deux jours avant",
+   "photo": {
+    "auteur": "Marcelo Teson",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilanesa.jpg",
+    "src": "img/restos/MIL/arlati.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "conchetta",
+   "nom": "Osteria Conchetta",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Osteria des Navigli",
+   "quartier": "Navigli (Ticinese)",
+   "adresse": "Via Conchetta 8, 20136 Milano",
+   "lat": 45.446539,
+   "lng": 9.178563,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Une osteria chaleureuse au cœur des Navigli, avec ses murs couverts de vieilles affiches et d'objets chinés. La cuisine est celle de la maison lombarde : risotto, pâtes fraîches, côtelette et gnocchis, servis généreusement. L'endroit parfait pour dîner après l'apéritif le long des canaux.",
+   "reservation": "conseille",
+   "reservation_delai": "un ou deux jours avant, surtout le week-end",
+   "photo": {
+    "auteur": "Paoletta S.",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGnocchi_di_ricotta_burro_e_salvia.jpg",
+    "src": "img/restos/MIL/conchetta.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "bartolini",
+   "nom": "Enrico Bartolini al Mudec",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Grande cuisine créative",
+   "quartier": "Tortona (musée des Cultures)",
+   "adresse": "Via Tortona 56, 20144 Milano",
+   "lat": 45.452045,
+   "lng": 9.161319,
+   "prix": "≈ 300 € (menu)",
+   "prix_min": 250,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "La seule table de Milan à trois étoiles, au dernier étage du musée des Cultures. Enrico Bartolini, le chef le plus étoilé d'Italie, y signe une cuisine italienne créative et lisible, autour de quelques plats devenus célèbres, comme le risotto aux betteraves et gorgonzola. Salle épurée, service millimétré.",
+   "reservation": "indispensable",
+   "reservation_delai": "un à deux mois avant",
+   "photo": {
+    "auteur": "Silvana Gallio",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMilano_-_MUDEC_-_Museo_delle_Culture_-Agor%C3%A0.jpg",
+    "src": "img/restos/MIL/bartolini.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "seta",
+   "nom": "Seta",
+   "emoji": "🌸",
+   "gamme": "haut",
+   "genre": "Gastronomie au Mandarin Oriental",
+   "quartier": "Quadrilatère de la mode",
+   "adresse": "Via Monte di Pietà 18, 20121 Milano",
+   "lat": 45.469845,
+   "lng": 9.191348,
+   "prix": "≈ 230 € (menu)",
+   "prix_min": 200,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Le restaurant de l'hôtel Mandarin Oriental, entre Brera et le Quadrilatère de la mode. Le chef Antonio Guida y marie les saveurs du Sud de l'Italie, d'où il vient, et la technique de la grande cuisine, dans une salle élégante ouverte sur la cour intérieure.",
+   "reservation": "indispensable",
+   "reservation_delai": "trois à quatre semaines avant",
+   "photo": {
+    "auteur": "KoRoBeNiKi",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGabriel_Kreuther-_Sturgeon_%26_Sauerkraut_Tart-_applewood_smoke_%E2%80%A2_sabayon_%E2%80%A2_imperial_kaluga_caviar.jpg",
+    "src": "img/restos/MIL/seta.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "iyo",
+   "nom": "IYO",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Cuisine japonaise étoilée",
+   "quartier": "Sempione (Cagnola)",
+   "adresse": "Via Piero della Francesca 74, 20154 Milano",
+   "lat": 45.486774,
+   "lng": 9.159562,
+   "prix": "100 à 180 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le premier restaurant japonais d'Italie à avoir reçu une étoile Michelin. Sushis, sashimis et plats cuisinés mêlent la tradition nippone et les produits italiens, dans un décor sombre et raffiné. Une des adresses préférées des Milanais pour les grandes occasions.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant",
+   "photo": {
+    "auteur": "N509FZ",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AShichifuku_Nigiri_Sushi_at_Tsukiji_Tamasushi%2C_Wing_Takanawa_%2820230802203124%29.jpg",
+    "src": "img/restos/MIL/iyo.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "langosteria",
+   "nom": "Langosteria",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Tortona",
+   "adresse": "Via Savona 10, 20144 Milano",
+   "lat": 45.455578,
+   "lng": 9.168541,
+   "prix": "90 à 140 €",
+   "prix_min": 90,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'adresse de la mer la plus courue de Milan : plateaux de crus, homard, langoustines, spaghettis aux palourdes et poisson entier, dans une salle à l'atmosphère de yacht chic. Les célébrités de la Fashion Week y ont leurs habitudes, et chaque plat est photographié avant d'être goûté.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant, davantage pendant les semaines de la mode",
+   "photo": {
+    "auteur": "Utilisateur Flickr, retouchée par AM",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_alle_vongole.jpg",
+    "src": "img/restos/MIL/langosteria.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "aimo",
+   "nom": "Il Luogo di Aimo e Nadia",
+   "emoji": "🏛️",
+   "gamme": "haut",
+   "genre": "Grande cuisine italienne historique",
+   "quartier": "Bande Nere (ouest)",
+   "adresse": "Via Raimondo Montecuccoli 6, 20147 Milano",
+   "lat": 45.458468,
+   "lng": 9.131115,
+   "prix": "≈ 260 € (menu)",
+   "prix_min": 150,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Ouverte en 1962 par Aimo et Nadia Moroni, cette maison a appris aux Milanais que la cuisine italienne pouvait être grande à partir de produits simples. Les chefs Fabio Pisani et Alessandro Negrini perpétuent l'esprit : des menus qui parcourent les terroirs d'Italie, servis dans une salle ornée d'œuvres d'art.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant",
+   "photo": {
+    "auteur": "KoRoBeNiKi",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJoo-Ok_%28NYC-%29_Deul_Gi_Reum-_Spotted_shrimp_%E2%80%A2_Geoduck_%E2%80%A2_House_made_perilla_oil.jpg",
+    "src": "img/restos/MIL/aimo.jpg"
+   },
+   "illustration": true
+  },
+  {
+   "id": "gallia",
+   "nom": "Terrazza Gallia",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Cuisine italienne sur un toit-terrasse",
+   "quartier": "Gare centrale",
+   "adresse": "Piazza Duca d'Aosta 9, 20124 Milano",
+   "lat": 45.485797,
+   "lng": 9.201968,
+   "prix": "80 à 120 €",
+   "prix_min": 80,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au septième étage de l'hôtel Excelsior Gallia, palace Belle Époque face à la gare centrale, une terrasse vitrée avec vue sur les toits et les tours de Porta Nuova. Les frères Lebano y servent une cuisine italienne lumineuse, très méditerranéenne. Venez au coucher du soleil, pour l'apéritif ou le dîner.",
+   "reservation": "conseille",
+   "reservation_delai": "une semaine avant, davantage pour une table près des vitres au coucher du soleil",
+   "photo": {
+    "auteur": "Saggittarius A",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHotel_Gallia_Milano.jpg",
+    "src": "img/restos/MIL/gallia.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "duomo",
+   "nom": "Duomo et centre historique",
+   "lat": 45.4655,
+   "lng": 9.1885,
+   "texte": "Au pied de la cathédrale, entre la Galerie, la Scala et les grandes rues commerçantes : tout se fait à pied et les deux lignes de métro principales se croisent ici. Le plus pratique pour un premier séjour, mais aussi le plus cher, et un peu vide le soir."
+  },
+  {
+   "id": "brera",
+   "nom": "Brera et Garibaldi",
+   "lat": 45.4735,
+   "lng": 9.1855,
+   "texte": "Le quartier le plus charmant : ruelles pavées, galeries d'art, bars et restaurants, à dix minutes à pied du Duomo. Idéal pour sortir le soir sans prendre le métro ; les hôtels y sont chers et souvent petits."
+  },
+  {
+   "id": "navigli",
+   "nom": "Navigli et Porta Ticinese",
+   "lat": 45.4545,
+   "lng": 9.1785,
+   "texte": "Le quartier des canaux et de la vie nocturne, avec ses bars, ses restaurants et ses boutiques vintage. Parfait pour ceux qui aiment sortir ; prévoyez du bruit le soir près des quais, surtout le week-end. Métro ligne 2 (Porta Genova) ou tram jusqu'au centre."
+  },
+  {
+   "id": "porta-nuova",
+   "nom": "Porta Nuova et Isola",
+   "lat": 45.4835,
+   "lng": 9.1905,
+   "texte": "Le Milan moderne, entre les tours, le Bosco Verticale et les petites rues vivantes d'Isola. Hôtels récents, bien reliés (gare Porta Garibaldi, métros 2 et 5), et l'aéroport de Linate à 25 minutes par la ligne 4 depuis le centre."
+  },
+  {
+   "id": "centrale",
+   "nom": "Gare centrale et Porta Venezia",
+   "lat": 45.4795,
+   "lng": 9.2035,
+   "texte": "Le meilleur rapport qualité-prix : beaucoup d'hôtels, la navette des aéroports et les trains pour le lac de Côme au pied de la gare. Porta Venezia, à deux stations, a ses bars, ses villas Liberty et ses restaurants du monde ; autour de la gare même, les rues sont moins agréables le soir."
+  }
+ ]
+}
