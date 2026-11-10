@@ -284,6 +284,10 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
 
 ## Fait
 
+- ✅ (10/11/2026) **Prix vérifié en direct reporté partout** : après « Vérifier le prix en direct », la fiche de la liste
+  (« Prix vérifié en direct »), le point de la carte et le lien vers le circuit prennent le prix vérifié (gardé 30 min) au lieu de
+  l'ancien prix repéré. Test du propriétaire : Valence 18 déc. → 3 janv., 284 € repérés, 390 € vérifiés (vacances de Noël, prix
+  repérés vus jusqu'à 5-6 jours plus tôt par d'autres voyageurs).
 - ✅ (08/11/2026) **Page guide de Djeddah** (`guides/JED.json`, `transport` = « un taxi (Uber ou Careem) », pas de métro), préparée en
   autonomie : 19 activités (Al-Balad Unesco, maisons Nassif, Al-Matbouli et Baeshen (gratuites d'après Visit Saudi), musée de la mer
   Rouge à Bab Al-Bunt (ouvert en déc. 2025, gratuit, fermé le lundi), teamLab Borderless (150 riyals, 115 de 13 à 17 ans, 50 de 4 à 12 ans,

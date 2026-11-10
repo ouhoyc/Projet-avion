@@ -1041,6 +1041,8 @@ html:has(dialog[open]) { overflow: hidden; }
 .tc-price small { font-size: 12px; font-weight: 600; color: rgba(255, 255, 255, .7); white-space: nowrap; }
 .tc-price strong { font-size: 28px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
 .trip-card .per-person { color: rgba(255, 255, 255, .7); }
+.tc-verified { display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 12px; font-weight: 600; color: rgba(255, 255, 255, .85); white-space: nowrap; }
+.tc-verified .live-dot { width: 7px; height: 7px; }
 .tc-go { flex: none; margin-left: auto; border-radius: var(--r-full); padding: 0 16px; font-size: 15px; font-weight: 800; }
 .trip-card .chips-alt { padding-top: 2px; }
 .trip-card .alt-title { color: #7ee2b0; }

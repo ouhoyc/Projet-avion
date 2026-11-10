@@ -863,19 +863,46 @@ function updateMap(fit) {
     const city = results[i];
     const o = bestOf(city);
     const trip = tripData(o);
+    const total = shownTotal(o);
     return {
       resultIndex: i,
       dest: city.dest,
-      price: o.total * n,
-      tierPrice: roundTrip ? o.total / 2 : o.total,
+      price: total * n,
+      tierPrice: roundTrip ? total / 2 : total,
       popup: `
         <div class="popup-city">${flag(city.dest.country_code)} ${escapeHtml(city.dest.city)}</div>
         <div class="popup-meta">${escapeHtml(formatDayShortWeek(o.out.day))}${o.ret ? ` → ${escapeHtml(formatDayShortWeek(o.ret.day))} · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}</div>
-        <div class="popup-price"><small>${roundTrip ? 'aller + retour' : 'prix repéré'}${groupLabel()}</small> ${fmtGroup(o.total)}</div>
-        ${perPersonHtml(o.total)}
+        <div class="popup-price"><small>${verifiedTotal(o) != null ? 'prix vérifié' : roundTrip ? 'aller + retour' : 'prix repéré'}${groupLabel()}</small> ${fmtGroup(total)}</div>
+        ${perPersonHtml(total)}
         <button type="button" class="btn btn-primary" data-trip='${escapeHtml(JSON.stringify(trip))}'>Voir</button>`,
     };
   }), fit);
+}
+
+// Prix vérifié en direct (gardé 30 min dans le navigateur) : il remplace le prix repéré
+// sur la fiche et sur la carte, pour ne pas afficher deux prix différents. null si pas vérifié.
+function verifiedTotal(o) {
+  const legs = [[data.origin.code, o.code, o.out.day]];
+  if (o.ret) legs.push([o.code, data.origin.code, o.ret.day]);
+  let total = 0;
+  for (const [from, to, day] of legs) {
+    const r = liveCacheGet(from, to, day);
+    if (r?.status !== 'ok') return null;
+    total += r.price;
+  }
+  return total;
+}
+function shownTotal(o) {
+  return verifiedTotal(o) ?? o.total;
+}
+
+// Après une vérification en direct : met à jour les fiches affichées et la carte.
+function refreshVerified() {
+  for (const card of sEls.results.querySelectorAll('.trip-card[data-result]')) {
+    const i = Number(card.dataset.result);
+    if (searchState.results[i]) card.outerHTML = cityCardHtml(searchState.results[i], i);
+  }
+  updateMap(false);
 }
 
 function tripData(o) {
@@ -945,12 +972,14 @@ function exactSuggestHtml(city, index, q) {
 // Une option de vol : dates, prix (pour tout le groupe) et « Préparer mon séjour ».
 function tripOptionHtml(o, city, roundTrip) {
   const airport = city.airports.length > 1 ? (city.airports.find((a) => a.code === o.code)?.airport || o.code) : '';
+  const verified = verifiedTotal(o);
+  const total = verified ?? o.total;
   const dates = `${escapeHtml(formatDayShortWeek(o.out.day))}${o.ret ? ` → ${escapeHtml(formatDayShortWeek(o.ret.day))}` : ''}`;
   return `
     <div class="tc-option">
       <p class="tc-dates"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg> ${dates}${o.nights ? ` · ${o.nights} nuit${o.nights > 1 ? 's' : ''}` : ''}${airport ? `<small>Aéroport : ${escapeHtml(airport)}</small>` : ''}</p>
       <div class="tc-foot">
-        <p class="tc-price"><small>${roundTrip ? 'Vol aller-retour' : 'Vol aller simple'} pour <button type="button" class="tc-pax" data-recap="pax">${escapeHtml(typeof paxGet === 'function' ? paxLabel(paxGet()) : '1 adulte')}</button></small><strong>${fmtGroup(o.total)}</strong>${perPersonHtml(o.total)}</p>
+        <p class="tc-price"><small>${roundTrip ? 'Vol aller-retour' : 'Vol aller simple'} pour <button type="button" class="tc-pax" data-recap="pax">${escapeHtml(typeof paxGet === 'function' ? paxLabel(paxGet()) : '1 adulte')}</button></small><strong>${fmtGroup(total)}</strong>${perPersonHtml(total)}${verified != null ? '<span class="tc-verified"><span class="live-dot" aria-hidden="true"></span>Prix vérifié en direct</span>' : ''}</p>
         <button type="button" class="btn btn-primary tc-go" data-trip='${escapeHtml(JSON.stringify(tripData(o)))}'>Préparer mon séjour <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
       </div>
     </div>`;
@@ -1045,12 +1074,17 @@ const GUIDES = ['BCN', 'WAW', 'LIS', 'LON', 'BOD', 'VIE', 'DXB', 'ATH', 'BUD', '
 // Lien vers le circuit « Mon voyage » (ville.html), avec le vol choisi : aéroport, dates,
 // prix repérés par personne (aller, retour) et durée du vol.
 function guideLink(cityCode, trip) {
-  const p = new URLSearchParams({ c: cityCode, a: trip.code, out: trip.out, vo: String(trip.outPrice || 0) });
-  if (trip.ret) { p.set('ret', trip.ret); p.set('vr', String(trip.retPrice || 0)); }
+  // Prix vérifié en direct s'il existe (les deux vols), sinon prix repéré.
+  const o = liveCacheGet(data.origin.code, trip.code, trip.out);
+  const r = trip.ret ? liveCacheGet(trip.code, data.origin.code, trip.ret) : null;
+  const live = o?.status === 'ok' && (!trip.ret || r?.status === 'ok');
+  const p = new URLSearchParams({ c: cityCode, a: trip.code, out: trip.out, vo: String((live ? o.price : trip.outPrice) || 0) });
+  if (trip.ret) { p.set('ret', trip.ret); p.set('vr', String((live ? r.price : trip.retPrice) || 0)); }
   if (trip.dur) p.set('dur', String(trip.dur));
   return `ville.html?${p}`;
 }
 
+let sheetTrip = null;
 function openTripSheet(trip) {
   const dest = data.destinations.find((d) => d.code === trip.code);
   if (!dest) return;
@@ -1093,6 +1127,7 @@ function openTripSheet(trip) {
     </div>`;
   sheet.showModal();
   const id = ++liveRequest;
+  sheetTrip = { trip, cityCode: dest.city_code };
 
   // La vérification en direct coûte une recherche par vol : seulement sur demande,
   // sauf si ces vols ont déjà été vérifiés récemment (gardé 30 min dans le navigateur).
@@ -1111,6 +1146,12 @@ function runLiveChecks(legs, id) {
   for (const [elId, label, , , day] of legs) $(elId).innerHTML = liveLoading(label, day);
   const checks = legs.map(([elId, label, from, to, day]) => checkLeg(elId, label, from, to, day, id));
   Promise.all(checks).then(([outPrice, retPrice]) => {
+    if (outPrice != null && (legs.length < 2 || retPrice != null)) {
+      if (searchState.results?.length) refreshVerified();
+      // Le lien vers le circuit emporte le prix vérifié.
+      const guide = sheet.querySelector('a[href^="ville.html"]');
+      if (guide && id === liveRequest && sheetTrip) guide.href = guideLink(sheetTrip.cityCode, sheetTrip.trip);
+    }
     const totalEl = $('live-total');
     if (id !== liveRequest || !totalEl || legs.length < 2) return;
     totalEl.innerHTML = outPrice != null && retPrice != null
