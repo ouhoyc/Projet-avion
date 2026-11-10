@@ -99,6 +99,11 @@ const PARTNER_LINKS = {
     'vaults': tiqets('activites-attractions-edimbourg-c21/billets-pour-les-souterrains-hantes-visite-des-voutes-souterraines-de-blair-street-p974759'),
     'highlands': tiqets('activites-attractions-edimbourg-c21/billets-pour-explorateur-du-loch-ness-p974880'),
   },
+  FAO: {
+    'benagil': tiqets('activites-attractions-portimao-c76509/billets-pour-excursion-en-bateau-dans-les-grottes-de-benagil-depuis-la-plage-de-benagil-p1119083'),
+    'zoomarine': tiqets('activites-attractions-guia-c230888/billets-pour-zoomarine-algarve-billet-d-entree-p978576'),
+    'aquashow': tiqets('activites-attractions-quarteira-c76507/billets-pour-aquashow-park-billet-d-entree-p979887'),
+  },
 };
 const partnerLink = (a) => PARTNER_LINKS[guide.city_code]?.[a.id];
 

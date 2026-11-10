@@ -336,6 +336,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (10/11/2026) **Page guide de Faro** (`guides/FAO.json`), préparée en autonomie : 24 activités sur tout l'Algarve (vieille ville,
+  cathédrale et sa tour (≈ 5 €), chapelle des os du Carmo, musée municipal, bateau dans la Ria Formosa, Ilha Deserta (bateau ≈ 10 €),
+  plage de Faro, Olhão et Culatra (bateau public ≈ 4 €), Tavira, plage du Barril et cimetière des ancres, grotte de Benagil (règles de 2024 :
+  pas de débarquement), Marinha et Sept Vallées suspendues, Carvoeiro et Algar Seco, Falésia, Albufeira, Ponta da Piedade, Lagos, Sagres
+  (forteresse 10 € depuis 2025), Silves, Monchique, dauphins, Zoomarine (28,90 € sur Tiqets), Aquashow (30,60 €), surf à Sagres).
+  Liens Tiqets : Benagil (bateau depuis la plage, 20 €), Zoomarine, Aquashow. 18 restaurants (note pondérée, C = 4,33, ~2 400 lieux
+  Wanderlog Faro + Algarve) : Alameda (1re étoile Michelin de Faro, 2026), Pearl (recommandé Michelin 2026), A Ver Tavira, Gusto, Vila Joya
+  (2 étoiles), Casa do Lago, Noélia (Cabanas), Vai e Volta (rodízio 20 €, Olhão), Ramires (poulet piri-piri, Guia)… `ile: true` (côte de
+  150 km, voiture de location) ; 5 « lieux » : Faro, Tavira, Albufeira, Carvoeiro, Lagos. Écartés : Estaminé (Ilha Deserta, détruit par un
+  incendie en mars 2026, réouverture non confirmée), Faz Gostos et Gengibre e Canela (fermés), ruines de Milreu (travaux, prix incertain),
+  Gigi's (note 4,1). **Apify non lancé** (crédit épuisé). Prix estimés (pas de carte en ligne) : A Venda, Pastelaria Coelho, Gula, Outro Lado,
+  Bica Velha, 2 Passos, Noélia, Casa do Lago ; prix de la cathédrale et de la chapelle des os d'après des guides (2 à 5 €). Photos des
+  restaurants : toutes d'illustration (aucune photo libre des lieux eux-mêmes).
 - ✅ (10/11/2026) **Page guide de Hurghada** (`guides/HRG.json`), préparée en autonomie : 16 activités (île de Giftun et Mahmya (≈ 35 €),
   Orange Bay (tendance), Dolphin House, marina, mosquée El Mina, souk d'El Dahar, musée de Hurghada (300 livres ≈ 5 €), Grand Aquarium
   (32 $ en ligne), baptême de plongée (≈ 45 €), épaves d'Abu Nuhas (plongeurs confirmés), quad et dîner bédouin, El Gouna, Sahl Hasheesh,
@@ -563,7 +576,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

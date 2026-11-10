@@ -189,3 +189,10 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Corsini : « CLOSED_TEMPORARILY »). Google Maps en affichage limité : notes sans nombre d'avis, puis page vide après ~50 recherches.
   Prix : Musement (`hurghada/activites-c`, par `curl`), egymonuments.gov.eg (musée), hurghadagrandaquarium.com, cartes PDF sur
   cms.elgouna.com (Nihon). Sous-marin Sindbad écarté (accident de 2025). Commons : `?width=960` (taille standard) sinon « 429 ».
+- Faro (nov. 2026) : Wanderlog départ `geoCategory/207246` (district de Faro) puis listes « …-in-faro », « …-in-tavira », « …-in-olhao »,
+  « …-in-loule », « …-in-lagos », « …-in-albufeira »… (260 listes, ~2 400 lieux, positions dans `"placeId":…,"longitude":…,"latitude":…`).
+  Michelin : la page Algarve ne répond pas d'ici ; le communiqué PDF 2026 (`espacioprensa.michelin.es`) et la presse (Postal, Barlavento)
+  suffisent. Prix des excursions : outil Booking (attractions) + Tiqets (`"priceEur"` par `curl`). Le site de l'Ilha Deserta (ilhadeserta.com)
+  est en JavaScript (Playwright) ; l'ancien domaine ilha-deserta.com redirige vers un site sans rapport. Commons : recherche HTML (`ns6=1`)
+  + `thumb.php`, l'API répondait « 429 » (auteur et licence lus sur la page `File:`).
+

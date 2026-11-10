@@ -1,0 +1,1542 @@
+{
+ "city_code": "FAO",
+ "statut": "préparé en autonomie, prix relevés le 10/11/2026",
+ "verifie_le": "2026-11-10",
+ "ile": true,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 90,
+ "activites": [
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville et Arco da Vila",
+   "emoji": "🏰",
+   "type": "balade",
+   "quartier": "Cidade Velha (Faro)",
+   "lat": 37.0147,
+   "lng": -7.9353,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans la vieille ville et sur les remparts",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin d'après-midi, quand la pierre devient dorée et que les cigognes rentrent au nid",
+   "enfants": true,
+   "texte": "On passe sous l'Arco da Vila, une porte néoclassique coiffée d'un nid de cigognes, et l'on change d'époque : ruelles pavées de blanc, maisons chaulées, remparts mauresques et orangers sur la place de la cathédrale. Une petite ville dans la ville, calme et lumineuse, avec la lagune de la Ria Formosa au pied des murailles.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Husond",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Faro_Cidade_Velha_1.JPG",
+    "src": "img/activites/FAO/vieille-ville.jpg"
+   }
+  },
+  {
+   "id": "se",
+   "nom": "Cathédrale (Sé) et sa tour",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Cidade Velha (Faro)",
+   "lat": 37.0128,
+   "lng": -7.9343,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Entrée : cathédrale, tour, musée et petite chapelle des os du jardin",
+     "≈ 5 €"
+    ],
+    [
+     "Étudiants",
+     "≈ 3,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'entrée",
+   "duree": "45 min à 1 h",
+   "moment": "Du lundi au samedi, plutôt le matin ; fermée le dimanche aux visiteurs (messes)",
+   "enfants": true,
+   "texte": "Le meilleur point de vue de Faro est en haut de son clocher : une soixantaine de marches et toute la lagune s'ouvre sous vos pieds, ses îles de sable, ses marais salants et les avions qui se posent en rase-mottes. À l'intérieur, azulejos du XVIIIe siècle, chapelles dorées et un orgue peint en rouge et or.",
+   "site_officiel": "https://www.diocese-algarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Abrget47j",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FaroKesklinn.jpg",
+    "src": "img/activites/FAO/se.jpg"
+   }
+  },
+  {
+   "id": "carmo",
+   "nom": "Chapelle des os (Igreja do Carmo)",
+   "emoji": "💀",
+   "type": "culture",
+   "quartier": "Centre (Faro)",
+   "lat": 37.0193,
+   "lng": -7.9329,
+   "prix": 4,
+   "prix_detail": [
+    [
+     "Entrée église et chapelle des os",
+     "≈ 2 à 4 € (en espèces)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "30 min",
+   "moment": "En semaine (10 h - 13 h et 15 h - 17 h 30) ; samedi matin seulement",
+   "enfants": false,
+   "texte": "Derrière l'église baroque du Carmo, une chapelle entièrement tapissée de crânes et d'ossements : ceux de plus de mille moines carmélites, rangés avec un soin presque décoratif. Une visite courte, étrange et fascinante, avec ce rappel gravé à l'entrée sur la brièveté de la vie.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "note": "Paiement en espèces seulement. Les plus jeunes peuvent être impressionnés.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Belén Domínguez Rodríguez",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Capela_dos_Ossos_%28Faro%2C_Portugal%29_%2852174763218%29.jpg",
+    "src": "img/activites/FAO/carmo.jpg"
+   }
+  },
+  {
+   "id": "museu",
+   "nom": "Musée municipal (couvent de l'Assomption)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Cidade Velha (Faro)",
+   "lat": 37.0124,
+   "lng": -7.933,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée adulte",
+     "≈ 2 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Du mardi au dimanche ; parfait aux heures chaudes",
+   "enfants": true,
+   "texte": "Un couvent du XVIe siècle et son cloître Renaissance à deux étages, le plus beau de l'Algarve, en plein cœur de la vieille ville. On y admire une grande mosaïque romaine de Neptune trouvée près de Faro et des salles d'art sacré, au frais et souvent presque seul.",
+   "site_officiel": "https://www.cm-faro.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Manuelvbotelho",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Claustro_Convento_de_Nossa_Senhora_da_Assun%C3%A7%C3%A3o_IMG_9025.jpg",
+    "src": "img/activites/FAO/museu.jpg"
+   }
+  },
+  {
+   "id": "ria-formosa",
+   "nom": "Bateau dans la Ria Formosa",
+   "emoji": "🚤",
+   "type": "nature",
+   "quartier": "Port de Faro (Porta Nova)",
+   "lat": 37.0136,
+   "lng": -7.9367,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Balade nature de 2 h avec un biologiste (oiseaux, hippocampes, marais salants)",
+     "≈ 25 à 35 €"
+    ],
+    [
+     "Tour des 3 îles (Farol, Culatra, Armona) avec arrêts baignade",
+     "≈ 35 à 45 €"
+    ],
+    [
+     "Enfant",
+     "souvent moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été ; départs du quai de la Porta Nova",
+   "duree": "2 h à une demi-journée",
+   "moment": "Toute l'année ; à marée haute et le matin pour les oiseaux",
+   "enfants": true,
+   "texte": "Le grand trésor de Faro : une lagune protégée de 60 km, labyrinthe de chenaux, de bancs de sable et d'îles désertes. En petit bateau, on frôle flamants roses, aigrettes et spatules, on aperçoit les parcs à huîtres, puis on débarque sur des plages blanches où il n'y a personne.",
+   "site_officiel": "https://natural.pt/protected-areas/parque-natural-ria-formosa",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jules Verne Times Two",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Anchored_small_boats%2C_Ria_Formosa%2C_Faro%2C_Portugal_julesvernex2.jpg",
+    "src": "img/activites/FAO/ria-formosa.jpg"
+   }
+  },
+  {
+   "id": "ilha-deserta",
+   "nom": "Ilha Deserta (île de Barreta)",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Ria Formosa (35 min de bateau)",
+   "lat": 36.964,
+   "lng": -7.874,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Bateau aller-retour depuis Faro (Animaris)",
+     "≈ 10 à 15 €"
+    ],
+    [
+     "Plage",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille l'été (places limitées par bateau)",
+   "duree": "Demi-journée ou journée",
+   "moment": "De mai à octobre pour se baigner ; hors saison, moins de bateaux",
+   "enfants": true,
+   "texte": "Le point le plus au sud du Portugal continental, et une île sans habitants : 7 km de sable blanc d'un côté, la lagune turquoise de l'autre, un sentier sur pilotis au milieu des dunes. On y vient pour l'impression d'être seul au monde, à une demi-heure du centre de Faro.",
+   "site_officiel": "https://www.ilhadeserta.com",
+   "note": "Le restaurant de l'île (Estaminé) a brûlé en mars 2026 : emportez de l'eau et un pique-nique, et vérifiez s'il a rouvert.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vitor Oliveira",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ilha_Deserta_ou_da_Barreta_-_Portugal_%2820580277864%29.jpg",
+    "src": "img/activites/FAO/ilha-deserta.jpg"
+   }
+  },
+  {
+   "id": "praia-faro",
+   "nom": "Plage de Faro (Ilha de Faro)",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Ilha de Faro (20 min en bus)",
+   "lat": 37.004,
+   "lng": -7.994,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Bus 16 depuis le centre (ou bateau en été)",
+     "≈ 2,40 € le trajet"
+    ],
+    [
+     "Plage",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre ; au coucher du soleil toute l'année",
+   "enfants": true,
+   "texte": "Une longue langue de sable entre océan et lagune, reliée à la ville par un pont : d'un côté les vagues de l'Atlantique, de l'autre l'eau calme de la Ria. Paillotes de poisson grillé, maisons de pêcheurs sur pilotis et couchers de soleil spectaculaires, le tout à 10 km du centre.",
+   "site_officiel": "https://www.cm-faro.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Praia_de_Faro_March_2026_04.jpg",
+    "src": "img/activites/FAO/praia-faro.jpg"
+   }
+  },
+  {
+   "id": "culatra",
+   "nom": "Olhão et l'île de Culatra",
+   "emoji": "⛴️",
+   "type": "plage",
+   "quartier": "Olhão (10 km) puis bateau",
+   "lat": 36.9905,
+   "lng": -7.8346,
+   "prix": 4,
+   "prix_detail": [
+    [
+     "Bateau public Olhão - Culatra ou Farol, aller-retour",
+     "≈ 4 €"
+    ],
+    [
+     "Enfant",
+     "≈ 2 €"
+    ],
+    [
+     "Train Faro - Olhão",
+     "≈ 1,50 € le trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      2
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au quai d'Olhão",
+   "duree": "Journée",
+   "moment": "D'avril à octobre (plus de bateaux) ; en hiver, quelques traversées par jour",
+   "enfants": true,
+   "texte": "Olhão, ses toits-terrasses cubiques et ses halles de briques rouges au bord de l'eau, est la porte des îles. En 30 minutes de bateau public, on arrive à Culatra, un village de pêcheurs sans voitures où l'on marche pieds nus dans le sable jusqu'au phare de Farol et à des plages immenses.",
+   "site_officiel": "https://www.cm-olhao.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vitor Oliveira",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Farol_do_Cabo_de_Santa_Maria_-_Ilha_do_Farol_-_Portugal_%2827887713700%29.jpg",
+    "src": "img/activites/FAO/culatra.jpg"
+   }
+  },
+  {
+   "id": "tavira",
+   "nom": "Tavira, la plus jolie ville de l'Algarve",
+   "emoji": "🌉",
+   "type": "balade",
+   "quartier": "Tavira (35 km, 40 min en train)",
+   "lat": 37.1265,
+   "lng": -7.6496,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade, pont romain, jardins du château",
+     "gratuit"
+    ],
+    [
+     "Train Faro - Tavira",
+     "≈ 3,40 € le trajet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Toute l'année ; en fin de journée sur les quais du Gilão",
+   "enfants": true,
+   "texte": "Une ville blanche aux toits de tuiles « en pointe de diamant », coupée en deux par la rivière Gilão et son vieux pont à sept arches. On flâne entre églises (on en compte 37), jardins du château et quais bordés de palmiers, dans une douceur de vivre restée très portugaise.",
+   "site_officiel": "https://www.cm-tavira.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alexkom000",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-08-30_Ponte_antiga_sobre_o_Rio_Gil%C3%A3o%2C_Tavira.jpg",
+    "src": "img/activites/FAO/tavira.jpg"
+   }
+  },
+  {
+   "id": "barril",
+   "nom": "Plage du Barril et cimetière des ancres",
+   "emoji": "⚓",
+   "type": "plage",
+   "quartier": "Santa Luzia (près de Tavira)",
+   "lat": 37.088,
+   "lng": -7.665,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Petit train à travers les marais (ou 15 min à pied)",
+     "≈ 2 € l'aller-retour"
+    ],
+    [
+     "Plage",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      1
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De mai à octobre ; le petit train circule toute l'année (moins souvent en hiver)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au bout d'un pont de bois sur la lagune, un petit train traverse les marais jusqu'à une plage sauvage où dorment plus de cent ancres rouillées, alignées dans les dunes : le souvenir des pêcheurs de thon qui vivaient ici. Une image saisissante, puis des kilomètres de sable fin.",
+   "site_officiel": "https://www.cm-tavira.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Toni Castillo Quero",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tren_de_Praia_do_Barril_%28Ilha_de_Tavira%29.jpg",
+    "src": "img/activites/FAO/barril.jpg"
+   }
+  },
+  {
+   "id": "benagil",
+   "nom": "Grotte de Benagil en bateau",
+   "emoji": "🛶",
+   "type": "nature",
+   "quartier": "Benagil (55 km, côte de Lagoa)",
+   "lat": 37.0874,
+   "lng": -8.4262,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Bateau depuis Portimão ou Albufeira (1 h 30 à 2 h, plusieurs grottes)",
+     "≈ 15 à 35 €"
+    ],
+    [
+     "Petit bateau depuis la plage de Benagil (30 min)",
+     "≈ 20 à 25 €"
+    ],
+    [
+     "Kayak guidé depuis Benagil (2 h)",
+     "≈ 30 à 35 €"
+    ],
+    [
+     "Journée en minibus depuis Faro (grotte en bateau, Marinha, Algar Seco)",
+     "≈ 45 à 55 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant en été",
+   "duree": "30 min à une journée",
+   "moment": "D'avril à octobre, le matin quand la mer est calme (sorties annulées par forte houle)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La cathédrale naturelle la plus célèbre du Portugal : une grotte marine dorée percée d'une ouverture ronde dans le plafond, où la lumière tombe sur une petite plage secrète. On y entre en bateau, au ras des falaises sculptées, entre arches, piliers et criques turquoise.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "note": "Depuis 2024, il est interdit de descendre sur la plage de la grotte et d'y entrer à la nage ou en paddle sans guide : passez par un bateau ou un kayak encadré.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "David Ceballos",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Algar_de_Benagil%2C_O_Algarve_20210713_111259_%2851615818880%29.jpg",
+    "src": "img/activites/FAO/benagil.jpg"
+   }
+  },
+  {
+   "id": "marinha",
+   "nom": "Praia da Marinha et sentier des Sept Vallées suspendues",
+   "emoji": "🥾",
+   "type": "nature",
+   "quartier": "Lagoa (50 km)",
+   "lat": 37.0899,
+   "lng": -8.4123,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage et sentier côtier (Marinha - Benagil, 6 km aller-retour)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h 30 à une demi-journée",
+   "moment": "Tôt le matin ou en fin de journée, pour la lumière et le parking",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Souvent classée parmi les plus belles plages d'Europe : des falaises ocre, des arches et des aiguilles posées dans une eau émeraude. Le sentier des Sept Vallées suspendues la relie à Benagil par le haut des falaises, avec des belvédères vertigineux sur des criques qu'on ne voit que d'ici.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "note": "Pas d'ombre sur le sentier : chapeau et eau. Restez à distance du bord, les falaises s'effritent.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mimihitam",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Praia_da_Marinha_2017.jpg",
+    "src": "img/activites/FAO/marinha.jpg"
+   }
+  },
+  {
+   "id": "algar-seco",
+   "nom": "Carvoeiro et les rochers d'Algar Seco",
+   "emoji": "🪨",
+   "type": "balade",
+   "quartier": "Carvoeiro (55 km)",
+   "lat": 37.0954,
+   "lng": -8.4633,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade sur la passerelle des falaises et Algar Seco",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, depuis la passerelle de bois",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un village de pêcheurs aux maisons blanches serrées autour d'une petite plage, puis une passerelle de bois accrochée aux falaises. Au bout, Algar Seco : des rochers sculptés par la mer en arches, bassins et fenêtres naturelles, dont « A Varanda », un balcon creusé dans la roche face à l'océan.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jules Verne Times Two",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Algar_Seco_rocks%2C_Carvoeiro%2C_Portugal_julesvernex2-5.jpg",
+    "src": "img/activites/FAO/algar-seco.jpg"
+   }
+  },
+  {
+   "id": "falesia",
+   "nom": "Praia da Falésia",
+   "emoji": "🌅",
+   "type": "plage",
+   "quartier": "Olhos de Água (35 km)",
+   "lat": 37.0869,
+   "lng": -8.158,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre ; en fin de journée quand les falaises rougissent",
+   "enfants": true,
+   "texte": "Six kilomètres de sable doré au pied de falaises rouges et blanches, bordées de pins parasols : une plage si vaste qu'on y trouve toujours sa place, même en août. Le décor change de couleur toute la journée, jusqu'au coucher du soleil qui embrase la roche.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "PortoBay Hotels & Resorts",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Praia_da_Fal%C3%A9sia%22_%285514757750%29.jpg",
+    "src": "img/activites/FAO/falesia.jpg"
+   }
+  },
+  {
+   "id": "albufeira",
+   "nom": "Albufeira : vieille ville et plage des Pêcheurs",
+   "emoji": "🎉",
+   "type": "balade",
+   "quartier": "Albufeira (40 km)",
+   "lat": 37.087,
+   "lng": -8.2497,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade, plage et ascenseurs vers la plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée ou soirée",
+   "moment": "En fin d'après-midi, puis le soir pour l'ambiance",
+   "enfants": true,
+   "texte": "La station la plus animée de l'Algarve : un vieux village blanc accroché à la falaise, une grande plage où les barques des pêcheurs côtoient les serviettes, et des ruelles qui s'allument le soir. Pour une journée plage puis une soirée de fête, c'est ici.",
+   "site_officiel": "https://www.cm-albufeira.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dahee Son",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourists_on_a_sandy_shore_%28Unsplash%29.jpg",
+    "src": "img/activites/FAO/albufeira.jpg"
+   }
+  },
+  {
+   "id": "ponta-piedade",
+   "nom": "Ponta da Piedade en bateau",
+   "emoji": "⛵",
+   "type": "nature",
+   "quartier": "Lagos (85 km)",
+   "lat": 37.081,
+   "lng": -8.6693,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Bateau dans les grottes (1 h 15)",
+     "≈ 20 à 25 €"
+    ],
+    [
+     "Kayak guidé (2 h 30)",
+     "≈ 25 à 30 €"
+    ],
+    [
+     "Belvédère et escalier vers la mer",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      12
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été ; départs de la marina de Lagos",
+   "duree": "1 h 15 à 2 h 30",
+   "moment": "Le matin, mer calme et lumière dorée ; d'avril à octobre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus beau bout de côte de l'Algarve : des aiguilles de grès ocre, des arches et des grottes où l'eau prend des tons de jade. En petit bateau ou en kayak, on se glisse sous les voûtes avec un pêcheur qui raconte les formes des rochers, puis on admire le tout d'en haut, depuis le phare.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ana Rey",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lagos_Ponta_da_Piedade_%2850509745483%29.jpg",
+    "src": "img/activites/FAO/ponta-piedade.jpg"
+   }
+  },
+  {
+   "id": "lagos",
+   "nom": "Lagos et la plage du Camilo",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Lagos (85 km)",
+   "lat": 37.1022,
+   "lng": -8.6744,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Vieille ville, remparts et plages",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Journée",
+   "moment": "Toute l'année ; la plage du Camilo tôt le matin, avant la foule",
+   "enfants": true,
+   "texte": "Une ville fortifiée pleine de vie, d'où partaient les caravelles des Grandes Découvertes, avec ses ruelles pavées, ses églises dorées et ses terrasses. À deux pas, la plage du Camilo et ses 200 marches de bois qui descendent vers une crique turquoise encadrée de rochers.",
+   "site_officiel": "https://www.cm-lagos.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Theo Crazzolara",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Praia_do_camilo_%2848454069281%29.jpg",
+    "src": "img/activites/FAO/lagos.jpg"
+   }
+  },
+  {
+   "id": "sagres",
+   "nom": "Sagres et le cap Saint-Vincent",
+   "emoji": "🗺️",
+   "type": "nature",
+   "quartier": "Sagres (115 km)",
+   "lat": 37.0012,
+   "lng": -8.9478,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Forteresse de Sagres",
+     "10 € (gratuit jusqu'à 12 ans)"
+    ],
+    [
+     "Cap Saint-Vincent et son phare",
+     "gratuit (musée du phare ≈ 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Au coucher du soleil au cap, toute l'année ; prenez une veste (vent fort)",
+   "enfants": true,
+   "texte": "Le « bout du monde » des Européens avant Christophe Colomb : des falaises de 60 m battues par l'Atlantique, la forteresse d'Henri le Navigateur et sa rose des vents géante, puis le phare du cap Saint-Vincent, où l'on vient applaudir le coucher du soleil sur l'océan.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Matthias Süßen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cabo-sao-vicente-lighthouse-2019-msu-2309.jpg",
+    "src": "img/activites/FAO/sagres.jpg"
+   }
+  },
+  {
+   "id": "silves",
+   "nom": "Château de Silves",
+   "emoji": "🏯",
+   "type": "culture",
+   "quartier": "Silves (65 km)",
+   "lat": 37.1913,
+   "lng": -8.4385,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Château",
+     "≈ 2,80 €"
+    ],
+    [
+     "Billet château + musée d'archéologie",
+     "≈ 3,90 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Toute l'année ; en août, grande fête médiévale (billet à part)",
+   "enfants": true,
+   "texte": "L'ancienne capitale maure de l'Algarve et son château de grès rouge, le mieux conservé de la région : on fait le tour des remparts crénelés au-dessus des toits, des orangers et de la rivière Arade. Une ambiance des Mille et une Nuits, à l'écart de la côte.",
+   "site_officiel": "https://www.cm-silves.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Norbert Nagel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castelo_de_Silves_above_the_old_town_houses_-_2015-08-13.jpg",
+    "src": "img/activites/FAO/silves.jpg"
+   }
+  },
+  {
+   "id": "monchique",
+   "nom": "Serra de Monchique et sommet de la Fóia",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Monchique (85 km)",
+   "lat": 37.3156,
+   "lng": -8.5943,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédère de la Fóia, village et forêts",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Par temps clair ; plus frais que la côte, agréable l'été",
+   "enfants": true,
+   "texte": "L'autre visage de l'Algarve : une montagne couverte de chênes-lièges, d'eucalyptus et de mimosas. Du sommet de la Fóia (902 m), le plus haut de la région, on voit toute la côte jusqu'au cap Saint-Vincent, avant de goûter au village le miel et la liqueur d'arbouse.",
+   "site_officiel": "https://www.cm-monchique.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vitor Oliveira",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vista_do_Miradouro_da_F%C3%B3ia_-_Portugal_%2852000583121%29.jpg",
+    "src": "img/activites/FAO/monchique.jpg"
+   }
+  },
+  {
+   "id": "dauphins",
+   "nom": "Sortie en mer avec les dauphins",
+   "emoji": "🐬",
+   "type": "nature",
+   "quartier": "Albufeira, Portimão ou Lagos",
+   "lat": 37.08,
+   "lng": -8.269,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Sortie de 2 h 30 en semi-rigide avec un biologiste",
+     "≈ 40 à 55 €"
+    ],
+    [
+     "Enfant",
+     "≈ 25 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      30
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant",
+   "duree": "2 h 30",
+   "moment": "D'avril à octobre, le matin ; observation presque assurée en été",
+   "enfants": true,
+   "texte": "Au large de l'Algarve vivent des groupes de dauphins communs et de grands dauphins. En semi-rigide, on file vers le large avec un biologiste marin, puis on coupe le moteur quand les ailerons apparaissent, parfois des dizaines à la fois, qui jouent dans l'étrave.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "note": "Choisissez une agence qui respecte les distances (label « Dolphin Watching Code ») ; mer parfois agitée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Charles J. Sharp",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Common_dolphins_%28Delphinus_delphis%29_Sagres.jpg",
+    "src": "img/activites/FAO/dauphins.jpg"
+   }
+  },
+  {
+   "id": "zoomarine",
+   "nom": "Zoomarine",
+   "emoji": "🦭",
+   "type": "sortir",
+   "quartier": "Guia (35 km)",
+   "lat": 37.1268,
+   "lng": -8.3147,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Entrée adulte en ligne (selon la date)",
+     "≈ 29 à 38 €"
+    ],
+    [
+     "Enfant de 2 à 10 ans (ou moins de 1 m : gratuit)",
+     "≈ 20 à 25 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      1,
+      0
+     ],
+     [
+      10,
+      22
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, moins cher qu'au guichet",
+   "duree": "Journée",
+   "moment": "De mars à novembre (fermé l'hiver) ; spectacles à heures fixes",
+   "enfants": true,
+   "texte": "Le grand parc marin du Portugal : spectacles de dauphins, otaries et oiseaux, aquariums, piscines et toboggans aquatiques, manèges et une plage artificielle. Une journée complète pour les familles, à mi-chemin entre Faro et Albufeira.",
+   "site_officiel": "https://www.zoomarine.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Joseolgon",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zoomarine_Algarve_18.JPG",
+    "src": "img/activites/FAO/zoomarine.jpg"
+   }
+  },
+  {
+   "id": "aquashow",
+   "nom": "Aquashow, parc aquatique",
+   "emoji": "🎢",
+   "type": "sortir",
+   "quartier": "Quarteira (25 km)",
+   "lat": 37.0926,
+   "lng": -8.0997,
+   "prix": 31,
+   "prix_detail": [
+    [
+     "Entrée adulte",
+     "≈ 31 €"
+    ],
+    [
+     "Enfant (1 m à 10 ans)",
+     "≈ 23 €"
+    ],
+    [
+     "Moins de 1 m",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 31,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      10,
+      23
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille",
+   "duree": "Journée",
+   "moment": "De mai à septembre (parc extérieur) ; partie couverte ouverte toute l'année",
+   "enfants": true,
+   "texte": "Le parc aquatique le plus proche de Faro et l'un des plus grands d'Europe : toboggans géants, piscine à vagues, rivière lente et des montagnes russes qui finissent dans l'eau. Parfait pour une journée de chaleur avec les enfants.",
+   "site_officiel": "https://www.aquashowpark.com",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Joseolgon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aquashow_Algarve_01.jpg",
+    "src": "img/activites/FAO/aquashow.jpg"
+   }
+  },
+  {
+   "id": "surf",
+   "nom": "Cours de surf à Sagres",
+   "emoji": "🏄",
+   "type": "sport",
+   "quartier": "Sagres (115 km)",
+   "lat": 37.004,
+   "lng": -8.945,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Cours collectif de 2 h 30 à 3 h, combinaison et planche comprises",
+     "≈ 40 à 50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      7,
+      0
+     ],
+     [
+      15,
+      40
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille (l'école choisit la plage selon les vagues)",
+   "duree": "3 h",
+   "moment": "Toute l'année ; eau à 16 °C l'hiver, 20 °C l'été",
+   "enfants": true,
+   "texte": "La pointe sud-ouest du Portugal reçoit des vagues toute l'année, d'un côté ou de l'autre du cap : c'est le meilleur endroit d'Europe pour apprendre. Une école vous emmène sur la plage du jour, et l'on se lève sur sa première vague face aux falaises sauvages.",
+   "site_officiel": "https://www.visitalgarve.pt",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "The Cosmonaut",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Praia_do_Tonel_2024-12-20.jpg",
+    "src": "img/activites/FAO/surf.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "vai-e-volta",
+   "nom": "Vai e Volta",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson grillé à volonté",
+   "quartier": "Olhão (10 km)",
+   "adresse": "Largo do Grémio 2, Olhão",
+   "lat": 37.02632,
+   "lng": -7.839216,
+   "prix": "20 € (enfant 10 €)",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une seule formule depuis plus de vingt ans : le rodízio de poisson. Sardines, chinchards, dorades, calmars, ventrèche de thon… défilent tout juste sortis du grill, avec pommes de terre, salade et poivrons, jusqu'à ce que vous disiez stop. L'adresse préférée des gens d'Olhão, à deux pas du port.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; le midi seulement (12 h - 15 h), fermé le lundi ; venez avant 12 h 30",
+   "photo": {
+    "auteur": "Yusuke Kawasaki",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_Sardines_in-the-Charcoal_with_salad_7.50%E2%82%AC_%283784714323%29.jpg",
+    "src": "img/restos/FAO/vai-e-volta.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ramires",
+   "nom": "Ramires",
+   "emoji": "🍗",
+   "gamme": "petit",
+   "genre": "Poulet piri-piri au feu de bois",
+   "quartier": "Guia (35 km, près d'Albufeira)",
+   "adresse": "Rua 25 de Abril 14, Guia",
+   "lat": 37.126358,
+   "lng": -8.299156,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "C'est ici, en 1964, qu'est né le fameux poulet piri-piri de l'Algarve : un jeune poulet aplati, grillé sur la braise et badigeonné de piment. Grandes salles animées, frites maison, salade de tomates et vinho verde : le pèlerinage gourmand de la région, à un quart d'heure de Zoomarine.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin ; un peu d'attente le soir en été",
+   "photo": {
+    "auteur": "Kolforn",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2018-02-03_Chicken_Piri-Piri%2C_Albufeira_%281%29.JPG",
+    "src": "img/restos/FAO/ramires.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "a-venda",
+   "nom": "A Venda",
+   "emoji": "🫒",
+   "gamme": "petit",
+   "genre": "Petiscos dans une ancienne épicerie",
+   "quartier": "Centre (Faro)",
+   "adresse": "Rua do Compromisso 60, Faro",
+   "lat": 37.018079,
+   "lng": -7.935062,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite épicerie d'autrefois transformée en taverne, avec ses étagères de bocaux, ses nappes à carreaux et sa terrasse dans une ruelle tranquille. On y partage des petiscos tout faits maison, ces petites assiettes portugaises, avec un grand choix végétarien et un verre de vin de l'Algarve.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : venez tôt le soir ; paiement en espèces",
+   "photo": {
+    "auteur": "Jetn0",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Klassischer_italienischer_Aperitif_%28%22aperitivo%22%29.jpg",
+    "src": "img/restos/FAO/a-venda.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "coelho",
+   "nom": "Pastelaria Coelho",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Pâtisserie et plats du jour",
+   "quartier": "Centre (Faro)",
+   "adresse": "Rua Brites de Almeida 2, Faro",
+   "lat": 37.015015,
+   "lng": -7.931276,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "institution"
+   ],
+   "texte": "De la rue, une simple pâtisserie de quartier ; à l'intérieur, une cantine où les habitants viennent déjeuner d'un plat du jour généreux pour une poignée d'euros. On finit par une pâtisserie maison et un galão (café au lait), comme les habitués.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Addshore",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pastel_de_nata_-_Nazare_2021.jpg",
+    "src": "img/restos/FAO/coelho.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "outro-lado",
+   "nom": "Outro Lado",
+   "emoji": "🌱",
+   "gamme": "petit",
+   "genre": "Cuisine portugaise 100 % végétale",
+   "quartier": "Centre (Faro)",
+   "adresse": "Travessa da Madalena 6, Faro",
+   "lat": 37.017487,
+   "lng": -7.936915,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Un couple, une petite salle chaleureuse et une idée : refaire les grands classiques de la cuisine portugaise sans aucun produit animal, avec de bonnes options sans gluten. Le résultat bluffe même les carnivores, et les desserts maison valent à eux seuls le détour.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; le midi seulement, du mardi au vendredi",
+   "photo": {
+    "auteur": "Anna Korcheva",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vegan_meal_in_Uzhhorod%2C_2025.jpg",
+    "src": "img/restos/FAO/outro-lado.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gula",
+   "nom": "Gula Foodlab",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glaces artisanales",
+   "quartier": "Centre (Faro)",
+   "adresse": "Rua Vasco da Gama 27, Faro",
+   "lat": 37.016865,
+   "lng": -7.932546,
+   "prix": "3 à 6 €",
+   "prix_min": 3,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le glacier qui fait l'unanimité à Faro : des glaces faites sur place, crémeuses et pleines de goût, avec des parfums qui changent selon la saison. On goûte avant de choisir, puis on file le savourer sur les remparts.",
+   "reservation": "libre",
+   "photo": {
+    "auteur": "Peachyeung316",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_cup_of_three_ice_cream_in_Victoria_Peak_Hong_Kong.jpg",
+    "src": "img/restos/FAO/gula.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "a-do-pinto",
+   "nom": "À do Pinto",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cataplanas et riz de la mer",
+   "quartier": "Centre (Faro)",
+   "adresse": "Rua de Santo António 26, Faro",
+   "lat": 37.016168,
+   "lng": -7.932701,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une maison de famille et de vin, où l'on vient pour les plats de l'Algarve à partager : la cataplana, cette marmite de cuivre où mijotent poissons et fruits de mer, les riz aux palourdes ou au poulpe, les couteaux « à Bulhão Pato ». Généreux, bien fait, avec une belle cave de vins portugais.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant ; ouvert du lundi au vendredi (12 h - 23 h)",
+   "photo": {
+    "auteur": "michael clarke stuff",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eira_do_Mel_Cataplana_01_%283177019170%29.jpg",
+    "src": "img/restos/FAO/a-do-pinto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lodo",
+   "nom": "Lodo",
+   "emoji": "🦪",
+   "gamme": "moyen",
+   "genre": "Huîtres et fruits de mer de la Ria Formosa",
+   "quartier": "Centre (Faro)",
+   "adresse": "Rua Conselheiro Bivar 55, Faro",
+   "lat": 37.017146,
+   "lng": -7.935952,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "La lagune de Faro donne les meilleures huîtres et palourdes du Portugal : ce bar à huîtres de la rue piétonne les sert au naturel ou en trilogie, avec crevettes de Quarteira, couteaux à la plancha et un verre de mousseux, en terrasse sous les lampions.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en terrasse le soir",
+   "photo": {
+    "auteur": "T.Tseng",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oysters_of_the_day_01.jpg",
+    "src": "img/restos/FAO/lodo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-do-polvo",
+   "nom": "Casa do Polvo Tasquinha",
+   "emoji": "🐙",
+   "gamme": "moyen",
+   "genre": "Le poulpe sous toutes ses formes",
+   "quartier": "Santa Luzia (près de Tavira)",
+   "adresse": "Avenida Engenheiro Duarte Pacheco 8, Santa Luzia",
+   "lat": 37.101737,
+   "lng": -7.657584,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Santa Luzia se dit capitale du poulpe, et cette taverne au bord de la lagune en fait le roi : grillé à l'huile d'olive (« à lagareiro »), en salade, en riz, en croquettes, même en samoussas. Une halte parfaite après la plage du Barril, juste à côté.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille l'été ; fermé le mardi midi",
+   "photo": {
+    "auteur": "The Ogre",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Polvo_%C3%A0_lagareiro_%28Alcochete%29.jpg",
+    "src": "img/restos/FAO/casa-do-polvo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bica-velha",
+   "nom": "Bica Velha",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Cuisine du marché dans une maison ancienne",
+   "quartier": "Loulé (16 km)",
+   "adresse": "Rua Martim Moniz 17, Loulé",
+   "lat": 37.138939,
+   "lng": -8.024133,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Dans une belle maison ancienne à arcades du centre de Loulé, une famille qui tient le restaurant depuis 1980 sert une courte carte qui change selon le marché, avec des vins presque tous de l'Algarve. Parfait pour un dîner après la visite de la vieille ville et de ses halles mauresques.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant",
+   "photo": {
+    "auteur": "Jose A.",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Loule_%28Portugal%29_%2841747331184%29.jpg",
+    "src": "img/restos/FAO/bica-velha.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "noelia",
+   "nom": "Noélia",
+   "emoji": "🐚",
+   "gamme": "moyen",
+   "genre": "Cuisine de la mer d'une cheffe adorée",
+   "quartier": "Cabanas de Tavira (40 km)",
+   "adresse": "Avenida Ria Formosa 2, Cabanas",
+   "lat": 37.137145,
+   "lng": -7.594966,
+   "prix": "35 à 50 €",
+   "prix_min": 35,
+   "badges": [
+    "institution",
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "La cheffe Noélia Jerónimo est une légende de l'Algarve : chefs et critiques viennent de loin pour ses riz et ses plats de coquillages de la lagune, dans une salle toute simple face à la lagune de Cabanas. Une cuisine de grand-mère, en plus fin.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant, même hors saison",
+   "photo": {
+    "auteur": "Dale Ghent",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cabanas_de_Tavira_water_taxi.jpg",
+    "src": "img/restos/FAO/noelia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "2-passos",
+   "nom": "2 Passos",
+   "emoji": "🏖️",
+   "gamme": "moyen",
+   "genre": "Poisson et fruits de mer les pieds dans le sable",
+   "quartier": "Praia do Ancão (Almancil, 15 km)",
+   "adresse": "Praia do Ancão, Almancil",
+   "lat": 37.033957,
+   "lng": -8.039109,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Une maison de bois posée sur une plage sauvage de la Ria Formosa, entre dunes et océan : on y déjeune de poisson cuit en croûte de sel, de palourdes et de crevettes tigrées, puis on enchaîne avec une sieste au soleil. Le déjeuner de plage le plus réussi des environs de Faro.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été ; le midi seulement (12 h 30 - 18 h), fermé le lundi de novembre à mars",
+   "photo": {
+    "auteur": "Vitor Oliveira",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Praia_do_Anc%C3%A3o_-_Portugal_%284483447147%29.jpg",
+    "src": "img/restos/FAO/2-passos.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "alameda",
+   "nom": "Alameda",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie algarvienne",
+   "quartier": "Centre (Faro)",
+   "adresse": "Rua da Polícia de Segurança Pública 10, Faro",
+   "lat": 37.015839,
+   "lng": -7.928627,
+   "prix": "115 € (menu végétarien 95 €)",
+   "prix_min": 95,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin (2026), la première de Faro",
+   "texte": "Le chef Rui Sequeira, enfant de Faro passé par les grandes tables de l'Algarve, a décroché en 2026 la toute première étoile de la ville. Son menu raconte les légendes de la région avec les poissons et coquillages de la lagune, dans une petite salle intime et décontractée.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 3 semaines avant ; le soir seulement, du jeudi au lundi (19 h ou 20 h 30)",
+   "photo": {
+    "auteur": "ADT 04",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tot%C3%A8nes_ou_petits_calmars_farcis_aux_%C3%A9pinards_et_aux_pignons.jpg",
+    "src": "img/restos/FAO/alameda.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pearl",
+   "nom": "Pearl",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Omakase japonais au poisson de l'Algarve",
+   "quartier": "Centre (Faro)",
+   "adresse": "Avenida da República 48-50, Faro",
+   "lat": 37.01696,
+   "lng": -7.936035,
+   "prix": "100 € (110 € l'été)",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Recommandé par le guide Michelin (2026)",
+   "texte": "Dix places autour d'un comptoir de bois, face au port : le chef compose un omakase avec le poisson du jour des criées de l'Algarve, wasabi frais, riz japonais et sauce soja artisanale. Une parenthèse japonaise très pure, entrée en 2026 dans le guide Michelin.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; du mardi au samedi, le soir",
+   "photo": {
+    "auteur": "Tim Reckmann",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nigiri_Sushi_%2826478725732%29.jpg",
+    "src": "img/restos/FAO/pearl.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "a-ver-tavira",
+   "nom": "A Ver Tavira",
+   "emoji": "🏰",
+   "gamme": "haut",
+   "genre": "Cuisine d'auteur au pied du château",
+   "quartier": "Tavira (35 km)",
+   "adresse": "Calçada da Galeria 13, Tavira",
+   "lat": 37.125702,
+   "lng": -7.651328,
+   "prix": "100 à 130 € à la carte ; menus 170 à 225 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une terrasse au pied du château, avec tous les toits de Tavira et la rivière en contrebas : le chef Luís Brito y mêle l'Algarve, l'Afrique et le Brésil, comme ce poulpe de Santa Luzia aux carottes et moules ou ce homard bleu à la patate douce et au piri-piri.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "Vitor Oliveira",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castelo_de_Tavira_-_Portugal_%2835389852011%29.jpg",
+    "src": "img/restos/FAO/a-ver-tavira.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gusto",
+   "nom": "Gusto by Heinz Beck",
+   "emoji": "🍝",
+   "gamme": "haut",
+   "genre": "Grande cuisine italienne",
+   "quartier": "Quinta do Lago (Almancil, 15 km)",
+   "adresse": "Conrad Algarve, Estrada da Quinta do Lago, Almancil",
+   "lat": 37.0446,
+   "lng": -8.0294,
+   "prix": "190 à 220 € (menus 7 ou 9 plats)",
+   "prix_min": 190,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La table algarvienne du chef romain Heinz Beck, trois étoiles à Rome : pâtes légères comme des nuages, poissons de la côte et desserts d'orfèvre, servis dans la salle élégante du Conrad, au milieu des pins de Quinta do Lago.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; le soir seulement",
+   "photo": {
+    "auteur": "Angelo.Muratore",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tortellini_Bolognesi.jpg",
+    "src": "img/restos/FAO/gusto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vila-joya",
+   "nom": "Vila Joya",
+   "emoji": "🌊",
+   "gamme": "haut",
+   "genre": "Deux étoiles face à l'océan",
+   "quartier": "Praia da Galé (Albufeira, 45 km)",
+   "adresse": "Estrada da Galé, Albufeira",
+   "lat": 37.080053,
+   "lng": -8.313732,
+   "prix": "275 € (menu de 13 plats)",
+   "prix_min": 275,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin depuis 1999",
+   "texte": "La première table du Portugal à avoir décroché deux étoiles, dans une villa mauresque blanche sur la falaise de Galé. Le chef autrichien Dieter Koschina y signe, depuis plus de trente ans, une cuisine d'une grande finesse, à savourer en terrasse face à l'océan.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant ; peu de tables le soir (clients de l'hôtel prioritaires) : le déjeuner est plus facile",
+   "photo": {
+    "auteur": "Concepcion AMAT ORTA",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C2%AE_ALBUFEIRA_COSTA_PRAIA_DA_GALE_VISTA_-_panoramio.jpg",
+    "src": "img/restos/FAO/vila-joya.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-do-lago",
+   "nom": "Casa do Lago",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Poissons et crustacés au bord du lac",
+   "quartier": "Quinta do Lago (Almancil, 15 km)",
+   "adresse": "Avenida Ayrton Senna da Silva, Quinta do Lago, Almancil",
+   "lat": 37.034868,
+   "lng": -8.024899,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "Une grande terrasse de bois au bord du lac de Quinta do Lago, entre cygnes, pins parasols et lagune : on y déguste homard, poissons du jour et sushis, dans le décor le plus chic de la côte. Idéal au coucher du soleil, après une balade sur la passerelle qui mène à la plage.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant l'été, surtout pour la terrasse",
+   "photo": {
+    "auteur": "Vitor Oliveira",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Quinta_do_Lago_-_Portugal_%2816485185534%29.jpg",
+    "src": "img/restos/FAO/casa-do-lago.jpg",
+    "illustration": true
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "faro",
+   "nom": "Faro, vieille ville et centre",
+   "lat": 37.016,
+   "lng": -7.935,
+   "texte": "La ville de l'aéroport (10 min en taxi) et la meilleure base sans voiture : vieille ville, restaurants et vie du soir à pied, bateaux pour les îles de la Ria Formosa, trains et bus vers Olhão, Tavira et Albufeira. Plages à 20 minutes en bus."
+  },
+  {
+   "id": "tavira",
+   "nom": "Tavira",
+   "lat": 37.1265,
+   "lng": -7.6496,
+   "texte": "La plus charmante des petites villes de l'Algarve, au bord de sa rivière : maisons blanches, églises et bonnes tables, plages sauvages de l'île de Tavira et du Barril à côté. Calme et authentique, à 40 minutes de Faro en train."
+  },
+  {
+   "id": "albufeira",
+   "nom": "Albufeira",
+   "lat": 37.088,
+   "lng": -8.25,
+   "texte": "La grande station balnéaire de l'Algarve : plages à perte de vue, hôtels pour tous les budgets, restaurants et vie nocturne animée. Pratique pour Zoomarine, la Falésia, Benagil et les sorties en mer ; à 40 minutes de Faro."
+  },
+  {
+   "id": "carvoeiro",
+   "nom": "Carvoeiro et la côte des falaises",
+   "lat": 37.097,
+   "lng": -8.47,
+   "texte": "Un village de pêcheurs tout blanc au cœur de la plus belle côte : Algar Seco, Marinha et la grotte de Benagil à quelques minutes. Plus calme qu'Albufeira, idéal pour un séjour plages et criques ; à 55 minutes de Faro."
+  },
+  {
+   "id": "lagos",
+   "nom": "Lagos",
+   "lat": 37.1022,
+   "lng": -8.6744,
+   "texte": "Une vraie ville à l'ambiance jeune et festive, entourée de criques spectaculaires (Ponta da Piedade, Camilo, Dona Ana) et à 30 minutes de Sagres. Le meilleur choix pour l'ouest de l'Algarve ; à 1 h 10 de Faro en voiture."
+  }
+ ]
+}
