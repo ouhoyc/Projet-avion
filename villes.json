@@ -694,10 +694,10 @@
     "pitch": "La capitale italienne du style : mode, design, aperitivo chic sur les Navigli et le Duomo en toile de fond. Le lac de Côme à une heure de train.",
     "photo": {
       "src": "img/villes/MIL.jpg",
-      "alt": "Skyline de Milan et gratte-ciel de Porta Nuova vus des toits du Duomo, Alpes en fond",
-      "author": "Daniel Case",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Full_Milan_skyline_from_Duomo_roof.jpg"
+      "alt": "La place du Duomo et la galerie Victor-Emmanuel II à Milan",
+      "author": "kuhnmi",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_-_kuhnmi.jpg"
     },
     "climate": {
       "min": [
@@ -1384,10 +1384,10 @@
     "pitch": "Une ville qui surprend : château des ducs de Bretagne, éléphant géant des Machines de l'île et une scène créative bouillonnante au bord de la Loire.",
     "photo": {
       "src": "img/villes/NTE.jpg",
-      "alt": "Panorama de la cour du château des ducs de Bretagne",
-      "author": "Schcambo",
-      "license": "CC BY 2.5",
-      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_ducs_de_Bretagne_-_EDIT.jpg"
+      "alt": "Les tours du château des ducs de Bretagne à Nantes",
+      "author": "John Samuel",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_des_ducs_de_Bretagne_%28Nantes%29_11.jpg"
     },
     "climate": {
       "min": [
@@ -2143,10 +2143,10 @@
     "pitch": "La Sicile intense : marchés bouillonnants, street food légendaire, palais baroques et la plage de Mondello aux eaux turquoise.",
     "photo": {
       "src": "img/villes/PMO.jpg",
-      "alt": "La plage de Mondello, son eau turquoise et le monte Pellegrino",
-      "author": "Berthold Werner",
+      "alt": "La cathédrale de Palerme et ses jardins sous un ciel bleu",
+      "author": "Carlo Pelagalli",
       "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Mondello_BW_2012-10-09_14-14-44.JPG"
+      "page": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Palermo._-_panoramio.jpg"
     },
     "climate": {
       "min": [
@@ -2350,10 +2350,10 @@
     "pitch": "Le charme méditerranéen à petit prix : maisons blanches et bleues de Sidi Bou Saïd, souks de la médina et vestiges de Carthage face à la mer.",
     "photo": {
       "src": "img/villes/TUN.jpg",
-      "alt": "Sidi Bou Saïd, ses terrasses bleu et blanc face au golfe de Tunis",
-      "author": "Aminebz",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Sidi_bou_sa%C3%AFd_,Tunisia.jpg"
+      "alt": "Sidi Bou Saïd, ses maisons blanches et bleues face au golfe de Tunis",
+      "author": "Habib M'henni",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sidi_Bou_Said%2C_Tunisia%2C_19_March_2018_DSC_8004.jpg"
     },
     "climate": {
       "min": [
@@ -2695,10 +2695,10 @@
     "pitch": "L'Afrique de l'Ouest version océan : plages de Ngor, île de Gorée, musique dans chaque rue et chaleur toute l'année.",
     "photo": {
       "src": "img/villes/DKR.jpg",
-      "alt": "La baie turquoise de Ngor et ses pirogues",
-      "author": "Jeff Attaway from Abuja",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Ngor_Bay_(5662409796).jpg"
+      "alt": "Pirogues colorées dans la baie de Dakar, monument de la Renaissance au loin",
+      "author": "Olha Pererva",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:View_on_Ngor_plage.jpg"
     },
     "climate": {
       "min": [
@@ -3109,10 +3109,10 @@
     "pitch": "La porte d'entrée de la Crète : lagons turquoise, plages de sable rose, palais de Knossos et l'hospitalité crétoise autour d'une table.",
     "photo": {
       "src": "img/villes/HER.jpg",
-      "alt": "Lagon de Balos, eaux turquoise (ouest de la Crète)",
-      "author": "dronepicr",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Balos_Lagoon_on_the_island_of_Crete,_Greece.jpg"
+      "alt": "La forteresse vénitienne de Koules et le vieux port d'Héraklion",
+      "author": "Moonik",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Venetian_Fortress_of_Koules_in_Heraklion%2C_Crete_003.jpg"
     },
     "climate": {
       "min": [
@@ -3702,10 +3702,10 @@
     "pitch": "Alger la Blanche : une baie immense sur la Méditerranée, la Casbah mystérieuse, les façades haussmanniennes et Notre-Dame d'Afrique face à la mer.",
     "photo": {
       "src": "img/villes/ALG.jpg",
-      "alt": "Panorama sur Alger la Blanche et sa baie",
-      "author": "Manini row",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:La_baie_d%27Alger_(cropped).jpg"
+      "alt": "Notre-Dame d'Afrique dominant la baie d'Alger",
+      "author": "Yelles",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Notre_Dame_d%27Afrique_a_Alger_en_2010.jpg"
     },
     "climate": {
       "min": [
@@ -3978,10 +3978,10 @@
     "pitch": "Le soleil et la mer en pleine ville : Vieux-Port, Bonne Mère et les calanques aux eaux turquoise à quelques minutes du centre.",
     "photo": {
       "src": "img/villes/MRS.jpg",
-      "alt": "Calanque d'En-Vau aux eaux turquoise (parc national des Calanques)",
-      "author": "kallerna",
+      "alt": "Le Vieux-Port de Marseille et Notre-Dame-de-la-Garde sous un ciel bleu",
+      "author": "Marianne Casamance",
       "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:En-Vau_calanque_1.jpg"
+      "page": "https://commons.wikimedia.org/wiki/File:Marseille_vieux_port_et_ND_de_la_Garde.jpg"
     },
     "climate": {
       "min": [
@@ -4047,10 +4047,10 @@
     "pitch": "La Méditerranée version moderne : architecture futuriste, plages de sable fin en ville, vraie paella et un vieux centre plein de charme.",
     "photo": {
       "src": "img/villes/VLC.jpg",
-      "alt": "La Cité des Arts et des Sciences et ses bassins turquoise",
-      "author": "Diego Delso",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Ciudad_de_las_Artes_y_las_Ciencias,_Valencia,_Espa%C3%B1a,_2014-06-29,_DD_39.JPG"
+      "alt": "La place de la Vierge, la basilique et la cathédrale de Valence",
+      "author": "LiteraryTech",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Virgen_-_Valencia_Cathedral_-_Basilica_03.jpg"
     },
     "climate": {
       "min": [
@@ -4599,10 +4599,10 @@
     "pitch": "Le Maroc moderne face à l'Atlantique : la grande mosquée Hassan II au bord des vagues, corniche animée et architecture Art déco.",
     "photo": {
       "src": "img/villes/CMN.jpg",
-      "alt": "La corniche et la mosquée Hassan II au coucher du soleil",
-      "author": "RIM 75",
-      "license": "CC BY 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.jpg"
+      "alt": "Le minaret de la mosquée Hassan II encadré par une arche, Casablanca",
+      "author": "OussamaHamama",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Whispers_of_Gold_-_Hassan_II_Mosque_at_Dusk.jpg"
     },
     "climate": {
       "min": [
@@ -4737,10 +4737,10 @@
     "pitch": "L'île douce de la Méditerranée : plages de sable fin, eau turquoise peu profonde, villages blancs et soleil presque toute l'année.",
     "photo": {
       "src": "img/villes/DJE.jpg",
-      "alt": "Barque de pêcheur traditionnelle sur une mer turquoise",
-      "author": "Skander zarrad",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Barque_de_p%C3%AAcheur_-_Djerba_-_tunisie.jpg"
+      "alt": "Dromadaires sur une plage de sable blanc et mer turquoise à Djerba",
+      "author": "alex and mac",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Djerba-2008-Beach_and_camels-alexandmac.jpg"
     },
     "climate": {
       "min": [
@@ -5854,10 +5854,10 @@
     "pitch": "L'Est algérien côté mer : corniche animée, criques turquoise sous des falaises verdoyantes et la basilique Saint-Augustin dominant la ville.",
     "photo": {
       "src": "img/villes/AAE.jpg",
-      "alt": "Falaises verdoyantes plongeant dans une mer bleu turquoise sur la côte d'Annaba",
-      "author": "Kheir eddine98",
+      "alt": "La basilique Saint-Augustin sur sa colline, devant les montagnes d'Annaba",
+      "author": "BRAHIM DJELLOUL Mustapha",
       "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Annaba_Sea3.jpg"
+      "page": "https://commons.wikimedia.org/wiki/File:Basilique_Saint-Augustin_Annaba_02.jpg"
     },
     "climate": {
       "min": [

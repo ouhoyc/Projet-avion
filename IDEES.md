@@ -26,10 +26,13 @@ hôtels). Revenus : commissions à chaque étape (vol, hôtel, activités…).
 - Piste : une source unique pour toutes les villes (ex. Open-Meteo, normales calculées).
 
 **Photos à améliorer**
-- Photos prises hors de la ville : Batna (Timgad), Sétif (Djémila), Biskra (palmeraie de la
-  région), Héraklion (lagon de Balos, ouest de la Crète), Brest (pointe Saint-Mathieu),
-  Marseille (calanque d'En-Vau, Cassis).
-- Moins réussies / basse résolution : Djeddah, Bucarest, Essaouira (pas de plage), Annaba.
+- (10/11/2026) 12 photos remplacées à la demande du propriétaire (peu attractives ou hors de la ville) : Marseille (Vieux-Port),
+  Valence (place de la Vierge), Alger (Notre-Dame d'Afrique), Tunis (Sidi Bou Saïd), Annaba (basilique Saint-Augustin), Milan (Duomo),
+  Palerme (cathédrale), Nantes (château), Héraklion (forteresse de Koules), Dakar (baie et pirogues), Djerba (plage et dromadaires),
+  Casablanca (minaret de la mosquée Hassan II). Gardées faute de mieux sur Commons : Batna (Timgad), Sétif (Djémila), Biskra
+  (palmeraie), Brest (pointe Saint-Mathieu : photos de la ville toutes grises), Bari (front de mer), Oujda (porte de la médina).
+- Prochaine étape demandée : diaporama de 3-4 photos par ville (fiches de l'accueil ET haut de la page guide), à faire ensuite.
+- Moins réussies / basse résolution : Djeddah, Bucarest, Essaouira (pas de plage).
 - Monuments italiens (Colisée, Duomo…) : la loi italienne demande une autorisation pour un usage
   commercial des images de biens culturels → à remplacer si le site devient commercial.
 - Las Palmas : photo recadrée → préciser « recadrée » dans les crédits (licence CC BY).
