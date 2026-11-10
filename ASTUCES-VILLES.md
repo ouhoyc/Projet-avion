@@ -184,3 +184,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   cenacolovinciano.org/en/info, museoscala.org (`…/museo-e-teatro/orari-e-biglietti.html`), fondoambiente.it (villa Necchi). Nouveaux prix des
   musées municipaux (10/05/2026) : article mentelocale.it. Commons : recherche HTML (`ns6=1`) + `thumb.php` ; l'API répondait 429 : auteur et
   licence lus sur la page `File:` (remplacer `&#95;` par `_` avant de chercher `fileinfotpl_aut`).
+- Hurghada (nov. 2026) : Wanderlog géo de `geoCategory/75333` (listes « …-in-hurghada » et « …-in-el-gouna », ~260 restaurants) ; les
+  positions sont dans un bloc à part (`"placeId":"…","longitude":…,"latitude":…`). `businessStatus` repère les fermetures (Thai Garden,
+  Corsini : « CLOSED_TEMPORARILY »). Google Maps en affichage limité : notes sans nombre d'avis, puis page vide après ~50 recherches.
+  Prix : Musement (`hurghada/activites-c`, par `curl`), egymonuments.gov.eg (musée), hurghadagrandaquarium.com, cartes PDF sur
+  cms.elgouna.com (Nihon). Sous-marin Sindbad écarté (accident de 2025). Commons : `?width=960` (taille standard) sinon « 429 ».

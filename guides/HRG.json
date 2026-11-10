@@ -1,0 +1,1208 @@
+{
+ "city_code": "HRG",
+ "statut": "préparé en autonomie, prix relevés le 10/11/2026 (1 € ≈ 60 livres égyptiennes, 1 € ≈ 1,11 $)",
+ "verifie_le": "2026-11-10",
+ "ile": true,
+ "avant_de_partir": "Passeport ou carte d'identité valable au moins 6 mois après la date de retour ; avec la carte d'identité, prenez deux photos d'identité. Visa touristique à acheter à l'arrivée à l'aéroport : 30 $ en espèces (dollars ou euros). Avec la carte d'identité, vérifiez que le formulaire de visa remis à l'arrivée porte bien votre nom et le numéro complet de la carte.",
+ "transport": "un taxi",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 60,
+ "activites": [
+  {
+   "id": "giftun",
+   "nom": "Île de Giftun et plage de Mahmya",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Île de Giftun (45 min de bateau)",
+   "lat": 27.1827,
+   "lng": 33.9596,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Journée en bateau partagé : 2 arrêts de snorkeling sur les récifs de Giftun, déjeuner à bord, transfert",
+     "≈ 25 à 40 €"
+    ],
+    [
+     "Journée à Mahmya, la plage aménagée de l'île (bateau, déjeuner, transat)",
+     "≈ 45 à 60 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 5 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; prise en charge à l'hôtel vers 8 h",
+   "duree": "Journée (8 h 30 - 16 h 30)",
+   "moment": "Toute l'année, le matin quand la mer est calme ; eau à 22 °C en hiver, 28 °C en été",
+   "texte": "La carte postale de Hurghada, à trois quarts d'heure de bateau : une île de sable blanc posée sur une eau qui passe du turquoise au bleu nuit. On saute du bateau au-dessus de jardins de corail peuplés de poissons-perroquets et de poissons-clowns, puis on se pose à Mahmya, sa plage de parasols en palmes, les pieds dans un lagon transparent.",
+   "site_officiel": "https://www.mahmya.com",
+   "note": "L'île est un parc national : ne touchez pas le corail et préférez une crème solaire sans filtre chimique. Choisissez une agence qui fournit gilets, masques et palmes.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "KarimSh at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Al-Mahmya_Beach,_Hurghada,_Egypt.jpeg",
+    "src": "img/activites/HRG/giftun.jpg"
+   }
+  },
+  {
+   "id": "orange-bay",
+   "nom": "Orange Bay, le lagon des réseaux sociaux",
+   "emoji": "🩵",
+   "type": "plage",
+   "badges": [
+    "tendance"
+   ],
+   "quartier": "Île de Giftun (côte ouest)",
+   "lat": 27.2081,
+   "lng": 33.9272,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Croisière à Orange Bay : 2 h de plage, 1 ou 2 arrêts de snorkeling, déjeuner, transfert",
+     "≈ 20 à 40 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 5 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      18
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Journée (8 h 30 - 16 h)",
+   "moment": "D'avril à novembre pour se baigner longtemps ; tôt le matin pour éviter la foule",
+   "texte": "Le sable le plus blanc et l'eau la plus claire de la région : un lagon peu profond aux reflets turquoise où l'on marche dans l'eau jusqu'à la taille, entre parasols en palmes et balançoires plantées dans la mer. C'est la photo que tout le monde rapporte de Hurghada, et elle n'est pas retouchée.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Très fréquenté en haute saison : la file d'attente pour les balançoires peut être longue. Vérifiez si la taxe du parc est comprise dans le prix de la croisière.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Caprice4540",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_of_giftun_island.JPG",
+    "src": "img/activites/HRG/orange-bay.jpg"
+   }
+  },
+  {
+   "id": "dolphin-house",
+   "nom": "Dolphin House : nager près des dauphins sauvages",
+   "emoji": "🐬",
+   "type": "nature",
+   "quartier": "Récif de Shaab El Erg (1 h de bateau au nord)",
+   "lat": 27.383,
+   "lng": 33.9,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Journée en bateau : recherche des dauphins, 2 arrêts de snorkeling, déjeuner, transfert",
+     "≈ 30 à 45 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 5 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant",
+   "duree": "Journée (8 h - 16 h 30)",
+   "moment": "Le matin, quand les dauphins se reposent dans le lagon ; toute l'année",
+   "texte": "Au nord de Hurghada, le récif en fer à cheval de Shaab El Erg abrite une famille de grands dauphins qui vient y dormir à l'abri des vagues. Avec un peu de chance, ils passent sous le bateau : on se glisse à l'eau, masque sur le nez, et on les voit filer à quelques mètres. Une rencontre en liberté, rien à voir avec un bassin.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Les dauphins sont sauvages : on ne les voit pas à chaque sortie. On ne les touche pas et on ne les poursuit pas. Évitez les spectacles de dauphins en bassin.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "V Manninen from Funland",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Sea_dolphin_(2743505015).jpg",
+    "src": "img/activites/HRG/dolphin-house.jpg"
+   }
+  },
+  {
+   "id": "marina",
+   "nom": "Hurghada Marina, la promenade du soir",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Sakkala",
+   "lat": 27.2259,
+   "lng": 33.841,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "1 h à 2 h",
+   "moment": "Au coucher du soleil, puis le soir",
+   "texte": "Le cœur élégant de Hurghada : des centaines de yachts alignés devant des façades ocre et rose, une longue promenade en bois bordée de cafés, de glaciers et de restaurants. On y vient quand le soleil se couche sur les montagnes, puis on dîne au bord de l'eau dans une ambiance détendue.",
+   "site_officiel": "https://www.hurghada-marina.com",
+   "note": "C'est aussi d'ici que partent beaucoup de bateaux d'excursion le matin.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alexander Vasenin",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morning_at_Hurghada_Marina.JPG",
+    "src": "img/activites/HRG/marina.jpg"
+   }
+  },
+  {
+   "id": "mosquee",
+   "nom": "Grande mosquée El Mina",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Sakkala (port de pêche)",
+   "lat": 27.2298,
+   "lng": 33.8428,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Location d'une tenue couvrante dans la cour",
+     "≈ 1 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "30 min",
+   "moment": "En dehors des heures de prière ; la façade est superbe au coucher du soleil",
+   "texte": "Deux minarets élancés et une coupole blanche qui dominent le port : la plus grande mosquée de Hurghada, d'inspiration ottomane, se reflète dans l'eau entre les bateaux de pêche colorés. C'est l'image la plus élégante de la ville, à voir de près puis depuis le port.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Les visiteurs non musulmans sont en général acceptés hors des prières, en tenue couvrante (jambes et épaules, foulard pour les femmes), mais l'entrée n'est pas garantie et elle est fermée aux visiteurs pendant le ramadan. La façade se voit librement.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "reesorts.com",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hurghada_port_mosque.jpg",
+    "src": "img/activites/HRG/mosquee.jpg"
+   }
+  },
+  {
+   "id": "dahar",
+   "nom": "El Dahar, le vieux Hurghada et son souk",
+   "emoji": "🧺",
+   "type": "balade",
+   "quartier": "El Dahar",
+   "lat": 27.2519,
+   "lng": 33.8178,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi et le soir, quand les boutiques s'animent",
+   "texte": "Loin des hôtels, le Hurghada des Égyptiens : des ruelles de boutiques d'épices aux montagnes de fleurs d'hibiscus, des lanternes et des narguilés, des cafés où l'on joue aux dominos, et le grand marché aux fruits. On y marchande dans la bonne humeur et l'on y goûte un jus de canne à sucre pour quelques centimes.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Marchandez : on commence souvent à la moitié du prix annoncé. Méfiez-vous des rabatteurs qui proposent de vous « guider » vers la boutique d'un cousin.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "1089hruskapetr",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Prodejna_koření_a_čajů_-_panoramio.jpg",
+    "src": "img/activites/HRG/dahar.jpg"
+   }
+  },
+  {
+   "id": "musee",
+   "nom": "Musée de Hurghada",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Route des villages touristiques (El Kawther)",
+   "lat": 27.1604,
+   "lng": 33.8216,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Adulte",
+     "300 livres (≈ 5 €)"
+    ],
+    [
+     "Étudiant (avec carte)",
+     "150 livres (≈ 2,50 €)"
+    ],
+    [
+     "Audioguide",
+     "50 livres"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets sur place",
+   "duree": "1 h 30",
+   "moment": "Le soir (17 h - 23 h), quand il fait plus frais ; aussi le matin (10 h - 13 h)",
+   "texte": "Ouvert en 2020, un musée moderne et lumineux qui raconte l'Égypte ancienne à travers la beauté et le luxe : statues de pharaons, sarcophages peints, bijoux, parfums et miroirs des reines. Une belle introduction à l'histoire du pays, sans quitter la mer Rouge, et ouverte tard le soir.",
+   "site_officiel": "https://egymonuments.gov.eg/en/museums/hurghada-museum",
+   "note": "Guichet fermé à 12 h le matin et à 22 h le soir.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sohilaali869",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Artifacts_of_Hurghada_Museum_01.jpg",
+    "src": "img/activites/HRG/musee.jpg"
+   }
+  },
+  {
+   "id": "aquarium",
+   "nom": "Grand Aquarium de Hurghada",
+   "emoji": "🦈",
+   "type": "culture",
+   "quartier": "Sud de la ville (route des villages)",
+   "lat": 27.1344,
+   "lng": 33.8219,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Adulte (dès 10 ans), réservé en ligne",
+     "32 $ (≈ 29 €)"
+    ],
+    [
+     "Adulte, au guichet",
+     "35 $"
+    ],
+    [
+     "Enfant de 4 à 9 ans",
+     "17,50 $ (≈ 16 €)"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      9,
+      16
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne, pour payer moins cher (paiement sur place)",
+   "duree": "2 h",
+   "moment": "Aux heures chaudes de la journée ; dernière entrée vers 18 h",
+   "texte": "Un tunnel de verre où requins, raies et tortues glissent au-dessus de votre tête, des bassins géants où nagent les poissons multicolores de la mer Rouge, et un petit zoo autour. Le meilleur moyen de montrer les fonds marins aux enfants trop petits pour le masque et le tuba.",
+   "site_officiel": "https://www.hurghadagrandaquarium.com",
+   "note": "Tarifs pour les visiteurs étrangers.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ojce",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Akvarijum5.jpg",
+    "src": "img/activites/HRG/aquarium.jpg"
+   }
+  },
+  {
+   "id": "bapteme",
+   "nom": "Baptême de plongée en mer Rouge",
+   "emoji": "🫧",
+   "type": "sport",
+   "quartier": "Centres de plongée (Sakkala, route des villages)",
+   "lat": 27.2236,
+   "lng": 33.8445,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Baptême depuis la plage : 1 plongée, moniteur et matériel",
+     "≈ 35 à 45 €"
+    ],
+    [
+     "Journée en bateau : 2 plongées découverte, déjeuner",
+     "≈ 45 à 60 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 5 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "1 ou 2 jours avant",
+   "duree": "Demi-journée ou journée",
+   "moment": "Le matin ; pas d'avion dans les 24 h qui suivent",
+   "texte": "Hurghada est l'un des berceaux de la plongée en mer Rouge : eau chaude et claire, récifs à quelques mètres de la surface, poissons partout. Après quelques minutes d'explications, un moniteur vous tient la main et vous respirez sous l'eau au milieu des coraux. On en ressort avec une seule envie : recommencer.",
+   "site_officiel": "https://divingaround.com/try-dive-discovery-diving-hurghada/",
+   "note": "À partir de 10 ans. Choisissez un centre agréé PADI ou SSI. Il y a deux caissons de décompression à Hurghada.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jerome Bon from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scuba_diving,_Hurghada_(2429616663).jpg",
+    "src": "img/activites/HRG/bapteme.jpg"
+   }
+  },
+  {
+   "id": "abu-nuhas",
+   "nom": "Les épaves d'Abu Nuhas (plongeurs confirmés)",
+   "emoji": "⚓",
+   "type": "sport",
+   "quartier": "Récif d'Abu Nuhas (2 h de bateau au nord)",
+   "lat": 27.5768,
+   "lng": 33.9285,
+   "prix": 85,
+   "prix_detail": [
+    [
+     "Journée en bateau, 2 plongées sur les épaves, déjeuner",
+     "≈ 75 à 95 €"
+    ],
+    [
+     "Location du matériel",
+     "≈ 15 à 25 €"
+    ],
+    [
+     "Taxe du parc national",
+     "≈ 5 € par personne, souvent à part"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 85,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "2 ou 3 jours avant (départ vers 7 h)",
+   "duree": "Journée entière",
+   "moment": "Quand la mer est calme, surtout d'avril à novembre",
+   "texte": "Un récif traître à l'entrée du golfe de Suez, où quatre cargos ont fait naufrage : le Giannis D couché sur le flanc, le Carnatic coulé en 1869, le Chrisoula K et ses carreaux de céramique, le Kimon M. Coraux, bancs de poissons de verre et lumière bleue dans les cales : l'un des plus beaux sites d'épaves de la mer Rouge.",
+   "site_officiel": "https://divingaround.com/diving-prices",
+   "note": "Réservé aux plongeurs certifiés (niveau 2 ou Advanced conseillé). Pas pour les débutants ni les enfants.",
+   "enfants": false,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "W.Strickling",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Giannis_D_Bow_2017-04-22_Egypt-8014.jpg",
+    "src": "img/activites/HRG/abu-nuhas.jpg"
+   }
+  },
+  {
+   "id": "quad",
+   "nom": "Quad, dromadaire et dîner bédouin dans le désert",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Désert Arabique (30 min)",
+   "lat": 27.17,
+   "lng": 33.7,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Quad 2 h, balade à dromadaire, thé dans un village bédouin, dîner et spectacle, transfert",
+     "≈ 30 à 40 €"
+    ],
+    [
+     "Coucher de soleil, observation des étoiles et dîner",
+     "≈ 45 à 80 €"
+    ],
+    [
+     "Quad seul, 3 h",
+     "≈ 20 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "Fin de journée (14 h - 21 h)",
+   "moment": "Au coucher du soleil, quand les montagnes deviennent roses, puis sous les étoiles",
+   "texte": "Derrière la ville, le vrai désert : des pistes de sable entre des montagnes de granit rouge, une halte dans un campement bédouin pour boire le thé, une balade à dos de dromadaire au soleil couchant, puis un dîner autour du feu sous un ciel rempli d'étoiles.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Les enfants montent en passager sur le quad d'un adulte. Prenez un foulard contre la poussière et un pull pour le soir en hiver.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mostafa Abdel Samie from Cairo, Egypt",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Desert_Safari_in_hurghada.jpg",
+    "src": "img/activites/HRG/quad.jpg"
+   }
+  },
+  {
+   "id": "el-gouna",
+   "nom": "El Gouna, la ville sur les lagunes",
+   "emoji": "🛶",
+   "type": "balade",
+   "quartier": "El Gouna (25 km au nord)",
+   "lat": 27.4082,
+   "lng": 33.6752,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée de la ville",
+     "gratuit"
+    ],
+    [
+     "Taxi aller-retour depuis Hurghada",
+     "≈ 10 à 20 €"
+    ],
+    [
+     "Tour en bateau sur les lagunes",
+     "≈ 5 à 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      11,
+      5
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "Demi-journée ou soirée",
+   "moment": "En fin d'après-midi, puis dîner à la marina",
+   "texte": "Une petite ville construite sur une vingtaine d'îles reliées par des ponts, au milieu de lagunes turquoise : maisons ocre aux coupoles, marina d'Abu Tig bordée de yachts et de terrasses, plages de kitesurf. Une autre facette de la mer Rouge, plus calme et plus chic, idéale pour une soirée.",
+   "site_officiel": "https://www.elgouna.com",
+   "note": "Le centre (Downtown) et la marina se visitent à pied ; des navettes et des tuk-tuks relient les quartiers. Spot de kitesurf réputé pour son vent régulier.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marc Ryckaert",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Gouna_Abu_Tig_R05.jpg",
+    "src": "img/activites/HRG/el-gouna.jpg"
+   }
+  },
+  {
+   "id": "sahl-hasheesh",
+   "nom": "Sahl Hasheesh, sa vieille ville et la cité engloutie",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Sahl Hasheesh (20 km au sud)",
+   "lat": 27.0484,
+   "lng": 33.8917,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Taxi aller-retour depuis le centre",
+     "≈ 10 à 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h",
+   "moment": "Au coucher du soleil, quand les lanternes s'allument",
+   "texte": "Une baie de sable doré bordée d'hôtels de luxe, avec en son centre une « vieille ville » toute neuve : arcades, fontaines et longue promenade face à la mer. Au bout de la jetée, on nage avec masque et tuba au-dessus de colonnes et de statues immergées, un décor de cité engloutie créé pour les nageurs.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "La cité engloutie n'est pas un site antique, mais un décor sous-marin récent. Accès à la mer depuis la jetée selon les règles des hôtels voisins.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Joshfdrake",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sahl_hasheesh3.JPG",
+    "src": "img/activites/HRG/sahl-hasheesh.jpg"
+   }
+  },
+  {
+   "id": "parachute",
+   "nom": "Parachute ascensionnel au-dessus de la mer",
+   "emoji": "🪂",
+   "type": "sport",
+   "quartier": "Plages de la route du Sheraton",
+   "lat": 27.205,
+   "lng": 33.85,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Vol de 10 à 15 minutes, seul ou à deux",
+     "≈ 20 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "sur la plage, le jour même",
+   "duree": "1 h",
+   "moment": "Le matin, avant que le vent se lève",
+   "texte": "Tiré par un bateau, vous vous envolez doucement à 50 mètres au-dessus de la mer : en dessous, les récifs dessinent des taches turquoise et bleu marine, et au loin les montagnes du désert ferment l'horizon. Un quart d'heure de pur plaisir, sans effort.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "À partir de 6 ans environ, accompagné d'un adulte. Vérifiez que le bateau a des gilets et un parachute en bon état.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kora27",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wassersport_Parasailing_in_Ägypten_IMG_9215WI.jpg",
+    "src": "img/activites/HRG/parachute.jpg"
+   }
+  },
+  {
+   "id": "louxor",
+   "nom": "Louxor en deux jours : temples et Vallée des Rois",
+   "emoji": "🏛️",
+   "type": "nature",
+   "quartier": "Louxor (4 h de route)",
+   "lat": 25.7188,
+   "lng": 32.6573,
+   "prix": 220,
+   "prix_detail": [
+    [
+     "2 jours en minibus avec guide : Karnak, temple de Louxor, Vallée des Rois, temple d'Hatchepsout, nuit d'hôtel, entrées",
+     "≈ 200 à 320 €"
+    ],
+    [
+     "En une journée (départ vers 5 h, retour vers 21 h)",
+     "≈ 50 à 100 €"
+    ],
+    [
+     "Vol en montgolfière à l'aube (en option)",
+     "≈ 50 à 100 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 220,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      11,
+      160
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "duree": "2 jours (1 nuit à Louxor)",
+   "moment": "D'octobre à avril ; l'été, il fait plus de 40 °C",
+   "texte": "La plus grande collection de monuments de l'Antiquité, à quatre heures de route : la forêt de colonnes géantes de Karnak, l'allée des sphinx, puis les tombeaux peints de la Vallée des Rois, dont celui de Toutânkhamon, et le temple d'Hatchepsout adossé à la falaise. Le voyage dans le temps de votre séjour.",
+   "site_officiel": "https://egymonuments.gov.eg/en",
+   "note": "France Diplomatie déconseille de rouler de nuit en Égypte, même en bus d'agence : la formule sur deux jours évite les trajets dans l'obscurité. Le 2 août 2027, une éclipse totale de soleil sera visible depuis Louxor.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "René Hourdry",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Temple_de_Louxor_68.jpg",
+    "src": "img/activites/HRG/louxor.jpg"
+   }
+  },
+  {
+   "id": "le-caire",
+   "nom": "Le Caire et les pyramides en une journée",
+   "emoji": "🔺",
+   "type": "nature",
+   "quartier": "Le Caire (1 h de vol)",
+   "lat": 29.9792,
+   "lng": 31.1342,
+   "prix": 300,
+   "prix_detail": [
+    [
+     "En avion aller-retour : pyramides de Gizeh, Sphinx, Grand Musée égyptien, guide et déjeuner",
+     "≈ 280 à 380 €"
+    ],
+    [
+     "En bus (5 à 6 h de route dans chaque sens, départ en pleine nuit)",
+     "≈ 70 à 120 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 300,
+    "enfants": [
+     [
+      11,
+      250
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant (places d'avion)",
+   "duree": "Journée entière (5 h - 22 h)",
+   "moment": "Toute l'année ; plus agréable d'octobre à avril",
+   "texte": "Une journée inoubliable : se tenir au pied de la grande pyramide de Khéops, la seule des Sept Merveilles du monde encore debout, croiser le regard du Sphinx, puis découvrir le trésor de Toutânkhamon dans le Grand Musée égyptien. Long, mais on ne l'oublie jamais.",
+   "site_officiel": "https://www.experienceegypt.eg/en",
+   "note": "Préférez l'avion : France Diplomatie déconseille la route de nuit, et le bus part en pleine nuit.",
+   "enfants": true,
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ricardo Liberato",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg",
+    "src": "img/activites/HRG/le-caire.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "al-halaka",
+   "nom": "Al Halaka",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson au poids, face au port",
+   "quartier": "Sakkala (port de pêche)",
+   "adresse": "Place du marché aux poissons, à côté de la mosquée El Mina, Hurghada",
+   "lat": 27.2291,
+   "lng": 33.8419,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Juste en face du marché aux poissons, l'adresse des Égyptiens : on choisit son poisson ou ses crevettes sur la glace, on le paie au poids, et il arrive grillé ou frit aux épices, avec riz, salades et pain chaud. Simple, frais, généreux, avec la mosquée El Mina pour décor.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Summering2018",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:حلقة_السمك_بالغردقة.jpg",
+    "src": "img/restos/HRG/al-halaka.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-dar-darak",
+   "nom": "El Dar Darak",
+   "emoji": "🍢",
+   "gamme": "petit",
+   "genre": "Cuisine égyptienne",
+   "quartier": "Sakkala",
+   "adresse": "Derrière la rue du Central touristique, près de l'école hôtelière, Hurghada",
+   "lat": 27.2158,
+   "lng": 33.838,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La cantine égyptienne que tout Hurghada connaît : kofta et brochettes grillées au charbon, molokheya, fattah au riz et au pain, mezzés et pain sorti du four. Des portions copieuses pour trois fois rien, dans une salle animée où se mêlent familles du coin et voyageurs curieux.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Habib M'henni",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Molokheya_Egypt,_2012.JPG",
+    "src": "img/restos/HRG/el-dar-darak.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "white-elephant",
+   "nom": "White Elephant",
+   "emoji": "🍜",
+   "gamme": "petit",
+   "genre": "Thaïlandais",
+   "quartier": "Route des villages (El Mamsha)",
+   "adresse": "Route du Sheraton, à côté de l'hôtel Steigenberger Aldau, Hurghada",
+   "lat": 27.1632,
+   "lng": 33.8234,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "Un vrai thaï au bord de la mer Rouge : soupe tom yum parfumée à la citronnelle, salade de papaye, pad thaï, curry rouge ou vert, servis en portion moyenne ou grande. Une parenthèse légère et épicée entre deux dîners de grillades.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_yam_kung_maenam.jpg",
+    "src": "img/restos/HRG/white-elephant.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-garage",
+   "nom": "Le Garage Gourmet Burger",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "El Gouna (marina d'Abu Tig)",
+   "adresse": "Marina d'Abu Tig, MB 13-05, El Gouna",
+   "lat": 27.409,
+   "lng": 33.6764,
+   "prix": "8 à 14 €",
+   "prix_min": 8,
+   "texte": "Le repaire des amateurs de burgers à El Gouna, dans un décor de garage industriel face aux yachts : une carte si longue qu'on pourrait y revenir dix fois, du grand classique double cheese au burger au pain noir, et un burger végétarien que même les carnivores commandent.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Hongreddotbrewhouse",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RedDot_Burger.jpg",
+    "src": "img/restos/HRG/le-garage.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tandoor",
+   "nom": "Tandoor",
+   "emoji": "🍛",
+   "gamme": "petit",
+   "genre": "Indien",
+   "quartier": "El Gouna (marina d'Abu Tig)",
+   "adresse": "Hôtel Ali Pasha, marina d'Abu Tig, El Gouna",
+   "lat": 27.4068,
+   "lng": 33.6743,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "La seule vraie table indienne d'El Gouna, et l'une des plus aimées de la côte : poulet au beurre fondant, dal makhani mijoté, pains naan tout juste sortis du four tandoor. Fin, parfumé et très abordable.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en haute saison",
+   "photo": {
+    "auteur": "kspoddar",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chickentandoori.jpg",
+    "src": "img/restos/HRG/tandoor.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "boho-cafe",
+   "nom": "Boho Cafe",
+   "emoji": "🥑",
+   "gamme": "petit",
+   "genre": "Café et brunch",
+   "quartier": "El Gouna (marina d'Abu Tig)",
+   "adresse": "Marina d'Abu Tig, MB 13-04, El Gouna",
+   "lat": 27.409,
+   "lng": 33.6766,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "texte": "Le café lumineux où l'on commence la journée à El Gouna : bols d'açaï colorés, tartines d'avocat, œufs du matin et café glacé, sur une petite terrasse à deux pas des bateaux. Parfait pour un brunch après une baignade matinale.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert dès 7 h 30",
+   "photo": {
+    "auteur": "Túllio F",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Açaí_do_Pará.jpg",
+    "src": "img/restos/HRG/boho-cafe.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "moby-dick",
+   "nom": "Moby Dick",
+   "emoji": "🐪",
+   "gamme": "moyen",
+   "genre": "Grillades et cuisine du monde",
+   "quartier": "Route du Sheraton",
+   "adresse": "Route du Sheraton, en face de l'hôtel Regina, Hurghada",
+   "lat": 27.2206,
+   "lng": 33.8376,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La table la plus célèbre de la route du Sheraton, sur deux étages avec une cour : on y vient goûter le fameux steak de dromadaire à la sauce au poivre, tendre et parfumé, mais aussi le thon grillé, le bœuf Stroganoff ou des plats égyptiens. Une valeur sûre depuis des années.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, d'octobre à avril",
+   "photo": {
+    "auteur": "Jon Sullivan",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ribeyes.jpeg",
+    "src": "img/restos/HRG/moby-dick.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "starfish",
+   "nom": "Starfish",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Route du Sheraton",
+   "adresse": "Route du Sheraton, Sakkala, Hurghada",
+   "lat": 27.226,
+   "lng": 33.8377,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La grande adresse de poisson de Hurghada, toujours pleine : on choisit sa dorade, son mérou ou ses crevettes dans la vitrine, puis tout arrive grillé ou en tajine, avec soupe de poisson, riz sayadeya et mezzés. Frais, copieux et sans chichis.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu d'attente le soir",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dorade_royale_grillée.jpg",
+    "src": "img/restos/HRG/starfish.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "zia-amelia",
+   "nom": "Zia Amelia",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Italien",
+   "quartier": "El Gouna (Downtown)",
+   "adresse": "Downtown, en face du supermarché Ebeid, El Gouna",
+   "lat": 27.3957,
+   "lng": 33.6755,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'italien préféré d'El Gouna depuis plus de dix ans, tenu par une famille napolitaine : pizzas au feu de bois, pâtes fraîches, gnocchis et tiramisu maison, servis aux chandelles sur la terrasse. Chaleureux comme une trattoria de quartier.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "Paoletta S.",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gnocchi_di_ricotta_burro_e_salvia.jpg",
+    "src": "img/restos/HRG/zia-amelia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "merbey",
+   "nom": "MerBey",
+   "emoji": "🫓",
+   "gamme": "moyen",
+   "genre": "Libanais",
+   "quartier": "El Gouna (lagune Fanadir)",
+   "adresse": "Promenade devant l'hôtel Mosaique, El Gouna",
+   "lat": 27.4127,
+   "lng": 33.6725,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "texte": "Une table libanaise un peu cachée, au bord d'une lagune : houmous fumé au charbon, labneh au zaatar, taboulé, puis poissons grillés, à partager en terrasse les pieds presque dans l'eau. L'adresse calme et raffinée d'El Gouna.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Unai Guerra",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Petra_metzes.jpg",
+    "src": "img/restos/HRG/merbey.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "granada",
+   "nom": "Granada",
+   "emoji": "🌅",
+   "gamme": "moyen",
+   "genre": "Méditerranéen avec vue sur la mer",
+   "quartier": "Ancienne route du Sheraton",
+   "adresse": "Ancienne route du Sheraton, après l'hôtel Sunrise Holiday, Hurghada",
+   "lat": 27.2068,
+   "lng": 33.8472,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Une grande terrasse face à la mer Rouge, des banquettes confortables et une carte pour toutes les envies : pizzas, pâtes, grillades, plateaux de fruits de mer, curry de crevettes, et un copieux petit-déjeuner égyptien le matin. Idéal au coucher du soleil.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour une table au bord de l'eau",
+   "photo": {
+    "auteur": "Krückstock",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hurghada_sunset.JPG",
+    "src": "img/restos/HRG/granada.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "greek-bar",
+   "nom": "The Greek",
+   "emoji": "🫒",
+   "gamme": "moyen",
+   "genre": "Taverne grecque",
+   "quartier": "Hurghada Marina",
+   "adresse": "Marina Boulevard, Hurghada Marina",
+   "lat": 27.2261,
+   "lng": 33.8411,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Une taverne grecque sur la promenade de la marina : tzatziki, feta en rouleaux croustillants, gyros, stifado mijoté et cocktails, avec les yachts en toile de fond. L'adresse parfaite pour dîner après la balade du soir.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Antonio Fajardo i López",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pita_giros.JPG",
+    "src": "img/restos/HRG/greek-bar.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pier-88",
+   "nom": "Pier 88",
+   "emoji": "🛥️",
+   "gamme": "haut",
+   "genre": "Méditerranéen sur un ponton",
+   "quartier": "El Gouna (marina d'Abu Tig)",
+   "adresse": "Marina d'Abu Tig, El Gouna",
+   "lat": 27.4087,
+   "lng": 33.6747,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le restaurant culte d'El Gouna, posé sur un ponton flottant au milieu de la marina : steaks, poissons, pâtes et cocktails, les yachts tout autour. Puis la musique monte, et le dîner se transforme en soirée jusque tard dans la nuit.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant le week-end ; ouvert à partir de 16 h",
+   "photo": {
+    "auteur": "Marc Ryckaert",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Gouna_by_Night_R01.jpg",
+    "src": "img/restos/HRG/pier-88.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "lophelia",
+   "nom": "Lophelia",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "El Dahar (hôtel Hilton Plaza)",
+   "adresse": "Hôtel Hilton Hurghada Plaza, rue Gabal El Hareem, Hurghada",
+   "lat": 27.2595,
+   "lng": 33.8299,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "La table de poisson chic de Hurghada, au bord de la petite marina privée du Hilton : poissons de la mer Rouge à peine pêchés, crevettes, calamars et homard, avec une belle carte de vins et une vue panoramique sur la mer. Pour un dîner en amoureux.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille (18 h 30 - 22 h)",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Assiette_de_fruits_de_mer_Marché_des_Capucins_Bordeaux_(2).jpg",
+    "src": "img/restos/HRG/lophelia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nihon",
+   "nom": "Nihon",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Japonais et asiatique",
+   "quartier": "El Gouna (hôtel The Chedi)",
+   "adresse": "Hôtel The Chedi, Downtown, El Gouna",
+   "lat": 27.3978,
+   "lng": 33.6847,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "Dans l'hôtel le plus élégant d'El Gouna, une table asiatique soignée : tartare de saumon, makis créatifs, ramen, bœuf teriyaki et sashimis de poisson de la mer Rouge, avec des cocktails au thé de jasmin, face à la lagune.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "chidorian from Japan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg",
+    "src": "img/restos/HRG/nihon.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "signor-sassi",
+   "nom": "Signor Sassi",
+   "emoji": "🍝",
+   "gamme": "haut",
+   "genre": "Italien chic",
+   "quartier": "El Gouna (marina de Fanadir)",
+   "adresse": "Marina de Fanadir, El Gouna",
+   "lat": 27.4204,
+   "lng": 33.67,
+   "prix": "40 à 70 €",
+   "prix_min": 40,
+   "texte": "La célèbre trattoria chic de Knightsbridge, à Londres, a ouvert en 2024 sa première adresse égyptienne au bord de la marina de Fanadir : pâtes fraîches, poissons, antipasti et service à l'italienne, dans un décor élégant face à l'eau. La table des grandes occasions.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 ou 3 jours avant",
+   "photo": {
+    "auteur": "cyclonebill",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Ravioli_med_skinke_og_asparges_i_mascarponecreme.jpg",
+    "src": "img/restos/HRG/signor-sassi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cheguevara",
+   "nom": "Cheguevara",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Steakhouse",
+   "quartier": "Hurghada Marina",
+   "adresse": "Hurghada Marina, Sakkala",
+   "lat": 27.2277,
+   "lng": 33.8425,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "texte": "Le grill de la marina : filet de bœuf, steak de dromadaire, grillades mixtes et poissons, servis sur une terrasse face aux bateaux. On y vient pour la viande et pour la vue sur le port illuminé.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour une table en terrasse",
+   "photo": {
+    "auteur": "Amr F.Nagy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hurghada_Marina_2026_(15067).jpg",
+    "src": "img/restos/HRG/cheguevara.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "the-chedi",
+   "nom": "The Restaurant, The Chedi",
+   "emoji": "🌙",
+   "gamme": "haut",
+   "genre": "Cuisine orientale et du monde",
+   "quartier": "El Gouna (hôtel The Chedi)",
+   "adresse": "Hôtel The Chedi, Downtown, El Gouna",
+   "lat": 27.3978,
+   "lng": 33.6844,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "Le restaurant principal du Chedi, l'hôtel de luxe d'El Gouna : fattah aux aubergines, poisson sayadeya, burrata, risotto aux champignons et grillades, servis sur une terrasse face à la lagune, dans un calme absolu.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Askeja",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thana_Fine_Dining_plate.jpg",
+    "src": "img/restos/HRG/the-chedi.jpg",
+    "illustration": true
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "sakkala",
+   "nom": "Sakkala et la marina",
+   "lat": 27.2259,
+   "lng": 33.841,
+   "texte": "Le centre animé de Hurghada : la marina et sa promenade, la mosquée El Mina, les restaurants de poisson et les bars. Pratique pour sortir le soir à pied et partir en bateau le matin ; plages petites ou payantes."
+  },
+  {
+   "id": "el-dahar",
+   "nom": "El Dahar",
+   "lat": 27.2519,
+   "lng": 33.8178,
+   "texte": "Le vieux Hurghada, vivant et populaire : le souk, le marché, les petits restaurants égyptiens. Les hôtels y sont simples et bon marché ; peu de belles plages."
+  },
+  {
+   "id": "village-road",
+   "nom": "Route des villages (El Mamsha)",
+   "lat": 27.165,
+   "lng": 33.826,
+   "texte": "La longue avenue des grands hôtels au bord de la mer, au sud du centre : plages privées, promenade piétonne El Mamsha, restaurants et musée. Le choix le plus courant pour un séjour à la plage."
+  },
+  {
+   "id": "el-gouna",
+   "nom": "El Gouna",
+   "lat": 27.4,
+   "lng": 33.677,
+   "texte": "À 25 km au nord, la ville sur les lagunes : élégante, calme et très soignée, avec ses marinas, ses meilleures tables et ses spots de kitesurf. Plus cher, et loin du centre de Hurghada."
+  },
+  {
+   "id": "sahl-hasheesh",
+   "nom": "Sahl Hasheesh",
+   "lat": 27.0484,
+   "lng": 33.8917,
+   "texte": "Une baie au sud, bordée de grands hôtels de luxe au calme, avec sa vieille ville et sa jetée. Idéal pour se reposer ; il faut un taxi pour tout le reste."
+  }
+ ]
+}

@@ -333,6 +333,15 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (10/11/2026) **Page guide de Hurghada** (`guides/HRG.json`), préparée en autonomie : 16 activités (île de Giftun et Mahmya (≈ 35 €),
+  Orange Bay (tendance), Dolphin House, marina, mosquée El Mina, souk d'El Dahar, musée de Hurghada (300 livres ≈ 5 €), Grand Aquarium
+  (32 $ en ligne), baptême de plongée (≈ 45 €), épaves d'Abu Nuhas (plongeurs confirmés), quad et dîner bédouin, El Gouna, Sahl Hasheesh,
+  parachute ascensionnel, Louxor en 2 jours (France Diplomatie déconseille la route de nuit), Le Caire en avion). 18 restaurants (note
+  pondérée, C = 4,42, ~260 lieux Wanderlog + quadrillage Google Maps ; 9 à Hurghada, 9 à El Gouna où se trouvent les meilleures tables).
+  Écartés : Thai Garden et Corsini (fermés temporairement), Sky Restaurant (réservé aux clients de l'hôtel), Syake Sushi (surtout
+  livraison), sous-marin Sindbad (accident de 2025), Sand City et Mini Egypt (pas de photo libre / prix contradictoires).
+  `ile: true` + taxi (côte de 40 km). **Apify non lancé** (crédit épuisé). Prix estimés (pas de carte en ligne) : la plupart des
+  restaurants sauf Nihon (carte PDF), Zia Amelia, MerBey, Le Garage, Tandoor (guide Breadfast 2026). 6 photos reprises de Charm el-Cheikh.
 - ✅ (09/11/2026) **Page guide de Charm el-Cheikh** (`guides/SSH.json`), préparée en autonomie : 17 activités (Ras Mohammed en bateau
   (≈ 30 € ; taxe du parc ≈ 7 €, tarif 2026 de Circle Divers), île de Tiran, Naama Bay, Soho Square, vieux marché et mosquée Al-Sahaba,
   cathédrale copte, snorkeling à Ras Um Sid (plage El Fanar ≈ 10 $), baptême de plongée (≈ 55 €, 63 € chez Circle Divers), épave du
@@ -551,7 +560,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade
