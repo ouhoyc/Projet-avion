@@ -336,6 +336,19 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (13/11/2026) **Page guide de Malte** (`guides/MLA.json`), préparée en autonomie : 29 activités (La Valette, jardins Upper Barrakka et canon de midi
+  (batterie 3 €), co-cathédrale Saint-Jean (15 €, Caravage), palais des Grands Maîtres (12 €), fort Saint-Elme (10 €), Lascaris War Rooms (20 €),
+  Trois Cités en dgħajsa, fort Saint-Ange (10 €), croisière dans le Grand Port (≈ 20 €), Mdina, catacombes Saint-Paul (6 €), hypogée de Ħal Saflieni
+  (35 €, 80 visiteurs par jour, à réserver 2-3 mois avant), Ħaġar Qim et Mnajdra (10 €), grotte Bleue (≈ 10 €), Marsaxlokk, St Peter's Pool, Lagon Bleu
+  de Comino (pass gratuit obligatoire de mai à octobre, 4 000 personnes par créneau), Gozo et citadelle (ferry 4,65 €), Dwejra, Ramla, Ġgantija (10 €),
+  Golden Bay, Popeye Village (15-16 € l'hiver, 25 € l'été), Dingli, Mosta (≈ 5 €), Sliema et Saint-Julien, Paceville, plongée, festa). Prix Heritage Malta
+  lus sur heritagemalta.mt. 18 restaurants (note pondérée, C = 4,45, ~1 600 lieux lus via ~150 listes Wanderlog ; **Michelin 2026** : ION Harbour
+  2 étoiles, Noni, De Mondion, Rosamì 1 étoile, Rubino et Grain Street Bib Gourmand, sélection AKI, Tmun, Le Majoliche, Caviar & Bull, Tartarun),
+  5 lieux (`ile: true`, `transport` = le bus), pas de formalités (Union européenne), `prix_match` 7 €. **Apify refusé** : le jeton `APIFY_TOKEN`
+  est rejeté (« User was not found or authentication token is not valid », 0 $ dépensé) → à renouveler par le propriétaire dans les secrets GitHub ;
+  badges tendance d'après le web. Écartés : Fernandõ (1 étoile, fermé pour déménagement), Coogi's (notes très nombreuses, sans doute réclamées),
+  Caffe Cordina (4,1), Gululu (4,1), Ta' Kris (4,4 mais score sous la moyenne). Prix estimés : Noni, Rosamì (≈ 180-220 €, une seule source), De Mondion,
+  AKI, Grain Street, Tmun, Le Majoliche, Nenu, Sotto, Forty Fishes, Balance Bowl, grotte Bleue, ferry de Comino. 16 photos de restaurants d'illustration.
 - ✅ (10/11/2026) **Page guide de Faro** (`guides/FAO.json`), préparée en autonomie : 24 activités sur tout l'Algarve (vieille ville,
   cathédrale et sa tour (≈ 5 €), chapelle des os du Carmo, musée municipal, bateau dans la Ria Formosa, Ilha Deserta (bateau ≈ 10 €),
   plage de Faro, Olhão et Culatra (bateau public ≈ 4 €), Tavira, plage du Barril et cimetière des ancres, grotte de Benagil (règles de 2024 :
@@ -576,7 +589,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

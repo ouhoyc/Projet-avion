@@ -195,4 +195,7 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   suffisent. Prix des excursions : outil Booking (attractions) + Tiqets (`"priceEur"` par `curl`). Le site de l'Ilha Deserta (ilhadeserta.com)
   est en JavaScript (Playwright) ; l'ancien domaine ilha-deserta.com redirige vers un site sans rapport. Commons : recherche HTML (`ns6=1`)
   + `thumb.php`, l'API répondait « 429 » (auteur et licence lus sur la page `File:`).
-
+- Malte (nov. 2026) : Wanderlog départ `geoCategory/20989` (Valletta), puis listes « …-in-sliema », « …-in-saint-julians », « …-in-mdina »,
+  « …-in-qawra », « …-in-victoria »… (~150 listes, ~1 600 lieux). Prix officiels lisibles par `curl` sur `heritagemalta.mt/explore/<site>/` (tous les
+  sites d'État), wirtartna.org (Lascaris, batterie des saluts), popeyemalta.com ; la co-cathédrale bloque (Cloudflare). Michelin : la page
+  `guide.michelin.com/en/mt/restaurants` liste tout Malte (Playwright, `.card__menu`). Commons : recherche HTML (`ns6=1`) + `thumb.php`, sans « 429 ».

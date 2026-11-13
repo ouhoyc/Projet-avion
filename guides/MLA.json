@@ -1,0 +1,1846 @@
+{
+  "city_code": "MLA",
+  "statut": "préparé en autonomie, prix relevés le 13/11/2026",
+  "verifie_le": "2026-11-13",
+  "ile": true,
+  "transport": "le bus",
+  "prix_match": 7,
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "hotel_petit_prix_max": 80,
+  "activites": [
+    {
+      "id": "valette",
+      "nom": "La Valette, la capitale fortifiée",
+      "emoji": "🏰",
+      "type": "balade",
+      "quartier": "La Valette",
+      "lat": 35.8993,
+      "lng": 14.5137,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans les rues, les remparts et les jardins",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "Tôt le matin ou en fin d'après-midi, quand la pierre dorée s'allume et que les paquebots sont repartis",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une ville entière bâtie en vingt ans par les chevaliers de Malte, après le Grand Siège de 1565 : rues en damier qui plongent vers la mer, pierre couleur miel, et partout ces balcons de bois peints en vert, bleu ou rouge qui font la carte postale de l'île. La Valette tient dans un mouchoir de poche (1 km sur 600 m) et se visite à pied, d'une église baroque à un bastion face au large.",
+      "site_officiel": "https://www.visitmalta.com/fr/valletta",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Godwin Borg",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Balconies_overlooking_Sappers_Street_Valletta.jpg",
+        "src": "img/activites/MLA/valette.jpg"
+      }
+    },
+    {
+      "id": "barrakka",
+      "nom": "Jardins Upper Barrakka et coup de canon de midi",
+      "emoji": "💥",
+      "type": "vue",
+      "quartier": "La Valette",
+      "lat": 35.89496,
+      "lng": 14.51201,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Jardins et vue sur le Grand Port",
+          "gratuit"
+        ],
+        [
+          "Batterie des saluts (au plus près des canons, avec le musée)",
+          "3 € (enfant 1 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min à 1 h",
+      "moment": "Un peu avant 12 h ou 16 h, pour le coup de canon tiré par des artilleurs en uniforme d'époque",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le plus beau balcon de Malte : depuis les arcades de ce jardin perché sur les remparts, tout le Grand Port s'ouvre sous vos pieds, avec les Trois Cités, leurs forts et les bateaux qui vont et viennent. À midi et à 16 h, les canons de la batterie des saluts tonnent comme au temps des Britanniques ; un ascenseur vous redescend ensuite au bord de l'eau en quelques secondes.",
+      "site_officiel": "https://www.salutingbattery.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Anton Zelenov",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Saluting_battery_from_Upper_Barrakka_gardens.jpg",
+        "src": "img/activites/MLA/barrakka.jpg"
+      }
+    },
+    {
+      "id": "saint-jean",
+      "nom": "Co-cathédrale Saint-Jean et ses Caravage",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "La Valette",
+      "lat": 35.8977,
+      "lng": 14.51264,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Entrée avec audioguide",
+          "15 €"
+        ],
+        [
+          "Plus de 60 ans, étudiants",
+          "12 €"
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            11,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille en été (file d'attente à l'entrée)",
+      "duree": "1 h à 1 h 30",
+      "moment": "Dès l'ouverture (9 h 30), avant les groupes des croisières ; fermée le dimanche et l'après-midi du samedi",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Derrière une façade toute simple se cache l'un des intérieurs les plus fous d'Europe : voûtes peintes, murs entièrement sculptés et dorés, sol fait de 400 pierres tombales de chevaliers en marbre de toutes les couleurs. Et dans l'oratoire, « La Décollation de saint Jean-Baptiste », le plus grand tableau du Caravage et le seul qu'il ait signé.",
+      "site_officiel": "https://www.stjohnscocathedral.com",
+      "note": "Tenue correcte demandée (épaules et genoux couverts) ; talons fins interdits pour protéger le sol de marbre.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Joseolgon",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Interior_of_St._John%27s_Co-Cathedral_2025_34.jpg",
+        "src": "img/activites/MLA/saint-jean.jpg"
+      }
+    },
+    {
+      "id": "palais",
+      "nom": "Palais des Grands Maîtres",
+      "emoji": "👑",
+      "type": "culture",
+      "quartier": "La Valette",
+      "lat": 35.89856,
+      "lng": 14.5145,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Adulte",
+          "12 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "10 €"
+        ],
+        [
+          "6-11 ans",
+          "8 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            17,
+            10
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h à 1 h 30",
+      "moment": "En milieu de journée, entre deux balades au soleil",
+      "enfants": true,
+      "texte": "Pendant plus de deux siècles, les Grands Maîtres de l'ordre de Saint-Jean ont gouverné Malte depuis ce palais, puis les gouverneurs britanniques, et aujourd'hui encore le président de la République. Salles d'apparat couvertes de fresques du Grand Siège, cours plantées de palmiers et surtout l'armurerie, l'une des plus riches collections d'armures au monde.",
+      "site_officiel": "https://heritagemalta.mt/explore/grand-masters-palace/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jaakko.kulta",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Grand_Master%27s_Palace_state_room_Valletta.jpg",
+        "src": "img/activites/MLA/palais.jpg"
+      }
+    },
+    {
+      "id": "saint-elme",
+      "nom": "Fort Saint-Elme et musée national de la Guerre",
+      "emoji": "🛡️",
+      "type": "culture",
+      "quartier": "La Valette (pointe)",
+      "lat": 35.90198,
+      "lng": 14.51881,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte",
+          "10 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "7,50 €"
+        ],
+        [
+          "6-11 ans",
+          "5,50 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            5.5
+          ],
+          [
+            17,
+            7.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Un dimanche matin, pour la parade « In Guardia » en costumes du XVIe siècle (selon le calendrier)",
+      "enfants": true,
+      "texte": "Ce fort en étoile, à la pointe de La Valette, a résisté un mois entier aux Ottomans en 1565 ; il a ensuite encaissé les bombes de 1940-1943. Le musée raconte 7 000 ans de guerres sur l'île, jusqu'à la Croix de George offerte à tout le peuple maltais pour son courage, et le chemin de ronde offre une vue superbe sur les deux ports.",
+      "site_officiel": "https://heritagemalta.mt/explore/fort-st-elmo-national-war-museum/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "John Haslam",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fort_St._Elmo%3B_Valletta%2C_Malta.jpg",
+        "src": "img/activites/MLA/saint-elme.jpg"
+      }
+    },
+    {
+      "id": "lascaris",
+      "nom": "Lascaris War Rooms, le QG secret sous la ville",
+      "emoji": "🎖️",
+      "type": "culture",
+      "quartier": "La Valette",
+      "lat": 35.89488,
+      "lng": 14.51278,
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Adulte (16 ans et plus)",
+          "20 €"
+        ],
+        [
+          "5-15 ans",
+          "7 €"
+        ],
+        [
+          "Famille (2 adultes + 3 enfants)",
+          "40 €"
+        ],
+        [
+          "Visite guidée à 10 h 30 ou 12 h 30",
+          "+ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            4,
+            0
+          ],
+          [
+            15,
+            7
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h à 1 h 30",
+      "moment": "Quand il fait trop chaud dehors : on est à 40 m sous terre",
+      "enfants": true,
+      "texte": "Creusées dans la roche sous les jardins Upper Barrakka, ces salles ont servi de quartier général aux Alliés pendant la Seconde Guerre mondiale. C'est d'ici qu'Eisenhower et Montgomery ont dirigé le débarquement en Sicile en 1943 : les cartes, les tableaux de bord et les téléphones sont restés comme si l'équipe venait de sortir.",
+      "site_officiel": "https://www.lascariswarrooms.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "War Office official photographer",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:War_Headquarters%2C_Malta_GM2310.jpg",
+        "src": "img/activites/MLA/lascaris.jpg"
+      }
+    },
+    {
+      "id": "trois-cites",
+      "nom": "Les Trois Cités et la traversée en dgħajsa",
+      "emoji": "🚣",
+      "type": "balade",
+      "quartier": "Birgu, Senglea, Cospicua",
+      "lat": 35.89093,
+      "lng": 14.52006,
+      "prix": 2,
+      "prix_detail": [
+        [
+          "Bateau-taxi traditionnel (dgħajsa) depuis La Valette",
+          "≈ 2 à 3 € (ferry : 1,50 €)"
+        ],
+        [
+          "Balade dans les ruelles et sur les quais",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2,
+        "enfants": [
+          [
+            12,
+            1
+          ]
+        ]
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "L'après-midi, puis l'apéritif sur le quai de Birgu face aux yachts",
+      "enfants": true,
+      "texte": "En face de La Valette, de l'autre côté du Grand Port, les trois petites villes où les chevaliers se sont installés en premier. On y va en dgħajsa, la barque colorée des passeurs maltais, puis on se perd dans les ruelles de Birgu, plus calmes et plus authentiques que la capitale, jusqu'au jardin de la Gardjola à Senglea et son guetteur de pierre aux yeux et aux oreilles sculptés.",
+      "site_officiel": "https://www.visitmalta.com/fr/the-three-cities",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "MrPanyGoff",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Birgu-Vittoriosa_-_Malta.jpg",
+        "src": "img/activites/MLA/trois-cites.jpg"
+      }
+    },
+    {
+      "id": "saint-ange",
+      "nom": "Fort Saint-Ange",
+      "emoji": "🏯",
+      "type": "culture",
+      "quartier": "Birgu",
+      "lat": 35.89181,
+      "lng": 14.51842,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte",
+          "10 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "6 €"
+        ],
+        [
+          "6-11 ans",
+          "4 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            17,
+            6
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "En fin de journée, pour la lumière sur La Valette en face",
+      "enfants": true,
+      "texte": "Le cœur du Grand Siège de 1565 : c'est derrière ces murailles que le Grand Maître La Valette a tenu tête à l'armée ottomane. Le fort restauré se visite de haut en bas, des cachots où le Caravage fut enfermé jusqu'aux terrasses qui offrent la plus belle vue sur La Valette et le port.",
+      "site_officiel": "https://heritagemalta.mt/explore/fort-st-angelo/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Felix König",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fort_St._Angelo_2009.jpg",
+        "src": "img/activites/MLA/saint-ange.jpg"
+      }
+    },
+    {
+      "id": "croisiere",
+      "nom": "Croisière dans le Grand Port",
+      "emoji": "⛴️",
+      "type": "balade",
+      "quartier": "Départ de Sliema (Ferries)",
+      "lat": 35.90878,
+      "lng": 14.50395,
+      "prix": 20,
+      "prix_detail": [
+        [
+          "Croisière commentée de 1 h 30 (ports et criques)",
+          "≈ 20 €"
+        ],
+        [
+          "Enfant",
+          "≈ 10 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 20,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            11,
+            10
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Le matin, quand la mer est la plus calme, ou au coucher du soleil en été",
+      "enfants": true,
+      "texte": "Le meilleur moyen de comprendre pourquoi tout le monde a voulu Malte : le bateau longe les remparts de La Valette, entre dans les criques des Trois Cités, passe sous les forts et devant les docks où mouillaient les flottes. En 90 minutes, vous voyez 500 ans d'histoire depuis l'eau, sans un pas.",
+      "site_officiel": "https://www.captainmorgan.com.mt",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mario L Borg",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_red_boat_at_Fort_St_Angelo.jpg",
+        "src": "img/activites/MLA/croisiere.jpg"
+      }
+    },
+    {
+      "id": "mdina",
+      "nom": "Mdina, la ville silencieuse",
+      "emoji": "🌙",
+      "type": "balade",
+      "quartier": "Mdina et Rabat (centre de l'île)",
+      "lat": 35.8865,
+      "lng": 14.4033,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade dans la ville",
+          "gratuit"
+        ],
+        [
+          "Cathédrale et son musée",
+          "15 € (plus de 60 ans 10 € ; moins de 13 ans gratuit)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 à 3 h",
+      "moment": "À la tombée de la nuit, quand les lanternes s'allument et que les visiteurs sont repartis",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "L'ancienne capitale de Malte, perchée sur sa colline et presque sans voitures : ruelles de pierre blonde qui serpentent, portes de palais en bois patiné, et un silence qui lui a valu son surnom. Les remparts dominent toute l'île jusqu'à la mer ; les fans de « Game of Thrones » reconnaîtront la porte principale, qui jouait celle de Port-Réal.",
+      "site_officiel": "https://www.visitmalta.com/fr/mdina",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jaakko.kulta",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mdina_street_2024.jpg",
+        "src": "img/activites/MLA/mdina.jpg"
+      }
+    },
+    {
+      "id": "catacombes",
+      "nom": "Catacombes Saint-Paul",
+      "emoji": "🕯️",
+      "type": "culture",
+      "quartier": "Rabat",
+      "lat": 35.88136,
+      "lng": 14.39742,
+      "prix": 6,
+      "prix_detail": [
+        [
+          "Adulte",
+          "6 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "4,50 €"
+        ],
+        [
+          "6-11 ans",
+          "3,50 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 6,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            3.5
+          ],
+          [
+            17,
+            4.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Avec Mdina, juste à côté (10 min à pied)",
+      "enfants": true,
+      "texte": "Un labyrinthe de galeries funéraires creusées dans la roche il y a 1 700 ans, aux portes de Mdina : plus de 30 hypogées éclairés à la lueur douce, avec leurs tombes en forme de baldaquin et les tables où les familles partageaient un repas en mémoire des défunts.",
+      "site_officiel": "https://heritagemalta.mt/explore/st-pauls-catacombs/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Catacombas_de_San_Pablo%2C_Rabat%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_164.jpg",
+        "src": "img/activites/MLA/catacombes.jpg"
+      }
+    },
+    {
+      "id": "hypogee",
+      "nom": "Hypogée de Ħal Saflieni",
+      "emoji": "🗿",
+      "type": "culture",
+      "quartier": "Paola (à 4 km de La Valette)",
+      "lat": 35.86955,
+      "lng": 14.50689,
+      "prix": 35,
+      "prix_detail": [
+        [
+          "Adulte",
+          "35 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "20 €"
+        ],
+        [
+          "6-11 ans",
+          "15 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "non admis"
+        ],
+        [
+          "Billets de dernière minute (la veille, s'il en reste)",
+          "50 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 35,
+        "enfants": [
+          [
+            11,
+            15
+          ],
+          [
+            17,
+            20
+          ]
+        ]
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 mois avant (seulement 80 visiteurs par jour)",
+      "duree": "1 h",
+      "moment": "Réservez avant même votre vol : les places partent des semaines à l'avance",
+      "enfants": true,
+      "texte": "Un sanctuaire souterrain sculpté dans la roche il y a plus de 5 000 ans, sur trois étages, et la seule construction préhistorique de ce type au monde. Plafonds peints à l'ocre rouge, « Saint des saints » taillé comme un temple, chambre de l'oracle où la voix résonne étrangement : une visite rare, en petits groupes de dix, classée par l'Unesco.",
+      "site_officiel": "https://heritagemalta.mt/explore/hal-saflieni-hypogeum/",
+      "note": "Photos interdites à l'intérieur ; enfants de moins de 6 ans non admis.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "xiquinhosilva",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hal_Saflieni_Hypogeum_%E2%80%93_Middle_Level_%E2%80%93_The_Holy_of_Holies.jpg",
+        "src": "img/activites/MLA/hypogee.jpg"
+      }
+    },
+    {
+      "id": "hagar-qim",
+      "nom": "Temples de Ħaġar Qim et Mnajdra",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Qrendi (côte sud)",
+      "lat": 35.8272,
+      "lng": 14.44353,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte (les deux temples)",
+          "10 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "7,50 €"
+        ],
+        [
+          "6-11 ans",
+          "5,50 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            5.5
+          ],
+          [
+            17,
+            7.5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Aux solstices et équinoxes, le soleil levant entre pile dans le temple de Mnajdra ; sinon en fin d'après-midi",
+      "enfants": true,
+      "texte": "Plus vieux que les pyramides d'Égypte et que Stonehenge : deux temples de blocs géants, posés il y a 5 500 ans au bord d'une falaise face au large. Le sentier qui descend de l'un à l'autre, entre lavande sauvage et mer à perte de vue, fait partie du voyage ; la grotte Bleue est à 2 km.",
+      "site_officiel": "https://heritagemalta.mt/explore/hagar-qim-and-mnajdra-archaeological-park/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:%C4%A6a%C4%A1ar_Qim%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_83.jpg",
+        "src": "img/activites/MLA/hagar-qim.jpg"
+      }
+    },
+    {
+      "id": "grotte-bleue",
+      "nom": "Grotte Bleue en barque",
+      "emoji": "💙",
+      "type": "nature",
+      "quartier": "Wied iż-Żurrieq (côte sud)",
+      "lat": 35.81967,
+      "lng": 14.45299,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Tour en barque de 25 min (espèces)",
+          "≈ 10 €"
+        ],
+        [
+          "Enfant",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            12,
+            5
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h avec le trajet à pied",
+      "moment": "Le matin avant 13 h, quand le soleil rentre dans les grottes ; barques arrêtées si la mer est forte",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une arche géante sculptée par la mer dans la falaise, et des grottes où l'eau prend des bleus électriques, presque fluorescents. De petites barques de pêcheurs partent du minuscule port de Wied iż-Żurrieq et se glissent sous les voûtes ; le belvédère sur la route offre la vue de carte postale sur l'arche.",
+      "site_officiel": "https://www.visitmalta.com/fr/blue-grotto",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Chris Brown",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Blue_Grotto_Malta-flickr_-_by_-_zoonabar.jpg",
+        "src": "img/activites/MLA/grotte-bleue.jpg"
+      }
+    },
+    {
+      "id": "marsaxlokk",
+      "nom": "Marsaxlokk, ses luzzu et son marché",
+      "emoji": "🐟",
+      "type": "balade",
+      "quartier": "Marsaxlokk (sud-est)",
+      "lat": 35.84177,
+      "lng": 14.54484,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade sur le port et marché",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le dimanche matin, pour le grand marché aux poissons ; puis déjeuner sur le port",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le port de pêche le plus photogénique de Malte : des dizaines de luzzu, les barques traditionnelles peintes en jaune, rouge et bleu, avec l'œil d'Osiris à la proue pour porter chance. Le dimanche, le quai devient un grand marché où l'on vend l'espadon, la dorade et la lampuka du matin.",
+      "site_officiel": "https://www.visitmalta.com/fr/marsaxlokk",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Vlad beu",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Marsaxlokk_Boat.JPG",
+        "src": "img/activites/MLA/marsaxlokk.jpg"
+      }
+    },
+    {
+      "id": "st-peters-pool",
+      "nom": "Piscine naturelle de St Peter's Pool",
+      "emoji": "🏊",
+      "type": "plage",
+      "quartier": "Delimara (près de Marsaxlokk)",
+      "lat": 35.83295,
+      "lng": 14.56255,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit (parking ≈ 2 à 3 € l'été)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Demi-journée",
+      "moment": "De juin à octobre, le matin en semaine (bondé le week-end) ; pas d'ombre, emportez de l'eau",
+      "enfants": false,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une piscine naturelle d'eau turquoise creusée dans des plateaux de calcaire blanc : on s'allonge sur la roche plate, et l'on plonge depuis les rebords dans une eau transparente. L'un des lieux les plus partagés de l'île, et le spot préféré des Maltais pour les sauts.",
+      "site_officiel": "https://www.visitmalta.com/fr",
+      "note": "Pas de plage de sable, pas de surveillance ni de commerce : venez avec chaussures et provisions.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Imhotep tep",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Pool_%C3%A0_Malte.jpg",
+        "src": "img/activites/MLA/st-peters-pool.jpg"
+      }
+    },
+    {
+      "id": "blue-lagoon",
+      "nom": "Le Lagon Bleu de Comino",
+      "emoji": "🏝️",
+      "type": "plage",
+      "quartier": "Comino (île entre Malte et Gozo)",
+      "lat": 36.01404,
+      "lng": 14.32338,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Bateau aller-retour depuis Ċirkewwa",
+          "≈ 15 € (enfant ≈ 7 €)"
+        ],
+        [
+          "Croisière depuis Sliema ou Buġibba",
+          "≈ 25 à 35 €"
+        ],
+        [
+          "Pass d'accès au lagon (mai à octobre)",
+          "gratuit, à réserver"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            10,
+            7
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "pass gratuit à réserver sur bluelagooncomino.mt (jusqu'à 2 mois avant), en choisissant un créneau",
+      "duree": "Demi-journée ou journée",
+      "moment": "De mai à octobre ; prenez le premier bateau (8 h - 9 h) ou le créneau de fin d'après-midi pour éviter la foule",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une eau turquoise si claire que les bateaux semblent flotter dans le vide, au-dessus d'un fond de sable blanc : le Lagon Bleu est l'image de Malte. Sur la petite île de Comino, quasiment sans habitants, on nage entre deux îles et l'on fait le tour à pied des falaises et des criques voisines.",
+      "site_officiel": "https://bluelagooncomino.mt",
+      "note": "Depuis mai 2025, 4 000 personnes au plus par créneau : réservez le pass gratuit, sans lui on ne peut pas débarquer en saison.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Frank Vincentz",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Malta_-_Ghajnsielem_-_Comino_-_Blue_Lagoon_%28Comino%29_02_ies.jpg",
+        "src": "img/activites/MLA/blue-lagoon.jpg"
+      }
+    },
+    {
+      "id": "gozo-citadelle",
+      "nom": "Gozo et la citadelle de Victoria",
+      "emoji": "⛵",
+      "type": "nature",
+      "quartier": "Gozo (Victoria)",
+      "lat": 36.04632,
+      "lng": 14.23961,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Ferry Ċirkewwa – Mġarr (aller-retour, payé au retour)",
+          "4,65 € (3-12 ans 1,15 €)"
+        ],
+        [
+          "Ferry rapide La Valette – Gozo (45 min)",
+          "≈ 7,50 € l'aller"
+        ],
+        [
+          "Citadelle et remparts",
+          "gratuit (musées en plus)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            12,
+            1.15
+          ]
+        ]
+      },
+      "reservation": "libre",
+      "duree": "Une journée",
+      "moment": "Une journée entière, avec le bus ou une voiture de location sur place",
+      "enfants": true,
+      "texte": "La petite sœur de Malte, plus verte, plus lente, plus rurale : collines en terrasses, villages autour de leur église, falaises et plages sauvages. Au centre, la citadelle de Victoria domine toute l'île du haut de ses remparts ; on en fait le tour en une heure, avec une vue sur Gozo d'un bout à l'autre.",
+      "site_officiel": "https://www.visitgozo.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ciudadela%2C_Victoria%2C_isla_de_Gozo%2C_Malta%2C_2021-08-22%2C_DD_17.jpg",
+        "src": "img/activites/MLA/gozo-citadelle.jpg"
+      }
+    },
+    {
+      "id": "dwejra",
+      "nom": "Dwejra et la mer intérieure",
+      "emoji": "🪨",
+      "type": "nature",
+      "quartier": "Gozo (côte ouest)",
+      "lat": 36.0497,
+      "lng": 14.1925,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Site",
+          "gratuit"
+        ],
+        [
+          "Barque dans la grotte jusqu'au large",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Au coucher du soleil, face au large ; baignade par mer calme",
+      "enfants": true,
+      "texte": "La côte la plus sauvage de l'archipel : une lagune d'eau verte reliée au large par un tunnel dans la falaise, que les petites barques traversent jusqu'à la haute mer. Juste à côté, le rocher du Champignon et l'endroit où se dressait la fameuse Fenêtre d'Azur, effondrée en 2017, aujourd'hui spot de plongée réputé.",
+      "site_officiel": "https://www.visitgozo.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Bellina 09",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Inland_sea_at_Dwejra%2C_Gozo.jpg",
+        "src": "img/activites/MLA/dwejra.jpg"
+      }
+    },
+    {
+      "id": "ramla",
+      "nom": "Plage de Ramla, le sable rouge de Gozo",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "Gozo (Xagħra)",
+      "lat": 36.0617,
+      "lng": 14.284,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plage",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Demi-journée",
+      "moment": "De juin à septembre ; en hiver pour la balade, la baie est déserte",
+      "enfants": true,
+      "texte": "La plus belle plage de Gozo : une large baie de sable rouge orangé, encadrée de collines vertes et de dunes, sans immeubles autour. Selon la légende, la nymphe Calypso y aurait retenu Ulysse sept ans ; sa grotte surplombe la baie.",
+      "site_officiel": "https://www.visitgozo.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Josep M. Gracia",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:VIC_-_Ramla_Bay_on_Gozo%2C_Malta%2C_2018.jpg",
+        "src": "img/activites/MLA/ramla.jpg"
+      }
+    },
+    {
+      "id": "ggantija",
+      "nom": "Temples de Ġgantija",
+      "emoji": "🗿",
+      "type": "culture",
+      "quartier": "Gozo (Xagħra)",
+      "lat": 36.04723,
+      "lng": 14.26906,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Adulte (avec le moulin de Ta' Kola)",
+          "10 €"
+        ],
+        [
+          "12-17 ans, plus de 60 ans",
+          "8 €"
+        ],
+        [
+          "6-11 ans",
+          "6 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            17,
+            8
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Le matin, avant la plage de Ramla (10 min en voiture)",
+      "enfants": true,
+      "texte": "« La tour des géants » : selon les Gozitains, seuls des géants ont pu soulever ces blocs de plusieurs tonnes il y a 5 600 ans. Ce sont parmi les plus vieux monuments debout de la planète, et un petit musée explique la vie de ces premiers habitants de l'archipel.",
+      "site_officiel": "https://heritagemalta.mt/explore/ggantija-archaeological-park/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Templo_de_%C4%A0gantija%2C_isla_de_Gozo%2C_Malta%2C_2021-08-23%2C_DD_18.jpg",
+        "src": "img/activites/MLA/ggantija.jpg"
+      }
+    },
+    {
+      "id": "golden-bay",
+      "nom": "Golden Bay et Għajn Tuffieħa",
+      "emoji": "🌅",
+      "type": "plage",
+      "quartier": "Côte nord-ouest (Mġarr)",
+      "lat": 35.92927,
+      "lng": 14.34375,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plages",
+          "gratuit (transat et parasol ≈ 15 à 20 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Demi-journée",
+      "moment": "Au coucher du soleil, face à la mer, depuis la tour de guet entre les deux baies",
+      "enfants": true,
+      "texte": "Les deux plus belles plages de sable de l'île de Malte, côte à côte : Golden Bay, animée, avec ses cafés et ses sports nautiques, et Għajn Tuffieħa, plus sauvage, au pied de 200 marches et d'une colline couverte de maquis. On y vient pour se baigner et pour les couchers de soleil, parmi les plus beaux de l'archipel.",
+      "site_officiel": "https://www.visitmalta.com/fr",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Rhododendrites",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ghajn_Tuffieha_Bay_%2880472p%292.jpg",
+        "src": "img/activites/MLA/golden-bay.jpg"
+      }
+    },
+    {
+      "id": "popeye",
+      "nom": "Popeye Village",
+      "emoji": "🎬",
+      "type": "sortir",
+      "quartier": "Mellieħa (nord)",
+      "lat": 35.96128,
+      "lng": 14.3429,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Adulte (6 nov. – 30 avr.)",
+          "15 à 16 €"
+        ],
+        [
+          "Adulte (1er juin – 30 sept.)",
+          "25 €"
+        ],
+        [
+          "3-12 ans",
+          "12,50 à 16 €"
+        ],
+        [
+          "Moins de 3 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            12,
+            13
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 à 3 h",
+      "moment": "L'été pour la baignade au pied du village ; sinon le belvédère au-dessus de la baie, gratuit, offre la meilleure vue",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le décor du film « Popeye » tourné en 1980 avec Robin Williams, resté intact au bord d'une crique turquoise : une vingtaine de maisons de bois de travers, colorées comme des bonbons. Spectacles, bateau dans la baie et petit parc pour les enfants ; la vue d'ensemble depuis la falaise d'en face est l'une des photos favorites de Malte.",
+      "site_officiel": "https://www.popeyemalta.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "DXR",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:View_of_Popeye_Village%2C_Malta_20110424_1.jpg",
+        "src": "img/activites/MLA/popeye.jpg"
+      }
+    },
+    {
+      "id": "dingli",
+      "nom": "Falaises de Dingli",
+      "emoji": "🌄",
+      "type": "vue",
+      "quartier": "Dingli (côte ouest)",
+      "lat": 35.8545,
+      "lng": 14.3827,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 à 2 h",
+      "moment": "Au coucher du soleil, face à l'îlot de Filfla",
+      "enfants": true,
+      "texte": "Le point le plus haut de Malte : des falaises qui tombent de 250 m dans la mer, avec pour seul horizon l'îlot de Filfla et le large. Un sentier longe le bord entre champs en terrasses et murets de pierre sèche, jusqu'à la petite chapelle de la Madeleine, perchée au-dessus du vide.",
+      "site_officiel": "https://www.visitmalta.com/fr",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Felix König",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dingli_Cliffs_2009.JPG",
+        "src": "img/activites/MLA/dingli.jpg"
+      }
+    },
+    {
+      "id": "mosta",
+      "nom": "Rotonde de Mosta",
+      "emoji": "🔔",
+      "type": "culture",
+      "quartier": "Mosta (centre)",
+      "lat": 35.91008,
+      "lng": 14.42581,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Entrée (avec la terrasse de la coupole)",
+          "≈ 5 €"
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            11,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "En semaine, en dehors des messes",
+      "enfants": true,
+      "texte": "L'une des plus grandes coupoles d'Europe, construite par les villageois eux-mêmes au XIXe siècle. En avril 1942, une bombe allemande a transpercé le dôme pendant la messe et roulé au milieu de 300 fidèles sans exploser : on la montre encore dans la sacristie, et l'on monte sur la terrasse de la coupole pour la vue.",
+      "site_officiel": "https://www.mostachurch.com",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Felix König",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mosta_Dome_2009-RZ-2.JPG",
+        "src": "img/activites/MLA/mosta.jpg"
+      }
+    },
+    {
+      "id": "sliema",
+      "nom": "Front de mer de Sliema et Saint-Julien",
+      "emoji": "🌊",
+      "type": "balade",
+      "quartier": "Sliema et Saint-Julien",
+      "lat": 35.91898,
+      "lng": 14.492,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 à 2 h",
+      "moment": "Au coucher du soleil, quand tout Malte vient marcher sur la promenade",
+      "enfants": true,
+      "texte": "Cinq kilomètres de promenade au bord de l'eau, de la pointe de Tigné, face aux remparts de La Valette, jusqu'à la baie de Spinola et ses barques colorées. On s'y baigne depuis les plateaux de roche, on y prend un granité en terrasse, et c'est d'ici que partent les ferries et les bateaux d'excursion.",
+      "site_officiel": "https://www.visitmalta.com/fr",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Anton Zelenov",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Spinola_bay.jpg",
+        "src": "img/activites/MLA/sliema.jpg"
+      }
+    },
+    {
+      "id": "paceville",
+      "nom": "Nuit à Paceville",
+      "emoji": "🍹",
+      "type": "sortir",
+      "quartier": "Saint-Julien",
+      "lat": 35.9228,
+      "lng": 14.49098,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée des bars et de la plupart des clubs",
+          "gratuit (cocktail ≈ 8 à 12 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une soirée",
+      "moment": "Du jeudi au samedi, après minuit ; ambiance la plus folle de juin à septembre",
+      "enfants": false,
+      "texte": "Le quartier de la fête à Malte : quelques rues piétonnes serrées de bars, de clubs et de néons, où la musique ne s'arrête qu'au lever du jour. Ambiance étudiante et internationale, à 5 minutes de la baie de Spinola, plus calme, pour finir la nuit au bord de l'eau.",
+      "site_officiel": "https://www.visitmalta.com/fr",
+      "note": "Âge minimum : 17 ans dans les bars et clubs (pièce d'identité demandée).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Futurhit12",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Havana_Malte.jpg",
+        "src": "img/activites/MLA/paceville.jpg"
+      }
+    },
+    {
+      "id": "plongee",
+      "nom": "Baptême de plongée",
+      "emoji": "🤿",
+      "type": "sport",
+      "quartier": "Malte, Gozo et Comino",
+      "lat": 35.98909,
+      "lng": 14.32908,
+      "prix": 70,
+      "prix_detail": [
+        [
+          "Baptême avec moniteur et matériel (2 h)",
+          "≈ 60 à 90 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 70,
+        "enfants": []
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant",
+      "duree": "2 à 3 h",
+      "moment": "De mai à novembre (eau à 20-26 °C) ; Malte se plonge toute l'année",
+      "enfants": true,
+      "texte": "L'eau la plus claire de Méditerranée, souvent 30 m de visibilité, des grottes, des arches et des épaves coulées tout près du bord : Malte est l'une des grandes destinations de plongée d'Europe. Un premier baptême suffit pour voir mérous, poulpes et bancs de poissons dans le bleu.",
+      "site_officiel": "https://www.visitmalta.com/fr/diving-in-malta",
+      "note": "À partir de 10 ans.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Michaela Yos Niki Loxa",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Malta%2C_wreck_diving.jpg",
+        "src": "img/activites/MLA/plongee.jpg"
+      }
+    },
+    {
+      "id": "festa",
+      "nom": "Une festa de village",
+      "emoji": "🎆",
+      "type": "sortir",
+      "quartier": "Dans les villages de Malte et Gozo",
+      "lat": 35.8833,
+      "lng": 14.4567,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Fête, procession et feux d'artifice",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une soirée",
+      "moment": "De juin à septembre, presque chaque week-end ; le calendrier est publié par l'office de tourisme",
+      "enfants": true,
+      "texte": "Chaque village fête son saint patron une fois par an, et tout Malte s'y retrouve : rues tendues de draperies rouges et or, statues portées à bout de bras, fanfares, nougat et pastizzi sur les étals. Le clou, ce sont les feux d'artifice, tirés dans le ciel et au sol avec ces roues de feu géantes qui tournent, une spécialité maltaise.",
+      "site_officiel": "https://www.visitmalta.com/fr",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Renata Apan",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Unique_Maltese_pyrotechnic_tradition-ground_fireworks_or_%C4%A1ig%C4%A1ifogu.jpg",
+        "src": "img/activites/MLA/festa.jpg"
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "is-serkin",
+      "nom": "Is-Serkin (Crystal Palace)",
+      "emoji": "🥐",
+      "gamme": "petit",
+      "genre": "Pastizzi, le feuilleté maltais",
+      "quartier": "Rabat (face à Mdina)",
+      "adresse": "Triq San Pawl, Rabat",
+      "lat": 35.8845,
+      "lng": 14.40048,
+      "prix": "≈ 2 à 5 €",
+      "prix_min": 2,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le temple du pastizz, ce chausson feuilleté farci de ricotta ou de purée de petits pois que les Maltais mangent à toute heure. Ici, ils sortent du four sans arrêt, brûlants et croustillants, et se mangent debout au comptoir avec un thé au lait servi dans un verre. Un rituel, à deux pas de la porte de Mdina.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; pastizzi à moins de 1 € pièce, ouvert de très tôt le matin jusqu'au soir",
+      "photo": {
+        "auteur": "Rhododendrites",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Crystal_Palace_in_Rabat.jpg",
+        "src": "img/restos/MLA/is-serkin.jpg"
+      }
+    },
+    {
+      "id": "fontanella",
+      "nom": "Fontanella Tea Garden",
+      "emoji": "🍰",
+      "gamme": "petit",
+      "genre": "Gâteaux maison sur les remparts",
+      "quartier": "Mdina",
+      "adresse": "1 Triq is-Sur, Mdina",
+      "lat": 35.88715,
+      "lng": 14.40372,
+      "prix": "≈ 8 à 15 €",
+      "prix_min": 8,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Une terrasse posée sur les remparts de Mdina, avec toute l'île à vos pieds jusqu'à la mer, et une vitrine de gâteaux maison géants (chocolat, carottes, cheesecake…) réputée dans tout Malte. L'arrêt goûter incontournable après la balade dans la ville silencieuse.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; viser avant 11 h ou après 16 h pour une table au bord des remparts",
+      "photo": {
+        "auteur": "Benreis",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fontanella_Tea_Garden_Mdina_Malta_%283%29.jpg",
+        "src": "img/restos/MLA/fontanella.jpg"
+      }
+    },
+    {
+      "id": "ta-nenu",
+      "nom": "Nenu the Artisan Baker",
+      "emoji": "🍞",
+      "gamme": "petit",
+      "genre": "Ftira et cuisine maltaise de boulangerie",
+      "quartier": "La Valette",
+      "adresse": "143 St Dominic Street, La Valette",
+      "lat": 35.89905,
+      "lng": 14.51634,
+      "prix": "≈ 15 à 25 €",
+      "prix_min": 15,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Dans une ancienne boulangerie de La Valette, le four à bois sert à la ftira, le pain maltais en anneau garni comme une pizza (pommes de terre, câpres, thon, olives), et aux grands classiques de l'île : lapin mijoté, ġbejniet (petits fromages de brebis), bigilla de fèves. Une bonne première rencontre avec la cuisine maltaise.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner",
+      "photo": {
+        "auteur": "Chattacha",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Malta_ftira.JPG",
+        "src": "img/restos/MLA/ta-nenu.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "sotto",
+      "nom": "Sotto Pinsa Romana",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pinsa romaine",
+      "quartier": "La Valette",
+      "adresse": "32 South Street, La Valette",
+      "lat": 35.89832,
+      "lng": 14.50887,
+      "prix": "≈ 12 à 18 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Sous des voûtes de pierre, la pinsa, cousine romaine de la pizza, ovale, légère et croustillante, garnie de mortadelle et pistache, de burrata ou de carbonara. L'adresse dont tout le monde parle à La Valette : c'est souvent complet, venez tôt.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, ou venir dès l'ouverture",
+      "photo": {
+        "auteur": "Francesc Fort",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pinsa_di_Roma.jpg",
+        "src": "img/restos/MLA/sotto.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "forty-fishes",
+      "nom": "Forty Fishes",
+      "emoji": "🐠",
+      "gamme": "petit",
+      "genre": "Poisson frit et fruits de mer à petits prix",
+      "quartier": "Saint-Julien",
+      "adresse": "174 Triq Ross, Saint-Julien",
+      "lat": 35.92144,
+      "lng": 14.49037,
+      "prix": "≈ 12 à 20 €",
+      "prix_min": 12,
+      "badges": [],
+      "texte": "Une petite échoppe de poissonnier près de la baie de Saint-Julien : calamars, crevettes, poisson du jour en friture légère ou grillé, avec frites et salade, servis dans des barquettes à emporter ou sur quelques tables. Simple, frais et très bon marché pour Malte.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "LearningLark from United States",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Modern_fish_and_chips_%288368723726%29.jpg",
+        "src": "img/restos/MLA/forty-fishes.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "balance-bowl",
+      "nom": "Balance Bowl",
+      "emoji": "🥗",
+      "gamme": "petit",
+      "genre": "Cuisine végétale",
+      "quartier": "Gżira (front de mer face à La Valette)",
+      "adresse": "182 Triq ix-Xatt, Gżira",
+      "lat": 35.9052,
+      "lng": 14.49631,
+      "prix": "≈ 12 à 18 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un petit café 100 % végétal sur le front de mer de Gżira, face aux remparts de La Valette : grands bols colorés, burgers végétaux, jus pressés et gâteaux crus. La pause légère et saine entre deux journées de pastizzi.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "FitTasteTic",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Healthy_Vegan_Buddha_Bowl_-_49859044753.jpg",
+        "src": "img/restos/MLA/balance-bowl.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rubino",
+      "nom": "Rubino",
+      "emoji": "🍝",
+      "gamme": "moyen",
+      "genre": "Trattoria historique (1906)",
+      "quartier": "La Valette",
+      "adresse": "53 Old Bakery Street, La Valette",
+      "lat": 35.8992,
+      "lng": 14.51198,
+      "prix": "≈ 40 à 55 €",
+      "prix_min": 40,
+      "badges": [
+        "recompense",
+        "institution"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "Une ancienne confiserie de 1906 devenue la table de cuisine maltaise la plus aimée de La Valette : lapin frit à l'ail, poisson du jour en papillote, et le dessert maison qui a fait sa réputation, la cassata siciliana. Carrelage d'époque, vieilles vitrines en bois, ambiance de famille.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant",
+      "photo": {
+        "auteur": "Fabioliotta at Italian Wikipedia",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Cassata_siciliana.jpg",
+        "src": "img/restos/MLA/rubino.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "grain-street",
+      "nom": "Grain Street",
+      "emoji": "🌿",
+      "gamme": "moyen",
+      "genre": "Méditerranéen moderne en terrasse",
+      "quartier": "La Valette",
+      "adresse": "167 Merchants Street, La Valette",
+      "lat": 35.8989,
+      "lng": 14.51544,
+      "prix": "≈ 35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand Michelin",
+      "texte": "La terrasse la plus animée de la rue Merchants, au pied d'un palais du XVIIe siècle : assiettes à partager, poisson local, pâtes fraîches et produits de l'île revisités par l'équipe qui tient aussi Under Grain, étoilé à l'étage du dessous. Le bon rapport qualité-prix de La Valette.",
+      "reservation": "conseille",
+      "reservation_delai": "2 ou 3 jours avant, surtout le week-end",
+      "photo": {
+        "auteur": "Rhododendrites",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Merchants_Street_Valletta_%2880646%29.jpg",
+        "src": "img/restos/MLA/grain-street.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "aki",
+      "nom": "AKI",
+      "emoji": "🍣",
+      "gamme": "moyen",
+      "genre": "Japonais et bar à cocktails",
+      "quartier": "La Valette",
+      "adresse": "175 Strait Street, La Valette",
+      "lat": 35.8987,
+      "lng": 14.51227,
+      "prix": "≈ 40 à 60 €",
+      "prix_min": 40,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Sushis, sashimis de poisson maltais, robata et cocktails dans la rue Strait, l'ancienne rue des marins et des cabarets de La Valette. Le décor est sombre et élégant, et l'ambiance monte d'un cran à l'heure de l'apéritif.",
+      "reservation": "conseille",
+      "reservation_delai": "2 ou 3 jours avant",
+      "photo": {
+        "auteur": "Alpha from Melbourne, Australia",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sushi_Sashimi_Platter_-_J_Cafe_%28355247627%29.jpg",
+        "src": "img/restos/MLA/aki.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "diar-il-bniet",
+      "nom": "Diar il-Bniet",
+      "emoji": "🐇",
+      "gamme": "moyen",
+      "genre": "Cuisine de la ferme et lapin",
+      "quartier": "Dingli (près des falaises)",
+      "adresse": "121 Triq il-Kbira, Dingli",
+      "lat": 35.86221,
+      "lng": 14.38453,
+      "prix": "≈ 30 à 40 €",
+      "prix_min": 30,
+      "badges": [],
+      "texte": "Une ferme familiale qui cuisine ce qu'elle cultive : timpana au four, lapin frit à l'ail et au vin blanc (le plat national), escargots, fromages de brebis et légumes de ses champs. L'étape parfaite après le coucher de soleil sur les falaises de Dingli, à 5 minutes.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "photo": {
+        "auteur": "Benreis",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Rabbit_Stew_It-Tokk_Victoria_Gozo.jpg",
+        "src": "img/restos/MLA/diar-il-bniet.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "tmun",
+      "nom": "Tmun",
+      "emoji": "⚓",
+      "gamme": "moyen",
+      "genre": "Poisson et cuisine du port à Gozo",
+      "quartier": "Gozo (port de Mġarr)",
+      "adresse": "Triq Martino Garces, Mġarr, Gozo",
+      "lat": 36.02526,
+      "lng": 14.29626,
+      "prix": "≈ 45 à 60 €",
+      "prix_min": 45,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Juste au-dessus du port de Mġarr, où arrive le ferry de Gozo : la famille Mercieca y cuisine le poisson pêché le matin et les produits de l'île, avec vue sur les barques et sur l'église de Lourdes perchée au-dessus du port. Le déjeuner idéal pour commencer ou finir une journée à Gozo.",
+      "reservation": "conseille",
+      "reservation_delai": "2 ou 3 jours avant en été",
+      "photo": {
+        "auteur": "KarstenDD",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Gozo_Mgarr_Harbour.jpg",
+        "src": "img/restos/MLA/tmun.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "le-majoliche",
+      "nom": "Le Majoliche",
+      "emoji": "🍋",
+      "gamme": "moyen",
+      "genre": "Italien du Sud",
+      "quartier": "Saint-Julien (Pendergardens)",
+      "adresse": "Triq Sant' Andrija, Saint-Julien",
+      "lat": 35.92215,
+      "lng": 14.48873,
+      "prix": "≈ 35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin (nouveau en 2026)",
+      "texte": "Les faïences colorées des côtes amalfitaines aux murs, et dans l'assiette la cuisine du sud de l'Italie : spaghetti aux palourdes, burrata des Pouilles, poisson cuit en croûte de sel. Une adresse chaleureuse, entrée au guide Michelin en 2026.",
+      "reservation": "conseille",
+      "reservation_delai": "2 ou 3 jours avant",
+      "photo": {
+        "auteur": "Alpha from Melbourne, Australia",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_alle_vongole%2C_Cafe_a_Taglio%2C_St._Kilda.jpg",
+        "src": "img/restos/MLA/le-majoliche.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "ion-harbour",
+      "nom": "ION Harbour by Simon Rogan",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Menu dégustation au-dessus du Grand Port",
+      "quartier": "La Valette",
+      "adresse": "11 St Barbara Bastion, La Valette",
+      "lat": 35.89617,
+      "lng": 14.51424,
+      "prix": "95 à 205 €",
+      "prix_min": 95,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "La seule table deux étoiles de Malte, sur le toit d'une maison de maître accrochée aux remparts, face au Grand Port. Le chef anglais Simon Rogan, triple étoilé dans son pays, y sert un long menu de produits maltais de saison, poissons de la nuit et légumes de petites fermes.",
+      "reservation": "indispensable",
+      "reservation_delai": "3 à 4 semaines avant ; menu ≈ 95 € le midi, ≈ 205 € le soir",
+      "photo": {
+        "auteur": "Mandyy88",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:St_Barbara_Bastion_Valletta.jpg",
+        "src": "img/restos/MLA/ion-harbour.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "noni",
+      "nom": "Noni",
+      "emoji": "🌟",
+      "gamme": "haut",
+      "genre": "Cuisine maltaise réinventée",
+      "quartier": "La Valette",
+      "adresse": "211 Republic Street, La Valette",
+      "lat": 35.90054,
+      "lng": 14.51592,
+      "prix": "≈ 125 à 150 €",
+      "prix_min": 125,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Le chef Jonathan Brincat revisite les recettes de sa grand-mère avec une technique française : la soupe aux fèves, le lapin ou le pastizz deviennent des plats d'orfèvre. Une salle intime, rue de la République, pour découvrir ce que la cuisine maltaise a de plus raffiné.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "photo": {
+        "auteur": "Joseph Ambrogio",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Republic_street_-_Valletta.jpg",
+        "src": "img/restos/MLA/noni.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "de-mondion",
+      "nom": "De Mondion",
+      "emoji": "🏰",
+      "gamme": "haut",
+      "genre": "Gastronomique sur les remparts de Mdina",
+      "quartier": "Mdina",
+      "adresse": "Xara Palace, Misraħ il-Kunsill, Mdina",
+      "lat": 35.88515,
+      "lng": 14.40417,
+      "prix": "≈ 95 à 150 €",
+      "prix_min": 95,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Sur le toit du palais Xara, dans les remparts de Mdina : une terrasse d'où l'on voit toute l'île s'éteindre au coucher du soleil, jusqu'à la mer. La cuisine, méditerranéenne et raffinée, est à la hauteur de la vue ; c'est la table des grandes occasions à Malte.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant ; dîner du mardi au samedi (≈ 110 à 150 €), déjeuner du samedi 75 à 95 €",
+      "photo": {
+        "auteur": "Continentaleurope",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Xara_Palace_Hotel.jpg",
+        "src": "img/restos/MLA/de-mondion.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rosami",
+      "nom": "Rosamì",
+      "emoji": "💐",
+      "gamme": "haut",
+      "genre": "Menus surprise dans une villa face à la mer",
+      "quartier": "Saint-Julien (baie de Balluta)",
+      "adresse": "The Villa, Main Street, Balluta Bay, Saint-Julien",
+      "lat": 35.9145,
+      "lng": 14.4952,
+      "prix": "≈ 180 à 220 €",
+      "prix_min": 180,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Au premier étage d'une villa maltaise face à la baie de Balluta, une salle romantique et deux menus surprise, en six ou huit services, accompagnés de petits fromages d'artisans de l'île. Le service, très attentionné, raconte chaque plat.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant ; menus 6 plats ≈ 180 €, 8 plats ≈ 220 € ; fermé jeudi et dimanche",
+      "photo": {
+        "auteur": "Anton Zelenov",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Church_Our_Lady_of_Mount_Carmel_Balluta_Bay_03.jpg",
+        "src": "img/restos/MLA/rosami.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "caviar-bull",
+      "nom": "Caviar & Bull",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Bœuf et caviar au bord de la mer",
+      "quartier": "Saint-Julien (baie Saint-Georges)",
+      "adresse": "Corinthia, St George's Bay, Saint-Julien",
+      "lat": 35.92818,
+      "lng": 14.49056,
+      "prix": "≈ 70 à 100 €",
+      "prix_min": 70,
+      "badges": [
+        "recompense",
+        "tendance"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Le chef Marvin Gauci, star de la télé maltaise, y sert du bœuf Angus et wagyu, du caviar et des plats spectaculaires à l'azote liquide, sur une terrasse au bord de la baie Saint-Georges. Une adresse très « dîner du samedi soir », qui fait parler d'elle sur les réseaux.",
+      "reservation": "indispensable",
+      "reservation_delai": "une semaine avant le week-end",
+      "photo": {
+        "auteur": "Michelle Maria",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:St._Julians_Bay_Malta_-_panoramio.jpg",
+        "src": "img/restos/MLA/caviar-bull.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "tartarun",
+      "nom": "Tartarun",
+      "emoji": "🦞",
+      "gamme": "haut",
+      "genre": "Poisson du jour sur le port de pêche",
+      "quartier": "Marsaxlokk",
+      "adresse": "20 Xatt is-Sajjieda, Marsaxlokk",
+      "lat": 35.84141,
+      "lng": 14.54578,
+      "prix": "≈ 55 à 75 €",
+      "prix_min": 55,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Face aux luzzu colorés de Marsaxlokk, la meilleure table de poisson du village : on choisit sa pièce dans la vitrine de la pêche locale, grillée ou cuite au four, après un tartare au citron caviar ou des pâtes au ragoût de poisson. Le déjeuner rêvé après le marché du dimanche.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, surtout le dimanche midi ; poisson au poids (8,50 € les 100 g)",
+      "photo": {
+        "auteur": "Frank Vincentz",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Malta_-_Marsaxlokk_-_Xatt_is-Sajjieda_16_ies.jpg",
+        "src": "img/restos/MLA/tartarun.jpg",
+        "illustration": true
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "la-valette",
+      "nom": "La Valette",
+      "lat": 35.8985,
+      "lng": 14.5133,
+      "texte": "Dormir dans la capitale : tout se fait à pied, palais, musées, restaurants et soirées dans les ruelles, et les ferries partent pour Sliema et les Trois Cités. Plus calme le soir que Saint-Julien ; hôtels de charme dans d'anciens palais, un peu plus chers."
+    },
+    {
+      "id": "sliema",
+      "nom": "Sliema",
+      "lat": 35.9118,
+      "lng": 14.5022,
+      "texte": "Le meilleur compromis : une ville en bord de mer, avec sa grande promenade, ses boutiques et ses restaurants, le ferry pour La Valette (10 minutes) et les bateaux pour Comino. Bien desservie par le bus vers toute l'île."
+    },
+    {
+      "id": "saint-julien",
+      "nom": "Saint-Julien et Paceville",
+      "lat": 35.9205,
+      "lng": 14.4905,
+      "texte": "Pour sortir : la baie de Spinola, les restaurants au bord de l'eau et la vie nocturne de Paceville à pied. Grands hôtels avec piscine sur la baie Saint-Georges ; bruyant le week-end près de Paceville."
+    },
+    {
+      "id": "mellieha",
+      "nom": "Mellieħa et le nord",
+      "lat": 35.9567,
+      "lng": 14.3622,
+      "texte": "Pour les plages : le village perché domine la plus grande plage de sable de Malte, Golden Bay et le Popeye Village sont tout près, et le ferry pour Gozo et Comino part de Ċirkewwa, à 10 minutes. Plus loin de La Valette (45 min à 1 h en bus)."
+    },
+    {
+      "id": "gozo",
+      "nom": "Gozo (Victoria, Xlendi, Marsalforn)",
+      "lat": 36.0443,
+      "lng": 14.2397,
+      "texte": "Pour un séjour au calme : l'île sœur, plus verte et plus rurale, avec ses fermes transformées en maisons d'hôtes, ses baies de Xlendi et Marsalforn et la plongée. À 25 minutes de ferry de Malte ; une voiture de location est utile sur place."
+    }
+  ]
+}
