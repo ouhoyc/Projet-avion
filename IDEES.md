@@ -336,6 +336,18 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (14/11/2026) **Page guide de Funchal (Madère)** (`guides/FNC.json`), préparée en autonomie : 27 activités (téléphérique du Monte 22 € A/R,
+  descente en panier d'osier 30 € seul / 40 € à deux, jardin Monte Palace 18 €, jardin botanique 10 € (12,50 € en 2027), vieille ville et portes
+  peintes, cathédrale, cave Blandy's 23 €, musée CR7 5 €, Cabo Girão 5 €, Câmara de Lobos, lever du soleil au Pico do Arieiro, PR1 Arieiro → Ruivo
+  (rouvert en 2026, 10,50 €), levadas 25 Fontes/Risco, Caldeirão Verde, Balcões, pointe de São Lourenço (4,50 € par sentier, réservation
+  obligatoire sur SIMplifica depuis 2026), Fanal, Porto Moniz 3 €, Seixal, Santana, Eira do Serrado, dauphins 52 €, Porto Santo dès 58,90 €,
+  canyoning 65 €, match du Marítimo, Praia Formosa, feu d'artifice du Nouvel An). Tarifs officiels des sentiers et du jardin botanique : portaria
+  n.º 48/2026 (PDF sur ifcn.madeira.gov.pt). Grottes de São Vicente écartées (fermées depuis 2020). 18 restaurants (note pondérée, C = 4,45,
+  ~560 restaurants lus via 92 listes Wanderlog Funchal + Madère ; **Michelin 2026** : Il Gallo d'Oro 2 étoiles (rouvert début novembre 2026 après
+  travaux), William et Desarma 1 étoile, Casal da Penha Bib Gourmand, sélection Ákua, Avista, Audax). 5 lieux (`ile: true`, voiture de location) :
+  centre, Zona Velha, Lido, Caniço, Calheta. Pas de formalités (Union européenne), `prix_match` 20 €. **Apify non lancé** (jeton invalide depuis
+  le 13/11) : badges tendance d'après le web. Prix estimés (pas de carte en ligne) : la plupart des restaurants, billets du Marítimo, piscines de
+  Porto Moniz (3 €, presse de mars 2026). 14 photos de restaurants d'illustration.
 - ✅ (13/11/2026) **Page guide de Malte** (`guides/MLA.json`), préparée en autonomie : 29 activités (La Valette, jardins Upper Barrakka et canon de midi
   (batterie 3 €), co-cathédrale Saint-Jean (15 €, Caravage), palais des Grands Maîtres (12 €), fort Saint-Elme (10 €), Lascaris War Rooms (20 €),
   Trois Cités en dgħajsa, fort Saint-Ange (10 €), croisière dans le Grand Port (≈ 20 €), Mdina, catacombes Saint-Paul (6 €), hypogée de Ħal Saflieni
@@ -589,7 +601,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

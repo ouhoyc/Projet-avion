@@ -204,3 +204,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   **winrouh.com** (`/restaurants/batna` + catégories) : 43 fiches avec type de cuisine, extraits d'avis Google et position exacte (`lat:`/`lng:` dans
   la page), lisibles par `curl` — très utile pour l'Algérie. Overpass et pip refusés d'ici ; Nominatim et Commons (`thumb.php`) marchent.
   Tarif des sites antiques algériens : ≈ 200 DA (comme Hippone, Tipasa). Éclipse totale du 2 août 2027 au-dessus de Timgad (5 min 20 s).
+- Funchal (nov. 2026) : Wanderlog géo 9735 (départ `geoCategory/74319`), ne suivre que les adresses finissant par « -in-funchal », « -in-madeira »,
+  « -in-camara-de-lobos », « -in-calheta »… (92 listes, ~960 lieux ; sans cette règle le robot part vers Santa Cruz de Tenerife). Tarifs officiels
+  des sentiers (PR), du jardin botanique et de Cabo Girão : portaria n.º 48/2026 en PDF sur ifcn.madeira.gov.pt (`pdftotext -layout`). Prix lisibles
+  avec Playwright : madeiracablecar.com, carreirosdomonte.com, blandyswinelodge.com/en/tours (tarifs enfants dans `textContent`), portosantoline.pt,
+  venturadomar.com. Commons : API `generator=search` + vignettes par `commons.wikimedia.org/w/thumb.php` (thumb.wikimedia.org répondait « 429 »).

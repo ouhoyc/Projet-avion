@@ -1,0 +1,1662 @@
+{
+ "city_code": "FNC",
+ "statut": "préparé en autonomie, prix relevés le 14/11/2026",
+ "verifie_le": "2026-11-14",
+ "ile": true,
+ "ville": "Funchal (Madère)",
+ "prix_match": 20,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "teleferico",
+   "nom": "Téléphérique de Funchal au Monte",
+   "emoji": "🚡",
+   "type": "vue",
+   "quartier": "Zona Velha → Monte",
+   "lat": 32.66134,
+   "lng": -16.90121,
+   "prix": 22,
+   "prix_detail": [
+    [
+     "Aller-retour, adulte",
+     "22 €"
+    ],
+    [
+     "Aller simple",
+     "16 €"
+    ],
+    [
+     "Enfant de 7 à 14 ans",
+     "moitié prix (11 € l'aller-retour)"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 22,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      14,
+      11
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "15 min de montée",
+   "moment": "Tous les jours de 8 h 45 à 17 h 45 (sauf le 25 décembre)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Quinze minutes de cabine au-dessus des toits rouges, des jardins suspendus et des bananiers, de la vieille ville jusqu'au village du Monte, 560 mètres plus haut. La baie de Funchal s'ouvre sous vos pieds : c'est la meilleure entrée en matière à Madère, et la porte du jardin Monte Palace et de la célèbre descente en panier d'osier.",
+   "site_officiel": "https://www.madeiracablecar.com/",
+   "note": "Prenez un aller simple si vous redescendez en luge (puis taxi ou bus depuis Livramento). Billet électronique en ligne pour éviter la file, valable 60 jours.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ввласенко",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_Cable_Car_Madeira.jpg",
+    "src": "img/activites/FNC/teleferico.jpg"
+   }
+  },
+  {
+   "id": "luge",
+   "nom": "Descente en panier d'osier du Monte",
+   "emoji": "🛷",
+   "type": "sortir",
+   "quartier": "Monte",
+   "lat": 32.67543,
+   "lng": -16.90263,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Panier pour 1 personne",
+     "30 €"
+    ],
+    [
+     "Panier pour 2 personnes",
+     "40 € (20 € chacun)"
+    ],
+    [
+     "Panier pour 3 personnes",
+     "60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "10 min de descente (2 km)",
+   "moment": "Du lundi au samedi de 9 h à 18 h (fermé le dimanche)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus folle des balades de Madère, inventée au XIXe siècle : on s'assoit dans un traîneau d'osier monté sur patins de bois, et deux « carreiros » en blanc et canotier le dirigent à la force des bottes sur 2 km de rue en pente, entre les murs fleuris du Monte. Des rires garantis, et un souvenir que personne n'a ailleurs.",
+   "site_officiel": "https://carreirosdomonte.com/",
+   "note": "Pas de réservation : billets en vente sur place, pour le jour même (file d'attente l'après-midi, venez le matin). Pas de panier à trois par temps de pluie. Arrivée à Livramento, à 20 min à pied du téléphérique ou en taxi vers le centre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "muffinn from Worcester, UK",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Madeira_-_Monte_toboggan_ride_(33494324565).jpg",
+    "src": "img/activites/FNC/luge.jpg"
+   }
+  },
+  {
+   "id": "monte-palace",
+   "nom": "Jardin tropical Monte Palace",
+   "emoji": "🌺",
+   "type": "balade",
+   "quartier": "Monte",
+   "lat": 32.67419,
+   "lng": -16.90288,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Adulte",
+     "18 €"
+    ],
+    [
+     "Enfant jusqu'à 14 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      14,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Tous les jours de 9 h à 18 h (19 h d'avril à septembre), sauf le 25 décembre",
+   "enfants": true,
+   "texte": "Sept hectares de jardins à flanc de colline, juste à la sortie du téléphérique : bassins de carpes koï, cascades, pagodes et ponts rouges, fougères arborescentes, panneaux d'azulejos qui racontent l'histoire du Portugal et une rare collection de cycas. On s'y perd avec plaisir pendant deux heures, avant de finir par le musée des minéraux.",
+   "site_officiel": "https://www.montepalace.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monte_Palace_Tropical_Garden_-_Oriental_Gardens_10.jpg",
+    "src": "img/activites/FNC/monte-palace.jpg"
+   }
+  },
+  {
+   "id": "jardin-botanique",
+   "nom": "Jardin botanique de Madère",
+   "emoji": "🌿",
+   "type": "balade",
+   "quartier": "Bom Sucesso",
+   "lat": 32.6622,
+   "lng": -16.89536,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Plus de 12 ans",
+     "10 € (12,50 € à partir de 2027)"
+    ],
+    [
+     "De 6 à 12 ans",
+     "3 € (4 € en 2027)"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      12,
+      3
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Tous les jours, en journée",
+   "enfants": true,
+   "texte": "Le jardin le plus photographié de l'île : des parterres taillés en mosaïque de couleurs, en terrasses face à la baie, avec des plantes venues des cinq continents et les espèces endémiques de Madère. Un petit téléphérique le relie au Monte, pour combiner les deux en une matinée.",
+   "site_officiel": "https://ifcn.madeira.gov.pt/",
+   "note": "Le téléphérique du jardin botanique (depuis le Monte, arrêt Babosas) est payé à part.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_Maior_(Madeira,_Portugal),_Jardim_Bot%C3%A2nico_da_Madeira,_Choreographierter_Garten_--_2025_--_1870.jpg",
+    "src": "img/activites/FNC/jardin-botanique.jpg"
+   }
+  },
+  {
+   "id": "zona-velha",
+   "nom": "Vieille ville et portes peintes",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Zona Velha",
+   "lat": 32.64806,
+   "lng": -16.90198,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade dans la vieille ville",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "À toute heure ; la rue s'anime le soir, quand les terrasses s'installent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dans la rue de Santa Maria, la plus ancienne de Funchal, plus de deux cents portes ont été peintes par des artistes : chacune est un petit tableau, et la rue tout entière une galerie à ciel ouvert. Autour, ruelles pavées, fort jaune de São Tiago au bord de l'eau, et le marché couvert dos Lavradores, ses azulejos, ses fleurs et ses fruits exotiques.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "Au marché, les fruits vendus aux touristes sont souvent bien plus chers qu'ailleurs : demandez le prix au kilo avant de goûter.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ввласенко",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Painted_door_(Ponsho)._Funchal,_Madeira.jpg",
+    "src": "img/activites/FNC/zona-velha.jpg"
+   }
+  },
+  {
+   "id": "centre",
+   "nom": "Cathédrale et centre historique",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Sé",
+   "lat": 32.64821,
+   "lng": -16.90822,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cathédrale et rues du centre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "La cathédrale est ouverte en journée (hors offices)",
+   "enfants": true,
+   "texte": "Le cœur de Funchal se visite à pied en une matinée : la cathédrale de 1514, sobre dehors, éblouissante dedans avec son plafond de cèdre sculpté et doré, l'avenue Arriaga et ses jacarandas, le jardin municipal, la place de la mairie pavée de basalte noir et de calcaire blanc, et l'église du Collège.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral,_Funchal,_Madeira,_Portugal,_2019-05-29,_DD_34.jpg",
+    "src": "img/activites/FNC/centre.jpg"
+   }
+  },
+  {
+   "id": "blandys",
+   "nom": "Cave Blandy's : visite et dégustation",
+   "emoji": "🍷",
+   "type": "culture",
+   "quartier": "Sé",
+   "lat": 32.64783,
+   "lng": -16.91058,
+   "prix": 23,
+   "prix_detail": [
+    [
+     "Visite « Premium » avec musée et 3 vins (45 min)",
+     "23 €"
+    ],
+    [
+     "Visite courte « Lodge Tour »",
+     "17 €"
+    ],
+    [
+     "De 6 à 17 ans",
+     "8,40 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 23,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      8.4
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou quelques jours avant sur le site (annulation gratuite jusqu'à 24 h avant)",
+   "duree": "45 min",
+   "moment": "Tous les jours, plusieurs visites par jour (en français du lundi au vendredi à 11 h 30 et 14 h 30)",
+   "enfants": true,
+   "texte": "Le vin de Madère vieillit ici depuis deux siècles, dans un ancien couvent franciscain du centre : tonnellerie, greniers chauffés par le soleil où dorment 650 fûts, cuves en bois du Brésil, puis dégustation de trois vins, du plus sec au plus doux. Une visite courte et passionnante, même pour qui n'y connaît rien.",
+   "site_officiel": "https://blandyswinelodge.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Paul Mannix",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Madeira_wine_kegs.jpg",
+    "src": "img/activites/FNC/blandys.jpg"
+   }
+  },
+  {
+   "id": "cr7",
+   "nom": "Musée CR7",
+   "emoji": "⚽",
+   "type": "culture",
+   "quartier": "Front de mer",
+   "lat": 32.64412,
+   "lng": -16.91385,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Entrée",
+     "5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "En journée",
+   "enfants": true,
+   "texte": "Cristiano Ronaldo est né à Funchal, et la ville le lui rend bien : son musée rassemble ses Ballons d'or, ses Souliers d'or et des centaines de trophées, au pied de l'hôtel qui porte son nom. Devant, sa statue de bronze est l'une des photos les plus prises de l'île.",
+   "site_officiel": "https://visit.funchal.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_(Madeira,_Portugal),_Museu_CR7,_Est%C3%A1tua_de_Cristiano_Ronaldo_--_2025_--_1320.jpg",
+    "src": "img/activites/FNC/cr7.jpg"
+   }
+  },
+  {
+   "id": "cabo-girao",
+   "nom": "Cabo Girão et sa passerelle de verre",
+   "emoji": "🌊",
+   "type": "vue",
+   "quartier": "Câmara de Lobos",
+   "lat": 32.65648,
+   "lng": -17.00445,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Plus de 12 ans",
+     "5 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "duree": "45 min",
+   "moment": "Tous les jours de 8 h 30 à 19 h ou 20 h selon la saison",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'une des plus hautes falaises d'Europe : 580 mètres de vide, et une plateforme au sol de verre pour regarder tout en bas les petits champs en terrasses posés au bord de l'océan. Vertigineux et à vingt minutes du centre de Funchal, avec la côte sud entière en panorama.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "Le droit d'entrée se paie en ligne sur le portail officiel SIMplifica (ou sur place). Un téléphérique descend aussi jusqu'aux champs du bas de la falaise (payé à part).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_do_Cabo_Gir%C3%A3o_02.jpg",
+    "src": "img/activites/FNC/cabo-girao.jpg"
+   }
+  },
+  {
+   "id": "camara-de-lobos",
+   "nom": "Village de pêcheurs de Câmara de Lobos",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Câmara de Lobos",
+   "lat": 32.64855,
+   "lng": -16.97524,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, quand les pêcheurs jouent aux cartes sur le port",
+   "enfants": true,
+   "texte": "Des barques peintes en bleu, jaune et rouge tirées sur les galets, des maisons collées à la falaise et des bars minuscules où l'on boit la poncha debout : le plus beau port de l'île, que Winston Churchill venait peindre en 1950. À dix minutes de Funchal, idéal pour un coucher de soleil.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:C%C3%A2mara_de_Lobos_(Madeira,_Portugal),_Porto_de_C%C3%A2mara_de_Lobos_--_2025_--_1901.jpg",
+    "src": "img/activites/FNC/camara-de-lobos.jpg"
+   }
+  },
+  {
+   "id": "pico-arieiro",
+   "nom": "Lever du soleil au Pico do Arieiro",
+   "emoji": "🌄",
+   "type": "vue",
+   "quartier": "Centre de l'île",
+   "lat": 32.73547,
+   "lng": -16.92864,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédère au sommet",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 à 2 h",
+   "moment": "Au lever du soleil (partez de Funchal 1 h avant) ; la route monte jusqu'au sommet",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On monte en voiture jusqu'à 1 818 mètres, dans le noir, et l'on attend : le soleil se lève au-dessus d'une mer de nuages, d'où ne dépassent que les crêtes déchiquetées du centre de l'île. Un spectacle qui vaut à lui seul le voyage, à 45 minutes de Funchal.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "Il fait 10 à 15 °C de moins qu'en ville, parfois 0 °C l'hiver : pull, coupe-vent et bonnet. Le parking du sommet se remplit vite à l'aube.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jnvalves",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Copia_Raw_JNA_4634_-_PTMAD0002.jpg",
+    "src": "img/activites/FNC/pico-arieiro.jpg"
+   }
+  },
+  {
+   "id": "pr1",
+   "nom": "Randonnée du Pico do Arieiro au Pico Ruivo",
+   "emoji": "🥾",
+   "type": "nature",
+   "quartier": "Centre de l'île",
+   "lat": 32.7495,
+   "lng": -16.9395,
+   "prix": 10.5,
+   "prix_detail": [
+    [
+     "Sentier complet (plus de 12 ans, non-résident)",
+     "10,50 €"
+    ],
+    [
+     "Aller-retour jusqu'au belvédère de Pedra Rija",
+     "4,50 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10.5,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant pour les week-ends de printemps et d'été : les créneaux du matin partent vite",
+   "duree": "5 à 6 h (7 km, sens unique)",
+   "moment": "Au départ du Pico do Arieiro, tôt le matin ; par beau temps seulement",
+   "enfants": false,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La randonnée la plus spectaculaire de Madère, rouverte en 2026 après deux ans de travaux : un sentier taillé dans les crêtes volcaniques, avec escaliers, tunnels et passages au-dessus du vide, entre le troisième et le premier sommet de l'île (1 862 m). Des paysages de bout du monde, souvent au-dessus des nuages.",
+   "site_officiel": "https://simplifica.madeira.gov.pt/",
+   "note": "Réservation obligatoire depuis 2026 sur le portail officiel SIMplifica (créneau d'une demi-heure, à présenter pendant la marche) ; une amende très lourde est prévue sans réservation. Le sentier se fait dans un seul sens (de l'Arieiro vers le Ruivo, puis descente vers Achada do Teixeira) : prévoyez un taxi ou une navette pour récupérer la voiture. Lampe frontale pour les tunnels, bonnes chaussures, eau.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Krzysztof Popławski",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B3rski_szlak_pieszy_PR1_z_Pico_Arreiro_do_Pico_Ruivo_-_Vereda_do_Areeiro_-_Madeira,_Portugalia,_sierpie%C5%84_2022.jpg",
+    "src": "img/activites/FNC/pr1.jpg"
+   }
+  },
+  {
+   "id": "25-fontes",
+   "nom": "Levadas des 25 Fontes et du Risco",
+   "emoji": "💧",
+   "type": "nature",
+   "quartier": "Rabaçal",
+   "lat": 32.7546,
+   "lng": -17.1323,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Par sentier (plus de 12 ans, non-résident)",
+     "4,50 €"
+    ],
+    [
+     "Les deux sentiers le même jour",
+     "9 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "duree": "3 à 4 h (11 km aller-retour)",
+   "moment": "Le matin de préférence (moins de monde) ; à 1 h 15 de Funchal en voiture",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On suit une levada, ces canaux d'irrigation creusés à flanc de montagne depuis le XVe siècle, au cœur de la forêt de lauriers classée par l'UNESCO : d'un côté la cascade du Risco qui tombe de 100 mètres, de l'autre un lac vert où ruissellent des dizaines de sources. La balade la plus célèbre de l'île, presque plate.",
+   "site_officiel": "https://simplifica.madeira.gov.pt/",
+   "note": "Réservation obligatoire depuis 2026 sur le portail officiel SIMplifica (créneau d'une demi-heure, à présenter pendant la marche) ; une amende très lourde est prévue sans réservation. Du parking de la route ER110, une petite navette payante (ou 2 km de route à pied) descend jusqu'au départ, à la maison forestière de Rabaçal.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "VillageHero from Ulm, Germany",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:25_Fontes_Levada_(37386493244).jpg",
+    "src": "img/activites/FNC/25-fontes.jpg"
+   }
+  },
+  {
+   "id": "caldeirao",
+   "nom": "Levada du Caldeirão Verde",
+   "emoji": "🌳",
+   "type": "nature",
+   "quartier": "Santana",
+   "lat": 32.78359,
+   "lng": -16.90604,
+   "prix": 4.5,
+   "prix_detail": [
+    [
+     "Droit d'accès au sentier (plus de 12 ans, non-résident)",
+     "4,50 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ],
+    [
+     "Deux sentiers ou plus le même jour",
+     "9 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4.5,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "duree": "4 h (13 km aller-retour)",
+   "moment": "Toute l'année, par temps sec ; à 1 h de Funchal en voiture",
+   "enfants": true,
+   "texte": "Depuis les maisons forestières de Queimadas, la levada s'enfonce dans une forêt de conte de fées, traverse quatre tunnels creusés à la main et longe des ravins couverts de mousse, jusqu'à un chaudron vert où tombe une cascade de 100 mètres. Une des plus belles marches de la côte nord.",
+   "site_officiel": "https://simplifica.madeira.gov.pt/",
+   "note": "Réservation obligatoire depuis 2026 sur le portail officiel SIMplifica (créneau d'une demi-heure, à présenter pendant la marche) ; une amende très lourde est prévue sans réservation. Lampe frontale pour les tunnels ; certains passages étroits longent le vide (protégés par une rambarde).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sebastian from the EU",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Levada_walk_to_Caldeir%C3%A3o_Verde_(48806701828).jpg",
+    "src": "img/activites/FNC/caldeirao.jpg"
+   }
+  },
+  {
+   "id": "balcoes",
+   "nom": "Belvédère des Balcões",
+   "emoji": "🐦",
+   "type": "nature",
+   "quartier": "Ribeiro Frio",
+   "lat": 32.7368,
+   "lng": -16.8866,
+   "prix": 4.5,
+   "prix_detail": [
+    [
+     "Droit d'accès au sentier (plus de 12 ans, non-résident)",
+     "4,50 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ],
+    [
+     "Deux sentiers ou plus le même jour",
+     "9 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4.5,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "la veille ou quelques jours avant",
+   "duree": "1 h (3 km aller-retour)",
+   "moment": "Le matin, avant que les nuages ne montent ; à 40 min de Funchal",
+   "enfants": true,
+   "texte": "La plus facile des levadas, parfaite en famille : vingt minutes de marche à plat dans la forêt de lauriers, jusqu'à un balcon suspendu au-dessus d'une immense vallée verte, face aux plus hauts sommets de l'île. En chemin, de petits pinsons viennent manger dans la main.",
+   "site_officiel": "https://simplifica.madeira.gov.pt/",
+   "note": "Réservation obligatoire depuis 2026 sur le portail officiel SIMplifica (créneau d'une demi-heure, à présenter pendant la marche) ; une amende très lourde est prévue sans réservation.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Balc%C3%B5es_-_Madeira.jpg",
+    "src": "img/activites/FNC/balcoes.jpg"
+   }
+  },
+  {
+   "id": "sao-lourenco",
+   "nom": "Pointe de São Lourenço",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Caniçal",
+   "lat": 32.74514,
+   "lng": -16.71141,
+   "prix": 4.5,
+   "prix_detail": [
+    [
+     "Droit d'accès au sentier (plus de 12 ans, non-résident)",
+     "4,50 €"
+    ],
+    [
+     "12 ans et moins",
+     "gratuit"
+    ],
+    [
+     "Deux sentiers ou plus le même jour",
+     "9 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4.5,
+    "enfants": [
+     [
+      12,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "duree": "2 h 30 à 3 h (8 km aller-retour)",
+   "moment": "Tôt le matin ou en fin de journée (aucune ombre) ; à 35 min de Funchal",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un tout autre Madère : à l'extrémité est de l'île, une presqu'île volcanique nue, rouge, ocre et noire, plantée de falaises qui plongent dans une mer turquoise des deux côtés. Le sentier monte et descend jusqu'au dernier belvédère, d'où l'on voit l'Atlantique à 360 degrés.",
+   "site_officiel": "https://simplifica.madeira.gov.pt/",
+   "note": "Réservation obligatoire depuis 2026 sur le portail officiel SIMplifica (créneau d'une demi-heure, à présenter pendant la marche) ; une amende très lourde est prévue sans réservation. Chapeau, crème solaire et beaucoup d'eau : il y a du vent et pas d'ombre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ponta_de_S%C3%A3o_Louren%C3%A7o,_Madeira,_Portugal,_2019-05-28,_DD_31.jpg",
+    "src": "img/activites/FNC/sao-lourenco.jpg"
+   }
+  },
+  {
+   "id": "fanal",
+   "nom": "Forêt de Fanal dans la brume",
+   "emoji": "🌫️",
+   "type": "nature",
+   "quartier": "Plateau de Paul da Serra",
+   "lat": 32.8094,
+   "lng": -17.14073,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès à la forêt",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Les jours de brume, en fin de matinée ; à 1 h 15 de Funchal",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "De vieux lauriers de plusieurs siècles, tordus et couverts de mousse, sur une prairie où paissent des vaches, que le brouillard enveloppe presque chaque jour : Fanal ressemble à une forêt enchantée sortie d'un film. Un des lieux les plus photographiés de Madère, à visiter sans se presser.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fanal_(Madeira,_Portugal),_Lorbeerwald_--_2025_--_1554.jpg",
+    "src": "img/activites/FNC/fanal.jpg"
+   }
+  },
+  {
+   "id": "porto-moniz",
+   "nom": "Piscines naturelles de Porto Moniz",
+   "emoji": "🏊",
+   "type": "plage",
+   "quartier": "Porto Moniz",
+   "lat": 32.86866,
+   "lng": -17.17019,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Entrée au bassin aménagé",
+     "3 €"
+    ],
+    [
+     "Piscines de l'Aquário, à côté",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "2 h à une demi-journée",
+   "moment": "Le bassin aménagé ouvre en journée ; l'eau est à 18-23 °C selon la saison",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au bout nord-ouest de l'île, la lave a dessiné au bord de l'océan des bassins naturels où l'eau est claire et calme, pendant que les vagues de l'Atlantique se brisent juste derrière. On s'y baigne en sécurité, dans un décor de roches noires et de falaises vertes.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "À 1 h 15 de Funchal en voiture. Les excursions arrivent entre 11 h et 15 h : venez tôt ou en fin de journée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Xosema",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Madeira_-_Porto_Moniz_-_03_-_Piscinas_naturales.jpg",
+    "src": "img/activites/FNC/porto-moniz.jpg"
+   }
+  },
+  {
+   "id": "seixal",
+   "nom": "Plage de sable noir de Seixal",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Seixal",
+   "lat": 32.82191,
+   "lng": -17.10314,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Par beau temps, l'été surtout",
+   "enfants": true,
+   "texte": "Une plage de sable noir volcanique, au pied de falaises si vertes qu'on les croirait tropicales, avec des cascades qui tombent dans la mer : la plus belle plage de Madère, sur la côte nord. Juste à côté, des bassins de lave font des piscines naturelles gratuites.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seixal_-_Ilha_da_Madeira_-_Portugal_(51817017914).jpg",
+    "src": "img/activites/FNC/seixal.jpg"
+   }
+  },
+  {
+   "id": "santana",
+   "nom": "Maisons triangulaires de Santana",
+   "emoji": "🏠",
+   "type": "culture",
+   "quartier": "Santana",
+   "lat": 32.8049,
+   "lng": -16.8813,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade dans le village",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En journée ; à combiner avec la levada du Caldeirão Verde",
+   "enfants": true,
+   "texte": "Les « palheiros », petites maisons en triangle au toit de chaume, aux murs blancs et aux portes rouges et bleues, sont le symbole de Madère. Les plus belles sont groupées au centre du village de Santana, sur la côte nord, au milieu des champs et des hortensias.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ximonic (Simo Räsänen)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casas_de_Santana_traditional_houses_in_Santana,_Madeira,_2023_May.jpg",
+    "src": "img/activites/FNC/santana.jpg"
+   }
+  },
+  {
+   "id": "curral",
+   "nom": "Belvédère d'Eira do Serrado et vallée des Nonnes",
+   "emoji": "⛰️",
+   "type": "vue",
+   "quartier": "Curral das Freiras",
+   "lat": 32.71034,
+   "lng": -16.96216,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédère",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En matinée, avant les nuages ; à 30 min de Funchal",
+   "enfants": true,
+   "texte": "À 1 095 mètres, un belvédère au-dessus d'un cirque de montagnes vertigineuses, au fond duquel se cache le village de Curral das Freiras, où les religieuses de Funchal se réfugiaient des pirates. Descendez-y ensuite goûter la liqueur et les gâteaux de châtaigne, la spécialité de la vallée.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Curral_das_Freiras_from_Eira_do_Serrado_02.jpg",
+    "src": "img/activites/FNC/curral.jpg"
+   }
+  },
+  {
+   "id": "dauphins",
+   "nom": "Dauphins et baleines en bateau",
+   "emoji": "🐬",
+   "type": "nature",
+   "quartier": "Marina de Funchal",
+   "lat": 32.64509,
+   "lng": -16.90986,
+   "prix": 52,
+   "prix_detail": [
+    [
+     "Sortie de 2 h en bateau semi-rigide, adulte",
+     "52 €"
+    ],
+    [
+     "Enfant",
+     "30 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ],
+    [
+     "Croisière en voilier, plus lente",
+     "≈ 45 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 52,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      30
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou quelques jours avant",
+   "duree": "2 à 3 h",
+   "moment": "Toute l'année ; plus de baleines au printemps et en été",
+   "enfants": true,
+   "texte": "Les eaux de Madère sont parmi les plus riches d'Europe : dauphins presque à chaque sortie, souvent des globicéphales, et selon la saison des baleines, rorquals ou cachalots. Les bateaux partent de la marina de Funchal, guidés par des observateurs postés à terre qui repèrent les animaux.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "Choisissez un opérateur engagé (charte de bonne conduite, pas de baignade avec les animaux). Mer parfois agitée : prenez un cachet contre le mal de mer si besoin.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bex Walton from London, England",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dolphin_spotting_in_Madeira_(52893163805).jpg",
+    "src": "img/activites/FNC/dauphins.jpg"
+   }
+  },
+  {
+   "id": "porto-santo",
+   "nom": "Journée sur l'île de Porto Santo",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Porto Santo",
+   "lat": 33.0658,
+   "lng": -16.3362,
+   "prix": 58.9,
+   "prix_detail": [
+    [
+     "Ferry aller-retour dans la journée",
+     "dès 58,90 €"
+    ],
+    [
+     "Avec transferts",
+     "dès 65,70 €"
+    ],
+    [
+     "Avec excursion de l'île",
+     "dès 89,30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 58.9,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, plus tôt en été",
+   "duree": "La journée (2 h 30 de traversée par trajet)",
+   "moment": "Toute l'année, avec plus de traversées l'été ; départ le matin, retour le soir",
+   "enfants": true,
+   "texte": "L'autre île de l'archipel, sèche et dorée, a ce qui manque à Madère : une plage de sable blond de 9 km, une eau turquoise et calme, et des petites maisons blanches. Le ferry Lobo Marinho y part de Funchal le matin et revient le soir, de quoi passer une vraie journée de plage.",
+   "site_officiel": "https://portosantoline.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Hedwig Storch",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Porto_santo_strand_5-2007.jpg",
+    "src": "img/activites/FNC/porto-santo.jpg"
+   }
+  },
+  {
+   "id": "canyoning",
+   "nom": "Canyoning dans les ravins",
+   "emoji": "🧗",
+   "type": "sport",
+   "quartier": "Ribeiro Frio",
+   "lat": 32.7396,
+   "lng": -16.8869,
+   "prix": 65,
+   "prix_detail": [
+    [
+     "Parcours débutant ou familial, avec guide et matériel",
+     "65 €"
+    ],
+    [
+     "Parcours sportif",
+     "95 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 65,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "duree": "4 h environ (transport compris)",
+   "moment": "Toute l'année, selon la météo",
+   "enfants": false,
+   "texte": "Madère est l'une des grandes destinations de canyoning d'Europe : on descend des rivières de montagne en rappel le long des cascades, on saute dans des vasques d'eau claire et l'on glisse sur des toboggans de roche, au cœur de la forêt de lauriers. Les parcours débutants ne demandent aucune expérience.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "Âge minimum selon le parcours : demandez-le en réservant. Combinaison, casque et baudrier fournis.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Scarleth White",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rappel_estanzuela.jpg",
+    "src": "img/activites/FNC/canyoning.jpg"
+   }
+  },
+  {
+   "id": "maritimo",
+   "nom": "Match du Marítimo",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Estádio do Marítimo",
+   "lat": 32.64557,
+   "lng": -16.92839,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 15 à 30 €"
+    ],
+    [
+     "Grands matchs (Benfica, Porto, Sporting)",
+     "plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant sur le site du club",
+   "duree": "3 h",
+   "moment": "Les soirs de match",
+   "enfants": true,
+   "club": "CS Marítimo",
+   "texte": "Le club le plus populaire de l'île, de retour en première division en 2026, joue dans son stade rouge et vert des Barreiros, à dix minutes du centre. Une ambiance familiale et passionnée, et l'occasion de voir de près les grands clubs portugais en visite.",
+   "site_officiel": "https://csmaritimo.pt/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "UmanoK",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Mar%C3%ADtimo,_8_of_May.jpg",
+    "src": "img/activites/FNC/maritimo.jpg"
+   }
+  },
+  {
+   "id": "formosa",
+   "nom": "Promenade et plage de Praia Formosa",
+   "emoji": "🌅",
+   "type": "plage",
+   "quartier": "Praia Formosa",
+   "lat": 32.6392,
+   "lng": -16.95118,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage et promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de journée, pour le coucher du soleil",
+   "enfants": true,
+   "texte": "La plus grande plage de Funchal, de galets et de sable noir, avec douches, bars de plage et une promenade au bord de l'eau qui mène jusqu'à Câmara de Lobos. Sur le chemin, les bassins de lave de Doca do Cavacas sont parfaits pour une baignade au coucher du soleil.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Martinho_(Madeira,_Portugal),_Praia_Formosa_--_2025_--_0656.jpg",
+    "src": "img/activites/FNC/formosa.jpg"
+   }
+  },
+  {
+   "id": "reveillon",
+   "nom": "Feu d'artifice du Nouvel An",
+   "emoji": "🎆",
+   "type": "sortir",
+   "quartier": "Baie de Funchal",
+   "lat": 32.6455,
+   "lng": -16.9055,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Feu d'artifice et illuminations",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une soirée",
+   "moment": "Le 31 décembre à minuit ; illuminations de Noël du 1er décembre au 6 janvier ; fête des Fleurs en avril ou mai",
+   "enfants": true,
+   "texte": "Le plus grand feu d'artifice du monde selon le Guinness des records en 2006 : huit minutes de feu tirées tout autour de la baie, que les habitants et les paquebots ancrés devant le port regardent ensemble. En décembre, toute la ville s'illumine, et au printemps la fête des Fleurs la couvre de tapis de pétales.",
+   "site_officiel": "https://visitmadeira.com/fr/",
+   "note": "Les hôtels sont pleins des mois à l'avance pour le Nouvel An : réservez tôt.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mark Woodbury",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_Fireworks.jpg",
+    "src": "img/activites/FNC/reveillon.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Centre de Funchal (Sé)",
+   "lat": 32.6485,
+   "lng": -16.9085,
+   "texte": "Le cœur de la ville, entre la cathédrale, l'avenue Arriaga et la marina : tout se fait à pied, restaurants, cave Blandy's et téléphérique à 10 minutes. Le meilleur choix pour un premier séjour sans voiture, avec des hôtels de toutes gammes."
+  },
+  {
+   "id": "zona-velha",
+   "nom": "Zona Velha (vieille ville)",
+   "lat": 32.648,
+   "lng": -16.901,
+   "texte": "Les ruelles pavées aux portes peintes, le marché et le départ du téléphérique du Monte : un quartier vivant le soir, plein de terrasses, au bord de l'eau. Hôtels de charme et petites adresses ; un peu de bruit les soirs de fête."
+  },
+  {
+   "id": "lido",
+   "nom": "Lido (zone hôtelière)",
+   "lat": 32.6375,
+   "lng": -16.932,
+   "texte": "À l'ouest du centre, le long de l'Estrada Monumental : les grands hôtels avec piscine au-dessus de l'océan, les bains du Lido et la promenade jusqu'à Praia Formosa. Idéal pour un séjour détente, à 20 minutes de bus ou 10 minutes de taxi du centre."
+  },
+  {
+   "id": "canico",
+   "nom": "Caniço et Garajau",
+   "lat": 32.643,
+   "lng": -16.838,
+   "texte": "Sur la côte sud, à 15 minutes à l'est de Funchal et près de l'aéroport : des hôtels plus calmes et souvent moins chers, la réserve marine de Garajau pour la plongée, et la route directe vers la pointe de São Lourenço."
+  },
+  {
+   "id": "calheta",
+   "nom": "Calheta (côte ouest)",
+   "lat": 32.719,
+   "lng": -17.176,
+   "texte": "La côte la plus ensoleillée de l'île, avec une plage de sable doré, une marina et des hôtels face à la mer couchant. Le bon point de départ pour les levadas du Rabaçal, la forêt de Fanal et Porto Moniz, à 45 minutes de Funchal."
+  }
+ ],
+ "hotel_petit_prix_max": 80,
+ "restaurants": [
+  {
+   "id": "santo-antonio",
+   "nom": "Restaurante Santo António",
+   "emoji": "🍢",
+   "gamme": "petit",
+   "genre": "Espetada au feu de bois (depuis 1966)",
+   "quartier": "Estreito de Câmara de Lobos",
+   "adresse": "Estrada João Gonçalves Zarco 656, Estreito de Câmara de Lobos",
+   "lat": 32.67278,
+   "lng": -16.98194,
+   "prix": "≈ 15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le temple de l'espetada, le plat national de Madère : des brochettes de bœuf frottées à l'ail et au laurier, grillées sur la braise et servies pendues à une grande tige de fer au-dessus de la table. Avec le bolo do caco beurré à l'ail et le milho frito, c'est le repas que tous les Madériens recommandent, dans les hauteurs des vignes d'Estreito.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le week-end (énorme salle, mais toujours pleine)",
+   "photo": {
+    "auteur": "Dirk Klaassen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Espetadagrill_am_Strandfest.JPG",
+    "illustration": true,
+    "src": "img/restos/FNC/santo-antonio.jpg"
+   }
+  },
+  {
+   "id": "bela-5",
+   "nom": "Bela 5 Snack Bar",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Snack madérien de la vieille ville",
+   "quartier": "Zona Velha",
+   "adresse": "Rua Bela de São Tiago 5A, Funchal",
+   "lat": 32.64866,
+   "lng": -16.90112,
+   "prix": "≈ 8 à 18 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite adresse de quartier dans la vieille ville, adorée des voyageurs comme des habitants : soupe de tomate maison, bolo do caco chaud, sandwichs au thon, poisson grillé du jour et frites faites main. Simple, généreux et pas cher, à deux pas des portes peintes.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : quelques tables seulement, venez avant 12 h 30 ou après 14 h",
+   "photo": {
+    "auteur": "Ana Cake Design",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bolo_do_caco_acabadinhos_de_cozer.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/bela-5.jpg"
+   }
+  },
+  {
+   "id": "rei-da-poncha",
+   "nom": "Rei da Poncha",
+   "emoji": "🍹",
+   "gamme": "petit",
+   "genre": "Bar à poncha",
+   "quartier": "Centre (près du marché)",
+   "adresse": "Rampa do Cidrão 147, Funchal",
+   "lat": 32.64789,
+   "lng": -16.90607,
+   "prix": "≈ 3 à 10 €",
+   "prix_min": 3,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Impossible de quitter Madère sans goûter la poncha, l'eau-de-vie de canne à sucre battue avec du miel et du citron. Ce minuscule bar près du marché la prépare devant vous, au bâton de bois, en dizaines de versions (fruit de la passion, orange, tangerine), avec un bol de lupins pour l'accompagner.",
+   "reservation": "libre",
+   "photo": {
+    "auteur": "Mitsjol",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Poncha.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/rei-da-poncha.jpg"
+   }
+  },
+  {
+   "id": "o-recante",
+   "nom": "Restaurante O Recanto",
+   "emoji": "🐚",
+   "gamme": "petit",
+   "genre": "Lapas et poisson du jour",
+   "quartier": "Caniçal",
+   "adresse": "ER109 69, Caniçal",
+   "lat": 32.74261,
+   "lng": -16.73907,
+   "prix": "≈ 12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Le repas idéal après la pointe de São Lourenço : une salle simple du village de pêcheurs de Caniçal, où l'on sert les lapas (patelles grillées au beurre d'ail), les crevettes sautées et le poisson du jour selon l'arrivage, en portions copieuses et à prix d'ami.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le déjeuner du week-end",
+   "photo": {
+    "auteur": "Thomas Schoch – http://www.retas.de",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Patella_vulgata_Madeira_1.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/o-recante.jpg"
+   }
+  },
+  {
+   "id": "abrigo-do-pastor",
+   "nom": "Abrigo do Pastor",
+   "emoji": "🔥",
+   "gamme": "petit",
+   "genre": "Auberge de montagne",
+   "quartier": "Camacha (route du Pico do Arieiro)",
+   "adresse": "Estrada das Carreiras, Camacha",
+   "lat": 32.69523,
+   "lng": -16.87708,
+   "prix": "≈ 18 à 30 €",
+   "prix_min": 18,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un ancien abri de bergers et de chasseurs perdu dans la forêt, au-dessus de Funchal, devenu une auberge au feu de cheminée : plats de chasse et de montagne selon la saison, espetada grillée au feu de bois et vin de la maison. L'étape réconfortante en redescendant du Pico do Arieiro.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, surtout le week-end",
+   "photo": {
+    "auteur": "Bengt Nyman",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Camacha_Madeira_January_2014_-_panoramio.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/abrigo-do-pastor.jpg"
+   }
+  },
+  {
+   "id": "chafariz",
+   "nom": "Chafariz Gelato",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glacier artisanal",
+   "quartier": "Sé",
+   "adresse": "Largo do Chafariz 14, Funchal",
+   "lat": 32.6489,
+   "lng": -16.90795,
+   "prix": "≈ 3 à 7 €",
+   "prix_min": 3,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Sur la petite place derrière la cathédrale, des glaces artisanales faites sur place, dont des parfums aux fruits tropicaux de l'île. La pause sucrée parfaite entre deux visites du centre.",
+   "reservation": "libre",
+   "photo": {
+    "auteur": "PESP/ Wikimedia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Largo_do_Chafariz,_Funchal_-_2014-08-30_-_DSC02776.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/chafariz.jpg"
+   }
+  },
+  {
+   "id": "casal-da-penha",
+   "nom": "Casal da Penha",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Cuisine madérienne",
+   "quartier": "Lido",
+   "adresse": "Beco do Ataíde 1, Funchal",
+   "lat": 32.64301,
+   "lng": -16.91939,
+   "prix": "≈ 25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "La meilleure table de cuisine madérienne selon le guide Michelin : une maison de famille avec une terrasse fleurie, qui sert les classiques de l'île, espada (sabre noir) à la banane et au fruit de la passion, thon à la madérienne, espetada et pudding de maracuja, avec le poisson acheté le matin au marché.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 ou 3 jours avant",
+   "photo": {
+    "auteur": "AngMoKio",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Espada_with_Banana_Madeira.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/casal-da-penha.jpg"
+   }
+  },
+  {
+   "id": "akua",
+   "nom": "Ákua",
+   "emoji": "🦑",
+   "gamme": "moyen",
+   "genre": "Petites assiettes de la mer",
+   "quartier": "Sé",
+   "adresse": "Rua dos Murças 6, Funchal",
+   "lat": 32.64751,
+   "lng": -16.90926,
+   "prix": "≈ 30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Le chef Júlio Pereira revisite les poissons de l'Atlantique en petites assiettes à partager : tacos de morue frite, ceviche de poisson blanc, moules au curry, thon en tataki. Une salle animée en plein centre, une cuisine pleine d'idées et des prix encore raisonnables.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant",
+   "photo": {
+    "auteur": "Xemenendura",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:At%C3%BAn_rojo_a_la_plancha.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/akua.jpg"
+   }
+  },
+  {
+   "id": "kampo",
+   "nom": "Kampo",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Viandes et légumes au feu de bois",
+   "quartier": "Sé",
+   "adresse": "Rua da Alfândega 74, Funchal",
+   "lat": 32.64769,
+   "lng": -16.90719,
+   "prix": "≈ 40 à 65 €",
+   "prix_min": 40,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'autre adresse de Júlio Pereira, tournée vers la terre : cuisine ouverte et braise, viandes maturées, légumes des fermes de l'île et produits de saison cuisinés avec beaucoup de créativité. L'une des tables les plus réputées de Funchal.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "PESP/ Wikimedia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rua_da_Alf%C3%A2ndega,_n.%C2%BA_154,_Funchal_-_2013-05-05_-_DSC00432.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/kampo.jpg"
+   }
+  },
+  {
+   "id": "doca-do-cavacas",
+   "nom": "Doca do Cavacas",
+   "emoji": "🌅",
+   "gamme": "moyen",
+   "genre": "Poisson grillé sur les rochers",
+   "quartier": "Praia Formosa",
+   "adresse": "Rua da Ponta da Cruz 66, Funchal",
+   "lat": 32.6355,
+   "lng": -16.94784,
+   "prix": "≈ 25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance",
+    "institution"
+   ],
+   "texte": "Perché sur les rochers de lave au-dessus de l'océan, avec la falaise du Cabo Girão en face : on y vient pour le coucher du soleil, des filets d'espada, du poisson grillé et des fruits de mer, les pieds presque dans les vagues. Après le repas, les bassins naturels juste en dessous invitent à la baignade.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en terrasse au coucher du soleil",
+   "photo": {
+    "auteur": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal,_Complexo_Balnear_Doca_do_Cavacas.jpg",
+    "src": "img/restos/FNC/doca-do-cavacas.jpg"
+   }
+  },
+  {
+   "id": "informal",
+   "nom": "Restaurante Informal",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine portugaise de marché",
+   "quartier": "Sé",
+   "adresse": "Rua dos Murças 39-43, Funchal",
+   "lat": 32.64784,
+   "lng": -16.90831,
+   "prix": "≈ 30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Comme son nom l'indique, rien de guindé : une petite place du centre, une salle chaleureuse et une cuisine portugaise de saison, ragoûts mijotés, pain cuit sur place, poissons et fruits de mer, côte de veau et son risotto. Le genre d'adresse que l'on garde pour son dernier soir.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 ou 3 jours avant",
+   "photo": {
+    "auteur": "Satdeep Gill",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_(Day_2)_-_20.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/informal.jpg"
+   }
+  },
+  {
+   "id": "la-ao-fundo",
+   "nom": "Lá ao Fundo",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Cuisine méditerranéenne de la vieille ville",
+   "quartier": "Zona Velha",
+   "adresse": "Rua do Portão de São Tiago 17A, Funchal",
+   "lat": 32.6473,
+   "lng": -16.89931,
+   "prix": "≈ 25 à 45 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "« Là au fond », au bout de la vieille ville, près du fort de São Tiago : une salle chaleureuse et une cuisine qui mêle Portugal, Méditerranée et touches modernes, autour du poisson frais. Une valeur sûre loin des rabatteurs de la rue de Santa Maria.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "TeWeBs",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_Fortaleza_Sao_Tiago.JPG",
+    "illustration": true,
+    "src": "img/restos/FNC/la-ao-fundo.jpg"
+   }
+  },
+  {
+   "id": "il-gallo-doro",
+   "nom": "Il Gallo d'Oro",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Grande table de l'île",
+   "quartier": "Lido (hôtel The Cliff Bay)",
+   "adresse": "Estrada Monumental 147, Funchal",
+   "lat": 32.63815,
+   "lng": -16.9265,
+   "prix": "≈ 150 à 280 €",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "La seule table doublement étoilée de Madère, au-dessus de l'océan : le chef français Benoît Sinthon y sublime les produits de l'île et de l'Atlantique (poissons de ligne, bananes, fruits de la passion, légumes du potager) en menus de 8 ou 11 étapes, dans une salle rénovée avec la cuisine ouverte.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs semaines avant",
+   "photo": {
+    "auteur": "uggboy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_grand_Cliff_Bay_Hotel_in_Funchal,_Madeira_Island,_Portugal.jpg",
+    "src": "img/restos/FNC/il-gallo-doro.jpg"
+   }
+  },
+  {
+   "id": "william",
+   "nom": "William",
+   "emoji": "🎩",
+   "gamme": "haut",
+   "genre": "Gastronomie au palace Reid's",
+   "quartier": "Lido (Reid's Palace)",
+   "adresse": "Estrada Monumental 139, Funchal",
+   "lat": 32.64063,
+   "lng": -16.92397,
+   "prix": "≈ 165 à 220 €",
+   "prix_min": 165,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le restaurant étoilé du Reid's Palace, le palace légendaire de Madère où séjournèrent Winston Churchill et George Bernard Shaw : une cuisine fine et précise, des menus dégustation qui changent avec les saisons, et une terrasse sur la baie de Funchal à couper le souffle au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant (tenue correcte demandée)",
+   "photo": {
+    "auteur": "Dr. Thomas Liptak",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal,_Belmond_Reid%E2%80%99s_Palace.jpg",
+    "src": "img/restos/FNC/william.jpg"
+   }
+  },
+  {
+   "id": "desarma",
+   "nom": "Desarma",
+   "emoji": "✨",
+   "gamme": "haut",
+   "genre": "Cuisine créative madérienne",
+   "quartier": "Centre (hôtel The Views Baía)",
+   "adresse": "Rua das Maravilhas 74, Funchal",
+   "lat": 32.649,
+   "lng": -16.91934,
+   "prix": "≈ 110 à 180 €",
+   "prix_min": 110,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Au dernier étage d'un hôtel du centre, face à la baie, le chef madérien Octávio Freitas raconte son île en menus de 6 ou 9 « moments », ou au comptoir face à la cuisine : salaisons de poisson, produits de la mer et des montagnes, clins d'œil aux recettes de son enfance.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant (dîner seulement)",
+   "photo": {
+    "auteur": "Michael Gaylard from Horsham, UK",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_Grounds_At_Night-2521_(51406974305).jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/desarma.jpg"
+   }
+  },
+  {
+   "id": "avista",
+   "nom": "Avista",
+   "emoji": "🌊",
+   "gamme": "haut",
+   "genre": "Méditerranée et Asie face à l'océan",
+   "quartier": "Lido (Les Suites at The Cliff Bay)",
+   "adresse": "Estrada Monumental 145, Funchal",
+   "lat": 32.63943,
+   "lng": -16.92569,
+   "prix": "≈ 60 à 90 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Une terrasse suspendue au-dessus de l'océan, la plus belle vue de Funchal à table : la cuisine signée Benoît Sinthon y est plus détendue qu'à Il Gallo d'Oro, entre Méditerranée et Asie, avec des plats à partager et des menus bistronomiques. Réservez au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant (une semaine pour la terrasse au coucher du soleil)",
+   "photo": {
+    "auteur": "Stephen Colebourne",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_in_the_sunset,_Madeira_-_Jan_2012.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/avista.jpg"
+   }
+  },
+  {
+   "id": "audax",
+   "nom": "Audax",
+   "emoji": "🌱",
+   "gamme": "haut",
+   "genre": "Cuisine madérienne d'auteur",
+   "quartier": "Lido",
+   "adresse": "Rua Imperatriz Dona Amélia 104, Funchal",
+   "lat": 32.64313,
+   "lng": -16.92005,
+   "prix": "≈ 60 à 120 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Une petite salle intimiste où le jeune chef revisite les recettes de l'île avec audace, en menus dégustation qui changent avec les saisons et mettent en avant les producteurs de Madère, accompagnés de vins de l'île. Une des tables les plus prometteuses de Funchal.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "Melsj",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mousse_de_maracuj%C3%A1.jpg",
+    "illustration": true,
+    "src": "img/restos/FNC/audax.jpg"
+   }
+  },
+  {
+   "id": "nini",
+   "nom": "Design Centre Nini Andrade Silva",
+   "emoji": "🏰",
+   "gamme": "haut",
+   "genre": "Restaurant dans un fort sur la mer",
+   "quartier": "Port (Forte da Pontinha)",
+   "adresse": "Estrada da Pontinha, Funchal",
+   "lat": 32.64111,
+   "lng": -16.91533,
+   "prix": "≈ 50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un restaurant installé au sommet d'un fort du XVIIe siècle, sur un îlot relié au port de Funchal, dessiné par la designer madérienne Nini Andrade Silva : salle vitrée tout en courbes, terrasse au ras de l'océan et vue sur toute la ville. Le cadre le plus original de l'île pour un dîner.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "José Lemos Silva",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fortaleza_de_Nossa_Senhora_da_Concei%C3%A7%C3%A3o_do_Ilh%C3%A9u_sem_o_guindaste_de_1845_-_2012-01-16_-_Image_45352.jpg",
+    "src": "img/restos/FNC/nini.jpg"
+   }
+  }
+ ]
+}
