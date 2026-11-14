@@ -199,3 +199,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   « …-in-qawra », « …-in-victoria »… (~150 listes, ~1 600 lieux). Prix officiels lisibles par `curl` sur `heritagemalta.mt/explore/<site>/` (tous les
   sites d'État), wirtartna.org (Lascaris, batterie des saluts), popeyemalta.com ; la co-cathédrale bloque (Cloudflare). Michelin : la page
   `guide.michelin.com/en/mt/restaurants` liste tout Malte (Playwright, `.card__menu`). Commons : recherche HTML (`ns6=1`) + `thumb.php`, sans « 429 ».
+- Batna (nov. 2026) : ville sans vol en ce moment (absente de `data.json`, champ `ville` du guide). Wanderlog vide (géo 79754) ; Google Maps en
+  affichage limité donne ~700 lieux mais très peu d'avis (note moyenne pondérée ≈ 3,97, 250 avis au plus) : garde-fou des notes abaissé vers 4,0.
+  **winrouh.com** (`/restaurants/batna` + catégories) : 43 fiches avec type de cuisine, extraits d'avis Google et position exacte (`lat:`/`lng:` dans
+  la page), lisibles par `curl` — très utile pour l'Algérie. Overpass et pip refusés d'ici ; Nominatim et Commons (`thumb.php`) marchent.
+  Tarif des sites antiques algériens : ≈ 200 DA (comme Hippone, Tipasa). Éclipse totale du 2 août 2027 au-dessus de Timgad (5 min 20 s).

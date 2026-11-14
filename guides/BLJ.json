@@ -1,0 +1,1163 @@
+{
+ "city_code": "BLJ",
+ "ville": "Batna",
+ "statut": "vérifié en autonomie, prix relevés le 14/11/2026 (1 € ≈ 151 dinars au taux officiel)",
+ "verifie_le": "2026-11-14",
+ "avant_de_partir": "Les Français ont besoin d'un visa pour l'Algérie (la carte d'identité ne suffit pas). Il se demande en personne au consulat d'Algérie de votre région (à Lyon pour la région lyonnaise), avec un passeport valable 6 mois après le retour, une réservation d'hôtel et une assurance voyage : environ 110 €. Comptez jusqu'à 3 semaines : déposez votre dossier au moins un mois avant le départ.",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "transport": "le taxi",
+ "transport_loin": "une voiture avec chauffeur (votre hôtel en trouve une facilement)",
+ "activites": [
+  {
+   "id": "timgad",
+   "nom": "Timgad, la Pompéi de l'Afrique",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Timgad (40 min)",
+   "lat": 35.485,
+   "lng": 6.46714,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Billet du site",
+     "≈ 200 DA (≈ 1,30 €), en espèces"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ],
+    [
+     "Taxi collectif depuis la gare routière Est de Batna",
+     "≈ 150 à 300 DA (≈ 1 à 2 €)"
+    ],
+    [
+     "Taxi ou chauffeur pour la demi-journée (avec Lambèse)",
+     "≈ 4 000 à 6 000 DA (≈ 25 à 40 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Tôt le matin ou en fin d'après-midi : le site est immense et sans ombre",
+   "enfants": true,
+   "texte": "Fondée par l'empereur Trajan en l'an 100, Thamugadi est la ville romaine la mieux conservée d'Afrique du Nord. Ses rues dallées se croisent à angle droit comme sur un plan d'architecte, avec encore les ornières des chars. Au bout du decumanus se dresse l'arc de Trajan, haut de 12 mètres. Le théâtre de 3 500 places, la bibliothèque publique et les colonnes du Capitole sont posés sur le plateau, face aux montagnes des Aurès. Le site est classé par l'Unesco, et vous y croiserez surtout des familles algériennes.",
+   "site_officiel": "https://whc.unesco.org/fr/list/194/",
+   "note": "Ouvert tous les jours, en gros de 8 h 30 à 17 h (plus tard en été). Prévoyez chapeau, eau et chaussures fermées. Le 2 août 2027, une éclipse totale de Soleil passera au-dessus de Timgad (plus de 5 minutes de nuit en plein jour, vers 10 h) : hôtels et voitures seront pris d'assaut, réservez très tôt.",
+   "photo": {
+    "auteur": "Dan Sloan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATimgad_%2815873230235%29.jpg",
+    "src": "img/activites/BLJ/timgad.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "musee-timgad",
+   "nom": "Le musée des mosaïques de Timgad",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Timgad (40 min)",
+   "lat": 35.48843,
+   "lng": 6.46917,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Entrée du musée",
+     "≈ 200 DA (≈ 1,30 €), en espèces"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Juste avant ou après la visite du site, aux heures chaudes",
+   "enfants": true,
+   "texte": "À l'entrée des ruines, un petit musée garde les trésors trouvés dans les maisons de Timgad : des mosaïques immenses, presque intactes, dont un Neptune debout sur son char tiré par des chevaux marins. Les couleurs sont restées vives après dix-huit siècles. Une demi-heure au frais qui donne tout son sens à la promenade dans les ruines.",
+   "note": "Le musée est à côté du guichet du site. Photos sans flash.",
+   "photo": {
+    "auteur": "Reda Kerbouche",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANeptune_in_his_Chariot_Mosaic%2C_Timgad.jpg",
+    "src": "img/activites/BLJ/musee-timgad.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "lambese",
+   "nom": "Lambèse, le camp de la légion romaine",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Tazoult (15 min)",
+   "lat": 35.49021,
+   "lng": 6.25471,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Entrée du site",
+     "≈ 200 DA (≈ 1,30 €), en espèces"
+    ],
+    [
+     "Moins de 16 ans",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre de Batna (aller)",
+     "≈ 500 à 800 DA (≈ 3 à 5 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Sur la route de Timgad, le matin",
+   "enfants": true,
+   "texte": "Pendant deux siècles, Lambèse fut la base de la IIIe légion Auguste, la seule légion romaine stationnée en Afrique. Il en reste un bâtiment saisissant : le quartier général, un cube de pierre ocre haut comme un immeuble, percé de grandes arches, debout au milieu d'un champ. Autour, des arcs de triomphe, des thermes et un amphithéâtre. À un quart d'heure de Batna, et souvent pour vous seul.",
+   "note": "Facile à combiner avec Timgad, 25 km plus loin sur la même route. Le petit musée du village est souvent fermé : ne comptez pas dessus.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APraetorium_%28Lambaesis%29_05.jpg",
+    "src": "img/activites/BLJ/lambese.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "medracen",
+   "nom": "Le Medracen, tombeau des rois numides",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Boumia (35 min)",
+   "lat": 35.70727,
+   "lng": 6.43452,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au site",
+     "gratuit (site clôturé, gardien sur place)"
+    ],
+    [
+     "Taxi ou chauffeur depuis Batna (aller-retour)",
+     "≈ 3 000 à 4 000 DA (≈ 20 à 25 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin de journée, quand la pierre devient rose",
+   "enfants": true,
+   "texte": "Plus de deux mille ans avant les ruines romaines, les rois numides se faisaient enterrer ici, sous un immense cône de pierre de 59 mètres de large entouré de 60 colonnes. Le Medracen est le plus ancien mausolée royal d'Afrique du Nord, seul au milieu des champs de blé. Peu de visiteurs, un silence total : on comprend vite pourquoi les Chaouis en ont fait un symbole.",
+   "note": "Le monument attend sa restauration : on en fait le tour, mais on ne monte pas dessus. Il est au bord de la route nationale vers Constantine, tout près de l'aéroport : on peut s'y arrêter en arrivant ou en repartant.",
+   "photo": {
+    "auteur": "Zakaria Mimouni",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMausol%C3%A9e_des_Rois_numides_dit_le_Medracen_-1.JPG",
+    "src": "img/activites/BLJ/medracen.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "ghoufi",
+   "nom": "Les balcons de Ghoufi",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Ghassira (1 h 30)",
+   "lat": 35.05936,
+   "lng": 6.16809,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Belvédères et sentier dans le canyon",
+     "gratuit"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 10 000 à 14 000 DA (≈ 65 à 95 €)"
+    ],
+    [
+     "Thé ou jus de grenade à la buvette",
+     "≈ 100 à 200 DA (≈ 1 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Au printemps (palmiers verts, abricotiers en fleurs) ou à l'automne ; partez tôt",
+   "enfants": true,
+   "texte": "Le paysage le plus spectaculaire des Aurès : un canyon de 200 mètres de profondeur, creusé par l'oued Abiod, au fond duquel serpente une palmeraie. Sur les corniches s'accrochent des villages berbères en pierre et en bois de palmier, vieux de quatre siècles, avec leurs greniers à étages. On les admire depuis les belvédères, puis on descend à pied entre les maisons abandonnées jusqu'aux jardins. Inoubliable.",
+   "note": "Prix indiqué : la part d'une voiture avec chauffeur pour deux personnes, la journée (la route passe par les gorges de Tighanimine, à voir en chemin). Chaussures de marche et eau indispensables ; le sentier est raide.",
+   "photo": {
+    "auteur": "PhR61",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAur%C3%A8s_Ghoufi.jpg",
+    "src": "img/activites/BLJ/ghoufi.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "tighanimine",
+   "nom": "Les gorges de Tighanimine et Arris",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Route d'Arris (1 h 15)",
+   "lat": 35.15874,
+   "lng": 6.24023,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Gorges et monument",
+     "gratuit"
+    ],
+    [
+     "En voiture avec chauffeur",
+     "sur la route de Ghoufi, sans supplément"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Sur la route de Ghoufi, à l'aller",
+   "enfants": true,
+   "texte": "La route d'Arris plonge soudain dans une faille étroite de roche orange, où l'oued court au pied de falaises verticales et où la route passe dans des tunnels taillés à la main. C'est ici, le 1er novembre 1954, qu'a commencé la guerre d'indépendance : un monument le rappelle. Arris, juste avant, est la capitale des Aurès et la ville de Mostefa Ben Boulaïd.",
+   "note": "Arrêtez-vous sur les bas-côtés aménagés à la sortie des tunnels pour les photos. La route est bonne mais sinueuse : comptez 1 h 15 depuis Batna.",
+   "photo": {
+    "auteur": "Rachid Hamatou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AA_la_fronti%C3%A8re_entre_Tkout_et_Tighanimine_1.jpg",
+    "src": "img/activites/BLJ/tighanimine.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "menaa",
+   "nom": "Menaa, village chaoui de la vallée",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Menaa (1 h 15)",
+   "lat": 35.17356,
+   "lng": 6.008,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Village et palmeraie",
+     "gratuit"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 8 000 à 12 000 DA (≈ 55 à 80 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      11,
+      15
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "Au printemps, quand la vallée est verte",
+   "enfants": true,
+   "texte": "Un village de terre et de pierre posé sur un éperon, au-dessus d'une palmeraie et d'un oued qui coule toute l'année. Dans la vieille ville, on marche dans des ruelles couvertes, entre des maisons à poutres de genévrier et une ancienne casbah. Un peu plus loin, le village abandonné de Nara, accroché à la falaise, est l'un des plus photogéniques des Aurès.",
+   "note": "Prix indiqué : la part d'une voiture avec chauffeur pour deux personnes. Demandez à un habitant de vous guider dans la vieille ville : c'est l'usage, et un pourboire suffit.",
+   "photo": {
+    "auteur": "Vikoula5",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALe_village_de_Men%C3%A2a%2C_3_%28Wilaya_de_Batna%29.jpg",
+    "src": "img/activites/BLJ/menaa.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "el-kantara",
+   "nom": "El Kantara, la porte du désert",
+   "emoji": "🌴",
+   "type": "nature",
+   "quartier": "El Kantara (1 h)",
+   "lat": 35.23357,
+   "lng": 5.70162,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Gorges, pont romain et palmeraie",
+     "gratuit"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 8 000 à 12 000 DA (≈ 55 à 80 €)"
+    ],
+    [
+     "Train Batna – El Kantara (aller)",
+     "≈ 100 à 200 DA (≈ 1 €), horaires limités"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      11,
+      15
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "En fin d'après-midi, quand les falaises s'embrasent",
+   "enfants": true,
+   "texte": "Au sud de Batna, la montagne s'ouvre d'un coup : une fente de roche rouge, franchie par un pont romain, et de l'autre côté les premiers palmiers du Sahara. Les voyageurs l'appellent depuis toujours « la bouche du désert ». On se promène dans la palmeraie et le vieux village de terre, entre les jardins d'abricotiers et les canaux d'irrigation.",
+   "note": "Prix indiqué : la part d'une voiture avec chauffeur pour deux personnes. En continuant 50 km vers le sud, vous êtes à Biskra et ses palmeraies de dattes Deglet Nour.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARoman_Bridge_%28El_Kantara%29_09.jpg",
+    "src": "img/activites/BLJ/el-kantara.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "belezma",
+   "nom": "Les cèdres du parc national de Belezma",
+   "emoji": "🌲",
+   "type": "nature",
+   "quartier": "Belezma (30 min)",
+   "lat": 35.60438,
+   "lng": 6.0849,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au parc",
+     "gratuit"
+    ],
+    [
+     "Taxi ou chauffeur depuis Batna (demi-journée)",
+     "≈ 3 000 à 5 000 DA (≈ 20 à 35 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Du printemps à l'automne ; en hiver, la neige peut fermer les pistes",
+   "enfants": true,
+   "texte": "À vingt minutes du centre, les montagnes au-dessus de Batna sont couvertes de cèdres de l'Atlas, dont certains ont plus de trois cents ans. Les sentiers mènent à des crêtes à plus de 2 000 mètres, d'où l'on voit les hauts plateaux jusqu'à l'horizon. Les familles de Batna y montent le week-end pour pique-niquer à l'ombre des arbres.",
+   "note": "Passez d'abord au centre du parc, à Batna, pour le plan des sentiers. Les pistes vers Théniet El Gontas demandent un véhicule haut : votre chauffeur saura où aller.",
+   "photo": {
+    "auteur": "Hamoudi05047",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASommet_ilissane._montagne_thichaw_park_national_belezma.jpg",
+    "src": "img/activites/BLJ/belezma.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "chelia",
+   "nom": "Le mont Chélia, toit de l'Algérie du Nord",
+   "emoji": "🏔️",
+   "type": "nature",
+   "quartier": "Bouhmama (2 h)",
+   "lat": 35.31842,
+   "lng": 6.63674,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Forêt et sentiers",
+     "gratuit"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 12 000 à 15 000 DA (≈ 80 à 100 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      11,
+      22
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "De mai à octobre pour marcher ; de janvier à mars pour la neige",
+   "enfants": false,
+   "texte": "Avec ses 2 328 mètres, le Chélia est le plus haut sommet du nord de l'Algérie. Ses pentes portent une des plus belles forêts de cèdres du pays, avec des arbres tordus par le vent et des vues sur tout le massif des Aurès. En hiver, la montagne se couvre de neige et les familles de la région y viennent faire de la luge.",
+   "note": "Prix indiqué : la part d'une voiture avec chauffeur pour deux personnes. La montée au sommet se fait à pied (environ 3 h aller-retour depuis la piste) : partez avec un guide local.",
+   "photo": {
+    "auteur": "Blackmysterieux",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChelia_2.jpg",
+    "src": "img/activites/BLJ/chelia.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "hammam-essalihine",
+   "nom": "Bain dans les thermes romains de Hammam Essalihine",
+   "emoji": "♨️",
+   "type": "nature",
+   "quartier": "Khenchela (1 h 30)",
+   "lat": 35.44016,
+   "lng": 7.08469,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Entrée au bassin romain",
+     "≈ 300 DA (≈ 2 €)"
+    ],
+    [
+     "Voiture avec chauffeur à la journée (par voiture)",
+     "≈ 12 000 à 15 000 DA (≈ 80 à 100 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [
+     [
+      11,
+      22
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "En semaine, le matin : le week-end, il y a foule",
+   "enfants": true,
+   "texte": "On se baigne ici dans une piscine construite par les Romains il y a près de deux mille ans, et jamais abandonnée depuis. L'eau chaude et chargée de minéraux remplit toujours le bassin circulaire d'origine, sous les voûtes de pierre. Les Algériens viennent de tout le pays pour s'y soigner : une expérience très locale, qu'on ne vit nulle part ailleurs.",
+   "note": "Prix indiqué : la part d'une voiture avec chauffeur pour deux personnes, plus l'entrée. Les créneaux sont séparés entre hommes et femmes, et il existe des cabines familiales : renseignez-vous à l'entrée. Apportez maillot, serviette et sandales.",
+   "photo": {
+    "auteur": "--Batni",
+    "licence": "FAL",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABain_romain_de_Khenchela.jpg",
+    "src": "img/activites/BLJ/hammam-essalihine.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "mosquee",
+   "nom": "La grande mosquée du 1er-Novembre",
+   "emoji": "🕌",
+   "type": "vue",
+   "quartier": "Route de Biskra",
+   "lat": 35.54572,
+   "lng": 6.16738,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Esplanade et jardins",
+     "gratuit"
+    ],
+    [
+     "Salle de prière (hors heures de prière)",
+     "gratuit, tenue couvrante"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Au coucher du soleil, puis le soir quand elle s'illumine",
+   "enfants": true,
+   "texte": "L'une des plus grandes mosquées d'Algérie, capable d'accueillir 30 000 fidèles, avec deux minarets élancés qui dominent toute la ville. Sa salle de prière forme une forêt de colonnes sous un grand lustre, et le soir, la façade s'éclaire de vert. Les jardins tout autour sont le rendez-vous des familles de Batna.",
+   "note": "Les visiteurs sont acceptés en dehors des prières, en tenue couvrante (foulard pour les femmes). Le vendredi midi, contentez-vous de l'extérieur.",
+   "photo": {
+    "auteur": "Zedam Nabil",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMinarets_de_la_Mosqu%C3%A9e_1er_Novembre.jpg",
+    "src": "img/activites/BLJ/mosquee.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "centre-ville",
+   "nom": "Flâner dans le centre et les allées Ben Boulaïd",
+   "emoji": "🚶",
+   "type": "balade",
+   "quartier": "Centre-ville",
+   "lat": 35.55474,
+   "lng": 6.1758,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Thé et pâtisserie en terrasse",
+     "≈ 200 à 400 DA (≈ 1,50 à 2,50 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin d'après-midi, quand les terrasses se remplissent",
+   "enfants": true,
+   "texte": "Batna est née d'un camp militaire français en 1844 : son centre garde un plan en damier, des immeubles aux façades Art déco et des portes sculptées. On remonte les allées Ben Boulaïd, bordées d'arbres et de cafés, jusqu'au théâtre régional, puis on se perd dans les rues commerçantes où l'on vend des bijoux en argent et des dattes de Biskra.",
+   "note": "Le centre se fait à pied. Pour les bijoux chaouis en argent, comparez plusieurs boutiques : les prix se discutent.",
+   "photo": {
+    "auteur": "Reda Kerbouche",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHouse_in_the_republic_avenue_Batna%2C_Algeria.jpg",
+    "src": "img/activites/BLJ/centre-ville.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "theatre",
+   "nom": "Une soirée au théâtre régional",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Centre-ville",
+   "lat": 35.55363,
+   "lng": 6.17585,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Place pour une pièce ou un concert",
+     "≈ 200 à 500 DA (≈ 1,30 à 3,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      11,
+      1
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le soir, surtout pendant les festivals de théâtre et de musique",
+   "enfants": false,
+   "texte": "Ouvert en 1899, c'est l'un des plus anciens théâtres d'Algérie : une jolie façade à arcades sur une place piétonne, et à l'intérieur une salle de 435 places tendue de velours rouge. On y joue des pièces en arabe, en tamazight et parfois en français, et des concerts de musique chaouie. Une soirée au prix d'un café.",
+   "note": "Le programme est affiché à l'entrée et sur la page Facebook du théâtre ; billets au guichet, en espèces.",
+   "photo": {
+    "auteur": "Omar Ilyes",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATheatre_batna_-_panoramio.jpg",
+    "src": "img/activites/BLJ/theatre.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "zana",
+   "nom": "Les arcs romains de Zana",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Zana (50 min)",
+   "lat": 35.7798,
+   "lng": 6.07561,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au site",
+     "gratuit"
+    ],
+    [
+     "Taxi ou chauffeur depuis Batna (aller-retour)",
+     "≈ 4 000 à 5 000 DA (≈ 25 à 35 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au printemps, quand la plaine est verte",
+   "enfants": true,
+   "texte": "Au milieu d'une plaine immense, deux arcs de triomphe romains se répondent à quelques centaines de mètres : c'est tout ce qui dépasse encore de Diana Veteranorum, une ville fondée pour les vétérans des légions. On s'y promène seul, entre les blocs de pierre sculptés, avec les montagnes du Belezma en fond. Pour les amateurs de ruines hors des sentiers battus.",
+   "note": "Aucun service sur place : venez avec de l'eau. Le site est en pleine campagne, à 45 km au nord-ouest de Batna.",
+   "photo": {
+    "auteur": "Badmax54",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADiana_Veteranorum_znaa_-_batna.jpg",
+    "src": "img/activites/BLJ/zana.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "match-cab",
+   "nom": "Un match du CA Batna",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade du 1er-Novembre",
+   "lat": 35.55732,
+   "lng": 6.18793,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 300 à 500 DA (≈ 2 à 3,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets en vente aux guichets du stade les jours de match",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pendant la saison (septembre à mai)",
+   "enfants": false,
+   "club": "CA Batna",
+   "texte": "Le CA Batna, le grand club des Aurès, joue au stade du 1er-Novembre devant un public qui chante et tape des mains pendant tout le match. L'équipe évolue en Ligue 2 et a frôlé la montée en 2026 : chaque rencontre à domicile remplit les tribunes. Une plongée dans la passion du football algérien, pour le prix d'un sandwich.",
+   "note": "Match annoncé quelques jours avant seulement : vérifiez la date sur la page du club. Préférez la tribune au virage, et évitez d'y emmener de jeunes enfants.",
+   "lien_billets": "https://www.google.com/search?q=CA+Batna+prochain+match",
+   "photo": {
+    "auteur": "Auressien",
+    "licence": "CC BY 1.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStade_du_1er_Novembre_1954_Batna.jpg",
+    "src": "img/activites/BLJ/match-cab.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Centre-ville (allées Ben Boulaïd)",
+   "lat": 35.555,
+   "lng": 6.1775,
+   "texte": "Le cœur de Batna : le théâtre, les allées Ben Boulaïd et leurs cafés, les rues commerçantes et la plupart des hôtels de la ville. Tout se fait à pied, et les taxis pour Timgad ou Lambèse partent de là."
+  },
+  {
+   "id": "menasria",
+   "nom": "Allées Menasria et la grande mosquée",
+   "lat": 35.5445,
+   "lng": 6.1675,
+   "texte": "Au sud du centre, le quartier de la grande mosquée du 1er-Novembre et de ses jardins. Avenues larges, pâtisseries, grillades et pizzerias : animé le soir, à dix minutes à pied du théâtre."
+  },
+  {
+   "id": "el-ansar",
+   "nom": "El Ansar, route de Tazoult",
+   "lat": 35.5385,
+   "lng": 6.186,
+   "texte": "Le côté est de la ville, sur la route de Lambèse et de Timgad : pratique pour partir tôt vers les ruines. On y trouve quelques-unes des meilleures tables de Batna, mais il faut un taxi pour rejoindre le centre."
+  },
+  {
+   "id": "hamla",
+   "nom": "Route de Hamla",
+   "lat": 35.535,
+   "lng": 6.149,
+   "texte": "À l'ouest, au pied des montagnes du Belezma : les grands hôtels récents, dont un quatre étoiles avec spa, au calme. Idéal en voiture ; le centre est à dix minutes en taxi."
+  }
+ ],
+ "hotel_petit_prix_max": 45,
+ "prix_match": 2,
+ "restaurants": [
+  {
+   "id": "tiyab",
+   "nom": "Tiyab El Aurès",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine maison des Aurès",
+   "quartier": "El Ansar",
+   "adresse": "Rue de l'Oued Couvert",
+   "lat": 35.53881,
+   "lng": 6.18198,
+   "prix": "3 à 6 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Son nom veut dire « la cuisine des Aurès », et c'est exactement ce qu'on y sert : les plats traditionnels que les familles chaouies préparent à la maison, servis dans une salle simple et familiale. C'est l'adresse de Batna la mieux notée par ses clients, et l'une des moins chères.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez tôt le midi, les plats du jour partent vite",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChorba_frik_algerienne.jpg",
+    "src": "img/restos/BLJ/tiyab.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "echou",
+   "nom": "Grillades Echou",
+   "emoji": "🍢",
+   "gamme": "petit",
+   "genre": "Brochettes grillées, le soir",
+   "quartier": "Allées Menasria",
+   "adresse": "Rue du 19-Juin-1965, près du stade Chaoui",
+   "lat": 35.54256,
+   "lng": 6.16749,
+   "prix": "3 à 7 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Une grillade de quartier qui n'ouvre qu'à la tombée de la nuit : brochettes et viandes cuites sur la braise, à manger avec du pain et une salade. Les habitués la placent parmi les meilleures de la ville. Simple, fumant et très local.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvre vers 18 h",
+   "photo": {
+    "auteur": "Nasser-sadeghi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJoojeh-kabab.JPG",
+    "src": "img/restos/BLJ/echou.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-merch",
+   "nom": "El-Merch Kitchen",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers maison",
+   "quartier": "Centre-ville",
+   "adresse": "14, allées Ben Boulaïd",
+   "lat": 35.5556,
+   "lng": 6.17882,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Une petite salle chaleureuse sur les allées Ben Boulaïd, où le chef prend le temps d'expliquer sa carte. Les burgers sont généreux, la viande bien assaisonnée et le poulet croustillant fait maison : plusieurs clients les disent parmi les meilleurs d'Algérie. Parfait pour un repas rapide entre deux visites du centre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; la salle est petite, évitez 13 h",
+   "photo": {
+    "auteur": "IldaMe",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHamburger_v.jpg",
+    "src": "img/restos/BLJ/el-merch.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fifty-fifty",
+   "nom": "Fifty Fifty",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "La pizza carrée, star de la rue algérienne",
+   "quartier": "Centre-ville",
+   "adresse": "Rue des Frères-Lamrani",
+   "lat": 35.55573,
+   "lng": 6.17404,
+   "prix": "2 à 5 €",
+   "prix_min": 2,
+   "badges": [],
+   "texte": "En Algérie, la pizza se vend au carré, sortie de grandes plaques et coupée devant vous. Fifty Fifty la revisite avec des garnitures plus travaillées, comme le poulet mariné, et reste ouvert jour et nuit. Le snack préféré des étudiants de Batna, à deux pas du théâtre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert 24 h sur 24",
+   "photo": {
+    "auteur": "JIP",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATaglio_alla_diavola.jpg",
+    "src": "img/restos/BLJ/fifty-fifty.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "maitre-eclairs",
+   "nom": "Maître Éclairs",
+   "emoji": "🧁",
+   "gamme": "petit",
+   "genre": "Pâtisserie fine",
+   "quartier": "El Ansar",
+   "adresse": "48, allée Mohamed-Boudiaf",
+   "lat": 35.53599,
+   "lng": 6.18748,
+   "prix": "1 à 4 €",
+   "prix_min": 1,
+   "badges": [],
+   "texte": "Comme son nom l'annonce, la maison s'est fait une spécialité de l'éclair : une pâte à choux bien maîtrisée, un craquelin qui croque et des crèmes peu sucrées. Les tartes ont aussi leurs fidèles. Une adresse pour le goûter, ou pour rapporter une boîte de gâteaux à vos hôtes.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Azh7",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEcler.jpg",
+    "src": "img/restos/BLJ/maitre-eclairs.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "amarina",
+   "nom": "Amarina Gelateria",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glaces artisanales",
+   "quartier": "Centre-ville",
+   "adresse": "Allées Ben Boulaïd",
+   "lat": 35.55669,
+   "lng": 6.17623,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [],
+   "texte": "Un glacier sur les allées Ben Boulaïd, la promenade du centre. Prenez un cornet ou une coupe et faites comme les Batnéens : le tour des allées en fin de journée, quand la ville sort prendre le frais.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvre vers midi",
+   "photo": {
+    "auteur": "rawpixel",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGelato_ice_cream.jpg",
+    "src": "img/restos/BLJ/amarina.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sila-rosa",
+   "nom": "Sila Rosa",
+   "emoji": "🥘",
+   "gamme": "moyen",
+   "genre": "Chakhchoukha et plats chaouis",
+   "quartier": "Ouest du centre",
+   "adresse": "Ouest de la ville",
+   "lat": 35.55513,
+   "lng": 6.15379,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "L'adresse à retenir pour goûter le plat roi des Aurès : la chakhchoukha, une galette émiettée à la main et noyée dans une sauce à l'agneau et aux pois chiches. La maison la décline à la mode de Biskra ou de M'sila, moins piquante, et sert aussi poulet au four et dorade. Des voyageurs de passage en parlent comme d'un vrai régal.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert midi et soir, beaucoup de monde le week-end",
+   "photo": {
+    "auteur": "Plwnt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlgerian_Chakhchoukha.jpg",
+    "src": "img/restos/BLJ/sila-rosa.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "il-gusto",
+   "nom": "Il Gusto di Napoli",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Pizza napolitaine au feu de bois",
+   "quartier": "Allées Menasria",
+   "adresse": "Rue du 19-Juin-1965",
+   "lat": 35.5465,
+   "lng": 6.17497,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Une petite pizzeria au four à bois, recommandée par les habitants sur le groupe « Où manger à Batna ». Pâte légère, bords gonflés et garnitures à l'italienne. Il n'y a que quelques tables et elles se remplissent vite : un signe qui ne trompe pas.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez ou venez à l'ouverture : la salle est souvent pleine",
+   "photo": {
+    "auteur": "Fabryx98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza-napoletana.jpg",
+    "src": "img/restos/BLJ/il-gusto.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "restaurant-05",
+   "nom": "Restaurant 05",
+   "emoji": "🍖",
+   "gamme": "moyen",
+   "genre": "Grillades à table",
+   "quartier": "Allées Menasria",
+   "adresse": "Allées Salah-Nezzar",
+   "lat": 35.54877,
+   "lng": 6.17439,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Son nom reprend le numéro de la wilaya de Batna, le 05. On y vient pour les viandes grillées servies à table, avec frites et salades. Une adresse de famille, au calme, à dix minutes à pied du centre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ferme vers 21 h",
+   "photo": {
+    "auteur": "Amin Noubahar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKebab_Gerashi.jpg",
+    "src": "img/restos/BLJ/restaurant-05.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "alroukhou",
+   "nom": "Poissonnerie El Roukhou",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poisson grillé au cœur des montagnes",
+   "quartier": "El Ansar",
+   "adresse": "Route nationale 31, sortie vers Tazoult",
+   "lat": 35.53853,
+   "lng": 6.18534,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Batna est à plus de 200 kilomètres de la mer, et pourtant cette poissonnerie-restaurant fait griller dorades et crevettes arrivées de la côte. On choisit son poisson, il est pesé et cuit sur place. Les clients louent le poisson grillé ; demandez le prix au kilo avant de commander.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert jusqu'à minuit",
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADorade_dish.jpg",
+    "src": "img/restos/BLJ/alroukhou.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "burgerino",
+   "nom": "Burgerino",
+   "emoji": "🍔",
+   "gamme": "moyen",
+   "genre": "Smash burgers et tacos",
+   "quartier": "Sud du centre",
+   "adresse": "Sud du centre-ville",
+   "lat": 35.54314,
+   "lng": 6.17752,
+   "prix": "5 à 9 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Le burger « smashé », écrasé sur la plaque pour bien caraméliser, a conquis Batna, et Burgerino en est la référence : produits frais, salle très propre et accueil souriant. C'est l'une des adresses les plus commentées de la ville, et la mieux notée de sa catégorie.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "jeffreyw",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHamburger_%282%29.jpg",
+    "src": "img/restos/BLJ/burgerino.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "patisserie-plaza",
+   "nom": "Pâtisserie Plaza",
+   "emoji": "🍰",
+   "gamme": "moyen",
+   "genre": "Salon de thé et gâteaux algériens",
+   "quartier": "Ouest du centre",
+   "adresse": "Route de Biskra",
+   "lat": 35.53661,
+   "lng": 6.15076,
+   "prix": "3 à 7 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Un salon de thé lumineux et coloré, avec une salle à l'étage pour s'attarder. Vitrines de gâteaux algériens aux amandes et au miel, pâtisseries à la française et thé à la menthe : l'endroit idéal pour une pause l'après-midi, comme le font les habitantes de Batna entre amies.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Kingdz16",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AG%C3%A2teaux_traditionnels_alg%C3%A9riens_2.jpg",
+    "src": "img/restos/BLJ/patisserie-plaza.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "perla-nera",
+   "nom": "La Perla Nera",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Brasserie chic : viandes et salades",
+   "quartier": "Centre-ville",
+   "adresse": "Avenue de l'Indépendance",
+   "lat": 35.55372,
+   "lng": 6.17811,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "La table élégante du centre de Batna : salle calme, service rapide et carte de brasserie. Les clients recommandent la salade César, les bricks à la sauce cocktail et surtout l'entrecôte frites. C'est l'une des adresses les plus fréquentées de la ville pour un dîner soigné.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez pour le dîner du jeudi et du week-end",
+   "photo": {
+    "auteur": "Davidwbaker",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteak_Frites_with_Bordelaise%2C_July_2020.jpg",
+    "src": "img/restos/BLJ/perla-nera.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chandelle",
+   "nom": "La Chandelle",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Grande cuisine algérienne de fête",
+   "quartier": "Bouzourane",
+   "adresse": "Bouzourane, près de la route de Constantine",
+   "lat": 35.5635,
+   "lng": 6.18176,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Un restaurant au décor raffiné, où les familles de Batna célèbrent fiançailles et grandes occasions. Les clients parlent d'un lieu qui « allie luxe et simplicité » : belle salle, confort et cuisine algérienne de fête. Le choix idéal pour un dernier dîner mémorable.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez quelques jours avant : la salle est parfois privatisée pour des cérémonies",
+   "photo": {
+    "auteur": "Lucyin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMechwi_noices.JPG",
+    "src": "img/restos/BLJ/chandelle.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gourmet",
+   "nom": "Le Gourmet",
+   "emoji": "🍝",
+   "gamme": "haut",
+   "genre": "Cuisine algérienne variée et plats végétariens",
+   "quartier": "Centre-ville",
+   "adresse": "Rue Anmar-Ali",
+   "lat": 35.55646,
+   "lng": 6.17614,
+   "prix": "12 à 22 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Une table du centre où l'on prépare une large palette de plats algériens, avec aussi des plats végétariens, une rareté à Batna. Accueil chaleureux, salle très propre et des prix qui restent raisonnables pour la qualité.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation conseillée le soir",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARechtaalgeroise.jpg",
+    "src": "img/restos/BLJ/gourmet.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cuistot",
+   "nom": "Le Cuistot",
+   "emoji": "🥘",
+   "gamme": "haut",
+   "genre": "Couscous royal et tajines",
+   "quartier": "Ouest du centre",
+   "adresse": "Rue des Frères-Abdellah",
+   "lat": 35.5442,
+   "lng": 6.15931,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Pour ses habitués, c'est « une pépite à Batna » : une salle chaleureuse et raffinée, un personnel aux petits soins et une cuisine généreuse. On y vient en famille pour le couscous royal et le tajine d'agneau, deux plats qui reviennent dans presque tous les avis.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez le week-end, les grandes tablées de famille remplissent la salle",
+   "photo": {
+    "auteur": "Yasmine ziat",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACouscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg",
+    "src": "img/restos/BLJ/cuistot.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "messaoudi",
+   "nom": "Le restaurant de l'hôtel Messaoudi",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Table d'hôtel : cuisine algérienne et internationale",
+   "quartier": "Route de Hamla",
+   "adresse": "Hôtel Messaoudi, Hamla 1",
+   "lat": 35.53464,
+   "lng": 6.14763,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Le restaurant de l'hôtel Messaoudi, l'un des quatre étoiles de Batna, avec spa et sauna : une salle confortable et calme, et une carte de cuisine algérienne et de plats internationaux, comme dans les grands hôtels du pays. Pratique si vous logez du côté de Hamla, avant une journée dans les cèdres du Belezma.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation conseillée le soir, surtout le week-end",
+   "photo": {
+    "auteur": "Plwnt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%D8%B4%D8%AE%D8%B4%D9%88%D8%AE%D8%A9_%D8%A8%D8%B3%D9%83%D8%B1%D9%8A%D8%A9.jpg",
+    "src": "img/restos/BLJ/messaoudi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "petite-maison",
+   "nom": "La Petite Maison",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Petite table soignée du centre",
+   "quartier": "Centre-ville",
+   "adresse": "Rue de la Verdure",
+   "lat": 35.55327,
+   "lng": 6.17238,
+   "prix": "12 à 22 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Une petite salle intime, à deux pas du théâtre, que les clients classent parmi les tables soignées de Batna. Une adresse calme pour un déjeuner ou un dîner tôt : la maison ferme vers 20 h 30, à l'heure où les Batnéens commencent à peine leur soirée.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation conseillée ; ferme tôt le soir (vers 20 h 30)",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATajine-zitoune-dzairi.jpg",
+    "src": "img/restos/BLJ/petite-maison.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
