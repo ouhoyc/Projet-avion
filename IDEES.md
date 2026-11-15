@@ -336,6 +336,18 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (15/11/2026) **Page guide de Marseille** (`guides/MRS.json`), préparée en autonomie : 28 activités (Notre-Dame-de-la-Garde, Vieux-Port et ombrière,
+  Mucem 11 € (gratuit < 18 ans, fermé le mardi), Panier, Vieille Charité (collections gratuites), La Major, château d'If 7 € + bateau 17,70 € (26 € If + Frioul,
+  grille RTM du 01/11/2026), Frioul, croisière dans les calanques ≈ 26-38 € (prix officiel illisible, estimation), Sugiton (réservation gratuite l'été, J-3),
+  Sormiou-Morgiou, Cassis et En-Vau, vallon des Auffes, Corniche et Malmousque, Les Goudes, palais Longchamp (musée des Beaux-Arts fermé jusqu'à nouvel ordre),
+  Cosquer 19 €, Saint-Victor, Cours Julien, match de l'OM (`club`, `prix_match` 35 €), visite du Vélodrome dès 16 €, Cité radieuse, plages des Catalans et du
+  Prado, petit train 11 €, kayak ≈ 45 €, L'Estaque, Citadelle (fort Saint-Nicolas, visites guidées 12 €), Friche la Belle de Mai). 2 liens Tiqets (Mucem,
+  entrée du château d'If : même prix qu'en direct ; Cosquer et Vélodrome plus chers chez Tiqets, pas de lien). 18 restaurants (note pondérée, C = 4,34,
+  ~780 restaurants via 79 listes Wanderlog ; **Michelin 2026** : Le Petit Nice et AM 3 étoiles, Une Table au Sud et Belle de Mars 1 étoile, sélection
+  Michel, Peron, Sépia, La Mercerie, Les Bords de Mer). Écartés : Chez Fonfon (4,2), Le Miramar (3,8), Chez Jeannot (3,9), Le Môle Passédat (fermé
+  définitivement), L'Épuisette (fermée). 5 quartiers. Pas de formalités. **Apify non lancé** (15/11 : jeton toujours refusé, 401, 0 $) : badges tendance
+  d'après le web et les sources Wanderlog. Prix estimés : croisières, kayak, la plupart des restaurants sans carte en ligne. 18 photos de restaurants
+  d'illustration.
 - ✅ (14/11/2026) **Page guide de Funchal (Madère)** (`guides/FNC.json`), préparée en autonomie : 27 activités (téléphérique du Monte 22 € A/R,
   descente en panier d'osier 30 € seul / 40 € à deux, jardin Monte Palace 18 €, jardin botanique 10 € (12,50 € en 2027), vieille ville et portes
   peintes, cathédrale, cave Blandy's 23 €, musée CR7 5 €, Cabo Girão 5 €, Câmara de Lobos, lever du soleil au Pico do Arieiro, PR1 Arieiro → Ruivo
@@ -601,7 +613,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

@@ -209,3 +209,7 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   des sentiers (PR), du jardin botanique et de Cabo Girão : portaria n.º 48/2026 en PDF sur ifcn.madeira.gov.pt (`pdftotext -layout`). Prix lisibles
   avec Playwright : madeiracablecar.com, carreirosdomonte.com, blandyswinelodge.com/en/tours (tarifs enfants dans `textContent`), portosantoline.pt,
   venturadomar.com. Commons : API `generator=search` + vignettes par `commons.wikimedia.org/w/thumb.php` (thumb.wikimedia.org répondait « 429 »).
+- Marseille (nov. 2026) : Wanderlog géo 9675 (départ `geoCategory/74266`), listes finissant par « marseille » : 79 listes, ~1 200 lieux. Michelin :
+  `guide.michelin.com/fr/fr/provence-alpes-cote-dazur/marseille/restaurants` (Playwright, étoiles = icônes `michelin-star` dans la carte). Prix lisibles par
+  `curl` : mucem.org/infos-pratiques, chateau-if.fr, grotte-cosquer.com/infos-pratiques, musees.marseille.fr (fermetures en tête de chaque musée), flyer PDF des
+  tarifs RTM sur lebateau-frioul-if.fr ; croisieres-marseille-calanques.com bloque (Cloudflare). Commons : API `generator=search` + `thumb.php`, « 0 résultat » par vagues (relancer).

@@ -1,0 +1,1692 @@
+{
+ "city_code": "MRS",
+ "statut": "préparé en autonomie, prix relevés le 15/11/2026",
+ "verifie_le": "2026-11-15",
+ "prix_match": 35,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "notre-dame-garde",
+   "nom": "Notre-Dame-de-la-Garde",
+   "emoji": "⛪",
+   "type": "vue",
+   "quartier": "Notre-Dame-de-la-Garde",
+   "lat": 43.283953,
+   "lng": 5.371238,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, quand la lumière dore la ville et les îles ; on y monte à pied (raide) ou par le bus 60",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La « Bonne Mère » veille sur Marseille depuis son rocher, à 150 m au-dessus de la mer. Là-haut, la vue fait le tour complet : Vieux-Port, toits ocre, îles du Frioul, château d'If et collines. À l'intérieur, les ex-voto de marins et les maquettes de bateaux suspendues racontent la ville mieux qu'un musée.",
+   "site_officiel": "https://www.notredamedelagarde.com/",
+   "note": "Tenue correcte demandée dans la basilique. Le petit train y monte aussi depuis le Vieux-Port.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Epgui",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marseille_-_Basilique_Notre-Dame_de_la_Garde.jpg",
+    "src": "img/activites/MRS/notre-dame-garde.jpg"
+   }
+  },
+  {
+   "id": "vieux-port",
+   "nom": "Vieux-Port et ombrière",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Vieux-Port",
+   "lat": 43.295217,
+   "lng": 5.374373,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin pour le marché aux poissons du quai des Belges, le soir pour l'apéritif en terrasse",
+   "enfants": true,
+   "texte": "Le cœur battant de Marseille depuis 2 600 ans : des centaines de voiliers, les pêcheurs qui vendent leur prise du matin à même le quai, et l'ombrière de Norman Foster, un immense miroir où l'on se photographie la tête en bas. Le petit ferry-boat traverse le port d'un quai à l'autre en deux minutes.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Velvet",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marseille_vieux_port_pano.jpg",
+    "src": "img/activites/MRS/vieux-port.jpg"
+   }
+  },
+  {
+   "id": "mucem",
+   "nom": "Mucem et fort Saint-Jean",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "J4 / Fort Saint-Jean",
+   "lat": 43.2967,
+   "lng": 5.361,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Expositions (billet unique, permanentes et temporaires)",
+     "11 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Fort Saint-Jean, passerelles et jardins",
+     "gratuit"
+    ],
+    [
+     "Premier dimanche du mois",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Tous les jours sauf le mardi, de 10 h à 18 h ; la passerelle au coucher du soleil",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un cube de béton ajouré comme une dentelle, relié par une passerelle suspendue au fort Saint-Jean, gardien du port depuis le XVIIe siècle. On vient pour les expositions sur les civilisations de la Méditerranée, on reste pour les jardins du fort, les remparts et la vue sur la mer et la cathédrale.",
+   "site_officiel": "https://www.mucem.org/",
+   "note": "Fermé le mardi. Les extérieurs (fort, passerelles, toit-terrasse) sont gratuits et ouverts à tous.",
+   "a_verifier": false,
+   "partenaire": "tiqets",
+   "photo": {
+    "auteur": "Olena Ilnytska",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mucem_et_Cath%C3%A9drale_Sainte-Marie-Majeure_de_Marseille.jpg",
+    "src": "img/activites/MRS/mucem.jpg"
+   }
+  },
+  {
+   "id": "panier",
+   "nom": "Le Panier",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Le Panier",
+   "lat": 43.299913,
+   "lng": 5.368091,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le matin, avant la foule, puis un verre place de Lenche",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus vieux quartier de France, sur la colline où les Grecs ont fondé Massalia. Ruelles en escalier, linge aux fenêtres, façades pastel, fresques de street art et petites savonneries : on s'y perd volontiers, et chaque coin de rue est une photo.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Benh LIEU SONG",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marseille_Panier_Drying_Laundry.jpg",
+    "src": "img/activites/MRS/panier.jpg"
+   }
+  },
+  {
+   "id": "vieille-charite",
+   "nom": "Centre de la Vieille Charité",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Le Panier",
+   "lat": 43.29958,
+   "lng": 5.36763,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Cour et chapelle",
+     "accès libre"
+    ],
+    [
+     "Collections permanentes des musées",
+     "gratuit"
+    ],
+    [
+     "Expositions temporaires",
+     "6 à 12 € selon l'exposition"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Du mardi au dimanche, de 9 h à 18 h",
+   "enfants": true,
+   "texte": "Un ancien hospice du XVIIe siècle aux trois étages d'arcades en pierre rose, autour d'une chapelle baroque coiffée d'un dôme ovale. La cour est l'un des lieux les plus beaux et les plus calmes de Marseille ; les musées d'archéologie méditerranéenne et des arts d'Afrique, d'Océanie et des Amériques sont gratuits.",
+   "site_officiel": "https://musees.marseille.fr/",
+   "note": "Fermé le lundi. La salle Égypte du musée d'archéologie est fermée en ce moment.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ddeveze",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vieille_Charit%C3%A9_Marseille_8.jpg",
+    "src": "img/activites/MRS/vieille-charite.jpg"
+   }
+  },
+  {
+   "id": "major",
+   "nom": "Cathédrale La Major",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "La Joliette",
+   "lat": 43.299298,
+   "lng": 5.364702,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En journée (fermée le lundi) ; la façade est superbe au soleil couchant depuis l'esplanade",
+   "enfants": true,
+   "texte": "La plus grande cathédrale bâtie en France depuis le Moyen Âge, rayée de pierre blanche et verte, posée face à la mer. À l'intérieur, mosaïques et marbres colorés dans un style romano-byzantin unique ; dehors, ses terrasses dominent le port de la Joliette.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_cath%C3%A9drale_de_la_Major_(Marseille)_(14013216928).jpg",
+    "src": "img/activites/MRS/major.jpg"
+   }
+  },
+  {
+   "id": "chateau-if",
+   "nom": "Château d'If",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Île d'If",
+   "lat": 43.279859,
+   "lng": 5.325165,
+   "prix": 24.7,
+   "prix_detail": [
+    [
+     "Bateau aller-retour depuis le Vieux-Port",
+     "17,70 €"
+    ],
+    [
+     "Entrée du château",
+     "7 €"
+    ],
+    [
+     "Entrée, moins de 26 ans (résidents de l'Union européenne)",
+     "gratuit"
+    ],
+    [
+     "Bateau, moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24.7,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      17,
+      17.7
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été (billet de bateau en ligne)",
+   "duree": "3 h (traversée comprise)",
+   "moment": "Le matin, par mer calme : la traversée dure 20 minutes et les bateaux ne partent pas par fort mistral",
+   "enfants": true,
+   "texte": "La prison d'Edmond Dantès, le comte de Monte-Cristo, sur un îlot de roche blanche au milieu de la rade. On visite les cachots gravés de graffitis de prisonniers, puis on monte sur les terrasses : Marseille entière s'étale en face, de la Bonne Mère aux calanques.",
+   "site_officiel": "https://www.chateau-if.fr/",
+   "note": "Billet de bateau à acheter à part (« lebateau » RTM, quai de la Fraternité) : 26 € pour enchaîner If et le Frioul.",
+   "a_verifier": false,
+   "partenaire": "tiqets",
+   "photo": {
+    "auteur": "Rémih",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_d%27If_@_Baie_de_Marseille_01.jpg",
+    "src": "img/activites/MRS/chateau-if.jpg"
+   }
+  },
+  {
+   "id": "frioul",
+   "nom": "Îles du Frioul",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Archipel du Frioul",
+   "lat": 43.28014,
+   "lng": 5.30705,
+   "prix": 17.7,
+   "prix_detail": [
+    [
+     "Bateau aller-retour depuis le Vieux-Port",
+     "17,70 €"
+    ],
+    [
+     "Avec escale au château d'If (2 îles)",
+     "26 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.7,
+    "enfants": [
+     [
+      3,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une demi-journée",
+   "moment": "De mai à octobre pour se baigner ; partez tôt et prenez de l'eau, il y a peu d'ombre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "À 30 minutes de bateau du Vieux-Port, un archipel de calcaire blanc et de criques à l'eau turquoise, sans voitures. On marche sur les sentiers jusqu'aux anses de Ratonneau et de Pomègues, on pique-nique face à la mer et on se baigne loin de la foule des plages de la ville.",
+   "site_officiel": "https://www.lebateau-frioul-if.fr/",
+   "note": "Pas de plage aménagée ni de point d'eau sur les sentiers : quelques restaurants seulement au port du Frioul.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frioul_archipelago_1.jpg",
+    "src": "img/activites/MRS/frioul.jpg"
+   }
+  },
+  {
+   "id": "croisiere",
+   "nom": "Croisière dans les calanques",
+   "emoji": "🛥️",
+   "type": "nature",
+   "quartier": "Vieux-Port → Parc national des Calanques",
+   "lat": 43.2949,
+   "lng": 5.374,
+   "prix": 32,
+   "prix_detail": [
+    [
+     "Circuit commenté de 2 h à 3 h 30, adulte",
+     "≈ 26 à 38 €"
+    ],
+    [
+     "Enfant de 4 à 12 ans",
+     "≈ 21 à 30 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 32,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      24
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même ; quelques jours avant en juillet-août",
+   "duree": "2 h à 3 h 30",
+   "moment": "D'avril à octobre, par mer calme (départs plus rares en hiver)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le moyen le plus simple de voir les calanques : depuis le Vieux-Port, le bateau longe les falaises blanches jusqu'à Sormiou, Morgiou, Sugiton et En-Vau, parfois jusqu'à Cassis. Des criques turquoise inaccessibles en voiture, des aiguilles de calcaire et les fonds qui virent au vert émeraude.",
+   "site_officiel": "https://www.croisieres-marseille-calanques.com/",
+   "note": "Prix selon le circuit (court jusqu'à Sormiou, long jusqu'à Cassis) et la compagnie : plusieurs départs du quai des Belges.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Georges Seguin (Okki)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calanques_de_Marseille_20120922_50.jpg",
+    "src": "img/activites/MRS/croisiere.jpg"
+   }
+  },
+  {
+   "id": "sugiton",
+   "nom": "Calanque de Sugiton",
+   "emoji": "🥾",
+   "type": "nature",
+   "quartier": "Luminy (Parc national des Calanques)",
+   "lat": 43.21048,
+   "lng": 5.455583,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Réservation l'été",
+     "gratuite, obligatoire"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "en été seulement (du 27 juin au 30 août et certains week-ends de juin et septembre) : réservation gratuite sur le site du Parc, 3 jours avant à partir de 9 h",
+   "duree": "Une demi-journée (1 h de marche depuis Luminy)",
+   "moment": "Tôt le matin ; chaussures fermées, eau et chapeau",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La calanque la plus proche de la ville et l'une des plus belles : depuis le campus de Luminy (bus B1), un sentier dans la pinède mène au belvédère, puis descend vers une eau translucide entre deux falaises. Le belvédère seul vaut déjà la marche.",
+   "site_officiel": "https://www.calanques-parcnational.fr/",
+   "note": "Les massifs peuvent être fermés en été par risque d'incendie : consultez la carte du jour (application « Mes Calanques ») avant de partir. Descente finale raide.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nicolas Eynaud",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calanca_de_Sugiton.JPG",
+    "src": "img/activites/MRS/sugiton.jpg"
+   }
+  },
+  {
+   "id": "sormiou",
+   "nom": "Calanques de Sormiou et Morgiou",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Parc national des Calanques",
+   "lat": 43.209557,
+   "lng": 5.421875,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée ou la journée",
+   "moment": "En semaine et hors juillet-août ; l'été, la route est fermée aux voitures et l'on descend à pied",
+   "enfants": true,
+   "texte": "Deux calanques habitées, avec leurs cabanons de pêcheurs, leur petite plage et l'eau la plus claire de Marseille. Sormiou est la plus grande, Morgiou la plus sauvage avec son minuscule port. On y descend par la route ou les sentiers, et on y reste jusqu'au soir.",
+   "site_officiel": "https://www.calanques-parcnational.fr/",
+   "note": "Route d'accès réservée aux résidents et aux clients des restaurants en saison : prévoyez 45 min à pied depuis le parking.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Light2401",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Calanque_de_Sormiou_ensoleill%C3%A9e.jpg",
+    "src": "img/activites/MRS/sormiou.jpg"
+   }
+  },
+  {
+   "id": "cassis",
+   "nom": "Cassis et la calanque d'En-Vau",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Cassis (30 min de Marseille)",
+   "lat": 43.215134,
+   "lng": 5.53712,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Village et port",
+     "accès libre"
+    ],
+    [
+     "Train Marseille – Cassis",
+     "quelques euros (en plus)"
+    ],
+    [
+     "Bateau des calanques depuis Cassis",
+     "≈ 20 à 30 € (en plus)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "La journée",
+   "moment": "Au printemps et en automne ; En-Vau se mérite (1 h 30 de marche aller)",
+   "enfants": true,
+   "texte": "Un petit port de pêche aux façades colorées, au pied du cap Canaille, la plus haute falaise maritime de France. Depuis Cassis partent le sentier vers Port-Miou, Port-Pin et En-Vau, la calanque mythique aux eaux bleu lagon, et les bateaux qui en font le tour.",
+   "site_officiel": "https://www.ot-cassis.com/",
+   "note": "Comme pour toutes les calanques, l'accès aux massifs peut être fermé en été en cas de risque d'incendie.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wisi eu",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_de_Cassis,_Bouches-du-Rh%C3%B4ne,_France_10-2021.jpg",
+    "src": "img/activites/MRS/cassis.jpg"
+   }
+  },
+  {
+   "id": "vallon-auffes",
+   "nom": "Vallon des Auffes",
+   "emoji": "📸",
+   "type": "vue",
+   "quartier": "Endoume",
+   "lat": 43.285447,
+   "lng": 5.350247,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin de journée, depuis le pont de la Corniche",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un minuscule port de pêcheurs caché sous un pont de la Corniche : barques colorées (les « pointus »), cabanons serrés les uns contre les autres et restaurants les pieds dans l'eau. Un décor de carte postale à dix minutes du centre, devenu l'un des lieux les plus photographiés de la ville.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vallon_des_Auffes_011.jpg",
+    "src": "img/activites/MRS/vallon-auffes.jpg"
+   }
+  },
+  {
+   "id": "malmousque",
+   "nom": "Corniche Kennedy et Malmousque",
+   "emoji": "🌊",
+   "type": "balade",
+   "quartier": "Endoume",
+   "lat": 43.283073,
+   "lng": 5.348062,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, quand le soleil plonge derrière les îles",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La route la plus spectaculaire de Marseille longe la mer sur 3 km, avec le plus long banc du monde. Juste au-dessus, le quartier de Malmousque cache des criques rocheuses où les Marseillais plongent l'été, et une vue imprenable sur le château d'If et le Frioul.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Michiel1972",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marseille_Corniche_Pr%C3%A9sident_John_Kennedy.jpg",
+    "src": "img/activites/MRS/malmousque.jpg"
+   }
+  },
+  {
+   "id": "goudes",
+   "nom": "Les Goudes",
+   "emoji": "🏞️",
+   "type": "balade",
+   "quartier": "Les Goudes",
+   "lat": 43.215287,
+   "lng": 5.34657,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi, en restant pour le coucher du soleil ; bus 19 puis 20, ou navette maritime depuis la Pointe-Rouge en été",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au bout de la route, là où la ville s'arrête : un village de pêcheurs adossé à des collines de roche blanche, comme une île sans la mer à traverser. Petit port, cabanons, criques pour se baigner et départ des sentiers vers les calanques. Les Marseillais l'appellent le « bout du monde ».",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Les_Goudes.jpg",
+    "src": "img/activites/MRS/goudes.jpg"
+   }
+  },
+  {
+   "id": "longchamp",
+   "nom": "Palais Longchamp",
+   "emoji": "⛲",
+   "type": "balade",
+   "quartier": "Longchamp",
+   "lat": 43.304267,
+   "lng": 5.394603,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée ; les fontaines sont plus belles au soleil du matin",
+   "enfants": true,
+   "texte": "Un palais-château d'eau du XIXe siècle, avec sa colonnade en arc de cercle, ses cascades et ses taureaux sculptés, construit pour fêter l'arrivée de l'eau de la Durance à Marseille. Derrière, un grand parc ombragé pour souffler loin de l'agitation.",
+   "site_officiel": "https://musees.marseille.fr/",
+   "note": "Le musée des Beaux-Arts (aile gauche) est fermé jusqu'à nouvel ordre ; le muséum d'histoire naturelle reste ouvert.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palais_Longchamp_1.jpg",
+    "src": "img/activites/MRS/longchamp.jpg"
+   }
+  },
+  {
+   "id": "cosquer",
+   "nom": "Cosquer Méditerranée",
+   "emoji": "🦭",
+   "type": "culture",
+   "quartier": "J4",
+   "lat": 43.297121,
+   "lng": 5.362067,
+   "prix": 19,
+   "prix_detail": [
+    [
+     "Adulte",
+     "19 €"
+    ],
+    [
+     "De 10 à 17 ans",
+     "11 €"
+    ],
+    [
+     "De 6 à 9 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      9,
+      6
+     ],
+     [
+      17,
+      11
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pendant les vacances (créneaux horaires)",
+   "duree": "1 h 30",
+   "moment": "Tous les jours ; créneau horaire à choisir",
+   "enfants": true,
+   "texte": "La réplique d'une grotte ornée de 33 000 ans, découverte par un plongeur sous les calanques et aujourd'hui engloutie. On la parcourt à bord de petits modules, dans le noir, devant des chevaux, des bisons, des pingouins et des mains peintes par les hommes préhistoriques.",
+   "site_officiel": "https://www.grotte-cosquer.com/",
+   "note": "Module d'exploration accessible à partir de 1,25 m.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rémih",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skyline_Marseille_Fort_Saint-Jean.jpg",
+    "src": "img/activites/MRS/cosquer.jpg"
+   }
+  },
+  {
+   "id": "saint-victor",
+   "nom": "Abbaye Saint-Victor",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Saint-Victor",
+   "lat": 43.29035,
+   "lng": 5.365566,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Église",
+     "gratuit"
+    ],
+    [
+     "Cryptes",
+     "petite participation"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée ; montez ensuite au jardin du Pharo pour la vue",
+   "enfants": true,
+   "texte": "Une abbaye-forteresse aux allures de château fort, au-dessus du Vieux-Port, l'un des plus anciens lieux de culte de France. Dans ses cryptes du Ve siècle reposent des sarcophages paléochrétiens. C'est d'ici que part chaque 2 février la procession de la Chandeleur et ses navettes.",
+   "site_officiel": "https://www.saintvictor.net/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zairon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marseille_Abbaye_Saint-Victor_Ext%C3%A9rieure.jpg",
+    "src": "img/activites/MRS/saint-victor.jpg"
+   }
+  },
+  {
+   "id": "cours-julien",
+   "nom": "Cours Julien",
+   "emoji": "🎨",
+   "type": "sortir",
+   "quartier": "Notre-Dame-du-Mont",
+   "lat": 43.294145,
+   "lng": 5.383487,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, puis pour l'apéritif et la soirée",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le quartier bohème de Marseille : chaque mur, chaque escalier, chaque rideau de fer est recouvert de graffitis, et les fresques changent sans cesse. Friperies, disquaires, bars et terrasses autour d'une grande place piétonne ; c'est ici que la ville sort le soir.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mike is Michi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cours_Julien_stairs_with_graffiti_Marseille_2026.JPG",
+    "src": "img/activites/MRS/cours-julien.jpg"
+   }
+  },
+  {
+   "id": "om",
+   "nom": "Match de l'Olympique de Marseille",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade Vélodrome",
+   "lat": 43.269859,
+   "lng": 5.395902,
+   "prix": 35,
+   "prix_detail": [
+    [
+     "Billet de Ligue 1 (tribunes latérales)",
+     "≈ 30 à 60 €"
+    ],
+    [
+     "Virages (rarement en vente libre)",
+     "dès 10 €"
+    ],
+    [
+     "Coupe d'Europe",
+     "≈ 40 à 100 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès l'ouverture de la vente sur le site de l'OM : la plupart des places vont aux abonnés",
+   "duree": "3 h",
+   "moment": "Soir de match : arrivez une heure avant pour les tifos et les chants",
+   "enfants": true,
+   "texte": "Le Vélodrome un soir de match, c'est 65 000 personnes qui chantent d'une seule voix, les virages couverts de drapeaux et une ferveur que l'on ne trouve nulle part ailleurs en France. Même sans aimer le football, l'ambiance vaut le voyage.",
+   "site_officiel": "https://www.om.fr/",
+   "note": "Achetez uniquement sur la billetterie officielle de l'OM : la revente non officielle est interdite et les faux billets circulent.",
+   "a_verifier": false,
+   "club": "Olympique de Marseille",
+   "photo": {
+    "auteur": "Patrick Gaudin from Marseille, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Match-OM-velodrome-soiree-vip_138_(10795444746).jpg",
+    "src": "img/activites/MRS/om.jpg"
+   }
+  },
+  {
+   "id": "velodrome",
+   "nom": "Visite du stade Vélodrome",
+   "emoji": "🏟️",
+   "type": "sport",
+   "quartier": "Stade Vélodrome",
+   "lat": 43.269859,
+   "lng": 5.395902,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "OM Stadium Tour (visite libre), dès",
+     "16 €"
+    ],
+    [
+     "Visite guidée, selon la formule",
+     "plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, sur le site du stade",
+   "duree": "1 h 15",
+   "moment": "En journée, hors jours de match",
+   "enfants": true,
+   "texte": "Les coulisses du stade de l'OM : vestiaires, couloir des joueurs, bord de pelouse, salle de presse et tribunes sous l'immense toit ondulé. Un passage obligé pour les fans, et une belle découverte pour les autres.",
+   "site_officiel": "https://www.orangevelodrome.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bernard Ddd",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stade_V%C3%A9lodrome_closeup.jpg",
+    "src": "img/activites/MRS/velodrome.jpg"
+   }
+  },
+  {
+   "id": "cite-radieuse",
+   "nom": "Cité radieuse Le Corbusier",
+   "emoji": "🏢",
+   "type": "culture",
+   "quartier": "Sainte-Anne",
+   "lat": 43.26139,
+   "lng": 5.39639,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Hall, rue commerçante et toit-terrasse",
+     "accès libre (selon les horaires)"
+    ],
+    [
+     "Visite guidée de 2 h avec un appartement témoin",
+     "≈ 18 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En journée ; le toit-terrasse ouvre surtout l'été, pour les expositions",
+   "enfants": true,
+   "texte": "Le « village vertical » de Le Corbusier, inscrit au patrimoine mondial de l'Unesco : un immeuble sur pilotis avec une rue de boutiques au 3e étage, un hôtel, et un toit-terrasse avec vue sur la mer et les collines, devenu un centre d'art. Une icône de l'architecture du XXe siècle, toujours habitée.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "note": "Des gens y vivent : restez discret dans les couloirs. Visites guidées réservables auprès de l'office de tourisme.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corbusierhaus_(Berlin)_(6306308426).jpg",
+    "src": "img/activites/MRS/cite-radieuse.jpg"
+   }
+  },
+  {
+   "id": "catalans",
+   "nom": "Plages des Catalans et du Prado",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Catalans / Prado",
+   "lat": 43.290657,
+   "lng": 5.355439,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "De juin à septembre ; le matin pour avoir de la place",
+   "enfants": true,
+   "texte": "Se baigner en pleine ville : la petite plage de sable des Catalans, à 15 minutes à pied du Vieux-Port, avec ses parties de beach-volley, puis les grandes plages du Prado, au sud, avec pelouses, pistes cyclables et vue sur l'île Maïre.",
+   "site_officiel": "https://www.marseille.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Patrick Nouhailler",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_plage_des_catalans,_Marseille_-_panoramio_(2).jpg",
+    "src": "img/activites/MRS/catalans.jpg"
+   }
+  },
+  {
+   "id": "petit-train",
+   "nom": "Petit train de Notre-Dame",
+   "emoji": "🚂",
+   "type": "sortir",
+   "quartier": "Vieux-Port",
+   "lat": 43.2949,
+   "lng": 5.3705,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Adulte",
+     "11 €"
+    ],
+    [
+     "Enfant",
+     "6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 15",
+   "moment": "Toute l'année, départ du Vieux-Port (quai de Rive-Neuve)",
+   "enfants": true,
+   "texte": "La montée à la Bonne Mère sans se fatiguer : le petit train longe les forts, le vallon des Auffes et la Corniche, puis grimpe jusqu'à la basilique, avec une pause d'au moins 20 minutes là-haut. Pratique avec des enfants ou par grosse chaleur.",
+   "site_officiel": "https://www.petit-train-marseille.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rachel Varnerot",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Locomotive_du_train_touristique_-_Marseille,_2009.jpg",
+    "src": "img/activites/MRS/petit-train.jpg"
+   }
+  },
+  {
+   "id": "kayak",
+   "nom": "Kayak dans les calanques",
+   "emoji": "🛶",
+   "type": "sport",
+   "quartier": "Pointe-Rouge → Les Goudes",
+   "lat": 43.2449,
+   "lng": 5.37,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Sortie guidée d'une demi-journée",
+     "≈ 45 €"
+    ],
+    [
+     "Location seule (4 h, kayak une place)",
+     "≈ 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, le week-end surtout",
+   "duree": "Une demi-journée",
+   "moment": "De mai à octobre, par mer calme, de préférence le matin",
+   "enfants": false,
+   "texte": "Pagayer au ras des falaises, se glisser dans des criques où aucun bateau ne passe et s'arrêter pour une baignade : depuis la Pointe-Rouge, les sorties guidées longent la côte jusqu'aux Goudes et aux îles. La façon la plus libre de découvrir la côte.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "note": "Choisissez un loueur encadré par un moniteur diplômé : le vent se lève vite.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pmau",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Port-Pin_-_dsfp00808.jpg",
+    "src": "img/activites/MRS/kayak.jpg"
+   }
+  },
+  {
+   "id": "estaque",
+   "nom": "L'Estaque",
+   "emoji": "🖼️",
+   "type": "balade",
+   "quartier": "L'Estaque",
+   "lat": 43.361639,
+   "lng": 5.316997,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "L'après-midi ; on peut y aller en bateau-navette depuis le Vieux-Port (en saison)",
+   "enfants": true,
+   "texte": "Le petit port où Cézanne, Braque et Dufy sont venus peindre la lumière de la rade. On suit le sentier des peintres, on flâne sur le port, et l'on goûte les chichis frégis et les panisses, les beignets marseillais vendus face à la plage.",
+   "site_officiel": "https://www.marseille-tourisme.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Irønie",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barquettes-L%27Estaque.jpg",
+    "src": "img/activites/MRS/estaque.jpg"
+   }
+  },
+  {
+   "id": "citadelle",
+   "nom": "Citadelle de Marseille (fort Saint-Nicolas)",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Pharo",
+   "lat": 43.292099,
+   "lng": 5.362754,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Visite guidée",
+     "12 €"
+    ],
+    [
+     "De 8 à 18 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      7,
+      0
+     ],
+     [
+      18,
+      6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, sur le site de la Citadelle",
+   "duree": "1 h",
+   "moment": "Lors des visites guidées programmées (pas de visite libre)",
+   "enfants": true,
+   "texte": "La forteresse construite par Louis XIV face au fort Saint-Jean, longtemps fermée au public et rouverte après des années de travaux. Remparts en étoile, chemins de ronde et l'une des plus belles vues sur l'entrée du Vieux-Port.",
+   "site_officiel": "https://www.lacitadelledemarseille.org/",
+   "note": "Accessible seulement en visite guidée, lors d'ateliers ou d'événements.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stevage",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Marseille_Fort_Saint_Nicolas.jpg",
+    "src": "img/activites/MRS/citadelle.jpg"
+   }
+  },
+  {
+   "id": "friche",
+   "nom": "Friche la Belle de Mai",
+   "emoji": "🎭",
+   "type": "sortir",
+   "quartier": "Belle de Mai",
+   "lat": 43.310172,
+   "lng": 5.390569,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Lieu et toit-terrasse",
+     "accès libre"
+    ],
+    [
+     "Expositions",
+     "dès 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée ; le toit-terrasse s'anime surtout aux beaux jours",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une ancienne manufacture de tabac devenue la grande fabrique culturelle de Marseille : expositions, concerts, skatepark, restaurant, et surtout un immense toit-terrasse de 8 000 m² où l'on prend l'apéritif face à la ville.",
+   "site_officiel": "https://www.lafriche.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Superbenjamin",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FricheBelledeMai.JPG",
+    "src": "img/activites/MRS/friche.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "vieux-port",
+   "nom": "Vieux-Port",
+   "lat": 43.2952,
+   "lng": 5.3744,
+   "texte": "Le centre de tout, au bord de l'eau : bateaux pour If et le Frioul, métro, restaurants et Panier à pied. Le meilleur choix pour un premier séjour."
+  },
+  {
+   "id": "panier",
+   "nom": "Le Panier",
+   "lat": 43.2992,
+   "lng": 5.3678,
+   "texte": "Le vieux quartier sur la colline, calme le soir, entre le port, le Mucem et la cathédrale. Des chambres d'hôtes de charme dans les ruelles."
+  },
+  {
+   "id": "cours-julien",
+   "nom": "Cours Julien et Notre-Dame-du-Mont",
+   "lat": 43.293,
+   "lng": 5.3825,
+   "texte": "Le quartier jeune et artiste : street art, bars, restaurants et prix plus doux, à 10 minutes à pied du Vieux-Port."
+  },
+  {
+   "id": "catalans",
+   "nom": "Catalans et Endoume",
+   "lat": 43.2875,
+   "lng": 5.3555,
+   "texte": "Au bord de la mer, entre la plage des Catalans, le vallon des Auffes et la Corniche : la mer au réveil et les couchers de soleil."
+  },
+  {
+   "id": "prado",
+   "nom": "Castellane et Prado",
+   "lat": 43.277,
+   "lng": 5.387,
+   "texte": "Quartier résidentiel bien desservi par le métro, près du Vélodrome et des plages du Prado ; souvent moins cher que le centre."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "chez-sauveur",
+   "nom": "Pizzeria Chez Sauveur",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza au feu de bois depuis 1943",
+   "quartier": "Noailles",
+   "adresse": "10 rue d'Aubagne, 13001 Marseille",
+   "lat": 43.295567,
+   "lng": 5.379025,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La plus ancienne pizzeria de Marseille, ouverte par Sauveur Di Paolo en 1943 : four à bois, pâte fine et la pizza marseillaise à l'anchois, au fromage ou « moitié-moitié ». Une salle simple, toujours pleine d'habitués, au cœur du marché de Noailles.",
+   "reservation": "sur_place",
+   "reservation_delai": "réservation possible par téléphone ; sinon un peu d'attente le soir",
+   "photo": {
+    "auteur": "Tony Webster from Portland, Oregon, United States",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Punch_Neapolitan_Pizza_(2257039638).jpg",
+    "src": "img/restos/MRS/chez-sauveur.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gros-bao",
+   "nom": "Gros Bao",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Baos et cuisine de rue asiatique",
+   "quartier": "Noailles",
+   "adresse": "3 cours Saint-Louis, 13001 Marseille",
+   "lat": 43.29617,
+   "lng": 5.378242,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des baos moelleux cuits à la vapeur, garnis de poulet frit, de porc braisé ou de légumes, des raviolis et des nouilles sautées, dans une salle animée à deux pas de la Canebière. L'adresse que les jeunes Marseillais partagent en photo.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver ; file d'attente possible le week-end",
+   "photo": {
+    "auteur": "Francesc Fort",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bao_con_cochinita_pibil.jpg",
+    "src": "img/restos/MRS/gros-bao.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fiancee",
+   "nom": "Café La Fiancée",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Brunch et café de spécialité",
+   "quartier": "Vieux-Port",
+   "adresse": "8 rue Haxo, 13001 Marseille",
+   "lat": 43.294357,
+   "lng": 5.376854,
+   "prix": "15 à 28 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le brunch qui a lancé la mode à Marseille : pancakes, œufs Bénédicte, tartines d'avocat et cafés soignés, dans une salle lumineuse en bois clair à deux minutes du Vieux-Port. Parfait pour commencer une journée de visite.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le week-end ; en semaine, on trouve souvent une table",
+   "photo": {
+    "auteur": "Mark Miller",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Traditional_Eggs_Benedict.jpg",
+    "src": "img/restos/MRS/fiancee.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bagnat",
+   "nom": "Bagnat",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Pan bagnat, à emporter",
+   "quartier": "Saint-Victor",
+   "adresse": "124 boulevard de la Corderie, 13007 Marseille",
+   "lat": 43.290011,
+   "lng": 5.3666,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Le pan bagnat, sandwich niçois au thon, aux légumes croquants et à l'huile d'olive, refait avec de très bons produits par un jeune couple passionné. À emporter pour un pique-nique au jardin du Pharo ou sur les rochers de la Corniche.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : surtout le midi, venez avant 13 h",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pan-bagnat002.jpg",
+    "src": "img/restos/MRS/bagnat.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chez-magali",
+   "nom": "Chez Magali",
+   "emoji": "🍩",
+   "gamme": "petit",
+   "genre": "Chichis frégis et panisses",
+   "quartier": "L'Estaque",
+   "adresse": "42 plage de l'Estaque, 13016 Marseille",
+   "lat": 43.36058,
+   "lng": 5.314298,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La cabane face à la plage de l'Estaque où l'on vient depuis des générations pour les chichis frégis, longs beignets parfumés à la fleur d'oranger et roulés dans le sucre, et les panisses, frites de pois chiche. Le goûter le plus marseillais qui soit.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : vente à emporter, un peu d'attente le week-end",
+   "photo": {
+    "auteur": "Thesupermat",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuisson_de_beignets.JPG",
+    "src": "img/restos/MRS/chez-magali.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "moune",
+   "nom": "Mouné",
+   "emoji": "🧆",
+   "gamme": "petit",
+   "genre": "Cuisine libanaise maison",
+   "quartier": "Saint-Victor",
+   "adresse": "30 rue Fortia, 13001 Marseille",
+   "lat": 43.291702,
+   "lng": 5.374056,
+   "prix": "15 à 28 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Une petite table libanaise tenue en famille, où tout est fait maison avec des produits bio : falafels, houmous, soujouk grillé, mezze du jour et baklavas. Un accueil d'une gentillesse rare, à deux rues du Vieux-Port.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même ; peu de places",
+   "photo": {
+    "auteur": "Tatakdh",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nourriture_terreste_dans_un_restaurant_libanais,_quartie_des_Grottes_%C3%A0_Gen%C3%AAve_(cropped).jpg",
+    "src": "img/restos/MRS/moune.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chez-etienne",
+   "nom": "Chez Étienne",
+   "emoji": "🦑",
+   "gamme": "moyen",
+   "genre": "Pizzeria et supions du Panier",
+   "quartier": "Le Panier",
+   "adresse": "43 rue de Lorette, 13002 Marseille",
+   "lat": 43.300042,
+   "lng": 5.369966,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Une institution du Panier depuis 1943 : pas de carte, on commande la pizza moitié anchois moitié fromage, les supions (petits calamars) poêlés à l'ail et au persil, puis une pièce de bœuf. Ambiance de cantine familiale, où le patron vous conseille d'office.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille par téléphone ; fermé le dimanche",
+   "photo": {
+    "auteur": "phgaillard2001",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rue_Panier_Marseille.jpg",
+    "src": "img/restos/MRS/chez-etienne.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "boite-sardine",
+   "nom": "La Boîte à Sardine",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poissonnerie-restaurant",
+   "quartier": "Canebière / Libération",
+   "adresse": "2 boulevard de la Libération, 13001 Marseille",
+   "lat": 43.299206,
+   "lng": 5.386044,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Mi-poissonnerie, mi-restaurant, dans un décor de bric-à-brac marin : on choisit son poisson sur la glace, et il part au grill avec des légumes du marché. Sardines, gambas, supions et une bouillabaisse bien moins chère que sur le port.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant ; surtout le midi, horaires réduits le soir",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sardinade.jpg",
+    "src": "img/restos/MRS/boite-sardine.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sepia",
+   "nom": "Sépia",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Bistrot à partager avec vue",
+   "quartier": "Vallon de l'Oriol (jardin Puget)",
+   "adresse": "2 rue Vauvenargues, 13007 Marseille",
+   "lat": 43.289419,
+   "lng": 5.368589,
+   "prix": "35 à 60 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance",
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Caché dans le plus vieux jardin public de Marseille, sur les hauteurs, ce bistrot vitré offre une vue plongeante sur le Vieux-Port et la Bonne Mère. On partage de petites assiettes de saison, inventives et généreuses, au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant pour le week-end, surtout en terrasse",
+   "photo": {
+    "auteur": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vue_de_Marseille_(14225800311).jpg",
+    "src": "img/restos/MRS/sepia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mercerie",
+   "nom": "La Mercerie",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Néo-bistrot et vins nature",
+   "quartier": "Noailles",
+   "adresse": "9 cours Saint-Louis, 13001 Marseille",
+   "lat": 43.295806,
+   "lng": 5.378418,
+   "prix": "35 à 70 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Le restaurant qui a fait parler de Marseille dans la presse internationale : un ancien magasin aux murs bruts, un chef anglais, Harry Cummins, et une cuisine du marché fine et pleine d'idées. Menu du midi abordable, menu en cinq temps le soir.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant",
+   "photo": {
+    "auteur": "US Army Africa",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%9Cbergl%C3%A4nzen-01.jpg",
+    "src": "img/restos/MRS/mercerie.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "goudes",
+   "nom": "Le Grand Bar des Goudes",
+   "emoji": "🐙",
+   "gamme": "moyen",
+   "genre": "Terrasse de port de pêche",
+   "quartier": "Les Goudes",
+   "adresse": "28 rue Désiré-Pelaprat, 13008 Marseille",
+   "lat": 43.215198,
+   "lng": 5.345885,
+   "prix": "30 à 55 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le rendez-vous des Goudes depuis toujours, sur le petit port au bout de la ville : salade de poulpe, moules gratinées, bourride et poisson du jour, face aux barques et aux collines blanches. On y vient pour le déjeuner du dimanche et on ne repart qu'au soir.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, quelques jours avant le week-end et l'été",
+   "photo": {
+    "auteur": "Jeanne Menjoulet from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_port_des_Goudes,_face_au_Frioul_(37181428185).jpg",
+    "src": "img/restos/MRS/goudes.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "belle-de-mars",
+   "nom": "Belle de Mars",
+   "emoji": "⭐",
+   "gamme": "moyen",
+   "genre": "Cuisine de saison, étoilée",
+   "quartier": "Le Rouet",
+   "adresse": "180 rue du Rouet, 13008 Marseille",
+   "lat": 43.276503,
+   "lng": 5.394262,
+   "prix": "36 à 69 € (menus)",
+   "prix_min": 36,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une étoile Michelin à prix doux : dans une petite salle épurée avec cuisine ouverte, le chef sert des menus de saison autour des poissons et des légumes de Provence. Le menu du midi est l'une des meilleures affaires de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant",
+   "photo": {
+    "auteur": "Gzen92",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Restaurant_%C3%A0_Canari_-_Langouste.jpg",
+    "src": "img/restos/MRS/belle-de-mars.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "petit-nice",
+   "nom": "Le Petit Nice Passédat",
+   "emoji": "🌟",
+   "gamme": "haut",
+   "genre": "Grande cuisine de la mer",
+   "quartier": "Anse de Maldormé (Corniche)",
+   "adresse": "17 rue des Braves, 13007 Marseille",
+   "lat": 43.280086,
+   "lng": 5.352122,
+   "prix": "230 à 490 € (menus)",
+   "prix_min": 230,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "La table de Gérald Passédat, trois étoiles depuis 2008, dans une villa de famille posée sur les rochers face aux îles. Une cuisine entièrement dédiée aux poissons de la Méditerranée, dont une bouillabaisse réinventée, servie au bruit des vagues.",
+   "reservation": "indispensable",
+   "reservation_delai": "un à deux mois avant",
+   "photo": {
+    "auteur": "TouN",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Malmousque.JPG",
+    "src": "img/restos/MRS/petit-nice.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "am",
+   "nom": "AM par Alexandre Mazzia",
+   "emoji": "🌟",
+   "gamme": "haut",
+   "genre": "Cuisine créative, épices et fumée",
+   "quartier": "Prado (près du Vélodrome)",
+   "adresse": "9 rue François-Rocca, 13008 Marseille",
+   "lat": 43.270054,
+   "lng": 5.386267,
+   "prix": "115 à 435 € (menus)",
+   "prix_min": 115,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "3 étoiles Michelin",
+   "texte": "Trois étoiles Michelin pour un ancien basketteur né au Congo : une cuisine de bouchées très graphiques, fumées, épicées, qui mêlent la Méditerranée et l'Afrique. Une expérience unique en France, devant le chef qui envoie les plats lui-même.",
+   "reservation": "indispensable",
+   "reservation_delai": "un à deux mois avant (menu « Premier Pas » du midi, du mercredi au vendredi)",
+   "photo": {
+    "auteur": "Hotel de la Paix Genève",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haute_Cuisine.jpg",
+    "src": "img/restos/MRS/am.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "table-sud",
+   "nom": "Une Table, au Sud",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine moderne face au Vieux-Port",
+   "quartier": "Vieux-Port",
+   "adresse": "2 quai du Port, 13002 Marseille",
+   "lat": 43.296389,
+   "lng": 5.37363,
+   "prix": "95 à 185 € (menus)",
+   "prix_min": 95,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Au premier étage, de grandes baies vitrées sur le Vieux-Port et la Bonne Mère : Ludovic Turac, chef marseillais aux racines arméniennes, y cuisine les produits de la région avec finesse. Le plus beau panorama pour une soirée étoilée en plein centre.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant ; demandez une table près des fenêtres",
+   "photo": {
+    "auteur": "Carl Ha",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2%E2%80%9314_Quai_du_Port,_Marseille.jpg",
+    "src": "img/restos/MRS/table-sud.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "michel",
+   "nom": "Chez Michel (Brasserie des Catalans)",
+   "emoji": "🍲",
+   "gamme": "haut",
+   "genre": "Bouillabaisse traditionnelle",
+   "quartier": "Catalans",
+   "adresse": "6 rue des Catalans, 13007 Marseille",
+   "lat": 43.290955,
+   "lng": 5.355986,
+   "prix": "80 à 110 €",
+   "prix_min": 80,
+   "badges": [
+    "institution",
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "La bouillabaisse dans les règles depuis 1946, selon la charte des grands restaurants marseillais : la soupe de roche d'abord, puis les poissons découpés devant vous, avec rouille et croûtons. Un décor de brasserie d'autrefois, face à la plage des Catalans.",
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant, une semaine le week-end",
+   "photo": {
+    "auteur": "Sergey A. Demidov",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20250903_Bouillabaisse_in_Khimki_(90108).jpg",
+    "src": "img/restos/MRS/michel.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "peron",
+   "nom": "Peron",
+   "emoji": "🌅",
+   "gamme": "haut",
+   "genre": "Poissons et vue sur la mer",
+   "quartier": "Corniche Kennedy",
+   "adresse": "56 corniche Kennedy, 13007 Marseille",
+   "lat": 43.287937,
+   "lng": 5.352244,
+   "prix": "65 à 100 € (menus)",
+   "prix_min": 65,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Une maison accrochée à la falaise de la Corniche, avec une terrasse au-dessus des vagues et le château d'If en face. Poissons de la Méditerranée et cuisine moderne : la table rêvée pour un coucher de soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; précisez « en terrasse »",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Corniche_Kennedy_006.jpg",
+    "src": "img/restos/MRS/peron.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bords-mer",
+   "nom": "Les Bords de Mer",
+   "emoji": "🏊",
+   "gamme": "haut",
+   "genre": "Rooftop et cuisine de la mer",
+   "quartier": "Catalans",
+   "adresse": "52 corniche Kennedy, 13007 Marseille",
+   "lat": 43.289583,
+   "lng": 5.355008,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "L'hôtel le plus photographié de Marseille, avec sa piscine sur le toit face aux îles. Au restaurant, une cuisine de la mer soignée et une vue imprenable sur la plage des Catalans et le Frioul ; au rooftop, l'un des plus beaux apéritifs de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant, plus tôt pour le week-end et l'été",
+   "photo": {
+    "auteur": "V&A Dudush",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panoramio_-_V%26A_Dudush_-_la_plage_des_catalans.jpg",
+    "src": "img/restos/MRS/bords-mer.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
