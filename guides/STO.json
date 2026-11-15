@@ -1,0 +1,1809 @@
+{
+ "city_code": "STO",
+ "ville": "Stockholm",
+ "statut": "vérifié en autonomie, prix relevés le 15/11/2026 (1 € ≈ 11,1 SEK)",
+ "verifie_le": "2026-11-15",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "vasa",
+   "nom": "Musée Vasa",
+   "emoji": "⛵",
+   "type": "culture",
+   "quartier": "Djurgården",
+   "lat": 59.328145,
+   "lng": 18.091368,
+   "prix": 17.6,
+   "prix_detail": [
+    [
+     "Adulte, d'octobre à avril",
+     "195 SEK ≈ 17,50 €"
+    ],
+    [
+     "Adulte, de mai à septembre",
+     "240 SEK ≈ 21,50 €"
+    ],
+    [
+     "Jusqu'à 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.6,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30 à 2 h",
+   "moment": "À l'ouverture (10 h) ou après 15 h ; ouvert jusqu'à 19 h le mercredi hors été. Fermé les 24 et 25 décembre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un vaisseau de guerre de 1628, coulé au bout de vingt minutes lors de son premier voyage et sorti de l'eau 333 ans plus tard, presque intact. 69 mètres de chêne sculpté sous vos yeux, sur six niveaux : c'est le musée le plus visité de Scandinavie, et on comprend pourquoi dès la première seconde.",
+   "site_officiel": "https://www.vasamuseet.se/en",
+   "note": "Paiement par carte uniquement. Le billet s'achète sans souci sur place.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Peulle",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Regalskeppet_Vasa_baug_babord_(2).jpg",
+    "src": "img/activites/STO/vasa.jpg"
+   }
+  },
+  {
+   "id": "skansen",
+   "nom": "Skansen",
+   "emoji": "🦌",
+   "type": "culture",
+   "quartier": "Djurgården",
+   "lat": 59.3243,
+   "lng": 18.0998,
+   "prix": 21.6,
+   "prix_detail": [
+    [
+     "Adulte (prix d'hiver, il change selon la saison)",
+     "240 SEK ≈ 21,50 €"
+    ],
+    [
+     "Étudiants, retraités",
+     "200 SEK ≈ 18 €"
+    ],
+    [
+     "Jusqu'à 15 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 21.6,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille : un peu moins cher qu'à l'entrée",
+   "duree": "3 h à une demi-journée",
+   "moment": "En fin de matinée ; marché de Noël les week-ends du 27 novembre au 20 décembre",
+   "enfants": true,
+   "texte": "Toute la Suède sur une colline : 150 fermes, ateliers et maisons de bois venus de tout le pays, avec des artisans en costume, et un zoo des animaux du Nord (élans, ours, lynx, rennes). Le plus vieux musée en plein air du monde, ouvert en 1891, avec une vue superbe sur la ville.",
+   "site_officiel": "https://skansen.se/en/",
+   "note": "L'aquarium de Skansen se paie à part. En hiver, le parc ferme à 15 h en semaine.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skansen,_church.jpg",
+    "src": "img/activites/STO/skansen.jpg"
+   }
+  },
+  {
+   "id": "gamla-stan",
+   "nom": "Gamla Stan (vieille ville)",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Gamla Stan",
+   "lat": 59.324997,
+   "lng": 18.07082,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les ruelles",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Tôt le matin pour Stortorget sans la foule, ou à la tombée de la nuit quand les lanternes s'allument",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'une des vieilles villes médiévales les mieux conservées d'Europe : ruelles pavées, façades ocre et safran, et la place Stortorget avec ses maisons de pain d'épices. Cherchez Mårten Trotzigs gränd, la ruelle la plus étroite de la ville (90 cm), et laissez-vous perdre.",
+   "site_officiel": "https://www.visitstockholm.com/see-do/attractions/gamla-stan/",
+   "note": "Évitez les restaurants de la rue principale Västerlånggatan, chers et sans intérêt : les bonnes adresses sont dans les ruelles autour.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "randreu",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sweden_-_Stockholm,_famous_old_houses_-_panoramio.jpg",
+    "src": "img/activites/STO/gamla-stan.jpg"
+   }
+  },
+  {
+   "id": "palais-royal",
+   "nom": "Palais royal",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "Gamla Stan",
+   "lat": 59.326928,
+   "lng": 18.070165,
+   "prix": 19.8,
+   "prix_detail": [
+    [
+     "Adulte",
+     "220 à 240 SEK ≈ 20 à 21,50 €"
+    ],
+    [
+     "7 à 17 ans",
+     "110 à 120 SEK ≈ 10 à 11 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Relève de la garde, dans la cour",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19.8,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      9.9
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Le matin, puis la relève de la garde vers midi (12 h 15, ou 13 h 15 le dimanche) : tous les jours en été, quelques jours par semaine en hiver",
+   "enfants": true,
+   "texte": "Plus de 600 pièces : l'un des plus grands palais d'Europe encore utilisés par un roi. Le billet ouvre les appartements d'apparat, la salle du Trésor avec les couronnes, et le musée des Trois Couronnes dans les caves médiévales. Dehors, la relève de la garde se regarde gratuitement.",
+   "site_officiel": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-palace.html",
+   "note": "Les appartements ferment parfois, en tout ou en partie, pendant les réceptions du roi (plusieurs jours en novembre et décembre) : les dates sont affichées sur le site du palais.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jorge Láscar",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stockholms_slott_(Stockholm_Palace)_(24831039126).jpg",
+    "src": "img/activites/STO/palais-royal.jpg"
+   }
+  },
+  {
+   "id": "hotel-de-ville",
+   "nom": "Hôtel de ville (Stadshuset)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Kungsholmen",
+   "lat": 59.327494,
+   "lng": 18.054215,
+   "prix": 13.5,
+   "prix_detail": [
+    [
+     "Visite guidée, adulte",
+     "150 SEK ≈ 13,50 €"
+    ],
+    [
+     "Étudiants, 65 ans et plus",
+     "130 SEK ≈ 11,50 €"
+    ],
+    [
+     "7 à 18 ans",
+     "60 SEK ≈ 5,50 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 13.5,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      18,
+      5.4
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets en ligne ou le jour même à la boutique ; l'intérieur ne se visite qu'avec un guide",
+   "duree": "45 min de visite",
+   "moment": "Le matin, pour avoir de la place dans une visite en anglais",
+   "enfants": true,
+   "texte": "C'est ici que l'on dîne chaque 10 décembre après la remise des prix Nobel. La visite guidée traverse la salle Bleue du banquet et la salle Dorée, tapissée de 18 millions de carreaux de mosaïque d'or. Dehors, les jardins au bord de l'eau offrent l'une des plus belles vues sur la vieille ville.",
+   "site_officiel": "https://stadshuset.stockholm/en/",
+   "note": "La tour est fermée pour travaux jusqu'en 2029. L'hôtel de ville ferme aux visiteurs lors des grandes réceptions.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ArildV",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stockholms_stadshus_February_2026_02.jpg",
+    "src": "img/activites/STO/hotel-de-ville.jpg"
+   }
+  },
+  {
+   "id": "abba",
+   "nom": "ABBA The Museum",
+   "emoji": "🎤",
+   "type": "culture",
+   "quartier": "Djurgården",
+   "lat": 59.324925,
+   "lng": 18.096583,
+   "prix": 24.2,
+   "prix_detail": [
+    [
+     "Adulte (selon le jour)",
+     "269 à 349 SEK ≈ 24 à 31,50 €"
+    ],
+    [
+     "7 à 15 ans",
+     "129 à 169 SEK ≈ 11,50 à 15 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Famille (2 adultes + 1 ou 2 enfants)",
+     "639 à 839 SEK ≈ 57,50 à 75,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24.2,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      15,
+      11.6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet daté et à heure fixe, moins cher en ligne quelques jours avant",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En semaine, à l'ouverture (10 h)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On n'y regarde pas ABBA, on devient le cinquième membre : vous chantez en cabine, montez sur scène avec leurs hologrammes et essayez leurs costumes à paillettes. Même sans être fan, impossible de ressortir sans fredonner « Dancing Queen ».",
+   "site_officiel": "https://abbathemuseum.com/en/",
+   "note": "Paiement par carte uniquement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Frankie Fouganthin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ABBA-_The_Museum_(Waterloo).jpg",
+    "src": "img/activites/STO/abba.jpg"
+   }
+  },
+  {
+   "id": "fotografiska",
+   "nom": "Fotografiska",
+   "emoji": "📷",
+   "type": "culture",
+   "quartier": "Södermalm (quai de Stadsgården)",
+   "lat": 59.318004,
+   "lng": 18.084701,
+   "prix": 17.6,
+   "prix_detail": [
+    [
+     "Adulte",
+     "195 SEK ≈ 17,50 €"
+    ],
+    [
+     "13 à 25 ans, étudiants",
+     "135 SEK ≈ 12 €"
+    ],
+    [
+     "Jusqu'à 12 ans",
+     "gratuit"
+    ],
+    [
+     "Mercredi dès 18 h : 2 billets pour le prix d'1",
+     "98 SEK ≈ 9 € par personne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.6,
+    "enfants": [
+     [
+      12,
+      0
+     ],
+     [
+      25,
+      12.2
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En fin de journée : le musée ferme tard (23 h du mercredi au samedi) et le café du dernier étage donne sur l'eau",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'un des grands musées de photographie du monde, dans une ancienne douane en brique rouge posée sur le quai. Quatre expositions à la fois, toujours fortes, puis un verre au dernier étage face aux bateaux et à la vieille ville : la sortie préférée des Stockholmois.",
+   "site_officiel": "https://stockholm.fotografiska.com/en",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Julian Herzog",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fotografiska_museet_Stockholm_2016_01.jpg",
+    "src": "img/activites/STO/fotografiska.jpg"
+   }
+  },
+  {
+   "id": "nobel",
+   "nom": "Musée du prix Nobel",
+   "emoji": "🏅",
+   "type": "culture",
+   "quartier": "Gamla Stan",
+   "lat": 59.325215,
+   "lng": 18.070831,
+   "prix": 14.4,
+   "prix_detail": [
+    [
+     "Adulte",
+     "160 SEK ≈ 14,50 €"
+    ],
+    [
+     "Étudiants, retraités",
+     "120 SEK ≈ 11 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14.4,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le vendredi soir (ouvert jusqu'à 21 h) ; fermé le lundi en hiver",
+   "enfants": true,
+   "texte": "Sur la plus jolie place de la vieille ville, l'histoire des hommes et des femmes qui ont changé le monde : Marie Curie, Einstein, Martin Luther King, Malala. Des objets donnés par les lauréats, des films courts, et au café, des chaises signées dessous par les prix Nobel.",
+   "site_officiel": "https://nobelprizemuseum.se/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stockholm_nobelmuseet.JPG",
+    "src": "img/activites/STO/nobel.jpg"
+   }
+  },
+  {
+   "id": "moderna",
+   "nom": "Moderna Museet",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Skeppsholmen",
+   "lat": 59.326349,
+   "lng": 18.084,
+   "prix": 15.3,
+   "prix_detail": [
+    [
+     "Adulte",
+     "170 SEK ≈ 15,50 €"
+    ],
+    [
+     "Tarif réduit",
+     "140 SEK ≈ 12,50 €"
+    ],
+    [
+     "Jusqu'à 18 ans",
+     "gratuit"
+    ],
+    [
+     "Vendredi de 18 h à 20 h",
+     "gratuit pour tous"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15.3,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Le vendredi soir, quand l'entrée est gratuite ; fermé le lundi",
+   "enfants": true,
+   "texte": "Picasso, Dalí, Matisse, Warhol et la fameuse chèvre de Rauschenberg : l'une des meilleures collections d'art moderne d'Europe, sur une île verte en plein centre. Dehors, les sculptures colorées de Niki de Saint Phalle et la balade au bord de l'eau valent le détour à elles seules.",
+   "site_officiel": "https://www.modernamuseet.se/stockholm/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Murat Özsoy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moderna_museet_Sculpturepark,_Skeppsholmen_Island,_Stockholm,_Sweden_-_Murat_%C3%96zsoy_23.jpg",
+    "src": "img/activites/STO/moderna.jpg"
+   }
+  },
+  {
+   "id": "nationalmuseum",
+   "nom": "Nationalmuseum",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Blasieholmen",
+   "lat": 59.328492,
+   "lng": 18.078148,
+   "prix": 14.4,
+   "prix_detail": [
+    [
+     "Adulte",
+     "160 SEK ≈ 14,50 €"
+    ],
+    [
+     "Dernière heure avant la fermeture",
+     "80 SEK ≈ 7 €"
+    ],
+    [
+     "Moins de 20 ans",
+     "gratuit"
+    ],
+    [
+     "Jeudi de 17 h à 20 h",
+     "gratuit pour tous"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14.4,
+    "enfants": [
+     [
+      19,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Le jeudi soir, quand l'entrée est gratuite ; fermé le lundi",
+   "enfants": true,
+   "texte": "Le grand musée d'art et de design de Suède, dans un palais face au château royal : Rembrandt, Renoir, les peintres du Nord et leurs lumières d'hiver, puis cinq siècles de design suédois. La restauration du bâtiment est une réussite, et le restaurant sous la verrière aussi.",
+   "site_officiel": "https://www.nationalmuseum.se/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jonas Bergsten",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Nationalmuseum_stockholm_20050902_001.jpg",
+    "src": "img/activites/STO/nationalmuseum.jpg"
+   }
+  },
+  {
+   "id": "historiska",
+   "nom": "Musée d'Histoire (Vikings et salle de l'Or)",
+   "emoji": "⚔️",
+   "type": "culture",
+   "quartier": "Östermalm",
+   "lat": 59.334303,
+   "lng": 18.091538,
+   "prix": 16.2,
+   "prix_detail": [
+    [
+     "Adulte",
+     "180 SEK ≈ 16 €"
+    ],
+    [
+     "Jusqu'à 18 ans",
+     "gratuit"
+    ],
+    [
+     "Chaque jour de 16 h à 17 h, et le mercredi de 17 h à 20 h",
+     "moitié prix : 90 SEK ≈ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16.2,
+    "enfants": [
+     [
+      18,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin d'après-midi (moitié prix dès 16 h) ; fermé le lundi en hiver",
+   "enfants": true,
+   "texte": "La plus grande exposition viking du monde : épées, bijoux, pierres runiques et bateaux, racontés sans casque à cornes. Au sous-sol, la salle de l'Or brille de 52 kilos d'or et de 200 kilos d'argent, des trésors enterrés il y a plus de mille ans.",
+   "site_officiel": "https://historiska.se/en/",
+   "note": "Les poussettes ne sont pas admises dans la salle de l'Or.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mararie",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Golden_necklace_from_F%C3%A4rjestaden,_Sweden.jpg",
+    "src": "img/activites/STO/historiska.jpg"
+   }
+  },
+  {
+   "id": "junibacken",
+   "nom": "Junibacken (le monde de Fifi Brindacier)",
+   "emoji": "🧒",
+   "type": "culture",
+   "quartier": "Djurgården",
+   "lat": 59.32947,
+   "lng": 18.089094,
+   "prix": 12.6,
+   "prix_detail": [
+    [
+     "Billet à la journée, en ligne",
+     "dès 140 SEK ≈ 12,50 € (selon le jour)"
+    ],
+    [
+     "Moins de 2 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12.6,
+    "enfants": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet daté à acheter en ligne quelques jours avant : les week-ends affichent complet",
+   "duree": "2 à 3 h",
+   "moment": "Le matin en semaine ; fermé le lundi hors vacances scolaires suédoises",
+   "enfants": true,
+   "texte": "Le paradis des enfants de 2 à 8 ans : on entre dans les livres d'Astrid Lindgren, on joue dans la maison de Fifi Brindacier et on monte dans un petit train qui survole les histoires. Les parents retombent en enfance, les petits ne veulent plus partir.",
+   "site_officiel": "https://www.junibacken.se/en/",
+   "note": "Le train raconte l'histoire en suédois ou en anglais, pas en français.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ArildV",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Junibacken_November_2024_02.jpg",
+    "src": "img/activites/STO/junibacken.jpg"
+   }
+  },
+  {
+   "id": "drottningholm",
+   "nom": "Château de Drottningholm",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Île de Lovön (à 11 km)",
+   "lat": 59.321628,
+   "lng": 17.886892,
+   "prix": 15.3,
+   "prix_detail": [
+    [
+     "Château, adulte",
+     "170 SEK ≈ 15,50 €"
+    ],
+    [
+     "7 à 17 ans",
+     "85 SEK ≈ 7,50 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ],
+    [
+     "Château + pavillon chinois (de mai à septembre)",
+     "250 SEK ≈ 22,50 €"
+    ],
+    [
+     "Bateau depuis l'hôtel de ville (de mai à octobre), aller-retour",
+     "dès 255 SEK ≈ 23 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15.3,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      7.7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une demi-journée",
+   "moment": "De mai à septembre pour les jardins et le bateau ; en hiver, le château n'ouvre que le week-end",
+   "enfants": true,
+   "texte": "Le « Versailles suédois », où vit la famille royale : un château du XVIIe siècle au bord du lac Mälar, des jardins à la française, un pavillon chinois et un théâtre de 1766 resté intact. Classé au patrimoine mondial. À la belle saison, on y va en vieux bateau à vapeur : une heure de croisière qui fait partie du plaisir.",
+   "site_officiel": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html",
+   "note": "Hors saison des bateaux : métro jusqu'à Brommaplan puis bus (30 min en tout, avec un simple ticket de métro). Le parc est gratuit et ouvert toute l'année.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pudelek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Drottningholm_Palace_(by_Pudelek)_1.jpg",
+    "src": "img/activites/STO/drottningholm.jpg"
+   }
+  },
+  {
+   "id": "archipel",
+   "nom": "Croisière dans l'archipel",
+   "emoji": "🛥️",
+   "type": "nature",
+   "quartier": "Départ de Strandvägen",
+   "lat": 59.332,
+   "lng": 18.0795,
+   "prix": 35.6,
+   "prix_detail": [
+    [
+     "Croisière guidée de 1 h 30",
+     "395 SEK ≈ 35,50 €"
+    ],
+    [
+     "Croisières de 2 h ou 3 h",
+     "un peu plus cher"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 35.6,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne un ou deux jours avant en été",
+   "duree": "1 h 30 à 3 h",
+   "moment": "Par beau temps ; départs tous les jours, toute l'année",
+   "enfants": true,
+   "texte": "Stockholm a 30 000 îles à sa porte. En une heure et demie de bateau, la ville laisse la place aux rochers roses, aux forêts de pins et aux petites maisons rouges avec leur ponton. Un guide raconte la vie sur les îles pendant que le café fume sur le pont.",
+   "site_officiel": "https://www.stromma.com/en-se/stockholm/sightseeing/sightseeing-by-boat/archipelago-tour-with-guide/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Christof46",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stockholm_Sch%C3%A4rengarten.jpg",
+    "src": "img/activites/STO/archipel.jpg"
+   }
+  },
+  {
+   "id": "vaxholm",
+   "nom": "Vaxholm en bateau",
+   "emoji": "⚓",
+   "type": "nature",
+   "quartier": "Archipel (à 1 h de bateau)",
+   "lat": 59.4018,
+   "lng": 18.355,
+   "prix": 7.7,
+   "prix_detail": [
+    [
+     "Bateau régulier, aller simple (ticket de métro valable)",
+     "43 SEK ≈ 4 €"
+    ],
+    [
+     "Aller-retour",
+     "86 SEK ≈ 7,50 €"
+    ],
+    [
+     "Moins de 20 ans, 65 ans et plus (aller simple)",
+     "26 SEK ≈ 2,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7.7,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      19,
+      4.7
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "De mai à septembre ; en hiver, moins de bateaux et beaucoup de cafés fermés",
+   "enfants": true,
+   "texte": "L'astuce que peu de touristes connaissent : depuis 2025, un simple ticket de métro suffit pour prendre le bateau régulier jusqu'à Vaxholm, la petite capitale de l'archipel. Une heure de traversée entre les îles, puis des maisons de bois pastel, une forteresse sur l'eau et des cafés sur le port.",
+   "site_officiel": "https://waxholmsbolaget.se/",
+   "note": "Départ de Strömkajen, devant le Grand Hôtel (bateaux Waxholmsbolaget). Le ticket se valide avec une carte bancaire sans contact, comme dans le métro.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Can Burcin Sahin / LCProBild",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vaxholms_f%C3%A4stning,_Vaxholms_kastell,_Vaxholm,_Sverige_2009_6293.jpg",
+    "src": "img/activites/STO/vaxholm.jpg"
+   }
+  },
+  {
+   "id": "fjaderholmarna",
+   "nom": "Îles Fjäderholmarna",
+   "emoji": "🏝️",
+   "type": "nature",
+   "quartier": "Archipel (à 30 min de bateau)",
+   "lat": 59.328458,
+   "lng": 18.175105,
+   "prix": 19.4,
+   "prix_detail": [
+    [
+     "Bateau aller-retour",
+     "215 SEK ≈ 19,50 €"
+    ],
+    [
+     "Aller simple",
+     "180 SEK ≈ 16 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19.4,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez le bateau la veille en juillet et août, les départs se remplissent",
+   "duree": "2 à 4 h",
+   "moment": "De mai à mi-septembre uniquement, par beau temps",
+   "enfants": true,
+   "texte": "L'archipel sans y passer la journée : trente minutes de bateau depuis le centre, et vous voilà sur une petite île de rochers lisses, avec ses ateliers de verriers et de potiers, son fumoir à poisson et ses coins pour se baigner. Le tour de l'île se fait en vingt minutes.",
+   "site_officiel": "https://www.stromma.com/en-se/stockholm/excursions/day-trips/fjaderholmarna/",
+   "note": "Les bateaux ne circulent pas en hiver : reprise en mai 2027.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Olaf Meister",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stora_Fj%C3%A4derholmen_Geb%C3%A4ude.jpg",
+    "src": "img/activites/STO/fjaderholmarna.jpg"
+   }
+  },
+  {
+   "id": "tour-bateau",
+   "nom": "Stockholm en bateau",
+   "emoji": "🚤",
+   "type": "balade",
+   "quartier": "Départ de Strömkajen",
+   "lat": 59.328683,
+   "lng": 18.076587,
+   "prix": 34.7,
+   "prix_detail": [
+    [
+     "« Sous les ponts de Stockholm », 2 h 15 (à la belle saison)",
+     "385 SEK ≈ 34,50 €"
+    ],
+    [
+     "Tour d'hiver avec guide, 1 h 15",
+     "410 SEK ≈ 37 €"
+    ],
+    [
+     "Tour de Djurgården, 1 h (à la belle saison)",
+     "285 SEK ≈ 25,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 34.7,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille ; quelques couronnes de moins qu'au guichet",
+   "duree": "1 h à 2 h 15",
+   "moment": "En fin d'après-midi pour la lumière ; en hiver, bateau chauffé avec café à bord",
+   "enfants": true,
+   "texte": "Stockholm est bâtie sur quatorze îles : c'est depuis l'eau qu'on la comprend. Le grand tour passe sous douze ponts et franchit l'écluse entre la mer Baltique et le lac Mälar, avec la vieille ville, les quais de Södermalm et les villas de Djurgården qui défilent.",
+   "site_officiel": "https://www.stromma.com/en-se/stockholm/sightseeing/sightseeing-by-boat/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tommie Hansen",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stream,_bridge_and_boats_at_Djurg%C3%A5rden,_east_of_Stockholm_(Sweden)_-_panoramio_(1).jpg",
+    "src": "img/activites/STO/tour-bateau.jpg"
+   }
+  },
+  {
+   "id": "metro-art",
+   "nom": "Le métro, plus longue galerie d'art du monde",
+   "emoji": "🚇",
+   "type": "balade",
+   "quartier": "Départ de T-Centralen",
+   "lat": 59.331894,
+   "lng": 18.060944,
+   "prix": 3.9,
+   "prix_detail": [
+    [
+     "Ticket de métro (75 min)",
+     "43 SEK ≈ 4 €"
+    ],
+    [
+     "Moins de 20 ans, 65 ans et plus",
+     "26 SEK ≈ 2,50 €"
+    ],
+    [
+     "Moins de 7 ans avec un adulte",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3.9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      19,
+      2.3
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "1 h à 1 h 30",
+   "moment": "En milieu de journée ou le week-end, hors des heures de pointe",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Avec un seul ticket, 110 kilomètres d'œuvres : plus de 90 stations décorées par des artistes. Les plus belles sont sur la ligne bleue : T-Centralen et ses feuillages bleus, Kungsträdgården et ses ruines, Rådhuset la grotte rouge, Solna Centrum et son ciel de feu, Stadion et son arc-en-ciel.",
+   "site_officiel": "https://www.visitstockholm.com/see-do/attractions/art-in-the-subway/",
+   "note": "On paie en posant sa carte bancaire sans contact sur le portillon. Le ticket vaut 75 minutes, de quoi voir cinq ou six stations.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Luca Cascianini",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estocolmo-Stadion.jpg",
+    "src": "img/activites/STO/metro-art.jpg"
+   }
+  },
+  {
+   "id": "monteliusvagen",
+   "nom": "Monteliusvägen",
+   "emoji": "🌇",
+   "type": "vue",
+   "quartier": "Södermalm (Mariaberget)",
+   "lat": 59.320731,
+   "lng": 18.060456,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade panoramique",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 à 45 min",
+   "moment": "Au lever ou au coucher du soleil ; en hiver, le chemin peut être verglacé",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un petit chemin de 500 mètres accroché à la falaise de Södermalm, avec toute la ville à vos pieds : l'hôtel de ville, la vieille ville et les bateaux sur le lac. La plus belle vue de Stockholm, et elle ne coûte rien. Venez avec un café et une brioche à la cannelle.",
+   "site_officiel": "https://www.visitstockholm.com/o/monteliusvagen/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Esquilo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Monteliusv%C3%A4gen_2015.jpg",
+    "src": "img/activites/STO/monteliusvagen.jpg"
+   }
+  },
+  {
+   "id": "skinnarviksberget",
+   "nom": "Skinnarviksberget",
+   "emoji": "🪨",
+   "type": "vue",
+   "quartier": "Södermalm",
+   "lat": 59.319935,
+   "lng": 18.050777,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min à 1 h",
+   "moment": "Au coucher du soleil, les soirs d'été, avec de quoi pique-niquer",
+   "enfants": true,
+   "texte": "Le point naturel le plus haut du centre : un gros rocher nu où les Stockholmois montent le soir avec une couverture et quelques bières pour regarder le soleil descendre sur la ville. Pas de barrière, pas de boutique, juste la vue à 360 degrés.",
+   "site_officiel": "https://www.visitstockholm.com/o/skinnarviksberget/",
+   "note": "Rocher sans garde-corps, glissant quand il a plu : gardez un œil sur les enfants.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Esquilo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skinnarviksberget.jpg",
+    "src": "img/activites/STO/skinnarviksberget.jpg"
+   }
+  },
+  {
+   "id": "sofo",
+   "nom": "Södermalm et SoFo",
+   "emoji": "🛍️",
+   "type": "balade",
+   "quartier": "Södermalm",
+   "lat": 59.312293,
+   "lng": 18.083379,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "L'après-midi, quand les boutiques sont ouvertes, puis l'apéritif autour de Nytorget",
+   "enfants": true,
+   "texte": "Le quartier créatif de Stockholm : friperies, design suédois, disquaires et cafés où l'on prend le temps du « fika », la pause café-brioche. Autour de la place Nytorget, les terrasses débordent dès le premier rayon de soleil ; plus haut, les maisons de bois rouges de Mäster Mikaels gata rappellent le Stockholm d'autrefois.",
+   "site_officiel": "https://www.visitstockholm.com/see-do/attractions/sodermalm/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Holger.Ellgaard",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sk%C3%A5negatan_vid_Nytorget,_febr_2019.jpg",
+    "src": "img/activites/STO/sofo.jpg"
+   }
+  },
+  {
+   "id": "djurgarden",
+   "nom": "Djurgården et le jardin de Rosendal",
+   "emoji": "🌳",
+   "type": "balade",
+   "quartier": "Djurgården",
+   "lat": 59.327456,
+   "lng": 18.114848,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade et jardin",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Au printemps et en été ; en automne pour les couleurs. Le café du jardin ferme une partie de l'hiver",
+   "enfants": true,
+   "texte": "L'ancienne réserve de chasse du roi est devenue le poumon vert de la ville : chemins au bord de l'eau, chênes centenaires, et au milieu, le jardin de Rosendal avec ses serres, ses pommiers et ses tables sous les arbres. À pied ou à vélo, à dix minutes des musées.",
+   "site_officiel": "https://www.rosendalstradgard.se/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ArildV",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosendals_tr%C3%A4dg%C3%A5rd_December_2019_01.jpg",
+    "src": "img/activites/STO/djurgarden.jpg"
+   }
+  },
+  {
+   "id": "skogskyrkogarden",
+   "nom": "Skogskyrkogården (cimetière des Bois)",
+   "emoji": "🌲",
+   "type": "balade",
+   "quartier": "Enskede (à 15 min en métro)",
+   "lat": 59.271047,
+   "lng": 18.102489,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h à 1 h 30",
+   "moment": "En fin de journée ; magique à la Toussaint, sous des milliers de bougies",
+   "enfants": false,
+   "texte": "Un cimetière classé au patrimoine mondial : une grande colline, une croix de granit, puis des tombes dispersées dans une forêt de pins. Dessiné par l'architecte Asplund, c'est l'un des paysages les plus apaisants de Suède. Greta Garbo y repose.",
+   "site_officiel": "https://skogskyrkogarden.stockholm/en/",
+   "note": "Métro ligne verte, station Skogskyrkogården. Lieu de recueillement : on s'y promène en silence.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "BloodIce",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skogskyrkogarden-night-2007-11-03.JPG",
+    "src": "img/activites/STO/skogskyrkogarden.jpg"
+   }
+  },
+  {
+   "id": "grona-lund",
+   "nom": "Gröna Lund",
+   "emoji": "🎢",
+   "type": "sortir",
+   "quartier": "Djurgården",
+   "lat": 59.323306,
+   "lng": 18.095834,
+   "prix": 53.6,
+   "prix_detail": [
+    [
+     "Entrée + manèges illimités, adulte (saison 2026)",
+     "595 SEK ≈ 53,50 €"
+    ],
+    [
+     "Enfant",
+     "545 SEK ≈ 49 €"
+    ],
+    [
+     "Entrée seule",
+     "moins cher, prix selon le jour"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 53.6,
+    "enfants": [
+     [
+      12,
+      49.1
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet daté en ligne, le prix change selon le jour",
+   "duree": "3 h à une soirée",
+   "moment": "De fin avril à septembre, puis pour Halloween en octobre ; les soirs de concert",
+   "enfants": true,
+   "texte": "Un parc d'attractions de 1883 posé au bord de l'eau, en pleine ville : montagnes russes au-dessus du port, manèges d'époque et grands concerts en plein air tout l'été. Depuis le haut de la tour de chute, on voit tout Stockholm, une demi-seconde.",
+   "site_officiel": "https://www.gronalund.com/en",
+   "note": "Fermé tout l'hiver : réouverture fin avril 2027.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Arild Vågen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gr%C3%B6na_Lund_June_2015.jpg",
+    "src": "img/activites/STO/grona-lund.jpg"
+   }
+  },
+  {
+   "id": "skyview",
+   "nom": "SkyView",
+   "emoji": "🔮",
+   "type": "vue",
+   "quartier": "Avicii Arena (Johanneshov)",
+   "lat": 59.2936,
+   "lng": 18.0833,
+   "prix": 16.2,
+   "prix_detail": [
+    [
+     "Adulte",
+     "180 SEK ≈ 16 €"
+    ],
+    [
+     "5 à 12 ans, 65 ans et plus",
+     "140 SEK ≈ 12,50 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16.2,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      12,
+      12.6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne pour éviter la file ; carte bancaire seulement sur place",
+   "duree": "30 min",
+   "moment": "Par temps clair, en fin de journée",
+   "enfants": true,
+   "texte": "Une nacelle de verre qui grimpe le long de la plus grande salle sphérique du monde, jusqu'à 85 mètres de haut. Vingt minutes de montée et de descente, et Stockholm s'étale jusqu'à l'archipel. Les enfants adorent.",
+   "site_officiel": "https://aviciiarena.se/en/skyview/",
+   "note": "Métro ligne verte, station Globen. Fermé les jours de vent fort et certains jours de spectacle.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Globen_SkyView_15.jpg",
+    "src": "img/activites/STO/skyview.jpg"
+   }
+  },
+  {
+   "id": "hellasgarden",
+   "nom": "Sauna et lac à Hellasgården",
+   "emoji": "🧖",
+   "type": "bains",
+   "quartier": "Réserve de Nacka (à 20 min en bus)",
+   "lat": 59.289276,
+   "lng": 18.160774,
+   "prix": 12.6,
+   "prix_detail": [
+    [
+     "En journée, en semaine",
+     "110 SEK ≈ 10 €"
+    ],
+    [
+     "Du lundi au jeudi après 13 h 45",
+     "140 SEK ≈ 12,50 €"
+    ],
+    [
+     "Vendredi après-midi et week-end",
+     "180 SEK ≈ 16 €"
+    ],
+    [
+     "Jusqu'à 7 ans",
+     "moitié prix"
+    ],
+    [
+     "Location de serviette",
+     "80 SEK ≈ 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12.6,
+    "enfants": [
+     [
+      7,
+      6.3
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "créneau à réserver sur le site quelques jours avant, surtout le week-end",
+   "duree": "2 h",
+   "moment": "En hiver, quand le lac est gelé et qu'on se baigne par un trou dans la glace",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le rituel suédois par excellence, en pleine forêt : on transpire dans un sauna au feu de bois, puis on court se jeter dans le lac, été comme hiver. Après trois allers-retours, vous dormirez comme jamais. À vingt minutes du centre, au milieu d'une réserve naturelle.",
+   "site_officiel": "https://hellasgarden.se/en/",
+   "note": "Saunas séparés hommes et femmes, où l'on entre sans maillot, et quelques créneaux mixtes en maillot. Pas d'espèces. Bus 401 depuis Slussen.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Esquilo",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%A4lltorpssj%C3%B6n2.jpg",
+    "src": "img/activites/STO/hellasgarden.jpg"
+   }
+  },
+  {
+   "id": "kungstradgarden",
+   "nom": "Kungsträdgården (patinoire et cerisiers)",
+   "emoji": "⛸️",
+   "type": "balade",
+   "quartier": "Norrmalm",
+   "lat": 59.331743,
+   "lng": 18.071289,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au parc et à la patinoire",
+     "gratuit"
+    ],
+    [
+     "Location de patins",
+     "environ 90 SEK ≈ 8 € l'heure"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "De mi-novembre à début mars pour patiner ; mi-avril pour les cerisiers en fleurs",
+   "enfants": true,
+   "texte": "Le « jardin du roi » est le salon en plein air de Stockholm. L'hiver, on y patine gratuitement sous les guirlandes, un chocolat chaud à la main ; au printemps, ses 63 cerisiers du Japon en fleurs attirent toute la ville pendant une dizaine de jours.",
+   "site_officiel": "https://www.visitstockholm.com/see-do/activities/ice-skating-in-stockholm/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Arild Vågen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kungstr%C3%A4dg%C3%A5rden_April_2015_02.jpg",
+    "src": "img/activites/STO/kungstradgarden.jpg"
+   }
+  },
+  {
+   "id": "hammarby",
+   "nom": "Match de foot à la 3Arena (Hammarby)",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "3Arena (Johanneshov)",
+   "lat": 59.291033,
+   "lng": 18.084543,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Championnat de Suède (Allsvenskan)",
+     "environ 200 à 400 SEK ≈ 18 à 36 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets en ligne une à deux semaines avant ; les derbys affichent complet",
+   "duree": "2 h",
+   "moment": "D'avril à novembre : le championnat suédois se joue l'été",
+   "enfants": true,
+   "texte": "Hammarby, le club de cœur de Södermalm, attire les plus grandes foules de Scandinavie : 25 000 personnes en vert et blanc qui chantent « Just idag är jag stark » avant le coup d'envoi, à en avoir la chair de poule. Le derby contre l'AIK ou Djurgården est le sommet de la saison.",
+   "site_officiel": "https://www.hammarbyfotboll.se/",
+   "a_verifier": false,
+   "club": "Hammarby IF",
+   "photo": {
+    "auteur": "Mr.inky61",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hammarby_vs._Barcelona_2.jpg",
+    "src": "img/activites/STO/hammarby.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "gamla-stan",
+   "nom": "Gamla Stan (vieille ville)",
+   "lat": 59.3251,
+   "lng": 18.0711,
+   "texte": "Dormir dans une maison du XVIIe siècle, au milieu des ruelles pavées : le palais royal, le musée Nobel et les bateaux sont à deux pas. Très charmant et calme la nuit, mais les chambres sont petites et les prix élevés."
+  },
+  {
+   "id": "norrmalm",
+   "nom": "Norrmalm (centre et gare centrale)",
+   "lat": 59.332,
+   "lng": 18.063,
+   "texte": "Le centre moderne, autour de la gare centrale : le train de l'aéroport arrive ici, toutes les lignes de métro s'y croisent et la vieille ville est à dix minutes à pied. Le plus pratique pour un court séjour, et le plus grand choix d'hôtels."
+  },
+  {
+   "id": "sodermalm",
+   "nom": "Södermalm",
+   "lat": 59.315,
+   "lng": 18.073,
+   "texte": "L'île branchée : boutiques de créateurs, cafés, bars et les plus belles vues sur la ville. Parfait pour sortir le soir et vivre comme les Stockholmois, avec des hôtels souvent moins chers qu'au centre."
+  },
+  {
+   "id": "ostermalm",
+   "nom": "Östermalm",
+   "lat": 59.337,
+   "lng": 18.079,
+   "texte": "Le quartier chic : avenues élégantes, la halle gourmande, les meilleures tables, et l'île aux musées de Djurgården accessible à pied ou en tram. Calme et sûr, pour un séjour confortable."
+  },
+  {
+   "id": "vasastan",
+   "nom": "Vasastan",
+   "lat": 59.343,
+   "lng": 18.05,
+   "texte": "Un quartier d'habitants, aux immeubles 1900 et aux parcs tranquilles, connu pour ses boulangeries et ses bistros de quartier. À dix minutes du centre en métro, avec de bons hôtels à prix plus doux."
+  }
+ ],
+ "hotel_petit_prix_max": 150,
+ "restaurants": [
+  {
+   "id": "lillebrors",
+   "nom": "Lillebrors Bageri",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Boulangerie (brioches à la cannelle)",
+   "quartier": "Vasastan",
+   "adresse": "Rörstrandsgatan 10, 113 40 Stockholm",
+   "lat": 59.340037,
+   "lng": 18.03423,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La file sur le trottoir ne trompe pas : ces brioches à la cannelle et à la cardamome, feuilletées, caramélisées dessous, sont souvent citées comme les meilleures de Suède. On les mange tièdes sur le banc d'en face. Quand il n'y en a plus, la boutique ferme.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 11 h, surtout le week-end",
+   "photo": {
+    "auteur": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cinnamon_roll_in_Stockholm.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/lillebrors.jpg"
+   }
+  },
+  {
+   "id": "vete-katten",
+   "nom": "Vete-Katten",
+   "emoji": "🍰",
+   "gamme": "petit",
+   "genre": "Salon de thé historique (fika)",
+   "quartier": "Norrmalm",
+   "adresse": "Kungsgatan 55, 111 22 Stockholm",
+   "lat": 59.334097,
+   "lng": 18.058346,
+   "prix": "6 à 17 €",
+   "prix_min": 6,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1928 et presque inchangé : un labyrinthe de petits salons, des serveuses en tablier et une vitrine de gâteaux à faire tourner la tête. C'est ici qu'il faut goûter la « princesstårta », le gâteau vert à la pâte d'amande, avec un café resservi à volonté.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; évitez le samedi après-midi",
+   "photo": {
+    "auteur": "DimiTalen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Interior_of_Vete-Katten_on_Kungsgatan,_Stockholm,_2022.jpg",
+    "src": "img/restos/STO/vete-katten.jpg"
+   }
+  },
+  {
+   "id": "stromming",
+   "nom": "Nystekt Strömming",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Kiosque à hareng frit",
+   "quartier": "Gamla Stan",
+   "adresse": "Kornhamnstorg 2, 111 27 Stockholm",
+   "lat": 59.32272,
+   "lng": 18.070539,
+   "prix": "7 à 13 €",
+   "prix_min": 7,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un simple kiosque, et le plat de rue le plus suédois qui soit : du hareng de la Baltique tout juste frit, servi sur une purée ou un pain croustillant, avec oignons rouges et concombre au vinaigre. On mange debout, face à l'eau, comme les Stockholmois depuis des décennies.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert en journée, jusqu'en fin d'après-midi",
+   "photo": {
+    "auteur": "Hmvb",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File:Str%C3%B6mming.JPG",
+    "illustration": true,
+    "src": "img/restos/STO/stromming.jpg"
+   }
+  },
+  {
+   "id": "kajsas",
+   "nom": "Kajsas Fisk",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Soupe de poisson (halle de Hötorget)",
+   "quartier": "Norrmalm",
+   "adresse": "Hötorgshallen, Sergels Torg 29, 111 57 Stockholm",
+   "lat": 59.334407,
+   "lng": 18.062324,
+   "prix": "12 à 16 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Au sous-sol de la halle de Hötorget, un comptoir où tout le quartier vient pour un seul plat : une grande soupe de poisson à la tomate, pleine de moules et de crevettes, avec une cuillère d'aïoli, du pain et de la salade à volonté. On se resserre d'une louche si l'on a encore faim.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; file entre 12 h et 13 h, fermé le dimanche",
+   "photo": {
+    "auteur": "AleWi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%B6torgshallen_20020611_-_4.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/kajsas.jpg"
+   }
+  },
+  {
+   "id": "hermans",
+   "nom": "Hermans",
+   "emoji": "🥗",
+   "gamme": "petit",
+   "genre": "Buffet végétarien avec vue",
+   "quartier": "Södermalm",
+   "adresse": "Fjällgatan 23B, 116 28 Stockholm",
+   "lat": 59.317589,
+   "lng": 18.083987,
+   "prix": "18 à 26 €",
+   "prix_min": 18,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un buffet végétarien à volonté, généreux et parfumé, sur une terrasse perchée en haut de la falaise de Södermalm : toute la ville et le port à vos pieds. Même les amateurs de viande en redemandent. Aux beaux jours, visez la fin d'après-midi pour le coucher du soleil.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation pour les petites tables ; arrivez tôt pour une place en terrasse",
+   "photo": {
+    "auteur": "Acediscovery",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fj%C3%A4llgatan-Stockholm-March2013.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/hermans.jpg"
+   }
+  },
+  {
+   "id": "gunters",
+   "nom": "Günters Korvar",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Hot-dogs (saucisses du monde)",
+   "quartier": "Vasastan",
+   "adresse": "Karlbergsvägen 66, 113 35 Stockholm",
+   "lat": 59.342508,
+   "lng": 18.03251,
+   "prix": "4 à 9 €",
+   "prix_min": 4,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un kiosque minuscule, une quarantaine de saucisses venues de toute l'Europe, une baguette croustillante et de la choucroute : depuis des décennies, les Stockholmois traversent la ville pour ça. Le hot-dog a ici ses lettres de noblesse.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; ouvert en journée seulement, file d'attente à midi",
+   "photo": {
+    "auteur": "I99pema",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%BCnters_korv,_Karlbergsv%C3%A4gen.JPG",
+    "src": "img/restos/STO/gunters.jpg"
+   }
+  },
+  {
+   "id": "pelikan",
+   "nom": "Pelikan",
+   "emoji": "🍺",
+   "gamme": "moyen",
+   "genre": "Brasserie historique (boulettes de viande)",
+   "quartier": "Södermalm",
+   "adresse": "Blekingegatan 40, 116 62 Stockholm",
+   "lat": 59.310587,
+   "lng": 18.07625,
+   "prix": "30 à 45 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une grande salle de 1904 aux plafonds peints, des boiseries, des serveurs en gilet : c'est ici que Stockholm mange ses boulettes de viande, roulées à la main et servies avec purée, sauce à la crème, airelles et concombre. Hareng, jarret de porc et bière fraîche pour compléter.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le soir",
+   "photo": {
+    "auteur": "Holger.Ellgaard",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Restaurang_Pelikan,_2017.jpg",
+    "src": "img/restos/STO/pelikan.jpg"
+   }
+  },
+  {
+   "id": "aifur",
+   "nom": "Aifur",
+   "emoji": "🪓",
+   "gamme": "moyen",
+   "genre": "Taverne viking",
+   "quartier": "Gamla Stan",
+   "adresse": "Västerlånggatan 68B, 111 27 Stockholm",
+   "lat": 59.323117,
+   "lng": 18.071833,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On descend dans une cave voûtée, un homme en tunique annonce votre nom à toute la salle, et le banquet commence : longues tables en bois, hydromel dans des cornes, viandes rôties et recettes tirées de fouilles archéologiques. Un peu de théâtre, beaucoup de plaisir, et c'est vraiment bon.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant, davantage pour le week-end",
+   "photo": {
+    "auteur": "Johan Jönsson (Julle)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaunan_at_Aifur_2019-09-15_01.jpg",
+    "src": "img/restos/STO/aifur.jpg"
+   }
+  },
+  {
+   "id": "elmqvist",
+   "nom": "Lisa Elmqvist",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer (halle d'Östermalm)",
+   "quartier": "Östermalm",
+   "adresse": "Östermalms Saluhall, Nybrogatan 31, 114 39 Stockholm",
+   "lat": 59.335935,
+   "lng": 18.077741,
+   "prix": "35 à 65 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Dans la plus belle halle de Stockholm, toute en brique et en fonte, la même famille sert poissons et crustacés depuis 1926. Tartine de crevettes géante, saumon fumé maison, plateau de fruits de mer : on mange au comptoir, au milieu des étals, avec un verre de blanc.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le déjeuner ; fermé le dimanche",
+   "photo": {
+    "auteur": "Holger.Ellgaard",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%96stermalms_saluhall_okt_2012.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/elmqvist.jpg"
+   }
+  },
+  {
+   "id": "hantverket",
+   "nom": "Hantverket",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Cuisine suédoise moderne, à partager",
+   "quartier": "Östermalm",
+   "adresse": "Sturegatan 15, 114 36 Stockholm",
+   "lat": 59.341458,
+   "lng": 18.076759,
+   "prix": "45 à 60 €",
+   "prix_min": 45,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La cuisine de grand-mère suédoise revue par le chef Stefan Ekengren : des petites assiettes à partager, à base de légumes du pays, de poissons fumés et de beurre noisette. Briques, bois clair et comptoir ouvert sur la cuisine : l'une des tables les plus aimées de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 semaines avant pour le soir",
+   "photo": {
+    "auteur": "Miia Ranta",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gravad_lax-01.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/hantverket.jpg"
+   }
+  },
+  {
+   "id": "astoria",
+   "nom": "Brasserie Astoria",
+   "emoji": "🥂",
+   "gamme": "moyen",
+   "genre": "Grande brasserie dans un ancien cinéma",
+   "quartier": "Östermalm",
+   "adresse": "Nybrogatan 15, 114 39 Stockholm",
+   "lat": 59.334855,
+   "lng": 18.077348,
+   "prix": "40 à 65 €",
+   "prix_min": 40,
+   "badges": [
+    "tendance",
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin 2026",
+   "texte": "Björn Frantzén, le chef trois étoiles de Stockholm, a transformé un vieux cinéma en grande brasserie : banquettes, lustres, bar monumental et classiques impeccables, du toast aux crevettes au steak tartare. L'adresse où tout Stockholm veut être vu, sans le prix de la haute gastronomie.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant pour le soir",
+   "photo": {
+    "auteur": "Sinikka Halme",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Astoria_01_former_movie_theatre_Nybrogatan_Stockholm_in_May_2022.jpg",
+    "src": "img/restos/STO/astoria.jpg"
+   }
+  },
+  {
+   "id": "omnipollo",
+   "nom": "Omnipollos Hatt",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Pizzas et bières artisanales",
+   "quartier": "Södermalm",
+   "adresse": "Hökens gata 1A, 116 46 Stockholm",
+   "lat": 59.318064,
+   "lng": 18.07227,
+   "prix": "25 à 35 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le bar de la brasserie artisanale la plus folle de Suède : des bières qui goûtent la tarte aux myrtilles ou le café glacé, et des pizzas au levain aux garnitures inattendues. Petite salle bondée, grande terrasse l'été, à deux pas de la place Mosebacke.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; arrivez avant 18 h pour une table",
+   "photo": {
+    "auteur": "JIP",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Omnipollo_Marbles.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/omnipollo.jpg"
+   }
+  },
+  {
+   "id": "frantzen",
+   "nom": "Frantzén",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomique (3 étoiles)",
+   "quartier": "Norrmalm",
+   "adresse": "Klara Norra kyrkogata 26, 111 22 Stockholm",
+   "lat": 59.33391,
+   "lng": 18.058612,
+   "prix": "environ 500 € (menu, hors boissons)",
+   "prix_min": 480,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin 2026",
+   "texte": "La seule table trois étoiles de Suède, et l'une des meilleures du monde. On sonne à une porte discrète, on prend l'apéritif au salon, puis vingt-trois couverts s'installent autour de la cuisine pour un menu où le Nord rencontre le Japon. Une soirée dont on parle encore des années après.",
+   "reservation": "indispensable",
+   "reservation_delai": "à l'ouverture des réservations, environ 2 mois avant",
+   "photo": {
+    "auteur": "City Foodsters",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frantz%C3%A9n_AV4A6968_(48484561352).jpg",
+    "src": "img/restos/STO/frantzen.jpg"
+   }
+  },
+  {
+   "id": "ekstedt",
+   "nom": "Ekstedt",
+   "emoji": "🔥",
+   "gamme": "haut",
+   "genre": "Cuisine au feu de bois (1 étoile)",
+   "quartier": "Östermalm",
+   "adresse": "Humlegårdsgatan 17, 114 46 Stockholm",
+   "lat": 59.336787,
+   "lng": 18.074921,
+   "prix": "environ 280 € (menu, hors boissons)",
+   "prix_min": 279,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin 2026",
+   "texte": "Ici, pas d'électricité ni de gaz en cuisine : tout est cuit au feu de bouleau, dans la braise, la fumée ou une cheminée en fonte, comme autrefois en Suède. Huîtres flambées au gras de bœuf, renne fumé au foin : primitif et raffiné à la fois.",
+   "reservation": "indispensable",
+   "reservation_delai": "3 à 4 semaines avant",
+   "photo": {
+    "auteur": "Adamloftschulz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Niklas_Ekstedt_Print-3625.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/ekstedt.jpg"
+   }
+  },
+  {
+   "id": "operakallaren",
+   "nom": "Operakällaren",
+   "emoji": "🎭",
+   "gamme": "haut",
+   "genre": "Grande cuisine dans la salle de l'Opéra (1 étoile)",
+   "quartier": "Norrmalm",
+   "adresse": "Karl XII:s torg 3, 111 47 Stockholm",
+   "lat": 59.329827,
+   "lng": 18.071339,
+   "prix": "environ 215 € (menu, hors boissons)",
+   "prix_min": 216,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin 2026",
+   "texte": "La salle à manger la plus spectaculaire de Suède, dans l'Opéra royal depuis 1787 : boiseries dorées, fresques, lustres de cristal et vue sur le château. Dans l'assiette, une cuisine française de haut vol aux produits du Nord. On s'habille, et on s'en souvient.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; ouvert du mercredi au samedi soir",
+   "photo": {
+    "auteur": "I99pema",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Operak%C3%A4llaren_2012.JPG",
+    "src": "img/restos/STO/operakallaren.jpg"
+   }
+  },
+  {
+   "id": "gyldene",
+   "nom": "Den Gyldene Freden",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Taverne de 1722",
+   "quartier": "Gamla Stan",
+   "adresse": "Österlånggatan 51, 111 31 Stockholm",
+   "lat": 59.323173,
+   "lng": 18.07379,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'un des plus vieux restaurants du monde encore dans ses murs : on y dîne aux chandelles depuis 1722, dans des caves voûtées de la vieille ville. L'Académie suédoise, celle du prix Nobel de littérature, y a sa table chaque jeudi. Boulettes, veau à l'aneth, hareng : les classiques, au sommet.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant",
+   "photo": {
+    "auteur": "Holger.Ellgaard",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Den_Gyldene_Freden_2013e.jpg",
+    "src": "img/restos/STO/gyldene.jpg"
+   }
+  },
+  {
+   "id": "gondolen",
+   "nom": "Gondolen",
+   "emoji": "🌃",
+   "gamme": "haut",
+   "genre": "Brasserie chic avec vue panoramique",
+   "quartier": "Södermalm (Slussen)",
+   "adresse": "Stadsgården 6, 116 45 Stockholm",
+   "lat": 59.319605,
+   "lng": 18.073205,
+   "prix": "60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Une passerelle suspendue à 33 mètres au-dessus de Slussen depuis 1935, avec la vieille ville et le port derrière les baies vitrées. Rouvert après de longs travaux, Gondolen sert une belle cuisine de brasserie, du turbot découpé à table aux quenelles d'œufs de corégone. Le bar offre la même vue pour le prix d'un cocktail.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant pour une table côté fenêtre",
+   "photo": {
+    "auteur": "Tommie Hansen",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gondolen,_Slussen_(Stockholm)_-_panoramio.jpg",
+    "src": "img/restos/STO/gondolen.jpg"
+   }
+  },
+  {
+   "id": "lilla-ego",
+   "nom": "Lilla Ego",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Bistro gourmand de quartier",
+   "quartier": "Vasastan",
+   "adresse": "Västmannagatan 69, 113 26 Stockholm",
+   "lat": 59.343621,
+   "lng": 18.045479,
+   "prix": "55 à 75 €",
+   "prix_min": 55,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin 2026",
+   "texte": "Deux chefs primés ont ouvert le bistro dont ils rêvaient : une petite salle bruyante et joyeuse, des assiettes généreuses et malignes (tartare à la truffe, renne et poire grillée, sandre à la 'nduja), et aucune prétention. La table la plus difficile à réserver de Stockholm depuis dix ans.",
+   "reservation": "indispensable",
+   "reservation_delai": "dès l'ouverture des réservations, 1 mois avant jour pour jour",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steak_tartare,_vegetable_crisps_and_toasted_bread_-_Petit_Pois_Restaurant_2024-07-11.jpg",
+    "illustration": true,
+    "src": "img/restos/STO/lilla-ego.jpg"
+   }
+  }
+ ]
+}

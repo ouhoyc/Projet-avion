@@ -336,6 +336,15 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (15/11/2026) **Page guide de Stockholm** (`guides/STO.json`), préparée en autonomie ; ville sans vol en ce moment (champ `ville`) : 28 activités
+  (musée Vasa 195/240 SEK, Skansen, Gamla Stan, palais royal, hôtel de ville — tour fermée jusqu'en 2029 —, ABBA, Fotografiska, Nobel, Moderna,
+  Nationalmuseum, musée d'Histoire, Junibacken, Drottningholm, croisière dans l'archipel, Vaxholm avec un simple ticket de métro, Fjäderholmarna,
+  métro-galerie d'art, Monteliusvägen, sauna de Hellasgården, SkyView, Gröna Lund, patinoire de Kungsträdgården, match de Hammarby), 18 restaurants
+  (Lillebrors, Vete-Katten, Nystekt Strömming, Kajsas Fisk, Hermans, Günters ; Pelikan, Aifur, Lisa Elmqvist, Hantverket, Brasserie Astoria,
+  Omnipollos Hatt ; Frantzén 3 étoiles, Ekstedt, Operakällaren, Den Gyldene Freden, Gondolen, Lilla Ego), 5 quartiers. 1 € ≈ 11,1 SEK.
+  Écartés : bibliothèque municipale (fermée jusqu'en 2028), Centralbadet (travaux toute l'année 2026), visite des toits (pas de saison à Stockholm),
+  Meatballs for the People et Tak (notes Google 4,2). Pas de formalités (Union européenne). Tendances Apify non lancées (jeton à renouveler) :
+  badges « tendance » posés d'après les listes Wanderlog et la presse.
 - ✅ (15/11/2026) **Page guide d'Alicante** (`guides/ALC.json`), préparée en autonomie ; ville sans vol en ce moment (champ `ville`) : 30 activités
   (château de Santa Bárbara gratuit, ascenseur 2,70 € ; Explanada ; Santa Cruz ; plages du Postiguet et de San Juan ; bateau pour Tabarca 24 € A/R
   (Kontiki) ; MARQ 5 € (3 € le dimanche) ; MACA, MUBAG et musée The Ocean Race gratuits ; co-cathédrale 8 € ; basilique Santa María 6 € ; Lucentum 3 € ;
@@ -625,7 +634,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Stockholm (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination, à lancer en priorité), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

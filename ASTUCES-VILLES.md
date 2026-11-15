@@ -218,3 +218,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   `museos-sitemap.xml`), castillodesantabarbara.com, cruceroskontiki.com/horarios-y-precios (Tabarca) ; cuevasdecanelobre.com bloque (Cloudflare).
   Michelin : `guide.michelin.com/es/es/comunidad-valenciana/alacant/restaurantes` (Playwright ; « alicante » dans l'adresse ne donne rien).
   Commons : API `generator=search` + vignettes, ~1 min par lieu, « 0 résultat » par vagues (relancer avec d'autres mots, en anglais).
+- Stockholm (nov. 2026) : ville sans vol en ce moment (champ `ville`). Wanderlog : listes trouvées dans le plan du site (`sitemap.xml`), puis en suivant
+  les adresses finissant par « -in-stockholm » (108 listes, ~1 000 restaurants ; données dans `window.__MOBX_STATE__`, à lire avec `raw_decode`).
+  Prix lisibles avec Playwright : vasamuseet.se (`/en/visit/hours--admission/`), skansen.se, kungligaslotten.se (`…/admission-charges.html`), stromma.com,
+  abbathemuseum.com (`/en/prices-opening-hours`), hellasgarden.se/bastu, aviciiarena.se/en/skyview ; stadshuset.stockholm était en panne. Michelin :
+  `guide.michelin.com/se/en/stockholm-region/stockholm/restaurants` (Playwright). Commons : l'API répondait « 429 » ; recherche HTML (`ns6=1`) avec les
+  vignettes `250px-` de la page de résultats pour les planches, ne pas attendre quand une recherche ne donne rien (c'est normal, pas un blocage).
