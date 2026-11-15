@@ -336,6 +336,18 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (15/11/2026) **Page guide d'Alicante** (`guides/ALC.json`), préparée en autonomie ; ville sans vol en ce moment (champ `ville`) : 30 activités
+  (château de Santa Bárbara gratuit, ascenseur 2,70 € ; Explanada ; Santa Cruz ; plages du Postiguet et de San Juan ; bateau pour Tabarca 24 € A/R
+  (Kontiki) ; MARQ 5 € (3 € le dimanche) ; MACA, MUBAG et musée The Ocean Race gratuits ; co-cathédrale 8 € ; basilique Santa María 6 € ; Lucentum 3 € ;
+  abris de la guerre civile 4,95 € ; château de San Fernando ; criques du cap de las Huertas ; rue des Champignons ; El Barrio ; Hogueras (20-24 juin) ;
+  excursions : Elche (palmeraie, match de Liga `club` Elche, `prix_match` 40 €), Guadalest, Fuentes del Algar 5 €, Altea, Villajoyosa, Canelobre,
+  Calp, Benidorm, lagune rose de Torrevieja). 18 restaurants (note pondérée, C = 4,33, ~540 restaurants via ~100 listes Wanderlog ; **Michelin 2026** :
+  Baeza & Rufete 1 étoile, Tábula Rasa Bib Gourmand, sélection Nou Manolín, Manero, Monastrell, La Ereta, Piripi, Espacio Montoro, El Portal).
+  Écartés : La Taberna del Gourmet et El Buen Comer (doublon de genre / note 4,2), Dársena (4,1), César Anca (4,2), Alba (Bib Gourmand, adresse et
+  notes non recoupées). 5 quartiers. Pas de formalités (Union européenne). Liens Tiqets non cherchés (presque tout est gratuit ou vendu sur place). **Apify non lancé** (jeton à renouveler) : badges
+  tendance d'après le web et les listes Wanderlog. Musée des Fogueres fermé jusqu'à nouvel ordre (pluies d'octobre 2026) : non proposé, signalé dans
+  la fiche Hogueras. Prix estimés : catamaran, Canelobre (site illisible), Huerto del Cura, Guadalest, Algar hors saison, match d'Elche, tarifs
+  enfants des églises, et les restaurants sans carte en ligne (seuls Tábula Rasa 49-52 € et Baeza & Rufete 95-165 € sont relevés).
 - ✅ (15/11/2026) **Page guide de Marseille** (`guides/MRS.json`), préparée en autonomie : 28 activités (Notre-Dame-de-la-Garde, Vieux-Port et ombrière,
   Mucem 11 € (gratuit < 18 ans, fermé le mardi), Panier, Vieille Charité (collections gratuites), La Major, château d'If 7 € + bateau 17,70 € (26 € If + Frioul,
   grille RTM du 01/11/2026), Frioul, croisière dans les calanques ≈ 26-38 € (prix officiel illisible, estimation), Sugiton (réservation gratuite l'été, J-3),
@@ -613,7 +625,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

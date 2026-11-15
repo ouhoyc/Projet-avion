@@ -213,3 +213,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   `guide.michelin.com/fr/fr/provence-alpes-cote-dazur/marseille/restaurants` (Playwright, étoiles = icônes `michelin-star` dans la carte). Prix lisibles par
   `curl` : mucem.org/infos-pratiques, chateau-if.fr, grotte-cosquer.com/infos-pratiques, musees.marseille.fr (fermetures en tête de chaque musée), flyer PDF des
   tarifs RTM sur lebateau-frioul-if.fr ; croisieres-marseille-calanques.com bloque (Cloudflare). Commons : API `generator=search` + `thumb.php`, « 0 résultat » par vagues (relancer).
+- Alicante (nov. 2026) : ville sans vol en ce moment (champ `ville` du guide). Wanderlog géo 9772 (départ `geoCategory/74350`), listes finissant par
+  « -in-alicante » : ~100 listes, 850 lieux. Prix officiels lisibles par `curl` sur `alicanteturismo.com/museos/…` et `/monumentos/…` (plan du site :
+  `museos-sitemap.xml`), castillodesantabarbara.com, cruceroskontiki.com/horarios-y-precios (Tabarca) ; cuevasdecanelobre.com bloque (Cloudflare).
+  Michelin : `guide.michelin.com/es/es/comunidad-valenciana/alacant/restaurantes` (Playwright ; « alicante » dans l'adresse ne donne rien).
+  Commons : API `generator=search` + vignettes, ~1 min par lieu, « 0 résultat » par vagues (relancer avec d'autres mots, en anglais).
