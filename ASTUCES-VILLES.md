@@ -230,3 +230,10 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   SDM01, ALN01, PMK01) ; parcs naturels : PDF « Ek-2 » du tarif annuel sur tarimorman.gov.tr (`pdftotext -layout`). Tiqets Antalya :
   `activites-attractions-antalya-c78987`. L'API Commons répondait « 429 » : recherche HTML (`ns6=1`, vignettes `250px-` de la page de résultats).
   Les sites des attractions privées (téléphérique, aquarium, Land of Legends) n'affichent pas leurs prix : passer par Tiqets et les revendeurs.
+- Strasbourg (nov. 2026) : Wanderlog, départ `geoCategory/74334`, listes finissant par « -strasbourg » : 64 listes, ~900 lieux, 427 restaurants.
+  Prix lisibles par `curl` : `strasbourg.eu/web/musees/tarifs-musees-de-strasbourg` et `/tous-les-horaires` (fermetures en bas de page), fiches
+  `strasbourg.eu/lieu/-/entity/...` (plateforme de la cathédrale), batorama.com/fr/circuits/circuit-rouge, haut-koenigsbourg.fr, levaisseau.com,
+  chateau-vodou.com/visites/…, europapark.de/fr/parc-de-loisirs/billets-et-offres, visiting.europarl.europa.eu. Michelin :
+  `guide.michelin.com/fr/fr/grand-est/strasbourg/restaurants` (Playwright ; Bib Gourmand = image « symboleBibendum », étoile = « michelin-star »).
+  Commons : l'API a répondu « 429 » après ~45 recherches ; la recherche HTML (`ns6=1`) a pris le relais sans blocage (vignettes `250px-` → `960px-`).
+  Se méfier des homonymes : la recherche « Bains municipaux » donnait d'abord ceux de Colmar. Tiqets répondait 403.

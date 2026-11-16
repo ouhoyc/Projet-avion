@@ -336,6 +336,22 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (16/11/2026) **Page guide de Strasbourg** (`guides/SXB.json`), préparée en autonomie : 30 activités (cathédrale et horloge astronomique 4 €,
+  plateforme 10 €/6 €, Petite France, Ponts Couverts et barrage Vauban, bateau Batorama 16,20 €, Grande Île, palais Rohan, musées de la Ville
+  à 9 € — Œuvre Notre-Dame, MAMCS, Historique, Tomi Ungerer, Zoologique —, Neustadt, Orangerie, Parlement européen (gratuit, pièce d'identité),
+  jardin des Deux Rives et passerelle vers Kehl, marché de Noël du 27/11 au 24/12/2026, cave des Hospices, Le Vaisseau 12 €, Bains municipaux,
+  Saint-Thomas, vélo Vélhop 7 €, château Vodou 14 €, place du Marché-Gayot, matchs du Racing (club « RC Strasbourg ») et de la SIG (club
+  « SIG Strasbourg »), excursions Colmar, Haut-Kœnigsbourg 12 €, Obernai, Europa-Park 67 à 76 €), 18 restaurants (La Fignette, Le Meteor,
+  Tonton Gâteau, Houmous & Co, Vélicious Burger, East Canteen ; Chez Yvonne, La Corde à Linge, La Cloche à Fromage, Le Banquet des Sophistes,
+  Blue Flamingo, Le Grand Tigre ; Au Crocodile, 1741, Umami, de:ja, Buerehiesel, Les Haras), 5 quartiers, champ `transport` « le tram ».
+  Notes : 427 restaurants Wanderlog, C = 4,28. Michelin 2026 : 1 étoile pour Au Crocodile, 1741, Umami, de:ja (et Les Funambules, Guillaume
+  Scheer, non retenus) ; Bib Gourmand pour Chez Yvonne (et Au Pont Corbeau, Au Coin des Pucelles) ; Buerehiesel n'a plus d'étoile (sélection).
+  Écartés : musée Alsacien (fermé pour travaux jusqu'au 1er juin 2028), planétarium (tarifs variables selon la séance), maison Kammerzell
+  (note 4,2 ; citée dans la balade de la Grande Île), Au Pont Saint-Martin (3,6), Le Gruber (3,7), L'Ancienne Douane (3,9), S'Kaechele (fermé).
+  Prix estimés : Bains municipaux (≈ 6 €, pas de grille officielle lisible), billets du Racing et de la SIG, trains pour Colmar, Sélestat et
+  Obernai, Unterlinden, et les restaurants Meteor, Tonton Gâteau, Vélicious, East Canteen, Corde à Linge, Grand Tigre ; Au Crocodile, 1741 et
+  de:ja d'après Gault&Millau. Pas de lien Tiqets (site illisible d'ici, et les billets officiels sont bon marché). Tendances Apify non
+  lancées (jeton à renouveler) : badges « tendance » d'après les sources citées par Wanderlog. 14 photos d'illustration pour les restaurants.
 - ✅ (15/11/2026) **Page guide d'Antalya** (`guides/AYT.json`), préparée en autonomie ; ville sans vol en ce moment (champ `ville`) : 26 activités
   (Kaleiçi, porte d'Hadrien, vieux port et balade en bateau ≈ 10 €, minaret cannelé, tour Hıdırlık, plages de Konyaaltı et de Lara, cascades de
   Düden — basse gratuite, haute ≈ 2 € —, aquarium ≈ 44 €, Pergé 11 €, Aspendos 15 €, Termessos ≈ 5 €, Kurşunlu ≈ 2 €, Sidé, Phaselis 10 €,
@@ -649,7 +665,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Stockholm (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination, à lancer en priorité), Antalya (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Stockholm (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination, à lancer en priorité), Antalya (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination), Strasbourg (non lancé le 16/11/2026 : jeton toujours à renouveler ; surtout utile pour le marché de Noël), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

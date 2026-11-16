@@ -1,0 +1,1852 @@
+{
+ "city_code": "SXB",
+ "statut": "préparé en autonomie, prix relevés le 16/11/2026",
+ "verifie_le": "2026-11-16",
+ "transport": "le tram",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "cathedrale",
+   "nom": "Cathédrale Notre-Dame",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Grande Île",
+   "lat": 48.581888,
+   "lng": 7.751052,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée de la cathédrale",
+     "gratuit"
+    ],
+    [
+     "Horloge astronomique (film et défilé des apôtres, 12 h 30)",
+     "4 €"
+    ],
+    [
+     "De 6 à 17 ans",
+     "2 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, avant les groupes ; pour l'horloge astronomique, soyez devant le portail sud vers 11 h 30 (billets sur place)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une dentelle de grès rose haute de 142 mètres : pendant plus de deux siècles, ce fut le plus haut édifice du monde chrétien. La façade change de couleur avec la lumière, du rose pâle le matin au rouge flamboyant le soir. À l'intérieur, les vitraux du Moyen Âge, le pilier des Anges et l'horloge astronomique, dont les automates défilent chaque jour à 12 h 30.",
+   "site_officiel": "https://www.cathedrale-strasbourg.fr/",
+   "note": "La cathédrale ferme aux visiteurs pendant les offices et en milieu de journée pour la présentation de l'horloge.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "MaryG90",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_Strasbourg.JPG",
+    "src": "img/activites/SXB/cathedrale.jpg"
+   }
+  },
+  {
+   "id": "plateforme",
+   "nom": "Plateforme de la cathédrale",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Grande Île",
+   "lat": 48.581888,
+   "lng": 7.751052,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Plein tarif",
+     "10 €"
+    ],
+    [
+     "De 6 à 18 ans, étudiants",
+     "6 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      18,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En fin de journée par temps clair, pour voir les Vosges et la Forêt-Noire ; dernière montée 45 minutes avant la fermeture",
+   "enfants": true,
+   "texte": "330 marches dans un escalier en colimaçon, et vous voilà à 66 mètres au-dessus des toits : la ville entière à vos pieds, les tuiles brunes de la Grande Île, les institutions européennes, et au loin les Vosges d'un côté, la Forêt-Noire de l'autre. Tout là-haut, la flèche continue de monter au-dessus de vous.",
+   "site_officiel": "https://www.oeuvre-notre-dame.org/",
+   "note": "Entrée place du Château, sur le côté de la cathédrale. Pas d'ascenseur. Gardez votre billet : il donne droit au tarif réduit au musée de l'Œuvre Notre-Dame.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sharat Ganapati",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2011_Strasbourg_View.jpg",
+    "src": "img/activites/SXB/plateforme.jpg"
+   }
+  },
+  {
+   "id": "petite-france",
+   "nom": "La Petite France",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Petite France",
+   "lat": 48.581323,
+   "lng": 7.74241,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Tôt le matin pour les reflets dans l'eau et les ruelles vides, ou à la tombée de la nuit quand les façades s'éclairent",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le Strasbourg des cartes postales : des maisons à colombages du XVIe siècle penchées sur les canaux, des géraniums aux fenêtres, des écluses et un pont tournant. C'était le quartier des tanneurs et des meuniers ; c'est aujourd'hui la plus jolie promenade de la ville, de la place Benjamin-Zix à la rue du Bain-aux-Plantes.",
+   "site_officiel": "https://www.visitstrasbourg.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zéphyrios",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_petite_France_(30412644430).jpg",
+    "src": "img/activites/SXB/petite-france.jpg"
+   }
+  },
+  {
+   "id": "ponts-couverts",
+   "nom": "Ponts Couverts et barrage Vauban",
+   "emoji": "🌉",
+   "type": "vue",
+   "quartier": "Petite France",
+   "lat": 48.579602,
+   "lng": 7.738,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Ponts et terrasse panoramique du barrage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi : depuis la terrasse du barrage, le soleil éclaire les tours et la cathédrale en face",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Trois ponts gardés par quatre tours massives du XIIIe siècle, vestiges des anciens remparts. Juste derrière, montez sur le toit du barrage Vauban : sa terrasse offre gratuitement la plus belle vue de Strasbourg, avec les canaux de la Petite France au premier plan et la flèche de la cathédrale au fond.",
+   "site_officiel": "https://www.visitstrasbourg.fr/",
+   "note": "La terrasse du barrage est ouverte en journée seulement.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Aloïs Peiffer",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_Ponts_couverts_au_coucher_du_soleil.jpg",
+    "src": "img/activites/SXB/ponts-couverts.jpg"
+   }
+  },
+  {
+   "id": "batorama",
+   "nom": "Promenade en bateau sur l'Ill",
+   "emoji": "⛴️",
+   "type": "balade",
+   "quartier": "Embarcadère du palais Rohan",
+   "lat": 48.580448,
+   "lng": 7.751807,
+   "prix": 16.2,
+   "prix_detail": [
+    [
+     "Adulte (circuit de 1 h 10)",
+     "16,20 €"
+    ],
+    [
+     "De 13 à 17 ans",
+     "14,70 €"
+    ],
+    [
+     "De 4 à 12 ans",
+     "8,90 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "0,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16.2,
+    "enfants": [
+     [
+      3,
+      0.5
+     ],
+     [
+      12,
+      8.9
+     ],
+     [
+      17,
+      14.7
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant ; deux à trois semaines avant pour un week-end de marché de Noël",
+   "duree": "1 h 10",
+   "moment": "En fin de journée ; en décembre et le week-end, les bateaux affichent complet",
+   "enfants": true,
+   "texte": "La meilleure façon de comprendre la ville : en 1 h 10, le bateau fait le tour de la Grande Île, passe les écluses de la Petite France, longe les Ponts Couverts puis remonte jusqu'au Parlement européen, à travers le quartier impérial allemand. Commentaire dans les écouteurs, avec une version pour les enfants.",
+   "site_officiel": "https://www.batorama.com/",
+   "note": "Bateaux couverts et chauffés l'hiver, découverts l'été. Départ au pied du palais Rohan.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sami Mlouhi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bateau-promenade_-_Bateau-mouche_-_BATORAMA_-_Petite_France_-_Strasbourg.jpg",
+    "src": "img/activites/SXB/batorama.jpg"
+   }
+  },
+  {
+   "id": "grande-ile",
+   "nom": "Place Kléber, place Gutenberg et maison Kammerzell",
+   "emoji": "🚶",
+   "type": "balade",
+   "quartier": "Grande Île",
+   "lat": 48.583311,
+   "lng": 7.745962,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En journée ; en décembre, le grand sapin illumine la place Kléber dès la tombée de la nuit",
+   "enfants": true,
+   "texte": "Le cœur historique de Strasbourg tient sur une île, classée au patrimoine mondial de l'Unesco. De la grande place Kléber à la statue de Gutenberg, puis jusqu'au parvis de la cathédrale par la rue Mercière, tout se fait à pied. Devant la cathédrale, la maison Kammerzell et ses 75 fenêtres sculptées est la plus belle maison à colombages de la ville.",
+   "site_officiel": "https://www.visitstrasbourg.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "hesdes",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Place_Kl%C3%A9ber_on_a_rainy_day.jpg",
+    "src": "img/activites/SXB/grande-ile.jpg"
+   }
+  },
+  {
+   "id": "palais-rohan",
+   "nom": "Palais Rohan",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Grande Île",
+   "lat": 48.581007,
+   "lng": 7.752646,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Un musée (Arts décoratifs, Beaux-Arts ou Archéologique)",
+     "9 €"
+    ],
+    [
+     "Tarif réduit",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass palais Rohan (les 3 musées)",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Tous les jours sauf le mardi, de 10 h à 13 h et de 14 h à 18 h (sans coupure le week-end)",
+   "enfants": true,
+   "texte": "Un petit Versailles au bord de l'Ill, bâti pour les princes-évêques de Rohan et achevé en 1742. Louis XV, Marie-Antoinette et Napoléon y ont dormi. On visite les grands appartements, restés dans leur décor d'origine (musée des Arts décoratifs), puis les Beaux-Arts à l'étage, de Botticelli à Goya, et l'Archéologie au sous-sol.",
+   "site_officiel": "https://www.musees.strasbourg.eu/",
+   "note": "En décembre 2026, une patinoire s'installe dans la cour du palais pour le marché de Noël.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "JoachimKohler-HB",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ausflugsboote_auf_der_Ill_vor_Palais_Rohan,_Strasbourg.jpg",
+    "src": "img/activites/SXB/palais-rohan.jpg"
+   }
+  },
+  {
+   "id": "oeuvre-notre-dame",
+   "nom": "Musée de l'Œuvre Notre-Dame",
+   "emoji": "🗿",
+   "type": "culture",
+   "quartier": "Grande Île",
+   "lat": 48.580869,
+   "lng": 7.751294,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Plein tarif",
+     "9 €"
+    ],
+    [
+     "Tarif réduit",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass 1 jour, tous les musées",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du mardi au dimanche, de 10 h à 13 h et de 14 h à 18 h (sans coupure le week-end) ; juste après la cathédrale",
+   "enfants": true,
+   "texte": "Les plus belles statues de la cathédrale sont ici, à l'abri : l'Église et la Synagogue, les Vierges sages et les Vierges folles, vues de tout près. Sept siècles d'art du Rhin dans de vieilles maisons autour d'un jardin médiéval, avec les dessins d'origine des bâtisseurs de la cathédrale.",
+   "site_officiel": "https://www.musees.strasbourg.eu/",
+   "note": "Tarif réduit sur présentation du billet de la plateforme de la cathédrale.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mister No",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l%27%C5%92uvre_Notre-Dame_-_panoramio.jpg",
+    "src": "img/activites/SXB/oeuvre-notre-dame.jpg"
+   }
+  },
+  {
+   "id": "mamcs",
+   "nom": "Musée d'Art moderne et contemporain",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Petite France (rive gauche)",
+   "lat": 48.57948,
+   "lng": 7.7361,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Plein tarif",
+     "9 €"
+    ],
+    [
+     "Tarif réduit",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass 1 jour, tous les musées",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche, de 10 h à 13 h et de 14 h à 18 h (sans coupure le week-end) ; finissez par la terrasse",
+   "enfants": true,
+   "texte": "Une grande nef de verre posée au bord de l'Ill, face aux Ponts Couverts. À l'intérieur : les toiles géantes de Gustave Doré, né à Strasbourg, puis Monet, Kandinsky, Picasso et Jean Arp. Depuis la terrasse du café, la vue sur la Petite France et la cathédrale vaut à elle seule le détour.",
+   "site_officiel": "https://www.musees.strasbourg.eu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rémi LEBLOND",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg-RemiLeblond-ENA-MAMC2.jpg",
+    "src": "img/activites/SXB/mamcs.jpg"
+   }
+  },
+  {
+   "id": "musee-historique",
+   "nom": "Musée historique",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Grande Île",
+   "lat": 48.579946,
+   "lng": 7.750768,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Plein tarif",
+     "9 €"
+    ],
+    [
+     "Tarif réduit",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass 1 jour, tous les musées",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du mardi au dimanche, de 10 h à 13 h et de 14 h à 18 h (sans coupure le week-end)",
+   "enfants": true,
+   "texte": "L'histoire mouvementée d'une ville tour à tour libre, française, allemande puis capitale de l'Europe, racontée dans les anciennes grandes boucheries du XVIe siècle. Pièce maîtresse : une immense maquette de Strasbourg en 1727. Parcours vivant, avec audioguide compris, armures à essayer et jeux pour les enfants.",
+   "site_officiel": "https://www.musees.strasbourg.eu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maison_de_poup%C3%A9es-Vers_1680-Mus%C3%A9e_historique_de_Strasbourg_(d%C3%A9tail).jpg",
+    "src": "img/activites/SXB/musee-historique.jpg"
+   }
+  },
+  {
+   "id": "tomi-ungerer",
+   "nom": "Musée Tomi Ungerer",
+   "emoji": "✏️",
+   "type": "culture",
+   "quartier": "Neustadt",
+   "lat": 48.585709,
+   "lng": 7.755037,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Plein tarif",
+     "9 €"
+    ],
+    [
+     "Tarif réduit",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass 1 jour, tous les musées",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Du mardi au dimanche, de 10 h à 13 h et de 14 h à 18 h (sans coupure le week-end)",
+   "enfants": true,
+   "texte": "Dans une villa blanche de la Neustadt, l'univers de Tomi Ungerer, enfant de Strasbourg devenu l'un des grands dessinateurs du XXe siècle : les originaux des « Trois Brigands » et de « Jean de la Lune » pour les enfants, les affiches et les dessins satiriques pour les grands. Les accrochages changent trois fois par an.",
+   "site_officiel": "https://www.musees.strasbourg.eu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Claude Truong-Ngoc",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_Mus%C3%A9e_Tomi_Ungerer_d%C3%A9cembre_2012.JPG",
+    "src": "img/activites/SXB/tomi-ungerer.jpg"
+   }
+  },
+  {
+   "id": "musee-zoologique",
+   "nom": "Musée zoologique",
+   "emoji": "🦣",
+   "type": "culture",
+   "quartier": "Esplanade (université)",
+   "lat": 48.582943,
+   "lng": 7.764561,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Plein tarif",
+     "9 €"
+    ],
+    [
+     "Tarif réduit",
+     "5 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Pass 1 jour, tous les musées",
+     "20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Du mardi au dimanche, de 10 h à 13 h et de 14 h à 18 h (sans coupure le week-end) ; parfait un jour de pluie",
+   "enfants": true,
+   "texte": "Rouvert après six ans de travaux, c'est le musée préféré des enfants : des milliers d'animaux naturalisés, des squelettes de baleine et d'éléphant, des oiseaux et des insectes de toutes les couleurs, présentés de façon moderne et ludique dans un beau bâtiment universitaire de 1893.",
+   "site_officiel": "https://www.musees.strasbourg.eu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_zoologique_de_Strasbourg.JPG",
+    "src": "img/activites/SXB/musee-zoologique.jpg"
+   }
+  },
+  {
+   "id": "neustadt",
+   "nom": "La Neustadt, le quartier impérial",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Neustadt",
+   "lat": 48.586241,
+   "lng": 7.754499,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En journée ; au printemps, les magnolias de la place de la République sont en fleurs",
+   "enfants": true,
+   "texte": "Après 1871, l'Empire allemand veut faire de Strasbourg une vitrine : il bâtit une ville neuve aux larges avenues, aujourd'hui classée à l'Unesco. Autour de la place de la République se dressent le palais du Rhin, construit pour l'empereur, la Bibliothèque nationale et universitaire et l'opéra ; un peu plus loin, les deux flèches de l'église Saint-Paul se reflètent dans l'Ill.",
+   "site_officiel": "https://www.visitstrasbourg.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Morio60",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_(Bas-Rhin)_-_Neustadt_-_Place_de_la_R%C3%A9publique_-_D%C3%A9tente_devant_le_Palais_du_Rhin_-_52301777612.jpg",
+    "src": "img/activites/SXB/neustadt.jpg"
+   }
+  },
+  {
+   "id": "orangerie",
+   "nom": "Parc de l'Orangerie",
+   "emoji": "🌳",
+   "type": "nature",
+   "quartier": "Orangerie",
+   "lat": 48.592538,
+   "lng": 7.774807,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Aux beaux jours ; les cigognes nichent dans le parc de février à août",
+   "enfants": true,
+   "texte": "Le plus grand et le plus ancien parc de Strasbourg, face au Conseil de l'Europe. On y vient pour les cigognes, emblème de l'Alsace, qui nichent par dizaines au sommet des arbres, pour le pavillon Joséphine, le petit lac où l'on rame en barque l'été et les grandes pelouses où pique-niquer.",
+   "site_officiel": "https://www.strasbourg.eu/",
+   "note": "Tram E, arrêt « Droits de l'Homme », à 15 minutes du centre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Guilhem Vellut from Annecy, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parc_de_l%27Orangerie_@_Strasbourg_(31746229648).jpg",
+    "src": "img/activites/SXB/orangerie.jpg"
+   }
+  },
+  {
+   "id": "parlement",
+   "nom": "Parlement européen",
+   "emoji": "🇪🇺",
+   "type": "culture",
+   "quartier": "Quartier européen",
+   "lat": 48.597476,
+   "lng": 7.769891,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite avec guide multimédia et Parlamentarium",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du lundi au vendredi de 9 h à 18 h, le samedi de 9 h 30 à 12 h et de 13 h à 18 h (dernière entrée à 17 h) ; fermé le dimanche",
+   "enfants": true,
+   "texte": "Strasbourg est l'une des capitales de l'Europe : on entre gratuitement dans le grand vaisseau de verre du Parlement, on découvre l'hémicycle où siègent les 720 députés et, au Parlamentarium Simone-Veil, un cinéma à 360° et des écrans interactifs expliquent simplement comment se décide l'Europe.",
+   "site_officiel": "https://visiting.europarl.europa.eu/fr/visitor-offer/strasbourg",
+   "note": "Carte d'identité ou passeport obligatoire (l'original, pas une photo). Contrôle de sécurité à l'entrée ; pas de valise. Pour assister à un débat pendant une session, il faut s'inscrire à l'avance.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+    "src": "img/activites/SXB/parlement.jpg"
+   }
+  },
+  {
+   "id": "deux-rives",
+   "nom": "Jardin des Deux Rives et passerelle vers l'Allemagne",
+   "emoji": "🌉",
+   "type": "balade",
+   "quartier": "Port du Rhin",
+   "lat": 48.568696,
+   "lng": 7.800598,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Tram D jusqu'à Kehl (ticket)",
+     "≈ 2 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Aux beaux jours, en fin d'après-midi ; tram D, arrêt « Port du Rhin »",
+   "enfants": true,
+   "texte": "Changer de pays à pied, sans montrer de passeport : la passerelle des Deux Rives enjambe le Rhin entre Strasbourg et Kehl, en Allemagne. Au milieu, une plateforme pour s'arrêter au-dessus du fleuve, un pied de chaque côté de la frontière. De part et d'autre, un grand jardin de pelouses et de jeux pour les enfants.",
+   "site_officiel": "https://www.strasbourg.eu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Flocci Nivis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20180915Jardin_des_Deux_Rives_01.jpg",
+    "src": "img/activites/SXB/deux-rives.jpg"
+   }
+  },
+  {
+   "id": "marche-noel",
+   "nom": "Marché de Noël (Christkindelsmärik)",
+   "emoji": "🎄",
+   "type": "sortir",
+   "quartier": "Grande Île",
+   "lat": 48.58533,
+   "lng": 7.750454,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Vin chaud",
+     "≈ 4 à 5 € (+ consigne du gobelet)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "3 h",
+   "moment": "Du 27 novembre au 24 décembre 2026 ; en semaine et dès l'ouverture pour éviter la foule, à la nuit tombée pour les illuminations",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le plus ancien marché de Noël de France, né en 1570 : plus de 300 chalets répartis sur une dizaine de places, de la place Broglie au parvis de la cathédrale, un sapin géant place Kléber et des rues entières couvertes de décorations. Odeurs de vin chaud, de pain d'épices et de bredele : en décembre, Strasbourg devient la « capitale de Noël ».",
+   "site_officiel": "https://noel.strasbourg.eu/",
+   "note": "Les hôtels sont pris d'assaut les week-ends de décembre : réservez plusieurs mois à l'avance. Contrôles de sécurité aux entrées de la Grande Île.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Claude Truong-Ngoc",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_Christkindelsm%C3%A4rik_30_nov_2014.jpg",
+    "src": "img/activites/SXB/marche-noel.jpg"
+   }
+  },
+  {
+   "id": "cave-hospices",
+   "nom": "Cave historique des Hospices",
+   "emoji": "🍷",
+   "type": "culture",
+   "quartier": "Hôpital civil",
+   "lat": 48.576805,
+   "lng": 7.748417,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Du lundi au vendredi de 8 h 30 à 12 h et de 13 h 30 à 17 h 30, le samedi de 9 h à 12 h 30 ; fermée le dimanche et les jours fériés",
+   "enfants": false,
+   "texte": "Sous l'hôpital de Strasbourg se cache une cave fondée en 1395, où les malades payaient autrefois leurs soins en vignes. Entre d'immenses foudres de chêne sculptés, on découvre un tonneau qui renferme l'un des plus vieux vins du monde, un blanc de 1472. La visite est gratuite et l'on peut repartir avec une bouteille des vignerons d'Alsace qui y élèvent encore leurs vins.",
+   "site_officiel": "https://www.vins-des-hospices-de-strasbourg.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "FrDr",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cave_historique_des_Hospices_de_Strasbourg_24.jpg",
+    "src": "img/activites/SXB/cave-hospices.jpg"
+   }
+  },
+  {
+   "id": "vaisseau",
+   "nom": "Le Vaisseau",
+   "emoji": "🚀",
+   "type": "culture",
+   "quartier": "Neudorf",
+   "lat": 48.572992,
+   "lng": 7.77217,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte et enfant dès 3 ans",
+     "12 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      17,
+      12
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets en ligne la veille pendant les vacances scolaires et les jours de pluie",
+   "duree": "3 h",
+   "moment": "Du mardi au dimanche ; en semaine hors vacances scolaires pour avoir de la place",
+   "enfants": true,
+   "texte": "Le paradis des 3-12 ans : un grand centre de découverte des sciences où tout se touche et s'essaie. On construit une maison sur un vrai chantier, on joue avec l'eau, on observe une fourmilière géante, on teste ses cinq sens. Les parents s'amusent autant que les enfants, et le jardin prolonge la visite aux beaux jours.",
+   "site_officiel": "https://www.levaisseau.com/",
+   "note": "Tram C ou E, arrêt « Winston Churchill ».",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tael",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frise_vaisseau.JPG",
+    "src": "img/activites/SXB/vaisseau.jpg"
+   }
+  },
+  {
+   "id": "bains-municipaux",
+   "nom": "Bains municipaux",
+   "emoji": "🏊",
+   "type": "bains",
+   "quartier": "Krutenau",
+   "lat": 48.583331,
+   "lng": 7.759634,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Espace aquatique (deux bassins)",
+     "≈ 6 €"
+    ],
+    [
+     "Avec l'espace bien-être (bains romains, saunas)",
+     "≈ 24 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "En semaine en journée ; le week-end, il y a parfois de l'attente à l'entrée",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Nager dans un monument : ouverts en 1908 et entièrement restaurés, les Bains municipaux ont gardé leurs bassins sous verrière, leurs cabines en bois, leurs mosaïques et leurs robinets de laiton. À côté des deux piscines, les bains romains et les saunas d'époque forment l'un des plus beaux décors Art nouveau de la ville.",
+   "site_officiel": "https://www.strasbourg.eu/",
+   "note": "Maillot de bain obligatoire (short de bain interdit) ; bonnet conseillé.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Schlosser Saunal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bains_municipaux_10_boulevard_de_la_Victoire_%C3%A0_Strasbourg_(6).jpg",
+    "src": "img/activites/SXB/bains-municipaux.jpg"
+   }
+  },
+  {
+   "id": "saint-thomas",
+   "nom": "Église Saint-Thomas",
+   "emoji": "🎹",
+   "type": "culture",
+   "quartier": "Petite France",
+   "lat": 48.579819,
+   "lng": 7.745483,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En journée, en chemin vers la Petite France ; l'église ferme pendant les cultes",
+   "enfants": true,
+   "texte": "La « cathédrale du protestantisme alsacien » abrite deux trésors : le spectaculaire tombeau baroque du maréchal de Saxe, sculpté par Pigalle, et un orgue Silbermann sur lequel le jeune Mozart a joué en 1778. Une halte paisible à deux pas des canaux.",
+   "site_officiel": "https://www.saint-thomas-strasbourg.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chabe01",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_%C3%89glise_St_Thomas_Strasbourg_7.jpg",
+    "src": "img/activites/SXB/saint-thomas.jpg"
+   }
+  },
+  {
+   "id": "velo",
+   "nom": "Strasbourg à vélo",
+   "emoji": "🚲",
+   "type": "sport",
+   "quartier": "Toute la ville (départ de la gare)",
+   "lat": 48.585293,
+   "lng": 7.733925,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Vélo Vélhop à la journée",
+     "7 €"
+    ],
+    [
+     "Vélo enfant",
+     "6 €"
+    ],
+    [
+     "Vélo électrique",
+     "14 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [
+     [
+      12,
+      6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Aux beaux jours ; le dimanche matin, les quais sont très calmes",
+   "enfants": true,
+   "texte": "Strasbourg est la première ville cyclable de France, avec plus de 600 km de pistes : ici, tout le monde roule à vélo. Louez-en un à la journée et suivez les quais de l'Ill jusqu'au parc de l'Orangerie et au Parlement européen, ou filez jusqu'au Rhin et en Allemagne par la passerelle des Deux Rives. Tout est plat.",
+   "site_officiel": "https://www.velhop.strasbourg.eu/",
+   "note": "Boutique Vélhop à la gare ; pièce d'identité et caution demandées.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "John Samuel",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:V%C3%A9lo_-_V%C3%A9lhop,_Strasbourg_01.jpg",
+    "src": "img/activites/SXB/velo.jpg"
+   }
+  },
+  {
+   "id": "racing",
+   "nom": "Match du Racing Club de Strasbourg",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade de la Meinau",
+   "lat": 48.559948,
+   "lng": 7.755122,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Billet de Ligue 1",
+     "≈ 15 à 60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "dès l'ouverture de la vente : la Meinau joue presque toujours à guichets fermés",
+   "duree": "3 h",
+   "moment": "Soir de match : arrivez une heure avant pour les chants du kop",
+   "enfants": true,
+   "club": "RC Strasbourg",
+   "texte": "Le Racing, c'est une affaire de cœur pour toute l'Alsace : un stade à l'anglaise, plein à chaque match, où les tribunes collées à la pelouse chantent sans s'arrêter. L'une des plus belles ambiances de Ligue 1, à 15 minutes du centre en tram.",
+   "site_officiel": "https://www.rcstrasbourgalsace.fr/",
+   "note": "Achetez uniquement sur la billetterie officielle du club. Tram A ou E, arrêt « Krimmeri – Stade de la Meinau ».",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Xaviyeah",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Meinau_en_National.jpg",
+    "src": "img/activites/SXB/racing.jpg"
+   }
+  },
+  {
+   "id": "sig",
+   "nom": "Match de basket de la SIG",
+   "emoji": "🏀",
+   "type": "sport",
+   "quartier": "Wacken (Rhénus Sport)",
+   "lat": 48.5958,
+   "lng": 7.7568,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 10 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; plus tôt pour les grosses affiches",
+   "duree": "2 h 30",
+   "moment": "Les soirs et week-ends de match, d'octobre à mai",
+   "enfants": true,
+   "club": "SIG Strasbourg",
+   "texte": "La SIG Strasbourg, championne de France en 2005, joue en première division dans la salle du Rhénus, à deux pas du Parlement européen. Une salle chaude, des places bon marché et un spectacle rapide : une soirée sportive facile, même avec des enfants.",
+   "site_officiel": "https://www.sigstrasbourg.fr/",
+   "note": "Tram B ou E, arrêt « Wacken ».",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tux 67",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rhenus_Sport_2013.jpg",
+    "src": "img/activites/SXB/sig.jpg"
+   }
+  },
+  {
+   "id": "colmar",
+   "nom": "Colmar et sa Petite Venise",
+   "emoji": "🏘️",
+   "type": "nature",
+   "quartier": "Colmar (30 min en train)",
+   "lat": 48.074094,
+   "lng": 7.359329,
+   "prix": 28,
+   "prix_detail": [
+    [
+     "Train Strasbourg-Colmar aller-retour",
+     "≈ 28 €"
+    ],
+    [
+     "Musée Unterlinden (retable d'Issenheim)",
+     "≈ 13 €"
+    ],
+    [
+     "Promenade en barque sur la Lauch",
+     "≈ 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 28,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      14
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "En semaine ; au printemps pour les fleurs, en décembre pour ses marchés de Noël (trains bondés le week-end)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La petite ville qui aurait inspiré les décors du « Château ambulant » : des maisons à colombages de toutes les couleurs, des canaux fleuris où l'on glisse en barque, des enseignes en fer forgé. Colmar se parcourt à pied en une journée, de la Petite Venise à la maison Pfister, avec le célèbre retable d'Issenheim au musée Unterlinden.",
+   "site_officiel": "https://www.tourisme-colmar.com/",
+   "note": "Trains toutes les demi-heures environ depuis la gare de Strasbourg ; le centre ancien est à 15 minutes à pied de la gare de Colmar.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Krzysztof Golik",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Little_Venice_in_Colmar_01.jpg",
+    "src": "img/activites/SXB/colmar.jpg"
+   }
+  },
+  {
+   "id": "haut-koenigsbourg",
+   "nom": "Château du Haut-Kœnigsbourg",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Orschwiller (1 h de Strasbourg)",
+   "lat": 48.249382,
+   "lng": 7.343941,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "12 €"
+    ],
+    [
+     "De 6 à 17 ans",
+     "8 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ],
+    [
+     "Train jusqu'à Sélestat aller-retour",
+     "≈ 20 €"
+    ],
+    [
+     "Navette Sélestat-château (par trajet)",
+     "3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      8
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets en ligne pour éviter la file les week-ends et pendant les vacances",
+   "duree": "Journée",
+   "moment": "Par temps clair, pour la vue ; la navette depuis la gare de Sélestat circule de mars à décembre selon un calendrier (à vérifier avant de partir)",
+   "enfants": true,
+   "texte": "Un vrai château fort de livre d'images, perché à 757 mètres sur un éperon des Vosges : pont-levis, donjon, salle d'armes, canons et chemin de ronde. Restauré par l'empereur Guillaume II il y a un siècle, il domine toute la plaine d'Alsace, et par beau temps on voit jusqu'à la Forêt-Noire et aux Alpes.",
+   "site_officiel": "https://www.haut-koenigsbourg.fr/",
+   "note": "Entrée gratuite le premier dimanche du mois, de novembre à mars. Avec le billet de la navette, l'entrée du château est à tarif réduit.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzen92",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vue_du_ch%C3%A2teau_du_Haut-Koenigsbourg_(Orschwiller).jpg",
+    "src": "img/activites/SXB/haut-koenigsbourg.jpg"
+   }
+  },
+  {
+   "id": "obernai",
+   "nom": "Obernai et la route des vins",
+   "emoji": "🍇",
+   "type": "nature",
+   "quartier": "Obernai (30 min en train)",
+   "lat": 48.462067,
+   "lng": 7.482453,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Train Strasbourg-Obernai aller-retour",
+     "≈ 15 €"
+    ],
+    [
+     "Dégustation chez un vigneron",
+     "souvent offerte si l'on achète"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      8
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "D'avril à octobre ; en septembre et octobre, les vignes sont dorées et c'est le temps des vendanges",
+   "enfants": true,
+   "texte": "Le village alsacien tel qu'on l'imagine, à une demi-heure de train : une place du marché entourée de maisons à colombages, un beffroi, des remparts fleuris et un puits Renaissance. Derrière les toits commencent les vignes de la route des vins d'Alsace : on grimpe en vingt minutes au belvédère du mont National pour voir toute la plaine.",
+   "site_officiel": "https://www.tourisme-obernai.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Hermann Luyken",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2010.05.29.155206_Place_du_March%C3%A9_Obernai_FR.jpg",
+    "src": "img/activites/SXB/obernai.jpg"
+   }
+  },
+  {
+   "id": "europa-park",
+   "nom": "Europa-Park",
+   "emoji": "🎢",
+   "type": "sortir",
+   "quartier": "Rust, Allemagne (50 min de Strasbourg)",
+   "lat": 48.264986,
+   "lng": 7.720728,
+   "prix": 67,
+   "prix_detail": [
+    [
+     "Adulte (dès 12 ans), billet daté en ligne",
+     "67 à 76 € selon la date"
+    ],
+    [
+     "De 4 à 11 ans",
+     "56,50 à 65 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 67,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      56.5
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet daté à acheter en ligne à l'avance : les jours pleins ne sont plus vendus et il n'y a pas toujours de caisse sur place",
+   "duree": "Journée",
+   "moment": "En semaine hors vacances scolaires ; saison d'hiver du 28 novembre 2026 au 9 janvier 2027 (fermé les 24 et 25 décembre), puis réouverture au printemps",
+   "enfants": true,
+   "texte": "Le meilleur parc d'attractions d'Europe, élu plusieurs fois meilleur parc du monde, est à moins d'une heure de Strasbourg : plus de cent attractions réparties dans des quartiers qui reproduisent les pays d'Europe, des montagnes russes géantes comme Silver Star et Voltron aux manèges pour les tout-petits.",
+   "site_officiel": "https://www.europapark.de/fr",
+   "note": "En voiture (50 min) ou en train jusqu'à Ringsheim, puis bus jusqu'au parc. Le prix dépend de la date choisie.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gzen92",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Silver_Star_et_train_(Rust)_(3).jpg",
+    "src": "img/activites/SXB/europa-park.jpg"
+   }
+  },
+  {
+   "id": "chateau-vodou",
+   "nom": "Château Vodou",
+   "emoji": "🗿",
+   "type": "culture",
+   "quartier": "Gare",
+   "lat": 48.580415,
+   "lng": 7.728699,
+   "prix": 14,
+   "prix_detail": [
+    [
+     "Adulte",
+     "14 €"
+    ],
+    [
+     "De 11 à 25 ans",
+     "11 €"
+    ],
+    [
+     "De 6 à 10 ans",
+     "8 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 14,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      10,
+      8
+     ],
+     [
+      17,
+      11
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Tous les jours de 14 h à 18 h, jours fériés compris",
+   "enfants": true,
+   "texte": "Le musée le plus étonnant de Strasbourg : dans un ancien château d'eau de 1878, près de la gare, la plus grande collection privée d'objets vodou d'Afrique de l'Ouest au monde. Statues, amulettes et autels racontent, sur trois étages, une religion bien éloignée des clichés de cinéma.",
+   "site_officiel": "https://www.chateau-vodou.com/",
+   "note": "Conseillé à partir de 6 ans : certains objets peuvent impressionner les plus petits.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chateau.vodou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Vodou.jpg",
+    "src": "img/activites/SXB/chateau-vodou.jpg"
+   }
+  },
+  {
+   "id": "krutenau",
+   "nom": "Soirée place du Marché-Gayot et à la Krutenau",
+   "emoji": "🍻",
+   "type": "sortir",
+   "quartier": "Grande Île / Krutenau",
+   "lat": 48.582644,
+   "lng": 7.753206,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Bière pression ou verre de vin d'Alsace",
+     "≈ 4 à 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de journée pour l'apéritif ; les terrasses sont pleines dès les premiers beaux jours",
+   "enfants": false,
+   "texte": "Derrière la cathédrale, la petite place du Marché-Gayot est le salon à ciel ouvert des Strasbourgeois : une cour pavée entourée de terrasses, sans voitures. De l'autre côté de l'Ill, la Krutenau, le quartier étudiant, aligne les bars à bières artisanales, les caves à vin d'Alsace et les petites salles de concert.",
+   "site_officiel": "https://www.visitstrasbourg.fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Place_du_March%C3%A9_Gayot-Strasbourg_(1).jpg",
+    "src": "img/activites/SXB/krutenau.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "grande-ile",
+   "nom": "Grande Île et cathédrale",
+   "lat": 48.5825,
+   "lng": 7.7485,
+   "texte": "Le cœur historique, piéton : cathédrale, musées, winstubs et marché de Noël au pied de l'hôtel. Le meilleur choix pour un premier séjour, mais le plus cher."
+  },
+  {
+   "id": "petite-france",
+   "nom": "Petite France",
+   "lat": 48.5806,
+   "lng": 7.742,
+   "texte": "Le quartier des canaux et des maisons à colombages : le plus romantique, à 10 minutes à pied de la cathédrale et de la gare."
+  },
+  {
+   "id": "gare",
+   "nom": "Quartier de la gare",
+   "lat": 48.585107,
+   "lng": 7.734301,
+   "texte": "Pratique pour les excursions en train (Colmar, Obernai) et le train de l'aéroport (9 minutes), avec les prix les plus doux ; la Petite France est à 5 minutes à pied."
+  },
+  {
+   "id": "krutenau",
+   "nom": "Krutenau",
+   "lat": 48.577964,
+   "lng": 7.753357,
+   "texte": "Le quartier étudiant, vivant le soir : bars, bistrots créatifs et prix raisonnables, juste de l'autre côté de l'Ill, à 10 minutes à pied de la cathédrale."
+  },
+  {
+   "id": "neustadt",
+   "nom": "Neustadt et Orangerie",
+   "lat": 48.590294,
+   "lng": 7.755899,
+   "texte": "Le quartier impérial aux larges avenues, calme et élégant, entre la place de la République, le parc de l'Orangerie et les institutions européennes ; le centre est à 10 minutes en tram."
+  }
+ ],
+ "hotel_petit_prix_max": 90,
+ "restaurants": [
+  {
+   "id": "fignette",
+   "nom": "La Fignette",
+   "emoji": "🔥",
+   "gamme": "petit",
+   "genre": "Tartes flambées au feu de bois",
+   "quartier": "Petite France",
+   "adresse": "5 rue de la Vignette, 67000 Strasbourg",
+   "lat": 48.582461,
+   "lng": 7.742677,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "La tarte flambée comme en Alsace : pâte fine et croustillante, crème, oignons et lardons, cuite au feu de bois et servie sur une planche, à partager. Classique, gratinée, au munster ou sucrée aux pommes, on en commande une puis une autre. Ambiance de bistrot alsacien, juste à l'entrée de la Petite France.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; plusieurs jours avant le week-end et en décembre",
+   "photo": {
+    "auteur": "Lulu Durand",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_flamb%C3%A9e_alsacienne_514471722.jpg",
+    "src": "img/restos/SXB/fignette.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "meteor",
+   "nom": "Le Meteor",
+   "emoji": "🍺",
+   "gamme": "petit",
+   "genre": "Brasserie de la plus vieille bière d'Alsace",
+   "quartier": "Grande Île",
+   "adresse": "10 rue du 22-Novembre, 67000 Strasbourg",
+   "lat": 48.582727,
+   "lng": 7.741067,
+   "prix": "15 à 28 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La vitrine en ville de Meteor, la plus ancienne brasserie familiale de France, fondée en 1640 près de Strasbourg. Sous une grande verrière, une quinzaine de bières à la pression tirées directement des cuves, à accompagner de tartes flambées, de bretzels, de jarret ou de burgers. Grande terrasse, ambiance animée du midi à minuit.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir ; sans réservation en journée",
+   "photo": {
+    "auteur": "Cha già José from Vienna, Austria",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hochfelden_(_Bas-Rhin_),_brasserie_M%C3%A9t%C3%A9or.jpg",
+    "src": "img/restos/SXB/meteor.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tonton-gateau",
+   "nom": "Tonton Gâteau",
+   "emoji": "🍰",
+   "gamme": "petit",
+   "genre": "Pâtisserie, brunch et déjeuner maison",
+   "quartier": "Krutenau",
+   "adresse": "11 rue des Bouchers, 67000 Strasbourg",
+   "lat": 48.578386,
+   "lng": 7.751338,
+   "prix": "8 à 25 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un salon de thé chaleureux où tout est fait maison : gâteaux généreux en vitrine, cookies, granola, plats du jour et tartes salées le midi, brunch le samedi. L'adresse douce que les Strasbourgeois se recommandent pour une pause entre deux visites.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez pour le brunch du samedi ; en semaine, on trouve souvent une table",
+   "photo": {
+    "auteur": "Nick-D",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carrot_cake_at_Gabriel_Fitzroy_August_2022.jpg",
+    "src": "img/restos/SXB/tonton-gateau.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "houmous",
+   "nom": "Houmous & Co",
+   "emoji": "🧆",
+   "gamme": "petit",
+   "genre": "Cuisine libanaise maison",
+   "quartier": "Grande Île",
+   "adresse": "11 rue de la Division-Leclerc, 67000 Strasbourg",
+   "lat": 48.579894,
+   "lng": 7.747796,
+   "prix": "8 à 20 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Des assiettes libanaises copieuses et parfumées : houmous crémeux, falafels croustillants, chawarma de poulet, taboulé et feuilles de vigne, avec de nombreux choix végétariens et végans. Simple, rapide, délicieux et l'un des meilleurs rapports qualité-prix du centre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver ; un peu d'attente aux heures de pointe",
+   "photo": {
+    "auteur": "Charles Haynes from Hobart, Australia",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixed_Plate_(3186676853).jpg",
+    "src": "img/restos/SXB/houmous.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "velicious",
+   "nom": "Vélicious Burger",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers 100 % végétaux",
+   "quartier": "Krutenau",
+   "adresse": "18 rue des Bateliers, 67000 Strasbourg",
+   "lat": 48.579798,
+   "lng": 7.756096,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Des burgers entièrement végétaux qui plaisent même aux amateurs de viande : pains moelleux, steaks maison, frites croustillantes et glaces en dessert. Une petite adresse colorée et joyeuse, avec quelques tables dehors, face aux quais.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver",
+   "photo": {
+    "auteur": "Anna Korcheva",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vegan_burger_and_fried_sweet_potato._Kyiv,_Ukraine._2025.jpg",
+    "src": "img/restos/SXB/velicious.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "east-canteen",
+   "nom": "East Canteen",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Cantine asiatique à partager",
+   "quartier": "Krutenau",
+   "adresse": "2 place des Orphelins, 67000 Strasbourg",
+   "lat": 48.579132,
+   "lng": 7.754433,
+   "prix": "15 à 28 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Néons, tuyaux apparents et grandes tablées : une cantine asiatique branchée où l'on partage des raviolis gyoza, des aubergines laquées, du poulet frit coréen et des pad thaï. Plats faits maison, cocktails et terrasse sur une jolie place de la Krutenau.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir et le week-end",
+   "photo": {
+    "auteur": "nakashi from Chofu, Tokyo, JAPAN",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gyoza_(52769973678).jpg",
+    "src": "img/restos/SXB/east-canteen.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "yvonne",
+   "nom": "Chez Yvonne",
+   "emoji": "🥨",
+   "gamme": "moyen",
+   "genre": "Winstub alsacienne depuis 1873",
+   "quartier": "Grande Île",
+   "adresse": "10 rue du Sanglier, 67000 Strasbourg",
+   "lat": 48.582743,
+   "lng": 7.749451,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution",
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand Michelin",
+   "texte": "La winstub la plus célèbre de Strasbourg : boiseries sombres, nappes à carreaux, tables serrées où l'on mange au coude à coude. Choucroute, jarret braisé, coq au riesling et escargots, dans la plus pure tradition. Jacques Chirac et Helmut Kohl y avaient leurs habitudes.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant ; plusieurs semaines avant pour décembre",
+   "photo": {
+    "auteur": "Claude Truong-Ngoc",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Winstub_Chez_Yvonne_avril_2014_04.jpg",
+    "src": "img/restos/SXB/yvonne.jpg"
+   }
+  },
+  {
+   "id": "corde-a-linge",
+   "nom": "La Corde à Linge",
+   "emoji": "🧺",
+   "gamme": "moyen",
+   "genre": "Spaetzle et terrasse au bord de l'eau",
+   "quartier": "Petite France",
+   "adresse": "2 place Benjamin-Zix, 67000 Strasbourg",
+   "lat": 48.581197,
+   "lng": 7.74262,
+   "prix": "20 à 38 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La terrasse la plus photographiée de Strasbourg, au pied des maisons à colombages et au bord du canal, sur la plus jolie place de la Petite France. À la carte, la spécialité maison : les spaetzle, ces petites pâtes alsaciennes, servis en poêlée à toutes les sauces, mais aussi des burgers et de grandes salades.",
+   "reservation": "conseille",
+   "reservation_delai": "pas de réservation en terrasse aux beaux jours : venez tôt (avant 12 h ou 19 h)",
+   "photo": {
+    "auteur": "DimiTalen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Place_Benjamin_Zix,_Strasbourg,_2025.jpg",
+    "src": "img/restos/SXB/corde-a-linge.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "cloche-fromage",
+   "nom": "La Cloche à Fromage",
+   "emoji": "🧀",
+   "gamme": "moyen",
+   "genre": "Fondues et raclettes d'un maître fromager",
+   "quartier": "Grande Île",
+   "adresse": "27 rue des Tonneliers, 67000 Strasbourg",
+   "lat": 48.580689,
+   "lng": 7.748669,
+   "prix": "25 à 50 €",
+   "prix_min": 25,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le restaurant d'une grande famille de fromagers affineurs, avec au milieu de la salle une cloche à fromage géante, inscrite au livre des records. Fondues, raclettes et plateaux où l'on goûte des dizaines de fromages : une adresse réconfortante, surtout l'hiver.",
+   "reservation": "conseille",
+   "reservation_delai": "deux à trois jours avant ; une semaine avant en hiver",
+   "photo": {
+    "auteur": "EquatorialSky at English Wikipedia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Full_cheese_fondue_set_-_in_Switzerland.JPG",
+    "src": "img/restos/SXB/cloche-fromage.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "banquet-sophistes",
+   "nom": "Le Banquet des Sophistes",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Bistrot créatif de la Krutenau",
+   "quartier": "Krutenau",
+   "adresse": "5 rue d'Austerlitz, 67000 Strasbourg",
+   "lat": 48.578778,
+   "lng": 7.752048,
+   "prix": "23 à 74 €",
+   "prix_min": 23,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Le bistrot dont tout Strasbourg parle : une cuisine de saison inventive, fraîche et parfumée, aux touches venues d'ailleurs. Menu du déjeuner imbattable (23 € ou 29 €), carte plus travaillée le soir et menu dégustation en six plats à 74 €.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant : la salle est petite et toujours pleine",
+   "photo": {
+    "auteur": "Tilman2007",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2_Rue_d%27Austerlitz_Strasbourg_20200124_001.jpg",
+    "src": "img/restos/SXB/banquet-sophistes.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "blue-flamingo",
+   "nom": "Blue Flamingo",
+   "emoji": "🦩",
+   "gamme": "moyen",
+   "genre": "Restaurant flottant et toit-terrasse",
+   "quartier": "Presqu'île Malraux",
+   "adresse": "Presqu'île André-Malraux, 67000 Strasbourg",
+   "lat": 48.574158,
+   "lng": 7.759471,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "tendance",
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Un restaurant sur l'eau, amarré à la presqu'île Malraux : salle vitrée au ras des flots, cuisine ouverte et toit-terrasse aux airs de guinguette. Dans l'assiette, une cuisine moderne et colorée, pleine de saveurs du monde. Magique au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant ; plus tôt pour le toit-terrasse aux beaux jours",
+   "photo": {
+    "auteur": "Ralph Hammann",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_M%C3%A9diath%C3%A8que_01.JPG",
+    "src": "img/restos/SXB/blue-flamingo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "grand-tigre",
+   "nom": "Le Grand Tigre",
+   "emoji": "🐯",
+   "gamme": "moyen",
+   "genre": "Grande brasserie et rôtisserie",
+   "quartier": "Gare / Petite France",
+   "adresse": "5 rue du Faubourg-National, 67000 Strasbourg",
+   "lat": 48.582341,
+   "lng": 7.737287,
+   "prix": "22 à 40 €",
+   "prix_min": 22,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une brasserie mythique du Strasbourg d'autrefois, où l'on brassait la bière Tigre Bock, entièrement ressuscitée : immense salle sous verrière, cuves de cuivre, bière brassée sur place et grand jardin l'été. Dans l'assiette, volailles rôties à la broche, jarret et plats à partager.",
+   "reservation": "conseille",
+   "reservation_delai": "deux à trois jours avant pour le soir et le week-end",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roast_Chicken_-_Kitchen_Cafe_2023-06-10.jpg",
+    "src": "img/restos/SXB/grand-tigre.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "crocodile",
+   "nom": "Au Crocodile",
+   "emoji": "🐊",
+   "gamme": "haut",
+   "genre": "Grande table historique",
+   "quartier": "Grande Île",
+   "adresse": "10 rue de l'Outre, 67000 Strasbourg",
+   "lat": 48.583659,
+   "lng": 7.747497,
+   "prix": "110 à 170 € (menus)",
+   "prix_min": 110,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La grande maison de Strasbourg, où l'on dîne depuis plus de deux siècles sous le regard d'un crocodile empaillé, rapporté d'Égypte par un soldat de Napoléon. Salle élégante, service à l'ancienne et cuisine d'aujourd'hui, précise et raffinée, autour des beaux produits d'Alsace.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant ; plus tôt pour un samedi soir",
+   "photo": {
+    "auteur": "Claude Truong-Ngoc",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_10_rue_de_l%E2%80%99Outre_f%C3%A9vrier_2016.jpg",
+    "src": "img/restos/SXB/crocodile.jpg"
+   }
+  },
+  {
+   "id": "1741",
+   "nom": "1741",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Salons intimes face au palais Rohan",
+   "quartier": "Krutenau",
+   "adresse": "22 quai des Bateliers, 67000 Strasbourg",
+   "lat": 48.580539,
+   "lng": 7.753578,
+   "prix": "55 à 180 € (menus)",
+   "prix_min": 55,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Juste en face du palais Rohan, achevé en 1741, une maison étroite aux salons feutrés, répartis sur trois étages, pour un tête-à-tête. Menus surprise en plusieurs temps, cuisine fine et créative, belle carte de vins d'Alsace. Le menu du déjeuner, en semaine, est le plus accessible.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux semaines avant",
+   "photo": {
+    "auteur": "Coyau",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palais_Rohan_face_au_quai_des_Bateliers,_Strasbourg.jpg",
+    "src": "img/restos/SXB/1741.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "umami",
+   "nom": "Umami",
+   "emoji": "🥢",
+   "gamme": "haut",
+   "genre": "Cuisine française aux saveurs d'Asie",
+   "quartier": "Petite France",
+   "adresse": "8 rue des Dentelles, 67000 Strasbourg",
+   "lat": 48.580958,
+   "lng": 7.743086,
+   "prix": "78 à 95 € (menu unique)",
+   "prix_min": 78,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Une toute petite salle dans une ruelle de la Petite France, où le chef René Fieger cuisine seul un menu unique : des produits du marché, des bases classiques et des touches venues du Japon et de Thaïlande. Une version végétarienne est possible à la réservation.",
+   "reservation": "indispensable",
+   "reservation_delai": "trois semaines avant : une vingtaine de couverts seulement",
+   "photo": {
+    "auteur": "questa_ta",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_Petite_rue_des_Dentelles_(15716046400).jpg",
+    "src": "img/restos/SXB/umami.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "deja",
+   "nom": "de:ja",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine créative et locale, esprit nordique",
+   "quartier": "Orangerie",
+   "adresse": "1 rue Schimper, 67000 Strasbourg",
+   "lat": 48.587322,
+   "lng": 7.768598,
+   "prix": "128 à 158 € (menus)",
+   "prix_min": 128,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "La table la plus audacieuse de Strasbourg : décor scandinave épuré, produits venus des fermes et des forêts des environs, fermentations et cueillettes. Un menu en de nombreuses petites assiettes, surprenant d'un bout à l'autre, servi par une jeune équipe.",
+   "reservation": "indispensable",
+   "reservation_delai": "trois à quatre semaines avant",
+   "photo": {
+    "auteur": "cyclonebill",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Marv_med_syltede_gr%C3%B8ntsager.jpg",
+    "src": "img/restos/SXB/deja.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "buerehiesel",
+   "nom": "Buerehiesel",
+   "emoji": "🏡",
+   "gamme": "haut",
+   "genre": "Ferme à colombages dans le parc de l'Orangerie",
+   "quartier": "Orangerie",
+   "adresse": "4 parc de l'Orangerie, 67000 Strasbourg",
+   "lat": 48.591452,
+   "lng": 7.775452,
+   "prix": "55 à 145 € (menus)",
+   "prix_min": 55,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Une ferme à colombages du XVIIe siècle, remontée pièce par pièce au milieu du parc de l'Orangerie, avec une verrière ouverte sur les arbres. Le chef Éric Westermann y sert une cuisine de produits nobles, élégante et sans esbroufe. Menu du déjeuner à 55 € en semaine, dégustation à 145 €.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux semaines avant ; demandez une table sous la verrière",
+   "photo": {
+    "auteur": "Claude Truong-Ngoc",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg_restaurant_Le_Buerehiesel_juin_2014-1.jpg",
+    "src": "img/restos/SXB/buerehiesel.jpg"
+   }
+  },
+  {
+   "id": "haras",
+   "nom": "Brasserie Les Haras",
+   "emoji": "🐎",
+   "gamme": "haut",
+   "genre": "Brasserie chic dans les anciens haras royaux",
+   "quartier": "Petite France (sud)",
+   "adresse": "23 rue des Glacières, 67000 Strasbourg",
+   "lat": 48.577009,
+   "lng": 7.742461,
+   "prix": "42 à 80 €",
+   "prix_min": 42,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le décor le plus spectaculaire de la ville : les anciens haras royaux du XVIIIe siècle, avec leur charpente monumentale, un escalier en spirale de bois et de cuir et une cuisine ouverte. La carte, signée Marc Haeberlin, chef de la célèbre Auberge de l'Ill, revisite les classiques de brasserie avec élégance.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant ; deux à trois semaines avant en décembre",
+   "photo": {
+    "auteur": "Ji-Elle",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strasbourg-Brasserie_des_Haras_(4).jpg",
+    "src": "img/restos/SXB/haras.jpg"
+   }
+  }
+ ]
+}
