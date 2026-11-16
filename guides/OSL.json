@@ -1,0 +1,1796 @@
+{
+ "city_code": "OSL",
+ "ville": "Oslo",
+ "statut": "vérifié en autonomie, prix relevés le 16/11/2026 (1 € ≈ 10,57 NOK)",
+ "verifie_le": "2026-11-16",
+ "avant_de_partir": "Pas de visa : la Norvège fait partie de l'espace Schengen, une carte d'identité ou un passeport en cours de validité suffit (aussi pour les enfants, chacun avec sa propre pièce). On paie en couronnes norvégiennes, mais la carte bancaire est acceptée partout, même pour un café : inutile de changer de l'argent. Pensez à l'Oslo Pass (995 NOK ≈ 94 € pour 72 h) : transports et plus de 30 musées compris.",
+ "prix_match": 30,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "opera",
+   "nom": "Opéra d'Oslo (et son toit)",
+   "emoji": "🎭",
+   "type": "vue",
+   "quartier": "Bjørvika",
+   "lat": 59.907524,
+   "lng": 10.752681,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade sur le toit et entrée du hall",
+     "gratuit"
+    ],
+    [
+     "Visite guidée de l'intérieur (en anglais)",
+     "payante, sur réservation"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Au coucher du soleil, quand le marbre devient rose ; par temps de neige ou de verglas, le toit peut être fermé",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On marche sur le toit d'un opéra : le bâtiment sort du fjord comme un iceberg de marbre blanc, et ses pentes montent en douceur jusqu'au sommet, d'où l'on voit toute la ville et les îles. Le symbole d'Oslo, gratuit et ouvert à tous, à toute heure.",
+   "site_officiel": "https://operaen.no/en/",
+   "note": "La visite guidée (50 minutes) montre les coulisses, les ateliers de décors et la grande salle : places limitées, à réserver sur le site.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Beata May",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oslo_Opera_house_(2015)(2).jpg",
+    "src": "img/activites/OSL/opera.jpg"
+   }
+  },
+  {
+   "id": "munch",
+   "nom": "Musée MUNCH (« Le Cri »)",
+   "emoji": "😱",
+   "type": "culture",
+   "quartier": "Bjørvika",
+   "lat": 59.906,
+   "lng": 10.7553,
+   "prix": 20.8,
+   "prix_detail": [
+    [
+     "Adulte",
+     "à partir de 220 NOK ≈ 20,8 €"
+    ],
+    [
+     "Moins de 25 ans",
+     "100 NOK ≈ 9,46 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet à heure fixe, moins d'attente en ligne",
+   "duree": "2 h",
+   "moment": "En soirée du mercredi au samedi (ouvert jusqu'à 21 h) ; du dimanche au mardi, 10 h à 18 h",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus grande collection au monde d'un seul peintre, dans une tour de 13 étages penchée sur le fjord. « Le Cri » y est exposé en alternance (peinture, dessin, gravure), à tour de rôle toutes les heures, pour le protéger de la lumière. Montez jusqu'au dernier étage : la vue sur l'Opéra est à couper le souffle.",
+   "site_officiel": "https://www.munch.no/en/",
+   "note": "Gratuit avec l'Oslo Pass. La salle du « Cri » est au 4e étage : regardez sur place à quelle heure chaque version est dévoilée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Premeditated",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MUNCH_Museum_front_(2020)_4.jpg",
+    "src": "img/activites/OSL/munch.jpg"
+   }
+  },
+  {
+   "id": "musee-national",
+   "nom": "Musée national",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Vika",
+   "lat": 59.911628,
+   "lng": 10.728425,
+   "prix": 20.8,
+   "prix_detail": [
+    [
+     "Adulte",
+     "220 NOK ≈ 20,8 €"
+    ],
+    [
+     "Moins de 25 ans",
+     "100 NOK ≈ 9,46 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20.8,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Le mardi ou le mercredi soir (ouvert jusqu'à 20 h) ; fermé le lundi et du 24 au 26 décembre",
+   "enfants": true,
+   "texte": "Le plus grand musée d'art des pays nordiques, ouvert en 2022 face au fjord : la première version du « Cri » de Munch, les paysages de neige norvégiens, du design et de l'art contemporain. En haut, la Salle de lumière, une boîte d'albâtre qui s'illumine le soir au-dessus du port.",
+   "site_officiel": "https://www.nasjonalmuseet.no/en/",
+   "note": "Gratuit avec l'Oslo Pass. Un billet pour le Musée national et un autre pour MUNCH : les deux « Cri » méritent le détour.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wolfmann",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nasjonalmuseet_for_kunst,_arkitektur_og_design_(National_Museum_of_Norway_building_opened_2022)_fa%C3%A7ade_facing_northwest_Dronning_Mauds_gate_Operatunnelen_OSLO_Norway_2025-12-21_IMG_6184.jpg",
+    "src": "img/activites/OSL/musee-national.jpg"
+   }
+  },
+  {
+   "id": "vigeland",
+   "nom": "Parc Vigeland",
+   "emoji": "🗿",
+   "type": "balade",
+   "quartier": "Frogner",
+   "lat": 59.9271,
+   "lng": 10.7008,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc ouvert jour et nuit",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Tôt le matin pour les sculptures sans la foule, ou en fin d'après-midi ; ouvert toute l'année",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Plus de 200 sculptures d'un seul artiste, Gustav Vigeland, racontent la vie humaine de la naissance à la mort : bébés en colère, couples enlacés, vieillards, et au sommet un monolithe de 121 corps taillés dans un seul bloc de granit. Étrange, émouvant, et unique au monde.",
+   "site_officiel": "https://vigeland.museum.no/en",
+   "note": "Cherchez le « Sinnataggen », le petit garçon furieux qui tape du pied : c'est la statue la plus photographiée de Norvège. Tram 12 jusqu'à Vigelandsparken.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Christian David",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vigeland_Sculpture_Park_-_Granite_sculptures_on_the_staircase,_Oslo,_Norway.jpg",
+    "src": "img/activites/OSL/vigeland.jpg"
+   }
+  },
+  {
+   "id": "akershus",
+   "nom": "Forteresse et château d'Akershus",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Kvadraturen",
+   "lat": 59.906655,
+   "lng": 10.73635,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Remparts et jardins de la forteresse (6 h à 21 h)",
+     "gratuit"
+    ],
+    [
+     "Château (intérieur)",
+     "100 NOK ≈ 9,46 €"
+    ],
+    [
+     "Enfant (château)",
+     "40 NOK ≈ 3,78 €"
+    ],
+    [
+     "Famille (château)",
+     "250 NOK ≈ 23,7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin de journée pour la lumière sur le fjord ; horaires du château réduits en hiver",
+   "enfants": true,
+   "texte": "Une forteresse médiévale posée sur un rocher au bord de l'eau, en plein centre : on se promène librement sur les remparts, entre canons et pelouses, avec la plus belle vue sur l'Opéra et les bateaux. L'intérieur du château, avec sa chapelle royale et ses tombeaux, se visite à part.",
+   "site_officiel": "https://www.forsvarsbygg.no/no/festningene/finn-din-festning/akershus-festning/",
+   "note": "Entrée du château gratuite avec l'Oslo Pass. On y trouve aussi le musée de la Résistance norvégienne.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Falk2",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:I12_095_Akershus_Festning.jpg",
+    "src": "img/activites/OSL/akershus.jpg"
+   }
+  },
+  {
+   "id": "fram",
+   "nom": "Musée du Fram",
+   "emoji": "🧊",
+   "type": "culture",
+   "quartier": "Bygdøy",
+   "lat": 59.903362,
+   "lng": 10.699552,
+   "prix": 17.0,
+   "prix_detail": [
+    [
+     "Adulte",
+     "180 NOK ≈ 17 €"
+    ],
+    [
+     "Enfant",
+     "70 NOK ≈ 6,62 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.0,
+    "enfants": [
+     [
+      17,
+      6.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Ouvert tous les jours de l'année, de 10 h à 17 h ; en été, venez en bateau depuis l'hôtel de ville",
+   "enfants": true,
+   "texte": "On monte à bord du navire polaire le plus célèbre du monde, celui qui a emmené Amundsen vers le pôle Sud en 1911. Cabines, cuisine, couchettes : tout est d'origine, et le musée fait vivre le froid, les chiens de traîneau et la folie de ces expéditions.",
+   "site_officiel": "https://frammuseum.no/en/",
+   "note": "Gratuit avec l'Oslo Pass. Le musée Kon-Tiki est juste en face : faites les deux d'affilée. Bus 30 jusqu'à Bygdøynes.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Palickap",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oslo,_Fram_museum,_Fram_ship_(02).jpg",
+    "src": "img/activites/OSL/fram.jpg"
+   }
+  },
+  {
+   "id": "kon-tiki",
+   "nom": "Musée Kon-Tiki",
+   "emoji": "🛶",
+   "type": "culture",
+   "quartier": "Bygdøy",
+   "lat": 59.903506,
+   "lng": 10.698059,
+   "prix": 17.0,
+   "prix_detail": [
+    [
+     "Adulte",
+     "180 NOK ≈ 17 €"
+    ],
+    [
+     "Enfant de 6 à 17 ans",
+     "70 NOK ≈ 6,62 €"
+    ],
+    [
+     "Famille (2 adultes et jusqu'à 5 enfants)",
+     "400 NOK ≈ 37,8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.0,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      6.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Juste après le musée du Fram ; de septembre à avril, 10 h à 17 h",
+   "enfants": true,
+   "texte": "En 1947, Thor Heyerdahl a traversé le Pacifique sur un radeau de balsa pour prouver qu'on pouvait le faire : 8 000 km, 101 jours en mer. Le vrai radeau est là, à côté du bateau de papyrus Ra II, avec un requin-baleine sous vos pieds. Une aventure qui fait rêver petits et grands.",
+   "site_officiel": "https://www.kon-tiki.no/",
+   "note": "Gratuit avec l'Oslo Pass. Le film original de l'expédition, oscarisé, est projeté chaque jour à 12 h.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Yair-haklai",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ra_rafts_in_the_Kon-Tiki_museum.jpg",
+    "src": "img/activites/OSL/kon-tiki.jpg"
+   }
+  },
+  {
+   "id": "folkemuseum",
+   "nom": "Musée norvégien du folklore (église en bois debout)",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Bygdøy",
+   "lat": 59.9075,
+   "lng": 10.6855,
+   "prix": 18.9,
+   "prix_detail": [
+    [
+     "Adulte",
+     "200 NOK ≈ 18,9 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.9,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "En été (10 h à 17 h, tous les jours) ; en hiver, de 11 h à 16 h, fermé le lundi. Fermé le 1er janvier, le 17 mai et les 24 et 25 décembre",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un village norvégien entier en plein air : 160 maisons en rondins, fermes et greniers sur pilotis venus de tout le pays, et la vedette, une église en bois debout de 1200, sombre et sculptée de dragons. En été, des habitants en costume font le pain et la musique.",
+   "site_officiel": "https://norskfolkemuseum.no/en",
+   "note": "Gratuit avec l'Oslo Pass. À dix minutes à pied du Fram et du Kon-Tiki. En décembre, marché de Noël les week-ends.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Mortel from Riyadh, Saudi Arabia",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stave_church,_ca._1200,_Norsk_Folkemuseum,_Oslo_(2)_(35658470703).jpg",
+    "src": "img/activites/OSL/folkemuseum.jpg"
+   }
+  },
+  {
+   "id": "holmenkollen",
+   "nom": "Tremplin de Holmenkollen et musée du ski",
+   "emoji": "⛷️",
+   "type": "vue",
+   "quartier": "Holmenkollen (20 min en métro)",
+   "lat": 59.964449,
+   "lng": 10.666791,
+   "prix": 18.9,
+   "prix_detail": [
+    [
+     "Adulte (musée et sommet du tremplin)",
+     "200 NOK ≈ 18,9 €"
+    ],
+    [
+     "Enfant de 6 à 17 ans",
+     "100 NOK ≈ 9,46 €"
+    ],
+    [
+     "Famille (2 adultes et 3 enfants)",
+     "500 NOK ≈ 47,3 €"
+    ],
+    [
+     "Simulateur de saut à ski",
+     "130 NOK ≈ 12,3 € (enfant 75 NOK ≈ 7,1 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18.9,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      9.5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Par temps clair ; d'octobre à avril, 10 h à 16 h, de mai à septembre, 10 h à 17 h",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le tremplin de saut à ski le plus célèbre du monde domine Oslo à 400 mètres d'altitude. Un ascenseur incliné vous emmène tout en haut de la piste d'élan : vue vertigineuse sur la ville et le fjord, et l'on comprend d'un coup le courage des sauteurs. En bas, mille ans d'histoire du ski.",
+   "site_officiel": "https://holmenkollen.com/en/",
+   "note": "Gratuit avec l'Oslo Pass. Métro ligne 1 jusqu'à Holmenkollen, puis 10 minutes de montée à pied.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Holger Reichert",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Holmenkollbakken_stadium.jpg",
+    "src": "img/activites/OSL/holmenkollen.jpg"
+   }
+  },
+  {
+   "id": "palais-royal",
+   "nom": "Palais royal et relève de la garde",
+   "emoji": "👑",
+   "type": "balade",
+   "quartier": "Sentrum",
+   "lat": 59.917199,
+   "lng": 10.727633,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc du palais et relève de la garde",
+     "gratuit"
+    ],
+    [
+     "Visite guidée de l'intérieur (en été seulement)",
+     "environ 175 NOK ≈ 16,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Pour la relève de la garde, tous les jours à 13 h 30 ; l'intérieur ne se visite que de fin juin à mi-août",
+   "enfants": true,
+   "texte": "Au bout de l'avenue Karl Johan, le palais jaune pâle du roi Harald domine la ville sans grilles ni barrières : on se promène librement dans son grand parc. Chaque jour à 13 h 30, les gardes au chapeau à plumes noires changent de poste, avec la fanfare certains jours.",
+   "site_officiel": "https://www.royalcourt.no/",
+   "note": "Les visites de l'intérieur ont lieu l'été (du 20 juin au 16 août en 2026) et partent vite : billets en ligne dès leur mise en vente.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Geir Hval (www.MacWhale.eu)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Royal_Palace_Slottet_Oslo_Norway_(2022.04.11).jpg",
+    "src": "img/activites/OSL/palais-royal.jpg"
+   }
+  },
+  {
+   "id": "hotel-de-ville",
+   "nom": "Hôtel de ville (salle du prix Nobel de la paix)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Vika",
+   "lat": 59.912081,
+   "lng": 10.733725,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ],
+    [
+     "Visites guidées gratuites",
+     "en juillet et août"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée, de 9 h à 16 h ; parfois fermé pour une cérémonie",
+   "enfants": true,
+   "texte": "Deux tours de brique sur le port, et à l'intérieur une immense salle couverte de fresques géantes qui racontent l'histoire de la Norvège. C'est ici que le prix Nobel de la paix est remis chaque 10 décembre. On entre librement, et c'est l'un des plus beaux intérieurs du Nord.",
+   "site_officiel": "https://www.oslo.kommune.no/oslo-city-hall/",
+   "note": "Contrôle de sécurité à l'entrée. Fermé ou en accès limité lors des cérémonies (autour du 10 décembre notamment).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_grand_hall_de_lh%C3%B4tel_de_ville_dOslo_(4853550193).jpg",
+    "src": "img/activites/OSL/hotel-de-ville.jpg"
+   }
+  },
+  {
+   "id": "nobel",
+   "nom": "Centre Nobel de la paix",
+   "emoji": "🕊️",
+   "type": "culture",
+   "quartier": "Vika",
+   "lat": 59.911612,
+   "lng": 10.7304,
+   "prix": 17.0,
+   "prix_detail": [
+    [
+     "Adulte",
+     "180 NOK ≈ 17 €"
+    ],
+    [
+     "Étudiant",
+     "100 NOK ≈ 9,46 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Jusqu'au 12 décembre 2026",
+     "moitié prix (nouvelles expositions en préparation)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.0,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne conseillé, aussi en vente sur place",
+   "duree": "1 h 30",
+   "moment": "Le mercredi soir (ouvert jusqu'à 20 h) ; fermé le lundi et les 9 et 11 décembre",
+   "enfants": true,
+   "texte": "Dans l'ancienne gare de l'Ouest, face au port, le musée raconte chaque lauréat du prix Nobel de la paix, de Martin Luther King à Malala, et l'exposition du dernier prix change chaque année. Émouvant, moderne, et l'occasion de comprendre pourquoi ce prix se remet à Oslo.",
+   "site_officiel": "https://www.nobelpeacecenter.org/en",
+   "note": "Gratuit avec l'Oslo Pass. Visites guidées en anglais le week-end (30 minutes), à demander à l'accueil.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Images George Rex",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nobels_Fredssenter_%E2%80%93_Nobel_Peace_Center.jpg",
+    "src": "img/activites/OSL/nobel.jpg"
+   }
+  },
+  {
+   "id": "aker-brygge",
+   "nom": "Aker Brygge et Tjuvholmen",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "Aker Brygge",
+   "lat": 59.909928,
+   "lng": 10.725042,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade sur les quais",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi : les terrasses au soleil couchant, puis l'apéritif face aux voiliers",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'ancien chantier naval est devenu le quai le plus vivant d'Oslo : terrasses au ras de l'eau, voiliers, saunas flottants, puis, au bout, l'îlot de Tjuvholmen et ses immeubles d'architectes, avec un parc de sculptures et une petite plage. Le plus beau coucher de soleil de la ville.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "note": "Les restaurants du quai sont chers pour ce qu'ils servent : l'idéal est d'y boire un verre et de manger ailleurs.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "W. Bulach",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:0_7849_Oslo_-_Aker_Brygge_mit_Rathaus.jpg",
+    "src": "img/activites/OSL/aker-brygge.jpg"
+   }
+  },
+  {
+   "id": "astrup-fearnley",
+   "nom": "Musée Astrup Fearnley",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Tjuvholmen",
+   "lat": 59.906925,
+   "lng": 10.721938,
+   "prix": 17.0,
+   "prix_detail": [
+    [
+     "Adulte",
+     "180 NOK ≈ 17 €"
+    ],
+    [
+     "Moins de 20 ans",
+     "gratuit"
+    ],
+    [
+     "Pendant les changements d'exposition",
+     "130 NOK ≈ 12,3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 17.0,
+    "enfants": [
+     [
+      19,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Le jeudi (ouvert jusqu'à 19 h) ; fermé le lundi. Du mardi au vendredi à partir de 12 h, le week-end dès 11 h",
+   "enfants": true,
+   "texte": "Art contemporain international (Jeff Koons, Damien Hirst, Cindy Sherman) sous un grand toit de verre en forme de voile signé Renzo Piano, les pieds dans le fjord. De novembre 2026 à avril 2027 : le peintre norvégien Pushwagner et ses visions de la vie moderne.",
+   "site_officiel": "https://www.afmuseet.no/en/",
+   "note": "Gratuit avec l'Oslo Pass. Le parc de sculptures et la petite plage devant le musée sont en accès libre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Benson Kua",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Astrup_Fearnley_Museum_of_Modern_Art_(15500056116).jpg",
+    "src": "img/activites/OSL/astrup-fearnley.jpg"
+   }
+  },
+  {
+   "id": "croisiere-fjord",
+   "nom": "Croisière silencieuse sur le fjord",
+   "emoji": "⛴️",
+   "type": "nature",
+   "quartier": "Départ de l'hôtel de ville",
+   "lat": 59.910317,
+   "lng": 10.731467,
+   "prix": 55.5,
+   "prix_detail": [
+    [
+     "Adulte (17 ans et plus)",
+     "690 NOK ≈ 65,3 € ; 587 NOK ≈ 55,5 € d'octobre à mars"
+    ],
+    [
+     "Jeune",
+     "440 NOK ≈ 41,6 € en hiver"
+    ],
+    [
+     "Enfant de 3 à 11 ans",
+     "345 NOK ≈ 32,6 € ; 293 NOK ≈ 27,7 € en hiver"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55.5,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      27.7
+     ],
+     [
+      16,
+      41.6
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille ou quelques jours avant",
+   "duree": "2 h 30",
+   "moment": "Départs tous les jours à 10 h et 13 h 30 ; boisson chaude offerte d'octobre à mars",
+   "enfants": true,
+   "texte": "Un catamaran électrique glisse sans bruit ni odeur entre les îles du fjord : maisons de bois rouges, rochers lisses, phoques par chance, et Oslo qui rapetisse derrière vous. Grandes baies vitrées chauffées en hiver, pont extérieur pour les photos. Le fjord sous son meilleur jour.",
+   "site_officiel": "https://brimexplorer.com/tours/silent-oslo-fjord-cruise",
+   "note": "Pour petit budget : les ferries publics B1 à B4 (ticket de transport ordinaire) partent du même quai vers les îles.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Geir Hval (www.MacWhale.eu)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pipervika_Aker_brygge_Tjuvholmen_Oslo_Oslofjorden_Norway_(2024.01.10).jpg",
+    "src": "img/activites/OSL/croisiere-fjord.jpg"
+   }
+  },
+  {
+   "id": "iles-fjord",
+   "nom": "Ferry vers les îles (Hovedøya)",
+   "emoji": "🏝️",
+   "type": "nature",
+   "quartier": "Îles du fjord (10 min en bateau)",
+   "lat": 59.895124,
+   "lng": 10.737905,
+   "prix": 4.4,
+   "prix_detail": [
+    [
+     "Ticket de transport zone 1 (60 min)",
+     "46 NOK ≈ 4,35 €"
+    ],
+    [
+     "Enfant de 6 à 17 ans",
+     "demi-tarif"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4.4,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      2.2
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "3 h",
+   "moment": "De mai à septembre pour la baignade et les pique-niques ; ferries toute l'année, moins fréquents l'hiver",
+   "enfants": true,
+   "texte": "Avec un simple ticket de bus, un ferry vous dépose en dix minutes sur Hovedøya : ruines d'un monastère de 1147, prairies, sentiers et plages de galets, avec la ville juste en face. Les Osloïtes y passent leurs soirées d'été. Une évasion qui ne coûte presque rien.",
+   "site_officiel": "https://ruter.no/en/",
+   "note": "Ferry B1 ou B2 depuis le quai Rådhusbrygge 4, devant l'hôtel de ville. Achetez le ticket dans l'appli Ruter (plus cher à bord).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pudelek (Marcin Szala)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hoved%C3%B8ya_-_marina.JPG",
+    "src": "img/activites/OSL/iles-fjord.jpg"
+   }
+  },
+  {
+   "id": "sauna",
+   "nom": "Sauna flottant sur le fjord",
+   "emoji": "🧖",
+   "type": "bains",
+   "quartier": "Langkaia (près de l'Opéra)",
+   "lat": 59.905688,
+   "lng": 10.744091,
+   "prix": 24.6,
+   "prix_detail": [
+    [
+     "Séance en sauna partagé (non-membre)",
+     "260 NOK ≈ 24,6 €"
+    ],
+    [
+     "Moins de 14 ans",
+     "95 NOK ≈ 8,99 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 24.6,
+    "enfants": [
+     [
+      13,
+      9.0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "les créneaux ouvrent 21 jours avant et partent vite ; quelques places remises en vente la veille",
+   "duree": "1 h 30",
+   "moment": "Toute l'année, et surtout en hiver : on sort du sauna pour plonger dans le fjord glacé",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le nouveau rituel d'Oslo : des saunas en bois qui flottent au pied de l'Opéra, une vue sur le fjord par la grande fenêtre, et l'échelle pour se jeter dans l'eau froide entre deux séances. On en ressort neuf, et on comprend pourquoi les Norvégiens y vont même par -10 °C.",
+   "site_officiel": "https://oslobadstuforening.no/en/",
+   "note": "Saunas mixtes, en maillot. Apportez serviette et bonnet. Les enfants doivent savoir nager (gilets prêtés).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ssu",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oslo_Badstuforening,_2023.jpg",
+    "src": "img/activites/OSL/sauna.jpg"
+   }
+  },
+  {
+   "id": "grunerlokka",
+   "nom": "Grünerløkka",
+   "emoji": "☕",
+   "type": "balade",
+   "quartier": "Grünerløkka",
+   "lat": 59.922882,
+   "lng": 10.758264,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans le quartier",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "L'après-midi et le dimanche, avec le marché aux puces de Birkelunden (le dimanche, de mars à décembre)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'ancien quartier ouvrier est devenu le plus vivant d'Oslo : friperies, cafés de torréfacteurs, façades colorées, bars en sous-sol et parcs où l'on prend le soleil. On y vient pour flâner, boire le meilleur café du monde et sentir la ville comme ceux qui y vivent.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "note": "Tram 11, 12 ou 18 jusqu'à Olaf Ryes plass. À combiner avec la balade le long de l'Akerselva.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jan-Tore Egge",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Olaf_Ryes_plass_9.jpg",
+    "src": "img/activites/OSL/grunerlokka.jpg"
+   }
+  },
+  {
+   "id": "akerselva",
+   "nom": "Balade le long de l'Akerselva",
+   "emoji": "🌊",
+   "type": "balade",
+   "quartier": "Grünerløkka",
+   "lat": 59.923017,
+   "lng": 10.753318,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au printemps et à l'automne pour les couleurs ; en hiver, les chutes à moitié gelées",
+   "enfants": true,
+   "texte": "Une rivière traverse la ville du nord au sud, avec une vingtaine de cascades, d'anciennes usines de brique devenues écoles d'art et des ponts de fer. On la suit à pied de Grünerløkka au centre en se croyant à la campagne : c'est la balade préférée des Osloïtes.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "note": "Le plus beau tronçon : de la cascade de Nedre Foss à Vulkan et la halle Mathallen, en descendant.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Leonhard Lenz",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nedre_Foss_Akerselva_Oslo_2022-08-17_11.jpg",
+    "src": "img/activites/OSL/akerselva.jpg"
+   }
+  },
+  {
+   "id": "damstredet",
+   "nom": "Damstredet et Telthusbakken",
+   "emoji": "🏡",
+   "type": "balade",
+   "quartier": "St. Hanshaugen",
+   "lat": 59.920319,
+   "lng": 10.746768,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin de journée, avec la lumière dorée sur les façades ; ce sont des maisons habitées, restez discret",
+   "enfants": true,
+   "texte": "Deux ruelles pavées cachées en pleine ville, bordées de petites maisons de bois du XVIIIe siècle peintes en rose, jaune ou vert, avec leurs jardinets fleuris. On se croirait dans un village de conte. L'un des secrets les mieux gardés d'Oslo, à dix minutes du centre.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Geir Hval (www.MacWhale.eu)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Damstredet_St._Hanshaugen_Oslo_Norway_(2022.07.15).jpg",
+    "src": "img/activites/OSL/damstredet.jpg"
+   }
+  },
+  {
+   "id": "ekebergparken",
+   "nom": "Parc des sculptures d'Ekeberg",
+   "emoji": "🌲",
+   "type": "vue",
+   "quartier": "Ekeberg (10 min en tram)",
+   "lat": 59.897836,
+   "lng": 10.759447,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc ouvert jour et nuit",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi pour la vue au coucher du soleil",
+   "enfants": true,
+   "texte": "Une forêt sur la colline qui domine Oslo, semée de sculptures de Rodin, Dalí, Renoir ou Louise Bourgeois. Et surtout, le point de vue exact où Munch a eu l'idée du « Cri » : une plateforme marque l'endroit, face au fjord. Le plus beau panorama sur la ville.",
+   "site_officiel": "https://ekebergparken.com/en/",
+   "note": "Tram 13 ou 19 jusqu'à Ekebergparken (10 minutes depuis la gare centrale).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Helge Høifødt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ekebergparken_garden_with_Karlsborg.JPG",
+    "src": "img/activites/OSL/ekebergparken.jpg"
+   }
+  },
+  {
+   "id": "deichman",
+   "nom": "Bibliothèque Deichman",
+   "emoji": "📚",
+   "type": "culture",
+   "quartier": "Bjørvika",
+   "lat": 59.908669,
+   "lng": 10.752559,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Quand il pleut ; ouverte de 8 h à 22 h en semaine (horaires réduits le week-end)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Élue plus belle bibliothèque publique du monde : six étages de bois clair baignés de lumière, des fauteuils face au fjord, des cabines pour jouer du piano ou de la musique, et une vue sur l'Opéra. Tout est libre et gratuit, même le café du rez-de-chaussée est accueillant.",
+   "site_officiel": "https://deichman.no/bibliotekene/bj%C3%B8rvika",
+   "note": "Montez au dernier étage : la grande fenêtre en encorbellement cadre parfaitement l'Opéra.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Helge Høifødt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Deichman_Bj%C3%B8rvika_og_Operaen_med_Dronning_Eufemias_gate_og_Operagata.jpg",
+    "src": "img/activites/OSL/deichman.jpg"
+   }
+  },
+  {
+   "id": "jardin-botanique",
+   "nom": "Jardin botanique et musée d'histoire naturelle",
+   "emoji": "🌿",
+   "type": "nature",
+   "quartier": "Tøyen",
+   "lat": 59.918728,
+   "lng": 10.770504,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Jardin botanique",
+     "gratuit"
+    ],
+    [
+     "Musée d'histoire naturelle, adulte",
+     "180 NOK ≈ 17 €"
+    ],
+    [
+     "Enfant de 6 à 17 ans",
+     "90 NOK ≈ 8,51 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au printemps et en été ; le musée est fermé le lundi et les grandes serres sont fermées pour travaux en ce moment",
+   "enfants": true,
+   "texte": "Le plus grand jardin du pays, avec ses rocailles de plantes de montagne et ses allées de grands arbres, à deux stations de métro du centre. Au milieu, le musée d'histoire naturelle et sa star, Ida, un fossile de primate de 47 millions d'années.",
+   "site_officiel": "https://www.nhm.uio.no/english/",
+   "note": "Musée gratuit avec l'Oslo Pass.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wikipek",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oslo_Botanical_Garden,_June_2024.jpg",
+    "src": "img/activites/OSL/jardin-botanique.jpg"
+   }
+  },
+  {
+   "id": "sognsvann",
+   "nom": "Lac de Sognsvann",
+   "emoji": "🌲",
+   "type": "nature",
+   "quartier": "Forêt de Nordmarka (25 min en métro)",
+   "lat": 59.975204,
+   "lng": 10.729087,
+   "prix": 4.4,
+   "prix_detail": [
+    [
+     "Ticket de métro zone 1",
+     "46 NOK ≈ 4,35 €"
+    ],
+    [
+     "Tour du lac",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4.4,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      2.2
+     ]
+    ]
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En été pour la baignade, en automne pour les couleurs, en hiver pour le ski de fond ou le lac gelé",
+   "enfants": true,
+   "texte": "Le métro s'arrête au bord d'un lac en pleine forêt : 3,3 km de sentier plat tout autour, des rochers pour pique-niquer, des Norvégiens qui courent, skient ou nagent selon la saison. Oslo est la seule capitale où l'on passe des bureaux à la forêt sauvage en vingt minutes.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "note": "Métro ligne 5, terminus Sognsvann. Pas de café au bord du lac : emportez de quoi manger.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sean Hayford O'Leary (Seansie)",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sognsvann.jpg",
+    "src": "img/activites/OSL/sognsvann.jpg"
+   }
+  },
+  {
+   "id": "korketrekkeren",
+   "nom": "Luge sur la piste de Korketrekkeren",
+   "emoji": "🛷",
+   "type": "sport",
+   "quartier": "Frognerseteren (30 min en métro)",
+   "lat": 59.977,
+   "lng": 10.677,
+   "prix": 10.9,
+   "prix_detail": [
+    [
+     "Descente",
+     "gratuit"
+    ],
+    [
+     "Location de luge (à la journée)",
+     "à partir de 115 NOK ≈ 10,9 €"
+    ],
+    [
+     "Ticket de métro zone 1",
+     "46 NOK ≈ 4,35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10.9,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "En hiver seulement, quand il y a assez de neige (de décembre-janvier à mars) ; location fermée le reste de l'année",
+   "enfants": false,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une ancienne piste olympique de 2 km qui serpente dans la forêt enneigée : on loue une luge en haut, on dévale les virages à toute vitesse, et le métro vous remonte au départ. Les rires, la neige, les sapins : le meilleur souvenir d'un hiver à Oslo.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "note": "Métro ligne 1 jusqu'à Frognerseteren, luge rendue à la station Midtstuen. Casque fourni ; la piste est verglacée et rapide, déconseillée aux jeunes enfants.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Leonhard Lenz",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Korketrekkeren_-_Frognerseteren-Midtstuen_Nordmarka_Oslo_2026-01-14_02.jpg",
+    "src": "img/activites/OSL/korketrekkeren.jpg"
+   }
+  },
+  {
+   "id": "sorenga",
+   "nom": "Bain de mer de Sørenga",
+   "emoji": "🏊",
+   "type": "bains",
+   "quartier": "Bjørvika",
+   "lat": 59.9028,
+   "lng": 10.7545,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "De juin à août, par beau temps",
+   "enfants": true,
+   "texte": "Une piscine d'eau de mer creusée dans le port, juste à côté de l'Opéra : plongeoirs, pontons de bois pour bronzer, pelouse et bassin pour les petits. Nager au centre d'une capitale, dans une eau propre, face au soleil couchant : c'est tout l'été à Oslo.",
+   "site_officiel": "https://www.visitoslo.com/en/",
+   "note": "Toilettes et douches sur place. À cinq minutes à pied de MUNCH.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Katrine Lunke",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ytterst_p%C3%A5_S%C3%B8renga_Sj%C3%B8bad,_sett_mot_Ekeberg%C3%A5sen_og_Sj%C3%B8mannsskolen.jpg",
+    "src": "img/activites/OSL/sorenga.jpg"
+   }
+  },
+  {
+   "id": "teknisk",
+   "nom": "Musée norvégien de la technique",
+   "emoji": "✈️",
+   "type": "culture",
+   "quartier": "Kjelsås (20 min en tram)",
+   "lat": 59.966914,
+   "lng": 10.783414,
+   "prix": 19.4,
+   "prix_detail": [
+    [
+     "Adulte",
+     "205 NOK ≈ 19,4 €"
+    ],
+    [
+     "Enfant de 4 à 17 ans",
+     "135 NOK ≈ 12,8 €"
+    ],
+    [
+     "Famille (2 adultes et 4 enfants)",
+     "590 NOK ≈ 55,8 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 19.4,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      17,
+      12.8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Un jour de pluie avec des enfants ; fermé le lundi hors vacances scolaires",
+   "enfants": true,
+   "texte": "Des avions suspendus au plafond, des voitures anciennes, un centre de sciences où l'on touche à tout : le musée préféré des enfants d'Oslo. On y passe la journée sans voir le temps passer, entre expériences, robots et vieilles locomotives.",
+   "site_officiel": "https://www.tekniskmuseum.no/en",
+   "note": "Gratuit avec l'Oslo Pass. Tram 11 ou 12 jusqu'à Kjelsås.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Magnus Lien",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Norsk_Teknisk_Museum_(P1030878).jpg",
+    "src": "img/activites/OSL/teknisk.jpg"
+   }
+  },
+  {
+   "id": "historisk",
+   "nom": "Musée d'histoire (trésors vikings)",
+   "emoji": "⚔️",
+   "type": "culture",
+   "quartier": "Sentrum",
+   "lat": 59.916786,
+   "lng": 10.73553,
+   "prix": 15.1,
+   "prix_detail": [
+    [
+     "Adulte",
+     "160 NOK ≈ 15,1 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15.1,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En semaine ; fermé le lundi",
+   "enfants": true,
+   "texte": "Épées, bijoux en or et casques : les trésors de l'âge viking, plus des sculptures d'églises médiévales et une momie égyptienne, dans un palais de granit derrière l'université. Le meilleur endroit pour voir les Vikings en ce moment, le musée des bateaux vikings étant fermé.",
+   "site_officiel": "https://www.historiskmuseum.no/english/",
+   "note": "Gratuit avec l'Oslo Pass. Le musée des bateaux vikings de Bygdøy est fermé pour reconstruction : il rouvrira sous le nom de musée de l'Âge viking, pas avant 2027.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Vidariv",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Historisk_museum_oslo.jpg",
+    "src": "img/activites/OSL/historisk.jpg"
+   }
+  },
+  {
+   "id": "valerenga",
+   "nom": "Match de foot de Vålerenga",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Intility Arena (Valle)",
+   "lat": 59.917905,
+   "lng": 10.806632,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Championnat de Norvège (Eliteserien)",
+     "environ 250 à 400 NOK ≈ 24 à 38 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets en ligne quelques jours avant ; les derbys se remplissent vite",
+   "duree": "2 h",
+   "moment": "De mars à début décembre : le championnat norvégien se joue de l'été à l'automne",
+   "enfants": true,
+   "club": "Vålerenga IF",
+   "texte": "Vålerenga, le club populaire de l'est d'Oslo, joue dans un stade moderne de 16 000 places où les supporters du « Klanen » chantent tout le match. Une soirée de foot à la norvégienne, bon enfant, avec bière et hot-dog : la meilleure façon de vivre la ville comme ses habitants.",
+   "site_officiel": "https://www.vif-fotball.no/billetter",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kjetil Ree",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Intility_Arena_(bilde05)_(8._september_2018).jpg",
+    "src": "img/activites/OSL/valerenga.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "sentrum",
+   "nom": "Sentrum (autour de Karl Johan)",
+   "lat": 59.9133,
+   "lng": 10.7395,
+   "texte": "Le cœur de la ville, entre la gare centrale et le palais royal : tout se fait à pied, les musées, l'Opéra et les bateaux sont à deux pas, et c'est là qu'il y a le plus d'hôtels. Animé en journée, un peu impersonnel le soir."
+  },
+  {
+   "id": "bjorvika",
+   "nom": "Bjørvika (Opéra et MUNCH)",
+   "lat": 59.9075,
+   "lng": 10.7565,
+   "texte": "Le nouveau quartier au bord de l'eau, entre l'Opéra, MUNCH et la bibliothèque : hôtels modernes, saunas flottants et bain de mer au pied des immeubles, à côté de la gare centrale. Pratique et spectaculaire, mais un peu neuf et sans âme."
+  },
+  {
+   "id": "aker-brygge",
+   "nom": "Aker Brygge et Tjuvholmen",
+   "lat": 59.9085,
+   "lng": 10.7245,
+   "texte": "Sur les quais à l'ouest du port, au milieu des terrasses, des voiliers et des bateaux pour les îles et Bygdøy. Le plus beau cadre de la ville, surtout l'été, mais aussi le plus cher, avec des hôtels haut de gamme."
+  },
+  {
+   "id": "grunerlokka",
+   "nom": "Grünerløkka",
+   "lat": 59.9225,
+   "lng": 10.7585,
+   "texte": "Le quartier bohème : cafés de torréfacteurs, friperies, bars et restaurants à chaque coin de rue, le long de la rivière Akerselva. Idéal pour vivre Oslo comme ses habitants ; le centre est à 15 minutes à pied ou 5 minutes en tram."
+  },
+  {
+   "id": "frogner",
+   "nom": "Frogner et Majorstuen",
+   "lat": 59.921,
+   "lng": 10.714,
+   "texte": "Le quartier chic et résidentiel de l'ouest : grandes avenues d'immeubles anciens, boutiques, parc Vigeland au bout de la rue et métro direct pour Holmenkollen. Calme et élégant, un peu à l'écart des musées du port."
+  }
+ ],
+ "hotel_petit_prix_max": 150,
+ "restaurants": [
+  {
+   "id": "haralds",
+   "nom": "Haralds Vaffel",
+   "emoji": "🧇",
+   "gamme": "petit",
+   "genre": "Gaufres norvégiennes",
+   "quartier": "Grünerløkka",
+   "adresse": "Olaf Ryes plass 3, 0552 Oslo",
+   "lat": 59.9221686,
+   "lng": 10.7575107,
+   "prix": "5 à 12 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite cabane sur la place Olaf Ryes qui sert la gaufre norvégienne en cœur, moelleuse, à garnir à l'ancienne (brunost, le fromage brun caramélisé, et confiture) ou de façon gourmande. On la mange sur un banc du parc : le goûter préféré des Osloïtes.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu de file le week-end",
+   "photo": {
+    "auteur": "Roman Kraft romankraft",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Waffle_heart_(Unsplash).jpg",
+    "src": "img/restos/OSL/haralds.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "syverkiosken",
+   "nom": "Syverkiosken",
+   "emoji": "🌭",
+   "gamme": "petit",
+   "genre": "Kiosque à hot-dogs",
+   "quartier": "St. Hanshaugen",
+   "adresse": "Maridalsveien 45B, 0175 Oslo",
+   "lat": 59.9282685,
+   "lng": 10.7524127,
+   "prix": "3 à 8 €",
+   "prix_min": 3,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le dernier kiosque en bois d'Oslo, là depuis au moins 1936 : saucisses à la recette secrète, servies dans une lompe (galette de pomme de terre) avec une avalanche de moutardes, d'oignons et de salades maison. Le repas le moins cher de Norvège, et l'un des plus aimés.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; parfois une petite file le soir",
+   "photo": {
+    "auteur": "Jan-Tore Egge",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Syverkiosken.jpg",
+    "src": "img/restos/OSL/syverkiosken.jpg"
+   }
+  },
+  {
+   "id": "wendelboe",
+   "nom": "Tim Wendelboe",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café de torréfacteur",
+   "quartier": "Grünerløkka",
+   "adresse": "Grüners gate 1, 0552 Oslo",
+   "lat": 59.9233709,
+   "lng": 10.7556998,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le café de l'ancien champion du monde des baristas, pèlerinage des amateurs du monde entier : on y boit un café filtre aux arômes de fruits, torréfié sur place, dans une minuscule salle où les machines sont aussi belles que les tasses. Même sans être connaisseur, on comprend la différence.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Bex Walton from London, England",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tim_Wendelboe_V60_at_Second_Shot,_London,_UK_(33969361303).jpg",
+    "src": "img/restos/OSL/wendelboe.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "illegal",
+   "nom": "Illegal Burger",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers",
+   "quartier": "Sentrum",
+   "adresse": "Møllergata 23, 0179 Oslo",
+   "lat": 59.9157181,
+   "lng": 10.7486653,
+   "prix": "18 à 25 €",
+   "prix_min": 18,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite salle sombre et rock où l'on sert les burgers les plus réputés d'Oslo : viande hachée sur place, cuite rosée, fromage fondant et noms décalés. Pas de chichis, juste un burger qui tient ses promesses dans une ville où manger pas cher est un défi.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; file le vendredi et le samedi soir",
+   "photo": {
+    "auteur": "Benreis",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheeseburger_and_steak_fries_at_Rentier-Burger.jpg",
+    "src": "img/restos/OSL/illegal.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mathallen",
+   "nom": "Mathallen",
+   "emoji": "🧺",
+   "gamme": "petit",
+   "genre": "Halle gourmande",
+   "quartier": "Vulkan",
+   "adresse": "Vulkan 5, 0178 Oslo",
+   "lat": 59.9222297,
+   "lng": 10.7520516,
+   "prix": "10 à 30 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une ancienne usine de brique au bord de l'Akerselva, transformée en marché couvert : fromages norvégiens, poissons fumés, charcuteries, tapas, ramen et bars à vin. On grignote de stand en stand, et c'est le meilleur endroit pour goûter aux produits du pays sans se ruiner.",
+   "reservation": "libre",
+   "reservation_delai": "pas de réservation (fermé le lundi pour la plupart des stands)",
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mathallen_Oslo_-_2026.jpg",
+    "src": "img/restos/OSL/mathallen.jpg"
+   }
+  },
+  {
+   "id": "mamma-pizza",
+   "nom": "Mamma Pizza",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizzeria napolitaine",
+   "quartier": "Sentrum",
+   "adresse": "Dronningens gt. 22, 0154 Oslo",
+   "lat": 59.9107437,
+   "lng": 10.7467795,
+   "prix": "17 à 25 €",
+   "prix_min": 17,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Trois frère et sœurs venus de Bologne ont ouvert la pizzeria la plus courue d'Oslo : pâte légère, cuisson au feu de bois, produits italiens et l'ambiance bruyante d'une trattoria familiale. Des milliers de clients conquis, et l'une des tables les moins chères du centre.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même ou la veille pour le soir ; sans réservation, comptez de l'attente",
+   "photo": {
+    "auteur": "CDibisceglia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Forno_a_legna_pizza_napoletana.jpg",
+    "src": "img/restos/OSL/mamma-pizza.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fiskeriet",
+   "nom": "Fiskeriet Youngstorget",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poissonnerie-restaurant",
+   "quartier": "Youngstorget",
+   "adresse": "Youngstorget 2b, 0181 Oslo",
+   "lat": 59.9145153,
+   "lng": 10.7496987,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une poissonnerie qui cuisine sa pêche du jour : soupe de poisson crémeuse à la norvégienne, fish and chips doré, moules et saumon, servis sans façon sur des tables en bois. Le poisson y est d'une fraîcheur absolue, et les prix restent raisonnables pour Oslo.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 18 h ou après 20 h",
+   "photo": {
+    "auteur": "Jan-Tore Egge",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fiskeriet_Youngstorget.jpg",
+    "src": "img/restos/OSL/fiskeriet.jpg"
+   }
+  },
+  {
+   "id": "glade-gris",
+   "nom": "Den Glade Gris",
+   "emoji": "🐖",
+   "gamme": "moyen",
+   "genre": "Cuisine du cochon",
+   "quartier": "St. Olavs plass",
+   "adresse": "St. Olavs gate 33, 0166 Oslo",
+   "lat": 59.9178541,
+   "lng": 10.7339675,
+   "prix": "28 à 60 €",
+   "prix_min": 28,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "« Le cochon joyeux » ne cuisine que le porc, de la tête à la queue, avec une star : le jarret grillé longuement, croustillant dehors et fondant dedans, servi avec choucroute et bières norvégiennes. Une taverne chaleureuse où l'on mange copieusement.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant pour le week-end",
+   "photo": {
+    "auteur": "Takeaway",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Schweinshaxe_Chiang_Mai.JPG",
+    "src": "img/restos/OSL/glade-gris.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "elias",
+   "nom": "Elias mat & sånt",
+   "emoji": "🦌",
+   "gamme": "moyen",
+   "genre": "Cuisine norvégienne familiale",
+   "quartier": "Sentrum",
+   "adresse": "Kristian Augusts gate 14, 0164 Oslo",
+   "lat": 59.916261,
+   "lng": 10.7385335,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un petit café-restaurant aux murs couverts de livres, pour goûter la vraie cuisine de grand-mère norvégienne : ragoût de renne aux airelles, boulettes de viande, morue, gâteaux maison. Généreux, réconfortant, et d'un bon rapport qualité-prix pour Oslo.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir",
+   "photo": {
+    "auteur": "Htm",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Poronk%C3%A4ristys.jpg",
+    "src": "img/restos/OSL/elias.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "salmon",
+   "nom": "The Salmon",
+   "emoji": "🍣",
+   "gamme": "moyen",
+   "genre": "Saumon norvégien",
+   "quartier": "Tjuvholmen",
+   "adresse": "Strandpromenaden 11, 0252 Oslo",
+   "lat": 59.9079349,
+   "lng": 10.7232369,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une adresse entièrement consacrée au saumon de Norvège, au bout du quai de Tjuvholmen : sashimis, gravlax, poke ou saumon grillé, accompagnés d'une petite exposition sur l'élevage. Une grande salle claire au bord de l'eau, et le saumon le plus frais de votre vie.",
+   "reservation": "conseille",
+   "reservation_delai": "1 à 2 jours avant pour le soir",
+   "photo": {
+    "auteur": "Tiia Monto",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gravlax_2.jpg",
+    "src": "img/restos/OSL/salmon.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "arakataka",
+   "nom": "Arakataka",
+   "emoji": "🦀",
+   "gamme": "moyen",
+   "genre": "Bistro nordique moderne",
+   "quartier": "Youngstorget",
+   "adresse": "Mariboes gate 7B, 0183 Oslo",
+   "lat": 59.9163672,
+   "lng": 10.7506229,
+   "prix": "35 à 95 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélection du guide Michelin 2026",
+   "texte": "Une cuisine ouverte, des assiettes à partager et des produits de saison : crabe royal et gaufre, caviar et beignet, spaghetti aux œufs de corégone. Au bar, on picore sans réserver ; en salle, menu de 4 ou 6 plats (75 à 94 €). Le meilleur de la nouvelle cuisine nordique, sans le prix d'un étoilé.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour la salle ; le bar ne se réserve pas",
+   "photo": {
+    "auteur": "Ssu",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Restaurant_Arakataka,_Mariboes_gate_7B,_Oslo.jpg",
+    "src": "img/restos/OSL/arakataka.jpg"
+   }
+  },
+  {
+   "id": "engebret",
+   "nom": "Engebret Café",
+   "emoji": "🕯️",
+   "gamme": "moyen",
+   "genre": "Plus vieux restaurant d'Oslo",
+   "quartier": "Kvadraturen",
+   "adresse": "Bankplassen 1, 0151 Oslo",
+   "lat": 59.9089229,
+   "lng": 10.7419906,
+   "prix": "30 à 60 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1857, le plus ancien restaurant d'Oslo a reçu Ibsen et Grieg dans ses salles de bois sombre. On y mange la cuisine norvégienne de toujours : harengs maison, crevettes sur pain de seigle, truite fermentée, et en novembre-décembre les grands plats de Noël. Un voyage dans le temps.",
+   "reservation": "conseille",
+   "reservation_delai": "en novembre et décembre, réservation par e-mail seulement, une à deux semaines avant",
+   "photo": {
+    "auteur": "Øyvind Holmstad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Engebret_cafe_oslo-IMG_0946.jpg",
+    "src": "img/restos/OSL/engebret.jpg"
+   }
+  },
+  {
+   "id": "maaemo",
+   "nom": "Maaemo",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Grande cuisine nordique",
+   "quartier": "Bjørvika",
+   "adresse": "Dronning Eufemias gate 23, 0194 Oslo",
+   "lat": 59.907545,
+   "lng": 10.7581829,
+   "prix": "environ 560 € (menu, hors boissons)",
+   "prix_min": 560,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "3 étoiles Michelin 2026",
+   "texte": "Trois étoiles Michelin et une cuisine qui raconte la nature norvégienne plat après plat : langoustines, fruits des bois, herbes de la forêt, beurre baratté devant vous. Une vingtaine de services dans une salle qui surplombe la ville. Le repas d'une vie.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs mois avant, dès l'ouverture des réservations",
+   "photo": {
+    "auteur": "City Foodsters",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maaemo_IMG_3168_(31254160476).jpg",
+    "src": "img/restos/OSL/maaemo.jpg"
+   }
+  },
+  {
+   "id": "statholdergaarden",
+   "nom": "Statholdergaarden",
+   "emoji": "🏛️",
+   "gamme": "haut",
+   "genre": "Grande cuisine classique",
+   "quartier": "Kvadraturen",
+   "adresse": "Rådhusgata 11, 0151 Oslo",
+   "lat": 59.9094742,
+   "lng": 10.7432123,
+   "prix": "environ 245 € (menu, hors boissons)",
+   "prix_min": 245,
+   "badges": [
+    "recompense",
+    "institution"
+   ],
+   "recompense": "1 étoile Michelin 2026",
+   "texte": "Une étoile Michelin défendue depuis 1998 dans les salons d'une demeure du XVIIe siècle, sous des plafonds de stuc. Le chef y sert une cuisine classique et généreuse, autour des produits norvégiens de saison. L'élégance à l'ancienne, sans raideur.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 3 semaines avant ; ouvert du mardi au samedi soir",
+   "photo": {
+    "auteur": "Kjetil Ree",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Statholdergaarden.jpg",
+    "src": "img/restos/OSL/statholdergaarden.jpg"
+   }
+  },
+  {
+   "id": "hot-shop",
+   "nom": "Hot Shop",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Bistronomie moderne",
+   "quartier": "Sofienberg",
+   "adresse": "Københavngata 18, 0566 Oslo",
+   "lat": 59.9281831,
+   "lng": 10.7685814,
+   "prix": "environ 160 € (menu, hors boissons)",
+   "prix_min": 160,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile Michelin 2026",
+   "texte": "Dans une ancienne boutique pour adultes (d'où son nom), un jeune chef sert un menu inventif et joyeux, étoilé depuis 2024, dans une salle de quartier sans nappe ni chichis. L'étoile la plus abordable et la plus décontractée d'Oslo.",
+   "reservation": "indispensable",
+   "reservation_delai": "2 à 4 semaines avant",
+   "photo": {
+    "auteur": "Syced",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amuse-bouche,_L%27Anthocyane,_Lannion.jpg",
+    "src": "img/restos/OSL/hot-shop.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sabi",
+   "nom": "Sabi Omakase",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Omakase japonais",
+   "quartier": "Vika",
+   "adresse": "Ruseløkkveien 3, 0251 Oslo",
+   "lat": 59.9143357,
+   "lng": 10.7292109,
+   "prix": "environ 330 € (menu, hors boissons)",
+   "prix_min": 330,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin 2026",
+   "texte": "Un comptoir de quelques places où le chef découpe devant vous une vingtaine de bouchées de sushi, avec les poissons et crustacés des eaux glacées de Norvège. Étoilé depuis des années, c'est l'une des meilleures tables japonaises d'Europe.",
+   "reservation": "indispensable",
+   "reservation_delai": "les places s'ouvrent chaque lundi et partent en quelques heures",
+   "photo": {
+    "auteur": "Angelicadlr",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Salmon_Sushi_and_Sashimi_Platter_-_W_Sushi.jpg",
+    "src": "img/restos/OSL/sabi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "theatercafeen",
+   "nom": "Theatercaféen",
+   "emoji": "🎻",
+   "gamme": "haut",
+   "genre": "Grand café viennois",
+   "quartier": "Sentrum",
+   "adresse": "Stortingsgata 24, 0161 Oslo",
+   "lat": 59.91404,
+   "lng": 10.733891,
+   "prix": "45 à 85 €",
+   "prix_min": 45,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le grand café de l'hôtel Continental, ouvert en 1900 face au Théâtre national : lustres, banquettes, orchestre à cordes certains soirs et 87 portraits d'artistes aux murs. On y vient pour les fruits de mer, le steak tartare et l'atmosphère, comme les acteurs depuis plus d'un siècle.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour le soir",
+   "photo": {
+    "auteur": "Larry Lamsa",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Theatercafeen_01.jpg",
+    "src": "img/restos/OSL/theatercafeen.jpg"
+   }
+  },
+  {
+   "id": "sjomagasinet",
+   "nom": "Sjømagasinet",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Fruits de mer",
+   "quartier": "Tjuvholmen",
+   "adresse": "Tjuvholmen allé 14, 0252 Oslo",
+   "lat": 59.9078527,
+   "lng": 10.7219274,
+   "prix": "50 à 90 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection du guide Michelin 2026",
+   "texte": "Un grand restaurant les pieds dans le fjord, avec ses viviers à homards et un plateau de fruits de mer à faire tourner la tête : huîtres, crabe royal, crevettes de Norvège, langoustines. La mer sous toutes ses formes, servie par des spécialistes.",
+   "reservation": "conseille",
+   "reservation_delai": "2 à 3 jours avant pour le week-end",
+   "photo": {
+    "auteur": "Ssu",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sj%C3%B8magasinet_(restaurant),_Tjuvholmen_all%C3%A9_14,_Oslo.jpg",
+    "src": "img/restos/OSL/sjomagasinet.jpg"
+   }
+  }
+ ]
+}

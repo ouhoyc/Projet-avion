@@ -237,3 +237,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   `guide.michelin.com/fr/fr/grand-est/strasbourg/restaurants` (Playwright ; Bib Gourmand = image « symboleBibendum », étoile = « michelin-star »).
   Commons : l'API a répondu « 429 » après ~45 recherches ; la recherche HTML (`ns6=1`) a pris le relais sans blocage (vignettes `250px-` → `960px-`).
   Se méfier des homonymes : la recherche « Bains municipaux » donnait d'abord ceux de Colmar. Tiqets répondait 403.
+- Oslo (nov. 2026) : Wanderlog, listes trouvées dans le plan du site (`sitemap*.txt`, adresses finissant par « -in-oslo », 98 listes en anglais,
+  ~1 100 lieux ; données dans `window.__MOBX_STATE__`). Google Maps lisible avec Playwright (cookie `SOCS`, `div.F7nice` = note et avis). Michelin :
+  `guide.michelin.com/no/en/oslo-region/oslo/restaurants` (Playwright ; « capital-region » ne donne que 4 adresses). Prix lisibles avec Playwright :
+  munch.no (`/en/buy-tickets/entrance-ticket/regular/`), nasjonalmuseet.no, kon-tiki.no/besok, norskfolkemuseum.no/en/plan-your-visit,
+  holmenkollen.com/en/apningstider/, brimexplorer.com/tours/silent-oslo-fjord-cruise, oslobadstuforening.no/en/book-single-ticket/ ; operaen.no
+  bloque (Cloudflare), royalcourt.no vide. Cartes en PDF : Arakataka, Den Glade Gris (`pdftotext`). Commons : API « 429 », recherche HTML (`ns6=1`) sans souci.
