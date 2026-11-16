@@ -1,0 +1,1879 @@
+{
+ "city_code": "HER",
+ "ville": "Héraklion",
+ "statut": "préparé en autonomie, prix relevés le 16/11/2026",
+ "verifie_le": "2026-11-16",
+ "ile": true,
+ "prix_match": 15,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 70,
+ "activites": [
+  {
+   "id": "knossos",
+   "nom": "Palais de Knossos",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Knossos (5 km du centre)",
+   "lat": 35.29806,
+   "lng": 25.16281,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Billet à heure fixe",
+     20
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit"
+    ],
+    [
+     "Autres enfants de moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er dimanche du mois, de novembre à mars",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet à heure fixe sur la billetterie officielle, quelques jours avant en été",
+   "duree": "2 h",
+   "moment": "À l'ouverture (8 h) ou après 17 h en été : presque aucune ombre sur le site, et les cars arrivent vers 10 h",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le palais du roi Minos et du Minotaure, vieux de 3 500 ans : salle du trône, fresques aux dauphins et colonnes rouge sang relevées par l'archéologue Arthur Evans. C'est le berceau de la première grande civilisation d'Europe, à dix minutes du centre d'Héraklion.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/knossos-tickets",
+   "note": "Bus n° 2 depuis le centre (20 min). Visitez le musée archéologique le même jour ou la veille : les vraies fresques et les objets du palais y sont exposés.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "CMOSPOWER",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Knossos_-_Palace_of_the_Minoans.jpg",
+    "src": "img/activites/HER/knossos.jpg"
+   }
+  },
+  {
+   "id": "musee-archeo",
+   "nom": "Musée archéologique d'Héraklion",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Héraklion (centre)",
+   "lat": 35.33914,
+   "lng": 25.13742,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Billet à heure fixe",
+     20
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit"
+    ],
+    [
+     "Autres enfants de moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er et 3e dimanches du mois, de novembre à mars",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été, sur la billetterie officielle",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Aux heures chaudes (c'est climatisé), ou en fin d'après-midi quand les groupes sont repartis",
+   "enfants": true,
+   "texte": "Le plus beau musée du monde sur la civilisation minoenne : le saut du taureau, la déesse aux serpents, le mystérieux disque de Phaistos et les fresques originales de Knossos. Deux heures qui donnent tout son sens à la visite du palais.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/archaeological-museum-of-heraklion",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zde",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bull_leaping_fresco%2C_Knossos%2C_1600-1450_BC%2C_AMH%2C_258361.jpg",
+    "src": "img/activites/HER/musee-archeo.jpg"
+   }
+  },
+  {
+   "id": "koules",
+   "nom": "Forteresse de Koules et vieux port",
+   "emoji": "🏰",
+   "type": "vue",
+   "quartier": "Héraklion (vieux port)",
+   "lat": 35.34281,
+   "lng": 25.1343,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Entrée de la forteresse",
+     10
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit"
+    ],
+    [
+     "Balade sur la jetée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, puis marchez sur la longue jetée au coucher du soleil",
+   "enfants": true,
+   "texte": "La forteresse vénitienne qui garde le port depuis 500 ans, avec ses lions de Saint-Marc sculptés dans la pierre. Du toit, la vue embrasse les barques de pêche, les arsenaux vénitiens et toute la ville. La balade sur la jetée, juste derrière, est le rendez-vous des habitants le soir.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/venetian-koules-fortress-heraklion",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jebulon",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Detail_venetian_fortress_harbour_eastern_part_and_dam_Heraklion.jpg",
+    "src": "img/activites/HER/koules.jpg"
+   }
+  },
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville : fontaine aux lions, loggia et marché",
+   "emoji": "⛲",
+   "type": "balade",
+   "quartier": "Héraklion (centre)",
+   "lat": 35.33916,
+   "lng": 25.13321,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin pour le marché de la rue 1866, ou à la fraîche en début de soirée",
+   "enfants": true,
+   "texte": "Le cœur piéton d'Héraklion se parcourt en une balade : la fontaine Morosini et ses quatre lions, la loggia vénitienne, l'église Saint-Tite, la rue du 25-Août qui descend vers la mer et le marché de la rue 1866, entre herbes de montagne, miel de thym et fromages crétois.",
+   "site_officiel": "https://www.heraklion.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Danbu14",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morozini_Fontein_Heraklion.jpg",
+    "src": "img/activites/HER/vieille-ville.jpg"
+   }
+  },
+  {
+   "id": "remparts",
+   "nom": "Remparts vénitiens et tombe de Kazantzakis",
+   "emoji": "🧱",
+   "type": "vue",
+   "quartier": "Héraklion (bastion Martinengo)",
+   "lat": 35.3323,
+   "lng": 25.1309,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil, quand la lumière dore la ville et le mont Youchtas",
+   "enfants": true,
+   "texte": "Les remparts d'Héraklion ont tenu 21 ans face aux Ottomans, le plus long siège de l'histoire. On marche aujourd'hui dessus, au-dessus des toits, jusqu'à la tombe toute simple de Nikos Kazantzakis, l'auteur de Zorba le Grec, avec sa célèbre épitaphe : « Je n'espère rien, je ne crains rien, je suis libre. »",
+   "site_officiel": "https://www.heraklion.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Syrio",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iraklio%2C_tomba_di_Nikos_Kazantzakis_02.jpg",
+    "src": "img/activites/HER/remparts.jpg"
+   }
+  },
+  {
+   "id": "musee-historique",
+   "nom": "Musée historique de Crète",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Héraklion (front de mer)",
+   "lat": 35.34184,
+   "lng": 25.13094,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Adulte",
+     8
+    ],
+    [
+     "Étudiants et plus de 65 ans",
+     "5 €"
+    ],
+    [
+     "Jusqu'à 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      12,
+      0
+     ],
+     [
+      17,
+      5
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "En milieu de journée ; fermé certains jours fériés",
+   "enfants": true,
+   "texte": "Toute l'histoire de l'île après les Minoens, dans une belle demeure face à la mer : une immense maquette d'Héraklion au temps des Vénitiens, les deux seuls tableaux du Greco visibles en Crète (il est né ici), le bureau de Kazantzakis et le récit poignant de la bataille de Crète de 1941.",
+   "site_officiel": "https://www.historical-museum.gr/en/visit/wres-leitoirghias-eisitiria",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lourakis",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Historical_Museum_of_Crete_Front_2016.jpg",
+    "src": "img/activites/HER/musee-historique.jpg"
+   }
+  },
+  {
+   "id": "museum-nature",
+   "nom": "Muséum d'histoire naturelle et simulateur de séisme",
+   "emoji": "🦕",
+   "type": "culture",
+   "quartier": "Héraklion (front de mer)",
+   "lat": 35.34191,
+   "lng": 25.12667,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     12
+    ],
+    [
+     "De 4 à 18 ans, étudiants, plus de 65 ans",
+     "8 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      18,
+      8
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30 à 2 h",
+   "moment": "Un jour de vent ou de grosse chaleur ; ferme à 15 h en semaine l'hiver",
+   "enfants": true,
+   "texte": "Le musée préféré des enfants à Héraklion : une table qui tremble pour vivre un vrai séisme, un dinosaure géant, des animaux vivants de Crète et un espace de jeux et de fouilles pour les petits. Installé dans une ancienne centrale électrique au bord de l'eau.",
+   "site_officiel": "https://www.nhmc.uoc.gr/en/exhibition/visiting-the-museum",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zde",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_of_Crete%2C_258285.jpg",
+    "src": "img/activites/HER/museum-nature.jpg"
+   }
+  },
+  {
+   "id": "cretaquarium",
+   "nom": "CretAquarium",
+   "emoji": "🦈",
+   "type": "nature",
+   "quartier": "Gournes (15 km à l'est)",
+   "lat": 35.33225,
+   "lng": 25.28252,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "≈ 12 €"
+    ],
+    [
+     "De 5 à 17 ans",
+     "≈ 8 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      17,
+      8
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Le matin à l'ouverture (9 h 30), ou un jour sans plage",
+   "enfants": true,
+   "texte": "L'un des plus grands aquariums d'Europe du Sud, entièrement consacré à la Méditerranée : requins, tortues, mérous, méduses lumineuses et hippocampes dans une soixantaine de bassins. Une sortie facile avec des enfants, à 20 minutes d'Héraklion.",
+   "site_officiel": "https://www.cretaquarium.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tomisti",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cretaquarium_06.jpg",
+    "src": "img/activites/HER/cretaquarium.jpg"
+   }
+  },
+  {
+   "id": "agia-pelagia",
+   "nom": "Plage d'Agia Pelagia",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Agia Pelagia (23 km à l'ouest)",
+   "lat": 35.4062,
+   "lng": 25.01825,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ],
+    [
+     "2 transats et un parasol",
+     "≈ 10 à 20 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "Le matin : la baie est abritée du vent du nord et l'eau reste calme",
+   "enfants": true,
+   "texte": "Une anse de sable blottie entre deux caps, à 25 minutes d'Héraklion : eau turquoise et calme comme une piscine, tavernes les pieds dans le sable et petites criques voisines à rejoindre à la nage ou à pied. La plage la plus agréable près de la ville.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Karel Macalik",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Agia_Pelagia%2C_Crete_%2836328987176%29.jpg",
+    "src": "img/activites/HER/agia-pelagia.jpg"
+   }
+  },
+  {
+   "id": "archanes",
+   "nom": "Archanes et la route des vins",
+   "emoji": "🍇",
+   "type": "balade",
+   "quartier": "Archanes (15 km au sud)",
+   "lat": 35.23556,
+   "lng": 25.16002,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Balade dans le village",
+     "gratuit"
+    ],
+    [
+     "Visite d'un domaine et dégustation",
+     "≈ 15 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une visite de domaine (Lyrarakis, Boutari, Douloufakis…)",
+   "duree": "Une demi-journée",
+   "moment": "En fin de matinée pour le village, puis la visite d'un domaine l'après-midi",
+   "enfants": true,
+   "texte": "Un village de vignerons aux maisons couleur ocre et aux placettes ombragées, primé pour sa restauration, au pied du mont Youchtas. Tout autour s'étend le plus grand vignoble de Crète : plusieurs domaines ouvrent leurs caves et font goûter des cépages que l'on ne trouve nulle part ailleurs (vidiano, liatiko, kotsifali).",
+   "site_officiel": "https://winesofcrete.gr/en/",
+   "note": "Celui qui conduit ne boit pas : la tolérance est très faible en Grèce (0,5 g/l).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zde",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Archanes%2C_street%2C_IMG_1332.jpg",
+    "src": "img/activites/HER/archanes.jpg"
+   }
+  },
+  {
+   "id": "dia",
+   "nom": "Croisière en voilier vers l'île de Dia",
+   "emoji": "⛵",
+   "type": "sport",
+   "quartier": "Départ du port d'Héraklion",
+   "lat": 35.344,
+   "lng": 25.14,
+   "prix": 95,
+   "prix_detail": [
+    [
+     "Demi-journée en voilier ou catamaran, repas compris",
+     "≈ 80 à 120 €"
+    ],
+    [
+     "Enfants",
+     "≈ moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 95,
+    "enfants": [
+     [
+      11,
+      50
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été",
+   "duree": "5 à 6 h",
+   "moment": "De mai à octobre ; le matin, la mer est plus calme",
+   "enfants": true,
+   "texte": "Face à Héraklion, l'île déserte de Dia cache des criques à l'eau transparente où le commandant Cousteau a cherché l'Atlantide. On y va à la voile, on jette l'ancre pour nager avec masque et tuba, on déjeune à bord, et on rentre au soleil couchant.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jacek Kopecky",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dia_Petalidi.jpg",
+    "src": "img/activites/HER/dia.jpg"
+   }
+  },
+  {
+   "id": "acqua-plus",
+   "nom": "Parc aquatique Acqua Plus",
+   "emoji": "💦",
+   "type": "sport",
+   "quartier": "Hersonissos (30 km à l'est)",
+   "lat": 35.28849,
+   "lng": 25.36527,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Adulte (12 ans et plus)",
+     30
+    ],
+    [
+     "De 5 à 12 ans",
+     "20 €"
+    ],
+    [
+     "Moins de 5 ans",
+     "gratuit"
+    ],
+    [
+     "En ligne",
+     "environ 17 % de moins"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, en ligne (moins cher)",
+   "duree": "Une journée",
+   "moment": "De mai à octobre, dès l'ouverture (10 h) pour profiter des toboggans sans file",
+   "enfants": true,
+   "texte": "Le grand parc aquatique de Crète, à flanc de colline au milieu des palmiers : plus de cinquante toboggans et bassins, du « trou noir » au « kamikaze » pour les grands, rivière lente et jeux d'eau pour les petits.",
+   "site_officiel": "https://www.acquaplus.gr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Brandt Luke Zorn",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_slide_and_pool.jpg",
+    "src": "img/activites/HER/acqua-plus.jpg"
+   }
+  },
+  {
+   "id": "ofi",
+   "nom": "Match de l'OFI Crète",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade Pankritio (3 km à l'ouest)",
+   "lat": 35.3345,
+   "lng": 25.10461,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Billet de championnat (selon le match et la place)",
+     "≈ 10 à 30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets nominatifs en ligne, quelques jours avant (pièce d'identité demandée)",
+   "duree": "2 h (arrivez 1 h avant)",
+   "moment": "Le week-end, de fin août à mai",
+   "enfants": true,
+   "texte": "Le club de cœur de toute la Crète, vainqueur de la Coupe de Grèce, qui reçoit les grands d'Athènes et de Salonique dans une ambiance chaude et bon enfant. Une soirée au milieu des supporters crétois, à dix minutes du centre.",
+   "site_officiel": "https://www.ofifc.gr/",
+   "a_verifier": false,
+   "club": "OFI Crete",
+   "photo": {
+    "auteur": "Exogiinos",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pagkritio.jpg",
+    "src": "img/activites/HER/ofi.jpg"
+   }
+  },
+  {
+   "id": "phaistos",
+   "nom": "Palais de Phaistos",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Phaistos (60 km au sud)",
+   "lat": 35.05146,
+   "lng": 24.81451,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Entrée",
+     15
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit"
+    ],
+    [
+     "Site de Gortyne, sur la route",
+     "10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Le matin, avant de descendre se baigner à Matala (à 15 minutes)",
+   "enfants": true,
+   "texte": "Le deuxième grand palais minoen, resté tel que les archéologues l'ont trouvé, sans reconstitution, sur une colline qui domine la plaine de la Messara et le mont Psiloritis. Bien plus calme que Knossos, et la vue est l'une des plus belles de l'île. C'est ici qu'a été découvert le fameux disque de Phaistos.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/phaistos-tickets",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jebulon",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Central_courtyard_Phaistos_palace_Crete.jpg",
+    "src": "img/activites/HER/phaistos.jpg"
+   }
+  },
+  {
+   "id": "matala",
+   "nom": "Matala : la plage et les grottes des hippies",
+   "emoji": "✌️",
+   "type": "plage",
+   "quartier": "Matala (68 km au sud)",
+   "lat": 34.99365,
+   "lng": 24.75043,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Grottes de la falaise",
+     "5 €"
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit aux grottes"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi, jusqu'au coucher du soleil qui tombe pile en face, dans la mer de Libye",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une plage dorée fermée par une falaise percée de grottes, où vivaient les hippies dans les années 1960 : Joni Mitchell y a écrit une chanson. Le village a gardé son air bohème, ses fresques colorées et ses tavernes au-dessus de l'eau.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/matala-tickets",
+   "note": "Du haut de la plage, un sentier de 20 minutes mène à Red Beach, une crique sauvage de sable roux.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marc Ryckaert (MJJR)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Matala_Beach_R01.jpg",
+    "src": "img/activites/HER/matala.jpg"
+   }
+  },
+  {
+   "id": "lassithi",
+   "nom": "Plateau du Lassithi et grotte de Zeus",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Psychro (55 km au sud-est)",
+   "lat": 35.16286,
+   "lng": 25.44506,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Grotte de Psychro (Dikteon Andron)",
+     15
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit"
+    ],
+    [
+     "Balade sur le plateau",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Une journée",
+   "moment": "Le matin : la montée à la grotte (15 à 20 min à pied) est en plein soleil",
+   "enfants": true,
+   "texte": "À 850 m d'altitude, un plateau de vergers et de vieux moulins à vent entouré de montagnes, où le temps semble arrêté. Tout au bout, la grotte de Psychro, hérissée de stalactites, où selon la légende est né Zeus, caché à son père Cronos qui dévorait ses enfants.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/dictaean-psychro-cave",
+   "note": "Prévoyez un gilet (il fait frais dans la grotte) et de bonnes chaussures : les marches sont humides.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rigorius",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Seli-Ambelou-Pass_windmill_20230608_150046.jpg",
+    "src": "img/activites/HER/lassithi.jpg"
+   }
+  },
+  {
+   "id": "spinalonga",
+   "nom": "Île-forteresse de Spinalonga",
+   "emoji": "🚤",
+   "type": "culture",
+   "quartier": "Plaka et Elounda (75 km à l'est)",
+   "lat": 35.29778,
+   "lng": 25.73804,
+   "prix": 32,
+   "prix_detail": [
+    [
+     "Entrée de l'île",
+     "20 €"
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit à l'entrée"
+    ],
+    [
+     "Bateau aller-retour depuis Plaka (10 min)",
+     "≈ 12 €, enfants 6 €"
+    ],
+    [
+     "Bateau depuis Elounda (20 min)",
+     "≈ 14 €, enfants 7 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 32,
+    "enfants": [
+     [
+      11,
+      6
+     ],
+     [
+      17,
+      12
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h avec le bateau",
+   "moment": "Le matin avant 10 h 30 ou après 16 h, pour éviter les bateaux d'excursion et la chaleur",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une île-forteresse vénitienne posée sur une eau turquoise, devenue la dernière léproserie d'Europe jusqu'en 1957. On marche dans la rue du village abandonné, entre maisons de pierre et remparts, avec une vue magnifique sur le golfe. Le lieu qui a inspiré le roman « L'Île des oubliés ».",
+   "site_officiel": "https://tickets.hh.gr/en/venues/spinalonga-tickets",
+   "note": "Le bateau se paie à l'embarcadère, l'entrée de l'île à l'arrivée ou en ligne. Peu d'ombre : chapeau et eau.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zinovia Efthimiadi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Spinalonga_v.jpg",
+    "src": "img/activites/HER/spinalonga.jpg"
+   }
+  },
+  {
+   "id": "agios-nikolaos",
+   "nom": "Agios Nikolaos et son lac",
+   "emoji": "🌊",
+   "type": "balade",
+   "quartier": "Agios Nikolaos (63 km à l'est)",
+   "lat": 35.19057,
+   "lng": 25.71747,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "En fin d'après-midi, puis l'apéritif au bord du lac quand les lumières s'allument",
+   "enfants": true,
+   "texte": "La petite ville la plus élégante de Crète, enroulée autour du lac Voulismeni, un puits d'eau sombre relié à la mer où, dit-on, se baignait la déesse Athéna. Barques de pêche, terrasses suspendues au-dessus de l'eau et boutiques : une halte parfaite avant ou après Spinalonga.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nino Verde",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Voulismeni_Sunrise_02.jpg",
+    "src": "img/activites/HER/agios-nikolaos.jpg"
+   }
+  },
+  {
+   "id": "malia",
+   "nom": "Palais minoen de Malia",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Malia (37 km à l'est)",
+   "lat": 35.29349,
+   "lng": 25.49218,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Entrée",
+     10
+    ],
+    [
+     "Moins de 25 ans de l'Union européenne (avec pièce d'identité)",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le matin, puis la plage de Potamos juste à côté",
+   "enfants": true,
+   "texte": "Le troisième palais minoen de Crète, au bord de la mer et presque sans visiteurs : cours dallées, greniers et jarres géantes se découvrent tranquillement, sans foule ni reconstitution. C'est ici qu'a été trouvé le célèbre pendentif aux abeilles en or du musée d'Héraklion.",
+   "site_officiel": "https://tickets.hh.gr/en/venues/malia-tickets",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wolfgang Moroder",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jars_in_Malia_Crete.jpg",
+    "src": "img/activites/HER/malia.jpg"
+   }
+  },
+  {
+   "id": "voulisma",
+   "nom": "Plage de Voulisma (Golden Beach)",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Istro (75 km à l'est)",
+   "lat": 35.12559,
+   "lng": 25.74613,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ],
+    [
+     "2 transats et un parasol",
+     "≈ 10 à 15 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "Le matin, quand l'eau est la plus claire et le parking encore libre",
+   "enfants": true,
+   "texte": "Du sable blanc et fin, une eau qui passe du turquoise à l'émeraude et un fond qui descend tout doucement : la plus belle plage de l'est de la Crète, à dix minutes d'Agios Nikolaos. On la découvre d'en haut, depuis la route, et l'on a tout de suite envie d'y descendre.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "ArtemiyPavlov",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Voulisma_Beach%2C_Istro%2C_Crete.JPG",
+    "src": "img/activites/HER/voulisma.jpg"
+   }
+  },
+  {
+   "id": "rethymnon",
+   "nom": "Réthymnon : vieille ville et forteresse",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Réthymnon (80 km à l'ouest)",
+   "lat": 35.37214,
+   "lng": 24.47093,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Balade dans la vieille ville",
+     "gratuit"
+    ],
+    [
+     "Forteresse (Fortezza)",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "Une demi-journée",
+   "moment": "L'après-midi et le soir : les ruelles s'animent et le petit port s'illumine",
+   "enfants": true,
+   "texte": "La plus charmante des villes crétoises : un dédale de ruelles vénitiennes et ottomanes, balcons de bois, minarets et bougainvillées, un port de poche gardé par un phare, et la grande forteresse en étoile d'où l'on voit toute la côte. À une heure d'Héraklion par la route du bord de mer.",
+   "site_officiel": "https://www.rethymno.gr/en",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Xxlstier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_Venetian_Harbour_in_Rethymno_03.jpg",
+    "src": "img/activites/HER/rethymnon.jpg"
+   }
+  },
+  {
+   "id": "arkadi",
+   "nom": "Monastère d'Arkadi",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Arkadi (80 km à l'ouest)",
+   "lat": 35.30991,
+   "lng": 24.62943,
+   "prix": 4,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 4 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le matin ou en fin d'après-midi, en allant à Réthymnon (23 km)",
+   "enfants": true,
+   "texte": "Le monument le plus sacré de Crète, au bout d'une route de montagne : une église à la façade Renaissance couleur miel, au milieu d'un cloître fortifié. En 1866, assiégés par l'armée ottomane, ses défenseurs ont préféré faire sauter la poudrière plutôt que se rendre. Un lieu paisible et bouleversant.",
+   "site_officiel": "https://www.arkadimonastery.gr/en/",
+   "note": "Épaules et genoux couverts, comme dans tous les monastères.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arkadi_Monastery_-_Apses_of_the_church.jpg",
+    "src": "img/activites/HER/arkadi.jpg"
+   }
+  },
+  {
+   "id": "preveli",
+   "nom": "Plage de Preveli et sa palmeraie",
+   "emoji": "🌴",
+   "type": "plage",
+   "quartier": "Preveli (110 km au sud-ouest)",
+   "lat": 35.15253,
+   "lng": 24.47383,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ],
+    [
+     "Parking",
+     "≈ 3 €"
+    ],
+    [
+     "Monastère de Preveli",
+     "≈ 4 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une journée",
+   "moment": "Tôt le matin : la descente à pied (20 min de marches) et surtout la remontée sont rudes en plein soleil",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une rivière qui sort d'un canyon, traverse une forêt de palmiers et se jette dans la mer de Libye sur une plage de sable : un décor d'île tropicale au sud de la Crète. On se baigne dans l'eau douce, puis dans la mer, et l'on remonte la rivière à pied sous les palmes.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "note": "Aucun commerce sur la plage en dehors d'une buvette : emportez de l'eau. Environ 1 h 50 de route depuis Héraklion.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Uoaei1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Preveli_Palm_Beach_03.JPG",
+    "src": "img/activites/HER/preveli.jpg"
+   }
+  },
+  {
+   "id": "kournas",
+   "nom": "Lac de Kournas",
+   "emoji": "🦢",
+   "type": "nature",
+   "quartier": "Kournas (100 km à l'ouest)",
+   "lat": 35.33211,
+   "lng": 24.27553,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ],
+    [
+     "Pédalo (1 h)",
+     "≈ 10 à 12 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "De mai à septembre, à l'heure du déjeuner, sur la route de La Canée",
+   "enfants": true,
+   "texte": "Le seul lac d'eau douce de Crète, d'un bleu-vert étonnant au pied des Montagnes blanches. On en fait le tour en pédalo pour approcher les tortues et les canards, puis on déjeune dans une taverne au-dessus de l'eau. Une pause fraîche entre Réthymnon et La Canée.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Taxiarchos228",
+    "licence": "Licence Art Libre (FAL)",
+    "page": "https://commons.wikimedia.org/wiki/File:Kreta_-_Kournas-See.jpg",
+    "src": "img/activites/HER/kournas.jpg"
+   }
+  },
+  {
+   "id": "chania",
+   "nom": "La Canée et son port vénitien",
+   "emoji": "⚓",
+   "type": "balade",
+   "quartier": "La Canée (140 km à l'ouest)",
+   "lat": 35.5186,
+   "lng": 24.0176,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une journée",
+   "moment": "En fin d'après-midi et le soir, quand les façades du port se reflètent dans l'eau",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Pour beaucoup, la plus belle ville de Grèce : un port en demi-lune bordé de façades pastel, un phare égyptien au bout de la jetée, une mosquée aux coupoles roses, et derrière, un lacis de ruelles fleuries où se cachent ateliers de cuir, de couteaux et de céramique.",
+   "site_officiel": "https://www.chaniatourism.gr/",
+   "note": "Deux heures de route depuis Héraklion (ou 2 h 30 en bus KTEL) : l'idéal est d'y dormir une nuit ou deux pour voir aussi Balos et Elafonissi.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lapplaender",
+    "licence": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Chania_-_Venetian_harbor_2.jpg",
+    "src": "img/activites/HER/chania.jpg"
+   }
+  },
+  {
+   "id": "balos",
+   "nom": "Lagon de Balos",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Kissamos (180 km à l'ouest)",
+   "lat": 35.58,
+   "lng": 23.5886,
+   "prix": 37,
+   "prix_detail": [
+    [
+     "Croisière depuis Kissamos (Balos seul), 13 ans et plus",
+     "36 à 40 €"
+    ],
+    [
+     "Avec l'île de Gramvousa",
+     "40 à 45 €"
+    ],
+    [
+     "De 3 à 12 ans",
+     "21 à 27 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ],
+    [
+     "Taxe de la commune (dès 13 ans)",
+     "1 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 37,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      12,
+      21
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en juillet et août, sur le site de la compagnie",
+   "duree": "Une journée",
+   "moment": "D'avril à octobre ; partez de La Canée plutôt que d'Héraklion (2 h 40 de route jusqu'au port)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'image la plus célèbre de Crète : un lagon peu profond aux mille nuances de turquoise, des bancs de sable blanc et rose, et une presqu'île sauvage en toile de fond. On y arrive en bateau depuis Kissamos, souvent avec une escale au pied de la forteresse pirate de Gramvousa.",
+   "site_officiel": "https://www.cretandailycruises.com/explorecruises/gramvousabalos/prices.en.html",
+   "note": "La piste qui mène au lagon par la terre est interdite à la plupart des voitures de location : le bateau est le plus simple.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "dronepicr",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Balos_Beach_and_Lagoon_on_Crete%2C_Greece.jpg",
+    "src": "img/activites/HER/balos.jpg"
+   }
+  },
+  {
+   "id": "elafonissi",
+   "nom": "Plage rose d'Elafonissi",
+   "emoji": "🩷",
+   "type": "plage",
+   "quartier": "Elafonissi (215 km au sud-ouest)",
+   "lat": 35.27146,
+   "lng": 23.54182,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ],
+    [
+     "2 transats et un parasol",
+     "≈ 15 à 20 €"
+    ],
+    [
+     "Parking",
+     "≈ 3 à 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une journée",
+   "moment": "Avant 10 h ou après 16 h, en mai, juin, septembre ou octobre : en plein été, la plage est prise d'assaut",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un lagon tiède où l'on a de l'eau jusqu'aux genoux, et un sable qui rosit au bord de l'eau grâce à des milliers de coquillages broyés. Régulièrement classée parmi les plus belles plages du monde, tout au bout de la Crète.",
+   "site_officiel": "https://www.incrediblecrete.gr/en/",
+   "note": "3 h 30 de route depuis Héraklion : à faire depuis La Canée (1 h 30). Il est interdit d'emporter du sable. Le rose se voit surtout au bord de l'eau, hors saison.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "dronepicr",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Elafonisi_beach_separating_Crete_and_Elafonisi_Island_in_Greece.jpg",
+    "src": "img/activites/HER/elafonissi.jpg"
+   }
+  },
+  {
+   "id": "samaria",
+   "nom": "Gorges de Samaria",
+   "emoji": "🥾",
+   "type": "sport",
+   "quartier": "Omalos (185 km à l'ouest)",
+   "lat": 35.30769,
+   "lng": 23.91756,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Entrée du parc national",
+     10
+    ],
+    [
+     "Enfants de moins de 15 ans",
+     "gratuit"
+    ],
+    [
+     "Bateau d'Agia Roumeli à Sougia ou Sfakia",
+     "≈ 15 €"
+    ],
+    [
+     "Excursion en car depuis Héraklion ou Réthymnon (sans l'entrée)",
+     "≈ 40 à 55 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      14,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet du parc en ligne ; excursion en car à réserver 2 ou 3 jours avant",
+   "duree": "Une journée entière (5 à 7 h de marche)",
+   "moment": "De mai à octobre (fermées du 1er novembre à début avril, et par mauvais temps) ; départ avant 8 h",
+   "enfants": false,
+   "texte": "La plus longue gorge d'Europe : 16 km de descente depuis les Montagnes blanches jusqu'à la mer de Libye, entre des falaises de 300 m qui se resserrent à 4 m aux « Portes de fer ». On croise des chèvres sauvages kri-kri, et l'on finit par une baignade et un bateau. La grande randonnée de Crète.",
+   "site_officiel": "https://samaria-tickets.necca.gov.gr/",
+   "note": "Descente longue et caillouteuse : bonnes chaussures et bons genoux indispensables, déconseillée avec de jeunes enfants. L'excursion en car règle le retour (bateau puis car).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lapplaender",
+    "licence": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Samaria_Gorge_09.jpg",
+    "src": "img/activites/HER/samaria.jpg"
+   }
+  },
+  {
+   "id": "santorin",
+   "nom": "Une journée à Santorin en bateau rapide",
+   "emoji": "🛥️",
+   "type": "balade",
+   "quartier": "Départ du port d'Héraklion",
+   "lat": 35.3436,
+   "lng": 25.1483,
+   "prix": 150,
+   "prix_detail": [
+    [
+     "Aller-retour en bateau rapide (2 h par trajet)",
+     "≈ 110 à 180 €"
+    ],
+    [
+     "Excursion organisée avec car sur place",
+     "≈ 150 à 200 €"
+    ],
+    [
+     "Enfants",
+     "≈ moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 150,
+    "enfants": [
+     [
+      11,
+      75
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant en été (bateaux souvent complets)",
+   "duree": "Une journée (départ vers 8 h, retour vers 20 h)",
+   "moment": "D'avril à octobre seulement ; évitez les jours de grand vent (meltem), la traversée secoue",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Les villages blancs accrochés au bord du volcan, les coupoles bleues d'Oia et la caldeira à perte de vue : Santorin n'est qu'à deux heures de bateau rapide d'Héraklion. Une journée suffit pour voir Fira et Oia et revenir dîner en Crète.",
+   "site_officiel": "https://www.seajets.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Norbert Nagel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oia_-_Santorini_-_Greece_-_16.jpg",
+    "src": "img/activites/HER/santorin.jpg"
+   }
+  },
+  {
+   "id": "sortir",
+   "nom": "Soirée dans les ruelles d'Héraklion",
+   "emoji": "🍸",
+   "type": "sortir",
+   "quartier": "Héraklion (rues Korai et Milatou)",
+   "lat": 35.3387,
+   "lng": 25.1345,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Un cocktail",
+     "≈ 9 à 12 €"
+    ],
+    [
+     "Un verre de vin crétois ou une bière",
+     "≈ 4 à 6 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "La soirée",
+   "moment": "À partir de 22 h : les Crétois sortent tard, et toute l'année",
+   "enfants": false,
+   "texte": "Héraklion est une ville étudiante qui vit dehors : dès la nuit tombée, les ruelles piétonnes autour des rues Korai et Milatou se couvrent de tables, entre bars à cocktails, caves à vin et terrasses sur les toits avec vue sur le port. Et le raki, offert en fin de repas, lance la soirée.",
+   "site_officiel": "https://www.heraklion.gr/en/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ijon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Outside_Agios_Titos_church_in_Heraklion_at_night_01.jpg",
+    "src": "img/activites/HER/sortir.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "heraklion",
+   "nom": "Héraklion (vieille ville et port)",
+   "lat": 35.3395,
+   "lng": 25.1335,
+   "texte": "Le plus pratique pour un court séjour : musée, port, restaurants et bars à pied, Knossos à dix minutes et l'aéroport à un quart d'heure. Une vraie ville animée toute l'année, mais sans belle plage."
+  },
+  {
+   "id": "hersonissos",
+   "nom": "Hersonissos et Malia (stations balnéaires)",
+   "lat": 35.318,
+   "lng": 25.389,
+   "texte": "À 30 minutes à l'est de l'aéroport, des kilomètres de plages, d'hôtels avec piscine et de parcs aquatiques. Idéal en famille ou entre amis ; très animé le soir en été, presque fermé l'hiver."
+  },
+  {
+   "id": "agios-nikolaos",
+   "nom": "Agios Nikolaos et Elounda",
+   "lat": 35.1909,
+   "lng": 25.717,
+   "texte": "La Riviera crétoise, à une heure d'Héraklion : une jolie petite ville autour de son lac, les plus beaux hôtels de l'île à Elounda, et Spinalonga juste en face. Calme et élégant."
+  },
+  {
+   "id": "rethymnon",
+   "nom": "Réthymnon",
+   "lat": 35.369,
+   "lng": 24.474,
+   "texte": "Une vieille ville vénitienne pleine de charme, avec une longue plage de sable à ses pieds. À mi-chemin entre Héraklion et La Canée : la meilleure base pour rayonner sur toute l'île."
+  },
+  {
+   "id": "chania",
+   "nom": "La Canée (Chania)",
+   "lat": 35.5165,
+   "lng": 24.018,
+   "texte": "La plus belle ville de Crète et la porte des grandes plages de l'ouest (Balos, Elafonissi) et des gorges de Samaria. À deux heures d'Héraklion : à choisir pour un séjour d'une semaine, ou pour deux ou trois nuits en fin de voyage."
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "phyllosophies",
+   "nom": "Phyllosophies",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Bougatsa, le feuilleté crétois du matin",
+   "quartier": "Héraklion (place des Lions)",
+   "adresse": "Plateia Liontarion 33, Héraklion",
+   "lat": 35.33897,
+   "lng": 25.13307,
+   "prix": "≈ 4 à 10 €",
+   "prix_min": 4,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Le petit déjeuner d'Héraklion depuis 1922, face à la fontaine aux lions : la bougatsa, un feuilleté tiède étiré à la main, fourré de crème ou de fromage frais mizithra et saupoudré de sucre et de cannelle. La recette est arrivée de Smyrne avec les réfugiés d'Asie Mineure et n'a pas changé.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez le matin, quand les plaques sortent du four",
+   "photo": {
+    "auteur": "Andy Li",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bougatsa_%28with_vannila_custard%29_-_IL.FOXO_2026-02-13.jpg",
+    "src": "img/restos/HER/phyllosophies.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chagiati",
+   "nom": "Chagiati",
+   "emoji": "🥃",
+   "gamme": "petit",
+   "genre": "Mezzés crétois et raki",
+   "quartier": "Héraklion (centre)",
+   "adresse": "Erotokritou 12, Héraklion",
+   "lat": 35.34109,
+   "lng": 25.13283,
+   "prix": "≈ 12 à 20 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Un « rakadiko » comme les aiment les Crétois : une cour intérieure, des petites assiettes à partager (boulettes, fromage grillé, escargots au romarin, saucisse au vinaigre) et la carafe de raki qui arrive toute seule. Simple, joyeux et vraiment pas cher.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour le soir ; c'est petit et vite plein",
+   "photo": {
+    "auteur": "Minja Klarić",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Traditional_cuisine_of_Bosnia_and_Herzegovina_-_Peksimeti%2C_meze%2C_smoked_beef%2C_hurma%C5%A1ica_and_smokvara-bs.jpg",
+    "src": "img/restos/HER/chagiati.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "karnagio",
+   "nom": "Karnagio (Pita tou Riga)",
+   "emoji": "🥙",
+   "gamme": "petit",
+   "genre": "Gyros et grillades",
+   "quartier": "Agios Nikolaos",
+   "adresse": "Konstantinou Paleologou 24, Agios Nikolaos",
+   "lat": 35.19145,
+   "lng": 25.71769,
+   "prix": "≈ 5 à 15 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'adresse la plus courue d'Agios Nikolaos, à deux pas du lac : des pitas roulées généreuses, des brochettes et des assiettes de grillades servies sans façon en terrasse. Parfait pour un déjeuner rapide avant d'embarquer pour Spinalonga.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu d'attente aux heures de pointe",
+   "photo": {
+    "auteur": "Antonio Fajardo i López",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pita_giros.JPG",
+    "src": "img/restos/HER/karnagio.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ippokampos",
+   "nom": "Ippokampos",
+   "emoji": "🐙",
+   "gamme": "petit",
+   "genre": "Ouzeri de poissons sur le port",
+   "quartier": "Héraklion (vieux port)",
+   "adresse": "Leoforos Sofokli Venizelou 3, Héraklion",
+   "lat": 35.34287,
+   "lng": 25.13375,
+   "prix": "≈ 18 à 28 €",
+   "prix_min": 18,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'ouzeri des Héraklionais depuis des décennies, face au port vénitien : petite friture, poulpe grillé, calamars, moules et salades à partager, avec un ouzo ou un raki. On vient pour la fraîcheur et les prix tout doux, pas pour le décor.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez avant 13 h 30 ou avant 20 h, sinon il faut patienter",
+   "photo": {
+    "auteur": "Iannis Karakatsanes",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_octopus2.jpg",
+    "src": "img/restos/HER/ippokampos.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "hatziparaschos",
+   "nom": "Atelier Hatziparaschos",
+   "emoji": "🍯",
+   "gamme": "petit",
+   "genre": "Baklava et kataïfi faits main",
+   "quartier": "Réthymnon (vieille ville)",
+   "adresse": "Emmanouil Vernardou 30, Réthymnon",
+   "lat": 35.36938,
+   "lng": 24.47339,
+   "prix": "≈ 3 à 8 €",
+   "prix_min": 3,
+   "badges": [
+    "institution"
+   ],
+   "texte": "L'un des derniers ateliers de Grèce où la pâte filo s'étire encore à la main, en voiles immenses et transparents, comme depuis les années 1950. La famille Hatziparaschos vous laisse regarder, puis vous repartez avec des baklavas et des kataïfis au miel encore tièdes.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; l'atelier travaille surtout le matin",
+   "photo": {
+    "auteur": "Mar.masouridi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%93%CE%BB%CF%85%CE%BA%CF%8C_%CE%BA%CE%B1%CE%BD%CF%84%CE%B1%CE%90%CF%86%CE%B9.JPG",
+    "src": "img/restos/HER/hatziparaschos.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vegera",
+   "nom": "Vegera",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine de grand-mère au village",
+   "quartier": "Zaros (45 km au sud-ouest)",
+   "adresse": "Rue principale, Zaros",
+   "lat": 35.13036,
+   "lng": 24.90478,
+   "prix": "≈ 15 à 20 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Chez Vivi, pas de carte : elle cuisine chaque jour les légumes du jardin et ce que donnent les fermes voisines, et apporte tout à table, de l'entrée au dessert, avec le vin et le raki. Une table d'hôtes au pied du mont Psiloritis, sur la route de Phaistos et de Matala.",
+   "reservation": "conseille",
+   "reservation_delai": "un appel la veille en été ; menu unique, vin compris",
+   "photo": {
+    "auteur": "Bojan Cekrlic",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Votomos_lake_in_Zaros_village%2C_Crete.jpg",
+    "src": "img/restos/HER/vegera.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "peskesi",
+   "nom": "Peskesi",
+   "emoji": "🫒",
+   "gamme": "moyen",
+   "genre": "Cuisine crétoise de la ferme",
+   "quartier": "Héraklion (centre)",
+   "adresse": "Kapetan Charalampi 6-8, Héraklion",
+   "lat": 35.34017,
+   "lng": 25.13259,
+   "prix": "≈ 25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "tendance",
+    "recompense"
+   ],
+   "recompense": "Sélection FNL Best Restaurant Awards 2026",
+   "texte": "La table qui a remis la vieille cuisine crétoise à l'honneur, dans une demeure de pierre du centre : presque tout vient de la ferme du restaurant. Porc fumé aux herbes suspendu au-dessus des braises, agneau cuit lentement, herbes sauvages et fromages de montagne. L'adresse à ne pas manquer à Héraklion.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant en été, en ligne",
+   "photo": {
+    "auteur": "DanielaElenaTentis",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Danielaelenatentis-dakos-3538425_1920.jpg",
+    "src": "img/restos/HER/peskesi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "merastri",
+   "nom": "Merastri",
+   "emoji": "🍖",
+   "gamme": "moyen",
+   "genre": "Taverne familiale crétoise",
+   "quartier": "Héraklion (hors les murs)",
+   "adresse": "Chrisostomou 17, Héraklion",
+   "lat": 35.33274,
+   "lng": 25.13617,
+   "prix": "≈ 20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Une maison de famille où l'on est reçu comme des amis : agneau rôti, chevreau aux herbes, tourtes aux herbes sauvages et vin de la propriété, sous la tonnelle. La générosité crétoise dans l'assiette, à dix minutes à pied des remparts.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner",
+   "photo": {
+    "auteur": "Infrogmation",
+    "licence": "CC BY 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:GreekFest07LambRoast.jpg",
+    "src": "img/restos/HER/merastri.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "hasika",
+   "nom": "Hasika",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Taverne crétoise créative",
+   "quartier": "Réthymnon (vieille ville)",
+   "adresse": "Agias Varvaras 11-13, Réthymnon",
+   "lat": 35.3678,
+   "lng": 24.47483,
+   "prix": "≈ 40 à 50 €",
+   "prix_min": 40,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles FNL Best Restaurant Awards 2026",
+   "texte": "Dans une ruelle piétonne de la vieille ville, le chef Michalis Hasikos et ses trois enfants revisitent la Crète « en bouchées » : gyros de calamar, moussaka de poulpe, pâtes farcies à l'agneau et au fromage frais. L'une des deux seules tables de Crète à deux étoiles au palmarès FNL.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été",
+   "photo": {
+    "auteur": "Dietmar Rabich",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kreta_%28GR%29%2C_Rethymno%2C_Altstadt%2C_Blumenschmuck_--_2023_--_8323.jpg",
+    "src": "img/restos/HER/hasika.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tamam",
+   "nom": "Tamam",
+   "emoji": "🕌",
+   "gamme": "moyen",
+   "genre": "Cuisine crétoise aux parfums d'Orient",
+   "quartier": "La Canée (vieille ville)",
+   "adresse": "Zampeliou 49, La Canée",
+   "lat": 35.51653,
+   "lng": 24.01638,
+   "prix": "≈ 25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Installé depuis 1982 dans un ancien hammam turc de la vieille ville, avec ses tables alignées dans la ruelle : agneau au yaourt, aubergines confites, plats parfumés au cumin et à la cannelle qui racontent le passé ottoman de La Canée. Une valeur sûre, à deux pas du port.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été, ou venir avant 19 h 30",
+   "photo": {
+    "auteur": "Miguel Virkkunen Carvalho",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Picturesque_alley_in_Chania.jpg",
+    "src": "img/restos/HER/tamam.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ferryman",
+   "nom": "Ferryman Taverna",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poisson grillé au bord de l'eau",
+   "quartier": "Elounda",
+   "adresse": "Akti Olountos, Elounda",
+   "lat": 35.26139,
+   "lng": 25.7249,
+   "prix": "≈ 40 à 60 €",
+   "prix_min": 40,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Les tables sont posées sur le quai, presque dans l'eau, face à la lagune d'Elounda. Ouverte dans les années 1970, la taverne doit son nom à une série de la BBC tournée ici. On choisit son poisson du jour, grillé à l'huile d'olive et au citron.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table au bord de l'eau",
+   "photo": {
+    "auteur": "Mietek Ł",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Widok_na_przysta%C5%84_i_pla%C5%BC%C4%99_przy_hotelu_Marmin_Bay_-_panoramio.jpg",
+    "src": "img/restos/HER/ferryman.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ntounias",
+   "nom": "Ntounias",
+   "emoji": "🔥",
+   "gamme": "moyen",
+   "genre": "Cuisine au feu de bois dans la montagne",
+   "quartier": "Drakona (25 km de La Canée)",
+   "adresse": "Drakona, Keramia",
+   "lat": 35.40896,
+   "lng": 24.01483,
+   "prix": "≈ 25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection FNL Best Restaurant Awards 2026",
+   "texte": "Au bout d'une route de montagne, Stelios Trilyrakis cuisine dans des marmites en terre sur le feu de bois ce qu'il élève et cultive lui-même. Pas de friteuse, pas de congélateur : on soulève les couvercles en cuisine pour choisir. Le rendez-vous des amoureux de la vraie cuisine crétoise.",
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille le week-end ; comptez 40 minutes de route depuis La Canée",
+   "photo": {
+    "auteur": "C messier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%9A%CE%B1%CF%84%CF%83%CE%B9%CE%BA%CE%AC%CE%BA%CE%B9_%CE%BC%CE%B5_%CE%B1%CE%B3%CE%BA%CE%B9%CE%BD%CE%AC%CF%81%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%B2%CE%BF%CF%85%CE%BD%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%BA%CE%B1%CF%84%CF%83%CE%B1%CF%81%CF%8C%CE%BB%CE%B1.jpg",
+    "src": "img/restos/HER/ntounias.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "the-walls",
+   "nom": "The Walls",
+   "emoji": "✨",
+   "gamme": "haut",
+   "genre": "Cuisine crétoise gastronomique",
+   "quartier": "Héraklion (vieux port)",
+   "adresse": "Zotou 6, Héraklion",
+   "lat": 35.34232,
+   "lng": 25.13396,
+   "prix": "≈ 50 à 75 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection FNL Best Restaurant Awards 2026",
+   "texte": "Une petite salle adossée aux murailles vénitiennes, près du port, où les produits crétois sont travaillés avec la précision d'une grande table : poissons crus, agneau fondant, légumes oubliés et accords de vins de l'île. La table gastronomique du centre d'Héraklion.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "C messier",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:5313048walls_of_Herakleion.JPG",
+    "src": "img/restos/HER/the-walls.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "kouzeineri",
+   "nom": "Kouzeineri",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Viandes maturées, vue sur le port",
+   "quartier": "Héraklion (centre)",
+   "adresse": "Agiou Titou, Héraklion",
+   "lat": 35.34047,
+   "lng": 25.13548,
+   "prix": "≈ 50 à 80 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "Sur un toit du centre, avec la forteresse de Koules et les arsenaux vénitiens en contrebas : un steakhouse élégant, belles pièces de bœuf maturé, cocktails et cave de vins crétois. La table des soirées habillées d'Héraklion.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour une table côté vue",
+   "photo": {
+    "auteur": "PattayaPatrol",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_7130_Seared_filet_mignon_served_with_creamy_mashed_potatoes_and_steamed_vegetables_on_a_white_plate.jpg",
+    "src": "img/restos/HER/kouzeineri.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "makris",
+   "nom": "Mákris Elounda",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie face à Spinalonga",
+   "quartier": "Elounda",
+   "adresse": "Domes of Elounda, Tsifliki, Elounda",
+   "lat": 35.29353,
+   "lng": 25.72863,
+   "prix": "≈ 100 à 140 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Toque d'or 2026 (Athinorama) et 2 étoiles FNL 2026",
+   "texte": "La grande table de Crète en ce moment : sur la terrasse d'un hôtel d'Elounda, face à l'île de Spinalonga, le chef Petros Dimas compose un menu dégustation autour des produits de l'île. Pour un dîner d'exception au coucher du soleil.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; ouvert d'avril à octobre, le soir",
+   "photo": {
+    "auteur": "Wolfgang Moroder",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Elounda_and_Spinalonga_Crete.jpg",
+    "src": "img/restos/HER/makris.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "avli",
+   "nom": "Avli",
+   "emoji": "🌿",
+   "gamme": "haut",
+   "genre": "Cuisine crétoise raffinée dans un jardin",
+   "quartier": "Réthymnon (vieille ville)",
+   "adresse": "Xanthoudidou 22, Réthymnon",
+   "lat": 35.37023,
+   "lng": 24.47398,
+   "prix": "≈ 60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "institution",
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "1 étoile FNL Best Restaurant Awards 2026",
+   "texte": "Un jardin secret dans un palais vénitien du XVIe siècle, éclairé aux bougies : depuis plus de trente ans, Avli sert une cuisine crétoise soignée (chevreau au miel et au thym, agneau aux herbes, fromages affinés) avec une superbe cave de vins de l'île. Le dîner romantique de Réthymnon.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été",
+   "photo": {
+    "auteur": "Nino Verde",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rethymno_old_harbour_4.jpg",
+    "src": "img/restos/HER/avli.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "scala",
+   "nom": "Scala",
+   "emoji": "🌅",
+   "gamme": "haut",
+   "genre": "Poissons et fruits de mer au-dessus de la baie",
+   "quartier": "Matala",
+   "adresse": "Bord de mer, Matala",
+   "lat": 34.99322,
+   "lng": 24.74696,
+   "prix": "≈ 50 à 75 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection FNL Best Restaurant Awards 2026",
+   "texte": "Au bout de la baie de Matala, accrochée aux rochers juste en face des grottes : on dîne de poisson du jour, de poulpe et de fruits de mer pendant que le soleil plonge dans la mer de Libye. L'une des plus belles terrasses du sud de la Crète.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table au premier rang au coucher du soleil ; ouvert d'avril à octobre",
+   "photo": {
+    "auteur": "Mareksilarski",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Matala-bay_and_beach.jpg",
+    "src": "img/restos/HER/scala.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "almyvita",
+   "nom": "AlmyVita",
+   "emoji": "🦐",
+   "gamme": "haut",
+   "genre": "Cuisine de la mer sur le port vénitien",
+   "quartier": "La Canée (vieux port)",
+   "adresse": "Akti Tompazi 19, La Canée",
+   "lat": 35.51851,
+   "lng": 24.0189,
+   "prix": "≈ 50 à 75 €",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélection FNL Best Restaurant Awards 2026",
+   "texte": "Sur le quai du vieux port, face au phare : une cuisine méditerranéenne d'aujourd'hui, risottos, poissons et crustacés travaillés avec finesse, loin des pièges à touristes du front de mer. La belle table de La Canée, pour finir la journée devant les façades illuminées.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en été pour une table au bord de l'eau",
+   "photo": {
+    "auteur": "Wikisp",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chania_auf_Kreta_bei_Nacht.jpg",
+    "src": "img/restos/HER/almyvita.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

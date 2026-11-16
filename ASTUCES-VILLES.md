@@ -243,3 +243,10 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   munch.no (`/en/buy-tickets/entrance-ticket/regular/`), nasjonalmuseet.no, kon-tiki.no/besok, norskfolkemuseum.no/en/plan-your-visit,
   holmenkollen.com/en/apningstider/, brimexplorer.com/tours/silent-oslo-fjord-cruise, oslobadstuforening.no/en/book-single-ticket/ ; operaen.no
   bloque (Cloudflare), royalcourt.no vide. Cartes en PDF : Arakataka, Den Glade Gris (`pdftotext`). Commons : API « 429 », recherche HTML (`ns6=1`) sans souci.
+- Héraklion / Crète (nov. 2026) : Wanderlog, départ `geoCategory/74394`, suivre les adresses finissant par « -in-heraklion », « -in-chania-town »,
+  « -in-rethymnon », « -in-agios-nikolaos », « -in-elounda »… (ajouter `^/list/` pour ne pas relire chaque liste en 15 langues) : ~2 300 lieux,
+  1 700 restaurants. Prix officiels des sites d'État grecs : `tickets.hh.gr/en/venues/search?q=<nom>` avec Playwright (hhticket.gr répond 403) ;
+  aussi lisibles avec Playwright : historical-museum.gr (`/en/visit/wres-leitoirghias-eisitiria`), nhmc.uoc.gr, samaria-tickets.necca.gov.gr,
+  cretandailycruises.com (`…/gramvousabalos/prices.en.html`), acquaplus.gr ; cretaquarium.gr n'affiche pas ses prix. Récompenses : pas de Michelin
+  en Crète, palmarès FNL (`int.fnl-guide.com/int/en/fnl-best-restaurants/crete-bra-2026/`, Playwright) et Toques d'or. Google Maps (cookie `SOCS`)
+  donne la note sans le nombre d'avis. Commons : l'API `generator=search` passe mais lentement (« 429 » par vagues, ~1 min par recherche).
