@@ -336,6 +336,21 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (15/11/2026) **Page guide d'Antalya** (`guides/AYT.json`), préparée en autonomie ; ville sans vol en ce moment (champ `ville`) : 26 activités
+  (Kaleiçi, porte d'Hadrien, vieux port et balade en bateau ≈ 10 €, minaret cannelé, tour Hıdırlık, plages de Konyaaltı et de Lara, cascades de
+  Düden — basse gratuite, haute ≈ 2 € —, aquarium ≈ 44 €, Pergé 11 €, Aspendos 15 €, Termessos ≈ 5 €, Kurşunlu ≈ 2 €, Sidé, Phaselis 10 €,
+  Olympos 10 €, flammes de Yanartaş ≈ 2 €, téléphérique du Tahtalı ≈ 55 €, rafting de Köprülü, canyon de Tazı, The Land of Legends ≈ 50 €,
+  Suluada, Kekova et Myra, Pamukkale, match d'Antalyaspor), 18 restaurants (Piyazcı Sami depuis 1933, Can Can Pide, Paşa Bey Kebap, Çıtır Balık,
+  Milklaç, Rokka ; Ayar Meyhanesi, İşliyen Balık Evi, Çömlekçi, Luna Garden, Sıralı Kebap, Pastorale ; Seraser, Vanilla, Terrace Steak House,
+  Sauvignon, Fatma Sultan, Kalamar Balık), 5 quartiers (Kaleiçi, Işıklar, Konyaaltı, Lara, centre), 2 liens Tiqets (aquarium, Land of Legends).
+  1 € ≈ 55,7 livres. Prix officiels : sites antiques sur muze.gov.tr (en euros), parcs naturels = tarif 2026 du ministère (95 livres).
+  Formalités Turquie (carte d'identité valable 150 jours). Notes : ~430 restaurants Wanderlog, C = 4,31. Pas de guide Michelin à Antalya :
+  aucun badge « récompense ». Écartés : musée d'Antalya (démoli, nouveau bâtiment en construction), téléphérique de Tünektepe (fermé depuis
+  l'accident de 2024), théâtre de Sidé (en restauration), 7 Mehmet (4,1), Topçu Kebap et Piyazcı Ahmet (4,2), Börekçi Tevfik (3,9, fermé),
+  Castle Café (4,1), Arma (fermé). Prix estimés (pas de tarif officiel lisible) : balade en bateau, téléphérique du Tahtalı, rafting, canyon
+  de Tazı, Suluada, Kekova, Pamukkale, billets d'Antalyaspor (`prix_match` 5), et les restaurants sauf Seraser et Vanilla (cartes en ligne).
+  Tendances Apify non lancées (jeton à renouveler) : badges « tendance » d'après les sources citées par Wanderlog (Düden, Tazı, Suluada,
+  Luna Garden, Sıralı Kebap, Milklaç).
 - ✅ (15/11/2026) **Page guide de Stockholm** (`guides/STO.json`), préparée en autonomie ; ville sans vol en ce moment (champ `ville`) : 28 activités
   (musée Vasa 195/240 SEK, Skansen, Gamla Stan, palais royal, hôtel de ville — tour fermée jusqu'en 2029 —, ABBA, Fotografiska, Nobel, Moderna,
   Nationalmuseum, musée d'Histoire, Junibacken, Drottningholm, croisière dans l'archipel, Vaxholm avec un simple ticket de métro, Fjäderholmarna,
@@ -634,7 +649,7 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   perdue en 2026), Autoworld (prix incertain). À savoir : restaurant du MIM fermé (rénovation), Mini-Europe fermé en
   janvier-février, Osteria Bolognese fermée jusqu'au 2 novembre 2026. Prix des Beaux-Arts et de Magritte (13 €,
   combiné 20 €) lus via la presse (site du musée inaccessible d'ici).
-- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Stockholm (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination, à lancer en priorité), Milan (non lancé le 09/11/2026, crédit épuisé).
+- ⏳ **Tendances à faire plus tard** (au renouvellement du crédit Apify) : Bruxelles, Dublin, Vilnius, Édimbourg, Bucarest, Munich, Tenerife (refusé le 06/11/2026 : plafond mensuel de 19 $ atteint, 0 $ dépensé), Cracovie (refusé le 07/11/2026, 0 $ dépensé), Düsseldorf (non lancé le 08/11/2026, crédit épuisé), Dubrovnik (non lancé le 08/11/2026, crédit épuisé), Charm el-Cheikh (non lancé le 09/11/2026, crédit épuisé), Hurghada (non lancé le 10/11/2026, crédit épuisé), Faro (non lancé le 10/11/2026, crédit épuisé), Malte (refusé le 13/11/2026 : jeton Apify invalide, à renouveler), Funchal (non lancé le 14/11/2026 : jeton toujours à renouveler), Marseille (refusé le 15/11/2026 : jeton invalide, 401, 0 $), Alicante (non lancé le 15/11/2026 : jeton toujours à renouveler), Stockholm (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination, à lancer en priorité), Antalya (non lancé le 15/11/2026 : jeton toujours à renouveler ; grosse destination), Milan (non lancé le 09/11/2026, crédit épuisé).
 - ✅ (24/10/2026) **Page guide d'Oran** (`guides/ORN.json`), préparée en autonomie : 18 activités (tendance d'après les réseaux
   sociaux, 2 sources au moins : Santa Cruz, front de mer, place d'Armes, Sidi El Houari, cathédrale-bibliothèque du Sacré-Cœur,
   mosquée Ben-Badis, musée Zabana, Médina Jdida, corniche d'Aïn El Turck, Andalouses, Madagh, bateau vers l'île Plane ; promenade

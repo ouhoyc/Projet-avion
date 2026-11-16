@@ -224,3 +224,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   abbathemuseum.com (`/en/prices-opening-hours`), hellasgarden.se/bastu, aviciiarena.se/en/skyview ; stadshuset.stockholm était en panne. Michelin :
   `guide.michelin.com/se/en/stockholm-region/stockholm/restaurants` (Playwright). Commons : l'API répondait « 429 » ; recherche HTML (`ns6=1`) avec les
   vignettes `250px-` de la page de résultats pour les planches, ne pas attendre quand une recherche ne donne rien (c'est normal, pas un blocage).
+- Antalya (nov. 2026) : ville sans vol en ce moment (champ `ville`). Wanderlog géo de `geoCategory/6478`, ne suivre que les adresses anglaises
+  finissant par « -in-antalya » (sinon le robot relit chaque liste dans 15 langues) : ~60 listes, 900 lieux, 430 restaurants. Prix officiels :
+  `muze.gov.tr/muze-detay?SectionId=ASP01&DistId=ASP` (par `curl` : prix en euros, horaires, fermetures ; codes PRG01, PHS01, OLY01, MYR01, STN01,
+  SDM01, ALN01, PMK01) ; parcs naturels : PDF « Ek-2 » du tarif annuel sur tarimorman.gov.tr (`pdftotext -layout`). Tiqets Antalya :
+  `activites-attractions-antalya-c78987`. L'API Commons répondait « 429 » : recherche HTML (`ns6=1`, vignettes `250px-` de la page de résultats).
+  Les sites des attractions privées (téléphérique, aquarium, Land of Legends) n'affichent pas leurs prix : passer par Tiqets et les revendeurs.

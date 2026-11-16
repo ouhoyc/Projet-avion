@@ -104,6 +104,10 @@ const PARTNER_LINKS = {
     'zoomarine': tiqets('activites-attractions-guia-c230888/billets-pour-zoomarine-algarve-billet-d-entree-p978576'),
     'aquashow': tiqets('activites-attractions-quarteira-c76507/billets-pour-aquashow-park-billet-d-entree-p979887'),
   },
+  AYT: {
+    'aquarium': tiqets('activites-attractions-antalya-c78987/billets-pour-antalya-aquarium-musee-de-cire-face-2-face-p979094'),
+    'land-of-legends': tiqets('activites-attractions-antalya-c78987/billets-pour-parc-a-theme-the-land-of-legends-billet-d-entree-p1000676'),
+  },
   MRS: {
     'mucem': tiqets('activites-attractions-marseille-c66825/billets-pour-mucem-musee-des-civilisations-de-l-europe-de-la-mediterranee-entree-rapide-p976518'),
     'chateau-if': tiqets('activites-attractions-marseille-c66825/billets-pour-chateau-dif-billet-d-entree-p974828'),

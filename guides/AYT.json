@@ -1,0 +1,1545 @@
+{
+ "city_code": "AYT",
+ "ville": "Antalya",
+ "statut": "préparé en autonomie, prix relevés le 15/11/2026 (1 € ≈ 55,7 livres turques)",
+ "verifie_le": "2026-11-15",
+ "avant_de_partir": "Pas de visa jusqu'à 90 jours. La carte d'identité ou le passeport doit être valable au moins 150 jours (5 mois) après la date d'arrivée : vérifiez-la avant de réserver. Si votre carte d'identité est une ancienne carte prolongée de 5 ans, partez plutôt avec votre passeport.",
+ "transport": "le tramway ou le bus",
+ "prix_match": 5,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 60,
+ "activites": [
+  {
+   "id": "kaleici",
+   "nom": "Kaleiçi, la vieille ville",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Kaleiçi",
+   "lat": 36.8841,
+   "lng": 30.7056,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "2 h à 3 h",
+   "moment": "Le matin au calme, ou en fin d'après-midi quand les ruelles s'animent",
+   "enfants": true,
+   "texte": "Un dédale de ruelles pavées, de maisons ottomanes à encorbellements et de bougainvilliers, enfermé dans des remparts romains au-dessus de la mer. On s'y perd avec plaisir entre boutiques, patios ombragés et petites places, avant de déboucher d'un coup sur le vieux port ou sur un point de vue.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Ruelles pavées et pentues : prenez de bonnes chaussures.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sharon Hahn Darlin",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKalei%C3%A7i_Old_Town%2C_Antalya%2C_Turkey_26_Feb_2022.jpg",
+    "src": "img/activites/AYT/kaleici.jpg"
+   }
+  },
+  {
+   "id": "porte-hadrien",
+   "nom": "Porte d'Hadrien",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Kaleiçi",
+   "lat": 36.8853,
+   "lng": 30.7085,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "20 min",
+   "moment": "Tôt le matin pour la photo sans personne, ou le soir quand elle est éclairée",
+   "enfants": true,
+   "texte": "Trois arches de marbre blanc dressées en l'an 130 pour la visite de l'empereur Hadrien : la plus belle entrée de la vieille ville. Regardez le sol, creusé par les roues des chars, et le plafond sculpté de rosaces, intact depuis dix-neuf siècles.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sharon Hahn Darlin",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHadrian%E2%80%99s_Gate%2C_Antalya%2C_Turkey_-_View_Feb_2022.jpg",
+    "src": "img/activites/AYT/porte-hadrien.jpg"
+   }
+  },
+  {
+   "id": "vieux-port",
+   "nom": "Vieux port et balade en bateau",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Kaleiçi",
+   "lat": 36.8847,
+   "lng": 30.7035,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Promenade sur le port",
+     "gratuit"
+    ],
+    [
+     "Balade en bateau de 45 min à 1 h (falaises, cascade vue de la mer)",
+     "≈ 10 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets vendus sur le quai, départs toute la journée ; le prix se discute",
+   "duree": "1 h à 2 h",
+   "moment": "En fin d'après-midi, quand la lumière dore les remparts",
+   "enfants": true,
+   "texte": "Niché au pied des remparts, l'ancien port romain abrite aujourd'hui des goélettes en bois et des bateaux de promenade. Embarquez pour longer les falaises de la ville jusqu'à l'endroit où la cascade de Düden se jette dans la mer : c'est de l'eau qu'Antalya est la plus belle.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Comparez deux ou trois bateaux avant de monter et faites-vous préciser la durée exacte de la sortie.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ray Swi-hymn",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20180111_AntalyaMarina_5284_%2840110806461%29.jpg",
+    "src": "img/activites/AYT/vieux-port.jpg"
+   }
+  },
+  {
+   "id": "yivli-minare",
+   "nom": "Minaret cannelé et tour de l'Horloge",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Kaleiçi",
+   "lat": 36.8865,
+   "lng": 30.7047,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "30 min",
+   "moment": "En journée ; la terrasse voisine offre une belle vue sur le port",
+   "enfants": true,
+   "texte": "Le symbole d'Antalya : un minaret de briques rouges aux huit cannelures, élevé par les Seldjoukides au XIIIe siècle. À deux pas, la tour de l'Horloge marque l'entrée du bazar, et la terrasse de la place domine toute la vieille ville, le port et les montagnes.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "La mosquée se visite en dehors des prières, épaules et genoux couverts.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Saffron Blaze",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AYivli_Minaret_Mosque_Antalya.jpg",
+    "src": "img/activites/AYT/yivli-minare.jpg"
+   }
+  },
+  {
+   "id": "hidirlik",
+   "nom": "Tour Hıdırlık et parc Karaalioğlu",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Kaleiçi (sud)",
+   "lat": 36.8813,
+   "lng": 30.7037,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil",
+   "enfants": true,
+   "texte": "Le plus beau coucher de soleil de la ville, et il est gratuit. Au pied d'une tour romaine du IIe siècle, le parc Karaalioğlu aligne ses palmiers et ses bancs en haut des falaises : la baie entière, les monts Taurus en face, et le soleil qui tombe derrière les montagnes.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ingo Mehling",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAntalya_-_Hidirlik_Tower.jpg",
+    "src": "img/activites/AYT/hidirlik.jpg"
+   }
+  },
+  {
+   "id": "konyaalti",
+   "nom": "Plage de Konyaaltı",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Konyaaltı",
+   "lat": 36.877,
+   "lng": 30.66,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol",
+     "≈ 5 à 10 € la journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "une demi-journée",
+   "moment": "De mai à octobre ; l'eau reste bonne jusqu'en novembre",
+   "enfants": true,
+   "texte": "Sept kilomètres de galets fins et d'eau turquoise, avec les montagnes du Taurus qui plongent dans la mer en toile de fond. La plage des habitants : promenade bordée de palmiers, cafés, douches et aires de jeux, à dix minutes du centre en tramway.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Plage de galets : des chaussures d'eau sont agréables, surtout pour les enfants.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Esginmurat",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFalezlerden_Antalya_Konyaalt%C4%B1_Plaj%C4%B1na_do%C4%9Fru_bir_g%C3%B6r%C3%BCn%C3%BCm.jpg",
+    "src": "img/activites/AYT/konyaalti.jpg"
+   }
+  },
+  {
+   "id": "lara",
+   "nom": "Plage de Lara",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Lara (12 km à l'est)",
+   "lat": 36.8493,
+   "lng": 30.8345,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol",
+     "≈ 5 à 10 € la journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "une demi-journée",
+   "moment": "De mai à octobre",
+   "enfants": true,
+   "texte": "La grande plage de sable d'Antalya : du sable doré à perte de vue, une eau peu profonde et calme, idéale avec des enfants. C'est ici que s'alignent les grands hôtels de la Riviera turque, mais de longues portions restent publiques et gratuites.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Bus depuis le centre (≈ 40 min) ou taxi.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "71ergun",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAntalya_Plaj%C4%B1_-_panoramio.jpg",
+    "src": "img/activites/AYT/lara.jpg"
+   }
+  },
+  {
+   "id": "duden-bas",
+   "nom": "Cascade de Düden qui tombe dans la mer",
+   "emoji": "🌊",
+   "type": "nature",
+   "quartier": "Lara (8 km à l'est)",
+   "lat": 36.8509,
+   "lng": 30.7831,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et belvédères",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "45 min",
+   "moment": "Le matin pour la lumière sur la chute ; l'arc-en-ciel apparaît souvent par beau temps",
+   "enfants": true,
+   "texte": "Une rivière entière qui se jette du haut d'une falaise de quarante mètres, droit dans la Méditerranée. Depuis les belvédères du parc, vous êtes au-dessus du vide, dans le grondement et les embruns : l'image la plus spectaculaire d'Antalya.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Vous la verrez d'en bas en prenant un bateau au vieux port.",
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Elshad",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALower_D%C3%BCden_Waterfall.jpg",
+    "src": "img/activites/AYT/duden-bas.jpg"
+   }
+  },
+  {
+   "id": "duden-haut",
+   "nom": "Cascade haute de Düden",
+   "emoji": "💦",
+   "type": "nature",
+   "quartier": "Kepez (10 km au nord)",
+   "lat": 36.9648,
+   "lng": 30.7267,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée du parc",
+     "≈ 2 € (100 livres)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée",
+   "duree": "1 h",
+   "moment": "En journée ; l'endroit est très frais en été",
+   "enfants": true,
+   "texte": "Ici, on passe derrière la cascade : un escalier descend dans une grotte d'où l'on regarde le rideau d'eau tomber devant soi. Autour, un parc ombragé, des passerelles et des tables de pique-nique où les familles d'Antalya viennent chercher la fraîcheur.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Sol glissant dans la grotte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "zolakoma",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADuden_Waterfall_-_6029615907.jpg",
+    "src": "img/activites/AYT/duden-haut.jpg"
+   }
+  },
+  {
+   "id": "aquarium",
+   "nom": "Aquarium d'Antalya",
+   "emoji": "🦈",
+   "type": "culture",
+   "quartier": "Konyaaltı",
+   "lat": 36.8813,
+   "lng": 30.6617,
+   "prix": 44,
+   "prix_detail": [
+    [
+     "Aquarium + musée de cire (billet en ligne)",
+     "≈ 44 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 44,
+    "enfants": [
+     [
+      2,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille, souvent moins cher qu'au guichet",
+   "duree": "2 h à 3 h",
+   "moment": "Aux heures chaudes ou un jour de pluie",
+   "enfants": true,
+   "texte": "L'un des plus longs tunnels sous-marins du monde : 131 mètres à marcher sous les requins, les raies et les bancs de poissons, autour d'une épave d'avion reconstituée. Une quarantaine de bassins à thème complètent la visite, parfaite avec des enfants.",
+   "site_officiel": "https://www.antalyaaquarium.com/",
+   "note": "Les suppléments (salle de neige, cinéma) se paient à part : le billet simple suffit.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Andreas Wolf 01",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2014_Antalya_Aquarium_059.jpg",
+    "src": "img/activites/AYT/aquarium.jpg"
+   }
+  },
+  {
+   "id": "perge",
+   "nom": "Pergé, la cité antique",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Aksu (18 km à l'est)",
+   "lat": 36.9574,
+   "lng": 30.8514,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Billet officiel des sites d'État (prix en euros pour les visiteurs étrangers)",
+     "11 €"
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée (carte bancaire acceptée)",
+   "duree": "2 h",
+   "moment": "Dès 8 h : il n'y a presque pas d'ombre",
+   "enfants": true,
+   "texte": "Une ville romaine entière à vingt minutes d'Antalya : un stade de 12 000 places, des thermes, et surtout une longue avenue bordée de colonnes où coulait un canal. On marche sur les dalles où saint Paul a prêché, presque seul dans les ruines.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=PRG01&DistId=PRG",
+   "note": "Ouvert tous les jours de 8 h à 17 h en hiver, plus tard en été. Prenez de l'eau et un chapeau.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Сарапулов",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%D0%A0%D0%BE%D0%B7%D0%BA%D0%BE%D0%BF%D0%BA%D0%B8_%D1%83_%D0%9F%D0%B5%D1%80%D0%B3%D0%B5_DSC_0379.jpg",
+    "src": "img/activites/AYT/perge.jpg"
+   }
+  },
+  {
+   "id": "aspendos",
+   "nom": "Théâtre d'Aspendos",
+   "emoji": "🎭",
+   "type": "culture",
+   "quartier": "Serik (45 km à l'est)",
+   "lat": 36.939,
+   "lng": 31.1722,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Billet officiel des sites d'État (prix en euros pour les visiteurs étrangers)",
+     "15 €"
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée",
+   "duree": "1 h 30",
+   "moment": "Le matin ou en fin d'après-midi",
+   "enfants": true,
+   "texte": "Le théâtre romain le mieux conservé du monde : 15 000 places, un mur de scène intact haut comme un immeuble, et une acoustique telle qu'un murmure sur scène s'entend du dernier rang. Grimpez tout en haut des gradins, puis jusqu'à l'aqueduc voisin.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=ASP01&DistId=ASP",
+   "note": "Se combine dans la journée avec Pergé et la cascade de Kurşunlu (excursions organisées dès ≈ 50 €, repas compris).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lee Vilenski",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAspendos_Theatre%2C_Turkey_%2886552%29.jpg",
+    "src": "img/activites/AYT/aspendos.jpg"
+   }
+  },
+  {
+   "id": "termessos",
+   "nom": "Termessos, la cité dans les nuages",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Monts Güllük (35 km au nord-ouest)",
+   "lat": 36.9842,
+   "lng": 30.4626,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Entrée du parc national",
+     "≈ 2 € (95 livres)"
+    ],
+    [
+     "Site antique",
+     "≈ 3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets à l'entrée du parc",
+   "duree": "3 h à 4 h",
+   "moment": "Le matin, d'octobre à mai de préférence (montée à pied de 30 min)",
+   "enfants": false,
+   "texte": "La seule ville qu'Alexandre le Grand a renoncé à prendre. Perchées à 1 000 mètres dans la forêt, ses ruines n'ont jamais été restaurées : un théâtre suspendu au bord du vide face aux sommets, des tombeaux éparpillés dans les pins, et presque personne.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Voiture ou taxi indispensable ; bonnes chaussures et eau (rien sur place).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ingo Mehling",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATermessos_-_Theater.jpg",
+    "src": "img/activites/AYT/termessos.jpg"
+   }
+  },
+  {
+   "id": "kursunlu",
+   "nom": "Cascade de Kurşunlu",
+   "emoji": "🌿",
+   "type": "nature",
+   "quartier": "Aksu (20 km au nord-est)",
+   "lat": 37.0024,
+   "lng": 30.8202,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée du parc naturel",
+     "≈ 2 € (95 livres)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée",
+   "duree": "1 h",
+   "moment": "Au printemps, quand le débit est le plus fort",
+   "enfants": true,
+   "texte": "Une cascade de conte au fond d'un petit canyon de verdure : l'eau tombe dans un bassin émeraude, entourée de mousses, de figuiers et de vieux moulins. Un sentier facile fait le tour par des passerelles en bois, à l'ombre.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Débit faible à la fin de l'été.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Leyla kılınç",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKursunlu_Waterfall_Nature_Park_in_city_of_Antalya.jpg",
+    "src": "img/activites/AYT/kursunlu.jpg"
+   }
+  },
+  {
+   "id": "side",
+   "nom": "Sidé et le temple d'Apollon",
+   "emoji": "🌇",
+   "type": "balade",
+   "quartier": "Sidé (75 km à l'est)",
+   "lat": 36.7642,
+   "lng": 31.3867,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Temple d'Apollon et vieille ville",
+     "gratuit"
+    ],
+    [
+     "Musée de Sidé",
+     "5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "reservation_delai": "",
+   "duree": "une demi-journée",
+   "moment": "En fin d'après-midi, pour le coucher du soleil derrière les colonnes",
+   "enfants": true,
+   "texte": "Cinq colonnes de marbre blanc dressées au bord de la mer : au coucher du soleil, le temple d'Apollon est l'une des plus belles images de Turquie. Tout autour, une presqu'île où les ruines romaines se mêlent aux ruelles, aux terrasses et à deux longues plages de sable.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=SDM01&DistId=SDO",
+   "note": "Le grand théâtre antique est fermé pour restauration (novembre 2026).",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Saffron Blaze",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATemple_Apollo_Side_Boat.jpg",
+    "src": "img/activites/AYT/side.jpg"
+   }
+  },
+  {
+   "id": "phaselis",
+   "nom": "Phaselis, ruines et baignade",
+   "emoji": "🏊",
+   "type": "plage",
+   "quartier": "Tekirova (55 km au sud)",
+   "lat": 36.5228,
+   "lng": 30.5527,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Billet officiel des sites d'État (prix en euros pour les visiteurs étrangers)",
+     "10 €"
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée",
+   "duree": "une demi-journée",
+   "moment": "De mai à octobre, avec un maillot de bain",
+   "enfants": true,
+   "texte": "Un port antique oublié dans une forêt de pins, avec trois criques aux eaux transparentes. On se baigne au pied d'un aqueduc romain, on remonte la rue pavée jusqu'au théâtre, puis on retourne à l'eau : l'excursion préférée de ceux qui la connaissent.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=PHS01&DistId=PHS",
+   "note": "Peu de services sur place : prenez de l'eau et un pique-nique.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Carole Raddato",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_necropolis_and_the_northern_harbour%2C_Phaselis%2C_Lycia%2C_Turkey_%289646524262%29.jpg",
+    "src": "img/activites/AYT/phaselis.jpg"
+   }
+  },
+  {
+   "id": "olympos",
+   "nom": "Olympos, la cité perdue et sa plage",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Olympos (85 km au sud)",
+   "lat": 36.3966,
+   "lng": 30.473,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Billet officiel des sites d'État (prix en euros pour les visiteurs étrangers)",
+     "10 €"
+    ],
+    [
+     "Moins de 8 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      7,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée",
+   "duree": "une journée",
+   "moment": "De mai à octobre",
+   "enfants": true,
+   "texte": "Des ruines envahies par les lauriers le long d'une rivière, qui débouchent sur une immense plage sauvage où pondent les tortues. Pas d'immeuble, pas de route : seulement la montagne, les galets et l'eau claire. Un bout de Méditerranée d'avant le tourisme.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=OLY01&DistId=OLY",
+   "note": "Se combine avec les flammes de Yanartaş, à 20 min de route.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Capyusuf",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOlympos_Beach.jpg",
+    "src": "img/activites/AYT/olympos.jpg"
+   }
+  },
+  {
+   "id": "yanartas",
+   "nom": "Yanartaş, les flammes éternelles",
+   "emoji": "🔥",
+   "type": "nature",
+   "quartier": "Çıralı (80 km au sud)",
+   "lat": 36.4315,
+   "lng": 30.456,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée du site",
+     "≈ 2 € (95 livres)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à l'entrée du sentier",
+   "duree": "1 h 30",
+   "moment": "À la tombée de la nuit, avec une lampe",
+   "enfants": true,
+   "texte": "Des flammes qui sortent de la roche, sans jamais s'éteindre, depuis au moins 2 500 ans : les Grecs y voyaient le souffle de la Chimère. On y monte à pied dans la forêt en vingt minutes, et à la nuit tombée le spectacle est magique.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Sentier pierreux en montée : chaussures fermées, lampe pour redescendre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Carole Raddato",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_eternal_fires_of_Chimera_in_Lycia_where_the_myth_of_the_Chimera_takes_place%2C_Mount_Chimaera%2C_Yanarta%C5%9F%2C_Turkey_%2812834951845%29.jpg",
+    "src": "img/activites/AYT/yanartas.jpg"
+   }
+  },
+  {
+   "id": "tahtali",
+   "nom": "Téléphérique du mont Tahtalı",
+   "emoji": "🚡",
+   "type": "vue",
+   "quartier": "Tekirova (55 km au sud)",
+   "lat": 36.5409,
+   "lng": 30.4869,
+   "prix": 55,
+   "prix_detail": [
+    [
+     "Aller-retour adulte",
+     "≈ 55 €"
+    ],
+    [
+     "Enfant de 4 à 11 ans",
+     "≈ 30 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      30
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billet à la station ; vérifiez la météo du sommet avant de partir",
+   "duree": "2 h à 3 h",
+   "moment": "Le matin par temps clair ; il fait 10 à 15 °C de moins au sommet",
+   "enfants": true,
+   "texte": "« De la mer au ciel » : en dix minutes, la cabine vous hisse de la côte à 2 365 mètres d'altitude. Du sommet, toute la Riviera turque se déroule sous vos pieds, d'Antalya à Finike ; au printemps, on y trouve encore de la neige alors qu'on se baigne en bas.",
+   "site_officiel": "https://www.olymposteleferik.com/",
+   "note": "Emportez une veste, même en plein été.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tanya Dedyukhina",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOlimpos_Teleferik_-_panoramio_%2811%29.jpg",
+    "src": "img/activites/AYT/tahtali.jpg"
+   }
+  },
+  {
+   "id": "koprulu",
+   "nom": "Rafting dans le canyon de Köprülü",
+   "emoji": "🚣",
+   "type": "sport",
+   "quartier": "Canyon de Köprülü (90 km au nord-est)",
+   "lat": 37.1877,
+   "lng": 31.1804,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Journée de rafting (transport, repas et équipement compris)",
+     "≈ 25 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille auprès d'une agence ou de votre hôtel",
+   "duree": "une journée",
+   "moment": "D'avril à octobre",
+   "enfants": true,
+   "texte": "Quatorze kilomètres de descente sur une rivière vert émeraude, entre des parois couvertes de pins et sous un pont romain vieux de deux mille ans. Les rapides sont faciles, l'eau est fraîche et on s'arrête pour sauter dans la rivière : accessible dès la première fois.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "À partir de 6-7 ans selon les agences. Photos et vidéos vendues en supplément : rien d'obligatoire.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ярослав",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATurkey_-_panoramio_%2821%29.jpg",
+    "src": "img/activites/AYT/koprulu.jpg"
+   }
+  },
+  {
+   "id": "tazi",
+   "nom": "Canyon de Tazı, le balcon du vide",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Canyon de Köprülü (100 km au nord-est)",
+   "lat": 37.2366,
+   "lng": 31.1757,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Accès au belvédère",
+     "gratuit"
+    ],
+    [
+     "Excursion en 4x4 depuis Antalya (souvent avec rafting)",
+     "≈ 30 à 40 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille auprès d'une agence",
+   "duree": "une journée",
+   "moment": "Le matin, d'avril à novembre",
+   "enfants": false,
+   "texte": "Un promontoire rocheux au-dessus d'un canyon de 400 mètres de profondeur, où la rivière dessine des boucles turquoise : la photo qui a fait le tour des réseaux sociaux. La piste est cahoteuse, mais la vue coupe le souffle.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Aucune barrière au bord du vide : restez prudent, surtout avec des enfants.",
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Fatih Demir",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATaz%C4%B1_Kanyonu.jpg",
+    "src": "img/activites/AYT/tazi.jpg"
+   }
+  },
+  {
+   "id": "land-of-legends",
+   "nom": "The Land of Legends",
+   "emoji": "🎢",
+   "type": "sortir",
+   "quartier": "Belek (40 km à l'est)",
+   "lat": 36.874,
+   "lng": 31.0035,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Billet journée adulte (en ligne)",
+     "≈ 50 €"
+    ],
+    [
+     "Enfant de 4 à 11 ans",
+     "≈ 40 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      40
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille",
+   "duree": "une journée",
+   "moment": "Dès l'ouverture ; restez pour le spectacle du soir",
+   "enfants": true,
+   "texte": "Le plus grand parc de loisirs de Turquie : des dizaines de toboggans aquatiques, une piscine à vagues, des montagnes russes qui frôlent les 110 km/h et, le soir, une parade de bateaux illuminés sur les canaux. Une journée entière ne suffit pas à tout faire.",
+   "site_officiel": "https://thelandoflegends.com/",
+   "note": "La partie aquatique ferme en hiver (de novembre à mars environ) : vérifiez avant d'y aller.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nightrider1000",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThe_land_of_legends%2C_belek%2C_Antalya.jpg",
+    "src": "img/activites/AYT/land-of-legends.jpg"
+   }
+  },
+  {
+   "id": "suluada",
+   "nom": "Suluada, les « Maldives turques »",
+   "emoji": "🚤",
+   "type": "plage",
+   "quartier": "Adrasan (95 km au sud)",
+   "lat": 36.3016,
+   "lng": 30.4664,
+   "prix": 39,
+   "prix_detail": [
+    [
+     "Journée en bateau depuis Antalya (transport et repas compris)",
+     "≈ 39 €"
+    ],
+    [
+     "Enfant de 5 à 12 ans",
+     "≈ 25 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 39,
+    "enfants": [
+     [
+      4,
+      0
+     ],
+     [
+      12,
+      25
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réserver 2 à 3 jours avant en été",
+   "duree": "une journée",
+   "moment": "De mai à septembre, par mer calme",
+   "enfants": true,
+   "texte": "Une île déserte aux falaises blanches, posée sur une eau d'un bleu irréel : on comprend son surnom dès que le bateau jette l'ancre. Baignade dans des criques, sable clair, grottes marines et déjeuner à bord au retour.",
+   "site_officiel": "https://www.visitantalya.com/",
+   "note": "Les bateaux ne sortent pas quand la mer est agitée ; pas d'ombre sur l'île.",
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ],
+   "photo": {
+    "auteur": "Erturkercin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAdrasan_Suluada.jpg",
+    "src": "img/activites/AYT/suluada.jpg"
+   }
+  },
+  {
+   "id": "kekova",
+   "nom": "Kekova, Myra et la cité engloutie",
+   "emoji": "🛥️",
+   "type": "nature",
+   "quartier": "Demre (140 km au sud-ouest)",
+   "lat": 36.1981,
+   "lng": 29.848,
+   "prix": 59,
+   "prix_detail": [
+    [
+     "Journée organisée depuis Antalya (bateau et repas compris)",
+     "≈ 59 €"
+    ],
+    [
+     "Entrées en plus : Myra 13 €, église Saint-Nicolas 17 €",
+     ""
+    ]
+   ],
+   "tarifs": {
+    "adulte": 59,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réserver 2 à 3 jours avant",
+   "duree": "une journée (départ tôt)",
+   "moment": "D'avril à octobre",
+   "enfants": true,
+   "texte": "Une journée sur la côte lycienne : les tombeaux de Myra sculptés dans la falaise, l'église où reposait saint Nicolas — le vrai Père Noël —, puis le bateau au-dessus des maisons englouties de Kekova, visibles sous l'eau transparente.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=MYR01&DistId=MYR",
+   "note": "Beaucoup de route (2 h 30 par trajet) : une longue journée, mais l'une des plus belles.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "JamesDavidShoots",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASunken_City_Ruins_in_Kekova.jpg",
+    "src": "img/activites/AYT/kekova.jpg"
+   }
+  },
+  {
+   "id": "pamukkale",
+   "nom": "Pamukkale, le château de coton",
+   "emoji": "☁️",
+   "type": "nature",
+   "quartier": "Pamukkale (240 km au nord-ouest)",
+   "lat": 37.9245,
+   "lng": 29.119,
+   "prix": 70,
+   "prix_detail": [
+    [
+     "Journée organisée depuis Antalya (repas compris)",
+     "≈ 40 à 70 €"
+    ],
+    [
+     "Entrée du site (souvent en plus)",
+     "30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 70,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réserver 2 à 3 jours avant",
+   "duree": "une très longue journée (3 h 30 de route par trajet)",
+   "moment": "Toute l'année ; au printemps et en automne pour éviter la chaleur",
+   "enfants": true,
+   "texte": "Une colline entière de vasques blanches remplies d'eau tiède turquoise, que l'on remonte pieds nus : un paysage unique au monde, classé par l'Unesco. Au sommet, les ruines de Hiérapolis et la piscine antique où l'on nage parmi les colonnes.",
+   "site_officiel": "https://muze.gov.tr/muze-detay?SectionId=PMK01&DistId=PMK",
+   "note": "Vérifiez si l'entrée (30 €) est comprise dans le prix de l'excursion.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "A.Savin",
+    "licence": "FAL",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATR_Pamukkale_White_Terraces_asv2020-02_img16.jpg",
+    "src": "img/activites/AYT/pamukkale.jpg"
+   }
+  },
+  {
+   "id": "antalyaspor",
+   "nom": "Match de foot : Antalyaspor",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade d'Antalya (3 km au nord)",
+   "lat": 36.9081,
+   "lng": 30.6956,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Billet de championnat",
+     "≈ 3 à 10 €"
+    ],
+    [
+     "Carte Passolig (obligatoire)",
+     "≈ 5 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "créez votre carte Passolig (appli Passo, avec votre passeport) avant le jour du match",
+   "duree": "3 h",
+   "moment": "Les soirs de match (d'août à mai)",
+   "enfants": true,
+   "texte": "Un stade moderne de 32 000 places couvert de panneaux solaires, des tribunes rouge et blanc, et l'ambiance bon enfant d'un club de province : une soirée de foot turc pour quelques euros, loin des prix d'Istanbul.",
+   "site_officiel": "https://www.passo.com.tr/",
+   "note": "Le club joue en deuxième division cette saison : il reste des places à presque tous les matchs.",
+   "a_verifier": false,
+   "club": "Antalyaspor",
+   "photo": {
+    "auteur": "Onur",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AYeni_Antalya_Stadyumu_-_23.6.15.JPG",
+    "src": "img/activites/AYT/antalyaspor.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "kaleici",
+   "nom": "Kaleiçi (vieille ville)",
+   "lat": 36.8841,
+   "lng": 30.7056,
+   "texte": "Dans les remparts, au-dessus du vieux port : petits hôtels de charme dans des maisons ottomanes, avec patio et parfois piscine. Tout se fait à pied, restaurants et bars au coin de la rue ; un peu de bruit le soir et pas de voiture."
+  },
+  {
+   "id": "isiklar",
+   "nom": "Işıklar et le parc Karaalioğlu",
+   "lat": 36.88,
+   "lng": 30.711,
+   "texte": "L'avenue chic du centre, juste à côté de la vieille ville : hôtels modernes, boutiques, pâtisseries et le parc en haut des falaises. Le bon compromis entre confort, calme et proximité de Kaleiçi."
+  },
+  {
+   "id": "konyaalti",
+   "nom": "Konyaaltı (plage)",
+   "lat": 36.87,
+   "lng": 30.652,
+   "texte": "Le long de la grande plage de galets, face aux montagnes : hôtels avec vue sur la mer, promenade, cafés et aquarium. Idéal pour mêler plage et visites ; le centre est à 15 minutes en tramway ou en bus."
+  },
+  {
+   "id": "lara-falaises",
+   "nom": "Lara (les falaises)",
+   "lat": 36.856,
+   "lng": 30.745,
+   "texte": "Un quartier résidentiel agréable en haut des falaises, à l'est du centre : hôtels avec piscine et pontons de baignade, bons restaurants de poisson, cascade de Düden toute proche. Plus calme, à 20 minutes du centre en bus."
+  },
+  {
+   "id": "centre",
+   "nom": "Centre-ville (bazar)",
+   "lat": 36.8895,
+   "lng": 30.703,
+   "texte": "Autour de la tour de l'Horloge, du bazar et de la rue piétonne Şarampol : les hôtels les moins chers, des restaurants populaires et tous les transports. Animé et pratique, à cinq minutes à pied de Kaleiçi."
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "piyazci-sami",
+   "nom": "Piyazcı Sami",
+   "emoji": "🥗",
+   "gamme": "petit",
+   "genre": "Köfte et piyaz, la spécialité d'Antalya",
+   "quartier": "Centre (bazar)",
+   "adresse": "Elmalı, 25. Sk. No:1, Muratpaşa",
+   "lat": 36.887587,
+   "lng": 30.701987,
+   "prix": "6 à 10 €",
+   "prix_min": 6,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1933, la même famille sert le plat fétiche d'Antalya : des boulettes grillées au charbon et le piyaz, une salade de haricots blancs nappée d'une sauce au sésame. Une salle toute simple, quelques tables, et le goût de la ville dans l'assiette.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez à midi, tout part vite",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMeals_in_Turkey.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/piyazci-sami.jpg"
+   }
+  },
+  {
+   "id": "can-can",
+   "nom": "Can Can Pide",
+   "emoji": "🫓",
+   "gamme": "petit",
+   "genre": "Pide et plats du jour",
+   "quartier": "Centre (près de la porte d'Hadrien)",
+   "adresse": "Hasim Iscan Mah., Arık Cd. 4/A, Muratpaşa",
+   "lat": 36.885224,
+   "lng": 30.710755,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "La cantine préférée du quartier, à deux pas de la porte d'Hadrien : des pide fines et croustillantes sorties du four, des soupes, des plats mijotés et des brochettes à prix d'ami. Service rapide et souriant, parfait pour un déjeuner entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Maksym Kozlenko",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2019-07-27_Turkish_pide_with_cheese_at_Istanbul_restaurant.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/can-can.jpg"
+   }
+  },
+  {
+   "id": "pasa-bey",
+   "nom": "Paşa Bey Kebap",
+   "emoji": "🍢",
+   "gamme": "petit",
+   "genre": "Kebab et lahmacun",
+   "quartier": "Işıklar",
+   "adresse": "Gençlik, 1319. Sk. No:4, Muratpaşa",
+   "lat": 36.878114,
+   "lng": 30.711025,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Des brochettes d'Adana relevées, des lahmacun aussi fins que du papier et une ribambelle de petites salades offertes en entrée : le kebab comme l'aiment les habitants. Ouvert tard, à quelques rues du parc Karaalioğlu.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation nécessaire",
+   "photo": {
+    "auteur": "Rainer Zenz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALahmacun.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/pasa-bey.jpg"
+   }
+  },
+  {
+   "id": "citir-balik",
+   "nom": "Çıtır Balık",
+   "emoji": "🐟",
+   "gamme": "petit",
+   "genre": "Poisson frit et sandwichs de poisson",
+   "quartier": "Kaleiçi (porte sud)",
+   "adresse": "Kılınçarslan, Atatürk Cd. No:79, Muratpaşa",
+   "lat": 36.881796,
+   "lng": 30.707961,
+   "prix": "7 à 14 €",
+   "prix_min": 7,
+   "badges": [],
+   "texte": "Du poisson frais, frit ou grillé à la commande, à des prix imbattables : sandwich au poisson, friture d'anchois, crevettes, calamars. On mange en terrasse sur l'avenue, dans une ambiance populaire et joyeuse. L'adresse la plus fréquentée du centre.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu d'attente le soir",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABal%C4%B1k-ekmek_in_Ankara.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/citir-balik.jpg"
+   }
+  },
+  {
+   "id": "milklac",
+   "nom": "Milklaç",
+   "emoji": "🍮",
+   "gamme": "petit",
+   "genre": "Desserts au lait",
+   "quartier": "Işıklar",
+   "adresse": "Barbaros Mah., Atatürk Cd. 30/A, Muratpaşa",
+   "lat": 36.885892,
+   "lng": 30.708339,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le temple antalyote du dessert : gâteau aux trois laits fondant, riz au lait doré au four, profiteroles noyées de chocolat. Les portions sont généreuses, la vitrine fait tourner la tête, et la terrasse sur l'avenue ne désemplit pas jusqu'à minuit.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Struppig taucher",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATres_leches_cake%2C_Germany.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/milklac.jpg"
+   }
+  },
+  {
+   "id": "rokka",
+   "nom": "Rokka Pizza Falafel",
+   "emoji": "🧆",
+   "gamme": "petit",
+   "genre": "Falafels et cuisine végétarienne",
+   "quartier": "Centre (près de la porte d'Hadrien)",
+   "adresse": "Haşimişcan, Recep Peker Cd., Muratpaşa",
+   "lat": 36.885245,
+   "lng": 30.709381,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Une petite adresse chaleureuse qui a conquis les voyageurs : falafels croustillants, houmous maison, assiettes végétariennes colorées et pizzas à pâte fine. Tout est frais, copieux et vraiment bon marché, avec un accueil aux petits soins.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; peu de tables",
+   "photo": {
+    "auteur": "Anagoria",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20240815_Falafel_Plate_Restaurant_The_Hummusapiens_Berlin_anagoria.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/rokka.jpg"
+   }
+  },
+  {
+   "id": "ayar",
+   "nom": "Ayar Meyhanesi",
+   "emoji": "🥂",
+   "gamme": "moyen",
+   "genre": "Meyhane : mezzés, poisson et musique",
+   "quartier": "Kaleiçi",
+   "adresse": "Kılınçarslan, Hesapçı Sk. No:59, Muratpaşa",
+   "lat": 36.881852,
+   "lng": 30.705017,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "La soirée turque par excellence : on choisit ses mezzés sur un grand plateau, on commande du poisson grillé et du raki, et les musiciens passent de table en table. Le tout dans la cour d'une vieille maison de Kaleiçi, sous les orangers.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille, surtout le week-end",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMeze_plate.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/ayar.jpg"
+   }
+  },
+  {
+   "id": "isliyen",
+   "nom": "İşliyen Balık Evi",
+   "emoji": "🐠",
+   "gamme": "moyen",
+   "genre": "Poisson et fruits de mer",
+   "quartier": "Konyaaltı",
+   "adresse": "Altınkum, Atatürk Blv. No:163, Konyaaltı",
+   "lat": 36.865081,
+   "lng": 30.634269,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Le restaurant de poisson que les habitants de Konyaaltı se recommandent : daurade et bar grillés, poulpe, crevettes au beurre, mezzés de la mer. Cuisson juste, poisson du jour montré avant d'être préparé, et addition honnête.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver pour le dîner",
+   "photo": {
+    "auteur": "T.Tseng",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrilled_Japanese_sea_bream.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/isliyen.jpg"
+   }
+  },
+  {
+   "id": "comlekci",
+   "nom": "Çömlekçi Restaurant",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine turque familiale",
+   "quartier": "Centre (Güllük)",
+   "adresse": "Kızılsaray, Güllük Cd. No:48, Muratpaşa",
+   "lat": 36.889944,
+   "lng": 30.695591,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "La cuisine turque de tous les jours, très bien faite : soupes, brochettes de poulet, agneau fondant au riz, daurade grillée, et un künefe chaud pour finir. Service aux petits soins, y compris pour les enfants, loin des restaurants à touristes.",
+   "reservation": "sur_place",
+   "reservation_delai": "réservation utile le soir en été",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AG%C3%BCve%C3%A7_of_veal%2C_potatoes_etc.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/comlekci.jpg"
+   }
+  },
+  {
+   "id": "luna",
+   "nom": "Luna Garden",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Jardin-café, cuisine du monde",
+   "quartier": "Kaleiçi",
+   "adresse": "Barbaros, Kocatepe Sk. No:4, Muratpaşa",
+   "lat": 36.883709,
+   "lng": 30.709062,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un grand jardin caché derrière les murs de la vieille ville, avec des coussins, des lanternes et des arbres illuminés : le décor le plus photographié de Kaleiçi. On y vient pour un petit-déjeuner turc, des pâtes, un burger ou un cocktail, à toute heure.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu d'attente le soir",
+   "photo": {
+    "auteur": "Glassmug29",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATurkish_Breakfast_Spread.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/luna.jpg"
+   }
+  },
+  {
+   "id": "sirali",
+   "nom": "Sıralı Kebap",
+   "emoji": "🥙",
+   "gamme": "moyen",
+   "genre": "Kebab créatif",
+   "quartier": "Lara",
+   "adresse": "Çağlayan, Lara Cd. No:419, Muratpaşa",
+   "lat": 36.84961,
+   "lng": 30.775411,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le kebab revu comme un spectacle : viandes servies sur de longues planches, présentations inventives qui ont fait le tour des réseaux sociaux, recettes turques et ottomanes. Une grande maison très populaire, près de la cascade de Düden.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver le soir et le week-end",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABeyti_in_Ankara.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/sirali.jpg"
+   }
+  },
+  {
+   "id": "pastorale",
+   "nom": "Pastorale",
+   "emoji": "🪴",
+   "gamme": "moyen",
+   "genre": "Grillades et plats turcs en jardin",
+   "quartier": "Kaleiçi",
+   "adresse": "Kılınçarslan, Hıdırlık Sk. No:37, Muratpaşa",
+   "lat": 36.881745,
+   "lng": 30.703879,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Un petit jardin romantique à deux pas de la tour Hıdırlık, tenu par un patron adorable. Bœuf mijoté en poterie et gratiné au fromage, grillades, salades fraîches : une cuisine simple et soignée, au calme, après le coucher du soleil sur les falaises.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver pour le dîner (peu de tables)",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKarides_g%C3%BCve%C3%A7_-2.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/pastorale.jpg"
+   }
+  },
+  {
+   "id": "seraser",
+   "nom": "Seraser Fine Dining",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Gastronomie méditerranéenne",
+   "quartier": "Kaleiçi",
+   "adresse": "Selçuk, Paşa Cami Sk. No:14, Muratpaşa",
+   "lat": 36.885913,
+   "lng": 30.706222,
+   "prix": "60 à 90 €",
+   "prix_min": 60,
+   "badges": [],
+   "texte": "La grande table d'Antalya, dans la cour d'une demeure ottomane vieille de trois siècles : murs de pierre, fauteuils de velours, jardin méditerranéen éclairé à la bougie. Dans l'assiette, agneau, poissons et produits de la région travaillés avec finesse.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver 2 à 3 jours avant",
+   "photo": {
+    "auteur": "Wiki.cullin",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APan_seared_scallops_with_grilled_asparagus_fine_dining_appetizer.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/seraser.jpg"
+   }
+  },
+  {
+   "id": "vanilla",
+   "nom": "Vanilla",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Cuisine internationale moderne",
+   "quartier": "Kaleiçi",
+   "adresse": "Barbaros, Hesapçı Sk. No:33, Muratpaşa",
+   "lat": 36.883462,
+   "lng": 30.706632,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [],
+   "texte": "Depuis 2007, la cuisine d'un chef britannique installé à Kaleiçi : poissons frais, belles grillades et assiettes végétariennes pleines de couleurs, dans un cadre chic et détendu. Une valeur sûre pour changer du kebab, à deux pas de la porte d'Hadrien.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille",
+   "photo": {
+    "auteur": "Tim Evanson",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AObama_china_service_-_luncheon_plate_for_Shinzo_Abe_%2817322929431%29.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/vanilla.jpg"
+   }
+  },
+  {
+   "id": "terrace",
+   "nom": "Terrace Steak House",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Steakhouse",
+   "quartier": "Kundu (20 km à l'est)",
+   "adresse": "Kemerağzı, Yeni Turizm Yolu, Aksu",
+   "lat": 36.858499,
+   "lng": 30.865982,
+   "prix": "40 à 70 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Le steakhouse des grands hôtels de Lara : belles pièces de bœuf grillées, mezzés offerts en attendant, et une terrasse chaleureuse où le service ne laisse rien au hasard. L'adresse idéale si vous logez du côté de la plage de Lara.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille",
+   "photo": {
+    "auteur": "Shixart1985",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteak_served_with_sauce_greens_and_garnishes_on_a_dark_plate.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/terrace.jpg"
+   }
+  },
+  {
+   "id": "sauvignon",
+   "nom": "Sauvignon",
+   "emoji": "🍾",
+   "gamme": "haut",
+   "genre": "Poisson et vins, vue sur la mer",
+   "quartier": "Kaleiçi (tour Hıdırlık)",
+   "adresse": "Kılınçarslan, Hesapçı Sk. No:72, Muratpaşa",
+   "lat": 36.88139,
+   "lng": 30.703909,
+   "prix": "40 à 65 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Au pied de la tour Hıdırlık, une terrasse face à la baie où le soleil se couche dans votre verre. Fruits de mer, poissons du jour et belle carte de vins turcs, servis par une équipe qui connaît son métier. Demandez une table au bord.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver 2 à 3 jours avant pour une table avec vue au coucher du soleil",
+   "photo": {
+    "auteur": "T.Tseng",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrilled_octopus_-_Other_Mama_-_March_2019_02.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/sauvignon.jpg"
+   }
+  },
+  {
+   "id": "fatma-sultan",
+   "nom": "Fatma Sultan",
+   "emoji": "🫖",
+   "gamme": "haut",
+   "genre": "Cuisine turque traditionnelle",
+   "quartier": "Işıklar",
+   "adresse": "Haşimişcan, Arık Cd. No:20, Muratpaşa",
+   "lat": 36.883395,
+   "lng": 30.710722,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Les grands plats de la cuisine turque, servis dans le jardin d'une vieille demeure : agneau confit, aubergines fumées, raviolis au yaourt, desserts au lait. Une cuisine de maison présentée comme au restaurant, avec une carte végétalienne à part.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver la veille",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCnkarbe%C4%9Fendi.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/fatma-sultan.jpg"
+   }
+  },
+  {
+   "id": "kalamar",
+   "nom": "Kalamar Balık",
+   "emoji": "🦑",
+   "gamme": "haut",
+   "genre": "Fruits de mer sur les falaises",
+   "quartier": "Lara",
+   "adresse": "Çağlayan, Lara Cd. No:323/1, Muratpaşa",
+   "lat": 36.849949,
+   "lng": 30.776312,
+   "prix": "40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Une grande terrasse posée en haut des falaises de Lara, face au large. Calamars frits, poulpe grillé, crevettes, poissons du jour au poids et mezzés à partager : le restaurant de la mer pour une belle soirée, à côté de la cascade de Düden.",
+   "reservation": "conseille",
+   "reservation_delai": "réserver pour une table en bord de terrasse",
+   "photo": {
+    "auteur": "E4024",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKalamar_tava_and_tartar_sauce.jpg",
+    "illustration": true,
+    "src": "img/restos/AYT/kalamar.jpg"
+   }
+  }
+ ]
+}
