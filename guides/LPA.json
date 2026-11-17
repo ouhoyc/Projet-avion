@@ -1,0 +1,1698 @@
+{
+ "city_code": "LPA",
+ "ville": "Las Palmas de Gran Canaria",
+ "statut": "préparé en autonomie, prix relevés le 17/11/2026",
+ "verifie_le": "2026-11-17",
+ "ile": true,
+ "prix_match": 30,
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "canteras",
+   "nom": "Plage de Las Canteras",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Las Palmas (Las Canteras)",
+   "lat": 28.1405,
+   "lng": -15.4355,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage et promenade",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol",
+     "≈ 5 à 8 € la journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "une demi-journée",
+   "moment": "Toute l'année ; marée basse pour nager dans la piscine naturelle de La Barra, coucher de soleil sur Tenerife depuis la promenade",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Trois kilomètres de sable doré en pleine ville, protégés par un récif naturel, La Barra, qui transforme la mer en immense piscine calme : on y nage avec masque et tuba au milieu des poissons, à cinq minutes à pied des terrasses. Le soir, toute la ville se retrouve sur la promenade pour voir le soleil plonger derrière le Teide.",
+   "site_officiel": "https://www.playadelascanteras.com/",
+   "note": "Drapeau rouge certains jours de houle à l'extrémité sud (La Cícer, le coin des surfeurs) : baignez-vous plutôt au nord, derrière La Barra.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Pepelopex",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Canteras_Beach_-_La_Barra_-_Las_Palmas_Gran_Canaria.jpg",
+    "src": "img/activites/LPA/canteras.jpg"
+   }
+  },
+  {
+   "id": "vegueta",
+   "nom": "Vegueta et Triana, la vieille ville",
+   "emoji": "🏛️",
+   "type": "balade",
+   "quartier": "Las Palmas (Vegueta)",
+   "lat": 28.1015,
+   "lng": -15.4146,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Le matin en semaine (boutiques et musées ouverts) ; le jeudi soir, la « Ruta del Pincho » anime les rues de Vegueta",
+   "enfants": true,
+   "texte": "Le quartier où tout a commencé en 1478 : ruelles pavées, façades coloniales aux balcons de bois, la place Santa Ana gardée par ses chiens de bronze, l'ermitage où Colomb aurait prié avant de partir vers l'Amérique. On traverse ensuite vers Triana, sa grande rue piétonne, ses façades Art nouveau et le Cabinet littéraire.",
+   "site_officiel": "https://www.lpavisit.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bengt Nyman",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vegueta_2016_10.jpg",
+    "src": "img/activites/LPA/vegueta.jpg"
+   }
+  },
+  {
+   "id": "catedral",
+   "nom": "Cathédrale Santa Ana et sa tour",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Las Palmas (Vegueta)",
+   "lat": 28.10066,
+   "lng": -15.41501,
+   "prix": 8,
+   "prix_detail": [
+    [
+     "Cathédrale, tour (ascenseur) et musée d'art sacré",
+     "8 €"
+    ],
+    [
+     "Plus de 65 ans, étudiants",
+     "6 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 8,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Du lundi au vendredi de 10 h à 18 h, le samedi de 10 h à 16 h (dernière entrée 30 min avant) ; le dimanche matin, offices seulement",
+   "enfants": true,
+   "texte": "Cinq siècles de chantier ont donné à la cathédrale des Canaries ses voûtes gothiques en palmiers de pierre et sa façade néoclassique. L'ascenseur monte à la tour sud : de là-haut, toute la vieille ville, le port et l'océan se déroulent sous vos pieds, un des plus beaux panoramas de Las Palmas.",
+   "site_officiel": "https://catedraldecanarias.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santa_Ana,_Las_Palmas,_Gran_Canaria.jpg",
+    "src": "img/activites/LPA/catedral.jpg"
+   }
+  },
+  {
+   "id": "casa-colon",
+   "nom": "Casa de Colón",
+   "emoji": "⚓",
+   "type": "culture",
+   "quartier": "Las Palmas (Vegueta)",
+   "lat": 28.10158,
+   "lng": -15.41404,
+   "prix": 4,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 4 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Le dimanche",
+     "gratuit pour tous"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 4,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Du lundi au samedi de 10 h à 18 h, le dimanche de 10 h à 15 h (gratuit : arrivez tôt)",
+   "enfants": true,
+   "texte": "La maison des gouverneurs où Christophe Colomb fit escale en 1492, avant de traverser l'Atlantique : un palais aux patios fleuris, balcons de bois et portails sculptés, qui raconte les grandes traversées avec cartes anciennes, maquettes de caravelles et la reconstitution d'une cabine de la Niña.",
+   "site_officiel": "https://casadecolon.grancanaria.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wolfgang Sauber",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Palmas_Casa_de_Colon_-_Patio_de_la_Universidad_1.jpg",
+    "src": "img/activites/LPA/casa-colon.jpg"
+   }
+  },
+  {
+   "id": "museo-canario",
+   "nom": "Museo Canario",
+   "emoji": "🗿",
+   "type": "culture",
+   "quartier": "Las Palmas (Vegueta)",
+   "lat": 28.09969,
+   "lng": -15.41522,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Entrée",
+     "6 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Du lundi au vendredi de 10 h à 20 h, le week-end et les jours fériés de 10 h à 14 h",
+   "enfants": true,
+   "texte": "Le grand musée des premiers habitants de l'île, les anciens Canariens : momies enveloppées de peaux, idoles de terre cuite, pintaderas (sceaux) aux motifs géométriques et une impressionnante salle de crânes. Indispensable pour comprendre ce que vous verrez ensuite à la Cueva Pintada ou dans le barranco de Guayadeque.",
+   "site_officiel": "https://www.elmuseocanario.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Carlos Teixidor Cadenas",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pintadera_aborigen,_Museo_Canario,_Las_Palmas_de_Gran_Canaria,_Espa%C3%B1a.jpg",
+    "src": "img/activites/LPA/museo-canario.jpg"
+   }
+  },
+  {
+   "id": "caam",
+   "nom": "CAAM, centre d'art moderne",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Las Palmas (Vegueta)",
+   "lat": 28.10091,
+   "lng": -15.41345,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Du mardi au samedi de 10 h à 21 h, le dimanche de 10 h à 14 h ; fermé le lundi",
+   "enfants": true,
+   "texte": "Derrière une façade ancienne de Vegueta, l'architecte Sáenz de Oíza a creusé un grand vaisseau blanc et lumineux dédié à l'art contemporain d'Afrique, d'Amérique latine et des Canaries. Expositions temporaires souvent audacieuses, entrée libre : une pause fraîche entre deux ruelles.",
+   "site_officiel": "https://caam.net/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "CAAM Gran Canaria",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Terraza_del_CAAM.jpg",
+    "src": "img/activites/LPA/caam.jpg"
+   }
+  },
+  {
+   "id": "poema-del-mar",
+   "nom": "Aquarium Poema del Mar",
+   "emoji": "🐠",
+   "type": "sortir",
+   "quartier": "Las Palmas (port)",
+   "lat": 28.14465,
+   "lng": -15.42822,
+   "prix": 29,
+   "prix_detail": [
+    [
+     "Adulte (12 ans et plus)",
+     "29 €"
+    ],
+    [
+     "Enfant de 4 à 11 ans",
+     "19 €"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 29,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      11,
+      19
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne (au moins 8 h avant) : un peu moins cher et sans file",
+   "duree": "2 h à 2 h 30",
+   "moment": "Tous les jours de 9 h 30 à 18 h ; en milieu d'après-midi, il y a moins de groupes",
+   "enfants": true,
+   "texte": "L'aquarium du groupe Loro Parque, au bord du port : une jungle tropicale, un récif de corail et surtout la « Gran Profundidad », une baie vitrée de 36 mètres, l'une des plus grandes du monde, derrière laquelle passent requins, raies et bancs de poissons. Un grand moment pour les enfants, à l'abri en cas de journée grise.",
+   "site_officiel": "https://poema-del-mar.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Aneta p",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Poema_del_Mar,_Gran_Canaria.jpg",
+    "src": "img/activites/LPA/poema-del-mar.jpg"
+   }
+  },
+  {
+   "id": "jardin-canario",
+   "nom": "Jardin botanique canarien Viera y Clavijo",
+   "emoji": "🌵",
+   "type": "nature",
+   "quartier": "Tafira (Las Palmas)",
+   "lat": 28.06428,
+   "lng": -15.46222,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Tous les jours, le matin de préférence (plus frais et plus d'oiseaux) ; à 10 minutes en voiture du centre",
+   "enfants": true,
+   "texte": "Le plus grand jardin botanique d'Espagne, accroché aux falaises d'un ravin : une forêt de dragonniers, des cactus et euphorbes géantes, une laurisylve humide et des fontaines, avec uniquement des plantes de Macaronésie. Une balade apaisante et gratuite, très photogénique.",
+   "site_officiel": "https://jardincanario.grancanaria.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dracaena_ellenbeckiana_-_Jard%C3%ADn_Bot%C3%A1nico_Canario_Viera_y_Clavijo_-_Gran_Canaria.jpg",
+    "src": "img/activites/LPA/jardin-canario.jpg"
+   }
+  },
+  {
+   "id": "castillo-luz",
+   "nom": "Castillo de la Luz",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Las Palmas (La Isleta)",
+   "lat": 28.1497,
+   "lng": -15.4232,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Mercredi de 16 h à 19 h",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Du mardi au dimanche (fermé le lundi)",
+   "enfants": true,
+   "texte": "La plus vieille forteresse de la ville, bâtie au XVe siècle pour repousser les pirates, aujourd'hui transformée en musée du sculpteur Martín Chirino : ses spirales de fer forgé dialoguent avec les murs de pierre volcanique. À deux pas de l'aquarium et du marché du Port.",
+   "site_officiel": "https://fundacionmartinchirino.org/visitas",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bengt Nyman",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Castillo_de_la_Luz_D81_6161_(32252019751).jpg",
+    "src": "img/activites/LPA/castillo-luz.jpg"
+   }
+  },
+  {
+   "id": "bandama",
+   "nom": "Caldera et pic de Bandama",
+   "emoji": "🌋",
+   "type": "nature",
+   "quartier": "Santa Brígida",
+   "lat": 28.0375,
+   "lng": -15.4579,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédère et sentier",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h (belvédère) à 3 h (descente dans le cratère)",
+   "moment": "Le matin, avant la chaleur et les nuages ; à 20 minutes de Las Palmas",
+   "enfants": true,
+   "texte": "Un cratère parfait d'un kilomètre de large et 200 mètres de profondeur, avec une vieille ferme et des vignes au fond. Du pic de Bandama, la route monte jusqu'à un belvédère qui embrasse le cratère, Las Palmas et l'océan ; les marcheurs descendent dans la caldera par un sentier (environ 2 h aller-retour).",
+   "site_officiel": "https://www.grancanaria.com/turismo/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Martin Falbisoner",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bandama_Caldera,_Gran_Canaria,_May_2018.jpg",
+    "src": "img/activites/LPA/bandama.jpg"
+   }
+  },
+  {
+   "id": "surf",
+   "nom": "Cours de surf à Las Canteras",
+   "emoji": "🏄",
+   "type": "sport",
+   "quartier": "Las Palmas (La Cícer)",
+   "lat": 28.13067,
+   "lng": -15.44678,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Cours collectif de 2 h (planche et combinaison)",
+     "≈ 40 €"
+    ],
+    [
+     "Cours particulier de 2 h",
+     "≈ 75 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le matin même auprès d'une école de la promenade",
+   "duree": "2 h",
+   "moment": "Toute l'année, selon les vagues ; l'école choisit l'heure avec la marée",
+   "enfants": true,
+   "texte": "La Cícer, au bout sud de Las Canteras, est l'un des meilleurs spots d'Europe pour débuter : vagues régulières, fond de sable et eau à 19-23 °C toute l'année. Plusieurs écoles installées sur la promenade fournissent planche et combinaison ; on se met debout dès la première séance.",
+   "site_officiel": "https://www.playadelascanteras.com/",
+   "note": "À partir de 8 ans environ, il faut savoir nager.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bengt Nyman",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Playa_de_las_Canteras_2016_67.jpg",
+    "src": "img/activites/LPA/surf.jpg"
+   }
+  },
+  {
+   "id": "ud-las-palmas",
+   "nom": "Match de l'UD Las Palmas",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Estadio de Gran Canaria",
+   "lat": 28.10023,
+   "lng": -15.45673,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Championnat d'Espagne (2e division)",
+     "≈ 25 à 60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant sur le site du club",
+   "duree": "2 h 30",
+   "moment": "Un week-end sur deux, de mi-août à juin",
+   "enfants": true,
+   "club": "UD Las Palmas",
+   "texte": "Le club jaune et bleu, toute une île derrière lui : au stade de Gran Canaria, 32 000 places, l'ambiance est chaleureuse et familiale, entre tambours, maillots jaunes et chants canariens. Une vraie immersion dans la ferveur locale.",
+   "site_officiel": "https://www.udlaspalmas.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Merelun",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Estadio_Gran_Canaria.jpg",
+    "src": "img/activites/LPA/ud-las-palmas.jpg"
+   }
+  },
+  {
+   "id": "basket",
+   "nom": "Match de basket du Gran Canaria",
+   "emoji": "🏀",
+   "type": "sport",
+   "quartier": "Gran Canaria Arena",
+   "lat": 28.0998,
+   "lng": -15.4527,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Championnat d'Espagne (Liga ACB)",
+     "≈ 20 à 45 €"
+    ],
+    [
+     "Coupe d'Europe (EuroCup)",
+     "≈ 15 à 35 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne",
+   "duree": "2 h",
+   "moment": "Le week-end pour le championnat, en semaine pour la coupe d'Europe",
+   "enfants": true,
+   "club": "Dreamland Gran Canaria",
+   "texte": "L'un des meilleurs clubs d'Espagne, vainqueur de l'EuroCup en 2023, joue dans le Gran Canaria Arena, une salle moderne de plus de 10 000 places juste à côté du stade de foot. Spectacle garanti et billets abordables.",
+   "site_officiel": "https://www.cbgrancanaria.net/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "El Coleccionista de Instantes",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Partido_Basket_Herbalife_Gran_Canaria_-_Unicaja_(_67-_65).jpg",
+    "src": "img/activites/LPA/basket.jpg"
+   }
+  },
+  {
+   "id": "arucas",
+   "nom": "Arucas : l'église de pierre et la rhumerie Arehucas",
+   "emoji": "🥃",
+   "type": "culture",
+   "quartier": "Arucas (nord)",
+   "lat": 28.1197,
+   "lng": -15.5232,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Église San Juan Bautista",
+     "gratuit"
+    ],
+    [
+     "Visite de la rhumerie Arehucas (dégustation)",
+     "10 €"
+    ],
+    [
+     "Enfants",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "Rhumerie du lundi au jeudi de 9 h 30 à 14 h, le vendredi jusqu'à 18 h (fermée le week-end et les jours fériés)",
+   "enfants": true,
+   "texte": "Une « cathédrale » néogothique taillée dans la pierre volcanique noire domine la petite ville d'Arucas, au milieu des bananeraies. Juste en contrebas, la rhumerie Arehucas ouvre ses caves : 4 700 fûts de chêne, dont certains signés par des célébrités, puis dégustation de rhums et de liqueurs de l'île.",
+   "site_officiel": "https://arehucas.es/visitanos/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mataparda",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Iglesia.de.San.Juan.Bautista.Arucas.JPG",
+    "src": "img/activites/LPA/arucas.jpg"
+   }
+  },
+  {
+   "id": "teror",
+   "nom": "Teror, le village aux balcons",
+   "emoji": "🌸",
+   "type": "balade",
+   "quartier": "Teror (centre-nord)",
+   "lat": 28.0603,
+   "lng": -15.5478,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Village et basilique",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le dimanche matin pour le marché autour de la basilique",
+   "enfants": true,
+   "texte": "Le plus joli village colonial de l'île : maisons blanches aux balcons de bois sculpté, ruelles pavées et la basilique de la Vierge du Pin, patronne de Gran Canaria. Le dimanche, le marché déborde de chorizo de Teror à tartiner, de fromages et de pâtisseries des religieuses.",
+   "site_officiel": "https://teror.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Teror,_Gran_Canaria,_Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Pino.jpg",
+    "src": "img/activites/LPA/teror.jpg"
+   }
+  },
+  {
+   "id": "cueva-pintada",
+   "nom": "Cueva Pintada de Gáldar",
+   "emoji": "🔺",
+   "type": "culture",
+   "quartier": "Gáldar (nord)",
+   "lat": 28.1462,
+   "lng": -15.6566,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Entrée (visite en petit groupe)",
+     "6 €"
+    ],
+    [
+     "Réduit (étudiants, plus de 65 ans)",
+     "3 €"
+    ],
+    [
+     "Moins de 12 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille en ligne : les groupes sont petits et les créneaux se remplissent",
+   "duree": "1 h 30",
+   "moment": "Du mardi au dimanche (fermé le lundi), visites à heures fixes",
+   "enfants": true,
+   "texte": "Sous un grand toit qui protège tout un village des anciens Canariens, une grotte peinte de triangles et de damiers rouges, blancs et noirs, l'un des trésors archéologiques des Canaries. Film, maisons reconstituées et passerelles au-dessus des fouilles : passionnant, même pour les enfants.",
+   "site_officiel": "https://cuevapintada.grancanaria.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wolfgang Sauber",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%A1ldar_Cueva_Pintada_-_Guanchenhaus_1a.jpg",
+    "src": "img/activites/LPA/cueva-pintada.jpg"
+   }
+  },
+  {
+   "id": "agaete",
+   "nom": "Agaete et le Puerto de las Nieves",
+   "emoji": "🌊",
+   "type": "plage",
+   "quartier": "Agaete (nord-ouest)",
+   "lat": 28.1004,
+   "lng": -15.7097,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Port, plage et piscines naturelles",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "une demi-journée",
+   "moment": "En fin de journée pour le coucher de soleil ; mer parfois agitée en hiver (piscines naturelles fermées les jours de houle)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un village de pêcheurs blanc et bleu au pied des plus hautes falaises de l'île : piscines naturelles creusées dans la lave, petit port où accostent les ferries de Tenerife, poisson grillé en terrasse et couchers de soleil sur le Teide. En remontant la vallée, l'une des seules plantations de café d'Europe.",
+   "site_officiel": "https://www.agaete.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Agaete_Piscina_Natural_2.jpg",
+    "src": "img/activites/LPA/agaete.jpg"
+   }
+  },
+  {
+   "id": "roque-nublo",
+   "nom": "Randonnée au Roque Nublo",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Tejeda (centre)",
+   "lat": 27.9708,
+   "lng": -15.6124,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Sentier",
+     "gratuit"
+    ],
+    [
+     "Réservation obligatoire de 9 h à 17 h",
+     "gratuite"
+    ],
+    [
+     "Navette (ligne 18) depuis le parking de Cruz de los Llanos",
+     "≈ 2 à 3 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "quelques jours avant en ligne (gratuit) : les créneaux du week-end partent vite",
+   "duree": "2 h aller-retour",
+   "moment": "Tôt le matin ou en fin d'après-midi : la réservation n'est demandée qu'entre 9 h et 17 h (60 personnes par heure)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le symbole de Gran Canaria : un monolithe de basalte de 80 mètres dressé à 1 813 mètres d'altitude. Un sentier facile d'une heure mène à son pied ; au sommet du plateau, la vue file sur les ravins, la mer de nuages et le Teide de Tenerife qui semble flotter à l'horizon.",
+   "site_officiel": "https://reservasroquenublo.com/",
+   "note": "Le parking de la Degollada de la Goleta est fermé : garez-vous à Cruz de los Llanos et prenez la navette. Prévoyez chaussures de marche et veste, il fait souvent 10 °C de moins qu'à la côte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Joergsam",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gran_Canaria_Roque_Nublo_2020-1.jpg",
+    "src": "img/activites/LPA/roque-nublo.jpg"
+   }
+  },
+  {
+   "id": "pico-nieves",
+   "nom": "Pico de las Nieves",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Centre de l'île",
+   "lat": 27.96203,
+   "lng": -15.5719,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Belvédère",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min à 1 h",
+   "moment": "Par temps clair, tôt le matin ou au coucher du soleil ; la nuit, ciel étoilé exceptionnel",
+   "enfants": true,
+   "texte": "Le toit de l'île, à 1 949 mètres : un belvédère accessible en voiture d'où l'on domine d'un coup le Roque Nublo, le Roque Bentayga, les pinèdes et, au loin, le Teide. Un des couchers de soleil les plus spectaculaires des Canaries.",
+   "site_officiel": "https://www.grancanaria.com/turismo/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "El Coleccionista de Instantes Fotografía & Video",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Panoramica.Mirador_Pico_de_las_Nieves.Gran_Canaria_(4696120231).jpg",
+    "src": "img/activites/LPA/pico-nieves.jpg"
+   }
+  },
+  {
+   "id": "tejeda",
+   "nom": "Tejeda et le Roque Bentayga",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Tejeda (centre)",
+   "lat": 27.9952,
+   "lng": -15.6145,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Village et belvédères",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En semaine ; à combiner avec le Roque Nublo et le Pico de las Nieves",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Classé parmi les plus beaux villages d'Espagne, Tejeda s'accroche au bord d'une immense caldera, face au Roque Bentayga et au Roque Nublo. On y flâne entre maisons blanches et amandiers, avant de goûter les douceurs aux amandes de la pâtisserie du village.",
+   "site_officiel": "https://www.tejeda.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rvr",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roque_Bentayga_-_Tejeda_-_Parque_Rural_del_Nublo_-_Gran_Canaria_02.jpg",
+    "src": "img/activites/LPA/tejeda.jpg"
+   }
+  },
+  {
+   "id": "guayadeque",
+   "nom": "Barranco de Guayadeque et ses grottes",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Agüimes - Ingenio (est)",
+   "lat": 27.934,
+   "lng": -15.508,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Ravin, sentiers et chapelle troglodyte",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "En semaine (le dimanche, les familles canariennes y pique-niquent en masse)",
+   "enfants": true,
+   "texte": "Un ravin aux parois ocre où les habitants vivent encore dans des maisons creusées dans la roche, comme les anciens Canariens : chapelle troglodyte, petits sentiers entre amandiers et cactus, et restaurants installés dans des grottes au bout de la route. Une Gran Canaria authentique, loin des plages.",
+   "site_officiel": "https://www.grancanaria.com/turismo/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Toni Teror",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Casas_cueva_en_Guayadeque_-_panoramio.jpg",
+    "src": "img/activites/LPA/guayadeque.jpg"
+   }
+  },
+  {
+   "id": "dunas",
+   "nom": "Dunes de Maspalomas",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Maspalomas (sud)",
+   "lat": 27.7406,
+   "lng": -15.5751,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Réserve naturelle et plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 3 h",
+   "moment": "Tôt le matin (sable frais, traces du vent) ou au coucher du soleil depuis le phare",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un petit Sahara de 400 hectares au bord de l'océan : des dunes dorées sculptées par le vent, une lagune où se posent les oiseaux, une palmeraie, et la longue plage qui mène au phare de Maspalomas. On marche pieds nus d'une crête à l'autre, sur les sentiers balisés de la réserve.",
+   "site_officiel": "https://www.dunasmaspalomas.com/",
+   "note": "Restez sur les sentiers balisés (réserve protégée) ; emportez de l'eau et un chapeau, il n'y a pas d'ombre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marcela Střelcová",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunas_de_Maspalomas,_Gran_Canaria.jpg",
+    "src": "img/activites/LPA/dunas.jpg"
+   }
+  },
+  {
+   "id": "palmitos",
+   "nom": "Palmitos Park",
+   "emoji": "🦜",
+   "type": "sortir",
+   "quartier": "Maspalomas (arrière-pays)",
+   "lat": 27.83381,
+   "lng": -15.61733,
+   "prix": 39,
+   "prix_detail": [
+    [
+     "Adulte (11 ans et plus)",
+     "39 € (35 € en ligne)"
+    ],
+    [
+     "Enfant de 5 à 10 ans",
+     "29 € (25 € en ligne)"
+    ],
+    [
+     "Enfant de 3 à 4 ans",
+     "15 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 39,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      4,
+      15
+     ],
+     [
+      10,
+      29
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne la veille pour payer moins cher (4 € de moins par adulte)",
+   "duree": "une demi-journée à la journée",
+   "moment": "Tous les jours de 10 h à 18 h (dernière entrée à 17 h) ; spectacles d'oiseaux en vol le matin et l'après-midi",
+   "enfants": true,
+   "texte": "Un parc botanique et zoologique niché dans un ravin verdoyant : volières tropicales, maison des papillons, orchidées, gorilles et orangs-outans, et un spectacle de rapaces en vol libre au-dessus du canyon. Parfait pour une journée en famille.",
+   "site_officiel": "https://palmitospark.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Martin Falbisoner",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bald_Eagle,_Palmitos_Park,_May_2018.jpg",
+    "src": "img/activites/LPA/palmitos.jpg"
+   }
+  },
+  {
+   "id": "aqualand",
+   "nom": "Aqualand Maspalomas",
+   "emoji": "💦",
+   "type": "sortir",
+   "quartier": "Maspalomas (sud)",
+   "lat": 27.77894,
+   "lng": -15.6045,
+   "prix": 41,
+   "prix_detail": [
+    [
+     "Adulte (11 ans et plus)",
+     "41 € (dès 32 € en ligne)"
+    ],
+    [
+     "Enfant de 5 à 10 ans",
+     "31 € (dès 22 € en ligne)"
+    ],
+    [
+     "Enfant de 3 à 4 ans",
+     "17 €"
+    ],
+    [
+     "Moins de 3 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 41,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      4,
+      17
+     ],
+     [
+      10,
+      31
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "en ligne quelques jours avant : jusqu'à 9 € de moins par personne",
+   "duree": "la journée",
+   "moment": "Tous les jours de 10 h à 17 h (18 h en juillet-août)",
+   "enfants": true,
+   "texte": "Le plus grand parc aquatique de l'île : toboggans géants comme le Tornado ou le Kamikaze, rivière lente, piscine à vagues et espaces pour les petits, au soleil du sud quasi garanti toute l'année.",
+   "site_officiel": "https://www.aqualand.es/maspalomas/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Xengi",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aqualand_Gran_Canaria.JPG",
+    "src": "img/activites/LPA/aqualand.jpg"
+   }
+  },
+  {
+   "id": "puerto-mogan",
+   "nom": "Puerto de Mogán, la « petite Venise »",
+   "emoji": "⛵",
+   "type": "balade",
+   "quartier": "Puerto de Mogán (sud-ouest)",
+   "lat": 27.8165,
+   "lng": -15.764,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Port, ruelles et plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "une demi-journée",
+   "moment": "Le vendredi matin pour le grand marché ; en fin de journée, quand les excursionnistes sont repartis",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le village le plus photogénique de l'île : petites maisons blanches aux encadrements colorés, ponts sur les canaux couverts de bougainvilliers, port de pêche et de plaisance et une plage abritée. Une balade de carte postale, à finir en terrasse au bord du quai.",
+   "site_officiel": "https://www.puertomogan.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Martin Falbisoner",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_de_Mog%C3%A1n,_May_2018_-03.jpg",
+    "src": "img/activites/LPA/puerto-mogan.jpg"
+   }
+  },
+  {
+   "id": "submarino",
+   "nom": "Sous-marin de Puerto de Mogán",
+   "emoji": "🛥️",
+   "type": "sortir",
+   "quartier": "Puerto de Mogán (sud-ouest)",
+   "lat": 27.81587,
+   "lng": -15.76422,
+   "prix": 38,
+   "prix_detail": [
+    [
+     "Plongée de 40 min, adulte",
+     "≈ 38 à 40 €"
+    ],
+    [
+     "Enfant",
+     "≈ 20 à 25 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 38,
+    "enfants": [
+     [
+      1,
+      0
+     ],
+     [
+      11,
+      22
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou quelques heures avant (places limitées)",
+   "duree": "1 h",
+   "moment": "Départs tous les jours, toutes les heures environ, depuis le port",
+   "enfants": true,
+   "texte": "Un vrai sous-marin jaune descend à une vingtaine de mètres le long des fonds de Mogán : épaves, poissons perroquets, raies et parfois une tortue défilent derrière les hublots. Une sortie sans se mouiller qui émerveille les enfants.",
+   "site_officiel": "https://www.atlantidasubmarine.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Kovako-1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yellow_submarine._Gran_canaria.JPG",
+    "src": "img/activites/LPA/submarino.jpg"
+   }
+  },
+  {
+   "id": "amadores",
+   "nom": "Plage d'Amadores",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Amadores (sud-ouest)",
+   "lat": 27.79008,
+   "lng": -15.72393,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol",
+     "≈ 10 à 15 € la journée"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "une demi-journée",
+   "moment": "Toute l'année ; le matin pour trouver de la place",
+   "enfants": true,
+   "texte": "Une baie de sable blond et d'eau turquoise, protégée par deux digues : la mer y est calme comme un lagon, idéale pour nager ou pour les enfants. Promenade en bord de mer jusqu'à Puerto Rico, restaurants et soleil presque assuré.",
+   "site_officiel": "https://www.mogan.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bengt Nyman",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amadores_D81_6625_(38430623460).jpg",
+    "src": "img/activites/LPA/amadores.jpg"
+   }
+  },
+  {
+   "id": "tamadaba",
+   "nom": "Pinède de Tamadaba",
+   "emoji": "🌲",
+   "type": "nature",
+   "quartier": "Agaete - Artenara (ouest)",
+   "lat": 28.0454,
+   "lng": -15.7467,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc naturel",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 à 4 h",
+   "moment": "Le matin, avant que les nuages ne montent de la mer",
+   "enfants": true,
+   "texte": "Une forêt de pins canariens perchée à 1 000 mètres au-dessus de l'océan, d'où les falaises plongent à pic vers Agaete. Sentiers ombragés, aires de pique-nique et, par temps clair, le Teide qui surgit au-dessus des nuages : la Gran Canaria verte et sauvage.",
+   "site_officiel": "https://www.grancanaria.com/turismo/fr/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Javier Branas",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_de_las_Nieves_desde_el_pinar_de_Tamadaba_-_panoramio.jpg",
+    "src": "img/activites/LPA/tamadaba.jpg"
+   }
+  },
+  {
+   "id": "veneguera",
+   "nom": "Los Azulejos de Veneguera",
+   "emoji": "🌈",
+   "type": "vue",
+   "quartier": "Route de Mogán à La Aldea (ouest)",
+   "lat": 27.9216,
+   "lng": -15.72514,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Arrêt sur la route GC-200",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En fin d'après-midi, quand la lumière fait ressortir les couleurs",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des falaises volcaniques striées de vert, de turquoise, d'ocre et de rouge, comme peintes à la main par les minéraux : un arrêt étonnant sur la route en lacets de l'ouest, entre Mogán et La Aldea. Un des spots photo préférés des réseaux sociaux.",
+   "site_officiel": "https://www.mogan.es/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "H. Zell",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fuente_de_los_Azulejos_01.JPG",
+    "src": "img/activites/LPA/veneguera.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "las-canteras",
+   "nom": "Las Palmas : Las Canteras",
+   "lat": 28.1375,
+   "lng": -15.437,
+   "texte": "Vivre comme un habitant au bord de la plus belle plage urbaine d'Europe : sable, promenade, restaurants et bars à pied, aquarium et marché du Port à côté. Le meilleur choix pour une ville animée toute l'année, et la base idéale sans voiture (bus vers tout le reste de l'île)."
+  },
+  {
+   "id": "vegueta-triana",
+   "nom": "Las Palmas : Vegueta et Triana",
+   "lat": 28.1035,
+   "lng": -15.4155,
+   "texte": "Le cœur historique : ruelles coloniales, cathédrale, musées et rue commerçante de Triana, avec les meilleures tables de la ville. Charmant et central, mais loin de la plage (15 minutes en bus de Las Canteras)."
+  },
+  {
+   "id": "maspalomas",
+   "nom": "Maspalomas et Playa del Inglés",
+   "lat": 27.7555,
+   "lng": -15.583,
+   "texte": "Le grand sud ensoleillé : les dunes, de longues plages, des hôtels avec piscine de toutes les gammes et les parcs de loisirs à 15 minutes. Le soleil le plus sûr de l'île en hiver ; très touristique, animé le soir à Playa del Inglés, plus chic à Meloneras."
+  },
+  {
+   "id": "mogan",
+   "nom": "Puerto de Mogán, Amadores et Puerto Rico",
+   "lat": 27.807,
+   "lng": -15.742,
+   "texte": "La côte sud-ouest, la plus abritée du vent : petites baies de sable aux eaux calmes, le port de charme de Mogán et des hôtels en terrasses face à la mer. Parfait en couple ou en famille pour la plage ; à 1 heure de Las Palmas."
+  },
+  {
+   "id": "tejeda",
+   "nom": "Tejeda et le centre de l'île",
+   "lat": 27.9955,
+   "lng": -15.614,
+   "texte": "Pour les marcheurs et les amoureux de nature : maisons rurales et petits hôtels au milieu des montagnes, au pied du Roque Nublo, ciel étoilé et calme absolu. Il fait plus frais qu'à la côte (prévoir un pull le soir) et la voiture est indispensable."
+  }
+ ],
+ "hotel_petit_prix_max": 80,
+ "restaurants": [
+  {
+   "id": "mercado-puerto",
+   "nom": "Mercado del Puerto",
+   "emoji": "🍤",
+   "gamme": "petit",
+   "genre": "Halles et comptoirs à tapas",
+   "quartier": "Las Palmas (Santa Catalina)",
+   "adresse": "Calle Albareda, 76, 35008 Las Palmas de Gran Canaria",
+   "lat": 28.14753,
+   "lng": -15.42894,
+   "prix": "10 à 25 €",
+   "prix_min": 10,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Une halle de fer forgé de la fin du XIXe siècle, à deux rues de Las Canteras, où les étals de poissonniers côtoient des comptoirs à tapas, huîtres, sushis et vins canariens. On picore debout ou en terrasse au milieu des habitants ; le week-end, concerts et ambiance de fête.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : midi et soir, surtout le vendredi et le samedi",
+   "photo": {
+    "auteur": "Pepelopex",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercado_del_Puerto-fachada_poniente-Las_Palmas_de_Gran_Canaria.jpg",
+    "src": "img/restos/LPA/mercado-puerto.jpg"
+   }
+  },
+  {
+   "id": "tasca-galileo",
+   "nom": "Tasca Galileo",
+   "emoji": "🧀",
+   "gamme": "petit",
+   "genre": "Tapas canariennes",
+   "quartier": "Las Palmas (Las Canteras)",
+   "adresse": "Calle Galileo, 13, 35010 Las Palmas de Gran Canaria",
+   "lat": 28.13685,
+   "lng": -15.43677,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Une petite taverne aux murs de bois et de pierre, cachée dans une ruelle derrière Las Canteras : papas arrugadas au mojo, fromages de l'île, croquetas et tapas inventives, avec une belle carte de vins canariens au verre. Le repère des habitants du quartier.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : arrivez à l'ouverture (vers 20 h) ou attendez au comptoir",
+   "photo": {
+    "auteur": "MiguelAlanCS",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Visita_a_Har%C3%ADa_(09-2021)_06.jpg",
+    "src": "img/restos/LPA/tasca-galileo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tagoror",
+   "nom": "Restaurante Tagoror",
+   "emoji": "🔥",
+   "gamme": "petit",
+   "genre": "Grillades dans une grotte",
+   "quartier": "Barranco de Guayadeque",
+   "adresse": "Montaña de las Tierras, GC-103, 35260 Ingenio",
+   "lat": 27.93518,
+   "lng": -15.5117,
+   "prix": "15 à 25 €",
+   "prix_min": 15,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Au bout de la route du barranco de Guayadeque, des salles creusées dans la roche volcanique : on y mange viandes grillées, chèvre en sauce, potaje de berros (soupe de cresson) et fromages de l'île, à la fraîche, sous les voûtes de la grotte. Une expérience unique et des prix doux.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dimanche midi, jour des familles canariennes",
+   "photo": {
+    "auteur": "Mololo",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Guayadeque_casas_cueva.jpg",
+    "src": "img/restos/LPA/tagoror.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dulceria-nublo",
+   "nom": "Dulcería Nublo",
+   "emoji": "🥮",
+   "gamme": "petit",
+   "genre": "Pâtisserie aux amandes",
+   "quartier": "Tejeda",
+   "adresse": "Calle Dr. Domingo Hernández Guerra, 15, 35360 Tejeda",
+   "lat": 27.99442,
+   "lng": -15.61487,
+   "prix": "3 à 10 €",
+   "prix_min": 3,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "La pâtisserie familiale de Tejeda, face aux roques, où l'on fait la queue pour les douceurs aux amandes du village : bienmesabe, mazapanes, almendrados, et des glaces généreuses. La pause gourmande incontournable de la route du Roque Nublo.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : comptoir à emporter et quelques tables en terrasse",
+   "photo": {
+    "auteur": "Rvr",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roque_Bentayga_-_Tejeda_-_Parque_Rural_del_Nublo_-_Gran_Canaria_01.jpg",
+    "src": "img/restos/LPA/dulceria-nublo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "organic-jungle",
+   "nom": "Organic Jungle",
+   "emoji": "🥞",
+   "gamme": "petit",
+   "genre": "Brunch",
+   "quartier": "Las Palmas (Las Canteras)",
+   "adresse": "Plazoleta de Farray, 2, 35007 Las Palmas de Gran Canaria",
+   "lat": 28.13724,
+   "lng": -15.43564,
+   "prix": "12 à 20 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le brunch qui fait le plein à deux pas de la plage : œufs Bénédicte sur gaufre, pancakes, bowls colorés et jus pressés, dans un décor de plantes vertes très photogénique. Idéal avant une matinée à Las Canteras.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation pour le brunch : allez-y avant 10 h 30 le week-end",
+   "photo": {
+    "auteur": "Jon Mountjoy",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eggs_Benedict-01-cropped.jpg",
+    "src": "img/restos/LPA/organic-jungle.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bululu",
+   "nom": "Bululú",
+   "emoji": "🫓",
+   "gamme": "petit",
+   "genre": "Arepas vénézuéliennes",
+   "quartier": "Las Palmas (Las Canteras)",
+   "adresse": "Calle Venezuela, 4, 35010 Las Palmas de Gran Canaria",
+   "lat": 28.13588,
+   "lng": -15.43739,
+   "prix": "12 à 22 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Les Canaries et le Venezuela, c'est une longue histoire de familles parties et revenues : cette adresse colorée du quartier de Las Canteras sert les meilleures arepas de la ville, patacones de banane plantain, tequeños et jus tropicaux, à petits prix.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin de réserver en semaine ; le samedi soir, appelez le jour même",
+   "photo": {
+    "auteur": "Periodismodepaz",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arepas_venezolanas.jpg",
+    "src": "img/restos/LPA/bululu.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-senador",
+   "nom": "El Senador",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poissons et riz, les pieds dans le sable",
+   "quartier": "Maspalomas (phare)",
+   "adresse": "Paseo del Faro, s/n, 35100 Maspalomas",
+   "lat": 27.7354,
+   "lng": -15.59742,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une grande terrasse face à l'océan, au pied du phare de Maspalomas et au bout des dunes : poissons du jour grillés, paellas et riz noirs, salades fraîches, avec le bruit des vagues et le coucher de soleil en prime. L'adresse la plus courue du sud.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en première ligne au coucher du soleil",
+   "photo": {
+    "auteur": "Tony Hisgett",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lighthouse_promenade_(2342543347).jpg",
+    "src": "img/restos/LPA/el-senador.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-brito",
+   "nom": "Casa Brito",
+   "emoji": "🥩",
+   "gamme": "moyen",
+   "genre": "Grillades de viandes",
+   "quartier": "Arucas (Visvique)",
+   "adresse": "Pasaje Ter, 17, 35412 Arucas",
+   "lat": 28.10548,
+   "lng": -15.52808,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "institution",
+    "recompense"
+   ],
+   "recompense": "Recommandé par le guide Michelin 2026",
+   "texte": "Depuis 1998, le temple de la viande grillée de Gran Canaria : bœufs maturés de Galice, d'Uruguay ou d'Allemagne cuits sur la braise devant vous, et le baifo (chevreau) de l'île, dans deux salles rustiques aux poutres de bois. Recommandé par le guide Michelin.",
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant pour le week-end",
+   "photo": {
+    "auteur": "Maxd2",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Asado_tradicional_argentino,_le%C3%B1a,_brasas.jpg",
+    "src": "img/restos/LPA/casa-brito.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "equilibrista",
+   "nom": "El Equilibrista 33",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Cuisine canarienne créative",
+   "quartier": "Las Palmas (Alcaravaneras)",
+   "adresse": "Calle Ingeniero Salinas, 23, 35006 Las Palmas de Gran Canaria",
+   "lat": 28.12986,
+   "lng": -15.43113,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin 2026",
+   "texte": "Le chef Mario Rodríguez revisite les produits de l'île, poissons de la criée, fromages, gofio, avec justesse et un vrai sens du goût, dans une salle simple près de la plage des Alcaravaneras. Le meilleur rapport qualité-prix de la ville selon le guide Michelin.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant (petite salle)",
+   "photo": {
+    "auteur": "Marek Ślusarczyk (Tupungato)",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:01_Canarian_cuisine_-_Kanarische_K%C3%BCche_-_Polvito_Uruguayo_sweet_dessert.jpg",
+    "src": "img/restos/LPA/equilibrista.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fuji",
+   "nom": "Restaurante Fuji",
+   "emoji": "🍣",
+   "gamme": "moyen",
+   "genre": "Japonais",
+   "quartier": "Las Palmas (Santa Catalina)",
+   "adresse": "Calle Pedro Castillo Westerling, 20, 35008 Las Palmas de Gran Canaria",
+   "lat": 28.14365,
+   "lng": -15.43154,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1967 par Toshihiko Sato, c'est le tout premier restaurant japonais d'Espagne, installé aujourd'hui dans une salle neuve près du port : sushis et sashimis taillés dans le poisson ultra-frais de l'Atlantique, tempuras et plats chauds, dans un cadre zen. Une institution que les habitants recommandent les yeux fermés.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner du week-end",
+   "photo": {
+    "auteur": "chidorian",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg",
+    "src": "img/restos/LPA/fuji.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "canario-de-oro",
+   "nom": "Canario de Oro",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine canarienne de village",
+   "quartier": "Mogán (village)",
+   "adresse": "Calle San Antonio de Padua, 18, 35140 Mogán",
+   "lat": 27.88332,
+   "lng": -15.72346,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [],
+   "texte": "Dans le vieux village de Mogán, à 8 km du port, une maison familiale qui sert la vraie cuisine de l'île : ropa vieja, chèvre en sauce, cherne (mérou) au mojo, papas arrugadas et gofio escaldado, sur une terrasse au calme entre les montagnes. Généreux et authentique.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le déjeuner du week-end",
+   "photo": {
+    "auteur": "Kpjas",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ropa_vieja_Canarian_style_in_Fataga,_Gran_Canaria,_the_Canary_Islands.JPG",
+    "src": "img/restos/LPA/canario-de-oro.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casito",
+   "nom": "Casito Mediterráneo",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Méditerranéen sur le port",
+   "quartier": "Puerto de Mogán",
+   "adresse": "Local 107, Puerto de Mogán, 35139 Mogán",
+   "lat": 27.81738,
+   "lng": -15.76579,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Une terrasse fleurie face aux bateaux du port de Mogán, pour une cuisine méditerranéenne soignée : poissons du jour, risottos, pâtes fraîches et desserts maison. L'adresse de charme de la « petite Venise », à réserver pour le dîner.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour une table en terrasse au dîner",
+   "photo": {
+    "auteur": "TimOve",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_de_Mog%C3%A1n_harbour.jpg",
+    "src": "img/restos/LPA/casito.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "poemas",
+   "nom": "Poemas by Hermanos Padrón",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine d'auteur étoilée",
+   "quartier": "Las Palmas (Ciudad Jardín)",
+   "adresse": "Hôtel Santa Catalina, Calle León y Castillo, 227, 35005 Las Palmas de Gran Canaria",
+   "lat": 28.12118,
+   "lng": -15.42841,
+   "prix": "95 à 140 €",
+   "prix_min": 95,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin 2026",
+   "texte": "Dans le salon du mythique hôtel Santa Catalina, palace colonial de 1890, les frères Padrón (deux étoiles à Tenerife) signent une cuisine d'auteur raffinée, entre produits canariens et saveurs du monde. Menu des classiques ou grand menu, service impeccable.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; ouvert le soir du mardi au samedi",
+   "photo": {
+    "auteur": "chicadelatele",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_palmas_gran_canaria_hotel_santa_catalina.jpg",
+    "src": "img/restos/LPA/poemas.jpg"
+   }
+  },
+  {
+   "id": "los-guayres",
+   "nom": "Los Guayres",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie canarienne étoilée",
+   "quartier": "Puerto de Mogán",
+   "adresse": "Hôtel Cordial Mogán Playa, Avenida de los Marrero, 2, 35138 Puerto de Mogán",
+   "lat": 27.82258,
+   "lng": -15.76036,
+   "prix": "130 à 150 €",
+   "prix_min": 130,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin 2026",
+   "texte": "Le chef Alexis Álvarez sublime le garde-manger de l'île, poissons de Mogán, fromages, fruits tropicaux, en menus dégustation inventifs et précis. La grande table du sud, dans un jardin tropical à deux pas du port.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant ; le soir seulement",
+   "photo": {
+    "auteur": "William Warby",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bird_of_Paradise_flower_in_the_grounds_at_Cordial_Mog%C3%A1n_Playa.jpg",
+    "src": "img/restos/LPA/los-guayres.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tabaiba",
+   "nom": "Tabaiba",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Menus dégustation près de la plage",
+   "quartier": "Las Palmas (Las Canteras)",
+   "adresse": "Calle Portugal, 79, 35010 Las Palmas de Gran Canaria",
+   "lat": 28.13527,
+   "lng": -15.4398,
+   "prix": "100 à 120 €",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile au guide Michelin 2026",
+   "texte": "À quelques pas de Las Canteras, le chef Abraham Ortega raconte les Canaries en une douzaine de bouchées audacieuses : poissons crus, légumes du nord de l'île, gofio et vins volcaniques. Une petite salle intime et une étoile très méritée.",
+   "reservation": "indispensable",
+   "reservation_delai": "1 à 2 semaines avant (petite salle)",
+   "photo": {
+    "auteur": "Wiki.cullin",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pan_seared_scallops_with_grilled_asparagus_fine_dining_appetizer.jpg",
+    "src": "img/restos/LPA/tabaiba.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "casa-romantica",
+   "nom": "Casa Romántica",
+   "emoji": "🌺",
+   "gamme": "haut",
+   "genre": "Menus de la vallée d'Agaete",
+   "quartier": "Valle de Agaete",
+   "adresse": "Carretera de los Berrazales, km 3,5, 35480 Agaete",
+   "lat": 28.0828,
+   "lng": -15.66962,
+   "prix": "70 à 105 €",
+   "prix_min": 70,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Recommandé par le guide Michelin 2026",
+   "texte": "Une maison de famille au milieu des manguiers et des caféiers de la vallée d'Agaete : le chef y compose des menus dégustation autour des produits du coin, café, fromages, cochon noir, mangues. Pour un déjeuner de fête dans le plus beau décor vert de l'île.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant",
+   "photo": {
+    "auteur": "kallerna",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Agaete_Valley_Arabica_Typica_1.jpg",
+    "src": "img/restos/LPA/casa-romantica.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "rias-bajas",
+   "nom": "Rías Bajas",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Fruits de mer à la galicienne",
+   "quartier": "Playa del Inglés",
+   "adresse": "Avenida de Tirajana, Edificio Playa del Sol, 35100 Playa del Inglés",
+   "lat": 27.75777,
+   "lng": -15.5784,
+   "prix": "50 à 80 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis le milieu des années 1980, la grande marisquería du sud : homards, langoustes, pouce-pieds, poulpe à la galicienne et poissons au four, servis par des serveurs en veste blanche dans un décor à l'ancienne. Les Canariens y viennent pour les grandes occasions.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner",
+   "photo": {
+    "auteur": "Xemenendura",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mariscada,_Santiago._Galicia.jpg",
+    "src": "img/restos/LPA/rias-bajas.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "deliciosamarta",
+   "nom": "Deliciosamarta",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Cuisine du marché",
+   "quartier": "Las Palmas (Triana)",
+   "adresse": "Calle Pérez Galdós, 33, 35002 Las Palmas de Gran Canaria",
+   "lat": 28.10644,
+   "lng": -15.41931,
+   "prix": "45 à 65 €",
+   "prix_min": 45,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Recommandé par le guide Michelin 2026",
+   "texte": "Dans une jolie rue piétonne de Triana, une salle aux murs de pierre et une ardoise qui change avec le marché : poissons de la criée, viandes mijotées, légumes de l'île, une cuisine pleine de personnalité saluée par le guide Michelin. Peu de tables : réservez.",
+   "reservation": "indispensable",
+   "reservation_delai": "plusieurs jours avant (petite salle très demandée)",
+   "photo": {
+    "auteur": "Sloggi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Triana_Major_Street-Las_Palmas_de_Gran_Canaria00.jpg",
+    "src": "img/restos/LPA/deliciosamarta.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

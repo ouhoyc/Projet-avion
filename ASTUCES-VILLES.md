@@ -250,3 +250,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   cretandailycruises.com (`…/gramvousabalos/prices.en.html`), acquaplus.gr ; cretaquarium.gr n'affiche pas ses prix. Récompenses : pas de Michelin
   en Crète, palmarès FNL (`int.fnl-guide.com/int/en/fnl-best-restaurants/crete-bra-2026/`, Playwright) et Toques d'or. Google Maps (cookie `SOCS`)
   donne la note sans le nombre d'avis. Commons : l'API `generator=search` passe mais lentement (« 429 » par vagues, ~1 min par recherche).
+- Las Palmas / Gran Canaria (nov. 2026) : Wanderlog, listes trouvées dans le plan du site (4 133 fichiers `sitemapN.txt`, garder les adresses anglaises
+  finissant par « las-palmas-de-gran-canaria », « maspalomas », « playa-del-ingles », « mogan », « agaete »…) : 198 listes, ~2 000 lieux. Michelin : la page
+  `guide.michelin.com/es/es/canarias/restaurantes` (+ `/page/N`, attribut `data-dtm-distinction`) couvre toutes les Canaries. Sites du Cabildo
+  (`*.grancanaria.com` : Casa de Colón, Cueva Pintada, jardin canarien) bloqués (Incapsula) ; lisibles avec Playwright : catedraldecanarias.es (tarifs),
+  palmitospark.es/precios, aqualand.es/maspalomas/tickets, arehucas.es/visitanos, fundacionmartinchirino.org/visitas (Castillo de la Luz), losguayres.com/menu,
+  casaromanticaagaete.com/menu. Commons : l'API répondait « 429 » ; recherche HTML (`ns6=1`) + `thumb.php`, ~2 min par lieu.
