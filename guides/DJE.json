@@ -795,7 +795,14 @@
    "enfants": false,
    "texte": "Dans une eau chaude et calme, on découvre les herbiers de posidonie, les poulpes, les seiches et les bancs de petits poissons, en toute sécurité avec un moniteur. Idéal pour une première plongée : les fonds sont doux et proches de la côte.",
    "note": "Dès 8 ans environ selon le club ; ne pas prendre l'avion dans les 24 h qui suivent.",
-   "a_verifier": false
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Soljaguar",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUnderwater_photograph_of_a_recreational_scuba_diver_in_Playa_del_Carmen_2006.jpg",
+    "src": "img/activites/DJE/plongee.jpg",
+    "illustration": true
+   }
   },
   {
    "id": "kitesurf",
