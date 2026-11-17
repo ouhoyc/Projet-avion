@@ -131,6 +131,12 @@ Lis ce fichier en entier avant de travailler.
   SofaScore bloque GitHub et Vercel (403), le proxy Apify gratuit est refusé, et l'offre gratuite
   d'API-Sports ne donne que hier/aujourd'hui/demain (testé oct. 2026 ; payant ≈ 19 $/mois/sport) :
   l'Action `update-matchs.yml` reste seulement en lancement à la main.
+  **Source de secours (16/11/2026)** : depuis le 26/10 SofaScore refuse (403) la machine de la tâche du lundi. Dans ce cas
+  `fetch-matchs.mjs` bascule seul sur `scripts/fetch-matchs-fixtures.mjs` (fixturedownload.com, sans clé) : il ne met à jour
+  que les grands championnats de foot et les coupes d'Europe (liste `SLUGS`), le basket, le rugby et les petits pays gardent
+  leur ancien contenu (qui vieillit). Stades localisés une fois dans OpenStreetMap (clé `stades_fd` de `matchs-cache.json`) ;
+  position corrigée à la main pour les stades mal placés (`POSITIONS`, nom exact de fixturedownload.com). Seules les villes
+  actuelles de `data.json` sont gardées. Couverture complète : relancer `fetch-matchs.mjs` depuis une machine que SofaScore accepte.
   Source gratuite et sans clé : l'interface publique de SofaScore (par `curl` : le `fetch` de Node
   est bloqué par leur anti-robots). Pour chaque pays desservi : 2 championnats + la coupe de foot,
   1er championnat de basket, liste fixe pour le rugby (`RUGBY`), et les coupes d'Europe.

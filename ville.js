@@ -560,7 +560,7 @@ function openCredits() {
       <p class="c-item"><b>Carte</b>© OpenStreetMap contributors, OpenMapTiles, fond OpenFreeMap.</p>
       <p class="c-item"><b>Prix des activités</b>Relevés le ${esc(new Date(guide.verifie_le).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }))} sur les sites officiels et des guides récents. Ils peuvent changer : vérifiez avant de réserver.</p>
       <p class="c-item"><b>Prix des vols</b>Prix repérés par les voyageurs (Travelpayouts), mis à jour chaque matin.</p>
-      <p class="c-item"><b>Calendrier des matchs</b>SofaScore, mis à jour deux fois par semaine.</p>
+      <p class="c-item"><b>Calendrier des matchs</b>SofaScore et fixturedownload.com, mis à jour chaque semaine.</p>
     </div>`);
 }
 

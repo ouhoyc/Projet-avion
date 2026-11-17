@@ -176,7 +176,12 @@ for (const v of villes.values()) {
   v.noms = new Set(noms[v.code] || [simple(v.nom)]);
 }
 writeFileSync('matchs-cache.json', JSON.stringify({ ...ancien, centres, noms }) + '\n'); // gardés même si la suite échoue
-if (!(await choisirAcces())) throw new Error('SofaScore refuse toutes les demandes depuis cette machine.');
+if (!(await choisirAcces())) {
+  // SofaScore refuse cette machine : source de secours (grands championnats de foot seulement, le reste est gardé tel quel).
+  console.log('SofaScore refuse cette machine : on passe à fixturedownload.com (grands championnats de foot seulement).');
+  await import('./fetch-matchs-fixtures.mjs');
+  process.exit(0);
+}
 const isos = new Set([...villes.values()].map((v) => v.iso));
 const alpha2 = new Set([...isos].flatMap((iso) => CATEGORIES_PAYS[iso] || [iso]));
 
@@ -282,4 +287,4 @@ const maj = new Date().toISOString();
 for (const [code, liste] of Object.entries(parVille)) {
   writeFileSync(`matchs/${code}.json`, JSON.stringify({ updated_at: maj, source: 'SofaScore', matchs: liste }) + '\n');
 }
-writeFileSync('matchs-cache.json', JSON.stringify({ updated_at: maj, rayon_km: RAYON_KM, centres, noms, stades }) + '\n');
+writeFileSync('matchs-cache.json', JSON.stringify({ ...ancien, updated_at: maj, rayon_km: RAYON_KM, centres, noms, stades }) + '\n');
