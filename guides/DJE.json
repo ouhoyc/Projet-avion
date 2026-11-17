@@ -1,0 +1,1422 @@
+{
+ "city_code": "DJE",
+ "statut": "préparé en autonomie, prix relevés le 17/11/2026 (1 € ≈ 3,4 dinars)",
+ "verifie_le": "2026-11-17",
+ "ile": true,
+ "transport": "un taxi",
+ "avant_de_partir": "Passeport obligatoire depuis janvier 2025, y compris pour les enfants : la carte d'identité ne suffit plus. Il doit être valable au moins 3 mois à la date d'arrivée. Pas de visa pour un séjour de moins de 3 mois.",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "houmt-souk",
+   "nom": "Médina et souks de Houmt Souk",
+   "emoji": "🧺",
+   "type": "balade",
+   "quartier": "Houmt Souk",
+   "lat": 33.8771,
+   "lng": 10.8587,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les souks",
+     "gratuit"
+    ],
+    [
+     "Bijoux, poteries, tapis, éponges",
+     "prix à discuter"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin ; jours de marché le lundi et le jeudi, quand les villages viennent vendre en ville",
+   "enfants": true,
+   "texte": "Le petit cœur blanc de l'île : des ruelles couvertes de treilles, des places ombragées où l'on joue aux dominos, les vieux fondouks (caravansérails) des marchands, les bijoutiers de la rue des orfèvres et des boutiques de poteries, de couvertures en laine et de chéchias. On s'y perd sans jamais s'y perdre vraiment.",
+   "note": "Les prix des boutiques se discutent : commencez à la moitié de ce qu'on vous annonce, avec le sourire.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chesdovi",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHoumt_Souk_May_2007.JPG",
+    "src": "img/activites/DJE/houmt-souk.jpg"
+   }
+  },
+  {
+   "id": "marche-midoun",
+   "nom": "Grand marché du vendredi à Midoun",
+   "emoji": "🧆",
+   "type": "balade",
+   "quartier": "Midoun",
+   "lat": 33.8076,
+   "lng": 10.9915,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le vendredi matin, avant midi (un peu d'animation aussi le jeudi après-midi)",
+   "enfants": true,
+   "texte": "Le marché le plus vivant de l'île : chaque vendredi, les places et les ruelles de Midoun se remplissent d'étals de dattes, d'épices, de poteries, de couvertures en laine et de vêtements, au milieu des marchands de beignets et des familles djerbiennes. Djerba côté habitants, à 10 minutes des hôtels.",
+   "note": "Gardez un œil sur votre sac dans la foule ; les prix se discutent.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Philip Klever alias User:Killerwal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMidoun_markt.JPG",
+    "src": "img/activites/DJE/marche-midoun.jpg"
+   }
+  },
+  {
+   "id": "borj-el-kebir",
+   "nom": "Borj El Kebir, le fort du bord de mer",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Houmt Souk",
+   "lat": 33.884,
+   "lng": 10.8605,
+   "prix": 2.5,
+   "prix_detail": [
+    [
+     "Entrée",
+     "8 dinars (≈ 2,50 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "≈ 2 dinars (≈ 0,60 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2.5,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "De 9 h 30 à 16 h 30 en hiver, de 8 h à 19 h en été ; fermé le vendredi",
+   "enfants": true,
+   "texte": "Une forteresse carrée du XVe siècle posée au bord de l'eau, à deux pas du port : on fait le tour des remparts face à la mer turquoise, avant de lire l'histoire du corsaire Dragut, qui y repoussa les Espagnols en 1560. Belle lumière en fin d'après-midi.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/borj-ghazi-mustapha-djerba/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "El Golli Mohamed",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABorj_ghazi_Mustapha002.jpg",
+    "src": "img/activites/DJE/borj-el-kebir.jpg"
+   }
+  },
+  {
+   "id": "musee-patrimoine",
+   "nom": "Musée du patrimoine traditionnel",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Houmt Souk",
+   "lat": 33.8798,
+   "lng": 10.8624,
+   "prix": 2.5,
+   "prix_detail": [
+    [
+     "Entrée",
+     "8 dinars (≈ 2,50 €)"
+    ],
+    [
+     "Moins de 12 ans",
+     "≈ 2 dinars (≈ 0,60 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2.5,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "De 9 h 30 à 16 h 30 (17 h en été) ; fermé le vendredi",
+   "enfants": true,
+   "texte": "Dans l'ancien mausolée blanc de Sidi Zitouni, coiffé de coupoles, les costumes de mariée, les bijoux en argent, les coffres peints et l'atelier du potier racontent la vie djerbienne d'autrefois. Petit, clair et bien fait : la bonne introduction avant de partir explorer l'île.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/musees/musee-du-patrimoine-traditionnel-de-djerba/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Mohatatou",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AZaouiat_Sidi_Zitouni-1.jpg",
+    "src": "img/activites/DJE/musee-patrimoine.jpg"
+   }
+  },
+  {
+   "id": "criee",
+   "nom": "La criée du marché de Houmt Souk",
+   "emoji": "🐟",
+   "type": "balade",
+   "quartier": "Houmt Souk",
+   "lat": 33.8751,
+   "lng": 10.8585,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "Le matin vers 10 h - 11 h, du lundi au samedi",
+   "enfants": true,
+   "texte": "Un spectacle que les Djerbiens ne ratent pas : perché sur sa chaise, le crieur brandit poissons, poulpes et chapelets de crevettes et lance les enchères à toute vitesse. Autour, les étals de dattes, d'épices et de harissa du marché central, sous les arcades.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alain Feulvarch from Le Havre, FRANCE",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADjerba-march%C3%A9-Al%40in76.jpg",
+    "src": "img/activites/DJE/criee.jpg"
+   }
+  },
+  {
+   "id": "ghriba",
+   "nom": "Synagogue de la Ghriba",
+   "emoji": "🕍",
+   "type": "culture",
+   "quartier": "Erriadh",
+   "lat": 33.814,
+   "lng": 10.8593,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée (offrande à l'entretien)",
+     "≈ 5 à 10 dinars (≈ 1,50 à 3 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Le matin de préférence ; fermée le samedi (shabbat) et souvent le vendredi après-midi",
+   "enfants": true,
+   "texte": "L'une des plus anciennes synagogues d'Afrique, au milieu des champs d'Erriadh : derrière une façade toute simple s'ouvre une salle éblouissante de faïences bleues, d'arcades et de vitraux. Haut lieu de pèlerinage au printemps, elle témoigne de 2 500 ans de présence juive sur l'île.",
+   "note": "Contrôle de sécurité à l'entrée : prenez votre passeport. Épaules et genoux couverts, un foulard est prêté pour la tête.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dr. Ondřej Havelka (cestovatel)",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEl_Ghriba_Synagogue%2C_Djerba%2C_Tunisia%2C_Africa.jpg",
+    "src": "img/activites/DJE/ghriba.jpg"
+   }
+  },
+  {
+   "id": "djerbahood",
+   "nom": "Djerbahood, le village du street art",
+   "emoji": "🎨",
+   "type": "balade",
+   "quartier": "Erriadh",
+   "lat": 33.8209,
+   "lng": 10.8565,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans les ruelles",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h à 1 h 30",
+   "moment": "En fin d'après-midi, pour la lumière dorée sur les murs blancs",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "En 2014, 150 artistes de 30 pays ont peint les murs blanchis à la chaux du vieux village d'Erriadh : calligraphies géantes, portraits, animaux et motifs berbères surgissent au détour de chaque ruelle et de chaque porte bleue. Une galerie à ciel ouvert, et sans doute le coin le plus photographié de Djerba.",
+   "note": "Les fresques s'effacent peu à peu avec le soleil, et certaines ont été repeintes : flânez librement, les habitants sont habitués aux visiteurs.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Rani777 - Baha-Eddine Mkd.",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AArt_de_rue_Djerba_quartier_Er_Ryadh_Calligraphie_orange.JPG",
+    "src": "img/activites/DJE/djerbahood.jpg"
+   }
+  },
+  {
+   "id": "djerba-explore",
+   "nom": "Djerba Explore : crocodiles et musée Lalla Hadria",
+   "emoji": "🐊",
+   "type": "culture",
+   "quartier": "Midoun (zone touristique)",
+   "lat": 33.8188,
+   "lng": 11.0432,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Billet unique : musée Lalla Hadria, village du patrimoine et ferme aux crocodiles",
+     "37 dinars (≈ 11 €)"
+    ],
+    [
+     "Enfant de 4 à 12 ans",
+     "24 dinars (≈ 7 €)"
+    ],
+    [
+     "Moins de 4 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      3,
+      0
+     ],
+     [
+      12,
+      7
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "2 à 3 h",
+   "moment": "Tous les jours sauf le lundi, de 9 h à 17 h ; spectacle des reptiles à 11 h (sauf le mardi), photos avec les bébés crocodiles à 11 h 30 et 16 h",
+   "enfants": true,
+   "texte": "Trois visites en une, au pied du phare de Taguermess : un musée d'art islamique étonnamment riche (céramiques, calligraphies, bijoux, tapis), une maison djerbienne reconstituée avec son huilerie et ses ateliers, puis des centaines de crocodiles du Nil qui se dorent au soleil. Parfait avec des enfants.",
+   "site_officiel": "https://www.djerbaexplore.com/informations-pratiques/",
+   "note": "Le nourrissage des crocodiles est suspendu pour le moment.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ad Meskens",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADjerba_Explore_Nile_crocodile_03.JPG",
+    "src": "img/activites/DJE/djerba-explore.jpg"
+   }
+  },
+  {
+   "id": "guellala-musee",
+   "nom": "Musée de Guellala",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Guellala",
+   "lat": 33.7326,
+   "lng": 10.8656,
+   "prix": 3.5,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 12 dinars (≈ 3,50 €)"
+    ],
+    [
+     "Droit de photographier",
+     "≈ 3 dinars (≈ 1 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3.5,
+    "enfants": [
+     [
+      11,
+      2
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Tous les jours ; venez en fin de journée pour le coucher de soleil depuis la terrasse",
+   "enfants": true,
+   "texte": "Perché sur le point le plus haut de l'île, ce musée fait revivre en scènes grandeur nature le mariage djerbien, la fabrication de l'huile, le tissage et les contes populaires. La terrasse offre une vue immense sur la mer et les champs d'oliviers.",
+   "site_officiel": "http://www.musee-djerba-guellala.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bsghaier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVue_d%E2%80%99ext%C3%A9rieur_du_mus%C3%A9e_1.jpg",
+    "src": "img/activites/DJE/guellala-musee.jpg"
+   }
+  },
+  {
+   "id": "guellala-potiers",
+   "nom": "Village des potiers de Guellala",
+   "emoji": "⚱️",
+   "type": "balade",
+   "quartier": "Guellala",
+   "lat": 33.7287,
+   "lng": 10.8558,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite des ateliers",
+     "gratuit"
+    ],
+    [
+     "Poteries",
+     "de quelques dinars à plus de 100 dinars"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En journée, quand les potiers travaillent",
+   "enfants": true,
+   "texte": "Le village de la poterie depuis l'Antiquité : on entre dans les ateliers creusés comme des grottes, on regarde tourner les jarres à l'argile de la colline, et les vitrines de la rue principale débordent de plats, de tajines et de lanternes colorées.",
+   "note": "Les « visites gratuites » des ateliers finissent toujours à la boutique : rien ne vous oblige à acheter.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Tico at Romanian Wikipedia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGuellala_shop.jpg",
+    "src": "img/activites/DJE/guellala-potiers.jpg"
+   }
+  },
+  {
+   "id": "fadhloun",
+   "nom": "Mosquée Fadhloun",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Entre Houmt Souk et Midoun",
+   "lat": 33.8247,
+   "lng": 10.9594,
+   "prix": 1.5,
+   "prix_detail": [
+    [
+     "Entrée",
+     "5 dinars (≈ 1,50 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.5,
+    "enfants": [
+     [
+      11,
+      0.6
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "30 min",
+   "moment": "Le matin seulement : de 7 h à 12 h (8 h à 12 h de décembre à février) ; fermée le vendredi",
+   "enfants": true,
+   "texte": "La plus photogénique des 300 mosquées de l'île : un bloc tout blanc aux murs penchés comme sculptés à la main, avec son petit minaret, sa citerne et son four à pain, perdu au milieu des oliviers. L'architecture ibadite de Djerba dans toute sa simplicité.",
+   "site_officiel": "https://www.patrimoinedetunisie.com.tn/fr/monuments/la-mosquee-fadhloun/apercu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "M.Rais",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATunisie_Jema%C3%A2_Fadhloun_3.jpg",
+    "src": "img/activites/DJE/fadhloun.jpg"
+   }
+  },
+  {
+   "id": "ile-flamants",
+   "nom": "Île aux flamants roses en bateau pirate",
+   "emoji": "🦩",
+   "type": "nature",
+   "quartier": "Ras R'mal (départ du port de Houmt Souk)",
+   "lat": 33.9143,
+   "lng": 10.8955,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Croisière d'une journée, déjeuner de poisson grillé compris",
+     "≈ 30 €"
+    ],
+    [
+     "Enfant",
+     "≈ moitié prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": [
+     [
+      2,
+      0
+     ],
+     [
+      11,
+      15
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, à l'hôtel ou au port de Houmt Souk ; transfert compris",
+   "duree": "Journée (9 h 30 - 16 h)",
+   "moment": "D'avril à octobre de préférence ; flamants surtout d'octobre à mars",
+   "enfants": true,
+   "texte": "À bord d'une fausse galère de pirates, on file vers la presqu'île de Ras R'mal, une langue de sable blanc entourée d'eau turquoise et peu profonde : baignade, déjeuner de poisson grillé sous les paillotes, et souvent des flamants roses dans la lagune. Ambiance festive, musique à bord.",
+   "note": "Les flamants sont des oiseaux sauvages : on les voit surtout en hiver, de loin, et pas à chaque sortie.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bilel Hawari",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWelcome1.jpg",
+    "src": "img/activites/DJE/ile-flamants.jpg"
+   }
+  },
+  {
+   "id": "sidi-mahrez",
+   "nom": "Plage de Sidi Mahrez",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Zone touristique (Sidi Mahrez)",
+   "lat": 33.865,
+   "lng": 10.96,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage publique",
+     "gratuit"
+    ],
+    [
+     "Transat et parasol dans un café de plage",
+     "≈ 10 à 20 dinars (≈ 3 à 6 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De mai à octobre pour la baignade ; magnifique au lever du soleil toute l'année",
+   "enfants": true,
+   "texte": "La grande plage de Djerba : des kilomètres de sable fin presque blanc, une eau turquoise qui reste longtemps peu profonde et des palmiers au bord. Les hôtels se partagent le rivage, mais la plage est ouverte à tous ; quelques cafés de plage louent des transats.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "SuperManu",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADjerba_el_mouradi_menzel_hotel_beach-3.jpg",
+    "src": "img/activites/DJE/sidi-mahrez.jpg"
+   }
+  },
+  {
+   "id": "seguia",
+   "nom": "Plage de la Seguia et lagune d'Aghir",
+   "emoji": "🌴",
+   "type": "plage",
+   "quartier": "Aghir (sud-est)",
+   "lat": 33.7865,
+   "lng": 11.058,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De mai à octobre ; en semaine pour être presque seul",
+   "enfants": true,
+   "texte": "La plage la plus sauvage de la côte est, loin des grands hôtels : du sable doré, des dunes et des palmiers, une mer plate et claire. Un peu plus au sud, la lagune d'Aghir et la plage de Sidi Yati, où l'on déjeune de poisson les pieds dans le sable.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Noomen9",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_aghir_djerba_2.jpg",
+    "src": "img/activites/DJE/seguia.jpg"
+   }
+  },
+  {
+   "id": "taguermess",
+   "nom": "Phare et plage de Taguermess",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Midoun (zone touristique)",
+   "lat": 33.8228,
+   "lng": 11.0428,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au lever du soleil, face à la mer",
+   "enfants": true,
+   "texte": "La pointe nord-est de l'île, où le phare de Ras Taguermess veille sur une plage de sable blanc et une eau d'un bleu de carte postale. Le meilleur endroit pour voir le soleil sortir de la mer, avant que les plages ne s'animent.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Citizen59",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APhareTourguenessDec2012.JPG",
+    "src": "img/activites/DJE/taguermess.jpg"
+   }
+  },
+  {
+   "id": "sidi-jmour",
+   "nom": "Coucher de soleil à Sidi Jmour",
+   "emoji": "🌇",
+   "type": "vue",
+   "quartier": "Côte ouest (Sidi Jmour)",
+   "lat": 33.8315,
+   "lng": 10.7481,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil",
+   "enfants": true,
+   "texte": "Sur la côte ouest, presque déserte, la petite mosquée blanche de Sidi Jmour se dresse au bord de l'eau : quand le soleil plonge dans la mer, la façade passe au rose puis à l'or. Le plus beau coucher de soleil de Djerba, à 20 minutes de Houmt Souk.",
+   "note": "Il n'y a pas de bus : venez en taxi (demandez-lui de vous attendre) ou en voiture de location.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bsghaier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMosqu%C3%A9e_Sidi_Jmour.jpg",
+    "src": "img/activites/DJE/sidi-jmour.jpg"
+   }
+  },
+  {
+   "id": "ajim",
+   "nom": "Ajim, port des pêcheurs d'éponges et décors de Star Wars",
+   "emoji": "🎬",
+   "type": "balade",
+   "quartier": "Ajim (sud-ouest)",
+   "lat": 33.7248,
+   "lng": 10.7485,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade",
+     "gratuit"
+    ],
+    [
+     "Bac pour le continent (Jorf)",
+     "≈ 1 dinar par piéton"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, au retour des bateaux",
+   "enfants": true,
+   "texte": "Le port où les pêcheurs ramènent encore les éponges de mer et les poulpes pris dans des jarres en terre, face au bac qui relie l'île au continent. George Lucas y a tourné la cantina de Mos Eisley dans le premier Star Wars (1977) : les fans retrouvent la façade blanche dans le village.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Houss 2020",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APort_Ajim_Djerba_66.jpg",
+    "src": "img/activites/DJE/ajim.jpg"
+   }
+  },
+  {
+   "id": "chaussee-romaine",
+   "nom": "Chaussée romaine d'El Kantara",
+   "emoji": "🌉",
+   "type": "vue",
+   "quartier": "El Kantara (sud-est)",
+   "lat": 33.6555,
+   "lng": 10.9267,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En fin d'après-midi, sur la route de Zarzis",
+   "enfants": true,
+   "texte": "Une route de 7 km posée sur la mer, héritée des Romains, qui relie Djerba au continent : on la traverse avec de l'eau des deux côtés, parfois avec des flamants dans les hauts-fonds. Tout près, le site de l'antique Meninx, où dorment encore des colonnes de marbre.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Stegop",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEl_kantara-stegop-03.jpg",
+    "src": "img/activites/DJE/chaussee-romaine.jpg"
+   }
+  },
+  {
+   "id": "dromadaire",
+   "nom": "Balade à dromadaire au coucher du soleil",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Midoun (zone touristique)",
+   "lat": 33.8254,
+   "lng": 11.0307,
+   "prix": 28,
+   "prix_detail": [
+    [
+     "Balade de 1 h à 1 h 30 dans la palmeraie et sur la plage",
+     "≈ 25 à 30 €"
+    ],
+    [
+     "À cheval",
+     "même prix"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 28,
+    "enfants": [
+     [
+      11,
+      20
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; prise en charge à l'hôtel souvent comprise",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, pour le coucher du soleil",
+   "enfants": true,
+   "texte": "Au pas lent des dromadaires, on traverse les palmiers et les dunes basses jusqu'à la plage, pendant que le ciel s'embrase. Un grand classique de Djerba, doux et sans effort, qui plaît autant aux enfants qu'aux parents.",
+   "note": "Choisissez une ferme où les animaux ont l'air bien soignés, et évitez les heures chaudes en été.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Henning Leweke from Kiel, Germany",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADjerba-camel_on_the_beach-sky_walker.jpg",
+    "src": "img/activites/DJE/dromadaire.jpg"
+   }
+  },
+  {
+   "id": "quad",
+   "nom": "Quad dans la campagne et la lagune",
+   "emoji": "🏍️",
+   "type": "sport",
+   "quartier": "Zone touristique",
+   "lat": 33.846,
+   "lng": 10.98,
+   "prix": 38,
+   "prix_detail": [
+    [
+     "Sortie guidée de 1 h 30 (quad pour 1 ou 2 personnes)",
+     "≈ 35 à 40 € le quad"
+    ],
+    [
+     "Buggy de 1 h 30",
+     "≈ 60 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 38,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "1 h 30",
+   "moment": "Le matin ou en fin d'après-midi ; prévoyez lunettes de soleil et foulard contre la poussière",
+   "enfants": false,
+   "texte": "Pistes de sable entre les oliviers, villages de houchs blancs, palmeraies et bord de la lagune bleue : la façon la plus amusante de voir l'intérieur de l'île, que les circuits en car ne traversent pas.",
+   "note": "Permis de conduire demandé au conducteur ; les enfants montent seulement comme passagers.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jeanhousen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20231211_097_Dar_Zaghouan.jpg",
+    "src": "img/activites/DJE/quad.jpg"
+   }
+  },
+  {
+   "id": "plongee",
+   "nom": "Baptême de plongée",
+   "emoji": "🤿",
+   "type": "sport",
+   "quartier": "Zone touristique (Midoun)",
+   "lat": 33.8482,
+   "lng": 10.9938,
+   "prix": 55,
+   "prix_detail": [
+    [
+     "Baptême de plongée avec moniteur, matériel et transfert compris",
+     "≈ 55 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou 2 jours avant",
+   "duree": "2 h",
+   "moment": "De mai à novembre (eau à 26 °C en été)",
+   "enfants": false,
+   "texte": "Dans une eau chaude et calme, on découvre les herbiers de posidonie, les poulpes, les seiches et les bancs de petits poissons, en toute sécurité avec un moniteur. Idéal pour une première plongée : les fonds sont doux et proches de la côte.",
+   "note": "Dès 8 ans environ selon le club ; ne pas prendre l'avion dans les 24 h qui suivent.",
+   "a_verifier": false
+  },
+  {
+   "id": "kitesurf",
+   "nom": "Cours de kitesurf dans la lagune",
+   "emoji": "🪁",
+   "type": "sport",
+   "quartier": "Lagune du sud-est",
+   "lat": 33.77,
+   "lng": 11.045,
+   "prix": 75,
+   "prix_detail": [
+    [
+     "Cours découverte de 2 h, matériel compris",
+     "≈ 70 à 80 €"
+    ],
+    [
+     "Stage de 10 h sur 5 jours",
+     "≈ 330 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 75,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant, selon la météo",
+   "duree": "2 h",
+   "moment": "D'avril à octobre, l'après-midi quand le vent se lève",
+   "enfants": false,
+   "texte": "Une immense lagune où l'on a pied presque partout et où le vent souffle régulièrement : l'un des meilleurs endroits de Méditerranée pour apprendre le kitesurf sans craindre les vagues.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Henning Leweke",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKitesurf_Djerba.jpg",
+    "src": "img/activites/DJE/kitesurf.jpg"
+   }
+  },
+  {
+   "id": "golf",
+   "nom": "Djerba Golf Club",
+   "emoji": "⛳",
+   "type": "sport",
+   "quartier": "Midoun (zone touristique)",
+   "lat": 33.8262,
+   "lng": 11.0113,
+   "prix": 44,
+   "prix_detail": [
+    [
+     "Parcours de 18 trous",
+     "≈ 44 €"
+    ],
+    [
+     "9 trous",
+     "≈ 27 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 44,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "duree": "4 h",
+   "moment": "D'octobre à mai, le matin ; toute l'année",
+   "enfants": false,
+   "texte": "27 trous entre la mer, les palmiers et les lacs, en bordure de la zone touristique : on y joue en manches courtes en plein hiver. Location de clubs et de voiturettes sur place.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "R-E-AL",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2008-11-25-Monastir-Flamingo-74.JPG",
+    "src": "img/activites/DJE/golf.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ksar-ghilane",
+   "nom": "Excursion au désert : Ksar Ghilane",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "Sud tunisien (départ de l'hôtel)",
+   "lat": 32.9867,
+   "lng": 9.6367,
+   "prix": 90,
+   "prix_detail": [
+    [
+     "Journée avec déjeuner, en 4x4",
+     "≈ 90 €"
+    ],
+    [
+     "2 jours avec nuit sous tente berbère",
+     "≈ 130 à 190 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 90,
+    "enfants": [
+     [
+      11,
+      60
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant",
+   "duree": "Journée (départ vers 6 h) ou 2 jours",
+   "moment": "D'octobre à avril (trop chaud en été)",
+   "enfants": true,
+   "texte": "L'oasis aux portes du Grand Erg : dunes dorées à perte de vue, bain dans une source d'eau chaude au milieu des palmiers, balade à dromadaire et, la nuit, un ciel plein d'étoiles. Une aventure à 3 heures de route de l'île.",
+   "note": "Longue journée de route : la version en 2 jours est bien plus reposante.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "veroyama from Meguro, Japan",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKsar_Ghilane_%284103846788%29.jpg",
+    "src": "img/activites/DJE/ksar-ghilane.jpg"
+   }
+  },
+  {
+   "id": "matmata",
+   "nom": "Matmata et les ksour : le sud de Star Wars",
+   "emoji": "🏚️",
+   "type": "culture",
+   "quartier": "Sud tunisien (départ de l'hôtel)",
+   "lat": 33.544,
+   "lng": 9.967,
+   "prix": 70,
+   "prix_detail": [
+    [
+     "Journée Matmata, Tamezret et Douz, déjeuner compris",
+     "≈ 75 €"
+    ],
+    [
+     "Journée Tataouine et Chenini",
+     "≈ 65 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 70,
+    "enfants": [
+     [
+      11,
+      45
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "2 ou 3 jours avant",
+   "duree": "Journée",
+   "moment": "D'octobre à mai",
+   "enfants": true,
+   "texte": "Les maisons troglodytes de Matmata, creusées dans la terre, où Luke Skywalker a grandi dans Star Wars (l'hôtel Sidi Driss), puis les ksour berbères, greniers fortifiés perchés sur les crêtes, et le village de Chenini accroché à la montagne. Un autre monde, à 2 heures de Djerba.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Acarvin at English Wikipedia",
+    "licence": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHotel-sididriss.jpg",
+    "src": "img/activites/DJE/matmata.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "houmt-souk",
+   "nom": "Houmt Souk",
+   "lat": 33.877,
+   "lng": 10.859,
+   "texte": "La petite capitale de l'île : souks, fort, port et restaurants à pied, dans des hôtels de charme installés dans d'anciens fondouks. Pas de plage en ville (la plus proche est à 10 minutes en taxi), mais l'ambiance djerbienne est là, du matin au soir."
+  },
+  {
+   "id": "sidi-mahrez",
+   "nom": "Zone touristique de Sidi Mahrez",
+   "lat": 33.865,
+   "lng": 10.965,
+   "texte": "Le début de la grande plage de sable blanc, sur la côte nord-est : hôtels les pieds dans l'eau, cafés de plage, casino et marina, à 10 minutes de Houmt Souk. Le meilleur compromis entre plage et visite de la ville."
+  },
+  {
+   "id": "midoun",
+   "nom": "Midoun et la zone touristique",
+   "lat": 33.835,
+   "lng": 10.995,
+   "texte": "Le cœur des vacances balnéaires : grands hôtels-clubs le long de la plage, golf, phare de Taguermess, parc Djerba Explore, et le bourg de Midoun avec son marché du vendredi et ses restaurants. Animé le soir, pratique avec des enfants."
+  },
+  {
+   "id": "aghir",
+   "nom": "Aghir et la Seguia",
+   "lat": 33.78,
+   "lng": 11.045,
+   "texte": "Le sud-est, plus calme et plus sauvage : plages de la Seguia et de Sidi Yati, lagune, quelques hôtels espacés. Pour se reposer loin de l'agitation, mais il faut un taxi pour tout le reste (20 minutes de Midoun, 35 de Houmt Souk)."
+  },
+  {
+   "id": "erriadh",
+   "nom": "Erriadh (Djerbahood)",
+   "lat": 33.821,
+   "lng": 10.8555,
+   "texte": "Le village du street art et de la synagogue de la Ghriba, au centre de l'île : des maisons d'hôtes dans de vieux houchs blancs, très calmes le soir. Idéal pour un séjour culturel et authentique, à 10 minutes de Houmt Souk ; la plage est à 20 minutes."
+  }
+ ],
+ "hotel_petit_prix_max": 60,
+ "prix_match": 8,
+ "restaurants": [
+  {
+   "id": "saad-el-melh",
+   "nom": "Saad el Melh",
+   "emoji": "🥖",
+   "gamme": "petit",
+   "genre": "Sandwichs au thon",
+   "quartier": "Houmt Souk",
+   "adresse": "Rue Mohamed Ferjani, Houmt Souk",
+   "lat": 33.87744,
+   "lng": 10.85874,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Un minuscule comptoir au cœur des souks, quelques tabourets, et l'une des adresses les plus connues de l'île : le casse-croûte djerbien, un bout de baguette garni à la minute de thon ou de sardines, harissa, câpres, olives et œuf. Les Djerbiens y font la queue depuis des décennies.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; vite fait, à toute heure de la journée",
+   "photo": {
+    "auteur": "Emna Mizouni",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACasse-croute_Thon.jpg",
+    "src": "img/restos/DJE/saad-el-melh.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bab-el-hara",
+   "nom": "Bab El Hara Seghira",
+   "emoji": "🥣",
+   "gamme": "petit",
+   "genre": "Lablabi et brick",
+   "quartier": "Erriadh",
+   "adresse": "À l'entrée du village d'Erriadh, près de Djerbahood",
+   "lat": 33.82016,
+   "lng": 10.85648,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "texte": "La halte parfaite après la balade dans les ruelles peintes de Djerbahood : un lablabi (soupe de pois chiches au cumin et à l'huile d'olive), une brick à l'œuf qui craque, une salade de thon frais. Le patron, chaleureux, aide à choisir parmi les plats du jour.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Yamen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALablebi_Tunisian_dish.jpg",
+    "src": "img/restos/DJE/bab-el-hara.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chez-moktar",
+   "nom": "Chez Moktar",
+   "emoji": "🍲",
+   "gamme": "petit",
+   "genre": "Cuisine maison colorée",
+   "quartier": "Midoun",
+   "adresse": "Midoun, près du centre",
+   "lat": 33.80555,
+   "lng": 10.9897,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "texte": "Une salle éclatante de couleurs et de fresques, tenue par une équipe de femmes qui cuisinent comme à la maison : couscous garni de tout, chorba, plats mijotés, et la soupe, les petits plats et le thé offerts avec le repas. On en ressort repu, et accueilli comme un cousin.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin ; un peu d'attente le soir en été",
+   "photo": {
+    "auteur": "Alcyone15",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACouscous_Tunisien_au_poulet_%28_Tunisian_chiken_couscous_%29.jpg",
+    "src": "img/restos/DJE/chez-moktar.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "gaia",
+   "nom": "Gaïa Stylish Coffee & Food",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café-brunch",
+   "quartier": "Zone touristique (Midoun)",
+   "adresse": "Route touristique, Midoun",
+   "lat": 33.83876,
+   "lng": 10.99263,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "Le café à la mode de la zone touristique : grande terrasse, déco soignée, brunchs, pizzas à partager, burgers et gâteaux généreux, et même des sushis. L'adresse où l'on retrouve la jeunesse djerbienne, du petit-déjeuner au verre de citronnade du soir.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; service parfois un peu long",
+   "photo": {
+    "auteur": "Alisa Anton alisaanton",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACappuccinos_and_cake_%28Unsplash%29.jpg",
+    "src": "img/restos/DJE/gaia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "artisan-paris",
+   "nom": "Artisan Paris",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Pâtisserie et petit-déjeuner",
+   "quartier": "Midoun",
+   "adresse": "Route touristique, Midoun",
+   "lat": 33.81819,
+   "lng": 10.98913,
+   "prix": "2 à 8 €",
+   "prix_min": 2,
+   "texte": "Viennoiseries croustillantes, entremets et gâteaux de vitrine dignes d'une boulangerie parisienne, à prix tunisiens : le bon plan pour un petit-déjeuner hors de l'hôtel ou un goûter, avec café ou jus frais.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Ken Hawkins",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMacaroon_Boutique_chocolate_croissants_1.jpg",
+    "src": "img/restos/DJE/artisan-paris.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "flamingo-beach",
+   "nom": "Flamingo Beach",
+   "emoji": "🏝️",
+   "gamme": "petit",
+   "genre": "Café de plage",
+   "quartier": "Zone touristique (Sidi Mahrez)",
+   "adresse": "Plage de Sidi Mahrez, face à la mosquée de Sidi Mahrez",
+   "lat": 33.86876,
+   "lng": 10.96493,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "texte": "Un café de plage simple et accueillant sur la grande plage de Sidi Mahrez : transats et parasols, citronnade fraîche, salades, brick au thon et poisson grillé, les pieds presque dans l'eau turquoise. Parfait si votre hôtel n'est pas en bord de mer.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Henning Leweke from Kiel, Germany",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParasols_at_the_Calimera_Yati_Beach-sky_walker.jpg",
+    "src": "img/restos/DJE/flamingo-beach.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "essofra",
+   "nom": "Essofra",
+   "emoji": "🫕",
+   "gamme": "moyen",
+   "genre": "Cuisine familiale djerbienne",
+   "quartier": "Houmt Souk",
+   "adresse": "Avenue Taïeb-Mhiri, Houmt Souk",
+   "lat": 33.87907,
+   "lng": 10.8594,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "texte": "Une salle aux airs de vieille ferme tunisienne, avec ses objets anciens et ses nappes colorées, où Madame cuisine selon le marché : couscous au poisson, ojja aux crevettes, agneau mijoté, riz djerbien. Une cuisine de famille généreuse et parfumée, l'une des plus aimées de Houmt Souk.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour le soir en été ; fermé en milieu d'après-midi",
+   "photo": {
+    "auteur": "Una723",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATunisian_Ojja.jpg",
+    "src": "img/restos/DJE/essofra.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "baccar",
+   "nom": "Restaurant Baccar",
+   "emoji": "🐠",
+   "gamme": "moyen",
+   "genre": "Poisson grillé",
+   "quartier": "Houmt Souk",
+   "adresse": "Place Hédi-Chaker, Houmt Souk",
+   "lat": 33.87654,
+   "lng": 10.85901,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Ouvert en 1957 et tenu par la quatrième génération, sur une jolie place de la médina : on choisit son poisson, grillé au feu de bois, avec la harissa maison, les spaghettis aux fruits de mer et la salade méchouia. Un pilier de Houmt Souk, où le patron accueille chaque table.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour une table en terrasse le soir",
+   "photo": {
+    "auteur": "Shoestring (Wikivoyage)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrilled_fish_and_chips%2C_Tunisia.JPG",
+    "src": "img/restos/DJE/baccar.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "de-l-ile",
+   "nom": "Restaurant de l'Île",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Cuisine méditerranéenne",
+   "quartier": "Houmt Souk",
+   "adresse": "Place Hédi-Chaker, Houmt Souk",
+   "lat": 33.87674,
+   "lng": 10.85921,
+   "prix": "10 à 22 €",
+   "prix_min": 10,
+   "texte": "Impossible de rater sa façade bleu et blanc sur la place pavée : à l'intérieur, tables en bois et nappes à carreaux comme dans une trattoria, et une carte qui va des pâtes aux fruits de mer au couscous de poisson. Une valeur sûre en plein cœur de la vieille ville.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas besoin à midi ; le jour même le soir en été",
+   "photo": {
+    "auteur": "Fightallignorance",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AExcellent_Lamb_Couscous_at_Houmt_Souk.jpg",
+    "src": "img/restos/DJE/de-l-ile.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-hanout",
+   "nom": "El Hanout",
+   "emoji": "🌿",
+   "gamme": "moyen",
+   "genre": "Couscous et terrasse",
+   "quartier": "Houmt Souk",
+   "adresse": "Près de la place Hédi-Chaker, Houmt Souk",
+   "lat": 33.87796,
+   "lng": 10.85817,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "texte": "Une terrasse sur le toit, décorée avec goût, au-dessus des ruelles : couscous au poisson servi en chanson par le patron, riz djerbien aux calamars, loup grillé, portions immenses. Une ambiance détendue qui donne envie de rester jusqu'à la nuit.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même, ou arrivez à l'ouverture (souvent complet le soir)",
+   "photo": {
+    "auteur": "Elcèd77",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFish_couscous_from_Kerkenah%2C_Tunisia%2C_August_16th%2C_2007.jpg",
+    "src": "img/restos/DJE/el-hanout.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "chez-ali",
+   "nom": "Chez Ali",
+   "emoji": "🦐",
+   "gamme": "moyen",
+   "genre": "Poissons sans carte, sur la plage",
+   "quartier": "Aghir (plage de Sidi Yati)",
+   "adresse": "Plage de Sidi Yati, Aghir",
+   "lat": 33.77356,
+   "lng": 11.03745,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Pas de menu : on vous présente la pêche du jour, grosses crevettes, daurades, loups, que l'on mange grillés sous les parasols de palme, à quelques mètres de l'eau. Simple, ultra-frais, loin des hôtels : l'un des meilleurs déjeuners de l'île.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le matin même par téléphone ; ouvert midi et soir",
+   "photo": {
+    "auteur": "Gordon Leggett",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2026-05-24_02_Grilled_Spot_prawns_%28Pandalus_platyceros%29_-_Victoria_BC_CAN.jpg",
+    "src": "img/restos/DJE/chez-ali.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-bistrot",
+   "nom": "Le Bistrot Djerba",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Bistrot tunisien moderne",
+   "quartier": "Midoun",
+   "adresse": "Avenue de l'Environnement, Midoun",
+   "lat": 33.83239,
+   "lng": 10.98804,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "texte": "Un bistrot chaleureux et joliment décoré entre Midoun et la zone touristique : grillades, poissons, pâtes et classiques tunisiens bien tournés, servis par une équipe aux petits soins. L'adresse où les vacanciers reviennent plusieurs soirs de suite.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même ; fermé en milieu d'après-midi",
+   "photo": {
+    "auteur": "Souad Anane Lesina",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATunisian_Briks.JPG",
+    "src": "img/restos/DJE/le-bistrot.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "dar-dhiafa",
+   "nom": "Dar Dhiafa",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Table d'une maison d'hôtes",
+   "quartier": "Erriadh",
+   "adresse": "Hôtel Dar Dhiafa, Erriadh",
+   "lat": 33.8215,
+   "lng": 10.85486,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "texte": "Un ensemble de vieux houchs blanchis à la chaux, transformé en hôtel de charme au milieu du village d'Erriadh : on y dîne aux bougies dans les patios, d'un couscous au poisson et à l'aneth, d'une noisette d'agneau au miel ou d'un dessert aux figues, avec un vin tunisien ou un cocktail aux herbes du jardin.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille au moins (peu de tables)",
+   "photo": {
+    "auteur": "DrFO.Jr.Tn",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AUsine_traditionnelle_de_tissage_-_Djerba.jpg",
+    "src": "img/restos/DJE/dar-dhiafa.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "arischa",
+   "nom": "Arischa",
+   "emoji": "🌙",
+   "gamme": "haut",
+   "genre": "Patio d'un caravansérail",
+   "quartier": "Houmt Souk",
+   "adresse": "36, rue Mustapha-Ghazi, Houmt Souk",
+   "lat": 33.8778,
+   "lng": 10.85788,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "texte": "On dîne dans le grand patio d'un ancien caravansérail mauresque, sous les arcades, parfois au son d'un concert ou entouré d'une exposition : couscous au mérou, agneau, quelques plats français et italiens, et une carte de vins (rare dans la médina).",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le jour même, surtout les soirs de concert",
+   "photo": {
+    "auteur": "Bsghaier",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL%E2%80%99entr%C3%A9e_dun_Fondouk_%C3%A0_Houmt_Souk.jpg",
+    "src": "img/restos/DJE/arischa.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "bach-hamba",
+   "nom": "Bach Hamba",
+   "emoji": "🐟",
+   "gamme": "haut",
+   "genre": "Poissons de la vitrine",
+   "quartier": "Zone touristique (Midoun)",
+   "adresse": "Avenue de la Liberté, zone touristique, Midoun",
+   "lat": 33.83678,
+   "lng": 10.99239,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "texte": "Une maison à l'architecture djerbienne où le chef vous accueille à la porte et vous montre la pêche du jour dans sa vitrine : loup, daurade royale ou mérou grillés, couscous au poisson, brick et kamounia. L'adresse que les chauffeurs de taxi conseillent aux visiteurs.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour le soir",
+   "photo": {
+    "auteur": "Peter O'Connor aka anemoneprojectors",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGOC_Wheathampstead_Xmas_2013_061_Grilled_sea_bass_%2811476849023%29.jpg",
+    "src": "img/restos/DJE/bach-hamba.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "la-placette",
+   "nom": "La Placette",
+   "emoji": "🫒",
+   "gamme": "haut",
+   "genre": "Cuisine franco-tunisienne",
+   "quartier": "Erriadh",
+   "adresse": "Place du village, Erriadh",
+   "lat": 33.82112,
+   "lng": 10.85379,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "texte": "Sur la petite place d'Erriadh, entre la synagogue de la Ghriba et les ruelles de Djerbahood : un menu du midi en trois plats, et le soir une carte soignée qui mêle classiques français et recettes tunisiennes, dans un cadre soigné.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le soir",
+   "photo": {
+    "auteur": "Rahma026",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASunset_in_Djerbahood.jpg",
+    "src": "img/restos/DJE/la-placette.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "petit-marin",
+   "nom": "Le Petit Marin",
+   "emoji": "⛵",
+   "gamme": "haut",
+   "genre": "Poisson sur une plage sauvage",
+   "quartier": "Côte ouest (Sidi Jmour)",
+   "adresse": "Plage de Sidi Jmour",
+   "lat": 33.83346,
+   "lng": 10.74854,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "texte": "Au bout d'une piste, sur une plage déserte de la côte ouest : tables en bois, voilages qui flottent au vent et mer turquoise à quelques pas. Poissons et fruits de mer grillés, plats djerbiens, mojito, et le coucher de soleil sur la mer pour finir. Un vrai bout du monde.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; venez en taxi (demandez-lui de revenir) ou en voiture",
+   "photo": {
+    "auteur": "Noomen9",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlage_sidi_jmour.jpg",
+    "src": "img/restos/DJE/petit-marin.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "la-perla",
+   "nom": "Djerba La Perla",
+   "emoji": "🦞",
+   "gamme": "haut",
+   "genre": "Grill de la mer",
+   "quartier": "Midoun (plage de Taguermess)",
+   "adresse": "Plage de Taguermess, Midoun",
+   "lat": 33.83101,
+   "lng": 11.0393,
+   "prix": "20 à 40 €",
+   "prix_min": 20,
+   "texte": "Au bord de la plage de Taguermess, près du phare : poissons et crustacés choisis à l'étal puis grillés au charbon, servis face à la mer. Une table récente et très appréciée, idéale pour un long déjeuner après la baignade.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ou le matin même",
+   "photo": {
+    "auteur": "Mohmadsoyab Qureshi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABarbecue_Seafood_Platter_-_Sterling_Holidays_Bardez_-_North_Goa_-_20180913_152258.jpg",
+    "src": "img/restos/DJE/la-perla.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

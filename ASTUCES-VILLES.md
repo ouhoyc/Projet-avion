@@ -256,3 +256,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (`*.grancanaria.com` : Casa de Colón, Cueva Pintada, jardin canarien) bloqués (Incapsula) ; lisibles avec Playwright : catedraldecanarias.es (tarifs),
   palmitospark.es/precios, aqualand.es/maspalomas/tickets, arehucas.es/visitanos, fundacionmartinchirino.org/visitas (Castillo de la Luz), losguayres.com/menu,
   casaromanticaagaete.com/menu. Commons : l'API répondait « 429 » ; recherche HTML (`ns6=1`) + `thumb.php`, ~2 min par lieu.
+- Djerba (nov. 2026) : Wanderlog géo 79357, listes trouvées par recherche web (`geoCategory/374484`, `205452`, `205588` Houmt Souk,
+  `205553` Midoun…) puis en suivant les adresses finissant par « -djerba-island », « -houmt-souk », « -midoun » : 47 listes, 220 lieux seulement.
+  Google Maps (cookie `SOCS`) donne note, horaires et fermetures (Djerba Lina fermé du 01/11/2026 au 01/03/2027). Prix officiels :
+  patrimoinedetunisie.com.tn (Borj Ghazi Mustapha, musée du patrimoine, mosquée Fadhloun, déjà à la grille 2026), djerbaexplore.com/informations-pratiques ;
+  excursions via Musement (`djerba/activites-c`) et l'outil Booking. Sites de Dar Dhiafa et du Bistrot Djerba piratés (pages de casino) : ne pas les mettre en lien.
+  Commons : l'API répondait « 429 », la recherche HTML (`ns6=1`) marchait (~1 min par lieu). Pas d'Apify (destination moyenne) : badge tendance seulement Djerbahood.
