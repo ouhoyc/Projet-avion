@@ -268,3 +268,7 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (« connection reset ») : prix pris sur pompeiisites.org (WebFetch), coopculture (MANN), monasterodisantachiara.it/orari, cimiterodellefontanelle.it,
   comune.napoli.it/maschioangioino, pages d'événements cultura.gov.it (tarifs des musées d'État), outil Booking (Galleria Borbonica). Commons : recherche HTML
   (`ns6=1`) + `thumb.php`, sans « 429 », ~1 min par lieu (deux recherches en parallèle passent).
+- Nice (nov. 2026) : Wanderlog géo 9674 (départ `geoCategory/74265/restaurants`), listes finissant par « -nice » : 55 listes, ~1 000 lieux, 566 restaurants.
+  Michelin : `guide.michelin.com/fr/fr/provence-alpes-cote-dazur/nice/restaurants` (Playwright, icônes `michelin-star` et Bib dans la carte). Prix officiels
+  lisibles par `curl` sur `nice.fr/lieux/<musée>/` (grille des musées municipaux, fermetures). Flaveur affiche ses menus (restaurant-flaveur.com, Playwright).
+  Commons : l'API répondait « 429 » après une trentaine de recherches ; la recherche HTML (`ns6=1`) + `thumb.php` a pris le relais.

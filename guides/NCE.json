@@ -1,0 +1,1534 @@
+{
+  "city_code": "NCE",
+  "statut": "préparé en autonomie, prix relevés le 17/11/2026",
+  "verifie_le": "2026-11-17",
+  "prix_match": 25,
+  "transport": "le tramway",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "promenade-anglais",
+      "nom": "Promenade des Anglais",
+      "emoji": "🌴",
+      "type": "balade",
+      "quartier": "Promenade des Anglais",
+      "lat": 43.69462,
+      "lng": 7.2562,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Au lever du soleil, quand la baie est d'un bleu laiteux, ou au coucher pour la lumière dorée ; louez un Vélo Bleu pour la parcourir en entier",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Sept kilomètres face à la baie des Anges, entre palmiers, mer turquoise et façades Belle Époque. On s'y promène pieds nus sur les galets, on s'assoit sur une chaise bleue et l'on regarde passer Nice : joggeurs, rollers, palaces comme le Negresco et le ciel qui change de couleur au fil de la journée.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Aeroceanaute",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Chaise_bleue_de_Wilmotte_en_alignement_sur_la_promenade_des_anglais_2.jpg",
+        "src": "img/activites/NCE/promenade-anglais.jpg"
+      }
+    },
+    {
+      "id": "colline-chateau",
+      "nom": "Colline du Château",
+      "emoji": "🏰",
+      "type": "vue",
+      "quartier": "Colline du Château",
+      "lat": 43.6952,
+      "lng": 7.2808,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès au parc",
+          "gratuit"
+        ],
+        [
+          "Ascenseur (depuis le quai Rauba-Capeù)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "En fin d'après-midi pour la lumière sur la baie ; montez par l'ascenseur gratuit et redescendez à pied vers le Vieux-Nice ou le port",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La carte postale de Nice, c'est d'ici qu'on la prend : la baie des Anges entière, la promenade qui s'étire jusqu'à l'aéroport, les toits orange du Vieux-Nice à vos pieds et le port de l'autre côté. Au sommet, une cascade spectaculaire, des jardins ombragés et des aires de jeux pour les enfants.",
+      "site_officiel": "https://www.nice.fr/",
+      "note": "Le célèbre panneau #ILoveNice est au pied de la colline, sur le quai Rauba-Capeù.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jean-Pierre Dalbéra from Paris, France",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:La_baie_des_Anges_(Nice)_(3293122147).jpg",
+        "src": "img/activites/NCE/colline-chateau.jpg"
+      }
+    },
+    {
+      "id": "vieux-nice",
+      "nom": "Vieux-Nice",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Vieux-Nice",
+      "lat": 43.6973,
+      "lng": 7.276,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le matin pour l'animation du marché, ou le soir quand les ruelles s'éclairent et que les terrasses se remplissent",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un labyrinthe de ruelles étroites aux façades ocre, jaunes et rouges, où le linge sèche entre les fenêtres. On flâne d'une placette à l'autre, entre chapelles baroques, épiceries, boutiques d'huile d'olive et comptoirs de socca : le cœur italien de Nice, resté presque intact.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Hermes from mars",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ruelle_du_Vieux_Nice.jpg",
+        "src": "img/activites/NCE/vieux-nice.jpg"
+      }
+    },
+    {
+      "id": "cours-saleya",
+      "nom": "Cours Saleya et marché aux fleurs",
+      "emoji": "💐",
+      "type": "balade",
+      "quartier": "Vieux-Nice",
+      "lat": 43.69561,
+      "lng": 7.2751,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Le matin, du mardi au dimanche (marché aux fleurs et aux produits) ; le lundi, place à la brocante",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La grande place du Vieux-Nice, bordée de façades colorées, se couvre chaque matin d'étals de fleurs, de fruits, de citrons de Menton et d'olives. Au bout, la place Charles-Félix et la maison où vécut Matisse. Le soir, les marchands laissent la place aux terrasses des restaurants.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Txllxt TxllxT",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_-_Cours_Saleya_-_Rue_Louis_Gassin_-_View_NE.jpg",
+        "src": "img/activites/NCE/cours-saleya.jpg"
+      }
+    },
+    {
+      "id": "place-massena",
+      "nom": "Place Masséna et Promenade du Paillon",
+      "emoji": "⛲",
+      "type": "balade",
+      "quartier": "Place Masséna",
+      "lat": 43.69695,
+      "lng": 7.27032,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "À la tombée de la nuit, quand les statues de Jaume Plensa s'illuminent sur leurs mâts ; l'été, les enfants jouent dans le miroir d'eau",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "La grande place rouge et ocre au damier noir et blanc, ses arcades et la fontaine du Soleil, ouvrent sur la Promenade du Paillon : un long jardin avec un miroir d'eau où jaillissent des jets de brume. Le lieu de rendez-vous des Niçois, et le décor du Carnaval en février.",
+      "site_officiel": "https://www.nice.fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Txllxt TxllxT",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_-_Place_Mass%C3%A9na_-_View_SSE_on_Fontaine_du_Soleil.jpg",
+        "src": "img/activites/NCE/place-massena.jpg"
+      }
+    },
+    {
+      "id": "matisse",
+      "nom": "Musée Matisse",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Cimiez",
+      "lat": 43.71944,
+      "lng": 7.27597,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée",
+          "10 €"
+        ],
+        [
+          "Pass musées de Nice (4 jours, 10 musées municipaux)",
+          "15 €"
+        ],
+        [
+          "Moins de 18 ans, étudiants",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Le matin, puis pique-nique dans l'oliveraie des arènes de Cimiez juste devant ; fermé le mardi (10 h-17 h en hiver, 18 h en été)",
+      "enfants": true,
+      "texte": "Une villa génoise rouge au milieu d'une oliveraie, sur la colline de Cimiez où Matisse vécut ses dernières années. Peintures, dessins, papiers découpés et objets de son atelier racontent un demi-siècle de travail sous la lumière de Nice. Jusqu'au 18 janvier 2027, une exposition le fait dialoguer avec l'Américain Alex Katz.",
+      "site_officiel": "https://www.musee-matisse-nice.org/",
+      "note": "Bus 5 depuis le centre (arrêt Arènes / Musée Matisse).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "takato marui",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Matisse_Nice_Front.jpg",
+        "src": "img/activites/NCE/matisse.jpg"
+      }
+    },
+    {
+      "id": "chagall",
+      "nom": "Musée national Marc Chagall",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Carabacel",
+      "lat": 43.70906,
+      "lng": 7.26956,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Entrée pendant l'exposition « Chagall Couture » (jusqu'au 18 janvier 2027)",
+          "12 €"
+        ],
+        [
+          "Entrée hors exposition",
+          "10 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ],
+        [
+          "Moins de 26 ans (résidents de l'Union européenne)",
+          "gratuit"
+        ],
+        [
+          "Premier dimanche du mois",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "En début de matinée ; fermé le mardi",
+      "enfants": true,
+      "texte": "Le musée que Chagall a conçu de son vivant pour son « Message biblique » : dix-sept grandes toiles aux couleurs éclatantes, des vitraux bleus et une mosaïque qui se reflète dans un bassin, au milieu d'un jardin méditerranéen. Un des plus beaux musées consacrés à un seul peintre.",
+      "site_officiel": "https://musees-nationaux-alpesmaritimes.fr/chagall/",
+      "note": "À 15 minutes à pied de la gare Nice-Ville, en montant ; le bus 5 s'arrête devant.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Derbrauni",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_national_Marc_Chagall_1.jpg",
+        "src": "img/activites/NCE/chagall.jpg"
+      }
+    },
+    {
+      "id": "cimiez",
+      "nom": "Monastère et jardins de Cimiez",
+      "emoji": "🌿",
+      "type": "balade",
+      "quartier": "Cimiez",
+      "lat": 43.72076,
+      "lng": 7.27707,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "À enchaîner avec le musée Matisse, à deux pas ; le jardin ferme à 17 h en hiver, 18 h en été",
+      "enfants": true,
+      "texte": "Un jardin à l'italienne aux allées de rosiers et de citronniers, suspendu au-dessus de la ville, avec vue sur la mer et les collines. À côté, l'église du monastère franciscain et le cimetière où reposent Matisse et Raoul Dufy. Un coin de calme absolu à vingt minutes du centre.",
+      "site_officiel": "https://www.nice.fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Édouard Hue (User:EdouardHue)",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Jardin_du_monast%C3%A8re_de_Cimiez,_Nice,_France-3.jpg",
+        "src": "img/activites/NCE/cimiez.jpg"
+      }
+    },
+    {
+      "id": "cathedrale-russe",
+      "nom": "Cathédrale orthodoxe russe Saint-Nicolas",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Parc Impérial",
+      "lat": 43.70383,
+      "lng": 7.25389,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès libre",
+          "gratuit"
+        ],
+        [
+          "Visite guidée (35 minutes)",
+          "10 €"
+        ],
+        [
+          "Visite guidée, moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "En fin de matinée, quand le soleil fait briller les bulbes ; à 15 minutes à pied de la gare",
+      "enfants": true,
+      "texte": "Six bulbes verts et dorés, des briques roses et des céramiques colorées : la plus grande église orthodoxe d'Europe occidentale, bâtie pour l'aristocratie russe qui passait l'hiver à Nice. À l'intérieur, l'or des icônes et des fresques dans la pénombre. Un morceau de Moscou au milieu des palmiers.",
+      "site_officiel": "https://www.sobor.fr/",
+      "note": "Lieu de culte : épaules couvertes, pas de short court ; on ne visite pas pendant les offices.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Zairon",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_Cath%C3%A9drale_Orthodoxe-Russe_Saint-Nicolas_Ext%C3%A9rieure_02.jpg",
+        "src": "img/activites/NCE/cathedrale-russe.jpg"
+      }
+    },
+    {
+      "id": "lascaris",
+      "nom": "Palais Lascaris",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Vieux-Nice",
+      "lat": 43.69768,
+      "lng": 7.27715,
+      "prix": 5,
+      "prix_detail": [
+        [
+          "Entrée",
+          "5 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "En milieu de journée, pour une pause au frais pendant la balade dans le Vieux-Nice ; fermé le mardi",
+      "enfants": true,
+      "texte": "Derrière une façade discrète de la rue Droite se cache un palais baroque du XVIIe siècle : escalier d'honneur orné de statues et de fresques, salons aux plafonds peints et une étonnante collection d'instruments de musique anciens. Le seul palais aristocratique du Vieux-Nice ouvert au public.",
+      "site_officiel": "https://www.nice.fr/lieux/palais-lascaris/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Finoskov",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lascaris04,escalier_d'honneur03.jpg",
+        "src": "img/activites/NCE/lascaris.jpg"
+      }
+    },
+    {
+      "id": "massena",
+      "nom": "Villa Masséna",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Promenade des Anglais",
+      "lat": 43.69524,
+      "lng": 7.25895,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée",
+          "10 €"
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "L'après-midi, avant une balade sur la promenade juste devant ; fermé le mardi",
+      "enfants": true,
+      "texte": "Une villa Belle Époque blanche au milieu d'un jardin de palmiers, face à la mer. Ses salons racontent le Nice des riches hivernants : affiches du Carnaval, souvenirs de Napoléon et de Masséna, bijoux et robes d'époque. Le jardin, gratuit, vaut à lui seul le détour.",
+      "site_officiel": "https://www.nice.fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jean-Pierre Dalbéra from Paris, France",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Mass%C3%A9na_(Nice)_(5953504945).jpg",
+        "src": "img/activites/NCE/massena.jpg"
+      }
+    },
+    {
+      "id": "sainte-reparate",
+      "nom": "Cathédrale Sainte-Réparate",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Vieux-Nice",
+      "lat": 43.69713,
+      "lng": 7.27573,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "20 min",
+      "moment": "Pendant la balade dans le Vieux-Nice ; la place Rossetti, devant, est idéale pour une glace",
+      "enfants": true,
+      "texte": "Une façade baroque jaune et blanche, un dôme de tuiles vernissées colorées et, à l'intérieur, des stucs et des dorures à profusion. La cathédrale de Nice ferme la place Rossetti, la plus animée du Vieux-Nice.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Myrabella",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Cathedrale_Sainte-Reparate_Nice.jpg",
+        "src": "img/activites/NCE/sainte-reparate.jpg"
+      }
+    },
+    {
+      "id": "port-lympia",
+      "nom": "Port Lympia",
+      "emoji": "⚓",
+      "type": "balade",
+      "quartier": "Le Port",
+      "lat": 43.69416,
+      "lng": 7.28455,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En fin de journée, pour l'apéritif sur les quais quand les façades se colorent",
+      "enfants": true,
+      "texte": "Un port encadré de façades ocre et rouges à l'italienne, où les « pointus », barques de pêche aux couleurs vives, côtoient les yachts. On fait le tour des quais, on monte place de l'Île-de-Beauté et son église à colonnes, puis on s'attable dans les rues voisines, le quartier qui monte à Nice.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Myrabella",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_port.jpg",
+        "src": "img/activites/NCE/port-lympia.jpg"
+      }
+    },
+    {
+      "id": "coco-beach",
+      "nom": "Sentier du bord de mer et Coco Beach",
+      "emoji": "🌊",
+      "type": "balade",
+      "quartier": "Mont Boron",
+      "lat": 43.68808,
+      "lng": 7.29416,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Le matin, quand la mer est la plus transparente ; prenez votre maillot et des chaussures d'eau",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Depuis le port, un sentier longe la mer jusqu'aux rochers blancs de Coco Beach : une eau turquoise et limpide, des criques où l'on plonge depuis les rochers et une vue sur toute la baie. Le coin baignade des Niçois, loin de la foule de la promenade.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "note": "Pas de sable ni de surveillance : baignade depuis les rochers et les échelles.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Chris¨^-^",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_(1283338616).jpg",
+        "src": "img/activites/NCE/coco-beach.jpg"
+      }
+    },
+    {
+      "id": "plages",
+      "nom": "Plages de la baie des Anges",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "Promenade des Anglais",
+      "lat": 43.694,
+      "lng": 7.265,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plages publiques",
+          "gratuit"
+        ],
+        [
+          "Transat et parasol en plage privée",
+          "≈ 25 à 35 € la journée"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "une demi-journée",
+      "moment": "De juin à septembre pour la baignade ; la mer reste douce jusqu'à mi-octobre",
+      "enfants": true,
+      "texte": "Des kilomètres de plages de galets gris au pied de la ville, avec une mer qui passe du turquoise au bleu profond à quelques mètres du bord. Plages publiques gratuites ou plages privées avec transats et restaurant les pieds dans l'eau, comme Castel ou Beau Rivage.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "note": "Les galets font mal aux pieds : prévoyez des sandales d'eau. Plages privées ouvertes de mars-avril à octobre.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "JIP",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Promenade_des_Anglais_in_September_2011.jpg",
+        "src": "img/activites/NCE/plages.jpg"
+      }
+    },
+    {
+      "id": "mont-boron",
+      "nom": "Mont Boron et fort du Mont Alban",
+      "emoji": "⛰️",
+      "type": "vue",
+      "quartier": "Mont Boron",
+      "lat": 43.70133,
+      "lng": 7.3003,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "En fin d'après-midi ; on monte en bus depuis le port, ou à pied par les sentiers de la forêt",
+      "enfants": true,
+      "texte": "Une colline de pins entre Nice et Villefranche, avec des sentiers ombragés et, au sommet, un fort du XVIe siècle. De là-haut, on voit d'un côté la baie des Anges et le port de Nice, de l'autre la rade de Villefranche et le cap Ferrat. Le panorama le plus large de la ville.",
+      "site_officiel": "https://www.nice.fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "CHRIS BONTEMPS",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Port_de_nice.jpg",
+        "src": "img/activites/NCE/mont-boron.jpg"
+      }
+    },
+    {
+      "id": "ogc-nice",
+      "nom": "Match de l'OGC Nice",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "Allianz Riviera",
+      "lat": 43.70515,
+      "lng": 7.1926,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Billet de Ligue 1",
+          "≈ 15 à 50 €"
+        ],
+        [
+          "Grands matchs (Marseille, Paris, Monaco)",
+          "plus cher"
+        ],
+        [
+          "Coupe d'Europe",
+          "≈ 25 à 60 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, sur la billetterie du club ; les grands matchs affichent complet",
+      "duree": "3 h",
+      "moment": "Soir de match : le tramway ligne 3 dépose devant le stade",
+      "enfants": true,
+      "club": "OGC Nice",
+      "texte": "Le Gym joue dans l'Allianz Riviera, un stade de 35 000 places à la façade de bois et d'acier. Ambiance rouge et noir, chants en nissart dans la tribune populaire et derby brûlant contre Monaco ou Marseille : une autre façon de vivre Nice.",
+      "site_officiel": "https://www.ogcnice.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mirasol",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:AllianzRiviera342.JPG",
+        "src": "img/activites/NCE/ogc-nice.jpg"
+      }
+    },
+    {
+      "id": "villefranche",
+      "nom": "Villefranche-sur-Mer",
+      "emoji": "⛵",
+      "type": "balade",
+      "quartier": "Villefranche-sur-Mer",
+      "lat": 43.70423,
+      "lng": 7.30997,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "une demi-journée",
+      "moment": "Le matin ; 7 minutes de train depuis Nice-Ville, ou le bus 15 par la Basse Corniche",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une des plus belles rades de la Méditerranée, d'un bleu profond, avec un petit port de pêcheurs aux maisons jaunes, roses et orange. On flâne dans les ruelles voûtées, on visite la chapelle décorée par Jean Cocteau et l'on se baigne sur la plage de sable fin des Marinières.",
+      "site_officiel": "https://www.villefranche-sur-mer.fr/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "User:Vmenkov",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:E5934-Villefranche-sur-Mer-Pullmantur-Cruises.jpg",
+        "src": "img/activites/NCE/villefranche.jpg"
+      }
+    },
+    {
+      "id": "ephrussi",
+      "nom": "Villa Ephrussi de Rothschild",
+      "emoji": "🌹",
+      "type": "culture",
+      "quartier": "Saint-Jean-Cap-Ferrat",
+      "lat": 43.6966,
+      "lng": 7.3285,
+      "prix": 18,
+      "prix_detail": [
+        [
+          "Entrée (villa et jardins)",
+          "18 €"
+        ],
+        [
+          "7 à 17 ans, étudiants",
+          "12 €"
+        ],
+        [
+          "Moins de 7 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            17,
+            12
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "Le matin ; les fontaines dansent au son de la musique toutes les 20 minutes ; bus 15 depuis Nice",
+      "enfants": true,
+      "texte": "Un palais rose posé sur la crête du cap Ferrat, entre deux mers, construit par une baronne passionnée d'art. On visite ses salons remplis de porcelaines et de mobilier précieux, puis neuf jardins à thème : espagnol, japonais, florentin, roseraie et fontaines musicales face à la mer.",
+      "site_officiel": "https://www.villa-ephrussi.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Berthold Werner edit by Böhringer",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Villa_Ephrussi_de_Rothschild_BW_2011-06-10_11-42-29a.jpg",
+        "src": "img/activites/NCE/ephrussi.jpg"
+      }
+    },
+    {
+      "id": "cap-ferrat",
+      "nom": "Sentier du littoral du cap Ferrat",
+      "emoji": "🥾",
+      "type": "nature",
+      "quartier": "Saint-Jean-Cap-Ferrat",
+      "lat": 43.68675,
+      "lng": 7.34967,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h 30",
+      "moment": "Le matin ou en fin d'après-midi, hors grosse chaleur ; prévoyez de l'eau et de bonnes chaussures",
+      "enfants": true,
+      "texte": "Un chemin taillé dans la roche fait le tour de la pointe Saint-Hospice, au ras de l'eau : criques transparentes, pins parasols, villas de milliardaires derrière les haies et vue jusqu'à Monaco. Une des plus belles balades de la Côte d'Azur, facile et gratuite.",
+      "site_officiel": "https://www.saintjeancapferrat-tourisme.fr/",
+      "note": "Sentier fermé par mer forte ou fort vent (panneaux à l'entrée).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Horizon06",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:20211209_122308_Le_sentier_du_littoral_%C3%A0_Saint-Jean-Cap-Ferrat.jpg",
+        "src": "img/activites/NCE/cap-ferrat.jpg"
+      }
+    },
+    {
+      "id": "eze",
+      "nom": "Èze et son jardin exotique",
+      "emoji": "🌵",
+      "type": "vue",
+      "quartier": "Èze",
+      "lat": 43.7282,
+      "lng": 7.36125,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Village",
+          "gratuit"
+        ],
+        [
+          "Jardin exotique",
+          "10 €"
+        ],
+        [
+          "Jardin, 12 à 17 ans et étudiants",
+          "4 €"
+        ],
+        [
+          "Jardin, moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            11,
+            0
+          ],
+          [
+            17,
+            4
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "3 h",
+      "moment": "Le matin, avant l'arrivée des cars ; bus 82 ou 112 depuis Nice (30 minutes)",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un village médiéval perché comme un nid d'aigle à 430 mètres au-dessus de la mer. On grimpe par des ruelles de pierre jusqu'au jardin exotique, où cactus et sculptures encadrent une vue vertigineuse sur la Riviera, du cap Ferrat jusqu'à la Corse par temps clair.",
+      "site_officiel": "https://www.eze-tourisme.com/",
+      "note": "Sur la route, la parfumerie Fragonard d'Èze propose aussi une visite gratuite.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tobi 87",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:%C3%88ze_und_Cap_Ferrat-Grande_Corniche.jpg",
+        "src": "img/activites/NCE/eze.jpg"
+      }
+    },
+    {
+      "id": "monaco",
+      "nom": "Monaco et le Musée océanographique",
+      "emoji": "🐠",
+      "type": "culture",
+      "quartier": "Monaco",
+      "lat": 43.73068,
+      "lng": 7.42551,
+      "prix": 22.5,
+      "prix_detail": [
+        [
+          "Musée océanographique",
+          "22,50 €"
+        ],
+        [
+          "4 à 17 ans",
+          "14 €"
+        ],
+        [
+          "Moins de 4 ans",
+          "gratuit"
+        ],
+        [
+          "Train Nice-Monaco",
+          "≈ 4 à 5 € le trajet"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 22.5,
+        "enfants": [
+          [
+            3,
+            0
+          ],
+          [
+            17,
+            14
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "une journée",
+      "moment": "Toute la journée : relève de la garde au palais princier à 11 h 55, puis musée et Monte-Carlo l'après-midi ; 20 minutes de train",
+      "enfants": true,
+      "texte": "Un rocher, un palais, des yachts et le casino de Monte-Carlo : la principauté se visite à pied en une journée. Sur la falaise, le Musée océanographique fondé par le prince Albert Ier abrite un aquarium spectaculaire, avec requins, lagon tropical et tortues, et une terrasse panoramique sur la mer.",
+      "site_officiel": "https://musee.oceano.org/",
+      "note": "Monaco n'est pas en France, mais aucune formalité : la carte d'identité suffit et l'euro est la monnaie.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Berthold Werner",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Monaco_BW_2011-06-07_17-50-43.jpg",
+        "src": "img/activites/NCE/monaco.jpg"
+      }
+    },
+    {
+      "id": "saint-paul",
+      "nom": "Saint-Paul-de-Vence",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Saint-Paul-de-Vence",
+      "lat": 43.69797,
+      "lng": 7.12163,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "une demi-journée",
+      "moment": "Le matin ou en fin de journée, quand la lumière dore les remparts ; bus 400 depuis Nice (environ 1 heure)",
+      "enfants": true,
+      "texte": "Un village fortifié perché sur une colline, entre oliviers et cyprès, qui a attiré Chagall, Matisse ou Picasso. Ses ruelles pavées sont remplies de galeries d'art, et les remparts offrent une vue sur la mer et les Alpes. Chagall repose dans le petit cimetière, au bout du village.",
+      "site_officiel": "https://www.saint-pauldevence.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jpchevreau",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Vue_du_village_de_Saint-Paul-de-Vence_depuis_la_route_de_La_Colle.jpg",
+        "src": "img/activites/NCE/saint-paul.jpg"
+      }
+    },
+    {
+      "id": "fragonard",
+      "nom": "Grasse et la parfumerie Fragonard",
+      "emoji": "🌸",
+      "type": "culture",
+      "quartier": "Grasse",
+      "lat": 43.65749,
+      "lng": 6.92218,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Visite guidée de l'usine historique",
+          "gratuit"
+        ],
+        [
+          "Train Nice-Grasse",
+          "≈ 10 € le trajet"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "une demi-journée",
+      "moment": "Le matin ; train direct depuis Nice-Ville (environ 1 h 15)",
+      "enfants": true,
+      "texte": "Grasse, capitale mondiale du parfum, sent la rose et le jasmin. Chez Fragonard, une visite gratuite de l'usine historique montre comment on distille les fleurs et comment travaille un « nez ». Ensuite, flânerie dans la vieille ville aux façades provençales, avec vue sur la mer au loin.",
+      "site_officiel": "https://www.fragonard.com/",
+      "note": "Atelier pour créer son propre parfum : sur réservation, payant.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Markus Bernet",
+        "licence": "CC BY-SA 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Parfumerie_Fragonard_Grasse.jpg",
+        "src": "img/activites/NCE/fragonard.jpg"
+      }
+    },
+    {
+      "id": "bonaparte",
+      "nom": "Soirée au port et rue Bonaparte",
+      "emoji": "🍸",
+      "type": "sortir",
+      "quartier": "Le Port",
+      "lat": 43.7003,
+      "lng": 7.2831,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "une soirée",
+      "moment": "Le soir, à partir de 19 h, surtout du jeudi au samedi",
+      "enfants": true,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le quartier du Port est devenu le coin branché de Nice : bars à vin, caves à cocktails et petites tables autour de la rue Bonaparte et de la place du Pin. Une ambiance de village, des terrasses pleines et une clientèle plus niçoise que touristique.",
+      "site_officiel": "https://www.explorenicecotedazur.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jesmar",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Chaises_Nice_IMG_20160817_225741.jpg",
+        "src": "img/activites/NCE/bonaparte.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "vieux-nice",
+      "nom": "Vieux-Nice",
+      "lat": 43.6977,
+      "lng": 7.276,
+      "texte": "Le cœur historique, entre cours Saleya, colline du Château et place Masséna : tout se fait à pied. Animé jusque tard, idéal pour un premier séjour (chambres parfois petites)."
+    },
+    {
+      "id": "carre-or",
+      "nom": "la promenade des Anglais",
+      "lat": 43.6957,
+      "lng": 7.262,
+      "texte": "Le quartier chic entre la promenade des Anglais et la rue de France : plage, boutiques et restaurants au pied de l'hôtel, Vieux-Nice à 15 minutes à pied."
+    },
+    {
+      "id": "port",
+      "nom": "Le Port",
+      "lat": 43.699,
+      "lng": 7.285,
+      "texte": "Le quartier qui monte : bars et restaurants de la rue Bonaparte, criques de Coco Beach à deux pas, tramway vers le centre et l'aéroport. Plus local et souvent moins cher."
+    },
+    {
+      "id": "jean-medecin",
+      "nom": "Jean-Médecin et la gare",
+      "lat": 43.702,
+      "lng": 7.266,
+      "texte": "Le quartier pratique : gare Nice-Ville pour Monaco, Villefranche et Grasse, tramway vers l'aéroport, commerces. Hôtels nombreux et moins chers, à 10 minutes à pied de la mer."
+    },
+    {
+      "id": "cimiez",
+      "nom": "Cimiez",
+      "lat": 43.717,
+      "lng": 7.274,
+      "texte": "La colline résidentielle des musées Matisse et Chagall : villas Belle Époque, jardins et calme. Pour un séjour reposant, à 15 minutes de bus du centre."
+    }
+  ],
+  "hotel_petit_prix_max": 100,
+  "restaurants": [
+    {
+      "id": "chez-pipo",
+      "nom": "Chez Pipo",
+      "emoji": "🥞",
+      "gamme": "petit",
+      "genre": "Socca au feu de bois depuis 1923",
+      "quartier": "Le Port",
+      "adresse": "13 rue Bavastro, 06300 Nice",
+      "lat": 43.699918,
+      "lng": 7.285463,
+      "prix": "5 à 15 €",
+      "prix_min": 5,
+      "badges": [
+        "institution"
+      ],
+      "texte": "La socca, galette de farine de pois chiche cuite dans un grand plat de cuivre au four à bois, est l'emblème de Nice, et Chez Pipo la sert depuis un siècle. On la mange brûlante, poivrée, avec les doigts, accompagnée de pissaladière et d'un verre de rosé, sur de grandes tables en bois partagées.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; un peu d'attente le soir (ouvert du mercredi au dimanche)",
+      "photo": {
+        "auteur": "Myrabella",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Socca_a_Nice.jpg",
+        "src": "img/restos/NCE/chez-pipo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "fenocchio",
+      "nom": "Fenocchio",
+      "emoji": "🍨",
+      "gamme": "petit",
+      "genre": "Glacier historique depuis 1966",
+      "quartier": "Vieux-Nice",
+      "adresse": "2 place Rossetti, 06300 Nice",
+      "lat": 43.697312,
+      "lng": 7.276416,
+      "prix": "3 à 8 €",
+      "prix_min": 3,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le glacier mythique de la place Rossetti, au pied de la cathédrale : près de cent parfums, des classiques aux plus étonnants comme lavande, tomate-basilic, fleur d'oranger, olive ou bière. Une glace à la main, assis sur les marches de la fontaine, c'est un rituel niçois.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; fermé en hiver, de mi-novembre à mi-février environ",
+      "photo": {
+        "auteur": "Alessio Damato",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Italian_ice_cream.jpg",
+        "src": "img/restos/NCE/fenocchio.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "les-amoureux",
+      "nom": "Les Amoureux",
+      "emoji": "🍕",
+      "gamme": "petit",
+      "genre": "Pizza napolitaine",
+      "quartier": "Le Port",
+      "adresse": "1 rue Bavastro, 06300 Nice",
+      "lat": 43.700872,
+      "lng": 7.285622,
+      "prix": "15 à 25 €",
+      "prix_min": 15,
+      "badges": [],
+      "texte": "Une petite pizzeria du port où la pâte, levée longtemps, sort du four gonflée et légèrement brûlée sur les bords, comme à Naples. Produits italiens, salle minuscule et file d'attente sur le trottoir : les Niçois la classent parmi les meilleures pizzas de la côte.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation : arrivez à l'ouverture, à 19 h (ouvert le soir, du mardi au samedi)",
+      "photo": {
+        "auteur": "CDibisceglia",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pizza_Napoletana_Contemporanea.jpg",
+        "src": "img/restos/NCE/les-amoureux.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "cafe-fino",
+      "nom": "Café Fino",
+      "emoji": "☕",
+      "gamme": "petit",
+      "genre": "Café de spécialité et brunch",
+      "quartier": "Carré d'Or",
+      "adresse": "39 rue Gioffredo, 06000 Nice",
+      "lat": 43.699084,
+      "lng": 7.273068,
+      "prix": "12 à 25 €",
+      "prix_min": 12,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Le repaire des amateurs de café de spécialité, à deux pas de la place Masséna : expresso et flat white soignés, œufs, tartines d'avocat et pâtisseries maison, dans une salle lumineuse. L'adresse idéale pour un petit déjeuner tardif avant d'attaquer la journée.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; un peu d'attente le week-end",
+      "photo": {
+        "auteur": "Andy Li",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:NOT_avocado_on_toast_with_fried_egg_-_Black_Mocha_2025-08-12.jpg",
+        "src": "img/restos/NCE/cafe-fino.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "acchiardo",
+      "nom": "Chez Acchiardo",
+      "emoji": "🍝",
+      "gamme": "petit",
+      "genre": "Cuisine niçoise familiale depuis 1927",
+      "quartier": "Vieux-Nice",
+      "adresse": "38 rue Droite, 06300 Nice",
+      "lat": 43.696468,
+      "lng": 7.277131,
+      "prix": "20 à 30 €",
+      "prix_min": 20,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Une institution du Vieux-Nice tenue par la même famille depuis près d'un siècle : salle aux murs de pierre, nappes à carreaux, et une cuisine de grand-mère sans chichis. Petits farcis, daube niçoise, raviolis, beignets de fleurs de courgette et pâtes au pistou à prix doux.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille par téléphone, surtout le week-end",
+      "photo": {
+        "auteur": "Arnaud 25",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Petits_farcis_001.jpg",
+        "src": "img/restos/NCE/acchiardo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "femme-boulanger",
+      "nom": "La Femme du Boulanger",
+      "emoji": "🥖",
+      "gamme": "petit",
+      "genre": "Tartines au pain au levain",
+      "quartier": "Carré d'Or",
+      "adresse": "3 rue du Commandant Raffalli, 06000 Nice",
+      "lat": 43.696325,
+      "lng": 7.264867,
+      "prix": "18 à 30 €",
+      "prix_min": 18,
+      "badges": [],
+      "texte": "Un bistrot chaleureux du Carré d'Or qui a fait de la tartine un art : grandes tranches de pain au levain grillées, garnies de chèvre et miel, de jambon cru, de saumon ou de légumes de saison. Terrasse dans une rue piétonne calme, à deux minutes de la promenade.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le dîner",
+      "photo": {
+        "auteur": "Daderot",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tuna_melt_on_toasted_homemade_bread_on_mixed_greens_-_Massachusetts.jpg",
+        "src": "img/restos/NCE/femme-boulanger.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "merenda",
+      "nom": "La Merenda",
+      "emoji": "🌿",
+      "gamme": "moyen",
+      "genre": "Cuisine niçoise de tradition",
+      "quartier": "Vieux-Nice",
+      "adresse": "4 rue Raoul Bosio, 06300 Nice",
+      "lat": 43.696519,
+      "lng": 7.272896,
+      "prix": "35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "institution",
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand du guide Michelin",
+      "texte": "Une salle minuscule, des tabourets et une ardoise : c'est ici que le chef Dominique Le Stanc a quitté le Negresco et ses deux étoiles pour cuisiner la Nice de toujours. Pâtes au pistou, beignets de fleurs de courgette, stockfisch et daube : la référence de la cuisine niçoise.",
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant, en passant sur place ou par son site (pas de téléphone) ; fermé le week-end",
+      "photo": {
+        "auteur": "tpholland",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Daube_de_boeuf_carottes.jpg",
+        "src": "img/restos/NCE/merenda.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "bistrot-antoine",
+      "nom": "Bistrot d'Antoine",
+      "emoji": "🍷",
+      "gamme": "moyen",
+      "genre": "Bistrot du marché",
+      "quartier": "Vieux-Nice",
+      "adresse": "27 rue de la Préfecture, 06300 Nice",
+      "lat": 43.696375,
+      "lng": 7.276313,
+      "prix": "30 à 50 €",
+      "prix_min": 30,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand du guide Michelin",
+      "texte": "Un bistrot vivant à deux pas du cours Saleya, où l'ardoise change avec le marché : tartare de bœuf, terrines, poissons du jour et desserts généreux. Belle carte de vins et prix sages, ce qui explique pourquoi il est plein tous les soirs.",
+      "reservation": "indispensable",
+      "reservation_delai": "deux ou trois jours avant",
+      "photo": {
+        "auteur": "Andy Li",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Steak_tartare,_vegetable_crisps_and_toasted_bread_-_Petit_Pois_Restaurant_2024-07-11.jpg",
+        "src": "img/restos/NCE/bistrot-antoine.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "peixes",
+      "nom": "Peixes",
+      "emoji": "🐟",
+      "gamme": "moyen",
+      "genre": "Poisson cru et ceviche",
+      "quartier": "Vieux-Nice",
+      "adresse": "4 rue Jacques Médecin, 06300 Nice",
+      "lat": 43.696032,
+      "lng": 7.27102,
+      "prix": "30 à 55 €",
+      "prix_min": 30,
+      "badges": [
+        "tendance",
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "Un bar à poissons au décor de cabine de bateau, qui sert la Méditerranée crue : ceviche, tiradito, tartares et petits plats de poisson à partager, frais et acidulés. L'adresse branchée des Niçois, à deux pas de la place Masséna (une seconde table, Peixes Bonaparte, est au port).",
+      "reservation": "indispensable",
+      "reservation_delai": "deux ou trois jours avant, en ligne",
+      "photo": {
+        "auteur": "Kat Walsh",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:La_Mar_ceviche_and_causas.jpg",
+        "src": "img/restos/NCE/peixes.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "onakaya",
+      "nom": "Onakaya",
+      "emoji": "🍣",
+      "gamme": "moyen",
+      "genre": "Cuisine japonaise",
+      "quartier": "Carré d'Or",
+      "adresse": "1 passage Masséna, 06000 Nice",
+      "lat": 43.697951,
+      "lng": 7.26755,
+      "prix": "35 à 70 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "Un comptoir japonais soigné caché dans un passage du centre : sushis et sashimis taillés devant vous, ramen, tempuras et poissons de Méditerranée travaillés à la japonaise. Une alternative fine et légère aux tables niçoises.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, surtout pour le comptoir",
+      "photo": {
+        "auteur": "East West - Sushi, Grill, Lounge",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:East_West_sushi_01.jpg",
+        "src": "img/restos/NCE/onakaya.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "rotonde",
+      "nom": "La Rotonde",
+      "emoji": "🎠",
+      "gamme": "moyen",
+      "genre": "Brasserie dans un manège",
+      "quartier": "Promenade des Anglais",
+      "adresse": "Hôtel Negresco, 37 promenade des Anglais, 06000 Nice",
+      "lat": 43.694393,
+      "lng": 7.257911,
+      "prix": "40 à 70 €",
+      "prix_min": 40,
+      "badges": [
+        "institution",
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "La brasserie du Negresco est installée dans un véritable carrousel de fête foraine : chevaux de bois, automates et lumières de manège tournent autour des tables. Cuisine de brasserie méditerranéenne soignée, face à la promenade des Anglais : l'occasion d'entrer dans le palace le plus célèbre de Nice.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, surtout le week-end",
+      "photo": {
+        "auteur": "Wolfgang Moroder",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Negresco_in_Nizza_by_night_2014.jpg",
+        "src": "img/restos/NCE/rotonde.jpg"
+      }
+    },
+    {
+      "id": "lavomatique",
+      "nom": "Lavomatique",
+      "emoji": "🫧",
+      "gamme": "moyen",
+      "genre": "Petites assiettes à partager",
+      "quartier": "Vieux-Nice",
+      "adresse": "11 rue du Pont-Vieux, 06300 Nice",
+      "lat": 43.697563,
+      "lng": 7.276191,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une ancienne laverie du Vieux-Nice transformée en petit restaurant, dont la façade garde son enseigne d'origine. On y partage des assiettes créatives qui changent selon le marché, avec des vins nature, dans une ambiance détendue et jeune. Une des tables les plus photographiées de la vieille ville.",
+      "reservation": "conseille",
+      "reservation_delai": "deux ou trois jours avant, en ligne",
+      "photo": {
+        "auteur": "Haydn Blackey",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mung_and_urad_bean_lasagna_with_the_miso_and_chive_sauce_on_top_-_Plates_Restaurant_-_Old_Street_-_London_2025-02-15.jpg",
+        "src": "img/restos/NCE/lavomatique.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "flaveur",
+      "nom": "Flaveur",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Cuisine créative aux épices",
+      "quartier": "Jean-Médecin",
+      "adresse": "25 rue Gubernatis, 06000 Nice",
+      "lat": 43.701301,
+      "lng": 7.271837,
+      "prix": "195 à 330 € (menus)",
+      "prix_min": 195,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "2 étoiles Michelin",
+      "texte": "La table des frères Gaël et Mickaël Tourteaux, formés au Negresco, deux étoiles depuis 2018. Une cuisine précise et voyageuse, qui marie les produits de la Méditerranée aux épices et aux agrumes du monde entier, dans une salle intime et lumineuse.",
+      "reservation": "indispensable",
+      "reservation_delai": "deux à quatre semaines avant",
+      "photo": {
+        "auteur": "Jack145945",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Michelin_star_us_dish_01.jpg",
+        "src": "img/restos/NCE/flaveur.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "jan",
+      "nom": "JAN",
+      "emoji": "🌟",
+      "gamme": "haut",
+      "genre": "Cuisine sud-africaine revisitée",
+      "quartier": "Le Port",
+      "adresse": "12 rue Lascaris, 06300 Nice",
+      "lat": 43.699861,
+      "lng": 7.284898,
+      "prix": "≈ 150 à 200 € (menu unique)",
+      "prix_min": 150,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Le chef sud-africain Jan Hendrik van der Westhuizen, ancien chef de yachts, signe près du port une cuisine personnelle qui fait voyager : jeux de sucré-salé, de fumé et d'acidité inspirés de son pays natal, servis dans un petit salon intime et romantique.",
+      "reservation": "indispensable",
+      "reservation_delai": "deux à quatre semaines avant",
+      "photo": {
+        "auteur": "KoRoBeNiKi",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Joo-Ok_(NYC-)_Deul_Gi_Reum-_Spotted_shrimp_%E2%80%A2_Geoduck_%E2%80%A2_House_made_perilla_oil.jpg",
+        "src": "img/restos/NCE/jan.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "chantecler",
+      "nom": "Le Chantecler",
+      "emoji": "🏰",
+      "gamme": "haut",
+      "genre": "Grande cuisine au Negresco",
+      "quartier": "Promenade des Anglais",
+      "adresse": "Hôtel Negresco, 37 promenade des Anglais, 06000 Nice",
+      "lat": 43.694435,
+      "lng": 7.258058,
+      "prix": "165 à 290 € (menus)",
+      "prix_min": 165,
+      "badges": [
+        "recompense",
+        "institution"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "La table gastronomique du Negresco, le palace à la coupole rose emblème de la promenade des Anglais. Boiseries du XVIIIe siècle, tapisseries et service en gants blancs pour une grande cuisine française tournée vers les produits de la Riviera.",
+      "reservation": "indispensable",
+      "reservation_delai": "deux à trois semaines avant",
+      "photo": {
+        "auteur": "Zairon",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_H%C3%B4tel_Negresco_Ext%C3%A9rieur_06.jpg",
+        "src": "img/restos/NCE/chantecler.jpg"
+      }
+    },
+    {
+      "id": "agitateurs",
+      "nom": "Les Agitateurs",
+      "emoji": "✨",
+      "gamme": "haut",
+      "genre": "Cuisine d'auteur",
+      "quartier": "Le Port",
+      "adresse": "24 rue Bonaparte, 06300 Nice",
+      "lat": 43.700541,
+      "lng": 7.284413,
+      "prix": "95 à 185 € (menus)",
+      "prix_min": 95,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile Michelin",
+      "texte": "Trois jeunes associés ont installé leur table dans la rue la plus vivante du port : menus surprise inventifs, légumes et herbes des producteurs de l'arrière-pays, présentations très graphiques. L'étoile la plus abordable de Nice, surtout au déjeuner.",
+      "reservation": "indispensable",
+      "reservation_delai": "une à deux semaines avant ; fermé le lundi et le mardi",
+      "photo": {
+        "auteur": "Dclemens1971",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dinner_at_Hi%C5%A1a_Franko,_summer_2022_06.jpg",
+        "src": "img/restos/NCE/agitateurs.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "reserve",
+      "nom": "La Réserve de Nice",
+      "emoji": "🌅",
+      "gamme": "haut",
+      "genre": "Cuisine de la mer avec vue",
+      "quartier": "Mont Boron",
+      "adresse": "60 boulevard Franck-Pilatte, 06300 Nice",
+      "lat": 43.691535,
+      "lng": 7.291429,
+      "prix": "48 à 110 €",
+      "prix_min": 48,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélectionné par le guide Michelin",
+      "texte": "Une villa Art déco posée sur les rochers à la sortie du port, avec une immense baie vitrée face à la baie des Anges. Cuisine méditerranéenne raffinée centrée sur le poisson, et une vue qui à elle seule justifie le détour, surtout au coucher du soleil.",
+      "reservation": "indispensable",
+      "reservation_delai": "une semaine avant, plus pour une table près des fenêtres ; menu déjeuner à 48 € en semaine",
+      "photo": {
+        "auteur": "Wiki.cullin",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pan_seared_scallops_with_grilled_asparagus_fine_dining_appetizer.jpg",
+        "src": "img/restos/NCE/reserve.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "plongeoir",
+      "nom": "Le Plongeoir",
+      "emoji": "🤿",
+      "gamme": "haut",
+      "genre": "Restaurant sur un rocher en mer",
+      "quartier": "Mont Boron",
+      "adresse": "60 boulevard Franck-Pilatte, 06300 Nice",
+      "lat": 43.691903,
+      "lng": 7.290909,
+      "prix": "60 à 100 €",
+      "prix_min": 60,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une table installée sur un rocher au milieu des vagues, reliée à la côte par une passerelle, au pied de l'ancien plongeoir de 1920. On dîne entouré par la mer, face au port et à la baie : l'adresse la plus photographiée de Nice, pour un verre au coucher du soleil ou un dîner de fête.",
+      "reservation": "indispensable",
+      "reservation_delai": "une à deux semaines avant ; fermé l'hiver, réouverture le 11 mars 2027",
+      "photo": {
+        "auteur": "Jorge Franganillo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Nice_Le_Plongeoir_(54477073189).jpg",
+        "src": "img/restos/NCE/plongeoir.jpg"
+      }
+    }
+  ]
+}
