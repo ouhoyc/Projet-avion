@@ -262,3 +262,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   patrimoinedetunisie.com.tn (Borj Ghazi Mustapha, musée du patrimoine, mosquée Fadhloun, déjà à la grille 2026), djerbaexplore.com/informations-pratiques ;
   excursions via Musement (`djerba/activites-c`) et l'outil Booking. Sites de Dar Dhiafa et du Bistrot Djerba piratés (pages de casino) : ne pas les mettre en lien.
   Commons : l'API répondait « 429 », la recherche HTML (`ns6=1`) marchait (~1 min par lieu). Pas d'Apify (destination moyenne) : badge tendance seulement Djerbahood.
+- Naples (nov. 2026) : Wanderlog géo 9635 (attention à Naples en Floride : vérifier `"geo":{"id":9635`), départ `geoCategory/59953`, listes finissant
+  par « -in-naples » : ~80 listes, 1 000 lieux, 430 restaurants (le robot s'arrêtait seul vers 80 listes : sauvegarder en cours de route). Michelin :
+  `guide.michelin.com/it/it/campania/napoli/ristoranti` (Playwright, `.card__menu`, `data-dtm-distinction`). Beaucoup de sites `.it` coupent la connexion
+  (« connection reset ») : prix pris sur pompeiisites.org (WebFetch), coopculture (MANN), monasterodisantachiara.it/orari, cimiterodellefontanelle.it,
+  comune.napoli.it/maschioangioino, pages d'événements cultura.gov.it (tarifs des musées d'État), outil Booking (Galleria Borbonica). Commons : recherche HTML
+  (`ns6=1`) + `thumb.php`, sans « 429 », ~1 min par lieu (deux recherches en parallèle passent).

@@ -1,0 +1,1766 @@
+{
+ "city_code": "NAP",
+ "statut": "préparé en autonomie, prix relevés le 17/11/2026",
+ "verifie_le": "2026-11-17",
+ "prix_match": 50,
+ "transport_loin": "le train (Circumvesuviana) ou le bateau, au départ du centre",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "hotel_petit_prix_max": 90,
+ "activites": [
+  {
+   "id": "spaccanapoli",
+   "nom": "Spaccanapoli et la rue des crèches",
+   "emoji": "🏘️",
+   "type": "balade",
+   "quartier": "Centre historique",
+   "lat": 40.8497,
+   "lng": 14.2572,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de matinée ; de mi-novembre à Noël, la via San Gregorio Armeno déborde de crèches (et de monde)",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La rue qui « fend Naples » en deux, tracée par les Grecs il y a 2 500 ans : linge aux balcons, autels de quartier, scooters qui se faufilent et odeur de café à chaque coin. Juste à côté, la via San Gregorio Armeno aligne ses ateliers de santons, des bergers de la Nativité aux footballeurs et aux stars de l'année. Le cœur battant d'un centre classé à l'UNESCO.",
+   "site_officiel": "https://www.visitnaples.eu/",
+   "note": "Gardez votre sac devant vous et votre téléphone en poche dans la foule : les vols à l'arraché existent dans les ruelles animées.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lalupa",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpaccanapoli_da_s_Elmo_1050131.JPG",
+    "src": "img/activites/NAP/spaccanapoli.jpg"
+   }
+  },
+  {
+   "id": "sansevero",
+   "nom": "Chapelle Sansevero et le Christ voilé",
+   "emoji": "🗿",
+   "type": "culture",
+   "quartier": "Centre historique",
+   "lat": 40.849295,
+   "lng": 14.254884,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Adulte",
+     "12 €"
+    ],
+    [
+     "De 18 à 25 ans",
+     "8 €"
+    ],
+    [
+     "De 10 à 17 ans",
+     "6 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ],
+    [
+     "Audioguide",
+     "3,50 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      9,
+      0
+     ],
+     [
+      17,
+      6
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet horaire en ligne (mis en vente 60 jours avant) : souvent complet plusieurs jours à l'avance",
+   "duree": "45 min",
+   "moment": "Au premier créneau du matin, avant les groupes ; fermé le mardi",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "On jurerait voir respirer le corps sous le linceul : le Christ voilé, sculpté en 1753 dans un seul bloc de marbre, est l'une des statues les plus troublantes au monde. Autour, une chapelle baroque pleine de symboles maçonniques et, au sous-sol, deux « machines anatomiques » qui nourrissent les légendes depuis trois siècles.",
+   "site_officiel": "https://www.museosansevero.it/",
+   "note": "Photos interdites à l'intérieur. N'achetez que sur le site officiel : les revendeurs vendent le même billet beaucoup plus cher.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "David Sivyer",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AImmagine_d%27insieme_2%2C_Cappella_Sansevero.jpg",
+    "src": "img/activites/NAP/sansevero.jpg"
+   }
+  },
+  {
+   "id": "mann",
+   "nom": "Musée archéologique national (MANN)",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Piazza Museo",
+   "lat": 40.853599,
+   "lng": 14.250525,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Adulte",
+     "20 €"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "1er dimanche du mois",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billet en ligne la veille pour éviter la file, sinon au guichet",
+   "duree": "3 h",
+   "moment": "Le matin ; fermé le mardi",
+   "enfants": true,
+   "texte": "Les trésors de Pompéi et d'Herculanum sont ici : la mosaïque d'Alexandre, les fresques arrachées aux villas, les bronzes et le fameux « cabinet secret » des œuvres érotiques. Avec la collection Farnèse et ses statues colossales, c'est l'un des plus grands musées d'archéologie du monde. À voir avant ou après Pompéi.",
+   "site_officiel": "https://mann-napoli.it/",
+   "note": "La salle des mosaïques est en travaux jusqu'à fin novembre 2026.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Magrippa (Wikipédia en anglais)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlexandermosaic.jpg",
+    "src": "img/activites/NAP/mann.jpg"
+   }
+  },
+  {
+   "id": "sotterranea",
+   "nom": "Naples souterraine",
+   "emoji": "🕯️",
+   "type": "culture",
+   "quartier": "Centre historique",
+   "lat": 40.851,
+   "lng": 14.2577,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Visite guidée (environ 1 h 30)",
+     "≈ 15 €"
+    ],
+    [
+     "Enfants",
+     "tarif réduit au guichet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservez la veille pour un créneau en français",
+   "duree": "1 h 30",
+   "moment": "Par temps de pluie ou de grosse chaleur (il fait 18 °C toute l'année sous terre) ; visites en français à certaines heures",
+   "enfants": true,
+   "texte": "Quarante mètres sous la via dei Tribunali, une autre ville : carrières grecques, aqueduc romain, citernes transformées en abris pendant la guerre. On se faufile à la bougie dans des boyaux de 50 cm de large, puis on remonte dans un appartement du quartier qui cache… un théâtre romain où Néron a chanté.",
+   "site_officiel": "https://www.napolisotterranea.org/",
+   "note": "Un passage très étroit (facultatif) déconseillé aux personnes claustrophobes. Départ piazza San Gaetano 68.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Photo2023",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_Sotterranea_1.jpg",
+    "src": "img/activites/NAP/sotterranea.jpg"
+   }
+  },
+  {
+   "id": "duomo",
+   "nom": "Cathédrale et chapelle de San Gennaro",
+   "emoji": "⛪",
+   "type": "culture",
+   "quartier": "Via Duomo",
+   "lat": 40.852543,
+   "lng": 14.259321,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Le matin ; le 19 septembre, le 16 décembre et le samedi avant le premier dimanche de mai, la ville guette le « miracle » du sang du saint",
+   "enfants": true,
+   "texte": "La cathédrale gothique abrite la somptueuse chapelle du Trésor, où l'on conserve le sang de saint Janvier, le protecteur de la ville. Trois fois par an, tout Naples attend qu'il se liquéfie : un « miracle » qui annonce une bonne année. Ne manquez pas la basilique paléochrétienne de Santa Restituta, la plus vieille église de la ville, sur le côté.",
+   "site_officiel": "https://www.chiesadinapoli.it/",
+   "note": "Épaules et genoux couverts. Le musée du Trésor, à côté, est payant.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marco Ober",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANaples_Cathedral_-_Duomo_di_Napoli%2C_Central_nave_%285326%29.jpg",
+    "src": "img/activites/NAP/duomo.jpg"
+   }
+  },
+  {
+   "id": "santa-chiara",
+   "nom": "Cloître majolique de Santa Chiara",
+   "emoji": "🌼",
+   "type": "culture",
+   "quartier": "Centre historique",
+   "lat": 40.847226,
+   "lng": 14.252638,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Adulte",
+     "7 €"
+    ],
+    [
+     "Plus de 65 ans, étudiants",
+     "5 €"
+    ],
+    [
+     "De 7 à 17 ans",
+     "4 €"
+    ],
+    [
+     "Moins de 7 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      17,
+      4
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets vendus seulement au guichet",
+   "duree": "1 h",
+   "moment": "En début d'après-midi, quand le cloître est calme ; le dimanche, fermeture à 14 h",
+   "enfants": true,
+   "texte": "Derrière l'austère église gothique se cache un jardin de citronniers entouré de colonnes et de bancs couverts de faïences jaunes et bleues : scènes de campagne, de chasse et de vie quotidienne peintes au XVIIIe siècle. Un îlot de silence à deux pas du vacarme de Spaccanapoli.",
+   "site_officiel": "https://www.monasterodisantachiara.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Sailko",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChiostro_maiolicato_delle_clarisse_di_s._chiara%2C_1739-42%2C_03.jpg",
+    "src": "img/activites/NAP/santa-chiara.jpg"
+   }
+  },
+  {
+   "id": "plebiscito",
+   "nom": "Piazza del Plebiscito et galerie Umberto Ier",
+   "emoji": "🏟️",
+   "type": "balade",
+   "quartier": "San Ferdinando",
+   "lat": 40.835826,
+   "lng": 14.248583,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, puis un café au Gambrinus, le salon historique de la ville",
+   "enfants": true,
+   "texte": "Une immense place en hémicycle, bordée de colonnades et du Palais royal, où l'on mesure d'un coup la grandeur de l'ancienne capitale des Bourbons. À deux pas, la galerie Umberto Ier déploie sa verrière de fer et de verre au-dessus d'un sol de marbre, face au théâtre San Carlo.",
+   "site_officiel": "https://www.visitnaples.eu/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lucia Montanaro",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A7K5A3060Piazza_del_Plebiscito_Naples_lateral_view_2025.jpg",
+    "src": "img/activites/NAP/plebiscito.jpg"
+   }
+  },
+  {
+   "id": "palazzo-reale",
+   "nom": "Palais royal de Naples",
+   "emoji": "👑",
+   "type": "culture",
+   "quartier": "San Ferdinando",
+   "lat": 40.836232,
+   "lng": 14.249403,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Adulte",
+     "15 €"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Avec le musée Pignatelli",
+     "18 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h 30",
+   "moment": "Le matin ; fermé le mercredi",
+   "enfants": true,
+   "texte": "Le grand escalier d'honneur en marbre, la salle du trône, le petit théâtre de cour et une enfilade d'appartements dorés : la résidence des rois de Naples, face à la mer. Depuis les terrasses du jardin suspendu, la vue file sur le port et le Vésuve.",
+   "site_officiel": "https://palazzorealedinapoli.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Lalupa",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_Palazzo_reale_-_ingresso_e_scalone_sinistro_1040723.JPG",
+    "src": "img/activites/NAP/palazzo-reale.jpg"
+   }
+  },
+  {
+   "id": "castel-nuovo",
+   "nom": "Castel Nuovo (Maschio Angioino)",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Municipio",
+   "lat": 40.838489,
+   "lng": 14.252719,
+   "prix": 10,
+   "prix_detail": [
+    [
+     "Adulte",
+     "10 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 10,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le matin ; fermé le dimanche",
+   "enfants": true,
+   "texte": "Cinq tours massives et un arc de triomphe Renaissance en marbre blanc coincé entre deux tours : le château des rois angevins et aragonais domine le port. À l'intérieur, la salle des Barons à la voûte étoilée, une chapelle gothique et des remparts avec vue sur la baie.",
+   "site_officiel": "https://www.comune.napoli.it/maschioangioino",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Marco Ober",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACastel_Nuovo_%28Maschio_Angioino%29%2C_Entrance%2C_Naples_%285257%29.jpg",
+    "src": "img/activites/NAP/castel-nuovo.jpg"
+   }
+  },
+  {
+   "id": "san-carlo",
+   "nom": "Théâtre San Carlo (visite guidée)",
+   "emoji": "🎭",
+   "type": "culture",
+   "quartier": "San Ferdinando",
+   "lat": 40.837485,
+   "lng": 14.249638,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Visite guidée (45 min)",
+     "≈ 9 €"
+    ],
+    [
+     "Moins de 30 ans, plus de 60 ans",
+     "réduit"
+    ],
+    [
+     "Billet d'opéra ou de ballet",
+     "≈ 30 à 200 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "visites en anglais à heures fixes, réservation conseillée en ligne",
+   "duree": "45 min",
+   "moment": "En journée, entre deux répétitions ; ou un soir de spectacle, en tenue correcte",
+   "enfants": true,
+   "texte": "Le plus vieil opéra en activité d'Europe (1737), quarante ans avant la Scala : six rangées de loges dorées, velours rouge et la grande loge royale. La visite guidée fait entrer dans la salle et les foyers ; pour le grand frisson, prenez une place pour un ballet ou un opéra.",
+   "site_officiel": "https://www.teatrosancarlo.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "IlSistemone",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARealTeatroSanCarloNaples15.jpg",
+    "src": "img/activites/NAP/san-carlo.jpg"
+   }
+  },
+  {
+   "id": "borbonica",
+   "nom": "Galerie des Bourbons (souterrain)",
+   "emoji": "🚇",
+   "type": "culture",
+   "quartier": "Chiaia",
+   "lat": 40.835489,
+   "lng": 14.246226,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Parcours standard (1 h 15)",
+     "15 €"
+    ],
+    [
+     "Moins de 10 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      9,
+      0
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant en ligne",
+   "duree": "1 h 15",
+   "moment": "Le week-end, ou en semaine sur réservation ; prévoyez une petite laine",
+   "enfants": true,
+   "texte": "Un tunnel creusé pour le roi Ferdinand II afin de fuir son palais en cas d'émeute, devenu abri antiaérien puis fourrière : on y découvre, enfouies sous terre, des voitures et des motos des années 1950 rouillées là où on les a laissées. Une visite insolite, très appréciée des familles.",
+   "site_officiel": "https://www.galleriaborbonica.com/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Associazione Culturale Borbonica Sotterranea",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGalleria_borbonica_-_Cars_and_tunnel_%28Naples%29.jpg",
+    "src": "img/activites/NAP/borbonica.jpg"
+   }
+  },
+  {
+   "id": "castel-ovo",
+   "nom": "Castel dell'Ovo et le front de mer",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Santa Lucia",
+   "lat": 40.828316,
+   "lng": 14.247604,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Au coucher du soleil, puis le long du lungomare jusqu'à Mergellina",
+   "enfants": true,
+   "texte": "Le plus vieux château de la ville, posé sur un îlot relié par une digue, aurait été bâti sur un œuf magique caché par Virgile : s'il se brise, Naples s'écroule. Ses terrasses gratuites offrent la plus belle vue sur la baie et le Vésuve, au-dessus du petit port de pêcheurs du Borgo Marinari.",
+   "site_officiel": "https://www.comune.napoli.it/casteldellovo",
+   "note": "Horaires réduits le dimanche après-midi et fermeture les jours de mer agitée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "PaestumPaestum",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACastel_dell%27_Ovo.jpg",
+    "src": "img/activites/NAP/castel-ovo.jpg"
+   }
+  },
+  {
+   "id": "sant-elmo",
+   "nom": "Castel Sant'Elmo et chartreuse San Martino",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Vomero",
+   "lat": 40.844452,
+   "lng": 14.238895,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Castel Sant'Elmo",
+     "5 €"
+    ],
+    [
+     "Chartreuse et musée San Martino",
+     "6 €"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 € chacun"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "reservation_delai": "billets au guichet",
+   "duree": "2 h 30",
+   "moment": "Montez en funiculaire depuis via Toledo, en fin d'après-midi pour la lumière ; la chartreuse ferme le mardi",
+   "enfants": true,
+   "texte": "Du haut du château en étoile, on voit tout : la ville serrée, la ligne droite de Spaccanapoli, le port, Capri et le Vésuve. Juste en dessous, la chartreuse San Martino cache des cloîtres de marbre, une église baroque éblouissante et une collection de crèches napolitaines unique.",
+   "site_officiel": "https://www.museicampania.cultura.gov.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Richard Nevell",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_-_Castel_Sant%27Elmo_-_202209302333_11.jpg",
+    "src": "img/activites/NAP/sant-elmo.jpg"
+   }
+  },
+  {
+   "id": "maradona",
+   "nom": "La fresque de Maradona",
+   "emoji": "⚽",
+   "type": "balade",
+   "quartier": "Quartieri Spagnoli",
+   "lat": 40.841437,
+   "lng": 14.245247,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès libre",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En journée ; les soirs de match, le quartier est en fête",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Au cœur des Quartiers espagnols, ruelles en pente et linge tendu entre les façades, un immense portrait de Diego Maradona veille sur une petite place transformée en sanctuaire : maillots, écharpes, mèches de cheveux « reliques » et cafés qui servent l'expresso du Pibe de oro. On comprend ici ce que le football veut dire à Naples.",
+   "site_officiel": "https://www.visitnaples.eu/",
+   "note": "Le quartier est animé et sans danger en journée ; gardez simplement un œil sur vos affaires.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Nadia Alessandra Sassi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_-_Murales_Maradona_a_Montecalvario.jpeg",
+    "src": "img/activites/NAP/maradona.jpg"
+   }
+  },
+  {
+   "id": "capodimonte",
+   "nom": "Musée et bois de Capodimonte",
+   "emoji": "🖼️",
+   "type": "culture",
+   "quartier": "Capodimonte",
+   "lat": 40.866982,
+   "lng": 14.250665,
+   "prix": 15,
+   "prix_detail": [
+    [
+     "Musée (adulte)",
+     "15 €"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Bois de Capodimonte",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 15,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Le matin, puis pique-nique dans le parc ; fermé le mercredi",
+   "enfants": true,
+   "texte": "Le palais de chasse des Bourbons abrite l'un des plus beaux musées d'Italie, souvent presque vide : la Flagellation du Caravage, Titien, Raphaël, Botticelli, et les porcelaines de la manufacture royale. Autour, 134 hectares de bois et de belvédères sur la baie, gratuits.",
+   "site_officiel": "https://capodimonte.cultura.gov.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Wolfgang Moroder",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMuseo_Capodimonte_Napoli_facciata_Sudovest.jpg",
+    "src": "img/activites/NAP/capodimonte.jpg"
+   }
+  },
+  {
+   "id": "catacombes",
+   "nom": "Catacombes de San Gennaro et Rione Sanità",
+   "emoji": "🕳️",
+   "type": "culture",
+   "quartier": "Rione Sanità",
+   "lat": 40.865061,
+   "lng": 14.24743,
+   "prix": 11,
+   "prix_detail": [
+    [
+     "Adulte (avec les catacombes de San Gaudioso)",
+     "11 €"
+    ],
+    [
+     "Moins de 18 ans, étudiants, plus de 65 ans",
+     "7 €"
+    ],
+    [
+     "Moins de 6 ans",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 11,
+    "enfants": [
+     [
+      5,
+      0
+     ],
+     [
+      17,
+      7
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "réservation obligatoire en ligne, la veille suffit le plus souvent",
+   "duree": "1 h",
+   "moment": "Visites guidées toutes les heures de 10 h à 17 h ; fermé le mercredi",
+   "enfants": true,
+   "texte": "Les plus grandes catacombes d'Italie du Sud, sur deux niveaux, avec des fresques des premiers chrétiens du IIe siècle et le portrait de saint Janvier. Elles sont gérées par les jeunes du Rione Sanità, un quartier populaire qui s'est relevé grâce à elles : en descendant à pied, ne manquez pas la basilique et le palais Sanfelice.",
+   "site_officiel": "https://www.catacombedinapoli.it/",
+   "note": "Le billet reste valable un an et donne aussi accès aux catacombes de San Gaudioso.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dominik Matus",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACatacombe_di_San_Gennaro_023.jpg",
+    "src": "img/activites/NAP/catacombes.jpg"
+   }
+  },
+  {
+   "id": "fontanelle",
+   "nom": "Cimetière des Fontanelle",
+   "emoji": "💀",
+   "type": "culture",
+   "quartier": "Rione Sanità",
+   "lat": 40.858669,
+   "lng": 14.23873,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Entrée avec audioguide (40 min)",
+     "6 €"
+    ],
+    [
+     "Visite guidée",
+     "8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": []
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "réservation obligatoire en ligne (créneau horaire)",
+   "duree": "40 min",
+   "moment": "En fin de matinée, avec les catacombes de San Gennaro à 15 minutes à pied",
+   "enfants": true,
+   "texte": "Une immense grotte de tuf où reposent des milliers de crânes, ossements des victimes de la peste et du choléra. Pendant des siècles, les Napolitains ont « adopté » ces âmes anonymes, leur offrant prières et petites maisons en échange de faveurs. Rouvert en avril 2026 après six ans de fermeture.",
+   "site_officiel": "https://cimiterodellefontanelle.it/",
+   "note": "Lieu de recueillement : silence et photos discrètes. Il fait frais et humide à l'intérieur.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Dominik Matus",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACimitero_delle_Fontanelle_-_DM_-_024.jpg",
+    "src": "img/activites/NAP/fontanelle.jpg"
+   }
+  },
+  {
+   "id": "metro-toledo",
+   "nom": "Station de métro Toledo",
+   "emoji": "🌊",
+   "type": "culture",
+   "quartier": "Via Toledo",
+   "lat": 40.8424,
+   "lng": 14.2489,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Ticket de métro ANM",
+     "≈ 1,30 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "Hors heures de pointe, pour descendre sans être bousculé",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Souvent citée parmi les plus belles stations de métro du monde : à 40 mètres sous terre, un puits de mosaïques bleues qui donne l'impression de plonger dans la mer, sous un « cratère » de lumière. Les autres « stations de l'art » de la ligne 1 (Università, Garibaldi, Dante) valent aussi le détour.",
+   "site_officiel": "https://www.anm.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Zaiar95",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AToledo_%28Metropolitana_di_Napoli_L1%29.jpg",
+    "src": "img/activites/NAP/metro-toledo.jpg"
+   }
+  },
+  {
+   "id": "ssc-napoli",
+   "nom": "Match du Napoli au stade Maradona",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Fuorigrotta",
+   "lat": 40.827937,
+   "lng": 14.193061,
+   "prix": 50,
+   "prix_detail": [
+    [
+     "Virages (curve)",
+     "≈ 35 à 45 €"
+    ],
+    [
+     "Distinti",
+     "≈ 45 à 65 €"
+    ],
+    [
+     "Tribune",
+     "≈ 75 à 90 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 50,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "dès la mise en vente sur le site du club, surtout pour les grandes affiches",
+   "duree": "3 h",
+   "moment": "Les soirs de match ; arrivez 1 h avant pour les chants",
+   "enfants": true,
+   "club": "SSC Napoli",
+   "texte": "Cinquante mille supporters, l'hymne « Un giorno all'improvviso » repris par tout le stade et le nom de Maradona partout : un match du Napoli, double champion d'Italie récent, se vit comme une messe. Le stade est à 15 minutes de métro du centre.",
+   "site_officiel": "https://sscnapoli.it/",
+   "note": "Billets nominatifs (pièce d'identité demandée à l'achat et à l'entrée) : achetez sur le site officiel du club, méfiez-vous des revendeurs.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gaetano Capaldo",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStadio_Maradona_Serie_A.jpg",
+    "src": "img/activites/NAP/ssc-napoli.jpg"
+   }
+  },
+  {
+   "id": "gaiola",
+   "nom": "Pausilippe, la Gaiola et Marechiaro",
+   "emoji": "🏝️",
+   "type": "plage",
+   "quartier": "Posillipo",
+   "lat": 40.791162,
+   "lng": 14.18673,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc sous-marin de la Gaiola",
+     "gratuit"
+    ],
+    [
+     "Plage, de mai à septembre",
+     "réservation gratuite en ligne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "En fin de journée, pour le coucher du soleil sur Marechiaro ; baignade de juin à septembre",
+   "enfants": true,
+   "texte": "La colline chic de Naples descend vers la mer par des villas noyées dans les pins. Tout au bout, la Gaiola : deux îlots, une villa en ruine réputée maudite et une eau turquoise protégée, où l'on se baigne au-dessus de vestiges romains. Juste à côté, le village de pêcheurs de Marechiaro et sa célèbre fenêtre fleurie.",
+   "site_officiel": "https://www.areamarinaprotettagaiola.it/",
+   "note": "En été, l'accès à la petite plage est limité : réservez votre créneau gratuit en ligne. Bus 140 depuis Santa Lucia, puis 15 min de descente à pied.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Gianfranco Vitolo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIsoletta_della_Gaiola_%28Napoli%29_03.jpg",
+    "src": "img/activites/NAP/gaiola.jpg"
+   }
+  },
+  {
+   "id": "chiaia",
+   "nom": "Soirée à Chiaia et à Mergellina",
+   "emoji": "🍹",
+   "type": "sortir",
+   "quartier": "Chiaia",
+   "lat": 40.8344,
+   "lng": 14.2405,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Spritz dans les « baretti »",
+     "≈ 5 à 8 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Une soirée",
+   "moment": "À partir de 21 h, surtout du jeudi au samedi",
+   "enfants": true,
+   "texte": "Le quartier élégant de Naples, ses boutiques de la via dei Mille, puis, le soir, les ruelles des « baretti » (vico Belledonne, via Bisignano) envahies par les jeunes Napolitains, verre à la main. Finissez au bord de l'eau à Mergellina, avec une glace ou un « frappé » au chalet Ciro, face au Vésuve illuminé.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Silvana Golia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AIl_Vesuvio_nasconde_l%27aurora_della_luna.jpg",
+    "src": "img/activites/NAP/chiaia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pompei",
+   "nom": "Pompéi (excursion)",
+   "emoji": "🌋",
+   "type": "nature",
+   "quartier": "Pompéi",
+   "lat": 40.748509,
+   "lng": 14.483085,
+   "prix": 20,
+   "prix_detail": [
+    [
+     "Pompeii Express (la ville antique)",
+     "20 €"
+    ],
+    [
+     "Pompeii+ (avec la villa des Mystères et la navette)",
+     "25 €"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Train Circumvesuviana depuis Naples (40 min)",
+     "≈ 3 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 20,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet nominatif en ligne quelques jours avant (vente seulement sur le site officiel et ses revendeurs agréés)",
+   "duree": "Journée",
+   "moment": "Partez tôt (ouverture à 9 h) ; en hiver, dernière entrée à 15 h 30",
+   "enfants": true,
+   "texte": "Une ville romaine entière figée par l'éruption de 79 : rues pavées aux traces de chars, boulangeries, thermes, fresques rouge pompéien et moulages saisissants des habitants surpris par les cendres. Prévoyez de bonnes chaussures, de l'eau et une journée : le site fait 66 hectares.",
+   "site_officiel": "https://pompeiisites.org/",
+   "note": "Le premier dimanche du mois est gratuit mais bondé. Descendez à « Pompei Scavi - Villa dei Misteri » sur la ligne Naples-Sorrente.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Commonists",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AForum_%28Pompeii%29_and_the_Vesuvio.jpg",
+    "src": "img/activites/NAP/pompei.jpg"
+   }
+  },
+  {
+   "id": "herculanum",
+   "nom": "Herculanum (excursion)",
+   "emoji": "🏺",
+   "type": "nature",
+   "quartier": "Ercolano",
+   "lat": 40.804603,
+   "lng": 14.347293,
+   "prix": 16,
+   "prix_detail": [
+    [
+     "Adulte",
+     "16 €"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Train Circumvesuviana (20 min)",
+     "≈ 2,50 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 16,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "3 h",
+   "moment": "Le matin, à combiner avec le Vésuve l'après-midi",
+   "enfants": true,
+   "texte": "Plus petite que Pompéi mais bien mieux conservée : ensevelie sous 20 mètres de boue volcanique, la ville a gardé ses étages, ses poutres en bois, ses mosaïques éclatantes et même ses portes. On la découvre d'en haut, puis on descend dans les rues comme si les habitants venaient de partir.",
+   "site_officiel": "https://ercolano.cultura.gov.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Andrew Fogg",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHerculaneum_2_%286231074502%29.jpg",
+    "src": "img/activites/NAP/herculanum.jpg"
+   }
+  },
+  {
+   "id": "vesuve",
+   "nom": "Le cratère du Vésuve",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Parc national du Vésuve",
+   "lat": 40.8225,
+   "lng": 14.4188,
+   "prix": 12,
+   "prix_detail": [
+    [
+     "Billet du sentier du Grand Cône",
+     "≈ 12 € (frais compris)"
+    ],
+    [
+     "Tarif réduit",
+     "≈ 9 €"
+    ],
+    [
+     "Navette depuis Pompéi ou Herculanum",
+     "≈ 12 à 25 € aller-retour"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 12,
+    "enfants": [
+     [
+      17,
+      9
+     ]
+    ]
+   },
+   "reservation": "indispensable",
+   "reservation_delai": "billet daté uniquement en ligne (pas de guichet sur place)",
+   "duree": "Demi-journée",
+   "moment": "Le matin par temps clair ; fermé les jours d'alerte météo et de grand vent",
+   "enfants": true,
+   "texte": "Trente minutes de montée sur un sentier de cendre jusqu'au bord du cratère, large de 450 mètres, d'où s'échappent encore quelques fumerolles. En bas, toute la baie de Naples, Capri et la presqu'île de Sorrente : le volcan le plus célèbre du monde, sous vos pieds.",
+   "site_officiel": "https://www.parconazionaledelvesuvio.it/",
+   "note": "Bonnes chaussures obligatoires, il fait plus frais en haut. Pas de bus public direct : navettes depuis Pompéi, Herculanum ou Naples.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Ingo Mehling",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVesuvius_Crater.jpeg",
+    "src": "img/activites/NAP/vesuve.jpg"
+   }
+  },
+  {
+   "id": "capri",
+   "nom": "Capri et la Grotte bleue (excursion)",
+   "emoji": "🛥️",
+   "type": "nature",
+   "quartier": "Capri",
+   "lat": 40.5562,
+   "lng": 14.2368,
+   "prix": 55,
+   "prix_detail": [
+    [
+     "Hydroglisseur Naples-Capri (50 min)",
+     "≈ 25 à 30 € l'aller"
+    ],
+    [
+     "Grotte bleue (entrée + barque)",
+     "≈ 18 € + barque"
+    ],
+    [
+     "Funiculaire jusqu'à la Piazzetta",
+     "≈ 2,40 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 55,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "reservation_delai": "billets de bateau la veille en été et le week-end",
+   "duree": "Journée",
+   "moment": "D'avril à octobre ; prenez le premier bateau pour la Grotte bleue, fermée dès que la mer est agitée",
+   "enfants": true,
+   "texte": "L'île des empereurs et des stars : la Piazzetta et ses cafés, les jardins d'Auguste suspendus au-dessus des Faraglioni, la villa San Michele à Anacapri, et la Grotte bleue où l'on entre allongé dans une barque pour voir l'eau s'illuminer d'un bleu irréel. Une journée de rêve, à condition de partir tôt.",
+   "site_officiel": "https://www.cittadicapri.it/",
+   "note": "Grotte bleue : entrée payée en espèces sur place, fermée par mauvais temps (souvent en hiver). En juillet-août, l'île est très fréquentée.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Alessio Maffeis",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFaraglioni_%2852215154472%29.jpg",
+    "src": "img/activites/NAP/capri.jpg"
+   }
+  },
+  {
+   "id": "procida",
+   "nom": "Procida, l'île colorée (excursion)",
+   "emoji": "🎨",
+   "type": "nature",
+   "quartier": "Procida",
+   "lat": 40.761628,
+   "lng": 14.029583,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Bateau Naples-Procida (40 min à 1 h)",
+     "≈ 15 à 22 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "Journée",
+   "moment": "Toute l'année ; au printemps et en septembre, quand l'île est calme",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des maisons roses, jaunes et bleues empilées au-dessus du petit port de la Corricella, des barques de pêcheurs et presque pas de voitures : Procida, capitale italienne de la culture en 2022, est la plus authentique des îles de la baie, et la moins chère. Grimpez à la Terra Murata pour la vue, déjeunez de poisson sur le port.",
+   "site_officiel": "https://www.comune.procida.na.it/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "DIANA.GRYGAROVA",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOstrov_Procida.jpg",
+    "src": "img/activites/NAP/procida.jpg"
+   }
+  },
+  {
+   "id": "amalfi",
+   "nom": "Côte amalfitaine (excursion)",
+   "emoji": "🍋",
+   "type": "nature",
+   "quartier": "Positano et Amalfi",
+   "lat": 40.6281,
+   "lng": 14.485,
+   "prix": 30,
+   "prix_detail": [
+    [
+     "Train jusqu'à Sorrente puis bus SITA",
+     "≈ 15 € l'aller"
+    ],
+    [
+     "Bateau Naples-Positano (d'avril à octobre)",
+     "≈ 25 à 35 € l'aller"
+    ],
+    [
+     "Excursion organisée depuis Naples",
+     "≈ 60 à 90 €"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 30,
+    "enfants": []
+   },
+   "reservation": "conseille",
+   "duree": "Journée (1 h 30 à 2 h de trajet)",
+   "moment": "D'avril à octobre ; en hiver, beaucoup d'hôtels et de restaurants sont fermés",
+   "enfants": true,
+   "texte": "Une route vertigineuse taillée dans la falaise, des villages accrochés au-dessus d'une mer turquoise : Positano et ses maisons en cascade, Amalfi et sa cathédrale arabo-normande, Ravello et ses jardins suspendus. La plus belle côte d'Italie, à une journée de Naples.",
+   "site_officiel": "https://www.amalficoast.it/",
+   "note": "Le bateau est plus agréable que le bus (virages, bouchons en été). Sorrente, en chemin, mérite aussi une halte.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APositano_%28Italy%29_03.jpg",
+    "src": "img/activites/NAP/amalfi.jpg"
+   }
+  },
+  {
+   "id": "caserta",
+   "nom": "Palais royal de Caserte (excursion)",
+   "emoji": "🏯",
+   "type": "nature",
+   "quartier": "Caserte",
+   "lat": 41.073158,
+   "lng": 14.327104,
+   "prix": 18,
+   "prix_detail": [
+    [
+     "Palais et parc (adulte)",
+     "18 € (+ 1 € en ligne)"
+    ],
+    [
+     "De 18 à 25 ans (UE)",
+     "2 €"
+    ],
+    [
+     "Moins de 18 ans",
+     "gratuit"
+    ],
+    [
+     "Train depuis Naples (40 min)",
+     "≈ 3,50 € l'aller"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 18,
+    "enfants": [
+     [
+      17,
+      0
+     ]
+    ]
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "Le matin, pour avoir le temps de remonter tout le parc ; fermé le mardi",
+   "enfants": true,
+   "texte": "Le « Versailles napolitain » : 1 200 pièces, un escalier d'honneur grandiose (vu dans Star Wars) et un parc de 3 km de long ponctué de bassins et de fontaines, jusqu'à une cascade et un jardin anglais. Louez un vélo ou prenez la navette pour remonter l'allée.",
+   "site_officiel": "https://reggiadicaserta.cultura.gov.it/",
+   "note": "La gare de Caserte est juste en face du palais.",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Carlo Pelagalli",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AReggia_di_Caserta%2C_prospettiva_dalla_fontana_di_Venere_e_Adone_-_panoramio.jpg",
+    "src": "img/activites/NAP/caserta.jpg"
+   }
+  }
+ ],
+ "restaurants": [
+  {
+   "id": "da-michele",
+   "nom": "L'Antica Pizzeria da Michele",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza napolitaine historique",
+   "quartier": "Forcella",
+   "adresse": "Via Cesare Sersale 1, 80139 Napoli",
+   "lat": 40.849756,
+   "lng": 14.2633,
+   "prix": "6 à 9 €",
+   "prix_min": 6,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "Depuis 1870, deux pizzas seulement à la carte, la margherita et la marinara, cuites en une minute au feu de bois sur des tables en marbre. La file d'attente fait partie du rituel (on prend un ticket à l'entrée), et la salle est devenue célèbre dans le monde entier depuis le film « Mange, prie, aime ».",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : prenez un numéro à l'entrée, l'attente dure de 15 min à 1 h ; vente à emporter plus rapide",
+   "photo": {
+    "auteur": "Husky",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizzeria_Da_Michele%2C_Napoli.jpg",
+    "src": "img/restos/NAP/da-michele.jpg"
+   }
+  },
+  {
+   "id": "masardona",
+   "nom": "La Masardona",
+   "emoji": "🥟",
+   "gamme": "petit",
+   "genre": "Pizza frite",
+   "quartier": "Gare centrale",
+   "adresse": "Via Giulio Cesare Capaccio 27, 80142 Napoli",
+   "lat": 40.848542,
+   "lng": 14.273534,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La pizza frite, la vraie, celle des ruelles de Naples : un chausson doré et gonflé, fourré de ricotta, de cicciolo (porc), de provola et de poivre, frit à la minute depuis 1945 par la même famille. Une institution de quartier près de la gare, où l'on mange debout ou sur un coin de table.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; fermé le dimanche, souvent du monde à midi",
+   "photo": {
+    "auteur": "Horcrux",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza_fritta_in_Rome_%281%29.jpg",
+    "src": "img/restos/NAP/masardona.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "attanasio",
+   "nom": "Sfogliatelle Attanasio",
+   "emoji": "🥐",
+   "gamme": "petit",
+   "genre": "Pâtisserie : la sfogliatella",
+   "quartier": "Gare centrale",
+   "adresse": "Vico Ferrovia 1, 80142 Napoli",
+   "lat": 40.853212,
+   "lng": 14.268976,
+   "prix": "1,50 à 4 €",
+   "prix_min": 2,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La sfogliatella, emblème sucré de Naples, sort ici du four toute la journée depuis 1930 : feuilletage croustillant en forme de coquillage, garni de ricotta, de semoule et d'agrumes confits, à manger encore tiède. Goûtez aussi la « frolla » (pâte sablée) et le babà au rhum.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on commande au comptoir ; fermé le lundi",
+   "photo": {
+    "auteur": "Mess",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASfogliatella_Santarosa.jpg",
+    "src": "img/restos/NAP/attanasio.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tandem",
+   "nom": "Tandem Ragù",
+   "emoji": "🍝",
+   "gamme": "petit",
+   "genre": "Ragù napolitain",
+   "quartier": "Centre historique",
+   "adresse": "Via Giovanni Paladino 51, 80138 Napoli",
+   "lat": 40.848236,
+   "lng": 14.256292,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une petite salle de quartier consacrée à un seul plat, le ragù napolitain : une sauce tomate où la viande mijote des heures, comme le dimanche chez les grands-mères. Servi sur des pâtes, en sandwich ou simplement avec du pain à saucer (la « scarpetta »).",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, petite salle : venez tôt",
+   "photo": {
+    "auteur": "CristianoMay",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APaccheri_rigati_al_rag%C3%B9_Napoletano.jpg",
+    "src": "img/restos/NAP/tandem.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "nennella",
+   "nom": "Trattoria da Nennella",
+   "emoji": "🍷",
+   "gamme": "petit",
+   "genre": "Trattoria populaire",
+   "quartier": "Quartieri Spagnoli",
+   "adresse": "Piazza Carità 22, 80134 Napoli",
+   "lat": 40.844643,
+   "lng": 14.249798,
+   "prix": "15 à 20 € (menu)",
+   "prix_min": 15,
+   "badges": [
+    "institution",
+    "tendance"
+   ],
+   "texte": "La trattoria la plus bruyante de Naples, et la plus joyeuse : serveurs qui chantent, crient les commandes et taquinent les clients, menu complet à petit prix (pâtes, plat, accompagnement) et cuisine familiale napolitaine. On partage les tables, on attend son tour dehors, et on passe une soirée inoubliable.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : file d'attente devant la porte, comptez 30 min le soir ; fermé le dimanche",
+   "photo": {
+    "auteur": "Mstyslav Chernov",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AView_of_piazza_Carit%C3%A0%2C_Napoli._Campania%2C_Italy%2C_South_Europe.jpg",
+    "src": "img/restos/NAP/nennella.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "puok",
+   "nom": "PUOK",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Sandwichs gourmets",
+   "quartier": "Centre historique",
+   "adresse": "Piazzetta Nilo 9, 80134 Napoli",
+   "lat": 40.848668,
+   "lng": 14.255781,
+   "prix": "8 à 12 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Des panini généreux préparés avec les produits de la région : porchetta, friarielli (pousses de brocoli amères), provola fumée, mozzarella de bufflonne. Parfait pour une pause rapide en plein Spaccanapoli, entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation : on commande au comptoir",
+   "photo": {
+    "auteur": "renato agostini",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStatua_di_dio_fluviale_-_piazzetta_Nilo_%28Naples%29.jpg",
+    "src": "img/restos/NAP/puok.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "50-kalo",
+   "nom": "50 Kalò",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Pizza d'auteur",
+   "quartier": "Mergellina",
+   "adresse": "Piazza Sannazaro 201/b, 80122 Napoli",
+   "lat": 40.828372,
+   "lng": 14.220257,
+   "prix": "≈ 25 € (pizza, entrée, boisson)",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La pizzeria de Ciro Salvo, régulièrement classée parmi les meilleures du monde : une pâte très hydratée, légère comme un nuage, et des garnitures de petits producteurs de Campanie. Cadre moderne près du port de Mergellina, loin de la foule du centre.",
+   "reservation": "conseille",
+   "reservation_delai": "réservation en ligne la veille, sinon file d'attente le soir",
+   "photo": {
+    "auteur": "Missvain",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL%27Oro_di_Napoli_-_January_2025_-_Sarah_Stierch_17.jpg",
+    "src": "img/restos/NAP/50-kalo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "locanda-gesu-vecchio",
+   "nom": "La Locanda Gesù Vecchio",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine napolitaine familiale",
+   "quartier": "Centre historique",
+   "adresse": "Via Giovanni Paladino 26, 80138 Napoli",
+   "lat": 40.847238,
+   "lng": 14.257148,
+   "prix": "25 à 35 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Bib Gourmand du guide Michelin",
+   "texte": "Une trattoria authentique dans les ruelles de Spaccanapoli, distinguée par le guide Michelin pour son excellent rapport qualité-prix : pâtes aux pommes de terre et provola, genovese (oignons fondants et viande), aubergines à la parmigiana, comme à la maison.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant, petite salle",
+   "photo": {
+    "auteur": "Francesc Fort",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AParmigiana_de_melanzale_-_Italiamos.jpg",
+    "src": "img/restos/NAP/locanda-gesu-vecchio.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "figlia-marenaro",
+   "nom": "'A Figlia d''o Marenaro",
+   "emoji": "🦪",
+   "gamme": "moyen",
+   "genre": "Poissons et fruits de mer",
+   "quartier": "Via Foria",
+   "adresse": "Via Foria 180, 80137 Napoli",
+   "lat": 40.859291,
+   "lng": 14.262165,
+   "prix": "30 à 50 €",
+   "prix_min": 30,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La « fille du marin » est célèbre dans toute la ville pour sa soupe de moules épicée et ses spaghetti aux palourdes. Ambiance de cantine de quartier, fruits de mer crus à l'étal et poisson du jour, à prix doux pour Naples.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner, surtout le week-end",
+   "photo": {
+    "auteur": "Alpha (Flickr)",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpaghetti_alle_vongole%2C_Cafe_a_Taglio%2C_St._Kilda.jpg",
+    "src": "img/restos/NAP/figlia-marenaro.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mimi-ferrovia",
+   "nom": "Mimì alla Ferrovia",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Grande table classique",
+   "quartier": "Gare centrale",
+   "adresse": "Via Alfonso d'Aragona 19, 80139 Napoli",
+   "lat": 40.853454,
+   "lng": 14.267209,
+   "prix": "35 à 55 €",
+   "prix_min": 35,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Depuis 1943, la grande maison des classiques napolitains, fréquentée par les acteurs et les footballeurs (Totò, Maradona) dont les photos tapissent les murs : pasta e fagioli, friture de la baie, poisson au four et babà. Service à l'ancienne, en veste blanche.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; fermé le dimanche",
+   "photo": {
+    "auteur": "Mogens Engelund",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABaba_au_Rhum.jpg",
+    "src": "img/restos/NAP/mimi-ferrovia.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "di-martino",
+   "nom": "Di Martino Sea Front Pasta Bar",
+   "emoji": "🍝",
+   "gamme": "moyen",
+   "genre": "Bar à pâtes",
+   "quartier": "Municipio",
+   "adresse": "Piazza Municipio 1, 80133 Napoli",
+   "lat": 40.839508,
+   "lng": 14.251643,
+   "prix": "25 à 45 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense",
+    "tendance"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Face au Castel Nuovo, un fabricant de pâtes de Gragnano a ouvert un comptoir façon bar à sushis : assis au comptoir, on regarde les cuisiniers préparer une carte entièrement consacrée aux pâtes, parmi 126 formes, des grands classiques aux mariages inattendus.",
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant pour une place au comptoir",
+   "photo": {
+    "auteur": "Italy's Best Foods (Flickr)",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADrying_Spaghetti_in_Gragnano.jpg",
+    "src": "img/restos/NAP/di-martino.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mattonella",
+   "nom": "Osteria della Mattonella",
+   "emoji": "🧱",
+   "gamme": "moyen",
+   "genre": "Osteria aux carreaux de faïence",
+   "quartier": "Chiaia",
+   "adresse": "Via Giovanni Nicotera 13, 80132 Napoli",
+   "lat": 40.836594,
+   "lng": 14.244067,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une petite salle couverte de carreaux de faïence anciens, sur les hauteurs de Chiaia, où l'on sert depuis des décennies la cuisine des familles napolitaines : pasta e patate, polpette (boulettes) à la sauce tomate, friarielli et saucisse. Accueil chaleureux, addition légère.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner, petite salle",
+   "photo": {
+    "auteur": "Luca Nebuloni",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMeat_balls_in_tomatoes_sauce_%289368881060%29.jpg",
+    "src": "img/restos/NAP/mattonella.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "george",
+   "nom": "George Restaurant",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Grande cuisine créative avec vue",
+   "quartier": "Corso Vittorio Emanuele",
+   "adresse": "Corso Vittorio Emanuele 135, 80121 Napoli",
+   "lat": 40.83718,
+   "lng": 14.230105,
+   "prix": "≈ 190 € (menu)",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "2 étoiles Michelin",
+   "texte": "Au dernier étage du Grand Hotel Parker's, le plus ancien hôtel de Naples, le chef Domenico Candela signe une cuisine créative enracinée en Campanie, devant une vue panoramique sur toute la baie et le Vésuve. La table la plus étoilée de la ville.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux à trois semaines avant",
+   "photo": {
+    "auteur": "Giuseppe Guida",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_vista_dall%27alto._0009.jpg",
+    "src": "img/restos/NAP/george.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "aria",
+   "nom": "ARIA",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine contemporaine",
+   "quartier": "Municipio",
+   "adresse": "Via Loggia dei Pisani 2, 80133 Napoli",
+   "lat": 40.842759,
+   "lng": 14.254598,
+   "prix": "≈ 130 à 160 €",
+   "prix_min": 120,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Dans une ruelle discrète près du port, une salle contemporaine et feutrée où le chef Paolo Barrale revisite les produits du golfe avec finesse. Une adresse confidentielle, très appréciée des Napolitains, ouverte seulement le soir.",
+   "reservation": "indispensable",
+   "reservation_delai": "une à deux semaines avant ; dîner uniquement, fermé le dimanche",
+   "photo": {
+    "auteur": "Juan Emilio Prades Bel",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASalmonetes_fritos.jpg",
+    "src": "img/restos/NAP/aria.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "veritas",
+   "nom": "Veritas",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine campanienne étoilée",
+   "quartier": "Corso Vittorio Emanuele",
+   "adresse": "Corso Vittorio Emanuele 141, 80121 Napoli",
+   "lat": 40.83723,
+   "lng": 14.231355,
+   "prix": "90 à 110 € (menu)",
+   "prix_min": 90,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Au pied du Vomero, une table étoilée intime qui réinterprète les recettes campaniennes, avec des menus dégustation parmi les plus accessibles des grandes tables de la ville (3 plats à 90 €, 5 plats à 110 €).",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant",
+   "photo": {
+    "auteur": "Johnnyrotten (Wikipédia en italien)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_corso_Vittorio_Emanuele.jpg",
+    "src": "img/restos/NAP/veritas.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ducasse",
+   "nom": "Il Ristorante Alain Ducasse Napoli",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Cuisine de la mer, signature française",
+   "quartier": "Port",
+   "adresse": "Via Cristoforo Colombo 45, 80133 Napoli",
+   "lat": 40.840693,
+   "lng": 14.25572,
+   "prix": "≈ 190 € (menu)",
+   "prix_min": 150,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "1 étoile Michelin",
+   "texte": "Le chef français le plus étoilé du monde a ouvert sa première table italienne au 9e étage de l'hôtel Romeo, face au port et au Vésuve : poissons et légumes de Campanie cuisinés dans l'esprit de la « naturalité » de Ducasse. Étoilé dès sa première année.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux semaines avant ; dîner du mardi au samedi, tenue élégante",
+   "photo": {
+    "auteur": "Haneburger",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANapoli_con_Vesuvio.jpg",
+    "src": "img/restos/NAP/ducasse.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "palazzo-petrucci",
+   "nom": "Palazzo Petrucci",
+   "emoji": "🌊",
+   "gamme": "haut",
+   "genre": "Gastronomie les pieds dans l'eau",
+   "quartier": "Posillipo",
+   "adresse": "Via Posillipo 16 c, 80123 Napoli",
+   "lat": 40.821511,
+   "lng": 14.214783,
+   "prix": "100 à 150 € (menu)",
+   "prix_min": 100,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Une salle vitrée posée sur l'eau du Pausilippe, face au Vésuve, où le chef Lino Scarallo improvise des menus « à l'aveugle » autour du poisson et des classiques napolitains réinventés. Au coucher du soleil, l'une des plus belles tables de la baie.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant, demandez une table près de la baie vitrée",
+   "photo": {
+    "auteur": "Ruthven",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APalazzo_Donn%27Anna_visto_dal_mare_%28Napoli%29.jpg",
+    "src": "img/restos/NAP/palazzo-petrucci.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "caruso",
+   "nom": "Caruso Roof Garden",
+   "emoji": "🌇",
+   "gamme": "haut",
+   "genre": "Toit-terrasse avec vue",
+   "quartier": "Santa Lucia",
+   "adresse": "Via Partenope 45, 80121 Napoli",
+   "lat": 40.830101,
+   "lng": 14.248203,
+   "prix": "≈ 90 à 130 €",
+   "prix_min": 90,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Sélectionné par le guide Michelin",
+   "texte": "Au sommet du Grand Hotel Vesuvio, où le ténor Enrico Caruso passa ses derniers jours, une terrasse face au Castel dell'Ovo, à Capri et au Vésuve. Cuisine de la mer et classiques campaniens soignés : la vue la plus romantique de Naples pour un dîner d'exception.",
+   "reservation": "indispensable",
+   "reservation_delai": "une semaine avant, demandez une table en terrasse ; fermé le lundi",
+   "photo": {
+    "auteur": "Mister No",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APassaggio_Castel_dell%27Ovo_-_Grand_Hotel_Vesuvio_-_panoramio.jpg",
+    "src": "img/restos/NAP/caruso.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centro-storico",
+   "nom": "Centre historique (Spaccanapoli)",
+   "lat": 40.8492,
+   "lng": 14.256,
+   "texte": "Au milieu des églises, des pizzerias et des ruelles classées à l'UNESCO : tout se fait à pied et l'ambiance est unique. Logements souvent dans de vieux palais, parfois sans ascenseur, et rues bruyantes jusque tard le soir."
+  },
+  {
+   "id": "toledo",
+   "nom": "Via Toledo et Quartiers espagnols",
+   "lat": 40.8425,
+   "lng": 14.2485,
+   "texte": "Entre le centre historique et le front de mer, sur la grande rue commerçante et sa station de métro : l'emplacement le plus pratique pour tout faire à pied ou en métro. Les ruelles des Quartiers espagnols sont pittoresques et animées."
+  },
+  {
+   "id": "santa-lucia",
+   "nom": "Santa Lucia et le front de mer",
+   "lat": 40.831,
+   "lng": 14.248,
+   "texte": "Les grands hôtels face à la baie, le Castel dell'Ovo et le Vésuve sous les fenêtres. Calme, élégant et à 10 minutes à pied de la piazza del Plebiscito ; c'est aussi le quartier le plus cher."
+  },
+  {
+   "id": "chiaia",
+   "nom": "Chiaia",
+   "lat": 40.835,
+   "lng": 14.24,
+   "texte": "Le quartier chic : boutiques, villa Comunale au bord de l'eau et bars animés le soir. Idéal pour un séjour élégant et sûr, entre la mer et le funiculaire du Vomero."
+  },
+  {
+   "id": "vomero",
+   "nom": "Vomero",
+   "lat": 40.8445,
+   "lng": 14.232,
+   "texte": "Sur la colline, un quartier résidentiel aéré avec la plus belle vue de la ville, relié au centre par trois funiculaires et le métro. Plus calme et souvent moins cher, mais il faut redescendre pour presque toutes les visites."
+  }
+ ]
+}
