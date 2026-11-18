@@ -1,0 +1,1420 @@
+{
+ "city_code": "FEZ",
+ "statut": "préparé en autonomie, prix relevés le 18/11/2026 (1 € ≈ 10,7 dirhams)",
+ "verifie_le": "2026-11-18",
+ "avant_de_partir": "Passeport obligatoire, valable pendant tout le séjour, y compris pour les enfants : la carte d'identité ne suffit pas. Pas de visa jusqu'à 3 mois. À l'arrivée, vérifiez que la police a bien tamponné votre passeport.",
+ "prix_match": 5,
+ "transport": "le petit taxi",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "activites": [
+  {
+   "id": "medina",
+   "nom": "Se perdre dans la médina de Fès el-Bali",
+   "emoji": "🧭",
+   "type": "balade",
+   "quartier": "Fès el-Bali",
+   "lat": 34.0636,
+   "lng": -4.9776,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Balade dans la médina",
+     "gratuit"
+    ],
+    [
+     "Guide officiel (badge du ministère du Tourisme)",
+     "≈ 300 à 400 dirhams la demi-journée pour le groupe (≈ 28 à 37 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "une demi-journée",
+   "moment": "Le matin, quand les artisans ouvrent leurs échoppes ; le vendredi, beaucoup de boutiques sont fermées",
+   "enfants": true,
+   "texte": "La plus grande ville piétonne du monde, classée par l'Unesco : 9 000 ruelles où l'on croise encore des ânes chargés de peaux, des fours à pain de quartier et des artisans qui travaillent comme au Moyen Âge. On entre par la Talaa Kebira, la grande rue qui descend jusqu'à la mosquée Quaraouiyine.",
+   "site_officiel": "https://whc.unesco.org/fr/list/170/",
+   "a_verifier": false,
+   "note": "Prenez un guide officiel le premier jour pour vous repérer (votre riad peut le réserver). Refusez poliment les « guides » improvisés et les jeunes qui vous disent que « la rue est fermée » : c'est un piège pour vous emmener chez un marchand.",
+   "photo": {
+    "auteur": "Jorge Franganillo",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fez_Rue_Talaa_Kebira_(54240066871).jpg",
+    "src": "img/activites/FEZ/medina.jpg"
+   }
+  },
+  {
+   "id": "bab-boujloud",
+   "nom": "Bab Boujloud, la porte bleue",
+   "emoji": "🚪",
+   "type": "balade",
+   "quartier": "Bab Boujloud",
+   "lat": 34.061729,
+   "lng": -4.984005,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "30 min",
+   "moment": "En fin de journée, quand la lumière dorée éclaire les céramiques et que le quartier s'anime",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "L'entrée la plus photographiée du Maroc : un arc couvert de zelliges bleus côté ville, verts côté médina, qui encadre les minarets de la médersa Bou Inania. Juste derrière, les cafés et les stands de brochettes de la place s'animent jusque tard le soir.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Fabos",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fes_Bab_Bou_Jeloud.jpg",
+    "src": "img/activites/FEZ/bab-boujloud.jpg"
+   }
+  },
+  {
+   "id": "tanneries",
+   "nom": "Les tanneries Chouara depuis une terrasse",
+   "emoji": "🎨",
+   "type": "culture",
+   "quartier": "Fès el-Bali",
+   "lat": 34.06615,
+   "lng": -4.97088,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Vue depuis la terrasse d'une maroquinerie",
+     "gratuit (pourboire de 10 à 20 dirhams apprécié)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Le matin, entre 9 h et 11 h, quand les cuves sont remplies et que la lumière est belle",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "La plus ancienne tannerie de Fès, en activité depuis le XIe siècle : des dizaines de cuves de pierre remplies de teintures naturelles (coquelicot, indigo, safran), où les ouvriers foulent les peaux à mains nues. On les admire depuis les terrasses des maroquineries qui l'entourent.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "note": "On vous tendra un brin de menthe contre l'odeur. Vous n'êtes pas obligé d'acheter : un petit pourboire suffit. Ignorez ceux qui vous proposent de vous « emmener aux tanneries » contre de l'argent.",
+   "photo": {
+    "auteur": "Uwe Brodrecht",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chouara_Tannery_-_153_-_Marokko_Handybilder_2018_-_Fes_(42218570701).jpg",
+    "src": "img/activites/FEZ/tanneries.jpg"
+   }
+  },
+  {
+   "id": "bou-inania",
+   "nom": "Médersa Bou Inania",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Talaa Kebira",
+   "lat": 34.06178,
+   "lng": -4.98275,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 20 à 30 dirhams (≈ 2 à 3 €), à régler en espèces"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "45 min",
+   "moment": "Le matin ; fermée aux visiteurs pendant les prières, et le vendredi midi",
+   "enfants": true,
+   "texte": "Une école coranique du XIVe siècle, chef-d'œuvre de l'art mérinide : cèdre sculpté, stucs fins comme de la dentelle et zelliges autour d'une cour de marbre. C'est l'un des rares lieux religieux de Fès ouverts aux non-musulmans, avec son minaret vert visible depuis Bab Boujloud.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Bjørn Christian Tørrissen",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bou_Inania_Madrasa_2011.jpg",
+    "src": "img/activites/FEZ/bou-inania.jpg"
+   }
+  },
+  {
+   "id": "attarine",
+   "nom": "Médersa al-Attarine",
+   "emoji": "✨",
+   "type": "culture",
+   "quartier": "Souk el-Attarine",
+   "lat": 34.065125,
+   "lng": -4.973616,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 20 à 30 dirhams (≈ 2 à 3 €), à régler en espèces"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "30 min",
+   "moment": "Tôt le matin, avant les groupes ; fermée pendant les prières",
+   "enfants": true,
+   "texte": "Plus petite que Bou Inania mais encore plus raffinée : chaque centimètre de cette médersa de 1325 est couvert de motifs, du sol en zellige au plafond en cèdre. Montez à l'étage pour voir les minuscules chambres des étudiants et, depuis la terrasse, les toits verts de la Quaraouiyine.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Robert Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Al-Attarine_Madrasa_DSCF3530_(R_Prazeres).jpg",
+    "src": "img/activites/FEZ/attarine.jpg"
+   }
+  },
+  {
+   "id": "quaraouiyine",
+   "nom": "Mosquée Quaraouiyine, la plus vieille université du monde",
+   "emoji": "📜",
+   "type": "culture",
+   "quartier": "Quaraouiyine",
+   "lat": 34.06493,
+   "lng": -4.973367,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Vue depuis les portes",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "En journée, en dehors des heures de prière",
+   "enfants": true,
+   "texte": "Fondée en 859 par une femme, Fatima al-Fihri, la Quaraouiyine est considérée comme la plus ancienne université encore en activité. L'intérieur est réservé aux musulmans, mais ses grandes portes ouvertes laissent voir la cour de marbre, ses fontaines et ses colonnes blanches.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_Quaraouiyine",
+   "a_verifier": false,
+   "note": "Restez sur le seuil et ne photographiez pas les fidèles en prière.",
+   "photo": {
+    "auteur": "Ideophagous",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D9%82%D8%B1%D9%88%D9%8A%D9%8A%D9%86_%D8%A8%D9%81%D8%A7%D8%B3_(64293).jpg",
+    "src": "img/activites/FEZ/quaraouiyine.jpg"
+   }
+  },
+  {
+   "id": "seffarine",
+   "nom": "Place Seffarine, la place des dinandiers",
+   "emoji": "🔨",
+   "type": "balade",
+   "quartier": "Quaraouiyine",
+   "lat": 34.064196,
+   "lng": -4.972775,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "En journée, quand les artisans martèlent le cuivre",
+   "enfants": true,
+   "texte": "Sur cette petite place ombragée par un figuier, les dinandiers martèlent à longueur de journée chaudrons, plateaux et lanternes de cuivre. Le bruit rythmé des marteaux, l'odeur du métal chauffé et la bibliothèque de la Quaraouiyine juste à côté : un concentré de Fès.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "R Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saffarine_Square_DSCF4157.jpg",
+    "src": "img/activites/FEZ/seffarine.jpg"
+   }
+  },
+  {
+   "id": "nejjarine",
+   "nom": "Musée Nejjarine des arts du bois",
+   "emoji": "🪵",
+   "type": "culture",
+   "quartier": "Nejjarine",
+   "lat": 34.064753,
+   "lng": -4.975905,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Entrée",
+     "20 dirhams (≈ 2 €)"
+    ],
+    [
+     "Terrasse panoramique avec café",
+     "comprise"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "De 10 h à 17 h ; montez au café de la terrasse pour un thé à la menthe",
+   "enfants": true,
+   "texte": "Un ancien caravansérail du XVIIIe siècle, où dormaient les marchands et leurs bêtes, transformé en musée du travail du bois : portes sculptées, coffres de mariage, instruments. La cour à galeries de cèdre est superbe, et la terrasse offre l'une des plus belles vues sur la médina.",
+   "site_officiel": "https://www.fondationlamrani.org/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Josep Renalias",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fes_-_Fondouk_el-Nejjarine.jpg",
+    "src": "img/activites/FEZ/nejjarine.jpg"
+   }
+  },
+  {
+   "id": "batha",
+   "nom": "Musée Dar Batha et son jardin andalou",
+   "emoji": "🏺",
+   "type": "culture",
+   "quartier": "Batha",
+   "lat": 34.06018,
+   "lng": -4.983067,
+   "prix": 6,
+   "prix_detail": [
+    [
+     "Entrée",
+     "60 dirhams (≈ 6 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 6,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "Le matin ; fermé le mardi",
+   "enfants": true,
+   "texte": "Un palais d'été du XIXe siècle, rouvert en 2025 après restauration, qui abrite le musée des arts islamiques de Fès : céramiques bleues de Fès, astrolabes, bois peints et tapis berbères. Son jardin andalou planté de chênes et de palmiers est une oasis de calme à deux pas de Bab Boujloud.",
+   "site_officiel": "https://fnm.ma/",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Henry Zbyszynski from Capitola California, USA",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Batha_Museum_(4317468784).jpg",
+    "src": "img/activites/FEZ/batha.jpg"
+   }
+  },
+  {
+   "id": "glaoui",
+   "nom": "Palais Glaoui, un palais hors du temps",
+   "emoji": "🪟",
+   "type": "culture",
+   "quartier": "Douh",
+   "lat": 34.058914,
+   "lng": -4.977208,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Visite avec le gardien",
+     "≈ 25 à 50 dirhams (≈ 2,5 à 5 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "45 min à 1 h",
+   "moment": "L'après-midi, quand le soleil traverse les vitraux",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un immense palais du XIXe siècle à moitié en ruine, où vit encore un descendant de la famille. Salons de zelliges, vitraux colorés, fontaines et cours abandonnées : un décor de cinéma, loin des groupes, qui fait le bonheur des photographes.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Fès_el-Bali",
+   "a_verifier": false,
+   "note": "Lieu privé, sans horaires fixes : frappez à la porte, le gardien fait visiter.",
+   "photo": {
+    "auteur": "R Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dar_Glaoui_Fes_DSCF4362.jpg",
+    "src": "img/activites/FEZ/glaoui.jpg"
+   }
+  },
+  {
+   "id": "palais-royal",
+   "nom": "Les portes dorées du Palais royal",
+   "emoji": "👑",
+   "type": "balade",
+   "quartier": "Fès el-Jdid",
+   "lat": 34.05434,
+   "lng": -4.99447,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Vue sur les portes",
+     "gratuit (le palais ne se visite pas)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "20 min",
+   "moment": "Le matin, quand le soleil fait briller le laiton",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Sept portes monumentales en laiton ciselé, encadrées de zelliges et de cèdre sculpté, sur la grande place des Alaouites. Le palais lui-même est fermé au public, mais ces portes sont l'une des images les plus célèbres du Maroc.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Petar Milošević",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gates_of_Royal_Palace,_Fez,_Marocco_(%D8%AF%D8%A7%D8%B1_%D8%A7%D9%84%D9%85%D8%AE%D8%B2%D9%86).jpg",
+    "src": "img/activites/FEZ/palais-royal.jpg"
+   }
+  },
+  {
+   "id": "mellah",
+   "nom": "Le Mellah et la synagogue Ibn Danan",
+   "emoji": "🕍",
+   "type": "balade",
+   "quartier": "Mellah",
+   "lat": 34.052711,
+   "lng": -4.991639,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Balade dans le quartier",
+     "gratuit"
+    ],
+    [
+     "Synagogue Ibn Danan",
+     "≈ 20 dirhams (≈ 2 €), en don"
+    ],
+    [
+     "Cimetière juif",
+     "≈ 20 dirhams (≈ 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le matin ; synagogue et cimetière fermés le samedi",
+   "enfants": true,
+   "texte": "Le premier mellah du Maroc, créé au XVe siècle contre le Palais royal : des maisons à balcons de bois tournés vers la rue, rares dans la médina. La synagogue Ibn Danan, du XVIIe siècle, a gardé ses lustres et sa salle bleue, et le cimetière aux tombes blanchies à la chaux offre une vue étonnante.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Mellah_de_F%C3%A8s",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "R Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ibn_Danan_Synagogue_DSCF5087.jpg",
+    "src": "img/activites/FEZ/mellah.jpg"
+   }
+  },
+  {
+   "id": "jnan-sbil",
+   "nom": "Jardins Jnan Sbil",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Fès el-Jdid",
+   "lat": 34.059572,
+   "lng": -4.98829,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En fin d'après-midi, quand les familles fassies viennent se promener",
+   "enfants": true,
+   "texte": "Le plus ancien jardin public de Fès, restauré en 2011 : allées de palmiers et de bambous, bassins, roue à eau et pelouses à l'ombre des cyprès. La pause idéale entre la médina et le Palais royal, et un bon terrain de jeu pour les enfants.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Robert Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jnan_sbil_2.jpg",
+    "src": "img/activites/FEZ/jnan-sbil.jpg"
+   }
+  },
+  {
+   "id": "merinides",
+   "nom": "Coucher de soleil aux tombeaux mérinides",
+   "emoji": "🌅",
+   "type": "vue",
+   "quartier": "Collines nord",
+   "lat": 34.07035,
+   "lng": -4.97966,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Petit taxi depuis Bab Boujloud",
+     "≈ 15 à 20 dirhams (≈ 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Une heure avant le coucher du soleil, quand les appels à la prière montent de toute la médina",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Les ruines de tombeaux royaux du XIVe siècle dominent la ville depuis la colline nord. Au coucher du soleil, la médina entière prend une couleur de miel et les appels à la prière résonnent de mosquée en mosquée : le plus beau spectacle de Fès.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "note": "Venez en petit taxi et repartez avant la nuit noire ; gardez vos affaires près de vous.",
+   "photo": {
+    "auteur": "Radosław Botev",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Marinid_tombs.jpg",
+    "src": "img/activites/FEZ/merinides.jpg"
+   }
+  },
+  {
+   "id": "borj-sud",
+   "nom": "Panorama depuis le Borj Sud",
+   "emoji": "🔭",
+   "type": "vue",
+   "quartier": "Collines sud",
+   "lat": 34.053946,
+   "lng": -4.970229,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "Le matin, avec le soleil dans le dos",
+   "enfants": true,
+   "texte": "Une forteresse du XVIe siècle posée sur la colline sud, face aux tombeaux mérinides. Depuis l'esplanade, toute Fès el-Bali s'étale à vos pieds, avec les toits verts de la Quaraouiyine et les montagnes du Rif au loin.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Radosław Botev",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Panorama_Fes_el_Bali_Borj_Sud_Fez_morocco_-_panoramio.jpg",
+    "src": "img/activites/FEZ/borj-sud.jpg"
+   }
+  },
+  {
+   "id": "cherratine",
+   "nom": "Médersa Cherratine",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Quaraouiyine",
+   "lat": 34.063975,
+   "lng": -4.973874,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 20 à 30 dirhams (≈ 2 à 3 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "30 min",
+   "moment": "En journée, en dehors des prières",
+   "enfants": true,
+   "texte": "Une médersa du XVIIe siècle, plus sobre que ses voisines mérinides, rouverte après restauration. Moins connue, elle est souvent presque vide : on y profite du silence de sa cour et de ses portes de cèdre sculpté.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/fes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Jorge Cancela",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fes_(15863105611).jpg",
+    "src": "img/activites/FEZ/cherratine.jpg"
+   }
+  },
+  {
+   "id": "hammam",
+   "nom": "Hammam et gommage",
+   "emoji": "🧖",
+   "type": "sortir",
+   "quartier": "Bab Boujloud",
+   "lat": 34.061687,
+   "lng": -4.983711,
+   "prix": 25,
+   "prix_detail": [
+    [
+     "Hammam traditionnel avec gommage au savon noir",
+     "≈ 150 à 250 dirhams (≈ 14 à 23 €)"
+    ],
+    [
+     "Hammam de riad ou de spa avec massage",
+     "≈ 350 à 700 dirhams (≈ 33 à 65 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 25,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, par votre riad",
+   "duree": "1 h 30 à 2 h",
+   "moment": "En fin de journée, après la marche dans la médina",
+   "enfants": false,
+   "texte": "Le rituel marocain : bain de vapeur, savon noir à l'eucalyptus, gommage vigoureux au gant de kessa, puis masque au rhassoul. Le hammam Mernissi, près de Bab Boujloud, a gardé ses voûtes et ses zelliges anciens ; les riads proposent une version plus intime.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Hammam",
+   "a_verifier": false,
+   "note": "Réservez la veille par votre riad, surtout pour un hammam privé en couple.",
+   "photo": {
+    "auteur": "R Prazeres",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hammam_Saffarin_DSCF6564.jpg",
+    "src": "img/activites/FEZ/hammam.jpg"
+   }
+  },
+  {
+   "id": "art-argile",
+   "nom": "Atelier de zellige et de poterie à Aïn Nokbi",
+   "emoji": "🧩",
+   "type": "culture",
+   "quartier": "Aïn Nokbi",
+   "lat": 34.061238,
+   "lng": -4.948274,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite de l'atelier",
+     "gratuite"
+    ],
+    [
+     "Petit taxi depuis la médina",
+     "≈ 20 dirhams (≈ 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "En semaine, quand les artisans sont au travail",
+   "enfants": true,
+   "texte": "Dans le quartier des potiers, à l'est de la médina, on suit la fabrication des céramiques bleues de Fès et des zelliges : tournage, cuisson au four, peinture à main levée et découpe au marteau de milliers de petits carreaux. Fascinant, et l'occasion de rapporter une pièce faite sous vos yeux.",
+   "site_officiel": "https://www.artargile.com/",
+   "a_verifier": false,
+   "note": "La visite est gratuite et sans obligation d'achat ; la boutique est un peu plus chère que les souks, mais la qualité est là.",
+   "photo": {
+    "auteur": "Orlysi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moroccan_zellige_in_Fes.jpg",
+    "src": "img/activites/FEZ/art-argile.jpg"
+   }
+  },
+  {
+   "id": "mas",
+   "nom": "Match du Maghreb de Fès (MAS)",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Complexe sportif de Fès",
+   "lat": 34.002638,
+   "lng": -4.970113,
+   "prix": 5,
+   "prix_detail": [
+    [
+     "Billet de Botola (championnat du Maroc)",
+     "≈ 30 à 100 dirhams (≈ 3 à 10 €)"
+    ],
+    [
+     "Grands matchs (Raja, Wydad, FAR)",
+     "plus cher et vite complet"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 5,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "quelques jours avant ; les grands matchs affichent complet",
+   "duree": "3 h",
+   "moment": "Soir de match ; petit taxi depuis le centre (≈ 30 dirhams)",
+   "enfants": true,
+   "club": "MAS Fès",
+   "texte": "Le « MAS », champion du Maroc, joue dans le grand stade de Fès, rénové pour la Coupe d'Afrique des nations 2025. Tambours, chants et tifos jaunes et noirs des « Fatal Tigers » : une ambiance brûlante, surtout contre les clubs de Casablanca.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Maghreb_de_F%C3%A8s",
+   "a_verifier": false,
+   "note": "Achetez le billet à l'avance (points de vente du club) et évitez la tribune des ultras avec des enfants.",
+   "photo": {
+    "auteur": "Zaki CriStal",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stade_de_Fes.jpg",
+    "src": "img/activites/FEZ/mas.jpg"
+   }
+  },
+  {
+   "id": "moulay-yacoub",
+   "nom": "Bains thermaux de Moulay Yacoub",
+   "emoji": "♨️",
+   "type": "nature",
+   "quartier": "Moulay Yacoub",
+   "lat": 34.087468,
+   "lng": -5.179435,
+   "prix": 3,
+   "prix_detail": [
+    [
+     "Piscine thermale publique",
+     "25 dirhams (≈ 2,5 €)"
+    ],
+    [
+     "Bain individuel (30 min)",
+     "35 dirhams"
+    ],
+    [
+     "Spa Vichy Thermalia (piscines, hammam)",
+     "plus cher, interdit aux moins de 18 ans"
+    ],
+    [
+     "Grand taxi depuis Fès",
+     "≈ 30 min de route"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 3,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "une demi-journée",
+   "moment": "Le matin en semaine, plus calme ; tous les jours de 6 h à minuit",
+   "enfants": true,
+   "texte": "Un village thermal accroché à la montagne, à 20 km de Fès, où une eau soufrée sort de terre à plus de 50 °C. Les Fassis viennent s'y baigner depuis des siècles : piscines publiques à petit prix ou spa moderne, pour se détendre après les ruelles de la médina.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Moulay_Yacoub",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "أنس",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moulay_Yacoub,_Moulay_Yacoub_Province,_F%C3%A8s-Mekn%C3%A8s_Region,_Morocco_(2010).jpg",
+    "src": "img/activites/FEZ/moulay-yacoub.jpg"
+   }
+  },
+  {
+   "id": "volubilis",
+   "nom": "Volubilis et Moulay Idriss",
+   "emoji": "🏺",
+   "type": "nature",
+   "quartier": "Volubilis",
+   "lat": 34.073473,
+   "lng": -5.555366,
+   "prix": 9,
+   "prix_detail": [
+    [
+     "Site archéologique",
+     "100 dirhams (≈ 9 €), enfants de 7 à 13 ans 50 dirhams, gratuit avant 7 ans"
+    ],
+    [
+     "Excursion à la journée avec chauffeur (avec Meknès)",
+     "≈ 40 à 60 € par personne"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 9,
+    "enfants": [
+     [
+      6,
+      0
+     ],
+     [
+      13,
+      5
+     ]
+    ]
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour l'excursion ; le billet se prend aussi sur place",
+   "duree": "une journée",
+   "moment": "Départ tôt le matin ; site ouvert tous les jours de 8 h 30 au coucher du soleil, peu d'ombre l'été",
+   "enfants": true,
+   "texte": "La plus belle cité romaine du Maroc, classée par l'Unesco : arc de triomphe, colonnes du Capitole et mosaïques encore en place, au milieu des oliviers. Juste à côté, la ville sainte de Moulay Idriss s'étage en cascade blanche sur deux collines.",
+   "site_officiel": "https://e-services.minculture.gov.ma/fr/tickets/site-archeologique-de-volubilis",
+   "a_verifier": false,
+   "note": "Billets en vente en ligne sur le site du ministère de la Culture ; un guide officiel à l'entrée rend les ruines bien plus vivantes.",
+   "photo": {
+    "auteur": "Chrisi1964",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Volubilis_1990.jpg",
+    "src": "img/activites/FEZ/volubilis.jpg"
+   }
+  },
+  {
+   "id": "meknes",
+   "nom": "Journée à Meknès, la ville impériale",
+   "emoji": "🏰",
+   "type": "nature",
+   "quartier": "Meknès",
+   "lat": 33.892584,
+   "lng": -5.564639,
+   "prix": 7,
+   "prix_detail": [
+    [
+     "Mausolée de Moulay Ismaïl",
+     "gratuit"
+    ],
+    [
+     "Greniers de Moulay Ismaïl (Heri es-Souani)",
+     "≈ 70 dirhams (≈ 7 €)"
+    ],
+    [
+     "Train depuis Fès",
+     "≈ 25 à 40 dirhams (≈ 3 €), environ 40 min"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 7,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "libre",
+   "duree": "une journée",
+   "moment": "En train depuis la gare de Fès, ou en combiné avec Volubilis",
+   "enfants": true,
+   "texte": "À 40 minutes de train, la capitale du sultan Moulay Ismaïl a gardé ses 40 km de remparts et sa porte Bab Mansour, l'une des plus belles du Maroc. On y flâne sur la place el-Hedim, plus paisible que Jemaa el-Fna, avant de visiter les immenses greniers et écuries royales.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/meknes",
+   "a_verifier": false,
+   "photo": {
+    "auteur": "Chris Martin from Decatur, Georgia, USA",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bab_Mansour_Gate.jpg",
+    "src": "img/activites/FEZ/meknes.jpg"
+   }
+  },
+  {
+   "id": "ifrane",
+   "nom": "Ifrane et la forêt de cèdres d'Azrou",
+   "emoji": "🐒",
+   "type": "nature",
+   "quartier": "Moyen Atlas",
+   "lat": 33.527605,
+   "lng": -5.107408,
+   "prix": 40,
+   "prix_detail": [
+    [
+     "Excursion à la journée avec chauffeur",
+     "≈ 35 à 50 € par personne"
+    ],
+    [
+     "Promenade dans la forêt",
+     "gratuite"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 40,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, par votre riad ou une agence",
+   "duree": "une journée",
+   "moment": "Toute l'année ; neige possible de décembre à mars",
+   "enfants": true,
+   "texte": "Surnommée la « petite Suisse », Ifrane surprend avec ses chalets à toits pentus et ses parcs fleuris à 1 650 m d'altitude. Plus loin, dans la forêt de cèdres géants d'Azrou, vivent en liberté des singes magots, une espèce protégée qu'on observe de près.",
+   "site_officiel": "https://fr.wikipedia.org/wiki/Ifrane",
+   "a_verifier": false,
+   "note": "Ne nourrissez pas les singes, malgré l'insistance des vendeurs de cacahuètes : c'est mauvais pour eux.",
+   "photo": {
+    "auteur": "Ayoub BAMOHAMED",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Barbary_macaque_near_Azrou.JPG",
+    "src": "img/activites/FEZ/ifrane.jpg"
+   }
+  },
+  {
+   "id": "chefchaouen",
+   "nom": "Journée à Chefchaouen, la ville bleue",
+   "emoji": "💙",
+   "type": "nature",
+   "quartier": "Chefchaouen",
+   "lat": 35.168775,
+   "lng": -5.268345,
+   "prix": 45,
+   "prix_detail": [
+    [
+     "Excursion à la journée avec chauffeur",
+     "≈ 40 à 60 € par personne"
+    ],
+    [
+     "Car CTM (aller simple)",
+     "≈ 85 dirhams (≈ 8 €), environ 4 h"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 45,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "conseille",
+   "reservation_delai": "la veille, par votre riad ou une agence",
+   "duree": "une longue journée",
+   "moment": "Départ vers 7 h, retour le soir : 3 h 30 à 4 h de route dans chaque sens",
+   "enfants": true,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Dans les montagnes du Rif, une petite médina où chaque mur, chaque escalier et chaque porte est peint en bleu. Un décor de carte postale, très photographié, à combiner avec une balade jusqu'à la mosquée espagnole pour la vue au coucher du soleil.",
+   "site_officiel": "https://www.visitmorocco.com/fr/destinations/chefchaouen",
+   "a_verifier": false,
+   "note": "La route est longue pour une seule journée : si vous avez le temps, passez-y une nuit.",
+   "photo": {
+    "auteur": "Mark Fischer",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chefchaouen_Street_B.jpg",
+    "src": "img/activites/FEZ/chefchaouen.jpg"
+   }
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "boujloud",
+   "nom": "Médina, côté Bab Boujloud et Batha",
+   "lat": 34.0615,
+   "lng": -4.9823,
+   "texte": "L'entrée principale de la médina : taxis jusqu'à la porte, cafés, musées et riads à deux pas. Le meilleur point de départ pour un premier séjour, au début des deux grandes rues qui descendent vers le cœur de Fès el-Bali."
+  },
+  {
+   "id": "quaraouiyine",
+   "nom": "Cœur de la médina (Quaraouiyine, Seffarine)",
+   "lat": 34.0645,
+   "lng": -4.9745,
+   "texte": "Dormez dans un riad au milieu des souks, près des médersas et des tanneries. Très calme le soir, mais les voitures n'y entrent pas : prévoyez de marcher 10 à 15 minutes avec vos bagages (un porteur peut vous aider)."
+  },
+  {
+   "id": "ziat",
+   "nom": "Ziat et Douh (sud de la médina)",
+   "lat": 34.0595,
+   "lng": -4.9765,
+   "texte": "Le quartier des grands palais transformés en hôtels de charme, avec jardins et piscines. Plus résidentiel et accessible en voiture par Bab Ziat ou Bab Jdid, à 10 minutes à pied des souks."
+  },
+  {
+   "id": "fes-jdid",
+   "nom": "Fès el-Jdid et le Mellah",
+   "lat": 34.0555,
+   "lng": -4.9905,
+   "texte": "La « nouvelle » Fès du XIIIe siècle, autour du Palais royal et des jardins Jnan Sbil. Moins touristique, plus aéré, avec quelques riads à prix doux, entre la médina et la ville nouvelle."
+  },
+  {
+   "id": "ville-nouvelle",
+   "nom": "Ville nouvelle",
+   "lat": 34.0335,
+   "lng": -5.0005,
+   "texte": "Avenues, cafés modernes et grands hôtels avec piscine, près de la gare. Pratique en voiture et pour les familles ; comptez 10 minutes de petit taxi (≈ 15 à 20 dirhams) pour rejoindre la médina."
+  }
+ ],
+ "hotel_petit_prix_max": 60,
+ "restaurants": [
+  {
+   "id": "clock",
+   "nom": "Café Clock",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Café culturel et burger de chameau",
+   "quartier": "Talaa Kebira",
+   "adresse": "7 Derb el-Magana, Talaa Kebira",
+   "lat": 34.062336,
+   "lng": -4.983307,
+   "prix": "10 à 15 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le café le plus connu de Fès, dans une maison ancienne à côté de l'horloge à eau mérinide : son burger de chameau est devenu une légende, et la terrasse sur le toit offre une jolie vue. Concerts, contes et films y animent les soirées.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; ouvert de 9 h à 22 h",
+   "photo": {
+    "auteur": "Michal Osmenda from Brussels, Belgium",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fes_(5364084263).jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/clock.jpg"
+   }
+  },
+  {
+   "id": "dar-hammad",
+   "nom": "Dar Hammad",
+   "emoji": "🥘",
+   "gamme": "petit",
+   "genre": "Cuisine familiale marocaine",
+   "quartier": "Talaa Sghira",
+   "adresse": "14 Zkak Lahjar, Talaa Sghira",
+   "lat": 34.063401,
+   "lng": -4.978245,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Une petite maison de famille où l'on mange comme chez une grand-mère fassie : tajine de poulet aux citrons confits, couscous, salades cuites et pastilla. Accueil chaleureux et prix doux, à deux pas des grandes ruelles.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; venir tôt le soir",
+   "photo": {
+    "auteur": "Ifni95",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tajine_Djaj_zitoune_maroc.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/dar-hammad.jpg"
+   }
+  },
+  {
+   "id": "fondouk-bazaar",
+   "nom": "Fondouk Bazaar",
+   "emoji": "🌿",
+   "gamme": "petit",
+   "genre": "Cuisine marocaine moderne en terrasse",
+   "quartier": "Talaa Kebira",
+   "adresse": "16 Talaa Kebira",
+   "lat": 34.064303,
+   "lng": -4.979572,
+   "prix": "10 à 18 €",
+   "prix_min": 10,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Une terrasse plantée de verdure, au-dessus de la Talaa Kebira, avec vue sur les toits de la médina. La cuisine revisite les classiques avec légèreté : tajines, salades colorées, jus frais et desserts maison, dans un cadre très photogénique.",
+   "reservation": "conseille",
+   "reservation_delai": "le jour même pour une table en terrasse au coucher du soleil",
+   "photo": {
+    "auteur": "Andrew Nash from Vienna, Austria",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fes_Morocco_Medina_rooftops_Sept_2014_-_1_(15922382065).jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/fondouk-bazaar.jpg"
+   }
+  },
+  {
+   "id": "veggie-pause",
+   "nom": "Veggie Pause",
+   "emoji": "🥗",
+   "gamme": "petit",
+   "genre": "Cuisine végétarienne",
+   "quartier": "Batha",
+   "adresse": "9 rue de la Poste, Batha",
+   "lat": 34.061288,
+   "lng": -4.982927,
+   "prix": "8 à 14 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Une petite adresse végétarienne près de Bab Boujloud, parmi les mieux notées de la ville : tajines de légumes, bowls, soupes et pâtisseries maison. Une pause légère et fraîche entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; petite salle, venir avant 13 h",
+   "photo": {
+    "auteur": "Rainer Zenz",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Couscous-1.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/veggie-pause.jpg"
+   }
+  },
+  {
+   "id": "cinema-cafe",
+   "nom": "Cinema Café",
+   "emoji": "🎬",
+   "gamme": "petit",
+   "genre": "Café-restaurant décor cinéma",
+   "quartier": "Batha",
+   "adresse": "8 Sidi Lkhayat, Batha",
+   "lat": 34.060103,
+   "lng": -4.981209,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Affiches de films, vieux projecteurs et bobines : ce café décalé près de la place Batha sert des tajines, des sandwiches et de grands jus de fruits frais à petit prix. Une adresse sympathique et animée, appréciée des voyageurs comme des étudiants.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation",
+   "photo": {
+    "auteur": "Munfarid1",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moroccan_mint_tea_on_a_traditional_tray.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/cinema-cafe.jpg"
+   }
+  },
+  {
+   "id": "bissara",
+   "nom": "Chez Adil, la bissara du matin",
+   "emoji": "🥣",
+   "gamme": "petit",
+   "genre": "Soupe de fèves de rue",
+   "quartier": "Quaraouiyine",
+   "adresse": "Près de la place Seffarine, médina",
+   "lat": 34.06664,
+   "lng": -4.974922,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Le petit-déjeuner des Fassis : une soupe épaisse de fèves sèches, arrosée d'huile d'olive et de cumin, servie dans un bol de terre avec du pain chaud. Quelques bancs dans une échoppe minuscule, une recette inchangée et l'un des repas les moins chers du Maroc.",
+   "reservation": "sur_place",
+   "reservation_delai": "sans réservation ; le matin seulement, jusqu'à la fin du stock",
+   "photo": {
+    "auteur": "EKez",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thamarakt,_pur%C3%A9e_de_pois_cass%C3%A9s_%C3%A0_servir_avec_un_bon_filet_d%27huile_d%27olive..jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/bissara.jpg"
+   }
+  },
+  {
+   "id": "darori",
+   "nom": "Darori",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Banquet fassi (diffa)",
+   "quartier": "R'cif",
+   "adresse": "2 Derb Seyour, derrière la mosquée R'cif",
+   "lat": 34.062581,
+   "lng": -4.973544,
+   "prix": "25 à 35 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Une grande maison de la médina, sous un plafond de verre coloré, qui sert la « diffa », le repas de fête fassi : une ribambelle de salades, pastilla au pigeon, tajine de bœuf aux pruneaux et pâtisseries. Une table généreuse, parmi les mieux notées de Fès.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille ; ouvert le soir seulement, le restaurant peut envoyer quelqu'un vous chercher",
+   "photo": {
+    "auteur": "kochtopf",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pastilla_marocaine_recouverte_de_sucre_glace.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/darori.jpg"
+   }
+  },
+  {
+   "id": "la-cave",
+   "nom": "La Cave",
+   "emoji": "🍷",
+   "gamme": "moyen",
+   "genre": "Cuisine franco-marocaine sous les voûtes",
+   "quartier": "Talaa Kebira",
+   "adresse": "37 Zkak Lma, Talaa Kebira",
+   "lat": 34.064429,
+   "lng": -4.97877,
+   "prix": "20 à 35 €",
+   "prix_min": 20,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un restaurant installé dans une ancienne cave voûtée, éclairée de lanternes et de fresques, où l'on voit les cuisiniers travailler. La carte mêle classiques marocains et plats d'inspiration française, avec des desserts maison très appréciés.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner",
+   "photo": {
+    "auteur": "Marco Almbauer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moroccan_tajine_with_meat.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/la-cave.jpg"
+   }
+  },
+  {
+   "id": "dar-hatim",
+   "nom": "Dar Hatim",
+   "emoji": "🏠",
+   "gamme": "moyen",
+   "genre": "Dîner chez l'habitant",
+   "quartier": "Quaraouiyine",
+   "adresse": "19 Derb Zaouia, Fondouk Lihoudi",
+   "lat": 34.067318,
+   "lng": -4.974443,
+   "prix": "20 à 30 €",
+   "prix_min": 20,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La famille Bouaa reçoit au rez-de-chaussée de sa maison, une demeure ancienne aux murs de zelliges. Salades marocaines, pain chaud, tajines, couscous et pastilla : un vrai repas fassi, servi avec une gentillesse qui fait la réputation de l'adresse depuis des années.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille par téléphone ; la famille vient souvent vous chercher dans la médina",
+   "photo": {
+    "auteur": "Laurhim",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Couscous_(74111).jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/dar-hatim.jpg"
+   }
+  },
+  {
+   "id": "bistro-laaroussa",
+   "nom": "Bistro Laaroussa",
+   "emoji": "🍋",
+   "gamme": "moyen",
+   "genre": "Cuisine du marché dans un riad",
+   "quartier": "Batha",
+   "adresse": "3 Derb Serraj, Talaa Sghira",
+   "lat": 34.063309,
+   "lng": -4.979207,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Riad distingué par une Clé Michelin (2026)",
+   "texte": "Le bistrot du riad Laaroussa, un palais du XVIIe siècle distingué par le guide Michelin. Autour du patio planté d'orangers, une cuisine du marché légère, qui marie produits marocains et recettes méditerranéennes.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Tahirshah999",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:MOROCCAN_SALADS,_CASABLANCA,_MOROCCO.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/bistro-laaroussa.jpg"
+   }
+  },
+  {
+   "id": "dar-roumana",
+   "nom": "Dar Roumana",
+   "emoji": "🍮",
+   "gamme": "moyen",
+   "genre": "Cuisine franco-marocaine raffinée",
+   "quartier": "Ziat",
+   "adresse": "30 Derb el-Amer, Zkak Roumane",
+   "lat": 34.066899,
+   "lng": -4.978191,
+   "prix": "30 à 40 € (menus)",
+   "prix_min": 30,
+   "badges": [],
+   "texte": "Souvent citée comme l'une des meilleures tables de Fès : un menu à deux ou trois plats, entre France et Maroc, servi dans le patio d'une maison des années 1920 couverte de stucs et de cèdre. Seulement cinq tables, une ambiance feutrée.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux ou trois jours avant (cinq tables seulement)",
+   "photo": {
+    "auteur": "Mike Prince from Bangalore, India",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dar_Roumana_(4782225606).jpg",
+    "src": "img/restos/FEZ/dar-roumana.jpg"
+   }
+  },
+  {
+   "id": "dar-tajine",
+   "nom": "Les Mystères de Dar Tajine",
+   "emoji": "🫕",
+   "gamme": "moyen",
+   "genre": "Tajines dans un palais",
+   "quartier": "Talaa Sghira",
+   "adresse": "4 Derb Hammam Guerniz",
+   "lat": 34.063733,
+   "lng": -4.97599,
+   "prix": "25 à 40 €",
+   "prix_min": 25,
+   "badges": [],
+   "texte": "Un riad du XVIIIe siècle aux colonnes de zelliges et aux plafonds peints, où l'on dîne autour d'une fontaine. La maison s'est fait une spécialité des tajines, du plus classique au plus original, avec une terrasse pour l'apéritif au-dessus des toits.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Jafri Ali",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tajines_in_a_pottery_shop_in_Morocco.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/dar-tajine.jpg"
+   }
+  },
+  {
+   "id": "gayza",
+   "nom": "Gayza (Riad Fès)",
+   "emoji": "⭐",
+   "gamme": "haut",
+   "genre": "Gastronomie franco-marocaine",
+   "quartier": "Ziat",
+   "adresse": "5 Derb Zerbtana, Riad Fès",
+   "lat": 34.061609,
+   "lng": -4.979808,
+   "prix": "50 à 90 € (menu signature ≈ 75 €)",
+   "prix_min": 50,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Table d'un Relais & Châteaux distingué par une Clé Michelin",
+   "texte": "Le restaurant du Riad Fès, palais andalou membre des Relais & Châteaux. Deux cartes, l'une marocaine (pastilla, coquelet aux citrons confits, méchoui), l'autre française, servies dans un patio de zelliges et de fontaines : le grand dîner de votre séjour.",
+   "reservation": "indispensable",
+   "reservation_delai": "deux ou trois jours avant",
+   "photo": {
+    "auteur": "lin padgham",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Courtyard_fountain,_Dar_Attajali,_Fes_(3511136132).jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/gayza.jpg"
+   }
+  },
+  {
+   "id": "maison-bleue",
+   "nom": "La Maison Bleue",
+   "emoji": "🎶",
+   "gamme": "haut",
+   "genre": "Dîner fassi en musique",
+   "quartier": "Batha",
+   "adresse": "2 place de l'Istiqlal, Batha",
+   "lat": 34.060691,
+   "lng": -4.981865,
+   "prix": "≈ 50 à 70 €",
+   "prix_min": 50,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La demeure d'un grand juge et astronome fassi, devenue l'une des premières maisons d'hôtes de Fès. On y dîne d'un long menu traditionnel, servi au rythme d'un joueur de oud, dans des salons de zelliges et de bois peint.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Michal Osmenda from Brussels, Belgium",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Riad_in_Fes_(5364867960).jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/maison-bleue.jpg"
+   }
+  },
+  {
+   "id": "eden-amani",
+   "nom": "Eden (Palais Amani)",
+   "emoji": "🌺",
+   "gamme": "haut",
+   "genre": "Cuisine marocaine moderne au jardin",
+   "quartier": "Oued Zhoune",
+   "adresse": "12 Derb el-Miter, Palais Amani",
+   "lat": 34.067471,
+   "lng": -4.972058,
+   "prix": "≈ 50 à 70 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "Le restaurant du Palais Amani, un palais art déco autour d'un jardin d'orangers. Le menu de saison réinvente la cuisine fassie (tajine de bœuf confit, canard aux pruneaux), et le bar sur le toit offre une vue sur toute la médina.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Yanygin Maxim",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moroccan_tajine.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/eden-amani.jpg"
+   }
+  },
+  {
+   "id": "amaraz",
+   "nom": "Amaraz (Hôtel Sahrai)",
+   "emoji": "🌙",
+   "gamme": "haut",
+   "genre": "Cuisine marocaine avec vue sur la médina",
+   "quartier": "Dhar el-Mehraz",
+   "adresse": "Dhar el-Mehraz, Hôtel Sahrai",
+   "lat": 34.043648,
+   "lng": -4.992186,
+   "prix": "≈ 50 à 80 €",
+   "prix_min": 50,
+   "badges": [],
+   "texte": "Sur la colline face à la médina, l'hôtel design Sahrai sert des dîners aux chandelles (tajine de caille aux amandes, pastillas) avec une vue panoramique sur Fès. On y prend un verre au bar du toit, l'un des rares de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Yair Haklai",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Borj_Sud-Fes.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/amaraz.jpg"
+   }
+  },
+  {
+   "id": "karawan",
+   "nom": "Le Karawan",
+   "emoji": "🕯️",
+   "gamme": "haut",
+   "genre": "Cuisine méditerranéenne raffinée",
+   "quartier": "Ziat",
+   "adresse": "21 Derb Ourbia, Karawan Riad",
+   "lat": 34.059998,
+   "lng": -4.97104,
+   "prix": "≈ 60 à 100 €",
+   "prix_min": 60,
+   "badges": [
+    "recompense"
+   ],
+   "recompense": "Riad distingué par une Clé Michelin (2026)",
+   "texte": "La table du Karawan Riad, une demeure du XVIIe siècle restaurée avec un goût rare et distinguée par le guide Michelin. Une cuisine méditerranéenne et marocaine fine, servie dans le patio ou sur la terrasse aux bougies.",
+   "reservation": "indispensable",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "numediaweb",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Riad_or_Dar_Belghazi_-_Fes,_fez,_%D9%81%D8%A7%D8%B3_(9281648961).jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/karawan.jpg"
+   }
+  },
+  {
+   "id": "mb",
+   "nom": "MB Restaurant Lounge",
+   "emoji": "🥂",
+   "gamme": "haut",
+   "genre": "Cuisine française et cocktails",
+   "quartier": "Ville nouvelle",
+   "adresse": "12 rue Ahmed Chaouki, ville nouvelle",
+   "lat": 34.032033,
+   "lng": -5.004417,
+   "prix": "≈ 40 à 60 €",
+   "prix_min": 40,
+   "badges": [],
+   "texte": "Le rendez-vous chic de la ville nouvelle : une salle contemporaine, une cuisine française soignée (poisson, viandes grillées, desserts) et des cocktails, servis jusque tard. Un changement de décor après plusieurs jours de tajines.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille le week-end",
+   "photo": {
+    "auteur": "Bretwa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_glass_of_chardonnay_and_a_carrousel_cocktail_at_restaurant_Le_Ciel_de_Paris_-_2019-09-18.jpg",
+    "illustration": true,
+    "src": "img/restos/FEZ/mb.jpg"
+   }
+  }
+ ]
+}

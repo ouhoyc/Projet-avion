@@ -272,3 +272,7 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   Michelin : `guide.michelin.com/fr/fr/provence-alpes-cote-dazur/nice/restaurants` (Playwright, icônes `michelin-star` et Bib dans la carte). Prix officiels
   lisibles par `curl` sur `nice.fr/lieux/<musée>/` (grille des musées municipaux, fermetures). Flaveur affiche ses menus (restaurant-flaveur.com, Playwright).
   Commons : l'API répondait « 429 » après une trentaine de recherches ; la recherche HTML (`ns6=1`) + `thumb.php` a pris le relais.
+- Fès (nov. 2026) : Wanderlog, départ `geoCategory/75331/where-to-eat-best-restaurants-in-fez`, listes finissant par « -fez » ou « -fes » (~110 listes,
+  191 restaurants notés) ; les pages de listes n'ont pas les positions et certaines fiches lieu donnent une position par défaut (34.062347,-4.983029 ou
+  34.066791,-4.978564) : vérifier avec Nominatim. Tarif officiel de Volubilis sur `e-services.minculture.gov.ma/fr/tickets/…` ; carte du Riad Fès en PDF
+  (`riadfes.com/download/menugayza_…pdf`). Commons : recherche HTML (`ns6=1`) + `thumb.php` sans « 429 » ; peu de photos de restaurants de Fès.
