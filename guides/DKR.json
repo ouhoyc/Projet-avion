@@ -1,0 +1,1370 @@
+{
+  "city_code": "DKR",
+  "statut": "préparé en autonomie, prix relevés le 18/11/2026 (1 € = 655,957 FCFA)",
+  "verifie_le": "2026-11-18",
+  "avant_de_partir": "Passeport obligatoire, valable plus de 6 mois, y compris pour les enfants ; pas de visa pour un séjour de moins de 3 mois. Aucun vaccin n'est exigé depuis mars 2026, mais le vaccin contre la fièvre jaune est fortement recommandé et un traitement contre le paludisme conseillé : voyez votre médecin un mois avant le départ.",
+  "transport": "le taxi",
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "goree",
+      "nom": "Île de Gorée, ses ruelles de bougainvilliers",
+      "emoji": "⛴️",
+      "type": "balade",
+      "quartier": "Gorée",
+      "lat": 14.6672,
+      "lng": -17.3984,
+      "prix": 9.9,
+      "prix_detail": [
+        [
+          "Chaloupe aller-retour depuis le port de Dakar (étrangers)",
+          "6 000 FCFA + 500 FCFA de taxe de la commune, soit 6 500 FCFA (≈ 9,90 €)"
+        ],
+        [
+          "Enfant",
+          "≈ 3 000 FCFA + taxe (≈ 5,30 €)"
+        ],
+        [
+          "Traversée",
+          "20 min, départs toute la journée"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9.9,
+        "enfants": [
+          [
+            11,
+            5.3
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "une demi-journée",
+      "moment": "Le matin, par la première chaloupe, avant les groupes ; évitez le dimanche, très fréquenté par les Dakarois",
+      "enfants": true,
+      "texte": "À vingt minutes de bateau du port, une île sans voitures classée par l'Unesco : maisons ocre et rouges, balcons croulant sous les bougainvilliers, ruelles de sable et artistes qui peignent devant leur porte. On monte au Castel, au sommet, pour la vue sur Dakar, et on finit les pieds dans l'eau sur la petite plage du débarcadère.",
+      "site_officiel": "https://whc.unesco.org/fr/list/26/",
+      "a_verifier": false,
+      "note": "Le billet se prend à la gare maritime du port (pas de réservation). Sur l'île, des « guides » vous abordent dès le débarcadère : fixez le prix avant (≈ 5 000 à 10 000 FCFA pour le groupe) ou visitez seul, l'île se parcourt en deux heures.",
+      "badges": [
+        "tendance"
+      ],
+      "photo": {
+        "auteur": "Issathiome",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:A_typical_street_in_the_island_of_Gor%C3%A9e.jpg",
+        "pos": "center 60%",
+        "src": "img/activites/DKR/goree.jpg"
+      }
+    },
+    {
+      "id": "maison-esclaves",
+      "nom": "Maison des Esclaves de Gorée",
+      "emoji": "🕯️",
+      "type": "culture",
+      "quartier": "Gorée",
+      "lat": 14.66765,
+      "lng": -17.39725,
+      "prix": 2.3,
+      "prix_detail": [
+        [
+          "Entrée (non-résidents)",
+          "1 500 FCFA (≈ 2,30 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 2.3,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "En matinée ; fermée le lundi",
+      "enfants": true,
+      "texte": "La maison rose de 1776 et sa « porte du voyage sans retour », ouverte sur l'océan, sont devenues le symbole mondial de la mémoire de la traite. Nelson Mandela, Jean-Paul II et Barack Obama sont venus s'y recueillir : on ressort des cellules étroites du rez-de-chaussée en silence.",
+      "site_officiel": "https://whc.unesco.org/fr/list/26/",
+      "a_verifier": false,
+      "note": "Fermée le lundi : programmez Gorée un autre jour. Les explications du conservateur, en français, sont incluses.",
+      "photo": {
+        "auteur": "HaguardDuNord",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gor%C3%A9e_-_Maison_des_esclaves%2C_cour.JPG",
+        "src": "img/activites/DKR/maison-esclaves.jpg"
+      }
+    },
+    {
+      "id": "renaissance",
+      "nom": "Monument de la Renaissance africaine",
+      "emoji": "🗿",
+      "type": "vue",
+      "quartier": "Ouakam",
+      "lat": 14.72214,
+      "lng": -17.49497,
+      "prix": 9.9,
+      "prix_detail": [
+        [
+          "Visite complète avec ascenseur jusqu'au belvédère (étrangers)",
+          "6 500 FCFA (≈ 9,90 €)"
+        ],
+        [
+          "Montée des 198 marches et vue depuis le pied de la statue",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9.9,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "En fin d'après-midi, pour la lumière dorée sur la ville",
+      "enfants": true,
+      "texte": "Plus haute que la statue de la Liberté, cette famille de bronze de 52 m domine Dakar depuis la colline des Mamelles. On grimpe les 198 marches pour la photo, puis l'ascenseur file jusque dans la tête de l'homme, d'où l'on voit toute la presqu'île du Cap-Vert et l'océan.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Monument_de_la_Renaissance_africaine",
+      "a_verifier": false,
+      "note": "Tarif étranger affiché à la billetterie, payable en espèces.",
+      "badges": [
+        "tendance"
+      ],
+      "photo": {
+        "auteur": "Richard N Horne",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_African_Renaissance_Monument.jpg",
+        "src": "img/activites/DKR/renaissance.jpg"
+      }
+    },
+    {
+      "id": "mcn",
+      "nom": "Musée des Civilisations noires",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Plateau",
+      "lat": 14.67746,
+      "lng": -17.43507,
+      "prix": 4.6,
+      "prix_detail": [
+        [
+          "Entrée adulte",
+          "≈ 3 000 FCFA (≈ 4,60 €)"
+        ],
+        [
+          "Enfant",
+          "≈ 500 FCFA"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 4.6,
+        "enfants": [
+          [
+            12,
+            0.8
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Du mardi au dimanche, de 10 h à 19 h (fermé le lundi)",
+      "enfants": true,
+      "texte": "Un grand musée rond inspiré des cases à impluvium de Casamance, ouvert en 2018 : masques, sculptures, le sabre d'El Hadj Omar Tall rendu par la France, art contemporain africain et une galerie sur la diaspora des Amériques. Le meilleur endroit pour comprendre l'Afrique avant d'aller à Gorée.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_Civilisations_noires",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "4MAPS",
+        "licence": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_civilisations_noires_01.jpg",
+        "src": "img/activites/DKR/mcn.jpg"
+      }
+    },
+    {
+      "id": "ifan",
+      "nom": "Musée Théodore-Monod d'art africain",
+      "emoji": "🎭",
+      "type": "culture",
+      "quartier": "Plateau",
+      "lat": 14.66367,
+      "lng": -17.43828,
+      "prix": 3.0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "≈ 2 000 FCFA (≈ 3 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 3.0,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Du mardi au dimanche, de 9 h à 17 h (fermé le lundi et les jours fériés)",
+      "enfants": true,
+      "texte": "L'un des plus anciens musées d'Afrique de l'Ouest, fondé en 1936 : près de 10 000 masques, statues, instruments et tissus venus de toute la région. La salle des masques du Mali, de Guinée-Bissau et de Casamance est saisissante.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Mus%C3%A9e_Th%C3%A9odore-Monod_d%27art_africain",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Bess Sadler from Palo Alto, CA, USA",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dakar-Mus%C3%A9e_de_l%27IFAN_%2813%29.jpg",
+        "src": "img/activites/DKR/ifan.jpg"
+      }
+    },
+    {
+      "id": "plateau",
+      "nom": "Le Plateau à pied : place de l'Indépendance, gare et cathédrale",
+      "emoji": "🚶",
+      "type": "balade",
+      "quartier": "Plateau",
+      "lat": 14.66953,
+      "lng": -17.43206,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le matin en semaine, quand le centre s'anime",
+      "enfants": true,
+      "texte": "Le cœur administratif de Dakar mêle architecture coloniale et immeubles des indépendances : la place de l'Indépendance, le palais présidentiel blanc et ses gardes rouges, la gare de 1914 restaurée pour le TER et la cathédrale du Souvenir africain. On termine au bord de l'eau, sur la petite plage de l'Anse Bernard.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Dakar-Plateau",
+      "a_verifier": false,
+      "note": "Ne photographiez pas le palais présidentiel ni les militaires : c'est interdit.",
+      "photo": {
+        "auteur": "mostroneddo",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Dakar-Ind%C3%A9pendance.jpg",
+        "src": "img/activites/DKR/plateau.jpg"
+      }
+    },
+    {
+      "id": "kermel",
+      "nom": "Marché Kermel",
+      "emoji": "🧺",
+      "type": "balade",
+      "quartier": "Plateau",
+      "lat": 14.67045,
+      "lng": -17.42893,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Le matin, pour les étals de poissons et de fruits",
+      "enfants": true,
+      "texte": "Une halle ronde de 1910 aux faïences vertes et ferronneries, reconstruite à l'identique après un incendie : à l'intérieur, poissons, fruits tropicaux et fleurs ; tout autour, les vendeurs de paniers, de tissus et de masques. Le marché le plus photogénique du centre.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/March%C3%A9_Kermel",
+      "a_verifier": false,
+      "note": "Négociez tout ce qui n'a pas de prix affiché : le premier prix annoncé aux touristes est souvent le double.",
+      "photo": {
+        "auteur": "Balou46",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:SN-dakar-marche-kermel-1.jpg",
+        "src": "img/activites/DKR/kermel.jpg"
+      }
+    },
+    {
+      "id": "hlm",
+      "nom": "Marché HLM, le paradis du wax",
+      "emoji": "🧵",
+      "type": "balade",
+      "quartier": "HLM",
+      "lat": 14.70608,
+      "lng": -17.44459,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ],
+        [
+          "Coupon de wax (6 yards)",
+          "≈ 10 000 à 30 000 FCFA (≈ 15 à 45 €)"
+        ],
+        [
+          "Tenue sur mesure chez un tailleur",
+          "≈ 10 000 à 25 000 FCFA, en 2 à 3 jours"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h",
+      "moment": "Le matin, du lundi au samedi",
+      "enfants": true,
+      "texte": "Le grand marché aux tissus de Dakar : des allées entières de wax, de bazin brillant et de broderies, et des tailleurs qui vous font une chemise ou une robe sur mesure en deux jours. Choisissez votre tissu le premier jour, récupérez votre tenue avant de repartir.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/HLM_(Dakar)",
+      "a_verifier": false,
+      "note": "Allez-y tôt dans le séjour si vous voulez faire coudre une tenue. Gardez votre sac devant vous dans la foule.",
+      "photo": {
+        "auteur": "AdjoEsse",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fabrication_d%27%C3%A9ventail_en_wax_11.jpg",
+        "illustration": true,
+        "src": "img/activites/DKR/hlm.jpg"
+      }
+    },
+    {
+      "id": "soumbedioune",
+      "nom": "Retour des pirogues à Soumbédioune",
+      "emoji": "🛶",
+      "type": "balade",
+      "quartier": "Soumbédioune",
+      "lat": 14.6795,
+      "lng": -17.4615,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plage et marché aux poissons",
+          "gratuit"
+        ],
+        [
+          "Village artisanal",
+          "gratuit (on achète si l'on veut)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En fin d'après-midi, vers 17 h, quand les pêcheurs rentrent",
+      "enfants": true,
+      "texte": "Chaque fin d'après-midi, des dizaines de pirogues peintes de couleurs vives s'échouent sur la plage de la baie, et le poisson est vendu à la criée sur le sable. Juste au-dessus, le village artisanal rassemble sculpteurs, bijoutiers et maroquiniers.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Soumb%C3%A9dioune",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jeff Attaway from Abuja, Nigeria",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Soumbedioune_Boats_%285405595088%29.jpg",
+        "src": "img/activites/DKR/soumbedioune.jpg"
+      }
+    },
+    {
+      "id": "corniche",
+      "nom": "Coucher de soleil sur la corniche Ouest",
+      "emoji": "🌅",
+      "type": "vue",
+      "quartier": "Corniche Ouest",
+      "lat": 14.693,
+      "lng": -17.473,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil, vers 18 h 30 à 19 h selon la saison",
+      "enfants": true,
+      "texte": "La route qui longe l'Atlantique de Fann aux Mamelles est le grand terrain de sport de Dakar : au coucher du soleil, des centaines de Dakarois y courent, font de la musculation sur les agrès en plein air ou jouent au foot sur la plage. L'ambiance la plus vivante de la ville, face à l'océan.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Dakar",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Mouhamadou86",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:La_corniche_Ouest_de_Dakar.jpg",
+        "src": "img/activites/DKR/corniche.jpg"
+      }
+    },
+    {
+      "id": "phare",
+      "nom": "Phare des Mamelles, la vue à 360°",
+      "emoji": "🗼",
+      "type": "vue",
+      "quartier": "Mamelles",
+      "lat": 14.72378,
+      "lng": -17.50185,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Montée à pied et vue depuis l'esplanade",
+          "gratuit"
+        ],
+        [
+          "Visite de la tour avec le gardien",
+          "pourboire apprécié"
+        ],
+        [
+          "Soirée au bar-restaurant du phare",
+          "≈ 5 000 FCFA l'entrée avec une boisson (≈ 7,60 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En fin d'après-midi, pour le coucher du soleil sur l'océan",
+      "enfants": true,
+      "texte": "Perché sur la plus haute colline de Dakar depuis 1864, le phare blanc offre la plus belle vue de la ville : les Almadies, l'île de Ngor, le Monument de la Renaissance et l'océan à perte de vue. Le bar-restaurant installé à ses pieds est le rendez-vous des couchers de soleil.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Phare_des_Mamelles",
+      "a_verifier": false,
+      "note": "Comptez 15 à 20 min de montée à pied par le chemin pavé, ou montez en taxi jusqu'en haut.",
+      "badges": [
+        "tendance"
+      ],
+      "photo": {
+        "auteur": "Jeff Attaway from Abuja, Nigeria",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Phare_Des_Mamelles_%285625723390%29.jpg",
+        "src": "img/activites/DKR/phare.jpg"
+      }
+    },
+    {
+      "id": "divinite",
+      "nom": "Mosquée de la Divinité, les pieds dans l'océan",
+      "emoji": "🕌",
+      "type": "culture",
+      "quartier": "Ouakam",
+      "lat": 14.71595,
+      "lng": -17.49026,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Vue depuis l'extérieur et la plage",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "En fin d'après-midi ; évitez le vendredi midi et les heures de prière",
+      "enfants": true,
+      "texte": "Ses deux minarets blancs se dressent au-dessus des vagues, au pied des falaises de Ouakam : construite en 1997 après la vision d'un guide religieux, la mosquée est l'une des images les plus photographiées de Dakar. Les pirogues des pêcheurs sont amarrées juste devant.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Mosqu%C3%A9e_de_la_Divinit%C3%A9",
+      "a_verifier": false,
+      "note": "Tenue couvrante (épaules et jambes) ; l'intérieur n'est pas toujours ouvert aux visiteurs.",
+      "badges": [
+        "tendance"
+      ],
+      "photo": {
+        "auteur": "Issathiome",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mosque_of_the_Divinity%2C_Dakar.jpg",
+        "src": "img/activites/DKR/divinite.jpg"
+      }
+    },
+    {
+      "id": "almadies",
+      "nom": "Pointe des Almadies, le bout de l'Afrique",
+      "emoji": "🧭",
+      "type": "vue",
+      "quartier": "Almadies",
+      "lat": 14.74106,
+      "lng": -17.52978,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "45 min",
+      "moment": "Au coucher du soleil, avec un jus de bissap face aux vagues",
+      "enfants": true,
+      "texte": "Le point le plus à l'ouest du continent africain : des rochers noirs battus par l'Atlantique, des surfeurs dans les rouleaux et les paillotes où l'on déguste huîtres et poissons grillés. Le soir, tout le quartier des Almadies s'anime autour.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Pointe_des_Almadies",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jeff Attaway",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pointe_des_Almadies_-_Senegal.jpg",
+        "src": "img/activites/DKR/almadies.jpg"
+      }
+    },
+    {
+      "id": "ngor",
+      "nom": "Île de Ngor en pirogue",
+      "emoji": "🏝️",
+      "type": "nature",
+      "quartier": "Ngor",
+      "lat": 14.7556,
+      "lng": -17.51184,
+      "prix": 1.5,
+      "prix_detail": [
+        [
+          "Pirogue aller-retour depuis la plage de Ngor",
+          "≈ 1 000 FCFA (≈ 1,50 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 1.5,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "une demi-journée",
+      "moment": "En semaine, de 10 h à 18 h (dernière pirogue vers 19 h)",
+      "enfants": true,
+      "texte": "Cinq minutes de pirogue suffisent pour quitter le bruit de Dakar : une petite île sans voitures, des ruelles fleuries, des criques d'eau calme pour se baigner et des paillotes où l'on mange le poisson du jour. Le grand spot de surf de Ngor Right fait face à l'île.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/%C3%8Ele_de_Ngor",
+      "a_verifier": false,
+      "note": "Fixez le prix avant de monter dans la pirogue et gardez votre ticket pour le retour.",
+      "badges": [
+        "tendance"
+      ],
+      "photo": {
+        "auteur": "Jeff Attaway from Abuja, Nigeria",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ngor-Vue_a%C3%A9rienne.jpg",
+        "src": "img/activites/DKR/ngor.jpg"
+      }
+    },
+    {
+      "id": "surf",
+      "nom": "Cours de surf à Ngor",
+      "emoji": "🏄",
+      "type": "sport",
+      "quartier": "Ngor",
+      "lat": 14.7509,
+      "lng": -17.51483,
+      "prix": 25,
+      "prix_detail": [
+        [
+          "Cours collectif de 2 h (planche et combinaison comprises)",
+          "≈ 16 400 FCFA (25 €)"
+        ],
+        [
+          "Location de planche à la journée",
+          "≈ 10 000 FCFA (15 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 25,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille, auprès d'une école de la plage de Ngor ou de votre hôtel",
+      "duree": "2 h",
+      "moment": "De novembre à avril pour les grosses vagues ; débutants : plutôt l'été, quand la mer est plus calme",
+      "enfants": false,
+      "texte": "Dakar est la capitale du surf en Afrique de l'Ouest, rendue célèbre par le film « The Endless Summer » tourné à Ngor. Les écoles de la plage emmènent les débutants sur les vagues douces de la baie, avec l'eau à 22-26 °C presque toute l'année.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/%C3%8Ele_de_Ngor",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Isabelle Lemelin",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:SurfDakar%2C_Senegal_%282%29.jpg",
+        "src": "img/activites/DKR/surf.jpg"
+      }
+    },
+    {
+      "id": "madeleine",
+      "nom": "Îles de la Madeleine, le parc national en face de Dakar",
+      "emoji": "🐦",
+      "type": "nature",
+      "quartier": "Soumbédioune",
+      "lat": 14.67759,
+      "lng": -17.46294,
+      "prix": 9.5,
+      "prix_detail": [
+        [
+          "Entrée du parc national",
+          "1 000 FCFA (≈ 1,50 €)"
+        ],
+        [
+          "Pirogue aller-retour",
+          "4 000 FCFA (≈ 6 €)"
+        ],
+        [
+          "Guide du parc (obligatoire)",
+          "5 000 FCFA pour le groupe"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9.5,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "une demi-journée",
+      "moment": "De 9 h à 17 h ; mer calme de préférence (le parc ferme les jours de houle)",
+      "enfants": false,
+      "texte": "L'un des plus petits parcs nationaux du monde se trouve à 4 km de la corniche : deux îlots volcaniques déserts, des baobabs nains, des colonies d'oiseaux marins et des eaux turquoise où l'on se baigne dans une crique. Le Dakar sauvage, à vingt minutes de pirogue.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Parc_national_des_%C3%AEles_de_la_Madeleine",
+      "a_verifier": false,
+      "note": "Départ du poste du parc sur la corniche Ouest, à Soumbédioune. Prévoyez des chaussures fermées (rochers, oursins), de l'eau et de la crème solaire : il n'y a rien sur l'île.",
+      "photo": {
+        "auteur": "HaguardDuNord",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:S%C3%A9n%C3%A9gal_-_Iles_de_la_Madeleine_depuis_la_mer_%282%29.JPG",
+        "src": "img/activites/DKR/madeleine.jpg"
+      }
+    },
+    {
+      "id": "lac-rose",
+      "nom": "Lac Rose et récolteurs de sel",
+      "emoji": "🌸",
+      "type": "nature",
+      "quartier": "Lac Retba",
+      "lat": 14.8388,
+      "lng": -17.23283,
+      "prix": 38,
+      "prix_detail": [
+        [
+          "Excursion d'une demi-journée avec chauffeur et guide",
+          "≈ 25 000 FCFA par personne en groupe (≈ 38 €)"
+        ],
+        [
+          "Tour du lac en pirogue",
+          "≈ 15 € par pirogue"
+        ],
+        [
+          "Balade en 4x4 dans les dunes jusqu'à la mer",
+          "≈ 55 € par voiture (jusqu'à 8 personnes)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 38,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille, par votre hôtel ou une agence",
+      "duree": "une demi-journée",
+      "moment": "De décembre à juin, à midi par grand soleil, quand le rose est le plus vif",
+      "enfants": true,
+      "texte": "À une heure de Dakar, un lac si salé qu'on y flotte sans effort, dont l'eau vire au rose sous le soleil grâce à une micro-algue. Les récolteurs, enduits de beurre de karité, remplissent leurs pirogues de sel au milieu des montagnes blanches. On rejoint ensuite l'océan à travers les dunes.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Lac_Rose",
+      "a_verifier": false,
+      "note": "Après les grosses pluies de 2022 et 2024, le lac a perdu sa couleur pendant de longs mois ; elle revient par épisodes, et la récolte du sel a repris en juillet 2026. Sa teinte change avec la saison et la lumière : parfois rose vif, parfois mauve ou simplement brun.",
+      "badges": [
+        "tendance"
+      ],
+      "photo": {
+        "auteur": "Arnault",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lac_Rose_in_Senegal.jpg",
+        "src": "img/activites/DKR/lac-rose.jpg"
+      }
+    },
+    {
+      "id": "bandia",
+      "nom": "Safari à la réserve de Bandia",
+      "emoji": "🦒",
+      "type": "nature",
+      "quartier": "Sindia",
+      "lat": 14.5886,
+      "lng": -16.95521,
+      "prix": 18.3,
+      "prix_detail": [
+        [
+          "Entrée adulte",
+          "12 000 FCFA (≈ 18,30 €)"
+        ],
+        [
+          "Enfant de 3 à 12 ans",
+          "7 000 FCFA (≈ 10,70 €)"
+        ],
+        [
+          "Guide obligatoire",
+          "6 500 FCFA par véhicule"
+        ],
+        [
+          "Véhicule safari de la réserve (8 à 11 places)",
+          "40 000 FCFA ; avec votre taxi ou voiture : 10 000 FCFA"
+        ],
+        [
+          "Excursion d'une journée depuis Dakar (transport compris)",
+          "≈ 25 000 à 30 000 FCFA par personne"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 18.3,
+        "enfants": [
+          [
+            2,
+            0
+          ],
+          [
+            12,
+            10.7
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "la veille, par une agence ou votre hôtel",
+      "duree": "une journée",
+      "moment": "Tôt le matin (ouvert de 8 h à 19 h), quand les animaux sont actifs",
+      "enfants": true,
+      "texte": "À 65 km de Dakar, une savane de baobabs géants où girafes, rhinocéros, zèbres, buffles et autruches vivent en liberté. La visite se fait en camion découvert avec un guide ; on y voit aussi un baobab-cimetière où étaient inhumés les griots.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/R%C3%A9serve_de_Bandia",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Corine REZEL",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Girafon_r%C3%A9serve_de_Bandia_-_panoramio.jpg",
+        "src": "img/activites/DKR/bandia.jpg"
+      }
+    },
+    {
+      "id": "lutte",
+      "nom": "Combat de lutte sénégalaise à l'Arène nationale",
+      "emoji": "🤼",
+      "type": "sport",
+      "quartier": "Pikine",
+      "lat": 14.76124,
+      "lng": -17.39876,
+      "prix": 15,
+      "prix_detail": [
+        [
+          "Billet en tribune populaire",
+          "≈ 2 000 à 5 000 FCFA"
+        ],
+        [
+          "Tribune couverte ou places assises",
+          "≈ 10 000 à 25 000 FCFA (≈ 15 à 38 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 15,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant, aux points de vente ou par votre hôtel",
+      "duree": "une après-midi",
+      "moment": "Le dimanche, pendant la saison des combats (environ de novembre à juillet)",
+      "enfants": false,
+      "texte": "Le vrai sport national, bien avant le foot : des colosses entrent dans l'arène au son des tambours, couverts de gris-gris et précédés de leurs griots, avant un combat où l'on peut frapper. Les grands galas remplissent les 20 000 places de l'Arène nationale de Pikine dans une ambiance électrique.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Lutte_s%C3%A9n%C3%A9galaise",
+      "a_verifier": false,
+      "note": "Les dates des galas sont annoncées quelques semaines avant (presse sportive, affiches dans la ville). Allez-y avec un Sénégalais ou un guide : la foule est très dense à la sortie.",
+      "photo": {
+        "auteur": "M.GADJ!",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:S%C3%A9ance_d%E2%80%99entra%C3%AEnement_de_lutte_s%C3%A9n%C3%A9galaise_de_l%E2%80%99%C3%A9curie_Mbolo_%C3%A0_Thi%C3%A8s.jpg",
+        "illustration": true,
+        "pos": "center 35%",
+        "src": "img/activites/DKR/lutte.jpg"
+      }
+    },
+    {
+      "id": "village-arts",
+      "nom": "Village des Arts",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Yoff",
+      "lat": 14.74636,
+      "lng": -17.45731,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Entrée",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En journée, du lundi au samedi",
+      "enfants": true,
+      "texte": "Une cinquantaine de peintres, sculpteurs et céramistes travaillent dans les ateliers de cet ancien camp de chantier transformé en cité d'artistes. On entre, on discute, on achète parfois une toile directement à l'artiste : la scène contemporaine sénégalaise en direct.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Village_des_arts_de_Dakar",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Kalamuh 045",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:De_la_Peinture_Au_Village_des_Arts_de_Dakar.9.jpg",
+        "src": "img/activites/DKR/village-arts.jpg"
+      }
+    },
+    {
+      "id": "concert",
+      "nom": "Soirée mbalax en live au Just 4 U",
+      "emoji": "🥁",
+      "type": "sortir",
+      "quartier": "Point E",
+      "lat": 14.69172,
+      "lng": -17.4603,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée les soirs de concert",
+          "≈ 5 000 à 10 000 FCFA (≈ 7,60 à 15 €)"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "regardez le programme de la semaine (affiches, réseaux du club) ; table conseillée le samedi",
+      "duree": "une soirée",
+      "moment": "Du jeudi au samedi, les concerts commencent rarement avant 23 h",
+      "enfants": false,
+      "texte": "Le club mythique de l'avenue Cheikh-Anta-Diop, où les grands noms de la musique sénégalaise se produisent depuis des années : sous les paillotes, les orchestres de mbalax jouent jusqu'au bout de la nuit et la piste se remplit de danseurs. La meilleure façon de découvrir la musique de Dakar.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Mbalax",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Général Abdoulaye Fall",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:%22le_rythme_du_Sabar%22_S%C3%A9n%C3%A9gal_%282026%29_Festival_Banlieue_Wake_Up.jpg",
+        "illustration": true,
+        "src": "img/activites/DKR/concert.jpg"
+      }
+    },
+    {
+      "id": "yoff",
+      "nom": "Plage de Yoff et village de pêcheurs lébous",
+      "emoji": "🎣",
+      "type": "balade",
+      "quartier": "Yoff",
+      "lat": 14.76326,
+      "lng": -17.46066,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En fin de matinée ou de journée, au retour des pêcheurs",
+      "enfants": true,
+      "texte": "Le village traditionnel des Lébous, peuple de pêcheurs de la presqu'île, a gardé ses ruelles de sable et ses pirogues alignées sur une immense plage. Le mausolée blanc de Seydina Limamou Laye, au bord de l'eau, est un lieu de pèlerinage de la confrérie layène.",
+      "site_officiel": "https://fr.wikipedia.org/wiki/Yoff",
+      "a_verifier": false,
+      "note": "Tenue correcte dans le village et près du mausolée ; demandez avant de photographier les gens.",
+      "photo": {
+        "auteur": "Ji-Elle",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Yoff-Retour.jpg",
+        "src": "img/activites/DKR/yoff.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "plateau",
+      "nom": "Le Plateau, centre historique",
+      "lat": 14.6705,
+      "lng": -17.433,
+      "texte": "Le centre-ville colonial, avec les ministères, les banques, les restaurants classiques et l'embarcadère pour Gorée. Pratique pour les musées et Gorée, mais calme le soir et loin des plages."
+    },
+    {
+      "id": "fann",
+      "nom": "Fann et la corniche Ouest",
+      "lat": 14.688,
+      "lng": -17.468,
+      "texte": "Le long de l'océan, entre le centre et les Mamelles : grands hôtels face à la mer, quartier résidentiel arboré et accès rapide au Plateau comme aux Almadies. Un bon compromis pour un premier séjour."
+    },
+    {
+      "id": "mamelles",
+      "nom": "Mermoz, Ouakam et les Mamelles",
+      "lat": 14.718,
+      "lng": -17.492,
+      "texte": "Les quartiers des collines, au pied du Monument de la Renaissance et du phare : maisons d'hôtes, petits hôtels, plages de Ouakam et restaurants de la corniche. Des prix plus doux qu'aux Almadies."
+    },
+    {
+      "id": "almadies",
+      "nom": "Les Almadies",
+      "lat": 14.741,
+      "lng": -17.519,
+      "texte": "Le quartier chic de la pointe ouest : hôtels avec piscine, restaurants de poisson face aux vagues, bars et clubs. Le plus animé le soir, mais à 30-45 min du centre dans les embouteillages."
+    },
+    {
+      "id": "ngor",
+      "nom": "Ngor, plage et village",
+      "lat": 14.75,
+      "lng": -17.513,
+      "texte": "Le village de pêcheurs et sa plage, face à l'île de Ngor : écoles de surf, maisons d'hôtes et ambiance de vacances, à 10 min des Almadies et 20 min de l'aéroport par l'autoroute."
+    }
+  ],
+  "hotel_petit_prix_max": 70,
+  "restaurants": [
+    {
+      "id": "chez-fatou",
+      "nom": "Chez Fatou",
+      "emoji": "🐟",
+      "gamme": "petit",
+      "genre": "Poisson grillé et huîtres face à l'océan",
+      "quartier": "Almadies",
+      "adresse": "Pointe des Almadies, route de la Corniche des Almadies",
+      "lat": 14.74092,
+      "lng": -17.52139,
+      "prix": "≈ 10 à 20 €",
+      "prix_min": 10,
+      "badges": [],
+      "texte": "Une des paillotes de la pointe des Almadies où l'on choisit son poisson (thiof, dorade, langouste) avant qu'il passe sur le gril, avec des huîtres de la Petite-Côte et une sauce oignon-citron. Les pieds presque dans les vagues, au bout de l'Afrique.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation ; le soir, venez avant 20 h",
+      "photo": {
+        "auteur": "Ghay O",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Poisson_repr%C3%A9sent%C3%A9_et_dresser.jpg",
+        "illustration": true,
+        "pos": "center 50%",
+        "src": "img/restos/DKR/chez-fatou.jpg"
+      }
+    },
+    {
+      "id": "bidew",
+      "nom": "Le Bideew, café de l'Institut français",
+      "emoji": "🌿",
+      "gamme": "petit",
+      "genre": "Cuisine franco-sénégalaise dans un jardin",
+      "quartier": "Plateau",
+      "adresse": "89 rue Joseph-Gomis (Institut français)",
+      "lat": 14.66821,
+      "lng": -17.4358,
+      "prix": "≈ 8 à 15 €",
+      "prix_min": 8,
+      "badges": [],
+      "texte": "Le restaurant du jardin de l'Institut français : plats sénégalais et français à prix doux, buffet le samedi, et concerts ou expositions dans la cour. Le repaire des artistes et des Dakarois du centre.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "photo": {
+        "auteur": "Ji-Elle",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:DakarCentreCulturel.JPG",
+        "src": "img/restos/DKR/bidew.jpg"
+      }
+    },
+    {
+      "id": "casa-teranga",
+      "nom": "Casa Teranga",
+      "emoji": "🥥",
+      "gamme": "petit",
+      "genre": "Café végétal et jus frais face aux vagues",
+      "quartier": "Almadies",
+      "adresse": "Pointe des Almadies",
+      "lat": 14.74503,
+      "lng": -17.52851,
+      "prix": "≈ 8 à 15 €",
+      "prix_min": 8,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Une terrasse colorée au bout de la pointe des Almadies : bowls, jus de bouye (pain de singe), de bissap et de gingembre, cafés et gâteaux maison, face aux rochers et aux surfeurs. L'adresse la plus photographiée pour un brunch au soleil.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "photo": {
+        "auteur": "Kalamuh 045",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Jus_de_bouye%2C_gingembre_et_bissap_01.jpg",
+        "illustration": true,
+        "pos": "center 50%",
+        "src": "img/restos/DKR/casa-teranga.jpg"
+      }
+    },
+    {
+      "id": "bazoff",
+      "nom": "Le Bazoff",
+      "emoji": "🍲",
+      "gamme": "petit",
+      "genre": "Plats sénégalais du jour et jus locaux",
+      "quartier": "Grand Dakar",
+      "adresse": "Rue AAB 09, Grand Dakar",
+      "lat": 14.706,
+      "lng": -17.46012,
+      "prix": "≈ 5 à 10 €",
+      "prix_min": 5,
+      "badges": [],
+      "texte": "Une adresse de quartier très appréciée des Dakarois : plat du jour sénégalais (thiéboudienne le midi, yassa, mafé), jus de bissap, de bouye et de ditakh, et une ambiance de bar le soir. Pour manger comme à la maison, loin des circuits touristiques.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "photo": {
+        "auteur": "Arnaud 25",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Poulet_yassa_01.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/bazoff.jpg"
+      }
+    },
+    {
+      "id": "melo",
+      "nom": "Melo, pâtisserie des Mamelles",
+      "emoji": "🥐",
+      "gamme": "petit",
+      "genre": "Pâtisserie, viennoiseries et brunch",
+      "quartier": "Mamelles",
+      "adresse": "Route de l'Aéroport, Les Mamelles",
+      "lat": 14.72281,
+      "lng": -17.49869,
+      "prix": "≈ 5 à 12 €",
+      "prix_min": 5,
+      "badges": [],
+      "texte": "La pâtisserie préférée des Dakarois pour le petit-déjeuner : croissants, entremets, gâteaux et brunchs copieux en terrasse, à deux pas du phare et du Monument de la Renaissance. Parfait avant ou après la montée au phare.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation",
+      "photo": {
+        "auteur": "Ken Hawkins",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Macaroon_Boutique_chocolate_croissants_1.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/melo.jpg"
+      }
+    },
+    {
+      "id": "djoloff",
+      "nom": "Le Djoloff, sur le toit",
+      "emoji": "🍛",
+      "gamme": "petit",
+      "genre": "Cuisine sénégalaise sur une terrasse",
+      "quartier": "Fann",
+      "adresse": "Rue Nani, Fann Hock",
+      "lat": 14.67961,
+      "lng": -17.46277,
+      "prix": "≈ 10 à 20 €",
+      "prix_min": 10,
+      "badges": [],
+      "texte": "Le restaurant sur le toit de l'hôtel Djoloff, avec vue sur l'océan au-dessus des toits de Fann : une valeur sûre pour goûter un thiéboudienne, un yassa poulet ou un poisson braisé dans un cadre de bois et de tissus africains.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour une table en terrasse le soir",
+      "photo": {
+        "auteur": "Mariel.cg",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Senegalese_Thieboudienne.JPG",
+        "illustration": true,
+        "src": "img/restos/DKR/djoloff.jpg"
+      }
+    },
+    {
+      "id": "cabane-pecheur",
+      "nom": "La Cabane du Pêcheur",
+      "emoji": "🦞",
+      "gamme": "moyen",
+      "genre": "Fruits de mer, pieds dans le sable",
+      "quartier": "Ngor",
+      "adresse": "Plage de Ngor",
+      "lat": 14.74977,
+      "lng": -17.51123,
+      "prix": "≈ 20 à 35 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Sur la plage de Ngor, face à l'île : plateaux de fruits de mer, langoustes, gambas et poisson du jour grillés, à déguster les pieds dans le sable en regardant les pirogues. Le déjeuner idéal avant de traverser vers l'île.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le week-end",
+      "photo": {
+        "auteur": "Arnaud 25",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Plateau_de_fruits_de_mer_001.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/cabane-pecheur.jpg"
+      }
+    },
+    {
+      "id": "farid",
+      "nom": "Terrasse Farid",
+      "emoji": "🧆",
+      "gamme": "moyen",
+      "genre": "Cuisine libanaise",
+      "quartier": "Plateau",
+      "adresse": "58 rue Vincens",
+      "lat": 14.67088,
+      "lng": -17.43464,
+      "prix": "≈ 20 à 30 €",
+      "prix_min": 20,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Dakar compte une grande communauté libanaise, et la terrasse de l'hôtel Farid en est une des tables de référence : mezzés, chawarmas, grillades et pâtisseries orientales, sur une terrasse au cœur du Plateau.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille au soir",
+      "photo": {
+        "auteur": "Jj saezdeo",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Traditional_lebanese_cuisine_table_setting.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/farid.jpg"
+      }
+    },
+    {
+      "id": "ngor-timiss",
+      "nom": "Le Ngor Timiss",
+      "emoji": "🍹",
+      "gamme": "moyen",
+      "genre": "Terrasse lounge et cocktails face à Ngor",
+      "quartier": "Almadies",
+      "adresse": "Corniche des Almadies",
+      "lat": 14.74115,
+      "lng": -17.52408,
+      "prix": "≈ 20 à 35 €",
+      "prix_min": 20,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "De grandes terrasses face à l'océan et à l'île de Ngor : poissons grillés, grillades et cocktails au coucher du soleil, puis DJ jusque tard dans la nuit le week-end. « Timiss » veut dire le crépuscule en wolof, et c'est le moment où il faut y être.",
+      "reservation": "conseille",
+      "reservation_delai": "le jour même pour le coucher du soleil, la veille le week-end",
+      "photo": {
+        "auteur": "Jeff Attaway from Abuja, Nigeria",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ngor_Bay_%285662409796%29.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/ngor-timiss.jpg"
+      }
+    },
+    {
+      "id": "youyou",
+      "nom": "YouYou, au BOMA",
+      "emoji": "🍕",
+      "gamme": "moyen",
+      "genre": "Cuisine méditerranéenne et pizzas au feu de bois",
+      "quartier": "Ngor",
+      "adresse": "Hôtel BOMA, route de Ngor",
+      "lat": 14.75026,
+      "lng": -17.50353,
+      "prix": "≈ 20 à 35 €",
+      "prix_min": 20,
+      "badges": [],
+      "texte": "Le restaurant de l'hôtel BOMA, l'une des adresses les plus soignées de Ngor : pizzas au feu de bois, pâtes aux fruits de mer et quelques plats sénégalais revisités, autour de la piscine dans un décor afro-chic.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "photo": {
+        "auteur": "Tbo47",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Plage_de_Ngor.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/youyou.jpg"
+      }
+    },
+    {
+      "id": "yoka",
+      "nom": "Yoka Lounge",
+      "emoji": "💃",
+      "gamme": "moyen",
+      "genre": "Cuisine afro-fusion et ambiance lounge",
+      "quartier": "Almadies",
+      "adresse": "Pointe des Almadies",
+      "lat": 14.74544,
+      "lng": -17.52838,
+      "prix": "≈ 20 à 35 €",
+      "prix_min": 20,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Un lounge face à l'océan à la pointe des Almadies, où l'on mange une cuisine africaine revisitée, aux accents congolais, avant que la musique afro prenne le relais. Une adresse de sortie très à la mode chez les jeunes Dakarois.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le week-end",
+      "photo": {
+        "auteur": "Traorejci",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:ALLOKO_AUX_POISSONS_BRAISES.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/yoka.jpg"
+      }
+    },
+    {
+      "id": "cabanon",
+      "nom": "Le Cabanon",
+      "emoji": "🌊",
+      "gamme": "moyen",
+      "genre": "Cuisine de la mer avec vue",
+      "quartier": "Almadies",
+      "adresse": "Corniche des Almadies",
+      "lat": 14.73908,
+      "lng": -17.51698,
+      "prix": "≈ 30 à 40 €",
+      "prix_min": 30,
+      "badges": [],
+      "texte": "Une table élégante sur la corniche des Almadies, face aux vagues : poissons du jour, carpaccios, tartares et plats sénégalais raffinés. Pour un dîner en tête-à-tête face au coucher du soleil.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille, en demandant une table au bord",
+      "photo": {
+        "auteur": "Gromane",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Vue_de_la_c%C3%B4te_des_Almadies_a_Dakar.jpg",
+        "illustration": true,
+        "pos": "center 60%",
+        "src": "img/restos/DKR/cabanon.jpg"
+      }
+    },
+    {
+      "id": "lagon",
+      "nom": "Le Lagon 1",
+      "emoji": "⚓",
+      "gamme": "haut",
+      "genre": "Fruits de mer sur pilotis",
+      "quartier": "Plateau",
+      "adresse": "Route de la Corniche Est",
+      "lat": 14.66765,
+      "lng": -17.42854,
+      "prix": "≈ 40 à 55 €",
+      "prix_min": 40,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Un restaurant sur pilotis au-dessus de la mer, face à l'île de Gorée, au décor marin : une des grandes institutions de Dakar pour la langouste, le thiof et les plateaux de fruits de mer. On y dîne au son du ressac.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille ; 2 à 3 jours avant pour le week-end",
+      "photo": {
+        "auteur": "Ibfal",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Corniche_Est_Dakar_Lagon.jpg",
+        "src": "img/restos/DKR/lagon.jpg"
+      }
+    },
+    {
+      "id": "fourchette",
+      "nom": "La Fourchette",
+      "emoji": "🍴",
+      "gamme": "haut",
+      "genre": "Cuisine française et fusion",
+      "quartier": "Plateau",
+      "adresse": "4 rue de Thann",
+      "lat": 14.67038,
+      "lng": -17.428,
+      "prix": "≈ 40 à 55 €",
+      "prix_min": 40,
+      "badges": [],
+      "texte": "Dans une maison du Plateau, l'une des tables les plus réputées de la ville : cuisine française créative, cocktails soignés et ambiance feutrée. Le rendez-vous du Tout-Dakar pour les grandes occasions.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "photo": {
+        "auteur": "Wiki.cullin",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pan_seared_scallops_with_grilled_asparagus_fine_dining_appetizer.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/fourchette.jpg"
+      }
+    },
+    {
+      "id": "terrasse",
+      "nom": "La Terrasse du Terrou-Bi",
+      "emoji": "🌴",
+      "gamme": "haut",
+      "genre": "Poissons et fruits de mer face à la mer",
+      "quartier": "Fann",
+      "adresse": "Hôtel Terrou-Bi, boulevard Martin-Luther-King",
+      "lat": 14.67637,
+      "lng": -17.46621,
+      "prix": "≈ 40 à 55 €",
+      "prix_min": 40,
+      "badges": [],
+      "texte": "La terrasse de l'hôtel Terrou-Bi s'avance au-dessus de sa petite plage privée, face à l'océan : poissons, langoustes et brunch du dimanche réputé, au son des vagues. Une des vues les plus élégantes de la corniche Ouest.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille ; plusieurs jours avant pour le brunch du dimanche",
+      "photo": {
+        "auteur": "Ngomcheikh717",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Plage_de_Anse_Bernard_%C3%A0_Dakar.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/terrasse.jpg"
+      }
+    },
+    {
+      "id": "alkimia",
+      "nom": "Alkimia",
+      "emoji": "🧪",
+      "gamme": "haut",
+      "genre": "Cuisine gastronomique créative",
+      "quartier": "Almadies",
+      "adresse": "Route des Almadies",
+      "lat": 14.73989,
+      "lng": -17.51569,
+      "prix": "≈ 40 à 55 €",
+      "prix_min": 40,
+      "badges": [],
+      "texte": "Une table gastronomique moderne aux Almadies, aux assiettes créatives et soignées, avec un brunch très couru le week-end et des cocktails originaux.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "photo": {
+        "auteur": "gérard from Nouméa, (Nouvelle-Calédonie)",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pain_perdu_-_Flickr_-_uphillblok.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/alkimia.jpg"
+      }
+    },
+    {
+      "id": "parrilla",
+      "nom": "La Parrilla",
+      "emoji": "🥩",
+      "gamme": "haut",
+      "genre": "Grillades à l'argentine",
+      "quartier": "Plateau",
+      "adresse": "Rue Place 18 (bas du Plateau)",
+      "lat": 14.66395,
+      "lng": -17.43449,
+      "prix": "≈ 45 à 60 €",
+      "prix_min": 45,
+      "badges": [],
+      "texte": "La référence de Dakar pour la viande : entrecôtes et côtes de bœuf grillées au feu de bois à la mode argentine, empanadas et belle carte de vins, dans une salle chaleureuse du Plateau. Une adresse prisée des Dakarois pour les dîners entre amis.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille ; 2 jours avant pour le week-end",
+      "photo": {
+        "auteur": "Thesaintar",
+        "licence": "CC BY-SA 2.5",
+        "page": "https://commons.wikimedia.org/wiki/File:Argentinean_asado.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/parrilla.jpg"
+      }
+    },
+    {
+      "id": "beluga",
+      "nom": "Beluga",
+      "emoji": "🍋",
+      "gamme": "haut",
+      "genre": "Ceviches et cuisine péruvienne-japonaise",
+      "quartier": "Plateau",
+      "adresse": "Rue Mousse-Diop",
+      "lat": 14.66352,
+      "lng": -17.43484,
+      "prix": "≈ 40 à 55 €",
+      "prix_min": 40,
+      "badges": [],
+      "texte": "Le poisson ultra-frais de Dakar se prête à merveille aux recettes péruviennes : ceviches, tiraditos, tatakis et sushis nikkei, dans un décor moderne du Plateau. Une des tables les plus en vue de la ville pour un dîner chic.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille",
+      "photo": {
+        "auteur": "Jorge G. Mori",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_%28La_Punta%2C_Callao%29.jpg",
+        "illustration": true,
+        "src": "img/restos/DKR/beluga.jpg"
+      }
+    }
+  ]
+}

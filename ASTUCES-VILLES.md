@@ -276,3 +276,8 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   191 restaurants notés) ; les pages de listes n'ont pas les positions et certaines fiches lieu donnent une position par défaut (34.062347,-4.983029 ou
   34.066791,-4.978564) : vérifier avec Nominatim. Tarif officiel de Volubilis sur `e-services.minculture.gov.ma/fr/tickets/…` ; carte du Riad Fès en PDF
   (`riadfes.com/download/menugayza_…pdf`). Commons : recherche HTML (`ns6=1`) + `thumb.php` sans « 429 » ; peu de photos de restaurants de Fès.
+- Dakar (nov. 2026) : Wanderlog géo 79354/90805, départ `geoCategory/208534` (« dakar-region »), listes finissant par « -dakar » ou « -dakar-region » : 33 listes,
+  ~350 lieux seulement (pas de positions). Notes complétées par Google Maps (Playwright, cookie `SOCS` ; position dans l'adresse `!3d…!4d…`) : La Calebasse
+  (Mamelles) y est « Définitivement fermé ». Notes plus basses qu'ailleurs (C = 4,09) : garde-fou abaissé à ~4,0. Prix moyens par restaurant sur
+  `seneguide.com/restaurants/dakar` (+ `/2`, `/3`, `/senegalais`…, lisible par `curl`). Tarifs : chaloupe de Gorée 6 000 + 500 FCFA (Le Soleil, sept. 2026),
+  Bandia et Madeleine sur au-senegal.com. Commons : recherche HTML (`ns6=1`) sans souci, mais `Special:FilePath` répond « 429 » par vagues (attendre et relancer).
