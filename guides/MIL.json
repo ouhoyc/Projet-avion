@@ -109,7 +109,9 @@
    "texte": "Le plus célèbre repas de l'histoire de l'art, peint par Léonard de Vinci sur le mur du réfectoire d'un couvent vers 1495. On entre par petits groupes, après plusieurs sas qui protègent la fresque, et l'on a quinze minutes face à elle : le geste des apôtres, la perspective qui converge vers le Christ, le paysage dans les fenêtres. Un moment rare, qui se mérite.",
    "site_officiel": "https://cenacolovinciano.org/",
    "enfants": true,
-   "badges": [],
+   "badges": [
+    "tendance"
+   ],
    "note": "Les billets partent en quelques heures : ils sont mis en vente par trimestre (en septembre pour novembre à janvier, en décembre pour février à avril…), et quelques places sont ajoutées chaque mercredi à midi pour la semaine suivante. Méfiez-vous des sites qui revendent le billet trois ou quatre fois plus cher.",
    "a_verifier": false,
    "photo": {
@@ -201,7 +203,9 @@
    "texte": "La forteresse de brique des ducs de Milan, avec sa tour de l'horloge, ses douves et ses grandes cours. À l'intérieur, une dizaine de musées, dont deux trésors : la salle des Planches, dont Léonard de Vinci a peint le plafond en treille d'arbres, et la Pietà Rondanini, la dernière sculpture de Michel-Ange, restée inachevée à sa mort.",
    "site_officiel": "https://www.milanocastello.it/",
    "enfants": true,
-   "badges": [],
+   "badges": [
+    "tendance"
+   ],
    "note": "Nouveaux tarifs des musées municipaux depuis le 10 mai 2026 (10 € au lieu de 5 €). La carte Milano Museo Card (15 €, un an) ouvre tous les musées municipaux : rentable dès deux musées (château + musée du Novecento).",
    "a_verifier": false,
    "photo": {
@@ -236,7 +240,9 @@
    "texte": "Le grand parc à l'anglaise qui s'étend derrière le château, avec ses pelouses, son petit lac et ses allées jusqu'à l'Arc de la Paix, l'arc de triomphe néoclassique voulu par Napoléon. C'est le jardin des Milanais : pique-nique, jogging, et la plus belle perspective de la ville, du château à l'arc.",
    "site_officiel": "https://www.yesmilano.it/",
    "enfants": true,
-   "badges": [],
+   "badges": [
+    "tendance"
+   ],
    "a_verifier": false,
    "photo": {
     "auteur": "Alex Battagin",
@@ -288,7 +294,9 @@
    "texte": "Le grand musée de peinture italienne, dans un palais à arcades où une statue de Napoléon nu trône au milieu de la cour. On y croise le Christ mort de Mantegna, vu en raccourci saisissant, le Mariage de la Vierge de Raphaël, le Caravage et le Baiser de Hayez, le tableau le plus romantique d'Italie.",
    "site_officiel": "https://pinacotecabrera.org/",
    "enfants": true,
-   "badges": [],
+   "badges": [
+    "tendance"
+   ],
    "a_verifier": false,
    "photo": {
     "auteur": "Stefano Stabile",
@@ -461,7 +469,9 @@
    "texte": "Le temple de l'opéra, où ont triomphé Verdi, Puccini et la Callas. Le musée garde costumes, instruments et souvenirs des grandes voix, mais le moment fort est l'entrée dans une loge : la salle rouge et or, ses six étages de balcons et son lustre de cristal s'ouvrent devant vous.",
    "site_officiel": "https://www.museoscala.org/",
    "enfants": true,
-   "badges": [],
+   "badges": [
+    "tendance"
+   ],
    "note": "Pour voir un spectacle, les places des galeries (les plus hautes) commencent autour de 15 à 30 € ; elles partent vite sur le site du théâtre.",
    "a_verifier": false,
    "photo": {
@@ -537,9 +547,7 @@
    "texte": "Une façade sobre, et derrière, l'éblouissement : chaque centimètre de murs et de voûtes est couvert de fresques de la Renaissance, par Bernardino Luini et ses élèves. L'église est coupée en deux par une cloison, une partie pour les fidèles, l'autre pour les religieuses cloîtrées : passez de l'autre côté pour l'orgue et le chœur.",
    "site_officiel": "https://www.museoarcheologicomilano.it/",
    "enfants": true,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "a_verifier": false,
    "photo": {
     "auteur": "Casalmaggiore Provincia",
@@ -702,9 +710,7 @@
    "texte": "Une villa des années 1930 de la grande bourgeoisie milanaise, restée intacte avec ses boiseries, ses salons Art déco et sa piscine chauffée au milieu du jardin, l'une des premières de la ville. Le film « Amore » de Luca Guadagnino y a été tourné, et les flamants roses du jardin d'à côté, visibles par-dessus la grille, ajoutent à la magie.",
    "site_officiel": "https://fondoambiente.it/luoghi/villa-necchi-campiglio",
    "enfants": true,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "note": "Le café dans le jardin, près de la piscine, est ouvert sans billet de visite : idéal pour une pause.",
    "a_verifier": false,
    "photo": {
@@ -948,7 +954,9 @@
    "texte": "Une heure de train et l'on passe des avenues milanaises aux villas à l'italienne et aux montagnes qui plongent dans l'eau. À Varenna, ruelles en escaliers et maisons couleur pastel ; en face, Bellagio, « la perle du lac », se rejoint en un quart d'heure de bateau. Ajoutez les jardins de la villa Monastero ou de la villa Carlotta si vous avez le temps.",
    "site_officiel": "https://www.trenord.it/",
    "enfants": true,
-   "badges": [],
+   "badges": [
+    "tendance"
+   ],
    "note": "Prenez le train régional Trenord direct pour Tirano ou Lecco, jusqu'à Varenna-Esino (billet en ligne ou dans l'appli, environ 7,50 € l'aller). L'hiver, les bateaux sont moins fréquents.",
    "a_verifier": false,
    "photo": {
@@ -1206,8 +1214,7 @@
    "prix": "3 à 8 €",
    "prix_min": 3,
    "badges": [
-    "institution",
-    "tendance"
+    "institution"
    ],
    "texte": "Depuis 1949, la file d'attente s'allonge chaque midi à deux pas du Duomo pour le panzerotto : un chausson de pâte à pain, frit ou cuit au four, fourré de tomate et de mozzarella fondante. Il se mange debout dans la rue, brûlant. Les Milanais y viennent aussi pour la version jambon, ricotta-épinards ou même Nutella.",
    "reservation": "sur_place",
@@ -1258,8 +1265,7 @@
    "prix": "4 à 15 €",
    "prix_min": 4,
    "badges": [
-    "institution",
-    "tendance"
+    "institution"
    ],
    "texte": "La pâtisserie fondée en 1824, reprise par la maison Prada, a ouvert une salle à l'étage de la Galerie : velours vert, boiseries et fenêtres qui donnent sur la verrière. On y prend un cappuccino et une pâtisserie milanaise, ou une part de panettone, dans l'un des décors les plus élégants de la ville.",
    "reservation": "sur_place",
@@ -1284,9 +1290,7 @@
    "lng": 9.175937,
    "prix": "5 à 15 €",
    "prix_min": 5,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Le comptoir le plus célèbre du quartier chinois de Milan : des raviolis faits à la main sous vos yeux, avec la viande du boucher voisin et les légumes de producteurs lombards. Bouillis ou grillés, au porc et chou ou au bœuf, ils se mangent sur le pouce dans la via Paolo Sarpi, rue piétonne pleine de vie.",
    "reservation": "sur_place",
    "reservation_delai": "pas de réservation : vente à emporter, file rapide",
@@ -1361,8 +1365,7 @@
    "prix": "40 à 60 €",
    "prix_min": 40,
    "badges": [
-    "recompense",
-    "tendance"
+    "recompense"
    ],
    "recompense": "Bib Gourmand Michelin (bon rapport qualité-prix)",
    "texte": "La trattoria qui a remis les plats populaires à la mode : tripes frites croustillantes, vitello tonnato, moelle rôtie, pâtes fraîches et desserts de grand-mère, dans une salle simple et chaleureuse. Le chef Diego Rossi y défend une cuisine du « tout se mange », généreuse et précise. Les Milanais réservent des semaines à l'avance.",
@@ -1412,9 +1415,7 @@
    "lng": 9.183444,
    "prix": "25 à 45 €",
    "prix_min": 25,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Lustres, velours, miroirs et plafond fleuri : cette osteria du groupe Big Mamma a été pensée comme un décor de cinéma, et elle est partout sur les réseaux. Dans l'assiette, des pâtes fraîches, des pizzas et de grands desserts à partager, à prix raisonnables pour le quartier. Une soirée festive garantie.",
    "reservation": "indispensable",
    "reservation_delai": "en ligne, deux à trois semaines avant pour le week-end ; quelques tables gardées sans réservation à l'ouverture",
@@ -1595,9 +1596,7 @@
    "lng": 9.168541,
    "prix": "90 à 140 €",
    "prix_min": 90,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "L'adresse de la mer la plus courue de Milan : plateaux de crus, homard, langoustines, spaghettis aux palourdes et poisson entier, dans une salle à l'atmosphère de yacht chic. Les célébrités de la Fashion Week y ont leurs habitudes, et chaque plat est photographié avant d'être goûté.",
    "reservation": "indispensable",
    "reservation_delai": "deux à trois semaines avant, davantage pendant les semaines de la mode",
@@ -1649,9 +1648,7 @@
    "lng": 9.201968,
    "prix": "80 à 120 €",
    "prix_min": 80,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Au septième étage de l'hôtel Excelsior Gallia, palace Belle Époque face à la gare centrale, une terrasse vitrée avec vue sur les toits et les tours de Porta Nuova. Les frères Lebano y servent une cuisine italienne lumineuse, très méditerranéenne. Venez au coucher du soleil, pour l'apéritif ou le dîner.",
    "reservation": "conseille",
    "reservation_delai": "une semaine avant, davantage pour une table près des vitres au coucher du soleil",

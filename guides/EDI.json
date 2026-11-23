@@ -163,7 +163,10 @@
     "licence": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Holyrood_Palace_and_Abbey_20211021.jpg",
     "src": "img/activites/EDI/holyrood.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "arthurs-seat",
@@ -188,9 +191,7 @@
    "duree": "2 h aller-retour",
    "moment": "Au lever ou au coucher du soleil, par temps sec ; évitez les jours de grand vent",
    "enfants": true,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Un ancien volcan de 251 m en pleine ville : 45 minutes de montée par les sentiers d'herbe et de rochers, puis la ville entière à vos pieds, du château jusqu'à la mer du Nord. Une vraie bouffée de Highlands à dix minutes du Royal Mile.",
    "site_officiel": "https://www.historicenvironment.scot/visit-a-place/places/holyrood-park/",
    "note": "Bonnes chaussures conseillées : le sommet est glissant par temps de pluie. Le chemin des Salisbury Crags (falaises) est le plus facile pour une vue sur la vieille ville.",
@@ -704,9 +705,7 @@
    "duree": "1 h 30",
    "moment": "En fin de journée, pour finir au bar du toit au coucher du soleil",
    "enfants": true,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Huit étages dans un ancien grand magasin de Princes Street : une visite-spectacle sur l'histoire du whisky écossais, avec des cocktails choisis selon vos goûts. On termine au 1820 Rooftop Bar, la terrasse la plus spectaculaire de la ville, face au château.",
    "site_officiel": "https://www.johnniewalker.com/en-gb/visit-us-princes-street/",
    "note": "Le bar du toit est accessible sans faire la visite, mais réservez-le aussi le week-end.",
@@ -945,7 +944,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_Scott_Monument-20110903-RM-160826.jpg",
     "src": "img/activites/EDI/scott-monument.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "leith",
@@ -982,7 +984,10 @@
     "licence": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:The_Shore%2C_Leith_-_geograph.org.uk_-_3520600.jpg",
     "src": "img/activites/EDI/leith.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "portobello",
@@ -1413,7 +1418,8 @@
    "prix": "15 à 25 €",
    "prix_min": 15,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Le fish and chips préféré des Édimbourgeois : haddock en pâte croustillante, frites épaisses et la sauce brune « salt and sauce » propre à la ville. Salle familiale colorée, service rapide, à deux pas du musée national et de l'université.",
    "reservation": "sur_place",
@@ -1490,9 +1496,7 @@
    "lng": -3.172617,
    "prix": "8 à 15 €",
    "prix_min": 8,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Des bagels façon Montréal, cuits au feu de bois et garnis à ras bord : saumon fumé et cream cheese, pastrami, œuf et bacon. Une petite chaîne locale culte, née à Portobello ; la boutique de Leith Arches est la plus grande.",
    "reservation": "sur_place",
    "reservation_delai": "sans réservation",
@@ -1543,7 +1547,8 @@
    "prix": "35 à 60 €",
    "prix_min": 35,
    "badges": [
-    "recompense"
+    "recompense",
+    "tendance"
    ],
    "recompense": "Bib Gourmand Michelin",
    "texte": "Le pub du chef étoilé Tom Kitchin, à Stockbridge : tourte au bœuf, fish and chips, haggis et poisson du jour cuisinés comme dans un restaurant, au milieu des tartans et du bois. Le meilleur moyen de goûter la cuisine écossaise sans se ruiner.",
@@ -1622,7 +1627,6 @@
    "prix": "35 à 65 €",
    "prix_min": 35,
    "badges": [
-    "tendance",
     "institution"
    ],
    "texte": "Une ancienne banque de 1847 aux colonnes corinthiennes, avec sous sa coupole de verre une salle à manger spectaculaire, décorée de façon extravagante à Noël. Grillades, fruits de mer et afternoon tea dans le décor le plus photographié de George Street.",
@@ -1778,9 +1782,7 @@
    "lng": -3.191257,
    "prix": "86 à 110 €",
    "prix_min": 86,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Un afternoon tea dans l'une des plus belles bibliothèques d'Europe, sous les colonnes corinthiennes et le plafond peint de la Signet Library, juste derrière la cathédrale. Étages de pâtisseries, scones et petits sandwichs, servis sur porcelaine fine.",
    "reservation": "indispensable",
    "reservation_delai": "2 à 3 semaines avant ; plusieurs mois en décembre",

@@ -106,7 +106,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Skansen,_church.jpg",
     "src": "img/activites/STO/skansen.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "gamla-stan",
@@ -198,7 +201,10 @@
     "licence": "CC BY 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Stockholms_slott_(Stockholm_Palace)_(24831039126).jpg",
     "src": "img/activites/STO/palais-royal.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "hotel-de-ville",
@@ -254,7 +260,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Stockholms_stadshus_February_2026_02.jpg",
     "src": "img/activites/STO/hotel-de-ville.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "abba",
@@ -466,7 +475,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Moderna_museet_Sculpturepark,_Skeppsholmen_Island,_Stockholm,_Sweden_-_Murat_%C3%96zsoy_23.jpg",
     "src": "img/activites/STO/moderna.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "nationalmuseum",
@@ -705,7 +717,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Stockholm_Sch%C3%A4rengarten.jpg",
     "src": "img/activites/STO/archipel.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "vaxholm",
@@ -996,7 +1011,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sk%C3%A5negatan_vid_Nytorget,_febr_2019.jpg",
     "src": "img/activites/STO/sofo.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "djurgarden",
@@ -1029,7 +1047,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Rosendals_tr%C3%A4dg%C3%A5rd_December_2019_01.jpg",
     "src": "img/activites/STO/djurgarden.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "skogskyrkogarden",
@@ -1112,7 +1133,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Gr%C3%B6na_Lund_June_2015.jpg",
     "src": "img/activites/STO/grona-lund.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "skyview",
@@ -1211,9 +1235,7 @@
    "duree": "2 h",
    "moment": "En hiver, quand le lac est gelé et qu'on se baigne par un trou dans la glace",
    "enfants": true,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Le rituel suédois par excellence, en pleine forêt : on transpire dans un sauna au feu de bois, puis on court se jeter dans le lac, été comme hiver. Après trois allers-retours, vous dormirez comme jamais. À vingt minutes du centre, au milieu d'une réserve naturelle.",
    "site_officiel": "https://hellasgarden.se/en/",
    "note": "Saunas séparés hommes et femmes, où l'on entre sans maillot, et quelques créneaux mixtes en maillot. Pas d'espèces. Bus 401 depuis Slussen.",
@@ -1260,7 +1282,10 @@
     "licence": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Kungstr%C3%A4dg%C3%A5rden_April_2015_02.jpg",
     "src": "img/activites/STO/kungstradgarden.jpg"
-   }
+   },
+   "badges": [
+    "tendance"
+   ]
   },
   {
    "id": "hammarby",
@@ -1402,7 +1427,8 @@
    "prix": "7 à 13 €",
    "prix_min": 7,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Un simple kiosque, et le plat de rue le plus suédois qui soit : du hareng de la Baltique tout juste frit, servi sur une purée ou un pain croustillant, avec oignons rouges et concombre au vinaigre. On mange debout, face à l'eau, comme les Stockholmois depuis des décennies.",
    "reservation": "sur_place",
@@ -1453,9 +1479,7 @@
    "lng": 18.083987,
    "prix": "18 à 26 €",
    "prix_min": 18,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "Un buffet végétarien à volonté, généreux et parfumé, sur une terrasse perchée en haut de la falaise de Södermalm : toute la ville et le port à vos pieds. Même les amateurs de viande en redemandent. Aux beaux jours, visez la fin d'après-midi pour le coucher du soleil.",
    "reservation": "sur_place",
    "reservation_delai": "pas de réservation pour les petites tables ; arrivez tôt pour une place en terrasse",
@@ -1505,7 +1529,8 @@
    "prix": "30 à 45 €",
    "prix_min": 30,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Une grande salle de 1904 aux plafonds peints, des boiseries, des serveurs en gilet : c'est ici que Stockholm mange ses boulettes de viande, roulées à la main et servies avec purée, sauce à la crème, airelles et concombre. Hareng, jarret de porc et bière fraîche pour compléter.",
    "reservation": "conseille",
@@ -1555,7 +1580,8 @@
    "prix": "35 à 65 €",
    "prix_min": 35,
    "badges": [
-    "institution"
+    "institution",
+    "tendance"
    ],
    "texte": "Dans la plus belle halle de Stockholm, toute en brique et en fonte, la même famille sert poissons et crustacés depuis 1926. Tartine de crevettes géante, saumon fumé maison, plateau de fruits de mer : on mange au comptoir, au milieu des étals, avec un verre de blanc.",
    "reservation": "conseille",
@@ -1580,9 +1606,7 @@
    "lng": 18.076759,
    "prix": "45 à 60 €",
    "prix_min": 45,
-   "badges": [
-    "tendance"
-   ],
+   "badges": [],
    "texte": "La cuisine de grand-mère suédoise revue par le chef Stefan Ekengren : des petites assiettes à partager, à base de légumes du pays, de poissons fumés et de beurre noisette. Briques, bois clair et comptoir ouvert sur la cuisine : l'une des tables les plus aimées de la ville.",
    "reservation": "conseille",
    "reservation_delai": "1 à 2 semaines avant pour le soir",
@@ -1607,7 +1631,6 @@
    "prix": "40 à 65 €",
    "prix_min": 40,
    "badges": [
-    "tendance",
     "recompense"
    ],
    "recompense": "Sélection du guide Michelin 2026",
@@ -1765,8 +1788,7 @@
    "prix": "60 à 100 €",
    "prix_min": 60,
    "badges": [
-    "institution",
-    "tendance"
+    "institution"
    ],
    "texte": "Une passerelle suspendue à 33 mètres au-dessus de Slussen depuis 1935, avec la vieille ville et le port derrière les baies vitrées. Rouvert après de longs travaux, Gondolen sert une belle cuisine de brasserie, du turbot découpé à table aux quenelles d'œufs de corégone. Le bar offre la même vue pour le prix d'un cocktail.",
    "reservation": "indispensable",
