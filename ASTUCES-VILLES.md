@@ -281,3 +281,10 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (Mamelles) y est « Définitivement fermé ». Notes plus basses qu'ailleurs (C = 4,09) : garde-fou abaissé à ~4,0. Prix moyens par restaurant sur
   `seneguide.com/restaurants/dakar` (+ `/2`, `/3`, `/senegalais`…, lisible par `curl`). Tarifs : chaloupe de Gorée 6 000 + 500 FCFA (Le Soleil, sept. 2026),
   Bandia et Madeleine sur au-senegal.com. Commons : recherche HTML (`ns6=1`) sans souci, mais `Special:FilePath` répond « 429 » par vagues (attendre et relancer).
+- Béjaïa (nov. 2026) : Google Maps en affichage limité (méthode d'Annaba) : ~570 lieux, notes basses (C ≈ 3,98) ; winrouh.com (`/restaurants/bejaia/bejaia`,
+  fiches `/restaurant/<nom>` avec avis et position) complète. Bordj Moussa fermé (restauration lancée en sept. 2025, 15 mois) ; Casbah rouverte en 2024,
+  porte Sarrasine en juillet 2026, place du 1er-Novembre au printemps 2026. Le phare du cap Carbon est en zone militaire (vue depuis la route).
+- Biskra (nov. 2026) : ville sans vol en ce moment (absente de `data.json`, pas de `matchs/BSK.json` : 404 sans conséquence). Très peu d'avis Google
+  (C ≈ 4,08, souvent < 50 avis) ; article winrouh « meilleurs restaurants Biskra » utile. Commons : catégories `Cuisine_of_Biskra` (plats biskris,
+  filigranes discrets), `M'Chouneche`, cartes postales anciennes (BnF, domaine public) pour le jardin Landon et Hammam Salihine. Attention : les photos
+  « Hammame Salhine » de panoramio sont à Khenchela. France Diplomatie : Aurès en orange (El Kantara, M'Chouneche : de jour avec chauffeur).

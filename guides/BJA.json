@@ -1,0 +1,1078 @@
+{
+ "city_code": "BJA",
+ "ville": "Béjaïa",
+ "statut": "vérifié en autonomie, prix relevés le 23/11/2026 (1 € ≈ 151 dinars au taux officiel)",
+ "verifie_le": "2026-11-23",
+ "avant_de_partir": "Les Français ont besoin d'un visa pour l'Algérie (la carte d'identité ne suffit pas). Il se demande en personne au consulat d'Algérie de votre région (à Lyon pour la région lyonnaise), avec un passeport valable 6 mois après le retour, une réservation d'hôtel et une assurance voyage : environ 110 €. Comptez jusqu'à 3 semaines : déposez votre dossier au moins un mois avant le départ.",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "transport": "le taxi",
+ "transport_loin": "une voiture avec chauffeur (votre hôtel en trouve une facilement)",
+ "activites": [
+  {
+   "id": "place-gueydon",
+   "nom": "La place du 1er-Novembre, balcon sur la baie",
+   "emoji": "🌅",
+   "type": "balade",
+   "quartier": "Vieille ville",
+   "lat": 36.75243,
+   "lng": 5.08544,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Place et belvédère",
+     "gratuit"
+    ],
+    [
+     "Café en terrasse",
+     "≈ 100 à 200 DA (≈ 0,70 à 1,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "45 min",
+   "moment": "En fin d'après-midi, quand le soleil passe derrière le Gouraya",
+   "enfants": true,
+   "texte": "Les Béjaouis l'appellent toujours « place Gueydon » : une grande terrasse posée au bord de la falaise, au-dessus du port, avec les montagnes de Kabylie qui tombent dans la mer en face. Rénovée au printemps 2026, dallée de neuf, elle est le salon de la ville : familles, vendeurs de graines grillées, enfants à vélo, et tout le monde accoudé à la balustrade quand la baie devient dorée.",
+   "note": "La place est le point de départ idéal pour la vieille ville : la porte Sarrasine, la Casbah et la porte Fouka sont à moins de dix minutes à pied.",
+   "photo": {
+    "auteur": "JTiklat",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AB%C3%A9ja%C3%AFa%2C_place_du_1er_novembre_%28ex-place_Gueydon%29.jpg",
+    "src": "img/activites/BJA/place-gueydon.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "portes-hammadites",
+   "nom": "Les portes hammadites et la vieille ville",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 36.75337,
+   "lng": 5.08738,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade et portes",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le matin, avant la chaleur, ou à la tombée du jour",
+   "enfants": true,
+   "texte": "Au XIe siècle, Béjaïa était la capitale des Hammadides et l'une des villes les plus savantes de la Méditerranée : c'est ici que Fibonacci, fils d'un marchand pisan, apprit les chiffres arabes. Il en reste deux portes monumentales : la porte Sarrasine, grande arche de pierre ocre au bord de la mer, rouverte en juillet 2026 après sa restauration, et la porte Fouka, en haut de la ville. Entre les deux, des ruelles en escalier, des mosquées anciennes et des maisons mauresques.",
+   "note": "Les ruelles grimpent beaucoup : chaussures confortables. La promenade Léonardo-Fibonacci, au-dessus de la Brise de mer, rappelle le passage du mathématicien.",
+   "photo": {
+    "auteur": "Amioud mohamed",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APorte_sarrasine_beja%C3%AFa.jpg",
+    "src": "img/activites/BJA/portes-hammadites.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "casbah",
+   "nom": "La Casbah",
+   "emoji": "🏰",
+   "type": "culture",
+   "quartier": "Vieille ville",
+   "lat": 36.75123,
+   "lng": 5.08362,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Entrée",
+     "gratuite ou symbolique selon les jours"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "En matinée, en semaine",
+   "enfants": true,
+   "texte": "Construite par les Almohades vers 1154, puis reprise par les Espagnols en 1510, la citadelle domine le port de ses remparts crénelés. Elle a rouvert au public en 2024 après des années de restauration : on y visite la cour, la vieille mosquée et les murs d'où l'on voit toute la baie. Ibn Khaldoun y aurait enseigné ; son buste accueille les visiteurs.",
+   "note": "Ouverte en journée ; elle peut fermer pour un événement ou des travaux : renseignez-vous à l'entrée. Tenue correcte pour la mosquée.",
+   "photo": {
+    "auteur": "wikinm",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACasbah_de_B%C3%A9ja%C3%AFa.jpg",
+    "src": "img/activites/BJA/casbah.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "brise-de-mer",
+   "nom": "La Brise de mer, la promenade du soir",
+   "emoji": "🌊",
+   "type": "balade",
+   "quartier": "Brise de mer",
+   "lat": 36.75528,
+   "lng": 5.0925,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Glace ou café",
+     "≈ 100 à 300 DA (≈ 0,70 à 2 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Au coucher du soleil et en soirée, surtout l'été",
+   "enfants": true,
+   "texte": "Sous la vieille ville, la route des Oliviers longe les rochers jusqu'au pied du Gouraya : c'est la « Brise de mer », le lieu de sortie préféré des Béjaouis. Glaciers, cafés, bancs face au large, pêcheurs sur les rochers, et la lumière qui rougit le cap Bouak au loin. Le soir d'été, toute la ville s'y retrouve.",
+   "note": "Le week-end (vendredi et samedi), les voitures sont nombreuses : venez à pied depuis la place du 1er-Novembre (15 minutes).",
+   "photo": {
+    "auteur": "khodja SE",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AB%C3%A9ja%C3%AFa_brise_de_mer.jpg",
+    "src": "img/activites/BJA/brise-de-mer.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "gouraya",
+   "nom": "La montée au fort de Yemma Gouraya",
+   "emoji": "⛰️",
+   "type": "nature",
+   "quartier": "Parc national du Gouraya",
+   "lat": 36.77083,
+   "lng": 5.08111,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Parc et sentiers",
+     "gratuit"
+    ],
+    [
+     "Taxi jusqu'au parking du parc",
+     "≈ 300 à 500 DA (≈ 2 à 3,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "3 h",
+   "moment": "Tôt le matin, d'octobre à mai : le sentier est en plein soleil",
+   "enfants": false,
+   "texte": "La montagne qui veille sur Béjaïa culmine à 660 mètres, et la ville vient se coller à son pied. Un sentier en lacets grimpe à travers les pins jusqu'au fort de Yemma Gouraya, où repose la sainte protectrice de la ville. Là-haut, par les fenêtres du fort, la vue plonge sur le port, toute la baie et les sommets du Djurdjura. Le parc national est classé réserve de biosphère par l'Unesco.",
+   "note": "Comptez 1 h 30 de montée depuis le parking du parc, sur un bon sentier mais raide par endroits. Emportez de l'eau : il n'y a rien à acheter au sommet. Petit musée du parc près de l'entrée.",
+   "photo": {
+    "auteur": "Justme251217",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AYama_Gouraya_national_Park.jpg",
+    "src": "img/activites/BJA/gouraya.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "pic-des-singes",
+   "nom": "Le pic des Singes et les magots",
+   "emoji": "🐒",
+   "type": "nature",
+   "quartier": "Parc national du Gouraya",
+   "lat": 36.76923,
+   "lng": 5.09628,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Taxi aller depuis le centre",
+     "≈ 400 à 600 DA (≈ 2,60 à 4 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le matin, quand les singes sont le plus actifs",
+   "enfants": true,
+   "texte": "À 430 mètres au-dessus de la mer, un éperon rocheux relié à la montagne par un petit chemin à rampe : c'est le pic des Singes, avec une table d'orientation et une vue vertigineuse sur le cap Carbon. Les macaques de Barbarie, espèce menacée, vivent en liberté tout autour et viennent souvent jusqu'au bord de la route.",
+   "note": "Ne nourrissez pas les singes (c'est interdit et ils peuvent mordre) et gardez sacs et lunettes bien fermés.",
+   "photo": {
+    "auteur": "Djaeed",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APic_Des_Singes_%28B%C3%A9jaia_-_Alg%C3%A9rie%29_%282%29.jpg",
+    "src": "img/activites/BJA/pic-des-singes.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "cap-carbon",
+   "nom": "La route du cap Carbon",
+   "emoji": "🗻",
+   "type": "vue",
+   "quartier": "Parc national du Gouraya",
+   "lat": 36.76194,
+   "lng": 5.0984,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Route et belvédères",
+     "gratuit"
+    ],
+    [
+     "Taxi aller-retour avec attente",
+     "≈ 1 500 à 2 500 DA (≈ 10 à 17 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "En fin de journée, pour le soleil sur la falaise",
+   "enfants": true,
+   "texte": "La route touristique taillée dans la falaise file de la ville jusqu'au cap Carbon, un dôme de roche rouge percé d'une arche, qui plonge de 200 mètres dans une eau turquoise. Le phare tout en haut passe pour l'un des plus hauts du monde au-dessus de la mer. Belvédères, tunnel creusé dans le rocher, et singes au bord de la route : la carte postale de Béjaïa.",
+   "note": "Le phare lui-même est en zone militaire : on l'admire depuis la route et les belvédères. Combinez avec le pic des Singes et les Aiguades, sur la même route.",
+   "photo": {
+    "auteur": "MyName (Vermondo)",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACap_Carbon_1.jpg",
+    "src": "img/activites/BJA/cap-carbon.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "aiguades",
+   "nom": "La crique des Aiguades et le cap Bouak",
+   "emoji": "🏖️",
+   "type": "plage",
+   "quartier": "Les Aiguades",
+   "lat": 36.76497,
+   "lng": 5.10295,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage et sentier",
+     "gratuit"
+    ],
+    [
+     "Parasol et transat en été",
+     "≈ 500 à 1 000 DA (≈ 3,30 à 7 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "De juin à septembre pour la baignade ; au printemps pour le sentier",
+   "enfants": true,
+   "texte": "Au bout de la route du cap Carbon, une petite plage de galets au pied de falaises couvertes de pins, avec une eau d'un bleu turquoise presque irréel. Un sentier côtier mène au cap Bouak, dont la paroi tombe à pic dans la mer. Les Aiguades sont la plage la plus photographiée de Béjaïa.",
+   "note": "En juillet et août, venez tôt : le parking est vite plein. Hors saison, la plage est presque déserte et le sentier très agréable.",
+   "photo": {
+    "auteur": "Reda Kerbush",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALes_Aiguades%2C_B%C3%A9ja%C3%AFa.jpg",
+    "src": "img/activites/BJA/aiguades.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "boulimat",
+   "nom": "Boulimat et la corniche ouest",
+   "emoji": "🏝️",
+   "type": "nature",
+   "quartier": "Boulimat (20 min)",
+   "lat": 36.81258,
+   "lng": 4.98136,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Plage",
+     "gratuit"
+    ],
+    [
+     "Taxi depuis le centre (aller)",
+     "≈ 800 à 1 200 DA (≈ 5 à 8 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "L'été pour se baigner ; au coucher du soleil toute l'année",
+   "enfants": true,
+   "texte": "À 15 km à l'ouest, la route longe une côte découpée de criques et de rochers jusqu'à Boulimat, sa grande plage de sable et son îlot au large. Plus loin, Saket et ses roches noires. C'est la plage des familles béjaouies, avec des cafés et des grillades de poisson les pieds dans le sable.",
+   "note": "Plages surveillées seulement pendant la saison estivale (fin juin à fin août).",
+   "photo": {
+    "auteur": "Mohand rabia",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABejaia_boulimat_coralaise.jpg",
+    "src": "img/activites/BJA/boulimat.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "aokas",
+   "nom": "La grotte féerique d'Aokas et la corniche",
+   "emoji": "🕳️",
+   "type": "nature",
+   "quartier": "Aokas (40 min)",
+   "lat": 36.64377,
+   "lng": 5.238,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Entrée de la grotte",
+     "≈ 200 DA au plus (≈ 1,30 €), en espèces"
+    ],
+    [
+     "Taxi depuis Béjaïa (aller)",
+     "≈ 1 500 à 2 000 DA (≈ 10 à 13 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "En combinant avec un déjeuner de poisson à Aokas",
+   "enfants": true,
+   "texte": "Sur la route de Jijel, au bord de la mer, une grotte ouverte à côté du tunnel de la route côtière : stalactites, stalagmites et colonnes éclairées, dans une salle fraîche toute l'année. Au-dessus, le cap Aokas et une belle vue sur la côte. Ensuite, la corniche jusqu'à Melbou est l'une des plus belles routes de la côte kabyle.",
+   "note": "Les horaires changent selon la saison (plus larges l'été) ; la grotte est humide et glissante, prévoyez de bonnes chaussures.",
+   "photo": {
+    "auteur": "E3 Djabri",
+    "licence": "CC BY-SA 1.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAokas_grottes_f%C3%A9eriques.jpg",
+    "src": "img/activites/BJA/aokas.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "kefrida",
+   "nom": "Les cascades de Kefrida",
+   "emoji": "💦",
+   "type": "nature",
+   "quartier": "Taskriout (1 h 15)",
+   "lat": 36.57056,
+   "lng": 5.28967,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Chauffeur à la journée (avec Kherrata)",
+     "≈ 8 000 à 12 000 DA (≈ 53 à 80 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Au printemps (mars à mai), quand l'eau coule le plus fort",
+   "enfants": true,
+   "texte": "Dans les montagnes au sud de Béjaïa, une rivière dévale en plusieurs chutes au fond d'une gorge verdoyante, au milieu des figuiers et des lauriers-roses. Les cascades de Kefrida sont l'excursion nature la plus courue de la région, avec une passerelle et de petits cafés accrochés à la falaise.",
+   "note": "En été la cascade peut être très faible. Combinez avec les gorges de Kherrata, 20 minutes plus loin.",
+   "photo": {
+    "auteur": "Mokhtar alioueche",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACascade_kefrida_1.jpg",
+    "src": "img/activites/BJA/kefrida.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "kherrata",
+   "nom": "Les gorges de Kherrata",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "Kherrata (1 h 30)",
+   "lat": 36.50914,
+   "lng": 5.26998,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit (route nationale)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Sur la route de Kefrida, en journée",
+   "enfants": true,
+   "texte": "Sur 7 kilomètres, la route s'enfonce dans le Chabet el Akhra, une entaille de plusieurs centaines de mètres de profondeur dans la montagne. Elle passe sous des surplombs de roche, à travers des tunnels creusés à la main au XIXe siècle, au-dessus de l'oued Agrioun. Des singes magots y vivent aussi.",
+   "note": "Route étroite et fréquentée par les camions : arrêtez-vous seulement sur les aires prévues.",
+   "photo": {
+    "auteur": "Yelles",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGorges_de_Kherrata.JPG",
+    "src": "img/activites/BJA/kherrata.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "lac-noir",
+   "nom": "Le lac Noir, dans la forêt d'Akfadou",
+   "emoji": "🌲",
+   "type": "nature",
+   "quartier": "Adekar (1 h 30)",
+   "lat": 36.6902,
+   "lng": 4.6466,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Chauffeur à la journée",
+     "≈ 8 000 à 10 000 DA (≈ 53 à 66 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Au printemps et en automne (les chênes roussissent en novembre)",
+   "enfants": true,
+   "texte": "À plus de 1 000 mètres d'altitude, au cœur d'une immense forêt de chênes zéens, un petit lac sombre où se reflètent les arbres. Pique-niques en famille, vaches en liberté, promenades sous les grands chênes : la Kabylie des montagnes, à une heure et demie de la mer.",
+   "note": "Il peut faire froid et neiger en hiver. Route de montagne sinueuse : partez avec un chauffeur qui connaît le coin.",
+   "photo": {
+    "auteur": "Salim hamouche",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALac_noir%2C_Akfadou%2C_Bejaia.jpg",
+    "src": "img/activites/BJA/lac-noir.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "tiklat",
+   "nom": "Tiklat, les ruines romaines de Tubusuptu",
+   "emoji": "🏛️",
+   "type": "culture",
+   "quartier": "El Kseur (40 min)",
+   "lat": 36.65579,
+   "lng": 4.83862,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès au site",
+     "libre"
+    ],
+    [
+     "Taxi depuis Béjaïa (aller)",
+     "≈ 1 500 à 2 000 DA (≈ 10 à 13 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "Le matin, sur la route de la vallée de la Soummam",
+   "enfants": true,
+   "texte": "Dans la vallée de la Soummam, au milieu des oliviers, les restes d'une colonie de vétérans romains : de grands thermes, et surtout d'immenses citernes voûtées, parmi les plus vastes d'Afrique du Nord. Un site peu aménagé, que vous aurez sans doute pour vous seul.",
+   "note": "Site sans gardien ni buvette : eau et chaussures fermées.",
+   "photo": {
+    "auteur": "Kavayel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARuines_romaine_de_Tubusuptu%2C_Tiklat%2C_El_Kseur.jpg",
+    "src": "img/activites/BJA/tiklat.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "match-mob",
+   "nom": "Un match à l'Unité Maghrébine",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade de l'Unité Maghrébine",
+   "lat": 36.74936,
+   "lng": 5.04626,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 300 à 500 DA (≈ 2 à 3,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pendant la saison (septembre à mai)",
+   "enfants": false,
+   "texte": "Béjaïa vit le football à fond. Au stade de l'Unité Maghrébine jouent le MO Béjaïa, le club historique, ainsi que l'Olympique Akbou, qui y reçoit les grands clubs de la Ligue 1. Tambours, chants en kabyle et fumigènes : une ambiance comme on n'en voit plus guère en Europe.",
+   "note": "Match annoncé quelques jours avant seulement : vérifiez la date sur la page du club. Préférez la tribune au virage, et évitez d'y emmener de jeunes enfants.",
+   "club": "MO Béjaïa",
+   "lien_billets": "https://www.google.com/search?q=MO+B%C3%A9ja%C3%AFa+prochain+match",
+   "photo": {
+    "auteur": "Nadir Serrir",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AStade_de_B%C3%A9ja%C3%AFa.jpg",
+    "src": "img/activites/BJA/match-mob.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "vieille-ville",
+   "nom": "Vieille ville (place du 1er-Novembre)",
+   "lat": 36.7525,
+   "lng": 5.0845,
+   "texte": "Le cœur historique, entre la place du 1er-Novembre, la Casbah et le port : petits hôtels de caractère, cafés, glaciers, et la Brise de mer à quinze minutes à pied. Le plus charmant pour un premier séjour, mais les rues sont en pente."
+  },
+  {
+   "id": "brise-de-mer",
+   "nom": "Brise de mer et route des Aiguades",
+   "lat": 36.7595,
+   "lng": 5.0905,
+   "texte": "Au pied du Gouraya, sur la route du cap Carbon : hôtels avec vue sur la baie, promenade du soir devant la porte, et le parc national à deux pas. Idéal pour les amoureux de nature ; le centre est à quinze minutes à pied."
+  },
+  {
+   "id": "seghir",
+   "nom": "Séghir et Naceria",
+   "lat": 36.7485,
+   "lng": 5.058,
+   "texte": "Le Béjaïa moderne : grands boulevards, la plupart des restaurants récents (burgers, pizzas, brasseries), centres commerciaux et hôtels confortables. Pratique et animé le soir ; la vieille ville est à dix minutes en taxi."
+  },
+  {
+   "id": "ihaddaden",
+   "nom": "Ihaddaden, route de l'aéroport",
+   "lat": 36.738,
+   "lng": 5.06,
+   "texte": "Au sud du centre, sur la route de l'aéroport et de Tichy : grands hôtels récents avec parking, au calme. Le meilleur choix si vous louez une voiture ou partez tôt en excursion."
+  },
+  {
+   "id": "tichy",
+   "nom": "Tichy, la station balnéaire",
+   "lat": 36.6705,
+   "lng": 5.155,
+   "texte": "À 15 km à l'est, une longue plage de sable bordée d'hôtels, dont l'hôtel des Hammadites dessiné par Fernand Pouillon. Le choix de l'été pour la baignade ; il faut un taxi pour rejoindre Béjaïa (20 minutes)."
+  }
+ ],
+ "hotel_petit_prix_max": 55,
+ "prix_match": 2,
+ "restaurants": [
+  {
+   "id": "fritet-omlitet",
+   "nom": "Fritet Omlitet",
+   "emoji": "🥪",
+   "gamme": "petit",
+   "genre": "Le sandwich frites-omelette",
+   "quartier": "Vieille ville",
+   "adresse": "Rue Djebar Boualem, près de la porte Fouka",
+   "lat": 36.75331,
+   "lng": 5.08088,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le casse-croûte national algérien, élevé ici au rang d'art : une baguette garnie d'omelette, de frites maison et de sauce piquante, à manger debout dans la vieille ville. La petite adresse la mieux notée du quartier, et le repas le moins cher de votre séjour.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; à emporter",
+   "photo": {
+    "auteur": "3esban",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASandwich_frites-omelette.jpg",
+    "src": "img/restos/BJA/fritet-omlitet.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "da-ali",
+   "nom": "Da Ali, le doyen de la glace",
+   "emoji": "🍨",
+   "gamme": "petit",
+   "genre": "Glacier historique",
+   "quartier": "Vieille ville",
+   "adresse": "Rue Larbi Ben M'hidi, à deux pas de la place du 1er-Novembre",
+   "lat": 36.75314,
+   "lng": 5.0835,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Une petite boutique de la vieille ville qui sert des glaces depuis des générations, et dont l'enseigne dit tout : « le doyen de la glace ». Parfums simples, cornets généreux, et une promenade jusqu'à la place pour les manger face à la baie.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "rawpixel",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGelato_ice_cream.jpg",
+    "src": "img/restos/BJA/da-ali.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "new-haven",
+   "nom": "New Haven Burger",
+   "emoji": "🍔",
+   "gamme": "petit",
+   "genre": "Burgers maison",
+   "quartier": "Séghir",
+   "adresse": "Quartier Séghir",
+   "lat": 36.74995,
+   "lng": 5.05779,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le burger préféré des Béjaouis, et la meilleure note de la ville parmi les adresses qui ont des centaines d'avis : pain brioché, viande hachée sur place, oignons grillés et frites épicées. Salle moderne, service rapide.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; un peu d'attente le soir du week-end",
+   "photo": {
+    "auteur": "Kurtkaiser",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACheeseburger_and_fries_2.jpg",
+    "src": "img/restos/BJA/new-haven.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "only-pizza",
+   "nom": "Only Pizza",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza à l'italienne",
+   "quartier": "Séghir",
+   "adresse": "Quartier Séghir",
+   "lat": 36.74866,
+   "lng": 5.05794,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Pâte fine, bonne mozzarella et four bien chaud : pour beaucoup d'habitants, la meilleure pizzeria de Béjaïa. Le choix est large, des classiques aux pizzas maison, et l'accueil souriant.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Fabryx98",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza-napoletana.jpg",
+    "src": "img/restos/BJA/only-pizza.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "maison-dolce",
+   "nom": "Maison Dolce",
+   "emoji": "🍰",
+   "gamme": "petit",
+   "genre": "Pâtisserie et crêpes",
+   "quartier": "Ihaddaden",
+   "adresse": "Boulevard Boudechicha Tahar",
+   "lat": 36.74522,
+   "lng": 5.04946,
+   "prix": "2 à 6 €",
+   "prix_min": 2,
+   "badges": [],
+   "texte": "Une pâtisserie-salon de thé soignée : entremets, bûches, crêpes et salé du midi, peu sucrés et faits avec de bons produits. Parfait pour une pause gourmande l'après-midi.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Thomon",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADeux_%C3%A9clairs_au_chocolat.jpg",
+    "src": "img/restos/BJA/maison-dolce.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tagella",
+   "nom": "Tagella n zik enni",
+   "emoji": "🫓",
+   "gamme": "petit",
+   "genre": "Cuisine kabyle d'autrefois",
+   "quartier": "Naceria",
+   "adresse": "Cité Naceria",
+   "lat": 36.74813,
+   "lng": 5.06898,
+   "prix": "3 à 7 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "Son nom signifie « la galette d'antan » en kabyle : couscous aux légumes, galettes cuites au tadjine, plats mijotés comme dans les villages de montagne. Une table familiale et très bien notée, pour goûter la cuisine kabyle sans passer par une maison.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez tôt le midi",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAlgerian_couscous_from_Kabylia.jpg",
+    "src": "img/restos/BJA/tagella.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "atbaq",
+   "nom": "Atbaq",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Cuisine béjaouie traditionnelle",
+   "quartier": "Naceria",
+   "adresse": "150 logements, Naceria",
+   "lat": 36.74896,
+   "lng": 5.06586,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Un des rares restaurants où l'on retrouve les plats des familles de Béjaïa : osbane, tajines, couscous, chorba. Accueil chaleureux, service attentif et cuisine faite avec soin : c'est l'adresse traditionnelle la mieux notée de la ville, et ses clients le disent tous.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner du week-end",
+   "photo": {
+    "auteur": "Wicanto",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATagine_aux_olives_alg%C3%A9rien.jpg",
+    "src": "img/restos/BJA/atbaq.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "mouradi",
+   "nom": "Mouradi et Fils",
+   "emoji": "🐟",
+   "gamme": "moyen",
+   "genre": "Poisson du jour, institution familiale",
+   "quartier": "Route du stade",
+   "adresse": "Quartier Brandy, route du stade",
+   "lat": 36.75104,
+   "lng": 5.05145,
+   "prix": "8 à 16 €",
+   "prix_min": 8,
+   "badges": [
+    "institution"
+   ],
+   "texte": "La maison de poisson de toute une famille, citée dans les guides depuis des années : on choisit son poisson à l'étal, il est grillé ou frit minute, avec salade et frites. Sans chichis, très frais, et des prix raisonnables.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; plein le vendredi midi",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADorade_royale_grill%C3%A9e.jpg",
+    "src": "img/restos/BJA/mouradi.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "palais-sardine",
+   "nom": "Le Palais de la Sardine",
+   "emoji": "🐠",
+   "gamme": "moyen",
+   "genre": "La sardine sous toutes ses formes",
+   "quartier": "Aokas",
+   "adresse": "Rue du marché, Aokas",
+   "lat": 36.63291,
+   "lng": 5.24453,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "À Aokas, sur la route de la grotte féerique, un restaurant entièrement consacré à la sardine : grillée, farcie, en beignets, en tajine. Une spécialité de la côte, très fraîche, servie dans une salle propre et familiale.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Renhour48",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A4_sardines_grill%C3%A9es.jpg",
+    "src": "img/restos/BJA/palais-sardine.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-platane",
+   "nom": "Le Platane",
+   "emoji": "🍽️",
+   "gamme": "moyen",
+   "genre": "Table familiale de Tichy",
+   "quartier": "Tichy",
+   "adresse": "Route nationale 9, centre de Tichy",
+   "lat": 36.66398,
+   "lng": 5.17113,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Au centre de Tichy, la station balnéaire de Béjaïa, une adresse familiale appréciée pour ses plats généreux, ses grillades et son couscous, à quelques pas de la plage.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation, sauf grands groupes",
+   "photo": {
+    "auteur": "ABDERRAHMANE benamer",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACouscous_alg%C3%A9rien.jpg",
+    "src": "img/restos/BJA/le-platane.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "grillade-palace",
+   "nom": "Grillade Palace",
+   "emoji": "🍢",
+   "gamme": "moyen",
+   "genre": "Grillades au feu de bois",
+   "quartier": "Centre-ville",
+   "adresse": "Avenue Moulay En Nacer",
+   "lat": 36.75077,
+   "lng": 5.07454,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Le temple de la grillade à Béjaïa : brochettes, côtelettes et merguez cuites devant vous, avec crudités et frites. Grand choix, viande fraîche, salle familiale à l'étage. Toujours plein, ce qui en dit long.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; attente possible le soir",
+   "photo": {
+    "auteur": "Amin Noubahar",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKebab_Gerashi.jpg",
+    "src": "img/restos/BJA/grillade-palace.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "daily-planet",
+   "nom": "Daily Planet",
+   "emoji": "🥐",
+   "gamme": "moyen",
+   "genre": "Brunch et pâtisserie",
+   "quartier": "Séghir",
+   "adresse": "Rue Boudechicha Tahar",
+   "lat": 36.74892,
+   "lng": 5.05452,
+   "prix": "6 à 12 €",
+   "prix_min": 6,
+   "badges": [],
+   "texte": "Restaurant et pâtisserie à la fois : brunchs copieux le matin, plats du jour le midi, gâteaux à toute heure. L'adresse des jeunes Béjaouis pour un déjeuner décontracté.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Japanexperterna.se",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlatt_brunch.jpg",
+    "src": "img/restos/BJA/daily-planet.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "citadelle",
+   "nom": "La Citadelle",
+   "emoji": "🐟",
+   "gamme": "haut",
+   "genre": "Poissons et grillades",
+   "quartier": "Centre-ville",
+   "adresse": "Près de l'avenue Moulay En Nacer",
+   "lat": 36.75018,
+   "lng": 5.07107,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "La meilleure table de poisson de Béjaïa selon ses clients, et de loin la mieux notée de la ville : poisson du jour grillé, crevettes, calamars et belles viandes, dans une salle soignée. Le service est rapide et attentionné.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner, surtout le week-end",
+   "photo": {
+    "auteur": "Gerda Arendt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADorade_dish.jpg",
+    "src": "img/restos/BJA/citadelle.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "opera",
+   "nom": "Maison L'Opéra",
+   "emoji": "🎭",
+   "gamme": "haut",
+   "genre": "Cuisine algérienne raffinée et pâtisserie",
+   "quartier": "Séghir",
+   "adresse": "Troisième quartier, Séghir",
+   "lat": 36.75004,
+   "lng": 5.05607,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "Le restaurant le plus célèbre de la ville, avec un nombre d'avis record : grande salle décorée, cuisine algérienne et française (le rôti de veau a ses fidèles), et une pâtisserie maison réputée. Le service peut être lent aux heures pleines.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner du week-end",
+   "photo": {
+    "auteur": "Ms10vc",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ARechta.png",
+    "src": "img/restos/BJA/opera.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "etoile-de-mer",
+   "nom": "L'Étoile de Mer",
+   "emoji": "🦐",
+   "gamme": "haut",
+   "genre": "Fruits de mer, face à la plage",
+   "quartier": "Tichy",
+   "adresse": "Route nationale 9, Tichy",
+   "lat": 36.66466,
+   "lng": 5.17053,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "À Tichy, au bord de la plage, la table de fruits de mer la plus citée de la côte : crevettes royales, poisson grillé, paella et plateaux. Idéal pour un déjeuner après la baignade.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille en été",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APlateau_de_fruits_de_mer_001.jpg",
+    "src": "img/restos/BJA/etoile-de-mer.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "westminster",
+   "nom": "Westminster",
+   "emoji": "🥩",
+   "gamme": "haut",
+   "genre": "Brasserie et grill",
+   "quartier": "Séghir",
+   "adresse": "Quartier Séghir",
+   "lat": 36.7496,
+   "lng": 5.05462,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Une grande brasserie élégante et calme : viandes grillées, plats à partager, desserts maison. La carte est variée et la salle bien décorée, une valeur sûre pour un dîner en famille ou entre amis.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le week-end",
+   "photo": {
+    "auteur": "Davidwbaker",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASteak_Frites_with_Bordelaise%2C_July_2020.jpg",
+    "src": "img/restos/BJA/westminster.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-rima",
+   "nom": "Le Rima",
+   "emoji": "🐙",
+   "gamme": "haut",
+   "genre": "Cuisine de la mer, vieille ville",
+   "quartier": "Vieille ville",
+   "adresse": "9, place Lumumba",
+   "lat": 36.75294,
+   "lng": 5.0852,
+   "prix": "12 à 25 €",
+   "prix_min": 12,
+   "badges": [],
+   "texte": "Sur une petite place de la vieille ville, à deux pas de la place du 1er-Novembre : poulpe grillé (la spécialité), poisson, viandes parfaitement cuites. Un cadre agréable, un chef soigneux et un service souriant.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner",
+   "photo": {
+    "auteur": "The Ogre",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APolvo_%C3%A0_lagareiro_%28Alcochete%29.jpg",
+    "src": "img/restos/BJA/le-rima.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "sushi-dine",
+   "nom": "Sushi Dine",
+   "emoji": "🍣",
+   "gamme": "haut",
+   "genre": "Japonais",
+   "quartier": "Séghir",
+   "adresse": "Quartier Séghir",
+   "lat": 36.75002,
+   "lng": 5.05775,
+   "prix": "15 à 30 €",
+   "prix_min": 15,
+   "badges": [],
+   "texte": "Le japonais de référence à Béjaïa : sushis, makis et rouleaux préparés avec du poisson frais de la baie, généreux et bien faits. Les prix sont plus élevés que la moyenne de la ville, mais la qualité suit.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; paiement en espèces",
+   "photo": {
+    "auteur": "chidorian from Japan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASushi_platter.jpg",
+    "src": "img/restos/BJA/sushi-dine.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,929 @@
+{
+ "city_code": "BSK",
+ "ville": "Biskra",
+ "statut": "vérifié en autonomie, prix relevés le 23/11/2026 (1 € ≈ 151 dinars au taux officiel)",
+ "verifie_le": "2026-11-23",
+ "avant_de_partir": "Les Français ont besoin d'un visa pour l'Algérie (la carte d'identité ne suffit pas). Il se demande en personne au consulat d'Algérie de votre région (à Lyon pour la région lyonnaise), avec un passeport valable 6 mois après le retour, une réservation d'hôtel et une assurance voyage : environ 110 €. Comptez jusqu'à 3 semaines : déposez votre dossier au moins un mois avant le départ. Autre possibilité : un circuit organisé par une agence agréée donne droit à un visa délivré à l'arrivée (30 jours au plus). France Diplomatie déconseille, sauf raison impérative, les zones montagneuses des Aurès, juste au nord de Biskra : pour El Kantara ou M'Chouneche, partez de jour avec un chauffeur local.",
+ "reservation_legende": {
+  "indispensable": "Réserver à l'avance (souvent complet sur place)",
+  "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+  "sur_place": "Sur place possible",
+  "libre": "Accès libre"
+ },
+ "transport": "le taxi",
+ "transport_loin": "une voiture avec chauffeur (votre hôtel en trouve une facilement)",
+ "activites": [
+  {
+   "id": "palmeraie",
+   "nom": "La vieille palmeraie et le vieux Biskra",
+   "emoji": "🌴",
+   "type": "balade",
+   "quartier": "Vieux Biskra",
+   "lat": 34.8355,
+   "lng": 5.7365,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ],
+    [
+     "Guide local pour la demi-journée",
+     "≈ 2 000 à 4 000 DA (≈ 13 à 26 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Le matin ou en fin d'après-midi, d'octobre à avril",
+   "enfants": true,
+   "texte": "Au sud du centre, le long de l'oued Sidi Zarzour, des milliers de palmiers dattiers abritent les anciens villages de terre du vieux Biskra, leurs jardins irrigués par des canaux et leurs petites mosquées. On s'y promène à l'ombre, entre les murets de terre crue, en croisant des cultivateurs qui grimpent aux palmiers pour la récolte des dattes.",
+   "note": "Les jardins sont privés : restez sur les chemins, et demandez avant d'entrer ou de photographier. De novembre à janvier, la récolte des dattes bat son plein.",
+   "photo": {
+    "auteur": "Michou06",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABiskra_palms.jpg",
+    "src": "img/activites/BSK/palmeraie.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "jardin-landon",
+   "nom": "Le jardin Landon, le « Jardin d'Allah »",
+   "emoji": "🌺",
+   "type": "balade",
+   "quartier": "Centre-ville",
+   "lat": 34.84685,
+   "lng": 5.73281,
+   "prix": 0.7,
+   "prix_detail": [
+    [
+     "Entrée",
+     "≈ 100 DA (≈ 0,70 €) au plus"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0.7,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "1 h",
+   "moment": "L'après-midi, quand il fait chaud : c'est le coin le plus frais de la ville",
+   "enfants": true,
+   "texte": "En 1872, un aristocrate français, le comte Landon, acheta une dizaine d'hectares de palmeraie au bord de l'oued et y créa un jardin luxuriant : allées de palmiers, bananiers, bambous, ficus géants et plantes venues du monde entier. Le romancier Robert Hichens s'en inspira pour « Le Jardin d'Allah », best-seller adapté plusieurs fois au cinéma. C'est le jardin qui fit de Biskra une station d'hiver célèbre dans toute l'Europe.",
+   "note": "Le jardin est géré par la commune : les horaires varient, et il peut fermer pour des travaux d'entretien. La photo montre le jardin vers 1929.",
+   "photo": {
+    "auteur": "Bibliothèque nationale de France",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3A4_cartes_postales_de_Biskra._Enregistr%C3%A9_en_1929_-_btv1b7702286d_%282_of_4%29.jpg",
+    "src": "img/activites/BSK/jardin-landon.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "hammam-salihine",
+   "nom": "Les bains chauds de Hammam Salihine",
+   "emoji": "♨️",
+   "type": "bains",
+   "quartier": "Hammam Salihine (10 min)",
+   "lat": 34.85753,
+   "lng": 5.70819,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Bain dans les bassins",
+     "≈ 300 DA (≈ 2 €)"
+    ],
+    [
+     "Cabine individuelle ou familiale",
+     "≈ 500 à 1 500 DA (≈ 3,30 à 10 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h",
+   "moment": "En hiver, en fin de journée ; tôt le matin en semaine pour éviter la foule",
+   "enfants": true,
+   "texte": "Les Romains connaissaient déjà cette source : une eau soufrée qui jaillit à plus de 40 °C, réputée contre les rhumatismes et les douleurs. Les Algériens viennent de tout le pays s'y baigner, en famille. Une expérience très locale, simple et populaire, au bord de la palmeraie.",
+   "note": "Bassins séparés pour les hommes et les femmes, cabines familiales pour les couples. Apportez serviette et sandales. Déconseillé aux femmes enceintes et aux personnes cardiaques. La photo montre l'établissement vers 1905.",
+   "photo": {
+    "auteur": "Auteur inconnu",
+    "licence": "Domaine public",
+    "page": "https://commons.wikimedia.org/wiki/File%3AThermes_de_Hammam_Salahine%2C_fontaine_chaude%2C_Biskra_%28Alg%C3%A9rie%29%2C_carte_postale%2C_vers_1905._Sydney%2C_collection_DORA._%C3%89crit_%C3%A0_l%E2%80%99encre_%27Cette_vue_vous_repr%C3%A9_sente_l%E2%80%99%C3%A9tablissement_de_bains_o%C3%B9_Papa_est_all%C3%A9_soigner_ses_douleurs%27.jpg",
+    "src": "img/activites/BSK/hammam-salihine.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "sidi-okba",
+   "nom": "La mosquée de Sidi Okba",
+   "emoji": "🕌",
+   "type": "culture",
+   "quartier": "Sidi Okba (25 min)",
+   "lat": 34.74893,
+   "lng": 5.89749,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Visite",
+     "gratuite (en dehors des prières)"
+    ],
+    [
+     "Taxi aller-retour avec attente",
+     "≈ 1 500 à 2 500 DA (≈ 10 à 17 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h",
+   "moment": "Le matin, en dehors de l'heure des prières",
+   "enfants": true,
+   "texte": "Okba ibn Nafi, le conquérant arabe du Maghreb, fut tué ici en 683. Autour de son tombeau s'est élevée l'une des plus anciennes mosquées d'Algérie, au cœur d'une ville-oasis de maisons en terre. Le sanctuaire est l'un des grands lieux de pèlerinage du pays, et la petite ville garde des ruelles de terre crue à l'ombre des palmiers.",
+   "note": "Tenue couvrante (épaules et jambes, foulard pour les femmes), chaussures retirées. Visite impossible pendant la prière du vendredi midi.",
+   "photo": {
+    "auteur": "Bernard Gagnon",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASidi_Okba_Mosque_04.jpg",
+    "src": "img/activites/BSK/sidi-okba.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "chetma",
+   "nom": "L'oasis de Chetma",
+   "emoji": "🏡",
+   "type": "balade",
+   "quartier": "Chetma (15 min)",
+   "lat": 34.84473,
+   "lng": 5.79394,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Promenade",
+     "gratuit"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, quand la lumière dore la palmeraie",
+   "enfants": true,
+   "texte": "À quelques kilomètres à l'est de Biskra, un village d'oasis où les ruelles de terre se faufilent entre les jardins, les canaux et les palmiers. Les peintres orientalistes, comme Maurice Bompard, venaient y poser leur chevalet à la fin du XIXe siècle : le décor n'a pas tellement changé.",
+   "note": "Les maisons et les jardins sont habités : restez discret et demandez avant de photographier les gens.",
+   "photo": {
+    "auteur": "Mustapha Khayal",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChetma_Biskra.jpg",
+    "src": "img/activites/BSK/chetma.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "dunes",
+   "nom": "Les premières dunes du Sahara",
+   "emoji": "🐪",
+   "type": "nature",
+   "quartier": "Ouest de Biskra (20 min)",
+   "lat": 34.81505,
+   "lng": 5.6535,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Taxi aller-retour avec attente",
+     "≈ 1 500 à 2 500 DA (≈ 10 à 17 €)"
+    ],
+    [
+     "Balade à dromadaire ou en quad, sur place selon la saison",
+     "≈ 1 000 à 3 000 DA (≈ 7 à 20 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "2 h",
+   "moment": "Pour le coucher du soleil, d'octobre à avril",
+   "enfants": true,
+   "texte": "Biskra est la « porte du Sahara » : à vingt minutes à l'ouest de la ville, les premières dunes de sable blond apparaissent au bord de la route. On y monte pieds nus pour voir le soleil se coucher sur les palmeraies et les montagnes de l'Atlas saharien.",
+   "note": "Les loueurs de dromadaires et de quads ne sont là que le week-end et pendant les vacances : renseignez-vous à votre hôtel. La photo montre des dunes de la région de Biskra.",
+   "photo": {
+    "auteur": "Hydrosami",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACloudy_sunny_Desert.jpg",
+    "src": "img/activites/BSK/dunes.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "el-kantara",
+   "nom": "Les gorges d'El Kantara, la « bouche du désert »",
+   "emoji": "🏜️",
+   "type": "nature",
+   "quartier": "El Kantara (50 min)",
+   "lat": 35.22311,
+   "lng": 5.70928,
+   "prix": 1.3,
+   "prix_detail": [
+    [
+     "Gorges et pont romain",
+     "gratuit"
+    ],
+    [
+     "Musée lapidaire",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Chauffeur pour la demi-journée",
+     "≈ 5 000 à 8 000 DA (≈ 33 à 53 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 1.3,
+    "enfants": [
+     [
+      15,
+      0
+     ]
+    ],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "Demi-journée",
+   "moment": "Le matin, pour la lumière dans les gorges",
+   "enfants": true,
+   "texte": "Au nord de Biskra, la montagne s'ouvre d'un coup en une fente étroite : passé ce défilé, le paysage bascule des montagnes au désert, et une palmeraie immense apparaît. Les Romains y avaient jeté un pont, toujours debout ; les Arabes l'appelèrent « Foum es-Sahra », la bouche du Sahara. Le village rouge, la palmeraie et un petit musée de pierres romaines complètent la visite.",
+   "note": "France Diplomatie déconseille les zones montagneuses isolées des Aurès : restez sur la route nationale et dans le village, de jour, avec un chauffeur local.",
+   "photo": {
+    "auteur": "Dan Sloan",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEl_Kantara_Gorges%2C_algeria_01.jpg",
+    "src": "img/activites/BSK/el-kantara.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "mchouneche",
+   "nom": "L'oasis-canyon de M'Chouneche",
+   "emoji": "🏞️",
+   "type": "nature",
+   "quartier": "M'Chouneche (50 min)",
+   "lat": 34.95691,
+   "lng": 6.00817,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Chauffeur pour la demi-journée",
+     "≈ 5 000 à 8 000 DA (≈ 33 à 53 €) la voiture"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "Au printemps, quand l'oued coule entre les palmiers",
+   "enfants": true,
+   "texte": "Au pied des Aurès, l'oued El Abiod a creusé un canyon de roche ocre où se cache une palmeraie : bassins d'eau claire, falaises sculptées, villages de pierre accrochés au-dessus des jardins. Les potiers de M'Chouneche vendent leur céramique au bord de la route. Un des paysages les plus spectaculaires du Sud algérien, encore très peu connu.",
+   "note": "France Diplomatie déconseille les zones montagneuses isolées des Aurès : visitez de jour, avec un chauffeur local, sans vous éloigner des villages.",
+   "photo": {
+    "auteur": "Yves Jalabert",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AL%27oasis_de_M%27Chouneche.jpg",
+    "src": "img/activites/BSK/mchouneche.jpg"
+   },
+   "a_verifier": false,
+   "badges": [
+    "tendance"
+   ]
+  },
+  {
+   "id": "tolga",
+   "nom": "Tolga, la capitale de la datte Deglet Nour",
+   "emoji": "🌴",
+   "type": "culture",
+   "quartier": "Tolga (45 min)",
+   "lat": 34.71066,
+   "lng": 5.37923,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Zaouïa et palmeraie",
+     "gratuit"
+    ],
+    [
+     "Dattes Deglet Nour au marché",
+     "≈ 400 à 1 000 DA le kilo (≈ 2,60 à 7 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "Demi-journée",
+   "moment": "D'octobre à janvier, pendant la récolte des dattes",
+   "enfants": true,
+   "texte": "Les palmeraies de Tolga donnent la Deglet Nour, le « doigt de lumière », la datte translucide et mielleuse que l'on retrouve sur les tables françaises à Noël. Pendant la récolte, on voit les régimes descendre des palmiers et les marchés déborder. La vieille ville garde aussi la zaouïa Ali Ben Omar, fondée à la fin du XVIIIe siècle, et sa bibliothèque de manuscrits anciens.",
+   "note": "Achetez vos dattes au marché ou chez un producteur : elles se conservent plusieurs mois. La zaouïa est un lieu religieux : tenue couvrante.",
+   "photo": {
+    "auteur": "Yelles",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADattes_de_Deglet_nour_%C3%A0_Tolga_%28Wilaya_de_Biskra%29.jpg",
+    "src": "img/activites/BSK/tolga.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "foum-el-gherza",
+   "nom": "Le barrage de Foum El Gherza",
+   "emoji": "💧",
+   "type": "nature",
+   "quartier": "Foum El Gherza (25 min)",
+   "lat": 34.8685,
+   "lng": 5.92644,
+   "prix": 0,
+   "prix_detail": [
+    [
+     "Accès",
+     "gratuit"
+    ],
+    [
+     "Taxi aller-retour avec attente",
+     "≈ 1 500 à 2 500 DA (≈ 10 à 17 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 0,
+    "enfants": []
+   },
+   "reservation": "libre",
+   "duree": "1 h 30",
+   "moment": "En fin d'après-midi, pour la lumière sur les falaises",
+   "enfants": true,
+   "texte": "À l'est de Biskra, un barrage construit en 1950 ferme une gorge étroite entre deux falaises ocre. Derrière, un lac aux couleurs changeantes au milieu du désert ; devant, les palmeraies de Sidi Okba qu'il arrose. Un détour facile sur la route de la mosquée de Sidi Okba.",
+   "note": "On admire le barrage depuis la route et les belvédères ; le niveau du lac varie beaucoup selon les années.",
+   "photo": {
+    "auteur": "Barragiste",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABarragiste_2.jpg",
+    "src": "img/activites/BSK/foum-el-gherza.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  },
+  {
+   "id": "match-usb",
+   "nom": "Un match de l'US Biskra",
+   "emoji": "⚽",
+   "type": "sport",
+   "quartier": "Stade du 18-Février",
+   "lat": 34.8438,
+   "lng": 5.75422,
+   "prix": 2,
+   "prix_detail": [
+    [
+     "Place en virage",
+     "≈ 200 DA (≈ 1,30 €)"
+    ],
+    [
+     "Tribune",
+     "≈ 300 à 500 DA (≈ 2 à 3,30 €)"
+    ]
+   ],
+   "tarifs": {
+    "adulte": 2,
+    "enfants": [],
+    "estimation": true
+   },
+   "reservation": "sur_place",
+   "duree": "2 h 30",
+   "moment": "Le week-end, pendant la saison (septembre à mai)",
+   "enfants": false,
+   "texte": "L'US Biskra, remontée en Ligue 1 en 2026, reçoit les grands clubs du pays au stade du 18-Février, devant des tribunes pleines de supporters en vert et noir. Chants, tambours et ferveur du Sud : un spectacle à part entière, pour le prix d'un café.",
+   "note": "Match annoncé quelques jours avant seulement : vérifiez la date sur la page du club. Préférez la tribune au virage, et évitez d'y emmener de jeunes enfants.",
+   "club": "US Biskra",
+   "lien_billets": "https://www.google.com/search?q=US+Biskra+prochain+match",
+   "photo": {
+    "auteur": "Chabirachabira",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%D9%85%D9%84%D8%B9%D8%A8_18_%D9%81%D9%8A%D9%81%D8%B1%D9%8A.jpg",
+    "src": "img/activites/BSK/match-usb.jpg"
+   },
+   "a_verifier": false,
+   "badges": []
+  }
+ ],
+ "quartiers": [
+  {
+   "id": "centre",
+   "nom": "Centre-ville (jardin Landon)",
+   "lat": 34.8505,
+   "lng": 5.729,
+   "texte": "Le cœur de Biskra, entre le jardin Landon, le marché et les grandes avenues : la plupart des hôtels de la ville, des cafés et des restaurants à pied. Le plus pratique pour un premier séjour."
+  },
+  {
+   "id": "el-alia",
+   "nom": "El Alia, côté université",
+   "lat": 34.857,
+   "lng": 5.742,
+   "texte": "À l'est du centre, un quartier récent et animé autour de l'université : restaurants traditionnels, cafés modernes et hôtels familiaux. Sur la route de Sidi Okba et de Chetma ; le centre est à dix minutes en taxi."
+  },
+  {
+   "id": "feliache",
+   "nom": "Feliache, route de Batna",
+   "lat": 34.867,
+   "lng": 5.716,
+   "texte": "Au nord de la ville, sur la route de Batna et d'El Kantara : grands hôtels récents, dont un quatre étoiles, pizzerias et grillades. Pratique en voiture, et pour partir tôt vers les gorges."
+  },
+  {
+   "id": "hammam-salihine",
+   "nom": "Ouest, Hammam Salihine",
+   "lat": 34.858,
+   "lng": 5.703,
+   "texte": "À l'ouest, près des sources chaudes : hôtels et complexes thermaux pour se baigner matin et soir, au calme, au bord de la palmeraie. Sur la route de Tolga et des dunes."
+  },
+  {
+   "id": "vieux-biskra",
+   "nom": "Vieux Biskra et la palmeraie",
+   "lat": 34.8375,
+   "lng": 5.735,
+   "texte": "Au sud du centre, les vieux quartiers de terre et la palmeraie le long de l'oued : très peu d'hôtels, mais quelques maisons d'hôtes au milieu des palmiers, pour dormir au calme dans le Biskra d'autrefois."
+  }
+ ],
+ "hotel_petit_prix_max": 45,
+ "prix_match": 2,
+ "restaurants": [
+  {
+   "id": "doubara-zaim",
+   "nom": "Doubara Zaim",
+   "emoji": "🥣",
+   "gamme": "petit",
+   "genre": "La doubara, le plat de Biskra",
+   "quartier": "Nord-est",
+   "adresse": "Quartier El Alia nord",
+   "lat": 34.86057,
+   "lng": 5.7415,
+   "prix": "1 à 3 €",
+   "prix_min": 1,
+   "badges": [
+    "institution"
+   ],
+   "texte": "Impossible de venir à Biskra sans goûter la doubara : un ragoût de pois chiches et de fèves, relevé d'ail, de cumin et de piment, que l'on ne cuisine vraiment qu'ici. Chez Zaim, elle arrive fumante avec du pain frais pour saucer. Le repas le plus authentique, et le moins cher, de votre séjour.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; on mange au comptoir ou à emporter",
+   "photo": {
+    "auteur": "Ovva olfa",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3A%D9%85%D8%B1%D9%82%D8%A9_%D9%84%D9%88%D8%A8%D9%8A%D8%A7.JPG",
+    "src": "img/restos/BSK/doubara-zaim.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-benna",
+   "nom": "El Benna Biskria",
+   "emoji": "🫓",
+   "gamme": "petit",
+   "genre": "Mahjouba et plats biskris",
+   "quartier": "Centre-ville",
+   "adresse": "Boulevard Rezougue Amar",
+   "lat": 34.84532,
+   "lng": 5.72565,
+   "prix": "1 à 4 €",
+   "prix_min": 1,
+   "badges": [],
+   "texte": "« Le goût de Biskra » : mahjouba (crêpe de semoule pliée sur une farce de tomates et d'oignons), chorba, plats du jour de la cuisine biskrie, préparés comme à la maison. Une petite adresse très bien notée, pour manger local à toute petite somme.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Richard Allaway",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AM%27ssemen_khlia_-_A_Moroccan_snack_-_a_bit_like_a_savoury_pancake_but_thicker_..._%286935110470%29.jpg",
+    "src": "img/restos/BSK/el-benna.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "pizza-land",
+   "nom": "Pizza Land",
+   "emoji": "🍕",
+   "gamme": "petit",
+   "genre": "Pizza au feu de bois",
+   "quartier": "Nord",
+   "adresse": "Route de Batna, quartier Feliache",
+   "lat": 34.86801,
+   "lng": 5.71553,
+   "prix": "3 à 6 €",
+   "prix_min": 3,
+   "badges": [],
+   "texte": "La pizzeria la plus constante de Biskra, et de loin la plus commentée : pâte croustillante sur les bords et moelleuse au centre, garnitures généreuses, four à bois. Comptez 600 à 900 DA pour une pizza avec boisson.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; fermé certains soirs, vérifiez avant",
+   "photo": {
+    "auteur": "ノボホショコロトソ",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3APizza_Margherita_%E3%83%94%E3%82%B6%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%B2%E3%83%AA%E3%83%BC%E3%82%BF.jpg",
+    "src": "img/restos/BSK/pizza-land.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "miso-food",
+   "nom": "Miso Food",
+   "emoji": "🍗",
+   "gamme": "petit",
+   "genre": "Poulet croustillant et tacos",
+   "quartier": "Centre-ville",
+   "adresse": "Rue Tounsi Lazhar",
+   "lat": 34.84582,
+   "lng": 5.71417,
+   "prix": "2 à 5 €",
+   "prix_min": 2,
+   "badges": [],
+   "texte": "Le fast-food préféré des jeunes Biskris : poulet croustillant, tacos et burgers, servis copieusement et vite. Bien noté, propre, et idéal pour un repas rapide entre deux visites.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Brian Chan",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AFried_Chicken_%28Unsplash%29.jpg",
+    "src": "img/restos/BSK/miso-food.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "ben-charif",
+   "nom": "Pâtisserie Ben Charif",
+   "emoji": "🍯",
+   "gamme": "petit",
+   "genre": "Gâteaux algériens",
+   "quartier": "Centre-ville",
+   "adresse": "Boulevard des Frères Menani",
+   "lat": 34.85252,
+   "lng": 5.73264,
+   "prix": "1 à 4 €",
+   "prix_min": 1,
+   "badges": [],
+   "texte": "La pâtisserie qui revendique le titre de meilleure de Biskra : makrouts, baklawas, cornes de gazelle et gâteaux aux dattes, à emporter pour le goûter ou à offrir. Faites une provision avant de reprendre l'avion.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Kingdz16",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AG%C3%A2teaux_traditionnels_alg%C3%A9riens_2.jpg",
+    "src": "img/restos/BSK/ben-charif.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "fuji-coffee",
+   "nom": "Fuji Coffee",
+   "emoji": "☕",
+   "gamme": "petit",
+   "genre": "Café moderne",
+   "quartier": "Ouest",
+   "adresse": "Allée Mohamed Seddik Ben Yahia",
+   "lat": 34.84661,
+   "lng": 5.70604,
+   "prix": "1 à 4 €",
+   "prix_min": 1,
+   "badges": [],
+   "texte": "Un café moderne et soigné : espresso, cappuccino, boissons glacées et douceurs, dans une salle agréable. La pause idéale à l'heure chaude, quand toute la ville ralentit.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Juan Fernández",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACafe_con_leche_y_cruas%C3%A1n.jpg",
+    "src": "img/restos/BSK/fuji-coffee.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "khaymati",
+   "nom": "Khaymati",
+   "emoji": "⛺",
+   "gamme": "moyen",
+   "genre": "Cuisine biskrie traditionnelle",
+   "quartier": "Est",
+   "adresse": "Quartier El Alia",
+   "lat": 34.85609,
+   "lng": 5.74153,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [
+    "tendance"
+   ],
+   "texte": "« Ma tente » est l'adresse la mieux notée de Biskra pour la cuisine du pays : chakhchoukha biskrie, hmiss, tajines et petit-lait frais servi dans des bols en terre, dans un décor de tente saharienne. Le vendredi, c'est jour de chakhchoukha. Le serveur parle plusieurs langues et explique chaque plat.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le vendredi midi",
+   "photo": {
+    "auteur": "Nassima1Nilsen",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChakhchoukha_Biskria.jpg",
+    "src": "img/restos/BSK/khaymati.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-senior",
+   "nom": "El Senior",
+   "emoji": "🥖",
+   "gamme": "moyen",
+   "genre": "Cuisine algérienne familiale",
+   "quartier": "Nord",
+   "adresse": "Quartier Feliache",
+   "lat": 34.8635,
+   "lng": 5.71249,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Les bases de la cuisine algérienne, faites avec soin : chorba, bricks croustillantes, grillades et pâtes, avec un pain maison sorti du four le matin même. Accueil chaleureux, bon rapport qualité-prix.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Sib2022",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABourek_alg%C3%A9rien.jpg",
+    "src": "img/restos/BSK/el-senior.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "le-07",
+   "nom": "Le 07",
+   "emoji": "🍖",
+   "gamme": "moyen",
+   "genre": "Côtes d'agneau au charbon",
+   "quartier": "Est",
+   "adresse": "Près de l'université, cité El Houda",
+   "lat": 34.84387,
+   "lng": 5.74421,
+   "prix": "5 à 10 €",
+   "prix_min": 5,
+   "badges": [],
+   "texte": "Le restaurant-café qui a ses inconditionnels pour une seule raison : les côtes d'agneau grillées au charbon de bois, tendres et parfumées. Avec des frites et une salade, c'est le repas des habitués, qui reviennent sans se lasser.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Nasser-sadeghi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJoojeh-kabab.JPG",
+    "src": "img/restos/BSK/le-07.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "oliva-food",
+   "nom": "Oliva Food",
+   "emoji": "🍕",
+   "gamme": "moyen",
+   "genre": "Pizzas et plats",
+   "quartier": "Centre-ville",
+   "adresse": "Rue Hakim Saadane, près de l'hôpital",
+   "lat": 34.84209,
+   "lng": 5.73037,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Une adresse toujours pleine : pizzas parfumées, plats de viande et des frites dont tout le monde parle, croustillantes dehors et fondantes dedans. L'attente peut être longue aux heures de pointe.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation ; venez avant 12 h 30 ou 19 h 30",
+   "photo": {
+    "auteur": "JIP",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATaglio_alla_diavola.jpg",
+    "src": "img/restos/BSK/oliva-food.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "tolga-restaurant",
+   "nom": "Tolga Restaurant",
+   "emoji": "🍲",
+   "gamme": "moyen",
+   "genre": "Plats du jour algériens",
+   "quartier": "Est",
+   "adresse": "Route nationale 31, près de l'université",
+   "lat": 34.85162,
+   "lng": 5.74517,
+   "prix": "4 à 8 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Un restaurant populaire et bien noté qui sert chaque jour les grands classiques algériens : couscous, tajines, chorba et ragoûts, en portions copieuses. Simple, rapide et très local.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChorba_frik_algerienne.jpg",
+    "src": "img/restos/BSK/tolga-restaurant.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "hola",
+   "nom": "Holà !",
+   "emoji": "🌮",
+   "gamme": "moyen",
+   "genre": "Cuisine mexicaine",
+   "quartier": "Centre-ville",
+   "adresse": "Rue Maaoui Omar",
+   "lat": 34.85103,
+   "lng": 5.72343,
+   "prix": "4 à 9 €",
+   "prix_min": 4,
+   "badges": [],
+   "texte": "Une petite adresse inattendue au cœur de Biskra : tacos, burritos et nachos maison, servis dans une salle colorée. Très bien notée par ses clients, pour changer un soir de la cuisine algérienne.",
+   "reservation": "sur_place",
+   "reservation_delai": "pas de réservation",
+   "photo": {
+    "auteur": "T.Tseng",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATacos_al_pastor.jpg",
+    "src": "img/restos/BSK/hola.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "vescera",
+   "nom": "Restaurant de l'hôtel Vescera Sud",
+   "emoji": "🍽️",
+   "gamme": "haut",
+   "genre": "Table d'hôtel : cuisine du Sud",
+   "quartier": "Centre-ville",
+   "adresse": "Hôtel Vescera Sud, centre-ville",
+   "lat": 34.85326,
+   "lng": 5.72804,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Le restaurant de l'hôtel le mieux noté du centre-ville : salle calme, service attentionné, et une carte qui va des grillades aux grands plats du Sud, comme le méchoui et la chakhchoukha. Le bon choix pour un dîner tranquille.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille, en précisant si vous n'êtes pas client de l'hôtel",
+   "photo": {
+    "auteur": "Lucyin",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AMechwi_noices.JPG",
+    "src": "img/restos/BSK/vescera.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "maurice-laban",
+   "nom": "Restaurant de l'hôtel Maurice Laban",
+   "emoji": "🍷",
+   "gamme": "haut",
+   "genre": "Hôtel quatre étoiles",
+   "quartier": "Ouest",
+   "adresse": "Hôtel Maurice Laban, quartier ouest",
+   "lat": 34.84506,
+   "lng": 5.70571,
+   "prix": "10 à 20 €",
+   "prix_min": 10,
+   "badges": [],
+   "texte": "Le restaurant d'un hôtel quatre étoiles, apprécié de ses clients : grande salle élégante, cuisine algérienne et internationale, service en tenue. La table la plus « habillée » de la ville.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille",
+   "photo": {
+    "auteur": "Slothtysloth",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATajine-zitoune-dzairi.jpg",
+    "src": "img/restos/BSK/maurice-laban.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "selami",
+   "nom": "Hôtel-Restaurant Selami",
+   "emoji": "🥘",
+   "gamme": "haut",
+   "genre": "Couscous et plats de fête",
+   "quartier": "Est",
+   "adresse": "Quartier El Alia",
+   "lat": 34.85829,
+   "lng": 5.74173,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Un hôtel familial dont le restaurant a bonne réputation : couscous, tajines et grillades, servis par une équipe aimable. Une adresse sûre pour goûter de grands plats algériens dans un cadre confortable.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner",
+   "photo": {
+    "auteur": "Yasmine ziat",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACouscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg",
+    "src": "img/restos/BSK/selami.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "viendo",
+   "nom": "Viendo",
+   "emoji": "🔥",
+   "gamme": "haut",
+   "genre": "Grillades dans un cadre soigné",
+   "quartier": "Nord",
+   "adresse": "Quartier Feliache, route de Batna",
+   "lat": 34.86739,
+   "lng": 5.71543,
+   "prix": "8 à 14 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Un restaurant au décor travaillé et à l'ambiance posée, réputé pour ses viandes grillées et ses saveurs « authentiques », le mot qui revient le plus dans les avis. Belle terrasse ombragée pour les soirées chaudes.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le week-end",
+   "photo": {
+    "auteur": "Shixart1985",
+    "licence": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGrilled_steak_on_black_slate_with_herbs_ready_for_serving.jpg",
+    "src": "img/restos/BSK/viendo.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "damasco",
+   "nom": "Damasco Food",
+   "emoji": "🧆",
+   "gamme": "haut",
+   "genre": "Cuisine syrienne",
+   "quartier": "Est",
+   "adresse": "Cité El Houda",
+   "lat": 34.84381,
+   "lng": 5.74469,
+   "prix": "8 à 14 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "L'adresse la plus commentée de Biskra : la cuisine de Damas dans une grande salle bien décorée. Mezzés, chawarmas, grillades mixtes et fatteh, aux saveurs franches et aux portions honnêtes. Un peu plus cher que la moyenne, mais une vraie table.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner du week-end",
+   "photo": {
+    "auteur": "روتانا",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3AHummus_Fatteh_with_Meat.jpg",
+    "src": "img/restos/BSK/damasco.jpg",
+    "illustration": true
+   }
+  },
+  {
+   "id": "el-khaima",
+   "nom": "El Khaima, au complexe thermal Sidi Yahia",
+   "emoji": "🏕️",
+   "gamme": "haut",
+   "genre": "Dîner sous la tente",
+   "quartier": "Hammam Salihine",
+   "adresse": "Complexe thermal Sidi Yahia, route de Tolga",
+   "lat": 34.8654,
+   "lng": 5.69423,
+   "prix": "8 à 15 €",
+   "prix_min": 8,
+   "badges": [],
+   "texte": "Dans le complexe thermal de Sidi Yahia, à côté des bains chauds, un restaurant sous une grande tente saharienne : tapis, coussins, plats du Sud et thé à la menthe. Parfait après une baignade à Hammam Salihine.",
+   "reservation": "conseille",
+   "reservation_delai": "la veille pour le dîner",
+   "photo": {
+    "auteur": "Arnaud 25",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATh%C3%A9_%C3%A0_la_menthe_001.JPG",
+    "src": "img/restos/BSK/el-khaima.jpg",
+    "illustration": true
+   }
+  }
+ ]
+}
