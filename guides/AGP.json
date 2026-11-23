@@ -1,0 +1,1688 @@
+{
+  "city_code": "AGP",
+  "statut": "préparé en autonomie, prix relevés le 23/11/2026",
+  "verifie_le": "2026-11-23",
+  "transport": "le bus",
+  "prix_match": 40,
+  "reservation_legende": {
+    "indispensable": "Réserver à l'avance (souvent complet sur place)",
+    "conseille": "Réserver conseillé (moins cher ou moins d'attente)",
+    "sur_place": "Sur place possible",
+    "libre": "Accès libre"
+  },
+  "activites": [
+    {
+      "id": "alcazaba",
+      "nom": "Alcazaba",
+      "emoji": "🏰",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 36.72113,
+      "lng": -4.41587,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Entrée Alcazaba",
+          7
+        ],
+        [
+          "Billet commun Alcazaba + Gibralfaro",
+          10
+        ],
+        [
+          "Tarif réduit (étudiants de l'UE, plus de 65 ans)",
+          3
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ],
+        [
+          "Le dimanche à partir de 14 h",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "reservation_delai": "billet au guichet ou en ligne le jour même ; file plus longue le dimanche après-midi (gratuit)",
+      "duree": "1 h 30",
+      "moment": "Le matin ; de novembre à mars, ouvert de 9 h à 18 h (20 h d'avril à octobre)",
+      "enfants": true,
+      "texte": "Une forteresse maure du XIe siècle qui grimpe la colline en terrasses : patios, fontaines, jasmin et orangers, avec la mer qui apparaît entre deux arcs. Plus intime que l'Alhambra, et on y entre sans réserver des semaines à l'avance.",
+      "site_officiel": "https://alcazabaygibralfaro.malaga.eu/",
+      "note": "Prenez le billet commun (10 €) si vous montez aussi à Gibralfaro : le chemin de la Coracha relie les deux en 15 minutes de marche.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Matti Blume",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Alcazaba,_Malaga_(DSC02867-Pano).jpg",
+        "src": "img/activites/AGP/alcazaba.jpg"
+      }
+    },
+    {
+      "id": "gibralfaro",
+      "nom": "Château de Gibralfaro et son belvédère",
+      "emoji": "🌅",
+      "type": "vue",
+      "quartier": "Colline de Gibralfaro",
+      "lat": 36.72344,
+      "lng": -4.41137,
+      "prix": 7,
+      "prix_detail": [
+        [
+          "Entrée du château",
+          7
+        ],
+        [
+          "Billet commun avec l'Alcazaba",
+          10
+        ],
+        [
+          "Belvédère au pied des remparts",
+          "gratuit"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 7,
+        "enfants": [
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30 (2 h à pied depuis le centre)",
+      "moment": "En fin d'après-midi, pour la lumière dorée sur le port ; bus 35 depuis le Paseo del Parque si la montée vous fait peur",
+      "enfants": true,
+      "texte": "LA carte postale de Málaga : depuis les remparts, les arènes rondes, le port, la cathédrale et toute la baie s'étalent à vos pieds. Le chemin de ronde se fait en entier, et le belvédère juste en dessous est gratuit.",
+      "site_officiel": "https://alcazabaygibralfaro.malaga.eu/",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Ввласенко",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:View_of_Malaga_from_Castillo_Gibralfaro._Spain.jpg",
+        "src": "img/activites/AGP/gibralfaro.jpg"
+      }
+    },
+    {
+      "id": "cathedrale",
+      "nom": "Cathédrale de l'Incarnation (« La Manquita »)",
+      "emoji": "⛪",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 36.72017,
+      "lng": -4.41931,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée avec audioguide",
+          10
+        ],
+        [
+          "Jeunes",
+          6
+        ],
+        [
+          "Plus de 65 ans",
+          9
+        ],
+        [
+          "Moins de 13 ans",
+          "gratuit"
+        ],
+        [
+          "Entrée libre (sans visite) de 8 h 30 à 9 h",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            12,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "En semaine de 10 h 30 à 18 h 30 (jusqu'à 20 h en été), samedi jusqu'à 18 h, dimanche de 14 h à 18 h",
+      "enfants": true,
+      "texte": "Surnommée « la petite manchote » parce que sa deuxième tour n'a jamais été construite, faute d'argent. À l'intérieur, un chœur en bois sculpté de 40 statues et des voûtes immenses : la plus grande église d'Andalousie après Séville.",
+      "site_officiel": "https://malagacatedral.com/",
+      "note": "La montée sur les toits est suspendue pour travaux sur la toiture : seule la cathédrale se visite. Tenue correcte demandée.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Danielajimenezlucena",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fachada_principal_de_la_Catedral_de_M%C3%A1laga.jpg",
+        "src": "img/activites/AGP/cathedrale.jpg"
+      }
+    },
+    {
+      "id": "picasso",
+      "nom": "Musée Picasso",
+      "emoji": "🎨",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 36.72174,
+      "lng": -4.41843,
+      "prix": 13,
+      "prix_detail": [
+        [
+          "Entrée avec audioguide",
+          13
+        ],
+        [
+          "Plus de 65 ans, étudiants de moins de 26 ans",
+          11
+        ],
+        [
+          "Moins de 17 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 13,
+        "enfants": [
+          [
+            16,
+            0
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet à heure fixe en ligne la veille, surtout le week-end et l'été",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Tous les jours de 10 h à 18 h (19 h de mars à juin, 20 h en juillet-août)",
+      "enfants": true,
+      "texte": "Picasso est né ici, et sa famille a offert à sa ville plus de 200 œuvres : de ses dessins d'enfant aux toiles des dernières années. Le palais Renaissance de Buenavista, avec ses vestiges phéniciens au sous-sol, vaut à lui seul la visite.",
+      "site_officiel": "https://www.museopicassomalaga.org/",
+      "note": "Achetez sur le site du musée : des revendeurs proposent le même billet plus cher.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Roderich Kahn",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Patio_del_Museo_Picasso_M%C3%A1laga_RK01.jpg",
+        "src": "img/activites/AGP/picasso.jpg"
+      }
+    },
+    {
+      "id": "casa-natal",
+      "nom": "Maison natale de Picasso",
+      "emoji": "🖌️",
+      "type": "culture",
+      "quartier": "Plaza de la Merced",
+      "lat": 36.72406,
+      "lng": -4.41764,
+      "prix": 3,
+      "prix_detail": [
+        [
+          "Maison natale",
+          3
+        ],
+        [
+          "Maison + exposition temporaire",
+          4
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ],
+        [
+          "Dimanche de 16 h à 20 h",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 3,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "45 min",
+      "moment": "Tous les jours de 9 h 30 à 20 h",
+      "enfants": true,
+      "texte": "L'appartement où Picasso est né en 1881, sur la place de la Merced : objets de famille, croquis de jeunesse et la statue du peintre assis sur un banc, devant la porte, qui attend la photo.",
+      "site_officiel": "https://museocasanatalpicasso.malaga.eu/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Palickap",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:M%C3%A1laga%2C_Casa_Natal_de_Picasso.jpg",
+        "src": "img/activites/AGP/casa-natal.jpg"
+      }
+    },
+    {
+      "id": "pompidou",
+      "nom": "Centre Pompidou Málaga (« El Cubo »)",
+      "emoji": "🟦",
+      "type": "culture",
+      "quartier": "Port (Muelle Uno)",
+      "lat": 36.71882,
+      "lng": -4.41263,
+      "prix": 9,
+      "prix_detail": [
+        [
+          "Collection + exposition temporaire",
+          9
+        ],
+        [
+          "Tarif réduit",
+          5.5
+        ],
+        [
+          "Moins de 18 ans",
+          "gratuit"
+        ],
+        [
+          "Dimanche à partir de 16 h",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 9,
+        "enfants": [
+          [
+            17,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "De 9 h 30 à 20 h ; fermé le mardi",
+      "enfants": true,
+      "texte": "Le grand cube de verre multicolore posé sur le port, signé Daniel Buren, abrite la seule antenne du Centre Pompidou hors de France : Frida Kahlo, Bacon, Giacometti… à deux pas des palmiers et des bateaux.",
+      "site_officiel": "https://centrepompidou-malaga.eu/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Epizentrum",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:M%C3%A1laga_Centre_Pompidou.20150418.jpg",
+        "src": "img/activites/AGP/pompidou.jpg"
+      }
+    },
+    {
+      "id": "thyssen",
+      "nom": "Musée Carmen Thyssen",
+      "emoji": "🖼️",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 36.72141,
+      "lng": -4.423,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Entrée (collection + expositions)",
+          12
+        ],
+        [
+          "Avec le site romain du sous-sol",
+          15
+        ],
+        [
+          "Tarif réduit",
+          8
+        ],
+        [
+          "Moins de 12 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [
+          [
+            11,
+            0
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30",
+      "moment": "Du mardi au dimanche de 10 h à 20 h ; fermé le lundi",
+      "enfants": true,
+      "texte": "La peinture espagnole du XIXe siècle dans un palais du XVIe : scènes de fêtes andalouses, flamenco, toreros et plages lumineuses de Sorolla. Le musée qui fait comprendre l'Andalousie romantique en une heure.",
+      "site_officiel": "https://www.carmenthyssenmalaga.org/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Eduardo León Garrido",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Museo_Carmen_Thyssen%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-21%2C_DD_07.jpg",
+        "src": "img/activites/AGP/thyssen.jpg"
+      }
+    },
+    {
+      "id": "museo-malaga",
+      "nom": "Musée de Málaga (palais de la Douane)",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Centre historique",
+      "lat": 36.72022,
+      "lng": -4.41738,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Citoyens de l'Union européenne",
+          "gratuit"
+        ],
+        [
+          "Autres visiteurs",
+          1.5
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "Du mardi au dimanche ; fermé le lundi. Prenez votre carte d'identité",
+      "enfants": true,
+      "texte": "Gratuit pour les Européens : dans un palais néoclassique au pied de l'Alcazaba, deux musées en un, beaux-arts du XIXe siècle et trésors archéologiques phéniciens et romains. Le patio et la vue des étages valent déjà le détour.",
+      "site_officiel": "https://www.museosdeandalucia.es/web/museodemalaga",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tyk",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_la_Aduana%2C_M%C3%A1laga_01.JPG",
+        "src": "img/activites/AGP/museo-malaga.jpg"
+      }
+    },
+    {
+      "id": "teatro-romano",
+      "nom": "Théâtre romain",
+      "emoji": "🏛️",
+      "type": "culture",
+      "quartier": "Calle Alcazabilla",
+      "lat": 36.72117,
+      "lng": -4.41682,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Gradins et centre d'interprétation",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "30 min",
+      "moment": "Visible de la rue à toute heure ; centre d'interprétation fermé le lundi",
+      "enfants": true,
+      "texte": "Un théâtre romain du Ier siècle redécouvert en 1951 sous un ancien bâtiment, adossé à l'Alcazaba : les deux monuments superposés, éclairés le soir, font l'une des plus belles scènes de la ville.",
+      "site_officiel": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-teatro-romano-de-malaga",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Teatro_romano%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-20%2C_DD_11.jpg",
+        "src": "img/activites/AGP/teatro-romano.jpg"
+      }
+    },
+    {
+      "id": "larios",
+      "nom": "Calle Larios et le centre historique",
+      "emoji": "🛍️",
+      "type": "balade",
+      "quartier": "Centre historique",
+      "lat": 36.71947,
+      "lng": -4.42158,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h 30",
+      "moment": "En fin de journée, quand toute la ville se promène ; de fin novembre à début janvier, illuminations de Noël en musique chaque soir",
+      "enfants": true,
+      "texte": "La rue piétonne la plus élégante d'Andalousie, pavée de marbre, file jusqu'à la place de la Constitution ; autour, un lacis de ruelles, de bars à tapas et d'églises. À Noël, ses arches de lumières en musique attirent des foules venues de toute l'Espagne.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "maccosta",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Calle_Larios%2C_M%C3%A1laga_03.jpg",
+        "src": "img/activites/AGP/larios.jpg"
+      }
+    },
+    {
+      "id": "muelle-uno",
+      "nom": "Muelle Uno et le Palmeral des Surprises",
+      "emoji": "⚓",
+      "type": "balade",
+      "quartier": "Port",
+      "lat": 36.71835,
+      "lng": -4.41539,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil, jusqu'au phare de la Farola",
+      "enfants": true,
+      "texte": "L'ancien port réinventé en promenade : une allée de palmiers sous une longue pergola blanche, des terrasses face aux voiliers et le cube coloré du Pompidou au bout. Le lieu de la balade du soir, des familles aux amoureux.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Viktar Palstsiuk",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Muelle_1%2C_Port_of_M%C3%A1laga.jpg",
+        "src": "img/activites/AGP/muelle-uno.jpg"
+      }
+    },
+    {
+      "id": "malagueta",
+      "nom": "Plage de la Malagueta",
+      "emoji": "🏖️",
+      "type": "plage",
+      "quartier": "La Malagueta",
+      "lat": 36.71929,
+      "lng": -4.40246,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Plage",
+          "gratuit"
+        ],
+        [
+          "Transat et parasol (en saison)",
+          "≈ 12 à 15 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 h à une demi-journée",
+      "moment": "D'avril à octobre pour la baignade ; en hiver, pour un déjeuner au soleil en terrasse",
+      "enfants": true,
+      "texte": "Une plage en pleine ville, à dix minutes à pied de la cathédrale : sable gris, palmiers, grandes lettres « Málaga » pour la photo et chiringuitos où les sardines grillent sur des barques remplies de braises.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Stefan Krust",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Playa_de_la_Malagueta.jpg",
+        "src": "img/activites/AGP/malagueta.jpg"
+      }
+    },
+    {
+      "id": "pedregalejo",
+      "nom": "Pedregalejo et El Palo, le Málaga des pêcheurs",
+      "emoji": "🐟",
+      "type": "balade",
+      "quartier": "Pedregalejo",
+      "lat": 36.72057,
+      "lng": -4.37212,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Promenade",
+          "gratuit"
+        ],
+        [
+          "Bus 11 depuis le Paseo del Parque",
+          1.4
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "2 à 3 h",
+      "moment": "Pour le déjeuner, ou au coucher du soleil",
+      "enfants": true,
+      "texte": "L'ancien village de pêcheurs, ses petites maisons basses face à la mer et ses criques protégées par des digues : c'est ici qu'on goûte l'espeto, la brochette de sardines grillée au feu de bois sur le sable, les pieds presque dans l'eau.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tyk",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Playa_de_Pedregalejo_05.JPG",
+        "src": "img/activites/AGP/pedregalejo.jpg"
+      }
+    },
+    {
+      "id": "botanique",
+      "nom": "Jardin botanique de La Concepción",
+      "emoji": "🌴",
+      "type": "nature",
+      "quartier": "Nord de la ville (20 min en bus)",
+      "lat": 36.7601,
+      "lng": -4.42627,
+      "prix": 5.2,
+      "prix_detail": [
+        [
+          "Entrée",
+          5.2
+        ],
+        [
+          "Jusqu'à 16 ans",
+          3.1
+        ],
+        [
+          "Dimanche après-midi (14 h en hiver)",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 5.2,
+        "enfants": [
+          [
+            16,
+            3.1
+          ]
+        ]
+      },
+      "reservation": "sur_place",
+      "duree": "2 h",
+      "moment": "Du mardi au dimanche, de 9 h 30 à 17 h 30 (20 h 30 d'avril à septembre) ; fermé le lundi",
+      "enfants": true,
+      "texte": "Un jardin tropical créé en 1855 par une famille d'aristocrates : allée de glycines, palmiers géants, bambous, cascades et un petit temple romantique d'où l'on voit la ville. Une jungle à vingt minutes du centre.",
+      "site_officiel": "https://laconcepcion.malaga.eu/",
+      "note": "Bus 2 jusqu'à la Ciudad Jardín puis 15 minutes de marche, ou bus touristique (ligne 91 en saison).",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Agnieszka Kwiecień, Nova",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Botanical_Garden_in_Malaga_2024-01-20_06.jpg",
+        "src": "img/activites/AGP/botanique.jpg"
+      }
+    },
+    {
+      "id": "soho",
+      "nom": "Soho et ses fresques géantes",
+      "emoji": "🎨",
+      "type": "balade",
+      "quartier": "Soho",
+      "lat": 36.7165,
+      "lng": -4.4245,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Balade",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "1 h",
+      "moment": "En journée, puis un café ou un brunch dans le quartier",
+      "enfants": true,
+      "texte": "L'ancien quartier oublié entre le centre et le port est devenu une galerie à ciel ouvert : des façades entières peintes par des artistes du monde entier (Obey, D*Face…), des cafés de spécialité et des bars branchés.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Daniel Capilla",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Las_Ni%C3%B1as_del_Soho_Mural_02.jpg",
+        "src": "img/activites/AGP/soho.jpg"
+      }
+    },
+    {
+      "id": "automobile",
+      "nom": "Musée de l'Automobile et de la Mode",
+      "emoji": "🚗",
+      "type": "culture",
+      "quartier": "La Tabacalera (bord de mer ouest)",
+      "lat": 36.6957,
+      "lng": -4.4472,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée",
+          "≈ 10 €"
+        ],
+        [
+          "De 6 à 16 ans",
+          "≈ 7 €"
+        ],
+        [
+          "Moins de 6 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            16,
+            7
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h 30 à 2 h",
+      "moment": "Tous les jours, de 10 h à 14 h 30 et de 16 h à 19 h",
+      "enfants": true,
+      "texte": "Une centaine de voitures de rêve, des Bugatti des années 1930 aux Ferrari, exposées à côté de robes haute couture de Chanel ou Dior de la même époque. Une surprise, même pour ceux que les moteurs n'intéressent pas.",
+      "site_officiel": "https://www.museoautomovilmalaga.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Marta Malina Moraczewska",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Museo_Automovil%C3%ADstico_M%C3%A1laga.jpg",
+        "src": "img/activites/AGP/automobile.jpg"
+      }
+    },
+    {
+      "id": "hammam",
+      "nom": "Bains arabes Hammam Al Ándalus",
+      "emoji": "🛁",
+      "type": "bains",
+      "quartier": "Centre historique",
+      "lat": 36.7232,
+      "lng": -4.4232,
+      "prix": 45,
+      "prix_detail": [
+        [
+          "Bains seuls (1 h 30)",
+          "≈ 35 à 40 €"
+        ],
+        [
+          "Bains + massage de 15 min",
+          "≈ 45 à 55 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 45,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "quelques jours avant (places limitées par séance)",
+      "duree": "1 h 30 à 2 h",
+      "moment": "En fin de journée, après la marche",
+      "enfants": false,
+      "texte": "Bassins tiède, chaud et froid sous des voûtes éclairées à la bougie, thé à la menthe et parfum d'eucalyptus : la détente des bains d'Al-Andalus en plein centre, après une journée à arpenter les collines.",
+      "site_officiel": "https://malaga.hammamalandalus.com/",
+      "note": "Maillot de bain obligatoire ; accès à partir de 16 ans environ.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ba%C3%B1os_%C3%A1rabes_Hammam_al_%C3%81ndalus%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-20%2C_DD_134.jpg",
+        "src": "img/activites/AGP/hammam.jpg"
+      }
+    },
+    {
+      "id": "rooftop",
+      "nom": "Toit-terrasse de l'AC Málaga Palacio",
+      "emoji": "🍹",
+      "type": "sortir",
+      "quartier": "Front de mer",
+      "lat": 36.7184,
+      "lng": -4.4199,
+      "prix": 12,
+      "prix_detail": [
+        [
+          "Accès",
+          "gratuit"
+        ],
+        [
+          "Cocktail",
+          "≈ 12 à 15 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 12,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil ; arrivez un peu avant pour une table au bord",
+      "enfants": false,
+      "texte": "Le toit-terrasse le plus photographié de la ville : la cathédrale si proche qu'on croirait la toucher, le port et le Paseo del Parque en contrebas. Le verre est cher, mais la vue est la meilleure du centre.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Johannes Schwanbeck from Dresden",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:View_at_rooftop_bar_%40_AC_Hotel_Malaga_Palacio_-_Flickr_-_schwanhals.jpg",
+        "src": "img/activites/AGP/rooftop.jpg"
+      }
+    },
+    {
+      "id": "flamenco",
+      "nom": "Spectacle de flamenco au tablao Alegría",
+      "emoji": "💃",
+      "type": "sortir",
+      "quartier": "La Malagueta",
+      "lat": 36.7185,
+      "lng": -4.4097,
+      "prix": 29,
+      "prix_detail": [
+        [
+          "Spectacle d'une heure (boisson en plus)",
+          "≈ 25 à 29 €"
+        ],
+        [
+          "De 7 à 12 ans",
+          "≈ 15 €"
+        ],
+        [
+          "Moins de 7 ans",
+          "gratuit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 29,
+        "enfants": [
+          [
+            6,
+            0
+          ],
+          [
+            12,
+            15
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "1 à 3 jours avant (plusieurs séances par soir)",
+      "duree": "1 h",
+      "moment": "Le soir, avant ou après le dîner",
+      "enfants": true,
+      "texte": "Guitare, chant et zapateado à quelques mètres de vous, dans une petite salle où le public retient son souffle : un vrai tablao, avec des artistes andalous, à cinq minutes de la plage de la Malagueta.",
+      "site_officiel": "https://alegriaflamenco.com/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Museo_Carmen_Thyssen%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-21%2C_DD_04.jpg",
+        "src": "img/activites/AGP/flamenco.jpg"
+      }
+    },
+    {
+      "id": "catamaran",
+      "nom": "Balade en catamaran dans la baie",
+      "emoji": "⛵",
+      "type": "nature",
+      "quartier": "Port (Muelle Uno)",
+      "lat": 36.7172,
+      "lng": -4.4135,
+      "prix": 14,
+      "prix_detail": [
+        [
+          "Balade d'1 h",
+          "≈ 14 à 16 €"
+        ],
+        [
+          "Au coucher du soleil",
+          "≈ 25 €"
+        ],
+        [
+          "Enfants",
+          "tarif réduit"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 14,
+        "enfants": [
+          [
+            11,
+            10
+          ]
+        ],
+        "estimation": true
+      },
+      "reservation": "sur_place",
+      "duree": "1 h",
+      "moment": "Au coucher du soleil, ou le matin quand la mer est plate ; dauphins parfois au large",
+      "enfants": true,
+      "texte": "Une heure en mer pour voir Málaga de face : la ville blanche, la cathédrale, Gibralfaro et les montagnes derrière, avec un peu de chance des dauphins à la proue. Départs plusieurs fois par jour depuis le Muelle Uno.",
+      "site_officiel": "https://www.mundomarino.es/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "JMFrias",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Catamar%C3%A1n_Mundo_Marino_MAGIC_en_el_puerto_de_M%C3%A1laga.jpg",
+        "src": "img/activites/AGP/catamaran.jpg"
+      }
+    },
+    {
+      "id": "malaga-cf",
+      "nom": "Match du Málaga CF à La Rosaleda",
+      "emoji": "⚽",
+      "type": "sport",
+      "quartier": "La Rosaleda",
+      "lat": 36.73494,
+      "lng": -4.42653,
+      "prix": 40,
+      "prix_detail": [
+        [
+          "Match de Liga ordinaire",
+          "≈ 30 à 60 €"
+        ],
+        [
+          "Contre le Real Madrid ou le Barça",
+          "≈ 80 € et plus"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 40,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 semaines avant (quelques jours pour un match ordinaire)",
+      "duree": "3 h",
+      "moment": "Soir ou après-midi de match ; arrivez une heure avant",
+      "enfants": true,
+      "texte": "Remonté en Liga, le Málaga CF remplit à nouveau La Rosaleda et ses 30 000 places, à vingt minutes à pied du centre : chants, drapeaux bleu et blanc et une ferveur qu'on ne soupçonne pas dans une ville de vacances.",
+      "site_officiel": "https://www.malagacf.com/",
+      "note": "Achetez sur la billetterie officielle du club ; pour les grandes affiches, les places partent vite.",
+      "club": "Málaga",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Hidalgismael",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg",
+        "src": "img/activites/AGP/malaga-cf.jpg"
+      }
+    },
+    {
+      "id": "caminito",
+      "nom": "Caminito del Rey",
+      "emoji": "🧗",
+      "type": "nature",
+      "quartier": "Ardales (1 h en voiture ou en bus)",
+      "lat": 36.92126,
+      "lng": -4.79111,
+      "prix": 10,
+      "prix_detail": [
+        [
+          "Entrée (à votre rythme)",
+          10
+        ],
+        [
+          "Visite guidée officielle",
+          18
+        ],
+        [
+          "Navette entre l'arrivée et le départ",
+          2.5
+        ],
+        [
+          "Excursion en bus depuis Málaga",
+          "≈ 60 à 70 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 10,
+        "enfants": []
+      },
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant (les week-ends et le printemps partent vite)",
+      "duree": "Une journée (3 à 4 h de marche)",
+      "moment": "Le matin, avec des chaussures fermées ; fermé le lundi et par vent fort",
+      "enfants": true,
+      "texte": "Une passerelle accrochée à 100 mètres au-dessus des gorges du Gaitán, autrefois le « chemin le plus dangereux du monde », aujourd'hui sûre et spectaculaire. Huit kilomètres entre falaises, eau turquoise et vautours qui planent au-dessus de vous.",
+      "site_officiel": "https://www.caminitodelrey.info/",
+      "note": "Interdit aux moins de 8 ans. Sans voiture : train jusqu'à El Chorro (1 h) ou excursion organisée depuis Málaga.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Caminito_del_Rey%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-18%2C_DD_53.jpg",
+        "src": "img/activites/AGP/caminito.jpg"
+      }
+    },
+    {
+      "id": "nerja",
+      "nom": "Nerja : grotte et Balcón de Europa",
+      "emoji": "🦇",
+      "type": "nature",
+      "quartier": "Nerja (1 h en bus)",
+      "lat": 36.76201,
+      "lng": -3.84493,
+      "prix": 16,
+      "prix_detail": [
+        [
+          "Grotte de Nerja (en ligne)",
+          16
+        ],
+        [
+          "De 12 à 13 ans",
+          13
+        ],
+        [
+          "De 6 à 11 ans",
+          12
+        ],
+        [
+          "Moins de 6 ans (billet en ligne)",
+          "gratuit"
+        ],
+        [
+          "Bus Alsa Málaga – Nerja (aller)",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 16,
+        "enfants": [
+          [
+            5,
+            0
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            13
+          ]
+        ]
+      },
+      "reservation": "conseille",
+      "reservation_delai": "billet en ligne quelques jours avant (moins cher et sans file)",
+      "duree": "Une journée",
+      "moment": "Grotte le matin, puis déjeuner et coucher du soleil au Balcón de Europa ; fermée les 1er et 6 janvier, le 15 mai et le 25 décembre",
+      "enfants": true,
+      "texte": "Une cathédrale souterraine où pend l'une des plus hautes colonnes de calcaire du monde, découverte par cinq garçons en 1959. Au-dessus, le Balcón de Europa, terrasse de palmiers en surplomb sur la mer et les criques : le plus beau belvédère de la côte.",
+      "site_officiel": "https://cuevadenerja.es/",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jl FilpoC",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sala_de_la_Cueva_de_Nerja.jpg",
+        "src": "img/activites/AGP/nerja.jpg"
+      }
+    },
+    {
+      "id": "frigiliana",
+      "nom": "Frigiliana, le village blanc",
+      "emoji": "🏘️",
+      "type": "balade",
+      "quartier": "Frigiliana (1 h 15 en bus)",
+      "lat": 36.7908,
+      "lng": -3.896,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Village",
+          "gratuit"
+        ],
+        [
+          "Bus depuis Nerja (aller)",
+          "≈ 1,50 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "À combiner avec Nerja (15 min en bus) ; tôt le matin pour les ruelles sans la foule",
+      "enfants": true,
+      "texte": "Ruelles chaulées en escalier, portes bleues, pots de géraniums et vue jusqu'à la mer : élu plusieurs fois plus beau village d'Andalousie, Frigiliana est le décor de carte postale que tout le monde vient photographier.",
+      "note": "Bus Málaga → Nerja, puis navette jusqu'à Frigiliana.",
+      "badges": [
+        "tendance"
+      ],
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Jaroslav Polacek",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Frigiliana_v_l%C3%A9t%C4%9B.jpg",
+        "src": "img/activites/AGP/frigiliana.jpg"
+      }
+    },
+    {
+      "id": "ronda",
+      "nom": "Ronda et son pont sur le vide",
+      "emoji": "🌉",
+      "type": "balade",
+      "quartier": "Ronda (1 h 45 en bus)",
+      "lat": 36.7406,
+      "lng": -5.1661,
+      "prix": 32,
+      "prix_detail": [
+        [
+          "Excursion en bus avec Setenil de las Bodegas",
+          "≈ 32 €"
+        ],
+        [
+          "Bus de ligne Málaga – Ronda (aller)",
+          "≈ 13 €"
+        ],
+        [
+          "Arènes de Ronda",
+          "≈ 9 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 32,
+        "enfants": [],
+        "estimation": true
+      },
+      "reservation": "conseille",
+      "reservation_delai": "excursion 2 à 3 jours avant",
+      "duree": "Une journée",
+      "moment": "Toute l'année ; prévoyez une petite laine en hiver, la ville est en altitude",
+      "enfants": true,
+      "texte": "Une ville perchée sur deux falaises, reliée par le Puente Nuevo au-dessus d'un ravin de 100 mètres : la vue d'en bas, depuis le sentier du belvédère, coupe le souffle. Arènes parmi les plus anciennes d'Espagne et ruelles mauresques en prime.",
+      "site_officiel": "https://www.turismoderonda.es/",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Wolfgang Moroder",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:View_of_Puente_Nuevo_bridge_in_Ronda_Spain.jpg",
+        "src": "img/activites/AGP/ronda.jpg"
+      }
+    },
+    {
+      "id": "torcal",
+      "nom": "El Torcal d'Antequera",
+      "emoji": "🪨",
+      "type": "nature",
+      "quartier": "Antequera (50 min en voiture)",
+      "lat": 36.9536,
+      "lng": -4.5446,
+      "prix": 0,
+      "prix_detail": [
+        [
+          "Sentiers balisés",
+          "gratuit"
+        ],
+        [
+          "Parking (en saison)",
+          "≈ 5 €"
+        ]
+      ],
+      "tarifs": {
+        "adulte": 0,
+        "enfants": []
+      },
+      "reservation": "libre",
+      "duree": "Une demi-journée",
+      "moment": "Le matin, hors des jours de brouillard ; chaussures de marche",
+      "enfants": true,
+      "texte": "Un labyrinthe de rochers sculptés par le vent en piles d'assiettes géantes, à 1 200 mètres d'altitude, où l'on croise des bouquetins. À combiner avec les dolmens d'Antequera, classés à l'Unesco.",
+      "site_officiel": "https://www.torcaldeantequera.com/",
+      "note": "Sans voiture, le plus simple est une excursion organisée.",
+      "a_verifier": false,
+      "photo": {
+        "auteur": "Tuxyso",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:El_Torcal_Iberiensteinbock_2014.jpg",
+        "src": "img/activites/AGP/torcal.jpg"
+      }
+    }
+  ],
+  "quartiers": [
+    {
+      "id": "centro",
+      "nom": "Centre historique",
+      "lat": 36.721,
+      "lng": -4.42,
+      "texte": "Entre la calle Larios, la cathédrale et l'Alcazaba : tous les musées, les bars à tapas et les ruelles à pied. Idéal pour un premier séjour, mais animé tard le soir et plus cher."
+    },
+    {
+      "id": "soho",
+      "nom": "Soho",
+      "lat": 36.7165,
+      "lng": -4.4245,
+      "texte": "Le quartier du street-art, entre le centre et le port : cafés branchés, hôtels design et prix un peu plus doux, à cinq minutes à pied de la calle Larios."
+    },
+    {
+      "id": "malagueta",
+      "nom": "La Malagueta",
+      "lat": 36.7195,
+      "lng": -4.409,
+      "texte": "Entre le port et la plage, au pied de Gibralfaro : la mer au bout de la rue et le centre à dix minutes à pied. Le bon compromis plage-ville, avec beaucoup d'hôtels avec vue."
+    },
+    {
+      "id": "pedregalejo",
+      "nom": "Pedregalejo et El Palo",
+      "lat": 36.7205,
+      "lng": -4.378,
+      "texte": "L'ancien village de pêcheurs, à l'est : maisons basses face à la mer, chiringuitos et ambiance de quartier. Calme et authentique, mais à 20 minutes de bus du centre."
+    },
+    {
+      "id": "perchel",
+      "nom": "El Perchel et la gare",
+      "lat": 36.714,
+      "lng": -4.43,
+      "texte": "De l'autre côté du fleuve, près de la gare María Zambrano (train direct pour l'aéroport en 12 minutes) : hôtels moins chers et pratiques, à 15 minutes à pied du centre."
+    }
+  ],
+  "hotel_petit_prix_max": 90,
+  "restaurants": [
+    {
+      "id": "casa-guardia",
+      "nom": "Antigua Casa de Guardia",
+      "emoji": "🍷",
+      "gamme": "petit",
+      "genre": "Bodega de vins doux de Málaga",
+      "quartier": "Alameda Principal",
+      "adresse": "Alameda Principal, 18, 29005 Málaga",
+      "lat": 36.7178,
+      "lng": -4.42339,
+      "prix": "3 à 15 €",
+      "prix_min": 3,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "La plus vieille taverne de Málaga (1840) : on boit au comptoir le vin doux tiré directement des tonneaux, et le serveur note votre addition à la craie sur le bois. Avec quelques crevettes ou moules, c'est l'apéritif malagueño par excellence.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; au comptoir, à toute heure",
+      "photo": {
+        "auteur": "Té y kriptonita",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Barriles_Antigua_Casa_de_Guardia.jpg",
+        "src": "img/restos/AGP/casa-guardia.jpg"
+      }
+    },
+    {
+      "id": "la-tranca",
+      "nom": "La Tranca",
+      "emoji": "🎶",
+      "gamme": "petit",
+      "genre": "Bar à tapas et vermouth",
+      "quartier": "Calle Carretería",
+      "adresse": "Calle Carretería, 92, 29008 Málaga",
+      "lat": 36.72424,
+      "lng": -4.42104,
+      "prix": "10 à 20 €",
+      "prix_min": 10,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Murs couverts de vieilles pochettes de disques, musique espagnole à fond et serveurs qui chantent : on y mange debout des tapas à 2 ou 3 € (tortilla, croquetas, montaditos) dans l'ambiance la plus joyeuse du centre.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; venez à l'ouverture du soir (20 h) pour une place",
+      "photo": {
+        "auteur": "Tamorlan",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Tapas_%28Tortilla-Pimiento%29.jpg",
+        "src": "img/restos/AGP/la-tranca.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "casa-aranda",
+      "nom": "Casa Aranda",
+      "emoji": "🍫",
+      "gamme": "petit",
+      "genre": "Churros et chocolat chaud",
+      "quartier": "Marché d'Atarazanas",
+      "adresse": "Calle Herrería del Rey, 2, 29005 Málaga",
+      "lat": 36.71879,
+      "lng": -4.42341,
+      "prix": "3 à 8 €",
+      "prix_min": 3,
+      "badges": [
+        "institution",
+        "tendance"
+      ],
+      "texte": "Depuis 1932, toute une ruelle de tables près du marché : on y trempe des churros fins et croustillants dans un chocolat épais, servis par des serveurs qui slaloment avec leurs grandes théières. Le petit-déjeuner des Malagueños.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation ; le matin ou au goûter",
+      "photo": {
+        "auteur": "Jun",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_con_leche%2C_churros_y_chocolate%2C_Casa_Aranda%2C_Malaga.jpg",
+        "src": "img/restos/AGP/casa-aranda.jpg"
+      }
+    },
+    {
+      "id": "casa-mira",
+      "nom": "Casa Mira",
+      "emoji": "🍦",
+      "gamme": "petit",
+      "genre": "Glaces et turrón",
+      "quartier": "Calle Larios",
+      "adresse": "Calle Marqués de Larios, 5, 29005 Málaga",
+      "lat": 36.71955,
+      "lng": -4.4216,
+      "prix": "3 à 6 €",
+      "prix_min": 3,
+      "badges": [
+        "institution"
+      ],
+      "texte": "Le glacier de la calle Larios depuis 1890 : sa glace au turrón (nougat d'amande) est la spécialité qu'on vient goûter de génération en génération, à déguster en flânant dans la rue piétonne.",
+      "reservation": "sur_place",
+      "reservation_delai": "pas de réservation",
+      "photo": {
+        "auteur": "Juan Emilio Prades Bel",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Helado_de_turr%C3%B3n.jpg",
+        "src": "img/restos/AGP/casa-mira.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "el-caleno",
+      "nom": "El Caleño",
+      "emoji": "🐟",
+      "gamme": "petit",
+      "genre": "Espetos de sardines sur la plage",
+      "quartier": "Pedregalejo",
+      "adresse": "Paseo Marítimo El Pedregal, 49, 29017 Málaga",
+      "lat": 36.72099,
+      "lng": -4.37391,
+      "prix": "15 à 30 €",
+      "prix_min": 15,
+      "badges": [],
+      "texte": "Une barque remplie de sable et de braises devant la terrasse, où grillent les espetos : des sardines embrochées sur une tige de roseau, la spécialité de Málaga. Les pieds presque dans l'eau, c'est le déjeuner le plus simple et le plus local de la ville.",
+      "reservation": "sur_place",
+      "reservation_delai": "sans réservation en semaine ; le week-end, arrivez avant 14 h",
+      "photo": {
+        "auteur": "Diego Delso",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pescado_al_espeto%2C_playa_de_la_Malagueta%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-20%2C_DD_68.jpg",
+        "src": "img/restos/AGP/el-caleno.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "base9",
+      "nom": "Base9",
+      "emoji": "🥢",
+      "gamme": "petit",
+      "genre": "Cuisine du monde du marché",
+      "quartier": "Soho",
+      "adresse": "Calle Salitre, 9, 29002 Málaga",
+      "lat": 36.71388,
+      "lng": -4.42676,
+      "prix": "20 à 30 €",
+      "prix_min": 20,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Bib Gourmand du guide Michelin",
+      "texte": "Un petit restaurant de quartier qui a décroché le Bib Gourmand pour sa cuisine de marché pleine de voyages : bao, ceviche, curry ou ramen selon l'humeur du chef, à prix doux, dans le quartier street-art de Soho.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant (petite salle)",
+      "photo": {
+        "auteur": "Capturedbyalish",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Bao_Buns.jpg",
+        "src": "img/restos/AGP/base9.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "meson-mariano",
+      "nom": "Mesón Mariano",
+      "emoji": "🍲",
+      "gamme": "moyen",
+      "genre": "Cuisine traditionnelle malagueña",
+      "quartier": "Centre (plaza de la Merced)",
+      "adresse": "Calle Granados, 2, 29008 Málaga",
+      "lat": 36.72263,
+      "lng": -4.41992,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [],
+      "texte": "La cuisine des grands-mères de la région, sans chichis : porra antequerana (gaspacho épais), aubergines au miel de canne, berza et viandes des montagnes de Málaga, servies dans une salle rustique pleine d'habitués.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant (salle souvent pleine)",
+      "photo": {
+        "auteur": "Herrero Uceda",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Porra_antequerana.jpg",
+        "src": "img/restos/AGP/meson-mariano.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "la-cosmo",
+      "nom": "La Cosmo",
+      "emoji": "🍽️",
+      "gamme": "moyen",
+      "genre": "Bistrot andalou d'auteur",
+      "quartier": "Centre (près de la cathédrale)",
+      "adresse": "Calle Císter, 11, 29015 Málaga",
+      "lat": 36.72057,
+      "lng": -4.41802,
+      "prix": "35 à 50 €",
+      "prix_min": 35,
+      "badges": [
+        "recompense",
+        "tendance"
+      ],
+      "recompense": "Bib Gourmand du guide Michelin",
+      "texte": "Le bistrot de Dani Carnero, le chef étoilé de Kaleja, à l'ombre de la cathédrale : salade russe au jambon ibérique, lubina frite entière, steak tartare croustillant. La grande cuisine malagueña dans une version décontractée et abordable.",
+      "reservation": "conseille",
+      "reservation_delai": "1 semaine avant",
+      "photo": {
+        "auteur": "HOBOPOCC",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Olivier_Russian_salad_made_to_the_Hermitage_restaurant_recipe.jpg",
+        "src": "img/restos/AGP/la-cosmo.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "los-marangos",
+      "nom": "Los Marangos",
+      "emoji": "🥘",
+      "gamme": "moyen",
+      "genre": "Paellas et riz",
+      "quartier": "Centre (près de la cathédrale)",
+      "adresse": "Calle Molina Lario, 1, 29015 Málaga",
+      "lat": 36.72111,
+      "lng": -4.42026,
+      "prix": "25 à 40 €",
+      "prix_min": 25,
+      "badges": [
+        "tendance"
+      ],
+      "texte": "Les poêles de paella arrivent fumantes sur les tables d'une terrasse à deux pas de la cathédrale : riz aux fruits de mer, à l'encre de seiche ou paella mixte, cuisinés à la commande pour deux personnes au moins.",
+      "reservation": "conseille",
+      "reservation_delai": "la veille pour le soir",
+      "photo": {
+        "auteur": "Wilfredor",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Paella_de_fruit_de_mer.jpg",
+        "src": "img/restos/AGP/los-marangos.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "hermanos-alba",
+      "nom": "Hermanos Alba",
+      "emoji": "🦐",
+      "gamme": "moyen",
+      "genre": "Poissons et fruits de mer",
+      "quartier": "El Palo",
+      "adresse": "Avenida Salvador Allende, 15, 29017 Málaga",
+      "lat": 36.71995,
+      "lng": -4.3637,
+      "prix": "35 à 55 €",
+      "prix_min": 35,
+      "badges": [],
+      "texte": "Face à la mer, à El Palo, l'adresse des familles malagueñas pour le pescaíto frito (petite friture d'anchois, de calamars et de rougets), les gambas et les poissons du jour grillés, dans le quartier des pêcheurs.",
+      "reservation": "conseille",
+      "reservation_delai": "1 à 2 jours avant, surtout le week-end",
+      "photo": {
+        "auteur": "Xemenendura",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pesca%C3%ADto_frito._chiclana.jpg",
+        "src": "img/restos/AGP/hermanos-alba.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "batik",
+      "nom": "Batik",
+      "emoji": "🌙",
+      "gamme": "moyen",
+      "genre": "Méditerranéen avec vue sur l'Alcazaba",
+      "quartier": "Calle Alcazabilla",
+      "adresse": "Calle Alcazabilla, 12, 29015 Málaga",
+      "lat": 36.7223,
+      "lng": -4.41703,
+      "prix": "30 à 50 €",
+      "prix_min": 30,
+      "badges": [],
+      "texte": "Sa terrasse sur le toit regarde droit sur l'Alcazaba et le théâtre romain illuminés : le dîner le plus photogénique du centre, autour d'une cuisine méditerranéenne de produits locaux.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant pour une table en terrasse",
+      "photo": {
+        "auteur": "_DODO",
+        "licence": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Calle_Alcazabilla_Malaga.jpg",
+        "src": "img/restos/AGP/batik.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "meson-cervantes",
+      "nom": "El Mesón de Cervantes",
+      "emoji": "🥩",
+      "gamme": "moyen",
+      "genre": "Cuisine méditerranéenne aux accents argentins",
+      "quartier": "Centre (plaza de la Merced)",
+      "adresse": "Calle Álamos, 11, 29012 Málaga",
+      "lat": 36.72405,
+      "lng": -4.4193,
+      "prix": "30 à 45 €",
+      "prix_min": 30,
+      "badges": [],
+      "texte": "Le chef argentin Gonzalo Fiol a fait de cette grande salle chaleureuse l'une des adresses favorites du centre : viandes à la braise, empanadas, poulpe grillé et une carte de vins espagnols bien choisie.",
+      "reservation": "conseille",
+      "reservation_delai": "2 à 3 jours avant ; ouvert le soir seulement, fermé le mardi",
+      "photo": {
+        "auteur": "Gonzalo Rivero",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Empanadas_salte%C3%B1as_1.jpg",
+        "src": "img/restos/AGP/meson-cervantes.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "jose-carlos-garcia",
+      "nom": "José Carlos García",
+      "emoji": "⭐",
+      "gamme": "haut",
+      "genre": "Grande cuisine andalouse",
+      "quartier": "La Malagueta",
+      "adresse": "Calle Vélez-Málaga, 8, 29016 Málaga",
+      "lat": 36.71834,
+      "lng": -4.41079,
+      "prix": "90 à 160 €",
+      "prix_min": 90,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile au guide Michelin",
+      "texte": "Le chef qui a mis Málaga sur la carte de la gastronomie a installé sa table étoilée dans l'ancien Café de París, institution de la Malagueta : menu dégustation à 159,50 € ou carte du midi autour du poisson de la baie et du gazpachuelo.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "photo": {
+        "auteur": "Tamorlan",
+        "licence": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gazpachuelo_-_M%C3%A1laga.JPG",
+        "src": "img/restos/AGP/jose-carlos-garcia.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "kaleja",
+      "nom": "Kaleja",
+      "emoji": "🔥",
+      "gamme": "haut",
+      "genre": "Cuisine au feu de bois",
+      "quartier": "Centre historique",
+      "adresse": "Calle Marquesa de Moya, 9, 29015 Málaga",
+      "lat": 36.72113,
+      "lng": -4.41784,
+      "prix": "85 à 130 €",
+      "prix_min": 85,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile au guide Michelin",
+      "texte": "Dans une ruelle de l'ancien quartier juif, Dani Carnero cuisine à la braise les recettes de l'enfance andalouse revisitées : un repas étoilé chaleureux, sans cérémonie, où l'on choisit soi-même ses plats dans la formule du midi.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 4 semaines avant",
+      "photo": {
+        "auteur": "Popo le Chien",
+        "licence": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ajo_blanco.jpg",
+        "src": "img/restos/AGP/kaleja.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "blossom",
+      "nom": "Blossom",
+      "emoji": "🌸",
+      "gamme": "haut",
+      "genre": "Créative aux accents latino-américains",
+      "quartier": "Palais de la Douane",
+      "adresse": "Plaza de la Aduana, s/n (4e étage), 29015 Málaga",
+      "lat": 36.72006,
+      "lng": -4.41705,
+      "prix": "140 à 190 €",
+      "prix_min": 140,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile au guide Michelin",
+      "texte": "Au dernier étage du palais de la Douane, face à l'Alcazaba, le chef argentin Emiliano Schobert mêle produits andalous et saveurs du Pérou, du Mexique et d'Argentine dans deux menus dégustation (140 et 190 €).",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant",
+      "photo": {
+        "auteur": "Jorge G. Mori",
+        "licence": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_%28La_Punta%2C_Callao%29.jpg",
+        "src": "img/restos/AGP/blossom.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "palodu",
+      "nom": "Palodú",
+      "emoji": "🌿",
+      "gamme": "haut",
+      "genre": "Menu dégustation de marché",
+      "quartier": "Centre (Alameda)",
+      "adresse": "Calle Sebastián Souvirón, 7-9, 29005 Málaga",
+      "lat": 36.71911,
+      "lng": -4.42417,
+      "prix": "115 à 135 €",
+      "prix_min": 115,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "1 étoile au guide Michelin",
+      "texte": "Deux jeunes chefs de Málaga et une cuisine qui suit le marché au jour le jour, en deux menus (115 et 135 €) : poissons de la côte, légumes de l'arrière-pays et clins d'œil aux plats de famille, dans une petite salle intime.",
+      "reservation": "indispensable",
+      "reservation_delai": "2 à 3 semaines avant ; fermé du dimanche au mardi",
+      "photo": {
+        "auteur": "Señor Muñoz from Marbella, España",
+        "licence": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Gazpachuelo_de_Kimchi%2C_uvas_y_erizo_de_mar_%2814040181413%29.jpg",
+        "src": "img/restos/AGP/palodu.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "ta-kumi",
+      "nom": "Ta-Kumi",
+      "emoji": "🍣",
+      "gamme": "haut",
+      "genre": "Japonais",
+      "quartier": "Centre (plaza de la Merced)",
+      "adresse": "Calle Mundo Nuevo, 4, 29012 Málaga",
+      "lat": 36.72271,
+      "lng": -4.41625,
+      "prix": "50 à 80 €",
+      "prix_min": 50,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Le japonais préféré des Malagueños, recommandé par le guide Michelin : sushis et nigiris où le thon rouge de l'Atlantique et les poissons de la baie remplacent ceux de Tokyo, à déguster au comptoir face aux cuisiniers.",
+      "reservation": "indispensable",
+      "reservation_delai": "1 semaine avant (comptoir très demandé)",
+      "photo": {
+        "auteur": "Wilfredor",
+        "licence": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sashimi_of_S%C3%A3o_Paulo.jpg",
+        "src": "img/restos/AGP/ta-kumi.jpg",
+        "illustration": true
+      }
+    },
+    {
+      "id": "beluga",
+      "nom": "Beluga",
+      "emoji": "🍚",
+      "gamme": "haut",
+      "genre": "Riz et cuisine méditerranéenne",
+      "quartier": "Plaza de las Flores",
+      "adresse": "Plaza de las Flores, 3, 29005 Málaga",
+      "lat": 36.72023,
+      "lng": -4.42207,
+      "prix": "50 à 70 €",
+      "prix_min": 50,
+      "badges": [
+        "recompense"
+      ],
+      "recompense": "Sélection du guide Michelin",
+      "texte": "Sur une petite place fleurie du centre, un couple de chefs sert une cuisine « méridienne » raffinée et une carte de riz qui fait sa réputation (lotte et crevette blanche, poisson de roche), en terrasse dès que le soleil le permet.",
+      "reservation": "conseille",
+      "reservation_delai": "quelques jours avant pour la terrasse",
+      "photo": {
+        "auteur": "Tamorlan",
+        "licence": "CC BY 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Arroz_con_Bogavante_%28Caldoso%29.JPG",
+        "src": "img/restos/AGP/beluga.jpg",
+        "illustration": true
+      }
+    }
+  ]
+}

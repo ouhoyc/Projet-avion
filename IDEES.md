@@ -336,6 +336,23 @@ visibles via ?da=… (barre d'essai seulement dans ce cas) ; à supprimer une fo
   (prix incertains). Prix estimés : monastère franciscain (≈ 10 €), Élaphites, Kotor, Mostar, verre au Buža, et les restaurants sans carte
   en ligne (Barba, Peppino's, El Pulpo, Tabasco, Urban & Veggie, Kopun, Marco Polo, Proto, 360, Above 5). 12 photos d'illustration.
 
+- ✅ (23/11/2026) **Page guide de Málaga** (`guides/AGP.json`), préparée en autonomie : 26 activités (Alcazaba 7 € et Gibralfaro 7 €, billet
+  commun 10 € (nouvelle grille), gratuits le dimanche dès 14 h et avant 6 ans ; cathédrale 10 € (toits suspendus pour travaux) ; musée Picasso 13 €
+  (gratuit avant 17 ans) ; maison natale 3 € ; Pompidou 9 € (fermé le mardi) ; Thyssen 12 € (fermé le lundi) ; musée de Málaga gratuit pour
+  les Européens ; théâtre romain ; calle Larios ; Muelle Uno ; Malagueta ; Pedregalejo ; jardin de La Concepción 5,20 € ; Soho ; musée de
+  l'Automobile (≈ 10 €) ; hammam Al Ándalus (≈ 45 €) ; toit-terrasse de l'AC Palacio ; flamenco au tablao Alegría (29 €) ; catamaran (14 €) ;
+  match du Málaga CF (`club`, remonté en Liga) ; Caminito del Rey 10 € (+ navette 2,50 €) ; Nerja (grotte 16 € en ligne) ; Frigiliana ; Ronda
+  (excursion ≈ 32 €) ; El Torcal), 18 restaurants (note pondérée, C = 4,40, ~530 restaurants lus via 86 listes Wanderlog ; Michelin 2026 :
+  José Carlos García (installé dans l'ancien Café de París, menu 159,50 €), Kaleja, Blossom (140/190 €) et Palodú (115/135 €) 1 étoile, La Cosmo
+  et Base9 Bib Gourmand, Ta-Kumi et Beluga sélection), 5 quartiers, pas de formalités (Union européenne), `transport` = le bus, `prix_match` 40 €.
+  **Réseaux sociaux (Apify) lancés** (crédit renouvelé, un lancement ; Reddit vide) : badges tendance quand le lieu sort sur 2 réseaux (La Tranca,
+  Casa Aranda, Casa de Guardia, Los Marangos, La Cosmo ; Alcazaba, Gibralfaro, Caminito, Nerja, Frigiliana, Muelle Uno, Larios, Soho, rooftop).
+  Écartés : El Pimpi (note 4,1, pourtant très cité), El Tintero (4,2), Trocadero Casa de Botes (4,1), Antonio Martín (4,1), La Cosmopolita
+  (fermée, remplacée par La Cosmo), Taberna Mitjana (fermée), La Taberna de Mike Palmer (Bib Gourmand mais hors de la ville, club hippique),
+  Alhambra de Grenade (trop loin pour la journée ; une source signale la fermeture de l'Alcazaba de Grenade après un séisme en août 2026,
+  non recoupée). Prix estimés : musée de l'Automobile, hammam, toit-terrasse, catamaran, Ronda, match, et les restaurants sans carte en ligne.
+  16 photos de restaurants d'illustration (vraies photos : Casa de Guardia, Casa Aranda).
+
 - ✅ (18/11/2026) **Page guide de Dakar** (`guides/DKR.json`), préparée en autonomie : 22 activités (Gorée : chaloupe 6 000 + 500 FCFA de taxe pour les
   étrangers, Maison des Esclaves 1 500 FCFA (fermée le lundi) ; Monument de la Renaissance 6 500 FCFA ; musée des Civilisations noires (fermé le lundi) ;
   musée Théodore-Monod ; le Plateau à pied ; marché Kermel ; marché HLM (wax, tailleurs) ; retour des pirogues à Soumbédioune ; corniche Ouest au coucher

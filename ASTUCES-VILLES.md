@@ -288,3 +288,9 @@ Notes de terrain sorties de `CLAUDE.md` pour qu'il reste court. À lire seulemen
   (C ≈ 4,08, souvent < 50 avis) ; article winrouh « meilleurs restaurants Biskra » utile. Commons : catégories `Cuisine_of_Biskra` (plats biskris,
   filigranes discrets), `M'Chouneche`, cartes postales anciennes (BnF, domaine public) pour le jardin Landon et Hammam Salihine. Attention : les photos
   « Hammame Salhine » de panoramio sont à Khenchela. France Diplomatie : Aurès en orange (El Kantara, M'Chouneche : de jour avec chauffeur).
+- Málaga (nov. 2026) : Wanderlog géo 9681, départ `geoCategory/47497` + `104699`, listes finissant par « -in-malaga » : 86 listes, ~1 300 lieux (C = 4,40).
+  Michelin : `guide.michelin.com/es/es/andalucia/malaga/restaurantes` (Playwright ; étoiles = icônes `michelin-star`). Prix officiels lisibles avec Playwright :
+  alcazabaygibralfaro.malaga.eu (`/es/visitas/horarios-y-tarifas/` : 7 €, 10 € les deux), malagacatedral.com (`/visita-cultural/tarifas-y-horarios/`, toits
+  suspendus pour travaux), museocasanatalpicasso.malaga.eu (onglets dans `textContent`), laconcepcion.malaga.eu/es/visitas/, caminitodelrey.info ; centrepompidou-malaga.eu
+  et cuevadenerja.es (tarifs) ne répondent pas d'ici. Outil Booking (attractions) utile pour flamenco, catamaran, excursions. Apify a marché (crédit renouvelé).
+
